@@ -1,4 +1,5 @@
 {
+  // taken from core
 	// Enforcing
 	"bitwise": true,
 	"eqeqeq": true,
@@ -9,7 +10,8 @@
 	"nonew": true,
 	"undef": true,
 	"unused": true,
-	"strict": false,
+	"strict": true, // changed from core
+    "curly": true, // changed from core
 
 	// Relaxing
 	"laxbreak": true,

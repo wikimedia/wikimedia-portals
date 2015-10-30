@@ -1,0 +1,19 @@
+{
+  // taken from core
+  "preset": "wikimedia",
+  "es3": true,
+
+  "requireVarDeclFirst": false,
+  "requireMultipleVarDecl": {"allExcept": ["require"]}, // added
+
+  "disallowQuotedKeysInObjects": "allButReserved",
+  "requireDotNotation": { "allExcept": [ "keywords" ] },
+  "jsDoc": {
+	"checkParamNames": true,
+	"checkRedundantReturns": true,
+	"checkTypes": "strictNativeCase",
+	"requireNewlineAfterDescription": true,
+	"requireParamTypes": true,
+	"requireReturnTypes": true
+  }
+}
