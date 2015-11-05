@@ -16,6 +16,7 @@
  * Validate with JSLint or JSHint.
  *
  */
+/* globals _ */
 ( function () {
 	'use strict';
 
@@ -254,7 +255,7 @@
 		search.autocomplete = 'off';
 		search.setAttribute( 'list', 'suggestions' );
 
-		addEvent( search, 'input', function () {
+		addEvent( search, 'input', _.debounce( function () {
 			var head = document.getElementsByTagName( 'head' )[ 0 ],
 				hostname = window.location.hostname.replace( 'www.', $( 'searchLanguage' ).value + '.' ),
 				script = $( 'api_opensearch' );
@@ -266,7 +267,7 @@
 			script.id = 'api_opensearch';
 			script.src = '//' + hostname + '/w/api.php?action=opensearch&limit=10&format=json&callback=portalOpensearchCallback&search=' + search.value;
 			head.appendChild( script );
-		} );
+		}, 200 ) );
 	}
 
 	/**
@@ -274,25 +275,24 @@
 	 * API. The results are returned in JSON-P format, so this callback must be
 	 * global.
 	 */
-	window.portalOpensearchCallback = function ( xhrResults ) {
+	window.wmSuggestionsEL = null; // cache the suggestions dom.
+	window.portalOpensearchCallback = _.debounce( function ( xhrResults ) {
 		var i,
-			suggestions = $( 'suggestions' ),
-			oldOptions = suggestions.children;
+			suggestions = window.wmSuggestionsEL || $( 'suggestions' ),
+			oldOptions = suggestions.children,
+			fragment = document.createDocumentFragment();
 
 		// Update the list, reusing any existing items from the last search.
 		for ( i = 0; i < xhrResults[ 1 ].length; i += 1 ) {
 			var option = oldOptions[ i ] || document.createElement( 'option' );
 			option.value = xhrResults[ 1 ][ i ];
 			if ( !oldOptions[ i ] ) {
-				suggestions.appendChild( option );
+				fragment.appendChild( option );
 			}
 		}
 
-		// If this search has fewer results than the last one, trim the list.
-		for ( i = suggestions.children.length - 1; i >= xhrResults[ 1 ].length; i -= 1 ) {
-			suggestions.removeChild( suggestions.children[ i ] );
-		}
-	};
+		suggestions.appendChild( fragment.cloneNode( true ) );
+	}, 100 );
 
 	/**
 	 * Stores the user's preferred language in a cookie. This function is called
