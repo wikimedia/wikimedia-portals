@@ -5,12 +5,15 @@
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	argv = require( 'yargs' ).argv,
-	imageminPngquant = require( 'imagemin-pngquant' );
+	imageminPngquant = require( 'imagemin-pngquant' ),
+	siteStats = require( './site-stats' ),
+	fs = require( 'fs' );
 
 var plugins = gulpLoadPlugins(),
-	portalParam = argv.portal;
+	portalParam = argv.portal,
+	action = process.argv[2];
 
-if ( !portalParam && process.argv[ 2 ] !== 'help' ) {
+if ( !portalParam && !( action === 'help' || action === 'update-stats' ) ) {
 	console.log( '\x1b[31m' );
 	console.log( 'Error: please specify the portal you wish to build.' );
 	console.log( 'Type gulp help for more information.' );
@@ -59,6 +62,12 @@ gulp.task( 'lint', function () {
 		.pipe( plugins.jshint.reporter( 'default' ) )
 		.pipe( plugins.jscs() )
 		.pipe( plugins.jscs.reporter() );
+} );
+
+gulp.task( 'update-stats', function() {
+	siteStats.getSiteStats().then( function( stats ) {
+		fs.writeFileSync( 'site-stats.json', JSON.stringify( stats, null, '\t' ) );
+	} );
 } );
 
 gulp.task( 'default', [ 'lint', 'inline-assets', 'optimize-images' ] );
