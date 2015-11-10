@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="mul" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Wikipedia</title>
+<!--[if lt IE 7]><meta http-equiv="imagetoolbar" content="no"><![endif]-->
+<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico">
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/">
+<link rel="stylesheet" href="assets/css/wm-portal.css">
+<style type="text/css">
+.central-featured-logo{background-image:url(portal/wikipedia.org/assets/img/Wikipedia-logo-v2_1x.png)}@media(-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:3/2),(min-resolution:1.5dppx),(min-resolution:144dpi){.central-featured-logo{background-image:url(portal/wikipedia.org/assets/img/Wikipedia-logo-v2_1.5x.png);}}@media(-webkit-min-device-pixel-ratio:2),(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){.central-featured-logo{background-image:url(portal/wikipedia.org/assets/img/Wikipedia-logo-v2_2x.png);}}
+</style>
+<!--[if lt IE 8]><style type="text/css">
+.bookshelf-container .bookend,.otherprojects-icon{zoom:1;display:inline}
+</style><![endif]-->
+</head>
+<body id="www-wikipedia-org">
+
+{{> header-logo}}
+{{> top10}}
+
+<!-- Search form -->
+{{> search}}
+
+{{> divider}}
+
+{{> language-search}}
+{{> top-n-articles}}
+
+<!-- Other languages -->
+{{> other-languages}}
+
+{{> divider}}
+
+<!-- Other projects -->
+{{> other-projects}}
+
+<!-- Site info -->
+{{> site-info}}
+
+{{> footer-links}}
+
+<script src="assets/js/underscore.partial.js"></script>
+<script src="assets/js/polyfills.js"></script>
+<script src="assets/js/wm-portal.js"></script>
+<script src="assets/js/event-logging-lite.js"></script>
+<script src="assets/js/wikipedia-org-event-logging.js"></script>
+</body>
+</html>

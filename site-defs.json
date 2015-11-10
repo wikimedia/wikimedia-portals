@@ -124,7 +124,7 @@
 		"sort": "Belaruskaya Akademichnaya",
 		"latin": "Belaruskaya (Akademichnaya)"
 	},
-	"be-tarask": {
+	"be-x-old": {
 		"name": "Беларуская (Тарашкевіца)",
 		"sort": "Belaruskaya Taraskievica",
 		"lang": "be",
@@ -418,6 +418,7 @@
 			"createPage": "Wikinews:Writing an article"
 		},
 		"wiki": {
+			"siteName": "Wikipedia",
 			"articles": "articles",
 			"slogan": "The Free Encyclopedia"
 		}

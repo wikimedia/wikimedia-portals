@@ -1,0 +1,111 @@
+[
+	{
+		"name": "Wiktionary",
+		"url": "//www.wiktionary.org/",
+		"img1": "Wiktionary-logo_sister_1x.png",
+		"img15": "Wiktionary-logo_sister_1.5x.png",
+		"img2": "Wiktionary-logo_sister_2x.png",
+		"height": 35,
+		"width": 35
+	},
+	{
+		"name": "Wikinews",
+		"url": "//www.wikinews.org/",
+		"img1": "Wikinews-logo_sister_1x.png",
+		"img15": "Wikinews-logo_sister_1.5x.png",
+		"img2": "Wikinews-logo_sister_2x.png",
+		"height": 24,
+		"width": 47
+	},
+	{
+		"name": "Wikiquote",
+		"url": "//www.wikiquote.org/",
+		"img1": "Wikiquote-logo_sister_1x.png",
+		"img15": "Wikiquote-logo_sister_1.5x.png",
+		"img2": "Wikiquote-logo_sister_2x.png",
+		"height": 41,
+		"width": 35
+	},
+	{
+		"name": "Wikibooks",
+		"url": "//www.wikibooks.org/",
+		"img1": "Wikibooks-logo_sister_1x.png",
+		"img15": "Wikibooks-logo_sister_1.5x.png",
+		"img2": "Wikibooks-logo_sister_2x.png",
+		"height": 35,
+		"width": 35
+	},
+	{
+		"name": "Wikidata",
+		"url": "//www.wikidata.org/",
+		"img1": "Wikidata-logo_sister_1x.png",
+		"img15": "Wikidata-logo_sister_1.5x.png",
+		"img2": "Wikidata-logo_sister_2x.png",
+		"height": 26,
+		"width": 47
+	},
+	{
+		"name": "Wikispecies",
+		"url": "//species.wikimedia.org/",
+		"img1": "Wikispecies-logo_sister_1x.png",
+		"img15": "Wikispecies-logo_sister_1.5x.png",
+		"img2": "Wikispecies-logo_sister_2x.png",
+		"height": 41,
+		"width": 35
+	},
+	{
+		"name": "Wikisource",
+		"url": "//www.wikisource.org/",
+		"img1": "Wikisource-logo_sister_1x.png",
+		"img15": "Wikisource-logo_sister_1.5x.png",
+		"img2": "Wikisource-logo_sister_2x.png",
+		"height": 37,
+		"width": 35
+	},
+	{
+		"name": "Wikiversity",
+		"url": "//www.wikiversity.org/",
+		"img1": "Wikiversity-logo_sister_1x.png",
+		"img15": "Wikiversity-logo_sister_1.5x.png",
+		"img2": "Wikiversity-logo_sister_2x.png",
+		"height": 28,
+		"width": 35
+	},
+	{
+		"name": "Wikivoyage",
+		"url": "//www.wikivoyage.org/",
+		"img1": "Wikivoyage-logo_sister_1x.png",
+		"img15": "Wikivoyage-logo_sister_1.5x.png",
+		"img2": "Wikivoyage-logo_sister_2x.png",
+		"height": 35,
+		"width": 35
+	},
+	{
+		"name": "Commons",
+		"url": "//commons.wikimedia.org/",
+		"img1": "Commons-logo_sister_1x.png",
+		"img15": "Commons-logo_sister_1.5x.png",
+		"img2": "Commons-logo_sister_2x.png",
+		"height": 47,
+		"width": 35,
+		"style": "vertical-align: top;"
+	},
+	{
+		"name": "MediaWiki",
+		"url": "//www.mediawiki.org/",
+		"img1": "MediaWiki-logo_sister_1x.png",
+		"img15": "MediaWiki-logo_sister_1.5x.png",
+		"img2": "MediaWiki-logo_sister_2x.png",
+		"height": 36,
+		"width": 47
+	},
+	{
+		"name": "Meta-Wiki",
+		"url": "//meta.wikimedia.org/",
+		"img1": "Meta-logo_sister_1x.png",
+		"img15": "Meta-logo_sister_1.5x.png",
+		"img2": "Meta-logo_sister_2x.png",
+		"height": 35,
+		"width": 35
+	}
+]

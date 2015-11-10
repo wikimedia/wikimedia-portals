@@ -2,6 +2,7 @@
 /* globals require */
 /* globals process */
 /* globals console */
+/* globals JSON */
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	argv = require( 'yargs' ).argv,
@@ -54,13 +55,29 @@ gulp.task( 'build', function () {
  =========================================================================== */
 
 gulp.task( 'inline-assets', [ 'build' ], function () {
-	gulp.src( baseDir + 'index.html' )
+
+	var templateData = require( './' + baseDir + 'controller' ),
+		hbsHelpers = require( './hbs-helpers.global' ),
+		options = {
+			batch: [ './' + baseDir + '/templates' ],
+			helpers: hbsHelpers
+		};
+
+	gulp.src( baseDir + 'index.handlebars' )
+		.pipe( plugins.compileHandlebars( templateData, options ) )
 		.pipe( plugins.inline( {
 			base: baseDir,
 			js: plugins.uglify,
 			css: plugins.minifyCss,
 			disabledTypes: [ 'svg', 'img' ]
 		} ) )
+		.pipe( plugins.htmlmin( {
+			preventAttributesEscaping: true,
+			collapseWhitespace: true,
+			preserveLineBreaks: true,
+			collapseBooleanAttributes: true
+		} ) )
+		.pipe( plugins.rename( 'index.html' ) )
 		.pipe( gulp.dest( prodDir ) );
 } );
 
