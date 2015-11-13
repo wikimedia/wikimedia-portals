@@ -2,6 +2,7 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-downloader": "^1.0.4",
     "gulp-imagemin": "^2.3.0",
     "gulp-inline": "^0.1.0",
     "gulp-jscs": "^3.0.2",
