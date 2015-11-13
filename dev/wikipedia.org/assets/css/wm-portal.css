@@ -8,7 +8,7 @@
  *
  * Don't be afraid to document changes here with comments, this stylesheet
  * is loaded through ResourceLoader on the portal pages and as such is minified
- * and sqeezed into a tiny package delivered from bits.wikimedia.org
+ * and squeezed into a tiny package delivered from bits.wikimedia.org
  *
  * Usage:
  * <link rel="stylesheet" href="//meta.wikimedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.wm-portal&amp;only=styles&amp;skin=vector&amp;*">
@@ -42,24 +42,11 @@ img {
 }
 
 hr {
-    height: 1px;
-    color: #aaa;
-    background-color: #aaa;
-    border: 0 none;
-    margin: 0.2em 0;
-}
-
-/**
- * Alternative link style
- */
-a.extiw,
-a.extiw:active,
-a.extiw:visited,
-a.extiw:active,
-a.external,
-a.external:visited,
-a.external:active {
-    color: #36b;
+    clear: both;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    margin: 0.2em 1em;
 }
 
 /**
@@ -93,18 +80,12 @@ a.external:active {
 
 .central-featured-logo {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 0;
-    height: 0;
-}
-
-.central-featured-logo-inner {
-    position: relative;
-    left: -100px;
-    top: -115px;
-    width: 200px;
-    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .central-featured-lang {
@@ -137,16 +118,26 @@ a.external:active {
     font-style: italic;
 }
 
-.central-featured-lang em.emNonItalicLang {
+.central-featured-lang .emNonItalicLang {
     font-style: normal;
 }
 
+/* Serbo-Croatian is dual-script, so it needs some tweaking to fit in the top 10 ring. */
+/* .digraphic strong {
+    font-size: 110%;
+    line-height: 1em;
+}
+.digraphic em,
+.digraphic em + br {
+    display: none;
+} */
+
 .lang1 {
-    top: 0%;
+    top: 0;
     right: 60%;
 }
 .lang2 {
-    top: 0%;
+    top: 0;
     left: 60%;
 }
 .lang3 {
@@ -195,14 +186,6 @@ a.external:active {
     width: 540px;
 }
 
-.search-container h5 {
-    white-space: normal;
-}
-
-.search-container label span {
-    white-space: nowrap;
-}
-
 .search-form fieldset {
     background-color: #f9f9f9;
     border: 1px solid #aaa;
@@ -222,13 +205,7 @@ a.external:active {
     margin: 0 0.4em;
     padding: 0;
     vertical-align: middle;
-}
-
-.search-form .searchButton {
-    font-size: 1.2em;
-    margin: 0;
-    padding: 0;
-    vertical-align: middle;
+    max-width: 12em;
 }
 
 /**
@@ -238,19 +215,32 @@ a.external:active {
     width: 100%;
     overflow: hidden;
     margin: 2em 0 0.5em 0;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
 }
 
-.bookshelf-container-small {
-    margin: 0.5em 0;
+.bookshelf-container .text {
+    padding: 0 0.5em;
 }
 
 .bookshelf {
+    display: block;
     width: 300%;
     overflow: hidden;
     position: relative;
     left: -100%;
     text-align: center;
     white-space: nowrap;
+}
+
+.bookshelf-container .bookend {
+    display: -moz-inline-stack; display: inline-block;
+    background-image: url(//upload.wikimedia.org/wikipedia/commons/b/bd/Bookshelf-40x201_6.png);
+    background-repeat: repeat-x;
+    width: 480px;
+    height: 20px;
+    vertical-align: top;
 }
 
 .langlist {
@@ -272,25 +262,75 @@ a.external:active {
 }
 
 .otherprojects {
-    float: left;
     font-weight: bold;
-    margin: 1.5em 0;
-    text-align: center;
+    margin: 1.5em auto;
+    text-align: left;
     vertical-align: middle;
-    width: 100%;
+    width: 90%;
 }
 
 .otherprojects-item {
     float: left;
     height: 60px;
     min-width: 12em;
-    width: 33%;
+    width: 24.75%;
+    line-height: 60px;
+}
+
+.otherprojects-item a {
+    display: block;
+    width: 10em;
+    margin: 0 auto;
+}
+
+.otherprojects-item .icon {
+    display: -moz-inline-stack; display: inline-block;
+    width: 47px;
+    text-align: center;
 }
 
 .wm-site-info {
     clear: both;
     margin: 2.5em 0 2em 0;
     text-align: center;
+    padding-top: 1.5em;
+}
+
+/**
+ * Style for horizontal lists (separator following item).
+ * @note Support for unused tags like <dt> has been stripped out, and the
+ *		 dependency on :last-child and JavaScript has been removed in favor of
+ *		 :before.
+ * @source mediawiki.org/wiki/Snippets/Horizontal_lists
+ * @revision 6 (2014-05-09)
+ * @author [[User:Edokter]]
+ */
+.hlist ul {
+    margin: 0;
+    padding: 0;
+}
+/* Display list items inline */
+.hlist li {
+    display: inline;
+}
+/* Display nested lists inline */
+.hlist ul ul {
+    display: inline;
+}
+/* Generate interpuncts */
+.hlist li:before {
+    content: " · ";
+    font-weight: bold;
+}
+.hlist li:first-child:before {
+    content: none;
+}
+/* Add parentheses around nested lists */
+.hlist li + ul:before {
+    content: "\00a0(";
+}
+.hlist li + ul:after {
+    content: ") ";
 }
 
 /**
@@ -348,16 +388,9 @@ a.external:active {
         left: 0.8em;
         top: -70px;
         margin-top: -4em;
-    }
-    .central-featured-logo-inner {
-        left: auto;
-        top: auto;
-    }
-    .central-featured-logo,
-    .central-featured-logo-inner img,
-    .central-featured-logo-inner {
         width: 70px;
         height: 70px;
+        background-size: 70px auto;
     }
     .central-featured-lang {
         right: auto;
@@ -388,6 +421,7 @@ a.external:active {
     }
     .search-form #searchInput {
         max-width: 40%;
+        vertical-align:middle;
     }
     .search-form #searchLanguage,
     .search-form .formBtn {
@@ -399,9 +433,6 @@ a.external:active {
         border-left: none;
         border-right: none;
     }
-    .search-form #searchInput {
-        vertical-align:middle;
-    }
     .language-search {
         display: none;
     }
@@ -411,11 +442,11 @@ a.external:active {
         overflow: hidden;
         text-align: left;
     }
-    .bookshelf img {
-        display: none;
+    .bookshelf-container .bookend {
+        width: 40px !important;
     }
-    .bookshelf img:first-child {
-        display: inline-block;
+    .bookshelf-container .bookend:last-child {
+        display: none;
     }
     .langlist a {
         word-wrap: break-word;
@@ -430,15 +461,15 @@ a.external:active {
     }
     .bookshelf-container,
     .langlist {
-        margin: 1em 1em 0em 1em;
+        margin: 1em 1em 0 1em;
         text-align: left;
         width: auto;
     }
-    .divider {
-        clear: both;
-        padding: 0.5em 1em 0 1em !important;
+    hr {
+        margin-top: 0.5em;
     }
 }
+
 @media all and (max-width:240px) {
     .central-featured-lang,
     .otherprojects-item {
@@ -450,28 +481,59 @@ a.external:active {
     }
 }
 
+@media all and (max-width: 45em) {
+    .otherprojects {
+        width: 100%;
+    }
+    .otherprojects-item {
+        width: 33.33%;
+    }
+}
+@media all and (max-width: 30em) {
+    .otherprojects-item {
+        width: 50%;
+    }
+}
+@media all and (max-width: 20em) {
+    .otherprojects-item {
+        width: 100%;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+    .bookshelf-container .bookend {
+        background-image: url(//upload.wikimedia.org/wikipedia/meta/5/52/Bookshelf-40x20_1.5x.png);
+        background-size: 40px auto;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+    .bookshelf-container .bookend {
+        background-image: url(//upload.wikimedia.org/wikipedia/meta/4/46/Bookshelf-40x20_2x.png);
+        background-size: 40px auto;
+    }
+}
+
 /* Subpixel borders supported in Gecko, Trident */
 @media (min--moz-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
-    div#footer,
-    table#content td#footer,
+    #footer,
     .search-form fieldset {
         border-width: 0.5px;
     }
 
     hr {
-        height: 0.5px;
+        border-bottom-width: 0.5px;
     }
 }
 
 /* Subpixel borders not supported in older releases of Blink, WebKit */
 @supports (-webkit-transform: rotate(30deg)) {
-    div#footer,
-    table#content td#footer,
+    #footer,
     .search-form fieldset {
         border-width: 1px;
     }
 
     hr {
-        height: 1px;
+        border-bottom-width: 1px;
     }
 }
