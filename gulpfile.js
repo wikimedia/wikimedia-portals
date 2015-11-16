@@ -30,6 +30,7 @@ gulp.task( 'help', function () {
 	console.log( '| gulp optimize-images --portal wikipedia.org - run imagemin on image directory                   |' );
 	console.log( '| gulp lint --portal wikipedia.org            - run jslint on JS files on portal                  |' );
 	console.log( '| gulp --portal wikipedia.org                 - run all of the above on the specified portal page |' );
+	console.log( '| gulp fetch-meta --portal wikipedia.org      - overwrite the portal page with source from Meta   |' );
 	console.log( '+-------------------------------------------------------------------------------------------------+' );
 	console.log();
 } );
@@ -61,3 +62,18 @@ gulp.task( 'lint', function () {
 } );
 
 gulp.task( 'default', [ 'lint', 'inline-assets', 'optimize-images' ] );
+
+gulp.task( 'fetch-meta', function () {
+	if ( portalParam === 'wikipedia.org' ) {
+		console.log( 'Cannot override ' + portalParam + ' portal using fetch-meta.' );
+		process.exit( 1 );
+		return;
+	}
+	plugins.downloader( {
+		fileName: 'index.html',
+		request: {
+			url: 'https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw'
+		}
+	} )
+	.pipe( gulp.dest( prodDir ) );
+} );
