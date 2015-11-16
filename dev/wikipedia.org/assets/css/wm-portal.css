@@ -82,6 +82,7 @@ hr {
     position: absolute;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: 200px auto;
     left: 0;
     top: 0;
     width: 100%;
