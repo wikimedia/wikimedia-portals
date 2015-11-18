@@ -15,7 +15,7 @@
 	 * If we're on production, increase population size.
 	 */
 	if ( /www.wikipedia.org/.test( location.hostname ) ) {
-		populationSize = 10000;
+		populationSize = 200;
 	}
 
 	/**
