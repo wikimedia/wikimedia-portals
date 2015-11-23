@@ -125,6 +125,38 @@ if (!document.querySelector) {
 	};
 }
 
+/**
+ * Object.bind polyfill
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
+ */
+if (!Function.prototype.bind) {
+	Function.prototype.bind = function(oThis) {
+		if (typeof this !== 'function') {
+			// closest thing possible to the ECMAScript 5
+			// internal IsCallable function
+			throw new TypeError('Function.prototype.bind - what is trying to be bound is not callable');
+		}
+
+		var aArgs   = Array.prototype.slice.call(arguments, 1),
+			fToBind = this,
+			fNOP    = function() {},
+			fBound  = function() {
+				return fToBind.apply(this instanceof fNOP
+						? this
+						: oThis,
+					aArgs.concat(Array.prototype.slice.call(arguments)));
+			};
+
+		if (this.prototype) {
+			// native functions don't have a prototype
+			fNOP.prototype = this.prototype;
+		}
+		fBound.prototype = new fNOP();
+
+		return fBound;
+	};
+}
+
 
 /**
  * Element.matches polyfill
@@ -140,36 +172,72 @@ if ( window.Element && !Element.prototype.matches ) {
 	};
 }
 
+var attachedEvents = [];
+
+function addEvent( obj, evt, fn ) {
+
+	if ( !obj ) {
+		return;
+	}
+
+	if ( obj.addEventListener ) {
+		obj.addEventListener( evt, fn, false );
+	} else if ( obj.attachEvent ) {
+		attachedEvents.push( [ obj, evt, fn ] );
+		obj.attachEvent( 'on' + evt, fn );
+	}
+}
+
+function removeEvent( obj, evt, fn ) {
+
+	if ( !obj ) {
+		return;
+	}
+
+	if ( obj.removeEventListener ) {
+		obj.removeEventListener( evt, fn );
+	} else if ( obj.detachEvent ) {
+		obj.detachEvent( 'on' + evt, fn );
+	}
+}
+
 /**
- * addEventListener polyfill  1.0
- * https://gist.github.com/eirikbacker/2864711/946225eb3822c203e8d6218095d888aac5e1748e
- * Eirik Backer / MIT Licence
+ * Queues the given function to be called once the DOM has finished loading.
+ *
+ * Based on jquery/src/core/ready.js@825ac37 (MIT licensed)
  */
-(function(win, doc){
-	if(win.addEventListener)return;		//No need to polyfill
+function doWhenReady( fn ) {
+	var ready = function () {
+		removeEvent( document, 'DOMContentLoaded', ready );
+		removeEvent( window, 'load', ready );
+		fn();
+	};
 
-	function docHijack(p){var old = doc[p];doc[p] = function(v){return addListen(old(v))}}
-	function addEvent(on, fn, self){
-		return (self = this).attachEvent('on' + on, function(e){
-			var e = e || win.event;
-			e.preventDefault  = e.preventDefault  || function(){e.returnValue = false}
-			e.stopPropagation = e.stopPropagation || function(){e.cancelBubble = true}
-			fn.call(self, e);
-		});
+	if ( document.readyState === 'complete' ) {
+		// Already ready, so call the function synchronously.
+		fn();
+	} else {
+		// Wait until the DOM or whole page loads, whichever comes first.
+		addEvent( document, 'DOMContentLoaded', ready );
+		addEvent( window, 'load', ready );
 	}
-	function addListen(obj, i){
-		if(i = obj.length)while(i--)obj[i].addEventListener = addEvent;
-		else obj.addEventListener = addEvent;
-		return obj;
-	}
+}
 
-	addListen([doc, win]);
-	if('Element' in win)win.Element.prototype.addEventListener = addEvent;
-	else{
-		doc.attachEvent('onreadystatechange', function(){addListen(doc.all)});
-		docHijack('getElementsByTagName');
-		docHijack('getElementById');
-		docHijack('createElement');
-		addListen(doc.all);
+/**
+ * Removes all event handlers in Internet Explorer 8 and below.
+ *
+ * Any attached event handlers are stored in memory until IE exits, leaking
+ * every time you leave (or reload) the page. This method cleans up any
+ * event handlers that remain at the time the page is unloaded.
+ */
+window.onunload = function () {
+	var i, evt;
+	for ( i = 0; i < attachedEvents.length; i++ ) {
+		evt = attachedEvents[ i ];
+		if ( evt[ 0 ] ) {
+			evt[ 0 ].detachEvent( 'on' + evt[ 1 ], evt[ 2 ] );
+		}
 	}
-})(window, document);
+	attachedEvents = [];
+};
+

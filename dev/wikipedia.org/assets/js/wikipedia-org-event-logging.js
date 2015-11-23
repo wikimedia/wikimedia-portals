@@ -1,12 +1,11 @@
 // jscs:disable requireCamelCaseOrUpperCaseIdentifiers
-/* global eventLoggingLite */
-/* global wmTest */
+/* global eventLoggingLite, wmTest, addEvent */
 
 ( function ( eventLoggingLite, wmTest ) {
 
 	'use strict';
 
-	var portalSchema, eventSections, docForms,
+	var portalSchema, eventSections, docForms, eventData,
 	geoCookie = document.cookie.match( /GeoIP=.[^:]/ );
 
 	if ( wmTest.group === 'rejected' || wmTest.loggingDisabled ) {
@@ -73,12 +72,12 @@
 	};
 
 	eventSections = [
-		{ name: 'primary links',   nodes: document.querySelectorAll( '.central-featured' ) },
-		{ name: 'search',          nodes: document.querySelectorAll( '.search-form' ) },
-		{ name: 'language search', nodes: document.querySelectorAll( '.language-search' ) },
-		{ name: 'secondary links', nodes: document.querySelectorAll( '.langlist' ) },
-		{ name: 'other languages', nodes: document.querySelectorAll( '#langlist-other' ) },
-		{ name: 'other projects',  nodes: document.querySelectorAll( '.otherprojects' ) }
+		{ name: 'primary links',   nodes: document.querySelectorAll( '[data-el-section="primary links"]' ) },
+		{ name: 'search',          nodes: document.querySelectorAll( '[data-el-section="search"]' ) },
+		{ name: 'language search', nodes: document.querySelectorAll( '[data-el-section="language search"]' ) },
+		{ name: 'secondary links', nodes: document.querySelectorAll( '[data-el-section="secondary links"]' ) },
+		{ name: 'other languages', nodes: document.querySelectorAll( '[data-el-section="other languages"]' ) },
+		{ name: 'other projects',  nodes: document.querySelectorAll( '[data-el-section="other projects"]' ) }
 	];
 
 	/**
@@ -131,8 +130,7 @@
 	 * Window load event handler. Logs a 'landing' event when someone enters the page
 	 */
 	function interceptLandingEvent() {
-
-		var eventData = {
+		eventData = {
 			event_type: 'landing'
 		};
 		eventLoggingLite.logEvent( portalSchema, eventData );
@@ -143,17 +141,17 @@
 	 * if they are an <a> matching an event section. If so, logs an event that user
 	 * has interacted with a specific section.
 	 */
-	function interceptClick() {
+	function interceptClick( e ) {
 
 		var anchor,
-			event = window.event,
+			event = e || window.event,
 			target = event.target || event.srcElement;
 
 		if ( target.matches( 'a, a *' ) ) {
 
 			anchor = checkForParentAnchor( target );
 
-			var eventData = {
+			eventData = {
 				event_type: 'clickthrough',
 				destination: anchor.href,
 				section_used: findEventSection( anchor, eventSections )
@@ -169,31 +167,32 @@
 	 * Form submission event handler. Checks if a form belongs to an event section
 	 * and logs an event when user has submitted it.
 	 */
-	function interceptForm() {
+	function interceptForm( e ) {
+		var event = e || window.event,
+			target = event.target || event.srcElement;
 
-		var event = window.event,
-			target = event.target || event.srcElement,
+		if ( eventData === null ) {
 			eventData = {
-			event_type: 'clickthrough',
-			section_used: findEventSection( target, eventSections ),
-			destination: target.action
-		};
+				event_type: 'clickthrough',
+				section_used: findEventSection( target, eventSections ),
+				destination: target.action
+			};
+		}
 
 		if ( eventData.section_used ) {
 			eventLoggingLite.logEvent( portalSchema, eventData );
 		}
-
 	}
 
 	/**
 	 * adding event listeners to DOM load, document click, and forms
 	 */
-	document.addEventListener( 'click', interceptClick );
+	addEvent( document, 'click', interceptClick );
 
-	docForms =  document.getElementsByTagName( 'form' );
+	docForms = document.getElementsByTagName( 'form' );
 
 	for ( var i = 0; i < docForms.length; i++ ) {
-		docForms[ i ].addEventListener( 'submit', interceptForm );
+		addEvent( docForms[ i ], 'submit', interceptForm );
 	}
 
 	/**
@@ -201,13 +200,11 @@
 	 */
 
 	if ( geoCookie ) {
-
-		var cachedCC = geoCookie.toString().split( '=' )[ 1 ];
-
-		portalSchema.defaults.country = cachedCC;
+		portalSchema.defaults.country = geoCookie.toString().split( '=' )[ 1 ];
+		addEvent( window, 'load', interceptLandingEvent );
 	}
 
-	window.addEventListener( 'load', interceptLandingEvent );
+	addEvent( window, 'load', interceptLandingEvent );
 
 	/**
 	 * setting portal session cookie

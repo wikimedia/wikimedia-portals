@@ -85,7 +85,7 @@ a:hover, a:active {  text-decoration: none;  }
   max-height: 12rem;
   overflow-y: scroll;
   /*border: 1px solid #ccc;*/
-  z-index: 1;
+  z-index: 2;
   display: none;
   box-shadow: -1px -1px 5px 0px #D0D0D0;
  }

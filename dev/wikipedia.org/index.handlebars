@@ -24,9 +24,22 @@
 
 <!-- Search form -->
 {{> search}}
+
+<link rel="stylesheet" href="assets/css/buttons.css">
+<link rel="stylesheet" href="assets/css/forms.css">
+<link rel="stylesheet" href="assets/css/pab1.css">
+<link rel="stylesheet" href="assets/css/pab2.css">
+{{> search-pab1}}
 <script src="assets/js/polyfills.js"></script>
 <script src="assets/js/event-logging-lite.js"></script>
 <script src="assets/js/wm-test.js"></script>
+<script src="assets/js/pab1.js"></script>
+<style>
+    #search-container.search-container {
+        display: block;
+    }
+</style>
+
 {{> divider}}
 
 {{> language-search}}
@@ -45,8 +58,11 @@
 
 {{> footer-links}}
 
+<script src="assets/js/mediawiki.lite.js"></script>
+<script src="assets/js/wm-typeahead.js"></script>
 <script src="assets/js/underscore.partial.js"></script>
 <script src="assets/js/wikipedia-org-event-logging.js"></script>
 <script src="assets/js/wm-portal.js"></script>
+<script src="assets/js/pab2.js"></script>
 </body>
 </html>

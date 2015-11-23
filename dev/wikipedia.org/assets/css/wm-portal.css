@@ -31,6 +31,10 @@ a:focus {
     color: #0645AD;
     text-decoration: none;
 }
+a:focus {
+    outline: 1px solid #0645AD;
+}
+
 
 a:hover {
     text-decoration: underline;
@@ -538,6 +542,12 @@ hr {
     hr {
         border-bottom-width: 1px;
     }
+}
+
+/* Hides the search before we know if the user is part of the test */
+
+#search-container.search-container {
+    display: none;
 }
 
 /* Gives the button its previous native look */
