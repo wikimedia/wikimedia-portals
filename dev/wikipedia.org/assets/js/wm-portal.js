@@ -101,7 +101,10 @@
 		var option, logo;
 
 		// Only Wiktionary has such a mess of logos.
-		if ( !document.querySelector || document.body.id !== 'www-wiktionary-org' ) {
+		if ( !document.querySelector
+			|| document.body.id !== 'www-wiktionary-org'
+			|| lang.match( /\W/ )
+		) {
 			return;
 		}
 
@@ -131,6 +134,19 @@
 	}
 
 	/**
+	 * Imitates `element.textContent = text` for back-compatibility.
+	 *
+	 * @param {HTMLElement} element
+	 * @param {string} text
+	 */
+	function textContent( element, text ) {
+		while ( element.firstChild ) {
+			element.removeChild( element.firstChild );
+		}
+		element.appendChild( document.createTextNode( text ) );
+	}
+
+	/**
 	 * Converts Chinese strings from traditional to simplified.
 	 *
 	 * Convertible elements start out with traditional text and title attributes
@@ -153,7 +169,8 @@
 			elt = $( ids[ i ] );
 			if ( elt ) {
 				if ( elt.hasAttribute( txtAttr ) ) {
-					elt.innerHTML = elt.getAttribute( txtAttr );
+					// HTML escaping for paranoia, as it should all be text anyways.
+					textContent( elt, elt.getAttribute( txtAttr ) );
 				}
 				if ( elt.hasAttribute( titleAttr ) ) {
 					elt.title = elt.getAttribute( titleAttr );
@@ -193,7 +210,7 @@
 	 */
 	doWhenReady( function () {
 		var iso639, select, options, i, len, matchingLang, matchingLink,
-			customOption,
+			customOption, customOptionText,
 			lang = getSavedLang();
 
 		if ( !lang ) {
@@ -207,7 +224,6 @@
 			return;
 		}
 		iso639 = ( iso639[ 0 ] === 'nb' ) ? 'no' : iso639[ 0 ];
-
 		select = $( 'searchLanguage' );
 		// Verify that an <option> exists for the langCode that was
 		// in the cookie. If so, set the value to it.
@@ -225,7 +241,8 @@
 					customOption = document.createElement( 'option' );
 					customOption.setAttribute( 'lang', iso639 );
 					customOption.setAttribute( 'value', iso639 );
-					customOption.innerHTML = matchingLink.textContent || matchingLink.innerText || iso639;
+					customOptionText = matchingLink.textContent || matchingLink.innerText || iso639;
+					textContent( customOption, customOptionText );
 					select.appendChild( customOption );
 				}
 			}
@@ -258,14 +275,15 @@
 		addEvent( search, 'input', _.debounce( function () {
 			var head = document.getElementsByTagName( 'head' )[ 0 ],
 				hostname = window.location.hostname.replace( 'www.', $( 'searchLanguage' ).value + '.' ),
-				script = $( 'api_opensearch' );
+				script = $( 'api_opensearch' ),
+				query = encodeURIComponent( search.value );
 
 			if ( script ) {
 				head.removeChild( script );
 			}
 			script = document.createElement( 'script' );
 			script.id = 'api_opensearch';
-			script.src = '//' + hostname + '/w/api.php?action=opensearch&limit=10&format=json&callback=portalOpensearchCallback&search=' + search.value;
+			script.src = '//' + encodeURIComponent( hostname ) + '/w/api.php?action=opensearch&limit=10&format=json&callback=portalOpensearchCallback&search=' + query;
 			head.appendChild( script );
 		}, 200 ) );
 	}
