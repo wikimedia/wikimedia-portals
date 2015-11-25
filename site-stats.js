@@ -1,3 +1,5 @@
+/* jshint node:true, es3:false */
+/* jscs:disable */
 var preq = require( 'preq' );
 var BBPromise = require( 'bluebird' );
 var moment = require( 'moment' );
