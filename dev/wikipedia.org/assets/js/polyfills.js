@@ -130,7 +130,7 @@ if (!document.querySelector) {
  * Element.matches polyfill
  * https://developer.mozilla.org/en-US/docs/Web/API/Element/matches
  */
-if ( Element && !Element.prototype.matches ) {
+if ( window.Element && !Element.prototype.matches ) {
 
 	Element.prototype.matches = function matches( selector ) {
 		var matches = ( this.document || this.ownerDocument ).querySelectorAll( selector ),

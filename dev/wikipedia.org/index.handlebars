@@ -8,6 +8,7 @@
 <link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
 <link rel="shortcut icon" href="/static/favicon/wikipedia.ico">
 <link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/">
+<link rel="stylesheet" href="assets/css/base.css">
 <link rel="stylesheet" href="assets/css/wm-portal.css">
 <style type="text/css">
 .central-featured-logo{background-image:url(portal/wikipedia.org/assets/img/Wikipedia-logo-v2_1x.png)}@media(-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:3/2),(min-resolution:1.5dppx),(min-resolution:144dpi){.central-featured-logo{background-image:url(portal/wikipedia.org/assets/img/Wikipedia-logo-v2_1.5x.png);}}@media(-webkit-min-device-pixel-ratio:2),(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){.central-featured-logo{background-image:url(portal/wikipedia.org/assets/img/Wikipedia-logo-v2_2x.png);}}
@@ -23,7 +24,19 @@
 
 <!-- Search form -->
 {{> search}}
-
+<link rel="stylesheet" href="assets/css/buttons.css">
+<link rel="stylesheet" href="assets/css/forms.css">
+<link rel="stylesheet" href="assets/css/pab1.css">
+{{> search-pab1}}
+<script src="assets/js/polyfills.js"></script>
+<script src="assets/js/event-logging-lite.js"></script>
+<script src="assets/js/wm-test.js"></script>
+<script src="assets/js/pab1.js"></script>
+<style>
+#search-container.search-container {
+    display: block;
+}
+</style>
 {{> divider}}
 
 {{> language-search}}
@@ -43,9 +56,7 @@
 {{> footer-links}}
 
 <script src="assets/js/underscore.partial.js"></script>
-<script src="assets/js/polyfills.js"></script>
-<script src="assets/js/wm-portal.js"></script>
-<script src="assets/js/event-logging-lite.js"></script>
 <script src="assets/js/wikipedia-org-event-logging.js"></script>
+<script src="assets/js/wm-portal.js"></script>
 </body>
 </html>

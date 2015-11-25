@@ -207,6 +207,7 @@ hr {
     padding: 0;
     vertical-align: middle;
     max-width: 12em;
+    width: 12em; /* otherwise the width is inconsistent between browsers */
 }
 
 /**
@@ -537,4 +538,41 @@ hr {
     hr {
         border-bottom-width: 1px;
     }
+}
+
+/* Hides the search before we know if the user is part of the test */
+#search-container.search-container {
+    display: none;
+}
+
+/* Gives the button its previous native look */
+.formBtn {
+    background-color: white;
+    border: 1px solid #E4E4E4;
+    border-radius: 4px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #CECECE;
+    font-size: 11px;
+    padding: 1px 8px;
+    margin-left: .3em;
+    vertical-align: top;
+}
+.formBtn:focus {
+    background-color: #c0c0c0;
+    outline: 0;
+}
+.formBtn:active {
+    background-color: #b0b0b0;
+}
+
+/* Gives the inputs their previous look */
+.search-container .search-form #searchInput {
+    font-size: 13px;
+    padding: 1px 3px;
+    width: 15em; /* otherwise the width is inconsistent between browsers */
+}
+#langsearch-input {
+    padding: 1px 2px;
+    font-size: 11px;
+    vertical-align: top;
 }

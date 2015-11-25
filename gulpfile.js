@@ -56,6 +56,15 @@ gulp.task( 'build', function () {
 
 gulp.task( 'inline-assets', [ 'build' ], function () {
 
+	// extend minifyCss plugins to pass some options.
+	var minifyCss = function () {
+		var options = {
+			compatibility: 'ie7',
+			keepSpecialComments: '0'
+		};
+		return plugins.minifyCss.call( this, options );
+	};
+
 	var templateData = require( './' + baseDir + 'controller' ),
 		hbsHelpers = require( './hbs-helpers.global' ),
 		options = {
@@ -68,7 +77,7 @@ gulp.task( 'inline-assets', [ 'build' ], function () {
 		.pipe( plugins.inline( {
 			base: baseDir,
 			js: plugins.uglify,
-			css: plugins.minifyCss,
+			css: minifyCss,
 			disabledTypes: [ 'svg', 'img' ]
 		} ) )
 		.pipe( plugins.htmlmin( {

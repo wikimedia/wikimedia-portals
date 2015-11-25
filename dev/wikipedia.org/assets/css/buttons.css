@@ -1,0 +1,257 @@
+/*!
+Pure v0.6.1-pre
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+.pure-button {
+    /* Structure */
+    display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Firefox: Get rid of the inner focus border */
+.pure-button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+/*csslint outline-none:false*/
+
+.pure-button {
+    /* from oo-ui */
+    font: inherit;
+    color: #555555;
+    background-color: #ffffff;
+    border: 1px solid #cdcdcd;
+    margin: 0.1em 0;
+    padding: 0.5em 1em;
+    min-height: 1.2em;
+    min-width: 1em;
+    border-radius: 2px;
+    position: relative;
+    -webkit-transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
+    -moz-transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
+    -o-transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
+    transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: normal;
+}
+
+.pure-button-hover,
+.pure-button:hover {
+    background-color: #ebebeb;
+    outline: 0;
+}
+.pure-button:focus {
+    outline: 0;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.pure-button-active,
+.pure-button:active {
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+    box-shadow: none;
+}
+
+.pure-button[disabled],
+.pure-button-disabled,
+.pure-button-disabled:hover,
+.pure-button-disabled:focus,
+.pure-button-disabled:active {
+    /*border: none;*/
+    /*background-image: none;*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);*/
+    /*filter: alpha(opacity=40);*/
+    /*-khtml-opacity: 0.40;*/
+    /*-moz-opacity: 0.40;*/
+    /*opacity: 0.40;*/
+    /*cursor: not-allowed;*/
+    /*box-shadow: none;*/
+    color: #ffffff;
+    background: #dddddd;
+    border: 1px solid #dddddd;
+    outline: none;
+    cursor: default;
+    box-shadow: none;
+
+}
+
+.pure-button-hidden {
+    display: none;
+}
+
+/* Firefox: Get rid of the inner focus border */
+/*.pure-button::-moz-focus-inner{*/
+    /*padding: 0;*/
+    /*border: 0;*/
+/*}*/
+
+/*.pure-button-primary,*/
+/*.pure-button-selected,*/
+/*a.pure-button-primary,*/
+/*a.pure-button-selected {*/
+    /*background-color: #347bff;*/
+    /*color: #fff;*/
+/*}*/
+
+.pure-button-primary {
+    color: #ffffff;
+}
+
+
+.pure-button-constructive {
+    color: #00af89;
+}
+.pure-button-constructive:hover {
+    background-color: #00af89;
+    background-color: rgba(0, 171, 137, 0.1);
+    border-color: #00af89;
+    border-color: #00af89 rgba(0, 89, 70, 0.5);
+}
+.pure-button-constructive:active {
+    color: #005946;
+    border-color: #005946;
+    box-shadow: none;
+}
+.pure-button-constructive:focus {
+    box-shadow: inset 0 0 0 1px #005946;
+    border-color: #005946;
+}
+
+.pure-button-primary-constructive {
+    color: #ffffff;
+    background-color: #00af89;
+    border-color: #00af89;
+}
+.pure-button-primary-constructive:hover {
+    background: #008064;
+    border-color: #008064;
+}
+.pure-button-primary-constructive:active {
+    color: #ffffff;
+    background-color: #005946;
+    border-color: #005946;
+    box-shadow: none;
+
+}
+.pure-button-primary-constructive:focus {
+    box-shadow: inset 0 0 0 1px #ffffff;
+    border-color: #00af89;
+}
+
+
+.pure-button-destructive {
+    color: #d11d13;
+}
+.pure-button-destructive:hover {
+    background-color: #73100a;
+    background-color: rgba(209, 29, 19, 0.1);
+    border-color: #73100a;
+    border-color: rgba(115, 16, 10, 0.5);
+}
+.pure-button-destructive:active {
+    color: #73100a;
+    border-color: #73100a;
+    box-shadow: none;
+}
+.pure-button-destructive:focus {
+    box-shadow: inset 0 0 0 1px #73100a;
+    border-color: #73100a;
+}
+
+.pure-button-primary-destructive {
+    color: #ffffff;
+    background-color: #d11d13;
+    border-color: #d11d13;
+}
+.pure-button-primary-destructive:hover {
+    background: #8c130d;
+    border-color: #8c130d;
+}
+.pure-button-primary-destructive:active {
+    color: #ffffff;
+    background-color: #73100a;
+    border-color: #73100a;
+    box-shadow: none;
+
+}
+.pure-button-primary-destructive:focus {
+    box-shadow: inset 0 0 0 1px #ffffff;
+    border-color: #d11d13;
+}
+
+.pure-button-progressive {
+    color: #347bff;
+}
+.pure-button-progressive:hover {
+    background-color: #1f4999 ;
+    background-color: rgba(52, 123, 255, 0.1);
+    border-color: #1f4999;
+    border-color: rgba(31, 73, 153, 0.5);
+}
+.pure-button-progressive:active {
+    color: #1f4999;
+    border-color: #1f4999;
+    box-shadow: none;
+}
+.pure-button-progressive:focus {
+    box-shadow: inset 0 0 0 1px #1f4999;
+    border-color: #1f4999;
+}
+
+.pure-button-primary-progressive {
+    background-color: #347bff;
+    border-color: #347bff;
+    color: #ffffff;
+}
+.pure-button-primary-progressive:hover {
+    background: #2962cc;
+    border-color: #2962cc;
+}
+.pure-button-primary-progressive:active {
+    color: #ffffff;
+    background-color: #1f4999;
+    border-color: #1f4999;
+    box-shadow: none;
+
+}
+.pure-button-primary-progressive:focus {
+    box-shadow: inset 0 0 0 1px #ffffff;
+    border-color: #347bff;
+}
+
+.button-xsmall {
+    font-size: 70%;
+}
+
+.button-small {
+    font-size: 85%;
+}
+
+.button-large {
+    font-size: 110%;
+}
+
+.button-xlarge {
+    font-size: 125%;
+}

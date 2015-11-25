@@ -1,40 +1,14 @@
 // jscs:disable requireCamelCaseOrUpperCaseIdentifiers
-/*global
- eventLoggingLite
-*/
+/* global eventLoggingLite */
+/* global wmTest */
 
-( function ( eventLoggingLite ) {
+( function ( eventLoggingLite, wmTest ) {
 
 	'use strict';
 
-	var portalSchema, eventSections, docForms,
-		session_id = eventLoggingLite.generateRandomSessionId(),
-		populationSize = 2; // population size for beta or dev
+	var portalSchema, eventSections, docForms;
 
-	/**
-	 * If we're on production, increase population size.
-	 */
-	if ( /www.wikipedia.org/.test( location.hostname ) ) {
-		populationSize = 200;
-	}
-
-	/**
-	 * Determines whether the user is part of the population size.
-	 *
-	 * @param {number} rand
-	 * @param {number} populationSize
-	 * @return {boolean}
-	 */
-	function oneIn( rand, populationSize ) {
-		// take the first 52 bits of the rand value
-		var parsed = parseInt( rand.slice( 0, 13 ), 16 );
-		return parsed % populationSize === 0;
-	}
-
-	/**
-	 * If the user is not part of the population size, exit early.
-	 */
-	if ( !oneIn( session_id, populationSize ) ) {
+	if ( wmTest.group === 'rejected' || wmTest.loggingDisabled ) {
 		return;
 	}
 
@@ -43,10 +17,11 @@
 		// revision # from https://meta.wikimedia.org/wiki/Schema:WikipediaPortal
 		revision: 14377354,
 		defaults: {
-			session_id: session_id,
+			session_id: wmTest.sessionId,
 			event_type: 'landing',
 			referer: document.referrer || null,
-			accept_language: ( navigator && navigator.language ) ? navigator.language : navigator.browserLanguage
+			accept_language: ( navigator && navigator.language ) ? navigator.language : navigator.browserLanguage,
+			cohort: wmTest.group
 		},
 		properties: {
 			session_id: {
@@ -227,4 +202,4 @@
 		document.cookie = 'portal_user_id=' + portalSchema.defaults.session_id;
 	}
 
-}( eventLoggingLite ) );
+}( eventLoggingLite, wmTest ) );

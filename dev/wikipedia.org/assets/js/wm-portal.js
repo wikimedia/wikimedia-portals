@@ -16,8 +16,9 @@
  * Validate with JSLint or JSHint.
  *
  */
-/* globals _ */
-( function () {
+/* global _ */
+/* global wmTest */
+( function ( wmTest ) {
 	'use strict';
 
 	var attachedEvents = [];
@@ -227,7 +228,7 @@
 		select = $( 'searchLanguage' );
 		// Verify that an <option> exists for the langCode that was
 		// in the cookie. If so, set the value to it.
-		if ( select ) {
+		if ( select && select.tagName === 'SELECT' ) {
 			options = select.getElementsByTagName( 'option' );
 			for ( i = 0, len = options.length; !matchingLang && i < len; i += 1 ) {
 				if ( options[ i ].value === iso639 ) {
@@ -248,6 +249,41 @@
 			}
 			if ( matchingLang ) {
 				select.value = matchingLang;
+				updateBranding( matchingLang );
+			}
+		} else if ( wmTest.abtest1 && select && select.tagName === 'UL' ) {
+			var lis = select.getElementsByTagName( 'li' );
+			for ( i = 0, len = lis.length; !matchingLang && i < len; i += 1 ) {
+				if ( lis[ i ].firstChild.getAttribute( 'data-lang-value' ) === iso639 ) {
+					matchingLang = iso639;
+				}
+			}
+			if ( !matchingLang && document.querySelector ) {
+				matchingLink = document.querySelector( '.langlist a[lang|="' + iso639 + '"]' );
+				if ( matchingLink ) {
+					matchingLang = iso639;
+					var customLi = document.createElement( 'li' ),
+						customA = document.createElement( 'a' );
+					customA.setAttribute( 'lang', iso639 );
+					customA.setAttribute( 'data-lang-value', iso639 );
+					textContent( customA, matchingLink.textContent || matchingLink.innerText || iso639 );
+					customLi.appendChild( customA );
+					select.appendChild( customLi );
+				}
+			}
+			if ( matchingLang ) {
+				select.setAttribute( 'data-lang-value', matchingLang );
+				textContent( document.getElementById( 'selectedLanguageCode' ), iso639.toUpperCase() );
+				document.getElementById( 'hiddenLanguageInput' ).value = matchingLang;
+
+				var activeLi = document.querySelector( '#searchLanguage .selected' ),
+					newActiveLi = document.querySelector( '#searchLanguage [lang="' + matchingLang + '"]' );
+				if ( activeLi ) {
+					activeLi.className = '';
+				}
+				if ( newActiveLi ) {
+					newActiveLi.parentNode.className = 'selected';
+				}
 				updateBranding( matchingLang );
 			}
 		}
@@ -274,9 +310,17 @@
 
 		addEvent( search, 'input', _.debounce( function () {
 			var head = document.getElementsByTagName( 'head' )[ 0 ],
-				hostname = window.location.hostname.replace( 'www.', $( 'searchLanguage' ).value + '.' ),
+				language,
+				hostname,
 				script = $( 'api_opensearch' ),
 				query = encodeURIComponent( search.value );
+
+			if ( wmTest.abtest1 ) {
+				language = $( 'searchLanguage' ).getAttribute( 'data-lang-value' );
+			} else {
+				language = $( 'searchLanguage' ).value;
+			}
+			hostname = window.location.hostname.replace( 'www.', language + '.' );
 
 			if ( script ) {
 				head.removeChild( script );
@@ -361,14 +405,16 @@
 				param = params[ i ].split( '=' );
 				if ( param[ 0 ] === 'search' && param[ 1 ] ) {
 					search.value = decodeURIComponent( param[ 1 ].replace( /\+/g, ' ' ) );
-					return;
+					break;
 				}
 			}
 		}
 
-		addEvent( select, 'change', function () {
-			setLang( select.value );
-		} );
+		if ( !wmTest.abtest1 ) {
+			addEvent( select, 'change', function () {
+				setLang( select.value );
+			} );
+		}
 	} );
 
 	doWhenReady( function () {
@@ -483,7 +529,354 @@
 
 	doWhenReady( hidpi );
 
-}() );
+	doWhenReady( function () {
+		if ( !wmTest.abtest1 ) {
+			return;
+		}
+
+		/**
+		 * The dropdown containing the language selection
+		 *
+		 * @type {HTMLElement}
+		 * @private
+		 */
+		var dropdown = document.getElementById( 'searchLanguage' ),
+
+			/**
+			 * The button to toggle the language selection dropdown.
+			 *
+			 * @type {HTMLElement}
+			 * @private
+			 */
+			lpButton = document.querySelector( '.language-picker' ),
+
+			/**
+			 * The element that contains the text for the selected language code.
+			 *
+			 * @type {HTMLElement}
+			 * @private
+			 */
+			selectedLanguageEl = document.getElementById( 'selectedLanguageCode' ),
+
+			/**
+			 * The search input.
+			 *
+			 * @type {HTMLElement}
+			 * @private
+			 */
+			searchInput = document.getElementById( 'searchInput' ),
+
+			/**
+			 * Key code -> actual letter map
+			 *
+			 * @type {Object}
+			 * @private
+			 */
+			keyCodeMap = {
+				48: '0',
+				49: '1',
+				50: '2',
+				51: '3',
+				52: '4',
+				53: '5',
+				54: '6',
+				55: '7',
+				56: '8',
+				57: '9',
+				59: ';',
+				65: 'a',
+				66: 'b',
+				67: 'c',
+				68: 'd',
+				69: 'e',
+				70: 'f',
+				71: 'g',
+				72: 'h',
+				73: 'i',
+				74: 'j',
+				75: 'k',
+				76: 'l',
+				77: 'm',
+				78: 'n',
+				79: 'o',
+				80: 'p',
+				81: 'q',
+				82: 'r',
+				83: 's',
+				84: 't',
+				85: 'u',
+				86: 'v',
+				87: 'w',
+				88: 'x',
+				89: 'y',
+				90: 'z',
+				96: '0',
+				97: '1',
+				98: '2',
+				99: '3',
+				100: '4',
+				101: '5',
+				102: '6',
+				103: '7',
+				104: '8',
+				105: '9'
+			},
+
+			/**
+			 * Hash giving language properties for the first character of the language name.
+			 *
+			 *
+			 * @type {Object}
+			 * @type {number} type.nodeId
+			 * @type {string} type.code
+			 * @type {string} type.lang
+			 * @type {string} type.label
+			 */
+			langByFirstLetter = {};
+
+		/**
+		 * Binds events to navigate within the dropdown with keyboard arrow keys.
+		 *
+		 * @private
+		 */
+		function bindNavigationEvents() {
+			addEvent( document, 'keydown', highlightListItem );
+			addEvent( document, 'mouseover', highlightListItem );
+		}
+
+		/**
+		 * Unbinds events added by {@link #bindNavigationEvents}.
+		 *
+		 * @private
+		 */
+		function unbindNavigationEvents() {
+			removeEvent( document, 'keydown', highlightListItem );
+			removeEvent( document, 'mouseover', highlightListItem );
+		}
+
+		/**
+		 * Scrolls the dropdown to position the active element in the middle of the dropdown.
+		 *
+		 * @param {HTMLElement} [activeLi]
+		 * @private
+		 */
+		function optimizeScrollTo( activeLi ) {
+			activeLi = activeLi || document.querySelector( '#searchLanguage .selected' );
+
+			var currentScrollTop = dropdown.scrollTop,
+				newScrollTop,
+				activeLiPosition = activeLi.offsetTop,
+				dropdownHeight = dropdown.clientHeight,
+				activeLiHeight = activeLi.clientHeight;
+
+			if ( currentScrollTop > activeLiPosition ) {
+				// scroll up to the active li position
+				newScrollTop = activeLiPosition;
+			} else {
+				// scroll down
+				newScrollTop = activeLiPosition;
+				newScrollTop -= ( dropdownHeight / 2 ); // scroll up a bit so
+				newScrollTop += activeLiHeight; // the active element is in the middle.
+			}
+			dropdown.scrollTop = newScrollTop;
+		}
+
+		/**
+		 * Highlights the right item when a `click` or `mouseover` event happens.
+		 *
+		 * @param {Event} e The `click` or `mouseover` event.
+		 * @private
+		 */
+		function highlightListItem( e ) {
+
+			e = e || window.event;
+
+			var up = 40,
+				down = 38,
+				enter = 13,
+				tab = 9,
+				esc = 27,
+				activeLi = document.querySelector( '#searchLanguage li.selected' ) || document.querySelector( '#searchLanguage li' ),
+				scroll = true,
+				previousLi = activeLi,
+				charCode = e.which || e.keyCode,
+				target = e.target || e.srcElement;
+
+			if ( charCode === up ) {
+				activeLi = activeLi.nextElementSibling || activeLi;
+			} else if ( charCode === down ) {
+				activeLi = activeLi.previousElementSibling || activeLi;
+			} else if ( target.tagName === 'A' && target.parentNode.parentNode.id === 'searchLanguage' ) {
+				activeLi = target.parentNode;
+				scroll = false;
+			} else if ( charCode === tab ) { // e.type === 'keydown'
+				lp.close();
+				return;
+			} else if ( charCode === esc ) {
+				lp.close();
+				return;
+			} else if ( charCode === enter ) { // e.type === 'keydown'
+				onLanguageChanged( lp.getLanguage() );
+				lp.close();
+				return;
+			} else if ( keyCodeMap[ charCode ] && langByFirstLetter[ keyCodeMap[ charCode ] ] ) {
+				activeLi = dropdown.childNodes[ langByFirstLetter[ keyCodeMap[ charCode ] ].nodeId ];
+			} else {
+				return;
+			}
+
+			if ( e.preventDefault ) {
+				e.preventDefault();
+			} else {
+				e.returnValue = false;
+			}
+
+			previousLi.className = '';
+			activeLi.className = 'selected';
+
+			if ( scroll ) {
+				optimizeScrollTo( activeLi );
+			}
+
+		}
+
+		/**
+		 * Binds click events happening within the dropdown.
+		 *
+		 * @private
+		 */
+		function bindClickEvents() {
+			dropdown.onclick = function () {
+				onLanguageChanged( lp.getLanguage() );
+			};
+
+			addEvent( document, 'click', lp.close );
+		}
+
+		/**
+		 * Unbinds events added by {@link #bindClickEvents}.
+		 *
+		 * @private
+		 */
+		function unbindClickEvents() {
+			dropdown.onclick = null;
+			removeEvent( document, 'click', lp.close );
+		}
+
+		/**
+		 * Updates the selected language displayed in the language picker button.
+		 *
+		 * @param {string} lang
+		 */
+		function onLanguageChanged( lang ) {
+			selectedLanguageEl.innerHTML = lang.toUpperCase();
+			lpButton.className = 'language-picker flash-text';
+			document.getElementById( 'hiddenLanguageInput' ).value = lang;
+			setLang( lang );
+			// delay otherwise the form gets submitted if user selects language by pressing `enter`.
+			setTimeout( function () {
+				searchInput.focus();
+			} );
+		}
+
+		var lp = {};
+
+		/**
+		 * Gets the selected language key.
+		 *
+		 * @return {string} The language key.
+		 */
+		lp.getLanguage = function () {
+			return document.querySelector( '.selected > a' ).getAttribute( 'lang' ) ||
+				document.querySelector( '.selected > a' ).getAttribute( 'data-lang-value' );
+		};
+
+		/**
+		 * Opens the language picker dropdown.
+		 */
+		lp.open = function () {
+			bindNavigationEvents();
+			bindClickEvents();
+			var windowScroll = window.pageYOffset,
+				viewPortHeight = window.innerHeight,
+				distanceToTop = searchInput.offsetParent.offsetTop,
+				ddSize = 192;
+
+			if ( ( distanceToTop + ddSize - windowScroll ) > viewPortHeight ) {
+				dropdown.className = 'open dropup';
+			} else {
+				dropdown.className = 'open';
+			}
+			lpButton.className = 'language-picker active';
+			optimizeScrollTo();
+		};
+
+		/**
+		 * Closes the language picker dropdown.
+		 */
+		lp.close = function () {
+			unbindNavigationEvents();
+			unbindClickEvents();
+			dropdown.className = '';
+			if ( lpButton.className === 'language-picker active' ) {
+				lpButton.className = 'language-picker';
+			}
+			lpButton.blur();
+		};
+
+		/**
+		 * Initializes the language picker widget.
+		 *
+		 * - Binds language picker button events to open the dropdown.
+		 * - Parses the dropdown and builds the {@link #langByFirstLetter} convenient hash.
+		 *
+		 * @private
+		 */
+		function init() {
+			// to avoid competition between `focus` and `click`
+			lpButton.onclick = function ( e ) {
+				e = e || window.event;
+				if ( e.stopPropagation ) {
+					e.stopPropagation();
+				} else {
+					e.cancelBubble = false;
+				}
+			};
+
+			// click triggers focus, and focus handles opening the dropdown
+			lpButton.onfocus = function () {
+				lp.open();
+			};
+
+			var li,
+				firstLetter;
+
+			// Parse all the languages that are in the language dropdown
+			for ( var i = 0; i < dropdown.childNodes.length; i++ ) {
+				li = dropdown.childNodes[ i ];
+				if ( li.tagName !== 'LI' ) {
+					continue;
+				}
+				firstLetter = li.firstChild.innerHTML.toLowerCase().substr( 0, 1 );
+				if ( li.firstChild.getAttribute( 'data-lang-value' ) && !langByFirstLetter[ firstLetter ]
+				) {
+					// keep a ref of the first node that starts with this first letter.
+					langByFirstLetter[ firstLetter ] = {
+						nodeId: i,
+						lang: li.firstChild.getAttribute( 'lang' ),
+						code: li.firstChild.getAttribute( 'data-lang-value' ),
+						label: li.firstChild.innerHTML
+					};
+				}
+			}
+		}
+
+		init();
+
+		return lp;
+	} );
+
+}( wmTest ) );
 
 /*
  * Depending on how this script is loaded, it may not have
