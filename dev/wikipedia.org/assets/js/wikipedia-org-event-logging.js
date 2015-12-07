@@ -1,12 +1,13 @@
 // jscs:disable requireCamelCaseOrUpperCaseIdentifiers
 /* global eventLoggingLite */
 /* global wmTest */
+/* global Geo */
 
 ( function ( eventLoggingLite, wmTest ) {
 
 	'use strict';
 
-	var portalSchema, eventSections, docForms;
+	var portalSchema, eventSections, docForms, geoIpScript, setGeoIPandLandingEvent;
 
 	if ( wmTest.group === 'rejected' || wmTest.loggingDisabled ) {
 		return;
@@ -187,7 +188,6 @@
 	/**
 	 * adding event listeners to DOM load, document click, and forms
 	 */
-
 	document.addEventListener( 'click', interceptClick );
 
 	docForms =  document.getElementsByTagName( 'form' );
@@ -196,8 +196,33 @@
 		docForms[ i ].addEventListener( 'submit', interceptForm );
 	}
 
-	window.addEventListener( 'load', interceptLandingEvent );
+	/**
+	 * loading geoIP and sending landing event when loaded.
+	 */
+	geoIpScript = document.createElement( 'script' );
 
+	setGeoIPandLandingEvent = function () {
+		if ( typeof Geo !== 'undefined' && Geo.country ) {
+			portalSchema.defaults.country = Geo.country;
+		}
+		window.addEventListener( 'load', interceptLandingEvent );
+	};
+
+	geoIpScript.onreadystatechange = function () {
+		if ( this.readyState === 'complete' || this.readyState === 'loaded' ) {
+			setGeoIPandLandingEvent();
+		}
+	};
+
+	geoIpScript.onload = setGeoIPandLandingEvent;
+
+	geoIpScript.src = 'https://geoiplookup.wikimedia.org/';
+
+	document.getElementsByTagName( 'head' )[ 0 ].appendChild( geoIpScript );
+
+	/**
+	 * setting portal session cookie
+	 */
 	if ( !/1|yes/.test( navigator.doNotTrack ) ) {
 		document.cookie = 'portal_user_id=' + portalSchema.defaults.session_id;
 	}
