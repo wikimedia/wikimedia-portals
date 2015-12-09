@@ -7,7 +7,8 @@
 
 	'use strict';
 
-	var portalSchema, eventSections, docForms, geoIpScript, setGeoIPandLandingEvent;
+	var portalSchema, eventSections, docForms, geoIpScript, geoIpScriptCallback,
+	geoCookie = document.cookie.match( /GeoIP=.[^:]/ );
 
 	if ( wmTest.group === 'rejected' || wmTest.loggingDisabled ) {
 		return;
@@ -197,28 +198,43 @@
 	}
 
 	/**
-	 * loading geoIP and sending landing event when loaded.
+	 * loading geoIP and sending landing event.
 	 */
-	geoIpScript = document.createElement( 'script' );
 
-	setGeoIPandLandingEvent = function () {
-		if ( typeof Geo !== 'undefined' && Geo.country ) {
-			portalSchema.defaults.country = Geo.country;
-		}
+	if ( geoCookie ) {
+
+		var cachedCC = geoCookie.toString().split( '=' )[ 1 ];
+
+		portalSchema.defaults.country = cachedCC;
+
 		window.addEventListener( 'load', interceptLandingEvent );
-	};
 
-	geoIpScript.onreadystatechange = function () {
-		if ( this.readyState === 'complete' || this.readyState === 'loaded' ) {
-			setGeoIPandLandingEvent();
-		}
-	};
+	} else {
 
-	geoIpScript.onload = setGeoIPandLandingEvent;
+		geoIpScriptCallback = function () {
 
-	geoIpScript.src = 'https://geoiplookup.wikimedia.org/';
+			if ( typeof Geo !== 'undefined' && Geo.country ) {
+				portalSchema.defaults.country = Geo.country;
+			}
 
-	document.getElementsByTagName( 'head' )[ 0 ].appendChild( geoIpScript );
+			window.addEventListener( 'load', interceptLandingEvent );
+		};
+
+		geoIpScript = document.createElement( 'script' );
+
+		geoIpScript.onreadystatechange = function () {
+			if ( this.readyState === 'complete' || this.readyState === 'loaded' ) {
+				geoIpScriptCallback();
+			}
+		};
+
+		geoIpScript.onload = geoIpScriptCallback;
+
+		geoIpScript.src = 'https://geoiplookup.wikimedia.org/';
+
+		document.getElementsByTagName( 'head' )[ 0 ].appendChild( geoIpScript );
+
+	}
 
 	/**
 	 * setting portal session cookie
