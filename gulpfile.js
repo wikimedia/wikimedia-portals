@@ -90,7 +90,7 @@ gulp.task( 'build', function () {
 			preventAttributesEscaping: true,
 			collapseWhitespace: true,
 			preserveLineBreaks: true,
-			collapseBooleanAttributes: true
+			collapseBooleanAttributes: false
 		}
 	};
 
