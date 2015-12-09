@@ -31,8 +31,8 @@ gulp.task( 'help', function () {
 	console.log( '| gulp lint --portal wikipedia.org            - run jslint on JS files on portal JS files         |' );
 	console.log( '| gulp inline-assets --portal wikipedia.org   - build inline CSS and JS assets                    |' );
 	console.log( '| gulp optimize-images --portal wikipedia.org - run imagemin on image directory                   |' );
-	console.log( '| gulp watch --portal wikipedia.org 			- watches dev directory and generates an index.html |' );
-	console.log( '| 								 		      file in it without inlined/minified assets	 	|' );
+	console.log( '| gulp watch --portal wikipedia.org           - watches dev directory and generates an index.html |' );
+	console.log( '|                                               file in it without inlined/minified assets        |' );
 	console.log( '| gulp --portal wikipedia.org                 - run all of the above on the specified portal page |' );
 	console.log( '|                                                                                                 |' );
 	console.log( '| gulp fetch-meta --portal wikipedia.org      - overwrite the portal page with source from Meta   |' );
