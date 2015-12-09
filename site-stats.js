@@ -3,7 +3,14 @@
 var preq = require( 'preq' );
 var BBPromise = require( 'bluebird' );
 var moment = require( 'moment' );
+var exec = require( 'child_process' ).exec;
+var fs = require( 'fs' );
 var _ = require( 'underscore' );
+
+/**
+ * Number of days to generate the stats over
+ */
+var DAYS = 7;
 
 var codeMapping = {
 	b: 'wikibooks',
@@ -85,18 +92,75 @@ function parseProjectString( str ) {
 	return name;
 }
 
-function getProjectViews() {
-	var yesterday = moment.utc().subtract( 1, 'days' ).startOf( 'day' );
-	var baseUrl = 'https://dumps.wikimedia.org/other/pageviews/' + yesterday.format( 'YYYY/YYYY-MM' ) + '/projectviews-' + yesterday.format( 'YYYYMMDD' );
-	var promises = [];
+function generateFileList() {
+	var day = moment.utc().startOf( 'day' );
+	var list = [];
 
-	for ( var i = 0; i <= 23; i++ ) {
-		var url = baseUrl + '-' + ( i < 10 ? '0' : '' ) + i.toString() + '0000';
-		promises.push( httpGet( url ) );
+	for ( var d = 0; d < DAYS; d++ ) {
+		day = day.subtract( 1, 'days' );
+		var baseUrl = 'https://dumps.wikimedia.org/other/pageviews/' + day.format( 'YYYY/YYYY-MM' ) + '/';
+		var baseName = 'projectviews-' + day.format( 'YYYYMMDD' );
+
+		for ( var i = 0; i <= 23; i++ ) {
+			var file = baseName + '-' + ( i < 10 ? '0' : '' ) + i.toString() + '0000';
+			list.push( { file: file, url: baseUrl + file } );
+		}
 	}
 
-	return BBPromise
-		.all( promises )
+	return list;
+}
+
+function garbageCollect() {
+	exec( 'find cache -mtime +' + ( DAYS + 2 ) + ' -delete', function( error ) {
+		if ( error ) {
+			console.error( 'Error deleting old cached stats', error );
+		}
+	} );
+}
+
+function getViewsData() {
+	var list = generateFileList();
+
+	var stats = [];
+	var promise = new BBPromise( function( resolve ) {
+		resolve();
+	} );
+
+	if ( !fs.existsSync( 'cache' ) ) {
+		fs.mkdirSync( 'cache' );
+	}
+	garbageCollect();
+
+	// Go synchronously to avoid hitting throttling on the server
+	_.each( list, function( hour ) {
+		var fileName = 'cache/' + hour.file;
+		try {
+			var content = fs.readFileSync( fileName, { encoding: 'utf8' } );
+			stats.push( content );
+		} catch( ex ) {
+			if ( !content ) {
+				promise = promise.then( function() {
+						return httpGet( hour.url )
+							.then( function( text ) {
+								if ( !text ) {
+									return;
+								}
+								fs.writeFileSync( fileName, text );
+								stats.push( text );
+							} );
+					}
+				);
+			}
+		}
+	} );
+
+	return promise.then( function() {
+		return BBPromise.resolve( stats );
+	} );
+}
+
+function getProjectViews() {
+	return getViewsData()
 		.then( function( hourlies ) {
 			var views = {};
 
