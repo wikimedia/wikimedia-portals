@@ -1,13 +1,12 @@
 // jscs:disable requireCamelCaseOrUpperCaseIdentifiers
 /* global eventLoggingLite */
 /* global wmTest */
-/* global Geo */
 
 ( function ( eventLoggingLite, wmTest ) {
 
 	'use strict';
 
-	var portalSchema, eventSections, docForms, geoIpScript, geoIpScriptCallback,
+	var portalSchema, eventSections, docForms,
 	geoCookie = document.cookie.match( /GeoIP=.[^:]/ );
 
 	if ( wmTest.group === 'rejected' || wmTest.loggingDisabled ) {
@@ -206,35 +205,9 @@
 		var cachedCC = geoCookie.toString().split( '=' )[ 1 ];
 
 		portalSchema.defaults.country = cachedCC;
-
-		window.addEventListener( 'load', interceptLandingEvent );
-
-	} else {
-
-		geoIpScriptCallback = function () {
-
-			if ( typeof Geo !== 'undefined' && Geo.country ) {
-				portalSchema.defaults.country = Geo.country;
-			}
-
-			window.addEventListener( 'load', interceptLandingEvent );
-		};
-
-		geoIpScript = document.createElement( 'script' );
-
-		geoIpScript.onreadystatechange = function () {
-			if ( this.readyState === 'complete' || this.readyState === 'loaded' ) {
-				geoIpScriptCallback();
-			}
-		};
-
-		geoIpScript.onload = geoIpScriptCallback;
-
-		geoIpScript.src = 'https://geoiplookup.wikimedia.org/';
-
-		document.getElementsByTagName( 'head' )[ 0 ].appendChild( geoIpScript );
-
 	}
+
+	window.addEventListener( 'load', interceptLandingEvent );
 
 	/**
 	 * setting portal session cookie
