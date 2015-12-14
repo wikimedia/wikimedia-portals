@@ -16,7 +16,9 @@ window.wmTest = ( function ( eventLoggingLite ) {
 			SESSION_ID: 'portal_session_id',
 			EXPIRES: 'portal_test_group_expires'
 		},
-		testOnly = location.hash.slice( 1 ) === 'pab1';
+	// You can allow a test-only mode (no eventlogging)
+	// e.g: testOnly = (location.hash.slice( 1 ) === 'pab1')
+		testOnly = false;
 
 	/**
 	 * If we're on production, increase population size.
@@ -42,26 +44,16 @@ window.wmTest = ( function ( eventLoggingLite ) {
 	 * Puts the user in a population group randomly.
 	 */
 	function getTestGroup( sessionId ) {
-
 		// 1:populationSize of the people are tested
 		if ( oneIn( sessionId, populationSize ) ) {
-
-			var notIe8 = !document.attachEvent;
-			// 1:2 of the people who are tested get the AB test 1
-			if ( notIe8 && oneIn( eventLoggingLite.generateRandomSessionId(), 2 ) ) {
-				return 'abtest1';
-			} else {
-				// baseline
-				return null;
-			}
+			// baseline
+			return null;
 		} else {
 			return 'rejected';
 		}
 	}
 
-	if ( testOnly ) {
-		group = 'abtest1';
-	} else if ( window.localStorage ) {
+	if ( window.localStorage ) {
 		var portalGroup = localStorage.getItem( KEYS.GROUP ),
 			portalSessionId = localStorage.getItem( KEYS.SESSION_ID ),
 			expires = localStorage.getItem( KEYS.EXPIRES ),
@@ -73,7 +65,8 @@ window.wmTest = ( function ( eventLoggingLite ) {
 			now < parseInt( expires, 10 )
 		) {
 			sessionId = portalSessionId;
-			group = portalGroup;
+			// Because localStorage will convert null to a string.
+			group = portalGroup === 'null' ? null : portalGroup;
 		} else {
 			group = getTestGroup( sessionId );
 			localStorage.setItem( KEYS.SESSION_ID, sessionId );
@@ -100,14 +93,7 @@ window.wmTest = ( function ( eventLoggingLite ) {
 		 *
 		 * @type {string}
 		 */
-		group: group,
-
-		/**
-		 * Whether user is part of AB test 1
-		 *
-		 * @type {boolean}
-		 */
-		abtest1: ( group === 'abtest1' )
+		group: group
 	};
 
 }( eventLoggingLite ) );
