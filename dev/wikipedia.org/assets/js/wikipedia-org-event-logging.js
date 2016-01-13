@@ -134,6 +134,10 @@
 			event_type: 'landing'
 		};
 		eventLoggingLite.logEvent( portalSchema, eventData );
+
+		// clearing event data after logging event.
+		eventData = null;
+
 	}
 
 	/**
