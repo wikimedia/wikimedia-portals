@@ -544,12 +544,6 @@ hr {
     }
 }
 
-/* Hides the search before we know if the user is part of the test */
-
-#search-container.search-container {
-    display: none;
-}
-
 /* Gives the button its previous native look */
 .formBtn {
     background-color: white;

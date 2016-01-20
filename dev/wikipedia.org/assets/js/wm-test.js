@@ -3,14 +3,10 @@
  eventLoggingLite
  */
 
-// has was #pab1, test group was 'abtest1'
-// change hash to equal test group
 window.wmTest = ( function ( eventLoggingLite ) {
 
 	'use strict';
 	var sessionId = eventLoggingLite.generateRandomSessionId(),
-		pabTest1 = 'abtest1', // name of the active AB test 1
-		pabTest2 = 'abtest2', // name of the active AB test 2
 		populationSize = 2, // population size for beta or dev
 		group,
 		sessionExpiration = 15 * 60 * 1000, // 15 minutes
@@ -22,8 +18,7 @@ window.wmTest = ( function ( eventLoggingLite ) {
 
 		// You can allow a test-only mode (no eventlogging)
 		// e.g: testOnly = (location.hash.slice( 1 ) === 'pab1')
-		testOnly = location.hash.slice( 1 ) === pabTest1 ||
-			location.hash.slice( 1 ) === pabTest2;
+		testOnly = false;
 
 	/**
 	 * If we're on production, increase population size.
@@ -51,29 +46,7 @@ window.wmTest = ( function ( eventLoggingLite ) {
 	function getTestGroup( sessionId ) {
 		// 1:populationSize of the people are tested (baseline)
 		if ( oneIn( sessionId, populationSize ) ) {
-
-			var notIe8 = Boolean( document.addEventListener ),
-				groupIndex = Math.floor( Math.random() * ( 11 - 1 ) ) + 1;
-
-			if ( notIe8 ) {
-				switch ( groupIndex ) {
-					case 1:
-						group = pabTest1;
-						break;
-					case 2:
-						group = pabTest2;
-						break;
-					case 3:
-						group = 'control';
-						break;
-					default:
-						group = 'baseline';
-				}
-			} else {
-				group = 'baseline';
-			}
-
-			return group;
+			return 'baseline';
 
 		} else {
 			return 'rejected';
