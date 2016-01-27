@@ -68,6 +68,7 @@ a:hover, a:active {  text-decoration: none;  }
  }
 #search-container-pab1 .search-input .language-picker.active {
   background-color: #f2f2f2;
+  outline: none;
  }
 
 
@@ -93,6 +94,28 @@ a:hover, a:active {  text-decoration: none;  }
   display: block;
  }
 
+/* showing language picker scrollbars */
+
+#search-container-pab1 #searchLanguage::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#search-container-pab1 #searchLanguage::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+#search-container-pab1 #searchLanguage::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+#search-container-pab1 #searchLanguage::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 1px solid white; /* should match background, can't be transparent */
+  background-color: rgba(0, 0, 0, .5);
+}
+
+/* END showing language picker scrollbars */
+
 #search-container-pab1 #searchLanguage.open.dropup {
   top: auto;
   bottom: 40px;
@@ -112,13 +135,6 @@ a:hover, a:active {  text-decoration: none;  }
 #search-container-pab1 #searchLanguage li.selected a {
   background: #347bff;
   color: #fff;
- }
-/* Hide language dropdown scrollbar */
-#search-container-pab1 #searchLanguage::-webkit-scrollbar {
-  display: none;
- }
-#search-container-pab1 #searchLanguage {
-  -ms-overflow-style: none;
  }
 
 #search-container-pab1 .icon-search {
