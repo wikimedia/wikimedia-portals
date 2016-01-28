@@ -8,7 +8,9 @@ var gulp = require( 'gulp' ),
 	argv = require( 'yargs' ).argv,
 	imageminPngquant = require( 'imagemin-pngquant' ),
 	siteStats = require( './site-stats' ),
-	fs = require( 'fs' );
+	fs = require( 'fs' ),
+	sprity = require( 'sprity' ),
+	gulpif = require( 'gulp-if' );
 
 var baseDir, prodDir,
 	plugins = gulpLoadPlugins(),
@@ -58,7 +60,7 @@ gulp.task( 'build', function () {
 
 	config.hb = {
 		src: baseDir + 'index.handlebars',
-		templateData: require( './' + baseDir + 'controller' ),
+		templateData: require( './' + baseDir + 'controller.js' ),
 		options: {
 			batch: [ './' + baseDir + '/templates' ],
 			helpers: require( './hbs-helpers.global' )
@@ -94,12 +96,13 @@ gulp.task( 'build', function () {
 	};
 
 	config.watch = {
-		hb: [ baseDir + '**/*.handlebars', baseDir + '.json', baseDir + 'controller.js' ]
+		hb: [ baseDir + 'templates/*.handlebars', baseDir + '.json', baseDir + 'controller.js' ],
+		sprites: [ baseDir + 'assets/img/sprite_assets/**/*' ]
 	};
 
 	config.optImage = {
 		src: baseDir + 'assets/img/*',
-		pngQuantOptions: { quality: '80-95', speed: 1 },
+		pngQuantOptions: { quality: '57-95', speed: 1 },
 		dest: prodDir + 'assets/img'
 	};
 
@@ -171,10 +174,10 @@ gulp.task( 'minify-html', [ 'inline-assets', 'concat-minify-js' ], function () {
 /**
  * Optimizes images in dev folder and moves them into prod folder
  */
-gulp.task( 'optimize-images', [ 'build' ], function () {
-	gulp.src( config.optImage.src )
-		.pipe( imageminPngquant( config.optImage.pngQuantOptions )() )
+gulp.task( 'optimize-images', [ 'build', 'sprite' ], function () {
+	return gulp.src( config.optImage.src )
 		.pipe( plugins.imagemin() )
+		.pipe( imageminPngquant( config.optImage.pngQuantOptions )() )
 		.pipe( gulp.dest( config.optImage.dest ) );
 } );
 
@@ -182,8 +185,10 @@ gulp.task( 'optimize-images', [ 'build' ], function () {
  * Watches for changes in dev folder and compiles handlebars
  * into dev folder.
  */
-gulp.task( 'watch', [ 'build', 'compile-handlebars' ], function () {
+gulp.task( 'watch', [ 'build', 'compile-handlebars', 'sprite' ], function () {
 	gulp.watch( config.watch.hb, [ 'compile-handlebars' ] );
+	gulp.watch( config.watch.sprites, [ 'sprite' ] );
+
 } );
 
 /**
@@ -223,5 +228,37 @@ gulp.task( 'fetch-meta', [ 'build' ], function () {
 		.pipe( gulp.dest( prodDir ) );
 } );
 
-gulp.task( 'default', [ 'build', 'lint', 'compile-handlebars', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
+/**
+ * Generates images sprites and accompanying CSS files using Sprity.
+ * Outputs sprites into dev assets/img folder.
+ * Outputs css into dev css/sprites.css file.
+ *
+ * Sprites are seperated into subfolders in img/sprite_assets.
+ * The contents of each folder will output a single sprite, named after the folder.
+ * Sprity will generate @2x, @1.5x, and @1x versions of the sprite.
+ *
+ * You should only supply and place the @2x versions of the assets into the sprite folders.
+ */
+gulp.task( 'sprite', function () {
+
+	if ( !baseDir ) {
+		gulp.start( 'build' );
+	}
+
+	return sprity.src( {
+		src: baseDir + 'assets/img/sprite_assets/**/*.{png,jpg}',
+		cssPath: 'portal/wikipedia.org/assets/img/',
+		style: baseDir + 'assets/css/sprites.css',
+		prefix: 'sprite',
+		dimension: [ { ratio: 1, dpi: 72 },
+			{ ratio: 1.5, dpi: 144 },
+			{ ratio: 2, dpi: 192 }
+		],
+		split: true,
+		margin: 0
+	} )
+	.pipe( gulpif( '*.png', gulp.dest( baseDir + 'assets/img/' ), gulp.dest( baseDir + 'assets/css/' ) ) );
+} );
+
+gulp.task( 'default', [ 'build', 'lint', 'compile-handlebars', 'sprite', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
 gulp.task( 'test', [ 'lint' ] );

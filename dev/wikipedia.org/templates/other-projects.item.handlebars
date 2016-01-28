@@ -1,3 +1,10 @@
 <div class="otherprojects-item">
-    <a href="{{url}}"><span class="icon"><img src="portal/wikipedia.org/assets/img/{{img1}}" srcset="portal/wikipedia.org/assets/img/{{img15}} 1.5x, portal/wikipedia.org/assets/img/{{img2}} 2x" width="{{width}}" height="{{height}}" alt=""{{#if style}} style="{{style}}"{{/if}}></span> {{name}}</a>
+    <a href="{{url}}">
+        <span class="sprite-project-logos-wrapper">
+            <span class="sprite-project-logos sprite-project-logos-{{img1}}" {{#if style}} style="{{style}}"{{/if}}></span>
+        </span>
+        <span class="otherprojects-item-name">{{name}}</span>
+        <!--
+            <img src="portal/wikipedia.org/assets/img/{{img1}}" srcset="portal/wikipedia.org/assets/img/{{img15}} 1.5x, portal/wikipedia.org/assets/img/{{img2}} 2x" width="{{width}}" height="{{height}}" alt=""{{#if style}} style="{{style}}"{{/if}}></span> {{name}}</a>
+        -->
 </div>
