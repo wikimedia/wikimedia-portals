@@ -77,9 +77,8 @@ gulp.task( 'build', function () {
 		src: baseDir + 'index.html',
 		options: {
 			base: baseDir,
-			js: plugins.uglify,
 			css: minifyCss,
-			disabledTypes: [ 'svg', 'img' ]
+			disabledTypes: [ 'svg', 'img', 'js' ]
 		}
 	};
 
@@ -137,12 +136,23 @@ gulp.task( 'inline-assets', [ 'compile-handlebars' ], function () {
 } );
 
 /**
+ * Concatenates JS files into a single file and minifies it.
+ */
+gulp.task( 'concat-minify-js', [ 'inline-assets' ], function () {
+	console.log( config.htmlmin.src );
+	return gulp.src( config.htmlmin.src )
+		.pipe( plugins.useref( { searchPath: baseDir } ) )
+		.pipe( plugins[ 'if' ]( '*.js', plugins.uglify() ) )
+		.pipe( gulp.dest( prodDir ) );
+} );
+
+/**
  * Minifies index.html file in prod folder,
  * depends on inline-assets which moves index.html from dev to prod.
  */
-gulp.task( 'minify-html', [ 'inline-assets' ], function () {
+gulp.task( 'minify-html', [ 'inline-assets', 'concat-minify-js' ], function () {
 	return gulp.src( config.htmlmin.src )
-		.pipe(  plugins.htmlmin( config.htmlmin.options ) )
+		.pipe( plugins.htmlmin( config.htmlmin.options ) )
 		.pipe( gulp.dest( prodDir ) );
 } );
 
@@ -198,8 +208,8 @@ gulp.task( 'fetch-meta', [ 'build' ], function () {
 			url: 'https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw'
 		}
 	} )
-	.pipe( gulp.dest( prodDir ) );
+		.pipe( gulp.dest( prodDir ) );
 } );
 
-gulp.task( 'default', [ 'build', 'lint', 'compile-handlebars', 'inline-assets', 'minify-html', 'optimize-images' ] );
+gulp.task( 'default', [ 'build', 'lint', 'compile-handlebars', 'inline-assets', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
 gulp.task( 'test', [ 'lint' ] );

@@ -25,9 +25,6 @@
 <!-- Search form -->
 {{> search}}
 
-<script src="assets/js/polyfills.js"></script>
-<script src="assets/js/event-logging-lite.js"></script>
-<script src="assets/js/wm-test.js"></script>
 
 {{> divider}}
 
@@ -47,9 +44,13 @@
 
 {{> footer-links}}
 
-<script src="assets/js/wm-typeahead.js"></script>
+<!-- build:js index.bundle.js -->
+<script src="assets/js/polyfills.js"></script>
+<script src="assets/js/event-logging-lite.js"></script>
+<script src="assets/js/wm-test.js"></script>
 <script src="assets/js/underscore.partial.js"></script>
 <script src="assets/js/wikipedia-org-event-logging.js"></script>
 <script src="assets/js/wm-portal.js"></script>
+<!-- endbuild -->
 </body>
 </html>
