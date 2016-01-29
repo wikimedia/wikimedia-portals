@@ -136,14 +136,26 @@ gulp.task( 'inline-assets', [ 'compile-handlebars' ], function () {
 } );
 
 /**
+ * Cleans `assets/js/` folder from the production folder.
+ */
+gulp.task( 'clean-prod-js', [ 'inline-assets' ], function () {
+	var del = require( 'del' );
+	return del( [ prodDir + '/assets/js' ] );
+} );
+
+/**
  * Concatenates JS files into a single file and minifies it.
  */
-gulp.task( 'concat-minify-js', [ 'inline-assets' ], function () {
-	console.log( config.htmlmin.src );
+gulp.task( 'concat-minify-js', [ 'clean-prod-js' ], function () {
+
 	return gulp.src( config.htmlmin.src )
 		.pipe( plugins.useref( { searchPath: baseDir } ) )
 		.pipe( plugins[ 'if' ]( '*.js', plugins.uglify() ) )
-		.pipe( gulp.dest( prodDir ) );
+		.pipe( plugins[ 'if' ]( '*.js', plugins.rev() ) )
+		.pipe( plugins.revReplace() )
+		.pipe( gulp.dest( prodDir ) )
+		.pipe( plugins.rev.manifest() )
+		.pipe( gulp.dest( baseDir + 'assets' ) );
 } );
 
 /**
@@ -211,5 +223,5 @@ gulp.task( 'fetch-meta', [ 'build' ], function () {
 		.pipe( gulp.dest( prodDir ) );
 } );
 
-gulp.task( 'default', [ 'build', 'lint', 'compile-handlebars', 'inline-assets', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
+gulp.task( 'default', [ 'build', 'lint', 'compile-handlebars', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
 gulp.task( 'test', [ 'lint' ] );
