@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+sync-dir portals/prod/wikipedia.org/assets $*
+sync-dir portals $*
+
+cat /srv/mediawiki-staging/portals/urls-to-purge.txt | mwscript purgeList.php
+
