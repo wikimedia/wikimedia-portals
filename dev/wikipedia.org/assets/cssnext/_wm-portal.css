@@ -6,14 +6,6 @@
  *
  * Indention style: 1 tab
  *
- * Don't be afraid to document changes here with comments, this stylesheet
- * is loaded through ResourceLoader on the portal pages and as such is minified
- * and squeezed into a tiny package delivered from bits.wikimedia.org
- *
- * Usage:
- * <link rel="stylesheet" href="//meta.wikimedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.wm-portal&amp;only=styles&amp;skin=vector&amp;*">
- *
- * (if RTL flipping is needed, replace lang=en with the correct language)
  */
 
 body {
@@ -28,13 +20,12 @@ a:focus {
     unicode-bidi: embed;
     white-space: nowrap;
     outline: 0;
-    color: #0645AD;
+    color: var(--c-primary);
     text-decoration: none;
 }
 a:focus {
-    outline: 1px solid #0645AD;
+    outline: 1px solid var(--c-primary);
 }
-
 
 a:hover {
     text-decoration: underline;

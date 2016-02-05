@@ -10,7 +10,8 @@ var gulp = require( 'gulp' ),
 	siteStats = require( './site-stats' ),
 	fs = require( 'fs' ),
 	sprity = require( 'sprity' ),
-	gulpif = require( 'gulp-if' );
+	postCSSNext = require( 'postcss-cssnext' ),
+	postCSSImport = require( 'postcss-import' );
 
 var baseDir, prodDir,
 	plugins = gulpLoadPlugins(),
@@ -96,12 +97,17 @@ gulp.task( 'build', function () {
 	};
 
 	config.watch = {
-		hb: [ baseDir + 'templates/*.handlebars', baseDir + '.json', baseDir + 'controller.js' ],
-		sprites: [ baseDir + 'assets/img/sprite_assets/**/*' ]
+		sprites: [ baseDir + 'assets/img/sprite_assets/**/*' ],
+		cssnext: baseDir + 'assets/cssnext/*.css',
+		hb: [ baseDir + '*.handlebars',
+			baseDir + '.json',
+			baseDir + 'controller.js',
+			baseDir + 'templates/**/*'
+		]
 	};
 
 	config.optImage = {
-		src: baseDir + 'assets/img/*',
+		src: [ baseDir + 'assets/img/*', '!' + baseDir + 'assets/img/sprite_assets' ],
 		pngQuantOptions: { quality: '57-95', speed: 1 },
 		dest: prodDir + 'assets/img'
 	};
@@ -129,10 +135,30 @@ gulp.task( 'compile-handlebars', function () {
 } );
 
 /**
+ * Compiles CSSNext files into regular CSS and
+ * outputs them into the CSS dev folder.
+ */
+gulp.task( 'cssnext', function () {
+
+	if ( !baseDir ) {
+		gulp.start( 'build' );
+	}
+
+	return gulp.src( baseDir + 'assets/cssnext/style.css' )
+		.pipe( plugins.postcss( [
+			postCSSImport(),
+			postCSSNext()
+		],
+			{ map: { inline: true } }
+		) )
+		.pipe( gulp.dest( baseDir + 'assets/css/' ) );
+} );
+
+/**
  * Inlines assets of index.html in dev folder,
  * moves index.html into prod folder
  */
-gulp.task( 'inline-assets', [ 'compile-handlebars' ], function () {
+gulp.task( 'inline-assets', [ 'compile-handlebars', 'cssnext' ], function () {
 	return gulp.src( config.inline.src )
 		.pipe( plugins.inline( config.inline.options ) )
 		.pipe( gulp.dest( prodDir ) );
@@ -174,7 +200,7 @@ gulp.task( 'minify-html', [ 'inline-assets', 'concat-minify-js' ], function () {
 /**
  * Optimizes images in dev folder and moves them into prod folder
  */
-gulp.task( 'optimize-images', [ 'build', 'sprite' ], function () {
+gulp.task( 'optimize-images', [ 'build' ], function () {
 	return gulp.src( config.optImage.src )
 		.pipe( plugins.imagemin() )
 		.pipe( imageminPngquant( config.optImage.pngQuantOptions )() )
@@ -182,13 +208,15 @@ gulp.task( 'optimize-images', [ 'build', 'sprite' ], function () {
 } );
 
 /**
- * Watches for changes in dev folder and compiles handlebars
+ * Watches for changes in dev folder and compiles:
+ * - handlebars templates
+ * - CSSNext files
  * into dev folder.
  */
-gulp.task( 'watch', [ 'build', 'compile-handlebars', 'sprite' ], function () {
+gulp.task( 'watch', [ 'build', 'compile-handlebars', 'sprite', 'cssnext' ], function () {
 	gulp.watch( config.watch.hb, [ 'compile-handlebars' ] );
 	gulp.watch( config.watch.sprites, [ 'sprite' ] );
-
+	gulp.watch( config.watch.cssnext, [ 'cssnext' ] );
 } );
 
 /**
@@ -257,8 +285,9 @@ gulp.task( 'sprite', function () {
 		split: true,
 		margin: 0
 	} )
-	.pipe( gulpif( '*.png', gulp.dest( baseDir + 'assets/img/' ), gulp.dest( baseDir + 'assets/css/' ) ) );
+	.pipe( plugins[ 'if' ]( '*.png', gulp.dest( baseDir + 'assets/img/' ), gulp.dest( baseDir + 'assets/css/' ) ) );
 } );
 
-gulp.task( 'default', [ 'build', 'lint', 'compile-handlebars', 'sprite', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
+gulp.task( 'default', [ 'build', 'lint', 'compile-handlebars', 'sprite', 'cssnext', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
+
 gulp.task( 'test', [ 'lint' ] );
