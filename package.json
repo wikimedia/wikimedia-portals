@@ -24,8 +24,10 @@
     "gulp-useref": "^3.0.5",
     "handlebars": "^4.0.4",
     "imagemin-pngquant": "^4.2.0",
+    "lwip": "0.0.8",
     "moment": "^2.10.6",
     "preq": "^0.4.6",
+    "sprity": "^1.0.8",
     "underscore": "^1.8.3",
     "yargs": "^3.29.0"
   }
