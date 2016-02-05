@@ -82,9 +82,15 @@ hr {
     height: 26em;
 }
 
-.central-featured-logo-wrapper{
-    vertical-align: middle;
-    line-height: 26em;
+.central-featured-logo {
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 200px auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .central-featured-lang {
@@ -235,9 +241,12 @@ hr {
 }
 
 .bookshelf-container .bookend {
-    display: inline-block;
+    display: -moz-inline-stack; display: inline-block;
+    background-image: url(//upload.wikimedia.org/wikipedia/commons/b/bd/Bookshelf-40x201_6.png);
+    background-repeat: repeat-x;
+    width: 480px;
+    height: 20px;
     vertical-align: top;
-
 }
 
 .langlist {
@@ -280,26 +289,10 @@ hr {
     margin: 0 auto;
 }
 
-.sprite-project-logos-wrapper{
+.otherprojects-item .icon {
+    display: -moz-inline-stack; display: inline-block;
     width: 47px;
-    display: -moz-inline-stack; display: inline-block;
     text-align: center;
-    vertical-align: middle;
-}
-
-.otherprojects-item .sprite-project-logos{
-    display: -moz-inline-stack; display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-}
-.otherprojects-item .otherprojects-item-name {
-    vertical-align: middle;
-}
-
-.sprite-project-logos-Wikispecies-logo_sister {
-    background-position: -0px -324px !important;
-    width: 35px !important;
-    height: 40px !important;
 }
 
 .wm-site-info {
@@ -402,7 +395,8 @@ hr {
         top: -70px;
         margin-top: -4em;
         width: 70px;
-        position: absolute;
+        height: 70px;
+        background-size: 70px auto;
     }
     .central-featured-lang {
         right: auto;
@@ -514,12 +508,14 @@ hr {
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
     .bookshelf-container .bookend {
+        background-image: url(//upload.wikimedia.org/wikipedia/meta/5/52/Bookshelf-40x20_1.5x.png);
         background-size: 40px auto;
     }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
     .bookshelf-container .bookend {
+        background-image: url(//upload.wikimedia.org/wikipedia/meta/4/46/Bookshelf-40x20_2x.png);
         background-size: 40px auto;
     }
 }
@@ -559,10 +555,6 @@ hr {
     padding: 1px 8px;
     margin-left: .3em;
     vertical-align: top;
-}
-.formBtn .sprite-bookshelf_icons-search_icon {
-    display: inline-block;
-    vertical-align: middle;
 }
 .formBtn:focus {
     background-color: #c0c0c0;
