@@ -133,7 +133,7 @@ a:hover, a:active {  text-decoration: none;  }
   overflow: hidden;
  }
 #search-container-pab1 #searchLanguage li.selected a {
-  background: #347bff;
+  background: var(--c-primary);
   color: #fff;
  }
 

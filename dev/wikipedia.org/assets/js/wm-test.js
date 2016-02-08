@@ -16,8 +16,8 @@ window.wmTest = ( function ( eventLoggingLite ) {
 			EXPIRES: 'portal_test_group_expires'
 		},
 
-		// You can allow a test-only mode (no eventlogging)
-		// e.g: testOnly = (location.hash.slice( 1 ) === 'pab1')
+	// You can allow a test-only mode (no eventlogging)
+	// e.g: testOnly = (location.hash.slice( 1 ) === 'pab1')
 		testOnly = false;
 
 	/**
@@ -94,15 +94,7 @@ window.wmTest = ( function ( eventLoggingLite ) {
 		 *
 		 * @type {string}
 		 */
-		group: group,
-
-		/**
-		 * Whether user is part of AB test 1 or 2
-		 *
-		 * @type {boolean}
-		 */
-		abtest1: ( group === 'abtest2' || group === 'abtest1' ),
-		abtest2: ( group === 'abtest2' )
+		group: group
 	};
 
 }( eventLoggingLite ) );

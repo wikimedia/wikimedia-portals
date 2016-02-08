@@ -3,4 +3,7 @@
 */
 :root {
     --c-primary: #165c91;
+    --c-primary-hover: #18649e;
+    --c-primary-active: #134e7b;
+    --c-primary-focus: var(--c-primary);
 }
