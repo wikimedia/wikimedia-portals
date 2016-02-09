@@ -217,10 +217,6 @@ hr {
 
 .bookshelf {
     display: block;
-    width: 300%;
-    overflow: hidden;
-    position: relative;
-    left: -100%;
     text-align: center;
     white-space: nowrap;
 }

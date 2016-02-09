@@ -11,7 +11,9 @@ var gulp = require( 'gulp' ),
 	fs = require( 'fs' ),
 	sprity = require( 'sprity' ),
 	postCSSNext = require( 'postcss-cssnext' ),
-	postCSSImport = require( 'postcss-import' );
+	postCSSImport = require( 'postcss-import' ),
+	autoprefixer = require( 'autoprefixer' ),
+	postCSSSimple = require( 'postcss-csssimple' );
 
 var baseDir, prodDir,
 	plugins = gulpLoadPlugins(),
@@ -98,7 +100,7 @@ gulp.task( 'build', function () {
 
 	config.watch = {
 		sprites: [ baseDir + 'assets/img/sprite_assets/**/*' ],
-		cssnext: baseDir + 'assets/cssnext/*.css',
+		postcss: baseDir + 'assets/postcss/*.css',
 		hb: [ baseDir + '*.handlebars',
 			baseDir + '.json',
 			baseDir + 'controller.js',
@@ -135,19 +137,21 @@ gulp.task( 'compile-handlebars', function () {
 } );
 
 /**
- * Compiles CSSNext files into regular CSS and
+ * Compiles postCSS files into regular CSS and
  * outputs them into the CSS dev folder.
  */
-gulp.task( 'cssnext', function () {
+gulp.task( 'postcss', function () {
 
 	if ( !baseDir ) {
 		gulp.start( 'build' );
 	}
 
-	return gulp.src( baseDir + 'assets/cssnext/style.css' )
+	return gulp.src( [ baseDir + 'assets/postcss/*.css', '!' + baseDir + 'assets/postcss/_*.css' ] )
 		.pipe( plugins.postcss( [
 			postCSSImport(),
-			postCSSNext()
+			postCSSNext(),
+			autoprefixer( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } ),
+			postCSSSimple()
 		],
 			{ map: { inline: true } }
 		) )
@@ -158,7 +162,7 @@ gulp.task( 'cssnext', function () {
  * Inlines assets of index.html in dev folder,
  * moves index.html into prod folder
  */
-gulp.task( 'inline-assets', [ 'compile-handlebars', 'cssnext' ], function () {
+gulp.task( 'inline-assets', [ 'compile-handlebars', 'postcss' ], function () {
 	return gulp.src( config.inline.src )
 		.pipe( plugins.inline( config.inline.options ) )
 		.pipe( gulp.dest( prodDir ) );
@@ -210,13 +214,13 @@ gulp.task( 'optimize-images', [ 'build' ], function () {
 /**
  * Watches for changes in dev folder and compiles:
  * - handlebars templates
- * - CSSNext files
+ * - postCSS files
  * into dev folder.
  */
-gulp.task( 'watch', [ 'build', 'compile-handlebars', 'sprite', 'cssnext' ], function () {
+gulp.task( 'watch', [ 'build', 'compile-handlebars', 'sprite', 'postcss' ], function () {
 	gulp.watch( config.watch.hb, [ 'compile-handlebars' ] );
 	gulp.watch( config.watch.sprites, [ 'sprite' ] );
-	gulp.watch( config.watch.cssnext, [ 'cssnext' ] );
+	gulp.watch( config.watch.postcss, [ 'postcss' ] );
 } );
 
 /**
@@ -288,6 +292,6 @@ gulp.task( 'sprite', function () {
 	.pipe( plugins[ 'if' ]( '*.png', gulp.dest( baseDir + 'assets/img/' ), gulp.dest( baseDir + 'assets/css/' ) ) );
 } );
 
-gulp.task( 'default', [ 'build', 'lint', 'compile-handlebars', 'sprite', 'cssnext', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
+gulp.task( 'default', [ 'build', 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
 
 gulp.task( 'test', [ 'lint' ] );

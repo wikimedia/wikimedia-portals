@@ -11,9 +11,6 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/sprites.css">
 
-<!--[if lt IE 8]><style type="text/css">
-.bookshelf-container .bookend,.otherprojects-icon{zoom:1;display:inline}
-</style><![endif]-->
 </head>
 <body id="www-wikipedia-org">
 
@@ -41,6 +38,7 @@
 
 {{> footer-links}}
 
+<![if gte IE 7]>
 <!-- build:js portal/wikipedia.org/assets/js/index.js -->
 <script src="assets/js/polyfills.js"></script>
 <script src="assets/js/event-logging-lite.js"></script>
@@ -52,5 +50,7 @@
 <script src="assets/js/wm-portal.js"></script>
 <script src="assets/js/pab2.js"></script>
 <!-- endbuild -->
+<![endif]>
+
 </body>
 </html>

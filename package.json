@@ -4,9 +4,10 @@
     "test": "node ./tests/lint.js"
   },
   "devDependencies": {
+    "autoprefixer": "^6.3.1",
     "bluebird": "^3.0.5",
-    "del": "^2.2.0",
     "cssnext": "^1.8.4",
+    "del": "^2.2.0",
     "gulp": "^3.9.0",
     "gulp-compile-handlebars": "^0.5.0",
     "gulp-downloader": "^1.0.4",
@@ -29,6 +30,7 @@
     "lwip": "0.0.8",
     "moment": "^2.10.6",
     "postcss-cssnext": "^2.4.0",
+    "postcss-csssimple": "^1.1.1",
     "postcss-import": "^8.0.2",
     "preq": "^0.4.6",
     "sprity": "^1.0.8",

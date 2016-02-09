@@ -9,26 +9,27 @@ a:hover, a:active {  text-decoration: none;  }
 
 /* Make the search input and buttons bigger */
 
-#search-container-pab1.search-container input[type="search"]#searchInput {
+#search-container-pab1.search-container #searchInput {
   padding: 0.5rem 1rem;
   font-size: 1.00rem;
   line-height: 1.6rem;
   width: 100%;
   padding-right: 4rem;
+  height: 2.7rem;
  }
-#search-container-pab1.search-container button[type="submit"] {
+
+#search-container-pab1.search-container button {
     padding: 0.5rem 1rem;
     vertical-align: middle;
     margin: 0;
     line-height: 1.6rem;
     font-size: 1rem;
- }
+}
 
 #search-container-pab1.search-container .sprite-bookshelf_icons-search-icon{
     display: inline-block;
     vertical-align: middle;
 }
-
 
 /*--- CSS tricks to make the input a simple input */
 /* Removing the padding/indent of input[type="search"] on WebKit browsers */
@@ -154,20 +155,24 @@ a:hover, a:active {  text-decoration: none;  }
 
 /* Responsive mode */
 @media only screen and (max-width: 480px) {
+
     #search-container-pab1 .pure-form fieldset {
          margin-left: 5px;
-         margin-right: 5px;
+         margin-right: 80px;
      }
+
     #search-container-pab1 .search-input {
-          width: calc(100% - 70px);
-          margin-left: 5px;
+        margin-left: 5px;
+        margin-right: -70px;
+        width: 100%;
       }
     #search-container-pab1 button[type=submit] .btn-text {
-          display: none;
+        display: none;
       }
-    #search-container-pab1 .pure-form button[type=submit] {
-          margin-top: 0px;
-          float: right;
+    #search-container-pab1 .pure-form button {
+        float: right;
+        padding: 0.5rem 1rem;
+        right: -70px;
       }
     #search-container-pab1.search-container {
           margin-top: .2em;
@@ -188,29 +193,9 @@ a:hover, a:active {  text-decoration: none;  }
 
 /* This animation is just to flash the text once you selected a different language */
 .flash-text {
-  -webkit-animation: color-change 1s;
-  -moz-animation: color-change 1s;
-  -o-animation: color-change 1s;
-  -ms-animation: color-change 1s;
   animation: color-change 1s;
  }
 
-@-webkit-keyframes color-change {
-    0% { color: #333; }
-    100% { color: #969696; }
-}
-@-moz-keyframes color-change {
-    0% { color: #333; }
-    100% { color: #969696; }
-}
-@-ms-keyframes color-change {
-    0% { color: #333; }
-    100% { color: #969696; }
-}
-@-o-keyframes color-change {
-    0% { color: #333; }
-    100% { color: #969696; }
-}
 @keyframes color-change {
     0% { color: #333; }
     100% { color: #969696; }

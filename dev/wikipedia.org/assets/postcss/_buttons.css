@@ -43,9 +43,6 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     min-width: 1em;
     border-radius: 2px;
     position: relative;
-    -webkit-transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
-    -moz-transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
-    -o-transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
     transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
     font-weight: bold;
     text-decoration: none;
