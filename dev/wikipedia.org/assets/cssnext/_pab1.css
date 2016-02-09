@@ -8,24 +8,26 @@ a:hover, a:active {  text-decoration: none;  }
  }
 
 /* Make the search input and buttons bigger */
+
 #search-container-pab1.search-container input[type="search"]#searchInput {
-  padding: 0.85rem;
+  padding: 0.5rem 1rem;
   font-size: 1.00rem;
+  line-height: 1.6rem;
   width: 100%;
   padding-right: 4rem;
  }
 #search-container-pab1.search-container button[type="submit"] {
-  padding: 0.74rem;
-  font-size: 1.00rem;
-
-  font-weight: normal;
+    padding: 0.5rem 1rem;
+    vertical-align: middle;
     margin: 0;
+    line-height: 1.6rem;
+    font-size: 1rem;
  }
-#search-container-pab1.search-container button[type="submit"] i {
-  font-size: 1.1rem;
-  margin-right: 0.2rem;
-  font-weight: bold;
- }
+
+#search-container-pab1.search-container .sprite-bookshelf_icons-search-icon{
+    display: inline-block;
+    vertical-align: middle;
+}
 
 
 /*--- CSS tricks to make the input a simple input */
@@ -139,33 +141,15 @@ a:hover, a:active {  text-decoration: none;  }
 
 #search-container-pab1 .icon-search {
     display: inline-block;
-    width: 17px;
-    height: 17px;
-    /* @embed */
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAARZJREFUSIntlEFOAkEURH9GoqcQomeQuHABCdfgCMYDYDBcwoULD2CQS3AaQnQluPJVufBPwgIGBzExxNr0pn696p7pjvjXn5akHjAB5nxpDjzb7v4o2HYDeHSFgAfbjZ0AZTiwkDSw3bRdSGpJugWWJaR2uKTeSvjFBk+7hEjq1G0/ycHBliLDLDKuC5jnMTe3AM4SMKsLIAFFlc/2UQI+qnzrQl4z4HRLl1auL3UB01z7VYO2+xERRVFMq3zrBru59aWk9jqPpEvgPX+Gq1qAiIi8RCVkmB/0yPa5pLsyHKjXfmUXjRLyDY12gkRESOoAY2CWb9EMeALu9wbZJNujw4BIugEWwJuk670DEnJi+/hXwg9fn/bOqAnrWpeuAAAAAElFTkSuQmCC);
-    background: url(portal/wikipedia.org/assets/img/search-ltr-invert.png?3651e)!ie;
     position: relative;
     top: 1px;
     margin-right: 4px;
     bottom: 0;
-    background-size: 120%;
 }
 
-#search-container-pab1 .icon-caret-down {
-    font-size: 1.1rem;
-    margin-right: .2rem;
-    font-weight: 700;
+#search-container-pab1 .sprite-bookshelf_icons-caretDown {
     display: inline-block;
-    width: 11px;
-    height: 11px;
-    /* @embed */
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAJhJREFUSIntzssGQlEUgOGPHqV3aBwNokGUHqDXiC4SkRTpHRtH0m1wmqw9OaSOTpOcnzXYrPXZVFV9Wy33rqOHY0yRGhjigsOrpQ0ynNAsgA/wiNvRu+V9LJ7RKoiPP/3RLg4uaJeNp7ZxeEXnDT4piqfWAdzQLRtPrQK6o5/Dp9/iqWWAj1/gqUXAGWZl46n5L/Gqqn/tCQpXL0v6B3biAAAAAElFTkSuQmCC);
-    background: url(portal/wikipedia.org/assets/img/caretDown.png?186dc)!ie;
-    position: relative;
-    top: 3px;
-    margin-right: 0px;
-    bottom: 0;
-    background-size: 100%;
+    vertical-align: middle;
 }
 
 /* Responsive mode */
@@ -175,7 +159,7 @@ a:hover, a:active {  text-decoration: none;  }
          margin-right: 5px;
      }
     #search-container-pab1 .search-input {
-          width: calc(100% - 55px);
+          width: calc(100% - 70px);
           margin-left: 5px;
       }
     #search-container-pab1 button[type=submit] .btn-text {
@@ -184,14 +168,11 @@ a:hover, a:active {  text-decoration: none;  }
     #search-container-pab1 .pure-form button[type=submit] {
           margin-top: 0px;
           float: right;
-          padding: 0.4em;
       }
     #search-container-pab1.search-container {
           margin-top: .2em;
       }
-    #search-container-pab1.search-container input[type="search"]#searchInput {
-          padding: 0.7em;
-      }
+
     #search-container-pab1.search-container .language-picker {
           top: 10px;
           bottom: 12px;
