@@ -16,7 +16,7 @@
  * Validate with JSLint or JSHint.
  *
  */
-/* global _, addEvent, doWhenReady */
+/* global _, addEvent, doWhenReady, getIso639, getDevicePixelRatio */
 
 ( function ( ) {
 	'use strict';
@@ -319,44 +319,6 @@
 	// full srcset syntax added.
 
 	/**
-	 * Detects reported or approximate device pixel ratio.
-	 * * 1.0 means 1 CSS pixel is 1 hardware pixel
-	 * * 2.0 means 1 CSS pixel is 2 hardware pixels
-	 * * etc.
-	 *
-	 * Uses window.devicePixelRatio if available, or CSS media queries on IE.
-	 *
-	 * @returns {number} Device pixel ratio
-	 */
-	function devicePixelRatio() {
-		if ( window.devicePixelRatio !== undefined ) {
-			// Most web browsers:
-			// * WebKit (Safari, Chrome, Android browser, etc)
-			// * Opera
-			// * Firefox 18+
-			return window.devicePixelRatio;
-		} else if ( window.msMatchMedia !== undefined ) {
-			// Windows 8 desktops / tablets, probably Windows Phone 8
-			//
-			// IE 10 doesn't report pixel ratio directly, but we can get the
-			// screen DPI and divide by 96. We'll bracket to [1, 1.5, 2.0] for
-			// simplicity, but you may get different values depending on zoom
-			// factor, size of screen and orientation in Metro IE.
-			if ( window.msMatchMedia( '(min-resolution: 192dpi)' ).matches ) {
-				return 2;
-			} else if ( window.msMatchMedia( '(min-resolution: 144dpi)' ).matches ) {
-				return 1.5;
-			} else {
-				return 1;
-			}
-		} else {
-			// Legacy browsers...
-			// Assume 1 if unknown.
-			return 1;
-		}
-	}
-
-	/**
 	 * Matches a srcset entry for the given device pixel ratio.
 	 *
 	 * @param {number} devicePixelRatio
@@ -390,7 +352,7 @@
 	 */
 	function hidpi() {
 		var imgs, i,
-			ratio = devicePixelRatio(),
+			ratio = getDevicePixelRatio(),
 			testImage = new Image();
 
 		if ( ratio > 1 && testImage.srcset === undefined ) {

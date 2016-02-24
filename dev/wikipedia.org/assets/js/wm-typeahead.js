@@ -17,7 +17,7 @@
  *
 */
 
-/* global addEvent, mw */
+/* global addEvent, mw, getDevicePixelRatio */
 /* exported WMTypeAhead */
 
 var WMTypeAhead = function ( appendTo, searchInput ) {
@@ -26,8 +26,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		typeAheadEl = document.getElementById( typeAheadID ), // type-ahead DOM element.
 		appendEl = document.getElementById( appendTo ),
 		searchEl = document.getElementById( searchInput ),
-		thumbnailSize = ( window.devicePixelRatio ) ? window.devicePixelRatio * 80 : 80,
 		keyboardIndex = -1,
+		thumbnailSize = getDevicePixelRatio() * 80,
 		searchLang,
 		searchString,
 		typeAheadItems,
@@ -54,6 +54,24 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			}
 		}
 		return serialized.join( '&' );
+	}
+
+	/**
+	 * Removes the type-ahead suggestions from the DOM.
+	 * Reason for timeout: The typeahead is set to clear on input blur.
+	 * When a user clicks on a search suggestion, they triggers the input blur
+	 * and remove the typeahead before a click event is registered.
+	 * The timeout makes it so a click on the search suggestion is registered before
+	 * an input blur.
+	 * 300ms is used to account for the click delay on mobile devices.
+	 *
+	 */
+	function clearTypeAhead() {
+		setTimeout( function () {
+			typeAheadEl.innerHTML = '';
+			var searchScript = document.getElementById( 'api_opensearch' );
+			if ( searchScript ) { searchScript.src = false; }
+		}, 300 );
 	}
 
 	/**
@@ -105,6 +123,34 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		docHead.appendChild( script );
 	}
 	// END loadQueryScript
+
+	/**
+	 * Highlights the part of the suggestion title that matches the search query.
+	 * Used inside the generateTemplateString function.
+	 *
+	 * @param {string} title - the title of the search suggestion.
+	 * @param {string} searchString - the string to highlight
+	 * @returns {string} the title with highlighted part in an <em> tag.
+	 */
+	function highlightTitle( title, searchString ) {
+
+		var sanitizedSearchString = mw.html.escape( searchString ),
+			searchRegex = new RegExp( sanitizedSearchString, 'i' ),
+			startHighlightIndex = title.search( searchRegex ),
+			formattedTitle = mw.html.escape( title );
+
+		if ( startHighlightIndex >= 0 ) {
+
+			var endHighlightIndex = startHighlightIndex + sanitizedSearchString.length,
+				strong = title.substring( startHighlightIndex, endHighlightIndex ),
+				beforeHighlight = title.substring( 0, startHighlightIndex ),
+				aferHighlight = title.substring( endHighlightIndex, title.length );
+
+			formattedTitle = beforeHighlight + mw.html.element( 'em', { 'class': 'suggestion-highlight' }, strong ) + aferHighlight;
+		}
+
+		return formattedTitle;
+	} // END highlightTitle
 
 	/**
 	 * Generates a template string based on an array of search suggestions.
@@ -160,52 +206,6 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 
 		return string;
 	} // END generateTemplateString
-
-	/**
-	 * Removes the type-ahead suggestions from the DOM.
-	 * Reason for timeout: The typeahead is set to clear on input blur.
-	 * When a user clicks on a search suggestion, they triggers the input blur
-	 * and remove the typeahead before a click event is registered.
-	 * The timeout makes it so a click on the search suggestion is registered before
-	 * an input blur.
-	 * 300ms is used to account for the click delay on mobile devices.
-	 *
-	 */
-	function clearTypeAhead() {
-		setTimeout( function () {
-			typeAheadEl.innerHTML = '';
-			var searchScript = document.getElementById( 'api_opensearch' );
-			if ( searchScript ) { searchScript.src = false; }
-		}, 300 );
-	}
-
-	/**
-	 * Highlights the part of the suggestion title that matches the search query.
-	 * Used inside the generateTemplateString function.
-	 *
-	 * @param {string} title - the title of the search suggestion.
-	 * @param {string} searchString - the string to highlight
-	 * @returns {string} the title with highlighted part in an <em> tag.
-	 */
-	function highlightTitle( title, searchString ) {
-
-		var sanitizedSearchString = mw.html.escape( searchString ),
-			searchRegex = new RegExp( sanitizedSearchString, 'i' ),
-			startHighlightIndex = title.search( searchRegex ),
-			formattedTitle = mw.html.escape( title );
-
-		if ( startHighlightIndex >= 0 ) {
-
-			var endHighlightIndex = startHighlightIndex + sanitizedSearchString.length,
-				strong = title.substring( startHighlightIndex, endHighlightIndex ),
-				beforeHighlight = title.substring( 0, startHighlightIndex ),
-				aferHighlight = title.substring( endHighlightIndex, title.length );
-
-			formattedTitle = beforeHighlight + mw.html.element( 'em', { 'class': 'suggestion-highlight' }, strong ) + aferHighlight;
-		}
-
-		return formattedTitle;
-	} // END highlightTitle
 
 	/**
 	 * Search API callback.

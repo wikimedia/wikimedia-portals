@@ -1,12 +1,12 @@
 // jscs:disable requireCamelCaseOrUpperCaseIdentifiers
-/*global
- eventLoggingLite
- */
+/*global mw, eventLoggingLite, getIso639 */
 
-window.wmTest = ( function ( eventLoggingLite ) {
+window.wmTest = ( function ( eventLoggingLite, mw ) {
 
 	'use strict';
 	var sessionId = eventLoggingLite.generateRandomSessionId(),
+		pabTest3 = 'language-detection-b',
+		controlGroup = 'language-detection-a',
 		populationSize = 2, // population size for beta or dev
 		group,
 		sessionExpiration = 15 * 60 * 1000, // 15 minutes
@@ -19,7 +19,7 @@ window.wmTest = ( function ( eventLoggingLite ) {
 
 	// You can allow a test-only mode (no eventlogging)
 	// e.g: testOnly = (location.hash.slice( 1 ) === 'pab1')
-		testOnly = false;
+		testOnly = location.hash.slice( 1 ) === pabTest3 || location.hash.slice( 1 ) === controlGroup;
 
 	/**
 	 * If we're on production, increase population size.
@@ -45,40 +45,33 @@ window.wmTest = ( function ( eventLoggingLite ) {
 	 * Puts the user in a population group randomly.
 	 */
 	function getTestGroup( sessionId ) {
+
+		var group = 'rejected';
 		// 1:populationSize of the people are tested (baseline)
 		if ( oneIn( sessionId, populationSize ) ) {
-			return 'baseline';
 
-		} else {
-			return 'rejected';
-		}
-	}
+			var groupIndex = Math.floor( Math.random() * ( 10 ) ) + 1;
 
-	/**
-	 * Tests if `localStorage` is enabled and usable.
-	 *
-	 * @return {boolean} Whether we can use the `localStorage`.
-	 */
-	function isLocalStorageEnabled() {
-		if ( !( 'localStorage' in window ) ) {
-			return false;
+			switch ( groupIndex ) {
+				case 1:
+					group = pabTest3;
+					break;
+				case 2:
+					group = controlGroup;
+					break;
+				default:
+					group = 'baseline';
+			}
 		}
-		var test = 'lsTest';
-		try {
-			localStorage.setItem( test, test );
-			localStorage.removeItem( test );
-			return true;
-		} catch ( err ) {
-			return false;
-		}
+		return group;
 	}
 
 	if ( testOnly ) {
 		group = location.hash.slice( 1 );
-	} else if ( isLocalStorageEnabled() ) {
-		var portalGroup = localStorage.getItem( KEYS.GROUP ),
-			portalSessionId = localStorage.getItem( KEYS.SESSION_ID ),
-			expires = localStorage.getItem( KEYS.EXPIRES ),
+	} else if ( window.localStorage && !/1|yes/.test( navigator.doNotTrack ) ) {
+		var portalGroup = mw.storage.get( KEYS.GROUP ),
+			portalSessionId = mw.storage.get( KEYS.SESSION_ID ),
+			expires = mw.storage.get( KEYS.EXPIRES ),
 			now = new Date().getTime();
 		if ( expires &&
 			portalSessionId &&
@@ -90,11 +83,11 @@ window.wmTest = ( function ( eventLoggingLite ) {
 			group = portalGroup === 'null' ? null : portalGroup;
 		} else {
 			group = getTestGroup( sessionId );
-			localStorage.setItem( KEYS.SESSION_ID, sessionId );
-			localStorage.setItem( KEYS.GROUP, group );
+			mw.storage.set( KEYS.SESSION_ID, sessionId );
+			mw.storage.set( KEYS.GROUP, group );
 		}
 		// set or extend for 15 more minutes
-		localStorage.setItem( KEYS.EXPIRES, now + sessionExpiration );
+		mw.storage.set( KEYS.EXPIRES, now + sessionExpiration );
 	} else {
 		group = 'rejected';
 	}
@@ -149,7 +142,19 @@ window.wmTest = ( function ( eventLoggingLite ) {
 		 *
 		 * @type {string}
 		 */
-		group: group
+		group: group,
+
+		/**
+		 * the one in x population.
+		 * @type {int}
+		 */
+		populationSize: populationSize,
+
+		/**
+		 * getTestGroup function exposed publicly for testing purposes.
+		 */
+		getTestGroup: getTestGroup
+
 	};
 
-}( eventLoggingLite ) );
+}( eventLoggingLite, mw ) );

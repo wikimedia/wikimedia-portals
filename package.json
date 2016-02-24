@@ -2,7 +2,9 @@
   "private": true,
   "scripts": {
     "test": "node ./tests/lint.js",
-    "casperjs": "casperjs test ./tests/casper.js"
+    "casperjs": "casperjs test ./tests/casper.js",
+    "elbucketing": "casperjs test ./tests/elbucketing.js",
+    "el-abtest3": "casperjs test ./tests/el-abtest3.js"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",

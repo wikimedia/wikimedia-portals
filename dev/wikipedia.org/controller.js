@@ -1,6 +1,9 @@
 /* globals require */
 /* globals module */
-var stats = require( '../../stats' ),
+var _ = require( 'underscore' ),
+	hbs = require( '../../hbs-helpers.global.js' ),
+	fs = require( 'fs' ),
+	stats = require( '../../stats' ),
 	otherProjects = require( './other-projects.json' ),
 	otherLanguages = require( './other-languages.json' ),
 	top100000List,
@@ -12,6 +15,25 @@ top100000List = stats.getRange( 'wiki', 'numPages', 100000 );
 top100000Dropdown = stats.format( 'wiki', top100000List, {
 	stripTags: true
 } );
+
+var siteStats = {},
+	range = stats.getRangeFormatted( 'wiki', 'views', 10 );
+_.each( range, function ( wiki ) {
+	if ( wiki.closed ) {
+		return;
+	}
+	wiki.numPages = hbs.formatNumber( wiki.numPages, {
+		hash: {
+			thousandSeparator: true,
+			thousandFloor: true,
+			nbsp: false
+		}
+	} ).toString();
+	siteStats[ wiki.code ] = _.omit( wiki, 'closed', 'code', 'index' );
+} );
+
+var fileName = './dev/wikipedia.org/site-defs.js';
+fs.writeFileSync( fileName, '/* jshint ignore:start */\n/* jscs:disable */\nwmStats = ' + JSON.stringify( siteStats ) );
 
 Controller = {
 	top10views: stats.getTopFormatted( 'wiki', 'views', 10 ),

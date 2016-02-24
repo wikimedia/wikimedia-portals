@@ -163,6 +163,29 @@ if (!Function.prototype.bind) {
 	};
 }
 
+/**
+ * Element.textContent polyfill
+ * https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+ */
+
+if (Object.defineProperty
+	&& Object.getOwnPropertyDescriptor
+	&& Object.getOwnPropertyDescriptor(Element.prototype, "textContent")
+	&& !Object.getOwnPropertyDescriptor(Element.prototype, "textContent").get) {
+	(function() {
+		var innerText = Object.getOwnPropertyDescriptor(Element.prototype, "innerText");
+		Object.defineProperty(Element.prototype, "textContent",
+			{
+				get: function() {
+					return innerText.get.call(this);
+				},
+				set: function(s) {
+					return innerText.set.call(this, s);
+				}
+			}
+		);
+	})();
+}
 
 /**
  * Element.matches polyfill
@@ -178,7 +201,7 @@ if ( window.Element && !Element.prototype.matches ) {
 	};
 }
 
-var attachedEvents = [];
+window.attachedEvents = [];
 
 function addEvent( obj, evt, fn ) {
 
@@ -247,8 +270,13 @@ window.onunload = function () {
 	attachedEvents = [];
 };
 
+
 /**
- * This is not a polyfill, but a globally exposed function to convert strings to iso639.
+ * Below are misc. global functions, not polyfills.
+ */
+
+/**
+ * Converts strings to iso639.
  */
 function getIso639( lang ) {
 	var iso639 = lang && lang.match( /^\w+/ );
@@ -259,3 +287,41 @@ function getIso639( lang ) {
 	return iso639;
 }
 
+/**
+ * Detects reported or approximate device pixel ratio.
+ * * 1.0 means 1 CSS pixel is 1 hardware pixel
+ * * 2.0 means 1 CSS pixel is 2 hardware pixels
+ * * etc.
+ *
+ * Uses window.devicePixelRatio if available, or CSS media queries on IE.
+ *
+ * @returns {number} Device pixel ratio
+ */
+function getDevicePixelRatio () {
+
+	if ( window.devicePixelRatio !== undefined ) {
+		// Most web browsers:
+		// * WebKit (Safari, Chrome, Android browser, etc)
+		// * Opera
+		// * Firefox 18+
+		return window.devicePixelRatio;
+	} else if ( window.msMatchMedia !== undefined ) {
+		// Windows 8 desktops / tablets, probably Windows Phone 8
+		//
+		// IE 10 doesn't report pixel ratio directly, but we can get the
+		// screen DPI and divide by 96. We'll bracket to [1, 1.5, 2.0] for
+		// simplicity, but you may get different values depending on zoom
+		// factor, size of screen and orientation in Metro IE.
+		if ( window.msMatchMedia( '(min-resolution: 192dpi)' ).matches ) {
+			return 2;
+		} else if ( window.msMatchMedia( '(min-resolution: 144dpi)' ).matches ) {
+			return 1.5;
+		} else {
+			return 1;
+		}
+	} else {
+		// Legacy browsers...
+		// Assume 1 if unknown.
+		return 1;
+	}
+}
