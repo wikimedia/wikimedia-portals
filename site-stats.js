@@ -29,7 +29,7 @@ var codeMapping = {
 };
 
 function httpGet( url ) {
-	var preqOptions = { headers: { 'User-Agent': 'Hi Öłïvér!' } };
+	var preqOptions = { headers: { 'User-Agent': 'Wikimedia portals updater' } };
 
 	return preq.get( url, preqOptions )
 		.then( function( request ) {
