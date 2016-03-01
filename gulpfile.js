@@ -58,12 +58,30 @@ function requirePortalParam() {
 	}
 }
 
+function getBaseDir() {
+	requirePortalParam();
+
+	getBaseDir = function () {
+		return 'dev/' + portalParam + '/';
+	};
+	return getBaseDir();
+}
+
+function getProdDir() {
+	requirePortalParam();
+
+	getProdDir = function () {
+		return 'prod/' + portalParam + '/';
+	};
+	return getProdDir();
+}
+
 function getConfig() {
 	var config = {},
 		baseDir, prodDir;
 
-	baseDir = config.baseDir = 'dev/' + portalParam + '/';
-	prodDir = config.prodDir = 'prod/' + portalParam + '/';
+	baseDir = getBaseDir();
+	prodDir = getProdDir();
 
 	config.hb = {
 		src: baseDir + 'index.handlebars',
@@ -121,7 +139,7 @@ function getConfig() {
 	getConfig = function () {
 		return config;
 	};
-	return config;
+	return getConfig();
 }
 
 /* List of tasks
@@ -139,7 +157,7 @@ gulp.task( 'compile-handlebars', function () {
 	return gulp.src( getConfig().hb.src )
 		.pipe( plugins.compileHandlebars( getConfig().hb.templateData, getConfig().hb.options ) )
 		.pipe( plugins.rename( 'index.html' ) )
-		.pipe( gulp.dest( getConfig().baseDir ) );
+		.pipe( gulp.dest( getBaseDir() ) );
 } );
 
 /**
@@ -150,14 +168,14 @@ gulp.task( 'cssnext', function () {
 
 	requirePortalParam();
 
-	return gulp.src( getConfig().baseDir + 'assets/cssnext/style.css' )
+	return gulp.src( getBaseDir() + 'assets/cssnext/style.css' )
 		.pipe( plugins.postcss( [
 			postCSSImport(),
 			postCSSNext()
 		],
 			{ map: { inline: true } }
 		) )
-		.pipe( gulp.dest( getConfig().baseDir + 'assets/css/' ) );
+		.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
 } );
 
 /**
@@ -170,7 +188,7 @@ gulp.task( 'inline-assets', [ 'compile-handlebars', 'cssnext' ], function () {
 
 	return gulp.src( getConfig().inline.src )
 		.pipe( plugins.inline( getConfig().inline.options ) )
-		.pipe( gulp.dest( getConfig().prodDir ) );
+		.pipe( gulp.dest( getProdDir() ) );
 } );
 
 /**
@@ -178,7 +196,7 @@ gulp.task( 'inline-assets', [ 'compile-handlebars', 'cssnext' ], function () {
  */
 gulp.task( 'clean-prod-js', [ 'inline-assets' ], function () {
 	var del = require( 'del' );
-	return del( [ getConfig().prodDir + '/assets/js' ] );
+	return del( [ getProdDir() + '/assets/js' ] );
 } );
 
 /**
@@ -189,13 +207,13 @@ gulp.task( 'concat-minify-js', [ 'clean-prod-js' ], function () {
 	requirePortalParam();
 
 	return gulp.src( getConfig().htmlmin.src )
-		.pipe( plugins.useref( { searchPath: getConfig().baseDir } ) )
+		.pipe( plugins.useref( { searchPath: getBaseDir() } ) )
 		.pipe( plugins[ 'if' ]( '*.js', plugins.uglify() ) )
 		.pipe( plugins[ 'if' ]( '*.js', plugins.rev() ) )
 		.pipe( plugins.revReplace() )
-		.pipe( gulp.dest( getConfig().prodDir ) )
+		.pipe( gulp.dest( getProdDir() ) )
 		.pipe( plugins.rev.manifest() )
-		.pipe( gulp.dest( getConfig().baseDir + 'assets' ) );
+		.pipe( gulp.dest( getBaseDir() + 'assets' ) );
 } );
 
 /**
@@ -208,7 +226,7 @@ gulp.task( 'minify-html', [ 'inline-assets', 'concat-minify-js' ], function () {
 
 	return gulp.src( getConfig().htmlmin.src )
 		.pipe( plugins.htmlmin( getConfig().htmlmin.options ) )
-		.pipe( gulp.dest( getConfig().prodDir ) );
+		.pipe( gulp.dest( getProdDir() ) );
 } );
 
 /**
@@ -276,7 +294,7 @@ gulp.task( 'fetch-meta', function () {
 			url: 'https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw'
 		}
 	} )
-		.pipe( gulp.dest( getConfig().prodDir ) );
+		.pipe( gulp.dest( getProdDir() ) );
 } );
 
 /**
@@ -295,9 +313,9 @@ gulp.task( 'sprite', function () {
 	requirePortalParam();
 
 	return sprity.src( {
-		src: getConfig().baseDir + 'assets/img/sprite_assets/**/*.{png,jpg}',
+		src: getBaseDir() + 'assets/img/sprite_assets/**/*.{png,jpg}',
 		cssPath: 'portal/wikipedia.org/assets/img/',
-		style: getConfig().baseDir + 'assets/css/sprites.css',
+		style: getBaseDir() + 'assets/css/sprites.css',
 		prefix: 'sprite',
 		dimension: [ { ratio: 1, dpi: 72 },
 			{ ratio: 1.5, dpi: 144 },
@@ -306,7 +324,7 @@ gulp.task( 'sprite', function () {
 		split: true,
 		margin: 0
 	} )
-	.pipe( plugins[ 'if' ]( '*.png', gulp.dest( getConfig().baseDir + 'assets/img/' ), gulp.dest( getConfig().baseDir + 'assets/css/' ) ) );
+	.pipe( plugins[ 'if' ]( '*.png', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
 } );
 
 gulp.task( 'default', [ 'lint', 'compile-handlebars', 'sprite', 'cssnext', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
