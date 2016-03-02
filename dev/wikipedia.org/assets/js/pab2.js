@@ -1,6 +1,6 @@
-/* global wmTest, WMTypeAhead, lp, doWhenReady, _, addEvent */
+/* global wmTest, WMTypeAhead, doWhenReady, _, addEvent */
 
-( function ( wmTest, WMTypeAhead, lp ) {
+( function ( wmTest, WMTypeAhead ) {
 	doWhenReady( function () {
 		/**
 		 * Removing all event listeners on search element,
@@ -11,12 +11,6 @@
 			inputEvent;
 
 		search.parentNode.replaceChild( searchClone, search );
-
-		/**
-		 * Updating language selector with new input.
-		 * @type {Node|*}
-		 */
-		lp.searchInput = searchClone;
 
 		searchClone.focus();
 
@@ -35,8 +29,8 @@
 		 * Attaching type-ahead query action to 'input' event.
 		 */
 		addEvent( searchClone, inputEvent, _.debounce( function () {
-			typeAhead.query( searchClone.value, lp.getLanguage() );
+			typeAhead.query( searchClone.value, document.getElementById( 'searchLanguage' ).value );
 		}, 100 ) );
 	} );
 
-}( wmTest, WMTypeAhead, lp ) );
+}( wmTest, WMTypeAhead ) );

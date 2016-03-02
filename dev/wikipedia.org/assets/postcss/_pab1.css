@@ -1,24 +1,26 @@
-/* Normalize links */
-a { cursor: pointer; }
-a:hover, a:active {  text-decoration: none;  }
-
-/* Add margin to the .search-container */
-#search-container-pab1.search-container {
-  margin-top: 2.2rem;
+/**
+ * Search bar below the central logo area
+ */
+.search-container {
+    float: none;
+    margin: 2.2rem auto 1.5em auto;
+    max-width: 95%;
+    padding: 0.3em;
+    text-align: center;
+    vertical-align: middle;
+    width: 540px;
  }
 
-/* Make the search input and buttons bigger */
-
-#search-container-pab1.search-container #searchInput {
+#searchInput {
   padding: 0.5rem 1rem;
   font-size: 1.00rem;
   line-height: 1.6rem;
   width: 100%;
-  padding-right: 4rem;
+  padding-right: 6.4rem;
   height: 2.7rem;
  }
 
-#search-container-pab1.search-container button {
+.search-container button {
     padding: 0.5rem 1rem;
     vertical-align: middle;
     margin: 0;
@@ -26,177 +28,152 @@ a:hover, a:active {  text-decoration: none;  }
     font-size: 1rem;
 }
 
-#search-container-pab1.search-container .sprite-bookshelf_icons-search-icon{
+.search-container .sprite-bookshelf_icons-search-icon {
     display: inline-block;
     vertical-align: middle;
 }
 
-/*--- CSS tricks to make the input a simple input */
-/* Removing the padding/indent of input[type="search"] on WebKit browsers */
-#search-container-pab1 input[type="search"] {
-  -webkit-appearance: textfield;
- }
-#search-container-pab1 input[type="search"]::-webkit-search-decoration,
-#search-container-pab1 input[type="search"]::-webkit-search-cancel-button,
-#search-container-pab1 input[type="search"]::-webkit-search-results-button,
-#search-container-pab1 input[type="search"]::-webkit-search-results-decoration  {
+/*--- CSS tricks to make the search input a simple input */
+.search-container input[type="search"]::-webkit-search-decoration,
+.search-container input[type="search"]::-webkit-search-cancel-button,
+.search-container input[type="search"]::-webkit-search-results-button,
+.search-container input[type="search"]::-webkit-search-results-decoration  {
   -webkit-appearance: none;
  }
-#search-container-pab1 input::-webkit-calendar-picker-indicator {
+.search-container input::-webkit-calendar-picker-indicator {
   display: none;
  }
-#search-container-pab1 input[type=search] {
+#search {
   -webkit-appearance: none;
   border-radius: 0;
  }
 
 /* Language picker */
-#search-container-pab1 .search-input {
+.search-container .search-input {
   display: inline-block;
   width: 73%;
   position: relative;
   vertical-align: top;
   margin-right: .5rem;
  }
-#search-container-pab1 .search-input .language-picker {
-  position: absolute;
-  top: 12px;
-  bottom: 12px;
-  right: 12px;
-  padding-right: 7px;
-  padding-left: 8px;
-  color: #969696;
-  line-height: 24px;
-  border-radius: 4px;
- }
-#search-container-pab1 .search-input .language-picker.active {
-  background-color: #f2f2f2;
-  outline: none;
- }
 
-
-#search-container-pab1 #searchLanguage {
-  background-color: #fff;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 12px;
-  top: 2.6rem;
-  max-width: 12rem;
-  min-width: 7em;
-  text-align: left;
-  max-height: 12rem;
-  overflow-y: scroll;
-  /*border: 1px solid #ccc;*/
-  z-index: 2;
-  display: none;
-  box-shadow: -1px -1px 5px 0px #D0D0D0;
- }
-#search-container-pab1 #searchLanguage.open {
-  display: block;
- }
-
-/* showing language picker scrollbars */
-
-#search-container-pab1 #searchLanguage::-webkit-scrollbar {
-  -webkit-appearance: none;
-}
-
-#search-container-pab1 #searchLanguage::-webkit-scrollbar:vertical {
-  width: 11px;
-}
-
-#search-container-pab1 #searchLanguage::-webkit-scrollbar:horizontal {
-  height: 11px;
-}
-
-#search-container-pab1 #searchLanguage::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  border: 1px solid white; /* should match background, can't be transparent */
-  background-color: rgba(0, 0, 0, .5);
-}
-
-/* END showing language picker scrollbars */
-
-#search-container-pab1 #searchLanguage.open.dropup {
-  top: auto;
-  bottom: 40px;
- }
-
-#search-container-pab1 #searchLanguage li {
-  padding: 0;
-  margin: 0;
- }
-#search-container-pab1 #searchLanguage li a {
-  padding: 0.2rem .5rem;
-  color: #333;
-  display: block;
-  text-overflow: ellipsis;
-  overflow: hidden;
- }
-#search-container-pab1 #searchLanguage li.selected a {
-  background: var(--c-primary);
-  color: #fff;
- }
-
-#search-container-pab1 .icon-search {
-    display: inline-block;
-    position: relative;
-    top: 1px;
-    margin-right: 4px;
-    bottom: 0;
-}
-
-#search-container-pab1 .sprite-bookshelf_icons-caretDown {
+.search-container .sprite-bookshelf_icons-caretDown {
     display: inline-block;
     vertical-align: middle;
+
+    position: absolute;
+    top: 8px;
+    right: 6.5px;
+    margin: 0;
 }
 
 /* Responsive mode */
 @media only screen and (max-width: 480px) {
 
-    #search-container-pab1 .pure-form fieldset {
+    .search-container .pure-form fieldset {
          margin-left: 5px;
          margin-right: 80px;
      }
 
-    #search-container-pab1 .search-input {
+    .search-container .search-input {
         margin-left: 5px;
         margin-right: -70px;
+        margin-bottom: 0;
         width: 100%;
       }
-    #search-container-pab1 button[type=submit] .btn-text {
-        display: none;
-      }
-    #search-container-pab1 .pure-form button {
+    .search-container .pure-form button {
         float: right;
         padding: 0.5rem 1rem;
         right: -70px;
+        margin:0;
       }
-    #search-container-pab1.search-container {
+    .search-container {
           margin-top: .2em;
       }
-
-    #search-container-pab1.search-container .language-picker {
-          top: 10px;
-          bottom: 12px;
-          right: 10px;
-      }
-    #search-container-pab1.search-container button[type=submit] i.icon-search {
-        height: 24px;
-        width: 24px;
-        background-size: 100%;
-        margin-right: 0;
-    }
 }
 
-/* This animation is just to flash the text once you selected a different language */
-.flash-text {
-  animation: color-change 1s;
- }
+.pure-form .styled-select {
+    position: absolute;
+    top: 11px;
+    bottom: 12px;
+    right: 12px;
+    max-width: 95px;
+    height: 24px;
+    width: 95px;
+    padding: 0;
+    margin: 0;
 
-@keyframes color-change {
-    0% { color: #333; }
-    100% { color: #969696; }
+
+    border-radius: 3px;
+}
+.pure-form .styled-select:hover {
+    background-color: #f9f9f9;
+}
+.pure-form .styled-select .hide-arrow {
+    right: 32px;
+    max-width: 68px;
+    width: 68px;
+    height: 24px;
+    padding: 0;
+
+
+    overflow: hidden;
+    text-align: right;
+
+}
+.pure-form .styled-select select {
+    border: none;
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+    display: inline;
+
+    padding: 0 24px 0 8px;
+    height: 24px;
+    max-width: 110px;
+    min-width: 110px;
+    width: 110px;
+
+    line-height: 19.5px;
+
+    background: transparent;
+    color: #969696;
+
+    /*hide default down arrow in webkit */
+    -webkit-appearance: none;
+
+    /* Firefox */
+    -moz-appearance: window;
+    text-indent: 0.01px;
+    text-overflow: '';
+
+    /* Opera */
+    -o-appearance: none !important;
+
+    /* All browsers */
+    appearance: none;
+
+    outline: none;
+    cursor: pointer;
+}
+.pure-form .styled-select select:hover {
+    background-color: #f0f0f0;
+}
+.pure-form .styled-select select::-ms-expand { display: none; } /* hide default down arrow in IE10*/
+
+/* firefox */
+.pure-form .styled-select select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* firefox */
+@-moz-document url-prefix() {
+    .pure-form .styled-select select { width: 110%; }
+}
+
+/* hack to fall back in opera */
+_:-o-prefocus, .selector {
+.pure-form .styled-select select { background: none; }
 }
