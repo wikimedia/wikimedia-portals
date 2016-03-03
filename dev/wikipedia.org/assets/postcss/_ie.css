@@ -44,3 +44,9 @@ files that are placed within HTML comment blocks.
     *position: absolute;
     *left: 13.5em;
 }
+
+#searchInput{
+    *padding: 8px 0px 0px 18px;
+    *width: 90%;
+    *height: 34px;
+}

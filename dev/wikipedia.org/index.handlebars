@@ -38,7 +38,7 @@
 
 {{> footer-links}}
 
-<![if gte IE 7]>
+<![if gt IE 7]>
 <!-- build:js portal/wikipedia.org/assets/js/index.js -->
 <script src="assets/js/polyfills.js"></script>
 <script src="assets/js/event-logging-lite.js"></script>
@@ -50,6 +50,19 @@
 <script src="assets/js/wm-portal.js"></script>
 <script src="assets/js/pab2.js"></script>
 <!-- endbuild -->
+<![endif]>
+
+<![if gt IE 9]>
+<!-- build:js portal/wikipedia.org/assets/js/gt-ie9.js -->
+<script src="assets/js/search-language-picker.js"></script>
+<!-- endbuild -->
+<![endif]>
+<![if lte IE 9]>
+<style>
+    .styled-select {
+        display: block;
+    }
+</style>
 <![endif]>
 
 </body>
