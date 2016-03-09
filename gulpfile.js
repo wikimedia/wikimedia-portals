@@ -15,9 +15,7 @@ var gulp = require( 'gulp' ),
 	autoprefixer = require( 'autoprefixer' ),
 	postCSSSimple = require( 'postcss-csssimple' );
 
-var baseDir, prodDir,
-	plugins = gulpLoadPlugins(),
-	config = {},
+var plugins = gulpLoadPlugins(),
 	portalParam = argv.portal;
 
 // Help
@@ -45,11 +43,14 @@ gulp.task( 'help', function () {
 	console.log();
 } );
 
+/* Preliminary configuration
+ =========================================================================== */
+
 /**
  * Preliminary task for tasks that require the portal param.
  * Also sets config for remaining tasks.
  */
-gulp.task( 'build', function () {
+function requirePortalParam() {
 	if ( !portalParam ) {
 		console.log( '\x1b[31m' );
 		console.log( 'Error: please specify the portal you wish to build.' );
@@ -57,9 +58,33 @@ gulp.task( 'build', function () {
 		console.log( '\x1b[0m' );
 		process.exit( 1 );
 	}
+}
 
-	baseDir = 'dev/' + portalParam + '/';
-	prodDir = 'prod/' + portalParam + '/';
+var getBaseDir, getProdDir, getConfig;
+getBaseDir = function () {
+	requirePortalParam();
+
+	getBaseDir = function () {
+		return 'dev/' + portalParam + '/';
+	};
+	return getBaseDir();
+};
+
+getProdDir = function () {
+	requirePortalParam();
+
+	getProdDir = function () {
+		return 'prod/' + portalParam + '/';
+	};
+	return getProdDir();
+};
+
+getConfig = function () {
+	var config = {},
+		baseDir, prodDir;
+
+	baseDir = getBaseDir();
+	prodDir = getProdDir();
 
 	config.hb = {
 		src: baseDir + 'index.handlebars',
@@ -114,7 +139,11 @@ gulp.task( 'build', function () {
 		dest: prodDir + 'assets/img'
 	};
 
-} );
+	getConfig = function () {
+		return config;
+	};
+	return getConfig();
+};
 
 /* List of tasks
  =========================================================================== */
@@ -126,14 +155,12 @@ gulp.task( 'build', function () {
 
 gulp.task( 'compile-handlebars', function () {
 
-	if ( !config.hb ) {
-		gulp.start( 'build' );
-	}
+	requirePortalParam();
 
-	return gulp.src( config.hb.src )
-		.pipe( plugins.compileHandlebars( config.hb.templateData, config.hb.options ) )
+	return gulp.src( getConfig().hb.src )
+		.pipe( plugins.compileHandlebars( getConfig().hb.templateData, getConfig().hb.options ) )
 		.pipe( plugins.rename( 'index.html' ) )
-		.pipe( gulp.dest( baseDir ) );
+		.pipe( gulp.dest( getBaseDir() ) );
 } );
 
 /**
@@ -142,11 +169,9 @@ gulp.task( 'compile-handlebars', function () {
  */
 gulp.task( 'postcss', function () {
 
-	if ( !baseDir ) {
-		gulp.start( 'build' );
-	}
+	requirePortalParam();
 
-	return gulp.src( [ baseDir + 'assets/postcss/*.css', '!' + baseDir + 'assets/postcss/_*.css' ] )
+	return gulp.src( [ getBaseDir() + 'assets/postcss/*.css', '!' + getBaseDir() + 'assets/postcss/_*.css' ] )
 		.pipe( plugins.postcss( [
 			postCSSImport(),
 			postCSSNext(),
@@ -155,7 +180,7 @@ gulp.task( 'postcss', function () {
 		],
 			{ map: { inline: true } }
 		) )
-		.pipe( gulp.dest( baseDir + 'assets/css/' ) );
+		.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
 } );
 
 /**
@@ -163,9 +188,12 @@ gulp.task( 'postcss', function () {
  * moves index.html into prod folder
  */
 gulp.task( 'inline-assets', [ 'compile-handlebars', 'postcss' ], function () {
-	return gulp.src( config.inline.src )
-		.pipe( plugins.inline( config.inline.options ) )
-		.pipe( gulp.dest( prodDir ) );
+
+	requirePortalParam();
+
+	return gulp.src( getConfig().inline.src )
+		.pipe( plugins.inline( getConfig().inline.options ) )
+		.pipe( gulp.dest( getProdDir() ) );
 } );
 
 /**
@@ -173,7 +201,7 @@ gulp.task( 'inline-assets', [ 'compile-handlebars', 'postcss' ], function () {
  */
 gulp.task( 'clean-prod-js', [ 'inline-assets' ], function () {
 	var del = require( 'del' );
-	return del( [ prodDir + '/assets/js' ] );
+	return del( [ getProdDir() + '/assets/js' ] );
 } );
 
 /**
@@ -181,14 +209,16 @@ gulp.task( 'clean-prod-js', [ 'inline-assets' ], function () {
  */
 gulp.task( 'concat-minify-js', [ 'clean-prod-js' ], function () {
 
-	return gulp.src( config.htmlmin.src )
-		.pipe( plugins.useref( { searchPath: baseDir } ) )
+	requirePortalParam();
+
+	return gulp.src( getConfig().htmlmin.src )
+		.pipe( plugins.useref( { searchPath: getBaseDir() } ) )
 		.pipe( plugins[ 'if' ]( '*.js', plugins.uglify() ) )
 		.pipe( plugins[ 'if' ]( '*.js', plugins.rev() ) )
 		.pipe( plugins.revReplace() )
-		.pipe( gulp.dest( prodDir ) )
+		.pipe( gulp.dest( getProdDir() ) )
 		.pipe( plugins.rev.manifest() )
-		.pipe( gulp.dest( baseDir + 'assets' ) );
+		.pipe( gulp.dest( getBaseDir() + 'assets' ) );
 } );
 
 /**
@@ -196,19 +226,25 @@ gulp.task( 'concat-minify-js', [ 'clean-prod-js' ], function () {
  * depends on inline-assets which moves index.html from dev to prod.
  */
 gulp.task( 'minify-html', [ 'inline-assets', 'concat-minify-js' ], function () {
-	return gulp.src( config.htmlmin.src )
-		.pipe( plugins.htmlmin( config.htmlmin.options ) )
-		.pipe( gulp.dest( prodDir ) );
+
+	requirePortalParam();
+
+	return gulp.src( getConfig().htmlmin.src )
+		.pipe( plugins.htmlmin( getConfig().htmlmin.options ) )
+		.pipe( gulp.dest( getProdDir() ) );
 } );
 
 /**
  * Optimizes images in dev folder and moves them into prod folder
  */
-gulp.task( 'optimize-images', [ 'build' ], function () {
-	return gulp.src( config.optImage.src )
+gulp.task( 'optimize-images', function () {
+
+	requirePortalParam();
+
+	return gulp.src( getConfig().optImage.src )
 		.pipe( plugins.imagemin() )
-		.pipe( imageminPngquant( config.optImage.pngQuantOptions )() )
-		.pipe( gulp.dest( config.optImage.dest ) );
+		.pipe( imageminPngquant( getConfig().optImage.pngQuantOptions )() )
+		.pipe( gulp.dest( getConfig().optImage.dest ) );
 } );
 
 /**
@@ -217,10 +253,13 @@ gulp.task( 'optimize-images', [ 'build' ], function () {
  * - postCSS files
  * into dev folder.
  */
-gulp.task( 'watch', [ 'build', 'compile-handlebars', 'sprite', 'postcss' ], function () {
-	gulp.watch( config.watch.hb, [ 'compile-handlebars' ] );
-	gulp.watch( config.watch.sprites, [ 'sprite' ] );
-	gulp.watch( config.watch.postcss, [ 'postcss' ] );
+gulp.task( 'watch', [ 'compile-handlebars', 'sprite', 'postcss' ], function () {
+
+	requirePortalParam();
+
+	gulp.watch( getConfig().watch.hb, [ 'compile-handlebars' ] );
+	gulp.watch( getConfig().watch.sprites, [ 'sprite' ] );
+	gulp.watch( getConfig().watch.postcss, [ 'postcss' ] );
 } );
 
 /**
@@ -245,7 +284,10 @@ gulp.task( 'update-stats', function () {
 	} );
 } );
 
-gulp.task( 'fetch-meta', [ 'build' ], function () {
+gulp.task( 'fetch-meta', function () {
+
+	requirePortalParam();
+
 	if ( portalParam === 'wikipedia.org' ) {
 		console.log( 'Cannot override ' + portalParam + ' portal using fetch-meta.' );
 		process.exit( 1 );
@@ -257,7 +299,7 @@ gulp.task( 'fetch-meta', [ 'build' ], function () {
 			url: 'https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw'
 		}
 	} )
-		.pipe( gulp.dest( prodDir ) );
+		.pipe( gulp.dest( getProdDir() ) );
 } );
 
 /**
@@ -273,14 +315,12 @@ gulp.task( 'fetch-meta', [ 'build' ], function () {
  */
 gulp.task( 'sprite', function () {
 
-	if ( !baseDir ) {
-		gulp.start( 'build' );
-	}
+	requirePortalParam();
 
 	return sprity.src( {
-		src: baseDir + 'assets/img/sprite_assets/**/*.{png,jpg}',
+		src: getBaseDir() + 'assets/img/sprite_assets/**/*.{png,jpg}',
 		cssPath: 'portal/wikipedia.org/assets/img/',
-		style: baseDir + 'assets/css/sprites.css',
+		style: getBaseDir() + 'assets/css/sprites.css',
 		prefix: 'sprite',
 		dimension: [ { ratio: 1, dpi: 72 },
 			{ ratio: 1.5, dpi: 144 },
@@ -289,9 +329,9 @@ gulp.task( 'sprite', function () {
 		split: true,
 		margin: 0
 	} )
-	.pipe( plugins[ 'if' ]( '*.png', gulp.dest( baseDir + 'assets/img/' ), gulp.dest( baseDir + 'assets/css/' ) ) );
+	.pipe( plugins[ 'if' ]( '*.png', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
 } );
 
-gulp.task( 'default', [ 'build', 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
+gulp.task( 'default', [ 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
 
 gulp.task( 'test', [ 'lint' ] );

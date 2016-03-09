@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "test": "node ./tests/lint.js"
+    "test": "node ./tests/lint.js",
+    "casperjs": "casperjs test ./tests/casper.js"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
@@ -35,6 +36,10 @@
     "preq": "^0.4.6",
     "sprity": "^1.0.8",
     "underscore": "^1.8.3",
-    "yargs": "^3.29.0"
+    "yargs": "^3.29.0",
+    "casperjs": "git+https://github.com/n1k0/casperjs.git"
+  },
+  "dependencies": {
+    "phantomjs-prebuilt": "^2.1.3"
   }
 }
