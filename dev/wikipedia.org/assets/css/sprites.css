@@ -5,14 +5,14 @@
 (min-resolution: 144dpi) {
   .sprite-bookshelf_icons {
     background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@1.5x.png');
-    background-size: 40px 57px;
+    background-size: 40px 52px;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .sprite-bookshelf_icons {
     background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@2x.png');
-    background-size: 40px 57px;
+    background-size: 40px 52px;
   }
 }
 .sprite-bookshelf_icons-caretDown {
@@ -20,19 +20,14 @@
   width: 12px;
   height: 12px;
 }
-.sprite-bookshelf_icons-search-ltr-invert {
-  background-position: -0px -12px;
-  width: 12px;
-  height: 12px;
-}
-.sprite-bookshelf_icons-search_icon {
-  background-position: -0px -24px;
-  width: 12px;
-  height: 13px;
-}
 .sprite-bookshelf_icons-Bookshelf {
-  background-position: -0px -37px;
+  background-position: -0px -12px;
   width: 40px;
+  height: 20px;
+}
+.sprite-bookshelf_icons-search-icon {
+  background-position: -0px -32px;
+  width: 20px;
   height: 20px;
 }
 .sprite-project-logos {

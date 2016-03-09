@@ -96,27 +96,33 @@ if (!Array.prototype.indexOf) {
 
 /**
  * Document.querySelectorAll polyfill
- * https://gist.github.com/chrisjlee/8960575
- */
-if (!document.querySelectorAll) {
-	document.querySelectorAll = function (selectors) {
-		var style = document.createElement('style'), elements = [], element;
-		document.documentElement.firstChild.appendChild(style);
-		document._qsa = [];
-
-		style.styleSheet.cssText = selectors + '{x-qsa:expression(document._qsa && document._qsa.push(this))}';
-		window.scrollBy(0, 0);
-		style.parentNode.removeChild(style);
-
-		while (document._qsa.length) {
-			element = document._qsa.shift();
-			element.style.removeAttribute('x-qsa');
-			elements.push(element);
-		}
-		document._qsa = null;
-		return elements;
-	};
-}
+ *
+ * Implements polyfill for querySelectorAll to use in old IE browsers.
+ *
+ * Supports multiple / grouped selectors and the attribute selector with a "for"
+ * attribute.
+ *
+ * @see http://www.codecouch.com/2012/05/adding-document-queryselectorall-support-to-ie-7/
+*/
+(function () {
+	if (!window.document.querySelectorAll) {
+		document.querySelectorAll = document.body.querySelectorAll = Object.querySelectorAll = function querySelectorAllPolyfill(r, c, i, j, a) {
+			var d=document,
+				s=d.createStyleSheet();
+			a = d.all;
+			c = [];
+			r = r.replace(/\[for\b/gi, '[htmlFor').split(',');
+			for (i = r.length; i--;) {
+				s.addRule(r[i], 'k:v');
+				for (j = a.length; j--;) {
+					a[j].currentStyle.k && c.push(a[j]);
+				}
+				s.removeRule(0);
+			}
+			return c;
+		};
+	}
+})();
 
 if (!document.querySelector) {
 	document.querySelector = function (selectors) {

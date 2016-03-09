@@ -164,42 +164,6 @@ hr {
 }
 
 /**
- * Search bar below the central logo area
- */
-.search-container {
-    float: none;
-    margin: 1em auto 1.5em auto;
-    max-width: 95%;
-    padding: 0.3em;
-    text-align: center;
-    vertical-align: middle;
-    width: 540px;
-}
-
-.search-form fieldset {
-    background-color: #f9f9f9;
-    border: 1px solid #aaa;
-    margin-top: 0.5em;
-    padding: 0.7em;
-    width: auto;
-}
-
-.search-form #searchInput {
-    font-size: 1.2em;
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-}
-
-.search-form select {
-    margin: 0 0.4em;
-    padding: 0;
-    vertical-align: middle;
-    max-width: 12em;
-    width: 12em; /* otherwise the width is inconsistent between browsers */
-}
-
-/**
  * Language lists, bookshelves, etc.
  */
 .bookshelf-container {
@@ -217,10 +181,6 @@ hr {
 
 .bookshelf {
     display: block;
-    width: 300%;
-    overflow: hidden;
-    position: relative;
-    left: -100%;
     text-align: center;
     white-space: nowrap;
 }
@@ -426,7 +386,6 @@ hr {
         max-width: 40%;
         vertical-align:middle;
     }
-    .search-form #searchLanguage,
     .search-form .formBtn {
         max-width: 25%;
         vertical-align: middle;
@@ -563,12 +522,9 @@ hr {
     background-color: #b0b0b0;
 }
 
-/* Gives the inputs their previous look */
-.search-container .search-form #searchInput {
-    font-size: 13px;
-    padding: 1px 3px;
-    width: 15em; /* otherwise the width is inconsistent between browsers */
-}
+/*
+Gives the inputs their previous look
+*/
 #langsearch-input {
     padding: 1px 2px;
     font-size: 11px;

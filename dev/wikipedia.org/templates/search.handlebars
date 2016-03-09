@@ -1,25 +1,32 @@
-<div id="search-container" class="search-container">
+<div class="search-container">
 
-    <form class="search-form" action="//www.wikipedia.org/search-redirect.php" data-el-section="search">
+    <form class="pure-form" id="search-form" action="//www.wikipedia.org/search-redirect.php" data-el-section="search">
         <fieldset>
 
             <!-- search-redirect.php is project-independent, requires a family -->
             <input type="hidden" name="family" value="wikipedia">
 
-            <select id="searchLanguage" name="language">
-                <!-- 100,000+ content pages, sorted by romanization -->
-                {{#each top100000Dropdown}}
-                    {{> search.option}}
-                {{/each}}
-            </select>
+            <input type="hidden" id="hiddenLanguageInput" name="language" value="en">
 
-            <input id="searchInput" name="search" type="search" size="20" autofocus="autofocus" accesskey="F" dir="auto">
+            <div class="search-input" id="search-input">
+                <input id="searchInput" name="search" type="search" size="20" autofocus="autofocus" accesskey="F" dir="auto" results="10" autocomplete="off" list="suggestions">
 
-            <button class="formBtn" type="submit" name="go">
-                <div class="sprite-bookshelf_icons sprite-bookshelf_icons-search_icon"></div>
-                <!--<img width='12' height='13' src="portal/wikipedia.org/assets/img/12px-Vector_search_icon.svg.png" srcset="portal/wikipedia.org/assets/img/18px-Vector_search_icon.svg.png 1.5x, portal/wikipedia.org/assets/img/24px-Vector_search_icon.svg.png 2x" alt="Search">-->
+                <div class="styled-select no-js">
+                    <div class="hide-arrow">
+                        <select id="searchLanguage" name="language">
+                            <!-- 100,000+ content pages, sorted by romanization -->
+                            {{#each top100000Dropdown}}
+                                {{> search.option}}
+                            {{/each}}
+                        </select>
+                    </div>
+                    <i class="sprite-bookshelf_icons sprite-bookshelf_icons-caretDown"></i>
+                </div>
+            </div>
+
+            <button class="pure-button pure-button-primary-progressive" type="submit">
+                <i class="sprite-bookshelf_icons sprite-bookshelf_icons-search-icon"></i>
             </button>
-
             <input type="hidden" value="Go" name="go">
 
         </fieldset>

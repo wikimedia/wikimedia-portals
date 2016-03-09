@@ -136,7 +136,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 				sanitizedThumbURL = sanitizedThumbURL.replace( /'/g, '%27' );
 			}
 
-			suggestionDescription = mw.html.element( 'p', { 'class': 'suggestion-description' }, ( page.terms && page.terms.description ) ? page.terms.description.toString() : null  );
+			suggestionDescription = mw.html.element( 'p', { 'class': 'suggestion-description' }, ( page.terms && page.terms.description ) ? page.terms.description.toString() : ''  );
 
 			suggestionTitle = mw.html.element( 'h3', { 'class': 'suggestion-title' }, new mw.html.Raw( highlightTitle( page.title, searchString ) ) ) ;
 
@@ -145,7 +145,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			suggestionThumbnail = mw.html.element( 'div', {
 				'class': 'suggestion-thumbnail',
 				style: ( sanitizedThumbURL ) ? 'background-image:url(' + sanitizedThumbURL + ')' : false
-			} );
+			}, '' );
 
 			suggestionLink = mw.html.element( 'a', {
 				'class': 'suggestion-link',

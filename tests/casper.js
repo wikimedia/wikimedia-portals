@@ -50,8 +50,8 @@ casper.test.begin( 'Wikipedia Portal - baseline', function suite( test ) {
 			},
 			search: {
 				eventTest: elTests.submitEvent,
-				sectionSelector: 'form.search-form',
-				clickSelector: 'form.search-form button.formBtn',
+				sectionSelector: 'form#search-form',
+				clickSelector: 'form#search-form button[type=submit]',
 				eventCount: 0,
 				eventData: [],
 				formFields: {

@@ -304,6 +304,7 @@
 		}
 
 		addEvent( select, 'change', function () {
+			select.blur();
 			setLang( select.value );
 		} );
 	} );

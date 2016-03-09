@@ -210,11 +210,4 @@
 
 	addEvent( window, 'load', interceptLandingEvent );
 
-	/**
-	 * setting portal session cookie
-	 */
-	if ( !/1|yes/.test( navigator.doNotTrack ) ) {
-		document.cookie = 'portal_user_id=' + portalSchema.defaults.session_id;
-	}
-
 }( eventLoggingLite, wmTest ) );

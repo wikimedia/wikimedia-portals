@@ -11,9 +11,6 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/sprites.css">
 
-<!--[if lt IE 8]><style type="text/css">
-.bookshelf-container .bookend,.otherprojects-icon{zoom:1;display:inline}
-</style><![endif]-->
 </head>
 <body id="www-wikipedia-org">
 
@@ -22,7 +19,6 @@
 
 <!-- Search form -->
 {{> search}}
-
 
 {{> divider}}
 
@@ -41,13 +37,32 @@
 
 {{> footer-links}}
 
+<![if gt IE 7]>
 <!-- build:js portal/wikipedia.org/assets/js/index.js -->
 <script src="assets/js/polyfills.js"></script>
 <script src="assets/js/event-logging-lite.js"></script>
 <script src="assets/js/wm-test.js"></script>
+<script src="assets/js/mediawiki.lite.js"></script>
+<script src="assets/js/wm-typeahead.js"></script>
 <script src="assets/js/underscore.partial.js"></script>
 <script src="assets/js/wikipedia-org-event-logging.js"></script>
 <script src="assets/js/wm-portal.js"></script>
+<script src="assets/js/pab2.js"></script>
 <!-- endbuild -->
+<![endif]>
+
+<![if gt IE 9]>
+<!-- build:js portal/wikipedia.org/assets/js/gt-ie9.js -->
+<script src="assets/js/search-language-picker.js"></script>
+<!-- endbuild -->
+<![endif]>
+<![if lte IE 9]>
+<style>
+    .styled-select {
+        display: block;
+    }
+</style>
+<![endif]>
+
 </body>
 </html>

@@ -1,0 +1,52 @@
+/**
+===============
+IE 6 + 7 Styles
+===============
+This file is reserved for IE 6 and 7 specific styles.
+Please keep these styles to a minimum.
+
+The Star Hack
+------------
+https://en.wikipedia.org/wiki/CSS_filter#Star_hack
+All properties in this file should begin with a * (asterisk)
+These properties are parsed by IE6 and 7. All other
+browsers interpret these values as invalid CSS.
+
+The reason we don't use conditional IE comments for IE
+specific styles is that our build tools, (gulp-rev, gulp-min, gulp-inline etc.)
+cannot detect (and therefore cannot inline, minify or version)
+files that are placed within HTML comment blocks.
+*/
+
+.bookshelf-container .bookend,.otherprojects-icon{
+    *zoom:1;
+    *display:inline;
+}
+
+
+#search-container-pab1.search-container #searchInput {
+    *padding:0 ;
+    *line-height: 2.5em;
+    *text-indent: 1em;
+    *width: 95%;
+    *position: relative;
+    *top: -2px;
+}
+
+.suggestion-item {
+    *width: auto;
+}
+
+.central-featured-logo {
+    *display: inline-block;
+    *line-height: 26em;
+    *top: 6em;
+    *position: absolute;
+    *left: 13.5em;
+}
+
+#searchInput{
+    *padding: 8px 0px 0px 18px;
+    *width: 90%;
+    *height: 34px;
+}
