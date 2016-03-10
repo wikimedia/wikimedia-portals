@@ -53,9 +53,28 @@ window.wmTest = ( function ( eventLoggingLite ) {
 		}
 	}
 
+	/**
+	 * Tests if `localStorage` is enabled and usable.
+	 *
+	 * @return {boolean} Whether we can use the `localStorage`.
+	 */
+	function isLocalStorageEnabled() {
+		if ( !( 'localStorage' in window ) ) {
+			return false;
+		}
+		var test = 'lsTest';
+		try {
+			localStorage.setItem( test, test );
+			localStorage.removeItem( test );
+			return true;
+		} catch ( err ) {
+			return false;
+		}
+	}
+
 	if ( testOnly ) {
 		group = location.hash.slice( 1 );
-	} else if ( window.localStorage ) {
+	} else if ( isLocalStorageEnabled() ) {
 		var portalGroup = localStorage.getItem( KEYS.GROUP ),
 			portalSessionId = localStorage.getItem( KEYS.SESSION_ID ),
 			expires = localStorage.getItem( KEYS.EXPIRES ),
