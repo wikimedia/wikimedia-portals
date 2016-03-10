@@ -1,18 +1,3 @@
-:root {
-    --ss-pos-top: 10px;
-    --ss-pos-right: 12px;
-    --ss-pos-bottom: 12px;
-    --ss-width: 95px;
-    --ss-height: 24px;
-
-    --ss-c-grey: #696969;
-    --ss-c-grey-hover: #f9f9f9;
-    --ss-c-grey-focus: #f0f0f0;
-
-    --ss-select-width: 110px;
-    /*border: 1px solid rgba(255,55,50, .2);*/
-}
-
 /* Common to JS and non JS versions */
 .styled-select {
     display: none;
@@ -30,7 +15,6 @@
     margin: 0;
 
     border-radius: 3px;
-    /*border: 1px solid rgba(255,55,50, .2);*/
 }
 
 .styled-select:hover {
@@ -45,7 +29,6 @@
 
     overflow: hidden;
     text-align: right;
-    /*border: 1px solid rgba(255,55,50, .2);*/
 
 }
 .styled-select select {
@@ -81,7 +64,6 @@
 
     outline: none;
     cursor: pointer;
-    /*border: 1px solid rgba(255,55,50, .2);*/
 }
 
 /*
@@ -128,7 +110,7 @@
     border: none;
     left: 0;
     top:0;
-    z-index: 1;
+    z-index: var(--ss-select-z-index);
 
     margin: 0;
     padding: 0 24px 0 0px;

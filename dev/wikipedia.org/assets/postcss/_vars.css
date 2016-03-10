@@ -1,9 +1,27 @@
-/**
-* Colors from https://phabricator.wikimedia.org/diffusion/WMUI/browse/master/base.less
-*/
 :root {
+    /**
+     * MediaWiki Base CSS Variables
+     *
+     * https://phabricator.wikimedia.org/diffusion/WMUI/browse/master/base.less
+     */
     --c-primary: #165c91;
     --c-primary-hover: #18649e;
     --c-primary-active: #134e7b;
     --c-primary-focus: var(--c-primary);
+
+    /* Variables for the Search language picker / Styled Select */
+    --ss-pos-top: 10px;
+    --ss-pos-right: 12px;
+    --ss-pos-bottom: 12px;
+    --ss-width: 95px;
+    --ss-height: 24px;
+
+    --ss-c-grey: #696969;
+    --ss-c-grey-hover: #f9f9f9;
+    --ss-c-grey-focus: #f0f0f0;
+
+    --ss-select-width: 110px;
+
+    --ss-select-z-index: 1;
+    --ss-button-z-index: 2;
 }
