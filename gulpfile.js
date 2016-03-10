@@ -327,7 +327,8 @@ gulp.task( 'sprite', function () {
 			{ ratio: 2, dpi: 192 }
 		],
 		split: true,
-		margin: 0
+		margin: 0,
+		cachebuster: true
 	} )
 	.pipe( plugins[ 'if' ]( '*.png', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
 } );

@@ -1,17 +1,17 @@
 .sprite-bookshelf_icons {
-  background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons.png');
+  background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons.png?18d8b7f58860758a154b3f1b0d329784d0f4235a');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
   .sprite-bookshelf_icons {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@1.5x.png');
+    background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@1.5x.png?4c76354a49b48f4363d77e539b88cdfe921c4464');
     background-size: 40px 52px;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .sprite-bookshelf_icons {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@2x.png');
+    background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@2x.png?f549ec63823d7156616e5a7c6b7e9ec610e7718e');
     background-size: 40px 52px;
   }
 }
@@ -31,19 +31,19 @@
   height: 20px;
 }
 .sprite-project-logos {
-  background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos.png');
+  background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos.png?9d7207cc5569df91edb63bbf5811e87dfc788a0b');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5),
 (min-resolution: 144dpi) {
   .sprite-project-logos {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@1.5x.png');
+    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@1.5x.png?e3805ab88d321a7ceb57081625fc084386a93dbe');
     background-size: 88px 452px;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .sprite-project-logos {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@2x.png');
+    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@2x.png?090e4e6a46dfa6a8b7a819f078ca7e8c6ecf8875');
     background-size: 88px 453px;
   }
 }
