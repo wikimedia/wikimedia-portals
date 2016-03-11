@@ -153,11 +153,8 @@
 
 		convertZhLinks( lang );
 
-		iso639 = lang.match( /^\w+/ );
-		if ( !iso639 ) {
-			return;
-		}
-		iso639 = ( iso639[ 0 ] === 'nb' ) ? 'no' : iso639[ 0 ];
+		iso639 = getIso639( lang );
+
 		select = $( 'searchLanguage' );
 		// Verify that an <option> exists for the langCode that was
 		// in the cookie. If so, set the value to it.

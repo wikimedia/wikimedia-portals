@@ -10,6 +10,7 @@ window.wmTest = ( function ( eventLoggingLite ) {
 		populationSize = 2, // population size for beta or dev
 		group,
 		sessionExpiration = 15 * 60 * 1000, // 15 minutes
+		preferredLangs,
 		KEYS = {
 			GROUP: 'portal_test_group',
 			SESSION_ID: 'portal_session_id',
@@ -98,6 +99,35 @@ window.wmTest = ( function ( eventLoggingLite ) {
 		group = 'rejected';
 	}
 
+	/**
+	 * Created an array of preferred languages in ISO939 format.
+	 *
+	 * @return {Array} langs
+	 */
+	function setPreferredLanguages() {
+		var langs = [];
+
+		function appendLanguage( l ) {
+			var lang = getIso639( l );
+			if ( lang && langs.indexOf( lang ) < 0 ) {
+				langs.push( lang );
+			}
+		}
+
+		for ( var i in navigator.languages ) {
+			appendLanguage( navigator.languages[ i ] );
+		}
+
+		appendLanguage( navigator.language );
+		appendLanguage( navigator.userLanguage );
+		appendLanguage( navigator.browserLanguage );
+		appendLanguage( navigator.systemLanguage );
+
+		return langs;
+	}
+
+	preferredLangs = setPreferredLanguages();
+
 	return {
 		loggingDisabled: testOnly, // for test
 
@@ -107,6 +137,12 @@ window.wmTest = ( function ( eventLoggingLite ) {
 		 * @type {string}
 		 */
 		sessionId: sessionId,
+
+		/**
+		 * The users preferred languages as inferred from
+		 * their browser settings.
+		 */
+		userLangs: preferredLangs,
 
 		/**
 		 * User population group

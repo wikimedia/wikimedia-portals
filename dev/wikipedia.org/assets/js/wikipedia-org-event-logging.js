@@ -20,7 +20,7 @@
 			session_id: wmTest.sessionId,
 			event_type: 'landing',
 			referer: document.referrer || null,
-			accept_language: ( navigator && navigator.language ) ? navigator.language : navigator.browserLanguage,
+			accept_language: wmTest.userLangs.toString(),
 			cohort: wmTest.group
 		},
 		properties: {

@@ -247,3 +247,15 @@ window.onunload = function () {
 	attachedEvents = [];
 };
 
+/**
+ * This is not a polyfill, but a globally exposed function to convert strings to iso639.
+ */
+function getIso639( lang ) {
+	var iso639 = lang && lang.match( /^\w+/ );
+	if ( !iso639 ) {
+		return;
+	}
+	iso639 = ( iso639[ 0 ] === 'nb' ) ? 'no' : iso639[ 0 ];
+	return iso639;
+}
+
