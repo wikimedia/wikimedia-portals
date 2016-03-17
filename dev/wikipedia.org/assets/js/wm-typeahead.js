@@ -26,6 +26,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		typeAheadEl = document.getElementById( typeAheadID ), // type-ahead DOM element.
 		appendEl = document.getElementById( appendTo ),
 		searchEl = document.getElementById( searchInput ),
+		thumbnailSize = ( window.devicePixelRatio ) ? window.devicePixelRatio * 80 : 80,
 		keyboardIndex = -1,
 		searchLang,
 		searchString,
@@ -89,17 +90,14 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			generator: 'prefixsearch',
 			prop: 'pageprops|pageimages|pageterms',
 			redirects: '',
-			list: 'prefixsearch',
 			ppprop: 'displaytitle',
 			piprop: 'thumbnail',
-			pithumbsize: 80,
+			pithumbsize: thumbnailSize,
 			pilimit: 6,
 			wbptterms: 'description',
 			gpssearch: string,
 			gpsnamespace: 0,
 			gpslimit: 6,
-			pssearch: string,
-			pslimit: 6,
 			callback: 'portalOpensearchCallback'
 		};
 
