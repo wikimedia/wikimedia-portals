@@ -57,6 +57,38 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	}
 
 	/**
+	 * Keeps track of the search query callbacks. Consists of an array of
+	 * callback functions and an index that keeps track of the order of requests.
+	 * Callbacks are deleted by replacing the callback function with a no-op.
+	 */
+	window.callbackStack = {
+		queue: {},
+		index: -1,
+		incrementIndex: function () {
+			this.index += 1;
+			return this.index;
+		},
+		addCallback: function ( func ) {
+			var index = this.incrementIndex();
+			this.queue[ index ] = func( index );
+			return index;
+		},
+		deleteSelfFromQueue: function ( i ) {
+			delete this.queue[ i ];
+		},
+		deletePrevCallbacks: function ( j ) {
+
+			this.deleteSelfFromQueue( j );
+
+			for ( var callback in this.queue ) {
+				if ( callback < j ) {
+					this.queue[ callback ]  = this.deleteSelfFromQueue.bind( window.callbackStack, callback );
+				}
+			}
+		}
+	};
+
+	/**
 	 * Removes the type-ahead suggestions from the DOM.
 	 * Reason for timeout: The typeahead is set to clear on input blur.
 	 * When a user clicks on a search suggestion, they triggers the input blur
@@ -81,6 +113,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 * @param {string} string - query string to search.
 	 * @param {string} lang - ISO code of language to search in.
 	 */
+
 	function loadQueryScript( string, lang ) {
 		// variables declared in parent function.
 		searchLang = encodeURIComponent( lang ) || 'en';
@@ -102,6 +135,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		script = document.createElement( 'script' );
 		script.id = 'api_opensearch';
 
+		var callbackIndex = window.callbackStack.addCallback( window.portalOpensearchCallback ) ;
+
 		var searchQuery = {
 			action: 'query',
 			format: 'json',
@@ -116,7 +151,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			gpssearch: string,
 			gpsnamespace: 0,
 			gpslimit: 6,
-			callback: 'portalOpensearchCallback'
+			callback: 'callbackStack.queue[' + callbackIndex + ']'
 		};
 
 		script.src = hostname + serialize( searchQuery );
@@ -169,12 +204,11 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			/**
 			 * Indentation is used to express the DOM order of template.
 			 */
-			var suggestionItem,
-					suggestionLink,
-						suggestionThumbnail,
-						suggestionText,
-							suggestionTitle,
-							suggestionDescription,
+			var suggestionLink,
+					suggestionThumbnail,
+					suggestionText,
+						suggestionTitle,
+						suggestionDescription,
 				page = suggestions[ i ],
 				sanitizedThumbURL = false;
 
@@ -209,44 +243,6 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	} // END generateTemplateString
 
 	/**
-	 * Search API callback.
-	 *  - parses the search results
-	 *  - generates the template String
-	 *  - inserts the template string into the DOM
-	 *  - attaches event listeners on each suggestion item.
-	 *
-	 * @param {Object} xhrResults
-	 */
-	window.portalOpensearchCallback = function ( xhrResults ) {
-
-		if ( document.activeElement !== searchEl ) { return; }
-
-		var orderedResults = [],
-			suggestions = ( xhrResults.query && xhrResults.query.pages ) ? xhrResults.query.pages : [] ;
-
-		for ( var item in suggestions ) {
-			var result = suggestions[ item ];
-			orderedResults[ result.index - 1 ] = result;
-		}
-
-		var templateDOMString = generateTemplateString( orderedResults );
-
-		typeAheadEl.innerHTML = templateDOMString;
-
-		typeAheadItems = typeAheadEl.childNodes[ 0 ].childNodes;
-
-		// attaching hover events
-		for ( var i = 0; i < typeAheadItems.length; i++ ) {
-			var listEl = typeAheadItems[ i ];
-			// Requires the addEvent global polyfill
-			addEvent( listEl, 'mouseenter', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
-			addEvent( listEl, 'mouseleave', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
-		}
-	};
-
-	/* Mouse and keyboard Events */
-
-	/**
 	 * - Removes 'active' class from a collection of elements.
 	 * - Adds 'active' class to an item if missing.
 	 * - Removes 'active' class from item if present.
@@ -276,6 +272,53 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			}
 		}
 	}
+
+	/**
+	 * Search API callback. Returns a closure that holds the index of the request.
+	 * Deletes previous callbacks based on this index. This prevents callbacks for old
+	 * requests from executing. Then:
+	 *  - parses the search results
+	 *  - generates the template String
+	 *  - inserts the template string into the DOM
+	 *  - attaches event listeners on each suggestion item.
+	 *
+	 * @param {Object} xhrResults
+	 */
+	window.portalOpensearchCallback = function ( i ) {
+
+		var callbackIndex = i;
+
+		return function ( xhrResults ) {
+
+			window.callbackStack.deletePrevCallbacks( callbackIndex );
+
+			if ( document.activeElement !== searchEl ) {
+				return;
+			}
+
+			var orderedResults = [],
+				suggestions = ( xhrResults.query && xhrResults.query.pages ) ? xhrResults.query.pages : [];
+
+			for ( var item in suggestions ) {
+				var result = suggestions[ item ];
+				orderedResults[ result.index - 1 ] = result;
+			}
+
+			var templateDOMString = generateTemplateString( orderedResults );
+
+			typeAheadEl.innerHTML = templateDOMString;
+
+			typeAheadItems = typeAheadEl.childNodes[ 0 ].childNodes;
+
+			// attaching hover events
+			for ( var i = 0; i < typeAheadItems.length; i++ ) {
+				var listEl = typeAheadItems[ i ];
+				// Requires the addEvent global polyfill
+				addEvent( listEl, 'mouseenter', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
+				addEvent( listEl, 'mouseleave', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
+			}
+		};
+	};
 
 	/**
 	 * Increments a global 'keyboardIndex' variable
