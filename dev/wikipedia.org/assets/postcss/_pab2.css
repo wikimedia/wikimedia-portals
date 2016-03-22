@@ -16,29 +16,42 @@
     display: inline-block;
 }
 
-.suggestion-item {
+.suggestion-link {
     width: 100%;
-    color: #555;
     border-bottom: 1px solid #EEE;
     padding: 10px;
     padding-left: 85px;
     box-sizing: border-box;
     position: relative;
     min-height: 70px;
+    color: inherit;
+    text-decoration: none;
+    white-space: normal;
+    display: block;
+
 }
 
-.suggestion-item.active{
+.suggestion-link.active{
     background-color: #eee;
 }
 .suggestion-link {
     color: inherit;
     text-decoration: none;
     white-space: normal;
+    display: block;
 }
-.suggestion-link:hover {
+/* using element selector to override default anchor styles */
+a.suggestion-link:hover {
     color: #0645AD;
     text-decoration: none;
 }
+
+a.suggestion-link:active,
+a.suggestion-link:focus{
+    white-space: normal;
+    outline: none;
+}
+
 .suggestion-thumbnail {
     width: 70px;
     height: 100%;

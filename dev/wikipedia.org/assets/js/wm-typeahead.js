@@ -159,7 +159,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 * @returns {string} A string representing the search suggestions DOM
 	 */
 	function generateTemplateString( suggestions ) {
-		var string = '<ul class="suggestions-dropdown">';
+		var string = '<div class="suggestions-dropdown">';
 
 		for ( var i = 0; i < suggestions.length; i++ ) {
 
@@ -199,13 +199,11 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 				href: 'https://' + searchLang + '.wikipedia.org/wiki/' + encodeURIComponent( page.title.replace( / /gi, '_' ) )
 			}, new mw.html.Raw( suggestionText + suggestionThumbnail ) );
 
-			suggestionItem = mw.html.element( 'li', { 'class': 'suggestion-item' }, new mw.html.Raw( suggestionLink )  );
-
-			string += suggestionItem;
+			string += suggestionLink;
 
 		}
 
-		string += '</ul>';
+		string += '</div>';
 
 		return string;
 	} // END generateTemplateString
@@ -230,6 +228,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			var result = suggestions[ item ];
 			orderedResults[ result.index - 1 ] = result;
 		}
+
+		orderedResults = orderedResults.filter( function ( e ) { return e; } );
 
 		var templateDOMString = generateTemplateString( orderedResults );
 
