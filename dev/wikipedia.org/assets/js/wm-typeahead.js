@@ -134,7 +134,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 	function highlightTitle( title, searchString ) {
 
-		var sanitizedSearchString = mw.html.escape( searchString ),
+		var sanitizedSearchString = mw.html.escape( mw.RegExp.escape( searchString ) ),
 			searchRegex = new RegExp( sanitizedSearchString, 'i' ),
 			startHighlightIndex = title.search( searchRegex ),
 			formattedTitle = mw.html.escape( title );
@@ -163,6 +163,9 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 
 		for ( var i = 0; i < suggestions.length; i++ ) {
 
+			if ( !suggestions[ i ] ) {
+				continue;
+			}
 			/**
 			 * Indentation is used to express the DOM order of template.
 			 */
