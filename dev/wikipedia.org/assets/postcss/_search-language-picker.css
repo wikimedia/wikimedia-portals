@@ -58,6 +58,7 @@
 
     /* Opera */
     -o-appearance: none !important;
+    opacity: 0;
 
     /* All browsers */
     appearance: none;
@@ -77,6 +78,7 @@
     padding: 0 24px 0 8px;
 
     color: var(--ss-c-grey);
+    opacity: 1;
 }
 
 .styled-select.no-js .hide-arrow {
@@ -114,7 +116,7 @@
 
     margin: 0;
     padding: 0 24px 0 0px;
-    
+
     color: transparent;
     color: rgba(255,255,255,0);
 }
