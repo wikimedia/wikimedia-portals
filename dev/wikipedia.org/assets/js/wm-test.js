@@ -5,8 +5,6 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 
 	'use strict';
 	var sessionId = eventLoggingLite.generateRandomSessionId(),
-		pabTest3 = 'language-detection-b',
-		controlGroup = 'language-detection-a',
 		populationSize = 2, // population size for beta or dev
 		group,
 		sessionExpiration = 15 * 60 * 1000, // 15 minutes
@@ -19,7 +17,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 
 	// You can allow a test-only mode (no eventlogging)
 	// e.g: testOnly = (location.hash.slice( 1 ) === 'pab1')
-		testOnly = location.hash.slice( 1 ) === pabTest3 || location.hash.slice( 1 ) === controlGroup;
+		testOnly = false;
 
 	/**
 	 * If we're on production, increase population size.
@@ -50,18 +48,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		// 1:populationSize of the people are tested (baseline)
 		if ( oneIn( sessionId, populationSize ) ) {
 
-			var groupIndex = Math.floor( Math.random() * ( 10 ) ) + 1;
-
-			switch ( groupIndex ) {
-				case 1:
-					group = pabTest3;
-					break;
-				case 2:
-					group = controlGroup;
-					break;
-				default:
-					group = 'baseline';
-			}
+			group = 'baseline';
 		}
 		return group;
 	}

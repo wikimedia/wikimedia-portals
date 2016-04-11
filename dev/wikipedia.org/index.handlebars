@@ -17,21 +17,12 @@
 <script src="assets/js/mediawiki.lite.js"></script>
 <script src="assets/js/event-logging-lite.js"></script>
 <script src="assets/js/wm-test.js"></script>
-<script src="site-defs.js"></script>
 <!-- endbuild -->
 <![endif]>
 
 </head>
 
 <body id="www-wikipedia-org">
-
-<![if gt IE 7]>
-<script>
-if ( wmTest.group === 'language-detection-b' ) {
-    document.body.className = 'abtest3';
-}
-</script>
-<![endif]>
 
 
 {{> header-logo}}
@@ -60,8 +51,6 @@ if ( wmTest.group === 'language-detection-b' ) {
 
 <![if gt IE 7]>
 <!-- build:js portal/wikipedia.org/assets/js/index.js -->
-<script src="assets/js/topten-localized.js"></script>
-
 <script src="assets/js/underscore.partial.js"></script>
 <script src="assets/js/wm-typeahead.js"></script>
 <script src="assets/js/wikipedia-org-event-logging.js"></script>
