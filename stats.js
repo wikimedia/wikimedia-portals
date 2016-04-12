@@ -7,6 +7,9 @@ var siteStats = require( './site-stats.json' ),
 
 var Stats = {};
 
+Stats.nonStandardCodes = {
+	'zh-min-nan': 'nan'
+};
 /**
  * Get top `n` wikis with most `criteria`.
  *
@@ -192,6 +195,12 @@ Stats.format = function ( portal, list, options ) {
 
 		if ( !formatted.siteName ) {
 			formatted.siteName = siteDefs.en[ portal ] && siteDefs.en[ portal ].siteName;
+		}
+
+		if ( Stats.nonStandardCodes.hasOwnProperty( formatted.code ) ) {
+			var nonStandardCode = Stats.nonStandardCodes[ formatted.code ];
+			top.code = nonStandardCode;
+			formatted.code = nonStandardCode;
 		}
 
 		formatted.url = formatted.url.replace( 'https://', '' );
