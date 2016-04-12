@@ -229,8 +229,6 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			orderedResults[ result.index - 1 ] = result;
 		}
 
-		orderedResults = orderedResults.filter( function ( e ) { return e; } );
-
 		var templateDOMString = generateTemplateString( orderedResults );
 
 		typeAheadEl.innerHTML = templateDOMString;
