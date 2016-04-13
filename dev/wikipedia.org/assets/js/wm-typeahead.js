@@ -26,8 +26,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		typeAheadEl = document.getElementById( typeAheadID ), // type-ahead DOM element.
 		appendEl = document.getElementById( appendTo ),
 		searchEl = document.getElementById( searchInput ),
-		keyboardIndex = -1,
 		thumbnailSize = getDevicePixelRatio() * 80,
+		maxSearchResults = 6,
 		searchLang,
 		searchString,
 		typeAheadItems,
@@ -89,6 +89,32 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	};
 
 	/**
+	 * Maintains the 'active' state on search suggestions.
+	 * Makes sure the 'active' element is synchronized between mouse and keyboard usage,
+	 * and cleared when new search suggestions appear.
+	 */
+	var ssActiveIndex = {
+		index: -1,
+		max: maxSearchResults,
+		setMax: function ( x ) {
+			this.max = x;
+		},
+		increment: function ( i ) {
+			this.index += i;
+			if ( this.index < 0 ) { this.setIndex( this.max - 1 ); } // index reaches top
+			if ( this.index === this.max ) { this.setIndex( 0 ); } // index reaches bottom
+			return this.index;
+		},
+		setIndex: function ( i ) {
+			if ( i <= this.max - 1 ) { this.index = i; }
+			return this.index;
+		},
+		clear: function () {
+			this.setIndex( -1 );
+		}
+	};
+
+	/**
 	 * Removes the type-ahead suggestions from the DOM.
 	 * Reason for timeout: The typeahead is set to clear on input blur.
 	 * When a user clicks on a search suggestion, they triggers the input blur
@@ -103,6 +129,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			typeAheadEl.innerHTML = '';
 			var searchScript = document.getElementById( 'api_opensearch' );
 			if ( searchScript ) { searchScript.src = false; }
+			ssActiveIndex.clear();
 		}, 300 );
 	}
 
@@ -146,11 +173,11 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			ppprop: 'displaytitle',
 			piprop: 'thumbnail',
 			pithumbsize: thumbnailSize,
-			pilimit: 6,
+			pilimit: maxSearchResults,
 			wbptterms: 'description',
 			gpssearch: string,
 			gpsnamespace: 0,
-			gpslimit: 6,
+			gpslimit: maxSearchResults,
 			callback: 'callbackStack.queue[' + callbackIndex + ']'
 		};
 
@@ -210,14 +237,27 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 						suggestionTitle,
 						suggestionDescription,
 				page = suggestions[ i ],
-				sanitizedThumbURL = false;
+				sanitizedThumbURL = false,
+				descriptionText = '',
+				pageDescription = ( page.terms && page.terms.description ) ? page.terms.description : '';
 
 			if ( page.thumbnail && page.thumbnail.source ) {
 				sanitizedThumbURL = page.thumbnail.source.replace( /\"/g, '%22' );
 				sanitizedThumbURL = sanitizedThumbURL.replace( /'/g, '%27' );
 			}
 
-			suggestionDescription = mw.html.element( 'p', { 'class': 'suggestion-description' }, ( page.terms && page.terms.description ) ? page.terms.description.toString() : ''  );
+			// check if description exists
+			if ( pageDescription ) {
+				// if the description is an array, use the first item
+				if ( typeof pageDescription === 'object' && pageDescription[ 0 ] ) {
+					descriptionText = pageDescription[ 0 ].toString();
+				} else {
+					// otherwise, use the description as is.
+					descriptionText = pageDescription.toString();
+				}
+			}
+
+			suggestionDescription = mw.html.element( 'p', { 'class': 'suggestion-description' }, descriptionText );
 
 			suggestionTitle = mw.html.element( 'h3', { 'class': 'suggestion-title' }, new mw.html.Raw( highlightTitle( page.title, searchString ) ) ) ;
 
@@ -268,6 +308,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 				} else {
 					// it item doesn't have class name, add it.
 					item.className += activeClass;
+					ssActiveIndex.setIndex( i );
 				}
 			}
 		}
@@ -306,6 +347,9 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 
 			var templateDOMString = generateTemplateString( orderedResults );
 
+			ssActiveIndex.setMax( orderedResults.length );
+			ssActiveIndex.clear();
+
 			typeAheadEl.innerHTML = templateDOMString;
 
 			typeAheadItems = typeAheadEl.childNodes[ 0 ].childNodes;
@@ -319,20 +363,6 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			}
 		};
 	};
-
-	/**
-	 * Increments a global 'keyboardIndex' variable
-	 *
-	 * @param {int} i - current index
-	 * @param {int} max -
-	 */
-	function incrementKeyboardIndex( i, max ) {
-
-		keyboardIndex = keyboardIndex + i;
-
-		if ( keyboardIndex < 0 ) { keyboardIndex = max - 1; }
-		if ( keyboardIndex > max - 1 ) { keyboardIndex = 0; }
-	}
 
 	/**
 	 * Keyboard events: up arrow, down arrow and enter.
@@ -351,15 +381,14 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 
 		if ( keycode === 40 || keycode === 38 ) {
 			var suggestionItems = typeAheadEl.firstChild.childNodes,
-				suggestionsLength = suggestionItems.length;
-
+				searchSuggestionIndex;
 			if ( keycode === 40 ) {
-				incrementKeyboardIndex( 1, suggestionsLength );
+				searchSuggestionIndex = ssActiveIndex.increment( 1 );
 			} else {
-				incrementKeyboardIndex( -1, suggestionsLength );
+				searchSuggestionIndex = ssActiveIndex.increment( -1 );
 			}
 
-			activeItem = ( typeAheadEl.firstChild ) ? typeAheadEl.firstChild.childNodes[ keyboardIndex ] : false ;
+			activeItem = ( suggestionItems ) ? suggestionItems[ searchSuggestionIndex ] : false ;
 
 			toggleActiveClass( activeItem, suggestionItems );
 
