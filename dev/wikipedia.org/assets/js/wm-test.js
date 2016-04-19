@@ -9,22 +9,45 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		group,
 		sessionExpiration = 15 * 60 * 1000, // 15 minutes
 		preferredLangs,
+		controlGroup = 'descriptive-text-a',
+		pabTest4 = 'descriptive-text-b',
 		KEYS = {
 			GROUP: 'portal_test_group',
 			SESSION_ID: 'portal_session_id',
 			EXPIRES: 'portal_test_group_expires'
 		},
-
-	// You can allow a test-only mode (no eventlogging)
-	// e.g: testOnly = (location.hash.slice( 1 ) === 'pab1')
-		testOnly = false;
+		// You can allow a test-only mode (no eventlogging)
+		// e.g: testOnly = (location.hash.slice( 1 ) === 'pab1')
+		testOnly = location.hash.slice( 1 ) === pabTest4 || location.hash.slice( 1 ) === controlGroup;
 
 	/**
-	 * If we're on production, increase population size.
+	 * Created an array of preferred languages in ISO939 format.
+	 *
+	 * @return {Array} langs
 	 */
-	if ( /www.wikipedia.org/.test( location.hostname ) ) {
-		populationSize = 200;
+	function setPreferredLanguages() {
+		var langs = [];
+
+		function appendLanguage( l ) {
+			var lang = getIso639( l );
+			if ( lang && langs.indexOf( lang ) < 0 ) {
+				langs.push( lang );
+			}
+		}
+
+		for ( var i in navigator.languages ) {
+			appendLanguage( navigator.languages[ i ] );
+		}
+
+		appendLanguage( navigator.language );
+		appendLanguage( navigator.userLanguage );
+		appendLanguage( navigator.browserLanguage );
+		appendLanguage( navigator.systemLanguage );
+
+		return langs;
 	}
+
+	preferredLangs = setPreferredLanguages();
 
 	/**
 	 * Determines whether the user is part of the population size.
@@ -40,6 +63,13 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	}
 
 	/**
+	 * If we're on production, increase population size.
+	 */
+	if ( /www.wikipedia.org/.test( location.hostname ) ) {
+		populationSize = 200;
+	}
+
+	/**
 	 * Puts the user in a population group randomly.
 	 */
 	function getTestGroup( sessionId ) {
@@ -47,8 +77,18 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		var group = 'rejected';
 		// 1:populationSize of the people are tested (baseline)
 		if ( oneIn( sessionId, populationSize ) ) {
+			var groupIndex = Math.floor( Math.random() * ( 5 ) ) + 1,
+				hasEnglish = preferredLangs.indexOf( 'en' );
 
-			group = 'baseline';
+			if ( groupIndex === 1 && hasEnglish >= 0 ) {
+				group = pabTest4;
+
+			} else if ( groupIndex === 2 && hasEnglish >= 0 ) {
+				group = controlGroup;
+
+			} else {
+				group = 'baseline';
+			}
 		}
 		return group;
 	}
@@ -80,33 +120,11 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	}
 
 	/**
-	 * Created an array of preferred languages in ISO939 format.
-	 *
-	 * @return {Array} langs
+	 * portal A/B test 4 code.
 	 */
-	function setPreferredLanguages() {
-		var langs = [];
-
-		function appendLanguage( l ) {
-			var lang = getIso639( l );
-			if ( lang && langs.indexOf( lang ) < 0 ) {
-				langs.push( lang );
-			}
-		}
-
-		for ( var i in navigator.languages ) {
-			appendLanguage( navigator.languages[ i ] );
-		}
-
-		appendLanguage( navigator.language );
-		appendLanguage( navigator.userLanguage );
-		appendLanguage( navigator.browserLanguage );
-		appendLanguage( navigator.systemLanguage );
-
-		return langs;
+	if ( group === pabTest4 ) {
+		document.body.className = 'el-' + group;
 	}
-
-	preferredLangs = setPreferredLanguages();
 
 	return {
 		loggingDisabled: testOnly, // for test

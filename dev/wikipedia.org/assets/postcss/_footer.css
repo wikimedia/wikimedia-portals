@@ -1,0 +1,146 @@
+/**
+* new portal footer
+* https://phabricator.wikimedia.org/T131238
+*/
+
+.footer{
+    margin: 0 auto;
+    padding: 2.6rem 1em 1em 1em;
+    font-size: 0.8rem;
+}
+
+.footer a,
+.footer a:focus {
+    white-space: normal;
+}
+
+.footer-description {
+    width: 30%;
+    float: left;
+    margin-bottom: 2rem;
+    vertical-align: top;
+}
+
+.footer-description-wrapper{
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.footer-description-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-description-text {
+    position: relative;
+    color: var(--ss-c-grey);
+    margin: 0;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.privacy-policy-links {
+    margin-top: 1em;
+}
+
+.privacy-policy-links a {
+    display: block;
+}
+
+.other-projects {
+    width:70%;
+    float: left;
+}
+
+.other-project {
+    position: relative;
+    width:33%;
+    height: 90px;
+    float: left;
+}
+
+.other-project-icon{
+    position: absolute;
+    display:block;
+    width: 50px;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.other-project .sprite-project-logos {
+    display: inline-block;
+}
+
+.other-project-text{
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.other-project-title,
+.other-project-tagline {
+    display: block;
+}
+
+.other-project-tagline {
+    color: var(--ss-c-grey);
+    font-size: 0.95em;
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        padding-top: 1em;
+    }
+
+    .footer-description {
+        width: 100%;
+    }
+    .footer-description-icon {
+        position: relative;
+        display: block;
+        margin: 0 auto 1em auto;
+    }
+
+    .footer-description-wrapper{
+        max-width: none;
+    }
+    .footer-description-text{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .privacy-policy-links a {
+        display: inline-block;
+        margin: 0 0.5em;
+    }
+
+    .other-projects{
+        width: 100%;
+    }
+
+    .other-project{
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer{
+        padding: 0.6rem 0.5em 1em 0.5em;
+    }
+    .other-project{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .other-project-text {
+        margin-left: 55px;
+        margin-right: 5px;
+        font-size: 0.9em;
+    }
+}
+

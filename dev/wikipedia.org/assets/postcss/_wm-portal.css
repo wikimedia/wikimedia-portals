@@ -247,12 +247,6 @@ hr {
     vertical-align: middle;
 }
 
-.sprite-project-logos-Wikispecies-logo_sister {
-    background-position: -0px -324px !important;
-    width: 35px !important;
-    height: 40px !important;
-}
-
 .wm-site-info {
     clear: both;
     margin: 2.5em 0 2em 0;
@@ -263,8 +257,8 @@ hr {
 /**
  * Style for horizontal lists (separator following item).
  * @note Support for unused tags like <dt> has been stripped out, and the
- *		 dependency on :last-child and JavaScript has been removed in favor of
- *		 :before.
+ *     dependency on :last-child and JavaScript has been removed in favor of
+ *     :before.
  * @source mediawiki.org/wiki/Snippets/Horizontal_lists
  * @revision 6 (2014-05-09)
  * @author [[User:Edokter]]

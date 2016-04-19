@@ -1,0 +1,19 @@
+/**
+* These styles were used for Wikipedia.org A/B Test (Egg)
+* "add descriptive text to sister project links"
+* as described here: https://phabricator.wikimedia.org/T131238
+*
+* .el-descriptive-text-b is a class applied to the body element
+* for the test group.
+*/
+
+.el-descriptive-text-b .otherprojects,
+.el-descriptive-text-b #js-pab4-old-footer-links,
+.el-descriptive-text-b .wm-site-info,
+.footer {
+    display: none;
+}
+
+.el-descriptive-text-b .footer {
+    display: block;
+}
