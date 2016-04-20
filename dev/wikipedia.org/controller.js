@@ -16,6 +16,19 @@ top100000Dropdown = stats.format( 'wiki', top100000List, {
 	stripTags: true
 } );
 
+/**
+ *  SiteStats returns and object for each language wikipedia by language code.
+ *  ex:
+ *  "en":{"url":"en.wikipedia.org",
+ *        "numPages":"5 077 000",
+ *        "views":1723574042,
+ *        "siteName":"Wikipedia",
+ *        "articles":"articles",
+ *        "slogan":"The Free Encyclopedia",
+ *        "name":"English",
+ *        "lang":"en"
+ *        }
+ */
 var siteStats = {},
 	range = stats.getRangeFormatted( 'wiki', 'views', 10 );
 _.each( range, function ( wiki ) {

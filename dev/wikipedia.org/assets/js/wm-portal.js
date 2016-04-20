@@ -16,7 +16,7 @@
  * Validate with JSLint or JSHint.
  *
  */
-/* global _, addEvent, doWhenReady, getIso639, getDevicePixelRatio */
+/* global addEvent, doWhenReady, getIso639, getDevicePixelRatio */
 
 ( function ( ) {
 	'use strict';
@@ -185,68 +185,6 @@
 	} );
 
 	/**
-	 * Invokes the MediaWiki API of the selected wiki to search for articles
-	 * whose titles begin with the entered text.
-	 */
-	function setupSuggestions() {
-		// For simplicity's sake, rely on the HTML5 <datalist> element available
-		// on IE 10+ (and all other modern browsers).
-		if ( window.HTMLDataListElement === undefined ) {
-			return;
-		}
-
-		var list = document.createElement( 'datalist' ),
-			search = $( 'searchInput' );
-
-		list.id = 'suggestions';
-		document.body.appendChild( list );
-		search.autocomplete = 'off';
-		search.setAttribute( 'list', 'suggestions' );
-
-		addEvent( search, 'input', _.debounce( function () {
-			var head = document.getElementsByTagName( 'head' )[ 0 ],
-				language = $( 'searchLanguage' ).value,
-				hostname,
-				script = $( 'api_opensearch' ),
-				query = encodeURIComponent( search.value );
-
-			hostname = language + '.wikipedia.org';
-
-			if ( script ) {
-				head.removeChild( script );
-			}
-			script = document.createElement( 'script' );
-			script.id = 'api_opensearch';
-			script.src = '//' + encodeURIComponent( hostname ) + '/w/api.php?action=opensearch&limit=10&format=json&callback=portalOpensearchCallback&search=' + query;
-			head.appendChild( script );
-		}, 200 ) );
-	}
-
-	/**
-	 * Sets the search box's data list to the results returned by the MediaWiki
-	 * API. The results are returned in JSON-P format, so this callback must be
-	 * global.
-	 */
-	window.wmSuggestionsEL = null; // cache the suggestions dom.
-	window.portalOpensearchCallback = _.debounce( function ( xhrResults ) {
-		var i,
-			suggestions = window.wmSuggestionsEL || $( 'suggestions' ),
-			oldOptions = suggestions.children,
-			fragment = document.createDocumentFragment();
-
-		// Update the list, reusing any existing items from the last search.
-		for ( i = 0; i < xhrResults[ 1 ].length; i += 1 ) {
-			var option = oldOptions[ i ] || document.createElement( 'option' );
-			option.value = xhrResults[ 1 ][ i ];
-			if ( !oldOptions[ i ] ) {
-				fragment.appendChild( option );
-			}
-		}
-
-		suggestions.appendChild( fragment.cloneNode( true ) );
-	}, 100 );
-
-	/**
 	 * Stores the user's preferred language in a cookie. This function is called
 	 * once a language other than the browser's default is selected from the
 	 * dropdown.
@@ -278,7 +216,6 @@
 		if ( search ) {
 			// Add a search icon to the box in Safari.
 			search.setAttribute( 'results', '10' );
-			setupSuggestions();
 
 			if ( search.autofocus === undefined ) {
 				// Focus the search box.

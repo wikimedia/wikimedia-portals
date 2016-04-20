@@ -10,20 +10,9 @@
 <link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/sprites.css">
-
-<![if gt IE 7]>
-<!-- build:js portal/wikipedia.org/assets/js/abtesting.js -->
-<script src="assets/js/polyfills.js"></script>
-<script src="assets/js/mediawiki.lite.js"></script>
-<script src="assets/js/event-logging-lite.js"></script>
-<script src="assets/js/wm-test.js"></script>
-<!-- endbuild -->
-<![endif]>
-
 </head>
 
 <body id="www-wikipedia-org">
-
 
 {{> header-logo}}
 
@@ -51,11 +40,21 @@
 
 <![if gt IE 7]>
 <!-- build:js portal/wikipedia.org/assets/js/index.js -->
+
+<!-- utilities or polyfills -->
+<script src="assets/js/polyfills.js"></script>
 <script src="assets/js/underscore.partial.js"></script>
-<script src="assets/js/wm-typeahead.js"></script>
+<script src="assets/js/mediawiki.lite.js"></script>
+
+<!-- event logging & AB testing -->
+<script src="assets/js/event-logging-lite.js"></script>
+<script src="assets/js/wm-test.js"></script>
 <script src="assets/js/wikipedia-org-event-logging.js"></script>
+
+<!-- page functions -->
+<script src="assets/js/wm-typeahead.js"></script>
+<script src="assets/js/typeahead-init.js"></script>
 <script src="assets/js/wm-portal.js"></script>
-<script src="assets/js/pab2.js"></script>
 <!-- endbuild -->
 <![endif]>
 

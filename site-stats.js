@@ -1,4 +1,4 @@
-/* jshint node:true, es3:false */
+/* jshint node:true, es5: true */
 /* jscs:disable */
 var preq = require( 'preq' );
 var BBPromise = require( 'bluebird' );
@@ -35,7 +35,10 @@ function httpGet( url ) {
 		.then( function( request ) {
 			return BBPromise.resolve( request.body );
 		} )
+		//JSHint throwing error on reserved .catch() statement
+		/*jshint -W024 */
 		.catch( function( err ) {
+			/*jshint +W024 */
 			// I can haz error message that makes sense?
 			var msg = err.toString() + ' requesting ' + url;
 			console.error( msg );
@@ -134,8 +137,8 @@ function getViewsData() {
 	// Go synchronously to avoid hitting throttling on the server
 	_.each( list, function( hour ) {
 		var fileName = 'cache/' + hour.file;
+		var content = fs.readFileSync( fileName, { encoding: 'utf8' } );
 		try {
-			var content = fs.readFileSync( fileName, { encoding: 'utf8' } );
 			stats.push( content );
 		} catch( ex ) {
 			if ( !content ) {
@@ -173,7 +176,7 @@ function getProjectViews() {
 					var parts = line.split( /\s+-?\s*/ );
 					var wiki = parseProjectString( parts[0] );
 					views[wiki] = views[wiki] || 0;
-					views[wiki] += parseInt( parts[1] );
+					views[wiki] += parseInt( parts[1], 10 );
 				} );
 			} );
 			if ( !views ) {

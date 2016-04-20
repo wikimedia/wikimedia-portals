@@ -12,7 +12,6 @@ var gulp = require( 'gulp' ),
 	sprity = require( 'sprity' ),
 	postCSSNext = require( 'postcss-cssnext' ),
 	postCSSImport = require( 'postcss-import' ),
-	autoprefixer = require( 'autoprefixer' ),
 	postCSSSimple = require( 'postcss-csssimple' );
 
 var plugins = gulpLoadPlugins(),
@@ -174,8 +173,7 @@ gulp.task( 'postcss', function () {
 	return gulp.src( [ getBaseDir() + 'assets/postcss/*.css', '!' + getBaseDir() + 'assets/postcss/_*.css' ] )
 		.pipe( plugins.postcss( [
 			postCSSImport(),
-			postCSSNext(),
-			autoprefixer( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } ),
+			postCSSNext( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } ),
 			postCSSSimple()
 		],
 			{ map: { inline: true } }
@@ -274,8 +272,10 @@ gulp.task( 'lint', function () {
 	gulp.src( [ '*.js', devFolder ] )
 		.pipe( plugins.jshint( '.jshintrc' ) )
 		.pipe( plugins.jshint.reporter( 'default' ) )
+		.pipe( plugins.jshint.reporter( 'fail' ) )
 		.pipe( plugins.jscs() )
-		.pipe( plugins.jscs.reporter() );
+		.pipe( plugins.jscs.reporter() )
+		.pipe( plugins.jscs.reporter( 'fail' ) );
 } );
 
 gulp.task( 'update-stats', function () {

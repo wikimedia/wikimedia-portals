@@ -27,7 +27,8 @@ PostCSS Plugins Used:
 
 CSSNext
   http://cssnext.io/
-  offers css custom properties and a range of future css standard features.
+  offers css custom properties and a range of future css standard features
+  as well as vendor prefixes (-webkit-, -moz-, -ms, -o-) where necessary.
 
 PostCSS-Import
   https://github.com/postcss/postcss-import
@@ -37,7 +38,3 @@ PostCSS-Import
 PostCSS-CSSSimple
   https://www.npmjs.com/package/postcss-csssimple
   Fixes IE6-8 bugs, like adding _zoom:1 to display:inline-block.
-
-Autoprefixer
-  https://github.com/postcss/autoprefixer
-  Adds vendor prefixes (-webkit-, -moz-, -ms, -o-) where necessary.

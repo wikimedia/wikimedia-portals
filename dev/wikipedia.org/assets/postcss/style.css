@@ -2,8 +2,8 @@
 @import '_base.css';
 @import '_buttons.css';
 @import '_forms.css';
-@import '_pab1.css';
-@import '_pab2.css';
+@import '_search-box.css';
+@import '_wm-typeahead.css';
 @import '_search-language-picker.css';
 @import '_wm-portal.css';
 @import '_ie.css';

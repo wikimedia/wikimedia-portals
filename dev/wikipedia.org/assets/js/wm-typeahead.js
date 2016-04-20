@@ -162,9 +162,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		script = document.createElement( 'script' );
 		script.id = 'api_opensearch';
 
-		var callbackIndex = window.callbackStack.addCallback( window.portalOpensearchCallback ) ;
-
-		var searchQuery = {
+		var callbackIndex = window.callbackStack.addCallback( window.portalOpensearchCallback ),
+		searchQuery = {
 			action: 'query',
 			format: 'json',
 			generator: 'prefixsearch',
@@ -323,7 +322,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 *  - inserts the template string into the DOM
 	 *  - attaches event listeners on each suggestion item.
 	 *
-	 * @param {Object} xhrResults
+	 * @param {number} i
 	 */
 	window.portalOpensearchCallback = function ( i ) {
 
