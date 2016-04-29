@@ -137,8 +137,9 @@ function getViewsData() {
 	// Go synchronously to avoid hitting throttling on the server
 	_.each( list, function( hour ) {
 		var fileName = 'cache/' + hour.file;
-		var content = fs.readFileSync( fileName, { encoding: 'utf8' } );
+		var content;
 		try {
+			content = fs.readFileSync( fileName, { encoding: 'utf8' } );
 			stats.push( content );
 		} catch( ex ) {
 			if ( !content ) {
