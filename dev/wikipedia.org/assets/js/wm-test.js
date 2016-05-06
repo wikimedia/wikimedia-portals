@@ -9,8 +9,6 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		group,
 		sessionExpiration = 15 * 60 * 1000, // 15 minutes
 		preferredLangs,
-		controlGroup = 'descriptive-text-a',
-		pabTest4 = 'descriptive-text-b',
 		KEYS = {
 			GROUP: 'portal_test_group',
 			SESSION_ID: 'portal_session_id',
@@ -18,7 +16,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		},
 		// You can allow a test-only mode (no eventlogging)
 		// e.g: testOnly = (location.hash.slice( 1 ) === 'pab1')
-		testOnly = location.hash.slice( 1 ) === pabTest4 || location.hash.slice( 1 ) === controlGroup;
+		testOnly = false;
 
 	/**
 	 * Created an array of preferred languages in ISO939 format.
@@ -77,18 +75,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		var group = 'rejected';
 		// 1:populationSize of the people are tested (baseline)
 		if ( oneIn( sessionId, populationSize ) ) {
-			var groupIndex = Math.floor( Math.random() * ( 5 ) ) + 1,
-				hasEnglish = preferredLangs.indexOf( 'en' );
-
-			if ( groupIndex === 1 && hasEnglish >= 0 ) {
-				group = pabTest4;
-
-			} else if ( groupIndex === 2 && hasEnglish >= 0 ) {
-				group = controlGroup;
-
-			} else {
-				group = 'baseline';
-			}
+			group = 'baseline';
 		}
 		return group;
 	}
@@ -117,13 +104,6 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		mw.storage.set( KEYS.EXPIRES, now + sessionExpiration );
 	} else {
 		group = 'rejected';
-	}
-
-	/**
-	 * portal A/B test 4 code.
-	 */
-	if ( group === pabTest4 ) {
-		document.body.className = 'el-' + group;
 	}
 
 	return {
