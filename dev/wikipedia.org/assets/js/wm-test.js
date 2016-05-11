@@ -120,7 +120,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	function surveyBanner() {
 
 		// only display banner to 1 in 500 users in the 'rejected' group
-		if ( ( oneIn( sessionId, 500 ) && group === 'rejected' ) || testOnly ) {
+		if ( ( oneIn( sessionId, 50 ) && group === 'rejected' ) || testOnly ) {
 
 			// see if existing cookie to hide banner exists.
 			if ( document.cookie.match( /hideBanner/ )  && testOnly === false ) {
