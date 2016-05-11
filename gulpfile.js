@@ -293,13 +293,28 @@ gulp.task( 'fetch-meta', function () {
 		process.exit( 1 );
 		return;
 	}
-	plugins.downloader( {
-		fileName: 'index.html',
-		request: {
-			url: 'https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw'
-		}
-	} )
-		.pipe( gulp.dest( getProdDir() ) );
+	if ( portalParam === 'all' ) {
+
+		var portalsFromMeta = [ 'wikibooks.org', 'wikimedia.org', 'wikinews.org', 'wikiquote.org', 'wikiversity.org', 'wikivoyage.org', 'wiktionary.org' ];
+
+		portalsFromMeta.forEach( function ( wiki ) {
+			plugins.downloader( {
+				fileName: 'index.html',
+				request: {
+					url: 'https://meta.wikimedia.org/w/index.php?title=Www.' + wiki + '_template&action=raw'
+				}
+			} ).pipe( gulp.dest( 'prod/' + wiki + '/' ) );
+		} );
+
+	} else {
+		plugins.downloader( {
+			fileName: 'index.html',
+			request: {
+				url: 'https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw'
+			}
+		} ).pipe( gulp.dest( getProdDir() ) );
+	}
+
 } );
 
 /**
