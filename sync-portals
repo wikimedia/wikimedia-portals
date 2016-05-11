@@ -2,8 +2,8 @@
 
 set -e
 
-sync-dir portals/prod/wikipedia.org/assets $*
-sync-dir portals $*
+scap sync-dir portals/prod/wikipedia.org/assets $*
+scap sync-dir portals $*
 
 cat /srv/mediawiki-staging/portals/urls-to-purge.txt | mwscript purgeList.php
 
