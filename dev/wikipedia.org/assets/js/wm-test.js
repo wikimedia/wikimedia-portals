@@ -1,5 +1,5 @@
 // jscs:disable requireCamelCaseOrUpperCaseIdentifiers
-/*global mw, eventLoggingLite, getIso639, addEvent */
+/*global mw, eventLoggingLite, getIso639 */
 
 window.wmTest = ( function ( eventLoggingLite, mw ) {
 
@@ -16,9 +16,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		},
 		// You can allow a test-only mode (no eventlogging)
 		// e.g: testOnly = (location.hash.slice( 1 ) === 'pab1')
-
-		// survey banner test.
-		testOnly = ( location.hash.slice( 1 ) === 'survey-banner' );
+		testOnly = false;
 
 	/**
 	 * Created an array of preferred languages in ISO939 format.
@@ -107,49 +105,6 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	} else {
 		group = 'rejected';
 	}
-
-	/**
-	 * Qaultrics Survey Banner
-	 * -----------------------
-	 * Display survey banner to 1 in 30 users in the 'rejected' group.
-	 * We only target rejected users because our schema doesn't have a
-	 * 'survey-banner' clickthrough group, and thus clickthough events
-	 * for these users would not be logged.
-	 * https://phabricator.wikimedia.org/T134512
-	 */
-	function surveyBanner() {
-
-		// only display banner to 1 in 30 users in the 'rejected' group
-		if ( ( oneIn( sessionId, 30 ) && group === 'rejected' ) || testOnly ) {
-
-			// see if existing cookie to hide banner exists.
-			if ( document.cookie.match( /hideBanner/ )  && testOnly === false ) {
-				return;
-			}
-
-			var banner = document.getElementById( 'js-survey-banner' ),
-				closeBannerButton = document.getElementById( 'js-survey-hide-banner' );
-
-			banner.style.display = 'block';
-
-			var closeBanner = function () {
-				banner.style.display = 'none';
-
-				// set cookie to hide banner for 24 hours.
-				var now = new Date();
-				now.setTime( now.getTime() + 24 * 3600 * 1000 );
-				document.cookie = 'hideBanner=true; expires=' + now.toUTCString();
-			};
-
-			addEvent( closeBannerButton, 'click', closeBanner );
-
-			// disable event logging for those with banner.
-			// see ticket T134512 for rationale.
-			testOnly = true;
-		}
-
-	}
-	surveyBanner();
 
 	return {
 		loggingDisabled: testOnly, // for test
