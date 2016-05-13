@@ -3,20 +3,24 @@
 
 window.wmTest = ( function ( eventLoggingLite, mw ) {
 
-	'use strict';
-	var sessionId = eventLoggingLite.generateRandomSessionId(),
-		populationSize = 2, // population size for beta or dev
-		group,
-		sessionExpiration = 15 * 60 * 1000, // 15 minutes
-		preferredLangs,
+	var bucketParams = {
+			// population for prod or dev
+			popSize: ( /www.wikipedia.org/.test( location.hostname ) ) ? 200 : 2,
+			// testGroups can be set to `false` if there's no test. else {control: 'control', test: 'name-of-test'}
+			testGroups: {
+				control: 'lang_dropdown-a',
+				test: 'lang_dropdown-b'
+			},
+			// set to 15 minutes
+			sessionLength: 15 * 60 * 1000
+		},
+		// localstorage keys
 		KEYS = {
 			GROUP: 'portal_test_group',
 			SESSION_ID: 'portal_session_id',
 			EXPIRES: 'portal_test_group_expires'
 		},
-		// You can allow a test-only mode (no eventlogging)
-		// e.g: testOnly = (location.hash.slice( 1 ) === 'pab1')
-		testOnly = false;
+		preferredLangs, sessionId, group, testOnly;
 
 	/**
 	 * Created an array of preferred languages in ISO939 format.
@@ -37,6 +41,14 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 			appendLanguage( navigator.languages[ i ] );
 		}
 
+		// gets browser languages from some old Android devices
+		if ( /Android/i.test( navigator.userAgent ) ) {
+			var possibleLanguage = navigator.userAgent.split( ';' );
+			if ( possibleLanguage[ 3 ] ) {
+				appendLanguage( possibleLanguage[ 3 ].trim() );
+			}
+		}
+
 		appendLanguage( navigator.language );
 		appendLanguage( navigator.userLanguage );
 		appendLanguage( navigator.browserLanguage );
@@ -45,65 +57,85 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		return langs;
 	}
 
-	preferredLangs = setPreferredLanguages();
-
 	/**
 	 * Determines whether the user is part of the population size.
 	 *
-	 * @param {number} rand
 	 * @param {number} populationSize
 	 * @return {boolean}
 	 */
-	function oneIn( rand, populationSize ) {
-		// take the first 52 bits of the rand value
-		var parsed = parseInt( rand.slice( 0, 13 ), 16 );
-		return parsed % populationSize === 0;
-	}
-
-	/**
-	 * If we're on production, increase population size.
-	 */
-	if ( /www.wikipedia.org/.test( location.hostname ) ) {
-		populationSize = 200;
+	function oneIn( populationSize ) {
+		return ( Math.floor( ( Math.seededrandom() * populationSize ) + 1 ) ) === 1;
 	}
 
 	/**
 	 * Puts the user in a population group randomly.
 	 */
-	function getTestGroup( sessionId ) {
+	function getTestGroup() {
 
 		var group = 'rejected';
 		// 1:populationSize of the people are tested (baseline)
-		if ( oneIn( sessionId, populationSize ) ) {
+		if ( oneIn( bucketParams.popSize ) ) {
 			group = 'baseline';
+
+			if ( bucketParams.testGroups && oneIn( 10 ) ) {
+				if ( oneIn( 2 ) ) {
+					group = bucketParams.testGroups.test;
+				} else {
+					group = bucketParams.testGroups.control;
+				}
+			}
 		}
 		return group;
 	}
 
-	if ( testOnly ) {
-		group = location.hash.slice( 1 );
-	} else if ( window.localStorage && !/1|yes/.test( navigator.doNotTrack ) ) {
-		var portalGroup = mw.storage.get( KEYS.GROUP ),
-			portalSessionId = mw.storage.get( KEYS.SESSION_ID ),
-			expires = mw.storage.get( KEYS.EXPIRES ),
-			now = new Date().getTime();
-		if ( expires &&
-			portalSessionId &&
-			portalGroup &&
-			now < parseInt( expires, 10 )
-		) {
-			sessionId = portalSessionId;
-			// Because localStorage will convert null to a string.
-			group = portalGroup === 'null' ? null : portalGroup;
-		} else {
-			group = getTestGroup( sessionId );
-			mw.storage.set( KEYS.SESSION_ID, sessionId );
-			mw.storage.set( KEYS.GROUP, group );
+	/**
+	 * Returns a locally stored session ID or generates a new one.
+	 * Returns false if browser doesn't support local storage.
+	 *
+	 * @returns {boolean}
+	 */
+	function getSessionId() {
+
+		var sessionId = false;
+
+		if ( window.localStorage && !/1|yes/.test( navigator.doNotTrack ) ) {
+
+			var storedSessionId = mw.storage.get( KEYS.SESSION_ID ),
+				expires =  mw.storage.get( KEYS.EXPIRES ),
+				now = new Date().getTime();
+
+			// return storedSessionId if not expired
+			if ( storedSessionId && expires > parseInt( now, 10 )  ) {
+				sessionId = storedSessionId;
+			} else {
+				// or create new sessionID
+				sessionId = eventLoggingLite.generateRandomSessionId();
+				mw.storage.set( KEYS.SESSION_ID, sessionId );
+			}
+
+			// set or extend sessionId for 15 more minutes
+			mw.storage.set( KEYS.EXPIRES, now + bucketParams.sessionLength );
+
 		}
-		// set or extend for 15 more minutes
-		mw.storage.set( KEYS.EXPIRES, now + sessionExpiration );
+		return sessionId;
+	}
+
+	testOnly = location.hash.slice( 1 ) === bucketParams.testGroups.test;
+
+	sessionId = getSessionId();
+
+	if ( sessionId ) {
+		Math.seedrandom( sessionId );
+		group = testOnly ? bucketParams.testGroups.test : getTestGroup();
 	} else {
 		group = 'rejected';
+		testOnly = true; // prevent logging if sessionId can't be generated
+	}
+
+	preferredLangs = setPreferredLanguages();
+
+	if ( group === bucketParams.testGroups.test ) {
+		document.body.className += ' ' + group;
 	}
 
 	return {
@@ -130,10 +162,16 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		group: group,
 
 		/**
+		 * All test groups, can be used to check against `group` to
+		 * initiate test code. i.e: if ( group === testGroups.test )
+		 */
+		testGroups: bucketParams.testGroups,
+
+		/**
 		 * the one in x population.
 		 * @type {int}
 		 */
-		populationSize: populationSize,
+		populationSize: bucketParams.popSize,
 
 		/**
 		 * getTestGroup function exposed publicly for testing purposes.

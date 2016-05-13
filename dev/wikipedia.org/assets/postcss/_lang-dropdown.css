@@ -1,0 +1,220 @@
+/**
+* code used for the following A/B test
+* https://phabricator.wikimedia.org/T134008
+*
+* The selectors ".lang_dropdown-b" is used to prefix
+* the a/b test code, as that class appended to the body
+* for the test group only.
+*/
+
+.lang-list-button {
+    display: none;
+}
+
+.up-arrow-container {
+    display: none;
+}
+
+
+.lang_dropdown-b
+.search-container + hr {
+    display: none;
+}
+
+.lang_dropdown-b
+.lang-list-button {
+    display: inline-block;
+}
+
+.lang_dropdown-b
+.lang-list-container{
+    text-align: center;
+    position: relative;
+}
+
+.lang_dropdown-b
+.lang-list-button {
+    color: var(--c-primary);
+    font-size: 0.92rem;
+    line-height:0.8em;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+}
+
+.lang_dropdown-b
+.lang-list-button i {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.lang_dropdown-b
+.lang-list-button .sprite-bookshelf_icons-translate-icon {
+ padding-left: 1em;
+}
+
+.lang_dropdown-b
+.up-arrow-container{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 54px;
+    z-index: 3;
+    display: none;
+}
+
+.lang_dropdown-b
+.up-arrow {
+    display: inline-block;
+}
+
+.lang_dropdown-b
+.lang-list-button + .lang-lists {
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+    width: 70%;
+    left: 15%;
+    top: 95%;
+    background-color: #FFF;
+    overflow: auto;
+    height: 370px;
+    z-index: 2;
+    border-radius: 2px;
+    box-shadow: 0px 1px 10px -4px #000;
+    padding: 0.5rem 1rem;
+}
+
+.lang_dropdown-b
+.bookshelf-container {
+    margin: 0;
+}
+
+.lang_dropdown-b
+.lang-list-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.lang_dropdown-b
+.bookshelf-container .bookend {
+    width: 40px !important;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lang_dropdown-b
+.bookshelf-container .bookend:last-child {
+    display: none;
+}
+
+.lang_dropdown-b
+.bookshelf {
+    text-align: left;
+    white-space: normal;
+}
+
+.lang_dropdown-b
+.langlist {
+    text-align: left;
+    width: auto;
+    margin: 1em 0;
+    font-size: normal;
+}
+
+.lang_dropdown-b
+.langlist-large{
+    font-size: inherit;
+}
+
+.lang_dropdown-b
+.langlist > ul {
+    column-count: 5;
+}
+
+.lang_dropdown-b
+.langlist > ul > li {
+    display: block;
+    line-height: 1.7em;
+}
+
+.lang_dropdown-b
+.langlist > ul > li:before{
+    content: none;
+}
+
+.lang_dropdown-b
+.langlist > ul > li a {
+    white-space: normal;
+}
+
+.lang_dropdown-b
+.langlist-others > ul {
+    column-count: inherit;
+    text-align: center;
+
+}
+
+.lang_dropdown-b
+.langlist-others > ul li {
+    display: inline;
+}
+
+.lang_dropdown-b
+.langlist-others > ul li:before{
+    content: " · ";
+}
+
+.lang_dropdown-b
+.langlist-others > ul li:first-child:before{
+    content: none;
+}
+
+
+@media all and ( max-width: 720px ){
+    .lang_dropdown-b
+    .lang-list-button + .lang-lists {
+        position: relative;
+        top: 0;
+        width: auto;
+        box-shadow: none;
+        padding: 0 1em;
+        left: 0;
+        height: auto;
+        overflow: visible;
+    }
+
+    .lang_dropdown-b
+    .lang-list-overlay {
+        display: none;
+    }
+
+    .lang_dropdown-b
+    .up-arrow {
+        display: none !important;
+    }
+}
+
+@media all and ( max-width: 480px ) {
+    .lang_dropdown-b
+    .langlist > ul {
+        column-count: 4;
+    }
+
+    .lang_dropdown-b
+    .langlist {
+        font-size: inherit;
+    }
+}
+
+@media all and ( max-width: 480px ) {
+    .lang_dropdown-b
+    .langlist > ul {
+        column-count: 3;
+    }
+}

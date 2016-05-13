@@ -30,10 +30,20 @@
 
 {{> divider}}
 
-{{> top-n-articles}}
+<div id="js-lang-list-container" class="lang-list-container">
 
-<!-- Other languages -->
-{{> other-languages}}
+    {{> language-list-button }}
+    <div id="js-lang-lists" class="lang-lists">
+        {{> top-n-articles}}
+        <!-- Other languages -->
+        {{> other-languages}}
+    </div>
+
+    <div id="js-down-arrow" class="up-arrow-container">
+        <div class="up-arrow sprite-bookshelf_icons sprite-bookshelf_icons-arrow-up-white"></div>
+    </div>
+
+</div>
 
 {{> divider}}
 
@@ -55,15 +65,18 @@
 <script src="assets/js/mediawiki.lite.js"></script>
 
 <!-- event logging & AB testing -->
+<script src="assets/js/seedrandom.js"></script>
 <script src="assets/js/event-logging-lite.js"></script>
 <script src="assets/js/wm-test.js"></script>
 <script src="assets/js/wikipedia-org-event-logging.js"></script>
 
-<!-- page functions -->
+<!-- page features -->
 <script src="assets/js/wm-typeahead.js"></script>
 <script src="assets/js/typeahead-init.js"></script>
 <script src="assets/js/topten-localized.js"></script>
 <script src="assets/js/wm-portal.js"></script>
+<script src="assets/js/lang-dropdown-abtest.js"></script>
+
 <!-- endbuild -->
 <![endif]>
 

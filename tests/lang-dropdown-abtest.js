@@ -2,22 +2,26 @@
 /* global casper, console */
 
 /**
- * Integration Test for wikipedia.org portal event logging.
+ * Integration Test for the followig wikipedia.org portal A/B test.
+ * https://phabricator.wikimedia.org/T131526
+ *
  * Run from the main project directory with
- * $ npm run el-abtest3 -- --url=http://your testing url
+ * $ npm run lang-dropdown-abtest -- --url=http://your testing url
  *
  * Do not add a testing hash like '#language-detection-a' to the end of
  * the testing URL as that will disable event logging.
  *
- * This event-logging test:
+ * This event-logging test does the following:
  * - opens the wikipedia portal
- * - sets the event logging group to 'language-detection-a'
+ * - sets the event logging group to 'lang_dropdown-b'
  * - sets a different browser language.
  * - reloads the page
  * - checks for a landing EL request
  * - checks for clickthrough events on all sections.
  * - checks for clickthrough event on forms.
  * - makes sure only 1 event per section was sent.
+ *
+ * Note: this test does not send any real event-logging requests.
  **/
 
 var _ = require( 'underscore' );
@@ -26,9 +30,13 @@ casper.test.begin( 'Wikipedia Portal - abtest4', function suite( test ) {
 
 	var portalUrl = casper.cli.get( 'url' );
 
-	var abTestGroup = 'descriptive-text-b';
+	var abTestGroup = 'lang_dropdown-b';
 
-	var browserLang = 'en';
+	var browserLang = 'ar';
+
+	var sessionId = false;
+
+	var setLang;
 
 	/**
 	 * Tests which should be executed on event logging sections.
@@ -131,7 +139,26 @@ casper.test.begin( 'Wikipedia Portal - abtest4', function suite( test ) {
 	 * Opens URL and changes event-logging group to an a/b test group
 	 */
 
-	casper.start( portalUrl );
+	casper.start( portalUrl, function(){
+
+		sessionId = casper.evaluate( function( sessionId, abTestGroup ) {
+
+			var maxRuns =  window.wmTest.populationSize * 100;
+
+			 for ( var i = 0; i <= maxRuns && !sessionId; i++ ) {
+				 var randomSessionId = window.eventLoggingLite.generateRandomSessionId();
+				 Math.seedrandom(randomSessionId);
+				 if (window.wmTest.getTestGroup() === abTestGroup ) {
+					 sessionId = randomSessionId;
+				 }
+			 }
+
+			localStorage.setItem( 'portal_session_id', sessionId );
+
+			return sessionId;
+
+		}, sessionId, abTestGroup );
+	} );
 
 
 	/**
@@ -140,8 +167,10 @@ casper.test.begin( 'Wikipedia Portal - abtest4', function suite( test ) {
 	var langAndTestGroup;
 
 	casper.on('page.initialized', function(){
+
 		casper.log( 'setting navigator.languages to "'+browserLang+'"' );
-		langAndTestGroup = casper.evaluate(function( browserLang, abTestGroup ){
+
+		setLang = casper.evaluate(function( browserLang ) {
 			(function(oldNav){
 				var newNav = {};
 				[].forEach.call(Object.getOwnPropertyNames(navigator), function(prop){
@@ -164,10 +193,10 @@ casper.test.begin( 'Wikipedia Portal - abtest4', function suite( test ) {
 				});
 				window.navigator = newNav;
 			})(window.navigator);
-			localStorage.setItem( 'portal_test_group', abTestGroup );
-			return [browserLang, localStorage.getItem('portal_test_group') ];
 
-		}, browserLang, abTestGroup );
+			return browserLang;
+
+		}, browserLang );
 
 	});
 
@@ -184,8 +213,8 @@ casper.test.begin( 'Wikipedia Portal - abtest4', function suite( test ) {
 	} );
 
 	casper.then(  function() {
-		test.assertEquals( langAndTestGroup[0], browserLang , "navigator.languages correctly set: " + langAndTestGroup[0] );
-		test.assertEquals( langAndTestGroup[1], abTestGroup , "A/B testing group correctly set: " + langAndTestGroup[1] );
+		test.assertEquals( setLang, browserLang , "navigator.languages correctly set: " + setLang );
+		test.assert( sessionId !== false, "test group is correctly set to: " + abTestGroup );
 	});
 	/**
 	 * Iterates through each section and runs the tests against them.

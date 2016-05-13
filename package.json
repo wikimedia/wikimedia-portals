@@ -5,7 +5,9 @@
     "casperjs": "casperjs test ./tests/casper.js",
     "elbucketing": "casperjs test ./tests/elbucketing.js",
     "el-abtest3": "casperjs test ./tests/el-abtest3.js",
-    "el-abtest4": "casperjs test ./tests/el-abtest4.js"
+    "el-abtest4": "casperjs test ./tests/el-abtest4.js",
+    "lang-dropdown-abtest": "casperjs test ./tests/lang-dropdown-abtest.js"
+
   },
   "devDependencies": {
     "bluebird": "^3.0.5",

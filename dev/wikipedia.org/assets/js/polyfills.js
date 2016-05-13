@@ -277,6 +277,7 @@ window.onunload = function () {
 
 /**
  * Converts strings to iso639.
+ * http://www.iso.org/iso/home/standards/language_codes.htm
  */
 function getIso639( lang ) {
 	var iso639 = lang && lang.match( /^\w+/ );
@@ -284,6 +285,11 @@ function getIso639( lang ) {
 		return;
 	}
 	iso639 = ( iso639[ 0 ] === 'nb' ) ? 'no' : iso639[ 0 ];
+
+	// iso639 codes should be max 4 letters long.
+	if ( iso639.length > 3 ) {
+		return;
+	}
 	return iso639;
 }
 
