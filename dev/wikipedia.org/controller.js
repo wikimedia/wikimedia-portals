@@ -8,7 +8,8 @@ var _ = require( 'underscore' ),
 	otherLanguages = require( './other-languages.json' ),
 	top100000List,
 	top100000Dropdown,
-	Controller;
+	Controller,
+	dirsum = require( 'dirsum' );
 
 // Format the dropdown for ./templates/search.mustache
 top100000List = stats.getRange( 'wiki', 'numPages', 100000 );
@@ -48,6 +49,36 @@ _.each( range, function ( wiki ) {
 var fileName = './dev/wikipedia.org/site-defs.js';
 fs.writeFileSync( fileName, '/* jshint ignore:start */\n/* jscs:disable */\nwmStats = ' + JSON.stringify( siteStats ) );
 
+/**
+ * Writing stats to translation files
+ */
+var translationPath = './dev/wikipedia.org/assets/translations/';
+
+function createTranslationFiles( translationPath, siteStats ) {
+
+	var writeFile = function ( el ) {
+		var fileName = translationPath + el.code + '.json';
+		fs.writeFileSync( fileName, JSON.stringify( el ) );
+	};
+
+	for ( var lang in siteStats ) {
+		if ( siteStats[ lang ].sublinks ) {
+			siteStats[ lang ].sublinks.forEach( writeFile );
+		} else {
+			var fileName = translationPath + lang + '.json';
+			fs.writeFileSync( fileName, JSON.stringify( siteStats[ lang ] ) );
+		}
+	}
+}
+
+try {
+	fs.accessSync( translationPath );
+	createTranslationFiles( translationPath, siteStats );
+} catch ( err ) {
+	fs.mkdirSync( translationPath );
+	createTranslationFiles( translationPath, siteStats );
+}
+
 Controller = {
 	top10views: stats.getTopFormatted( 'wiki', 'views', 10 ),
 	top1000000Articles: stats.getRangeFormatted( 'wiki', 'numPages', 1000000 ),
@@ -59,5 +90,9 @@ Controller = {
 	otherProjects: otherProjects,
 	otherLanguages: otherLanguages
 };
+
+dirsum.digest( translationPath, 'md5', function ( err, hashes ) {
+	Controller.translationChecksum = hashes.hash;
+} );
 
 module.exports = Controller;

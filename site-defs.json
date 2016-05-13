@@ -96,7 +96,11 @@
 	},
 	"az": {
 		"name": "Azərbaycanca",
-		"sort": "Azerbaycanca"
+		"sort": "Azerbaycanca",
+        "wiki": {
+          "siteName": "Vikipediyaya",
+          "slogan": "Açıq ensiklopediya"
+        }
 	},
 	"azb": {
 		"name": "<bdi dir=\"rtl\">تۆرکجه</bdi>",
@@ -138,7 +142,11 @@
 	"bg": {
 		"sort": "Balgarski",
 		"name": "Български",
-		"wikiquote": {
+		"wiki": {
+          "siteName":"Уикипедия",
+          "slogan": "Cвободната енциклопедия"
+        },
+        "wikiquote": {
 			"articles": "страници",
 			"slogan": "Цитати, афоризми, крилати фрази"
 		},
@@ -210,7 +218,11 @@
 	},
 	"ca": {
 		"name": "Català",
-		"wiktionary": {
+        "wiki": {
+          "siteName":"Viquipèdia",
+          "slogan": "L'enciclopèdia lliure"
+        },
+        "wiktionary": {
 			"siteName": "Viccionari",
 			"logo": "text",
 			"slogan": "El diccionari lliure"
@@ -235,8 +247,12 @@
 		"latin": "Noxçiyn"
 	},
 	"ceb": {
-		"name": "Sinugboanong Binisaya"
-	},
+		"name": "Sinugboanong Binisaya",
+        "wiki": {
+          "siteName": "Wikipedya",
+          "slogan": "Ang gawasnong ensiklopedya"
+        }
+    },
 	"ch": {
 		"name": "Chamoru"
 	},
@@ -310,6 +326,10 @@
 	},
 	"da": {
 		"name": "Dansk",
+        "wiki": {
+          "siteName": "Wikipedia",
+          "slogan": "Den frie encyklopædi"
+        },
 		"wiktionary": {
 			"slogan": "Den frie ordbog"
 		}
@@ -584,6 +604,10 @@
 	},
 	"ga": {
 		"name": "Gaeilge",
+        "wiki": {
+          "siteName": "Vicipéid",
+          "slogan": "An Chiclipéid Shaor"
+        },
 		"wiktionary": {
 			"siteName": "Vicífhoclóir",
 			"logo": "text",
@@ -1739,7 +1763,11 @@
 		"name": "Walon"
 	},
 	"war": {
-		"name": "Winaray"
+		"name": "Winaray",
+        "wiki": {
+          "siteName": "Wikipedia",
+          "slogan": "An gawasnon nga ensayklopedya"
+        }
 	},
 	"wo": {
 		"name": "Wolof"

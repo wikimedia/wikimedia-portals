@@ -1,5 +1,5 @@
 /*global
- wmStats, wmTest
+ wmTest, translationsHash, mw
  */
 
 /**
@@ -16,11 +16,10 @@
 function localizeTopTen( ) {
 
 	/**
-	* Creates an array of existing language codes in the top ten links.
-	*
+	* Returns an array of language codes based on the lang attributes of the top-ten links.
 	* returns {Array} topLinkLangs.
 	*/
-	function setTopLinkLangs( topLinks ) {
+	function getTopLinkLangs( topLinks ) {
 		var topLinkLangs = [ ];
 
 		for ( var i = 0; i < topLinks.length; i++ ) {
@@ -31,16 +30,26 @@ function localizeTopTen( ) {
 		return topLinkLangs;
 	}
 
-	/**
-	 * List of preferred languages
-	 *
-	 * @type {Array}
-	 */
 	var preferredLanguages = wmTest.userLangs,
 		i, topLinks = document.querySelectorAll( '.central-featured-lang' ),
 		topLinksContainer = document.querySelector( '.central-featured' ),
-		textLogo = document.querySelector( '.central-textlogo' ),
-		topLinkLangs = setTopLinkLangs( topLinks );
+		localizedSlogan = document.getElementById( 'js-localized-slogan' ),
+		topLinkLangs = getTopLinkLangs( topLinks ),
+		storedTranslationHash = mw.storage.get( 'translationHash' ),
+		storedTranslations = JSON.parse( mw.storage.get( 'storedTranslations' ) ) || {};
+
+	/**
+	 * translationHash is a global variable that is a hash of all translation strings.
+	 * it is generated during the build step and placed onto the page with mustache templates.
+	 * For more info on how this hash is generated, see ../controller.js
+	 * This hash is now stored in localstorage.
+	 * If the localstorage version of the hash differs from the global variable,
+	 * that means a translation has changed and we need to ajax in new translations.
+	 */
+	if ( storedTranslationHash !== translationsHash ) {
+		mw.storage.set( 'translationHash', translationsHash );
+		mw.storage.remove( 'storedTranslations' );
+	}
 
 	/**
 	* Merges the preferred language codes {@link #preferredLanguages} with the
@@ -70,26 +79,144 @@ function localizeTopTen( ) {
 	}
 
 	/**
-	* Changes the text and attributes of a top link node to a different language.
-	* This allows us to place a new language into the top ten by reusing an existing
-	* DOM node instead of creating a new one.
-	*/
-	function localizeTopLink( node, lang ) {
-		var wiki = wmStats[ lang ];
+	 * Manipulates the DOM of a top-ten item with new content.
+	 * Essentially, instead of creating new elements, we move existing elements and
+	 * replace their textContent and attributes with a different content.
+	 *
+	 * @param {Element} node - a DOM Element from the top-ten links that will be modified.
+	 * @param {Object} wikiInfo - The info to modify the node with.
+	 */
+	function updateTopLinkDOM( node, wikiInfo ) {
+		var anchor = node.getElementsByTagName( 'a' )[ 0 ],
+		// some wiki titles are placed within a <bdi dir="rtl"> tag.
+		// strip the tag for the title attribute.
+			wikiNameStripped = wikiInfo.name.replace( /<\/?[^>]+(>|$)/g, '' );
 
-		if ( wiki ) {
-			var anchor = node.getElementsByTagName( 'a' )[ 0 ],
-			// some wiki titles are placed within a <bdi dir="rtl"> tag.
-			// strip the tag for the title attribute.
-			wikiNameStripped = wiki.name.replace( /<\/?[^>]+(>|$)/g, '' );
+		anchor.setAttribute( 'href', '//' + wikiInfo.url );
+		anchor.setAttribute( 'id', 'js-link-box-' + wikiInfo.lang );
+		anchor.setAttribute( 'data-slogan', wikiInfo.slogan || 'The Free Encyclopedia' );
+		anchor.setAttribute( 'title', wikiNameStripped + ' — ' + wikiInfo.siteName + ' — ' + ( wikiInfo.slogan || '' ) );
+		node.setAttribute( 'lang', wikiInfo.lang );
+		node.getElementsByTagName( 'strong' )[ 0 ].textContent = wikiNameStripped;
+		node.getElementsByTagName( 'small' )[ 0 ].textContent = wikiInfo.numPages + '+ ' + ( wikiInfo.articles || '' );
+	}
 
-			anchor.setAttribute( 'href', '//' + wiki.url );
-			anchor.setAttribute( 'title', wikiNameStripped + ' — ' + wiki.siteName + ' — ' + ( wiki.slogan || '' ) );
-			node.setAttribute( 'lang', lang );
-			node.getElementsByTagName( 'strong' )[ 0 ].textContent = wikiNameStripped;
-			node.getElementsByTagName( 'em' )[ 0 ].textContent = ( wiki.slogan || '' );
-			node.getElementsByTagName( 'small' )[ 0 ].textContent = wiki.numPages + '+ ' + ( wiki.articles || '' );
+	/**
+	 * Renames the top link classes to appear correctly around the globe image.
+	 * this should happen after the top links nodes have been reorganized.
+	 *
+	 * @param {Array} topLinkLangs - an array of language codes.
+	 */
+	function reorganizeTopLinkClasses( topLinkLangs ) {
+		var topLinks = document.querySelectorAll( '.central-featured-lang' ),
+			topLinksCorrectLangs = true;
+
+		for ( var i = 0; i < topLinks.length && topLinksCorrectLangs === true; i++ ) {
+			var topLinkLang = topLinks[ i ].getAttribute( 'lang' );
+			topLinksCorrectLangs = topLinkLangs.indexOf( topLinkLang ) >= 0;
 		}
+
+		for ( i = 0; i < topLinks.length && topLinksCorrectLangs === true; i++ ) {
+			var topLink = topLinks[ i ],
+				topLinkClass = topLink.className,
+				correctClassName = 'central-featured-lang lang' + ( i + 1 );
+
+			if ( topLinkClass !== correctClassName ) {
+				topLink.className = correctClassName;
+			}
+		}
+	}
+
+	/**
+	 * Creates a localized slogan ('The Free Encyclopedia') below the Wikipedia wordmark
+	 */
+	function createLocalizedSlogan() {
+
+		var mainLang = preferredLanguages[ 0 ],
+			mainLangTopTenItem = document.getElementById( 'js-link-box-' + mainLang ),
+			sloganText;
+		if ( mainLangTopTenItem ) {
+			sloganText = mainLangTopTenItem.getAttribute( 'data-slogan' ) || 'The free encyclopedia';
+			localizedSlogan.textContent = sloganText;
+			localizedSlogan.className = 'localized-slogan';
+		}
+	}
+
+	/**
+	 * Retrieves top-ten item info. via ajax.
+	 * On every successful request, we update the top-link DOM, create the localized slogan, and
+	 * reorganize the top-link classes. Each of these methods check to see if the expected (i.e. final)
+	 * data exists before executing. This accomodates both synchronous and asynchronous execution.
+	 *
+	 * After a successful request, the data is appended to a localStorage variable to prevent
+	 * subsequest ajax requests.
+	 *
+	 * @param {Element} node - A DOM node that will be modified with new info upon ajax success.
+	 * @param {string} lang - Language code for which to get new wiki info.
+	 */
+	function getAjaxTranslation( node, lang ) {
+
+		var i18nReq = new XMLHttpRequest();
+
+		i18nReq.open( 'GET', encodeURI( 'portal/wikipedia.org/assets/translations/' + lang + '.json' ), true );
+
+		i18nReq.onload = function () {
+
+			if ( i18nReq.status !== 200 ) {
+				return;
+			}
+
+			var wikiInfo = JSON.parse( this.responseText );
+
+			if ( wikiInfo ) {
+				updateTopLinkDOM( node, wikiInfo );
+				createLocalizedSlogan();
+				reorganizeTopLinkClasses( topLinkLangs );
+				storedTranslations = JSON.parse( mw.storage.get( 'storedTranslations' ) ) || {};
+				storedTranslations[ lang ] = wikiInfo;
+				mw.storage.set( 'storedTranslations', JSON.stringify( storedTranslations ) );
+			}
+		};
+
+		i18nReq.send();
+	}
+
+	/**
+	 * Determines whether to ajax in new language info or use it from localStorage.
+	 *
+	 * @param {Element} node - the DOM node that will be modified with new info.
+	 * @param {string} lang - the language code with which to modify the node.
+	 */
+	function localizeTopLink( node, lang ) {
+
+		var translations = storedTranslations;
+
+		if ( translations[ lang ] ) {
+			updateTopLinkDOM( node, translations[ lang ] );
+		} else {
+			getAjaxTranslation( node, lang );
+		}
+	}
+
+	/**
+	 * Looks for a top-link DOM node that can be re-purposed with new content.
+	 * Returns the first DOM node that does not have a lang attribute that is
+	 * one of topLinkLangs.
+	 *
+	 * @param {Array} topLinks - array of DOM nodes
+	 * @param {Array} topLinkLangs - array of languages
+	 * @returns {Element} - node that can be reused with new content
+	 */
+	function findReusableTopLink( topLinks, topLinkLangs ) {
+		var reusableTopLink = null;
+
+		for ( var i = topLinkLangs.length - 1; i >= 0 && reusableTopLink === null; i-- ) {
+			var topLinkLang = topLinks[ i ].getAttribute( 'lang' );
+			if ( topLinkLangs.indexOf( topLinkLang ) < 0 ) {
+				reusableTopLink = topLinks[ i ];
+			}
+		}
+		return reusableTopLink;
 	}
 
 	/**
@@ -111,54 +238,24 @@ function localizeTopTen( ) {
 					topLinksContainer.insertBefore( topLinkNode, topLinks[ i ] );
 				}
 			} else {
-				var repurposedTopLink = topLinks[ topLinks.length - 1 ];
+				var repurposedTopLink = findReusableTopLink( topLinks, topLinkLangs );
 				localizeTopLink( repurposedTopLink, topLinkLang );
 				topLinksContainer.insertBefore( repurposedTopLink, topLinks[ i ] );
 			}
 		}
 	}
 
-	/**
-	* Renames the top link classes to appear correctly around the globe image.
-	* this should happen after the top links nodes have been reorganized.
-	*/
-	function reorganizeTopLinkClasss() {
-		topLinks = document.querySelectorAll( '.central-featured-lang' );
-		for ( i = 0; i < topLinks.length; i++ ) {
-			var topLink = topLinks[ i ],
-				topLinkClass = topLink.className,
-				correctClassName = 'central-featured-lang lang' + ( i + 1 );
-
-			if ( topLinkClass !== correctClassName ) {
-				topLink.className = correctClassName;
-			}
-		}
-	}
-
-	/**
-	* Creates a localized slogan ('The Free Encyclopedia') below the Wikipedia wordmark
-	*/
-	function createLocalizedSlogan() {
-		var localizedSlogan = document.createElement( 'strong' ),
-			sloganText = wmStats[ preferredLanguages[ 0 ] ].slogan || 'The free encyclopedia';
-
-		localizedSlogan.textContent = sloganText;
-		localizedSlogan.className = 'localized-slogan';
-		textLogo.appendChild( localizedSlogan );
-	}
-
 	mergeNewTopLinkLangs();
 	organizeTopLinks();
+	reorganizeTopLinkClasses( topLinkLangs );
 	createLocalizedSlogan();
-	reorganizeTopLinkClasss();
 
 	/**
 	* Sets the top ten style to visible after reoganizing top links.
 	*/
+	localizedSlogan.style.visibility = 'visible';
 	topLinksContainer.style.visibility = 'visible';
 
 }
 
-if ( wmTest.group === 'language-detection-b' ) {
-	localizeTopTen();
-}
+localizeTopTen();

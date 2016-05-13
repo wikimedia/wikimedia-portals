@@ -12,11 +12,12 @@
 
         <!-- #{{index}}. {{url}} - {{formatNumber views thousandSeparator=true thousandFloor=true}} views/day -->
         <div class="central-featured-lang lang{{index}}" lang="{{lang}}">
-        <a href="//{{url}}/"
+        <a id="js-link-box-{{lang}}"
+           href="//{{url}}/"
            title="{{#if latin}}{{latin}}{{else}}{{name}}{{/if}} — {{siteName}} — {{slogan}}"
-           class="link-box"{{printAttrs 'linkBoxAttrs'}}>
-            <strong>{{name}}</strong><br>
-            <em{{printAttrs 'sloganAttrs'}}>{{slogan}}</em><br>
+           class="link-box"{{printAttrs 'linkBoxAttrs'}}
+           data-slogan="{{slogan}}">
+            <strong>{{name}}</strong>
             {{#if articlesAttrs}}
                 <small>{{formatNumber numPages thousandSeparator=true thousandFloor=true nbsp=true}}+ <span{{printAttrs 'articlesAttrs'}}>{{articles}}</span></small>
             {{else}}
