@@ -1,0 +1,1912 @@
+{
+	"aa": {
+		"name": "Afar"
+	},
+	"ab": {
+		"name": "Аҧсуа",
+		"sort": "Apsua",
+		"latin": "Aṗsua"
+	},
+	"ace": {
+		"name": "Bahsa Acèh",
+		"sort": "Aceh, Bahsa"
+	},
+	"af": {
+		"name": "Afrikaans",
+		"wiktionary": {
+			"siteName": "Wikiwoordeboek",
+			"logo": "text",
+			"slogan": "Die vrye woordeboek"
+		}
+	},
+	"ak": {
+		"name": "Akan"
+	},
+	"als": {
+		"name": "Alemannisch",
+		"lang": "gsw"
+	},
+	"am": {
+		"name": "አማርኛ",
+		"sort": "Amarinna",
+		"latin": "Āmariññā"
+	},
+	"an": {
+		"name": "Aragonés",
+		"wiktionary": {
+			"logo": "text"
+		},
+		"sort": "Aragones"
+	},
+	"ang": {
+		"name": "Ænglisc",
+		"wiktionary": {
+			"logo": "text"
+		},
+		"sort": "Aenglisc"
+	},
+	"ar": {
+		"sort": "Arabiyah, Al",
+		"wikinews": {
+			"createPage": "ويكي الأخبار:كتابة خبر"
+		},
+		"name": "<bdi dir=\"rtl\">العربية</bdi>",
+		"wiktionary": {
+			"siteName": "ويكاموس",
+			"slogan": "القاموس الحر"
+		},
+		"wikiversity": {
+			"articles": "مقالا",
+			"slogan": "أدوات التعلّم"
+		},
+		"latin": "Al-ʿArabīyah",
+		"wiki": {
+			"siteName": "ويكيبيديا",
+			"slogan": " الموسوعة الحرة",
+			"articles": "مقالة"
+		}
+	},
+	"arc": {
+		"name": "<bdi dir=\"rtl\">ܐܬܘܪܝܐ</bdi>",
+		"sort": "Aturaya",
+		"latin": "Ātûrāyâ"
+	},
+	"arz": {
+		"name": "<bdi dir=\"rtl\">مصرى</bdi>",
+		"sort": "Masri",
+		"latin": "Maṣrī"
+	},
+	"as": {
+		"name": "অসমীযা়",
+		"sort": "Oxomiya",
+		"latin": "Ôxômiya"
+	},
+	"ast": {
+		"name": "Asturianu",
+		"wiktionary": {
+			"logo": "text"
+		}
+	},
+	"av": {
+		"name": "Авар",
+		"latin": "Avar"
+	},
+	"ay": {
+		"name": "Aymar"
+	},
+	"az": {
+		"name": "Azərbaycanca",
+		"sort": "Azerbaycanca",
+        "wiki": {
+          "siteName": "Vikipediyaya",
+          "slogan": "Açıq ensiklopediya"
+        }
+	},
+	"azb": {
+		"name": "<bdi dir=\"rtl\">تۆرکجه</bdi>",
+		"sort": "Turkce",
+		"latin": "Türkce"
+	},
+	"ba": {
+		"name": "Башҡортса",
+		"sort": "Basqortsa",
+		"latin": "Başqortsa"
+	},
+	"bar": {
+		"name": "Boarisch"
+	},
+	"bat-smg": {
+		"name": "Žemaitėška",
+		"lang": "sgs",
+		"sort": "Zemaiteska"
+	},
+	"bcl": {
+		"name": "Bikol Central"
+	},
+	"be": {
+		"name": "Беларуская (Акадэмічная)",
+		"sort": "Belaruskaya Akademichnaya",
+		"latin": "Belaruskaya (Akademichnaya)"
+	},
+	"be-x-old": {
+		"name": "Беларуская (Тарашкевіца)",
+		"sort": "Belaruskaya Taraskievica",
+		"lang": "be",
+		"latin": "Belaruskaya (Taraškievica)"
+	},
+	"beta": {
+		"name": "β",
+		"lang": "mul",
+		"latin": "Beta"
+	},
+	"bg": {
+		"sort": "Balgarski",
+		"name": "Български",
+		"wiki": {
+          "siteName":"Уикипедия",
+          "slogan": "Cвободната енциклопедия"
+        },
+        "wikiquote": {
+			"articles": "страници",
+			"slogan": "Цитати, афоризми, крилати фрази"
+		},
+		"wiktionary": {
+			"siteName": "Уикиречник",
+			"logo": "text",
+			"slogan": "Свободният речник"
+		},
+		"latin": "Bǎlgarski"
+	},
+	"bh": {
+		"name": "भोजपुरी",
+		"sort": "Bhojapuri",
+		"latin": "Bhōjapurī"
+	},
+	"bi": {
+		"name": "Bislama"
+	},
+	"bjn": {
+		"name": "Bahasa Banjar",
+		"sort": "Banjar, Bahasa"
+	},
+	"bm": {
+		"name": "Bamanankan"
+	},
+	"bn": {
+		"name": "বাংলা",
+		"wiktionary": {
+			"siteName": "উইকি-অভিধান",
+			"slogan": "একটি মুক্ত অভিধান"
+		},
+		"latin": "Bangla"
+	},
+	"bo": {
+		"name": "བོད་ཡིག",
+		"latin": "Bod Skad"
+	},
+	"bpy": {
+		"name": "বিষ্ণুপ্রিয়া মণিপুরী",
+		"latin": "Bishnupriya Manipuri"
+	},
+	"br": {
+		"name": "Brezhoneg",
+		"wiktionary": {
+			"siteName": "Wikeriadur",
+			"logo": "text",
+			"slogan": "Ar geriadur frank"
+		}
+	},
+	"bs": {
+		"name": "Bosanski",
+		"wikiquote": {
+			"siteName": "Wikicitat",
+			"slogan": "Slobodna zbirka citata",
+			"articles": "tekst(ov)a"
+		},
+		"wiktionary": {
+			"siteName": "Vikirječnik",
+			"slogan": "Slobodni rječnik"
+		}
+	},
+	"bug": {
+		"name": "<span lang=\"bug-Bugi\">ᨅᨔ ᨕᨙᨁᨗ</span> / <span lang=\"bug-Latn\">Basa Ugi</span>",
+		"sort": "Ugi, Basa"
+	},
+	"bxr": {
+		"name": "Буряад",
+		"latin": "Buryad"
+	},
+	"ca": {
+		"name": "Català",
+        "wiki": {
+          "siteName":"Viquipèdia",
+          "slogan": "L'enciclopèdia lliure"
+        },
+        "wiktionary": {
+			"siteName": "Viccionari",
+			"logo": "text",
+			"slogan": "El diccionari lliure"
+		},
+		"sort": "Catala",
+		"wikinews": {
+			"createPage": "Viquinotícies:Escriviu un article",
+			"articles": "notícies"
+		}
+	},
+	"cbk-zam": {
+		"lang": "cbk-x-zam",
+		"name": "Chavacano de Zamboanga"
+	},
+	"cdo": {
+		"name": "Mìng-dĕ̤ng-ngṳ̄",
+		"sort": "Ming-deng-ngu"
+	},
+	"ce": {
+		"name": "Нохчийн",
+		"sort": "Noxciyn",
+		"latin": "Noxçiyn"
+	},
+	"ceb": {
+		"name": "Sinugboanong Binisaya",
+        "wiki": {
+          "siteName": "Wikipedya",
+          "slogan": "Ang gawasnong ensiklopedya"
+        }
+    },
+	"ch": {
+		"name": "Chamoru"
+	},
+	"chr": {
+		"name": "ᏣᎳᎩ",
+		"latin": "Tsalagi"
+	},
+	"chy": {
+		"name": "Tsėhesenėstsestotse",
+		"sort": "Tsehesenestsestotse"
+	},
+	"ckb": {
+		"name": "<bdi dir=\"rtl\">کوردیی ناوەندی</bdi>",
+		"sort": "Kurdiy Nawendi",
+		"latin": "Kurdîy Nawendî"
+	},
+	"co": {
+		"name": "Corsu"
+	},
+	"cr": {
+		"name": "Nēhiyawēwin / <span lang=\"cr-Cans\">ᓀᐦᐃᔭᐍᐏᐣ</span>",
+		"sort": "Nehiyawewin"
+	},
+	"crh": {
+		"name": "Qırımtatarca",
+		"sort": "Qirimtatarca"
+	},
+	"cs": {
+		"sort": "Cestina",
+		"wiktionary": {
+			"logo": "text"
+		},
+		"name": "Čeština",
+		"wikiquote": {
+			"articles": "stránek",
+			"slogan": "Sbírka citátů"
+		},
+		"wikiversity": {
+			"articles": "stránky",
+			"slogan": "Volně dostupné vzdělání"
+		},
+		"wikinews": {
+			"createPage": "Wikizprávy:Jak napsat zprávu",
+			"articles": "zpráv"
+		},
+		"wiki": {
+			"siteName": "Wikipedie",
+			"slogan": "Otevřená encyklopedie",
+			"articles": "článků"
+		}
+	},
+	"csb": {
+		"name": "Kaszëbsczi",
+		"sort": "Kaszebsczi"
+	},
+	"cu": {
+		"name": "<span lang=\"cu-Cyrl\">Словѣ́ньскъ</span> / <span lang=\"cu-Glag\">ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ</span>",
+		"sort": "Slovenisku",
+		"latin": "Slověnĭskŭ"
+	},
+	"cv": {
+		"name": "Чӑвашла",
+		"sort": "Cavasla",
+		"latin": "Čăvašla"
+	},
+	"cy": {
+		"name": "Cymraeg",
+		"wiktionary": {
+			"logo": "text"
+		}
+	},
+	"da": {
+		"name": "Dansk",
+        "wiki": {
+          "siteName": "Wikipedia",
+          "slogan": "Den frie encyklopædi"
+        },
+		"wiktionary": {
+			"slogan": "Den frie ordbog"
+		}
+	},
+	"de": {
+		"wikiquote": {
+			"articles": "Artikel",
+			"slogan": "Zitatsammlung"
+		},
+		"wikivoyage": {
+			"slogan": "Reiseführer"
+		},
+		"wikibooks": {
+			"articles": "Seiten",
+			"slogan": "Inhaltsoffene Lehrbücher"
+		},
+		"name": "Deutsch",
+		"wiktionary": {
+			"logo": "text",
+			"articles": "Einträge",
+			"slogan": "Das freie Wörterbuch"
+		},
+		"wikiversity": {
+			"articles": "Seiten",
+			"slogan": "Lernen und Lehren"
+		},
+		"wikinews": {
+			"create": "Schreibe einen Artikel",
+			"articles": "Artikel",
+			"createPage": "Wikinews:Schreibe einen Artikel"
+		},
+		"wiki": {
+			"articles": "Artikel",
+			"slogan": "Die freie Enzyklopädie"
+		}
+	},
+	"diq": {
+		"name": "Zazaki"
+	},
+	"dsb": {
+		"name": "Dolnoserbski"
+	},
+	"dv": {
+		"name": "<bdi dir=\"rtl\">ދިވެހިބަސް</bdi>",
+		"latin": "Dhivehi"
+	},
+	"dz": {
+		"name": "རྫོང་ཁ",
+		"latin": "Rdzong-Kha"
+	},
+	"ee": {
+		"name": "Eʋegbe",
+		"sort": "Ewegbe"
+	},
+	"el": {
+		"sort": "Ellinika",
+		"wikivoyage": {
+			"siteName": "Βικιταξίδια",
+			"slogan": "Ταξιδιωτικός Οδηγός"
+		},
+		"wikinews": {
+			"articles": "άρθρα"
+		},
+		"name": "Ελληνικά",
+		"wiktionary": {
+			"siteName": "Βικιλεξικό",
+			"slogan": "Το ελεύθερο λεξικό",
+			"articles": "λήμματα"
+		},
+		"wikiversity": {
+			"articles": "πόρους μάθησης",
+			"slogan": "Εκπαιδευτική κοινότητα"
+		},
+		"latin": "Ellīniká"
+	},
+	"eml": {
+		"name": "Emigliàn–Rumagnòl",
+		"lang": "roa-x-eml",
+		"sort": "Emiglian-Rumagnol"
+	},
+	"en": {
+		"wikiquote": {
+			"articles": "articles",
+			"slogan": "Collection of quotations"
+		},
+		"wikivoyage": {
+			"slogan": "Travel Guide"
+		},
+		"wikibooks": {
+			"articles": "pages",
+			"slogan": "Open-content textbooks"
+		},
+		"name": "English",
+		"wiktionary": {
+			"logo": "text",
+			"articles": "entries",
+			"slogan": "The free dictionary"
+		},
+		"wikiversity": {
+			"articles": "learning resources",
+			"slogan": "Open Learning Community"
+		},
+		"wikinews": {
+			"create": "Writing an article",
+			"articles": "articles",
+			"createPage": "Wikinews:Writing an article"
+		},
+		"wiki": {
+			"siteName": "Wikipedia",
+			"articles": "articles",
+			"slogan": "The Free Encyclopedia"
+		}
+	},
+	"eo": {
+		"name": "Esperanto",
+		"wikinews": {
+			"createPage": "Helpo:Kiel skribi artikolon"
+		}
+	},
+	"es": {
+		"name": "Español",
+		"sort": "Espanol",
+		"wikivoyage": {
+			"slogan": "Guía de Viaje"
+		},
+		"wikibooks": {
+			"articles": "páginas",
+			"slogan": "Libros de contenido libre"
+		},
+		"wiktionary": {
+			"siteName": "Wikcionario",
+			"slogan": "El diccionario libre",
+			"articles": "entradas"
+		},
+		"wikiquote": {
+			"articles": "páginas",
+			"slogan": "La colección de citas"
+		},
+		"wikiversity": {
+			"articles": "páginas",
+			"slogan": "Plataforma educativa libre"
+		},
+		"wikinews": {
+			"create": "Escribir un artículo",
+			"articles": "artículos",
+			"createPage": "Ayuda:Escribir un artículo"
+		},
+		"wiki": {
+			"articles": "artículos",
+			"slogan": "La enciclopedia libre"
+		}
+	},
+	"et": {
+		"name": "Eesti"
+	},
+	"eu": {
+		"name": "Euskara",
+		"wiktionary": {
+			"logo": "text"
+		}
+	},
+	"ext": {
+		"name": "Estremeñu",
+		"sort": "Estremenu"
+	},
+	"fa": {
+		"name": "<bdi dir=\"rtl\">فارسی</bdi>",
+		"latin": "Fārsi",
+		"sort": "Farsi",
+		"wikivoyage": {
+			"slogan": "راهنمای سفر"
+		},
+		"wiktionary": {
+			"siteName": "ویکی‌واژه",
+			"slogan": "لغتنامه چندزبانه آزاد"
+		},
+		"wikibooks": {
+			"articles": "صفحه",
+			"slogan": "کتاب‌های آزاد"
+		},
+		"wikiquote": {
+			"articles": "صفحه",
+			"slogan": "مجموعه‌ای از نقل قول‌ها"
+		},
+		"wikinews": {
+			"createPage": "ویکی‌خبر:نوشتن خبر"
+		},
+		"wiki": {
+			"siteName": "ویکی‌پدیا",
+			"slogan": "دانشنامهٔ آزاد",
+			"articles": "مقاله"
+		}
+	},
+	"ff": {
+		"name": "Fulfulde"
+	},
+	"fi": {
+		"name": "Suomi",
+		"wiktionary": {
+			"siteName": "Wikisanakirja",
+			"slogan": "Vapaa sanakirja"
+		},
+		"wikiversity": {
+			"siteName": "Wikiopisto",
+			"slogan": "Vapaa oppimisympäristö",
+			"articles": "artikkelia"
+		},
+		"wikinews": {
+			"createPage": "Ohje:Artikkelin kirjoittaminen"
+		},
+		"wiki": {
+			"articles": "artikkelia",
+			"slogan": "Vapaa tietosanakirja"
+		}
+	},
+	"fiu-vro": {
+		"name": "Võro",
+		"sort": "Voro"
+	},
+	"fj": {
+		"name": "Na Vosa Vaka-Viti"
+	},
+	"fo": {
+		"name": "Føroyskt",
+		"sort": "Foroyskt"
+	},
+	"fr": {
+		"name": "Français",
+		"sort": "Francais",
+		"wikivoyage": {
+			"slogan": "Guide de voyage"
+		},
+		"wikibooks": {
+			"articles": "pages",
+			"slogan": "Textes pédagogiques libres"
+		},
+		"wiktionary": {
+			"siteName": "Wiktionnaire",
+			"slogan": "Le dictionnaire libre",
+			"articles": "articles"
+		},
+		"wikiquote": {
+			"articles": "articles",
+			"slogan": "Collection de citations"
+		},
+		"wikiversity": {
+			"articles": "pages",
+			"slogan": "Communauté pédagogique"
+		},
+		"wikinews": {
+			"create": "Écrire un article",
+			"articles": "articles",
+			"createPage": "Wikinews:Salle de rédaction"
+		},
+		"wiki": {
+			"siteName": "Wikipédia",
+			"slogan": "L’encyclopédie libre",
+			"articles": "articles"
+		}
+	},
+	"frp": {
+		"name": "Arpitan"
+	},
+	"frr": {
+		"name": "Nordfriisk"
+	},
+	"fur": {
+		"name": "Furlan"
+	},
+	"fy": {
+		"name": "Frysk"
+	},
+	"ga": {
+		"name": "Gaeilge",
+        "wiki": {
+          "siteName": "Vicipéid",
+          "slogan": "An Chiclipéid Shaor"
+        },
+		"wiktionary": {
+			"siteName": "Vicífhoclóir",
+			"logo": "text",
+			"slogan": "An foclóir saor"
+		}
+	},
+	"gag": {
+		"name": "Gagauz"
+	},
+	"gan": {
+		"name": "贛語",
+		"attrs": {
+			"data-convert-Hans": "赣语",
+			"id": "gan_wiki"
+		},
+		"latin": "Gon ua"
+	},
+	"gd": {
+		"name": "Gàidhlig",
+		"sort": "Gaidhlig"
+	},
+	"gl": {
+		"name": "Galego",
+		"wiktionary": {
+			"logo": "galicia"
+		}
+	},
+	"glk": {
+		"name": "<bdi dir=\"rtl\">گیلکی</bdi>",
+		"sort": "Gileki",
+		"latin": "Giləki"
+	},
+	"gn": {
+		"name": "Avañe’ẽ",
+		"sort": "Avanee"
+	},
+	"gom": {
+		"name": "<span lang=\"gom-Deva\">कोंकणी</span> / <span lang=\"gom-Latn\">Konknni</span>",
+		"sort": "Konknni"
+	},
+	"got": {
+		"name": "𐌲𐌿𐍄𐌹𐍃𐌺",
+		"latin": "Gutisk"
+	},
+	"gu": {
+		"name": "ગુજરાતી",
+		"latin": "Gujarati"
+	},
+	"gv": {
+		"name": "Gaelg"
+	},
+	"ha": {
+		"name": "<span lang=\"ha-Latn\">Hausa</span> / <bdi lang=\"ha-Arab\" dir=\"rtl\">هَوُسَا</bdi>",
+		"sort": "Hausa"
+	},
+	"hak": {
+		"name": "<span lang=\"hak-Latn\">Hak-kâ-fa</span> / <span id=\"hak_wiki\" lang=\"hak-Hani\" data-convert-Hans=\"客家话\">客家話</span>",
+		"sort": "Hak-ka-fa"
+	},
+	"haw": {
+		"name": "ʻŌlelo Hawaiʻi",
+		"sort": "Hawaii, Olelo"
+	},
+	"he": {
+		"sort": "Ivrit",
+		"wikibooks": {
+			"articles": "עמודים",
+			"slogan": "ספרים פתוחים לעולם פתוח"
+		},
+		"wikivoyage": {
+			"siteName": "ויקימסע",
+			"slogan": "מדריך טיולים"
+		},
+		"wikiquote": {
+			"articles": "דפים",
+			"slogan": "מאגר הציטוטים החופשי"
+		},
+		"name": "<bdi dir=\"rtl\">עברית</bdi>",
+		"wiktionary": {
+			"siteName": "ויקימילון",
+			"logo": "text",
+			"slogan": "המילון החופשי"
+		},
+		"wikinews": {
+			"createPage": "ויקיחדשות:כתיבת מאמר"
+		},
+		"latin": "ʿIvrit"
+	},
+	"hi": {
+		"name": "हिन्दी",
+		"sort": "Hindi",
+		"latin": "Hindī"
+	},
+	"hif": {
+		"name": "Fiji Hindi"
+	},
+	"hr": {
+		"name": "Hrvatski",
+		"wiktionary": {
+			"logo": "text"
+		}
+	},
+	"hsb": {
+		"name": "Hornjoserbsce"
+	},
+	"ht": {
+		"name": "Kreyòl Ayisyen",
+		"sort": "Kreyol Ayisyen"
+	},
+	"hu": {
+		"name": "Magyar",
+		"wiktionary": {
+			"logo": "text"
+		},
+		"wiki": {
+			"siteName": "Wikipédia",
+			"slogan": "A szabad enciklopédia",
+			"articles": "szócikke"
+		}
+	},
+	"hy": {
+		"name": "Հայերեն",
+		"latin": "Hayeren"
+	},
+	"ia": {
+		"name": "Interlingua"
+	},
+	"id": {
+		"sort": "Indonesia, Bahasa",
+		"name": "Bahasa Indonesia",
+		"wikibooks": {
+			"articles": "buku",
+			"slogan": "Buku bebas"
+		},
+		"wiktionary": {
+			"logo": "text"
+		},
+		"wiki": {
+			"articles": "artikel",
+			"slogan": "Ensiklopedia bebas"
+		}
+	},
+	"ie": {
+		"name": "Interlingue"
+	},
+	"ig": {
+		"name": "Igbo"
+	},
+	"ik": {
+		"name": "Iñupiak",
+		"sort": "Inupiak"
+	},
+	"ilo": {
+		"name": "Ilokano"
+	},
+	"io": {
+		"name": "Ido",
+		"wiktionary": {
+			"logo": "text"
+		}
+	},
+	"is": {
+		"name": "Íslenska",
+		"wiktionary": {
+			"siteName": "Wikiorðabók",
+			"logo": "text",
+			"slogan": "Frjálsa orðabókin"
+		},
+		"sort": "Islenska"
+	},
+	"it": {
+		"wikiquote": {
+			"articles": "voci",
+			"slogan": "Aforismi e citazioni"
+		},
+		"wikivoyage": {
+			"slogan": "Guida Turistica"
+		},
+		"wikibooks": {
+			"articles": "moduli",
+			"slogan": "Manuali e libri di testo liberi"
+		},
+		"name": "Italiano",
+		"wiktionary": {
+			"siteName": "Wikizionario",
+			"slogan": "Il dizionario libero",
+			"articles": "lemmi"
+		},
+		"wikiversity": {
+			"articles": "lezioni",
+			"slogan": "L’università libera"
+		},
+		"wikinews": {
+			"create": "Scrivi un articolo",
+			"articles": "voci",
+			"createPage": "Wikinotizie:Scrivere un articolo"
+		},
+		"wiki": {
+			"articles": "voci",
+			"slogan": "L’enciclopedia libera"
+		}
+	},
+	"iu": {
+		"name": "<span lang=\"iu-Cans\">ᐃᓄᒃᑎᑐᑦ</span> / <span lang=\"iu-Latn\">Inuktitut</span>",
+		"sort": "Inuktitut"
+	},
+	"ja": {
+		"wikibooks": {
+			"sloganAttrs": {
+				"class": "emNonItalicLang"
+			},
+			"slogan": "フリー教科書",
+			"articles": "項目"
+		},
+		"name": "日本語",
+		"wiktionary": {
+			"siteName": "ウィクショナリー",
+			"slogan": "フリー多機能辞典"
+		},
+		"wikinews": {
+			"siteName": "ウィキニュース",
+			"articles": "記事",
+			"createPage": "ウィキニュース:記事の書き方"
+		},
+		"latin": "Nihongo",
+		"wiki": {
+			"siteName": "ウィキペディア",
+			"slogan": "フリー百科事典",
+			"articles": "記事",
+			"sloganAttrs": {
+				"class": "emNonItalicLang"
+			}
+		}
+	},
+	"jbo": {
+		"name": "lojban",
+		"sort": "Lojban"
+	},
+	"jv": {
+		"name": "Basa Jawa",
+		"sort": "Jawa, Basa"
+	},
+	"ka": {
+		"name": "ქართული",
+		"wiktionary": {
+			"logo": "text"
+		},
+		"latin": "Kartuli"
+	},
+	"kaa": {
+		"name": "Qaraqalpaqsha"
+	},
+	"kab": {
+		"name": "Taqbaylit"
+	},
+	"kbd": {
+		"name": "Адыгэбзэ",
+		"latin": "Adighabze"
+	},
+	"kg": {
+		"name": "Kongo"
+	},
+	"ki": {
+		"name": "Gĩkũyũ",
+		"sort": "Gikuyu"
+	},
+	"kk": {
+		"name": "<span lang=\"kk-Cyrl\">Қазақша</span> / <span lang=\"kk-Latn\">Qazaqşa</span> / <bdi lang=\"kk-Arab\" dir=\"rtl\">قازاقشا</bdi>",
+		"sort": "Qazaqsa"
+	},
+	"kl": {
+		"name": "Kalaallisut"
+	},
+	"km": {
+		"name": "ភាសាខ្មែរ",
+		"sort": "Khmer, Pheasa",
+		"latin": "Phéasa Khmér"
+	},
+	"kn": {
+		"name": "ಕನ್ನಡ",
+		"wiktionary": {
+			"logo": "text"
+		},
+		"latin": "Kannada"
+	},
+	"ko": {
+		"name": "한국어",
+		"wiktionary": {
+			"siteName": "위키낱말사전",
+			"slogan": "말과 글의 누리",
+			"articles": "낱말"
+		},
+		"wikinews": {
+			"createPage": "위키뉴스:기사 작성법"
+		},
+		"latin": "Hangugeo",
+		"wiki": {
+			"siteName": "위키백과",
+			"slogan": "우리 모두의 백과사전",
+			"articles": "문서"
+		}
+	},
+	"koi": {
+		"name": "Перем Коми",
+		"latin": "Perem Komi"
+	},
+	"krc": {
+		"name": "Къарачай–Малкъар",
+		"sort": "Qaracay-Malqar",
+		"latin": "Qaraçay–Malqar"
+	},
+	"ks": {
+		"name": "<bdi dir=\"rtl\">كشميري</bdi>",
+		"latin": "Kashmiri"
+	},
+	"ksh": {
+		"name": "Ripoarisch"
+	},
+	"ku": {
+		"name": "<span lang=\"ku-Latn\">Kurdî</span> / <bdi lang=\"ku-Arab\" dir=\"rtl\">كوردی</bdi>",
+		"wiktionary": {
+			"logo": "text",
+			"articles": "rûpel",
+			"slogan": "Ferhenga azad"
+		},
+		"sort": "Kurdi"
+	},
+	"kv": {
+		"name": "Коми",
+		"latin": "Komi"
+	},
+	"kw": {
+		"name": "Kernewek"
+	},
+	"ky": {
+		"name": "Кыргызча",
+		"sort": "Kyrgyzca",
+		"latin": "Kyrgyzča"
+	},
+	"la": {
+		"name": "Latina",
+		"wiktionary": {
+			"logo": "text"
+		}
+	},
+	"lad": {
+		"name": "<span lang=\"lad-Latn\">Dzhudezmo</span> / <bdi lang=\"lad-Hebr\" dir=\"rtl\">לאדינו</bdi>",
+		"latin": "Ladino"
+	},
+	"lb": {
+		"name": "Lëtzebuergesch",
+		"wiktionary": {
+			"logo": "text"
+		},
+		"sort": "Letzebuergesch"
+	},
+	"lbe": {
+		"name": "Лакку",
+		"sort": "Laku",
+		"latin": "Lakːu"
+	},
+	"lez": {
+		"name": "Лезги",
+		"latin": "Lezgi"
+	},
+	"lg": {
+		"name": "Luganda"
+	},
+	"li": {
+		"name": "Limburgs"
+	},
+	"lij": {
+		"name": "Líguru",
+		"sort": "Liguru"
+	},
+	"lmo": {
+		"name": "Lumbaart"
+	},
+	"ln": {
+		"name": "Lingála",
+		"sort": "Lingala"
+	},
+	"lo": {
+		"name": "ພາສາລາວ",
+		"sort": "Laao, Phaasaa",
+		"latin": "Phaasaa Laao"
+	},
+	"lrc": {
+		"name": "<bdi dir=\"rtl\">لۊری شومالی</bdi>",
+		"sort": "Loriye-Somali",
+		"latin": "Löriyé-Šomālī"
+	},
+	"lt": {
+		"name": "Lietuvių",
+		"wikiquote": {
+			"articles": "puslapiai",
+			"slogan": "Aforizmų ir sentencijų lobynas"
+		},
+		"wiktionary": {
+			"logo": "book",
+			"articles": "straipsniai",
+			"slogan": "Laisvasis žodynas"
+		},
+		"sort": "Lietuviu"
+	},
+	"ltg": {
+		"name": "Latgaļu",
+		"sort": "Latgalu"
+	},
+	"lv": {
+		"name": "Latviešu",
+		"sort": "Latviesu"
+	},
+	"mai": {
+		"name": "मैथिली",
+		"sort": "Maithili",
+		"latin": "Maithilī"
+	},
+	"map-bms": {
+		"name": "Basa Banyumasan",
+		"lang": "map-x-bms",
+		"sort": "Banyumasan, Basa"
+	},
+	"mdf": {
+		"name": "Мокшень",
+		"sort": "Moksenj",
+		"latin": "Mokšenj"
+	},
+	"mg": {
+		"name": "Malagasy",
+		"wiktionary": {
+			"logo": "text",
+			"articles": "teny",
+			"slogan": "Raki-bolana malalaka"
+		}
+	},
+	"mhr": {
+		"name": "Олык Марий",
+		"latin": "Olyk Marij"
+	},
+	"mi": {
+		"name": "Māori",
+		"sort": "Maori"
+	},
+	"min": {
+		"name": "Bahaso Minangkabau",
+		"sort": "Minangkabau, Bahaso"
+	},
+	"mk": {
+		"name": "Македонски",
+		"latin": "Makedonski"
+	},
+	"ml": {
+		"name": "മലയാളം",
+		"latin": "Malayalam"
+	},
+	"mn": {
+		"name": "Монгол",
+		"latin": "Mongol"
+	},
+	"mo": {
+		"sort": "Moldoveneasca",
+		"name": "Молдовеняскэ",
+		"lang": "ro-Cyrl",
+		"latin": "Moldovenească"
+	},
+	"mr": {
+		"name": "मराठी",
+		"latin": "Marathi"
+	},
+	"mrj": {
+		"name": "Кырык Мары",
+		"lang": "mjr",
+		"latin": "Kyryk Mary"
+	},
+	"ms": {
+		"name": "Bahasa Melayu",
+		"wiktionary": {
+			"siteName": "Wikikamus",
+			"slogan": "Kamus bebas"
+		},
+		"sort": "Melayu, Bahasa"
+	},
+	"mt": {
+		"name": "Malti"
+	},
+	"mwl": {
+		"name": "Mirandés",
+		"sort": "Mirandes"
+	},
+	"my": {
+		"name": "မြန်မာဘာသာ",
+		"latin": "Myanmarsar"
+	},
+	"myv": {
+		"name": "Эрзянь",
+		"latin": "Erzjanj"
+	},
+	"mzn": {
+		"name": "<bdi dir=\"rtl\">مازِرونی</bdi>",
+		"sort": "Mazeruni",
+		"latin": "Mäzeruni"
+	},
+	"na": {
+		"name": "Dorerin Naoero",
+		"sort": "Naoero, Dorerin"
+	},
+	"nah": {
+		"name": "Nāhuatlahtōlli",
+		"sort": "Nahuatlahtolli"
+	},
+	"nap": {
+		"name": "Nnapulitano"
+	},
+	"nds": {
+		"name": "Plattdüütsch",
+		"sort": "Plattduutsch"
+	},
+	"nds-nl": {
+		"name": "Nedersaksisch"
+	},
+	"ne": {
+		"name": "नेपाली",
+		"sort": "Nepali",
+		"latin": "Nepālī"
+	},
+	"new": {
+		"name": "नेपाल भाषा",
+		"latin": "Nepal Bhasa"
+	},
+	"nl": {
+		"wikivoyage": {
+			"slogan": "Reisgids"
+		},
+		"name": "Nederlands",
+		"wikibooks": {
+			"articles": "hoofdstukken",
+			"slogan": "Boeken en handleidingen"
+		},
+		"wiktionary": {
+			"articles": "artikelen",
+			"slogan": "Het vrije woordenboek"
+		},
+		"wiki": {
+			"siteName": "Wikipedie",
+			"slogan": "De vrieje encyclopedie",
+			"articles": "artikelen"
+		}
+	},
+	"nn": {
+		"name": "Norsk (Nynorsk)",
+		"sort": "Norsk Nynorsk"
+	},
+	"no": {
+		"sort": "Norsk Bokmal",
+		"name": "Norsk (Bokmål)",
+		"wiktionary": {
+			"logo": "text"
+		},
+		"lang": "nb",
+		"wikinews": {
+			"createPage": "Wikinytt:Skriv en artikkel-nb",
+			"create": "Skriv en artikkel"
+		},
+		"wiki": {
+			"articles": "artikler",
+			"slogan": "Den frie encyklopedi"
+		}
+	},
+	"nov": {
+		"name": "Novial"
+	},
+	"nrm": {
+		"name": "Nouormand / Normaund",
+		"lang": "roa-x-nrm",
+		"sort": "Nouormand"
+	},
+	"nso": {
+		"name": "Sesotho sa Leboa"
+	},
+	"nv": {
+		"name": "Diné Bizaad",
+		"sort": "Dine Bizaad"
+	},
+	"ny": {
+		"name": "Chichewa"
+	},
+	"oc": {
+		"name": "Occitan",
+		"wiktionary": {
+			"siteName": "Wikiccionari",
+			"slogan": "Lo diccionari liure"
+		}
+	},
+	"om": {
+		"name": "Afaan Oromoo",
+		"sort": "Oromoo, Afaan"
+	},
+	"or": {
+		"name": "ଓଡି଼ଆ",
+		"wiktionary": {
+			"logo": "text"
+		},
+		"sort": "Oria",
+		"latin": "Oṛiā"
+	},
+	"os": {
+		"name": "Ирон æвзаг",
+		"sort": "Iron Aevzag",
+		"latin": "Iron Ævzag"
+	},
+	"pa": {
+		"name": "ਪੰਜਾਬੀ (ਗੁਰਮੁਖੀ)",
+		"sort": "Panjabi Gurmukhi",
+		"latin": "Pañjābī (Gurmukhī)"
+	},
+	"pag": {
+		"name": "Pangasinán",
+		"sort": "Pangasinan"
+	},
+	"pam": {
+		"name": "Kapampangan"
+	},
+	"pap": {
+		"name": "Papiamentu"
+	},
+	"pcd": {
+		"name": "Picard"
+	},
+	"pdc": {
+		"name": "Deitsch"
+	},
+	"pfl": {
+		"name": "Pfälzisch",
+		"sort": "Pfalzisch"
+	},
+	"pi": {
+		"name": "पाऴि",
+		"sort": "Pali",
+		"latin": "Pāḷi"
+	},
+	"pih": {
+		"name": "Norfuk / Pitkern",
+		"sort": "Norfuk"
+	},
+	"pl": {
+		"wikiquote": {
+			"articles": "artykulów",
+			"slogan": "Kolekcja cytatów"
+		},
+		"wikivoyage": {
+			"slogan": "Przewodnik Turystyczny"
+		},
+		"name": "Polski",
+		"wikibooks": {
+			"articles": "stron",
+			"slogan": "Otwarte podręczniki"
+		},
+		"wiktionary": {
+			"articles": "stron",
+			"slogan": "Wolny słownik"
+		},
+		"wikinews": {
+			"create": "Dodaj artykuł",
+			"articles": "hasel",
+			"createPage": "Wikinews:Dodaj artykuł"
+		},
+		"wiki": {
+			"articles": "haseł",
+			"slogan": "Wolna encyklopedia"
+		}
+	},
+	"pms": {
+		"name": "Piemontèis",
+		"sort": "Piemonteis"
+	},
+	"pnb": {
+		"name": "<bdi dir=\"rtl\">پنجابی (شاہ مکھی)</bdi>",
+		"sort": "Panjabi Shahmukhi",
+		"latin": "Pañjābī (Shāhmukhī)"
+	},
+	"pnt": {
+		"name": "Ποντιακά",
+		"sort": "Pontiaka",
+		"latin": "Pontiaká"
+	},
+	"ps": {
+		"name": "<bdi dir=\"rtl\">پښتو</bdi>",
+		"sort": "Pasto",
+		"latin": "Paʂto"
+	},
+	"pt": {
+		"name": "Português",
+		"sort": "Portugues",
+		"wikivoyage": {
+			"slogan": "Guia de Viagens"
+		},
+		"wikibooks": {
+			"articles": "módulos",
+			"slogan": "Livros didáticos gratuitos"
+		},
+		"wiktionary": {
+			"siteName": "Wikcionário",
+			"slogan": "O dicionário livre"
+		},
+		"wikiquote": {
+			"articles": "artigos",
+			"slogan": "Coletânea de citações"
+		},
+		"wikiversity": {
+			"articles": "páginas",
+			"slogan": "A universidade livre"
+		},
+		"wikinews": {
+			"create": "Escrever uma notícia",
+			"articles": "artigos",
+			"createPage": "Ajuda:Página principal"
+		},
+		"wiki": {
+			"siteName": "Wikipédia",
+			"slogan": "A enciclopédia livre",
+			"articles": "artigos"
+		}
+	},
+	"qu": {
+		"name": "Runa Simi",
+		"wiktionary": {
+			"logo": "text"
+		}
+	},
+	"rm": {
+		"name": "Rumantsch"
+	},
+	"rmy": {
+		"name": "Romani"
+	},
+	"rn": {
+		"name": "Kirundi",
+		"sort": "Rundi, Ki"
+	},
+	"ro": {
+		"sort": "Romana",
+		"wikivoyage": {
+			"slogan": "Ghid Turistic"
+		},
+		"name": "Română",
+		"wiktionary": {
+			"siteName": "Wikţionar",
+			"logo": "text",
+			"slogan": "Dicţionarul liber"
+		},
+		"wikinews": {
+			"siteName": "Wikiștiri",
+			"articles": "știri",
+			"createPage": "Wikiștiri:Primii pași în scrierea unui articol",
+			"create": "Scrieți un articol"
+		}
+	},
+	"roa-rup": {
+		"name": "Armãneashce",
+		"sort": "Armaneashce"
+	},
+	"roa-tara": {
+		"name": "Tarandíne",
+		"lang": "roa",
+		"sort": "Tarandine"
+	},
+	"ru": {
+		"name": "Русский",
+		"latin": "Russkiy",
+		"wikiquote": {
+			"articles": "статей",
+			"slogan": "Коллекция цитат"
+		},
+		"wikivoyage": {
+			"siteName": "Викигид",
+			"slogan": "Путеводитель"
+		},
+		"wiktionary": {
+			"logo": "text",
+			"articles": "статей",
+			"slogan": "Свободный словарь"
+		},
+		"wikibooks": {
+			"articles": "учебников",
+			"slogan": "Открытые учебники"
+		},
+		"wikiversity": {
+			"articles": "статей",
+			"slogan": "Обучение"
+		},
+		"wikinews": {
+			"create": "Добавить новость",
+			"articles": "статей",
+			"createPage": "Викиновости:Добавить новость"
+		},
+		"wiki": {
+			"siteName": "Википедия",
+			"slogan": "Свободная энциклопедия",
+			"articles": "статей"
+		}
+	},
+	"rue": {
+		"name": "Русиньскый Язык",
+		"sort": "Rusinskyj Yazyk",
+		"latin": "Rusin’skyj Yazyk"
+	},
+	"rw": {
+		"name": "Kinyarwanda"
+	},
+	"sa": {
+		"name": "संस्कृतम्",
+		"sort": "Samskrtam",
+		"latin": "Saṃskṛtam"
+	},
+	"sah": {
+		"name": "Саха Тыла",
+		"latin": "Saxa Tyla"
+	},
+	"sc": {
+		"name": "Sardu"
+	},
+	"scn": {
+		"name": "Sicilianu"
+	},
+	"sco": {
+		"name": "Scots"
+	},
+	"sd": {
+		"name": "<bdi dir=\"rtl\">سنڌي</bdi>",
+		"sort": "Sindhi",
+		"latin": "Sindhī"
+	},
+	"se": {
+		"name": "Sámegiella",
+		"sort": "Samegiella"
+	},
+	"sg": {
+		"name": "Sängö",
+		"wiktionary": {
+			"logo": "text"
+		},
+		"sort": "Sango"
+	},
+	"sh": {
+		"name": "<span lang=\"sh-Latn\">Srpskohrvatski</span> / <span lang=\"sh-Cyrl\">Српскохрватски</span>",
+		"wiktionary": {
+			"logo": "text",
+			"articles": "<span lang=\"sh-Latn\">unosa</span> / <span lang=\"sh-Cyrl\">уноса</span>",
+			"slogan": "<span lang=\"sh-Latn\">Slobodni rječnik</span> / <span lang=\"sh-Cyrl\">Слободни рјечник</span>"
+		},
+		"sort": "Srpskohrvatski",
+		"topName": "<span lang=\"sh-Latn\">Srpskohrvatski</span><br><span lang=\"sh-Cyrl\">Српскохрватски</span>"
+	},
+	"si": {
+		"name": "සිංහල",
+		"sort": "Simhala",
+		"latin": "Siṃhala"
+	},
+	"simple": {
+		"name": "Simple English",
+		"lang": "en",
+		"wiktionary": {
+			"logo": "book"
+		}
+	},
+	"sk": {
+		"name": "Slovenčina",
+		"wikiquote": {
+			"siteName": "Wikicitáty",
+			"slogan": "Zbierka citátov",
+			"articles": "článkov"
+		},
+		"sort": "Slovencina"
+	},
+	"sl": {
+		"name": "Slovenščina",
+		"wiktionary": {
+			"siteName": "Wikislovar",
+			"slogan": "Prosti slovar"
+		},
+		"wikiversity": {
+			"siteName": "Wikiverza",
+			"slogan": "Prosti spletni univerzi",
+			"articles": "člankov"
+		},
+		"sort": "Slovenscina"
+	},
+	"sm": {
+		"name": "Gagana Sāmoa",
+		"sort": "Samoa, Gagana"
+	},
+	"sn": {
+		"name": "ChiShona",
+		"sort": "Shona, Chi"
+	},
+	"so": {
+		"name": "Soomaaliga"
+	},
+	"sq": {
+		"name": "Shqip",
+		"wiktionary": {
+			"siteName": "WikiFjalori",
+			"slogan": "Fjalori i lirë"
+		}
+	},
+	"sr": {
+		"name": "<span lang=\"sr-Cyrl\">Српски</span> / <span lang=\"sr-Latn\">Srpski</span>",
+		"wiktionary": {
+			"siteName": "Викиречник",
+			"logo": "text",
+			"slogan": "Слободни речник"
+		},
+		"sort": "Srpski",
+		"wikinews": {
+			"articles": "чланака",
+			"createPage": "Помоћ:Садржај",
+			"create": "писање чланка",
+			"articlesAttrs": {
+				"lang": "sr-Cyrl"
+			},
+			"createAttrs": {
+				"lang": "sr-Cyrl"
+			}
+		}
+	},
+	"srn": {
+		"name": "Sranantongo"
+	},
+	"ss": {
+		"name": "SiSwati",
+		"sort": "Swati, Si"
+	},
+	"st": {
+		"name": "Sesotho"
+	},
+	"stq": {
+		"name": "Seeltersk"
+	},
+	"su": {
+		"name": "Basa Sunda",
+		"sort": "Sunda, Basa"
+	},
+	"sv": {
+		"wikivoyage": {
+			"slogan": "Reseguiden"
+		},
+		"name": "Svenska",
+		"wiktionary": {
+			"articles": "stavningar",
+			"slogan": "Den fria ordboken"
+		},
+		"wikiversity": {
+			"articles": "sidor",
+			"slogan": "Fritt e-lärande"
+		},
+		"wikinews": {
+			"createPage": "Wikinews:Hur man skriver en artikel"
+		},
+		"wiki": {
+			"articles": "artiklar",
+			"slogan": "Den fria encyklopedin"
+		}
+	},
+	"sw": {
+		"name": "Kiswahili",
+		"sort": "Swahili, Ki"
+	},
+	"szl": {
+		"name": "Ślůnski",
+		"sort": "Slunski"
+	},
+	"ta": {
+		"name": "தமிழ்",
+		"wiktionary": {
+			"siteName": "விக்சனரி",
+			"logo": "text"
+		},
+		"sort": "Tamil",
+		"latin": "Tamiḻ"
+	},
+	"te": {
+		"name": "తెలుగు",
+		"latin": "Telugu"
+	},
+	"tet": {
+		"name": "Tetun"
+	},
+	"tg": {
+		"name": "Тоҷикӣ",
+		"latin": "Tojikī"
+	},
+	"th": {
+		"name": "ภาษาไทย",
+		"sort": "Thai, Phasa",
+		"latin": "Phasa Thai"
+	},
+	"ti": {
+		"name": "ትግርኛ",
+		"sort": "Tigrinna",
+		"latin": "Tigriññā"
+	},
+	"tk": {
+		"name": "Türkmençe",
+		"sort": "Turkmence"
+	},
+	"tl": {
+		"name": "Tagalog",
+		"wiktionary": {
+			"slogan": "Ang malayang diksyonaryo"
+		}
+	},
+	"tn": {
+		"name": "Setswana"
+	},
+	"to": {
+		"name": "faka Tonga",
+		"sort": "Tonga, faka"
+	},
+	"tpi": {
+		"name": "Tok Pisin"
+	},
+	"tr": {
+		"sort": "Turkce",
+		"name": "Türkçe",
+		"wikiquote": {
+			"articles": "sayfa mevcut",
+			"slogan": "Alıntı koleksiyonu"
+		},
+		"wiktionary": {
+			"siteName": "VikiSözlük",
+			"slogan": "Özgür Sözlük",
+			"articles": "madde"
+		},
+		"wiki": {
+			"siteName": "Vikipedi",
+			"slogan": "Özgür Ansiklopedi",
+			"articles": "madde"
+		}
+	},
+	"ts": {
+		"name": "Xitsonga",
+		"sort": "Tsonga, Xi"
+	},
+	"tt": {
+		"name": "<span lang=\"tt-Cyrl\">Татарча</span> / <span lang=\"tt-Latn\">Tatarça</span>",
+		"sort": "Tatarca"
+	},
+	"tum": {
+		"name": "chiTumbuka",
+		"sort": "Tumbuka, chi"
+	},
+	"tw": {
+		"name": "Twi"
+	},
+	"ty": {
+		"name": "Reo Mā’ohi",
+		"sort": "Maohi, Reo"
+	},
+	"tyv": {
+		"name": "Тыва дыл",
+		"latin": "Tyva dyl"
+	},
+	"udm": {
+		"name": "Удмурт",
+		"latin": "Udmurt"
+	},
+	"ug": {
+		"name": "<bdi dir=\"rtl\">ئۇيغۇرچه</bdi>",
+		"sort": "Uyghurche"
+	},
+	"uk": {
+		"sort": "Ukrayinska",
+		"wikivoyage": {
+			"siteName": "Вікімандри",
+			"slogan": "Туристичний Путівник"
+		},
+		"name": "Українська",
+		"wikiquote": {
+			"articles": "статей",
+			"slogan": "Вільної збірки цитат"
+		},
+		"wikinews": {
+			"createPage": "Вікіновини:Створення новини",
+			"articles": "статей"
+		},
+		"latin": "Ukrayins’ka",
+		"wiki": {
+			"siteName": "Вікіпедія",
+			"slogan": "Вільна енциклопедія",
+			"articles": "статей"
+		}
+	},
+	"ur": {
+		"name": "<bdi dir=\"rtl\">اردو</bdi>",
+		"latin": "Urdu"
+	},
+	"uz": {
+		"name": "<span lang=\"uz-Latn\">Oʻzbekcha</span> / <span lang=\"uz-Cyrl\">Ўзбекча</span>",
+		"sort": "Ozbekcha"
+	},
+	"ve": {
+		"name": "Tshivenḓa",
+		"sort": "Tshivenda"
+	},
+	"vec": {
+		"name": "Vèneto",
+		"wiktionary": {
+			"logo": "book"
+		},
+		"sort": "Veneto"
+	},
+	"vep": {
+		"name": "Vepsän",
+		"sort": "Vepsnn"
+	},
+	"vi": {
+		"sort": "Viet, Tieng",
+		"wikivoyage": {
+			"slogan": "Cẩm nang du lịch"
+		},
+		"name": "Tiếng Việt",
+		"wikibooks": {
+			"articles": "trang sách",
+			"slogan": "Tủ sách mở"
+		},
+		"wikiquote": {
+			"articles": "bài viết",
+			"slogan": "Bộ sưu tập danh ngôn mở"
+		},
+		"wiktionary": {
+			"articles": "mục từ",
+			"slogan": "từ điển mở"
+		},
+		"wiki": {
+			"articles": "bài viết",
+			"slogan": "Bách khoa toàn thư mở"
+		}
+	},
+	"vls": {
+		"name": "West-Vlams"
+	},
+	"vo": {
+		"name": "Volapük",
+		"wiktionary": {
+			"siteName": "Vükivödabuk",
+			"logo": "text",
+			"slogan": "Vödabuk libik"
+		},
+		"sort": "Volapuk"
+	},
+	"wa": {
+		"name": "Walon"
+	},
+	"war": {
+		"name": "Winaray",
+        "wiki": {
+          "siteName": "Wikipedia",
+          "slogan": "An gawasnon nga ensayklopedya"
+        }
+	},
+	"wo": {
+		"name": "Wolof"
+	},
+	"wuu": {
+		"name": "吳語",
+		"attrs": {
+			"data-convert-Hans": "吴语",
+			"id": "wuu_wiki"
+		},
+		"sort": "Wu Yu",
+		"latin": "Wú Yǔ"
+	},
+	"xal": {
+		"name": "Хальмг",
+		"sort": "Halmg",
+		"latin": "Halʹmg"
+	},
+	"xh": {
+		"name": "isiXhosa",
+		"sort": "Xhosa, isi"
+	},
+	"xmf": {
+		"name": "მარგალური",
+		"latin": "Margaluri"
+	},
+	"yi": {
+		"name": "<bdi dir=\"rtl\">ייִדיש</bdi>",
+		"sort": "Yidis",
+		"latin": "Yidiš"
+	},
+	"yo": {
+		"name": "Yorùbá",
+		"sort": "Yoruba"
+	},
+	"za": {
+		"name": "Cuengh"
+	},
+	"zea": {
+		"name": "Zeêuws",
+		"sort": "Zeeuws"
+	},
+	"zh": {
+		"name": "中文",
+		"latin": "Zhōngwén",
+		"sort": "Zhongwen",
+		"wikivoyage": {
+			"siteName": "维基导游",
+			"slogan": "自由的旅行指南"
+		},
+		"wiktionary": {
+			"siteName": "維基詞典",
+			"articles": "條詞條",
+			"linkBoxAttrs": {
+				"id": "zh_top10"
+			},
+			"slogan": "自由的多語言詞典",
+			"sloganAttrs": {
+				"data-convert-Hans": "自由的多语言词典",
+				"id": "zh_tag",
+				"class": "emNonItalicLang"
+			},
+			"articlesAttrs": {
+				"data-convert-Hans": "条词条",
+				"id": "zh_art"
+			}
+		},
+		"wikibooks": {
+			"siteName": "维基教科书",
+			"slogan": "自由的教科书和手册",
+			"articles": "教科书"
+		},
+		"wikiquote": {
+			"siteName": "維基語錄",
+			"slogan": "自由的名人名言錄",
+			"articles": "篇摘录"
+		},
+		"wikinews": {
+			"articles": "篇",
+			"createPage": "Wikinews:新闻投稿",
+			"articlesAttrs": {
+				"data-convert-Hans": "篇",
+				"id": "zh_art"
+			},
+			"linkBoxAttrs": {
+				"data-convertTitle-Hans": "Zhōngwén",
+				"id": "zh_top10"
+			},
+			"create": "新聞投稿",
+			"sloganAttrs": {
+				"class": "emNonItalicLang"
+			},
+			"createAttrs": {
+				"data-convert-Hans": "新闻投稿",
+				"id": "zh_tag"
+			}
+		},
+		"wiki": {
+			"siteName": "維基百科",
+			"articles": "條目",
+			"linkBoxAttrs": {
+				"data-convertTitle-Hans": "Zhōngwén — 维基百科 — 自由的百科全书",
+				"id": "zh_top10"
+			},
+			"slogan": "自由的百科全書",
+			"sloganAttrs": {
+				"data-convert-Hans": "自由的百科全书",
+				"id": "zh_tag",
+				"class": "emNonItalicLang"
+			},
+			"articlesAttrs": {
+				"data-convert-Hans": "条目",
+				"id": "zh_art"
+			}
+		}
+	},
+	"zh-classical": {
+		"name": "文言",
+		"sort": "Man-jin",
+		"lang": "lzh",
+		"latin": "Man4jin4 / Wényán"
+	},
+	"zh-min-nan": {
+		"name": "Bân-lâm-gú / Hō-ló-oē",
+		"lang": "nan",
+		"sort": "Ban-lam-gu"
+	},
+	"zh-yue": {
+		"sort": "Yuht Yuh",
+		"name": "粵語",
+		"attrs": {
+			"data-convert-Hans": "粤语",
+			"id": "zh-yue_wiki"
+		},
+		"lang": "yue",
+		"latin": "Yuht Yúh / Jyut6 jyu5"
+	},
+	"zu": {
+		"name": "isiZulu",
+		"sort": "Zulu, isi"
+	}
+}

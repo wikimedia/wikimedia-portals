@@ -88,6 +88,7 @@ hr {
     display: block;
     padding: 0;
     text-decoration: none;
+    white-space: normal;
 }
 /* Restore underline on main label */
 .central-featured-lang .link-box:hover strong {

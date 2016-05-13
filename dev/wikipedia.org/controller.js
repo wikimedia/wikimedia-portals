@@ -1,14 +1,15 @@
 /* globals require */
-/* globals module */
+/* globals module, __dirname */
 var _ = require( 'underscore' ),
 	hbs = require( '../../hbs-helpers.global.js' ),
 	fs = require( 'fs' ),
-	stats = require( '../../stats' ),
+	stats = require( '../../data/stats' ),
 	otherProjects = require( './other-projects.json' ),
 	otherLanguages = require( './other-languages.json' ),
 	top100000List,
 	top100000Dropdown,
-	Controller;
+	Controller,
+	dirsum = require( 'dirsum' );
 
 // Format the dropdown for ./templates/search.mustache
 top100000List = stats.getRange( 'wiki', 'numPages', 100000 );
@@ -45,8 +46,34 @@ _.each( range, function ( wiki ) {
 	siteStats[ wiki.code ] = _.omit( wiki, 'closed', 'code', 'index' );
 } );
 
-var fileName = './dev/wikipedia.org/site-defs.js';
-fs.writeFileSync( fileName, '/* jshint ignore:start */\n/* jscs:disable */\nwmStats = ' + JSON.stringify( siteStats ) );
+/**
+ * Writing stats to translation files
+ */
+var translationPath = __dirname + '/assets/translations/';
+
+function createTranslationFiles( translationPath, siteStats ) {
+
+	var writeFile = function ( el ) {
+		var fileName = translationPath + el.code + '.json';
+		fs.writeFileSync( fileName, JSON.stringify( el ) );
+	};
+
+	for ( var lang in siteStats ) {
+		if ( siteStats[ lang ].sublinks ) {
+			siteStats[ lang ].sublinks.forEach( writeFile );
+		} else {
+			var fileName = translationPath + lang + '.json';
+			fs.writeFileSync( fileName, JSON.stringify( siteStats[ lang ] ) );
+		}
+	}
+}
+
+if ( !fs.existsSync( translationPath ) ) {
+	fs.mkdirSync( translationPath );
+	createTranslationFiles( translationPath, siteStats );
+} else {
+	createTranslationFiles( translationPath, siteStats );
+}
 
 Controller = {
 	top10views: stats.getTopFormatted( 'wiki', 'views', 10 ),
@@ -59,5 +86,9 @@ Controller = {
 	otherProjects: otherProjects,
 	otherLanguages: otherLanguages
 };
+
+dirsum.digest( translationPath, 'md5', function ( err, hashes ) {
+	Controller.translationChecksum = hashes.hash;
+} );
 
 module.exports = Controller;

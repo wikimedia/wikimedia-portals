@@ -7,12 +7,13 @@ var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	argv = require( 'yargs' ).argv,
 	imageminPngquant = require( 'imagemin-pngquant' ),
-	siteStats = require( './site-stats' ),
+	siteStats = require( './data/site-stats' ),
 	fs = require( 'fs' ),
 	sprity = require( 'sprity' ),
 	postCSSNext = require( 'postcss-cssnext' ),
 	postCSSImport = require( 'postcss-import' ),
-	postCSSSimple = require( 'postcss-csssimple' );
+	postCSSSimple = require( 'postcss-csssimple' ),
+	del = require( 'del' );
 
 var plugins = gulpLoadPlugins(),
 	portalParam = argv.portal;
@@ -198,8 +199,15 @@ gulp.task( 'inline-assets', [ 'compile-handlebars', 'postcss' ], function () {
  * Cleans `assets/js/` folder from the production folder.
  */
 gulp.task( 'clean-prod-js', [ 'inline-assets' ], function () {
-	var del = require( 'del' );
 	return del( [ getProdDir() + '/assets/js' ] );
+} );
+
+gulp.task( 'copy-translation-files', [ 'compile-handlebars' ], function () {
+
+	requirePortalParam();
+
+	return gulp.src( getBaseDir() + '/assets/translations/**/*.json' )
+		.pipe( gulp.dest( getProdDir() + '/assets/translations/' ) );
 } );
 
 /**
@@ -280,7 +288,7 @@ gulp.task( 'lint', function () {
 
 gulp.task( 'update-stats', function () {
 	siteStats.getSiteStats().then( function ( stats ) {
-		fs.writeFileSync( 'site-stats.json', JSON.stringify( stats, null, '\t' ) );
+		fs.writeFileSync( './data/site-stats.json', JSON.stringify( stats, null, '\t' ) );
 	} );
 } );
 
@@ -348,6 +356,6 @@ gulp.task( 'sprite', function () {
 	.pipe( plugins[ 'if' ]( '*.png', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
 } );
 
-gulp.task( 'default', [ 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
+gulp.task( 'default', [ 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images',  'copy-translation-files' ] );
 
 gulp.task( 'test', [ 'lint' ] );

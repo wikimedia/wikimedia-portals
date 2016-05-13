@@ -1,4 +1,4 @@
-var siteStats = require( '../site-stats' );
+var siteStats = require( '../data/site-stats' );
 
 module.exports.testParseProjectString = function( test ) {
 	var parseProjectString = siteStats.parseProjectString;
