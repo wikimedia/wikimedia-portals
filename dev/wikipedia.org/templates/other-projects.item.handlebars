@@ -1,8 +1,13 @@
-<div class="otherprojects-item">
-    <a href="{{url}}">
-        <span class="sprite-project-logos-wrapper">
-            <span class="sprite-project-logos sprite-project-logos-{{img1}}" {{#if style}} style="{{style}}"{{/if}}></span>
-        </span>
-        <span class="otherprojects-item-name">{{name}}</span>
+<div class="other-project">
+    <a class="other-project-link" href="{{url}}">
+
+        <div class="other-project-icon">
+            <div class="sprite-project-logos sprite-project-logos-{{img1}}"></div>
+        </div>
+
+        <div class="other-project-text">
+            <span class="other-project-title">{{name}}</span>
+            <span class="other-project-tagline">{{tagline}}</span>
+        </div>
     </a>
 </div>

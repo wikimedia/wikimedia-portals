@@ -62,6 +62,11 @@
     float: left;
 }
 
+.other-project-link{
+    display: inline-block;
+    min-height: 50px;
+}
+
 .other-project-icon{
     position: absolute;
     display:block;

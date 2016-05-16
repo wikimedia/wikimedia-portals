@@ -209,51 +209,6 @@ hr {
     font-weight: bold;
 }
 
-.otherprojects {
-    font-weight: bold;
-    margin: 1.5em auto;
-    text-align: left;
-    vertical-align: middle;
-    width: 90%;
-}
-
-.otherprojects-item {
-    float: left;
-    height: 60px;
-    min-width: 12em;
-    width: 24.75%;
-    line-height: 60px;
-}
-
-.otherprojects-item a {
-    display: block;
-    width: 10em;
-    margin: 0 auto;
-}
-
-.sprite-project-logos-wrapper{
-    width: 47px;
-    display: -moz-inline-stack; display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.otherprojects-item .sprite-project-logos{
-    display: -moz-inline-stack; display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-}
-.otherprojects-item .otherprojects-item-name {
-    vertical-align: middle;
-}
-
-.wm-site-info {
-    clear: both;
-    margin: 2.5em 0 2em 0;
-    text-align: center;
-    padding-top: 1.5em;
-}
-
 /**
  * Style for horizontal lists (separator following item).
  * @note Support for unused tags like <dt> has been stripped out, and the
@@ -411,10 +366,7 @@ hr {
     .langlist {
         font-size: 0.7em
     }
-    .otherprojects-item {
-        width: 50%;
-        text-align: left;
-    }
+
     .bookshelf-container,
     .langlist {
         margin: 1em 1em 0 1em;
@@ -427,32 +379,12 @@ hr {
 }
 
 @media all and (max-width:240px) {
-    .central-featured-lang,
-    .otherprojects-item {
+    .central-featured-lang {
         width: 100%;
     }
     .central-textlogo img {
         width: 100px;
         height: auto;
-    }
-}
-
-@media all and (max-width: 45em) {
-    .otherprojects {
-        width: 100%;
-    }
-    .otherprojects-item {
-        width: 33.33%;
-    }
-}
-@media all and (max-width: 30em) {
-    .otherprojects-item {
-        width: 50%;
-    }
-}
-@media all and (max-width: 20em) {
-    .otherprojects-item {
-        width: 100%;
     }
 }
 
