@@ -111,7 +111,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	/**
 	 * Qaultrics Survey Banner
 	 * -----------------------
-	 * Display survey banner to 1 in 500 users in the 'rejected' group.
+	 * Display survey banner to 1 in 30 users in the 'rejected' group.
 	 * We only target rejected users because our schema doesn't have a
 	 * 'survey-banner' clickthrough group, and thus clickthough events
 	 * for these users would not be logged.
@@ -119,8 +119,8 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	 */
 	function surveyBanner() {
 
-		// only display banner to 1 in 500 users in the 'rejected' group
-		if ( ( oneIn( sessionId, 50 ) && group === 'rejected' ) || testOnly ) {
+		// only display banner to 1 in 30 users in the 'rejected' group
+		if ( ( oneIn( sessionId, 30 ) && group === 'rejected' ) || testOnly ) {
 
 			// see if existing cookie to hide banner exists.
 			if ( document.cookie.match( /hideBanner/ )  && testOnly === false ) {
