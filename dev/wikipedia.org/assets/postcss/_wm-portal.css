@@ -239,10 +239,10 @@ hr {
     content: none;
 }
 /* Add parentheses around nested lists */
-.hlist li + ul:before {
+.hlist li > ul:before {
     content: "\00a0(";
 }
-.hlist li + ul:after {
+.hlist li > ul:after {
     content: ") ";
 }
 
