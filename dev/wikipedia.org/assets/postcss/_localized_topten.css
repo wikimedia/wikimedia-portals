@@ -36,7 +36,6 @@
     font-weight: normal;
     margin-bottom: -20px;
     font-family: 'Linux Libertine', 'Times New Roman', serif;
-    text-transform: capitalize;
 }
 
 @media all and (max-width:480px) {
