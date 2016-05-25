@@ -12,7 +12,6 @@
     "casperjs": "git+https://github.com/n1k0/casperjs.git",
     "cssnext": "^1.8.4",
     "del": "^2.2.0",
-    "dirsum": "^0.1.1",
     "gulp": "^3.9.0",
     "gulp-compile-handlebars": "^0.5.0",
     "gulp-downloader": "^1.0.4",

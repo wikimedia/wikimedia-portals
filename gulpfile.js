@@ -12,8 +12,7 @@ var gulp = require( 'gulp' ),
 	sprity = require( 'sprity' ),
 	postCSSNext = require( 'postcss-cssnext' ),
 	postCSSImport = require( 'postcss-import' ),
-	postCSSSimple = require( 'postcss-csssimple' ),
-	del = require( 'del' );
+	postCSSSimple = require( 'postcss-csssimple' );
 
 var plugins = gulpLoadPlugins(),
 	portalParam = argv.portal;
@@ -199,15 +198,8 @@ gulp.task( 'inline-assets', [ 'compile-handlebars', 'postcss' ], function () {
  * Cleans `assets/js/` folder from the production folder.
  */
 gulp.task( 'clean-prod-js', [ 'inline-assets' ], function () {
+	var del = require( 'del' );
 	return del( [ getProdDir() + '/assets/js' ] );
-} );
-
-gulp.task( 'copy-translation-files', [ 'compile-handlebars' ], function () {
-
-	requirePortalParam();
-
-	return gulp.src( getBaseDir() + '/assets/translations/**/*.json' )
-		.pipe( gulp.dest( getProdDir() + '/assets/translations/' ) );
 } );
 
 /**
@@ -356,6 +348,6 @@ gulp.task( 'sprite', function () {
 	.pipe( plugins[ 'if' ]( '*.png', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
 } );
 
-gulp.task( 'default', [ 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images',  'copy-translation-files' ] );
+gulp.task( 'default', [ 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images' ] );
 
 gulp.task( 'test', [ 'lint' ] );

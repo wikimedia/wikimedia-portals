@@ -1,15 +1,8 @@
 <!DOCTYPE html>
-<html lang="mul" dir="ltr" class="no-js">
+<html lang="mul" dir="ltr">
 <head>
 <meta charset="utf-8">
 <title>Wikipedia</title>
-
-<![if gt IE 7]>
-<script>
-    document.documentElement.className = document.documentElement.className.replace( /(^|\s)no-js(\s|$)/, "$1js-enabled$2" );
-</script>
-<![endif]>
-
 <!--[if lt IE 7]><meta http-equiv="imagetoolbar" content="no"><![endif]-->
 <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
 <link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
@@ -37,16 +30,10 @@
 
 {{> divider}}
 
+<!-- Sister project links & site info -->
 {{> footer}}
 
-
-
-
 <![if gt IE 7]>
-<script>
-    var translationsHash = "{{ translationChecksum }}";
-</script>
-
 <!-- build:js portal/wikipedia.org/assets/js/index.js -->
 
 <!-- utilities or polyfills -->
@@ -62,7 +49,6 @@
 <!-- page functions -->
 <script src="assets/js/wm-typeahead.js"></script>
 <script src="assets/js/typeahead-init.js"></script>
-<script src="assets/js/topten-localized.js"></script>
 <script src="assets/js/wm-portal.js"></script>
 <!-- endbuild -->
 <![endif]>
