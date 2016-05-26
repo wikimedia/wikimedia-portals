@@ -8,6 +8,15 @@
     padding: 2.6rem 1em 1em 1em;
     font-size: 0.8rem;
 }
+.footer:before,
+.footer:after {
+    content: ' ';
+    display: table;
+}
+
+.footer:after {
+    clear: both;
+}
 
 .footer a,
 .footer a:focus {
@@ -129,6 +138,12 @@
     .other-project{
         width: 33%;
     }
+}
+
+.site-license {
+    margin: 0;
+    text-align: center;
+    color: var(--ss-c-grey);
 }
 
 @media screen and (max-width: 480px) {
