@@ -6,10 +6,8 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	var bucketParams = {
 			// population for prod or dev
 			popSize: ( /www.wikipedia.org/.test( location.hostname ) ) ? 200 : 200,
-			// testGroups can be set to `false` if there's no test. else {control: 'control', test: 'name-of-test'}
+			// testGroups can be set to `false` if there's no test. else {control: 'name-of-control-group', test: 'name-of-test-group'}
 			testGroups: {
-				control: 'lang_dropdown-a',
-				test: 'lang_dropdown-b',
 				banner: 'survey-banner'
 			},
 			// set to 15 minutes
@@ -80,7 +78,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		if ( oneIn( bucketParams.popSize ) ) {
 			group = 'baseline';
 
-			if ( bucketParams.testGroups && oneIn( 10 ) ) {
+			if ( bucketParams.testGroups && bucketParams.testGroups.test && oneIn( 10 ) ) {
 				if ( oneIn( 2 ) ) {
 					group = bucketParams.testGroups.test;
 				} else {
