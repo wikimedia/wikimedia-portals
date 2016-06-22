@@ -204,7 +204,16 @@
 	 */
 
 	if ( geoCookie ) {
-		portalSchema.defaults.country = geoCookie.toString().split( '=' )[ 1 ];
+		var country = geoCookie.toString().split( '=' )[ 1 ];
+		if ( country === 'US' ) {
+			/**
+			 * if the country is United States, we need to obain the 2-letter state name (T136257)
+			 * e.g. "GeoIP=US:CA:..." becomes "US:CA" using a slight modification to the regex:
+			 */
+			portalSchema.defaults.country = document.cookie.match( /GeoIP=.[^:].{2}[^:]/ ).toString().split( '=' )[ 1 ];
+		} else {
+			portalSchema.defaults.country = country;
+		}
 		addEvent( window, 'load', interceptLandingEvent );
 	}
 
