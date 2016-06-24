@@ -1,15 +1,13 @@
 // jscs:disable requireCamelCaseOrUpperCaseIdentifiers
-/*global mw, eventLoggingLite, getIso639, addEvent */
+/*global mw, eventLoggingLite, getIso639 */
 
 window.wmTest = ( function ( eventLoggingLite, mw ) {
 
 	var bucketParams = {
 			// population for prod or dev
-			popSize: ( /www.wikipedia.org/.test( location.hostname ) ) ? 200 : 200,
+			popSize: ( /www.wikipedia.org/.test( location.hostname ) ) ? 200 : 2,
 			// testGroups can be set to `false` if there's no test. else {control: 'name-of-control-group', test: 'name-of-test-group'}
-			testGroups: {
-				banner: 'survey-banner'
-			},
+			testGroups: false,
 			// set to 15 minutes
 			sessionLength: 15 * 60 * 1000
 		},
@@ -87,9 +85,6 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 			}
 		}
 
-		if ( group === 'rejected' && oneIn( 20 ) && preferredLangs.indexOf( 'en' ) >= 0 ) {
-			group =  bucketParams.testGroups.banner;
-		}
 		return group;
 	}
 
@@ -125,7 +120,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		return sessionId;
 	}
 
-	testOnly = location.hash.slice( 1 ) === bucketParams.testGroups.test || location.hash.slice( 1 ) === bucketParams.testGroups.banner;
+	testOnly = location.hash.slice( 1 ) === bucketParams.testGroups.test;
 
 	sessionId = getSessionId();
 
@@ -137,49 +132,9 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		testOnly = true; // prevent logging if sessionId can't be generated
 	}
 
-	if ( group === bucketParams.testGroups.test ) {
+	if ( bucketParams.testGroups && group === bucketParams.testGroups.test ) {
 		document.body.className += ' ' + group;
 	}
-
-	/**
-	 * survey banner
-	 */
-
-	function surveyBanner() {
-
-		var testingBanner = location.hash.slice( 1 ) === bucketParams.testGroups.banner;
-
-		if ( group === 'survey-banner' || testingBanner ) {
-
-			// see if existing cookie to hide banner exists.
-			if ( document.cookie.match( /hideBanner/ )  && testingBanner === false ) {
-				return;
-			}
-
-			var banner = document.getElementById( 'js-survey-banner' ),
-				closeBannerButton = document.getElementById( 'js-survey-hide-banner' );
-
-			banner.style.display = 'block';
-
-			var closeBanner = function () {
-				banner.style.display = 'none';
-
-				// set cookie to hide banner for 24 hours.
-				var now = new Date();
-				now.setTime( now.getTime() + 24 * 3600 * 1000 );
-				document.cookie = 'hideBanner=true; expires=' + now.toUTCString();
-			};
-
-			addEvent( closeBannerButton, 'click', closeBanner );
-
-			// disable event logging for those with banner.
-			// portal schema doesn't have a 'clickthrough' event for a 'banner' section.
-			// see ticket T134512 for more details.
-			testOnly = true;
-		}
-
-	}
-	surveyBanner();
 
 	return {
 		loggingDisabled: testOnly, // for test

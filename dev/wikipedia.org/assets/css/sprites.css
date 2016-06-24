@@ -1,20 +1,20 @@
-
 .sprite-bookshelf_icons {
   background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons.png?6d7b3229ac88b9bdffe27b5ed9240bb175f62c02');
 }
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .sprite-bookshelf_icons {
     background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@1.5x.png?c4d8b7559766e36db68bab636d0d77979e9ce57a');
     background-size: 41px 104px;
   }
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
   .sprite-bookshelf_icons {
     background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@2x.png?1a57f31ae0d1ec0c3a0a1eaf1779f87f5498276a');
     background-size: 41px 104px;
   }
 }
-
 .sprite-bookshelf_icons-arrow-down-blue {
   background-position: -0px -0px;
   width: 13px;
@@ -45,23 +45,23 @@
   width: 41px;
   height: 25px;
 }
-
 .sprite-project-logos {
   background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos.png?9afc01c5efe0a8fb6512c776955e2ad3eb48fbca');
 }
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
   .sprite-project-logos {
     background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@1.5x.png?b10ac92127437fbd9ad1ece6037cd5a8cd29e23f');
     background-size: 88px 493px;
   }
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
   .sprite-project-logos {
     background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@2x.png?fdb87e9e2a190a394445a985875a65c09ea1ca88');
     background-size: 88px 493px;
   }
 }
-
 .sprite-project-logos-Wikinews-logo_sister {
   background-position: -0px -0px;
   width: 47px;
