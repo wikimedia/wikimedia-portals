@@ -1,0 +1,32 @@
+{
+	"language-name": "日本語",
+	"language-name-romanized": "Nihongo",
+	"wiki": {
+		"name": "ウィキペディア",
+		"slogan": "フリー百科事典",
+		"entries": "記事"
+	},
+	"wiktionary": {
+		"name": "ウィクショナリー",
+		"slogan": "フリー多機能辞典"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "フリー教科書",
+		"entries": "項目"
+	},
+	"wikinews": {
+		"name": "ウィキニュース",
+		"slogan": "フリーニュースサイト",
+		"entries": "記事"
+	},
+	"wikiquote": {
+		"name": "Wikiquote"
+	},
+	"wikisource": {
+		"name": "Wikisource"
+	},
+	"wikiversity": {
+		"name": "ウィキバーシティ"
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"language-name": "العربية",
+	"language-name-romanized": "Al-ʿArabīyah",
+	"language-name-romanized-sorted": "Arabiyah, Al",
+	"wiki": {
+		"name": "ويكيبيديا",
+		"slogan": " الموسوعة الحرة",
+		"entries": "مقالة"
+	},
+	"wiktionary": {
+		"name": "ويكاموس",
+		"slogan": "القاموس الحر"
+	},
+	"wikibooks": {
+		"name": "ويكي_الكتب"
+	},
+	"wikinews": {
+		"name": "ويكي_الأخبار"
+	},
+	"wikiquote": {
+		"name": "ويكي_الاقتباس"
+	},
+	"wikisource": {
+		"name": "ويكي_مصدر"
+	},
+	"wikiversity": {
+		"name": "ويكي الجامعة",
+		"slogan": "أدوات التعلّم",
+		"entries": "مقالا"
+	}
+}

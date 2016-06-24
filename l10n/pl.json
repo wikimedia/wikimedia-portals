@@ -1,0 +1,35 @@
+{
+	"language-name": "Polski",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Wolna encyklopedia",
+		"entries": "haseł"
+	},
+	"wiktionary": {
+		"name": "Wikisłownik",
+		"slogan": "Wolny słownik",
+		"entries": "stron"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Otwarte podręczniki",
+		"entries": "stron"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"entries": "hasel"
+	},
+	"wikiquote": {
+		"name": "Wikicytaty",
+		"slogan": "Kolekcja cytatów",
+		"entries": "artykulów"
+	},
+	"wikisource": {
+		"name": "Wikiźródła",
+		"slogan": "Wolne materiały źródłowe"
+	},
+	"wikivoyage": {
+		"name": "Wikipodróże",
+		"slogan": "Przewodnik Turystyczny"
+	}
+}

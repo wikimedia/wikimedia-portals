@@ -1,0 +1,27 @@
+{
+	"language-name": "Български",
+	"language-name-romanized": "Bǎlgarski",
+	"language-name-romanized-sorted": "Balgarski",
+	"wiki": {
+		"name": "Уикипедия",
+		"slogan": "Cвободната енциклопедия"
+	},
+	"wiktionary": {
+		"name": "Уикиречник",
+		"slogan": "Свободният речник"
+	},
+	"wikibooks": {
+		"name": "Уикикниги"
+	},
+	"wikinews": {
+		"name": "Уикиновини"
+	},
+	"wikiquote": {
+		"name": "Уикицитат",
+		"slogan": "Цитати, афоризми, крилати фрази",
+		"entries": "страници"
+	},
+	"wikisource": {
+		"name": "Уикиизточник"
+	}
+}

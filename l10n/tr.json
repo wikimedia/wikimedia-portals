@@ -1,0 +1,31 @@
+{
+	"language-name": "Türkçe",
+	"language-name-romanized-sorted": "Turkce",
+	"wiki": {
+		"name": "Vikipedi",
+		"slogan": "Özgür Ansiklopedi",
+		"entries": "madde"
+	},
+	"wiktionary": {
+		"name": "VikiSözlük",
+		"slogan": "Özgür Sözlük",
+		"entries": "madde"
+	},
+	"wikibooks": {
+		"name": "Vikikitap",
+		"slogan": "Özgür kütüphane"
+	},
+	"wikinews": {
+		"name": "Vikihaber",
+		"slogan": "Özgür haber kaynağı!"
+	},
+	"wikiquote": {
+		"name": "Vikisöz",
+		"slogan": "Alıntı koleksiyonu",
+		"entries": "sayfa mevcut"
+	},
+	"wikisource": {
+		"name": "Vikikaynak",
+		"slogan": "Özgür Kütüphane"
+	}
+}

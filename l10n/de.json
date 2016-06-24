@@ -1,0 +1,40 @@
+{
+	"language-name": "Deutsch",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Die freie Enzyklopädie",
+		"entries": "Artikel"
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Das freie Wörterbuch",
+		"entries": "Einträge"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Inhaltsoffene Lehrbücher",
+		"entries": "Seiten"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"entries": "Artikel"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Zitatsammlung",
+		"entries": "Artikel"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Die freie Quellensammlung"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Lernen und Lehren",
+		"entries": "Seiten"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Reiseführer"
+	}
+}

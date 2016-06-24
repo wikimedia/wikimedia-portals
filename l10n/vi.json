@@ -1,0 +1,32 @@
+{
+	"language-name": "Tiếng Việt",
+	"language-name-romanized-sorted": "Viet, Tieng",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Bách khoa toàn thư mở",
+		"entries": "bài viết"
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "từ điển mở",
+		"entries": "mục từ"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Tủ sách mở",
+		"entries": "trang sách"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Bộ sưu tập danh ngôn mở",
+		"entries": "bài viết"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Văn thư lưu trữ mở"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Cẩm nang du lịch"
+	}
+}

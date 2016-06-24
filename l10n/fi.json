@@ -1,0 +1,31 @@
+{
+	"language-name": "Suomi",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Vapaa tietosanakirja",
+		"entries": "artikkelia"
+	},
+	"wiktionary": {
+		"name": "Wikisanakirja",
+		"slogan": "Vapaa sanakirja"
+	},
+	"wikibooks": {
+		"name": "Wikikirjasto",
+		"slogan": "Vapaa tietokirjasto"
+	},
+	"wikinews": {
+		"name": "Wikiuutiset"
+	},
+	"wikiquote": {
+		"name": "Wikisitaatit",
+		"slogan": "Vapaa sitaattikokoelma"
+	},
+	"wikisource": {
+		"name": "Wikiaineisto"
+	},
+	"wikiversity": {
+		"name": "Wikiopisto",
+		"slogan": "Vapaa oppimisympäristö",
+		"entries": "artikkelia"
+	}
+}

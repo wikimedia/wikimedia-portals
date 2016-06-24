@@ -1,0 +1,25 @@
+{
+	"language-name": "Bosanski",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Slobodna enciklopedija"
+	},
+	"wiktionary": {
+		"name": "Vikirječnik",
+		"slogan": "Slobodni rječnik"
+	},
+	"wikibooks": {
+		"name": "Wikiknjige"
+	},
+	"wikinews": {
+		"name": "Wikivijesti"
+	},
+	"wikiquote": {
+		"name": "Wikicitat",
+		"slogan": "Slobodna zbirka citata",
+		"entries": "tekst(ov)a"
+	},
+	"wikisource": {
+		"name": "Wikizvor"
+	}
+}

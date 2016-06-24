@@ -1,0 +1,34 @@
+{
+	"language-name": "Čeština",
+	"language-name-romanized-sorted": "Cestina",
+	"wiki": {
+		"name": "Wikipedie",
+		"slogan": "Otevřená encyklopedie",
+		"entries": "článků"
+	},
+	"wiktionary": {
+		"name": "Wikislovník",
+		"slogan": "Otevřený slovník"
+	},
+	"wikibooks": {
+		"name": "Wikiknihy",
+		"slogan": "Wikiknihy: Otevřená sbírka učebnic a knih"
+	},
+	"wikinews": {
+		"name": "Wikizprávy",
+		"entries": "zpráv"
+	},
+	"wikiquote": {
+		"name": "Wikicitáty",
+		"slogan": "Sbírka citátů",
+		"entries": "stránek"
+	},
+	"wikisource": {
+		"name": "Wikizdroje"
+	},
+	"wikiversity": {
+		"name": "Wikiverzita",
+		"slogan": "Volně dostupné vzdělání",
+		"entries": "stránky"
+	}
+}

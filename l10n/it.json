@@ -1,0 +1,41 @@
+{
+	"language-name": "Italiano",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "L’enciclopedia libera",
+		"entries": "voci"
+	},
+	"wiktionary": {
+		"name": "Wikizionario",
+		"slogan": "Il dizionario libero",
+		"entries": "lemmi"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Manuali e libri di testo liberi",
+		"entries": "moduli"
+	},
+	"wikinews": {
+		"name": "Wikinotizie",
+		"slogan": "La fonte di notizie libera",
+		"entries": "voci"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Aforismi e citazioni",
+		"entries": "voci"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "La biblioteca libera"
+	},
+	"wikiversity": {
+		"name": "Wikiversità",
+		"slogan": "L’università libera",
+		"entries": "lezioni"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Guida Turistica"
+	}
+}

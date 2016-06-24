@@ -206,10 +206,10 @@ gulp.task( 'copy-translation-files', [ 'compile-handlebars' ], function () {
 
 	requirePortalParam();
 
-	del( getProdDir() + '/assets/translations/**/*.json' );
+	del( getProdDir() + '/assets/l10n/**/*.json' );
 
-	return gulp.src( getBaseDir() + '/assets/translations/**/*.json' )
-		.pipe( gulp.dest( getProdDir() + '/assets/translations/' ) );
+	return gulp.src( getBaseDir() + '/assets/l10n/**/*.json' )
+		.pipe( gulp.dest( getProdDir() + '/assets/l10n/' ) );
 } );
 
 /**

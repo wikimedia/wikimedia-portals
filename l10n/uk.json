@@ -1,0 +1,32 @@
+{
+	"language-name": "Українська",
+	"language-name-romanized": "Ukrayins’ka",
+	"language-name-romanized-sorted": "Ukrayinska",
+	"wiki": {
+		"name": "Вікіпедія",
+		"slogan": "Вільна енциклопедія",
+		"entries": "статей"
+	},
+	"wiktionary": {
+		"name": "Вікісловник"
+	},
+	"wikibooks": {
+		"name": "Вікіпідручник"
+	},
+	"wikinews": {
+		"name": "Вікіновини",
+		"entries": "статей"
+	},
+	"wikiquote": {
+		"name": "Вікіцитати",
+		"slogan": "Вільної збірки цитат",
+		"entries": "статей"
+	},
+	"wikisource": {
+		"name": "Вікіджерела"
+	},
+	"wikivoyage": {
+		"name": "Вікімандри",
+		"slogan": "Туристичний Путівник"
+	}
+}
