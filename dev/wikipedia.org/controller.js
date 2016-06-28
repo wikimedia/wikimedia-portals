@@ -6,10 +6,11 @@ var _ = require( 'underscore' ),
 	stats = require( '../../data/stats' ),
 	otherProjects = require( './other-projects.json' ),
 	otherLanguages = require( './other-languages.json' ),
+	crypto = require( 'crypto' ),
 	top100000List,
 	top100000Dropdown,
 	Controller,
-	dirsum = require( 'dirsum' );
+	translationHashes = [];
 
 // Format the dropdown for ./templates/search.mustache
 top100000List = stats.getRange( 'wiki', 'numPages', 100000 );
@@ -51,19 +52,39 @@ _.each( range, function ( wiki ) {
  */
 var translationPath = __dirname + '/assets/translations/';
 
+function createTranslationsChecksum( hashes ) {
+	hashes.sort();
+
+	var hashString = hashes.join( '' ),
+		checksum = crypto.createHash( 'md5' ).update( hashString ).digest( 'hex' );
+
+	return checksum;
+
+}
+
 function createTranslationFiles( translationPath, siteStats ) {
 
-	var writeFile = function ( el ) {
-		var fileName = translationPath + el.code + '.json';
-		fs.writeFileSync( fileName, JSON.stringify( el ) );
+	var writeFile = function ( el, lang ) {
+
+		if ( el.code ) {
+			lang = el.code;
+		}
+
+		var fileName = translationPath + lang + '.json',
+			fileContent = JSON.stringify( el ),
+			fileHash = crypto.createHash( 'md5' ).update( fileContent ).digest( 'hex' );
+
+		translationHashes.push( fileHash );
+
+		fs.writeFileSync( fileName, fileContent );
+
 	};
 
 	for ( var lang in siteStats ) {
 		if ( siteStats[ lang ].sublinks ) {
 			siteStats[ lang ].sublinks.forEach( writeFile );
 		} else {
-			var fileName = translationPath + lang + '.json';
-			fs.writeFileSync( fileName, JSON.stringify( siteStats[ lang ] ) );
+			writeFile( siteStats[ lang ], lang );
 		}
 	}
 }
@@ -84,11 +105,8 @@ Controller = {
 	top100Articles: stats.getRangeFormatted( 'wiki', 'numPages', 100, 1000 ),
 	top100000Dropdown: top100000Dropdown,
 	otherProjects: otherProjects,
-	otherLanguages: otherLanguages
+	otherLanguages: otherLanguages,
+	translationChecksum: createTranslationsChecksum( translationHashes )
 };
-
-dirsum.digest( translationPath, 'md5', function ( err, hashes ) {
-	Controller.translationChecksum = hashes.hash;
-} );
 
 module.exports = Controller;
