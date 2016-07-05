@@ -10,7 +10,7 @@
     <!-- Article counts from http://meta.wikimedia.org/wiki/List_of_Wikipedias/Table -->
     {{#each top10views}}
 
-        <!-- #{{index}}. {{url}} - {{formatNumber views thousandSeparator=true thousandFloor=true}} views/day -->
+        <!-- #{{index}}. {{url}} - {{formatNumber views thousandSeparator=true rounded=true}} views/day -->
         <div class="central-featured-lang lang{{index}}" lang="{{lang}}">
         <a id="js-link-box-{{lang}}"
            href="//{{url}}/"
@@ -19,9 +19,9 @@
            data-slogan="{{slogan}}">
             <strong>{{name}}</strong>
             {{#if articlesAttrs}}
-                <small>{{formatNumber numPages thousandSeparator=true thousandFloor=true nbsp=true}}+ <span{{printAttrs 'articlesAttrs'}}>{{articles}}</span></small>
+                <small>{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+ <span{{printAttrs 'articlesAttrs'}}>{{articles}}</span></small>
             {{else}}
-                <small>{{formatNumber numPages thousandSeparator=true thousandFloor=true nbsp=true}}+ {{articles}}</small>
+                <small>{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+ {{articles}}</small>
             {{/if}}
             </a>
         </div>

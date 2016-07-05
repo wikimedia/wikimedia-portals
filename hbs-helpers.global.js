@@ -77,15 +77,18 @@ function thousandFloor( number ) {
  * @param {Object} options.hash
  * @param {boolean} [options.hash.thousandSeparator=false] Numbers are run through
  *  {@link #thousandFloor}.
- * @param {boolean} [options.hash.thousandFloor=false] Rounds numbers downwards to
- *  the nearest thousand.
+ * @param {boolean} [options.hash.rounded=false] Rounds numbers downwards to
+ *  the nearest power of ten, up to a thousand.
  * @param {boolean} [options.hash.nbsp=false] The separating space is replaced by
  *  a `&nbsp;`.
  * @return {Handlebars.SafeString}
  */
 helpers.formatNumber = function ( number, options ) {
-	if ( options.hash.thousandFloor ) {
-		number = Math.floor( number / 1000 ) * 1000;
+	if ( options.hash.rounded ) {
+		var numberLength = Math.min( number.toString().length - 1, 3 ),
+			powerOfTen = Math.pow( 10, numberLength );
+
+		number = Math.floor( number / powerOfTen ) * powerOfTen;
 	}
 	if ( options.hash.thousandSeparator ) {
 		number = thousandFloor( number );

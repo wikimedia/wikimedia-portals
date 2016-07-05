@@ -33,14 +33,15 @@ top100000Dropdown = stats.format( 'wiki', top100000List, {
  */
 var siteStats = {},
 	range = stats.getRangeFormatted( 'wiki', 'views', 10 );
+
 _.each( range, function ( wiki ) {
-	if ( wiki.closed ) {
+	if ( wiki.closed || wiki.sublinks ) {
 		return;
 	}
 	wiki.numPages = hbs.formatNumber( wiki.numPages, {
 		hash: {
 			thousandSeparator: true,
-			thousandFloor: true,
+			rounded: true,
 			nbsp: false
 		}
 	} ).toString();
