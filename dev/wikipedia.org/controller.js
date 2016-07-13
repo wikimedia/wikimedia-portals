@@ -7,10 +7,11 @@ var _ = require( 'underscore' ),
 	otherProjects = require( './other-projects.json' ),
 	otherLanguages = require( './other-languages.json' ),
 	crypto = require( 'crypto' ),
+	exec = require( 'child_process' ).exec,
 	top100000List,
 	top100000Dropdown,
 	Controller,
-	translationHashes = [];
+	cachebuster;
 
 // Format the dropdown for ./templates/search.mustache
 top100000List = stats.getRange( 'wiki', 'numPages', 100000 );
@@ -53,17 +54,16 @@ _.each( range, function ( wiki ) {
  */
 var translationPath = __dirname + '/assets/translations/';
 
-function createTranslationsChecksum( hashes ) {
-	hashes.sort();
+function createTranslationsChecksum( siteStats ) {
+	var data = JSON.stringify( siteStats ),
+		hash = crypto.createHash( 'md5' ).update( data ).digest( 'hex' );
 
-	var hashString = hashes.join( '' ),
-		checksum = crypto.createHash( 'md5' ).update( hashString ).digest( 'hex' );
-
-	return checksum;
-
+	// truncating hash for legibility
+	hash = hash.substring( 0, 8 );
+	return hash;
 }
 
-function createTranslationFiles( translationPath, siteStats ) {
+function createTranslationFiles( translationPath, siteStats, cachebuster ) {
 
 	var writeFile = function ( el, lang ) {
 
@@ -71,14 +71,10 @@ function createTranslationFiles( translationPath, siteStats ) {
 			lang = el.code;
 		}
 
-		var fileName = translationPath + lang + '.json',
-			fileContent = JSON.stringify( el ),
-			fileHash = crypto.createHash( 'md5' ).update( fileContent ).digest( 'hex' );
-
-		translationHashes.push( fileHash );
+		var fileName = translationPath + lang + '-' + cachebuster + '.json',
+			fileContent = JSON.stringify( el );
 
 		fs.writeFileSync( fileName, fileContent );
-
 	};
 
 	for ( var lang in siteStats ) {
@@ -90,11 +86,20 @@ function createTranslationFiles( translationPath, siteStats ) {
 	}
 }
 
-if ( !fs.existsSync( translationPath ) ) {
-	fs.mkdirSync( translationPath );
-	createTranslationFiles( translationPath, siteStats );
+cachebuster = createTranslationsChecksum( siteStats );
+
+if ( fs.existsSync( translationPath ) ) {
+
+	exec( 'find ' + translationPath + ' -name *.json -delete', function ( error ) {
+		if ( error ) {
+			throw error;
+		} else {
+			createTranslationFiles( translationPath, siteStats, cachebuster );
+		}
+	} );
 } else {
-	createTranslationFiles( translationPath, siteStats );
+	fs.mkdirSync( translationPath );
+	createTranslationFiles( translationPath, siteStats, cachebuster );
 }
 
 Controller = {
@@ -107,7 +112,7 @@ Controller = {
 	top100000Dropdown: top100000Dropdown,
 	otherProjects: otherProjects,
 	otherLanguages: otherLanguages,
-	translationChecksum: createTranslationsChecksum( translationHashes )
+	translationChecksum: cachebuster
 };
 
 module.exports = Controller;

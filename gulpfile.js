@@ -206,6 +206,8 @@ gulp.task( 'copy-translation-files', [ 'compile-handlebars' ], function () {
 
 	requirePortalParam();
 
+	del( getProdDir() + '/assets/translations/**/*.json' );
+
 	return gulp.src( getBaseDir() + '/assets/translations/**/*.json' )
 		.pipe( gulp.dest( getProdDir() + '/assets/translations/' ) );
 } );

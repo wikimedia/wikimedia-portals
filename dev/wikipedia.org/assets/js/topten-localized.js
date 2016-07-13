@@ -174,7 +174,7 @@ function localizeTopTen( ) {
 
 		var i18nReq = new XMLHttpRequest();
 
-		i18nReq.open( 'GET', encodeURI( 'portal/wikipedia.org/assets/translations/' + lang + '.json' ), true );
+		i18nReq.open( 'GET', encodeURI( 'portal/wikipedia.org/assets/translations/' + lang + '-' + translationsHash + '.json' ), true );
 
 		i18nReq.onload = function () {
 

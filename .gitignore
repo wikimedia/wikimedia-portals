@@ -4,3 +4,4 @@ node_modules
 .idea
 cache
 dev/wikipedia.org/index.html
+dev/wikipedia.org/assets/translations/*
