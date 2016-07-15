@@ -1,208 +1,245 @@
 /**
-* code used for the following A/B test
-* https://phabricator.wikimedia.org/T134008
+* code used for the following feature
+* https://phabricator.wikimedia.org/T140153
 *
-* The selectors ".lang_dropdown-b" is used to prefix
-* the a/b test code, as that class appended to the body
-* for the test group only.
+* The selector ".js-enabled" is appended to the doc body
+* to serve styles to js-enabled devices.
+* ".lang-list-active" is also appended to body to toggles the language list.
 */
 
-.lang-list-button,
-.up-arrow-container,
-.lang_dropdown-b
-.search-container + hr {
-    display: none;
+hr {
+    border-color: #ccc;
 }
 
-.lang_dropdown-b
-.lang-list-button {
-    display: inline-block;
-    color: var( --c-primary );
-    font-size: 0.92rem;
-    line-height: 0.8em;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    border: 1px solid #ccc;
-}
-
-.lang_dropdown-b
 .lang-list-container {
-    text-align: center;
     position: relative;
+    margin: -1rem auto 3rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    max-height: 0;
+    width: 80%;
+    transition: max-height 0.5s ease-out;
+    background-color: var( --ss-c-grey-hover );
 }
 
-.lang_dropdown-b
+.lang-list-active .lang-list-container,
+.no-js .lang-list-container {
+    max-height: 10000px;
+    transition: max-height 1s ease-in;
+    transition-delay: 0.2s;
+}
+
+.no-js .lang-list-button {
+    display: none;
+    outline-color: #fff;
+}
+
+.lang-list-button-wrapper {
+    text-align: center;
+}
+
+.lang-list-button {
+    display: inline;
+    position: relative;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+    color: var( --c-primary );
+    font-size: 0.8rem;
+    line-height: 1;
+    font-weight: normal;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    outline: 1rem solid #fff;
+    transition: outline-width 0.05s ease-in;
+    transition-delay: 0.5s;
+}
+
+.lang-list-active .lang-list-button {
+    border: 1px solid #ccc;
+    background-color: var( --ss-c-grey-hover );
+    outline: 1px solid #fff;
+    transition-delay: 0s;
+}
+
+.lang-list-button-text {
+    vertical-align: middle;
+    padding: 0 0.5em;
+}
+
 .lang-list-button i {
     display: inline-block;
     vertical-align: middle;
 }
 
-.lang_dropdown-b
-.lang-list-button .sprite-bookshelf_icons-translate-icon {
- padding-left: 1em;
+.lang-list-button:hover {
+    background-color: var( --ss-c-grey-hover );
+    border: 1px solid #ccc;
 }
 
-.lang_dropdown-b
-.up-arrow-container {
-    text-align: center;
-    position: absolute;
-    width: 100%;
-    top: 54px;
-    z-index: 3;
+.lang-list-button:focus {
+    box-shadow: none;
+}
+
+.no-js .lang-list-button,
+.no-js .lang-list-border {
     display: none;
 }
 
-.lang_dropdown-b
-.up-arrow {
-    display: inline-block;
+.lang-list-border {
+    display: block;
+    margin: -1rem auto 1rem;
+    position: relative;
+    max-width: 460px;
+    width: 80%;
+    height: 1px;
+    background-color: #ccc;
+    transition: max-width 0.2s ease-out;
+    transition-delay: 0.4s;
 }
 
-.lang_dropdown-b
-.lang-list-button + .lang-lists {
+.lang-list-active .lang-list-border {
+    max-width: 85%;
+    transition-delay: 0s;
+}
+
+.no-js .lang-list-content {
+    padding: 0;
+}
+
+.lang-list-content {
+    position: relative;
+    width: 100%;
     box-sizing: border-box;
-    position: absolute;
-    display: none;
-    width: 70%;
-    left: 15%;
-    top: 95%;
-    background-color: #fff;
-    overflow: auto;
-    height: 370px;
-    z-index: 2;
-    border-radius: 2px;
-    box-shadow: 0 1px 10px -4px #000;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem 0;
 }
 
-.lang_dropdown-b
+.sprite-bookshelf_icons-arrow-down-blue {
+    transition: transform 0.2s ease-out;
+}
+
+.lang-list-active .sprite-bookshelf_icons-arrow-down-blue {
+    transform: rotate( 180deg );
+}
+
 .bookshelf-container {
-    margin: 0;
+    margin: 1.5rem 0 1rem;
+    display: block;
+    overflow: visible;
+    height: 1px;
 }
 
-.lang_dropdown-b
-.lang-list-overlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.lang_dropdown-b
-.bookshelf-container .bookend {
-    width: 40px !important;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.lang_dropdown-b
-.bookshelf-container .bookend:last-child {
-    display: none;
-}
-
-.lang_dropdown-b
 .bookshelf {
-    text-align: left;
+    text-align: center;
     white-space: normal;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -1px 0 #fff;
+}
+.bookshelf span {
+    background-color: var( --ss-c-grey-hover );
+    position: relative;
+    top: -0.7rem;
+    font-weight: normal;
 }
 
-.lang_dropdown-b
 .langlist {
     text-align: left;
     width: auto;
-    margin: 1em 0;
-    font-size: normal;
+    margin: 1rem 0;
 }
 
-.lang_dropdown-b
 .langlist-large {
     font-size: inherit;
 }
 
-.lang_dropdown-b
 .langlist > ul {
-    column-count: 5;
+    column-width: 7rem;
 }
 
-.lang_dropdown-b
 .langlist > ul > li {
     display: block;
-    line-height: 1.7em;
+    line-height: 1.7;
 }
 
-.lang_dropdown-b
+.no-js .langlist > ul {
+    text-align: center;
+    list-style-type: circle;
+}
+.no-js .langlist > ul > li {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
 .langlist > ul > li:before {
     content: none;
 }
 
-.lang_dropdown-b
 .langlist > ul > li a {
     white-space: normal;
 }
 
-.lang_dropdown-b
 .langlist-others > ul {
-    column-count: inherit;
+    column-count: 1;
     text-align: center;
 
 }
 
-.lang_dropdown-b
 .langlist-others > ul li {
     display: inline;
 }
 
-.lang_dropdown-b
 .langlist-others > ul li:before {
     content: " · ";
 }
 
-.lang_dropdown-b
 .langlist-others > ul li:first-child:before {
     content: none;
 }
 
-@media all and ( max-width: 720px ) {
-    .lang_dropdown-b
-    .lang-list-button + .lang-lists {
-        position: relative;
-        top: 0;
-        width: auto;
-        box-shadow: none;
-        padding: 0 1em;
-        left: 0;
-        height: auto;
-        overflow: visible;
-    }
-
-    .lang_dropdown-b
-    .lang-list-overlay {
-        display: none;
-    }
-
-    .lang_dropdown-b
-    .up-arrow {
-        display: none !important;
-    }
-}
-
 @media all and ( max-width: 480px ) {
-    .lang_dropdown-b
-    .langlist > ul {
-        column-count: 4;
-    }
 
-    .lang_dropdown-b
     .langlist {
         font-size: inherit;
     }
+    .lang-list-container {
+        width: auto;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+
+    }
+    .bookshelf {
+        overflow: visible;
+    }
+
+    .central-featured {
+        height: auto;
+    }
+
+    .central-featured:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+
+    .central-featured-lang {
+        font-size: 0.8rem;
+        width: 33%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .central-featured-lang strong {
+        font-size: 0.8rem;
+    }
 }
 
-@media all and ( max-width: 480px ) {
-    .lang_dropdown-b
-    .langlist > ul {
-        column-count: 3;
+@media all and ( max-width: 375px ) {
+    .central-featured-lang {
+        font-size: 0.7rem;
     }
 }
