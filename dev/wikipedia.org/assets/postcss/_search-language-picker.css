@@ -3,13 +3,13 @@
     display: none;
     position: absolute;
 
-    top: var(--ss-pos-top);
-    bottom: var(--ss-pos-bottom);
-    right: var(--ss-pos-right);
+    top: var( --ss-pos-top );
+    bottom: var( --ss-pos-bottom );
+    right: var( --ss-pos-right );
 
-    height: var(--ss-height);
+    height: var( --ss-height );
 
-    max-width: var(--ss-width);
+    max-width: var( --ss-width );
 
     padding: 0;
     margin: 0;
@@ -18,13 +18,13 @@
 }
 
 .styled-select:hover {
-    background-color: var(--ss-c-grey-hover);
+    background-color: var( --ss-c-grey-hover );
 }
 .styled-select .hide-arrow {
     right: 32px;
     max-width: 68px;
 
-    height: var(--ss-height);
+    height: var( --ss-height );
     padding: 0;
 
     overflow: hidden;
@@ -32,17 +32,17 @@
 
 }
 .styled-select select {
-    border: none;
+    border: 0;
     box-sizing: border-box;
 
     overflow: hidden;
 
     display: inline;
 
-    height: var(--ss-height);
-    max-width: var(--ss-select-width);
-    min-width: var(--ss-select-width);
-    width: var(--ss-select-width);
+    height: var( --ss-height );
+    max-width: var( --ss-select-width );
+    min-width: var( --ss-select-width );
+    width: var( --ss-select-width );
 
     line-height: 19.5px;
 
@@ -71,13 +71,13 @@
 --------> NON JS styled selector
 */
 .styled-select.no-js {
-    width: var(--ss-width);
+    width: var( --ss-width );
 }
 .styled-select.no-js select {
     margin: 0;
     padding: 0 24px 0 8px;
 
-    color: var(--ss-c-grey);
+    color: var( --ss-c-grey );
     opacity: 1;
 }
 
@@ -90,18 +90,12 @@
     display: none;
 }
 
-
-
-
-
-
 /*
 --------> JS-only styled selector
 */
 
 .styled-select.js-enabled .hide-arrow {
     padding: 0 24px 0 8px;
-
 }
 
 .styled-select.js-enabled select {
@@ -109,25 +103,25 @@
     width: 100%;
     height: 100%;
     background: transparent;
-    border: none;
+    border: 0;
     left: 0;
-    top:0;
-    z-index: var(--ss-select-z-index);
+    top: 0;
+    z-index: var( --ss-select-z-index );
 
     margin: 0;
-    padding: 0 24px 0 0px;
+    padding: 0 24px 0 0;
 
     color: transparent;
-    color: rgba(255,255,255,0);
+    color: rgba( 255, 255, 255, 0 );
 }
-.styled-select.js-enabled select option{
-    color: var(--ss-c-grey);
+.styled-select.js-enabled select option {
+    color: var( --ss-c-grey );
 }
-.styled-select.js-enabled select:hover{
+.styled-select.js-enabled select:hover {
     background-color: transparent;
 }
 
-.styled-select-active-helper{
+.styled-select-active-helper {
     display: none;
 }
 
@@ -137,29 +131,28 @@
     height: 100%;
     position: absolute;
     z-index: 0;
-    outline: 1px solid var(--c-primary-focus);
+    outline: 1px solid var( --c-primary-focus );
     top: 0;
     left: 0;
 }
 
 .search-container .js-langpicker-label {
     display: inline-block;
-    color: var(--ss-c-grey);
-    line-height: var(--ss-height);
-    font-size: .8rem;
+    color: var( --ss-c-grey );
+    line-height: var( --ss-height );
+    font-size: 0.8rem;
     text-transform: uppercase;
 
     margin: 0;
 }
 /* END JS only lang selector idea */
 
-
-
-
 .styled-select select:hover {
-    background-color: var(--ss-c-grey-focus);
+    background-color: var( --ss-c-grey-focus );
 }
-.styled-select select::-ms-expand { display: none; } /* hide default down arrow in IE10*/
+.styled-select select::-ms-expand {
+    display: none; /* hide default down arrow in IE10 */
+}
 
 /* firefox */
 .styled-select select:focus {
@@ -169,10 +162,15 @@
 
 /* firefox */
 @-moz-document url-prefix() {
-    .styled-select select { width: 110%; }
+    .styled-select select {
+        width: 110%;
+    }
 }
 
 /* hack to fall back in opera */
-_:-o-prefocus, .selector {
-.styled-select select { background: none; }
+_:-o-prefocus,
+.selector {
+    .styled-select select {
+        background: none;
+    }
 }

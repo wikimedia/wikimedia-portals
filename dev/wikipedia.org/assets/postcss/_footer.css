@@ -3,7 +3,7 @@
 * https://phabricator.wikimedia.org/T131238
 */
 
-.footer{
+.footer {
     margin: 0 auto;
     padding: 2.6rem 1em 1em 1em;
     font-size: 0.8rem;
@@ -30,7 +30,7 @@
     vertical-align: top;
 }
 
-.footer-description-wrapper{
+.footer-description-wrapper {
     position: relative;
     width: 100%;
     max-width: 350px;
@@ -45,7 +45,7 @@
 
 .footer-description-text {
     position: relative;
-    color: var(--ss-c-grey);
+    color: var( --ss-c-grey );
     margin: 0;
     padding-left: 60px;
     padding-right: 20px;
@@ -60,25 +60,25 @@
 }
 
 .other-projects {
-    width:70%;
+    width: 70%;
     float: left;
 }
 
 .other-project {
     position: relative;
-    width:33%;
+    width: 33%;
     height: 90px;
     float: left;
 }
 
-.other-project-link{
+.other-project-link {
     display: inline-block;
     min-height: 50px;
 }
 
-.other-project-icon{
+.other-project-icon {
     position: absolute;
-    display:block;
+    display: block;
     width: 50px;
     top: 0;
     left: 0;
@@ -89,7 +89,7 @@
     display: inline-block;
 }
 
-.other-project-text{
+.other-project-text {
     margin-left: 60px;
     margin-right: 20px;
 }
@@ -100,12 +100,12 @@
 }
 
 .other-project-tagline {
-    color: var(--ss-c-grey);
+    color: var( --ss-c-grey );
     font-size: 0.95em;
 }
 
-@media screen and (max-width: 768px) {
-    .footer{
+@media screen and ( max-width: 768px ) {
+    .footer {
         padding-top: 1em;
     }
 
@@ -118,10 +118,10 @@
         margin: 0 auto 1em auto;
     }
 
-    .footer-description-wrapper{
+    .footer-description-wrapper {
         max-width: none;
     }
-    .footer-description-text{
+    .footer-description-text {
         margin: 0;
         padding: 0;
         text-align: center;
@@ -131,11 +131,11 @@
         margin: 0 0.5em;
     }
 
-    .other-projects{
+    .other-projects {
         width: 100%;
     }
 
-    .other-project{
+    .other-project {
         width: 33%;
     }
 }
@@ -143,20 +143,19 @@
 .site-license {
     margin: 0;
     text-align: center;
-    color: var(--ss-c-grey);
+    color: var( --ss-c-grey );
 }
 
-@media screen and (max-width: 480px) {
-    .footer{
+@media screen and ( max-width: 480px ) {
+    .footer {
         padding: 0.6rem 0.5em 1em 0.5em;
     }
-    .other-project{
+    .other-project {
         width: 50%;
     }
 }
 
-@media screen and (max-width: 320px) {
-
+@media screen and ( max-width: 320px ) {
     .other-project-text {
         margin-left: 55px;
         margin-right: 5px;

@@ -9,7 +9,7 @@
  */
 
 body {
-    background-color: white;
+    background-color: #fff;
     font: 13px/1.5 sans-serif;
     margin: 0.3em 0;
 }
@@ -20,11 +20,11 @@ a:focus {
     unicode-bidi: embed;
     white-space: nowrap;
     outline: 0;
-    color: var(--c-primary);
+    color: var( --c-primary );
     text-decoration: none;
 }
 a:focus {
-    outline: 1px solid var(--c-primary);
+    outline: 1px solid var( --c-primary );
 }
 
 a:hover {
@@ -32,14 +32,14 @@ a:hover {
 }
 
 img {
-    border: none;
+    border: 0;
     vertical-align: middle;
 }
 
 hr {
     clear: both;
     height: 0;
-    border: none;
+    border: 0;
     border-bottom: 1px solid #aaa;
     margin: 0.2em 1em;
 }
@@ -57,7 +57,8 @@ hr {
     font-weight: normal;
     padding: 10px 0;
     /* Crossed W in Linux Libertine */
-    -moz-font-feature-settings: "ss05=1"; -moz-font-feature-settings: "ss05";
+    -moz-font-feature-settings: "ss05=1";
+    -moz-font-feature-settings: "ss05";
     -webkit-font-feature-settings: "ss05";
     -ms-font-feature-settings: "ss05";
     font-feature-settings: "ss05";
@@ -73,7 +74,7 @@ hr {
     height: 26em;
 }
 
-.central-featured-logo-wrapper{
+.central-featured-logo-wrapper {
     vertical-align: middle;
     line-height: 26em;
 }
@@ -97,7 +98,7 @@ hr {
 /* Surpress blue color */
 .central-featured-lang .link-box em,
 .central-featured-lang .link-box small {
-    color: black;
+    color: #000;
     text-decoration: none;
 }
 
@@ -257,7 +258,7 @@ hr {
     }
 
     a {
-        color: black !important;
+        color: #000 !important;
         background: none !important;
         padding: 0 !important;
     }
@@ -269,12 +270,12 @@ hr {
     }
 
     img {
-        border: none;
+        border: 0;
     }
 
 }
 
-@media all and (max-width:480px) {
+@media all and ( max-width: 480px ) {
     .central-textlogo {
         line-height: normal;
         padding: 0;
@@ -334,7 +335,7 @@ hr {
     }
     .search-form #searchInput {
         max-width: 40%;
-        vertical-align:middle;
+        vertical-align: middle;
     }
     .search-form .formBtn {
         max-width: 25%;
@@ -342,8 +343,8 @@ hr {
     }
     form fieldset {
         margin: 0;
-        border-left: none;
-        border-right: none;
+        border-left: 0;
+        border-right: 0;
     }
     .language-search {
         display: none;
@@ -365,7 +366,7 @@ hr {
         white-space: normal;
     }
     .langlist {
-        font-size: 0.7em
+        font-size: 0.7em;
     }
 
     .bookshelf-container,
@@ -379,7 +380,7 @@ hr {
     }
 }
 
-@media all and (max-width:240px) {
+@media all and ( max-width: 240px ) {
     .central-featured-lang {
         width: 100%;
     }
@@ -389,20 +390,21 @@ hr {
     }
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+/* stylelint-disable media-feature-name-no-vendor-prefix */
+@media ( -webkit-min-device-pixel-ratio: 1.5 ), ( min--moz-device-pixel-ratio: 1.5 ), ( -o-min-device-pixel-ratio: 3/2 ), ( min-resolution: 1.5dppx ), ( min-resolution: 144dpi ) {
     .bookshelf-container .bookend {
         background-size: 40px auto;
     }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+@media ( -webkit-min-device-pixel-ratio: 2 ), ( min--moz-device-pixel-ratio: 2 ), ( -o-min-device-pixel-ratio: 2 ), ( min-resolution: 2dppx ), ( min-resolution: 192dpi ) {
     .bookshelf-container .bookend {
         background-size: 40px auto;
     }
 }
 
 /* Subpixel borders supported in Gecko, Trident */
-@media (min--moz-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
+@media ( min--moz-device-pixel-ratio: 2 ), ( min-resolution: 2dppx ), ( min-resolution: 192dpi ) {
     #footer,
     .search-form fieldset {
         border-width: 0.5px;
@@ -412,9 +414,10 @@ hr {
         border-bottom-width: 0.5px;
     }
 }
+/* stylelint-enable media-feature-name-no-vendor-prefix */
 
 /* Subpixel borders not supported in older releases of Blink, WebKit */
-@supports (-webkit-transform: rotate(30deg)) {
+@supports ( -webkit-transform: rotate( 30deg ) ) {
     #footer,
     .search-form fieldset {
         border-width: 1px;
@@ -427,14 +430,14 @@ hr {
 
 /* Gives the button its previous native look */
 .formBtn {
-    background-color: white;
-    border: 1px solid #E4E4E4;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
     border-radius: 4px;
     border-top: 1px solid #e8e8e8;
-    border-bottom: 1px solid #CECECE;
+    border-bottom: 1px solid #cecece;
     font-size: 11px;
     padding: 1px 8px;
-    margin-left: .3em;
+    margin-left: 0.3em;
     vertical-align: top;
 }
 .formBtn .sprite-bookshelf_icons-search_icon {

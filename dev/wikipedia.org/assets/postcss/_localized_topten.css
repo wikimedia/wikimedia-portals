@@ -7,13 +7,14 @@
  */
 
 .js-enabled .central-featured,
-.js-enabled #js-localized-slogan{
+.js-enabled #js-localized-slogan {
     visibility: hidden;
 }
 
 .search-container {
     margin-top: 0;
 }
+
 .central-featured {
     height: 25em;
 }
@@ -22,14 +23,15 @@
     margin-bottom: 0.5em;
 }
 
-.central-featured-logo-wrapper{
+.central-featured-logo-wrapper {
     line-height: 24em;
 }
 
 .central-featured-lang strong {
     display: block;
 }
-.localized-slogan{
+
+.localized-slogan {
     font-size: 16px;
     display: block;
     font-variant: normal;
@@ -38,11 +40,11 @@
     font-family: 'Linux Libertine', 'Times New Roman', serif;
 }
 
-@media all and (max-width:480px) {
+@media all and ( max-width: 480px ) {
 	.central-textlogo img {
 		margin-top: 8px;
 	}
-	.localized-slogan{
+	.localized-slogan {
 		margin-left: 18px;
 	}
     .search-container {
