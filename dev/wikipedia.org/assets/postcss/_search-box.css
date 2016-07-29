@@ -13,12 +13,12 @@
 
 #searchInput {
   padding: 0.5rem;
-  font-size: 1.00rem;
+  font-size: 1rem;
   line-height: 1.6rem;
   width: 100%;
   padding-right: 6.4rem;
   height: 2.7rem;
-  background: var(--ss-c-white-bg);
+  background: var( --ss-c-white-bg );
  }
 
 .search-container button {
@@ -27,7 +27,7 @@
     margin: 0;
     line-height: 1.6rem;
     font-size: 1rem;
-    z-index: var(--ss-button-z-index);
+    z-index: var( --ss-button-z-index );
 }
 
 .search-container .sprite-bookshelf_icons-search-icon {
@@ -39,7 +39,7 @@
 .search-container input[type="search"]::-webkit-search-decoration,
 .search-container input[type="search"]::-webkit-search-cancel-button,
 .search-container input[type="search"]::-webkit-search-results-button,
-.search-container input[type="search"]::-webkit-search-results-decoration  {
+.search-container input[type="search"]::-webkit-search-results-decoration {
   -webkit-appearance: none;
  }
 .search-container input::-webkit-calendar-picker-indicator {
@@ -56,13 +56,12 @@
   width: 73%;
   position: relative;
   vertical-align: top;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
  }
 
 .search-container .sprite-bookshelf_icons-caretDown {
     display: inline-block;
     vertical-align: middle;
-
     position: absolute;
     top: 8px;
     right: 6.5px;
@@ -70,7 +69,7 @@
 }
 
 /* Responsive mode */
-@media only screen and (max-width: 480px) {
+@media only screen and ( max-width: 480px ) {
 
     .search-container .pure-form fieldset {
          margin-left: 5px;
@@ -87,9 +86,9 @@
         float: right;
         padding: 0.5rem 1rem;
         right: -70px;
-        margin:0;
+        margin: 0;
       }
     .search-container {
-          margin-top: .2em;
+          margin-top: 0.2em;
       }
 }

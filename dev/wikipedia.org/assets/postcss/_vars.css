@@ -7,7 +7,7 @@
     --c-primary: #165c91;
     --c-primary-hover: #18649e;
     --c-primary-active: #134e7b;
-    --c-primary-focus: var(--c-primary);
+    --c-primary-focus: var( --c-primary );
 
     /* Variables for the Search language picker / Styled Select */
     --ss-pos-top: 10px;

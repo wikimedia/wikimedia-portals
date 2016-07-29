@@ -273,7 +273,7 @@ gulp.task( 'watch', [ 'compile-handlebars', 'sprite', 'postcss' ], function () {
 /**
  * Lints js in dev folder as well as in root folder.
  */
-gulp.task( 'lint', function () {
+gulp.task( 'lint-js', function () {
 	var devFolder = 'dev/**/*.js';
 	if ( portalParam ) {
 		// only run on this portal files.
@@ -286,6 +286,18 @@ gulp.task( 'lint', function () {
 		.pipe( plugins.jscs() )
 		.pipe( plugins.jscs.reporter() )
 		.pipe( plugins.jscs.reporter( 'fail' ) );
+} );
+
+gulp.task( 'lint-css', function lintCssTask() {
+	const gulpStylelint = require( 'gulp-stylelint' );
+
+	return gulp
+		.src( 'dev/**/postcss/*.css' )
+		.pipe( gulpStylelint( {
+			reporters: [
+				{ formatter: 'string', console: true }
+			]
+		} ) );
 } );
 
 gulp.task( 'update-stats', function () {
@@ -358,6 +370,8 @@ gulp.task( 'sprite', function () {
 	.pipe( plugins[ 'if' ]( '*.png', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
 } );
 
-gulp.task( 'default', [ 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images',  'copy-translation-files' ] );
+gulp.task( 'lint', [ 'lint-js', 'lint-css' ] );
 
 gulp.task( 'test', [ 'lint' ] );
+
+gulp.task( 'default', [ 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images',  'copy-translation-files' ] );

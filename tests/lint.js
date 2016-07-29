@@ -1,8 +1,9 @@
 var gulp = require( 'gulp' ),
 	jshint = require( 'gulp-jshint' ),
-	jscs = require( 'gulp-jscs' );
+	jscs = require( 'gulp-jscs' ),
+	stylelint = require( 'gulp-stylelint' );
 
-gulp.task( 'lint', function () {
+gulp.task( 'lint-js', function () {
 	var devFolder = 'dev/**/*.js';
 
 	gulp.src( [ '*.js', devFolder ] )
@@ -13,5 +14,17 @@ gulp.task( 'lint', function () {
 		.pipe( jscs.reporter() )
 		.pipe( jscs.reporter( 'fail' ) );
 } );
+
+gulp.task( 'lint-css', function lintCssTask() {
+	return gulp
+		.src( 'dev/**/postcss/*.css' )
+		.pipe( stylelint( {
+			reporters: [
+				{ formatter: 'string', console: true }
+			]
+		} ) );
+} );
+
+gulp.task ( 'lint', [ 'lint-js', 'lint-css' ] );
 
 gulp.start( 'lint' );

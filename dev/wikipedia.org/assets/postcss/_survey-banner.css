@@ -1,4 +1,4 @@
-:root{
+:root {
     /** Mediawiki UI blue, for survey button.**/
     --c-mwui-primary: #347bff;
     --c-mwui-hover: #2962cc;
@@ -13,36 +13,36 @@
 * which means the search-box position is thrown off
 * when the banner is visible.
 */
-.survey-banner-bumper{
+.survey-banner-bumper {
     position: relative;
 }
 
-.survey-banner{
+.survey-banner {
     display: none;
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--ss-c-grey);
+    background-color: var( --ss-c-grey );
     text-align: center;
     z-index: 3;
-    color: white;
+    color: #fff;
     margin-bottom: 0.2em;
     /* offsetting body margin */
     margin-top: -0.3em;
 }
 
-.survey-banner-content{
+.survey-banner-content {
     padding: 1em;
     margin: 0;
 }
 
-.survey-banner-cta{
-    font-size:0.9rem;
+.survey-banner-cta {
+    font-size: 0.9rem;
     display: inline;
     padding-right: 1em;
 }
-.survey-banner-text-grey{
+.survey-banner-text-grey {
     opacity: 0.7;
 }
 
@@ -54,24 +54,24 @@
     font-size: 1.2rem;
     cursor: pointer;
 }
-.survey-banner-close-button:hover{
-    color: var(--c-mwui-light);
+.survey-banner-close-button:hover {
+    color: var( --c-mwui-light );
 }
 
-.survey-banner-button{
+.survey-banner-button {
     vertical-align: middle;
-    background-color: var(--c-mwui-primary);
+    background-color: var( --c-mwui-primary );
     color: inherit;
-    border-color: var(--c-mwui-primary);
+    border-color: var( --c-mwui-primary );
 }
 
-.survey-banner-button:hover{
-    background-color: var(--c-mwui-hover);
-    border-color:  var(--c-mwui-hover);
+.survey-banner-button:hover {
+    background-color: var( --c-mwui-hover );
+    border-color: var( --c-mwui-hover );
 }
 .survey-banner-button:active,
-.survey-banner-button:focus{
-    color: white;
+.survey-banner-button:focus {
+    color: #fff;
 }
 .survey-banner-privacy {
     position: absolute;
@@ -81,11 +81,11 @@
     text-align: right;
 }
 
-.survey-banner-privacy a{
-    color: var(--c-mwui-light);
+.survey-banner-privacy a {
+    color: var( --c-mwui-light );
 }
 
-@media (max-width: 1024px) {
+@media ( max-width: 1024px ) {
     .survey-banner-privacy {
         position: relative;
         width: 100%;
@@ -94,9 +94,9 @@
         bottom: 0.5em;
     }
 }
-@media (max-width: 625px) {
 
-    .survey-banner-content{
+@media ( max-width: 625px ) {
+    .survey-banner-content {
         display: table;
         margin-bottom: 0.2em;
         /* accomodates close button */
@@ -108,14 +108,14 @@
         /*font-size: 0.9em;*/
         text-align: left;
     }
-    .survey-banner-button{
+    .survey-banner-button {
         display: table-cell;
         vertical-align: middle;
         margin-right: 17px;
     }
 }
 
-@media (max-width: 480px) {
+@media ( max-width: 480px ) {
     .survey-banner-cta {
         font-size: 0.9em;
     }
