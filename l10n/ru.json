@@ -1,0 +1,40 @@
+{
+	"language-name": "Русский",
+	"language-name-romanized": "Russkiy",
+	"wiki": {
+		"name": "Википедия",
+		"slogan": "Свободная энциклопедия",
+		"entries": "статей"
+	},
+	"wiktionary": {
+		"name": "Викисловарь",
+		"slogan": "Свободный словарь",
+		"entries": "статей"
+	},
+	"wikibooks": {
+		"name": "Викиучебник",
+		"slogan": "Открытые учебники",
+		"entries": "учебников"
+	},
+	"wikinews": {
+		"name": "Викиновости",
+		"entries": "статей"
+	},
+	"wikiquote": {
+		"name": "Викицитатник",
+		"slogan": "Коллекция цитат",
+		"entries": "статей"
+	},
+	"wikisource": {
+		"name": "Викитека"
+	},
+	"wikiversity": {
+		"name": "Викиверситет",
+		"slogan": "Обучение",
+		"entries": "статей"
+	},
+	"wikivoyage": {
+		"name": "Викигид",
+		"slogan": "Путеводитель"
+	}
+}

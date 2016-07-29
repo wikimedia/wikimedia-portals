@@ -39,6 +39,7 @@ _.each( range, function ( wiki ) {
 	if ( wiki.closed || wiki.sublinks ) {
 		return;
 	}
+
 	wiki.numPages = hbs.formatNumber( wiki.numPages, {
 		hash: {
 			thousandSeparator: true,
@@ -46,13 +47,14 @@ _.each( range, function ( wiki ) {
 			nbsp: false
 		}
 	} ).toString();
+
 	siteStats[ wiki.code ] = _.omit( wiki, 'closed', 'code', 'index' );
 } );
 
 /**
  * Writing stats to translation files
  */
-var translationPath = __dirname + '/assets/translations/';
+var translationPath = __dirname + '/assets/l10n/';
 
 function createTranslationsChecksum( siteStats ) {
 	var data = JSON.stringify( siteStats ),

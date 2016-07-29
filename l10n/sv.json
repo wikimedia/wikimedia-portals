@@ -1,0 +1,34 @@
+{
+	"language-name": "Svenska",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Den fria encyklopedin",
+		"entries": "artiklar"
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Den fria ordboken",
+		"entries": "stavningar"
+	},
+	"wikibooks": {
+		"name": "Wikibooks"
+	},
+	"wikinews": {
+		"name": "Wikinews"
+	},
+	"wikiquote": {
+		"name": "Wikiquote"
+	},
+	"wikisource": {
+		"name": "Wikisource"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Fritt e-lärande",
+		"entries": "sidor"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Reseguiden"
+	}
+}

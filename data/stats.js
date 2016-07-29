@@ -2,10 +2,31 @@
 /* globals require */
 /* globals module */
 var siteStats = require( './site-stats.json' ),
-	siteDefs = require( './new-site-defs.json' ),
-	_ = require( 'underscore' );
+	siteDefsFormatting = require( './l10n-overrides.json' ),
+	fs = require( 'fs' ),
+	_ = require( 'underscore' ),
+	merge = require( 'deepmerge' );
 
 var Stats = {};
+
+Stats.readi18nFiles = function ( dirname ) {
+	var siteDefs = {},
+		fileNames = fs.readdirSync( dirname );
+
+	fileNames.forEach( function ( filename ) {
+		var fileContent = fs.readFileSync( dirname + filename, 'utf-8' ),
+		langCode = filename.replace( '.json', '' );
+		siteDefs[ langCode ] = JSON.parse( fileContent );
+
+		if ( siteDefsFormatting[ langCode ] ) {
+			siteDefs[ langCode ] = merge( siteDefs[ langCode ], siteDefsFormatting[ langCode ] );
+		}
+	} );
+
+	return siteDefs;
+};
+
+var siteDefs = Stats.readi18nFiles(  __dirname + '/../l10n/' );
 
 Stats.nonStandardCodes = {
 	'zh-min-nan': 'nan'
@@ -25,7 +46,7 @@ Stats.getTop = function ( portal, criteria, n ) {
 		var siteDef = siteDefs[ key ],
 			portalDef = siteDef && siteDef[ portal ];
 		stats.code = key;
-		return siteDef && siteDef.name && portalDef;
+		return siteDef && siteDef[ 'language-name' ] && portalDef;
 	} );
 
 	// sort
@@ -62,9 +83,10 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 	// validate
 	var list = _.filter( siteStats[ portal ], function ( stats, code ) {
 
-		if ( !siteDefs[ code ] || !siteDefs[ code ].name ) {
+		if ( !siteDefs[ code ] || !siteDefs[ code ][ 'language-name' ] ) {
 			return false;
 		}
+
 		stats.code = code;
 		var isInRange = stats[ criteria ] >= from &&
 			( !to || stats[ criteria ] < to );
@@ -74,8 +96,8 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 
 	// sort alphabetically
 	list.sort( function ( a, b ) {
-		var asort = siteDefs[ a.code ].sort || siteDefs[ a.code ].latin || siteDefs[ a.code ].name,
-			bsort = siteDefs[ b.code ].sort || siteDefs[ b.code ].latin || siteDefs[ b.code ].name;
+		var asort = siteDefs[ a.code ][ 'language-name-romanized-sorted' ] || siteDefs[ a.code ][ 'language-name-romanized' ] || siteDefs[ a.code ][ 'language-name' ],
+			bsort = siteDefs[ b.code ][ 'language-name-romanized-sorted' ] || siteDefs[ b.code ][ 'language-name-romanized' ] || siteDefs[ b.code ][ 'language-name' ];
 
 		asort = asort.toLowerCase();
 		bsort = bsort.toLowerCase();
@@ -177,14 +199,15 @@ Stats.format = function ( portal, list, options ) {
 			formatted = _.extend( {}, stats, portalDef );
 
 		formatted.index = ++index;
-		formatted.name = siteDef.name;
+		formatted.name = siteDef[ 'language-name' ];
+		formatted.siteName = ( portalDef && portalDef.name ) ? portalDef.name : siteDefs.en.name;
 		formatted.lang = siteDef.lang || formatted.code;
 
-		if ( siteDef.sort ) {
-			formatted.sort = siteDef.sort;
+		if ( siteDef[ 'language-name-romanized-sorted' ] ) {
+			formatted.sort = siteDef[ 'language-name-romanized-sorted' ];
 		}
-		if ( siteDef.latin ) {
-			formatted.latin = siteDef.latin;
+		if ( siteDef[ 'language-name-romanized' ] ) {
+			formatted.latin = siteDef[ 'language-name-romanized' ];
 		}
 		if ( siteDef.attrs ) {
 			formatted.attrs = siteDef.attrs;
@@ -193,10 +216,6 @@ Stats.format = function ( portal, list, options ) {
 		if ( options.stripTags ) {
 			// http://stackoverflow.com/a/5002161
 			formatted.name = formatted.name.replace( /<\/?[^>]+(>|$)/g, '' );
-		}
-
-		if ( !formatted.siteName ) {
-			formatted.siteName = siteDefs.en[ portal ] && siteDefs.en[ portal ].siteName;
 		}
 
 		if ( Stats.nonStandardCodes.hasOwnProperty( formatted.code ) ) {
@@ -245,5 +264,8 @@ Stats.getRangeFormatted = function ( portal, criteria, from, to ) {
 
 	return this.format( portal, list, { merge: true } );
 };
+
+/*REMOVE*/
+// Stats.getRangeFormatted( 'wiki', 'numPages', 0 )
 
 module.exports = Stats;

@@ -114,7 +114,7 @@ function localizeTopTen( ) {
 		anchor.setAttribute( 'title', wikiNameStripped + ' — ' + wikiInfo.siteName + ' — ' + ( wikiInfo.slogan || '' ) );
 		node.setAttribute( 'lang', wikiInfo.lang );
 		node.getElementsByTagName( 'strong' )[ 0 ].textContent = wikiNameStripped;
-		node.getElementsByTagName( 'small' )[ 0 ].textContent = wikiInfo.numPages + '+ ' + ( wikiInfo.articles || '' );
+		node.getElementsByTagName( 'small' )[ 0 ].textContent = wikiInfo.numPages + '+ ' + ( wikiInfo.entries || '' );
 	}
 
 	/**
@@ -174,7 +174,7 @@ function localizeTopTen( ) {
 
 		var i18nReq = new XMLHttpRequest();
 
-		i18nReq.open( 'GET', encodeURI( 'portal/wikipedia.org/assets/translations/' + lang + '-' + translationsHash + '.json' ), true );
+		i18nReq.open( 'GET', encodeURI( 'portal/wikipedia.org/assets/l10n/' + lang + '-' + translationsHash + '.json' ), true );
 
 		i18nReq.onload = function () {
 

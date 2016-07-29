@@ -1,0 +1,30 @@
+{
+	"language-name": "한국어",
+	"language-name-romanized": "Hangugeo",
+	"wiki": {
+		"name": "위키백과",
+		"slogan": "우리 모두의 백과사전",
+		"entries": "문서"
+	},
+	"wiktionary": {
+		"name": "위키낱말사전",
+		"slogan": "말과 글의 누리",
+		"entries": "낱말"
+	},
+	"wikibooks": {
+		"name": "위키책",
+		"slogan": "자유로운 생각과 배움"
+	},
+	"wikinews": {
+		"name": "위키뉴스"
+	},
+	"wikiquote": {
+		"name": "위키인용집"
+	},
+	"wikisource": {
+		"name": "위키문헌"
+	},
+	"wikiversity": {
+		"name": "위키배움터"
+	}
+}

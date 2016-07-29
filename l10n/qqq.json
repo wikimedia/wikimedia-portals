@@ -1,0 +1,45 @@
+{
+  "language-name": "The name of a language in its native script",
+  "language-name-romanized": "For non-latin scripts, The Romanized version of a language name.",
+  "language-name-romanized-sorted": "The romanized version of a language name, sorted in alphabetical, left-to-right order, without diacritics. For example, romanized Arabic is 'Arabiyah, Al' whereas the sorted romanized version is  'Al-ʿArabīyah'",
+  "wiki": {
+    "name": "Label for Wikipedia",
+    "slogan": "The Wikipedia slogan",
+    "entries": "The name of a content page on Wikipedia, pluralized. For example, in english: articles."
+  },
+  "wiktionary": {
+    "name": "Label for Wiktionary",
+    "slogan": "The Wiktionary slogan",
+    "entries": "The name of a content page on Wiktionary, pluralized."
+  },
+  "wikibooks": {
+    "name": "Label for Wikibooks",
+    "slogan": "The Wikibooks slogan",
+    "entries": "The name of a content page on Wikibooks, pluralized."
+  },
+  "wikinews": {
+    "name": "Label for Wikinews",
+    "slogan": "The Wikinews slogan",
+    "entries": "The name of a content page on Wikinews, pluralized."
+  },
+  "wikiquote": {
+    "name": "Label for Wikiquote",
+    "slogan": "The Wikiquote slogan",
+    "entries": "The name of a content page on Wikiquote, pluralized."
+  },
+  "wikisource": {
+    "name": "Label for Wikisource",
+    "slogan": "The Wikisource slogan",
+    "entries": "The name of a content page on Wikisource, pluralized."
+  },
+  "wikiversity": {
+    "name": "Label for Wikiversity",
+    "slogan": "The Wikiversity slogan",
+    "entries": "The name of a content page on Wikiversity, pluralized."
+  },
+  "wikivoyage": {
+    "name": "Label for Wikivoyage",
+    "slogan": "The Wikivoyage slogan",
+    "entries": "The name of a content page on Wikivoyages, pluralized."
+  }
+}

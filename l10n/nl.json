@@ -1,0 +1,30 @@
+{
+	"language-name": "Nederlands",
+	"wiki": {
+		"name": "Wikipedie",
+		"slogan": "De vrieje encyclopedie",
+		"entries": "artikelen"
+	},
+	"wiktionary": {
+		"name": "WikiWoordenboek",
+		"slogan": "Het vrije woordenboek",
+		"entries": "artikelen"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Boeken en handleidingen",
+		"entries": "hoofdstukken"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Het vrije citaten- en spreekwoordenarchief"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "De vrije bron"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Reisgids"
+	}
+}

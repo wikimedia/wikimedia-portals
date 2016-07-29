@@ -1,0 +1,27 @@
+{
+	"language-name": "Català",
+	"language-name-romanized-sorted": "Catala",
+	"wiki": {
+		"name": "Viquipèdia",
+		"slogan": "L'enciclopèdia lliure"
+	},
+	"wiktionary": {
+		"name": "Viccionari",
+		"slogan": "El diccionari lliure"
+	},
+	"wikibooks": {
+		"name": "Viquillibres",
+		"slogan": "La biblioteca de llibres de text i manuals lliures"
+	},
+	"wikinews": {
+		"name": "Viquinotícies",
+		"entries": "notícies"
+	},
+	"wikiquote": {
+		"name": "Viquidites"
+	},
+	"wikisource": {
+		"name": "Viquitexts",
+		"slogan": "La Biblioteca Lliure"
+	}
+}

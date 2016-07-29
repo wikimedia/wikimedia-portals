@@ -1,0 +1,25 @@
+{
+	"language-name": "Norsk (Bokmål)",
+	"language-name-romanized-sorted": "Norsk Bokmal",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Den frie encyklopedi",
+		"entries": "artikler"
+	},
+	"wiktionary": {
+		"name": "Wiktionary"
+	},
+	"wikibooks": {
+		"name": "Wikibøker"
+	},
+	"wikinews": {
+		"name": "Wikinytt",
+		"slogan": "Den frie nyhetstjenesten der ''du'' kan være med å skrive!"
+	},
+	"wikiquote": {
+		"name": "Wikiquote"
+	},
+	"wikisource": {
+		"name": "Wikikilden"
+	}
+}

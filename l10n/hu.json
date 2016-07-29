@@ -1,0 +1,22 @@
+{
+	"language-name": "Magyar",
+	"wiki": {
+		"name": "Wikipédia",
+		"slogan": "A szabad enciklopédia",
+		"entries": "szócikke"
+	},
+	"wiktionary": {
+		"name": "Wikiszótár",
+		"slogan": "A szabad szótár"
+	},
+	"wikibooks": {
+		"name": "Wikikönyvek"
+	},
+	"wikiquote": {
+		"name": "Wikidézet",
+		"slogan": "A szabad idézetgyűjtemény"
+	},
+	"wikisource": {
+		"name": "Wikiforrás"
+	}
+}

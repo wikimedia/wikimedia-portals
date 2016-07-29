@@ -1,0 +1,35 @@
+{
+	"language-name": "עברית",
+	"language-name-romanized": "ʿIvrit",
+	"language-name-romanized-sorted": "Ivrit",
+	"wiki": {
+		"name": "ויקיפדיה",
+		"slogan": "האנציקלופדיה החופשית"
+	},
+	"wiktionary": {
+		"name": "ויקימילון",
+		"slogan": "המילון החופשי"
+	},
+	"wikibooks": {
+		"name": "ויקיספר",
+		"slogan": "ספרים פתוחים לעולם פתוח",
+		"entries": "עמודים"
+	},
+	"wikinews": {
+		"name": "ויקיחדשות",
+		"slogan": "מקור החדשות החופשי"
+	},
+	"wikiquote": {
+		"name": "ויקיציטוט",
+		"slogan": "מאגר הציטוטים החופשי",
+		"entries": "דפים"
+	},
+	"wikisource": {
+		"name": "ויקיטקסט",
+		"slogan": "מאגר הטקסטים החופשי"
+	},
+	"wikivoyage": {
+		"name": "ויקימסע",
+		"slogan": "מדריך טיולים"
+	}
+}

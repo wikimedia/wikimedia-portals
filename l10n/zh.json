@@ -1,0 +1,37 @@
+{
+	"language-name": "中文",
+	"language-name-romanized": "Zhōngwén",
+	"language-name-romanized-sorted": "Zhongwen",
+	"wiki": {
+		"name": "維基百科",
+		"slogan": "自由的百科全書",
+		"entries": "條目"
+	},
+	"wiktionary": {
+		"name": "維基詞典",
+		"slogan": "自由的多語言詞典",
+		"entries": "條詞條"
+	},
+	"wikibooks": {
+		"name": "维基教科书",
+		"slogan": "自由的教科书和手册",
+		"entries": "教科书"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "你也可以撰写的自由新闻源",
+		"entries": "篇"
+	},
+	"wikiquote": {
+		"name": "維基語錄",
+		"slogan": "自由的名人名言錄",
+		"entries": "篇摘录"
+	},
+	"wikisource": {
+		"name": "Wikisource"
+	},
+	"wikivoyage": {
+		"name": "维基导游",
+		"slogan": "自由的旅行指南"
+	}
+}

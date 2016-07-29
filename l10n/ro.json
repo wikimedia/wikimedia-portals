@@ -1,0 +1,30 @@
+{
+	"language-name": "Română",
+	"language-name-romanized-sorted": "Romana",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "enciclopedia liberă"
+	},
+	"wiktionary": {
+		"name": "Wikţionar",
+		"slogan": "Dicţionarul liber"
+	},
+	"wikibooks": {
+		"name": "Wikimanuale"
+	},
+	"wikinews": {
+		"name": "Wikiștiri",
+		"slogan": "Sursa liberă de știri",
+		"entries": "știri"
+	},
+	"wikiquote": {
+		"name": "Wikicitat"
+	},
+	"wikisource": {
+		"name": "Wikisource"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Ghid Turistic"
+	}
+}

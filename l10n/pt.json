@@ -1,0 +1,41 @@
+{
+	"language-name": "Português",
+	"language-name-romanized-sorted": "Portugues",
+	"wiki": {
+		"name": "Wikipédia",
+		"slogan": "A enciclopédia livre",
+		"entries": "artigos"
+	},
+	"wiktionary": {
+		"name": "Wikcionário",
+		"slogan": "O dicionário livre"
+	},
+	"wikibooks": {
+		"name": "Wikilivros",
+		"slogan": "Livros didáticos gratuitos",
+		"entries": "módulos"
+	},
+	"wikinews": {
+		"name": "Wikinotícias",
+		"slogan": "A fonte de notícias livre que você pode editar!",
+		"entries": "artigos"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Coletânea de citações",
+		"entries": "artigos"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "a biblioteca livre"
+	},
+	"wikiversity": {
+		"name": "Wikiversidade",
+		"slogan": "A universidade livre",
+		"entries": "páginas"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Guia de Viagens"
+	}
+}

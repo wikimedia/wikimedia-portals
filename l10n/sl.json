@@ -1,0 +1,25 @@
+{
+	"language-name": "Slovenščina",
+	"language-name-romanized-sorted": "Slovenscina",
+	"wiki": {
+		"name": "Wikipedija"
+	},
+	"wiktionary": {
+		"name": "Wikislovar",
+		"slogan": "Prosti slovar"
+	},
+	"wikibooks": {
+		"name": "Wikiknjige"
+	},
+	"wikiquote": {
+		"name": "Wikinavedek"
+	},
+	"wikisource": {
+		"name": "Wikivir"
+	},
+	"wikiversity": {
+		"name": "Wikiverza",
+		"slogan": "Prosti spletni univerzi",
+		"entries": "člankov"
+	}
+}

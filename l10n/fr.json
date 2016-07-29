@@ -1,0 +1,41 @@
+{
+	"language-name": "Français",
+	"language-name-romanized-sorted": "Francais",
+	"wiki": {
+		"name": "Wikipédia",
+		"slogan": "L’encyclopédie libre",
+		"entries": "articles"
+	},
+	"wiktionary": {
+		"name": "Wiktionnaire",
+		"slogan": "Le dictionnaire libre",
+		"entries": "articles"
+	},
+	"wikibooks": {
+		"name": "Wikilivres",
+		"slogan": "Textes pédagogiques libres",
+		"entries": "pages"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "la source d'informations que vous pouvez écrire",
+		"entries": "articles"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Collection de citations",
+		"entries": "articles"
+	},
+	"wikisource": {
+		"name": "Wikisource"
+	},
+	"wikiversity": {
+		"name": "Wikiversité",
+		"slogan": "Communauté pédagogique",
+		"entries": "pages"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Guide de voyage"
+	}
+}

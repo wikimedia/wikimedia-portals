@@ -1,0 +1,36 @@
+{
+	"language-name": "Ελληνικά",
+	"language-name-romanized": "Ellīniká",
+	"language-name-romanized-sorted": "Ellinika",
+	"wiki": {
+		"name": "Βικιπαίδεια",
+		"slogan": "Η Ελεύθερη Εγκυκλοπαίδεια"
+	},
+	"wiktionary": {
+		"name": "Βικιλεξικό",
+		"slogan": "Το ελεύθερο λεξικό",
+		"entries": "λήμματα"
+	},
+	"wikibooks": {
+		"name": "Βικιβιβλία"
+	},
+	"wikinews": {
+		"name": "Βικινέα",
+		"entries": "άρθρα"
+	},
+	"wikiquote": {
+		"name": "Βικιφθέγματα"
+	},
+	"wikisource": {
+		"name": "Βικιθήκη"
+	},
+	"wikiversity": {
+		"name": "Βικιεπιστήμιο",
+		"slogan": "Εκπαιδευτική κοινότητα",
+		"entries": "πόρους μάθησης"
+	},
+	"wikivoyage": {
+		"name": "Βικιταξίδια",
+		"slogan": "Ταξιδιωτικός Οδηγός"
+	}
+}

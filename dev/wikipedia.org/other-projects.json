@@ -3,97 +3,72 @@
     "name": "Commons",
     "url": "//commons.wikimedia.org/",
     "tagline": "Freely usable photos & more",
-    "img1": "Commons-logo_sister",
-    "height": 47,
-    "width": 35,
-    "style": "vertical-align: top;"
+    "img1": "Commons-logo_sister"
   },
   {
     "name": "Wikivoyage",
     "url": "//www.wikivoyage.org/",
     "tagline": "Free travel guide",
-    "img1": "Wikivoyage-logo_sister",
-    "height": 35,
-    "width": 35
+    "img1": "Wikivoyage-logo_sister"
   },
   {
     "name": "Wiktionary",
     "url": "//www.wiktionary.org/",
     "tagline": "Free dictionary",
-    "img1": "Wiktionary-logo_sister",
-    "height": 35,
-    "width": 35
+    "img1": "Wiktionary-logo_sister"
   },
   {
     "name": "Wikibooks",
     "url": "//www.wikibooks.org/",
     "tagline": "Free textbooks",
-    "img1": "Wikibooks-logo_sister",
-    "height": 35,
-    "width": 35
+    "img1": "Wikibooks-logo_sister"
   },
   {
     "name": "Wikinews",
     "url": "//www.wikinews.org/",
     "tagline": "Free news source",
-    "img1": "Wikinews-logo_sister",
-    "height": 24,
-    "width": 47
+    "img1": "Wikinews-logo_sister"
   },
   {
     "name": "Wikidata",
     "url": "//www.wikidata.org/",
     "tagline": "Free knowledge base",
-    "img1": "Wikidata-logo_sister",
-    "height": 26,
-    "width": 47
+    "img1": "Wikidata-logo_sister"
   },
   {
     "name": "Wikiversity",
     "url": "//www.wikiversity.org/",
     "tagline": "Open course materials",
-    "img1": "Wikiversity-logo_sister",
-    "height": 28,
-    "width": 35
+    "img1": "Wikiversity-logo_sister"
   },
   {
       "name": "Wikiquote",
       "url": "//www.wikiquote.org/",
       "tagline": "Free quote compendium",
-      "img1": "Wikiquote-logo_sister",
-      "height": 41,
-      "width": 35
+      "img1": "Wikiquote-logo_sister"
   },
   {
     "name": "MediaWiki",
     "url": "//www.mediawiki.org/",
     "tagline": "Free & open wiki application",
-    "img1": "MediaWiki-logo_sister",
-    "height": 36,
-    "width": 47
+    "img1": "MediaWiki-logo_sister"
   },
   {
     "name": "Wikisource",
     "url": "//www.wikisource.org/",
     "tagline": "The free library",
-    "img1": "Wikisource-logo_sister",
-    "height": 37,
-    "width": 35
+    "img1": "Wikisource-logo_sister"
   },
   {
       "name": "Wikispecies",
       "url": "//species.wikimedia.org/",
       "tagline": "Free species directory",
-      "img1": "Wikispecies-logo_sister",
-      "height": 41,
-      "width": 35
+      "img1": "Wikispecies-logo_sister"
   },
   {
       "name": "Meta-Wiki",
       "url": "//meta.wikimedia.org/",
       "tagline": "Our community site",
-      "img1": "Meta-logo_sister",
-      "height": 35,
-      "width": 35
+      "img1": "Meta-logo_sister"
   }
 ]

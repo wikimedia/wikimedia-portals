@@ -19,9 +19,9 @@
            data-slogan="{{slogan}}">
             <strong>{{name}}</strong>
             {{#if articlesAttrs}}
-                <small>{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+ <span{{printAttrs 'articlesAttrs'}}>{{articles}}</span></small>
+                <small>{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+ <span{{printAttrs 'articlesAttrs'}}>{{entries}}</span></small>
             {{else}}
-                <small>{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+ {{articles}}</small>
+                <small>{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+ {{entries}}</small>
             {{/if}}
             </a>
         </div>
