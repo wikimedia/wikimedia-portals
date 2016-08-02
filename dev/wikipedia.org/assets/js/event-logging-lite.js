@@ -15,16 +15,9 @@
 
 	'use strict';
 
-	var baseUrl = 'http://bits.beta.wmflabs.org/event.gif', // base URL for dev or beta
+	var baseUrl = '/beacon/event',
 	byteToHex = [],
 	self, helpers;
-
-	/**
-	 * If we're on production, send events to prod.
-	 */
-	if ( /www.wikipedia.org/.test( location.hostname ) ) {
-		baseUrl = '//www.wikipedia.org/beacon/event';
-	}
 
 	helpers = {
 		// replaces $.extend
