@@ -1977,7 +1977,7 @@ hr {
     }
 }
 /* Subpixel borders not supported in older releases of Blink, WebKit */
-@supports (-webkit-transform: rotate(30deg)) {
+@supports (-webkit-marquee-style: slide) {
     #footer,
     .search-form fieldset {
         border-width: 1px;
