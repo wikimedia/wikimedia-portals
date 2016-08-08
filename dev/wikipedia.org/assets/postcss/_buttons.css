@@ -8,6 +8,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     /* Structure */
     display: inline-block;
     zoom: 1;
+    line-height: normal;
     white-space: nowrap;
     text-align: center;
     cursor: pointer;
@@ -20,21 +21,22 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
-    /* from oo-ui */
-    font: inherit;
-    color: #555;
+    /* from OOjs UI */
     background-color: #fff;
-    border: 1px solid #cdcdcd;
-    margin: 0.1em 0;
-    padding: 0.5em 1em;
+    color: #555;
+    position: relative;
     min-height: 1.2em;
     min-width: 1em;
+    margin: 0.1em 0;
+    border: 1px solid #cdcdcd;
     border-radius: 2px;
-    position: relative;
-    transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
+    padding: 0.5em 1em;
+    font-family: inherit;
+    font-size: inherit;
     font-weight: bold;
     text-decoration: none;
     vertical-align: top;
+    transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
 }
 
 /* Firefox: Get rid of the inner focus border */
