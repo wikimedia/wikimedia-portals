@@ -1,0 +1,45 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chase me ladies, I'm the Cavalry"
+		]
+	},
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "The Free Encyclopedia",
+		"entries": "articles"
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Free dictionary",
+		"entries": "entries"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Free textbooks",
+		"entries": "pages"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Free news source",
+		"entries": "articles"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Free quote compendium",
+		"entries": "articles"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Free library"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Free course materials",
+		"entries": "learning resources"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Free travel guide"
+	}
+}

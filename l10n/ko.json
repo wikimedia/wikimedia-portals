@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
 	"language-name": "한국어",
 	"language-name-romanized": "Hangugeo",
 	"wiki": {
@@ -13,18 +18,24 @@
 	},
 	"wikibooks": {
 		"name": "위키책",
-		"slogan": "자유로운 생각과 배움"
+		"slogan": "자유로운 생각과 배움",
+		"entries": "문서"
 	},
 	"wikinews": {
-		"name": "위키뉴스"
+		"name": "위키뉴스",
+		"entries": "문서"
 	},
 	"wikiquote": {
-		"name": "위키인용집"
+		"name": "위키인용집",
+		"entries": "문서"
 	},
 	"wikisource": {
 		"name": "위키문헌"
 	},
 	"wikiversity": {
 		"name": "위키배움터"
+	},
+	"wikivoyage": {
+		"name": "위키여행"
 	}
 }

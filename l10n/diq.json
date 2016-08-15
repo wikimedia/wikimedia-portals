@@ -1,6 +1,46 @@
 {
+	"@metadata": {
+		"authors": [
+			"Kumkumuk"
+		]
+	},
 	"language-name": "Zazaki",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Ansiklopediya Xoser",
+		"entries": "wesiqey"
+	},
+	"wiktionary": {
+		"name": "Wikiqısebend",
+		"slogan": "Qısebendo Xoser",
+		"entries": "maddey"
+	},
+	"wikibooks": {
+		"name": "Wikikıtabi",
+		"slogan": "Kıtabxaneyo Xoser",
+		"entries": "Peri"
+	},
+	"wikinews": {
+		"name": "Wikixeber",
+		"slogan": "Çımey Xeberanê Xosera",
+		"entries": "Wesiqey"
+	},
+	"wikiquote": {
+		"name": "Wikivate",
+		"slogan": "Koleksiyona vatenan",
+		"entries": "wesiqey"
+	},
+	"wikisource": {
+		"name": "Wikiçıme",
+		"slogan": "Çımeyo Xoser"
+	},
+	"wikiversity": {
+		"name": "Wikiversite",
+		"slogan": "Xoser materyal",
+		"entries": "Kursê musayışi"
+	},
+	"wikivoyage": {
+		"name": "Wikigeyrayış",
+		"slogan": "Xoser rehberê geyrayışi"
 	}
 }

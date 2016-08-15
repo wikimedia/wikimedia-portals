@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
 	"language-name": "Español",
 	"language-name-romanized-sorted": "Espanol",
 	"wiki": {
@@ -18,25 +23,25 @@
 	},
 	"wikinews": {
 		"name": "Wikinoticias",
-		"slogan": "De Wikinoticias, la fuente de noticias libres",
+		"slogan": "La fuente de noticias libres",
 		"entries": "artículos"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "La colección de citas",
-		"entries": "páginas"
+		"entries": "artículos"
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "La Biblioteca Libre"
+		"slogan": "La biblioteca libre"
 	},
 	"wikiversity": {
 		"name": "Wikiversidad",
 		"slogan": "Plataforma educativa libre",
-		"entries": "páginas"
+		"entries": "recursos de aprendizaje"
 	},
 	"wikivoyage": {
 		"name": "Wikiviajes",
-		"slogan": "Guía de Viaje"
+		"slogan": "La guía de viajes libre"
 	}
 }

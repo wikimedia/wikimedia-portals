@@ -1,11 +1,27 @@
 {
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
 	"language-name": "Latviešu",
 	"language-name-romanized-sorted": "Latviesu",
 	"wiki": {
 		"name": "Vikipēdija",
-		"slogan": "Brīvā enciklopēdija"
+		"slogan": "Brīvā enciklopēdija",
+		"entries": "raksti"
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Wiktionary",
+		"entries": "ieraksti"
+	},
+	"wikibooks": {
+		"entries": "lapas"
+	},
+	"wikinews": {
+		"entries": "raksti"
+	},
+	"wikiquote": {
+		"entries": "raksti"
 	}
 }

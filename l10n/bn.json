@@ -1,18 +1,47 @@
 {
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman"
+		]
+	},
 	"language-name": "বাংলা",
 	"language-name-romanized": "Bangla",
 	"wiki": {
 		"name": "উইকিপিডিয়া",
-		"slogan": "উন্মুক্ত বিশ্বকোষ উইকিপিডিয়া থেকে"
+		"slogan": "উন্মুক্ত বিশ্বকোষ",
+		"entries": "টি নিবন্ধ"
 	},
 	"wiktionary": {
-		"name": "উইকি-অভিধান",
-		"slogan": "একটি মুক্ত অভিধান"
+		"name": "উইকিঅভিধান",
+		"slogan": "একটি মুক্ত অভিধান",
+		"entries": "টি ভুক্তি"
 	},
 	"wikibooks": {
-		"name": "উইকিবই"
+		"name": "উইকিবই",
+		"slogan": "উন্মুক্ত পাঠ্যপুস্তক",
+		"entries": "টি পাতা"
+	},
+	"wikinews": {
+		"name": "উইকিসংবাদ",
+		"slogan": "উন্মুক্ত সংবাদ উৎস",
+		"entries": "টি নিবন্ধ"
+	},
+	"wikiquote": {
+		"name": "উইকিউক্তি",
+		"slogan": "উক্তি-উদ্ধৃতির সংকলন",
+		"entries": "টি নিবন্ধ"
 	},
 	"wikisource": {
-		"name": "উইকিসংকলন"
+		"name": "উইকিসংকলন",
+		"slogan": "উন্মুক্ত পাঠাগার"
+	},
+	"wikiversity": {
+		"name": "উইকিবিশ্ববিদ্যালয়",
+		"slogan": "উন্মুক্ত শিক্ষা মাধ্যম",
+		"entries": "টি শিক্ষার উপকরণ"
+	},
+	"wikivoyage": {
+		"name": "উইকিভ্রমণ",
+		"slogan": "উন্মুক্ত ভ্রমণ নির্দেশিকা"
 	}
 }

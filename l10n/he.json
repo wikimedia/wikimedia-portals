@@ -1,23 +1,31 @@
 {
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
 	"language-name": "עברית",
 	"language-name-romanized": "ʿIvrit",
 	"language-name-romanized-sorted": "Ivrit",
 	"wiki": {
 		"name": "ויקיפדיה",
-		"slogan": "האנציקלופדיה החופשית"
+		"slogan": "האנציקלופדיה החופשית",
+		"entries": "ערכים"
 	},
 	"wiktionary": {
 		"name": "ויקימילון",
-		"slogan": "המילון החופשי"
+		"slogan": "המילון החופשי",
+		"entries": "ערכים"
 	},
 	"wikibooks": {
 		"name": "ויקיספר",
-		"slogan": "ספרים פתוחים לעולם פתוח",
+		"slogan": "ספרי לימוד חופשיים",
 		"entries": "עמודים"
 	},
 	"wikinews": {
 		"name": "ויקיחדשות",
-		"slogan": "מקור החדשות החופשי"
+		"slogan": "מקור החדשות החופשי",
+		"entries": "מאמרים"
 	},
 	"wikiquote": {
 		"name": "ויקיציטוט",
@@ -28,8 +36,13 @@
 		"name": "ויקיטקסט",
 		"slogan": "מאגר הטקסטים החופשי"
 	},
+	"wikiversity": {
+		"name": "ויקיברסיטה",
+		"slogan": "חומרי לימוד חופשיים",
+		"entries": "משאבי לימוד"
+	},
 	"wikivoyage": {
 		"name": "ויקימסע",
-		"slogan": "מדריך טיולים"
+		"slogan": "מדריך הטיולים החופשי"
 	}
 }

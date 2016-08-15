@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
 	"language-name": "Українська",
 	"language-name-romanized": "Ukrayins’ka",
 	"language-name-romanized-sorted": "Ukrayinska",
@@ -8,13 +13,18 @@
 		"entries": "статей"
 	},
 	"wiktionary": {
-		"name": "Вікісловник"
+		"name": "Вікісловник",
+		"slogan": "Вільний словник",
+		"entries": "записи"
 	},
 	"wikibooks": {
-		"name": "Вікіпідручник"
+		"name": "Вікіпідручник",
+		"slogan": "Вільні посібники",
+		"entries": "сторінки"
 	},
 	"wikinews": {
 		"name": "Вікіновини",
+		"slogan": "Вільне джерело новин",
 		"entries": "статей"
 	},
 	"wikiquote": {
@@ -23,7 +33,13 @@
 		"entries": "статей"
 	},
 	"wikisource": {
-		"name": "Вікіджерела"
+		"name": "Вікіджерела",
+		"slogan": "Вільна бібліотека"
+	},
+	"wikiversity": {
+		"name": "Віківерситет",
+		"slogan": "Вільні навчальні матеріали",
+		"entries": "навчальні ресурси"
 	},
 	"wikivoyage": {
 		"name": "Вікімандри",

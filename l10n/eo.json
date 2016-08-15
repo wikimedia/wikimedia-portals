@@ -1,21 +1,39 @@
 {
+	"@metadata": {
+		"authors": [
+			"Robin van der Vliet"
+		]
+	},
 	"language-name": "Esperanto",
 	"wiki": {
-		"name": "Vikipedio"
+		"name": "Vikipedio",
+		"slogan": "La libera enciklopedio",
+		"entries": "artikoloj"
 	},
 	"wiktionary": {
-		"name": "Vikivortaro"
+		"name": "Vikivortaro",
+		"slogan": "Libera vortaro"
 	},
 	"wikibooks": {
-		"name": "Vikilibroj"
+		"name": "Vikilibroj",
+		"entries": "paĝoj"
 	},
 	"wikinews": {
-		"name": "Vikinovaĵoj"
+		"name": "Vikinovaĵoj",
+		"entries": "artikoloj"
 	},
 	"wikiquote": {
-		"name": "Vikicitaro"
+		"name": "Vikicitaro",
+		"entries": "artikoloj"
 	},
 	"wikisource": {
-		"name": "Vikifontaro"
+		"name": "Vikifontaro",
+		"slogan": "Libera biblioteko"
+	},
+	"wikiversity": {
+		"name": "Vikiversitato"
+	},
+	"wikivoyage": {
+		"name": "Vikivojaĝo"
 	}
 }

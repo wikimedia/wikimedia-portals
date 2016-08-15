@@ -1,10 +1,16 @@
 {
+	"@metadata": {
+		"authors": [
+			"Stam.nikos"
+		]
+	},
 	"language-name": "Ελληνικά",
 	"language-name-romanized": "Ellīniká",
 	"language-name-romanized-sorted": "Ellinika",
 	"wiki": {
 		"name": "Βικιπαίδεια",
-		"slogan": "Η Ελεύθερη Εγκυκλοπαίδεια"
+		"slogan": "Η Ελεύθερη Εγκυκλοπαίδεια",
+		"entries": "άρθρα"
 	},
 	"wiktionary": {
 		"name": "Βικιλεξικό",
@@ -12,17 +18,22 @@
 		"entries": "λήμματα"
 	},
 	"wikibooks": {
-		"name": "Βικιβιβλία"
+		"name": "Βικιβιβλία",
+		"slogan": "Ελεύθερα βιβλία κειμένου",
+		"entries": "σελίδες"
 	},
 	"wikinews": {
 		"name": "Βικινέα",
+		"slogan": "Ελεύθερη πηγή ειδήσεων",
 		"entries": "άρθρα"
 	},
 	"wikiquote": {
-		"name": "Βικιφθέγματα"
+		"name": "Βικιφθέγματα",
+		"entries": "άρθρα"
 	},
 	"wikisource": {
-		"name": "Βικιθήκη"
+		"name": "Βικιθήκη",
+		"slogan": "Ελεύθερη βιβλιοθήκη"
 	},
 	"wikiversity": {
 		"name": "Βικιεπιστήμιο",

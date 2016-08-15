@@ -1,0 +1,47 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"language-name": "繁體中文",
+	"wiki": {
+		"name": "維基百科",
+		"slogan": "自由的百科全書",
+		"entries": "條目"
+	},
+	"wiktionary": {
+		"name": "維基詞典",
+		"slogan": "自由的詞典",
+		"entries": "條目"
+	},
+	"wikibooks": {
+		"name": "維基教科書",
+		"slogan": "自由的教學讀本",
+		"entries": "頁面"
+	},
+	"wikinews": {
+		"name": "維基新聞",
+		"slogan": "自由的新聞源",
+		"entries": "條目"
+	},
+	"wikiquote": {
+		"name": "維基語錄",
+		"slogan": "自由的名人名言錄",
+		"entries": "條目"
+	},
+	"wikisource": {
+		"name": "維基文庫",
+		"slogan": "自由的圖書館"
+	},
+	"wikiversity": {
+		"name": "維基學院",
+		"slogan": "自由的研習社群",
+		"entries": "學習資源"
+	},
+	"wikivoyage": {
+		"name": "維基導遊",
+		"slogan": "自由的旅行指南"
+	}
+}

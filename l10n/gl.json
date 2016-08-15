@@ -1,23 +1,46 @@
 {
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
 	"language-name": "Galego",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "a Wikipedia en galego"
+		"slogan": "a Wikipedia en galego",
+		"entries": "artigos"
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
-		"slogan": "A Enciclopedia Libre"
+		"slogan": "A Enciclopedia Libre",
+		"entries": "entradas"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
-		"slogan": "o Wikibooks en galego"
+		"slogan": "o Wikibooks en galego",
+		"entries": "páxinas"
+	},
+	"wikinews": {
+		"name": "Wikinovas",
+		"slogan": "A fonte de noticias libre que vostede pode editar",
+		"entries": "artigos"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
-		"slogan": "o Wikiquote en galego"
+		"slogan": "o Wikiquote en galego",
+		"entries": "artigos"
 	},
 	"wikisource": {
 		"name": "Wikisource",
 		"slogan": "o Wikisource en galego"
+	},
+	"wikiversity": {
+		"name": "Wikiversidade",
+		"slogan": "A universidade libre",
+		"entries": "recursos de aprendizaxe"
+	},
+	"wikivoyage": {
+		"name": "Wikiviaxes",
+		"slogan": "Guía de viaxe"
 	}
 }

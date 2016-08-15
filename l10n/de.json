@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
 	"language-name": "Deutsch",
 	"wiki": {
 		"name": "Wikipedia",
@@ -17,6 +22,7 @@
 	},
 	"wikinews": {
 		"name": "Wikinews",
+		"slogan": "Freie Nachrichtenquelle",
 		"entries": "Artikel"
 	},
 	"wikiquote": {

@@ -1,4 +1,11 @@
 {
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Rockyfelle",
+			"WikiPhoenix"
+		]
+	},
 	"language-name": "Svenska",
 	"wiki": {
 		"name": "Wikipedia",
@@ -7,28 +14,35 @@
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
-		"slogan": "Den fria ordboken",
+		"slogan": "Fri ordbok",
 		"entries": "stavningar"
 	},
 	"wikibooks": {
-		"name": "Wikibooks"
+		"name": "Wikibooks",
+		"slogan": "Fria läroböcker",
+		"entries": "sidor"
 	},
 	"wikinews": {
-		"name": "Wikinews"
+		"name": "Wikinews",
+		"slogan": "Fri nyhetskälla",
+		"entries": "artiklar"
 	},
 	"wikiquote": {
-		"name": "Wikiquote"
+		"name": "Wikiquote",
+		"slogan": "Fri samling av citat",
+		"entries": "artiklar"
 	},
 	"wikisource": {
-		"name": "Wikisource"
+		"name": "Wikisource",
+		"slogan": "Fritt bibliotek"
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
-		"slogan": "Fritt e-lärande",
-		"entries": "sidor"
+		"slogan": "Fria kursmaterial",
+		"entries": "läroresurser"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Reseguiden"
+		"slogan": "Den fria reseguiden"
 	}
 }

@@ -1,4 +1,10 @@
 {
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
 	"language-name": "Français",
 	"language-name-romanized-sorted": "Francais",
 	"wiki": {
@@ -27,7 +33,8 @@
 		"entries": "articles"
 	},
 	"wikisource": {
-		"name": "Wikisource"
+		"name": "Wikisource",
+		"slogan": "Bibliothèque libre"
 	},
 	"wikiversity": {
 		"name": "Wikiversité",
@@ -36,6 +43,6 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Guide de voyage"
+		"slogan": "Guide de voyage gratuit"
 	}
 }

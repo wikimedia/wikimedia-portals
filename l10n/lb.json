@@ -1,11 +1,47 @@
 {
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
 	"language-name": "Lëtzebuergesch",
 	"language-name-romanized-sorted": "Letzebuergesch",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Déi fräi Enzyklopedie"
+		"slogan": "Déi fräi Enzyklopedie",
+		"entries": "Artikelen"
 	},
 	"wiktionary": {
-		"name": "Wiktionnaire"
+		"name": "Wiktionnaire",
+		"slogan": "Fräien Dictionnaire",
+		"entries": "Säiten"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Fräi Textbicher",
+		"entries": "Säiten"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Fräi Quelle vun Noriichten",
+		"entries": "Artikelen"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Fräi Sammlung vun Zitaten",
+		"entries": "Artikelen"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Fräi Bibliothéik"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Fräi Materialie vu Coursen",
+		"entries": "Säiten"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Fräie Reesguide"
 	}
 }

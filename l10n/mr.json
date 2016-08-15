@@ -1,21 +1,44 @@
 {
-	"language-name": "मराठी",
+	"@metadata": {
+		"authors": [
+			"V.narsikar"
+		]
+	},
+	"language-name": "इंग्लिश",
 	"language-name-romanized": "Marathi",
 	"wiki": {
 		"name": "विकिपीडिया",
-		"slogan": "एक मुक्त ज्ञानकोश"
+		"slogan": "एक मुक्त ज्ञानकोश",
+		"entries": "लेख"
 	},
 	"wiktionary": {
-		"name": "Wiktionary",
-		"slogan": "एक मुक्त शब्दकोश"
+		"name": "विक्शनरी",
+		"slogan": "एक मुक्त शब्दकोश",
+		"entries": "प्रविष्ट्या"
 	},
 	"wikibooks": {
-		"name": "विकिबुक्स"
+		"name": "विकिबुक्स",
+		"entries": "पाने"
+	},
+	"wikinews": {
+		"name": "विकिबातम्या",
+		"slogan": "मुक्त बातमी स्रोत",
+		"entries": "लेख"
 	},
 	"wikiquote": {
-		"name": "Wikiquote"
+		"name": "विकिक्वोट",
+		"entries": "लेख"
 	},
 	"wikisource": {
-		"name": "विकिस्रोत"
+		"name": "विकिस्रोत",
+		"slogan": "मुक्त ग्रंथालय"
+	},
+	"wikiversity": {
+		"name": "विकिव्हर्सिटी",
+		"slogan": "मुक्त अभ्यासक्रम सामान"
+	},
+	"wikivoyage": {
+		"name": "विकिपर्यटन",
+		"slogan": "मुक्त प्रवासी मार्गदर्शक"
 	}
 }

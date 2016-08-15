@@ -1,10 +1,38 @@
 {
+	"@metadata": {
+		"authors": [
+			"Ninjastrikers"
+		]
+	},
 	"language-name": "မြန်မာဘာသာ",
 	"language-name-romanized": "Myanmarsar",
 	"wiki": {
-		"name": "ဝီကီပီးဒီးယား"
+		"name": "ဝီကီပီးဒီးယား",
+		"entries": "ဆောင်းပါးများ"
 	},
 	"wiktionary": {
 		"name": "Wiktionary"
+	},
+	"wikibooks": {
+		"name": "ဝီကီစာအုပ်များ",
+		"entries": "စာမျက်နှာများ"
+	},
+	"wikinews": {
+		"name": "ဝီကီသတင်း",
+		"entries": "ဆောင်းပါးများ"
+	},
+	"wikiquote": {
+		"name": "ဝီကီအဆိုအမိန့်",
+		"entries": "ဆောင်းပါးများ"
+	},
+	"wikisource": {
+		"name": "ဝီကီအရင်းမြစ်",
+		"slogan": "အခမဲ့စာကြည့်တိုက်"
+	},
+	"wikiversity": {
+		"name": "ဝီကီတက္ကသိုလ်"
+	},
+	"wikivoyage": {
+		"name": "ဝီကီခရီးသွား"
 	}
 }

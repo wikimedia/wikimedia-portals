@@ -1,22 +1,45 @@
 {
+	"@metadata": {
+		"authors": [
+			"Snævar"
+		]
+	},
 	"language-name": "Íslenska",
 	"language-name-romanized-sorted": "Islenska",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Frjálsa alfræðiritið"
+		"slogan": "Frjálsa alfræðiritið",
+		"entries": "greinar"
 	},
 	"wiktionary": {
 		"name": "Wikiorðabók",
-		"slogan": "Frjálsa orðabókin"
+		"slogan": "Frjálsa orðabókin",
+		"entries": "færslur"
 	},
 	"wikibooks": {
 		"name": "Wikibækur",
-		"slogan": "Frjálsa kennslubókaverkefnið"
+		"slogan": "Frjálsa kennslubókaverkefnið",
+		"entries": "síður"
+	},
+	"wikinews": {
+		"name": "Wikifrétt",
+		"slogan": "Frítt fréttaefni",
+		"entries": "greinar"
 	},
 	"wikiquote": {
-		"name": "Wikivitnun"
+		"name": "Wikivitnun",
+		"slogan": "Safn tilvitnana",
+		"entries": "greinar"
 	},
 	"wikisource": {
-		"name": "Wikiheimild"
+		"name": "Wikiheimild",
+		"slogan": "Frjálst bókasafn"
+	},
+	"wikiversity": {
+		"name": "Wikiháskóli",
+		"slogan": "Frjálst kennsluefni"
+	},
+	"wikivoyage": {
+		"slogan": "Ferða leiðarvísar"
 	}
 }

@@ -1,17 +1,43 @@
 {
+	"@metadata": {
+		"authors": [
+			"MIKHEIL"
+		]
+	},
 	"language-name": "ქართული",
 	"language-name-romanized": "Kartuli",
 	"wiki": {
 		"name": "ვიკიპედია",
-		"slogan": "თავისუფალი ენციკლოპედია"
+		"slogan": "თავისუფალი ენციკლოპედია",
+		"entries": "სტატიები"
 	},
 	"wiktionary": {
-		"name": "ვიქსიკონი"
+		"name": "ვიქსიკონი",
+		"slogan": "უფასო ლექსიკონი"
 	},
 	"wikibooks": {
-		"name": "ვიკიწიგნები"
+		"name": "ვიკიწიგნები",
+		"entries": "გვერდები"
+	},
+	"wikinews": {
+		"name": "ვიკინიუსი",
+		"slogan": "ახალი ამბების თავისუფალი წყარო",
+		"entries": "სტატიები"
 	},
 	"wikiquote": {
-		"name": "ვიკიციტატა"
+		"name": "ვიკიციტატა",
+		"entries": "სტატიები"
+	},
+	"wikisource": {
+		"name": "ვიკიწყარო",
+		"slogan": "თავისუფალი ბიბლიოთეკა"
+	},
+	"wikiversity": {
+		"name": "ვიკივერსიტეტი",
+		"entries": "სასწავლო რესურსები"
+	},
+	"wikivoyage": {
+		"name": "ვიკივოიაჟი",
+		"slogan": "უფასო სამოგზაურო გზამკვლევი"
 	}
 }

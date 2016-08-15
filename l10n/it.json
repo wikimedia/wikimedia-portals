@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Nemo bis"
+		]
+	},
 	"language-name": "Italiano",
 	"wiki": {
 		"name": "Wikipedia",
@@ -36,6 +41,6 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Guida Turistica"
+		"slogan": "Guida turistica"
 	}
 }

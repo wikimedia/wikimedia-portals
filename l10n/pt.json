@@ -1,6 +1,11 @@
 {
+	"@metadata": {
+		"authors": [
+			"Vitorvicentevalente"
+		]
+	},
 	"language-name": "Português",
-	"language-name-romanized-sorted": "Portugues",
+	"language-name-romanized-sorted": "Português",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "A enciclopédia livre",
@@ -8,12 +13,13 @@
 	},
 	"wiktionary": {
 		"name": "Wikcionário",
-		"slogan": "O dicionário livre"
+		"slogan": "O dicionário livre",
+		"entries": "entradas"
 	},
 	"wikibooks": {
 		"name": "Wikilivros",
 		"slogan": "Livros didáticos gratuitos",
-		"entries": "módulos"
+		"entries": "páginas"
 	},
 	"wikinews": {
 		"name": "Wikinotícias",
@@ -32,10 +38,10 @@
 	"wikiversity": {
 		"name": "Wikiversidade",
 		"slogan": "A universidade livre",
-		"entries": "páginas"
+		"entries": "recursos de aprendizagem"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Guia de Viagens"
+		"slogan": "O guia de viagens livre"
 	}
 }
