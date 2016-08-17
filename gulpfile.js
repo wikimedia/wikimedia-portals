@@ -6,7 +6,9 @@
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	argv = require( 'yargs' ).argv,
+	imagemin = require( 'gulp-imagemin' ),
 	imageminPngquant = require( 'imagemin-pngquant' ),
+	imageminZopfli = require( 'imagemin-zopfli' ),
 	siteStats = require( './data/site-stats' ),
 	fs = require( 'fs' ),
 	sprity = require( 'sprity' ),
@@ -134,8 +136,16 @@ getConfig = function () {
 	};
 
 	config.optImage = {
+		imageminConf: {
+			plugins: [
+				imagemin.svgo(),
+				imageminPngquant( { quality: '57-95', speed: 1 } ),
+				imagemin.optipng(),
+				imageminZopfli()
+			],
+			options: { verbose: true }
+		},
 		src: [ baseDir + 'assets/img/*', '!' + baseDir + 'assets/img/sprite_assets' ],
-		pngQuantOptions: { quality: '57-95', speed: 1 },
 		dest: prodDir + 'assets/img'
 	};
 
@@ -249,10 +259,11 @@ gulp.task( 'optimize-images', function () {
 
 	requirePortalParam();
 
-	return gulp.src( getConfig().optImage.src )
-		.pipe( plugins.imagemin() )
-		.pipe( imageminPngquant( getConfig().optImage.pngQuantOptions )() )
-		.pipe( gulp.dest( getConfig().optImage.dest ) );
+	var imgOpt = getConfig().optImage;
+
+	return gulp.src( imgOpt.src )
+		.pipe( imagemin( imgOpt.imageminConf.plugins, imgOpt.imageminConf.options  ) )
+		.pipe( gulp.dest( imgOpt.dest ) );
 } );
 
 /**
