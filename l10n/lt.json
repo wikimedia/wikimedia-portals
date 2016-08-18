@@ -1,10 +1,15 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Zygimantus"
+		]
+	},
 	"language-name": "Lietuvių",
 	"language-name-romanized-sorted": "Lietuviu",
 	"wiki": {
 		"name": "Vikipedija",
-		"slogan": "Laisvoji enciklopedija"
+		"slogan": "Laisvoji enciklopedija",
+		"entries": "straipsniai"
 	},
 	"wiktionary": {
 		"name": "Vikižodynas",
@@ -12,7 +17,12 @@
 		"entries": "straipsniai"
 	},
 	"wikibooks": {
-		"name": "Wikibooks"
+		"name": "Wikibooks",
+		"entries": "puslapiai"
+	},
+	"wikinews": {
+		"name": "Vikinaujienos",
+		"entries": "straipsniai"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
@@ -21,5 +31,11 @@
 	},
 	"wikisource": {
 		"name": "Vikišaltiniai"
+	},
+	"wikiversity": {
+		"entries": "mokymosi ištekliai"
+	},
+	"wikivoyage": {
+		"name": "Vikikelionės"
 	}
 }

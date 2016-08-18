@@ -1,10 +1,46 @@
 {
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
 	"language-name": "Asturianu",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "La Enciclopedia Llibre"
+		"slogan": "La Enciclopedia Llibre",
+		"entries": "artículos"
 	},
 	"wiktionary": {
-		"name": "Wikcionariu"
+		"name": "Wikcionariu",
+		"slogan": "Diccionariu llibre",
+		"entries": "entraes"
+	},
+	"wikibooks": {
+		"name": "Wikillibros",
+		"slogan": "Llibros de testu llibres",
+		"entries": "páxines"
+	},
+	"wikinews": {
+		"name": "Wikinoticies",
+		"slogan": "Fonte de noticies llibre",
+		"entries": "artículos"
+	},
+	"wikiquote": {
+		"name": "Wikicites",
+		"slogan": "Colección de cites llibre",
+		"entries": "artículos"
+	},
+	"wikisource": {
+		"name": "Wikiesbilla",
+		"slogan": "Biblioteca llibre"
+	},
+	"wikiversity": {
+		"name": "Wikiversidá",
+		"slogan": "Plataforma educativa llibre",
+		"entries": "recursos pal deprendimientu"
+	},
+	"wikivoyage": {
+		"name": "Wikiviaxes",
+		"slogan": "Guía de viaxes llibre"
 	}
 }

@@ -1,5 +1,10 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Marek Pavlica",
+			"Mormegil"
+		]
+	},
 	"language-name": "Čeština",
 	"language-name-romanized-sorted": "Cestina",
 	"wiki": {
@@ -9,14 +14,17 @@
 	},
 	"wiktionary": {
 		"name": "Wikislovník",
-		"slogan": "Otevřený slovník"
+		"slogan": "Otevřený slovník",
+		"entries": "hesel"
 	},
 	"wikibooks": {
 		"name": "Wikiknihy",
-		"slogan": "Wikiknihy: Otevřená sbírka učebnic a knih"
+		"slogan": "Volně dostupné knihy a manuály",
+		"entries": "stránek"
 	},
 	"wikinews": {
 		"name": "Wikizprávy",
+		"slogan": "Otevřené zpravodajství",
 		"entries": "zpráv"
 	},
 	"wikiquote": {
@@ -25,11 +33,16 @@
 		"entries": "stránek"
 	},
 	"wikisource": {
-		"name": "Wikizdroje"
+		"name": "Wikizdroje",
+		"slogan": "Volně dostupné dokumenty"
 	},
 	"wikiversity": {
 		"name": "Wikiverzita",
 		"slogan": "Volně dostupné vzdělání",
-		"entries": "stránky"
+		"entries": "stránek"
+	},
+	"wikivoyage": {
+		"name": "Wikicesty",
+		"slogan": "Otevřený cestovní průvodce"
 	}
 }

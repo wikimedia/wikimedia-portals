@@ -29,7 +29,7 @@
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
-		"slogan": "Collection de citations",
+		"slogan": "Collection libre des citations",
 		"entries": "articles"
 	},
 	"wikisource": {
@@ -38,8 +38,8 @@
 	},
 	"wikiversity": {
 		"name": "Wikiversité",
-		"slogan": "Communauté pédagogique",
-		"entries": "pages"
+		"slogan": "Matériel de cours libre d'utilisation",
+		"entries": "ressources d'apprentissage"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",

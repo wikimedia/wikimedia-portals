@@ -1,16 +1,34 @@
 {
+	"@metadata": {
+		"authors": [
+			"פוילישער"
+		]
+	},
 	"language-name": "ייִדיש",
 	"language-name-romanized": "Yidiš",
 	"language-name-romanized-sorted": "Yidis",
 	"wiki": {
 		"name": "װיקיפּעדיע",
-		"slogan": "די פֿרײַע ענציקלאָפּעדיע"
+		"slogan": "די פֿרײַע ענציקלאָפּעדיע",
+		"entries": "אַרטיקלען"
 	},
 	"wiktionary": {
-		"name": "װיקיװערטערבוך",
-		"slogan": ""
+		"name": "װיקיװערטערבוך"
+	},
+	"wikibooks": {
+		"name": "וויקיביכער",
+		"entries": "בלעטער"
+	},
+	"wikinews": {
+		"name": "וויקינײַעס"
+	},
+	"wikiquote": {
+		"name": "וויקיציטיר"
 	},
 	"wikisource": {
 		"name": "װיקיביבליאָטעק"
+	},
+	"wikivoyage": {
+		"name": "וויקירייזע"
 	}
 }
