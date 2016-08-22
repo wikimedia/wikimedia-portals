@@ -1,16 +1,30 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"TomášPolonec"
+		]
+	},
 	"language-name": "Slovenčina",
 	"language-name-romanized-sorted": "Slovencina",
 	"wiki": {
 		"name": "Wikipédia",
-		"slogan": "Slobodná encyklopédia"
+		"slogan": "Slobodná encyklopédia",
+		"entries": "Články"
 	},
 	"wiktionary": {
-		"name": "Wikislovník"
+		"name": "Wikislovník",
+		"slogan": "slobodný slovník",
+		"entries": "hesiel"
 	},
 	"wikibooks": {
-		"name": "Wikiknihy"
+		"name": "Wikiknihy",
+		"slogan": "voľne dostupné knihy a manuály",
+		"entries": "stránky"
+	},
+	"wikinews": {
+		"name": "Wikinoviny",
+		"slogan": "Slobodné spravodajstvo",
+		"entries": "články"
 	},
 	"wikiquote": {
 		"name": "Wikicitáty",
@@ -18,6 +32,16 @@
 		"entries": "článkov"
 	},
 	"wikisource": {
-		"name": "Wikizdroje"
+		"name": "Wikizdroje",
+		"slogan": "Voľne dostupné dokumeny"
+	},
+	"wikiversity": {
+		"name": "Wikiverzita",
+		"slogan": "Voľne dostupné vzdelávanie",
+		"entries": "stránok"
+	},
+	"wikivoyage": {
+		"name": "Wikicesty",
+		"slogan": "slobodný cestovný sprievodca"
 	}
 }

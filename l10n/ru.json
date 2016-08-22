@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
 	"language-name": "Русский",
 	"language-name-romanized": "Russkiy",
 	"wiki": {
@@ -19,6 +23,7 @@
 	},
 	"wikinews": {
 		"name": "Викиновости",
+		"slogan": "Свободный источник новостей",
 		"entries": "статей"
 	},
 	"wikiquote": {
@@ -27,7 +32,8 @@
 		"entries": "статей"
 	},
 	"wikisource": {
-		"name": "Викитека"
+		"name": "Викитека",
+		"slogan": "Свободная библиотека"
 	},
 	"wikiversity": {
 		"name": "Викиверситет",

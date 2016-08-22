@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Obonggi"
+		]
+	},
+	"wiki": {
+		"name": "維基百科",
+		"slogan": "自由嘅百科全書",
+		"entries": "文章"
+	},
+	"wiktionary": {
+		"name": "維基辭典",
+		"slogan": "免費辭典",
+		"entries": "詞條"
+	},
+	"wikibooks": {
+		"name": "維基教科書"
+	},
+	"wikinews": {
+		"name": "維基新聞",
+		"entries": "文章"
+	},
+	"wikiquote": {
+		"name": "維基語錄",
+		"entries": "文章"
+	},
+	"wikisource": {
+		"name": "維基文庫",
+		"slogan": "免費圖書館"
+	},
+	"wikiversity": {
+		"name": "維基學府"
+	},
+	"wikivoyage": {
+		"name": "維基遊埠",
+		"slogan": "免費旅行指南"
+	}
+}

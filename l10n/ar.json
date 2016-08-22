@@ -1,8 +1,12 @@
 {
-	"@metadata": [],
-	"language-name": "العربية",
-	"language-name-romanized": "Al-ʿArabīyah",
-	"language-name-romanized-sorted": "Arabiyah, Al",
+	"@metadata": {
+		"authors": [
+			"بدارين"
+		]
+	},
+	"language-name": "الإنجليزية",
+	"language-name-romanized": "الإنجليزية",
+	"language-name-romanized-sorted": "الإنجليزية",
 	"wiki": {
 		"name": "ويكيبيديا",
 		"slogan": " الموسوعة الحرة",

@@ -1,22 +1,37 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"UV"
+		]
+	},
 	"language-name": "Latina",
 	"wiki": {
 		"name": "Vicipaedia",
-		"slogan": "Libera encyclopaedia"
+		"slogan": "Libera encyclopaedia",
+		"entries": "commentationes"
 	},
 	"wiktionary": {
 		"name": "Victionarium",
-		"slogan": "Libera encyclopaedia"
+		"slogan": "Dictionarium liberum"
 	},
 	"wikibooks": {
-		"name": "Vicilibri"
+		"name": "Vicilibri",
+		"entries": "paginae"
+	},
+	"wikinews": {
+		"name": "Vicinuntii"
 	},
 	"wikiquote": {
 		"name": "Vicicitatio",
 		"slogan": "The Free Compendium of Quotations"
 	},
 	"wikisource": {
-		"name": "Wikisource"
+		"name": "Vicifons"
+	},
+	"wikiversity": {
+		"name": "Viciversitas"
+	},
+	"wikivoyage": {
+		"name": "Vicivia"
 	}
 }

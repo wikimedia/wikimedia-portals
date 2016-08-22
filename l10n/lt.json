@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zygimantus"
+			"Zygimantus",
+			"Eitvys200"
 		]
 	},
 	"language-name": "Lietuvių",
@@ -14,10 +15,10 @@
 	"wiktionary": {
 		"name": "Vikižodynas",
 		"slogan": "Laisvasis žodynas",
-		"entries": "straipsniai"
+		"entries": "įrašai"
 	},
 	"wikibooks": {
-		"name": "Wikibooks",
+		"name": "Vikiknygos",
 		"entries": "puslapiai"
 	},
 	"wikinews": {
@@ -25,9 +26,9 @@
 		"entries": "straipsniai"
 	},
 	"wikiquote": {
-		"name": "Wikiquote",
+		"name": "Vikicitatos",
 		"slogan": "Aforizmų ir sentencijų lobynas",
-		"entries": "puslapiai"
+		"entries": "straipsniai"
 	},
 	"wikisource": {
 		"name": "Vikišaltiniai"
