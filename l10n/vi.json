@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
 	"language-name": "Tiếng Việt",
 	"language-name-romanized-sorted": "Viet, Tieng",
 	"wiki": {
@@ -17,6 +21,11 @@
 		"slogan": "Tủ sách mở",
 		"entries": "trang sách"
 	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Nguồn tin tức mở",
+		"entries": "bài báo"
+	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Bộ sưu tập danh ngôn mở",
@@ -25,6 +34,11 @@
 	"wikisource": {
 		"name": "Wikisource",
 		"slogan": "Văn thư lưu trữ mở"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Học liệu mở",
+		"entries": "học liệu"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",

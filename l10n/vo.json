@@ -1,11 +1,36 @@
 {
+	"@metadata": {
+		"authors": [
+			"Robin van der Vliet"
+		]
+	},
 	"language-name": "Volapük",
 	"language-name-romanized-sorted": "Volapuk",
 	"wiki": {
-		"name": "Vükiped"
+		"name": "Vükiped",
+		"slogan": "Sikloped libik",
+		"entries": "yegeds"
 	},
 	"wiktionary": {
 		"name": "Vükivödabuk",
 		"slogan": "Vödabuk libik"
+	},
+	"wikibooks": {
+		"name": "Vükibuks",
+		"entries": "pads"
+	},
+	"wikinews": {
+		"name": "Vükinüns",
+		"entries": "yegeds"
+	},
+	"wikiquote": {
+		"name": "Vükisaitot",
+		"entries": "yegeds"
+	},
+	"wikisource": {
+		"name": "Vükifonät"
+	},
+	"wikiversity": {
+		"name": "Vükiniver"
 	}
 }

@@ -1,32 +1,48 @@
 {
-	"@metadata": [],
-	"language-name": "Türkçe",
-	"language-name-romanized-sorted": "Turkce",
+	"@metadata": {
+		"authors": [
+			"Alpkant",
+			"Ece Alpdeniz"
+		]
+	},
+	"language-name": "İngilizce",
+	"language-name-romanized-sorted": "İngilizce",
 	"wiki": {
 		"name": "Vikipedi",
 		"slogan": "Özgür Ansiklopedi",
-		"entries": "madde"
+		"entries": "girdiler"
 	},
 	"wiktionary": {
 		"name": "VikiSözlük",
 		"slogan": "Özgür Sözlük",
-		"entries": "madde"
+		"entries": "girdiler"
 	},
 	"wikibooks": {
 		"name": "Vikikitap",
-		"slogan": "Özgür kütüphane"
+		"slogan": "Özgür kütüphane",
+		"entries": "sayfalar"
 	},
 	"wikinews": {
 		"name": "Vikihaber",
-		"slogan": "Özgür haber kaynağı!"
+		"slogan": "Özgür haber kaynağı!",
+		"entries": "Makaleler"
 	},
 	"wikiquote": {
 		"name": "Vikisöz",
-		"slogan": "Alıntı koleksiyonu",
-		"entries": "sayfa mevcut"
+		"slogan": "Ücretsiz alıntı koleksiyonu",
+		"entries": "makaleler"
 	},
 	"wikisource": {
 		"name": "Vikikaynak",
-		"slogan": "Özgür Kütüphane"
+		"slogan": "Özgür kütüphane"
+	},
+	"wikiversity": {
+		"name": "Vikiversite",
+		"slogan": "Ücretsiz kurs materyalleri",
+		"entries": "öğrenme kaynakları"
+	},
+	"wikivoyage": {
+		"name": "Vikiyolculuğu",
+		"slogan": "Ücretsiz yolculuk rehberi"
 	}
 }

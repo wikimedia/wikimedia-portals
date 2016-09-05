@@ -1,0 +1,45 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nirajan pant"
+		]
+	},
+	"wiki": {
+		"name": "विकिपेडिया",
+		"slogan": "खुल्ला विश्वकोश",
+		"entries": "लेखअन"
+	},
+	"wiktionary": {
+		"name": "विकिस्नरी",
+		"slogan": "खुल्ला शब्दकोश",
+		"entries": "भितर्‍याउनी"
+	},
+	"wikibooks": {
+		"name": "विकीकिताप",
+		"slogan": "खुल्ला पड्ड्याकिताप",
+		"entries": "पन्नाअन"
+	},
+	"wikinews": {
+		"name": "विकीरैवार",
+		"slogan": "खुल्ला रैवार मूल",
+		"entries": "लेखअन"
+	},
+	"wikiquote": {
+		"name": "विकीउद्धरण",
+		"slogan": "नि:शुल्क उद्धरण संग्रह",
+		"entries": "लेखअन"
+	},
+	"wikisource": {
+		"name": "विकीमूल",
+		"slogan": "खुल्ला पुस्तकालय"
+	},
+	"wikiversity": {
+		"name": "विकीभर्सिटी",
+		"slogan": "खुल्ला कोर्स सरजाम",
+		"entries": "सिकाइ सामाग्रीइन"
+	},
+	"wikivoyage": {
+		"name": "विकिभोयाग",
+		"slogan": "खुल्ला घुमफिर पथप्रदर्शक"
+	}
+}

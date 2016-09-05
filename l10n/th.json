@@ -1,23 +1,42 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Pon44695"
+		]
+	},
 	"language-name": "ภาษาไทย",
 	"language-name-romanized": "Phasa Thai",
 	"language-name-romanized-sorted": "Thai, Phasa",
 	"wiki": {
 		"name": "วิกิพีเดีย",
-		"slogan": "สารานุกรมเสรี"
+		"slogan": "สารานุกรมเสรี",
+		"entries": "บทความ"
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
-		"slogan": "พจนานุกรมเนื้อหาเสรี"
+		"slogan": "พจนานุกรมเนื้อหาเสรี",
+		"entries": "ตำแหน่งเข้า"
 	},
 	"wikibooks": {
-		"name": "วิกิตำรา"
+		"name": "วิกิตำรา",
+		"slogan": "ตำราเรียนไม่มีค่าใช้จ่าย",
+		"entries": "หน้า"
+	},
+	"wikinews": {
+		"name": "วิกิข่าว",
+		"slogan": "แหล่งข่าวไม่มีค่าใช้จ่าย",
+		"entries": "บทความ"
 	},
 	"wikiquote": {
-		"name": "วิกิคำคม"
+		"name": "วิกิคำคม",
+		"slogan": "บทสรุปคำคมไม่มีค่าใช้จ่าย",
+		"entries": "บทความ"
 	},
 	"wikisource": {
-		"name": "วิกิซอร์ซ"
+		"name": "วิกิซอร์ซ",
+		"slogan": "ห้องสมุดไม่มีค่าใช้จ่าย"
+	},
+	"wikiversity": {
+		"name": "วิกิวิทยาลัย"
 	}
 }

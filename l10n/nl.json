@@ -1,31 +1,47 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Siebrand",
+			"Wikibelgiaan"
+		]
+	},
 	"language-name": "Nederlands",
 	"wiki": {
-		"name": "Wikipedie",
+		"name": "Wikipedia",
 		"slogan": "De vrije encyclopedie",
-		"entries": "artikelen"
+		"entries": "pagina's"
 	},
 	"wiktionary": {
 		"name": "WikiWoordenboek",
 		"slogan": "Het vrije woordenboek",
-		"entries": "artikelen"
+		"entries": "pagina's"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
-		"slogan": "Boeken en handleidingen",
-		"entries": "hoofdstukken"
+		"slogan": "Vrije leerboeken",
+		"entries": "modules"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Vrije nieuwsbron",
+		"entries": "artikelen"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
-		"slogan": "Het vrije citaten- en spreekwoordenarchief"
+		"slogan": "Vrije verzameling van citaten",
+		"entries": "pagina's"
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "De vrije bron"
+		"slogan": "De vrije bibliotheek"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Vrij cursusmateriaal",
+		"entries": "leermiddelen"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Reisgids"
+		"slogan": "Vrije, wereldwijde reisgids"
 	}
 }

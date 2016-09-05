@@ -1,24 +1,40 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"ElangoRamanujam",
+			"Minh Nguyen"
+		]
+	},
 	"language-name": "தமிழ்",
 	"language-name-romanized": "Tamiḻ",
 	"language-name-romanized-sorted": "Tamil",
 	"wiki": {
-		"name": "விக்கிப்பீடியா"
+		"name": "விக்கிப்பீடியா",
+		"entries": "கட்டுரைகள்"
 	},
 	"wiktionary": {
-		"name": "விக்சனரி"
+		"name": "விக்சனரி",
+		"slogan": "இலவச அகராதி",
+		"entries": "பதிவுகள்"
 	},
 	"wikibooks": {
-		"name": "விக்கிநூல்கள்"
+		"name": "விக்கிநூல்கள்",
+		"slogan": "இலவசப் பாடபுத்தகங்கள்",
+		"entries": "பக்கங்கள்"
 	},
 	"wikinews": {
-		"name": "விக்கிசெய்தி"
+		"name": "விக்கிசெய்தி",
+		"entries": "கட்டுரைகள்"
 	},
 	"wikiquote": {
-		"name": "விக்கிமேற்கோள்"
+		"name": "விக்கிமேற்கோள்",
+		"entries": "கட்டுரைகள்"
 	},
 	"wikisource": {
-		"name": "விக்கிமூலம்"
+		"name": "விக்கிமூலம்",
+		"slogan": "இலவச நூலகம்"
+	},
+	"wikiversity": {
+		"entries": "கற்கும் மூலங்கள்"
 	}
 }

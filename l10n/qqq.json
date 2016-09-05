@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Minh Nguyen"
 		]
 	},
-	"language-name": "The name of a language in its native script\n{{Identical|English}}",
-	"language-name-romanized": "For non-latin scripts, The Romanized version of a language name.\n{{Identical|English}}",
-	"language-name-romanized-sorted": "The romanized version of a language name, sorted in alphabetical, left-to-right order, without diacritics. For example, romanized Arabic is 'Arabiyah, Al' whereas the sorted romanized version is  'Al-ʿArabīyah'\n{{Identical|English}}",
+	"language-name": "The name of '''your''' language in its native script.\n\nIf a Wikimedia project in your language (such as your language’s Wikipedia) is written in more than one script, include all the scripts separated by <code>&nbsp;/&nbsp;</code>. For example, include all the scripts if MediaWiki automatically transliterates between them, or if there are many articles in each script, or if the main page features both scripts prominently.\n\n'''Important:''' Do not use your language’s word for “English”. Use the word that your language uses to refer to itself. If you translate this message to mean “English” in your language, your change will be reverted.\n{{Identical|English}}",
+	"language-name-romanized": "The '''romanized''' version of the name of '''your''' language. Do not translate this message if your language is written using a Latin alphabet.\n\n'''Important:''' Do not use your language’s word for “English”. Use the word that your language uses to refer to itself. If you translate this message to mean “English” in your language, your change will be reverted.\n\n'''Important:''' This message must be romanized – that is, it should use a Latin alphabet rather than your language’s usual script. If you change this message to a script other than Latin, your change will be reverted.\n{{Identical|English}}",
+	"language-name-romanized-sorted": "The romanized version of a language name, sorted in alphabetical, left-to-right order, without diacritics. For many languages, a grammatical article or the word for 'language' may normally appear before the language name; move this word to the end for sorting purposes. For example, romanized Arabic is 'Al-ʿArabīyah', whereas the sorted, romanized version is 'Arabiyah, Al'.\n\n'''Important:''' Do not use your language’s word for “English”. Use the word that your language uses to refer to itself. If you translate this message to mean “English” in your language, your change will be reverted.\n\n'''Important:''' This message must be romanized – that is, it should use a Latin alphabet, even if your language is usually written in a different script. If you change this message to a script other than Latin, your change will be reverted.\n\n'''Important:''' This message should be in ASCII if possible. It also should not begin with a word meaning “the” or “language”.\n{{Identical|English}}",
 	"wiki": {
 		"name": "Label for Wikipedia\n{{Identical|Wikipedia}}",
 		"slogan": "The Wikipedia slogan",

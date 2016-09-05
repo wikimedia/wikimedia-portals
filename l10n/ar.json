@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"بدارين"
+			"بدارين",
+			"Meno25",
+			"Minh Nguyen",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"language-name": "الإنجليزية",
-	"language-name-romanized": "الإنجليزية",
-	"language-name-romanized-sorted": "الإنجليزية",
+	"language-name-romanized": "Al-ʿArabīyah",
+	"language-name-romanized-sorted": "Arabiyah, Al",
 	"wiki": {
 		"name": "ويكيبيديا",
 		"slogan": " الموسوعة الحرة",
@@ -14,7 +17,7 @@
 	},
 	"wiktionary": {
 		"name": "ويكاموس",
-		"slogan": "القاموس الحر"
+		"slogan": "قاموس حر"
 	},
 	"wikibooks": {
 		"name": "ويكي_الكتب"
@@ -30,7 +33,7 @@
 	},
 	"wikiversity": {
 		"name": "ويكي الجامعة",
-		"slogan": "أدوات التعلّم",
-		"entries": "مقالا"
+		"slogan": "المواد الدراسية المجانية",
+		"entries": "مصادر التعلم"
 	}
 }

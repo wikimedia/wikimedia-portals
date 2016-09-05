@@ -1,11 +1,47 @@
 {
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
 	"language-name": "پښتو",
 	"language-name-romanized": "Paʂto",
 	"language-name-romanized-sorted": "Pasto",
 	"wiki": {
-		"name": "ويکيپېډيا"
+		"name": "ويکيپېډيا",
+		"slogan": "يو وړيا پوهنغونډ",
+		"entries": "ليکنې"
 	},
 	"wiktionary": {
-		"name": "ويکيسيند"
+		"name": "ويکيسيند",
+		"slogan": "وړيا سيند"
+	},
+	"wikibooks": {
+		"name": "ويکيتابونه",
+		"slogan": "وړيا درسي کتابونه",
+		"entries": "مخونه"
+	},
+	"wikinews": {
+		"name": "ويکيخبرونه",
+		"slogan": "د وړيا سرچينې خبرونه",
+		"entries": "ليکنې"
+	},
+	"wikiquote": {
+		"name": "ويکيوراشه",
+		"slogan": "د وړيا وراشو ټولگه",
+		"entries": "ليکنې"
+	},
+	"wikisource": {
+		"name": "ويکيسرچينه",
+		"slogan": "وړيا کتابتون"
+	},
+	"wikiversity": {
+		"name": "ويکيپوهنتون",
+		"slogan": "د وړيا کورسونو توکي",
+		"entries": "د زده کړو سرچينې"
+	},
+	"wikivoyage": {
+		"name": "ويکييون",
+		"slogan": "د سفرونو وړيا لارښود"
 	}
 }

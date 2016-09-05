@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kumkumuk"
+			"Kumkumuk",
+			"Mirzali"
 		]
 	},
 	"language-name": "Zazaki",
 	"wiki": {
-		"name": "Wikipedia",
+		"name": "Wikipediya",
 		"slogan": "Ansiklopediya Xoser",
 		"entries": "wesiqey"
 	},
@@ -18,10 +19,10 @@
 	"wikibooks": {
 		"name": "Wikikıtabi",
 		"slogan": "Kıtabxaneyo Xoser",
-		"entries": "Peri"
+		"entries": "peli"
 	},
 	"wikinews": {
-		"name": "Wikixeber",
+		"name": "Wikixebere",
 		"slogan": "Çımey Xeberanê Xosera",
 		"entries": "Wesiqey"
 	},
