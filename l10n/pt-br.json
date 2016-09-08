@@ -1,0 +1,45 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cristofer Alves"
+		]
+	},
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "A Enciclopédia Livre",
+		"entries": "artigos"
+	},
+	"wiktionary": {
+		"name": "Wikcionário",
+		"slogan": "O dicionário livre",
+		"entries": "Entradas"
+	},
+	"wikibooks": {
+		"name": "Wikilivros",
+		"slogan": "Livros didáticos gratuitos",
+		"entries": "páginas"
+	},
+	"wikinews": {
+		"name": "Wikinotícias",
+		"slogan": "A fonte de notícias",
+		"entries": "artigos"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Coletânea de citações livres",
+		"entries": "artigos"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "a biblioteca livre"
+	},
+	"wikiversity": {
+		"name": "Wikiversidade",
+		"slogan": "Materiais livres para cursos",
+		"entries": "recursos de aprendizagem"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "O guia de viagens livre"
+	}
+}
