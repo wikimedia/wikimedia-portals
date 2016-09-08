@@ -5,3 +5,4 @@ node_modules
 cache
 dev/wikipedia.org/index.html
 dev/wikipedia.org/assets/l10n/*
+build/config.gypi

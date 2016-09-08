@@ -15,7 +15,7 @@
 	portalSchema = {
 		name: 'WikipediaPortal',
 		// revision # from https://meta.wikimedia.org/wiki/Schema:WikipediaPortal
-		revision: 14377354,
+		revision: 15890769,
 		defaults: {
 			session_id: wmTest.sessionId,
 			event_type: 'landing',
@@ -33,7 +33,8 @@
 				required: true,
 				'enum': [
 					'landing',
-					'clickthrough'
+					'clickthrough',
+					'select-language'
 				]
 			},
 			section_used: {
@@ -65,6 +66,10 @@
 				required: true
 			},
 			cohort: {
+				type: 'string',
+				required: false
+			},
+			selected_language: {
 				type: 'string',
 				required: false
 			}
@@ -161,9 +166,40 @@
 				section_used: findEventSection( anchor, eventSections )
 			};
 
+			if ( eventData.section_used === 'search' ) {
+				eventData.selected_language = document.getElementById( 'searchLanguage' ).options[ document.getElementById( 'searchLanguage' ).selectedIndex ].lang;
+			}
+
 			if ( eventData.section_used ) {
 				eventLoggingLite.logEvent( portalSchema, eventData );
 			}
+		}
+
+	}
+
+	/**
+	 * Document change event handler. Intercepts all document change events (e.g.
+	 * search box's language selector.
+	 */
+	function interceptChange( e ) {
+		var event = e || window.event,
+			target = event.target || event.srcElement;
+
+		if ( target.id === 'searchLanguage' ) {
+
+			if ( target.selectedIndex === -1 ) {
+				return null;
+			}
+
+			eventData = {
+				event_type: 'select-language',
+				selected_language: target.options[ target.selectedIndex ].lang
+			};
+
+			if ( eventData.selected_language ) {
+				eventLoggingLite.logEvent( portalSchema, eventData );
+			}
+
 		}
 	}
 
@@ -183,6 +219,10 @@
 			};
 		}
 
+		if ( eventData.section_used === 'search' ) {
+			eventData.selected_language = document.getElementById( 'searchLanguage' ).options[ document.getElementById( 'searchLanguage' ).selectedIndex ].lang;
+		}
+
 		if ( eventData.section_used ) {
 			eventLoggingLite.logEvent( portalSchema, eventData );
 		}
@@ -192,6 +232,7 @@
 	 * adding event listeners to DOM load, document click, and forms
 	 */
 	addEvent( document, 'click', interceptClick );
+	addEvent( document, 'change', interceptChange );
 
 	docForms = document.getElementsByTagName( 'form' );
 
