@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"Gnom"
 		]
 	},
 	"language-name": "Deutsch",
@@ -17,8 +18,8 @@
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
-		"slogan": "Inhaltsoffene Lehrbücher",
-		"entries": "Seiten"
+		"slogan": "Die freie Bibliothek",
+		"entries": "Kapitel"
 	},
 	"wikinews": {
 		"name": "Wikinews",
@@ -36,7 +37,7 @@
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
-		"slogan": "Lernen und Lehren",
+		"slogan": "Freie Lehr- und Lernmaterialien",
 		"entries": "Seiten"
 	},
 	"wikivoyage": {

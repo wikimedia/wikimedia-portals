@@ -1,7 +1,47 @@
 {
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
 	"language-name": "Líguru",
 	"language-name-romanized-sorted": "Liguru",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "L’enciclopedia libera",
+		"entries": "voxe"
+	},
+	"wiktionary": {
+		"name": "Wikibolaio",
+		"slogan": "O diçionaio libero",
+		"entries": "lemmi"
+	},
+	"wikibooks": {
+		"name": "Wikilibbri",
+		"slogan": "Manoali e libbri de testo liberi",
+		"entries": "paggine"
+	},
+	"wikinews": {
+		"name": "Wikinoeuve",
+		"slogan": "A fonte de notiçie libera",
+		"entries": "voxe"
+	},
+	"wikiquote": {
+		"name": "Wikiçitaçion",
+		"slogan": "Libero compendio de çitaçioin",
+		"entries": "voxe"
+	},
+	"wikisource": {
+		"name": "Wikivivagna",
+		"slogan": "A biblioteca libera"
+	},
+	"wikiversity": {
+		"name": "Wikiverscitæ",
+		"slogan": "L’universcitæ libera",
+		"entries": "leçioin"
+	},
+	"wikivoyage": {
+		"name": "Wikiviægio",
+		"slogan": "Guidda turistega libera"
 	}
 }
