@@ -2,7 +2,9 @@
   "language-name": "English",
   "language-name-romanized": "English",
   "language-name-romanized-sorted": "English",
-	"wiki": {
+  "language-button-text": "Read Wikipedia in your language",
+  "footer-description": "Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.",
+  "wiki": {
 		"name": "Wikipedia",
 		"slogan": "The Free Encyclopedia",
 		"entries": "articles"
@@ -29,7 +31,7 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-        "slogan": "Free library"
+		"slogan": "Free library"
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
@@ -39,5 +41,25 @@
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "Free travel guide"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Freely usable photos & more"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Free species directory"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Free knowledge base"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Free & open wiki application"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Community coordination & documentation"
 	}
 }
