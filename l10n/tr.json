@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Alpkant",
-			"Ece Alpdeniz"
+			"Ece Alpdeniz",
+			"Jandre3000"
 		]
 	},
-  "language-name": "Türkçe",
-  "language-name-romanized-sorted": "Turkce",
+	"language-name": "Türkçe",
+	"language-name-romanized": "Turkce",
+	"language-name-romanized-sorted": "Turkce",
 	"wiki": {
 		"name": "Vikipedi",
 		"slogan": "Özgür Ansiklopedi",
