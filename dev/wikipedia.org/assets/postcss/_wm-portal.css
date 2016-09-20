@@ -20,11 +20,11 @@ a:focus {
     unicode-bidi: embed;
     white-space: nowrap;
     outline: 0;
-    color: var( --c-primary );
+    color: var( --color-primary );
     text-decoration: none;
 }
 a:focus {
-    outline: 1px solid var( --c-primary );
+    outline: 1px solid var( --color-primary );
 }
 
 a:hover {
