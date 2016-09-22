@@ -1,0 +1,45 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Den frie encyklopedi",
+		"entries": "artikler"
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Fri ordbok",
+		"entries": "oppslag"
+	},
+	"wikibooks": {
+		"name": "Wikibøker",
+		"slogan": "Frie lærebøker",
+		"entries": "sider"
+	},
+	"wikinews": {
+		"name": "Wikinytt",
+		"slogan": "Fri nyhetskilde",
+		"entries": "artikler"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Fri sitatsamling",
+		"entries": "artikler"
+	},
+	"wikisource": {
+		"name": "Wikikilden",
+		"slogan": "Fritt bibliotek"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Fritt kursmateriale",
+		"entries": "læringsressurser"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Fri reisegaid"
+	}
+}
