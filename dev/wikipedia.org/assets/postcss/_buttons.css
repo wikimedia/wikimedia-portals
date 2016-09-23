@@ -22,14 +22,14 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     box-sizing: border-box;
 
     /* from OOjs UI */
-    background-color: #fff;
-    color: #555;
+    background-color: var( --background-color-framed );
+    color: var( --color-base );
     position: relative;
     min-height: 1.2em;
     min-width: 1em;
     margin: 0.1em 0;
-    border: 1px solid #cdcdcd;
-    border-radius: 2px;
+    border: var( --border-base );
+    border-radius: var( --border-radius-base );
     padding: 0.5em 1em;
     font-family: inherit;
     font-size: inherit;
@@ -47,18 +47,20 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 .pure-button-hover,
 .pure-button:hover {
-    background-color: #ebebeb;
-    outline: 0;
-}
-.pure-button:focus {
-    outline: 0;
-    box-shadow: inset 0 0 0 1px rgba( 0, 0, 0, 0.2 );
+    background-color: var( --background-color-framed-hover );
+    color: var( --color-base-hover );
+    border-color: var( --border-color-base-hover );
 }
 .pure-button-active,
 .pure-button:active {
     background-color: #d9d9d9;
-    border-color: #d9d9d9;
-    box-shadow: none;
+    color: var( --color-base-active );
+    border-color: var( --border-color-base-active );
+}
+.pure-button:focus {
+    border-color: var( --color-primary-focus );
+    box-shadow: var( --box-shadow-base-focus );
+    outline: 0;
 }
 
 .pure-button[disabled],
@@ -98,7 +100,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 /*.pure-button-selected,*/
 /*a.pure-button-primary,*/
 /*a.pure-button-selected {*/
-    /*background-color: var( --c-primary );*/
+    /*background-color: var( --color-primary );*/
     /*color: #fff;*/
 /*}*/
 
@@ -106,50 +108,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     color: #fff;
 }
 
-/* Constructive Buttons */
-.pure-button-constructive {
-    color: #00af89;
-}
-.pure-button-constructive:hover {
-    background-color: #00af89;
-    background-color: rgba( 0, 171, 137, 0.1 );
-    border-color: #00af89;
-    border-color: #00af89 rgba( 0, 89, 70, 0.5 );
-}
-.pure-button-constructive:active {
-    color: #005946;
-    border-color: #005946;
-    box-shadow: none;
-}
-.pure-button-constructive:focus {
-    box-shadow: inset 0 0 0 1px #005946;
-    border-color: #005946;
-}
-
-.pure-button-primary-constructive {
-    color: #fff;
-    background-color: #00af89;
-    border-color: #00af89;
-}
-.pure-button-primary-constructive:hover {
-    background: #008064;
-    border-color: #008064;
-}
-.pure-button-primary-constructive:active {
-    color: #fff;
-    background-color: #005946;
-    border-color: #005946;
-    box-shadow: none;
-
-}
-.pure-button-primary-constructive:focus {
-    box-shadow: inset 0 0 0 1px #fff;
-    border-color: #00af89;
-}
-
 /* Destructive Buttons */
 .pure-button-destructive {
-    color: #d11d13;
+    color: var( --color-destructive );
 }
 .pure-button-destructive:hover {
     background-color: #73100a;
@@ -158,72 +119,72 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     border-color: rgba( 115, 16, 10, 0.5 );
 }
 .pure-button-destructive:active {
-    color: #73100a;
-    border-color: #73100a;
+    color: #873636;
+    border-color: #873636;
     box-shadow: none;
 }
 .pure-button-destructive:focus {
-    box-shadow: inset 0 0 0 1px #73100a;
-    border-color: #73100a;
+    box-shadow: inset 0 0 0 1px var( --color-destructive );
+    border-color: var( --color-destructive );
 }
 
 .pure-button-primary-destructive {
-    color: #fff;
-    background-color: #d11d13;
-    border-color: #d11d13;
+    color: var( --color-base-contrast );
+    background-color: var( --color-destructive );
+    border-color: var( --color-destructive );
 }
 .pure-button-primary-destructive:hover {
-    background: #8c130d;
-    border-color: #8c130d;
+    background: #e53939;
+    border-color: #e53939;
 }
 .pure-button-primary-destructive:active {
-    color: #fff;
+    color: var( --color-base-contrast );
     background-color: #73100a;
     border-color: #73100a;
     box-shadow: none;
-
 }
 .pure-button-primary-destructive:focus {
-    box-shadow: inset 0 0 0 1px #fff;
-    border-color: #d11d13;
+    box-shadow: inset 0 0 0 1px var( --color-base-contrast );
+    border-color: var( --color-destructive );
 }
 
+/* Primary Progressive Buttons */
 .pure-button-progressive {
-    color: var( --c-primary );
+    color: var( --color-primary );
 }
 .pure-button-progressive:hover {
-    background-color: var( --c-primary-hover );
-    border-color: var( --c-primary-hover );
+    background-color: var( --color-primary-hover );
+    border-color: var( --color-primary-hover );
 }
 .pure-button-progressive:active {
-    color: var( --c-primary-active );
-    border-color: var( --c-primary-active );
+    color: var( --color-primary-active );
+    border-color: var( --color-primary-active );
     box-shadow: none;
 }
 .pure-button-progressive:focus {
-    box-shadow: inset 0 0 0 1px var( --c-primary-focus );
-    border-color: var( --c-primary-focus );
+    box-shadow: inset 0 0 0 1px var( --color-primary-focus );
+    border-color: var( --color-primary-focus );
 }
 
 .pure-button-primary-progressive {
-    background-color: var( --c-primary );
-    border-color: var( --c-primary );
-    color: #fff;
+    background-color: var( --color-primary );
+    border-color: var( --color-primary );
+    color: var( --color-base-contrast );
 }
 .pure-button-primary-progressive:hover {
-    background: var( --c-primary-hover );
-    border-color: var( --c-primary-hover );
+    background: var( --color-primary-hover );
+    border-color: var( --color-primary-hover );
 }
 .pure-button-primary-progressive:active {
-    color: #fff;
-    background-color: var( --c-primary-active );
-    border-color: var( --c-primary-active );
+    color: var( --color-base-contrast );
+    background-color: var( --color-primary-active );
+    border-color: var( --color-primary-active );
     box-shadow: none;
 
 }
 .pure-button-primary-progressive:focus {
     box-shadow: inset 0 0 0 1px #fff;
-    border-color: var( --c-primary-focus );
+    border-color: var( --color-primary-focus );
 }
 
 .button-xsmall {

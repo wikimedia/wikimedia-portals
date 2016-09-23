@@ -131,7 +131,7 @@
     height: 100%;
     position: absolute;
     z-index: 0;
-    outline: 1px solid var( --c-primary-focus );
+    outline: 1px solid var( --color-primary-focus );
     top: 0;
     left: 0;
 }
