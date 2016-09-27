@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Otokoume"
+		]
+	},
 	"language-name": "日本語",
 	"language-name-romanized": "Nihongo",
 	"wiki": {
@@ -29,5 +33,14 @@
 	},
 	"wikiversity": {
 		"name": "ウィキバーシティ"
+	},
+	"wikidata": {
+		"name": "ウィキデータ"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "メタウィキ"
 	}
 }

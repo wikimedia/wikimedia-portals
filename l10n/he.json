@@ -7,6 +7,8 @@
 	"language-name": "עברית",
 	"language-name-romanized": "ʿIvrit",
 	"language-name-romanized-sorted": "Ivrit",
+	"language-button-text": "לקרוא את ויקיפדיה בשפה שלך",
+	"footer-description": "ויקיפדיה מתארחת בקרן ויקימדיה, מוסד ללא כוונת רווח שמארח עוד מספר מיזמים.",
 	"wiki": {
 		"name": "ויקיפדיה",
 		"slogan": "האנציקלופדיה החופשית",
@@ -44,5 +46,25 @@
 	"wikivoyage": {
 		"name": "ויקימסע",
 		"slogan": "מדריך הטיולים החופשי"
+	},
+	"commons": {
+		"name": "ויקישיתוף",
+		"slogan": "תמונות לשימוש חופשי ועוד"
+	},
+	"wikispecies": {
+		"name": "ויקימינים",
+		"slogan": "מדריך מינים חופשי"
+	},
+	"wikidata": {
+		"name": "ויקינתונים",
+		"slogan": "מסד ידע חופשי"
+	},
+	"mediawiki": {
+		"name": "מדיה־ויקי",
+		"slogan": "יישום ויקי חופשי ופתוח"
+	},
+	"metawiki": {
+		"name": "מטא־ויקי",
+		"slogan": "תיאום ותיעוד קהילתי"
 	}
 }

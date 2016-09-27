@@ -7,6 +7,8 @@
 	"language-name": "Українська",
 	"language-name-romanized": "Ukrayins’ka",
 	"language-name-romanized-sorted": "Ukrayinska",
+	"language-button-text": "Читайте Вікіпедію своєю мовою",
+	"footer-description": "Вікіпедія перебуває на серверах Фонду Вікімедіа — неприбуткової організації, що також опікується рядом інших проектів.",
 	"wiki": {
 		"name": "Вікіпедія",
 		"slogan": "Вільна енциклопедія",
@@ -44,5 +46,25 @@
 	"wikivoyage": {
 		"name": "Вікімандри",
 		"slogan": "Туристичний Путівник"
+	},
+	"commons": {
+		"name": "Вікісховище",
+		"slogan": "Вільно використовувані фото та інше"
+	},
+	"wikispecies": {
+		"name": "Віківиди",
+		"slogan": "Вільний каталог видів"
+	},
+	"wikidata": {
+		"name": "Вікідані",
+		"slogan": "Вільна база знань"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Вільне й відкрите програмне забезпечення вікі"
+	},
+	"metawiki": {
+		"name": "Мета-вікі",
+		"slogan": "Координація спільноти і документація"
 	}
 }

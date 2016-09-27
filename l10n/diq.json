@@ -7,6 +7,8 @@
 		]
 	},
 	"language-name": "Zazaki",
+	"language-button-text": "Wikipediyay zıwan dê xod bıwan",
+	"footer-description": "Wikipedia, weqıf da wikimedia dı darêna, zey ê organizasyonanê proceyanê binan",
 	"wiki": {
 		"name": "Wikipediya",
 		"slogan": "Ansiklopediya Xoser",
@@ -44,5 +46,25 @@
 	"wikivoyage": {
 		"name": "Wikigeyrayış",
 		"slogan": "Xoser rehberê geyrayışi"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Serbest istifedeyın resimi &  vêşi"
+	},
+	"wikispecies": {
+		"name": "Wikibabet",
+		"slogan": "Xoser rehbera tewran"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Xoser baz zanışeyıye"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Xoser u Akerde dezgey wiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Koordinasyon &  dokumantasyona şêlıgi"
 	}
 }

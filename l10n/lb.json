@@ -6,6 +6,8 @@
 	},
 	"language-name": "Lëtzebuergesch",
 	"language-name-romanized-sorted": "Letzebuergesch",
+	"language-button-text": "Liest Wikipedia an Ärer Sprooch",
+	"footer-description": "Wikipedia ass op de Servere vun der Wikimedia Foundation, enger Organisatioun ouni Gewënnzweck déi och fir eng Rei vun anere Projeten hier Serveren zur Verfügung stellt.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Déi fräi Enzyklopedie",
@@ -43,5 +45,25 @@
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "Fräie Reesguide"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Fräi benotzbar Fotoen a méi"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Fräi Lëscht vun den Aarten"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Fräi Wëssensdatebank"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Fräi an oppe Wiki-Applikatioun"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Koordinatioun vun der Communautéit an Dokumentatioun"
 	}
 }

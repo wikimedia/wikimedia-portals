@@ -6,6 +6,7 @@
 	},
 	"language-name": "한국어",
 	"language-name-romanized": "Hangugeo",
+	"language-button-text": "당신의 언어로 위키백과 읽기",
 	"wiki": {
 		"name": "위키백과",
 		"slogan": "우리 모두의 백과사전",
@@ -37,5 +38,20 @@
 	},
 	"wikivoyage": {
 		"name": "위키여행"
+	},
+	"commons": {
+		"name": "공용"
+	},
+	"wikispecies": {
+		"name": "위키스피시즈"
+	},
+	"wikidata": {
+		"name": "위키데이터"
+	},
+	"mediawiki": {
+		"name": "미디어위키"
+	},
+	"metawiki": {
+		"name": "메타위키"
 	}
 }

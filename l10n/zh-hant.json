@@ -8,6 +8,8 @@
 	"language-name": "繁體中文",
 	"language-name-romanized": "Fán Tǐ Zhōng Wén",
 	"language-name-romanized-sorted": "Fantizhongwen",
+	"language-button-text": "在您的語言中閱讀維基百科",
+	"footer-description": "維基百科是由非營利的維基媒體基金會所管理，並且還包含著其它項目。",
 	"wiki": {
 		"name": "維基百科",
 		"slogan": "自由的百科全書",
@@ -45,5 +47,25 @@
 	"wikivoyage": {
 		"name": "維基導遊",
 		"slogan": "自由的旅行指南"
+	},
+	"commons": {
+		"name": "共享資源",
+		"slogan": "自由使用的照片及更多內容"
+	},
+	"wikispecies": {
+		"name": "維基物種",
+		"slogan": "自由的物種名錄"
+	},
+	"wikidata": {
+		"name": "維基數據",
+		"slogan": "自由的知識庫"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "自由與開放的wiki應用程序"
+	},
+	"metawiki": {
+		"name": "元維基",
+		"slogan": "社群協調與文件檔"
 	}
 }

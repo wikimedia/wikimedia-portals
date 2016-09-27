@@ -7,6 +7,7 @@
 	},
 	"language-name": "मराठी",
 	"language-name-romanized": "Marathi",
+	"language-button-text": "विकिपीडिया आपल्या भाषेत वाचा",
 	"wiki": {
 		"name": "विकिपीडिया",
 		"slogan": "एक मुक्त ज्ञानकोश",
@@ -41,5 +42,20 @@
 	"wikivoyage": {
 		"name": "विकिपर्यटन",
 		"slogan": "मुक्त प्रवासी मार्गदर्शक"
+	},
+	"commons": {
+		"name": "कॉमन्स"
+	},
+	"wikispecies": {
+		"name": "विकिस्पेशिज्"
+	},
+	"wikidata": {
+		"name": "विकिडाटा"
+	},
+	"mediawiki": {
+		"name": "मीडियाविकी"
+	},
+	"metawiki": {
+		"name": "मेटा-विकि"
 	}
 }

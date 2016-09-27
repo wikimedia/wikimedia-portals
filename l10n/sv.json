@@ -7,6 +7,8 @@
 		]
 	},
 	"language-name": "Svenska",
+	"language-button-text": "Läs Wikipedia på ditt språk",
+	"footer-description": "Wikipedia drivs av Wikimedia Foundation, en ideell organisation som också driver en rad andra projekt.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Den fria encyklopedin",
@@ -44,5 +46,21 @@
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "Den fria reseguiden"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Fri kunskapsdatabas"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }

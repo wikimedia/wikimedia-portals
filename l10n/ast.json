@@ -5,6 +5,8 @@
 		]
 	},
 	"language-name": "Asturianu",
+	"language-button-text": "Llei Wikipedia na to llingua",
+	"footer-description": "Wikipedia ta agospiada pola Fundación Wikimedia, una organización sin ánimu de lucru que tamién agospia dellos proyeutos más.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "La Enciclopedia Llibre",
@@ -42,5 +44,25 @@
 	"wikivoyage": {
 		"name": "Wikiviaxes",
 		"slogan": "Guía de viaxes llibre"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Fotos usables de forma llibre y más"
+	},
+	"wikispecies": {
+		"name": "Wikiespecies",
+		"slogan": "Direutoriu d'especies llibre"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Base de conocencia llibre"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Aplicación wiki llibre y abierta"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Coordinación y documentación de la comunidá"
 	}
 }

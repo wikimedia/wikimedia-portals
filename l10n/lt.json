@@ -7,6 +7,8 @@
 	},
 	"language-name": "Lietuvių",
 	"language-name-romanized-sorted": "Lietuviu",
+	"language-button-text": "Skaityti Vikipedija savo kalba",
+	"footer-description": "Vikipedija yra talpinama Vikimedia Fondo, nepelno organizacijos, kuri taip pat talpina įvairius kitus projektus.",
 	"wiki": {
 		"name": "Vikipedija",
 		"slogan": "Laisvoji enciklopedija",
@@ -19,10 +21,12 @@
 	},
 	"wikibooks": {
 		"name": "Vikiknygos",
+		"slogan": "Nemokami vadovėliai",
 		"entries": "puslapiai"
 	},
 	"wikinews": {
 		"name": "Vikinaujienos",
+		"slogan": "Nemokamas naujienų šaltinis",
 		"entries": "straipsniai"
 	},
 	"wikiquote": {
@@ -31,12 +35,36 @@
 		"entries": "straipsniai"
 	},
 	"wikisource": {
-		"name": "Vikišaltiniai"
+		"name": "Vikišaltiniai",
+		"slogan": "Nemokama biblioteka"
 	},
 	"wikiversity": {
+		"name": "Vikiversitetas",
+		"slogan": "Nemokama kursų medžiaga",
 		"entries": "mokymosi ištekliai"
 	},
 	"wikivoyage": {
-		"name": "Vikikelionės"
+		"name": "Vikikelionės",
+		"slogan": "Nemokamas kelionių gidas"
+	},
+	"commons": {
+		"name": "Vikiteka",
+		"slogan": "Laisvai naudojamos nuotraukos ir daugiau"
+	},
+	"wikispecies": {
+		"name": "Vikirūšys",
+		"slogan": "Nemokamas rūšių katalogas"
+	},
+	"wikidata": {
+		"name": "Vikidata",
+		"slogan": "Nemokama žinių bazė"
+	},
+	"mediawiki": {
+		"name": "MediaViki",
+		"slogan": "Nemokama ir atvira viki programinė įranga"
+	},
+	"metawiki": {
+		"name": "Meta-viki",
+		"slogan": "Bendruomenės koordinavimas ir dokumentacija"
 	}
 }

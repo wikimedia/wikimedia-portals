@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nemo bis"
+			"Nemo bis",
+			"Beta16"
 		]
 	},
 	"language-name": "Italiano",
+	"language-button-text": "Leggi Wikipedia nella tua lingua",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "L’enciclopedia libera",
@@ -42,5 +44,21 @@
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "Guida turistica"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Database di conoscenza libera"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }

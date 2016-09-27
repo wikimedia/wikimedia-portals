@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
 	"language-name": "Polski",
 	"wiki": {
 		"name": "Wikipedia",
@@ -32,5 +36,20 @@
 	"wikivoyage": {
 		"name": "Wikipodróże",
 		"slogan": "Przewodnik Turystyczny"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "Wikidane"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }

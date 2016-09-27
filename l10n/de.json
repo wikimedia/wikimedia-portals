@@ -6,6 +6,8 @@
 		]
 	},
 	"language-name": "Deutsch",
+	"language-button-text": "Wikipedia in deiner Sprache lesen",
+	"footer-description": "Wikipedia wird gehostet von der Wikimedia Foundation, einer Non-Profit-Organisation, die auch eine Reihe anderer Projekte betreibt.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Die freie Enzyklopädie",
@@ -43,5 +45,25 @@
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "Reiseführer"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Frei verwendbare Fotos und mehr"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Freies Artenverzeichnis"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Freie Wissensdatenbank"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Freie und offene Wikianwendung"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Gemeinschaftskoordination und Dokumentation"
 	}
 }

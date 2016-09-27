@@ -4,6 +4,8 @@
 			"Jon Harald Søby"
 		]
 	},
+	"language-button-text": "Les Wikipedia på ditt språk",
+	"footer-description": "Wikipedia støttes av Wikimedia Foundation, en ideell organisasjon som også støtter en rekke andre prosjekter.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Den frie encyklopedi",
@@ -41,5 +43,25 @@
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "Fri reisegaid"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Bilder og mer til fri bruk"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Artsdatabase til fri bruk"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Kunnskapsdatabase til fri bruk"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Fri og åpen wikiprogramvare"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Koordinerings- og dokumentasjonssenter"
 	}
 }
