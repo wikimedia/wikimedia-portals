@@ -6,6 +6,8 @@
 	},
 	"language-name": "Tiếng Việt",
 	"language-name-romanized-sorted": "Viet, Tieng",
+	"language-button-text": "Đọc Wikipedia trong ngôn ngữ của bạn",
+	"footer-description": "Wikipedia trực thuộc tổ chức phi lợi nhuận Quỹ Wikimedia. Wikimedia cũng đồng thời điều hành nhiều dự án khác.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Bách khoa toàn thư mở",
@@ -13,7 +15,7 @@
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
-		"slogan": "từ điển mở",
+		"slogan": "Từ điển mở",
 		"entries": "mục từ"
 	},
 	"wikibooks": {
@@ -28,7 +30,7 @@
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
-		"slogan": "Bộ sưu tập danh ngôn mở",
+		"slogan": "Bộ sưu tập danh ngôn",
 		"entries": "bài viết"
 	},
 	"wikisource": {
@@ -42,6 +44,26 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Cẩm nang du lịch"
+		"slogan": "Cẩm nang du lịch mở"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Kho tư liệu chung"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Danh mục các loài"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Cơ sở kiến thức chung"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Ứng dụng wiki nguồn mở"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Cộng đồng Wikimedia"
 	}
 }

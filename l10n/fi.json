@@ -1,6 +1,12 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
 	"language-name": "Suomi",
+	"language-button-text": "Lue Wikipediaa omalla kielelläsi",
+	"footer-description": "Wikipediaa ylläpitää Wikimedia Foundation, voittoa tavoittelematon organisaatio joka myös ylläpitää erilaisia muita projekteja.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Vapaa tietosanakirja",
@@ -12,21 +18,38 @@
 	},
 	"wikibooks": {
 		"name": "Wikikirjasto",
-		"slogan": "Vapaa tietokirjasto"
+		"slogan": "Vapaa tietokirjasto",
+		"entries": "sivut"
 	},
 	"wikinews": {
-		"name": "Wikiuutiset"
+		"name": "Wikiuutiset",
+		"slogan": "Vapaa uutislähde",
+		"entries": "artikkelit"
 	},
 	"wikiquote": {
 		"name": "Wikisitaatit",
-		"slogan": "Vapaa sitaattikokoelma"
+		"slogan": "Vapaa sitaattikokoelma",
+		"entries": "artikkelit"
 	},
 	"wikisource": {
-		"name": "Wikiaineisto"
+		"name": "Wikiaineisto",
+		"slogan": "Vapaa kirjasto"
 	},
 	"wikiversity": {
 		"name": "Wikiopisto",
 		"slogan": "Vapaa oppimisympäristö",
 		"entries": "artikkelia"
+	},
+	"wikivoyage": {
+		"slogan": "Vapaa matkaopas"
+	},
+	"wikispecies": {
+		"slogan": "Vapaa lajihakemisto"
+	},
+	"mediawiki": {
+		"slogan": "Ilmainen & avoin wikisovellus"
+	},
+	"metawiki": {
+		"slogan": "Yhteisön koordinointi ja dokumentointi"
 	}
 }
