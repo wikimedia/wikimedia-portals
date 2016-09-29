@@ -11,6 +11,7 @@ var gulp = require( 'gulp' ),
 	imageminZopfli = require( 'imagemin-zopfli' ),
 	siteStats = require( './data/site-stats' ),
 	fs = require( 'fs' ),
+	exec = require( 'child_process' ).exec,
 	sprity = require( 'sprity' ),
 	postCSSNext = require( 'postcss-cssnext' ),
 	postCSSImport = require( 'postcss-import' ),
@@ -103,7 +104,7 @@ getConfig = function () {
 			compatibility: 'ie7',
 			keepSpecialComments: '0'
 		};
-		return plugins.minifyCss.call( this, options );
+		return plugins.cleanCss.call( this, options );
 	};
 
 	config.inline = {
@@ -341,21 +342,11 @@ gulp.task( 'fetch-meta', function () {
 		var portalsFromMeta = [ 'wikibooks.org', 'wikimedia.org', 'wikinews.org', 'wikiquote.org', 'wikiversity.org', 'wikivoyage.org', 'wiktionary.org' ];
 
 		portalsFromMeta.forEach( function ( wiki ) {
-			plugins.downloader( {
-				fileName: 'index.html',
-				request: {
-					url: 'https://meta.wikimedia.org/w/index.php?title=Www.' + wiki + '_template&action=raw'
-				}
-			} ).pipe( gulp.dest( 'prod/' + wiki + '/' ) );
+			exec( ' curl -Lo prod/' + wiki + '/index.html  "https://meta.wikimedia.org/w/index.php?title=Www.' + wiki + '_template&action=raw" ' );
 		} );
 
 	} else {
-		plugins.downloader( {
-			fileName: 'index.html',
-			request: {
-				url: 'https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw'
-			}
-		} ).pipe( gulp.dest( getProdDir() ) );
+		exec( ' curl -Lo ' + getProdDir() + 'index.html  "https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw" ' );
 	}
 
 } );
