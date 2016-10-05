@@ -47,18 +47,18 @@
 }
 
 .sprite-project-logos {
-  background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos.png?9afc01c5efe0a8fb6512c776955e2ad3eb48fbca');
+  background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos.png?05cee9edffc98f2ddb8094269aee09b58ca5e52b');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .sprite-project-logos {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@1.5x.png?b10ac92127437fbd9ad1ece6037cd5a8cd29e23f');
-    background-size: 88px 493px;
+    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@1.5x.png?7a6de5f6f8800ddf02f77b943e0074fb541294db');
+    background-size: 88px 535px;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .sprite-project-logos {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@2x.png?fdb87e9e2a190a394445a985875a65c09ea1ca88');
-    background-size: 88px 493px;
+    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@2x.png?fad0c92d584e6117242fe92278ea8f9594356bf3');
+    background-size: 88px 535px;
   }
 }
 
@@ -127,8 +127,13 @@
   width: 35px;
   height: 42px;
 }
-.sprite-project-logos-Commons-logo_sister {
+.sprite-project-logos-Wikipedia_app_tile {
   background-position: -0px -446px;
+  width: 42px;
+  height: 42px;
+}
+.sprite-project-logos-Commons-logo_sister {
+  background-position: -0px -488px;
   width: 35px;
   height: 47px;
 }

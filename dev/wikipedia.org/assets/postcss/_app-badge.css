@@ -1,0 +1,59 @@
+.app-badges {
+    background-color: #f8f9fa;
+}
+
+.app-badges .footer-sidebar-text {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.app-badges .footer-sidebar-icon {
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.app-badges ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media screen and ( max-width: 768px ) {
+    .app-badges .footer-sidebar-content {
+        max-width: 350px;
+        text-align: center;
+    }
+
+    .app-badges .footer-sidebar-text {
+        padding-left: 0;
+    }
+
+    .app-badges .footer-sidebar-icon {
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        top: -3px;
+        left: 0;
+        vertical-align: middle;
+        transform: scale( 0.7 );
+    }
+
+    .app-badge {
+        float: left;
+        width: 49%;
+        text-align: center;
+    }
+    .app-badge-ios a,
+    .app-badge-android a {
+        display: block;
+    }
+    .app-badge-ios {
+        clear: left;
+        border-right: 1px solid;
+    }
+
+    .app-badge-fulllist {
+        width: 100%;
+        margin: 1.5em 0 0.5em 0;
+    }
+}

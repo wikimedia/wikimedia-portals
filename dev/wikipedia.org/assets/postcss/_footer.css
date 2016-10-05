@@ -23,27 +23,27 @@
     white-space: normal;
 }
 
-.footer-description {
+.footer-sidebar {
     width: 30%;
     float: left;
+    clear: left;
     margin-bottom: 2rem;
     vertical-align: top;
 }
 
-.footer-description-wrapper {
+.footer-sidebar-content {
     position: relative;
-    width: 100%;
     max-width: 350px;
     margin: 0 auto;
 }
 
-.footer-description-icon {
+.footer-sidebar-icon {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 8px;
 }
 
-.footer-description-text {
+.footer-sidebar-text {
     position: relative;
     color: var( --ss-c-grey );
     margin: 0;
@@ -61,7 +61,7 @@
 
 .other-projects {
     width: 70%;
-    float: left;
+    display: inline-block;
 }
 
 .other-project {
@@ -105,23 +105,50 @@
 }
 
 @media screen and ( max-width: 768px ) {
+
     .footer {
         padding-top: 1em;
+        display: flex;
+        flex-direction: column;
     }
 
-    .footer-description {
+    .footer .footer-sidebar {
+        /* for whatever reason, autoprefixer was
+        prefixing these two prefixed properties incorrectly.
+        Giving them a x + 1 value, instead of just x.*/
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        order: 1;
+    }
+
+    .footer .other-projects {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        order: 2;
+    }
+
+    .footer .app-badges {
+        -webkit-box-ordinal-group: 3;
+        -moz-box-ordinal-group: 3;
+        order: 3;
+    }
+
+    .footer-sidebar {
         width: 100%;
     }
-    .footer-description-icon {
+
+    .footer-sidebar-icon {
         position: relative;
         display: block;
         margin: 0 auto 1em auto;
+        left: 0;
     }
 
-    .footer-description-wrapper {
+    .footer-sidebar-content {
         max-width: none;
     }
-    .footer-description-text {
+
+    .footer-sidebar-text {
         margin: 0;
         padding: 0;
         text-align: center;
