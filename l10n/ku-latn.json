@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"George Animal"
+		]
+	},
+	"wiktionary": {
+		"name": "Wîkîferheng",
+		"slogan": "Ferhenga azad"
+	},
+	"wikibooks": {
+		"name": "Wîkîpirtûk",
+		"entries": "rûpel"
+	},
+	"wikinews": {
+		"name": "Wîkînûçe",
+		"entries": "gotar"
+	},
+	"wikiquote": {
+		"name": "Wîkîgotin",
+		"entries": "gotar"
+	},
+	"wikisource": {
+		"name": "Wîkîçavkanî"
+	},
+	"wikiversity": {
+		"name": "Wîkîzanîngeh"
+	},
+	"wikivoyage": {
+		"name": "Wîkîger"
+	},
+	"wikidata": {
+		"name": "WîkîDane"
+	}
+}

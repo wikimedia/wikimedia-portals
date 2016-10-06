@@ -5,12 +5,15 @@
 			"Meno25",
 			"Minh Nguyen",
 			"محمد أحمد عبد الفتاح",
-			"DRIHEM"
+			"DRIHEM",
+			"ديفيد"
 		]
 	},
 	"language-name": "الإنجليزية",
 	"language-name-romanized": "Al-ʿArabīyah",
 	"language-name-romanized-sorted": "Arabiyah, Al",
+	"language-button-text": "اقرأ ويكيبيديا بلغتك",
+	"footer-description": "ويكيبيديا تتم استضافتها بواسطة مؤسسة ويكيميديا، وهي منظمة غير ربحية تستضيف أيضا مجموعة من المشاريع الأخرى.",
 	"wiki": {
 		"name": "ويكيبيديا",
 		"slogan": " الموسوعة الحرة",
@@ -48,5 +51,25 @@
 	"wikivoyage": {
 		"name": "ويكي الرحلات",
 		"slogan": "دليل سفر مجاني"
+	},
+	"commons": {
+		"name": "كومنز",
+		"slogan": "الصور التي يمكن استخدامها بحرية والمزيد"
+	},
+	"wikispecies": {
+		"name": "ويكي الأنواع",
+		"slogan": "دليل الأنواع الحر"
+	},
+	"wikidata": {
+		"name": "ويكي بيانات",
+		"slogan": "قاعدة البيانات الحرة"
+	},
+	"mediawiki": {
+		"name": "ميدياويكي",
+		"slogan": "برمجيات الويكي الحرة"
+	},
+	"metawiki": {
+		"name": "ميتا ويكي",
+		"slogan": "تنسيق مشاريع ويكيميديا"
 	}
 }

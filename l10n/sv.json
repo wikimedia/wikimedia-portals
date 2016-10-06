@@ -48,19 +48,23 @@
 		"slogan": "Den fria reseguiden"
 	},
 	"commons": {
-		"name": "Commons"
+		"name": "Commons",
+		"slogan": "Foton och mer för fri användning"
 	},
 	"wikispecies": {
-		"name": "Wikispecies"
+		"name": "Wikispecies",
+		"slogan": "Fri artdatabas"
 	},
 	"wikidata": {
 		"name": "Wikidata",
 		"slogan": "Fri kunskapsdatabas"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Fri och öppen wikiprogramvara"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Gemenskapskoordinering och dokumentation"
 	}
 }

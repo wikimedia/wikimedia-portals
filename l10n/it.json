@@ -2,11 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Nemo bis",
-			"Beta16"
+			"Beta16",
+			"Anto",
+			"Selven"
 		]
 	},
 	"language-name": "Italiano",
 	"language-button-text": "Leggi Wikipedia nella tua lingua",
+	"footer-description": "Wikipedia è ospitato dalla Wikimedia Foundation, un'organizzazione non-profit che ospita anche una serie di altri progetti.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "L’enciclopedia libera",
@@ -46,19 +49,23 @@
 		"slogan": "Guida turistica"
 	},
 	"commons": {
-		"name": "Commons"
+		"name": "Commons",
+		"slogan": "Foto utilizzabili liberamente e altro"
 	},
 	"wikispecies": {
-		"name": "Wikispecies"
+		"name": "Wikispecies",
+		"slogan": "Directory di specie libere"
 	},
 	"wikidata": {
 		"name": "Wikidata",
 		"slogan": "Database di conoscenza libera"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Applicazione wiki gratuita & aperta"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Comunità di coordinamento e documentazione"
 	}
 }

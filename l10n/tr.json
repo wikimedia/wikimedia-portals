@@ -3,12 +3,14 @@
 		"authors": [
 			"Alpkant",
 			"Ece Alpdeniz",
-			"Jandre3000"
+			"Jandre3000",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"language-name": "Türkçe",
 	"language-name-romanized": "Turkce",
 	"language-name-romanized-sorted": "Turkce",
+	"language-button-text": "Vikipediyi kendi  dilinde oku",
 	"wiki": {
 		"name": "Vikipedi",
 		"slogan": "Özgür Ansiklopedi",
@@ -46,5 +48,21 @@
 	"wikivoyage": {
 		"name": "Vikiyolculuğu",
 		"slogan": "Ücretsiz yolculuk rehberi"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Serbestçe kullanılabilir fotoğraflar ve daha fazlası"
+	},
+	"wikispecies": {
+		"name": "Vikitür"
+	},
+	"wikidata": {
+		"name": "Vikiveri"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }
