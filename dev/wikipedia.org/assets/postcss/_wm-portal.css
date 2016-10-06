@@ -49,7 +49,7 @@ hr {
  * (e.g. where the globe is on www.wikipedia.org)
  */
 .central-textlogo {
-    margin: 1em 0 0.3em 0;
+    margin: 1em 0 0.5em 0;
     text-align: center;
     font-size: 30px;
     line-height: 110%;
@@ -281,8 +281,7 @@ hr {
         padding: 0;
         margin: 0;
         height: 70px;
-        text-align: left;
-        padding-left: 84px;
+        text-align: center;
         position: relative;
     }
     .central-textlogo img {
@@ -377,6 +376,13 @@ hr {
     }
     hr {
         margin-top: 0.5em;
+    }
+}
+
+@media all and ( max-width: 375px ) {
+    .central-textlogo {
+        left: 84px;
+        display: inline-block;
     }
 }
 

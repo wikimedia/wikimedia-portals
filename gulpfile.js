@@ -14,7 +14,6 @@ var gulp = require( 'gulp' ),
 	sprity = require( 'sprity' ),
 	postCSSNext = require( 'postcss-cssnext' ),
 	postCSSImport = require( 'postcss-import' ),
-	postCSSSimple = require( 'postcss-csssimple' ),
 	del = require( 'del' );
 
 var plugins = gulpLoadPlugins(),
@@ -184,8 +183,7 @@ gulp.task( 'postcss', function () {
 	return gulp.src( [ getBaseDir() + 'assets/postcss/*.css', '!' + getBaseDir() + 'assets/postcss/_*.css' ] )
 		.pipe( plugins.postcss( [
 			postCSSImport(),
-			postCSSNext( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } ),
-			postCSSSimple()
+			postCSSNext( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } )
 		],
 			{ map: { inline: true } }
 		) )
