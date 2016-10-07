@@ -165,6 +165,9 @@ hr {
 .langlist > ul > li {
     display: block;
     line-height: 1.7;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
 .no-js .langlist > ul {
