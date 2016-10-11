@@ -3,1765 +3,1771 @@
 		"aa": {
 			"url": "https://aa.wikipedia.org",
 			"numPages": 1,
-			"views": 1538,
+			"views": 2135,
 			"closed": true
 		},
 		"ab": {
 			"url": "https://ab.wikipedia.org",
-			"numPages": 849,
-			"views": 10099,
+			"numPages": 861,
+			"views": 12446,
 			"closed": false
 		},
 		"ace": {
 			"url": "https://ace.wikipedia.org",
-			"numPages": 3136,
-			"views": 18809,
+			"numPages": 3365,
+			"views": 23653,
 			"closed": false
 		},
 		"ady": {
 			"url": "https://ady.wikipedia.org",
-			"numPages": 392,
-			"views": 8212,
+			"numPages": 397,
+			"views": 7725,
 			"closed": false
 		},
 		"af": {
 			"url": "https://af.wikipedia.org",
-			"numPages": 40944,
-			"views": 505298,
+			"numPages": 41930,
+			"views": 3021174,
 			"closed": false
 		},
 		"ak": {
 			"url": "https://ak.wikipedia.org",
-			"numPages": 257,
-			"views": 6211,
+			"numPages": 268,
+			"views": 1280821,
 			"closed": false
 		},
 		"als": {
 			"url": "https://als.wikipedia.org",
-			"numPages": 21638,
-			"views": 111184,
+			"numPages": 21901,
+			"views": 132578,
 			"closed": false
 		},
 		"am": {
 			"url": "https://am.wikipedia.org",
-			"numPages": 13139,
-			"views": 83941,
+			"numPages": 13216,
+			"views": 199517,
 			"closed": false
 		},
 		"an": {
 			"url": "https://an.wikipedia.org",
-			"numPages": 31512,
-			"views": 83879,
+			"numPages": 31604,
+			"views": 947067,
 			"closed": false
 		},
 		"ang": {
 			"url": "https://ang.wikipedia.org",
-			"numPages": 2801,
-			"views": 34911,
+			"numPages": 2844,
+			"views": 45268,
 			"closed": false
 		},
 		"ar": {
 			"url": "https://ar.wikipedia.org",
-			"numPages": 437546,
-			"views": 27559698,
+			"numPages": 445224,
+			"views": 36433314,
 			"closed": false
 		},
 		"arc": {
 			"url": "https://arc.wikipedia.org",
-			"numPages": 1606,
-			"views": 13799,
+			"numPages": 1607,
+			"views": 17345,
 			"closed": false
 		},
 		"arz": {
 			"url": "https://arz.wikipedia.org",
-			"numPages": 15298,
-			"views": 501246,
+			"numPages": 15619,
+			"views": 587459,
 			"closed": false
 		},
 		"as": {
 			"url": "https://as.wikipedia.org",
-			"numPages": 4106,
-			"views": 47404,
+			"numPages": 4275,
+			"views": 227863,
 			"closed": false
 		},
 		"ast": {
 			"url": "https://ast.wikipedia.org",
-			"numPages": 46779,
-			"views": 100396,
+			"numPages": 47199,
+			"views": 129366,
 			"closed": false
 		},
 		"av": {
 			"url": "https://av.wikipedia.org",
 			"numPages": 2279,
-			"views": 11794,
+			"views": 790010,
 			"closed": false
 		},
 		"ay": {
 			"url": "https://ay.wikipedia.org",
-			"numPages": 3706,
-			"views": 13843,
+			"numPages": 3715,
+			"views": 18383,
 			"closed": false
 		},
 		"az": {
 			"url": "https://az.wikipedia.org",
-			"numPages": 107683,
-			"views": 834379,
+			"numPages": 109629,
+			"views": 1585029,
 			"closed": false
 		},
 		"azb": {
 			"url": "https://azb.wikipedia.org",
-			"numPages": 9277,
-			"views": 23635,
+			"numPages": 10555,
+			"views": 30959,
 			"closed": false
 		},
 		"ba": {
 			"url": "https://ba.wikipedia.org",
-			"numPages": 36146,
-			"views": 49070,
+			"numPages": 36318,
+			"views": 76834,
 			"closed": false
 		},
 		"bar": {
 			"url": "https://bar.wikipedia.org",
-			"numPages": 20535,
-			"views": 75038,
+			"numPages": 21789,
+			"views": 91921,
 			"closed": false
 		},
 		"bat-smg": {
 			"url": "https://bat-smg.wikipedia.org",
-			"numPages": 15867,
-			"views": 29553,
+			"numPages": 15907,
+			"views": 38336,
 			"closed": false
 		},
 		"bcl": {
 			"url": "https://bcl.wikipedia.org",
-			"numPages": 6817,
-			"views": 23055,
+			"numPages": 6936,
+			"views": 28743,
 			"closed": false
 		},
 		"be": {
 			"url": "https://be.wikipedia.org",
-			"numPages": 118482,
-			"views": 221207,
+			"numPages": 121990,
+			"views": 332483,
 			"closed": false
 		},
 		"be-x-old": {
 			"url": "https://be-tarask.wikipedia.org",
-			"numPages": 59339,
+			"numPages": 59682,
 			"views": 0,
 			"closed": false
 		},
 		"bg": {
 			"url": "https://bg.wikipedia.org",
-			"numPages": 219655,
-			"views": 4120047,
+			"numPages": 221432,
+			"views": 7179148,
 			"closed": false
 		},
 		"bh": {
 			"url": "https://bh.wikipedia.org",
-			"numPages": 7198,
-			"views": 34021,
+			"numPages": 7374,
+			"views": 98738,
 			"closed": false
 		},
 		"bi": {
 			"url": "https://bi.wikipedia.org",
-			"numPages": 494,
-			"views": 9435,
+			"numPages": 496,
+			"views": 1406716,
 			"closed": false
 		},
 		"bjn": {
 			"url": "https://bjn.wikipedia.org",
-			"numPages": 1434,
-			"views": 16673,
+			"numPages": 1567,
+			"views": 20740,
 			"closed": false
 		},
 		"bm": {
 			"url": "https://bm.wikipedia.org",
 			"numPages": 409,
-			"views": 8024,
+			"views": 203260,
 			"closed": false
 		},
 		"bn": {
 			"url": "https://bn.wikipedia.org",
-			"numPages": 43491,
-			"views": 1339816,
+			"numPages": 44661,
+			"views": 1686380,
 			"closed": false
 		},
 		"bo": {
 			"url": "https://bo.wikipedia.org",
-			"numPages": 5702,
-			"views": 34491,
+			"numPages": 5706,
+			"views": 33483,
 			"closed": false
 		},
 		"bpy": {
 			"url": "https://bpy.wikipedia.org",
 			"numPages": 25066,
-			"views": 19072,
+			"views": 33855,
 			"closed": false
 		},
 		"br": {
 			"url": "https://br.wikipedia.org",
-			"numPages": 59315,
-			"views": 95417,
+			"numPages": 59975,
+			"views": 241349,
 			"closed": false
 		},
 		"bs": {
 			"url": "https://bs.wikipedia.org",
-			"numPages": 69981,
-			"views": 734474,
+			"numPages": 70529,
+			"views": 2959132,
 			"closed": false
 		},
 		"bug": {
 			"url": "https://bug.wikipedia.org",
-			"numPages": 14106,
-			"views": 42868,
+			"numPages": 14116,
+			"views": 577201,
 			"closed": false
 		},
 		"bxr": {
 			"url": "https://bxr.wikipedia.org",
-			"numPages": 1762,
-			"views": 16120,
+			"numPages": 1780,
+			"views": 21186,
 			"closed": false
 		},
 		"ca": {
 			"url": "https://ca.wikipedia.org",
-			"numPages": 515030,
-			"views": 2153731,
+			"numPages": 521190,
+			"views": 6168004,
 			"closed": false
 		},
 		"cbk-zam": {
 			"url": "https://cbk-zam.wikipedia.org",
-			"numPages": 2904,
-			"views": 12683,
+			"numPages": 2923,
+			"views": 16069,
 			"closed": false
 		},
 		"cdo": {
 			"url": "https://cdo.wikipedia.org",
-			"numPages": 3824,
-			"views": 23007,
+			"numPages": 4027,
+			"views": 29148,
 			"closed": false
 		},
 		"ce": {
 			"url": "https://ce.wikipedia.org",
-			"numPages": 144872,
-			"views": 33298,
+			"numPages": 153182,
+			"views": 51771,
 			"closed": false
 		},
 		"ceb": {
 			"url": "https://ceb.wikipedia.org",
-			"numPages": 2668447,
-			"views": 135326,
+			"numPages": 3043823,
+			"views": 210333,
 			"closed": false
 		},
 		"ch": {
 			"url": "https://ch.wikipedia.org",
-			"numPages": 404,
-			"views": 5567,
+			"numPages": 417,
+			"views": 7861,
 			"closed": false
 		},
 		"cho": {
 			"url": "https://cho.wikipedia.org",
 			"numPages": 6,
-			"views": 1244,
+			"views": 1475,
 			"closed": true
 		},
 		"chr": {
 			"url": "https://chr.wikipedia.org",
 			"numPages": 726,
-			"views": 10900,
+			"views": 13111,
 			"closed": false
 		},
 		"chy": {
 			"url": "https://chy.wikipedia.org",
-			"numPages": 600,
-			"views": 7188,
+			"numPages": 603,
+			"views": 8793,
 			"closed": false
 		},
 		"ckb": {
 			"url": "https://ckb.wikipedia.org",
-			"numPages": 17378,
-			"views": 94225,
+			"numPages": 17855,
+			"views": 121357,
 			"closed": false
 		},
 		"co": {
 			"url": "https://co.wikipedia.org",
-			"numPages": 5282,
-			"views": 21255,
+			"numPages": 5331,
+			"views": 27607,
 			"closed": false
 		},
 		"cr": {
 			"url": "https://cr.wikipedia.org",
-			"numPages": 109,
-			"views": 4681,
+			"numPages": 103,
+			"views": 4926,
 			"closed": false
 		},
 		"crh": {
 			"url": "https://crh.wikipedia.org",
-			"numPages": 4866,
-			"views": 16536,
+			"numPages": 4948,
+			"views": 20311,
 			"closed": false
 		},
 		"cs": {
 			"url": "https://cs.wikipedia.org",
-			"numPages": 359988,
-			"views": 13552307,
+			"numPages": 364881,
+			"views": 15551810,
 			"closed": false
 		},
 		"csb": {
 			"url": "https://csb.wikipedia.org",
-			"numPages": 5187,
-			"views": 16896,
+			"numPages": 5212,
+			"views": 23339,
 			"closed": false
 		},
 		"cu": {
 			"url": "https://cu.wikipedia.org",
-			"numPages": 575,
-			"views": 9616,
+			"numPages": 578,
+			"views": 13718,
 			"closed": false
 		},
 		"cv": {
 			"url": "https://cv.wikipedia.org",
-			"numPages": 34640,
-			"views": 36415,
+			"numPages": 35540,
+			"views": 51816,
 			"closed": false
 		},
 		"cy": {
 			"url": "https://cy.wikipedia.org",
-			"numPages": 70936,
-			"views": 111324,
+			"numPages": 80939,
+			"views": 179630,
 			"closed": false
 		},
 		"da": {
 			"url": "https://da.wikipedia.org",
-			"numPages": 217694,
-			"views": 5699736,
+			"numPages": 219983,
+			"views": 6217902,
 			"closed": false
 		},
 		"de": {
 			"url": "https://de.wikipedia.org",
-			"numPages": 1965320,
-			"views": 217644233,
+			"numPages": 1985987,
+			"views": 220659422,
 			"closed": false
 		},
 		"diq": {
 			"url": "https://diq.wikipedia.org",
-			"numPages": 6673,
-			"views": 43562,
+			"numPages": 6768,
+			"views": 56696,
 			"closed": false
 		},
 		"dsb": {
 			"url": "https://dsb.wikipedia.org",
-			"numPages": 3032,
-			"views": 24173,
+			"numPages": 3043,
+			"views": 31668,
 			"closed": false
 		},
 		"dv": {
 			"url": "https://dv.wikipedia.org",
 			"numPages": 2968,
-			"views": 14494,
+			"views": 21315,
 			"closed": false
 		},
 		"dz": {
 			"url": "https://dz.wikipedia.org",
 			"numPages": 192,
-			"views": 6345,
+			"views": 7418,
 			"closed": false
 		},
 		"ee": {
 			"url": "https://ee.wikipedia.org",
 			"numPages": 333,
-			"views": 7365,
+			"views": 8242,
 			"closed": false
 		},
 		"el": {
 			"url": "https://el.wikipedia.org",
-			"numPages": 120691,
-			"views": 5017433,
+			"numPages": 122656,
+			"views": 5818848,
 			"closed": false
 		},
 		"eml": {
 			"url": "https://eml.wikipedia.org",
-			"numPages": 8128,
-			"views": 25943,
+			"numPages": 8334,
+			"views": 38315,
 			"closed": false
 		},
 		"en": {
 			"url": "https://en.wikipedia.org",
-			"numPages": 5209383,
-			"views": 1761841217,
+			"numPages": 5260058,
+			"views": 1776355161,
 			"closed": false
 		},
 		"eo": {
 			"url": "https://eo.wikipedia.org",
-			"numPages": 231275,
-			"views": 374987,
+			"numPages": 233708,
+			"views": 429130,
 			"closed": false
 		},
 		"es": {
 			"url": "https://es.wikipedia.org",
-			"numPages": 1273609,
-			"views": 283697113,
+			"numPages": 1289164,
+			"views": 277282823,
 			"closed": false
 		},
 		"et": {
 			"url": "https://et.wikipedia.org",
-			"numPages": 148009,
-			"views": 1295746,
+			"numPages": 150089,
+			"views": 1438765,
 			"closed": false
 		},
 		"eu": {
 			"url": "https://eu.wikipedia.org",
-			"numPages": 256539,
-			"views": 339263,
+			"numPages": 260415,
+			"views": 551772,
 			"closed": false
 		},
 		"ext": {
 			"url": "https://ext.wikipedia.org",
-			"numPages": 2844,
-			"views": 18653,
+			"numPages": 2852,
+			"views": 26237,
 			"closed": false
 		},
 		"fa": {
 			"url": "https://fa.wikipedia.org",
-			"numPages": 500911,
-			"views": 17423400,
+			"numPages": 508111,
+			"views": 20343631,
 			"closed": false
 		},
 		"ff": {
 			"url": "https://ff.wikipedia.org",
-			"numPages": 188,
-			"views": 6066,
+			"numPages": 193,
+			"views": 7418,
 			"closed": false
 		},
 		"fi": {
 			"url": "https://fi.wikipedia.org",
-			"numPages": 398065,
-			"views": 13600258,
+			"numPages": 402560,
+			"views": 14117827,
 			"closed": false
 		},
 		"fiu-vro": {
 			"url": "https://fiu-vro.wikipedia.org",
-			"numPages": 5414,
-			"views": 21508,
+			"numPages": 5419,
+			"views": 29249,
 			"closed": false
 		},
 		"fj": {
 			"url": "https://fj.wikipedia.org",
-			"numPages": 312,
-			"views": 5894,
+			"numPages": 336,
+			"views": 6498,
 			"closed": false
 		},
 		"fo": {
 			"url": "https://fo.wikipedia.org",
-			"numPages": 12195,
-			"views": 45169,
+			"numPages": 12288,
+			"views": 67228,
 			"closed": false
 		},
 		"fr": {
 			"url": "https://fr.wikipedia.org",
-			"numPages": 1779198,
-			"views": 152080349,
+			"numPages": 1801583,
+			"views": 172388062,
 			"closed": false
 		},
 		"frp": {
 			"url": "https://frp.wikipedia.org",
-			"numPages": 2489,
-			"views": 15644,
+			"numPages": 2532,
+			"views": 23621,
 			"closed": false
 		},
 		"frr": {
 			"url": "https://frr.wikipedia.org",
-			"numPages": 4396,
-			"views": 24772,
+			"numPages": 4475,
+			"views": 34198,
 			"closed": false
 		},
 		"fur": {
 			"url": "https://fur.wikipedia.org",
-			"numPages": 3160,
-			"views": 17947,
+			"numPages": 3151,
+			"views": 22837,
 			"closed": false
 		},
 		"fy": {
 			"url": "https://fy.wikipedia.org",
-			"numPages": 34565,
-			"views": 78301,
+			"numPages": 35392,
+			"views": 96243,
 			"closed": false
 		},
 		"ga": {
 			"url": "https://ga.wikipedia.org",
-			"numPages": 38390,
-			"views": 74077,
+			"numPages": 38556,
+			"views": 111076,
 			"closed": false
 		},
 		"gag": {
 			"url": "https://gag.wikipedia.org",
-			"numPages": 2738,
-			"views": 17484,
+			"numPages": 2741,
+			"views": 24187,
 			"closed": false
 		},
 		"gan": {
 			"url": "https://gan.wikipedia.org",
-			"numPages": 6330,
-			"views": 26671,
+			"numPages": 6336,
+			"views": 38372,
 			"closed": false
 		},
 		"gd": {
 			"url": "https://gd.wikipedia.org",
-			"numPages": 14052,
-			"views": 36044,
+			"numPages": 14139,
+			"views": 50540,
 			"closed": false
 		},
 		"gl": {
 			"url": "https://gl.wikipedia.org",
-			"numPages": 131871,
-			"views": 393749,
+			"numPages": 133354,
+			"views": 455298,
 			"closed": false
 		},
 		"glk": {
 			"url": "https://glk.wikipedia.org",
-			"numPages": 6025,
-			"views": 8568,
+			"numPages": 6033,
+			"views": 10076,
 			"closed": false
 		},
 		"gn": {
 			"url": "https://gn.wikipedia.org",
-			"numPages": 3107,
-			"views": 33539,
+			"numPages": 3111,
+			"views": 39132,
 			"closed": false
 		},
 		"gom": {
 			"url": "https://gom.wikipedia.org",
-			"numPages": 2334,
-			"views": 11718,
+			"numPages": 2461,
+			"views": 12893,
 			"closed": false
 		},
 		"got": {
 			"url": "https://got.wikipedia.org",
-			"numPages": 455,
-			"views": 7336,
+			"numPages": 481,
+			"views": 8780,
 			"closed": false
 		},
 		"gu": {
 			"url": "https://gu.wikipedia.org",
-			"numPages": 26440,
-			"views": 138258,
+			"numPages": 26591,
+			"views": 117113,
 			"closed": false
 		},
 		"gv": {
 			"url": "https://gv.wikipedia.org",
-			"numPages": 4828,
-			"views": 26084,
+			"numPages": 4860,
+			"views": 35126,
 			"closed": false
 		},
 		"ha": {
 			"url": "https://ha.wikipedia.org",
-			"numPages": 1392,
-			"views": 13598,
+			"numPages": 1398,
+			"views": 16570,
 			"closed": false
 		},
 		"hak": {
 			"url": "https://hak.wikipedia.org",
-			"numPages": 6514,
-			"views": 30946,
+			"numPages": 7023,
+			"views": 40130,
 			"closed": false
 		},
 		"haw": {
 			"url": "https://haw.wikipedia.org",
-			"numPages": 2042,
-			"views": 10220,
+			"numPages": 1952,
+			"views": 14111,
 			"closed": false
 		},
 		"he": {
 			"url": "https://he.wikipedia.org",
-			"numPages": 193220,
-			"views": 10164713,
+			"numPages": 196323,
+			"views": 10916508,
 			"closed": false
 		},
 		"hi": {
 			"url": "https://hi.wikipedia.org",
-			"numPages": 106365,
-			"views": 4150972,
+			"numPages": 111221,
+			"views": 4178172,
 			"closed": false
 		},
 		"hif": {
 			"url": "https://hif.wikipedia.org",
-			"numPages": 9612,
-			"views": 44433,
+			"numPages": 9614,
+			"views": 53048,
 			"closed": false
 		},
 		"ho": {
 			"url": "https://ho.wikipedia.org",
 			"numPages": 3,
-			"views": 1052,
+			"views": 1279,
 			"closed": true
 		},
 		"hr": {
 			"url": "https://hr.wikipedia.org",
-			"numPages": 167391,
-			"views": 3603842,
+			"numPages": 169272,
+			"views": 3889718,
 			"closed": false
 		},
 		"hsb": {
 			"url": "https://hsb.wikipedia.org",
-			"numPages": 10719,
-			"views": 28512,
+			"numPages": 10751,
+			"views": 41280,
 			"closed": false
 		},
 		"ht": {
 			"url": "https://ht.wikipedia.org",
-			"numPages": 50822,
-			"views": 35594,
+			"numPages": 50960,
+			"views": 53363,
 			"closed": false
 		},
 		"hu": {
 			"url": "https://hu.wikipedia.org",
-			"numPages": 393248,
-			"views": 9692009,
+			"numPages": 396852,
+			"views": 10270722,
 			"closed": false
 		},
 		"hy": {
 			"url": "https://hy.wikipedia.org",
-			"numPages": 205220,
-			"views": 734631,
+			"numPages": 209065,
+			"views": 827430,
 			"closed": false
 		},
 		"hz": {
 			"url": "https://hz.wikipedia.org",
 			"numPages": 0,
-			"views": 1102,
+			"views": 1311,
 			"closed": true
 		},
 		"ia": {
 			"url": "https://ia.wikipedia.org",
-			"numPages": 19722,
-			"views": 55684,
+			"numPages": 19761,
+			"views": 78691,
 			"closed": false
 		},
 		"id": {
 			"url": "https://id.wikipedia.org",
-			"numPages": 383637,
-			"views": 32139507,
+			"numPages": 386886,
+			"views": 36009825,
 			"closed": false
 		},
 		"ie": {
 			"url": "https://ie.wikipedia.org",
-			"numPages": 3461,
-			"views": 16602,
+			"numPages": 3508,
+			"views": 21296,
 			"closed": false
 		},
 		"ig": {
 			"url": "https://ig.wikipedia.org",
-			"numPages": 1227,
-			"views": 91093,
+			"numPages": 1277,
+			"views": 106011,
 			"closed": false
 		},
 		"ii": {
 			"url": "https://ii.wikipedia.org",
 			"numPages": 3,
-			"views": 704,
+			"views": 761,
 			"closed": true
 		},
 		"ik": {
 			"url": "https://ik.wikipedia.org",
-			"numPages": 245,
-			"views": 6776,
+			"numPages": 247,
+			"views": 7455,
 			"closed": false
 		},
 		"ilo": {
 			"url": "https://ilo.wikipedia.org",
-			"numPages": 8300,
-			"views": 44723,
+			"numPages": 8521,
+			"views": 58389,
 			"closed": false
 		},
 		"io": {
 			"url": "https://io.wikipedia.org",
-			"numPages": 26681,
-			"views": 54907,
+			"numPages": 26787,
+			"views": 90676,
 			"closed": false
 		},
 		"is": {
 			"url": "https://is.wikipedia.org",
-			"numPages": 40943,
-			"views": 228283,
+			"numPages": 41231,
+			"views": 266300,
 			"closed": false
 		},
 		"it": {
 			"url": "https://it.wikipedia.org",
-			"numPages": 1293064,
-			"views": 116317064,
+			"numPages": 1306290,
+			"views": 113574758,
 			"closed": false
 		},
 		"iu": {
 			"url": "https://iu.wikipedia.org",
-			"numPages": 354,
-			"views": 9205,
+			"numPages": 355,
+			"views": 11656,
 			"closed": false
 		},
 		"ja": {
 			"url": "https://ja.wikipedia.org",
-			"numPages": 1025071,
-			"views": 246561912,
+			"numPages": 1033415,
+			"views": 243917616,
 			"closed": false
 		},
 		"jam": {
 			"url": "https://jam.wikipedia.org",
-			"numPages": 1400,
-			"views": 16713,
+			"numPages": 1567,
+			"views": 20614,
 			"closed": false
 		},
 		"jbo": {
 			"url": "https://jbo.wikipedia.org",
-			"numPages": 1192,
-			"views": 13905,
+			"numPages": 1194,
+			"views": 18145,
 			"closed": false
 		},
 		"jv": {
 			"url": "https://jv.wikipedia.org",
-			"numPages": 49126,
-			"views": 137071,
+			"numPages": 49653,
+			"views": 165479,
 			"closed": false
 		},
 		"ka": {
 			"url": "https://ka.wikipedia.org",
-			"numPages": 105683,
-			"views": 642021,
+			"numPages": 108132,
+			"views": 1133496,
 			"closed": false
 		},
 		"kaa": {
 			"url": "https://kaa.wikipedia.org",
-			"numPages": 1881,
-			"views": 13545,
+			"numPages": 1899,
+			"views": 18343,
 			"closed": false
 		},
 		"kab": {
 			"url": "https://kab.wikipedia.org",
-			"numPages": 2809,
-			"views": 15157,
+			"numPages": 2830,
+			"views": 20717,
 			"closed": false
 		},
 		"kbd": {
 			"url": "https://kbd.wikipedia.org",
-			"numPages": 1563,
-			"views": 8688,
+			"numPages": 1587,
+			"views": 11586,
 			"closed": false
 		},
 		"kg": {
 			"url": "https://kg.wikipedia.org",
-			"numPages": 1158,
-			"views": 10178,
+			"numPages": 1173,
+			"views": 12859,
 			"closed": false
 		},
 		"ki": {
 			"url": "https://ki.wikipedia.org",
-			"numPages": 1330,
-			"views": 6699,
+			"numPages": 1337,
+			"views": 8348,
 			"closed": false
 		},
 		"kj": {
 			"url": "https://kj.wikipedia.org",
 			"numPages": 4,
-			"views": 1018,
+			"views": 1238,
 			"closed": true
 		},
 		"kk": {
 			"url": "https://kk.wikipedia.org",
-			"numPages": 216497,
-			"views": 2589925,
+			"numPages": 216788,
+			"views": 3858736,
 			"closed": false
 		},
 		"kl": {
 			"url": "https://kl.wikipedia.org",
-			"numPages": 1634,
-			"views": 13396,
+			"numPages": 1636,
+			"views": 15663,
 			"closed": false
 		},
 		"km": {
 			"url": "https://km.wikipedia.org",
-			"numPages": 4953,
-			"views": 57357,
+			"numPages": 4959,
+			"views": 71304,
 			"closed": false
 		},
 		"kn": {
 			"url": "https://kn.wikipedia.org",
-			"numPages": 20686,
-			"views": 235791,
+			"numPages": 20920,
+			"views": 239262,
 			"closed": false
 		},
 		"ko": {
 			"url": "https://ko.wikipedia.org",
-			"numPages": 355720,
-			"views": 15773708,
+			"numPages": 361531,
+			"views": 16944849,
 			"closed": false
 		},
 		"koi": {
 			"url": "https://koi.wikipedia.org",
 			"numPages": 3425,
-			"views": 7968,
+			"views": 12092,
 			"closed": false
 		},
 		"kr": {
 			"url": "https://kr.wikipedia.org",
 			"numPages": 0,
-			"views": 1781,
+			"views": 2252,
 			"closed": true
 		},
 		"krc": {
 			"url": "https://krc.wikipedia.org",
-			"numPages": 2006,
-			"views": 13413,
+			"numPages": 2007,
+			"views": 18664,
 			"closed": false
 		},
 		"ks": {
 			"url": "https://ks.wikipedia.org",
 			"numPages": 267,
-			"views": 4718,
+			"views": 5965,
 			"closed": false
 		},
 		"ksh": {
 			"url": "https://ksh.wikipedia.org",
-			"numPages": 2812,
-			"views": 18254,
+			"numPages": 2813,
+			"views": 25287,
 			"closed": false
 		},
 		"ku": {
 			"url": "https://ku.wikipedia.org",
-			"numPages": 22165,
-			"views": 63111,
+			"numPages": 22269,
+			"views": 80877,
 			"closed": false
 		},
 		"kv": {
 			"url": "https://kv.wikipedia.org",
-			"numPages": 4580,
-			"views": 14602,
+			"numPages": 4710,
+			"views": 20200,
 			"closed": false
 		},
 		"kw": {
 			"url": "https://kw.wikipedia.org",
-			"numPages": 3722,
-			"views": 19414,
+			"numPages": 3732,
+			"views": 24779,
 			"closed": false
 		},
 		"ky": {
 			"url": "https://ky.wikipedia.org",
-			"numPages": 56985,
-			"views": 153330,
+			"numPages": 57236,
+			"views": 242144,
 			"closed": false
 		},
 		"la": {
 			"url": "https://la.wikipedia.org",
-			"numPages": 125497,
-			"views": 193030,
+			"numPages": 125657,
+			"views": 242504,
 			"closed": false
 		},
 		"lad": {
 			"url": "https://lad.wikipedia.org",
-			"numPages": 3231,
-			"views": 27939,
+			"numPages": 3611,
+			"views": 31676,
 			"closed": false
 		},
 		"lb": {
 			"url": "https://lb.wikipedia.org",
-			"numPages": 46302,
-			"views": 128669,
+			"numPages": 46772,
+			"views": 135259,
 			"closed": false
 		},
 		"lbe": {
 			"url": "https://lbe.wikipedia.org",
-			"numPages": 1209,
-			"views": 7592,
+			"numPages": 1210,
+			"views": 9467,
 			"closed": false
 		},
 		"lez": {
 			"url": "https://lez.wikipedia.org",
-			"numPages": 2754,
-			"views": 13406,
+			"numPages": 2777,
+			"views": 19060,
 			"closed": false
 		},
 		"lg": {
 			"url": "https://lg.wikipedia.org",
-			"numPages": 1067,
-			"views": 5137,
+			"numPages": 1078,
+			"views": 6225,
 			"closed": false
 		},
 		"li": {
 			"url": "https://li.wikipedia.org",
-			"numPages": 11305,
-			"views": 43782,
+			"numPages": 11510,
+			"views": 60047,
 			"closed": false
 		},
 		"lij": {
 			"url": "https://lij.wikipedia.org",
-			"numPages": 3048,
-			"views": 18770,
+			"numPages": 3183,
+			"views": 23943,
 			"closed": false
 		},
 		"lmo": {
 			"url": "https://lmo.wikipedia.org",
-			"numPages": 34195,
-			"views": 73624,
+			"numPages": 34370,
+			"views": 69619,
 			"closed": false
 		},
 		"ln": {
 			"url": "https://ln.wikipedia.org",
-			"numPages": 2734,
-			"views": 16688,
+			"numPages": 2777,
+			"views": 21765,
 			"closed": false
 		},
 		"lo": {
 			"url": "https://lo.wikipedia.org",
-			"numPages": 1569,
-			"views": 23388,
+			"numPages": 1578,
+			"views": 28573,
 			"closed": false
 		},
 		"lrc": {
 			"url": "https://lrc.wikipedia.org",
-			"numPages": 5154,
-			"views": 10573,
+			"numPages": 5166,
+			"views": 13708,
 			"closed": false
 		},
 		"lt": {
 			"url": "https://lt.wikipedia.org",
-			"numPages": 178903,
-			"views": 1929217,
+			"numPages": 179707,
+			"views": 2368310,
 			"closed": false
 		},
 		"ltg": {
 			"url": "https://ltg.wikipedia.org",
-			"numPages": 781,
-			"views": 7514,
+			"numPages": 783,
+			"views": 8718,
 			"closed": false
 		},
 		"lv": {
 			"url": "https://lv.wikipedia.org",
-			"numPages": 71402,
-			"views": 756696,
+			"numPages": 72965,
+			"views": 978871,
 			"closed": false
 		},
 		"mai": {
 			"url": "https://mai.wikipedia.org",
-			"numPages": 2935,
-			"views": 14901,
+			"numPages": 4978,
+			"views": 21245,
 			"closed": false
 		},
 		"map-bms": {
 			"url": "https://map-bms.wikipedia.org",
-			"numPages": 13137,
-			"views": 27581,
+			"numPages": 13253,
+			"views": 32328,
 			"closed": false
 		},
 		"mdf": {
 			"url": "https://mdf.wikipedia.org",
 			"numPages": 1129,
-			"views": 8507,
+			"views": 10059,
 			"closed": false
 		},
 		"mg": {
 			"url": "https://mg.wikipedia.org",
-			"numPages": 82703,
-			"views": 40830,
+			"numPages": 82728,
+			"views": 62715,
 			"closed": false
 		},
 		"mh": {
 			"url": "https://mh.wikipedia.org",
 			"numPages": 4,
-			"views": 986,
+			"views": 1284,
 			"closed": true
 		},
 		"mhr": {
 			"url": "https://mhr.wikipedia.org",
-			"numPages": 9355,
-			"views": 19806,
+			"numPages": 9357,
+			"views": 29667,
 			"closed": false
 		},
 		"mi": {
 			"url": "https://mi.wikipedia.org",
-			"numPages": 7099,
-			"views": 15364,
+			"numPages": 7101,
+			"views": 19685,
 			"closed": false
 		},
 		"min": {
 			"url": "https://min.wikipedia.org",
-			"numPages": 221845,
-			"views": 85243,
+			"numPages": 221924,
+			"views": 24808,
 			"closed": false
 		},
 		"mk": {
 			"url": "https://mk.wikipedia.org",
-			"numPages": 86270,
-			"views": 500229,
+			"numPages": 86969,
+			"views": 513117,
 			"closed": false
 		},
 		"ml": {
 			"url": "https://ml.wikipedia.org",
-			"numPages": 43940,
-			"views": 338229,
+			"numPages": 45164,
+			"views": 508019,
 			"closed": false
 		},
 		"mn": {
 			"url": "https://mn.wikipedia.org",
-			"numPages": 15655,
-			"views": 213850,
+			"numPages": 15882,
+			"views": 281350,
 			"closed": false
 		},
 		"mo": {
 			"url": "https://mo.wikipedia.org",
 			"numPages": 394,
-			"views": 4975,
+			"views": 5667,
 			"closed": true
 		},
 		"mr": {
 			"url": "https://mr.wikipedia.org",
-			"numPages": 44110,
-			"views": 593238,
+			"numPages": 44709,
+			"views": 630701,
 			"closed": false
 		},
 		"mrj": {
 			"url": "https://mrj.wikipedia.org",
-			"numPages": 10096,
-			"views": 13272,
+			"numPages": 10148,
+			"views": 21881,
 			"closed": false
 		},
 		"ms": {
 			"url": "https://ms.wikipedia.org",
-			"numPages": 284495,
-			"views": 1778045,
+			"numPages": 285376,
+			"views": 2085683,
 			"closed": false
 		},
 		"mt": {
 			"url": "https://mt.wikipedia.org",
-			"numPages": 3169,
-			"views": 19522,
+			"numPages": 3175,
+			"views": 31266,
 			"closed": false
 		},
 		"mus": {
 			"url": "https://mus.wikipedia.org",
 			"numPages": 1,
-			"views": 1226,
+			"views": 1408,
 			"closed": true
 		},
 		"mwl": {
 			"url": "https://mwl.wikipedia.org",
-			"numPages": 2767,
-			"views": 16436,
+			"numPages": 2814,
+			"views": 18872,
 			"closed": false
 		},
 		"my": {
 			"url": "https://my.wikipedia.org",
-			"numPages": 32949,
-			"views": 103972,
+			"numPages": 33280,
+			"views": 124130,
 			"closed": false
 		},
 		"myv": {
 			"url": "https://myv.wikipedia.org",
-			"numPages": 3174,
-			"views": 11011,
+			"numPages": 3275,
+			"views": 16285,
 			"closed": false
 		},
 		"mzn": {
 			"url": "https://mzn.wikipedia.org",
-			"numPages": 12308,
-			"views": 26604,
+			"numPages": 12360,
+			"views": 34443,
 			"closed": false
 		},
 		"na": {
 			"url": "https://na.wikipedia.org",
-			"numPages": 1261,
-			"views": 11287,
+			"numPages": 1263,
+			"views": 13720,
 			"closed": false
 		},
 		"nah": {
 			"url": "https://nah.wikipedia.org",
-			"numPages": 11350,
-			"views": 26880,
+			"numPages": 11121,
+			"views": 38559,
 			"closed": false
 		},
 		"nap": {
 			"url": "https://nap.wikipedia.org",
-			"numPages": 14341,
-			"views": 29424,
+			"numPages": 14365,
+			"views": 39323,
 			"closed": false
 		},
 		"nds": {
 			"url": "https://nds.wikipedia.org",
-			"numPages": 25557,
-			"views": 50617,
+			"numPages": 25624,
+			"views": 72587,
 			"closed": false
 		},
 		"nds-nl": {
 			"url": "https://nds-nl.wikipedia.org",
-			"numPages": 5843,
-			"views": 30767,
+			"numPages": 5848,
+			"views": 36004,
 			"closed": false
 		},
 		"ne": {
 			"url": "https://ne.wikipedia.org",
-			"numPages": 27818,
-			"views": 141542,
+			"numPages": 28349,
+			"views": 100901,
 			"closed": false
 		},
 		"new": {
 			"url": "https://new.wikipedia.org",
-			"numPages": 72370,
-			"views": 32248,
+			"numPages": 72378,
+			"views": 47564,
 			"closed": false
 		},
 		"ng": {
 			"url": "https://ng.wikipedia.org",
 			"numPages": 8,
-			"views": 1645,
+			"views": 2106,
 			"closed": true
 		},
 		"nl": {
 			"url": "https://nl.wikipedia.org",
-			"numPages": 1875334,
-			"views": 30334022,
+			"numPages": 1877506,
+			"views": 32752990,
 			"closed": false
 		},
 		"nn": {
 			"url": "https://nn.wikipedia.org",
-			"numPages": 130026,
-			"views": 304174,
+			"numPages": 130990,
+			"views": 334464,
 			"closed": false
 		},
 		"no": {
 			"url": "https://no.wikipedia.org",
-			"numPages": 443488,
-			"views": 6869222,
+			"numPages": 449718,
+			"views": 6730874,
 			"closed": false
 		},
 		"nov": {
 			"url": "https://nov.wikipedia.org",
-			"numPages": 1632,
-			"views": 14719,
+			"numPages": 1640,
+			"views": 18434,
 			"closed": false
 		},
 		"nrm": {
 			"url": "https://nrm.wikipedia.org",
-			"numPages": 3604,
-			"views": 16634,
+			"numPages": 3621,
+			"views": 24319,
 			"closed": false
 		},
 		"nso": {
 			"url": "https://nso.wikipedia.org",
-			"numPages": 3711,
-			"views": 12737,
+			"numPages": 3800,
+			"views": 15689,
 			"closed": false
 		},
 		"nv": {
 			"url": "https://nv.wikipedia.org",
 			"numPages": 2460,
-			"views": 14861,
+			"views": 17026,
 			"closed": false
 		},
 		"ny": {
 			"url": "https://ny.wikipedia.org",
-			"numPages": 324,
-			"views": 8201,
+			"numPages": 349,
+			"views": 8057,
 			"closed": false
 		},
 		"oc": {
 			"url": "https://oc.wikipedia.org",
-			"numPages": 89862,
-			"views": 219442,
+			"numPages": 88681,
+			"views": 209632,
+			"closed": false
+		},
+		"olo": {
+			"url": "https://olo.wikipedia.org",
+			"numPages": 0,
+			"views": 959,
 			"closed": false
 		},
 		"om": {
 			"url": "https://om.wikipedia.org",
-			"numPages": 718,
-			"views": 16478,
+			"numPages": 724,
+			"views": 13410,
 			"closed": false
 		},
 		"or": {
 			"url": "https://or.wikipedia.org",
-			"numPages": 10756,
-			"views": 84802,
+			"numPages": 11008,
+			"views": 59463,
 			"closed": false
 		},
 		"os": {
 			"url": "https://os.wikipedia.org",
-			"numPages": 10265,
-			"views": 23507,
+			"numPages": 10270,
+			"views": 37450,
 			"closed": false
 		},
 		"pa": {
 			"url": "https://pa.wikipedia.org",
-			"numPages": 22927,
-			"views": 123865,
+			"numPages": 23458,
+			"views": 99267,
 			"closed": false
 		},
 		"pag": {
 			"url": "https://pag.wikipedia.org",
-			"numPages": 2519,
-			"views": 9938,
+			"numPages": 2518,
+			"views": 12836,
 			"closed": false
 		},
 		"pam": {
 			"url": "https://pam.wikipedia.org",
-			"numPages": 8533,
-			"views": 28652,
+			"numPages": 8538,
+			"views": 35670,
 			"closed": false
 		},
 		"pap": {
 			"url": "https://pap.wikipedia.org",
-			"numPages": 1484,
-			"views": 17371,
+			"numPages": 1597,
+			"views": 21772,
 			"closed": false
 		},
 		"pcd": {
 			"url": "https://pcd.wikipedia.org",
-			"numPages": 3196,
-			"views": 12846,
+			"numPages": 3253,
+			"views": 17979,
 			"closed": false
 		},
 		"pdc": {
 			"url": "https://pdc.wikipedia.org",
-			"numPages": 1756,
-			"views": 28474,
+			"numPages": 1761,
+			"views": 20587,
 			"closed": false
 		},
 		"pfl": {
 			"url": "https://pfl.wikipedia.org",
-			"numPages": 2051,
-			"views": 10759,
+			"numPages": 2054,
+			"views": 13270,
 			"closed": false
 		},
 		"pi": {
 			"url": "https://pi.wikipedia.org",
-			"numPages": 2517,
-			"views": 8700,
+			"numPages": 2518,
+			"views": 12842,
 			"closed": false
 		},
 		"pih": {
 			"url": "https://pih.wikipedia.org",
-			"numPages": 488,
-			"views": 9232,
+			"numPages": 492,
+			"views": 11587,
 			"closed": false
 		},
 		"pl": {
 			"url": "https://pl.wikipedia.org",
-			"numPages": 1178991,
-			"views": 56075408,
+			"numPages": 1187835,
+			"views": 86770995,
 			"closed": false
 		},
 		"pms": {
 			"url": "https://pms.wikipedia.org",
-			"numPages": 63947,
-			"views": 36114,
+			"numPages": 63972,
+			"views": 54159,
 			"closed": false
 		},
 		"pnb": {
 			"url": "https://pnb.wikipedia.org",
-			"numPages": 42050,
-			"views": 42660,
+			"numPages": 42175,
+			"views": 76669,
 			"closed": false
 		},
 		"pnt": {
 			"url": "https://pnt.wikipedia.org",
 			"numPages": 410,
-			"views": 7967,
+			"views": 9506,
 			"closed": false
 		},
 		"ps": {
 			"url": "https://ps.wikipedia.org",
-			"numPages": 7415,
-			"views": 1012204,
+			"numPages": 7441,
+			"views": 60644,
 			"closed": false
 		},
 		"pt": {
 			"url": "https://pt.wikipedia.org",
-			"numPages": 930867,
-			"views": 83513515,
+			"numPages": 939491,
+			"views": 79652320,
 			"closed": false
 		},
 		"qu": {
 			"url": "https://qu.wikipedia.org",
-			"numPages": 19632,
-			"views": 38879,
+			"numPages": 19691,
+			"views": 61051,
 			"closed": false
 		},
 		"rm": {
 			"url": "https://rm.wikipedia.org",
-			"numPages": 3316,
-			"views": 17044,
+			"numPages": 3351,
+			"views": 19079,
 			"closed": false
 		},
 		"rmy": {
 			"url": "https://rmy.wikipedia.org",
 			"numPages": 585,
-			"views": 7945,
+			"views": 10784,
 			"closed": false
 		},
 		"rn": {
 			"url": "https://rn.wikipedia.org",
-			"numPages": 492,
-			"views": 5262,
+			"numPages": 493,
+			"views": 5821,
 			"closed": false
 		},
 		"ro": {
 			"url": "https://ro.wikipedia.org",
-			"numPages": 371043,
-			"views": 6672465,
+			"numPages": 372168,
+			"views": 7053013,
 			"closed": false
 		},
 		"roa-rup": {
 			"url": "https://roa-rup.wikipedia.org",
-			"numPages": 1190,
-			"views": 12415,
+			"numPages": 1192,
+			"views": 14672,
 			"closed": false
 		},
 		"roa-tara": {
 			"url": "https://roa-tara.wikipedia.org",
-			"numPages": 9224,
-			"views": 12796,
+			"numPages": 9225,
+			"views": 18406,
 			"closed": false
 		},
 		"ru": {
 			"url": "https://ru.wikipedia.org",
-			"numPages": 1332138,
-			"views": 197769073,
+			"numPages": 1346919,
+			"views": 215687534,
 			"closed": false
 		},
 		"rue": {
 			"url": "https://rue.wikipedia.org",
-			"numPages": 5837,
-			"views": 22637,
+			"numPages": 5879,
+			"views": 32654,
 			"closed": false
 		},
 		"rw": {
 			"url": "https://rw.wikipedia.org",
-			"numPages": 1789,
-			"views": 1858622,
+			"numPages": 1796,
+			"views": 25267,
 			"closed": false
 		},
 		"sa": {
 			"url": "https://sa.wikipedia.org",
-			"numPages": 9977,
-			"views": 292719,
+			"numPages": 10183,
+			"views": 57836,
 			"closed": false
 		},
 		"sah": {
 			"url": "https://sah.wikipedia.org",
-			"numPages": 10840,
-			"views": 31047,
+			"numPages": 10917,
+			"views": 46399,
 			"closed": false
 		},
 		"sc": {
 			"url": "https://sc.wikipedia.org",
-			"numPages": 5217,
-			"views": 501974,
+			"numPages": 5230,
+			"views": 28737,
 			"closed": false
 		},
 		"scn": {
 			"url": "https://scn.wikipedia.org",
-			"numPages": 25341,
-			"views": 62017,
+			"numPages": 25352,
+			"views": 84833,
 			"closed": false
 		},
 		"sco": {
 			"url": "https://sco.wikipedia.org",
-			"numPages": 40449,
-			"views": 127401,
+			"numPages": 41463,
+			"views": 155046,
 			"closed": false
 		},
 		"sd": {
 			"url": "https://sd.wikipedia.org",
-			"numPages": 8045,
-			"views": 24922,
+			"numPages": 8044,
+			"views": 31605,
 			"closed": false
 		},
 		"se": {
 			"url": "https://se.wikipedia.org",
-			"numPages": 7241,
-			"views": 267836,
+			"numPages": 7256,
+			"views": 31874,
 			"closed": false
 		},
 		"sg": {
 			"url": "https://sg.wikipedia.org",
-			"numPages": 243,
-			"views": 5476,
+			"numPages": 245,
+			"views": 6487,
 			"closed": false
 		},
 		"sh": {
 			"url": "https://sh.wikipedia.org",
-			"numPages": 434373,
-			"views": 1560602,
+			"numPages": 435421,
+			"views": 1699797,
 			"closed": false
 		},
 		"si": {
 			"url": "https://si.wikipedia.org",
-			"numPages": 12193,
-			"views": 154394,
+			"numPages": 12646,
+			"views": 165261,
 			"closed": false
 		},
 		"simple": {
 			"url": "https://simple.wikipedia.org",
-			"numPages": 120346,
-			"views": 2851609,
+			"numPages": 121067,
+			"views": 3689273,
 			"closed": false
 		},
 		"sk": {
 			"url": "https://sk.wikipedia.org",
-			"numPages": 213633,
-			"views": 3449673,
+			"numPages": 214593,
+			"views": 2988090,
 			"closed": false
 		},
 		"sl": {
 			"url": "https://sl.wikipedia.org",
-			"numPages": 152534,
-			"views": 1607523,
+			"numPages": 153335,
+			"views": 1489919,
 			"closed": false
 		},
 		"sm": {
 			"url": "https://sm.wikipedia.org",
-			"numPages": 740,
-			"views": 44211,
+			"numPages": 743,
+			"views": 10792,
 			"closed": false
 		},
 		"sn": {
 			"url": "https://sn.wikipedia.org",
-			"numPages": 2479,
-			"views": 19744,
+			"numPages": 2579,
+			"views": 23372,
 			"closed": false
 		},
 		"so": {
 			"url": "https://so.wikipedia.org",
-			"numPages": 4054,
-			"views": 238192,
+			"numPages": 4216,
+			"views": 98441,
 			"closed": false
 		},
 		"sq": {
 			"url": "https://sq.wikipedia.org",
-			"numPages": 57937,
-			"views": 590795,
+			"numPages": 60462,
+			"views": 1127319,
 			"closed": false
 		},
 		"sr": {
 			"url": "https://sr.wikipedia.org",
-			"numPages": 337466,
-			"views": 3941261,
+			"numPages": 339586,
+			"views": 4493970,
 			"closed": false
 		},
 		"srn": {
 			"url": "https://srn.wikipedia.org",
-			"numPages": 1041,
-			"views": 7863,
+			"numPages": 1043,
+			"views": 9105,
 			"closed": false
 		},
 		"ss": {
 			"url": "https://ss.wikipedia.org",
 			"numPages": 413,
-			"views": 162211,
+			"views": 8940,
 			"closed": false
 		},
 		"st": {
 			"url": "https://st.wikipedia.org",
-			"numPages": 336,
-			"views": 190571,
+			"numPages": 341,
+			"views": 16069,
 			"closed": false
 		},
 		"stq": {
 			"url": "https://stq.wikipedia.org",
-			"numPages": 3744,
-			"views": 22505,
+			"numPages": 3755,
+			"views": 30299,
 			"closed": false
 		},
 		"su": {
 			"url": "https://su.wikipedia.org",
-			"numPages": 19116,
-			"views": 93561,
+			"numPages": 19163,
+			"views": 124802,
 			"closed": false
 		},
 		"sv": {
 			"url": "https://sv.wikipedia.org",
-			"numPages": 3362361,
-			"views": 20140765,
+			"numPages": 3546892,
+			"views": 21181262,
 			"closed": false
 		},
 		"sw": {
 			"url": "https://sw.wikipedia.org",
-			"numPages": 33756,
-			"views": 363839,
+			"numPages": 34469,
+			"views": 242585,
 			"closed": false
 		},
 		"szl": {
 			"url": "https://szl.wikipedia.org",
-			"numPages": 4991,
-			"views": 25188,
+			"numPages": 5166,
+			"views": 32795,
 			"closed": false
 		},
 		"ta": {
 			"url": "https://ta.wikipedia.org",
-			"numPages": 87854,
-			"views": 779228,
+			"numPages": 88938,
+			"views": 930826,
 			"closed": false
 		},
 		"tcy": {
 			"url": "https://tcy.wikipedia.org",
 			"numPages": 0,
-			"views": 5460,
+			"views": 5974,
 			"closed": false
 		},
 		"te": {
 			"url": "https://te.wikipedia.org",
-			"numPages": 64307,
-			"views": 432377,
+			"numPages": 65642,
+			"views": 523079,
 			"closed": false
 		},
 		"tet": {
 			"url": "https://tet.wikipedia.org",
-			"numPages": 1363,
-			"views": 10740,
+			"numPages": 1383,
+			"views": 13170,
 			"closed": false
 		},
 		"tg": {
 			"url": "https://tg.wikipedia.org",
-			"numPages": 59585,
-			"views": 113056,
+			"numPages": 66837,
+			"views": 92535,
 			"closed": false
 		},
 		"th": {
 			"url": "https://th.wikipedia.org",
-			"numPages": 107230,
-			"views": 12758353,
+			"numPages": 112258,
+			"views": 11165841,
 			"closed": false
 		},
 		"ti": {
 			"url": "https://ti.wikipedia.org",
-			"numPages": 174,
-			"views": 9455,
+			"numPages": 173,
+			"views": 7176,
 			"closed": false
 		},
 		"tk": {
 			"url": "https://tk.wikipedia.org",
-			"numPages": 5196,
-			"views": 25242,
+			"numPages": 5247,
+			"views": 36902,
 			"closed": false
 		},
 		"tl": {
 			"url": "https://tl.wikipedia.org",
-			"numPages": 65280,
-			"views": 2715837,
+			"numPages": 65485,
+			"views": 2399666,
 			"closed": false
 		},
 		"tn": {
 			"url": "https://tn.wikipedia.org",
-			"numPages": 607,
-			"views": 185820,
+			"numPages": 614,
+			"views": 8762,
 			"closed": false
 		},
 		"to": {
 			"url": "https://to.wikipedia.org",
-			"numPages": 1683,
-			"views": 115550,
+			"numPages": 1708,
+			"views": 6641,
 			"closed": false
 		},
 		"tpi": {
 			"url": "https://tpi.wikipedia.org",
-			"numPages": 1291,
-			"views": 12499,
+			"numPages": 1328,
+			"views": 16424,
 			"closed": false
 		},
 		"tr": {
 			"url": "https://tr.wikipedia.org",
-			"numPages": 277473,
-			"views": 25888927,
+			"numPages": 283152,
+			"views": 32438689,
 			"closed": false
 		},
 		"ts": {
 			"url": "https://ts.wikipedia.org",
-			"numPages": 389,
-			"views": 148921,
+			"numPages": 390,
+			"views": 9897,
 			"closed": false
 		},
 		"tt": {
 			"url": "https://tt.wikipedia.org",
-			"numPages": 69390,
-			"views": 119856,
+			"numPages": 69576,
+			"views": 103278,
 			"closed": false
 		},
 		"tum": {
 			"url": "https://tum.wikipedia.org",
-			"numPages": 558,
-			"views": 6054,
+			"numPages": 559,
+			"views": 7308,
 			"closed": false
 		},
 		"tw": {
 			"url": "https://tw.wikipedia.org",
-			"numPages": 576,
-			"views": 7938,
+			"numPages": 580,
+			"views": 8772,
 			"closed": false
 		},
 		"ty": {
 			"url": "https://ty.wikipedia.org",
-			"numPages": 1174,
-			"views": 5874,
+			"numPages": 1177,
+			"views": 9294,
 			"closed": false
 		},
 		"tyv": {
 			"url": "https://tyv.wikipedia.org",
-			"numPages": 1305,
-			"views": 7709,
+			"numPages": 1334,
+			"views": 9533,
 			"closed": false
 		},
 		"udm": {
 			"url": "https://udm.wikipedia.org",
-			"numPages": 3702,
-			"views": 11665,
+			"numPages": 3727,
+			"views": 19238,
 			"closed": false
 		},
 		"ug": {
 			"url": "https://ug.wikipedia.org",
-			"numPages": 2566,
-			"views": 122297,
+			"numPages": 2711,
+			"views": 24065,
 			"closed": false
 		},
 		"uk": {
 			"url": "https://uk.wikipedia.org",
-			"numPages": 645651,
-			"views": 10232705,
+			"numPages": 655239,
+			"views": 11731608,
 			"closed": false
 		},
 		"ur": {
 			"url": "https://ur.wikipedia.org",
-			"numPages": 105874,
-			"views": 468354,
+			"numPages": 108361,
+			"views": 633326,
 			"closed": false
 		},
 		"uz": {
 			"url": "https://uz.wikipedia.org",
-			"numPages": 128663,
-			"views": 477340,
+			"numPages": 128704,
+			"views": 255785,
 			"closed": false
 		},
 		"ve": {
 			"url": "https://ve.wikipedia.org",
-			"numPages": 237,
-			"views": 5587,
+			"numPages": 238,
+			"views": 5997,
 			"closed": false
 		},
 		"vec": {
 			"url": "https://vec.wikipedia.org",
-			"numPages": 10771,
-			"views": 43175,
+			"numPages": 10826,
+			"views": 51983,
 			"closed": false
 		},
 		"vep": {
 			"url": "https://vep.wikipedia.org",
-			"numPages": 5135,
-			"views": 20712,
+			"numPages": 5179,
+			"views": 25918,
 			"closed": false
 		},
 		"vi": {
 			"url": "https://vi.wikipedia.org",
-			"numPages": 1147582,
-			"views": 10611039,
+			"numPages": 1149236,
+			"views": 11182724,
 			"closed": false
 		},
 		"vls": {
 			"url": "https://vls.wikipedia.org",
-			"numPages": 5888,
-			"views": 24037,
+			"numPages": 5894,
+			"views": 33961,
 			"closed": false
 		},
 		"vo": {
 			"url": "https://vo.wikipedia.org",
-			"numPages": 120372,
-			"views": 33543,
+			"numPages": 120394,
+			"views": 59304,
 			"closed": false
 		},
 		"wa": {
 			"url": "https://wa.wikipedia.org",
-			"numPages": 14170,
-			"views": 88459,
+			"numPages": 14244,
+			"views": 35617,
 			"closed": false
 		},
 		"war": {
 			"url": "https://war.wikipedia.org",
-			"numPages": 1261384,
-			"views": 227332,
+			"numPages": 1261807,
+			"views": 217922,
 			"closed": false
 		},
 		"wo": {
 			"url": "https://wo.wikipedia.org",
-			"numPages": 1053,
-			"views": 12430,
+			"numPages": 1055,
+			"views": 15231,
 			"closed": false
 		},
 		"wuu": {
 			"url": "https://wuu.wikipedia.org",
-			"numPages": 5079,
-			"views": 175000,
+			"numPages": 5337,
+			"views": 209668,
 			"closed": false
 		},
 		"xal": {
 			"url": "https://xal.wikipedia.org",
-			"numPages": 2020,
-			"views": 13726,
+			"numPages": 2022,
+			"views": 16561,
 			"closed": false
 		},
 		"xh": {
 			"url": "https://xh.wikipedia.org",
-			"numPages": 533,
-			"views": 10096,
+			"numPages": 564,
+			"views": 10957,
 			"closed": false
 		},
 		"xmf": {
 			"url": "https://xmf.wikipedia.org",
-			"numPages": 7139,
-			"views": 25297,
+			"numPages": 8062,
+			"views": 42678,
 			"closed": false
 		},
 		"yi": {
 			"url": "https://yi.wikipedia.org",
-			"numPages": 13378,
-			"views": 120913,
+			"numPages": 13482,
+			"views": 66278,
 			"closed": false
 		},
 		"yo": {
 			"url": "https://yo.wikipedia.org",
-			"numPages": 31424,
-			"views": 52804,
+			"numPages": 31463,
+			"views": 73773,
 			"closed": false
 		},
 		"za": {
 			"url": "https://za.wikipedia.org",
-			"numPages": 1160,
-			"views": 89243,
+			"numPages": 1161,
+			"views": 13693,
 			"closed": false
 		},
 		"zea": {
 			"url": "https://zea.wikipedia.org",
-			"numPages": 4301,
-			"views": 14535,
+			"numPages": 4302,
+			"views": 17983,
 			"closed": false
 		},
 		"zh": {
 			"url": "https://zh.wikipedia.org",
-			"numPages": 892538,
-			"views": 72081434,
+			"numPages": 904354,
+			"views": 78383595,
 			"closed": false
 		},
 		"zh-classical": {
 			"url": "https://zh-classical.wikipedia.org",
-			"numPages": 4406,
-			"views": 46302,
+			"numPages": 4458,
+			"views": 44161,
 			"closed": false
 		},
 		"zh-min-nan": {
 			"url": "https://zh-min-nan.wikipedia.org",
-			"numPages": 180505,
-			"views": 71481,
+			"numPages": 200728,
+			"views": 117941,
 			"closed": false
 		},
 		"zh-yue": {
 			"url": "https://zh-yue.wikipedia.org",
-			"numPages": 46668,
-			"views": 495696,
+			"numPages": 47328,
+			"views": 502554,
 			"closed": false
 		},
 		"zu": {
 			"url": "https://zu.wikipedia.org",
-			"numPages": 773,
-			"views": 13391,
+			"numPages": 777,
+			"views": 13281,
 			"closed": false
 		}
 	},
@@ -1769,1033 +1775,1033 @@
 		"aa": {
 			"url": "https://aa.wiktionary.org",
 			"numPages": 1,
-			"views": 176,
+			"views": 221,
 			"closed": true
 		},
 		"ab": {
 			"url": "https://ab.wiktionary.org",
 			"numPages": 0,
-			"views": 63,
+			"views": 101,
 			"closed": true
 		},
 		"af": {
 			"url": "https://af.wiktionary.org",
 			"numPages": 15828,
-			"views": 8046,
+			"views": 17981,
 			"closed": false
 		},
 		"ak": {
 			"url": "https://ak.wiktionary.org",
 			"numPages": 0,
-			"views": 30,
+			"views": 51,
 			"closed": true
 		},
 		"als": {
 			"url": "https://als.wiktionary.org",
 			"numPages": 0,
-			"views": 185,
+			"views": 316,
 			"closed": true
 		},
 		"am": {
 			"url": "https://am.wiktionary.org",
-			"numPages": 212,
-			"views": 1224,
+			"numPages": 211,
+			"views": 2983,
 			"closed": false
 		},
 		"an": {
 			"url": "https://an.wiktionary.org",
 			"numPages": 2560,
-			"views": 1537,
+			"views": 10017,
 			"closed": false
 		},
 		"ang": {
 			"url": "https://ang.wiktionary.org",
 			"numPages": 2145,
-			"views": 1790,
+			"views": 5181,
 			"closed": false
 		},
 		"ar": {
 			"url": "https://ar.wiktionary.org",
-			"numPages": 63121,
-			"views": 31895,
+			"numPages": 64249,
+			"views": 77110,
 			"closed": false
 		},
 		"as": {
 			"url": "https://as.wiktionary.org",
 			"numPages": 16,
-			"views": 309,
+			"views": 434,
 			"closed": true
 		},
 		"ast": {
 			"url": "https://ast.wiktionary.org",
 			"numPages": 17336,
-			"views": 2418,
+			"views": 7367,
 			"closed": false
 		},
 		"av": {
 			"url": "https://av.wiktionary.org",
 			"numPages": 0,
-			"views": 18,
+			"views": 68,
 			"closed": true
 		},
 		"ay": {
 			"url": "https://ay.wiktionary.org",
 			"numPages": 864,
-			"views": 1430,
+			"views": 2553,
 			"closed": false
 		},
 		"az": {
 			"url": "https://az.wiktionary.org",
-			"numPages": 47365,
-			"views": 7672,
+			"numPages": 47805,
+			"views": 26752,
 			"closed": false
 		},
 		"be": {
 			"url": "https://be.wiktionary.org",
-			"numPages": 3472,
-			"views": 2313,
+			"numPages": 3506,
+			"views": 4735,
 			"closed": false
 		},
 		"bg": {
 			"url": "https://bg.wiktionary.org",
-			"numPages": 27226,
-			"views": 49273,
+			"numPages": 27228,
+			"views": 138433,
 			"closed": false
 		},
 		"bh": {
 			"url": "https://bh.wiktionary.org",
 			"numPages": 0,
-			"views": 105,
+			"views": 254,
 			"closed": true
 		},
 		"bi": {
 			"url": "https://bi.wiktionary.org",
 			"numPages": 0,
-			"views": 31,
+			"views": 41,
 			"closed": true
 		},
 		"bm": {
 			"url": "https://bm.wiktionary.org",
 			"numPages": 0,
-			"views": 124,
+			"views": 299,
 			"closed": true
 		},
 		"bn": {
 			"url": "https://bn.wiktionary.org",
-			"numPages": 3630,
-			"views": 3110,
+			"numPages": 3637,
+			"views": 5766,
 			"closed": false
 		},
 		"bo": {
 			"url": "https://bo.wiktionary.org",
 			"numPages": 0,
-			"views": 217,
+			"views": 392,
 			"closed": true
 		},
 		"br": {
 			"url": "https://br.wiktionary.org",
-			"numPages": 35528,
-			"views": 5637,
+			"numPages": 35664,
+			"views": 27806,
 			"closed": false
 		},
 		"bs": {
 			"url": "https://bs.wiktionary.org",
 			"numPages": 6649,
-			"views": 2476,
+			"views": 9615,
 			"closed": false
 		},
 		"ca": {
 			"url": "https://ca.wiktionary.org",
-			"numPages": 217826,
-			"views": 80106,
+			"numPages": 222473,
+			"views": 80632,
 			"closed": false
 		},
 		"ch": {
 			"url": "https://ch.wiktionary.org",
 			"numPages": 0,
-			"views": 88,
+			"views": 208,
 			"closed": true
 		},
 		"chr": {
 			"url": "https://chr.wiktionary.org",
-			"numPages": 194429,
-			"views": 5472,
+			"numPages": 194428,
+			"views": 22942,
 			"closed": false
 		},
 		"co": {
 			"url": "https://co.wiktionary.org",
-			"numPages": 9412,
-			"views": 2583,
+			"numPages": 9414,
+			"views": 15325,
 			"closed": false
 		},
 		"cr": {
 			"url": "https://cr.wiktionary.org",
 			"numPages": 0,
-			"views": 56,
+			"views": 107,
 			"closed": true
 		},
 		"cs": {
 			"url": "https://cs.wiktionary.org",
-			"numPages": 80813,
-			"views": 152415,
+			"numPages": 81993,
+			"views": 193451,
 			"closed": false
 		},
 		"csb": {
 			"url": "https://csb.wiktionary.org",
 			"numPages": 1529,
-			"views": 1021,
+			"views": 4942,
 			"closed": false
 		},
 		"cy": {
 			"url": "https://cy.wiktionary.org",
-			"numPages": 24017,
-			"views": 4014,
+			"numPages": 24019,
+			"views": 17432,
 			"closed": false
 		},
 		"da": {
 			"url": "https://da.wiktionary.org",
-			"numPages": 34104,
-			"views": 17744,
+			"numPages": 34970,
+			"views": 38710,
 			"closed": false
 		},
 		"de": {
 			"url": "https://de.wiktionary.org",
-			"numPages": 537807,
-			"views": 1634618,
+			"numPages": 562794,
+			"views": 1800389,
 			"closed": false
 		},
 		"dv": {
 			"url": "https://dv.wiktionary.org",
-			"numPages": 173,
-			"views": 714,
+			"numPages": 179,
+			"views": 2482,
 			"closed": false
 		},
 		"dz": {
 			"url": "https://dz.wiktionary.org",
 			"numPages": 0,
-			"views": 30,
+			"views": 46,
 			"closed": true
 		},
 		"el": {
 			"url": "https://el.wiktionary.org",
-			"numPages": 449871,
-			"views": 696990,
+			"numPages": 450334,
+			"views": 1091430,
 			"closed": false
 		},
 		"en": {
 			"url": "https://en.wiktionary.org",
-			"numPages": 4774750,
-			"views": 12395652,
+			"numPages": 4918141,
+			"views": 11985522,
 			"closed": false
 		},
 		"eo": {
 			"url": "https://eo.wiktionary.org",
-			"numPages": 31200,
-			"views": 6478,
+			"numPages": 31371,
+			"views": 24474,
 			"closed": false
 		},
 		"es": {
 			"url": "https://es.wiktionary.org",
-			"numPages": 841261,
-			"views": 606053,
+			"numPages": 842184,
+			"views": 650114,
 			"closed": false
 		},
 		"et": {
 			"url": "https://et.wiktionary.org",
-			"numPages": 117509,
-			"views": 30482,
+			"numPages": 118535,
+			"views": 34029,
 			"closed": false
 		},
 		"eu": {
 			"url": "https://eu.wiktionary.org",
-			"numPages": 48976,
-			"views": 10235,
+			"numPages": 49058,
+			"views": 23863,
 			"closed": false
 		},
 		"fa": {
 			"url": "https://fa.wiktionary.org",
-			"numPages": 63228,
-			"views": 31305,
+			"numPages": 96436,
+			"views": 55275,
 			"closed": false
 		},
 		"fi": {
 			"url": "https://fi.wiktionary.org",
-			"numPages": 307063,
-			"views": 270652,
+			"numPages": 319462,
+			"views": 273832,
 			"closed": false
 		},
 		"fj": {
 			"url": "https://fj.wiktionary.org",
-			"numPages": 31259,
-			"views": 1932,
+			"numPages": 31262,
+			"views": 7733,
 			"closed": false
 		},
 		"fo": {
 			"url": "https://fo.wiktionary.org",
 			"numPages": 710,
-			"views": 757,
+			"views": 3997,
 			"closed": false
 		},
 		"fr": {
 			"url": "https://fr.wiktionary.org",
-			"numPages": 2966308,
-			"views": 3998091,
+			"numPages": 3000618,
+			"views": 4329849,
 			"closed": false
 		},
 		"fy": {
 			"url": "https://fy.wiktionary.org",
-			"numPages": 13524,
-			"views": 1964,
+			"numPages": 13526,
+			"views": 12926,
 			"closed": false
 		},
 		"ga": {
 			"url": "https://ga.wiktionary.org",
-			"numPages": 2640,
-			"views": 2105,
+			"numPages": 2643,
+			"views": 7058,
 			"closed": false
 		},
 		"gd": {
 			"url": "https://gd.wiktionary.org",
 			"numPages": 1448,
-			"views": 1330,
+			"views": 5546,
 			"closed": false
 		},
 		"gl": {
 			"url": "https://gl.wiktionary.org",
-			"numPages": 47056,
-			"views": 7422,
+			"numPages": 47301,
+			"views": 34940,
 			"closed": false
 		},
 		"gn": {
 			"url": "https://gn.wiktionary.org",
 			"numPages": 1731,
-			"views": 8243,
+			"views": 34570,
 			"closed": false
 		},
 		"gu": {
 			"url": "https://gu.wiktionary.org",
 			"numPages": 420,
-			"views": 1016,
+			"views": 3482,
 			"closed": false
 		},
 		"gv": {
 			"url": "https://gv.wiktionary.org",
 			"numPages": 454,
-			"views": 723,
+			"views": 2373,
 			"closed": false
 		},
 		"ha": {
 			"url": "https://ha.wiktionary.org",
 			"numPages": 258,
-			"views": 543,
+			"views": 1346,
 			"closed": false
 		},
 		"he": {
 			"url": "https://he.wiktionary.org",
-			"numPages": 16580,
-			"views": 127714,
+			"numPages": 16738,
+			"views": 122694,
 			"closed": false
 		},
 		"hi": {
 			"url": "https://hi.wiktionary.org",
-			"numPages": 180211,
-			"views": 50314,
+			"numPages": 179823,
+			"views": 68293,
 			"closed": false
 		},
 		"hr": {
 			"url": "https://hr.wiktionary.org",
-			"numPages": 32163,
-			"views": 100579,
+			"numPages": 32169,
+			"views": 32298,
 			"closed": false
 		},
 		"hsb": {
 			"url": "https://hsb.wiktionary.org",
-			"numPages": 4133,
-			"views": 1183,
+			"numPages": 4132,
+			"views": 6462,
 			"closed": false
 		},
 		"hu": {
 			"url": "https://hu.wiktionary.org",
-			"numPages": 315473,
-			"views": 78931,
+			"numPages": 321327,
+			"views": 127931,
 			"closed": false
 		},
 		"hy": {
 			"url": "https://hy.wiktionary.org",
-			"numPages": 155530,
-			"views": 22055,
+			"numPages": 157287,
+			"views": 49271,
 			"closed": false
 		},
 		"ia": {
 			"url": "https://ia.wiktionary.org",
-			"numPages": 985,
-			"views": 1715,
+			"numPages": 1022,
+			"views": 6488,
 			"closed": false
 		},
 		"id": {
 			"url": "https://id.wiktionary.org",
-			"numPages": 127671,
-			"views": 146816,
+			"numPages": 127842,
+			"views": 191500,
 			"closed": false
 		},
 		"ie": {
 			"url": "https://ie.wiktionary.org",
 			"numPages": 1003,
-			"views": 1160,
+			"views": 3438,
 			"closed": false
 		},
 		"ik": {
 			"url": "https://ik.wiktionary.org",
 			"numPages": 143,
-			"views": 115,
+			"views": 304,
 			"closed": true
 		},
 		"io": {
 			"url": "https://io.wiktionary.org",
-			"numPages": 264595,
-			"views": 13168,
+			"numPages": 266427,
+			"views": 79663,
 			"closed": false
 		},
 		"is": {
 			"url": "https://is.wiktionary.org",
 			"numPages": 21809,
-			"views": 11345,
+			"views": 27348,
 			"closed": false
 		},
 		"it": {
 			"url": "https://it.wiktionary.org",
-			"numPages": 410948,
-			"views": 368173,
+			"numPages": 416785,
+			"views": 498782,
 			"closed": false
 		},
 		"iu": {
 			"url": "https://iu.wiktionary.org",
-			"numPages": 256,
-			"views": 594,
+			"numPages": 255,
+			"views": 2328,
 			"closed": false
 		},
 		"ja": {
 			"url": "https://ja.wiktionary.org",
-			"numPages": 157584,
-			"views": 310024,
+			"numPages": 161718,
+			"views": 316002,
 			"closed": false
 		},
 		"jbo": {
 			"url": "https://jbo.wiktionary.org",
 			"numPages": 725,
-			"views": 761,
+			"views": 1771,
 			"closed": false
 		},
 		"jv": {
 			"url": "https://jv.wiktionary.org",
 			"numPages": 60710,
-			"views": 17647,
+			"views": 19622,
 			"closed": false
 		},
 		"ka": {
 			"url": "https://ka.wiktionary.org",
-			"numPages": 7670,
-			"views": 4738,
+			"numPages": 7686,
+			"views": 14755,
 			"closed": false
 		},
 		"kk": {
 			"url": "https://kk.wiktionary.org",
 			"numPages": 5620,
-			"views": 3706,
+			"views": 6872,
 			"closed": false
 		},
 		"kl": {
 			"url": "https://kl.wiktionary.org",
-			"numPages": 857,
-			"views": 1045,
+			"numPages": 859,
+			"views": 3911,
 			"closed": false
 		},
 		"km": {
 			"url": "https://km.wiktionary.org",
-			"numPages": 3792,
-			"views": 6284,
+			"numPages": 4029,
+			"views": 22397,
 			"closed": false
 		},
 		"kn": {
 			"url": "https://kn.wiktionary.org",
-			"numPages": 261336,
-			"views": 8594,
+			"numPages": 261683,
+			"views": 34894,
 			"closed": false
 		},
 		"ko": {
 			"url": "https://ko.wiktionary.org",
-			"numPages": 284098,
-			"views": 117704,
+			"numPages": 284355,
+			"views": 188767,
 			"closed": false
 		},
 		"ks": {
 			"url": "https://ks.wiktionary.org",
-			"numPages": 49,
-			"views": 272,
+			"numPages": 50,
+			"views": 501,
 			"closed": false
 		},
 		"ku": {
 			"url": "https://ku.wiktionary.org",
-			"numPages": 462280,
-			"views": 27110,
+			"numPages": 500113,
+			"views": 130289,
 			"closed": false
 		},
 		"kw": {
 			"url": "https://kw.wiktionary.org",
-			"numPages": 443,
-			"views": 903,
+			"numPages": 442,
+			"views": 2754,
 			"closed": false
 		},
 		"ky": {
 			"url": "https://ky.wiktionary.org",
-			"numPages": 10066,
-			"views": 3582,
+			"numPages": 11221,
+			"views": 10954,
 			"closed": false
 		},
 		"la": {
 			"url": "https://la.wiktionary.org",
-			"numPages": 12284,
-			"views": 8048,
+			"numPages": 13347,
+			"views": 18328,
 			"closed": false
 		},
 		"lb": {
 			"url": "https://lb.wiktionary.org",
 			"numPages": 6965,
-			"views": 2190,
+			"views": 8051,
 			"closed": false
 		},
 		"li": {
 			"url": "https://li.wiktionary.org",
 			"numPages": 114322,
-			"views": 5326,
+			"views": 21892,
 			"closed": false
 		},
 		"ln": {
 			"url": "https://ln.wiktionary.org",
 			"numPages": 673,
-			"views": 1326,
+			"views": 2521,
 			"closed": false
 		},
 		"lo": {
 			"url": "https://lo.wiktionary.org",
-			"numPages": 37645,
-			"views": 4366,
+			"numPages": 37642,
+			"views": 40371,
 			"closed": false
 		},
 		"lt": {
 			"url": "https://lt.wiktionary.org",
-			"numPages": 615365,
-			"views": 45987,
+			"numPages": 615467,
+			"views": 69412,
 			"closed": false
 		},
 		"lv": {
 			"url": "https://lv.wiktionary.org",
-			"numPages": 9233,
-			"views": 16347,
+			"numPages": 9234,
+			"views": 24449,
 			"closed": false
 		},
 		"mg": {
 			"url": "https://mg.wiktionary.org",
-			"numPages": 3971020,
-			"views": 12979,
+			"numPages": 3979741,
+			"views": 53342,
 			"closed": false
 		},
 		"mh": {
 			"url": "https://mh.wiktionary.org",
 			"numPages": 0,
-			"views": 153,
+			"views": 170,
 			"closed": true
 		},
 		"mi": {
 			"url": "https://mi.wiktionary.org",
 			"numPages": 865,
-			"views": 1137,
+			"views": 3511,
 			"closed": false
 		},
 		"mk": {
 			"url": "https://mk.wiktionary.org",
-			"numPages": 4136,
-			"views": 1274,
+			"numPages": 4176,
+			"views": 7496,
 			"closed": false
 		},
 		"ml": {
 			"url": "https://ml.wiktionary.org",
 			"numPages": 129599,
-			"views": 10258,
+			"views": 41825,
 			"closed": false
 		},
 		"mn": {
 			"url": "https://mn.wiktionary.org",
-			"numPages": 9046,
-			"views": 4403,
+			"numPages": 9199,
+			"views": 25867,
 			"closed": false
 		},
 		"mo": {
 			"url": "https://mo.wiktionary.org",
 			"numPages": 5,
-			"views": 36,
+			"views": 39,
 			"closed": true
 		},
 		"mr": {
 			"url": "https://mr.wiktionary.org",
 			"numPages": 1681,
-			"views": 2129,
+			"views": 6492,
 			"closed": false
 		},
 		"ms": {
 			"url": "https://ms.wiktionary.org",
-			"numPages": 3357,
-			"views": 7037,
+			"numPages": 3355,
+			"views": 13222,
 			"closed": false
 		},
 		"mt": {
 			"url": "https://mt.wiktionary.org",
 			"numPages": 1333,
-			"views": 1502,
+			"views": 5222,
 			"closed": false
 		},
 		"my": {
 			"url": "https://my.wiktionary.org",
-			"numPages": 108912,
-			"views": 6052,
+			"numPages": 108898,
+			"views": 14564,
 			"closed": false
 		},
 		"na": {
 			"url": "https://na.wiktionary.org",
 			"numPages": 554,
-			"views": 679,
+			"views": 1918,
 			"closed": false
 		},
 		"nah": {
 			"url": "https://nah.wiktionary.org",
-			"numPages": 7020,
-			"views": 1331,
+			"numPages": 7018,
+			"views": 6564,
 			"closed": false
 		},
 		"nds": {
 			"url": "https://nds.wiktionary.org",
-			"numPages": 6657,
-			"views": 3268,
+			"numPages": 7042,
+			"views": 17058,
 			"closed": false
 		},
 		"ne": {
 			"url": "https://ne.wiktionary.org",
 			"numPages": 347,
-			"views": 1871,
+			"views": 7501,
 			"closed": false
 		},
 		"nl": {
 			"url": "https://nl.wiktionary.org",
-			"numPages": 538694,
-			"views": 257075,
+			"numPages": 554556,
+			"views": 302948,
 			"closed": false
 		},
 		"nn": {
 			"url": "https://nn.wiktionary.org",
-			"numPages": 11850,
-			"views": 1876,
+			"numPages": 11856,
+			"views": 11584,
 			"closed": false
 		},
 		"no": {
 			"url": "https://no.wiktionary.org",
-			"numPages": 139299,
-			"views": 78752,
+			"numPages": 139377,
+			"views": 86466,
 			"closed": false
 		},
 		"oc": {
 			"url": "https://oc.wiktionary.org",
-			"numPages": 27993,
-			"views": 5808,
+			"numPages": 28410,
+			"views": 25917,
 			"closed": false
 		},
 		"om": {
 			"url": "https://om.wiktionary.org",
 			"numPages": 334,
-			"views": 485,
+			"views": 1652,
 			"closed": false
 		},
 		"or": {
 			"url": "https://or.wiktionary.org",
-			"numPages": 108565,
-			"views": 1064,
+			"numPages": 108569,
+			"views": 13435,
 			"closed": false
 		},
 		"pa": {
 			"url": "https://pa.wiktionary.org",
-			"numPages": 915,
-			"views": 1095,
+			"numPages": 1956,
+			"views": 2374,
 			"closed": false
 		},
 		"pi": {
 			"url": "https://pi.wiktionary.org",
 			"numPages": 1,
-			"views": 76,
+			"views": 170,
 			"closed": true
 		},
 		"pl": {
 			"url": "https://pl.wiktionary.org",
-			"numPages": 522371,
-			"views": 1026415,
+			"numPages": 529011,
+			"views": 1103555,
 			"closed": false
 		},
 		"pnb": {
 			"url": "https://pnb.wiktionary.org",
-			"numPages": 9275,
-			"views": 893,
+			"numPages": 9276,
+			"views": 9480,
 			"closed": false
 		},
 		"ps": {
 			"url": "https://ps.wiktionary.org",
 			"numPages": 25490,
-			"views": 1451,
+			"views": 21688,
 			"closed": false
 		},
 		"pt": {
 			"url": "https://pt.wiktionary.org",
-			"numPages": 219907,
-			"views": 348727,
+			"numPages": 222130,
+			"views": 395199,
 			"closed": false
 		},
 		"qu": {
 			"url": "https://qu.wiktionary.org",
 			"numPages": 299,
-			"views": 989,
+			"views": 2922,
 			"closed": false
 		},
 		"rm": {
 			"url": "https://rm.wiktionary.org",
 			"numPages": 0,
-			"views": 106,
+			"views": 220,
 			"closed": true
 		},
 		"rn": {
 			"url": "https://rn.wiktionary.org",
 			"numPages": 0,
-			"views": 83,
+			"views": 186,
 			"closed": true
 		},
 		"ro": {
 			"url": "https://ro.wiktionary.org",
-			"numPages": 141864,
-			"views": 32804,
+			"numPages": 142010,
+			"views": 81981,
 			"closed": false
 		},
 		"roa-rup": {
 			"url": "https://roa-rup.wiktionary.org",
 			"numPages": 1271,
-			"views": 756,
+			"views": 2777,
 			"closed": false
 		},
 		"ru": {
 			"url": "https://ru.wiktionary.org",
-			"numPages": 780273,
-			"views": 3840762,
+			"numPages": 792794,
+			"views": 4098323,
 			"closed": false
 		},
 		"rw": {
 			"url": "https://rw.wiktionary.org",
-			"numPages": 367,
-			"views": 1018,
+			"numPages": 366,
+			"views": 2864,
 			"closed": false
 		},
 		"sa": {
 			"url": "https://sa.wiktionary.org",
-			"numPages": 4243,
-			"views": 11014,
+			"numPages": 4242,
+			"views": 10581,
 			"closed": false
 		},
 		"sc": {
 			"url": "https://sc.wiktionary.org",
 			"numPages": 0,
-			"views": 104,
+			"views": 205,
 			"closed": true
 		},
 		"scn": {
 			"url": "https://scn.wiktionary.org",
-			"numPages": 18712,
-			"views": 7441,
+			"numPages": 18714,
+			"views": 21502,
 			"closed": false
 		},
 		"sd": {
 			"url": "https://sd.wiktionary.org",
-			"numPages": 1615,
-			"views": 1299,
+			"numPages": 1651,
+			"views": 3322,
 			"closed": false
 		},
 		"sg": {
 			"url": "https://sg.wiktionary.org",
 			"numPages": 111,
-			"views": 801,
+			"views": 2727,
 			"closed": false
 		},
 		"sh": {
 			"url": "https://sh.wiktionary.org",
-			"numPages": 911475,
-			"views": 8874,
+			"numPages": 911488,
+			"views": 26889,
 			"closed": false
 		},
 		"si": {
 			"url": "https://si.wiktionary.org",
-			"numPages": 1111,
-			"views": 1126,
+			"numPages": 1116,
+			"views": 3690,
 			"closed": false
 		},
 		"simple": {
 			"url": "https://simple.wiktionary.org",
-			"numPages": 24764,
-			"views": 82081,
+			"numPages": 24893,
+			"views": 99097,
 			"closed": false
 		},
 		"sk": {
 			"url": "https://sk.wiktionary.org",
-			"numPages": 14780,
-			"views": 5142,
+			"numPages": 15585,
+			"views": 11033,
 			"closed": false
 		},
 		"sl": {
 			"url": "https://sl.wiktionary.org",
-			"numPages": 7600,
-			"views": 4660,
+			"numPages": 7601,
+			"views": 13993,
 			"closed": false
 		},
 		"sm": {
 			"url": "https://sm.wiktionary.org",
-			"numPages": 4767,
-			"views": 1727,
+			"numPages": 4596,
+			"views": 5201,
 			"closed": false
 		},
 		"sn": {
 			"url": "https://sn.wiktionary.org",
 			"numPages": 0,
-			"views": 97,
+			"views": 227,
 			"closed": true
 		},
 		"so": {
 			"url": "https://so.wiktionary.org",
-			"numPages": 1612,
-			"views": 1071,
+			"numPages": 1626,
+			"views": 4911,
 			"closed": false
 		},
 		"sq": {
 			"url": "https://sq.wiktionary.org",
-			"numPages": 7419,
-			"views": 9926,
+			"numPages": 7420,
+			"views": 52611,
 			"closed": false
 		},
 		"sr": {
 			"url": "https://sr.wiktionary.org",
-			"numPages": 184015,
-			"views": 21369,
+			"numPages": 184029,
+			"views": 33361,
 			"closed": false
 		},
 		"ss": {
 			"url": "https://ss.wiktionary.org",
 			"numPages": 292,
-			"views": 642,
+			"views": 1278,
 			"closed": false
 		},
 		"st": {
 			"url": "https://st.wiktionary.org",
 			"numPages": 1341,
-			"views": 1170,
+			"views": 4306,
 			"closed": false
 		},
 		"su": {
 			"url": "https://su.wiktionary.org",
-			"numPages": 258,
-			"views": 1541,
+			"numPages": 260,
+			"views": 4765,
 			"closed": false
 		},
 		"sv": {
 			"url": "https://sv.wiktionary.org",
-			"numPages": 528503,
-			"views": 438639,
+			"numPages": 536687,
+			"views": 635064,
 			"closed": false
 		},
 		"sw": {
 			"url": "https://sw.wiktionary.org",
-			"numPages": 13960,
-			"views": 4612,
+			"numPages": 13961,
+			"views": 12473,
 			"closed": false
 		},
 		"ta": {
 			"url": "https://ta.wiktionary.org",
-			"numPages": 353776,
-			"views": 52838,
+			"numPages": 354095,
+			"views": 77240,
 			"closed": false
 		},
 		"te": {
 			"url": "https://te.wiktionary.org",
-			"numPages": 105253,
-			"views": 6650,
+			"numPages": 105668,
+			"views": 30934,
 			"closed": false
 		},
 		"tg": {
 			"url": "https://tg.wiktionary.org",
-			"numPages": 16475,
-			"views": 2710,
+			"numPages": 16684,
+			"views": 19918,
 			"closed": false
 		},
 		"th": {
 			"url": "https://th.wiktionary.org",
-			"numPages": 128522,
-			"views": 92658,
+			"numPages": 129853,
+			"views": 80409,
 			"closed": false
 		},
 		"ti": {
 			"url": "https://ti.wiktionary.org",
 			"numPages": 115,
-			"views": 1063,
+			"views": 2999,
 			"closed": false
 		},
 		"tk": {
 			"url": "https://tk.wiktionary.org",
 			"numPages": 4525,
-			"views": 1232,
+			"views": 5481,
 			"closed": false
 		},
 		"tl": {
 			"url": "https://tl.wiktionary.org",
-			"numPages": 15161,
-			"views": 27021,
+			"numPages": 15178,
+			"views": 30076,
 			"closed": false
 		},
 		"tn": {
 			"url": "https://tn.wiktionary.org",
 			"numPages": 106,
-			"views": 338,
+			"views": 842,
 			"closed": false
 		},
 		"to": {
 			"url": "https://to.wiktionary.org",
 			"numPages": 0,
-			"views": 66,
+			"views": 156,
 			"closed": true
 		},
 		"tpi": {
 			"url": "https://tpi.wiktionary.org",
 			"numPages": 148,
-			"views": 606,
+			"views": 1834,
 			"closed": false
 		},
 		"tr": {
 			"url": "https://tr.wiktionary.org",
-			"numPages": 330946,
-			"views": 162981,
+			"numPages": 332067,
+			"views": 378529,
 			"closed": false
 		},
 		"ts": {
 			"url": "https://ts.wiktionary.org",
 			"numPages": 361,
-			"views": 628,
+			"views": 1788,
 			"closed": false
 		},
 		"tt": {
 			"url": "https://tt.wiktionary.org",
 			"numPages": 1787,
-			"views": 1729,
+			"views": 9085,
 			"closed": false
 		},
 		"tw": {
 			"url": "https://tw.wiktionary.org",
 			"numPages": 0,
-			"views": 188,
+			"views": 292,
 			"closed": true
 		},
 		"ug": {
 			"url": "https://ug.wiktionary.org",
-			"numPages": 1511,
-			"views": 1129,
+			"numPages": 1512,
+			"views": 3624,
 			"closed": false
 		},
 		"uk": {
 			"url": "https://uk.wiktionary.org",
-			"numPages": 36098,
-			"views": 47370,
+			"numPages": 36164,
+			"views": 53018,
 			"closed": false
 		},
 		"ur": {
 			"url": "https://ur.wiktionary.org",
 			"numPages": 2568,
-			"views": 1597,
+			"views": 3641,
 			"closed": false
 		},
 		"uz": {
 			"url": "https://uz.wiktionary.org",
-			"numPages": 115908,
-			"views": 11614,
+			"numPages": 116155,
+			"views": 18953,
 			"closed": false
 		},
 		"vec": {
 			"url": "https://vec.wiktionary.org",
-			"numPages": 2062,
-			"views": 1797,
+			"numPages": 2079,
+			"views": 3320,
 			"closed": false
 		},
 		"vi": {
 			"url": "https://vi.wiktionary.org",
-			"numPages": 231440,
-			"views": 232532,
+			"numPages": 231530,
+			"views": 263252,
 			"closed": false
 		},
 		"vo": {
 			"url": "https://vo.wiktionary.org",
-			"numPages": 22783,
-			"views": 3009,
+			"numPages": 22809,
+			"views": 13941,
 			"closed": false
 		},
 		"wa": {
 			"url": "https://wa.wiktionary.org",
-			"numPages": 19143,
-			"views": 5070,
+			"numPages": 20896,
+			"views": 21836,
 			"closed": false
 		},
 		"wo": {
 			"url": "https://wo.wiktionary.org",
 			"numPages": 2310,
-			"views": 1116,
+			"views": 6193,
 			"closed": false
 		},
 		"xh": {
 			"url": "https://xh.wiktionary.org",
 			"numPages": 0,
-			"views": 101,
+			"views": 180,
 			"closed": true
 		},
 		"yi": {
 			"url": "https://yi.wiktionary.org",
 			"numPages": 123,
-			"views": 779,
+			"views": 2942,
 			"closed": false
 		},
 		"yo": {
 			"url": "https://yo.wiktionary.org",
 			"numPages": 0,
-			"views": 16,
+			"views": 43,
 			"closed": true
 		},
 		"za": {
 			"url": "https://za.wiktionary.org",
 			"numPages": 179,
-			"views": 293,
+			"views": 864,
 			"closed": true
 		},
 		"zh": {
 			"url": "https://zh.wiktionary.org",
-			"numPages": 832629,
-			"views": 314779,
+			"numPages": 832841,
+			"views": 241686,
 			"closed": false
 		},
 		"zh-min-nan": {
 			"url": "https://zh-min-nan.wiktionary.org",
-			"numPages": 21443,
-			"views": 3800,
+			"numPages": 21475,
+			"views": 14634,
 			"closed": false
 		},
 		"zu": {
 			"url": "https://zu.wiktionary.org",
-			"numPages": 588,
-			"views": 926,
+			"numPages": 593,
+			"views": 2041,
 			"closed": false
 		}
 	},
@@ -2803,727 +2809,727 @@
 		"aa": {
 			"url": "https://aa.wikibooks.org",
 			"numPages": 3,
-			"views": 188,
+			"views": 435,
 			"closed": true
 		},
 		"af": {
 			"url": "https://af.wikibooks.org",
 			"numPages": 51,
-			"views": 896,
+			"views": 10329,
 			"closed": false
 		},
 		"ak": {
 			"url": "https://ak.wikibooks.org",
 			"numPages": 6,
-			"views": 35,
+			"views": 30,
 			"closed": true
 		},
 		"als": {
 			"url": "https://als.wikibooks.org",
 			"numPages": 8,
-			"views": 132,
+			"views": 232,
 			"closed": true
 		},
 		"ang": {
 			"url": "https://ang.wikibooks.org",
 			"numPages": 173,
-			"views": 515,
+			"views": 6472,
 			"closed": true
 		},
 		"ar": {
 			"url": "https://ar.wikibooks.org",
-			"numPages": 1060,
-			"views": 29914,
+			"numPages": 1076,
+			"views": 65741,
 			"closed": false
 		},
 		"as": {
 			"url": "https://as.wikibooks.org",
 			"numPages": 3,
-			"views": 253,
+			"views": 389,
 			"closed": true
 		},
 		"ast": {
 			"url": "https://ast.wikibooks.org",
 			"numPages": 27,
-			"views": 228,
+			"views": 377,
 			"closed": true
 		},
 		"ay": {
 			"url": "https://ay.wikibooks.org",
 			"numPages": 4,
-			"views": 145,
+			"views": 119,
 			"closed": true
 		},
 		"az": {
 			"url": "https://az.wikibooks.org",
-			"numPages": 1780,
-			"views": 5924,
+			"numPages": 1809,
+			"views": 23789,
 			"closed": false
 		},
 		"ba": {
 			"url": "https://ba.wikibooks.org",
 			"numPages": 1,
-			"views": 10,
+			"views": 56,
 			"closed": true
 		},
 		"be": {
 			"url": "https://be.wikibooks.org",
 			"numPages": 33,
-			"views": 865,
+			"views": 1852,
 			"closed": false
 		},
 		"bg": {
 			"url": "https://bg.wikibooks.org",
 			"numPages": 386,
-			"views": 3904,
+			"views": 8780,
 			"closed": false
 		},
 		"bi": {
 			"url": "https://bi.wikibooks.org",
 			"numPages": 0,
-			"views": 98,
+			"views": 185,
 			"closed": true
 		},
 		"bm": {
 			"url": "https://bm.wikibooks.org",
 			"numPages": 7,
-			"views": 179,
+			"views": 215,
 			"closed": true
 		},
 		"bn": {
 			"url": "https://bn.wikibooks.org",
-			"numPages": 267,
-			"views": 5049,
+			"numPages": 305,
+			"views": 7828,
 			"closed": false
 		},
 		"bo": {
 			"url": "https://bo.wikibooks.org",
 			"numPages": 5,
-			"views": 58,
+			"views": 77,
 			"closed": true
 		},
 		"bs": {
 			"url": "https://bs.wikibooks.org",
 			"numPages": 37,
-			"views": 3212,
+			"views": 3922,
 			"closed": false
 		},
 		"ca": {
 			"url": "https://ca.wikibooks.org",
-			"numPages": 4291,
-			"views": 5129,
+			"numPages": 4297,
+			"views": 14922,
 			"closed": false
 		},
 		"ch": {
 			"url": "https://ch.wikibooks.org",
 			"numPages": 4,
-			"views": 78,
+			"views": 105,
 			"closed": true
 		},
 		"co": {
 			"url": "https://co.wikibooks.org",
 			"numPages": 12,
-			"views": 463,
+			"views": 2096,
 			"closed": true
 		},
 		"cs": {
 			"url": "https://cs.wikibooks.org",
-			"numPages": 1911,
-			"views": 11174,
+			"numPages": 1921,
+			"views": 26463,
 			"closed": false
 		},
 		"cv": {
 			"url": "https://cv.wikibooks.org",
 			"numPages": 165,
-			"views": 969,
+			"views": 3093,
 			"closed": false
 		},
 		"cy": {
 			"url": "https://cy.wikibooks.org",
 			"numPages": 30,
-			"views": 612,
+			"views": 1591,
 			"closed": false
 		},
 		"da": {
 			"url": "https://da.wikibooks.org",
 			"numPages": 965,
-			"views": 5764,
+			"views": 10766,
 			"closed": false
 		},
 		"de": {
 			"url": "https://de.wikibooks.org",
-			"numPages": 23930,
-			"views": 655857,
+			"numPages": 24008,
+			"views": 819187,
 			"closed": false
 		},
 		"el": {
 			"url": "https://el.wikibooks.org",
 			"numPages": 364,
-			"views": 6107,
+			"views": 15927,
 			"closed": false
 		},
 		"en": {
 			"url": "https://en.wikibooks.org",
-			"numPages": 54995,
-			"views": 3122688,
+			"numPages": 55479,
+			"views": 3647845,
 			"closed": false
 		},
 		"eo": {
 			"url": "https://eo.wikibooks.org",
 			"numPages": 470,
-			"views": 1253,
+			"views": 3519,
 			"closed": false
 		},
 		"es": {
 			"url": "https://es.wikibooks.org",
-			"numPages": 8447,
-			"views": 538040,
+			"numPages": 8514,
+			"views": 513643,
 			"closed": false
 		},
 		"et": {
 			"url": "https://et.wikibooks.org",
-			"numPages": 161,
-			"views": 1153,
+			"numPages": 162,
+			"views": 3444,
 			"closed": false
 		},
 		"eu": {
 			"url": "https://eu.wikibooks.org",
-			"numPages": 124,
-			"views": 1105,
+			"numPages": 125,
+			"views": 4018,
 			"closed": false
 		},
 		"fa": {
 			"url": "https://fa.wikibooks.org",
-			"numPages": 2470,
-			"views": 30823,
+			"numPages": 2452,
+			"views": 38531,
 			"closed": false
 		},
 		"fi": {
 			"url": "https://fi.wikibooks.org",
-			"numPages": 3467,
-			"views": 51775,
+			"numPages": 3519,
+			"views": 47125,
 			"closed": false
 		},
 		"fr": {
 			"url": "https://fr.wikibooks.org",
-			"numPages": 17593,
-			"views": 226546,
+			"numPages": 17963,
+			"views": 316218,
 			"closed": false
 		},
 		"fy": {
 			"url": "https://fy.wikibooks.org",
 			"numPages": 67,
-			"views": 327,
+			"views": 1710,
 			"closed": false
 		},
 		"ga": {
 			"url": "https://ga.wikibooks.org",
 			"numPages": 1,
-			"views": 27,
+			"views": 25,
 			"closed": true
 		},
 		"gl": {
 			"url": "https://gl.wikibooks.org",
 			"numPages": 957,
-			"views": 1889,
+			"views": 6385,
 			"closed": false
 		},
 		"gn": {
 			"url": "https://gn.wikibooks.org",
 			"numPages": 3,
-			"views": 33,
+			"views": 34,
 			"closed": true
 		},
 		"got": {
 			"url": "https://got.wikibooks.org",
 			"numPages": 4,
-			"views": 34,
+			"views": 13,
 			"closed": true
 		},
 		"gu": {
 			"url": "https://gu.wikibooks.org",
 			"numPages": 6,
-			"views": 218,
+			"views": 173,
 			"closed": true
 		},
 		"he": {
 			"url": "https://he.wikibooks.org",
-			"numPages": 5470,
-			"views": 73588,
+			"numPages": 5475,
+			"views": 71191,
 			"closed": false
 		},
 		"hi": {
 			"url": "https://hi.wikibooks.org",
-			"numPages": 301,
-			"views": 33467,
+			"numPages": 313,
+			"views": 31268,
 			"closed": false
 		},
 		"hr": {
 			"url": "https://hr.wikibooks.org",
-			"numPages": 1155,
-			"views": 16662,
+			"numPages": 1156,
+			"views": 20607,
 			"closed": false
 		},
 		"hu": {
 			"url": "https://hu.wikibooks.org",
-			"numPages": 22775,
-			"views": 28036,
+			"numPages": 23206,
+			"views": 39975,
 			"closed": false
 		},
 		"hy": {
 			"url": "https://hy.wikibooks.org",
 			"numPages": 318,
-			"views": 2837,
+			"views": 7521,
 			"closed": false
 		},
 		"ia": {
 			"url": "https://ia.wikibooks.org",
 			"numPages": 171,
-			"views": 594,
+			"views": 1822,
 			"closed": false
 		},
 		"id": {
 			"url": "https://id.wikibooks.org",
-			"numPages": 3646,
-			"views": 213607,
+			"numPages": 3657,
+			"views": 276727,
 			"closed": false
 		},
 		"ie": {
 			"url": "https://ie.wikibooks.org",
 			"numPages": 66,
-			"views": 365,
+			"views": 1162,
 			"closed": true
 		},
 		"is": {
 			"url": "https://is.wikibooks.org",
 			"numPages": 633,
-			"views": 3393,
+			"views": 10288,
 			"closed": false
 		},
 		"it": {
 			"url": "https://it.wikibooks.org",
-			"numPages": 9764,
-			"views": 106849,
+			"numPages": 9828,
+			"views": 149259,
 			"closed": false
 		},
 		"ja": {
 			"url": "https://ja.wikibooks.org",
-			"numPages": 10646,
-			"views": 519262,
+			"numPages": 10660,
+			"views": 353677,
 			"closed": false
 		},
 		"ka": {
 			"url": "https://ka.wikibooks.org",
-			"numPages": 518,
-			"views": 2400,
+			"numPages": 519,
+			"views": 6821,
 			"closed": false
 		},
 		"kk": {
 			"url": "https://kk.wikibooks.org",
 			"numPages": 115,
-			"views": 12082,
+			"views": 19218,
 			"closed": false
 		},
 		"km": {
 			"url": "https://km.wikibooks.org",
-			"numPages": 157,
-			"views": 1234,
+			"numPages": 179,
+			"views": 4394,
 			"closed": false
 		},
 		"kn": {
 			"url": "https://kn.wikibooks.org",
 			"numPages": 5,
-			"views": 139,
+			"views": 147,
 			"closed": true
 		},
 		"ko": {
 			"url": "https://ko.wikibooks.org",
-			"numPages": 1028,
-			"views": 13992,
+			"numPages": 1023,
+			"views": 37057,
 			"closed": false
 		},
 		"ks": {
 			"url": "https://ks.wikibooks.org",
 			"numPages": 5,
-			"views": 16,
+			"views": 31,
 			"closed": true
 		},
 		"ku": {
 			"url": "https://ku.wikibooks.org",
 			"numPages": 46,
-			"views": 397,
+			"views": 1737,
 			"closed": false
 		},
 		"ky": {
 			"url": "https://ky.wikibooks.org",
 			"numPages": 45,
-			"views": 2422,
+			"views": 4176,
 			"closed": false
 		},
 		"la": {
 			"url": "https://la.wikibooks.org",
 			"numPages": 197,
-			"views": 585,
+			"views": 2393,
 			"closed": false
 		},
 		"lb": {
 			"url": "https://lb.wikibooks.org",
 			"numPages": 5,
-			"views": 136,
+			"views": 125,
 			"closed": true
 		},
 		"li": {
 			"url": "https://li.wikibooks.org",
 			"numPages": 207,
-			"views": 390,
+			"views": 1824,
 			"closed": false
 		},
 		"ln": {
 			"url": "https://ln.wikibooks.org",
 			"numPages": 3,
-			"views": 77,
+			"views": 167,
 			"closed": true
 		},
 		"lt": {
 			"url": "https://lt.wikibooks.org",
 			"numPages": 492,
-			"views": 5885,
+			"views": 9279,
 			"closed": false
 		},
 		"lv": {
 			"url": "https://lv.wikibooks.org",
 			"numPages": 69,
-			"views": 561,
+			"views": 1434,
 			"closed": true
 		},
 		"mg": {
 			"url": "https://mg.wikibooks.org",
 			"numPages": 33,
-			"views": 382,
+			"views": 1258,
 			"closed": false
 		},
 		"mi": {
 			"url": "https://mi.wikibooks.org",
 			"numPages": 0,
-			"views": 35,
+			"views": 51,
 			"closed": true
 		},
 		"mk": {
 			"url": "https://mk.wikibooks.org",
 			"numPages": 736,
-			"views": 6695,
+			"views": 7011,
 			"closed": false
 		},
 		"ml": {
 			"url": "https://ml.wikibooks.org",
 			"numPages": 188,
-			"views": 1630,
+			"views": 4517,
 			"closed": false
 		},
 		"mn": {
 			"url": "https://mn.wikibooks.org",
 			"numPages": 5,
-			"views": 188,
+			"views": 165,
 			"closed": true
 		},
 		"mr": {
 			"url": "https://mr.wikibooks.org",
 			"numPages": 138,
-			"views": 1600,
+			"views": 4915,
 			"closed": false
 		},
 		"ms": {
 			"url": "https://ms.wikibooks.org",
 			"numPages": 276,
-			"views": 1977,
+			"views": 4775,
 			"closed": false
 		},
 		"my": {
 			"url": "https://my.wikibooks.org",
 			"numPages": 0,
-			"views": 24,
+			"views": 52,
 			"closed": true
 		},
 		"na": {
 			"url": "https://na.wikibooks.org",
 			"numPages": 6,
-			"views": 231,
+			"views": 776,
 			"closed": true
 		},
 		"nah": {
 			"url": "https://nah.wikibooks.org",
 			"numPages": 3,
-			"views": 15,
+			"views": 39,
 			"closed": true
 		},
 		"nds": {
 			"url": "https://nds.wikibooks.org",
 			"numPages": 4,
-			"views": 306,
+			"views": 810,
 			"closed": true
 		},
 		"ne": {
 			"url": "https://ne.wikibooks.org",
 			"numPages": 88,
-			"views": 1070,
+			"views": 6183,
 			"closed": false
 		},
 		"nl": {
 			"url": "https://nl.wikibooks.org",
-			"numPages": 6839,
-			"views": 82497,
+			"numPages": 6922,
+			"views": 117339,
 			"closed": false
 		},
 		"no": {
 			"url": "https://no.wikibooks.org",
 			"numPages": 1020,
-			"views": 6245,
+			"views": 8803,
 			"closed": false
 		},
 		"oc": {
 			"url": "https://oc.wikibooks.org",
 			"numPages": 118,
-			"views": 502,
+			"views": 3978,
 			"closed": false
 		},
 		"pa": {
 			"url": "https://pa.wikibooks.org",
 			"numPages": 67,
-			"views": 449,
+			"views": 2225,
 			"closed": false
 		},
 		"pl": {
 			"url": "https://pl.wikibooks.org",
-			"numPages": 6386,
-			"views": 134861,
+			"numPages": 6486,
+			"views": 167217,
 			"closed": false
 		},
 		"ps": {
 			"url": "https://ps.wikibooks.org",
 			"numPages": 4,
-			"views": 105,
+			"views": 156,
 			"closed": true
 		},
 		"pt": {
 			"url": "https://pt.wikibooks.org",
-			"numPages": 7584,
-			"views": 313021,
+			"numPages": 7818,
+			"views": 299534,
 			"closed": false
 		},
 		"qu": {
 			"url": "https://qu.wikibooks.org",
 			"numPages": 8,
-			"views": 117,
+			"views": 345,
 			"closed": true
 		},
 		"rm": {
 			"url": "https://rm.wikibooks.org",
 			"numPages": 3,
-			"views": 189,
+			"views": 89,
 			"closed": true
 		},
 		"ro": {
 			"url": "https://ro.wikibooks.org",
-			"numPages": 861,
-			"views": 6677,
+			"numPages": 862,
+			"views": 12359,
 			"closed": false
 		},
 		"ru": {
 			"url": "https://ru.wikibooks.org",
-			"numPages": 2142,
-			"views": 137011,
+			"numPages": 2158,
+			"views": 141490,
 			"closed": false
 		},
 		"sa": {
 			"url": "https://sa.wikibooks.org",
-			"numPages": 478,
-			"views": 1506,
+			"numPages": 481,
+			"views": 5039,
 			"closed": false
 		},
 		"se": {
 			"url": "https://se.wikibooks.org",
 			"numPages": 5,
-			"views": 190,
+			"views": 785,
 			"closed": true
 		},
 		"si": {
 			"url": "https://si.wikibooks.org",
-			"numPages": 306,
-			"views": 4490,
+			"numPages": 307,
+			"views": 8193,
 			"closed": false
 		},
 		"simple": {
 			"url": "https://simple.wikibooks.org",
 			"numPages": 429,
-			"views": 2953,
+			"views": 5222,
 			"closed": true
 		},
 		"sk": {
 			"url": "https://sk.wikibooks.org",
 			"numPages": 453,
-			"views": 3780,
+			"views": 8338,
 			"closed": false
 		},
 		"sl": {
 			"url": "https://sl.wikibooks.org",
 			"numPages": 250,
-			"views": 1477,
+			"views": 5559,
 			"closed": false
 		},
 		"sq": {
 			"url": "https://sq.wikibooks.org",
-			"numPages": 3307,
-			"views": 11630,
+			"numPages": 3308,
+			"views": 20682,
 			"closed": false
 		},
 		"sr": {
 			"url": "https://sr.wikibooks.org",
 			"numPages": 1127,
-			"views": 2823,
+			"views": 4745,
 			"closed": false
 		},
 		"su": {
 			"url": "https://su.wikibooks.org",
 			"numPages": 8,
-			"views": 326,
+			"views": 1128,
 			"closed": true
 		},
 		"sv": {
 			"url": "https://sv.wikibooks.org",
-			"numPages": 1388,
-			"views": 18990,
+			"numPages": 1389,
+			"views": 24260,
 			"closed": false
 		},
 		"sw": {
 			"url": "https://sw.wikibooks.org",
 			"numPages": 12,
-			"views": 255,
+			"views": 858,
 			"closed": true
 		},
 		"ta": {
 			"url": "https://ta.wikibooks.org",
-			"numPages": 878,
-			"views": 4461,
+			"numPages": 881,
+			"views": 8495,
 			"closed": false
 		},
 		"te": {
 			"url": "https://te.wikibooks.org",
 			"numPages": 57,
-			"views": 1040,
+			"views": 1916,
 			"closed": false
 		},
 		"tg": {
 			"url": "https://tg.wikibooks.org",
 			"numPages": 48,
-			"views": 220,
+			"views": 1186,
 			"closed": false
 		},
 		"th": {
 			"url": "https://th.wikibooks.org",
-			"numPages": 1862,
-			"views": 66744,
+			"numPages": 1964,
+			"views": 44995,
 			"closed": false
 		},
 		"tk": {
 			"url": "https://tk.wikibooks.org",
 			"numPages": 11,
-			"views": 214,
+			"views": 732,
 			"closed": true
 		},
 		"tl": {
 			"url": "https://tl.wikibooks.org",
-			"numPages": 793,
-			"views": 49323,
+			"numPages": 792,
+			"views": 52723,
 			"closed": false
 		},
 		"tr": {
 			"url": "https://tr.wikibooks.org",
 			"numPages": 1152,
-			"views": 21866,
+			"views": 42590,
 			"closed": false
 		},
 		"tt": {
 			"url": "https://tt.wikibooks.org",
 			"numPages": 488,
-			"views": 4268,
+			"views": 7074,
 			"closed": false
 		},
 		"ug": {
 			"url": "https://ug.wikibooks.org",
 			"numPages": 4,
-			"views": 80,
+			"views": 120,
 			"closed": true
 		},
 		"uk": {
 			"url": "https://uk.wikibooks.org",
 			"numPages": 555,
-			"views": 6901,
+			"views": 12367,
 			"closed": false
 		},
 		"ur": {
 			"url": "https://ur.wikibooks.org",
 			"numPages": 238,
-			"views": 1743,
+			"views": 3016,
 			"closed": false
 		},
 		"uz": {
 			"url": "https://uz.wikibooks.org",
 			"numPages": 10,
-			"views": 1026,
+			"views": 1326,
 			"closed": true
 		},
 		"vi": {
 			"url": "https://vi.wikibooks.org",
-			"numPages": 6308,
-			"views": 24510,
+			"numPages": 6578,
+			"views": 19268,
 			"closed": false
 		},
 		"vo": {
 			"url": "https://vo.wikibooks.org",
 			"numPages": 7,
-			"views": 204,
+			"views": 291,
 			"closed": true
 		},
 		"wa": {
 			"url": "https://wa.wikibooks.org",
 			"numPages": 3,
-			"views": 60,
+			"views": 110,
 			"closed": true
 		},
 		"xh": {
 			"url": "https://xh.wikibooks.org",
 			"numPages": 5,
-			"views": 150,
+			"views": 190,
 			"closed": true
 		},
 		"yo": {
 			"url": "https://yo.wikibooks.org",
 			"numPages": 4,
-			"views": 93,
+			"views": 101,
 			"closed": true
 		},
 		"za": {
 			"url": "https://za.wikibooks.org",
 			"numPages": 3,
-			"views": 208,
+			"views": 117,
 			"closed": true
 		},
 		"zh": {
 			"url": "https://zh.wikibooks.org",
-			"numPages": 1651,
-			"views": 36236,
+			"numPages": 1697,
+			"views": 45891,
 			"closed": false
 		},
 		"zh-min-nan": {
 			"url": "https://zh-min-nan.wikibooks.org",
 			"numPages": 29,
-			"views": 344,
+			"views": 1253,
 			"closed": true
 		},
 		"zu": {
 			"url": "https://zu.wikibooks.org",
 			"numPages": 3,
-			"views": 199,
+			"views": 143,
 			"closed": true
 		}
 	},
@@ -3531,535 +3537,535 @@
 		"af": {
 			"url": "https://af.wikiquote.org",
 			"numPages": 11,
-			"views": 925,
+			"views": 1162,
 			"closed": false
 		},
 		"als": {
 			"url": "https://als.wikiquote.org",
 			"numPages": 0,
-			"views": 115,
+			"views": 207,
 			"closed": true
 		},
 		"am": {
 			"url": "https://am.wikiquote.org",
 			"numPages": 2,
-			"views": 415,
+			"views": 387,
 			"closed": true
 		},
 		"ang": {
 			"url": "https://ang.wikiquote.org",
 			"numPages": 13,
-			"views": 384,
+			"views": 483,
 			"closed": true
 		},
 		"ar": {
 			"url": "https://ar.wikiquote.org",
-			"numPages": 510,
-			"views": 35222,
+			"numPages": 648,
+			"views": 45845,
 			"closed": false
 		},
 		"ast": {
 			"url": "https://ast.wikiquote.org",
 			"numPages": 15,
-			"views": 737,
+			"views": 476,
 			"closed": true
 		},
 		"az": {
 			"url": "https://az.wikiquote.org",
-			"numPages": 747,
-			"views": 7379,
+			"numPages": 777,
+			"views": 31961,
 			"closed": false
 		},
 		"be": {
 			"url": "https://be.wikiquote.org",
-			"numPages": 108,
-			"views": 1493,
+			"numPages": 116,
+			"views": 2201,
 			"closed": false
 		},
 		"bg": {
 			"url": "https://bg.wikiquote.org",
-			"numPages": 2279,
-			"views": 21363,
+			"numPages": 2282,
+			"views": 26166,
 			"closed": false
 		},
 		"bm": {
 			"url": "https://bm.wikiquote.org",
 			"numPages": 0,
-			"views": 295,
+			"views": 386,
 			"closed": true
 		},
 		"br": {
 			"url": "https://br.wikiquote.org",
 			"numPages": 32,
-			"views": 503,
+			"views": 719,
 			"closed": false
 		},
 		"bs": {
 			"url": "https://bs.wikiquote.org",
-			"numPages": 4074,
-			"views": 13220,
+			"numPages": 4088,
+			"views": 16413,
 			"closed": false
 		},
 		"ca": {
 			"url": "https://ca.wikiquote.org",
-			"numPages": 2179,
-			"views": 6074,
+			"numPages": 2198,
+			"views": 8049,
 			"closed": false
 		},
 		"co": {
 			"url": "https://co.wikiquote.org",
 			"numPages": 2,
-			"views": 502,
+			"views": 763,
 			"closed": true
 		},
 		"cr": {
 			"url": "https://cr.wikiquote.org",
 			"numPages": 0,
-			"views": 31,
+			"views": 62,
 			"closed": true
 		},
 		"cs": {
 			"url": "https://cs.wikiquote.org",
-			"numPages": 7864,
-			"views": 21740,
+			"numPages": 8003,
+			"views": 27308,
 			"closed": false
 		},
 		"cy": {
 			"url": "https://cy.wikiquote.org",
 			"numPages": 365,
-			"views": 2452,
+			"views": 3076,
 			"closed": false
 		},
 		"da": {
 			"url": "https://da.wikiquote.org",
-			"numPages": 145,
-			"views": 4718,
+			"numPages": 146,
+			"views": 7332,
 			"closed": false
 		},
 		"de": {
 			"url": "https://de.wikiquote.org",
-			"numPages": 7605,
-			"views": 130879,
+			"numPages": 7588,
+			"views": 137069,
 			"closed": false
 		},
 		"el": {
 			"url": "https://el.wikiquote.org",
 			"numPages": 1809,
-			"views": 20107,
+			"views": 23941,
 			"closed": false
 		},
 		"en": {
 			"url": "https://en.wikiquote.org",
-			"numPages": 27488,
-			"views": 1818940,
+			"numPages": 28278,
+			"views": 2126048,
 			"closed": false
 		},
 		"eo": {
 			"url": "https://eo.wikiquote.org",
-			"numPages": 2097,
-			"views": 1413,
+			"numPages": 2098,
+			"views": 2440,
 			"closed": false
 		},
 		"es": {
 			"url": "https://es.wikiquote.org",
-			"numPages": 6248,
-			"views": 265174,
+			"numPages": 6261,
+			"views": 286552,
 			"closed": false
 		},
 		"et": {
 			"url": "https://et.wikiquote.org",
-			"numPages": 302,
-			"views": 3582,
+			"numPages": 304,
+			"views": 4335,
 			"closed": false
 		},
 		"eu": {
 			"url": "https://eu.wikiquote.org",
 			"numPages": 205,
-			"views": 1320,
+			"views": 2268,
 			"closed": false
 		},
 		"fa": {
 			"url": "https://fa.wikiquote.org",
-			"numPages": 4210,
-			"views": 22960,
+			"numPages": 4802,
+			"views": 27278,
 			"closed": false
 		},
 		"fi": {
 			"url": "https://fi.wikiquote.org",
-			"numPages": 378,
-			"views": 20919,
+			"numPages": 400,
+			"views": 26220,
 			"closed": false
 		},
 		"fr": {
 			"url": "https://fr.wikiquote.org",
-			"numPages": 3974,
-			"views": 101512,
+			"numPages": 4042,
+			"views": 119084,
 			"closed": false
 		},
 		"ga": {
 			"url": "https://ga.wikiquote.org",
 			"numPages": 1,
-			"views": 235,
+			"views": 213,
 			"closed": true
 		},
 		"gl": {
 			"url": "https://gl.wikiquote.org",
 			"numPages": 490,
-			"views": 1343,
+			"views": 1930,
 			"closed": false
 		},
 		"gu": {
 			"url": "https://gu.wikiquote.org",
 			"numPages": 412,
-			"views": 1175,
+			"views": 1174,
 			"closed": false
 		},
 		"he": {
 			"url": "https://he.wikiquote.org",
-			"numPages": 2623,
-			"views": 63158,
+			"numPages": 2772,
+			"views": 61548,
 			"closed": false
 		},
 		"hi": {
 			"url": "https://hi.wikiquote.org",
 			"numPages": 167,
-			"views": 6574,
+			"views": 6101,
 			"closed": false
 		},
 		"hr": {
 			"url": "https://hr.wikiquote.org",
-			"numPages": 1429,
-			"views": 10877,
+			"numPages": 1539,
+			"views": 10082,
 			"closed": false
 		},
 		"hu": {
 			"url": "https://hu.wikiquote.org",
-			"numPages": 1245,
-			"views": 23064,
+			"numPages": 1248,
+			"views": 24179,
 			"closed": false
 		},
 		"hy": {
 			"url": "https://hy.wikiquote.org",
-			"numPages": 1615,
-			"views": 7066,
+			"numPages": 1704,
+			"views": 7010,
 			"closed": false
 		},
 		"id": {
 			"url": "https://id.wikiquote.org",
-			"numPages": 1669,
-			"views": 26835,
+			"numPages": 1670,
+			"views": 30614,
 			"closed": false
 		},
 		"is": {
 			"url": "https://is.wikiquote.org",
-			"numPages": 133,
-			"views": 1426,
+			"numPages": 134,
+			"views": 1224,
 			"closed": false
 		},
 		"it": {
 			"url": "https://it.wikiquote.org",
-			"numPages": 24223,
-			"views": 543230,
+			"numPages": 24678,
+			"views": 505558,
 			"closed": false
 		},
 		"ja": {
 			"url": "https://ja.wikiquote.org",
-			"numPages": 838,
-			"views": 25278,
+			"numPages": 839,
+			"views": 23642,
 			"closed": false
 		},
 		"ka": {
 			"url": "https://ka.wikiquote.org",
 			"numPages": 167,
-			"views": 6625,
+			"views": 8763,
 			"closed": false
 		},
 		"kk": {
 			"url": "https://kk.wikiquote.org",
 			"numPages": 1,
-			"views": 2544,
+			"views": 2450,
 			"closed": true
 		},
 		"kn": {
 			"url": "https://kn.wikiquote.org",
 			"numPages": 266,
-			"views": 870,
+			"views": 853,
 			"closed": false
 		},
 		"ko": {
 			"url": "https://ko.wikiquote.org",
-			"numPages": 920,
-			"views": 4925,
+			"numPages": 922,
+			"views": 17309,
 			"closed": false
 		},
 		"kr": {
 			"url": "https://kr.wikiquote.org",
 			"numPages": 0,
-			"views": 292,
+			"views": 507,
 			"closed": true
 		},
 		"ks": {
 			"url": "https://ks.wikiquote.org",
 			"numPages": 0,
-			"views": 10,
+			"views": 26,
 			"closed": true
 		},
 		"ku": {
 			"url": "https://ku.wikiquote.org",
 			"numPages": 243,
-			"views": 1358,
+			"views": 1721,
 			"closed": false
 		},
 		"kw": {
 			"url": "https://kw.wikiquote.org",
 			"numPages": 0,
-			"views": 180,
+			"views": 263,
 			"closed": true
 		},
 		"ky": {
 			"url": "https://ky.wikiquote.org",
 			"numPages": 1,
-			"views": 5195,
+			"views": 4218,
 			"closed": false
 		},
 		"la": {
 			"url": "https://la.wikiquote.org",
 			"numPages": 349,
-			"views": 1529,
+			"views": 2621,
 			"closed": false
 		},
 		"lb": {
 			"url": "https://lb.wikiquote.org",
 			"numPages": 10,
-			"views": 448,
+			"views": 544,
 			"closed": true
 		},
 		"li": {
 			"url": "https://li.wikiquote.org",
 			"numPages": 1077,
-			"views": 849,
+			"views": 1308,
 			"closed": false
 		},
 		"lt": {
 			"url": "https://lt.wikiquote.org",
-			"numPages": 2446,
-			"views": 7620,
+			"numPages": 2452,
+			"views": 7363,
 			"closed": false
 		},
 		"ml": {
 			"url": "https://ml.wikiquote.org",
 			"numPages": 310,
-			"views": 8989,
+			"views": 7115,
 			"closed": false
 		},
 		"mr": {
 			"url": "https://mr.wikiquote.org",
 			"numPages": 43,
-			"views": 825,
+			"views": 1029,
 			"closed": false
 		},
 		"na": {
 			"url": "https://na.wikiquote.org",
 			"numPages": 0,
-			"views": 13,
+			"views": 30,
 			"closed": true
 		},
 		"nds": {
 			"url": "https://nds.wikiquote.org",
 			"numPages": 0,
-			"views": 232,
+			"views": 204,
 			"closed": true
 		},
 		"nl": {
 			"url": "https://nl.wikiquote.org",
-			"numPages": 1003,
-			"views": 20849,
+			"numPages": 1002,
+			"views": 31490,
 			"closed": false
 		},
 		"nn": {
 			"url": "https://nn.wikiquote.org",
 			"numPages": 1699,
-			"views": 1482,
+			"views": 1949,
 			"closed": false
 		},
 		"no": {
 			"url": "https://no.wikiquote.org",
-			"numPages": 327,
-			"views": 3955,
+			"numPages": 325,
+			"views": 4108,
 			"closed": false
 		},
 		"pl": {
 			"url": "https://pl.wikiquote.org",
-			"numPages": 22338,
-			"views": 272353,
+			"numPages": 22455,
+			"views": 280875,
 			"closed": false
 		},
 		"pt": {
 			"url": "https://pt.wikiquote.org",
-			"numPages": 6937,
-			"views": 65804,
+			"numPages": 6976,
+			"views": 61762,
 			"closed": false
 		},
 		"qu": {
 			"url": "https://qu.wikiquote.org",
 			"numPages": 0,
-			"views": 266,
+			"views": 270,
 			"closed": true
 		},
 		"ro": {
 			"url": "https://ro.wikiquote.org",
-			"numPages": 194,
-			"views": 5702,
+			"numPages": 198,
+			"views": 7301,
 			"closed": false
 		},
 		"ru": {
 			"url": "https://ru.wikiquote.org",
-			"numPages": 11096,
-			"views": 352450,
+			"numPages": 11304,
+			"views": 345148,
 			"closed": false
 		},
 		"sa": {
 			"url": "https://sa.wikiquote.org",
 			"numPages": 140,
-			"views": 1215,
+			"views": 888,
 			"closed": false
 		},
 		"simple": {
 			"url": "https://simple.wikiquote.org",
 			"numPages": 588,
-			"views": 10822,
+			"views": 10839,
 			"closed": true
 		},
 		"sk": {
 			"url": "https://sk.wikiquote.org",
-			"numPages": 4520,
-			"views": 12470,
+			"numPages": 4536,
+			"views": 13844,
 			"closed": false
 		},
 		"sl": {
 			"url": "https://sl.wikiquote.org",
-			"numPages": 2045,
-			"views": 3839,
+			"numPages": 2052,
+			"views": 3583,
 			"closed": false
 		},
 		"sq": {
 			"url": "https://sq.wikiquote.org",
-			"numPages": 71,
-			"views": 2081,
+			"numPages": 73,
+			"views": 4839,
 			"closed": false
 		},
 		"sr": {
 			"url": "https://sr.wikiquote.org",
 			"numPages": 227,
-			"views": 3354,
+			"views": 4225,
 			"closed": false
 		},
 		"su": {
 			"url": "https://su.wikiquote.org",
 			"numPages": 1045,
-			"views": 1031,
+			"views": 1258,
 			"closed": false
 		},
 		"sv": {
 			"url": "https://sv.wikiquote.org",
-			"numPages": 545,
-			"views": 10413,
+			"numPages": 542,
+			"views": 12702,
 			"closed": false
 		},
 		"ta": {
 			"url": "https://ta.wikiquote.org",
-			"numPages": 332,
-			"views": 2145,
+			"numPages": 360,
+			"views": 3159,
 			"closed": false
 		},
 		"te": {
 			"url": "https://te.wikiquote.org",
-			"numPages": 395,
-			"views": 1498,
+			"numPages": 402,
+			"views": 1448,
 			"closed": false
 		},
 		"th": {
 			"url": "https://th.wikiquote.org",
-			"numPages": 1361,
-			"views": 6303,
+			"numPages": 1408,
+			"views": 6125,
 			"closed": false
 		},
 		"tk": {
 			"url": "https://tk.wikiquote.org",
 			"numPages": 0,
-			"views": 249,
+			"views": 259,
 			"closed": true
 		},
 		"tr": {
 			"url": "https://tr.wikiquote.org",
-			"numPages": 3292,
-			"views": 118296,
+			"numPages": 3291,
+			"views": 189052,
 			"closed": false
 		},
 		"tt": {
 			"url": "https://tt.wikiquote.org",
 			"numPages": 0,
-			"views": 233,
+			"views": 277,
 			"closed": true
 		},
 		"ug": {
 			"url": "https://ug.wikiquote.org",
 			"numPages": 0,
-			"views": 244,
+			"views": 229,
 			"closed": true
 		},
 		"uk": {
 			"url": "https://uk.wikiquote.org",
-			"numPages": 4506,
-			"views": 55367,
+			"numPages": 4805,
+			"views": 28780,
 			"closed": false
 		},
 		"ur": {
 			"url": "https://ur.wikiquote.org",
-			"numPages": 413,
-			"views": 976,
+			"numPages": 415,
+			"views": 1063,
 			"closed": false
 		},
 		"uz": {
 			"url": "https://uz.wikiquote.org",
 			"numPages": 17,
-			"views": 623,
+			"views": 675,
 			"closed": false
 		},
 		"vi": {
 			"url": "https://vi.wikiquote.org",
-			"numPages": 139,
-			"views": 69176,
+			"numPages": 201,
+			"views": 45689,
 			"closed": false
 		},
 		"vo": {
 			"url": "https://vo.wikiquote.org",
 			"numPages": 0,
-			"views": 233,
+			"views": 276,
 			"closed": true
 		},
 		"wo": {
 			"url": "https://wo.wikiquote.org",
 			"numPages": 1,
-			"views": 450,
+			"views": 410,
 			"closed": false
 		},
 		"za": {
 			"url": "https://za.wikiquote.org",
 			"numPages": 0,
-			"views": 3,
+			"views": 29,
 			"closed": true
 		},
 		"zh": {
 			"url": "https://zh.wikiquote.org",
-			"numPages": 1487,
-			"views": 293673,
+			"numPages": 1495,
+			"views": 282203,
 			"closed": false
 		},
 		"zh-min-nan": {
 			"url": "https://zh-min-nan.wikiquote.org",
 			"numPages": 6,
-			"views": 344,
+			"views": 486,
 			"closed": true
 		}
 	},
@@ -4067,787 +4073,787 @@
 		"ang": {
 			"url": "https://ang.wikisource.org",
 			"numPages": 1,
-			"views": 168,
+			"views": 289,
 			"closed": true
 		},
 		"ar": {
 			"url": "https://ar.wikisource.org",
-			"numPages": 78714,
-			"views": 237823,
+			"numPages": 78728,
+			"views": 406874,
 			"closed": false
 		},
 		"as": {
 			"url": "https://as.wikisource.org",
-			"numPages": 1220,
-			"views": 1734,
+			"numPages": 1231,
+			"views": 2154,
 			"closed": false
 		},
 		"az": {
 			"url": "https://az.wikisource.org",
-			"numPages": 5247,
-			"views": 11846,
+			"numPages": 6220,
+			"views": 25792,
 			"closed": false
 		},
 		"be": {
 			"url": "https://be.wikisource.org",
-			"numPages": 2870,
-			"views": 4720,
+			"numPages": 2846,
+			"views": 6692,
 			"closed": false
 		},
 		"bg": {
 			"url": "https://bg.wikisource.org",
-			"numPages": 1307,
-			"views": 2935,
+			"numPages": 1308,
+			"views": 3665,
 			"closed": false
 		},
 		"bn": {
 			"url": "https://bn.wikisource.org",
-			"numPages": 10881,
-			"views": 33237,
+			"numPages": 11578,
+			"views": 28446,
 			"closed": false
 		},
 		"br": {
 			"url": "https://br.wikisource.org",
-			"numPages": 4943,
-			"views": 4886,
+			"numPages": 5145,
+			"views": 3873,
 			"closed": false
 		},
 		"bs": {
 			"url": "https://bs.wikisource.org",
-			"numPages": 598,
-			"views": 6294,
+			"numPages": 620,
+			"views": 4060,
 			"closed": false
 		},
 		"ca": {
 			"url": "https://ca.wikisource.org",
-			"numPages": 7176,
-			"views": 9487,
+			"numPages": 7150,
+			"views": 11055,
 			"closed": false
 		},
 		"cs": {
 			"url": "https://cs.wikisource.org",
-			"numPages": 38036,
-			"views": 20073,
+			"numPages": 38255,
+			"views": 26425,
 			"closed": false
 		},
 		"cy": {
 			"url": "https://cy.wikisource.org",
-			"numPages": 172,
-			"views": 1191,
+			"numPages": 180,
+			"views": 2098,
 			"closed": false
 		},
 		"da": {
 			"url": "https://da.wikisource.org",
-			"numPages": 2007,
-			"views": 6350,
+			"numPages": 2037,
+			"views": 7457,
 			"closed": false
 		},
 		"de": {
 			"url": "https://de.wikisource.org",
-			"numPages": 383670,
-			"views": 231870,
+			"numPages": 388668,
+			"views": 576981,
 			"closed": false
 		},
 		"el": {
 			"url": "https://el.wikisource.org",
-			"numPages": 8655,
-			"views": 24506,
+			"numPages": 8663,
+			"views": 32344,
 			"closed": false
 		},
 		"en": {
 			"url": "https://en.wikisource.org",
-			"numPages": 583020,
-			"views": 737624,
+			"numPages": 588441,
+			"views": 751551,
 			"closed": false
 		},
 		"eo": {
 			"url": "https://eo.wikisource.org",
-			"numPages": 3545,
-			"views": 2056,
+			"numPages": 3577,
+			"views": 3596,
 			"closed": false
 		},
 		"es": {
 			"url": "https://es.wikisource.org",
-			"numPages": 116112,
-			"views": 296543,
+			"numPages": 112101,
+			"views": 305788,
 			"closed": false
 		},
 		"et": {
 			"url": "https://et.wikisource.org",
-			"numPages": 1950,
-			"views": 5320,
+			"numPages": 1954,
+			"views": 5109,
 			"closed": false
 		},
 		"fa": {
 			"url": "https://fa.wikisource.org",
-			"numPages": 22536,
-			"views": 68628,
+			"numPages": 22939,
+			"views": 75246,
 			"closed": false
 		},
 		"fi": {
 			"url": "https://fi.wikisource.org",
-			"numPages": 9706,
-			"views": 10860,
+			"numPages": 9784,
+			"views": 17019,
 			"closed": false
 		},
 		"fo": {
 			"url": "https://fo.wikisource.org",
 			"numPages": 10,
-			"views": 400,
+			"views": 698,
 			"closed": false
 		},
 		"fr": {
 			"url": "https://fr.wikisource.org",
-			"numPages": 268106,
-			"views": 508776,
+			"numPages": 274525,
+			"views": 594405,
 			"closed": false
 		},
 		"gl": {
 			"url": "https://gl.wikisource.org",
-			"numPages": 400,
-			"views": 952,
+			"numPages": 399,
+			"views": 1694,
 			"closed": false
 		},
 		"gu": {
 			"url": "https://gu.wikisource.org",
-			"numPages": 10761,
-			"views": 6825,
+			"numPages": 11746,
+			"views": 7644,
 			"closed": false
 		},
 		"he": {
 			"url": "https://he.wikisource.org",
-			"numPages": 158803,
-			"views": 185370,
+			"numPages": 160551,
+			"views": 190197,
 			"closed": false
 		},
 		"hr": {
 			"url": "https://hr.wikisource.org",
-			"numPages": 6195,
-			"views": 18141,
+			"numPages": 6200,
+			"views": 21340,
 			"closed": false
 		},
 		"ht": {
 			"url": "https://ht.wikisource.org",
 			"numPages": 12,
-			"views": 325,
+			"views": 353,
 			"closed": true
 		},
 		"hu": {
 			"url": "https://hu.wikisource.org",
-			"numPages": 20807,
-			"views": 5710,
+			"numPages": 20810,
+			"views": 7149,
 			"closed": false
 		},
 		"hy": {
 			"url": "https://hy.wikisource.org",
-			"numPages": 6539,
-			"views": 33375,
+			"numPages": 6567,
+			"views": 30121,
 			"closed": false
 		},
 		"id": {
 			"url": "https://id.wikisource.org",
-			"numPages": 2320,
-			"views": 18456,
+			"numPages": 2340,
+			"views": 26554,
 			"closed": false
 		},
 		"is": {
 			"url": "https://is.wikisource.org",
 			"numPages": 4923,
-			"views": 1381,
+			"views": 1910,
 			"closed": false
 		},
 		"it": {
 			"url": "https://it.wikisource.org",
-			"numPages": 102479,
-			"views": 149213,
+			"numPages": 105258,
+			"views": 193211,
 			"closed": false
 		},
 		"ja": {
 			"url": "https://ja.wikisource.org",
-			"numPages": 7935,
-			"views": 44236,
+			"numPages": 8150,
+			"views": 43589,
 			"closed": false
 		},
 		"kn": {
 			"url": "https://kn.wikisource.org",
 			"numPages": 911,
-			"views": 4868,
+			"views": 4705,
 			"closed": false
 		},
 		"ko": {
 			"url": "https://ko.wikisource.org",
-			"numPages": 16482,
-			"views": 77564,
+			"numPages": 16751,
+			"views": 105223,
 			"closed": false
 		},
 		"la": {
 			"url": "https://la.wikisource.org",
-			"numPages": 4424,
-			"views": 14573,
+			"numPages": 4619,
+			"views": 17193,
 			"closed": false
 		},
 		"li": {
 			"url": "https://li.wikisource.org",
 			"numPages": 1525,
-			"views": 466,
+			"views": 663,
 			"closed": false
 		},
 		"lt": {
 			"url": "https://lt.wikisource.org",
 			"numPages": 540,
-			"views": 3860,
+			"views": 5250,
 			"closed": false
 		},
 		"mk": {
 			"url": "https://mk.wikisource.org",
-			"numPages": 2728,
-			"views": 7094,
+			"numPages": 2724,
+			"views": 4200,
 			"closed": false
 		},
 		"ml": {
 			"url": "https://ml.wikisource.org",
-			"numPages": 18637,
-			"views": 13324,
+			"numPages": 18663,
+			"views": 16593,
 			"closed": false
 		},
 		"mr": {
 			"url": "https://mr.wikisource.org",
-			"numPages": 839,
-			"views": 4205,
+			"numPages": 1331,
+			"views": 6069,
 			"closed": false
 		},
 		"nl": {
 			"url": "https://nl.wikisource.org",
-			"numPages": 5527,
-			"views": 11357,
+			"numPages": 5635,
+			"views": 15130,
 			"closed": false
 		},
 		"no": {
 			"url": "https://no.wikisource.org",
-			"numPages": 4556,
-			"views": 4893,
+			"numPages": 4560,
+			"views": 4385,
 			"closed": false
 		},
 		"or": {
 			"url": "https://or.wikisource.org",
-			"numPages": 384,
-			"views": 1898,
+			"numPages": 458,
+			"views": 2219,
 			"closed": false
 		},
 		"pl": {
 			"url": "https://pl.wikisource.org",
-			"numPages": 428930,
-			"views": 142563,
+			"numPages": 451430,
+			"views": 155060,
 			"closed": false
 		},
 		"pt": {
 			"url": "https://pt.wikisource.org",
-			"numPages": 29783,
-			"views": 80615,
+			"numPages": 29851,
+			"views": 78018,
 			"closed": false
 		},
 		"ro": {
 			"url": "https://ro.wikisource.org",
-			"numPages": 10748,
-			"views": 57860,
+			"numPages": 10841,
+			"views": 88107,
 			"closed": false
 		},
 		"ru": {
 			"url": "https://ru.wikisource.org",
-			"numPages": 374777,
-			"views": 513788,
+			"numPages": 377030,
+			"views": 1429601,
 			"closed": false
 		},
 		"sa": {
 			"url": "https://sa.wikisource.org",
-			"numPages": 9716,
-			"views": 9360,
+			"numPages": 9934,
+			"views": 9297,
 			"closed": false
 		},
 		"sah": {
 			"url": "https://sah.wikisource.org",
 			"numPages": 568,
-			"views": 1688,
+			"views": 1399,
 			"closed": false
 		},
 		"sk": {
 			"url": "https://sk.wikisource.org",
 			"numPages": 62,
-			"views": 998,
+			"views": 1438,
 			"closed": false
 		},
 		"sl": {
 			"url": "https://sl.wikisource.org",
-			"numPages": 12526,
-			"views": 21821,
+			"numPages": 12763,
+			"views": 28782,
 			"closed": false
 		},
 		"sr": {
 			"url": "https://sr.wikisource.org",
-			"numPages": 10404,
-			"views": 29551,
+			"numPages": 10784,
+			"views": 33607,
 			"closed": false
 		},
 		"sv": {
 			"url": "https://sv.wikisource.org",
-			"numPages": 14529,
-			"views": 20183,
+			"numPages": 14742,
+			"views": 25556,
 			"closed": false
 		},
 		"ta": {
 			"url": "https://ta.wikisource.org",
-			"numPages": 5368,
-			"views": 36076,
+			"numPages": 5654,
+			"views": 31605,
 			"closed": false
 		},
 		"te": {
 			"url": "https://te.wikisource.org",
-			"numPages": 11601,
-			"views": 7871,
+			"numPages": 11590,
+			"views": 6393,
 			"closed": false
 		},
 		"th": {
 			"url": "https://th.wikisource.org",
-			"numPages": 6438,
-			"views": 71673,
+			"numPages": 6628,
+			"views": 46611,
 			"closed": false
 		},
 		"tr": {
 			"url": "https://tr.wikisource.org",
-			"numPages": 3170,
-			"views": 31930,
+			"numPages": 3445,
+			"views": 60428,
 			"closed": false
 		},
 		"uk": {
 			"url": "https://uk.wikisource.org",
-			"numPages": 6021,
-			"views": 15629,
+			"numPages": 6242,
+			"views": 15552,
 			"closed": false
 		},
 		"vec": {
 			"url": "https://vec.wikisource.org",
-			"numPages": 3590,
-			"views": 3174,
+			"numPages": 3866,
+			"views": 5643,
 			"closed": false
 		},
 		"vi": {
 			"url": "https://vi.wikisource.org",
-			"numPages": 9069,
-			"views": 19892,
+			"numPages": 9070,
+			"views": 23288,
 			"closed": false
 		},
 		"yi": {
 			"url": "https://yi.wikisource.org",
 			"numPages": 2588,
-			"views": 848,
+			"views": 1094,
 			"closed": false
 		},
 		"zh": {
 			"url": "https://zh.wikisource.org",
-			"numPages": 124336,
-			"views": 194367,
+			"numPages": 178383,
+			"views": 206163,
 			"closed": false
 		},
 		"zh-min-nan": {
 			"url": "https://zh-min-nan.wikisource.org",
 			"numPages": 40,
-			"views": 580,
+			"views": 777,
 			"closed": false
 		}
 	},
 	"wikinews": {
 		"ar": {
 			"url": "https://ar.wikinews.org",
-			"numPages": 2204,
-			"views": 8877,
+			"numPages": 2199,
+			"views": 29362,
 			"closed": false
 		},
 		"bg": {
 			"url": "https://bg.wikinews.org",
-			"numPages": 102,
-			"views": 2727,
+			"numPages": 103,
+			"views": 8070,
 			"closed": false
 		},
 		"bs": {
 			"url": "https://bs.wikinews.org",
 			"numPages": 289,
-			"views": 2291,
+			"views": 6624,
 			"closed": false
 		},
 		"ca": {
 			"url": "https://ca.wikinews.org",
-			"numPages": 3208,
-			"views": 6134,
+			"numPages": 3276,
+			"views": 24154,
 			"closed": false
 		},
 		"cs": {
 			"url": "https://cs.wikinews.org",
-			"numPages": 3311,
-			"views": 6149,
+			"numPages": 3607,
+			"views": 15798,
 			"closed": false
 		},
 		"de": {
 			"url": "https://de.wikinews.org",
-			"numPages": 12955,
-			"views": 30267,
+			"numPages": 13011,
+			"views": 195717,
 			"closed": false
 		},
 		"el": {
 			"url": "https://el.wikinews.org",
-			"numPages": 2851,
-			"views": 3590,
+			"numPages": 2892,
+			"views": 12231,
 			"closed": false
 		},
 		"en": {
 			"url": "https://en.wikinews.org",
-			"numPages": 20927,
-			"views": 180956,
+			"numPages": 20974,
+			"views": 689282,
 			"closed": false
 		},
 		"eo": {
 			"url": "https://eo.wikinews.org",
-			"numPages": 492,
-			"views": 2994,
+			"numPages": 495,
+			"views": 13390,
 			"closed": false
 		},
 		"es": {
 			"url": "https://es.wikinews.org",
-			"numPages": 10095,
-			"views": 52431,
+			"numPages": 10204,
+			"views": 89803,
 			"closed": false
 		},
 		"fa": {
 			"url": "https://fa.wikinews.org",
-			"numPages": 1597,
-			"views": 3360,
+			"numPages": 1598,
+			"views": 14278,
 			"closed": false
 		},
 		"fi": {
 			"url": "https://fi.wikinews.org",
-			"numPages": 386,
-			"views": 3128,
+			"numPages": 387,
+			"views": 12631,
 			"closed": false
 		},
 		"fr": {
 			"url": "https://fr.wikinews.org",
-			"numPages": 18151,
-			"views": 32734,
+			"numPages": 18385,
+			"views": 102722,
 			"closed": false
 		},
 		"he": {
 			"url": "https://he.wikinews.org",
 			"numPages": 244,
-			"views": 2664,
+			"views": 9659,
 			"closed": false
 		},
 		"hu": {
 			"url": "https://hu.wikinews.org",
 			"numPages": 494,
-			"views": 2490,
+			"views": 7275,
 			"closed": true
 		},
 		"it": {
 			"url": "https://it.wikinews.org",
-			"numPages": 8501,
-			"views": 18571,
+			"numPages": 8630,
+			"views": 48209,
 			"closed": false
 		},
 		"ja": {
 			"url": "https://ja.wikinews.org",
-			"numPages": 1067,
-			"views": 12491,
+			"numPages": 1102,
+			"views": 28214,
 			"closed": false
 		},
 		"ko": {
 			"url": "https://ko.wikinews.org",
-			"numPages": 97,
-			"views": 6502,
+			"numPages": 170,
+			"views": 33719,
 			"closed": false
 		},
 		"nl": {
 			"url": "https://nl.wikinews.org",
 			"numPages": 284,
-			"views": 3043,
+			"views": 7119,
 			"closed": true
 		},
 		"no": {
 			"url": "https://no.wikinews.org",
-			"numPages": 600,
-			"views": 3169,
+			"numPages": 618,
+			"views": 13208,
 			"closed": false
 		},
 		"pl": {
 			"url": "https://pl.wikinews.org",
-			"numPages": 11538,
-			"views": 24387,
+			"numPages": 11552,
+			"views": 61987,
 			"closed": false
 		},
 		"pt": {
 			"url": "https://pt.wikinews.org",
-			"numPages": 10436,
-			"views": 24415,
+			"numPages": 10541,
+			"views": 60713,
 			"closed": false
 		},
 		"ro": {
 			"url": "https://ro.wikinews.org",
 			"numPages": 1456,
-			"views": 2962,
+			"views": 14708,
 			"closed": false
 		},
 		"ru": {
 			"url": "https://ru.wikinews.org",
-			"numPages": 10779,
-			"views": 36115,
+			"numPages": 11365,
+			"views": 122516,
 			"closed": false
 		},
 		"sd": {
 			"url": "https://sd.wikinews.org",
 			"numPages": 13,
-			"views": 1920,
+			"views": 4580,
 			"closed": true
 		},
 		"sq": {
 			"url": "https://sq.wikinews.org",
 			"numPages": 736,
-			"views": 694,
+			"views": 5246,
 			"closed": false
 		},
 		"sr": {
 			"url": "https://sr.wikinews.org",
-			"numPages": 76828,
-			"views": 4420,
+			"numPages": 76865,
+			"views": 16266,
 			"closed": false
 		},
 		"sv": {
 			"url": "https://sv.wikinews.org",
 			"numPages": 2077,
-			"views": 1657,
+			"views": 17059,
 			"closed": false
 		},
 		"ta": {
 			"url": "https://ta.wikinews.org",
-			"numPages": 2967,
-			"views": 7074,
+			"numPages": 2977,
+			"views": 17484,
 			"closed": false
 		},
 		"th": {
 			"url": "https://th.wikinews.org",
 			"numPages": 25,
-			"views": 2219,
+			"views": 5572,
 			"closed": true
 		},
 		"tr": {
 			"url": "https://tr.wikinews.org",
-			"numPages": 1128,
-			"views": 4463,
+			"numPages": 1131,
+			"views": 13979,
 			"closed": false
 		},
 		"uk": {
 			"url": "https://uk.wikinews.org",
-			"numPages": 1391,
-			"views": 3777,
+			"numPages": 1396,
+			"views": 11921,
 			"closed": false
 		},
 		"zh": {
 			"url": "https://zh.wikinews.org",
-			"numPages": 5576,
-			"views": 293345,
+			"numPages": 5897,
+			"views": 119175,
 			"closed": false
 		}
 	},
 	"wikiversity": {
 		"ar": {
 			"url": "https://ar.wikiversity.org",
-			"numPages": 1042,
-			"views": 10921,
+			"numPages": 1057,
+			"views": 30145,
 			"closed": false
 		},
 		"cs": {
 			"url": "https://cs.wikiversity.org",
-			"numPages": 3249,
-			"views": 8897,
+			"numPages": 3308,
+			"views": 21002,
 			"closed": false
 		},
 		"de": {
 			"url": "https://de.wikiversity.org",
-			"numPages": 31987,
-			"views": 39426,
+			"numPages": 32490,
+			"views": 731119,
 			"closed": false
 		},
 		"el": {
 			"url": "https://el.wikiversity.org",
-			"numPages": 345,
-			"views": 8749,
+			"numPages": 348,
+			"views": 20972,
 			"closed": false
 		},
 		"en": {
 			"url": "https://en.wikiversity.org",
-			"numPages": 22653,
-			"views": 364909,
+			"numPages": 22752,
+			"views": 679444,
 			"closed": false
 		},
 		"es": {
 			"url": "https://es.wikiversity.org",
-			"numPages": 1551,
-			"views": 152270,
+			"numPages": 1564,
+			"views": 152235,
 			"closed": false
 		},
 		"fi": {
 			"url": "https://fi.wikiversity.org",
-			"numPages": 545,
-			"views": 4318,
+			"numPages": 565,
+			"views": 7579,
 			"closed": false
 		},
 		"fr": {
 			"url": "https://fr.wikiversity.org",
-			"numPages": 11671,
-			"views": 374679,
+			"numPages": 11821,
+			"views": 283893,
 			"closed": false
 		},
 		"it": {
 			"url": "https://it.wikiversity.org",
-			"numPages": 2770,
-			"views": 73192,
+			"numPages": 2814,
+			"views": 99490,
 			"closed": false
 		},
 		"ja": {
 			"url": "https://ja.wikiversity.org",
 			"numPages": 147,
-			"views": 4150,
+			"views": 11335,
 			"closed": false
 		},
 		"ko": {
 			"url": "https://ko.wikiversity.org",
-			"numPages": 87,
-			"views": 4667,
+			"numPages": 95,
+			"views": 16926,
 			"closed": false
 		},
 		"pt": {
 			"url": "https://pt.wikiversity.org",
-			"numPages": 1771,
-			"views": 38773,
+			"numPages": 1818,
+			"views": 44341,
 			"closed": false
 		},
 		"ru": {
 			"url": "https://ru.wikiversity.org",
-			"numPages": 4841,
-			"views": 89750,
+			"numPages": 4876,
+			"views": 87052,
 			"closed": false
 		},
 		"sl": {
 			"url": "https://sl.wikiversity.org",
-			"numPages": 484,
-			"views": 2615,
+			"numPages": 487,
+			"views": 8910,
 			"closed": false
 		},
 		"sv": {
 			"url": "https://sv.wikiversity.org",
-			"numPages": 584,
-			"views": 4034,
+			"numPages": 585,
+			"views": 8525,
 			"closed": false
 		}
 	},
 	"wikivoyage": {
 		"de": {
 			"url": "https://de.wikivoyage.org",
-			"numPages": 15444,
-			"views": 226143,
+			"numPages": 15540,
+			"views": 282435,
 			"closed": false
 		},
 		"el": {
 			"url": "https://el.wikivoyage.org",
-			"numPages": 1196,
-			"views": 6561,
+			"numPages": 1278,
+			"views": 7842,
 			"closed": false
 		},
 		"en": {
 			"url": "https://en.wikivoyage.org",
-			"numPages": 27381,
-			"views": 428595,
+			"numPages": 27544,
+			"views": 452651,
 			"closed": false
 		},
 		"es": {
 			"url": "https://es.wikivoyage.org",
-			"numPages": 2136,
-			"views": 29172,
+			"numPages": 2206,
+			"views": 31686,
 			"closed": false
 		},
 		"fa": {
 			"url": "https://fa.wikivoyage.org",
-			"numPages": 8433,
-			"views": 15932,
+			"numPages": 8441,
+			"views": 14053,
 			"closed": false
 		},
 		"fr": {
 			"url": "https://fr.wikivoyage.org",
-			"numPages": 6290,
-			"views": 41892,
+			"numPages": 6376,
+			"views": 47248,
 			"closed": false
 		},
 		"he": {
 			"url": "https://he.wikivoyage.org",
-			"numPages": 2201,
-			"views": 14669,
+			"numPages": 2081,
+			"views": 20210,
 			"closed": false
 		},
 		"it": {
 			"url": "https://it.wikivoyage.org",
-			"numPages": 6608,
-			"views": 68815,
+			"numPages": 6709,
+			"views": 83835,
 			"closed": false
 		},
 		"nl": {
 			"url": "https://nl.wikivoyage.org",
-			"numPages": 3613,
-			"views": 11569,
+			"numPages": 3621,
+			"views": 16862,
 			"closed": false
 		},
 		"pl": {
 			"url": "https://pl.wikivoyage.org",
-			"numPages": 3634,
-			"views": 14562,
+			"numPages": 3772,
+			"views": 20253,
 			"closed": false
 		},
 		"pt": {
 			"url": "https://pt.wikivoyage.org",
-			"numPages": 3430,
-			"views": 11699,
+			"numPages": 3436,
+			"views": 16765,
 			"closed": false
 		},
 		"ro": {
 			"url": "https://ro.wikivoyage.org",
-			"numPages": 925,
-			"views": 1790,
+			"numPages": 929,
+			"views": 4738,
 			"closed": false
 		},
 		"ru": {
 			"url": "https://ru.wikivoyage.org",
-			"numPages": 4223,
-			"views": 97937,
+			"numPages": 4387,
+			"views": 60102,
 			"closed": false
 		},
 		"sv": {
 			"url": "https://sv.wikivoyage.org",
 			"numPages": 1501,
-			"views": 4239,
+			"views": 7248,
 			"closed": false
 		},
 		"uk": {
 			"url": "https://uk.wikivoyage.org",
-			"numPages": 603,
-			"views": 8379,
+			"numPages": 605,
+			"views": 10506,
 			"closed": false
 		},
 		"vi": {
 			"url": "https://vi.wikivoyage.org",
 			"numPages": 1597,
-			"views": 10525,
+			"views": 14029,
 			"closed": false
 		},
 		"zh": {
 			"url": "https://zh.wikivoyage.org",
-			"numPages": 1659,
-			"views": 8807,
+			"numPages": 1739,
+			"views": 10981,
 			"closed": false
 		}
 	}
