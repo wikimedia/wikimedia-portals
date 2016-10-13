@@ -1,0 +1,47 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilja.mos",
+			"Mashoi7"
+		]
+	},
+	"language-button-text": "Luve Wikipediedy omal kielel",
+	"wiki": {
+		"name": "Wikipedii",
+		"slogan": "Välly tiedosanakniigu",
+		"entries": "kirjutustu"
+	},
+	"wiktionary": {
+		"name": "Wikisanakniigu",
+		"slogan": "Välly sanakniigu"
+	},
+	"wikibooks": {
+		"name": "Wikikirjasto",
+		"slogan": "Välly tiedokirjasto",
+		"entries": "sivut"
+	},
+	"wikinews": {
+		"name": "Wikiuudizet",
+		"slogan": "Välly uudislähteh",
+		"entries": "kirjutukset"
+	},
+	"wikiquote": {
+		"name": "Wikisituatniekku",
+		"slogan": "Välly situattukogomus",
+		"entries": "kirjutukset"
+	},
+	"wikisource": {
+		"name": "Wikitiekku",
+		"slogan": "Välly kirjasto"
+	},
+	"wikiversity": {
+		"name": "Wikiopisto",
+		"slogan": "Välly opastusymbäristö"
+	},
+	"wikivoyage": {
+		"name": "Wikigiidu"
+	},
+	"commons": {
+		"name": "Commons"
+	}
+}

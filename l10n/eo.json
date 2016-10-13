@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Kastanoto"
 		]
 	},
 	"language-name": "Esperanto",
+	"language-button-text": "Legi Vikipedion en via lingvo",
+	"footer-description": "Vikipedio estas gastigata de la Fondaĵo Vikimedio, ne-profit-dona organizaĵo, kiu ankaŭ gastigas klekajn aliajn projektojn.",
 	"wiki": {
 		"name": "Vikipedio",
 		"slogan": "La libera enciklopedio",
@@ -12,18 +15,22 @@
 	},
 	"wiktionary": {
 		"name": "Vikivortaro",
-		"slogan": "Libera vortaro"
+		"slogan": "Libera vortaro",
+		"entries": "terminoj"
 	},
 	"wikibooks": {
 		"name": "Vikilibroj",
+		"slogan": "Liberaj lernolibroj",
 		"entries": "paĝoj"
 	},
 	"wikinews": {
 		"name": "Vikinovaĵoj",
+		"slogan": "Libera fonto de novaĵoj",
 		"entries": "artikoloj"
 	},
 	"wikiquote": {
 		"name": "Vikicitaro",
+		"slogan": "Libera kolekto de citaĵoj",
 		"entries": "artikoloj"
 	},
 	"wikisource": {
@@ -31,15 +38,32 @@
 		"slogan": "Libera biblioteko"
 	},
 	"wikiversity": {
-		"name": "Vikiversitato"
+		"name": "Vikiversitato",
+		"slogan": "Liberaj kursoj",
+		"entries": "lerniloj"
 	},
 	"wikivoyage": {
-		"name": "Vikivojaĝo"
+		"name": "Vikivojaĝo",
+		"slogan": "Libera vojaĝada gvidilo"
+	},
+	"commons": {
+		"name": "Komunejo",
+		"slogan": "Libere uzeblaj fotoj kaj pli"
 	},
 	"wikispecies": {
-		"name": "Vikispecioj"
+		"name": "Vikispecioj",
+		"slogan": "Libera katalogo de specioj"
 	},
 	"wikidata": {
-		"name": "Vikidatumoj"
+		"name": "Vikidatumoj",
+		"slogan": "Libera bazo de scio"
+	},
+	"mediawiki": {
+		"name": "MediaVikio",
+		"slogan": "Libera kaj senpaga programo por vikioj"
+	},
+	"metawiki": {
+		"name": "Meta-Vikio",
+		"slogan": "Komunuma kunordigado kaj dokumentaro"
 	}
 }

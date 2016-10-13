@@ -42,10 +42,12 @@
 		"name": "Commons"
 	},
 	"wikispecies": {
-		"name": "Wikispecies"
+		"name": "Wikispecies",
+		"slogan": "Wolny katalog gatunków"
 	},
 	"wikidata": {
-		"name": "Wikidane"
+		"name": "Wikidane",
+		"slogan": "Wolna baza wiedzy"
 	},
 	"mediawiki": {
 		"name": "MediaWiki"

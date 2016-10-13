@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"StanProg"
+			"StanProg",
+			"Spas.Z.Spasov",
+			"Vodnokon4e"
 		]
 	},
 	"language-name": "Български",
 	"language-name-romanized": "Bǎlgarski",
 	"language-name-romanized-sorted": "Balgarski",
+	"language-button-text": "Четете Уикипедия на вашия език",
 	"wiki": {
 		"name": "Уикипедия",
 		"slogan": "Cвободната енциклопедия",
@@ -44,5 +47,22 @@
 	"wikivoyage": {
 		"name": "Уикипътешественик",
 		"slogan": "Свободният туристически пътеводител"
+	},
+	"commons": {
+		"name": "Общомедия"
+	},
+	"wikispecies": {
+		"name": "Уикивидове"
+	},
+	"wikidata": {
+		"name": "Уикиданни",
+		"slogan": "Свободна база от знания"
+	},
+	"mediawiki": {
+		"name": "МедияУики"
+	},
+	"metawiki": {
+		"name": "Мета-уики",
+		"slogan": "Координация и документация на общността"
 	}
 }

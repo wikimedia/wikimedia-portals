@@ -7,6 +7,8 @@
 		]
 	},
 	"language-name": "Magyar",
+	"language-button-text": "Olvasd a Wikipédiát az anyanyelveden",
+	"footer-description": "A Wikipédiát a Wikimédia Alapítvány üzemelteti, egy nonprofit szervezet, ami sok más projektet is üzemeltet.",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "A szabad enciklopédia",
@@ -44,5 +46,25 @@
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "Szabad útikalauz"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Szabad felhasználású fényképek és egyebek"
+	},
+	"wikispecies": {
+		"name": "Wikifajok",
+		"slogan": "Szabad fajmutató"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Szabad tudásbázis"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Szabad és nyílt wikiprogram"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Közösségi koordináció és dokumentáció"
 	}
 }

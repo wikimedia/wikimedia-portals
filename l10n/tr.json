@@ -4,13 +4,15 @@
 			"Alpkant",
 			"Ece Alpdeniz",
 			"Jandre3000",
-			"1917 Ekim Devrimi"
+			"1917 Ekim Devrimi",
+			"Velg"
 		]
 	},
 	"language-name": "Türkçe",
 	"language-name-romanized": "Turkce",
 	"language-name-romanized-sorted": "Turkce",
 	"language-button-text": "Vikipediyi kendi  dilinde oku",
+	"footer-description": "Vikipedi, Wikimedia Vakfı'nın bir dizi projeyi bünyesinde barındıran kar amacı gütmeyen bir kuruluştur.",
 	"wiki": {
 		"name": "Vikipedi",
 		"slogan": "Özgür Ansiklopedi",
@@ -54,15 +56,19 @@
 		"slogan": "Serbestçe kullanılabilir fotoğraflar ve daha fazlası"
 	},
 	"wikispecies": {
-		"name": "Vikitür"
+		"name": "Vikitür",
+		"slogan": "Ücretsiz tür dizini"
 	},
 	"wikidata": {
-		"name": "Vikiveri"
+		"name": "Vikiveri",
+		"slogan": "Ücretsiz Bilgi Bankası"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Ücretsiz & açık wiki uygulaması"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Koordinasyon ve Dokümantasyon topluluğu"
 	}
 }
