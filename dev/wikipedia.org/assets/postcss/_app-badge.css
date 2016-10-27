@@ -1,5 +1,5 @@
 .app-badges {
-    background-color: #f8f9fa;
+    background-color: var( --background-color-code );
 }
 
 .app-badges .footer-sidebar-text {
@@ -9,7 +9,6 @@
 
 .app-badges .footer-sidebar-icon {
     top: 0.5rem;
-    left: 0.5rem;
 }
 
 .app-badges ul {
@@ -22,10 +21,6 @@
     .app-badges .footer-sidebar-content {
         max-width: 350px;
         text-align: center;
-    }
-
-    .app-badges .footer-sidebar-text {
-        padding-left: 0;
     }
 
     .app-badges .footer-sidebar-icon {
@@ -41,14 +36,14 @@
     .app-badge {
         float: left;
         width: 49%;
-        text-align: center;
     }
+
     .app-badge-ios a,
     .app-badge-android a {
         display: block;
     }
+
     .app-badge-ios {
-        clear: left;
         border-right: 1px solid;
     }
 
