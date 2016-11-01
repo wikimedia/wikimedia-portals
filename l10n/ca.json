@@ -1,28 +1,67 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
 	"language-name": "Català",
 	"language-name-romanized-sorted": "Catala",
+	"language-button-text": "Llegiu la Viquipèdia en el vostre idioma",
 	"wiki": {
 		"name": "Viquipèdia",
-		"slogan": "L'enciclopèdia lliure"
+		"slogan": "L’enciclopèdia lliure",
+		"entries": "articles"
 	},
 	"wiktionary": {
 		"name": "Viccionari",
-		"slogan": "El diccionari lliure"
+		"slogan": "El diccionari lliure",
+		"entries": "lemes"
 	},
 	"wikibooks": {
 		"name": "Viquillibres",
-		"slogan": "La biblioteca de llibres de text i manuals lliures"
+		"slogan": "La biblioteca de llibres de text i manuals lliures",
+		"entries": "pàgines"
 	},
 	"wikinews": {
 		"name": "Viquinotícies",
+		"slogan": "Font de notícies lliures",
 		"entries": "notícies"
 	},
 	"wikiquote": {
-		"name": "Viquidites"
+		"name": "Viquidites",
+		"slogan": "Compendi de cites lliure",
+		"entries": "articles"
 	},
 	"wikisource": {
 		"name": "Viquitexts",
-		"slogan": "La Biblioteca Lliure"
+		"slogan": "Biblioteca lliure"
+	},
+	"wikiversity": {
+		"name": "Viquiversitat",
+		"slogan": "Materials per a cursos lliures",
+		"entries": "recursos per a l’aprenentatge"
+	},
+	"wikivoyage": {
+		"name": "Viquiviatges",
+		"slogan": "Guia de viatges lliure"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Fotos i molt més, tot utilitzable lliurement"
+	},
+	"wikispecies": {
+		"slogan": "Directori d’espècies lliure"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Base de coneixements lliure"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Aplicació wiki lliure i oberta"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Coordinació i documentació comunitàries"
 	}
 }

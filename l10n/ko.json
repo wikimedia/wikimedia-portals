@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"Kwj2772"
 		]
 	},
 	"language-name": "한국어",
@@ -25,29 +26,37 @@
 	},
 	"wikinews": {
 		"name": "위키뉴스",
+		"slogan": "자유로운 뉴스 컨텐츠",
 		"entries": "문서"
 	},
 	"wikiquote": {
 		"name": "위키인용집",
+		"slogan": "자유 인용 모음집",
 		"entries": "문서"
 	},
 	"wikisource": {
-		"name": "위키문헌"
+		"name": "위키문헌",
+		"slogan": "자유 컨텐츠 도서관"
 	},
 	"wikiversity": {
-		"name": "위키배움터"
+		"name": "위키배움터",
+		"entries": "학습 자료"
 	},
 	"wikivoyage": {
-		"name": "위키여행"
+		"name": "위키여행",
+		"slogan": "자유 여행 가이드"
 	},
 	"commons": {
-		"name": "공용"
+		"name": "공용",
+		"slogan": "자유 미디어 저장소"
 	},
 	"wikispecies": {
-		"name": "위키스피시즈"
+		"name": "위키스피시즈",
+		"slogan": "자유로운 생물 도감"
 	},
 	"wikidata": {
-		"name": "위키데이터"
+		"name": "위키데이터",
+		"slogan": "자유 지식 베이스"
 	},
 	"mediawiki": {
 		"name": "미디어위키"

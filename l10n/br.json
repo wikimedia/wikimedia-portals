@@ -6,6 +6,8 @@
 		]
 	},
 	"language-name": "Brezhoneg",
+	"language-button-text": "Lenn Wikipedia en ho yezh",
+	"footer-description": "Gant an diazezadur Wikipedia eo herberc'hiet Wikipedia. Un aozadur hep pal kenwerzhel eo hag a herberc'h kalz a raktresoù all ivez.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "An Holloueziadur digor",
@@ -13,7 +15,8 @@
 	},
 	"wiktionary": {
 		"name": "Wikeriadur",
-		"slogan": "Ar geriadur frank"
+		"slogan": "Ar geriadur frank",
+		"entries": "Pennadoù"
 	},
 	"wikibooks": {
 		"name": "Wikilevrioù",
@@ -42,5 +45,25 @@
 	"wikivoyage": {
 		"name": "Wikibeaj",
 		"slogan": "Levr beajiñ digoust"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Luc'hskeudennoù ha traoù all  c'haller implijout en un doar frank"
+	},
+	"wikispecies": {
+		"name": "Wikispesadoù",
+		"slogan": "Roll frank ar spesadoù"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Diaz gouiziegezhioù frank"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Arload wiki frank ha digor"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Kumuniezh ha kenurzhiañ ar gumuniezh"
 	}
 }

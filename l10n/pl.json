@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Woytecr"
 		]
 	},
 	"language-name": "Polski",
 	"language-button-text": "Czytaj Wikipedię w swoim języku",
+	"footer-description": "Wikipedia jest hostowana przez Fundację Wikimedia, organizację non-profit, która także prowadzi szereg innych projektów.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Wolna encyklopedia",
@@ -23,6 +25,7 @@
 	},
 	"wikinews": {
 		"name": "Wikinews",
+		"slogan": "Wolne źródło informacji",
 		"entries": "hasel"
 	},
 	"wikiquote": {
@@ -34,12 +37,18 @@
 		"name": "Wikiźródła",
 		"slogan": "Wolne materiały źródłowe"
 	},
+	"wikiversity": {
+		"name": "Wikiwersytet",
+		"slogan": "Wolne materiały edukacyjne",
+		"entries": "zasoby edukacyjne"
+	},
 	"wikivoyage": {
 		"name": "Wikipodróże",
 		"slogan": "Przewodnik Turystyczny"
 	},
 	"commons": {
-		"name": "Commons"
+		"name": "Commons",
+		"slogan": "Zdjęcia do swobodnego wykorzystywania"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -50,9 +59,11 @@
 		"slogan": "Wolna baza wiedzy"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Darmowa i otwarta aplikacja wiki"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Koordynacja społeczności i dokumentacja"
 	}
 }
