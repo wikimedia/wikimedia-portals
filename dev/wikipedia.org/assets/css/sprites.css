@@ -1,4 +1,51 @@
 
+.sprite-bookshelf_icons {
+  background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons.png?16ed124e8ca7c5ce9d463e8f99b2064427366360');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .sprite-bookshelf_icons {
+    background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@1.5x.png?89f815b53cd5e1c90bdbf33cab3d7dd7315c1542');
+    background-size: 41px 100px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .sprite-bookshelf_icons {
+    background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@2x.png?6c9a2be9831ea07622eac47882c66102caaca511');
+    background-size: 41px 100px;
+  }
+}
+
+.sprite-bookshelf_icons-arrow-down-blue {
+  background-position: -0px -0px;
+  width: 9px;
+  height: 5px;
+}
+.sprite-bookshelf_icons-caretDown {
+  background-position: -0px -5px;
+  width: 12px;
+  height: 12px;
+}
+.sprite-bookshelf_icons-translate-icon {
+  background-position: -0px -17px;
+  width: 23px;
+  height: 18px;
+}
+.sprite-bookshelf_icons-Bookshelf {
+  background-position: -0px -35px;
+  width: 40px;
+  height: 20px;
+}
+.sprite-bookshelf_icons-search-icon {
+  background-position: -0px -55px;
+  width: 20px;
+  height: 20px;
+}
+.sprite-bookshelf_icons-arrow-up-white {
+  background-position: -0px -75px;
+  width: 41px;
+  height: 25px;
+}
+
 .sprite-project-logos {
   background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos.png?05cee9edffc98f2ddb8094269aee09b58ca5e52b');
 }
@@ -89,51 +136,4 @@
   background-position: -0px -488px;
   width: 35px;
   height: 47px;
-}
-
-.sprite-bookshelf_icons {
-  background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons.png?16ed124e8ca7c5ce9d463e8f99b2064427366360');
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  .sprite-bookshelf_icons {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@1.5x.png?89f815b53cd5e1c90bdbf33cab3d7dd7315c1542');
-    background-size: 41px 100px;
-  }
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .sprite-bookshelf_icons {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@2x.png?6c9a2be9831ea07622eac47882c66102caaca511');
-    background-size: 41px 100px;
-  }
-}
-
-.sprite-bookshelf_icons-arrow-down-blue {
-  background-position: -0px -0px;
-  width: 9px;
-  height: 5px;
-}
-.sprite-bookshelf_icons-caretDown {
-  background-position: -0px -5px;
-  width: 12px;
-  height: 12px;
-}
-.sprite-bookshelf_icons-translate-icon {
-  background-position: -0px -17px;
-  width: 23px;
-  height: 18px;
-}
-.sprite-bookshelf_icons-Bookshelf {
-  background-position: -0px -35px;
-  width: 40px;
-  height: 20px;
-}
-.sprite-bookshelf_icons-search-icon {
-  background-position: -0px -55px;
-  width: 20px;
-  height: 20px;
-}
-.sprite-bookshelf_icons-arrow-up-white {
-  background-position: -0px -75px;
-  width: 41px;
-  height: 25px;
 }
