@@ -13,6 +13,7 @@
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
+		"slogan": "Brīvā vārdnīca",
 		"entries": "ieraksti"
 	},
 	"wikibooks": {
@@ -23,5 +24,14 @@
 	},
 	"wikiquote": {
 		"entries": "raksti"
+	},
+	"wikivoyage": {
+		"slogan": "Brīvs ceļojumu gids"
+	},
+	"wikidata": {
+		"slogan": "Brīva zināšanu bāze"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
 	}
 }

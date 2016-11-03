@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Robin van der Vliet",
-			"Kastanoto"
+			"Kastanoto",
+			"KuboF"
 		]
 	},
 	"language-name": "Esperanto",
 	"language-button-text": "Legi Vikipedion en via lingvo",
-	"footer-description": "Vikipedio estas gastigata de la Fondaĵo Vikimedio, ne-profit-dona organizaĵo, kiu ankaŭ gastigas kelkajn aliajn projektojn.",
+	"footer-description": "Vikipedio estas gastigata de la Fondaĵo Vikimedio, ne-profit-cela organizaĵo, kiu ankaŭ gastigas kelkajn aliajn projektojn.",
 	"wiki": {
 		"name": "Vikipedio",
 		"slogan": "La libera enciklopedio",

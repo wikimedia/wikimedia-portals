@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Olimar"
 		]
 	},
 	"language-name": "Suomi",
@@ -41,15 +42,27 @@
 		"entries": "artikkelia"
 	},
 	"wikivoyage": {
+		"name": "Wikivoyage",
 		"slogan": "Vapaa matkaopas"
 	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Vapaasti käytettäviä kuvia ja tiedostoja"
+	},
 	"wikispecies": {
+		"name": "Wikispecies",
 		"slogan": "Vapaa lajihakemisto"
 	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Vapaa tietokanta"
+	},
 	"mediawiki": {
+		"name": "MediaWiki",
 		"slogan": "Ilmainen & avoin wikisovellus"
 	},
 	"metawiki": {
+		"name": "Meta-Wiki",
 		"slogan": "Yhteisön koordinointi ja dokumentointi"
 	}
 }
