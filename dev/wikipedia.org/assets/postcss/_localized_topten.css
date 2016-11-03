@@ -6,9 +6,14 @@
  * https://www.mediawiki.org/wiki/Wikipedia.org_Portal_A/B_testing
  */
 
+.js-enabled .jsl10n,
 .js-enabled .central-featured,
 .js-enabled #js-localized-slogan {
     visibility: hidden;
+}
+
+.jsl10n-visible .jsl10n {
+    visibility: visible;
 }
 
 .search-container {
@@ -37,12 +42,14 @@
 }
 
 @media all and ( max-width: 480px ) {
-	.central-textlogo img {
-		margin-top: 8px;
-	}
-	.localized-slogan {
-		margin-left: 18px;
-	}
+    .central-textlogo img {
+        margin-top: 8px;
+    }
+
+    .localized-slogan {
+        margin-left: 18px;
+    }
+
     .search-container {
         margin-top: 0;
     }
