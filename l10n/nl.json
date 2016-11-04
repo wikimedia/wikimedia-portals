@@ -6,6 +6,8 @@
 		]
 	},
 	"language-name": "Nederlands",
+	"language-button-text": "Lees Wikipedia in uw taal",
+	"footer-description": "Wikipedia wordt gehost door de Wikimedia Foundation, een non-profitorganisatie die ook andere projecten host.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "De vrije encyclopedie",
@@ -43,5 +45,25 @@
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "Vrije, wereldwijde reisgids"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Vrij te gebruiken foto's en meer"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Open lijst van soorten"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Open kennisbank"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Vrije en open wiki-applicatie"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Communitycoördinatie en documentatie"
 	}
 }
