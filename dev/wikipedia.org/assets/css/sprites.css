@@ -1,64 +1,54 @@
 
-.sprite-bookshelf_icons {
-  background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons.png?16ed124e8ca7c5ce9d463e8f99b2064427366360');
+.sprite-icons {
+  background-image: url('portal/wikipedia.org/assets/img/sprite-icons.png?27378e2bb51199321b32dd1ac3f5cd755adc21a5');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  .sprite-bookshelf_icons {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@1.5x.png?89f815b53cd5e1c90bdbf33cab3d7dd7315c1542');
-    background-size: 41px 100px;
+  .sprite-icons {
+    background-image: url('portal/wikipedia.org/assets/img/sprite-icons@1.5x.png?8b4adbf1a17a5d1b55e73aa53a5e859294cfe718');
+    background-size: 23px 55px;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .sprite-bookshelf_icons {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-bookshelf_icons@2x.png?6c9a2be9831ea07622eac47882c66102caaca511');
-    background-size: 41px 100px;
+  .sprite-icons {
+    background-image: url('portal/wikipedia.org/assets/img/sprite-icons@2x.png?896c2ebd1d3ad62927487d7ab07fa88213d5bfe8');
+    background-size: 23px 55px;
   }
 }
 
-.sprite-bookshelf_icons-arrow-down-blue {
+.sprite-icons-arrow-down-blue {
   background-position: -0px -0px;
   width: 9px;
   height: 5px;
 }
-.sprite-bookshelf_icons-caretDown {
+.sprite-icons-arrow-down {
   background-position: -0px -5px;
   width: 12px;
   height: 12px;
 }
-.sprite-bookshelf_icons-translate-icon {
+.sprite-icons-translate-icon {
   background-position: -0px -17px;
   width: 23px;
   height: 18px;
 }
-.sprite-bookshelf_icons-Bookshelf {
+.sprite-icons-search-icon {
   background-position: -0px -35px;
-  width: 40px;
-  height: 20px;
-}
-.sprite-bookshelf_icons-search-icon {
-  background-position: -0px -55px;
   width: 20px;
   height: 20px;
 }
-.sprite-bookshelf_icons-arrow-up-white {
-  background-position: -0px -75px;
-  width: 41px;
-  height: 25px;
-}
 
 .sprite-project-logos {
-  background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos.png?05cee9edffc98f2ddb8094269aee09b58ca5e52b');
+  background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos.png?dea6426c061216dfcba1d2d57d33f4ee315df1c2');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .sprite-project-logos {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@1.5x.png?7a6de5f6f8800ddf02f77b943e0074fb541294db');
-    background-size: 88px 535px;
+    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@1.5x.png?c7e7dd97044bf399e9b7d70d147c0f35c42c4aa8');
+    background-size: 47px 504px;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .sprite-project-logos {
-    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@2x.png?fad0c92d584e6117242fe92278ea8f9594356bf3');
-    background-size: 88px 535px;
+    background-image: url('portal/wikipedia.org/assets/img/sprite-project-logos@2x.png?601e923fc4b474342bb07cedd9ecf7ec11da36d4');
+    background-size: 47px 504px;
   }
 }
 
@@ -77,63 +67,58 @@
   width: 35px;
   height: 28px;
 }
-.sprite-project-logos-wikimedia-button {
+.sprite-project-logos-Wiktionary-logo_sister {
   background-position: -0px -80px;
-  width: 88px;
-  height: 31px;
-}
-.sprite-project-logos-Wikivoyage-logo_sister {
-  background-position: -0px -111px;
   width: 35px;
   height: 35px;
 }
 .sprite-project-logos-Wikibooks-logo_sister {
-  background-position: -0px -146px;
+  background-position: -0px -115px;
+  width: 35px;
+  height: 35px;
+}
+.sprite-project-logos-Wikivoyage-logo_sister {
+  background-position: -0px -150px;
   width: 35px;
   height: 35px;
 }
 .sprite-project-logos-Meta-logo_sister {
-  background-position: -0px -181px;
-  width: 35px;
-  height: 35px;
-}
-.sprite-project-logos-Wiktionary-logo_sister {
-  background-position: -0px -216px;
+  background-position: -0px -185px;
   width: 35px;
   height: 35px;
 }
 .sprite-project-logos-MediaWiki-logo_sister {
-  background-position: -0px -251px;
+  background-position: -0px -220px;
   width: 47px;
   height: 36px;
 }
 .sprite-project-logos-Wikisource-logo_sister {
-  background-position: -0px -287px;
+  background-position: -0px -256px;
   width: 35px;
   height: 37px;
 }
 .sprite-project-logos-Wikimedia-logo-grey {
-  background-position: -0px -323px;
+  background-position: -0px -292px;
   width: 40px;
   height: 41px;
 }
 .sprite-project-logos-Wikispecies-logo_sister {
-  background-position: -0px -364px;
+  background-position: -0px -333px;
   width: 35px;
   height: 41px;
 }
 .sprite-project-logos-Wikiquote-logo_sister {
-  background-position: -0px -405px;
+  background-position: -0px -374px;
   width: 35px;
   height: 42px;
 }
 .sprite-project-logos-Wikipedia_app_tile {
-  background-position: -0px -446px;
+  background-position: -0px -415px;
   width: 42px;
   height: 42px;
 }
 .sprite-project-logos-Commons-logo_sister {
-  background-position: -0px -488px;
+  background-position: -0px -457px;
   width: 35px;
   height: 47px;
 }

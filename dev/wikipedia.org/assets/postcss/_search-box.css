@@ -30,7 +30,7 @@
     z-index: var( --ss-button-z-index );
 }
 
-.search-container .sprite-bookshelf_icons-search-icon {
+.search-container .sprite-icons-search-icon {
     display: inline-block;
     vertical-align: middle;
 }
@@ -59,7 +59,7 @@
   margin-right: 0.5rem;
  }
 
-.search-container .sprite-bookshelf_icons-caretDown {
+.search-container .sprite-icons-arrow-down {
     display: inline-block;
     vertical-align: middle;
     position: absolute;
