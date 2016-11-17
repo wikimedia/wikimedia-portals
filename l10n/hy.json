@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Beko",
+			"Irus"
 		]
 	},
 	"language-name": "Հայերեն",
 	"language-name-romanized": "Hayeren",
 	"language-button-text": "Կարդացեք Վիքիպեդիան ձեր լեզվով",
+	"footer-description": "Վիքիպեդիան կառավարում է շահույթ չհետապնդող՝ Վիքիմեդիա Հիմնադրամ կազմակերպությունը, որը նաև ղեկավարում է մի շարք այլ նախագծեր։",
 	"wiki": {
 		"name": "Վիքիպեդիա",
 		"slogan": "Ազատ հանրագիտարան",
@@ -38,6 +41,7 @@
 	},
 	"wikiversity": {
 		"name": "Վիքիլսարան",
+		"slogan": "Ազատ ուսումնական նյութեր",
 		"entries": "ուսուցման ռեսուրսներ"
 	},
 	"wikivoyage": {

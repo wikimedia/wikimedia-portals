@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mechanizatar"
+			"Mechanizatar",
+			"Artificial123"
 		]
 	},
 	"language-name": "Беларуская (Акадэмічная)",
 	"language-name-romanized": "Belaruskaya (Akademichnaya)",
 	"language-name-romanized-sorted": "Belaruskaya Akademichnaya",
 	"language-button-text": "Чытайце Вікіпедыю на сваёй мове",
+	"footer-description": "Вікіпедыя арганізавана Вікімедыяй - некамерцыйнай арганізацыяй, якая таксама праводзіць шэраг іншых праектаў.",
 	"wiki": {
 		"name": "Вікіпедыя",
 		"slogan": "Свабодная энцыклапедыя",
@@ -15,7 +17,8 @@
 	},
 	"wiktionary": {
 		"name": "Вікіслоўнік",
-		"slogan": "Свабодны слоўнік"
+		"slogan": "Свабодны слоўнік",
+		"entries": "запісы"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
@@ -29,6 +32,7 @@
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
+		"slogan": "Свабодны кампендыум цытат",
 		"entries": "артыкулы"
 	},
 	"wikisource": {
@@ -41,7 +45,8 @@
 		"entries": "адукацыйныя рэсурсы"
 	},
 	"wikivoyage": {
-		"name": "Віківандроўка"
+		"name": "Віківандроўка",
+		"slogan": "Свабодны даведнік"
 	},
 	"commons": {
 		"name": "Сховішча",
@@ -56,9 +61,11 @@
 		"slogan": "База ведаў"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Свабоднае і адкрытае прыкладанне"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Каардынацыя і дакументацыя супольнасцей"
 	}
 }
