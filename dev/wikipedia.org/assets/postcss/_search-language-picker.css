@@ -142,13 +142,12 @@
     line-height: var( --ss-height );
     font-size: 0.8rem;
     text-transform: uppercase;
-
     margin: 0;
 }
 /* END JS only lang selector idea */
 
 .styled-select select:hover {
-    background-color: var( --ss-c-grey-focus );
+    background-color: var( --ss-c-grey-hover );
 }
 .styled-select select::-ms-expand {
     display: none; /* hide default down arrow in IE10 */
