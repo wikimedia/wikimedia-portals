@@ -47,19 +47,19 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 .pure-button-hover,
 .pure-button:hover {
-    background-color: var( --background-color-framed-hover );
-    color: var( --color-base-hover );
-    border-color: var( --border-color-base-hover );
+    background-color: var( --background-color-framed--hover );
+    color: var( --color-base--hover );
+    border-color: var( --border-color-base--hover );
 }
 .pure-button-active,
 .pure-button:active {
     background-color: #d9d9d9;
-    color: var( --color-base-active );
-    border-color: var( --border-color-base-active );
+    color: var( --color-base--active );
+    border-color: var( --border-color-base--active );
 }
 .pure-button:focus {
-    border-color: var( --color-primary-focus );
-    box-shadow: var( --box-shadow-base-focus );
+    border-color: var( --color-primary--focus );
+    box-shadow: var( --box-shadow-base--focus );
     outline: 0;
 }
 
@@ -153,38 +153,38 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     color: var( --color-primary );
 }
 .pure-button-progressive:hover {
-    background-color: var( --color-primary-hover );
-    border-color: var( --color-primary-hover );
+    background-color: var( --color-primary--hover );
+    border-color: var( --color-primary--hover );
 }
 .pure-button-progressive:active {
-    color: var( --color-primary-active );
-    border-color: var( --color-primary-active );
+    color: var( --color-primary--active );
+    border-color: var( --color-primary--active );
     box-shadow: none;
 }
 .pure-button-progressive:focus {
-    box-shadow: inset 0 0 0 1px var( --color-primary-focus );
-    border-color: var( --color-primary-focus );
+    box-shadow: inset 0 0 0 1px var( --color-primary--focus );
+    border-color: var( --color-primary--focus );
 }
 
 .pure-button-primary-progressive {
     background-color: var( --color-primary );
     border-color: var( --color-primary );
-    color: var( --color-base-contrast );
+    color: var( --color-base--contrast );
 }
 .pure-button-primary-progressive:hover {
-    background: var( --color-primary-hover );
-    border-color: var( --color-primary-hover );
+    background: var( --color-primary--hover );
+    border-color: var( --color-primary--hover );
 }
 .pure-button-primary-progressive:active {
-    color: var( --color-base-contrast );
-    background-color: var( --color-primary-active );
-    border-color: var( --color-primary-active );
+    color: var( --color-base--contrast );
+    background-color: var( --color-primary--active );
+    border-color: var( --color-primary--active );
     box-shadow: none;
 
 }
 .pure-button-primary-progressive:focus {
     box-shadow: inset 0 0 0 1px #fff;
-    border-color: var( --color-primary-focus );
+    border-color: var( --color-primary--focus );
 }
 
 .button-xsmall {
