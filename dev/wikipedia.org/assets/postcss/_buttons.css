@@ -129,7 +129,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 }
 
 .pure-button-primary-destructive {
-    color: var( --color-base-contrast );
+    color: var( --color-base--inverted );
     background-color: var( --color-destructive );
     border-color: var( --color-destructive );
 }
@@ -138,13 +138,13 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     border-color: #e53939;
 }
 .pure-button-primary-destructive:active {
-    color: var( --color-base-contrast );
+    color: var( --color-base--inverted );
     background-color: #73100a;
     border-color: #73100a;
     box-shadow: none;
 }
 .pure-button-primary-destructive:focus {
-    box-shadow: inset 0 0 0 1px var( --color-base-contrast );
+    box-shadow: inset 0 0 0 1px var( --color-base--inverted );
     border-color: var( --color-destructive );
 }
 
@@ -169,14 +169,14 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .pure-button-primary-progressive {
     background-color: var( --color-primary );
     border-color: var( --color-primary );
-    color: var( --color-base--contrast );
+    color: var( --color-base--inverted );
 }
 .pure-button-primary-progressive:hover {
     background: var( --color-primary--hover );
     border-color: var( --color-primary--hover );
 }
 .pure-button-primary-progressive:active {
-    color: var( --color-base--contrast );
+    color: var( --color-base--inverted );
     background-color: var( --color-primary--active );
     border-color: var( --color-primary--active );
     box-shadow: none;

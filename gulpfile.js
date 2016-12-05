@@ -14,6 +14,8 @@ var gulp = require( 'gulp' ),
 	sprity = require( 'sprity' ),
 	postCSSNext = require( 'postcss-cssnext' ),
 	postCSSImport = require( 'postcss-import' ),
+	postCSSReporter = require( 'postcss-reporter' ),
+	gulpStylelint = require( 'gulp-stylelint' ),
 	del = require( 'del' );
 
 var plugins = gulpLoadPlugins(),
@@ -297,8 +299,18 @@ gulp.task( 'lint-js', function () {
 		.pipe( plugins.jscs.reporter( 'fail' ) );
 } );
 
-gulp.task( 'lint-css', function lintCssTask() {
-	const gulpStylelint = require( 'gulp-stylelint' );
+gulp.task( 'validate-postCSS', function () {
+	return gulp
+		.src( [ 'dev/**/postcss/*.css', '!dev/**/postcss/_*.css' ] )
+		.pipe( plugins.postcss( [
+				postCSSImport(),
+				postCSSNext( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } ),
+				postCSSReporter( { clearMessages: true, throwError: true } )
+			], { map: { inline: true } }
+			) );
+} );
+
+gulp.task( 'lint-css', [ 'validate-postCSS' ], function () {
 
 	return gulp
 		.src( 'dev/**/postcss/*.css' )

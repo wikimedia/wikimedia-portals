@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "test": "node ./tests/lint.js",
+    "test": "./node_modules/.bin/gulp -- lint",
     "casperjs": "casperjs test ./tests/casper.js",
     "elbucketing": "casperjs test ./tests/elbucketing.js",
     "el-abtest3": "casperjs test ./tests/el-abtest3.js",
@@ -29,7 +29,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-rev": "^6.0.1",
     "gulp-rev-replace": "^0.4.3",
-    "gulp-stylelint": "^3.0.0",
+    "gulp-stylelint": "^3.5.0",
     "gulp-uglify": "^1.4.2",
     "gulp-useref": "^3.0.5",
     "handlebars": "^4.0.4",
@@ -40,6 +40,7 @@
     "moment": "^2.10.6",
     "postcss-cssnext": "^2.4.0",
     "postcss-import": "^8.0.2",
+    "postcss-reporter": "^2.0.0",
     "preq": "^0.4.6",
     "sprity": "^1.0.8",
     "stylelint-config-wikimedia": "^0.3.0",

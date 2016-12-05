@@ -61,18 +61,18 @@ hr {
 }
 
 .lang-list-button:hover {
-    background-color: var( --background-color-framed-hover );
-    border-color: var( --border-color-base-hover );
+    background-color: var( --background-color-framed--hover );
+    border-color: var( --border-color-base--hover );
 }
 
 .lang-list-button:focus {
-    border-color: var( --color-primary-focus );
-    box-shadow: inset 0 0 0 1px var( --color-primary-focus );
+    border-color: var( --color-primary--focus );
+    box-shadow: inset 0 0 0 1px var( --color-primary--focus );
 }
 
 .lang-list-active .lang-list-button {
-    background-color: var( --background-color-framed-hover );
-    border-color: var( --border-color-base-active );
+    background-color: var( --background-color-framed--hover );
+    border-color: var( --border-color-base--active );
     outline: 1px solid #fff;
     transition-delay: 0s;
 }
