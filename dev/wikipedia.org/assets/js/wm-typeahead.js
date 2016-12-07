@@ -8,16 +8,16 @@
  * @param {string} searchInput - ID of a search input whose value will be used to generate search suggestions.
  *
  * @return {Object} Returns an object with the following properties:
- * @return {Element} WMTypeAhead.typeAheadEl - The type-ahead DOM object
- * @return {Function} WMTypeAhead.query - a function that loads the type-ahead suggestions.
+ * @return {HTMLElement} return.typeAheadEl The type-ahead DOM object.
+ * @return {Function} return.query A function that loads the type-ahead suggestions.
  *
  * @example
  * var typeAhead = new WMTypeAhead('containerID', 'inputID');
  * typeAhead.query('search string', 'en');
  *
-*/
+ */
 
-/* global addEvent, mw, getDevicePixelRatio */
+/* global addEvent, getDevicePixelRatio */
 /* exported WMTypeAhead */
 
 var WMTypeAhead = function ( appendTo, searchInput ) {
@@ -82,7 +82,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 
 			for ( var callback in this.queue ) {
 				if ( callback < j ) {
-					this.queue[ callback ]  = this.deleteSelfFromQueue.bind( window.callbackStack, callback );
+					this.queue[ callback ] = this.deleteSelfFromQueue.bind( window.callbackStack, callback );
 				}
 			}
 		}
@@ -101,12 +101,18 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		},
 		increment: function ( i ) {
 			this.index += i;
-			if ( this.index < 0 ) { this.setIndex( this.max - 1 ); } // index reaches top
-			if ( this.index === this.max ) { this.setIndex( 0 ); } // index reaches bottom
+			if ( this.index < 0 ) {
+				this.setIndex( this.max - 1 );
+			} // index reaches top
+			if ( this.index === this.max ) {
+				this.setIndex( 0 );
+			} // index reaches bottom
 			return this.index;
 		},
 		setIndex: function ( i ) {
-			if ( i <= this.max - 1 ) { this.index = i; }
+			if ( i <= this.max - 1 ) {
+				this.index = i;
+			}
 			return this.index;
 		},
 		clear: function () {
@@ -128,7 +134,9 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		setTimeout( function () {
 			typeAheadEl.innerHTML = '';
 			var searchScript = document.getElementById( 'api_opensearch' );
-			if ( searchScript ) { searchScript.src = false; }
+			if ( searchScript ) {
+				searchScript.src = false;
+			}
 			ssActiveIndex.clear();
 		}, 300 );
 	}
@@ -163,26 +171,27 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		script.id = 'api_opensearch';
 
 		var callbackIndex = window.callbackStack.addCallback( window.portalOpensearchCallback ),
-		searchQuery = {
-			action: 'query',
-			format: 'json',
-			generator: 'prefixsearch',
-			prop: 'pageprops|pageimages|pageterms',
-			redirects: '',
-			ppprop: 'displaytitle',
-			piprop: 'thumbnail',
-			pithumbsize: thumbnailSize,
-			pilimit: maxSearchResults,
-			wbptterms: 'description',
-			gpssearch: string,
-			gpsnamespace: 0,
-			gpslimit: maxSearchResults,
-			callback: 'callbackStack.queue[' + callbackIndex + ']'
-		};
+			searchQuery = {
+				action: 'query',
+				format: 'json',
+				generator: 'prefixsearch',
+				prop: 'pageprops|pageimages|pageterms',
+				redirects: '',
+				ppprop: 'displaytitle',
+				piprop: 'thumbnail',
+				pithumbsize: thumbnailSize,
+				pilimit: maxSearchResults,
+				wbptterms: 'description',
+				gpssearch: string,
+				gpsnamespace: 0,
+				gpslimit: maxSearchResults,
+				callback: 'callbackStack.queue[' + callbackIndex + ']'
+			};
 
 		script.src = hostname + serialize( searchQuery );
 		docHead.appendChild( script );
 	}
+
 	// END loadQueryScript
 
 	/**
@@ -231,10 +240,10 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			 * Indentation is used to express the DOM order of template.
 			 */
 			var suggestionLink,
-					suggestionThumbnail,
-					suggestionText,
-						suggestionTitle,
-						suggestionDescription,
+				suggestionThumbnail,
+				suggestionText,
+				suggestionTitle,
+				suggestionDescription,
 				page = suggestions[ i ],
 				sanitizedThumbURL = false,
 				descriptionText = '',
@@ -258,7 +267,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 
 			suggestionDescription = mw.html.element( 'p', { 'class': 'suggestion-description' }, descriptionText );
 
-			suggestionTitle = mw.html.element( 'h3', { 'class': 'suggestion-title' }, new mw.html.Raw( highlightTitle( page.title, searchString ) ) ) ;
+			suggestionTitle = mw.html.element( 'h3', { 'class': 'suggestion-title' }, new mw.html.Raw( highlightTitle( page.title, searchString ) ) );
 
 			suggestionText = mw.html.element( 'div', { 'class': 'suggestion-text' }, new mw.html.Raw( suggestionTitle + suggestionDescription ) );
 
@@ -286,8 +295,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 * - Adds 'active' class to an item if missing.
 	 * - Removes 'active' class from item if present.
 	 *
-	 * @param {Element} item - item to add active class to.
-	 * @param {NodeList} collection - sibling items
+	 * @param {HTMLElement} item Item to add active class to.
+	 * @param {NodeList} collection Sibling items.
 	 */
 
 	function toggleActiveClass( item, collection ) {
@@ -323,6 +332,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 *  - attaches event listeners on each suggestion item.
 	 *
 	 * @param {number} i
+	 * @return {Function}
 	 */
 	window.portalOpensearchCallback = function ( i ) {
 
@@ -372,7 +382,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	function keyboardEvents( event ) {
 
 		var e = event || window.event,
-			keycode =  e.which || e.keyCode;
+			keycode = e.which || e.keyCode;
 
 		if ( !typeAheadEl.firstChild ) {
 			return;
@@ -387,7 +397,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 				searchSuggestionIndex = ssActiveIndex.increment( -1 );
 			}
 
-			activeItem = ( suggestionItems ) ? suggestionItems[ searchSuggestionIndex ] : false ;
+			activeItem = ( suggestionItems ) ? suggestionItems[ searchSuggestionIndex ] : false;
 
 			toggleActiveClass( activeItem, suggestionItems );
 

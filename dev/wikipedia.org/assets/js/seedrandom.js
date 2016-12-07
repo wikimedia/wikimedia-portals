@@ -1,6 +1,4 @@
-// jshint ignore: start
-// jscs:disable
-
+/* eslint-disable */
 // From http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html
 // Documentation at http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html
 // Altered not to replace the Math.random but Math.seededrandom

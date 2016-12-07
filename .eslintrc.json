@@ -1,0 +1,17 @@
+{
+	"extends": "wikimedia",
+	"env": {
+		"browser": true,
+		"jquery": true,
+		"qunit": true
+	},
+	"globals": {
+		"mw": true,
+		"mediaWiki": false
+	},
+	"rules": {
+		"vars-on-top": 1,
+		"one-var": 1,
+		"dot-notation": [ "error", { "allowKeywords": true } ]
+	}
+}

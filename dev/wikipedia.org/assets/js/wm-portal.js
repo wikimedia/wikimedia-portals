@@ -18,11 +18,14 @@
  */
 /* global addEvent, doWhenReady, getIso639, getDevicePixelRatio */
 
-( function ( ) {
+( function () {
 	'use strict';
 
 	/**
 	 * Returns the DOM element with the given ID.
+	 *
+	 * @param {string} id
+	 * @return {HTMLElement}
 	 */
 	function $( id ) {
 		return document.getElementById( id );
@@ -30,14 +33,17 @@
 
 	/**
 	 * Replaces the “hero graphic” with the given language edition’s logo.
+	 *
+	 * @param {string} lang
 	 */
 	function updateBranding( lang ) {
 		var option, logo;
 
 		// Only Wiktionary has such a mess of logos.
-		if ( !document.querySelector
-			|| document.body.id !== 'www-wiktionary-org'
-			|| lang.match( /\W/ )
+		if (
+			!document.querySelector ||
+			document.body.id !== 'www-wiktionary-org' ||
+			lang.match( /\W/ )
 		) {
 			return;
 		}
@@ -51,6 +57,8 @@
 
 	/**
 	 * Returns the user's preferred language according to browser preferences.
+	 *
+	 * @return {string}
 	 */
 	function getUALang() {
 		var uiLang = ( navigator.languages && navigator.languages[ 0 ] ) ||
@@ -61,6 +69,8 @@
 	/**
 	 * Returns the preferred language as stored in a cookie. Falls back on the
 	 * browser's language.
+	 *
+	 * @return {string}
 	 */
 	function getSavedLang() {
 		var match = document.cookie.match( /(?:^|\W)searchLang=([^;]+)/ );
@@ -85,6 +95,8 @@
 	 *
 	 * Convertible elements start out with traditional text and title attributes
 	 * along with simplified counterparts in the data-*-hans attributes.
+	 *
+	 * @param {string} lang
 	 */
 	function convertChinese( lang ) {
 		var i, elt,
@@ -116,6 +128,8 @@
 	/**
 	 * Modifies links to the Chinese language edition to point to traditional or
 	 * simplified versions, based on the user's preference.
+	 *
+	 * @param {string} lang
 	 */
 	function convertZhLinks( lang ) {
 		var locale;
@@ -188,6 +202,8 @@
 	 * Stores the user's preferred language in a cookie. This function is called
 	 * once a language other than the browser's default is selected from the
 	 * dropdown.
+	 *
+	 * @param {string} lang
 	 */
 	function setLang( lang ) {
 		if ( !lang ) {
@@ -317,7 +333,7 @@
 
 	doWhenReady( hidpi );
 
-}( ) );
+}() );
 
 /*
  * Depending on how this script is loaded, it may not have

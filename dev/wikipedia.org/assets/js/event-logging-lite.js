@@ -1,29 +1,28 @@
-/*global
-    JSON, console
-*/
+/* global Uint8Array */
 
+/* eslint dot-notation: ["error", { "allowKeywords": false }] */
 /**
-*
-* A slimmed down version of the event logging API.
-* Mostly copy & pasted from:
-* https://github.com/wikimedia/mediawiki-extensions-EventLogging/blob/master/modules/ext.eventLogging.core.js
-* without dependencies on jQuery or mediawiki.js. For use on wikipedia.org portal page.
-*
-*/
+ *
+ * A slimmed down version of the event logging API.
+ * Mostly copy & pasted from:
+ * https://github.com/wikimedia/mediawiki-extensions-EventLogging/blob/master/modules/ext.eventLogging.core.js
+ * without dependencies on jQuery or mediawiki.js. For use on wikipedia.org portal page.
+ *
+ */
 
 ( function () {
 
 	'use strict';
 
 	var baseUrl = '/beacon/event',
-	byteToHex = [],
-	self, helpers;
+		byteToHex = [],
+		self, helpers;
 
 	helpers = {
 		// replaces $.extend
 		extend: function ( defaults, options ) {
 			var extended = {},
-			prop;
+				prop;
 
 			for ( prop in defaults ) {
 				if ( Object.prototype.hasOwnProperty.call( defaults, prop ) && defaults[ prop ] ) {
@@ -38,7 +37,8 @@
 			return extended;
 		},
 		// replaces $.noop
-		noop: function () {}
+		noop: function () {
+		}
 	};
 
 	// byte to hex from
@@ -94,11 +94,11 @@
 		 */
 		generateRandomSessionId: function () {
 
-			/*jshint bitwise:false */
+			/* eslint-disable no-bitwise */
 			var rnds, i, r,
-			hexRnds = new Array( 8 ),
-			// Support: IE 11
-			crypto = window.crypto || window.msCrypto;
+				hexRnds = new Array( 8 ),
+				// Support: IE 11
+				crypto = window.crypto || window.msCrypto;
 
 			// Based on https://github.com/broofa/node-uuid/blob/bfd9f96127/uuid.js
 			if ( crypto && crypto.getRandomValues ) {
@@ -123,7 +123,7 @@
 			// Concatenation of two random integers with entrophy n and m
 			// returns a string with entrophy n+m if those strings are independent
 			return hexRnds.join( '' );
-
+			/* eslint-enable no-bitwise */
 		},
 
 		/**
@@ -135,7 +135,7 @@
 		 */
 		validate: function ( obj, schema ) {
 			var key, val, prop,
-			errors = [];
+				errors = [];
 
 			if ( !schema || !schema.properties ) {
 				errors.push( 'Missing or empty schema' );
@@ -180,10 +180,12 @@
 		prepare: function ( schema, eventData ) {
 
 			var event = helpers.extend( schema.defaults, eventData ),
-			errors = self.validate( event, schema );
+				errors = self.validate( event, schema );
 
 			while ( errors.length ) {
+				/* eslint-disable no-console */
 				console.log( errors[ errors.length - 1 ] );
+				/* eslint-enable no-console */
 				errors.pop();
 			}
 
@@ -216,13 +218,19 @@
 		 * $wgEventLoggingBaseUri is unset, this method is a no-op.
 		 *
 		 * @param {string} url URL to request from the server.
-		 * @return undefined
 		 */
-		sendBeacon: ( /1|yes/.test( navigator.doNotTrack ) || !baseUrl )
-		? helpers.noop
-		: navigator.sendBeacon
-		? function ( url ) { try { navigator.sendBeacon( url ); } catch ( e ) {} }
-		: function ( url ) { document.createElement( 'img' ).src = url; },
+		sendBeacon: ( /1|yes/.test( navigator.doNotTrack ) || !baseUrl ) ?
+			helpers.noop :
+			navigator.sendBeacon ?
+				function ( url ) {
+					try {
+						navigator.sendBeacon( url );
+					} catch ( e ) {
+					}
+				} :
+				function ( url ) {
+					document.createElement( 'img' ).src = url;
+				},
 
 		/**
 		 * Construct and transmit to a remote server a record of some event
@@ -236,8 +244,8 @@
 		 */
 		logEvent: function ( schemaName, eventData ) {
 			var event = self.prepare( schemaName, eventData ),
-			url = self.makeBeaconUrl( event ),
-			sizeError = self.checkUrlSize( schemaName, url );
+				url = self.makeBeaconUrl( event ),
+				sizeError = self.checkUrlSize( schemaName, url );
 
 			if ( !sizeError ) {
 				self.sendBeacon( url );

@@ -1,4 +1,4 @@
-/* global addEvent, mw, wmTest */
+/* global addEvent, wmTest */
 /*
  * The following functions open and close the language list
  * via the language drop-down button.
@@ -49,4 +49,4 @@
 		toggleActiveClass();
 	} );
 
-} )();
+}() );

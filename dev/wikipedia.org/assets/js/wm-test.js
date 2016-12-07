@@ -1,5 +1,4 @@
-// jscs:disable requireCamelCaseOrUpperCaseIdentifiers
-/*global mw, eventLoggingLite, getIso639 */
+/* global eventLoggingLite, getIso639 */
 
 window.wmTest = ( function ( eventLoggingLite, mw ) {
 
@@ -68,6 +67,8 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 
 	/**
 	 * Puts the user in a population group randomly.
+	 *
+	 * @return {string}
 	 */
 	function getTestGroup() {
 
@@ -101,11 +102,11 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		if ( window.localStorage && !/1|yes/.test( navigator.doNotTrack ) ) {
 
 			var storedSessionId = mw.storage.get( KEYS.SESSION_ID ),
-				expires =  mw.storage.get( KEYS.EXPIRES ),
+				expires = mw.storage.get( KEYS.EXPIRES ),
 				now = new Date().getTime();
 
 			// return storedSessionId if not expired
-			if ( storedSessionId && expires > parseInt( now, 10 )  ) {
+			if ( storedSessionId && expires > parseInt( now, 10 ) ) {
 				sessionId = storedSessionId;
 			} else {
 				// or create new sessionID

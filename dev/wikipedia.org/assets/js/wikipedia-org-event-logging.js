@@ -1,4 +1,4 @@
-// jscs:disable requireCamelCaseOrUpperCaseIdentifiers
+/* eslint camelcase: ["error", {properties: "never"}] */
 /* global eventLoggingLite, wmTest, addEvent */
 
 ( function ( eventLoggingLite, wmTest ) {
@@ -6,7 +6,7 @@
 	'use strict';
 
 	var portalSchema, eventSections, docForms, eventData,
-	geoCookie = document.cookie.match( /GeoIP=.[^:]/ );
+		geoCookie = document.cookie.match( /GeoIP=.[^:]/ );
 
 	if ( wmTest.group === 'rejected' || wmTest.loggingDisabled ) {
 		return;
@@ -76,6 +76,7 @@
 		}
 	};
 
+	/* eslint-disable no-multi-spaces */
 	eventSections = [
 		{ name: 'primary links',   nodes: document.querySelectorAll( '[data-el-section="primary links"]' ) },
 		{ name: 'search',          nodes: document.querySelectorAll( '[data-el-section="search"]' ) },
@@ -84,14 +85,15 @@
 		{ name: 'other languages', nodes: document.querySelectorAll( '[data-el-section="other languages"]' ) },
 		{ name: 'other projects',  nodes: document.querySelectorAll( '[data-el-section="other projects"]' ) }
 	];
+	/* eslint-enable no-multi-spaces */
 
 	/**
 	 * Finds the section of the page the user interacted with based on
 	 * a DOM element. Returns the name of the section.
 	 *
-	 * @param {Element} clickNode - DOM element.
-	 * @param {Array} eventSections - Array of objects describing the DOM sections.
-	 * @returns {string} - the name of the section the contains the clickNode.
+	 * @param {HTMLElement} clickNode The DOM element.
+	 * @param {Array} eventSections List of objects describing the DOM sections.
+	 * @return {string} The name of the section the contains the clickNode.
 	 */
 	function findEventSection( clickNode, eventSections ) {
 
@@ -104,7 +106,7 @@
 
 			for ( j = 0; j < nodes.length; j++ ) {
 
-				if (  nodes[ j ].contains( clickNode ) ) {
+				if ( nodes[ j ].contains( clickNode ) ) {
 
 					eventSection = eventSections[ i ];
 				}
@@ -119,8 +121,8 @@
 	 * the child of an anchor element, in order to retrieve that parent
 	 * anchor. Ex: <a><strong>clicked here</strong></a> returns <a> element.
 	 *
-	 * @param {Element} el - Element to check for parent anchor.
-	 * @returns {Element} - parent anchor element.
+	 * @param {HTMLElement} el Element to check for parent anchor.
+	 * @return {HTMLElement} Parent anchor element.
 	 */
 	function checkForParentAnchor( el ) {
 
@@ -149,6 +151,8 @@
 	 * Document click event handler. Intercepts all document click events and checks
 	 * if they are an <a> matching an event section. If so, logs an event that user
 	 * has interacted with a specific section.
+	 *
+	 * @param {Event} e
 	 */
 	function interceptClick( e ) {
 
@@ -180,6 +184,8 @@
 	/**
 	 * Document change event handler. Intercepts all document change events (e.g.
 	 * search box's language selector.
+	 *
+	 * @param {Event} e
 	 */
 	function interceptChange( e ) {
 		var event = e || window.event,
@@ -188,7 +194,7 @@
 		if ( target.id === 'searchLanguage' ) {
 
 			if ( target.selectedIndex === -1 ) {
-				return null;
+				return;
 			}
 
 			eventData = {
@@ -206,6 +212,8 @@
 	/**
 	 * Form submission event handler. Checks if a form belongs to an event section
 	 * and logs an event when user has submitted it.
+	 *
+	 * @param {Event} e
 	 */
 	function interceptForm( e ) {
 		var event = e || window.event,

@@ -1,7 +1,4 @@
-/*global
- wmTest, translationsHash, mw
- */
-
+/* global wmTest, translationsHash */
 /**
  * This code was used to localize the top-ten language links
  * for the A/B test titled "A/B test: browser language detection"
@@ -13,7 +10,7 @@
  * https://www.mediawiki.org/wiki/Wikipedia.org_Portal_A/B_testing
  */
 
-function localizeTopTen( ) {
+function localizeTopTen() {
 
 	/**
 	 * Helper function to safely parse JSON an return empty string on error.
@@ -32,9 +29,11 @@ function localizeTopTen( ) {
 	}
 
 	/**
-	* Returns an array of language codes based on the lang attributes of the top-ten links.
-	* returns {Array} topLinkLangs.
-	*/
+	 * Returns an array of language codes based on the lang attributes of the top-ten links.
+	 *
+	 * @param {Array} topLinks List of top link elements.
+	 * @return {Array} List of top link languages.
+	 */
 	function getTopLinkLangs( topLinks ) {
 		var topLinkLangs = [ ];
 
@@ -99,8 +98,8 @@ function localizeTopTen( ) {
 	 * Essentially, instead of creating new elements, we move existing elements and
 	 * replace their textContent and attributes with a different content.
 	 *
-	 * @param {Element} node - a DOM Element from the top-ten links that will be modified.
-	 * @param {Object} wikiInfo - The info to modify the node with.
+	 * @param {HTMLElement} node A DOM Element from the top-ten links that will be modified.
+	 * @param {Object} wikiInfo The info to modify the node with.
 	 */
 	function updateTopLinkDOM( node, wikiInfo ) {
 		var anchor = node.getElementsByTagName( 'a' )[ 0 ],
@@ -167,8 +166,8 @@ function localizeTopTen( ) {
 	 * After a successful request, the data is appended to a localStorage variable to prevent
 	 * subsequest ajax requests.
 	 *
-	 * @param {Element} node - A DOM node that will be modified with new info upon ajax success.
-	 * @param {string} lang - Language code for which to get new wiki info.
+	 * @param {HTMLElement} node A DOM node that will be modified with new info upon ajax success.
+	 * @param {string} lang Language code for which to get new wiki info.
 	 */
 	function getAjaxTranslation( node, lang ) {
 
@@ -200,8 +199,8 @@ function localizeTopTen( ) {
 	/**
 	 * Determines whether to ajax in new language info or use it from localStorage.
 	 *
-	 * @param {Element} node - the DOM node that will be modified with new info.
-	 * @param {string} lang - the language code with which to modify the node.
+	 * @param {HTMLElement} node The DOM node that will be modified with new info.
+	 * @param {string} lang The language code with which to modify the node.
 	 */
 	function localizeTopLink( node, lang ) {
 
@@ -219,9 +218,9 @@ function localizeTopTen( ) {
 	 * Returns the first DOM node that does not have a lang attribute that is
 	 * one of topLinkLangs.
 	 *
-	 * @param {Array} topLinks - array of DOM nodes
-	 * @param {Array} topLinkLangs - array of languages
-	 * @returns {Element} - node that can be reused with new content
+	 * @param {Array} topLinks List of DOM nodes.
+	 * @param {string[]} topLinkLangs List of languages.
+	 * @returns {HTMLElement} Node that can be reused with new content.
 	 */
 	function findReusableTopLink( topLinks, topLinkLangs ) {
 		var reusableTopLink = null;

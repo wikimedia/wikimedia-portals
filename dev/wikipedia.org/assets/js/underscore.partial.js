@@ -27,8 +27,7 @@
  This is a partial version of the library that only includes a few
  underscore methods.
  */
-/* jscs:disable */
-/* jshint ignore:start */
+/* eslint-disable */
 var _ = _ || {};
 
 _.now = Date.now || function() {

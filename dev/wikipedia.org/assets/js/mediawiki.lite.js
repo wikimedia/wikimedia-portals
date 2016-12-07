@@ -1,4 +1,4 @@
-var mw = mw || {};
+var mw = mw || {}; // eslint-disable-line no-use-before-define
 
 mw.html = ( function () {
 	function escapeCallback( s ) {
@@ -100,6 +100,7 @@ mw.html = ( function () {
 		 * Wrapper object for raw HTML passed to mw.html.element().
 		 *
 		 * @class mw.html.Raw
+		 * @param {Mixed} value
 		 */
 		Raw: function ( value ) {
 			this.value = value;
@@ -109,6 +110,7 @@ mw.html = ( function () {
 		 * Wrapper object for CDATA element contents passed to mw.html.element()
 		 *
 		 * @class mw.html.Cdata
+		 * @param {Mixed} value
 		 */
 		Cdata: function ( value ) {
 			this.value = value;

@@ -1,6 +1,4 @@
-// jshint ignore: start
-// jscs:disable
-
+/* eslint-disable */
 /**
  * Polyfills for IE8 and under
  * code taken from https://developer.mozilla.org/ is dedicated to the Public Domain:

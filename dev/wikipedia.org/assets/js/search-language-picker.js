@@ -43,6 +43,8 @@
 		 * Creates a fancy label that will cover the native select.
 		 *
 		 * This obviously only affects users who have JS enabled.
+		 *
+		 * @return {HTMLElement}
 		 */
 		function createJSLangLabel() {
 			var langLabel = document.createElement( 'label' );

@@ -3,6 +3,7 @@
 /* globals process */
 /* globals console */
 /* globals JSON */
+/* eslint dot-notation: ["error", { "allowKeywords": false }] */
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	argv = require( 'yargs' ).argv,
@@ -24,6 +25,7 @@ var plugins = gulpLoadPlugins(),
 
 // Help
 gulp.task( 'help', function () {
+	/* eslint-disable no-console */
 	console.log();
 	console.log( '+-------------------------------------------------------------------------------------------------+' );
 	console.log( '|                                     =====  USAGE =====                                          |' );
@@ -45,6 +47,7 @@ gulp.task( 'help', function () {
 	console.log( '| gulp fetch-meta --portal wikipedia.org      - overwrite the portal page with source from Meta   |' );
 	console.log( '+-------------------------------------------------------------------------------------------------+' );
 	console.log();
+	/* eslint-enable no-console */
 } );
 
 /* Preliminary configuration
@@ -56,10 +59,12 @@ gulp.task( 'help', function () {
  */
 function requirePortalParam() {
 	if ( !portalParam ) {
+		/* eslint-disable no-console */
 		console.log( '\x1b[31m' );
 		console.log( 'Error: please specify the portal you wish to build.' );
 		console.log( 'Type gulp help for more information.' );
 		console.log( '\x1b[0m' );
+		/* eslint-enable no-console */
 		process.exit( 1 );
 	}
 }
@@ -263,7 +268,7 @@ gulp.task( 'optimize-images', function () {
 	var imgOpt = getConfig().optImage;
 
 	return gulp.src( imgOpt.src )
-		.pipe( imagemin( imgOpt.imageminConf.plugins, imgOpt.imageminConf.options  ) )
+		.pipe( imagemin( imgOpt.imageminConf.plugins, imgOpt.imageminConf.options ) )
 		.pipe( gulp.dest( imgOpt.dest ) );
 } );
 
@@ -292,23 +297,21 @@ gulp.task( 'lint-js', function () {
 		devFolder = 'dev/' + portalParam + '/**/*.js';
 	}
 	gulp.src( [ '*.js', devFolder ] )
-		.pipe( plugins.jshint( '.jshintrc' ) )
-		.pipe( plugins.jshint.reporter( 'default' ) )
-		.pipe( plugins.jshint.reporter( 'fail' ) )
-		.pipe( plugins.jscs() )
-		.pipe( plugins.jscs.reporter() )
-		.pipe( plugins.jscs.reporter( 'fail' ) );
+		.pipe( plugins.eslint( '.eslintrc.json' ) )
+		.pipe( plugins.eslint.format() )
+		.pipe( plugins.eslint.failAfterError() );
 } );
 
 gulp.task( 'validate-postCSS', function () {
 	return gulp
 		.src( [ 'dev/**/postcss/*.css', '!dev/**/postcss/_*.css' ] )
-		.pipe( plugins.postcss( [
+		.pipe( plugins.postcss(
+			[
 				postCSSImport(),
 				postCSSNext( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } ),
 				postCSSReporter( { clearMessages: true, throwError: true } )
 			], { map: { inline: true } }
-			) );
+		) );
 } );
 
 gulp.task( 'lint-css', [ 'validate-postCSS' ], function () {
@@ -333,7 +336,9 @@ gulp.task( 'fetch-meta', function () {
 	requirePortalParam();
 
 	if ( portalParam === 'wikipedia.org' ) {
+		/* eslint-disable no-console */
 		console.log( 'Cannot override ' + portalParam + ' portal using fetch-meta.' );
+		/* eslint-enable no-console */
 		process.exit( 1 );
 		return;
 	}
@@ -386,4 +391,4 @@ gulp.task( 'lint', [ 'lint-js', 'lint-css' ] );
 
 gulp.task( 'test', [ 'lint' ] );
 
-gulp.task( 'default', [ 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images',  'copy-translation-files' ] );
+gulp.task( 'default', [ 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images', 'copy-translation-files' ] );
