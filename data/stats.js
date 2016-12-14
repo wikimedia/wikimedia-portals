@@ -213,6 +213,27 @@ Stats.format = function ( portal, list, options ) {
 			formatted.attrs = siteDef.attrs;
 		}
 
+		var extendedl10n = [
+			'language-button-text',
+			'footer-description',
+			'wiki',
+			'wiktionary',
+			'wikibooks',
+			'wikinews',
+			'wikiquote',
+			'wikisource',
+			'wikiversity',
+			'wikivoyage',
+			'commons',
+			'wikispecies',
+			'wikidata',
+			'mediawiki',
+			'metawiki' ];
+
+		extendedl10n.forEach( function ( prop ) {
+			formatted[ prop ] = siteDef[ prop ];
+		} );
+
 		if ( options.stripTags ) {
 			// http://stackoverflow.com/a/5002161
 			formatted.name = formatted.name.replace( /<\/?[^>]+(>|$)/g, '' );

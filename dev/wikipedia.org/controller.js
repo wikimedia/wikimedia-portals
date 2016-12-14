@@ -7,7 +7,7 @@ var _ = require( 'underscore' ),
 	otherProjects = require( './other-projects.json' ),
 	otherLanguages = require( './other-languages.json' ),
 	crypto = require( 'crypto' ),
-	exec = require( 'child_process' ).exec,
+	exec = require( 'child_process' ).execSync,
 	top100000List,
 	top100000Dropdown,
 	Controller,
@@ -91,14 +91,8 @@ function createTranslationFiles( translationPath, siteStats, cachebuster ) {
 cachebuster = createTranslationsChecksum( siteStats );
 
 if ( fs.existsSync( translationPath ) ) {
-
-	exec( 'find ' + translationPath + ' -name *.json -delete', function ( error ) {
-		if ( error ) {
-			throw error;
-		} else {
-			createTranslationFiles( translationPath, siteStats, cachebuster );
-		}
-	} );
+	exec( 'find ' + translationPath + ' -mindepth 1 -delete' );
+	createTranslationFiles( translationPath, siteStats, cachebuster );
 } else {
 	fs.mkdirSync( translationPath );
 	createTranslationFiles( translationPath, siteStats, cachebuster );
