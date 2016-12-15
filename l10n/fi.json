@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Pyscowicz",
-			"Olimar"
+			"Olimar",
+			"Stryn"
 		]
 	},
 	"language-name": "Suomi",
@@ -42,7 +43,7 @@
 		"entries": "artikkelia"
 	},
 	"wikivoyage": {
-		"name": "Wikivoyage",
+		"name": "Wikimatkat",
 		"slogan": "Vapaa matkaopas"
 	},
 	"commons": {
