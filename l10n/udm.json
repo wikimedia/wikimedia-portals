@@ -1,7 +1,59 @@
 {
+	"@metadata": {
+		"authors": [
+			"Irus",
+			"Wadorgurt"
+		]
+	},
 	"language-name": "Удмурт",
 	"language-name-romanized": "Udmurt",
+	"language-button-text": "Лыдӟе Википедиез ас кылады",
+	"footer-description": "Википедиен кузёяське Викимедиа Фонд — табышантэм организация, кудӥз озьы ик кузёяське куд-ог мукет проектъёсын.",
 	"wiki": {
-		"name": "Википедия"
+		"name": "Википедия",
+		"slogan": "Эрико энциклопедия",
+		"entries": "статья"
+	},
+	"wiktionary": {
+		"name": "Вики-кылбугор",
+		"entries": "статья"
+	},
+	"wikibooks": {
+		"name": "Вики-книгаос"
+	},
+	"wikinews": {
+		"name": "Вики-иворъёс",
+		"entries": "статья"
+	},
+	"wikiquote": {
+		"name": "Вики-цитатаос",
+		"slogan": "Цитатаосын коллекция",
+		"entries": "статья"
+	},
+	"wikiversity": {
+		"name": "Викиверситет",
+		"slogan": "Дышетскон",
+		"entries": "статья"
+	},
+	"wikivoyage": {
+		"name": "Викигид",
+		"slogan": "Путеводитель"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Эркын кутӥськись фотоос но трос мукетыз"
+	},
+	"wikispecies": {
+		"name": "ВикиSpecies",
+		"slogan": "Биологи видъёс"
+	},
+	"wikidata": {
+		"name": "Викиданнойёс"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Метавики"
 	}
 }
