@@ -1,11 +1,48 @@
 {
+	"@metadata": {
+		"authors": [
+			"Algentem"
+		]
+	},
 	"language-name": "Ido",
 	"wiki": {
 		"name": "Wikipedio",
-		"slogan": "La Libera Enciklopedio"
+		"slogan": "La Libera Enciklopedio",
+		"entries": "artikli"
 	},
 	"wiktionary": {
 		"name": "Wikivortaro",
 		"slogan": "La Libera Dicionario"
+	},
+	"wikibooks": {
+		"name": "Wikilibri",
+		"slogan": "Gratuita lernolibri",
+		"entries": "pagini"
+	},
+	"wikinews": {
+		"name": "Wikinovaji",
+		"slogan": "Libera novaji-fundo",
+		"entries": "artikli"
+	},
+	"wikiquote": {
+		"name": "Wikicitajo",
+		"entries": "artikli"
+	},
+	"wikisource": {
+		"name": "Wikifonto",
+		"slogan": "Gratuita biblioteko"
+	},
+	"wikiversity": {
+		"name": "Wikiversitato"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyajo"
+	},
+	"wikispecies": {
+		"name": "Wikispeci"
+	},
+	"wikidata": {
+		"name": "Wikidonaji",
+		"slogan": "Gratuita savaro"
 	}
 }

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ykhwong",
-			"Kwj2772"
+			"Kwj2772",
+			"Jerrykim306"
 		]
 	},
 	"language-name": "한국어",
@@ -40,6 +41,7 @@
 	},
 	"wikiversity": {
 		"name": "위키배움터",
+		"slogan": "자유 코스 자료",
 		"entries": "학습 자료"
 	},
 	"wikivoyage": {
@@ -59,7 +61,8 @@
 		"slogan": "자유 지식 베이스"
 	},
 	"mediawiki": {
-		"name": "미디어위키"
+		"name": "미디어위키",
+		"slogan": "자유 & 오픈 위키 애플리케이션"
 	},
 	"metawiki": {
 		"name": "메타위키"
