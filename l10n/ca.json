@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"Toniher"
 		]
 	},
 	"language-name": "Català",
 	"language-name-romanized-sorted": "Catala",
 	"language-button-text": "Llegiu la Viquipèdia en el vostre idioma",
+	"footer-description": "La Viquipèdia està hostatjada per la Fundació Wikimedia, una organització sense afany de lucre que també hostatja diferents altres projectes.",
 	"wiki": {
 		"name": "Viquipèdia",
 		"slogan": "L’enciclopèdia lliure",
@@ -50,6 +52,7 @@
 		"slogan": "Fotos i molt més, tot utilitzable lliurement"
 	},
 	"wikispecies": {
+		"name": "Wikispecies",
 		"slogan": "Directori d’espècies lliure"
 	},
 	"wikidata": {
