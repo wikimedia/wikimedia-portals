@@ -1,0 +1,66 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cgboeree"
+		]
+	},
+	"footer-description": "Wikipedia es ospitada par la Wikimedia Foundation, un organiza nonprofitante cual ospita ance otra projetas variosa.",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "La ensiclopedia libre",
+		"entries": "articles"
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Disionario libre",
+		"entries": "entras"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Libros de aprende libre",
+		"entries": "pajes"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Fonte libre de novas",
+		"entries": "articles"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Colie libre de sitas",
+		"entries": "articles"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Biblioteca libre"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Documentos libre per cursos",
+		"entries": "Recursos per aprende"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Manual libre per viajas"
+	},
+	"commons": {
+		"name": "Loca comun",
+		"slogan": "Fotos libre usable e plu"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Arcivo libre de spesies"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Funda libre de sabe"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "programeta libre e abrida per wikis"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Coordina e arcivo de comunia"
+	}
+}
