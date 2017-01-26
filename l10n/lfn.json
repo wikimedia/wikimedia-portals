@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cgboeree"
+			"Cgboeree",
+			"Chabi"
 		]
 	},
+	"language-button-text": "Leje Vicipedia en tua lingua",
 	"footer-description": "Wikipedia es ospitada par la Wikimedia Foundation, un organiza nonprofitante cual ospita ance otra projetas variosa.",
 	"wiki": {
 		"name": "Wikipedia",

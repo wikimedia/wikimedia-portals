@@ -1,20 +1,53 @@
 {
+	"@metadata": {
+		"authors": [
+			"Liridon"
+		]
+	},
 	"language-name": "Shqip",
+	"language-button-text": "Lexo Wikipedian në gjuhën tuaj",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "enciklopedia e lirë"
+		"slogan": "enciklopedia e lirë",
+		"entries": "artikuj"
 	},
 	"wiktionary": {
 		"name": "WikiFjalori",
-		"slogan": "Fjalori i lirë"
+		"slogan": "Fjalori i lirë",
+		"entries": "të hyra"
 	},
 	"wikibooks": {
-		"name": "Wikibooks"
+		"name": "Wikibooks",
+		"entries": "faqe"
 	},
 	"wikinews": {
-		"name": "Wikilajme"
+		"name": "Wikilajme",
+		"entries": "artikuj"
 	},
 	"wikiquote": {
-		"name": "Wikiquote"
+		"name": "Wikiquote",
+		"entries": "artikuj"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Libraria e lirë"
+	},
+	"wikiversity": {
+		"name": "Wikiversity"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }

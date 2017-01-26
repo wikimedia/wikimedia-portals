@@ -7,6 +7,8 @@
 	},
 	"language-name": "Čeština",
 	"language-name-romanized-sorted": "Cestina",
+	"language-button-text": "Přečtěte si Wikipedii ve svém jazyce",
+	"footer-description": "Wikipedii provozuje Wikimedia Foundation, nezisková organizace, která provozuje také mnoho dalších projektů.",
 	"wiki": {
 		"name": "Wikipedie",
 		"slogan": "Otevřená encyklopedie",
@@ -44,5 +46,25 @@
 	"wikivoyage": {
 		"name": "Wikicesty",
 		"slogan": "Otevřený cestovní průvodce"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Svobodně použitelné fotografie a média"
+	},
+	"wikispecies": {
+		"name": "Wikidruhy",
+		"slogan": "Adresář biologických druhů"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Svobodná databáze vědomostí"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Svobodný a otevřený wiki software"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Komunitní koordinace a dokumentace"
 	}
 }
