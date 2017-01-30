@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Youssef"
+		]
+	},
+	"language-button-text": "اقرأ ويكيبيديا بلغتك",
+	"footer-description": "ويكيبيديا تتم استضافتها بواسطة مؤسسة ويكيميديا، وهي منظمة غير ربحية تستضيف أيضا مجموعة من المشاريع الأخرى.",
+	"wiki": {
+		"name": "Wikipédya",
+		"slogan": " الموسوعة الحرة",
+		"entries": "مقالة"
+	},
+	"wiktionary": {
+		"name": "Wikiqamos",
+		"slogan": "قاموس حر",
+		"entries": "مقالات"
+	},
+	"wikibooks": {
+		"name": "ويكي الكتب",
+		"slogan": "مقالات لكتب مجانية",
+		"entries": "الصفحات"
+	},
+	"wikinews": {
+		"name": "ويكي الأخبار",
+		"entries": "مقالة"
+	},
+	"wikiquote": {
+		"name": "ويكي_الاقتباس",
+		"slogan": "خلاصة اقتباسات  حرة"
+	}
+}

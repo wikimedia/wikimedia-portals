@@ -6,6 +6,8 @@
 	},
 	"language-name": "Íslenska",
 	"language-name-romanized-sorted": "Islenska",
+	"language-button-text": "Lesa Wikipediu á þínu tungumáli",
+	"footer-description": "Wikipedia er hýst af Wikimedia stofnuninni, samtökum sem eru rekin án hagnaðar og hýsa einnig önnur verkefni.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Frjálsa alfræðiritið",
@@ -37,9 +39,31 @@
 	},
 	"wikiversity": {
 		"name": "Wikiháskóli",
-		"slogan": "Frjálst kennsluefni"
+		"slogan": "Frjálst kennsluefni",
+		"entries": "námsefni"
 	},
 	"wikivoyage": {
+		"name": "Wikiferðir",
 		"slogan": "Ferða leiðarvísar"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Myndir og fleira með frjálsri notkun"
+	},
+	"wikispecies": {
+		"name": "Wikilífverur",
+		"slogan": "Safn tegunda lífvera"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Samnýttur þekkingagrunnur"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Frjáls og opinn wiki hugbúnaður"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Samvinna milli samfélaga og skjölun"
 	}
 }

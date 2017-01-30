@@ -5,12 +5,13 @@
 			"Beta16",
 			"Anto",
 			"Selven",
-			"Fitoschido"
+			"Fitoschido",
+			"Giaccai"
 		]
 	},
 	"language-name": "Italiano",
 	"language-button-text": "Leggi Wikipedia nella tua lingua",
-	"footer-description": "Wikipedia è ospitato dalla Wikimedia Foundation, un'organizzazione non-profit che ospita anche una serie di altri progetti.",
+	"footer-description": "Wikipedia è ospitata dalla Wikimedia Foundation, un'organizzazione non-profit che ospita anche una serie di altri progetti.",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "L’enciclopedia libera",
@@ -28,7 +29,7 @@
 	},
 	"wikinews": {
 		"name": "Wikinotizie",
-		"slogan": "La fonte di notizie libera",
+		"slogan": "La fonte di notizie libere",
 		"entries": "voci"
 	},
 	"wikiquote": {
@@ -55,7 +56,7 @@
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
-		"slogan": "Directory di specie libere"
+		"slogan": "Catalogo libero delle specie"
 	},
 	"wikidata": {
 		"name": "Wikidata",
