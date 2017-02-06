@@ -2,11 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"Cristofer Alves",
-			"TheEduGobi"
+			"TheEduGobi",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"language-button-text": "Ler a Wikipédia no seu idioma",
 	"footer-description": "A Wikipédia é hospedada pela Fundação Wikimedia, uma organização sem fins lucrativos que também hospeda uma gama de outros projetos.",
+	"app-links": {
+		"title": "Os aplicativos da Wikipedia já estão disponíveis:",
+		"ios": "Faça o download para o iOS na App Store",
+		"android": "Baixar para Android no Google Play",
+		"other": "Ver lista completa de aplicações disponíveis da Wikipedia"
+	},
+	"license": "Esta página está disponível sob a <a href='https://creativecommons.org/licenses/by-sa/3.0/'>licença Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Termo de uso",
+	"Privacy Policy": "Política de Privacidade",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "A enciclopédia livre",

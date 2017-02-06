@@ -9,6 +9,15 @@
 	"language-name-romanized": "Russkiy",
 	"language-button-text": "Читайте Википедию на своём языке",
 	"footer-description": "Википедия управляется Фондом Викимедиа — некоммерческой организацией, которая также управляет рядом других проектов.",
+	"app-links": {
+		"title": "Приложения Википедии теперь доступны:",
+		"ios": "Скачать для iOS в App Store",
+		"android": "Скачать для Android в Google Play",
+		"other": "Посмотреть полный список доступных приложений Википедии"
+	},
+	"license": "Эта страница доступна под <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">лицензией Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Условия использования",
+	"Privacy Policy": "Политика конфиденциальности",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Свободная энциклопедия",

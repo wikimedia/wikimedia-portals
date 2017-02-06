@@ -2,12 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"Woytecr"
+			"Woytecr",
+			"Kastanoto"
 		]
 	},
 	"language-name": "Polski",
 	"language-button-text": "Czytaj Wikipedię w swoim języku",
 	"footer-description": "Wikipedia jest hostowana przez Fundację Wikimedia, organizację non-profit, która także prowadzi szereg innych projektów.",
+	"app-links": {
+		"title": "Aplikacje Wikipedii są już dostępne:",
+		"ios": "Pobierz na iOS w App Store",
+		"android": "Pobierz na Androida w Google Play",
+		"other": "Zobacz pełną listę aplikacji Wikipedii"
+	},
+	"license": "Ta strona jest dostępna na licencji <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.pl'>Creative Commons Uznanie autorstwa-Na tych samych warunkach</a>",
+	"terms": "Warunki użytkowania",
+	"Privacy Policy": "Polityka prywatności",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Wolna encyklopedia",

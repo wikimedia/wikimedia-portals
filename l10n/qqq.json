@@ -10,15 +10,15 @@
 	"language-name-romanized-sorted": "The romanized version of a language name, sorted in alphabetical, left-to-right order, without diacritics. For many languages, a grammatical article or the word for 'language' may normally appear before the language name; move this word to the end for sorting purposes. For example, romanized Arabic is 'Al-ʿArabīyah', whereas the sorted, romanized version is 'Arabiyah, Al'.\n\n'''Important:''' Do not use your language’s word for “English”. Use the word that your language uses to refer to itself. If you translate this message to mean “English” in your language, your change will be reverted.\n\n'''Warning:''' However, you should use the English alphabet (i.e. only A(a) - Z(z) are accepted), even if your language is usually written either with diacritics or in a different script. If you change this message to either with diacritics or a script other than Latin, your change will be reverted.\n\n'''Important:''' This message should be in ASCII if possible. It also should not begin with a word meaning “the” or “language”.\n{{Identical|English}}",
 	"language-button-text": "Text for the language dropdown button",
 	"footer-description": "Text that appears beside the sister project links in the footer on www.wikipedia.org",
-		"app-links": {
+	"app-links": {
 		"title": "Title of that app link section on wikipedia.org",
-		"android": "Text that describes a link to download the Wikipedia Android app",
 		"ios": "Text that describes a link to download the Wikipedia iOS app",
+		"android": "Text that describes a link to download the Wikipedia Android app",
 		"other": "Text that describes a link to view all available Wikipedia apps"
 	},
-	"license": "License text",
-	"terms": "Terms of Use",
-	"Privacy Policy": "Privacy Policy",
+	"license": "License text, use <code><nowiki>https://creativecommons.org/licenses/by-sa/3.0/deed.(your language code)</nowiki></code> to show the translation of license.",
+	"terms": "Terms of Use\n{{Identical|Terms of use}}",
+	"Privacy Policy": "Privacy Policy\n{{Identical|Privacy policy}}",
 	"wiki": {
 		"name": "Label for Wikipedia\n{{Identical|Wikipedia}}",
 		"slogan": "The Wikipedia slogan",

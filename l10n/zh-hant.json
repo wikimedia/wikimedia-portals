@@ -10,6 +10,15 @@
 	"language-name-romanized-sorted": "Fantizhongwen",
 	"language-button-text": "在您的語言中閱讀維基百科",
 	"footer-description": "維基百科是由非營利的維基媒體基金會所管理，並且還包含著其它項目。",
+	"app-links": {
+		"title": "維基百科應用程式現可使用：",
+		"ios": "在App Store下載iOS版",
+		"android": "在Google Play下載Android版",
+		"other": "檢視所有可用維基百科應用程式清單"
+	},
+	"license": "此頁面依據<a href='https://creativecommons.org/licenses/by-sa/3.0/deed.zh_TW'>創用CC姓名標示-相同方式分享</a>授權。",
+	"terms": "使用條款",
+	"Privacy Policy": "隱私政策",
 	"wiki": {
 		"name": "維基百科",
 		"slogan": "自由的百科全書",
