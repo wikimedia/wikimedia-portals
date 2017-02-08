@@ -8,11 +8,13 @@
 		"title": "Wikipedia apps are now available:",
 		"ios": "Download for iOS on the App Store",
 		"android": "Download for Android on Google Play",
-		"other": "View full list of available Wikipedia apps"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>View full list of available Wikipedia apps</a>"
 	},
 	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Terms of Use",
 	"Privacy Policy": "Privacy Policy",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "The Free Encyclopedia",

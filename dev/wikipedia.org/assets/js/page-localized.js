@@ -119,15 +119,45 @@
 	 * @param {Object} l10nInfo Object containing translation data.
 	 */
 	function replacel10nText( l10nInfo ) {
-		var domEls = document.querySelectorAll( '.jsl10n' );
+		var domEls = document.querySelectorAll( '.jsl10n' ),
+			validAnchor = new RegExp( /<a[^>]*>([^<]+)<\/a>/ );
 
 		for ( var i = 0; i < domEls.length; i++ ) {
 
 			var domEl = domEls[ i ],
-				textValue = getPropFromPath( l10nInfo, domEl.getAttribute( 'data-jsl10n' ) );
+				l10nAttr = domEl.getAttribute( 'data-jsl10n' ),
+				textValue = getPropFromPath( l10nInfo, l10nAttr ),
+				termsHref = ( getPropFromPath( l10nInfo, 'terms-link' ) ) ? getPropFromPath( l10nInfo, 'terms-link' ) : false,
+				privacyHref = ( getPropFromPath( l10nInfo, 'privacy-policy-link' ) ) ? getPropFromPath( l10nInfo, 'privacy-policy-link' ) : false;
 
 			if ( typeof textValue === 'string' && textValue.length > 0 ) {
-				domEl.textContent = textValue;
+				switch ( l10nAttr ) {
+					case 'app-links.other':
+						if ( validAnchor.test( textValue ) ) {
+							domEl.innerHTML = textValue;
+						} else {
+							domEl.firstChild.textContent = textValue;
+						}
+						break;
+					case 'license':
+						domEl.innerHTML = textValue;
+						break;
+					case 'terms':
+						domEl.firstChild.textContent = textValue;
+						if ( termsHref ) {
+							domEl.firstChild.setAttribute( 'href', termsHref );
+						}
+						break;
+					case 'Privacy Policy':
+						domEl.firstChild.textContent = textValue;
+						if ( privacyHref ) {
+							domEl.firstChild.setAttribute( 'href', privacyHref );
+						}
+						break;
+					default:
+						domEl.textContent = textValue;
+						break;
+				}
 			}
 		}
 		makePageVisible();
@@ -173,6 +203,7 @@
 		l10nReq.send();
 	} else {
 		var l10nInfo = storedTranslations[ primaryLang ];
+		addHtmlLang( primaryLang );
 		replacel10nText( l10nInfo );
 	}
 

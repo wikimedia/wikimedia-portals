@@ -216,6 +216,12 @@ Stats.format = function ( portal, list, options ) {
 		var extendedl10n = [
 			'language-button-text',
 			'footer-description',
+			'app-links',
+			'license',
+			'terms',
+			'Privacy Policy',
+			'terms-link',
+			'privacy-policy-link',
 			'wiki',
 			'wiktionary',
 			'wikibooks',

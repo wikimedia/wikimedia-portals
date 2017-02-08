@@ -14,11 +14,13 @@
 		"title": "Title of that app link section on wikipedia.org",
 		"ios": "Text that describes a link to download the Wikipedia iOS app",
 		"android": "Text that describes a link to download the Wikipedia Android app",
-		"other": "Text that describes a link to view all available Wikipedia apps"
+		"other": "A link to an article that lists all available Wikipedia apps. The link URL should be <code><nowiki>https://(your language code).wikipedia.org/wiki/List_of_Wikipedia_mobile_applications</nowiki></code> when available."
 	},
 	"license": "License text, use <code><nowiki>https://creativecommons.org/licenses/by-sa/3.0/deed.(your language code)</nowiki></code> to show the translation of license.",
 	"terms": "Terms of Use\n{{Identical|Terms of use}}",
 	"Privacy Policy": "Privacy Policy\n{{Identical|Privacy policy}}",
+	"terms-link": "The URL of the translated Terms of service page. Like <code><nowiki>https://meta.wikimedia.org/wiki/Terms_of_use/(your language code)</nowiki></code> but be certain that a translation exists.",
+	"privacy-policy-link": "The URL of the translated Privacy policy page. Like <code><nowiki>https://meta.wikimedia.org/wiki/Privacy_policy/(your language code)</nowiki></code> but be certain that a translation exists.",
 	"wiki": {
 		"name": "Label for Wikipedia\n{{Identical|Wikipedia}}",
 		"slogan": "The Wikipedia slogan",
