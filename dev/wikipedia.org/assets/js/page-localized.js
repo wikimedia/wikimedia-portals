@@ -15,7 +15,36 @@
 
 	var primaryLang = wmTest.userLangs[ 0 ],
 		storedTranslationHash,
-		storedTranslations;
+		storedTranslations,
+		rtlLangs = [
+			'ar',
+			'arc',
+			'arz',
+			'bcc',
+			'bgn',
+			'bqi',
+			'ckb',
+			'dv',
+			'fa',
+			'glk',
+			'he',
+			'kk-cn',
+			'kk-arab',
+			'khw',
+			'ks',
+			'ku-arab',
+			'lki',
+			'lrc',
+			'luz',
+			'mzn',
+			'pnb',
+			'ps',
+			'sd',
+			'sdh',
+			'ug',
+			'ur',
+			'yi'
+		];
 
 	/**
 	 * Helper function to safely parse JSON an return empty string on error.
@@ -104,6 +133,14 @@
 		makePageVisible();
 	}
 
+	function addHtmlLang( lang ) {
+		document.lang = lang;
+		if ( rtlLangs.indexOf( lang ) >= 0 ) {
+			document.dir = 'rtl';
+		} else {
+			document.dir = 'ltr';
+		}
+	}
 	/**
 	 * if the primary language is not english, and the translation is missing or outdated,
 	 * fetch the latest one.
@@ -121,6 +158,7 @@
 					var l10nInfo = safelyParseJSON( this.responseText );
 
 					if ( l10nInfo ) {
+						addHtmlLang( primaryLang );
 						saveTranslation( primaryLang, l10nInfo );
 						replacel10nText( l10nInfo );
 					}
