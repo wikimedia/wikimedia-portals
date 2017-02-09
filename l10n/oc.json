@@ -7,6 +7,15 @@
 	"language-name": "Occitan",
 	"language-button-text": "Legissètz la Wikipèdia dins vòstra lenga",
 	"footer-description": "Wikipèdia es albergat per la Fondacion Wikimèdia, un organisme de tòca non lucrativa qu'albèrga tanben fòrça projèctes mai.",
+	"app-links": {
+		"title": "Las aplicacions Wikipèdia son d'ara enlà disponiblas :",
+		"ios": "Telecargament per iOS sus l'App Store",
+		"android": "Telecargament per Android sus Google Play",
+		"other": "Veire la lista completa de las aplicacions Wikipèdia disponiblas"
+	},
+	"license": "Aquesta pagina es disponibla jos <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">licéncia Creative Commons Atribucion-Partiment a l'identic</a>",
+	"terms": "Condicions d'utilizacion",
+	"Privacy Policy": "Politica de confidencialitat",
 	"wiki": {
 		"name": "Wikipèdia",
 		"slogan": "l'enciclopèdia liura",

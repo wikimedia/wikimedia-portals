@@ -9,6 +9,15 @@
 	"language-name": "Svenska",
 	"language-button-text": "Läs Wikipedia på ditt språk",
 	"footer-description": "Wikipedia drivs av Wikimedia Foundation, en ideell organisation som också driver en rad andra projekt.",
+	"app-links": {
+		"title": "Wikipedia-appar finns nu tillgängliga:",
+		"ios": "Ladda ned för iOS på App Store",
+		"android": "Ladda ned för Android på Google Play",
+		"other": "Visa fullständig lista över tillgängliga Wikipedia-appar"
+	},
+	"license": "Denna sida är tillgänglig under licensen <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Erkännande-DelaLika</a>",
+	"terms": "Användarvillkor",
+	"Privacy Policy": "Integritetspolicy",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Den fria encyklopedin",

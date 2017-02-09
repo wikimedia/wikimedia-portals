@@ -12,6 +12,15 @@
 	"language-name": "Italiano",
 	"language-button-text": "Leggi Wikipedia nella tua lingua",
 	"footer-description": "Wikipedia è ospitata dalla Wikimedia Foundation, un'organizzazione non-profit che ospita anche una serie di altri progetti.",
+	"app-links": {
+		"title": "Applicazioni per Wikipedia attualmente disponibili:",
+		"ios": "Scarica per iOS nell'App Store",
+		"android": "Scarica per Android su Google Play",
+		"other": "Vedi l'elenco completo delle applicazioni disponibili per Wikipedia"
+	},
+	"license": "Questa pagina è disponibile in base alla licenza <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribuzione-Condividi allo stesso modo</a>",
+	"terms": "Condizioni d'uso",
+	"Privacy Policy": "Informativa sulla privacy",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "L’enciclopedia libera",

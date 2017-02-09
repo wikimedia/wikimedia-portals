@@ -9,6 +9,15 @@
 	"language-name-romanized-sorted": "Ivrit",
 	"language-button-text": "לקרוא את ויקיפדיה בשפה שלך",
 	"footer-description": "ויקיפדיה מתארחת בקרן ויקימדיה, מוסד ללא כוונת רווח שמארח עוד מספר מיזמים.",
+	"app-links": {
+		"title": "אפליקציות ויקיפדיה זמינות עכשיו:",
+		"ios": "הורדה עבור iOS מ־App Store",
+		"android": "הורדה עבור אנדרואיד מ־Google Play",
+		"other": "הצגת רשימה מלאה של אפליקציות ויקיפדיה"
+	},
+	"license": "הדף הזה זמין לפי תנאי <a href='https://creativecommons.org/licenses/by-sa/3.0/'>רישיון קריאייטיב קומנז–ייחוס–שיתוף זהה</a>",
+	"terms": "תנאי שימוש",
+	"Privacy Policy": "מדיניות פרטיות",
 	"wiki": {
 		"name": "ויקיפדיה",
 		"slogan": "האנציקלופדיה החופשית",

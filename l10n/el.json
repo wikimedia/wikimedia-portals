@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Stam.nikos",
-			"Geraki"
+			"Geraki",
+			"GR"
 		]
 	},
 	"language-name": "Ελληνικά",
@@ -10,6 +11,8 @@
 	"language-name-romanized-sorted": "Ellinika",
 	"language-button-text": "Διαβάστε την Wikipedia στη γλώσσα σας",
 	"footer-description": "Η Wikipedia είναι φιλοξενείται από το Wikimedia Foundation, ένα μη κερδοσκοπικό οργανισμό που φιλοξενεί επίσης μια σειρά από άλλα εγχειρήματα.",
+	"terms": "Όροι χρήσης",
+	"Privacy Policy": "Πολιτική ιδιωτικού απορρήτου",
 	"wiki": {
 		"name": "Βικιπαίδεια",
 		"slogan": "Η Ελεύθερη Εγκυκλοπαίδεια",

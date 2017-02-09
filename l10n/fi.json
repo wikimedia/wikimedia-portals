@@ -7,8 +7,17 @@
 		]
 	},
 	"language-name": "Suomi",
-	"language-button-text": "Lue Wikipediaa omalla kielelläsi",
+	"language-button-text": "Lue Wikipediaa kielelläsi",
 	"footer-description": "Wikipediaa ylläpitää Wikimedia Foundation, voittoa tavoittelematon organisaatio joka myös ylläpitää erilaisia muita projekteja.",
+	"app-links": {
+		"title": "Wikipedia-sovellukset ovat nyt saatavilla:",
+		"ios": "Lataa iOS:lle App Storesta",
+		"android": "Lataa Androidille Google Play -kaupasta",
+		"other": "Näytä koko lista saatavilla olevista Wikipedia-sovelluksista"
+	},
+	"license": "Tämä sivu on käytettävissä <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Nimeä-JaaSamoin 3.0 lisensillä</a>",
+	"terms": "Käyttöehdot",
+	"Privacy Policy": "Tietosuojakäytäntö",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Vapaa tietosanakirja",
@@ -16,7 +25,8 @@
 	},
 	"wiktionary": {
 		"name": "Wikisanakirja",
-		"slogan": "Vapaa sanakirja"
+		"slogan": "Vapaa sanakirja",
+		"entries": "merkinnät"
 	},
 	"wikibooks": {
 		"name": "Wikikirjasto",
