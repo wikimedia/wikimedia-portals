@@ -2,12 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"Gwenn-Ael",
-			"Y-M D"
+			"Y-M D",
+			"Fulup"
 		]
 	},
 	"language-name": "Brezhoneg",
 	"language-button-text": "Lenn Wikipedia en ho yezh",
 	"footer-description": "Gant an diazezadur Wikipedia eo herberc'hiet Wikipedia. Un aozadur hep pal kenwerzhel eo hag a herberc'h kalz a raktresoù all ivez.",
+	"app-links": {
+		"title": "Bremañ emañ hegerz arloadoù Wikipedia",
+		"ios": "Pellgargañ evit iOS diwar an App Store",
+		"android": "Pellgargañ evit Android diwar Google Play",
+		"other": "Gwelet roll klok an arloadoù hegerz evit Wikipedia"
+	},
+	"license": "Emañ ar bajenn-mañ dindan an aotre implijout <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Deroadur-RannañHeñvel</a>",
+	"terms": "Termenoù implijout",
+	"Privacy Policy": "Reolennoù prevezded",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "An Holloueziadur digor",

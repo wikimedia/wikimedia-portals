@@ -1,19 +1,40 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Srdjan m"
+		]
+	},
 	"language-name": "Bosanski",
+	"language-button-text": "Čitajte Wikipediju na svom jeziku",
+	"footer-description": "Wikipediju pruža Zadužbina Wikimedia, neprofitna organizacija koja također udomljuje niz drugih projekata.",
+	"app-links": {
+		"title": "Sad su dostupne Wikipedijine aplikacije:",
+		"ios": "Preuzmi za iOS na App Storeu",
+		"android": "Preuzmi za Android na Google Playu",
+		"other": "Vidi cijeli spisak raspoloživih Wikipedijinih aplikacija"
+	},
+	"license": "Stranica je dostupna pod licencom <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Autorstvo-Dijeliti pod istim uvjetima</a>.",
+	"terms": "Uslovi korištenja",
+	"Privacy Policy": "Politika privatnosti",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Slobodna enciklopedija"
+		"slogan": "Slobodna enciklopedija",
+		"entries": "članaka"
 	},
 	"wiktionary": {
-		"name": "Vikirječnik",
-		"slogan": "Slobodni rječnik"
+		"name": "Wikirječnik",
+		"slogan": "Slobodni rječnik",
+		"entries": "unosa"
 	},
 	"wikibooks": {
-		"name": "Wikiknjige"
+		"name": "Wikiknjige",
+		"slogan": "Slobodni udžbenici",
+		"entries": "stranica"
 	},
 	"wikinews": {
-		"name": "Wikivijesti"
+		"name": "Wikivijesti",
+		"slogan": "Slobodni izvor vijesti",
+		"entries": "članaka"
 	},
 	"wikiquote": {
 		"name": "Wikicitat",
@@ -21,6 +42,36 @@
 		"entries": "tekst(ov)a"
 	},
 	"wikisource": {
-		"name": "Wikizvor"
+		"name": "Wikizvor",
+		"slogan": "Slobodna biblioteka"
+	},
+	"wikiversity": {
+		"name": "Wikiverzitet",
+		"slogan": "Slobodni materijali za učenje",
+		"entries": "resursa za učenje"
+	},
+	"wikivoyage": {
+		"name": "Wikiputovanje",
+		"slogan": "Slobodni turistički vodič"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Slobodno upotrebljive slike i još datoteka"
+	},
+	"wikispecies": {
+		"name": "Wikivrste",
+		"slogan": "Katalog živih vrsta"
+	},
+	"wikidata": {
+		"name": "Wikipodaci",
+		"slogan": "Slobodna baza znanja"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Slobodni i otvoreni wiki softver"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Koordinacija i dokumentiranje zajednice"
 	}
 }

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Irus",
-			"Wadorgurt"
+			"Wadorgurt",
+			"Shklyaev"
 		]
 	},
 	"language-name": "Удмурт",
@@ -19,7 +20,8 @@
 		"entries": "статья"
 	},
 	"wikibooks": {
-		"name": "Вики-книгаос"
+		"name": "Вики-книгаос",
+		"entries": "бамъёс"
 	},
 	"wikinews": {
 		"name": "Вики-иворъёс",

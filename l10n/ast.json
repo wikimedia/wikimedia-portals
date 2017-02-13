@@ -7,6 +7,15 @@
 	"language-name": "Asturianu",
 	"language-button-text": "Llei Wikipedia na to llingua",
 	"footer-description": "Wikipedia ta agospiada pola Fundación Wikimedia, una organización sin ánimu de lucru que tamién agospia dellos proyeutos más.",
+	"app-links": {
+		"title": "Agora tán disponibles aplicaciones de Wikipedia:",
+		"ios": "Descargar pa iOS na Tienda d'aplicaciones",
+		"android": "Descargar pa Android en Google Play",
+		"other": "Ver la llista completa d'aplicaciones de Wikipedia disponibles"
+	},
+	"license": "Esta páxina ta disponible baxo la <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">llicencia Creative Commons Atribución-CompartirIgual</a>",
+	"terms": "Condiciones d'usu",
+	"Privacy Policy": "Política d'intimidá",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "La Enciclopedia Llibre",

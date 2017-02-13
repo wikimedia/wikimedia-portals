@@ -6,7 +6,8 @@
 			"Minh Nguyen",
 			"محمد أحمد عبد الفتاح",
 			"DRIHEM",
-			"ديفيد"
+			"ديفيد",
+			"ASHmed"
 		]
 	},
 	"language-name": "الإنجليزية",
@@ -14,7 +15,11 @@
 	"language-name-romanized-sorted": "Arabiyah, Al",
 	"language-button-text": "اقرأ ويكيبيديا بلغتك",
 	"footer-description": "ويكيبيديا تتم استضافتها بواسطة مؤسسة ويكيميديا، وهي منظمة غير ربحية تستضيف أيضا مجموعة من المشاريع الأخرى.",
+	"app-links": {
+		"title": "تطبيقات ويكيبيديا متوفرة الآن:"
+	},
 	"terms": "شروط الاستخدام",
+	"Privacy Policy": "سياسة الخصوصية",
 	"wiki": {
 		"name": "ويكيبيديا",
 		"slogan": " الموسوعة الحرة",

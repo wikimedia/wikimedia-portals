@@ -6,6 +6,15 @@
 	},
 	"language-button-text": "Les Wikipedia på ditt språk",
 	"footer-description": "Wikipedia støttes av Wikimedia Foundation, en ideell organisasjon som også støtter en rekke andre prosjekter.",
+	"app-links": {
+		"title": "Wikipedia-apper er nå tilgjengelige:",
+		"ios": "Last ned for iOS i App Store",
+		"android": "Last ned for Android i Google Play",
+		"other": "Vis hele lista over tilgjengelige Wikipedia-apper"
+	},
+	"license": "Denne siden er tilgjengelig under lisensen <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons-Navngivese-Del på samme vilkår</a>",
+	"terms": "Bruksvilkår",
+	"Privacy Policy": "Personvernpolitikk",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Den frie encyklopedi",
