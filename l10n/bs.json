@@ -11,11 +11,13 @@
 		"title": "Sad su dostupne Wikipedijine aplikacije:",
 		"ios": "Preuzmi za iOS na App Storeu",
 		"android": "Preuzmi za Android na Google Playu",
-		"other": "Vidi cijeli spisak raspoloživih Wikipedijinih aplikacija"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Vidi cijeli spisak raspoloživih Wikipedijinih aplikacija</a>"
 	},
 	"license": "Stranica je dostupna pod licencom <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Autorstvo-Dijeliti pod istim uvjetima</a>.",
 	"terms": "Uslovi korištenja",
 	"Privacy Policy": "Politika privatnosti",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Slobodna enciklopedija",

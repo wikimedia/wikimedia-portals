@@ -13,11 +13,13 @@
 		"title": "Сега се достапни Википедиините прилози:",
 		"ios": "Преземете за iOS од App Store",
 		"android": "Преземете за Андроид од Google Play",
-		"other": "Целосен список на расположиви Википедиини прилози"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Целосен список на расположивите прилози за Википедија</a>"
 	},
 	"license": "Страницава е достапна под лиценцата <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.mk'>Криејтив комонс Наведи извор - Сподели под исти услови</a>",
 	"terms": "Услови на употреба",
 	"Privacy Policy": "Заштита на личните податоци",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/mk",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/mk",
 	"wiki": {
 		"name": "Википедија",
 		"slogan": "Слободната енциклопедија",

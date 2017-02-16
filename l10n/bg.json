@@ -11,6 +11,17 @@
 	"language-name-romanized-sorted": "Balgarski",
 	"language-button-text": "Четете Уикипедия на вашия език",
 	"footer-description": "Уикипедия се хоства от Фондация Уикимедия, организация с идеална цел, която поддържа и редица други проекти.",
+	"app-links": {
+		"title": "Достъпни приложения за Уикипедия:",
+		"ios": "Изтегляне за iOS от App Store",
+		"android": "Изтегляне за Андроид от Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Пълен списък на наличните приложения за Уикипедия</a>"
+	},
+	"license": "Страницата е достъпна под <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">условията на лиценза Криейтив Комънс Признание-споделяне на споделеното</a>",
+	"terms": "Условия за ползване",
+	"Privacy Policy": "Защита на личните данни",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/bg",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/bg",
 	"wiki": {
 		"name": "Уикипедия",
 		"slogan": "Cвободната енциклопедия",

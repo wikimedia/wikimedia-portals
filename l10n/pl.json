@@ -13,11 +13,13 @@
 		"title": "Aplikacje Wikipedii są już dostępne:",
 		"ios": "Pobierz na iOS w App Store",
 		"android": "Pobierz na Androida w Google Play",
-		"other": "Zobacz pełną listę aplikacji Wikipedii"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Zobacz pełną listę aplikacji Wikipedii</a> (ang.)"
 	},
 	"license": "Ta strona jest dostępna na licencji <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.pl'>Creative Commons Uznanie autorstwa-Na tych samych warunkach</a>",
 	"terms": "Warunki użytkowania",
 	"Privacy Policy": "Polityka prywatności",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/pl",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/pl",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Wolna encyklopedia",

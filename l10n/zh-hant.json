@@ -14,11 +14,13 @@
 		"title": "維基百科應用程式現可使用：",
 		"ios": "在App Store下載iOS版",
 		"android": "在Google Play下載Android版",
-		"other": "檢視所有可用維基百科應用程式清單"
+		"other": "<a href='https://zh.wikipedia.org/wiki/維基百科應用程式'>檢視所有可用維基百科應用程式清單</a>"
 	},
 	"license": "此頁面依據<a href='https://creativecommons.org/licenses/by-sa/3.0/deed.zh_TW'>創用CC姓名標示-相同方式分享</a>授權。",
 	"terms": "使用條款",
 	"Privacy Policy": "隱私政策",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/zh-hant",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/zh-tw",
 	"wiki": {
 		"name": "維基百科",
 		"slogan": "自由的百科全書",

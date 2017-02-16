@@ -10,11 +10,13 @@
 		"title": "Wikipedia-apper er nå tilgjengelige:",
 		"ios": "Last ned for iOS i App Store",
 		"android": "Last ned for Android i Google Play",
-		"other": "Vis hele lista over tilgjengelige Wikipedia-apper"
+		"other": "<a href=\"https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications\">Vis hele lista over tilgjengelige Wikipedia-apper</a>"
 	},
 	"license": "Denne siden er tilgjengelig under lisensen <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons-Navngivese-Del på samme vilkår</a>",
 	"terms": "Bruksvilkår",
 	"Privacy Policy": "Personvernpolitikk",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Den frie encyklopedi",

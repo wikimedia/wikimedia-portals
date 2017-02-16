@@ -2,11 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Chaduvari",
-			"WP MANIKHANTA"
+			"WP MANIKHANTA",
+			"Veeven"
 		]
 	},
 	"language-name": "తెలుగు",
 	"language-name-romanized": "Telugu",
+	"language-button-text": "వికీపీడియాను మీ భాషలో చదవండి",
+	"terms": "వాడుక నియమాలు",
+	"Privacy Policy": "అంతరంగికతా విధానం",
 	"wiki": {
 		"name": "వికీపీడియా",
 		"slogan": "ఒక స్వేచ్ఛా విజ్ఞాన సర్వస్వం",
@@ -44,5 +48,15 @@
 	"wikivoyage": {
 		"name": "వికీవొయేజ్",
 		"slogan": "ఉచిత ప్రయాన మార్గదర్శకం"
+	},
+	"commons": {
+		"name": "కామన్స్",
+		"slogan": "స్వేచ్ఛగా వాడుకోదగ్గ ఫొటోలు, ఇంకా"
+	},
+	"wikidata": {
+		"name": "వికీడేటా"
+	},
+	"mediawiki": {
+		"name": "మీడియావికీ"
 	}
 }
