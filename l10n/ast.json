@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"Macofe"
 		]
 	},
 	"language-name": "Asturianu",
@@ -11,11 +12,13 @@
 		"title": "Agora tán disponibles aplicaciones de Wikipedia:",
 		"ios": "Descargar pa iOS na Tienda d'aplicaciones",
 		"android": "Descargar pa Android en Google Play",
-		"other": "Ver la llista completa d'aplicaciones de Wikipedia disponibles"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Ver la llista completa d'aplicaciones de Wikipedia disponibles</a>"
 	},
 	"license": "Esta páxina ta disponible baxo la <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">llicencia Creative Commons Atribución-CompartirIgual</a>",
 	"terms": "Condiciones d'usu",
 	"Privacy Policy": "Política d'intimidá",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ast",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "La Enciclopedia Llibre",

@@ -9,6 +9,16 @@
 	"language-name-romanized-sorted": "Bangla",
 	"language-button-text": "আপনার ভাষায় উইকিপিডিয়া পড়ুন",
 	"footer-description": "উইকিপিডিয়া, অলাভজনক প্রতিষ্ঠান উইকিমিডিয়া ফাউন্ডেশন দ্বারা হোস্ট করা যা অন্যান্য প্রকল্পের একটি পরিসীমা হোস্ট করছে।",
+	"app-links": {
+		"title": "উইকিপিডিয়ার অ্যাপ এখন উপলব্ধ রয়েছে:",
+		"ios": "অ্যাপ স্টোরে iOS-এর জন্য ডাউনলোড করুন",
+		"android": "গুগল প্লেতে অ্যান্ড্রয়েডের জন্য ডাউনলোড করুন"
+	},
+	"license": "এই পাতাটি <a href='https://creativecommons.org/licenses/by-sa/3.0/'>ক্রিয়েটিভ কমন্স অ্যাট্রিবিউশন-শেয়াআলাইক লাইসেন্সের</a> অধীনে উপলব্ধ।",
+	"terms": "ব্যবহারের শর্তাবলী",
+	"Privacy Policy": "গোপনীয়তার নীতি",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/bn",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/bn",
 	"wiki": {
 		"name": "উইকিপিডিয়া",
 		"slogan": "উন্মুক্ত বিশ্বকোষ",

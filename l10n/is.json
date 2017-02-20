@@ -1,13 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Snævar"
+			"Snævar",
+			"Sveinn í Felli"
 		]
 	},
 	"language-name": "Íslenska",
 	"language-name-romanized-sorted": "Islenska",
 	"language-button-text": "Lesa Wikipediu á þínu tungumáli",
 	"footer-description": "Wikipedia er hýst af Wikimedia stofnuninni, samtökum sem eru rekin án hagnaðar og hýsa einnig önnur verkefni.",
+	"app-links": {
+		"title": "Núna er hægt að fá Wikipedia-smáforrit:",
+		"ios": "Sækja fyrir iOS í App Store",
+		"android": "Sækja fyrir Android í Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Skoðaðu lista yfir öll tiltæk smáforrit Wikipedia</a>"
+	},
+	"terms": "Notkunarskilmálar",
+	"Privacy Policy": "Meðferð persónuupplýsinga",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Frjálsa alfræðiritið",

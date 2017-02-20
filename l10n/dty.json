@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nirajan pant"
+			"Nirajan pant",
+			"Macofe"
 		]
 	},
 	"language-button-text": "तमरी अफुनी भषामी विकिपिडिया पणऽ",
@@ -10,7 +11,7 @@
 		"title": "विकिपीडिया अनुप्रयोगअन अाब उपलब्ध छन:",
 		"ios": "iOS खिलाइ App Store बठेइ डाउनलोड अरऽ",
 		"android": "एन्ड्रोइड खिलाइ गूगल प्ले भठेइ डाउनलोड अरऽ",
-		"other": "उपलब्ध विकीपीडिया अनुप्रयोगअनै सङती सूची तकऽ"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>उपलब्ध विकीपीडिया अनुप्रयोगअनै सङती सूची तकऽ</a>"
 	},
 	"license": "यो पन्‍ना <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> अन्तर्गत उपलब्ध छ",
 	"terms": "उपयोग का शर्तअन",

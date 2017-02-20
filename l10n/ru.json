@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Okras",
-			"Ole Yves"
+			"Ole Yves",
+			"Macofe"
 		]
 	},
 	"language-name": "Русский",
@@ -13,7 +14,7 @@
 		"title": "Приложения Википедии теперь доступны:",
 		"ios": "Скачать для iOS в App Store",
 		"android": "Скачать для Android в Google Play",
-		"other": "Посмотреть полный список доступных приложений Википедии"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Посмотреть полный список доступных приложений Википедии</a>"
 	},
 	"license": "Эта страница доступна под <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">лицензией Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Условия использования",

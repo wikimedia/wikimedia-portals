@@ -3,7 +3,8 @@
 		"authors": [
 			"Gwenn-Ael",
 			"Y-M D",
-			"Fulup"
+			"Fulup",
+			"Macofe"
 		]
 	},
 	"language-name": "Brezhoneg",
@@ -13,11 +14,13 @@
 		"title": "Bremañ emañ hegerz arloadoù Wikipedia",
 		"ios": "Pellgargañ evit iOS diwar an App Store",
 		"android": "Pellgargañ evit Android diwar Google Play",
-		"other": "Gwelet roll klok an arloadoù hegerz evit Wikipedia"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Gwelet roll klok an arloadoù hegerz evit Wikipedia</a>"
 	},
 	"license": "Emañ ar bajenn-mañ dindan an aotre implijout <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Deroadur-RannañHeñvel</a>",
 	"terms": "Termenoù implijout",
 	"Privacy Policy": "Reolennoù prevezded",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "An Holloueziadur digor",

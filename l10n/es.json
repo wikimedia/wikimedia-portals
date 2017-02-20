@@ -13,11 +13,13 @@
 		"title": "Ahora están disponibles apicaciones de Wikipedia:",
 		"ios": "Descargar para iOS en la Tienda de aplicaciones",
 		"android": "Descargar para Android en Google Play",
-		"other": "Ver la lista completa de aplicaciones de Wikipedia disponibles"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Ver la lista completa de aplicaciones de Wikipedia disponibles</a>"
 	},
 	"license": "Esta página está disponible bajo la <a href='https://creativecommons.org/licenses/by-sa/3.0/'>licencia Creative Commons Atribución-CompartirIgual</a>",
 	"terms": "Términos de uso",
 	"Privacy Policy": "Política de privacidad",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/es",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/es",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "La enciclopedia libre",

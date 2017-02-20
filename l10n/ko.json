@@ -13,10 +13,13 @@
 	"app-links": {
 		"title": "위키백과 앱을 지금 사용할 수 있습니다:",
 		"ios": "앱 스토어에서 iOS용 다운로드",
-		"android": "구글 플레이에서 안드로이드용 다운로드"
+		"android": "구글 플레이에서 안드로이드용 다운로드",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>사용 가능한\n 위키백과 앱의 전체 목록 보기</a>"
 	},
 	"terms": "이용 약관",
 	"Privacy Policy": "개인정보 정책",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ko",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ko",
 	"wiki": {
 		"name": "위키백과",
 		"slogan": "우리 모두의 백과사전",

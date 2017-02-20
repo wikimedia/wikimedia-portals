@@ -3,7 +3,8 @@
 		"authors": [
 			"Pyscowicz",
 			"Olimar",
-			"Stryn"
+			"Stryn",
+			"Macofe"
 		]
 	},
 	"language-name": "Suomi",
@@ -13,7 +14,7 @@
 		"title": "Wikipedia-sovellukset ovat nyt saatavilla:",
 		"ios": "Lataa iOS:lle App Storesta",
 		"android": "Lataa Androidille Google Play -kaupasta",
-		"other": "Näytä koko lista saatavilla olevista Wikipedia-sovelluksista"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Näytä koko lista saatavilla olevista Wikipedia-sovelluksista</a>"
 	},
 	"license": "Tämä sivu on käytettävissä <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Nimeä-JaaSamoin 3.0 lisensillä</a>",
 	"terms": "Käyttöehdot",

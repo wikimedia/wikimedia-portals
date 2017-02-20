@@ -13,11 +13,13 @@
 		"title": "Wikipedia-appar finns nu tillgängliga:",
 		"ios": "Ladda ned för iOS på App Store",
 		"android": "Ladda ned för Android på Google Play",
-		"other": "Visa fullständig lista över tillgängliga Wikipedia-appar"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Visa fullständig lista över tillgängliga Wikipedia-appar</a>"
 	},
 	"license": "Denna sida är tillgänglig under licensen <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Erkännande-DelaLika</a>",
 	"terms": "Användarvillkor",
 	"Privacy Policy": "Integritetspolicy",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Den fria encyklopedin",

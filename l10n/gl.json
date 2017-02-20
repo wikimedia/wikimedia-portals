@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elisardojm"
+			"Elisardojm",
+			"Macofe"
 		]
 	},
 	"language-name": "Galego",
@@ -11,7 +12,7 @@
 		"title": "Agora están dispoñibles as aplicacións de Wikipediaː",
 		"ios": "Descargar para iOS na Tenda de aplicacións",
 		"android": "Descargar para Android en Google Play",
-		"other": "Ver a lista completa de aplicacións de Wikipedia dispoñibles"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Ver a lista completa de aplicacións de Wikipedia dispoñibles</a>"
 	},
 	"license": "Esta páxina está dispoñible baixo a <a href='https://creativecommons.org/licenses/by-sa/3.0/'>licenza Creative Commons Atribución-CompartirIgual</a>",
 	"terms": "Termos de uso",
