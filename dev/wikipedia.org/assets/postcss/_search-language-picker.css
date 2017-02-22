@@ -63,7 +63,7 @@
     /* All browsers */
     appearance: none;
 
-    outline: none;
+    outline: 0;
     cursor: pointer;
 }
 
@@ -155,7 +155,7 @@
 
 /* firefox */
 .styled-select select:focus {
-    outline: none;
+    outline: 0;
     box-shadow: none;
 }
 
@@ -167,6 +167,7 @@
 }
 
 /* hack to fall back in opera */
+/* stylelint-disable-next-line selector-type-no-unknown */
 _:-o-prefocus,
 .selector {
     .styled-select select {

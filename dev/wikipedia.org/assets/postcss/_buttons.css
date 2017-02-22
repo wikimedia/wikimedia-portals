@@ -80,7 +80,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     color: #fff;
     background: #ddd;
     border: 1px solid #ddd;
-    outline: none;
+    outline: 0;
     cursor: default;
     box-shadow: none;
 

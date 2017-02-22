@@ -127,7 +127,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
 since IE8 won't execute CSS that contains a CSS3 selector.
 */
-.pure-form input:not([type])[disabled] {
+.pure-form input:not( [type] )[disabled] {
     cursor: var( --cursor-base--disabled );
     background-color: #eaeded;
     color: #cad2d3;

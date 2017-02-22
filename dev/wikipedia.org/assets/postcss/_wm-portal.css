@@ -396,7 +396,7 @@ hr {
     }
 }
 
-/* stylelint-disable media-feature-name-no-vendor-prefix */
+/* stylelint-disable media-feature-name-no-vendor-prefix, media-feature-name-no-unknown */
 @media ( -webkit-min-device-pixel-ratio: 1.5 ), ( min--moz-device-pixel-ratio: 1.5 ), ( -o-min-device-pixel-ratio: 3/2 ), ( min-resolution: 1.5dppx ), ( min-resolution: 144dpi ) {
     .bookshelf-container .bookend {
         background-size: 40px auto;
@@ -420,7 +420,7 @@ hr {
         border-bottom-width: 0.5px;
     }
 }
-/* stylelint-enable media-feature-name-no-vendor-prefix */
+/* stylelint-enable media-feature-name-no-vendor-prefix, media-feature-name-no-unknown */
 
 /* Subpixel borders not supported in older releases of Blink, WebKit */
 @supports ( -webkit-marquee-style: slide ) {

@@ -42,7 +42,7 @@ a.suggestion-link:hover {
 a.suggestion-link:active,
 a.suggestion-link:focus {
     white-space: normal;
-    outline: none;
+    outline: 0;
 }
 
 .suggestion-thumbnail {

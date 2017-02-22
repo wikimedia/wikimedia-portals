@@ -74,7 +74,7 @@ video {
  * Remove excess height in iOS 5 devices.
  */
 
-audio:not([controls]) {
+audio:not( [controls] ) {
   display: none;
   height: 0;
 }

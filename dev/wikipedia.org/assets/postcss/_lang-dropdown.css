@@ -56,7 +56,7 @@ hr {
     border: var( --border-base );
     border-radius: var( --border-radius-base );
     outline: 1rem solid #fff;
-    transition: outline-width 0.05s ease-in 0.5s;
+    transition: outline-width 100ms ease-in 500ms;
 }
 
 .lang-list-button:hover {
