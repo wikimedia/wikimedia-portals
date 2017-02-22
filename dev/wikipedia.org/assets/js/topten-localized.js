@@ -12,6 +12,13 @@
 
 function localizeTopTen() {
 
+	var preferredLanguages = wmTest.userLangs,
+		i, topLinks = document.querySelectorAll( '.central-featured-lang' ),
+		topLinksContainer = document.querySelector( '.central-featured' ),
+		localizedSlogan = document.getElementById( 'js-localized-slogan' ),
+		topLinkLangs,
+		storedTranslationHash = mw.storage.get( 'translationHash' ),
+		storedTranslations;
 	/**
 	 * Helper function to safely parse JSON an return empty string on error.
 	 *
@@ -28,6 +35,8 @@ function localizeTopTen() {
 		return parsed;
 	}
 
+	storedTranslations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
+
 	/**
 	 * Returns an array of language codes based on the lang attributes of the top-ten links.
 	 *
@@ -35,23 +44,19 @@ function localizeTopTen() {
 	 * @return {Array} List of top link languages.
 	 */
 	function getTopLinkLangs( topLinks ) {
-		var topLinkLangs = [ ];
+		var topLinkLangs = [ ],
+			topLinkLang,
+			i;
 
-		for ( var i = 0; i < topLinks.length; i++ ) {
-			var topLinkLang = topLinks[ i ].getAttribute( 'lang' );
+		for ( i = 0; i < topLinks.length; i++ ) {
+			topLinkLang = topLinks[ i ].getAttribute( 'lang' );
 			topLinkLangs.push( topLinkLang );
 		}
 
 		return topLinkLangs;
 	}
 
-	var preferredLanguages = wmTest.userLangs,
-		i, topLinks = document.querySelectorAll( '.central-featured-lang' ),
-		topLinksContainer = document.querySelector( '.central-featured' ),
-		localizedSlogan = document.getElementById( 'js-localized-slogan' ),
-		topLinkLangs = getTopLinkLangs( topLinks ),
-		storedTranslationHash = mw.storage.get( 'translationHash' ),
-		storedTranslations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
+	topLinkLangs = getTopLinkLangs( topLinks );
 
 	/**
 	 * translationHash is a global variable that is a hash of all translation strings.
@@ -76,11 +81,12 @@ function localizeTopTen() {
 	* Manipulates the {@link #topLinkLangs} array.
 	*/
 	function mergeNewTopLinkLangs() {
+		var pl, plIndex, plExists, plRightSpot;
 		for ( i = 0; i < preferredLanguages.length; i++ ) {
-			var pl = preferredLanguages[ i ],
-				plIndex = topLinkLangs.indexOf( pl ),
-				plExists = plIndex >= 0,
-				plRightSpot = plIndex === i;
+			pl = preferredLanguages[ i ];
+			plIndex = topLinkLangs.indexOf( pl );
+			plExists = plIndex >= 0;
+			plRightSpot = plIndex === i;
 
 			if ( plExists ) {
 				if ( !plRightSpot ) {
@@ -124,17 +130,22 @@ function localizeTopTen() {
 	 */
 	function reorganizeTopLinkClasses( topLinkLangs ) {
 		var topLinks = document.querySelectorAll( '.central-featured-lang' ),
-			topLinksCorrectLangs = true;
+			topLink,
+			topLinkLang,
+			topLinkClass,
+			correctClassName,
+			topLinksCorrectLangs = true,
+			i;
 
-		for ( var i = 0; i < topLinks.length && topLinksCorrectLangs === true; i++ ) {
-			var topLinkLang = topLinks[ i ].getAttribute( 'lang' );
+		for ( i = 0; i < topLinks.length && topLinksCorrectLangs === true; i++ ) {
+			topLink = topLinks[ i ].getAttribute( 'lang' );
 			topLinksCorrectLangs = topLinkLangs.indexOf( topLinkLang ) >= 0;
 		}
 
 		for ( i = 0; i < topLinks.length && topLinksCorrectLangs === true; i++ ) {
-			var topLink = topLinks[ i ],
-				topLinkClass = topLink.className,
-				correctClassName = 'central-featured-lang lang' + ( i + 1 );
+			topLink = topLinks[ i ];
+			topLinkClass = topLink.className;
+			correctClassName = 'central-featured-lang lang' + ( i + 1 );
 
 			if ( topLinkClass !== correctClassName ) {
 				topLink.className = correctClassName;
@@ -171,7 +182,8 @@ function localizeTopTen() {
 	 */
 	function getAjaxTranslation( node, lang ) {
 
-		var i18nReq = new XMLHttpRequest();
+		var i18nReq = new XMLHttpRequest(),
+			wikiInfo;
 
 		i18nReq.open( 'GET', encodeURI( 'portal/wikipedia.org/assets/l10n/' + lang + '-' + translationsHash + '.json' ), true );
 
@@ -181,7 +193,7 @@ function localizeTopTen() {
 				return;
 			}
 
-			var wikiInfo = safelyParseJSON( this.responseText );
+			wikiInfo = safelyParseJSON( this.responseText );
 
 			if ( wikiInfo ) {
 				updateTopLinkDOM( node, wikiInfo );
@@ -223,10 +235,12 @@ function localizeTopTen() {
 	 * @returns {HTMLElement} Node that can be reused with new content.
 	 */
 	function findReusableTopLink( topLinks, topLinkLangs ) {
-		var reusableTopLink = null;
+		var reusableTopLink = null,
+			topLinkLang,
+			i;
 
-		for ( var i = topLinkLangs.length - 1; i >= 0 && reusableTopLink === null; i-- ) {
-			var topLinkLang = topLinks[ i ].getAttribute( 'lang' );
+		for ( i = topLinkLangs.length - 1; i >= 0 && reusableTopLink === null; i-- ) {
+			topLinkLang = topLinks[ i ].getAttribute( 'lang' );
 			if ( topLinkLangs.indexOf( topLinkLang ) < 0 ) {
 				reusableTopLink = topLinks[ i ];
 			}
@@ -241,19 +255,25 @@ function localizeTopTen() {
 	* to contain the new language.
 	*/
 	function organizeTopLinks() {
+		var topLinks,
+			topLinkLang,
+			topLinkNode,
+			topLinkNodeIndex,
+			repurposedTopLink;
+
 		for ( i = 0; i < topLinkLangs.length; i++ ) {
 
-			var topLinks = document.querySelectorAll( '.central-featured-lang' ),
-				topLinkLang = topLinkLangs[ i ],
-				topLinkNode = document.querySelector( '.central-featured-lang[lang=' + topLinkLang + ']' );
+			topLinks = document.querySelectorAll( '.central-featured-lang' );
+			topLinkLang = topLinkLangs[ i ];
+			topLinkNode = document.querySelector( '.central-featured-lang[lang=' + topLinkLang + ']' );
 
 			if ( topLinkNode ) {
-				var topLinkNodeIndex = Array.prototype.indexOf.call( topLinks, topLinkNode );
+				topLinkNodeIndex = Array.prototype.indexOf.call( topLinks, topLinkNode );
 				if ( topLinkNodeIndex !== i ) {
 					topLinksContainer.insertBefore( topLinkNode, topLinks[ i ] );
 				}
 			} else {
-				var repurposedTopLink = findReusableTopLink( topLinks, topLinkLangs );
+				repurposedTopLink = findReusableTopLink( topLinks, topLinkLangs );
 				localizeTopLink( repurposedTopLink, topLinkLang );
 				topLinksContainer.insertBefore( repurposedTopLink, topLinks[ i ] );
 			}

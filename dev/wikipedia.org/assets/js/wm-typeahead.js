@@ -31,7 +31,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		searchLang,
 		searchString,
 		typeAheadItems,
-		activeItem;
+		activeItem,
+		ssActiveIndex;
 
 	// only create typeAheadEl once on page.
 	if ( !typeAheadEl ) {
@@ -47,8 +48,10 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 * @returns {string}
 	 */
 	function serialize( obj ) {
-		var serialized = [];
-		for ( var prop in obj ) {
+		var serialized = [],
+			prop;
+
+		for ( prop in obj ) {
 			if ( obj.hasOwnProperty( prop ) ) {
 				serialized.push( prop + '=' + encodeURIComponent( obj[ prop ] ) );
 			}
@@ -77,10 +80,11 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			delete this.queue[ i ];
 		},
 		deletePrevCallbacks: function ( j ) {
+			var callback;
 
 			this.deleteSelfFromQueue( j );
 
-			for ( var callback in this.queue ) {
+			for ( callback in this.queue ) {
 				if ( callback < j ) {
 					this.queue[ callback ] = this.deleteSelfFromQueue.bind( window.callbackStack, callback );
 				}
@@ -93,7 +97,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 * Makes sure the 'active' element is synchronized between mouse and keyboard usage,
 	 * and cleared when new search suggestions appear.
 	 */
-	var ssActiveIndex = {
+	ssActiveIndex = {
 		index: -1,
 		max: maxSearchResults,
 		setMax: function ( x ) {
@@ -132,8 +136,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 	function clearTypeAhead() {
 		setTimeout( function () {
-			typeAheadEl.innerHTML = '';
 			var searchScript = document.getElementById( 'api_opensearch' );
+			typeAheadEl.innerHTML = '';
 			if ( searchScript ) {
 				searchScript.src = false;
 			}
@@ -150,6 +154,12 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 
 	function loadQueryScript( string, lang ) {
+		var script = document.getElementById( 'api_opensearch' ),
+			docHead = document.getElementsByTagName( 'head' )[ 0 ],
+			hostname = '//' + searchLang + '.wikipedia.org/w/api.php?',
+			callbackIndex,
+			searchQuery;
+
 		// variables declared in parent function.
 		searchLang = encodeURIComponent( lang ) || 'en';
 		searchString = encodeURIComponent( string );
@@ -157,10 +167,6 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			clearTypeAhead();
 			return;
 		}
-
-		var script = document.getElementById( 'api_opensearch' ),
-			docHead = document.getElementsByTagName( 'head' )[ 0 ],
-			hostname = '//' + searchLang + '.wikipedia.org/w/api.php?';
 
 		// If script already exists, remove it.
 		if ( script ) {
@@ -170,23 +176,23 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		script = document.createElement( 'script' );
 		script.id = 'api_opensearch';
 
-		var callbackIndex = window.callbackStack.addCallback( window.portalOpensearchCallback ),
-			searchQuery = {
-				action: 'query',
-				format: 'json',
-				generator: 'prefixsearch',
-				prop: 'pageprops|pageimages|pageterms',
-				redirects: '',
-				ppprop: 'displaytitle',
-				piprop: 'thumbnail',
-				pithumbsize: thumbnailSize,
-				pilimit: maxSearchResults,
-				wbptterms: 'description',
-				gpssearch: string,
-				gpsnamespace: 0,
-				gpslimit: maxSearchResults,
-				callback: 'callbackStack.queue[' + callbackIndex + ']'
-			};
+		callbackIndex = window.callbackStack.addCallback( window.portalOpensearchCallback );
+		searchQuery = {
+			action: 'query',
+			format: 'json',
+			generator: 'prefixsearch',
+			prop: 'pageprops|pageimages|pageterms',
+			redirects: '',
+			ppprop: 'displaytitle',
+			piprop: 'thumbnail',
+			pithumbsize: thumbnailSize,
+			pilimit: maxSearchResults,
+			wbptterms: 'description',
+			gpssearch: string,
+			gpsnamespace: 0,
+			gpslimit: maxSearchResults,
+			callback: 'callbackStack.queue[' + callbackIndex + ']'
+		};
 
 		script.src = hostname + serialize( searchQuery );
 		docHead.appendChild( script );
@@ -207,15 +213,18 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 		var sanitizedSearchString = mw.html.escape( mw.RegExp.escape( searchString ) ),
 			searchRegex = new RegExp( sanitizedSearchString, 'i' ),
 			startHighlightIndex = title.search( searchRegex ),
-			formattedTitle = mw.html.escape( title );
+			formattedTitle = mw.html.escape( title ),
+			endHighlightIndex,
+			strong,
+			beforeHighlight,
+			aferHighlight;
 
 		if ( startHighlightIndex >= 0 ) {
 
-			var endHighlightIndex = startHighlightIndex + sanitizedSearchString.length,
-				strong = title.substring( startHighlightIndex, endHighlightIndex ),
-				beforeHighlight = title.substring( 0, startHighlightIndex ),
-				aferHighlight = title.substring( endHighlightIndex, title.length );
-
+			endHighlightIndex = startHighlightIndex + sanitizedSearchString.length;
+			strong = title.substring( startHighlightIndex, endHighlightIndex );
+			beforeHighlight = title.substring( 0, startHighlightIndex );
+			aferHighlight = title.substring( endHighlightIndex, title.length );
 			formattedTitle = beforeHighlight + mw.html.element( 'em', { 'class': 'suggestion-highlight' }, strong ) + aferHighlight;
 		}
 
@@ -229,25 +238,26 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 * @returns {string} A string representing the search suggestions DOM
 	 */
 	function generateTemplateString( suggestions ) {
-		var string = '<div class="suggestions-dropdown">';
+		var string = '<div class="suggestions-dropdown">',
+			suggestionLink,
+			suggestionThumbnail,
+			suggestionText,
+			suggestionTitle,
+			suggestionDescription,
+			page,
+			sanitizedThumbURL = false,
+			descriptionText = '',
+			pageDescription = '',
+			i;
 
-		for ( var i = 0; i < suggestions.length; i++ ) {
+		for ( i = 0; i < suggestions.length; i++ ) {
 
 			if ( !suggestions[ i ] ) {
 				continue;
 			}
-			/**
-			 * Indentation is used to express the DOM order of template.
-			 */
-			var suggestionLink,
-				suggestionThumbnail,
-				suggestionText,
-				suggestionTitle,
-				suggestionDescription,
-				page = suggestions[ i ],
-				sanitizedThumbURL = false,
-				descriptionText = '',
-				pageDescription = ( page.terms && page.terms.description ) ? page.terms.description : '';
+
+			page = suggestions[ i ];
+			pageDescription = ( page.terms && page.terms.description ) ? page.terms.description : '';
 
 			if ( page.thumbnail && page.thumbnail.source ) {
 				sanitizedThumbURL = page.thumbnail.source.replace( /\"/g, '%22' );
@@ -301,11 +311,13 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 
 	function toggleActiveClass( item, collection ) {
 
-		var activeClass = ' active'; // prefixed with space.
+		var activeClass = ' active', // prefixed with space.
+			colItem,
+			i;
 
-		for ( var i = 0; i < collection.length; i++ ) {
+		for ( i = 0; i < collection.length; i++ ) {
 
-			var colItem = collection[ i ];
+			colItem = collection[ i ];
 			// remove the class name from everything except item.
 			if ( colItem !== item ) {
 				colItem.className = colItem.className.replace( activeClass, '' );
@@ -336,7 +348,13 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 	window.portalOpensearchCallback = function ( i ) {
 
-		var callbackIndex = i;
+		var callbackIndex = i,
+			orderedResults = [],
+			suggestions,
+			item,
+			result,
+			templateDOMString,
+			listEl;
 
 		return function ( xhrResults ) {
 
@@ -346,15 +364,14 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 				return;
 			}
 
-			var orderedResults = [],
-				suggestions = ( xhrResults.query && xhrResults.query.pages ) ? xhrResults.query.pages : [];
+			suggestions = ( xhrResults.query && xhrResults.query.pages ) ? xhrResults.query.pages : [];
 
-			for ( var item in suggestions ) {
-				var result = suggestions[ item ];
+			for ( item in suggestions ) {
+				result = suggestions[ item ];
 				orderedResults[ result.index - 1 ] = result;
 			}
 
-			var templateDOMString = generateTemplateString( orderedResults );
+			templateDOMString = generateTemplateString( orderedResults );
 
 			ssActiveIndex.setMax( orderedResults.length );
 			ssActiveIndex.clear();
@@ -364,8 +381,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			typeAheadItems = typeAheadEl.childNodes[ 0 ].childNodes;
 
 			// attaching hover events
-			for ( var i = 0; i < typeAheadItems.length; i++ ) {
-				var listEl = typeAheadItems[ i ];
+			for ( i = 0; i < typeAheadItems.length; i++ ) {
+				listEl = typeAheadItems[ i ];
 				// Requires the addEvent global polyfill
 				addEvent( listEl, 'mouseenter', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
 				addEvent( listEl, 'mouseleave', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
@@ -382,15 +399,17 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	function keyboardEvents( event ) {
 
 		var e = event || window.event,
-			keycode = e.which || e.keyCode;
+			keycode = e.which || e.keyCode,
+			suggestionItems,
+			searchSuggestionIndex;
 
 		if ( !typeAheadEl.firstChild ) {
 			return;
 		}
 
 		if ( keycode === 40 || keycode === 38 ) {
-			var suggestionItems = typeAheadEl.firstChild.childNodes,
-				searchSuggestionIndex;
+			suggestionItems = typeAheadEl.firstChild.childNodes;
+
 			if ( keycode === 40 ) {
 				searchSuggestionIndex = ssActiveIndex.increment( 1 );
 			} else {

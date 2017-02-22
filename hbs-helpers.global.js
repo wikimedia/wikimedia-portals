@@ -2,9 +2,8 @@
 /* globals require */
 /* globals module */
 /* globals console */
-var Handlebars = require( 'handlebars' );
-
-var helpers = {};
+var Handlebars = require( 'handlebars' ),
+	helpers = {};
 
 /**
  * If `attrs` is an object in the current context,
@@ -27,10 +26,10 @@ var helpers = {};
 helpers.printAttrs = function ( attrs ) {
 	var output = '',
 		whiteList = [ 'id', 'class', 'lang', 'data-converttitle-hans', 'data-convert-hans' ],
-		lowercase;
+		lowercase, attr;
 
 	if ( this[ attrs ] ) {
-		for ( var attr in this[ attrs ] ) {
+		for ( attr in this[ attrs ] ) {
 			lowercase = attr.toLowerCase();
 			if ( whiteList.indexOf( lowercase ) > -1 ) {
 				output += ' ' + Handlebars.escapeExpression( lowercase ) + '="' + Handlebars.escapeExpression( this[ attrs ][ attr ] ) + '"';
@@ -86,9 +85,11 @@ function thousandFloor( number ) {
  * @return {Handlebars.SafeString}
  */
 helpers.formatNumber = function ( number, options ) {
+	var numberLength, powerOfTen;
+
 	if ( options.hash.rounded ) {
-		var numberLength = Math.min( number.toString().length - 1, 3 ),
-			powerOfTen = Math.pow( 10, numberLength );
+		numberLength = Math.min( number.toString().length - 1, 3 );
+		powerOfTen = Math.pow( 10, numberLength );
 
 		number = Math.floor( number / powerOfTen ) * powerOfTen;
 	}

@@ -10,6 +10,7 @@
 		"mediaWiki": false
 	},
 	"rules": {
+		"no-sequences": "error",
 		"vars-on-top": 1,
 		"one-var": 1,
 		"dot-notation": [ "error", { "allowKeywords": true } ]

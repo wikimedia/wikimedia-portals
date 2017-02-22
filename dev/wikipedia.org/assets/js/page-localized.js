@@ -16,6 +16,8 @@
 	var primaryLang = wmTest.userLangs[ 0 ],
 		storedTranslationHash,
 		storedTranslations,
+		l10nReq,
+		l10nInfo,
 		rtlLangs = [
 			'ar',
 			'arc',
@@ -100,11 +102,10 @@
 	 * @return {Object}
 	 */
 	function getPropFromPath( obj, path ) {
+		var index = 0, length;
 
 		path = path.split( '.' );
-
-		var index = 0,
-			length = path.length;
+		length = path.length;
 
 		while ( obj && index < length ) {
 			obj = obj[ path[ index++ ] ];
@@ -120,15 +121,16 @@
 	 */
 	function replacel10nText( l10nInfo ) {
 		var domEls = document.querySelectorAll( '.jsl10n' ),
-			validAnchor = new RegExp( /<a[^>]*>([^<]+)<\/a>/ );
+			validAnchor = new RegExp( /<a[^>]*>([^<]+)<\/a>/ ),
+			i, domEl, l10nAttr, textValue, termsHref, privacyHref;
 
-		for ( var i = 0; i < domEls.length; i++ ) {
+		for ( i = 0; i < domEls.length; i++ ) {
 
-			var domEl = domEls[ i ],
-				l10nAttr = domEl.getAttribute( 'data-jsl10n' ),
-				textValue = getPropFromPath( l10nInfo, l10nAttr ),
-				termsHref = ( getPropFromPath( l10nInfo, 'terms-link' ) ) ? getPropFromPath( l10nInfo, 'terms-link' ) : false,
-				privacyHref = ( getPropFromPath( l10nInfo, 'privacy-policy-link' ) ) ? getPropFromPath( l10nInfo, 'privacy-policy-link' ) : false;
+			domEl = domEls[ i ];
+			l10nAttr = domEl.getAttribute( 'data-jsl10n' );
+			textValue = getPropFromPath( l10nInfo, l10nAttr );
+			termsHref = ( getPropFromPath( l10nInfo, 'terms-link' ) ) ? getPropFromPath( l10nInfo, 'terms-link' ) : false;
+			privacyHref = ( getPropFromPath( l10nInfo, 'privacy-policy-link' ) ) ? getPropFromPath( l10nInfo, 'privacy-policy-link' ) : false;
 
 			if ( typeof textValue === 'string' && textValue.length > 0 ) {
 				switch ( l10nAttr ) {
@@ -177,7 +179,7 @@
 	 */
 	if ( !storedTranslations[ primaryLang ] ) {
 
-		var l10nReq = new XMLHttpRequest();
+		l10nReq = new XMLHttpRequest();
 
 		l10nReq.open( 'GET', encodeURI( 'portal/wikipedia.org/assets/l10n/' + primaryLang + '-' + translationsHash + '.json' ), true );
 
@@ -185,7 +187,7 @@
 			if ( l10nReq.readyState === 4 ) {
 				if ( l10nReq.status === 200 ) {
 
-					var l10nInfo = safelyParseJSON( this.responseText );
+					l10nInfo = safelyParseJSON( this.responseText );
 
 					if ( l10nInfo ) {
 						addHtmlLang( primaryLang );
@@ -202,7 +204,7 @@
 
 		l10nReq.send();
 	} else {
-		var l10nInfo = storedTranslations[ primaryLang ];
+		l10nInfo = storedTranslations[ primaryLang ];
 		addHtmlLang( primaryLang );
 		replacel10nText( l10nInfo );
 	}

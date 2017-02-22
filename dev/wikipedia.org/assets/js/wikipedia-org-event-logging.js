@@ -6,7 +6,9 @@
 	'use strict';
 
 	var portalSchema, eventSections, docForms, eventData,
-		geoCookie = document.cookie.match( /GeoIP=.[^:]/ );
+		geoCookie = document.cookie.match( /GeoIP=.[^:]/ ),
+		country,
+		i;
 
 	if ( wmTest.group === 'rejected' || wmTest.loggingDisabled ) {
 		return;
@@ -98,11 +100,11 @@
 	function findEventSection( clickNode, eventSections ) {
 
 		var eventSection = {},
-			i, j;
+			i, j, nodes;
 
 		for ( i = 0; i < eventSections.length; i++ ) {
 
-			var nodes = eventSections[ i ].nodes;
+			nodes = eventSections[ i ].nodes;
 
 			for ( j = 0; j < nodes.length; j++ ) {
 
@@ -244,7 +246,7 @@
 
 	docForms = document.getElementsByTagName( 'form' );
 
-	for ( var i = 0; i < docForms.length; i++ ) {
+	for ( i = 0; i < docForms.length; i++ ) {
 		addEvent( docForms[ i ], 'submit', interceptForm );
 	}
 
@@ -253,7 +255,7 @@
 	 */
 
 	if ( geoCookie ) {
-		var country = geoCookie.toString().split( '=' )[ 1 ];
+		country = geoCookie.toString().split( '=' )[ 1 ];
 		if ( country === 'US' ) {
 			/**
 			 * if the country is United States, we need to obain the 2-letter state name (T136257)

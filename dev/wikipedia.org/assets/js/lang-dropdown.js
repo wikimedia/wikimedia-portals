@@ -27,11 +27,12 @@
 
 	function userLangWikiMissing( langs ) {
 		var anchors = document.getElementsByTagName( 'a' ),
-			langMissing = true; // being pessimistic
+			langMissing = true, // being pessimistic
+			i, anchor, langAttr;
 
-		for ( var i = 0; i < anchors.length && langMissing; i++ ) {
-			var anchor = anchors[ i ],
-				langAttr = anchor.getAttribute( 'lang' );
+		for ( i = 0; i < anchors.length && langMissing; i++ ) {
+			anchor = anchors[ i ];
+			langAttr = anchor.getAttribute( 'lang' );
 
 			if ( langAttr && langs.indexOf( langAttr ) >= 0 ) {
 				langMissing = false; // lang exists

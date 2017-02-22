@@ -101,7 +101,8 @@
 	function convertChinese( lang ) {
 		var i, elt,
 			txtAttr = 'data-convert-hans',
-			titleAttr = 'data-converttitle-hans';
+			titleAttr = 'data-converttitle-hans',
+			ids;
 
 		if ( 'zh-hans,zh-cn,zh-sg,zh-my,'.indexOf( lang + ',' ) === -1 ) {
 			return;
@@ -110,7 +111,7 @@
 		// If we ever drop support for IE 8 and below, we can put all these
 		// elements in a 'convertible' class and call
 		// document.getElementsByClassName() instead.
-		var ids = [ 'zh_art', 'zh_others', 'zh_search', 'zh_tag', 'zh_top10', 'zh-yue_wiki', 'gan_wiki', 'hak_wiki', 'wuu_wiki' ];
+		ids = [ 'zh_art', 'zh_others', 'zh_search', 'zh_tag', 'zh_top10', 'zh-yue_wiki', 'gan_wiki', 'hak_wiki', 'wuu_wiki' ];
 		for ( i = 0; i < ids.length; i += 1 ) {
 			elt = $( ids[ i ] );
 			if ( elt ) {
@@ -206,12 +207,17 @@
 	 * @param {string} lang
 	 */
 	function setLang( lang ) {
+		var uiLang,
+			match,
+			date;
+
 		if ( !lang ) {
 			return;
 		}
-		var uiLang = getUALang(),
-			match = uiLang.match( /^\w+/ ),
-			date = new Date();
+
+		uiLang = getUALang();
+		match = uiLang.match( /^\w+/ );
+		date = new Date();
 
 		updateBranding( lang );
 		if ( match && match[ 0 ] === lang ) {
@@ -304,7 +310,11 @@
 	 * no native srcset support.
 	 */
 	function hidpi() {
-		var imgs, i,
+		var imgs,
+			img,
+			srcset,
+			match,
+			i,
 			ratio = getDevicePixelRatio(),
 			testImage = new Image();
 
@@ -312,9 +322,8 @@
 			// No native srcset support.
 			imgs = document.getElementsByTagName( 'img' );
 			for ( i = 0; i < imgs.length; i++ ) {
-				var img = imgs[ i ],
-					srcset = img.getAttribute( 'srcset' ),
-					match;
+				img = imgs[ i ];
+				srcset = img.getAttribute( 'srcset' );
 				if ( typeof srcset === 'string' && srcset !== '' ) {
 					match = matchSrcSet( ratio, srcset );
 					if ( match.src !== undefined ) {

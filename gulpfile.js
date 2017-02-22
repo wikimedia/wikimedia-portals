@@ -18,10 +18,10 @@ var gulp = require( 'gulp' ),
 	postCSSImport = require( 'postcss-import' ),
 	postCSSReporter = require( 'postcss-reporter' ),
 	gulpStylelint = require( 'gulp-stylelint' ),
-	del = require( 'del' );
-
-var plugins = gulpLoadPlugins(),
-	portalParam = argv.portal;
+	del = require( 'del' ),
+	plugins = gulpLoadPlugins(),
+	portalParam = argv.portal,
+	getBaseDir, getProdDir, getConfig;
 
 // Help
 gulp.task( 'help', function () {
@@ -69,7 +69,6 @@ function requirePortalParam() {
 	}
 }
 
-var getBaseDir, getProdDir, getConfig;
 getBaseDir = function () {
 	requirePortalParam();
 
@@ -90,7 +89,7 @@ getProdDir = function () {
 
 getConfig = function () {
 	var config = {},
-		baseDir, prodDir;
+		baseDir, prodDir, minifyCss;
 
 	baseDir = getBaseDir();
 	prodDir = getProdDir();
@@ -104,7 +103,7 @@ getConfig = function () {
 		}
 	};
 
-	var minifyCss = function () {
+	minifyCss = function () {
 		var options = {
 			compatibility: 'ie7',
 			keepSpecialComments: '0'
@@ -263,9 +262,10 @@ gulp.task( 'minify-html', [ 'inline-assets', 'concat-minify-js' ], function () {
  */
 gulp.task( 'optimize-images', function () {
 
+	var imgOpt;
 	requirePortalParam();
 
-	var imgOpt = getConfig().optImage;
+	imgOpt = getConfig().optImage;
 
 	return gulp.src( imgOpt.src )
 		.pipe( imagemin( imgOpt.imageminConf.plugins, imgOpt.imageminConf.options ) )
@@ -332,6 +332,7 @@ gulp.task( 'update-stats', function () {
 } );
 
 gulp.task( 'fetch-meta', function () {
+	var portalsFromMeta;
 
 	requirePortalParam();
 
@@ -344,7 +345,7 @@ gulp.task( 'fetch-meta', function () {
 	}
 	if ( portalParam === 'all' ) {
 
-		var portalsFromMeta = [ 'wikibooks.org', 'wikimedia.org', 'wikinews.org', 'wikiquote.org', 'wikiversity.org', 'wikivoyage.org', 'wiktionary.org' ];
+		portalsFromMeta = [ 'wikibooks.org', 'wikimedia.org', 'wikinews.org', 'wikiquote.org', 'wikiversity.org', 'wikivoyage.org', 'wiktionary.org' ];
 
 		portalsFromMeta.forEach( function ( wiki ) {
 			exec( ' curl -Lo prod/' + wiki + '/index.html  "https://meta.wikimedia.org/w/index.php?title=Www.' + wiki + '_template&action=raw" ' );

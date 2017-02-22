@@ -24,7 +24,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	 * @return {Array} langs
 	 */
 	function setPreferredLanguages() {
-		var langs = [];
+		var langs = [], possibleLanguage, i;
 
 		function appendLanguage( l ) {
 			var lang = getIso639( l );
@@ -33,13 +33,13 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 			}
 		}
 
-		for ( var i in navigator.languages ) {
+		for ( i in navigator.languages ) {
 			appendLanguage( navigator.languages[ i ] );
 		}
 
 		// gets browser languages from some old Android devices
 		if ( /Android/i.test( navigator.userAgent ) ) {
-			var possibleLanguage = navigator.userAgent.split( ';' );
+			possibleLanguage = navigator.userAgent.split( ';' );
 			if ( possibleLanguage[ 3 ] ) {
 				appendLanguage( possibleLanguage[ 3 ].trim() );
 			}
@@ -97,13 +97,16 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	 */
 	function getSessionId() {
 
-		var sessionId = false;
+		var sessionId = false,
+			storedSessionId,
+			expires,
+			now;
 
 		if ( window.localStorage && !/1|yes/.test( navigator.doNotTrack ) ) {
 
-			var storedSessionId = mw.storage.get( KEYS.SESSION_ID ),
-				expires = mw.storage.get( KEYS.EXPIRES ),
-				now = new Date().getTime();
+			storedSessionId = mw.storage.get( KEYS.SESSION_ID );
+			expires = mw.storage.get( KEYS.EXPIRES );
+			now = new Date().getTime();
 
 			// return storedSessionId if not expired
 			if ( storedSessionId && expires > parseInt( now, 10 ) ) {

@@ -11,7 +11,10 @@ var _ = require( 'underscore' ),
 	top100000List,
 	top100000Dropdown,
 	Controller,
-	cachebuster;
+	cachebuster,
+	siteStats,
+	range,
+	translationPath = __dirname + '/assets/l10n/';
 
 // Format the dropdown for ./templates/search.mustache
 top100000List = stats.getRange( 'wiki', 'numPages', 100000 );
@@ -32,8 +35,8 @@ top100000Dropdown = stats.format( 'wiki', top100000List, {
  *        "lang":"en"
  *        }
  */
-var siteStats = {},
-	range = stats.getRangeFormatted( 'wiki', 'views', 10 );
+siteStats = {};
+range = stats.getRangeFormatted( 'wiki', 'views', 10 );
 
 _.each( range, function ( wiki ) {
 	if ( wiki.closed || wiki.sublinks ) {
@@ -54,7 +57,6 @@ _.each( range, function ( wiki ) {
 /**
  * Writing stats to translation files
  */
-var translationPath = __dirname + '/assets/l10n/';
 
 function createTranslationsChecksum( siteStats ) {
 	var data = JSON.stringify( siteStats ),
@@ -66,20 +68,22 @@ function createTranslationsChecksum( siteStats ) {
 }
 
 function createTranslationFiles( translationPath, siteStats, cachebuster ) {
+	var fileName, lang;
 
-	var writeFile = function ( el, lang ) {
+	function writeFile( el, lang ) {
+		var fileContent;
 
 		if ( el.code ) {
 			lang = el.code;
 		}
 
-		var fileName = translationPath + lang + '-' + cachebuster + '.json',
-			fileContent = JSON.stringify( el );
+		fileName = translationPath + lang + '-' + cachebuster + '.json';
+		fileContent = JSON.stringify( el );
 
 		fs.writeFileSync( fileName, fileContent );
-	};
+	}
 
-	for ( var lang in siteStats ) {
+	for ( lang in siteStats ) {
 		if ( siteStats[ lang ].sublinks ) {
 			siteStats[ lang ].sublinks.forEach( writeFile );
 		} else {
