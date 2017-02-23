@@ -9,6 +9,17 @@
 	"language-name-romanized-sorted": "Ukrayinska",
 	"language-button-text": "Читайте Вікіпедію своєю мовою",
 	"footer-description": "Вікіпедія перебуває на серверах Фонду Вікімедіа — неприбуткової організації, що також опікується рядом інших проектів.",
+	"app-links": {
+		"title": "Тепер доступні додатки Вікіпедії:",
+		"ios": "Завантажити для iOS в App Store",
+		"android": "Завантажити для Android у Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Переглянути повний список доступних додатків Вікіпедії</a>"
+	},
+	"license": "Ця сторінка доступна на умовах ліцензії <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Умови використання",
+	"Privacy Policy": "Політика конфіденційності",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/uk",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/uk",
 	"wiki": {
 		"name": "Вікіпедія",
 		"slogan": "Вільна енциклопедія",
