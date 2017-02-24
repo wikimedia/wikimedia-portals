@@ -27,6 +27,7 @@
     padding: 10px 10px 10px 85px;
     text-decoration: none;
     white-space: normal;
+    text-align: initial;
 }
 
 .suggestion-link.active {
