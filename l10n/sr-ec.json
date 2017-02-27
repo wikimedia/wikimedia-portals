@@ -1,0 +1,56 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01",
+			"Nikola Smolenski"
+		]
+	},
+	"language-button-text": "Читај Википедију на свом језику",
+	"wiki": {
+		"name": "Википедија",
+		"slogan": "Слободна енциклопедија",
+		"entries": "чланци"
+	},
+	"wiktionary": {
+		"name": "Викиречник",
+		"slogan": "Слободан речник",
+		"entries": "уноси"
+	},
+	"wikibooks": {
+		"name": "Викикњиге",
+		"slogan": "Слободни уџбеници",
+		"entries": "странице"
+	},
+	"wikinews": {
+		"slogan": "Слободан извор вести",
+		"entries": "чланци"
+	},
+	"wikiquote": {
+		"name": "Викицитати",
+		"slogan": "Слободна збирка цитата",
+		"entries": "чланци"
+	},
+	"wikisource": {
+		"name": "Викизворник",
+		"slogan": "Слободна библиотека"
+	},
+	"wikiversity": {
+		"name": "Викиверзитет"
+	},
+	"commons": {
+		"name": "Остава"
+	},
+	"wikispecies": {
+		"name": "Викиврсте"
+	},
+	"wikidata": {
+		"name": "Википодаци",
+		"slogan": "Слободна база знања"
+	},
+	"mediawiki": {
+		"name": "Медијавики"
+	},
+	"metawiki": {
+		"name": "Метавики"
+	}
+}
