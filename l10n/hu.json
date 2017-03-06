@@ -9,6 +9,17 @@
 	"language-name": "Magyar",
 	"language-button-text": "Olvasd a Wikipédiát az anyanyelveden",
 	"footer-description": "A Wikipédiát a Wikimédia Alapítvány üzemelteti, egy nonprofit szervezet, ami sok más projektet is üzemeltet.",
+	"app-links": {
+		"title": "Wikipédia-mobilalkalmazások:",
+		"ios": "Letöltés iOS-re az App Store-ból",
+		"android": "Letöltés Androidra a Google Play Áruházból",
+		"other": "<a href=\"https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications\">Teljes lista</a> (angolul)"
+	},
+	"license": "Ez a lap a <a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.hu\">Creative Commons Nevezd meg! – Így add tovább! licenc</a> alatt érhető el.",
+	"terms": "Felhasználási feltételek",
+	"Privacy Policy": "Adatvédelmi irányelvek",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/hu",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/hu",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "A szabad enciklopédia",
