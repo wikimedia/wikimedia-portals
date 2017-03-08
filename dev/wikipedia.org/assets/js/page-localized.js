@@ -166,7 +166,7 @@
 	}
 
 	function addHtmlLang( lang ) {
-		document.lang = lang;
+		document.documentElement.lang = lang;
 		if ( rtlLangs.indexOf( lang ) >= 0 ) {
 			document.dir = 'rtl';
 		} else {
