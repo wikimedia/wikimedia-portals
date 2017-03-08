@@ -89,7 +89,7 @@
     display: inline-block;
     vertical-align: top;
     white-space: normal;
-    max-width: 70%; /* approximating the 50px width of the icon */
+    max-width: 65%; /* approximating the 50px width of the icon */
 }
 
 .other-project-title,
@@ -182,7 +182,6 @@
 
 @media screen and ( max-width: 320px ) {
     .other-project-text {
-        margin-left: 55px;
         margin-right: 5px;
         font-size: 0.9em;
     }
