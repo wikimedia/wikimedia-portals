@@ -137,7 +137,7 @@ function localizeTopTen() {
 			i;
 
 		for ( i = 0; i < topLinks.length && topLinksCorrectLangs === true; i++ ) {
-			topLink = topLinks[ i ].getAttribute( 'lang' );
+			topLinkLang = topLinks[ i ].getAttribute( 'lang' );
 			topLinksCorrectLangs = topLinkLangs.indexOf( topLinkLang ) >= 0;
 		}
 
