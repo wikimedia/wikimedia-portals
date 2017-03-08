@@ -15,7 +15,6 @@ function localizeTopTen() {
 	var preferredLanguages = wmTest.userLangs,
 		i, topLinks = document.querySelectorAll( '.central-featured-lang' ),
 		topLinksContainer = document.querySelector( '.central-featured' ),
-		localizedSlogan = document.getElementById( 'js-localized-slogan' ),
 		topLinkLangs,
 		storedTranslationHash = mw.storage.get( 'translationHash' ),
 		storedTranslations;
@@ -154,21 +153,6 @@ function localizeTopTen() {
 	}
 
 	/**
-	 * Creates a localized slogan ('The Free Encyclopedia') below the Wikipedia wordmark
-	 */
-	function createLocalizedSlogan() {
-
-		var mainLang = preferredLanguages[ 0 ],
-			mainLangTopTenItem = document.getElementById( 'js-link-box-' + mainLang ),
-			sloganText;
-		if ( mainLangTopTenItem ) {
-			sloganText = mainLangTopTenItem.getAttribute( 'data-slogan' ) || 'The free encyclopedia';
-			localizedSlogan.textContent = sloganText;
-			localizedSlogan.className = 'localized-slogan';
-		}
-	}
-
-	/**
 	 * Retrieves top-ten item info. via ajax.
 	 * On every successful request, we update the top-link DOM, create the localized slogan, and
 	 * reorganize the top-link classes. Each of these methods check to see if the expected (i.e. final)
@@ -197,7 +181,6 @@ function localizeTopTen() {
 
 			if ( wikiInfo ) {
 				updateTopLinkDOM( node, wikiInfo );
-				createLocalizedSlogan();
 				reorganizeTopLinkClasses( topLinkLangs );
 				storedTranslations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
 				storedTranslations[ lang ] = wikiInfo;
@@ -287,14 +270,6 @@ function localizeTopTen() {
 	mergeNewTopLinkLangs();
 	organizeTopLinks();
 	reorganizeTopLinkClasses( topLinkLangs );
-	createLocalizedSlogan();
-
-	/**
-	* Sets the top ten style to visible after reoganizing top links.
-	*/
-	localizedSlogan.style.visibility = 'visible';
-	topLinksContainer.style.visibility = 'visible';
-
 }
 
 localizeTopTen();

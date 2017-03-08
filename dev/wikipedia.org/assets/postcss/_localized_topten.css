@@ -7,12 +7,12 @@
  */
 
 .js-enabled .jsl10n,
-.js-enabled .central-featured,
-.js-enabled #js-localized-slogan {
+.js-enabled .central-featured {
     visibility: hidden;
 }
 
-.jsl10n-visible .jsl10n {
+.js-l10n-visible .jsl10n,
+.js-l10n-visible .central-featured {
     visibility: visible;
 }
 
