@@ -1,4 +1,4 @@
-/* global wmTest, translationsHash */
+/* global wmTest, translationsHash, wmL10nVisible */
 /**
  * This code was used to localize the top-ten language links
  * for the A/B test titled "A/B test: browser language detection"
@@ -280,6 +280,10 @@ function localizeTopTen() {
 		}
 	}
 
+	// skip if it took too long
+	if ( wmL10nVisible.ready ) {
+		return;
+	}
 	mergeNewTopLinkLangs();
 	organizeTopLinks();
 	reorganizeTopLinkClasses( topLinkLangs );

@@ -1,4 +1,4 @@
-/* global wmTest, translationsHash, mw */
+/* global wmTest, translationsHash, mw, wmL10nVisible */
 
 /**
  * This script localizes the page text.
@@ -68,12 +68,8 @@
 		return ( translationsHash === storedHash ) ? storedHash : false;
 	}
 
-	function makePageVisible() {
-		document.body.className = document.body.className + ' jsl10n-visible';
-	}
-
 	if ( wmTest.userLangs[ 0 ] === 'en' ) {
-		makePageVisible();
+		wmL10nVisible.makeVisible();
 		return;
 	}
 
@@ -162,7 +158,7 @@
 				}
 			}
 		}
-		makePageVisible();
+		wmL10nVisible.makeVisible();
 	}
 
 	function addHtmlLang( lang ) {
@@ -190,13 +186,18 @@
 					l10nInfo = safelyParseJSON( this.responseText );
 
 					if ( l10nInfo ) {
-						addHtmlLang( primaryLang );
 						saveTranslation( primaryLang, l10nInfo );
+
+						// skip if it took too long
+						if ( wmL10nVisible.ready ) {
+							return;
+						}
+						addHtmlLang( primaryLang );
 						replacel10nText( l10nInfo );
 					}
 
 				} else {
-					makePageVisible();
+					wmL10nVisible.makeVisible();
 					return;
 				}
 			}
@@ -205,6 +206,10 @@
 		l10nReq.send();
 	} else {
 		l10nInfo = storedTranslations[ primaryLang ];
+		// skip if it took too long
+		if ( wmL10nVisible.ready ) {
+			return;
+		}
 		addHtmlLang( primaryLang );
 		replacel10nText( l10nInfo );
 	}
