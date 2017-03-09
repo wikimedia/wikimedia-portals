@@ -1,0 +1,79 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck",
+			"Renessaince"
+		]
+	},
+	"language-button-text": "Чытайце Вікіпэдыю сваёй мовай",
+	"footer-description": "Вікіпэдыя кіраваная Фундацыяй Вікімэдыі, некамэрцыйнай арганізацыяй, якая таксама кіруе шэрагам іншых праектаў.",
+	"app-links": {
+		"title": "Цяпер даступныя дадаткі Вікіпэдыі:",
+		"ios": "Загрузіць для iOS у Apple Store",
+		"android": "Загрузіць для Android у Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Паглядзець увесь сьпіс даступных дадаткаў Вікіпэдыі</a>"
+	},
+	"license": "Гэтая старонка даступная пад ліцэнзіяй <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Умовы выкарыстаньня",
+	"Privacy Policy": "Правілы адносна прыватнасьці",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/be-tarask",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/be-tarask",
+	"wiki": {
+		"name": "Вікіпэдыя",
+		"slogan": "Вольная энцыкляпэдыя",
+		"entries": "артыкулы"
+	},
+	"wiktionary": {
+		"name": "Вікіслоўнік",
+		"slogan": "Вольны слоўнік",
+		"entries": "запісы"
+	},
+	"wikibooks": {
+		"name": "Вікікнігі",
+		"slogan": "Вольныя падручнікі",
+		"entries": "старонкі"
+	},
+	"wikinews": {
+		"name": "Вікінавіны",
+		"slogan": "Вольная крыніца навінаў",
+		"entries": "артыкулы"
+	},
+	"wikiquote": {
+		"name": "Вікіцытатнік",
+		"slogan": "Вольны зборнік цытатаў",
+		"entries": "артыкулы"
+	},
+	"wikisource": {
+		"name": "Вікікрыніцы",
+		"slogan": "Вольная бібліятэка"
+	},
+	"wikiversity": {
+		"name": "Віківэрсытэт",
+		"slogan": "Вольныя адукацыйныя матэрыялы",
+		"entries": "адукацыйныя рэсурсы"
+	},
+	"wikivoyage": {
+		"name": "Віківандроўка",
+		"slogan": "Вольны дапаможнік вандроўніка"
+	},
+	"commons": {
+		"name": "Вікісховішча",
+		"slogan": "Вольныя фатаздымкі й інш."
+	},
+	"wikispecies": {
+		"name": "Віківіды",
+		"slogan": "Вольны каталёг відаў"
+	},
+	"wikidata": {
+		"name": "Вікізьвесткі",
+		"slogan": "Вольная база зьвестак"
+	},
+	"mediawiki": {
+		"name": "МэдыяВікі",
+		"slogan": "Вольны і адкрыты дадатак вікі"
+	},
+	"metawiki": {
+		"name": "Мэта-Вікі",
+		"slogan": "Каардынацыя супольнасьці і дакумэнтацыя"
+	}
+}
