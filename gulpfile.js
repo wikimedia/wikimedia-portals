@@ -3,6 +3,7 @@
 /* globals process */
 /* globals console */
 /* globals JSON */
+/* globals Buffer */
 /* eslint dot-notation: ["error", { "allowKeywords": false }] */
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
@@ -20,6 +21,7 @@ var gulp = require( 'gulp' ),
 	gulpStylelint = require( 'gulp-stylelint' ),
 	del = require( 'del' ),
 	plugins = gulpLoadPlugins(),
+	gulpSlash = require( 'gulp-slash' ),
 	portalParam = argv.portal,
 	getBaseDir, getProdDir, getConfig;
 
@@ -45,6 +47,7 @@ gulp.task( 'help', function () {
 	console.log( '| gulp --portal wikipedia.org                 - run all of the above on the specified portal page |' );
 	console.log( '|                                                                                                 |' );
 	console.log( '| gulp fetch-meta --portal wikipedia.org      - overwrite the portal page with source from Meta   |' );
+	console.log( '| gulp update-urls-to-purge        - creates the urls-to-purge.txt file to purge the server cache |' );
 	console.log( '+-------------------------------------------------------------------------------------------------+' );
 	console.log();
 	/* eslint-enable no-console */
@@ -358,6 +361,62 @@ gulp.task( 'fetch-meta', function () {
 } );
 
 /**
+ * Creates a 'urls-to-purge.txt' file at the root of the repo that
+ * contains a list of URL's that must be purged from the server cache.
+ * These URLs include the root portal urls for all portals and all
+ * production asset URLs in this repo.
+ *
+ * Must be run when after all assets have been versioned, minified &
+ * copied into the production dir.
+ */
+gulp.task( 'update-urls-to-purge', [ 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images', 'copy-translation-files' ], function() {
+
+	var UrlsToPurge = [
+			'https://www.wikibooks.org/',
+			'https://www.wikimedia.org/',
+			'https://www.wikinews.org/',
+			'https://www.wikipedia.org/',
+			'https://www.wikiquote.org/',
+			'https://www.wikiversity.org/',
+			'https://www.wikivoyage.org/',
+			'https://www.wiktionary.org/'
+		],
+		portalAssetDirs = 'prod/**/assets/**/*',
+		purgeFile = 'urls-to-purge.txt';
+
+	function createAssetUrl( file ) {
+		var domain, urlToPurge;
+		domain = file.relative.split( '/' )[ 0 ];
+		urlToPurge = 'https://www.' + domain + '/portal/' + file.relative;
+		return urlToPurge;
+	}
+
+	function addAssetUrl( url ) {
+		return UrlsToPurge.push( url );
+	}
+
+	function assetFilesStream( file ) {
+		var assetUrl;
+		if ( file.isDirectory() ) { return; }
+		assetUrl = createAssetUrl( file );
+		return addAssetUrl( assetUrl );
+	}
+
+	function writePurgeFile( UrlsToPurge ) {
+		var fileContents = UrlsToPurge.join( '\n' ),
+			fileBuffer = new Buffer( fileContents );
+		return fs.writeFile( purgeFile, fileBuffer );
+	}
+
+	return gulp.src( portalAssetDirs, { buffer: false, read: false } )
+		.pipe( gulpSlash() ) // Because windows slashes are '\' instead of '/'
+		.pipe( plugins.tap( assetFilesStream ) )
+		.on( 'end', function() {
+			writePurgeFile( UrlsToPurge );
+		} );
+} );
+
+/**
  * Generates images sprites and accompanying CSS files using Sprity.
  * Outputs sprites into dev assets/img folder.
  * Outputs css into dev css/sprites.css file.
@@ -392,4 +451,16 @@ gulp.task( 'lint', [ 'lint-js', 'lint-css' ] );
 
 gulp.task( 'test', [ 'lint' ] );
 
-gulp.task( 'default', [ 'lint', 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images', 'copy-translation-files' ] );
+gulp.task( 'default', [
+	'lint',
+	'compile-handlebars',
+	'sprite',
+	'postcss',
+	'inline-assets',
+	'clean-prod-js',
+	'concat-minify-js',
+	'minify-html',
+	'optimize-images',
+	'copy-translation-files',
+	'update-urls-to-purge'
+] );
