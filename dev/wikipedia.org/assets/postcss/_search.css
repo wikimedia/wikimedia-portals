@@ -1,0 +1,101 @@
+/* ::: Search bar below the central logo area ::: */
+
+.search-container {
+	/* FIXME why mixing em, rem, % and px ? */
+	float: none;
+	max-width: 95%;
+	width: 540px;
+	margin: 0 auto 1.5em auto;
+	padding: 0.3em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.search-container button {
+	margin: 0;
+	padding: 0.5rem 1rem;
+	z-index: var( --ss-button-z-index );
+	font-size: 1rem;
+	line-height: 1.6rem;
+	vertical-align: middle;
+}
+
+.search-container .sprite-icons-search-icon {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*--- CSS tricks to make the search input a simple input */
+.search-container input[type="search"]::-webkit-search-decoration,
+.search-container input[type="search"]::-webkit-search-cancel-button,
+.search-container input[type="search"]::-webkit-search-results-button,
+.search-container input[type="search"]::-webkit-search-results-decoration {
+	-webkit-appearance: none;
+}
+
+.search-container input::-webkit-calendar-picker-indicator {
+	display: none;
+}
+
+/* FIXME verify that we have a #search element */
+#search {
+	border-radius: 0;
+	-webkit-appearance: none;
+}
+
+.search-container .sprite-icons-arrow-down {
+	display: inline-block;
+	position: absolute;
+	top: 6px;
+	right: 6.5px;
+	margin: 0;
+	vertical-align: middle;
+}
+
+#searchInput {
+	height: 2.7rem;
+	width: 100%;
+	padding: 0.5rem;
+	padding-right: 6.4rem;
+	font-size: 1rem;
+	line-height: 1.6rem;
+}
+
+/* FIXME why should we have a class and an id ? */
+/* Language picker */
+.search-container .search-input {
+	display: inline-block;
+	position: relative;
+	width: 73%;
+	margin-right: 0.5rem;
+	vertical-align: top;
+}
+
+/* Responsive mode */
+@media only screen and ( max-width: 480px ) {
+
+	.search-container {
+		margin-top: 0;
+	}
+
+	.search-container .pure-form fieldset {
+		/* FIXME can we use rem? */
+		margin-left: 5px;
+		margin-right: 80px;
+	}
+
+	/* FIXME why should we have a class and an id ? */
+	.search-container .search-input {
+		margin-left: 5px;
+		margin-right: -70px;
+		margin-bottom: 0;
+		width: 100%;
+	}
+
+	.search-container .pure-form button {
+		float: right;
+		right: -70px;
+		margin: 0;
+		padding: 0.5rem 1rem;
+	}
+}

@@ -1,0 +1,25 @@
+/* ::: Print stylesheet ::: */
+
+@media print {
+
+	body {
+		background-color: transparent;
+	}
+
+	a {
+		color: #000 !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+
+	a:link,
+	a:visited {
+		color: #520;
+		background: transparent;
+	}
+
+	img {
+		border: 0;
+	}
+
+}

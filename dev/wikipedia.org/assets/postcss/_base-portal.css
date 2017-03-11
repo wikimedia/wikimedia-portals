@@ -1,0 +1,37 @@
+/* ::: Portal's base css ::: */
+
+body {
+	background-color: #fff;
+	font: 13px/1.5 sans-serif;
+	margin: 0.3em 0;
+}
+
+a,
+a:active,
+a:focus {
+	unicode-bidi: embed;
+	outline: 0;
+	color: var( --color-primary );
+	text-decoration: none;
+}
+
+a:focus {
+	outline: 1px solid var( --color-primary );
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+hr {
+	clear: both;
+	height: 0;
+	border: 0;
+	border-bottom: 1px solid var( --border-color-heading );
+	margin: 0.2em 1em;
+}

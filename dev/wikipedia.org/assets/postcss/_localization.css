@@ -1,0 +1,18 @@
+/**
+ * This code was used to localize the top-ten language links
+ * for the A/B test titled "A/B test: browser language detection"
+ *
+ * A/B test documented here:
+ * https://www.mediawiki.org/wiki/Wikipedia.org_Portal_A/B_testing
+ */
+
+.js-enabled .jsl10n,
+.js-enabled .central-featured {
+    visibility: hidden;
+}
+
+.jsl10n-visible .jsl10n,
+.jsl10n-visible .central-featured {
+    visibility: visible;
+}
+

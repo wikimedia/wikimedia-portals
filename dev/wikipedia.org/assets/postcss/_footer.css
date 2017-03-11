@@ -1,15 +1,14 @@
-/**
-* new portal footer
-* https://phabricator.wikimedia.org/T131238
-*/
+/* ::: Footer ::: */
 
 .footer {
+	overflow: hidden;
+	max-width: 100%;
     margin: 0 auto;
+	/* FIXME why mixing em and rem ? */
     padding: 2.6rem 1em 1em 1em;
     font-size: 0.8rem;
-    overflow: hidden;
-    max-width: 100%;
 }
+
 .footer:before,
 .footer:after {
     content: ' ';
@@ -42,10 +41,11 @@
 
 .footer-sidebar-text {
     position: relative;
-    color: var( --ss-c-grey );
     margin: 0;
+	/* FIXME replace px with rem? */
     padding-left: 60px;
     padding-right: 20px;
+	color: var( --ss-c-grey );
 }
 
 .privacy-policy-links {
@@ -56,58 +56,18 @@
     display: block;
 }
 
-.other-projects {
-    width: 70%;
-    display: inline-block;
-}
-
-.other-project {
-    position: relative;
-    width: 33%;
-    height: 90px;
-    float: left;
-}
-
-.other-project-link {
-    display: inline-block;
-    min-height: 50px;
-    white-space: nowrap;
-    max-width: 100%;
-}
-
-.other-project-icon {
-    display: inline-block;
-    width: 50px;
-    text-align: center;
-}
-
-.other-project .sprite-project-logos {
-    display: inline-block;
-}
-
-.other-project-text {
-    display: inline-block;
-    vertical-align: top;
-    white-space: normal;
-    max-width: 65%; /* approximating the 50px width of the icon */
-}
-
-.other-project-title,
-.other-project-tagline {
-    display: block;
-}
-
-.other-project-tagline {
-    color: var( --ss-c-grey );
-    font-size: 0.95em;
+.site-license {
+	margin: 0;
+	color: var( --ss-c-grey );
+	text-align: center;
 }
 
 @media screen and ( max-width: 768px ) {
 
     .footer {
+		display: flex;
+		flex-direction: column;
         padding-top: 1em;
-        display: flex;
-        flex-direction: column;
     }
 
     .footer .footer-sidebar {
@@ -136,10 +96,11 @@
     }
 
     .footer-sidebar-icon {
+		display: block;
         position: relative;
-        display: block;
+		left: 0;
+		/* FIXME replace em with rem? */
         margin: 0 auto 1em auto;
-        left: 0;
     }
 
     .footer-sidebar-content {
@@ -153,37 +114,14 @@
     }
     .privacy-policy-links a {
         display: inline-block;
+		/* FIXME replace em with rem? */
         margin: 0 0.5em;
     }
-
-    .other-projects {
-        width: 100%;
-    }
-
-    .other-project {
-        width: 33%;
-    }
-}
-
-.site-license {
-    margin: 0;
-    text-align: center;
-    color: var( --ss-c-grey );
 }
 
 @media screen and ( max-width: 480px ) {
     .footer {
+		/* FIXME why mixing em and rem? */
         padding: 0.6rem 0.5em 1em 0.5em;
     }
-    .other-project {
-        width: 50%;
-    }
 }
-
-@media screen and ( max-width: 320px ) {
-    .other-project-text {
-        margin-right: 5px;
-        font-size: 0.9em;
-    }
-}
-

@@ -1,0 +1,68 @@
+/* ::: Central Logo ::: */
+
+/* Section containing the central Wikipedia header */
+
+.central-textlogo {
+	/* FIXME replace em with rem? */
+	margin: 1em 0 0.5em 0;
+	padding: 10px 0;
+	font-family: 'Linux Libertine', 'Hoefler Text', Georgia, 'Times New Roman', Times, serif;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 110%;
+	text-align: center;
+	/* Crossed W in Linux Libertine */
+	-moz-font-feature-settings: "ss05=1";
+	-moz-font-feature-settings: "ss05";
+	-webkit-font-feature-settings: "ss05";
+	-ms-font-feature-settings: "ss05";
+	font-feature-settings: "ss05";
+}
+
+.localized-slogan {
+	display: block;
+	margin-bottom: -20px;
+	/* FIXME replace with var() */
+	font-family: 'Linux Libertine', 'Times New Roman', serif;
+	font-size: 16px;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+@media all and ( max-width: 480px ) {
+	.central-textlogo {
+		position: relative;
+		height: 70px;
+		margin: 0;
+		padding: 0;
+		line-height: normal;
+		text-align: center;
+	}
+
+	.central-textlogo img {
+		height: 35px;
+		width: auto;
+		/* FIXME replace with rem */
+		margin-top: 8px;
+	}
+
+	.localized-slogan {
+		/* FIXME replace with rem? */
+		margin-left: 18px;
+	}
+}
+
+@media all and ( max-width: 375px ) {
+	.central-textlogo {
+		display: inline-block;
+		left: 84px;
+	}
+}
+
+@media all and ( max-width: 240px ) {
+
+	.central-textlogo img {
+		height: auto;
+		width: 100px;
+	}
+}

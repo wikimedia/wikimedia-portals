@@ -1,70 +1,61 @@
-/* Common to JS and non JS versions */
+/* ::: Language picker style (common to JS and non JS version) ::: */
+
 .styled-select {
-    display: none;
-    position: absolute;
-
-    top: var( --ss-pos-top );
-    bottom: var( --ss-pos-bottom );
-    right: var( --ss-pos-right );
-
-    height: var( --ss-height );
-
-    max-width: var( --ss-width );
-
-    padding: 0;
-    margin: 0;
-
-    border-radius: 3px;
+	display: none;
+	position: absolute;
+	top: var( --ss-pos-top );
+	bottom: var( --ss-pos-bottom );
+	right: var( --ss-pos-right );
+	max-width: var( --ss-width );
+	height: var( --ss-height );
+	margin: 0;
+	padding: 0;
+	border-radius: 3px;
 }
 
 .styled-select:hover {
-    background-color: var( --ss-c-grey-hover );
+	background-color: var( --ss-c-grey-hover );
 }
+
 .styled-select .hide-arrow {
-    right: 32px;
-    max-width: 68px;
+	right: 32px;
+	max-width: 68px;
 
-    height: var( --ss-height );
-    padding: 0;
+	height: var( --ss-height );
+	padding: 0;
 
-    overflow: hidden;
-    text-align: right;
+	overflow: hidden;
+	text-align: right;
 
 }
 .styled-select select {
-    border: 0;
-    box-sizing: border-box;
+	background: transparent;
+	display: inline;
+	overflow: hidden;
+	height: var( --ss-height );
+	min-width: var( --ss-select-width );
+	max-width: var( --ss-select-width );
+	width: var( --ss-select-width );
+	outline: 0;
+	box-sizing: border-box;
+	border: 0;
+	line-height: 19.5px;
 
-    overflow: hidden;
+	/*hide default down arrow in webkit */
+	-webkit-appearance: none;
 
-    display: inline;
+	/* Firefox */
+	-moz-appearance: window;
+	text-indent: 0.01px;
+	text-overflow: '';
 
-    height: var( --ss-height );
-    max-width: var( --ss-select-width );
-    min-width: var( --ss-select-width );
-    width: var( --ss-select-width );
+	/* Opera */
+	-o-appearance: none !important;
+	opacity: 0;
 
-    line-height: 19.5px;
-
-    background: transparent;
-
-    /*hide default down arrow in webkit */
-    -webkit-appearance: none;
-
-    /* Firefox */
-    -moz-appearance: window;
-    text-indent: 0.01px;
-    text-overflow: '';
-
-    /* Opera */
-    -o-appearance: none !important;
-    opacity: 0;
-
-    /* All browsers */
-    appearance: none;
-
-    outline: 0;
-    cursor: pointer;
+	/* All browsers */
+	appearance: none;
+	cursor: pointer;
 }
 
 /*
@@ -73,12 +64,12 @@
 .styled-select.no-js {
     width: var( --ss-width );
 }
-.styled-select.no-js select {
-    margin: 0;
-    padding: 0 24px 0 8px;
 
-    color: var( --ss-c-grey );
-    opacity: 1;
+.styled-select.no-js select {
+	opacity: 1;
+	margin: 0;
+	padding: 0 24px 0 8px;
+	color: var( --ss-c-grey );
 }
 
 .styled-select.no-js .hide-arrow {
@@ -99,21 +90,20 @@
 }
 
 .styled-select.js-enabled select {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: 0;
-    left: 0;
-    top: 0;
-    z-index: var( --ss-select-z-index );
-
-    margin: 0;
-    padding: 0 24px 0 0;
-
-    color: transparent;
-    color: rgba( 255, 255, 255, 0 );
+	background: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: var( --ss-select-z-index );
+	width: 100%;
+	border: 0;
+	margin: 0;
+	padding: 0 24px 0 0;
+	color: transparent;
+	color: rgba( 255, 255, 255, 0 );
 }
+
 .styled-select.js-enabled select option {
     color: var( --ss-c-grey );
 }
@@ -126,23 +116,23 @@
 }
 
 .styled-select.js-enabled select:focus + .styled-select-active-helper {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 0;
-    outline: 1px solid var( --color-primary--focus );
-    top: 0;
-    left: 0;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	outline: 1px solid var( --color-primary--focus );
 }
 
 .search-container .js-langpicker-label {
-    display: inline-block;
-    color: var( --ss-c-grey );
-    line-height: var( --ss-height );
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    margin: 0;
+	display: inline-block;
+	margin: 0;
+	color: var( --ss-c-grey );
+	font-size: 0.8rem;
+	line-height: var( --ss-height );
+	text-transform: uppercase;
 }
 /* END JS only lang selector idea */
 
@@ -163,14 +153,5 @@
 @-moz-document url-prefix() {
     .styled-select select {
         width: 110%;
-    }
-}
-
-/* hack to fall back in opera */
-/* stylelint-disable-next-line selector-type-no-unknown */
-_:-o-prefocus,
-.selector {
-    .styled-select select {
-        background: none;
     }
 }

@@ -1,0 +1,170 @@
+/* ::: Central Features ::: */
+
+/* Section containing the top 10 Wikis and the Wikipedia logo */
+
+.central-featured {
+	position: relative;
+	/* FIXME replace em with rem? */
+	height: 25em;
+	width: 42em;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.central-featured-logo-wrapper {
+	/* FIXME replace with rem */
+	line-height: 24em;
+	vertical-align: middle;
+}
+
+.central-featured-lang {
+	position: absolute;
+	/* FIXME replace em with rem? */
+	width: 12em;
+}
+
+/* Make entire block clickable, surpress hover underline */
+.central-featured-lang .link-box {
+	display: block;
+	padding: 0;
+	text-decoration: none;
+	white-space: normal;
+}
+
+/* Restore underline on main label */
+.central-featured-lang .link-box:hover strong {
+	text-decoration: underline;
+}
+
+/* Surpress blue color */
+.central-featured-lang .link-box em,
+.central-featured-lang .link-box small {
+	color: #000;
+	text-decoration: none;
+}
+
+.central-featured-lang strong {
+	display: block;
+	font-size: larger;
+}
+
+.central-featured-lang em {
+	font-style: italic;
+}
+
+.central-featured-lang .emNonItalicLang {
+	font-style: normal;
+}
+
+.lang1 {
+	top: 0;
+	right: 60%;
+}
+
+.lang2 {
+	top: 0;
+	left: 60%;
+}
+
+.lang3 {
+	top: 20%;
+	right: 70%;
+}
+
+.lang4 {
+	top: 20%;
+	left: 70%;
+}
+
+.lang5 {
+	top: 40%;
+	right: 72%;
+}
+
+.lang6 {
+	top: 40%;
+	left: 72%;
+}
+
+.lang7 {
+	top: 60%;
+	right: 70%;
+}
+
+.lang8 {
+	top: 60%;
+	left: 70%;
+}
+
+.lang9 {
+	top: 80%;
+	right: 60%;
+}
+
+.lang10 {
+	top: 80%;
+	left: 60%;
+}
+
+@media all and ( max-width: 480px ) {
+	.central-featured {
+		width: auto;
+		height: auto;
+		margin-top: 4em;
+		padding-top: 2em;
+		font-size: 0.8em;
+		text-align: left;
+	}
+
+	.central-featured:after {
+		content: ' ';
+		display: block;
+		visibility: hidden;
+		clear: both;
+		height: 0;
+		font-size: 0;
+	}
+
+	.central-featured-logo {
+		position: absolute;
+		top: -70px;
+		left: 0.8em;
+		right: 0;
+		width: 70px;
+		margin-top: -4em;
+	}
+
+	.central-featured-lang {
+		display: block;
+		float: left;
+		position: relative;
+		top: auto;
+		left: auto;
+		right: auto;
+		box-sizing: border-box;
+		height: 5em;
+		width: 33%;
+		margin: 0;
+		padding: 0 1rem;
+		font-size: 0.8rem;
+		text-align: center;
+	}
+
+	.central-featured-lang strong {
+		font-size: 0.8rem;
+	}
+}
+
+@media all and ( max-width: 375px ) {
+	.central-featured-lang {
+		font-size: 0.7rem;
+	}
+}
+
+@media all and ( max-width: 240px ) {
+	.central-featured-lang {
+		width: 100%;
+	}
+}

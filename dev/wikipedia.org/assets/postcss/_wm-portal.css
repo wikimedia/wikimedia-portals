@@ -8,110 +8,7 @@
  *
  */
 
-body {
-    background-color: #fff;
-    font: 13px/1.5 sans-serif;
-    margin: 0.3em 0;
-}
-
-a,
-a:active,
-a:focus {
-    unicode-bidi: embed;
-    outline: 0;
-    color: var( --color-primary );
-    text-decoration: none;
-}
-a:focus {
-    outline: 1px solid var( --color-primary );
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-img {
-    border: 0;
-    vertical-align: middle;
-}
-
-hr {
-    clear: both;
-    height: 0;
-    border: 0;
-    border-bottom: 1px solid #aaa;
-    margin: 0.2em 1em;
-}
-
-/**
- * Central logo area for wiki-project portals
- * (e.g. where the globe is on www.wikipedia.org)
- */
-.central-textlogo {
-    margin: 1em 0 0.5em 0;
-    text-align: center;
-    font-size: 30px;
-    line-height: 110%;
-    font-family: 'Linux Libertine', 'Hoefler Text', Georgia, 'Times New Roman', Times, serif;
-    font-weight: normal;
-    padding: 10px 0;
-    /* Crossed W in Linux Libertine */
-    -moz-font-feature-settings: "ss05=1";
-    -moz-font-feature-settings: "ss05";
-    -webkit-font-feature-settings: "ss05";
-    -ms-font-feature-settings: "ss05";
-    font-feature-settings: "ss05";
-}
-
-.central-featured {
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-    max-width: 100%;
-    width: 42em;
-    margin: 0 auto;
-    height: 26em;
-}
-
-.central-featured-logo-wrapper {
-    vertical-align: middle;
-    line-height: 26em;
-}
-
-.central-featured-lang {
-    position: absolute;
-    width: 12em;
-}
-
-/* Make entire block clickable, surpress hover underline */
-.central-featured-lang .link-box {
-    display: block;
-    padding: 0;
-    text-decoration: none;
-    white-space: normal;
-}
-/* Restore underline on main label */
-.central-featured-lang .link-box:hover strong {
-    text-decoration: underline;
-}
-/* Surpress blue color */
-.central-featured-lang .link-box em,
-.central-featured-lang .link-box small {
-    color: #000;
-    text-decoration: none;
-}
-
-.central-featured-lang strong {
-    font-size: larger;
-}
-
-.central-featured-lang em {
-    font-style: italic;
-}
-
-.central-featured-lang .emNonItalicLang {
-    font-style: normal;
-}
+/* FIXME investigate if this might be needed */
 
 /* Serbo-Croatian is dual-script, so it needs some tweaking to fit in the top 10 ring. */
 /* .digraphic strong {
@@ -123,199 +20,7 @@ hr {
     display: none;
 } */
 
-.lang1 {
-    top: 0;
-    right: 60%;
-}
-.lang2 {
-    top: 0;
-    left: 60%;
-}
-.lang3 {
-    top: 20%;
-    right: 70%;
-}
-.lang4 {
-    top: 20%;
-    left: 70%;
-}
-.lang5 {
-    top: 40%;
-    right: 72%;
-}
-.lang6 {
-    top: 40%;
-    left: 72%;
-}
-.lang7 {
-    top: 60%;
-    right: 70%;
-}
-.lang8 {
-    top: 60%;
-    left: 70%;
-}
-.lang9 {
-    top: 80%;
-    right: 60%;
-}
-.lang10 {
-    top: 80%;
-    left: 60%;
-}
-
-/**
- * Language lists, bookshelves, etc.
- */
-.bookshelf-container {
-    width: 100%;
-    overflow: hidden;
-    margin: 2em 0 0.5em 0;
-    font-size: 13px;
-    font-weight: bold;
-    line-height: 20px;
-}
-
-.bookshelf-container .text {
-    padding: 0 0.5em;
-}
-
-.bookshelf {
-    display: block;
-    text-align: center;
-    white-space: nowrap;
-}
-
-.bookshelf-container .bookend {
-    display: inline-block;
-    vertical-align: top;
-
-}
-
-.langlist {
-    text-align: center;
-    margin: 0.5em 3em 2.5em 3em;
-}
-
-.langlist-large {
-    font-size: larger;
-}
-
-.langlist-tiny {
-    margin: 0.5em 3em 3em 3em;
-}
-
-.langlist-others {
-    margin: 0 3em 2em 3em;
-    font-weight: bold;
-}
-
-/**
- * Style for horizontal lists (separator following item).
- * @note Support for unused tags like <dt> has been stripped out, and the
- *     dependency on :last-child and JavaScript has been removed in favor of
- *     :before.
- * @source mediawiki.org/wiki/Snippets/Horizontal_lists
- * @revision 6 (2014-05-09)
- * @author [[User:Edokter]]
- */
-.hlist ul {
-    margin: 0;
-    padding: 0;
-}
-/* Display list items inline */
-.hlist li {
-    display: inline;
-}
-/* Display nested lists inline */
-.hlist ul ul {
-    display: inline;
-}
-/* Generate interpuncts */
-.hlist li:before {
-    content: " · ";
-    font-weight: bold;
-}
-.hlist li:first-child:before {
-    content: none;
-}
-/* Add parentheses around nested lists */
-.hlist li > ul:before {
-    content: "\00a0(";
-}
-.hlist li > ul:after {
-    content: ") ";
-}
-
-/**
- * Print stylesheet
- */
-@media print {
-
-    body {
-        background-color: transparent;
-    }
-
-    a {
-        color: #000 !important;
-        background: none !important;
-        padding: 0 !important;
-    }
-
-    a:link,
-    a:visited {
-        color: #520;
-        background: transparent;
-    }
-
-    img {
-        border: 0;
-    }
-
-}
-
 @media all and ( max-width: 480px ) {
-    .central-textlogo {
-        line-height: normal;
-        padding: 0;
-        margin: 0;
-        height: 70px;
-        text-align: center;
-        position: relative;
-    }
-    .central-textlogo img {
-        height: 35px;
-        width: auto;
-        margin-top: 22.5px;
-    }
-    .central-featured {
-        width: auto;
-        height: auto;
-        padding-top: 2em;
-        text-align: left;
-        font-size: 0.8em;
-        margin-top: 4em;
-    }
-    .central-featured-logo {
-        right: 0;
-        left: 0.8em;
-        top: -70px;
-        margin-top: -4em;
-        width: 70px;
-        position: absolute;
-    }
-    .central-featured-lang {
-        right: auto;
-        top: auto;
-        position: relative;
-        left: auto;
-        text-align: left;
-        margin-left: 1em;
-        display: block;
-        float: left;
-        width: 40%;
-        height: 5em;
-    }
     .search-container {
         margin-top: 0;
         height: 6em;
@@ -347,67 +52,13 @@ hr {
     .language-search {
         display: none;
     }
-    .bookshelf {
-        width: auto;
-        left: auto;
-        overflow: hidden;
-        text-align: left;
-    }
-    .bookshelf-container .bookend {
-        width: 40px !important;
-    }
-    .bookshelf-container .bookend:last-child {
-        display: none;
-    }
-    .langlist a {
-        word-wrap: break-word;
-        white-space: normal;
-    }
-    .langlist {
-        font-size: 0.7em;
-    }
 
-    .bookshelf-container,
-    .langlist {
-        margin: 1em 1em 0 1em;
-        text-align: left;
-        width: auto;
-    }
     hr {
         margin-top: 0.5em;
     }
 }
 
-@media all and ( max-width: 375px ) {
-    .central-textlogo {
-        left: 84px;
-        display: inline-block;
-    }
-}
-
-@media all and ( max-width: 240px ) {
-    .central-featured-lang {
-        width: 100%;
-    }
-    .central-textlogo img {
-        width: 100px;
-        height: auto;
-    }
-}
-
-/* stylelint-disable media-feature-name-no-vendor-prefix, media-feature-name-no-unknown */
-@media ( -webkit-min-device-pixel-ratio: 1.5 ), ( min--moz-device-pixel-ratio: 1.5 ), ( -o-min-device-pixel-ratio: 3/2 ), ( min-resolution: 1.5dppx ), ( min-resolution: 144dpi ) {
-    .bookshelf-container .bookend {
-        background-size: 40px auto;
-    }
-}
-
-@media ( -webkit-min-device-pixel-ratio: 2 ), ( min--moz-device-pixel-ratio: 2 ), ( -o-min-device-pixel-ratio: 2 ), ( min-resolution: 2dppx ), ( min-resolution: 192dpi ) {
-    .bookshelf-container .bookend {
-        background-size: 40px auto;
-    }
-}
-
+/* stylelint-disable media-feature-name-no-unknown */
 /* Subpixel borders supported in Gecko, Trident */
 @media ( min--moz-device-pixel-ratio: 2 ), ( min-resolution: 2dppx ), ( min-resolution: 192dpi ) {
     #footer,
@@ -419,7 +70,7 @@ hr {
         border-bottom-width: 0.5px;
     }
 }
-/* stylelint-enable media-feature-name-no-vendor-prefix, media-feature-name-no-unknown */
+/* stylelint-enable media-feature-name-no-unknown */
 
 /* Subpixel borders not supported in older releases of Blink, WebKit */
 @supports ( -webkit-marquee-style: slide ) {
@@ -433,6 +84,7 @@ hr {
     }
 }
 
+/* FIXME remove .formBtn ? it's not in wikipedia.org anymore */
 /* Gives the button its previous native look */
 .formBtn {
     background-color: #fff;
@@ -457,6 +109,7 @@ hr {
     background-color: #b0b0b0;
 }
 
+/* FIXME remove #langsearch-input ? it's not in wikipedia.org anymore */
 /*
 Gives the inputs their previous look
 */

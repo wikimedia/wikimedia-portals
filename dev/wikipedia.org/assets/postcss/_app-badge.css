@@ -1,3 +1,7 @@
+/* ::: App badges ::: */
+
+/* Section containing the links to download native mobile apps */
+
 .app-badges {
     background-color: var( --background-color-code );
 }
@@ -49,6 +53,7 @@
 
     .app-badge-fulllist {
         width: 100%;
+		/* FIXME replace em with rem? */
         margin: 1.5em 0 0.5em 0;
     }
 }
