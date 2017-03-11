@@ -31,7 +31,6 @@
 
 .no-js .lang-list-button {
     display: none;
-    outline-color: #fff;
 }
 
 .lang-list-button-wrapper {
@@ -46,7 +45,7 @@
     margin: 0 auto;
 	/* FIXME replace em with rem? */
 	padding: 0.5em 1em;
-	outline: 1rem solid #fff;
+	outline: 1rem solid var( --background-color-base );
 	border: var( --border-base );
 	border-radius: var( --border-radius-base );
     color: var( --color-primary );
@@ -68,7 +67,7 @@
 
 .lang-list-active .lang-list-button {
     background-color: var( --background-color-framed--hover );
-    outline: 1px solid #fff;
+    outline: 1px solid var( --wmui-color-base100 );
 	border-color: var( --border-color-base--active );
     transition-delay: 0s;
 }

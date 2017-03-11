@@ -153,8 +153,8 @@ h1 {
  */
 
 mark {
-  background: #ff0;
-  color: #000;
+  background: var( --wmui-color-yellow50 );
+  color: var( --wmui-color-base0 );
 }
 
 /**

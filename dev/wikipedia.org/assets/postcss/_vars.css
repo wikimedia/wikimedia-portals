@@ -150,6 +150,8 @@
     /**
      * Portal specific variables
      */
+	--color-print--visited: 		#520;
+
     /* Search language picker / Styled Select */
     --ss-pos-top: 10px;
     --ss-pos-right: 12px;

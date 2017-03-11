@@ -118,9 +118,9 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .pure-form input[type="color"][disabled],
 .pure-form select[disabled],
 .pure-form textarea[disabled] {
-    cursor: var( --cursor-base--disabled );
-    background-color: #eaeded;
-    color: var( --color-base--disabled );
+	cursor: var( --cursor-base--disabled );
+	background-color: var( --wmui-color-base70 );
+	color: var( --wmui-color-base30 );
 }
 
 /*
@@ -129,33 +129,33 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 */
 .pure-form input:not( [type] )[disabled] {
     cursor: var( --cursor-base--disabled );
-    background-color: #eaeded;
-    color: #cad2d3;
+    background-color: var( --wmui-color-base70 );
+    color: var( --wmui-color-base30 );
 }
 .pure-form input[readonly],
 .pure-form select[readonly],
 .pure-form textarea[readonly] {
-    background-color: #eee; /* menu hover bg color */
-    color: #777; /* menu text color */
-    border-color: #ccc;
+    background-color: var( --wmui-color-base80 ); /* menu hover bg color */
+    color: var( --wmui-color-base30 ); /* menu text color */
+    border-color: var( --wmui-color-base70 );
 }
 
 .pure-form input:focus:invalid,
 .pure-form textarea:focus:invalid,
 .pure-form select:focus:invalid {
-    color: #b94a48;
-    border-color: #e9322d;
+    color: var( --wmui-color-red30 );
+    border-color: var( --wmui-color-red50 );
 }
 .pure-form input[type="file"]:focus:invalid:focus,
 .pure-form input[type="radio"]:focus:invalid:focus,
 .pure-form input[type="checkbox"]:focus:invalid:focus {
-    outline-color: #e9322d;
+    outline-color: var( --wmui-color-red50 );
 }
 .pure-form select {
     /* Normalizes the height; padding is not sufficient. */
     height: 2.25em;
     border: var( --border-base );
-    background-color: #fff;
+    background-color: var( --background-color-framed );
 }
 .pure-form select[multiple] {
     height: auto;
@@ -307,7 +307,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .pure-form-message-inline {
     display: inline-block;
     padding-left: 0.3em;
-    color: #666;
+    color: var( --color-base );
     vertical-align: middle;
     font-size: 0.875em;
 }
@@ -315,7 +315,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 /* Block help for forms */
 .pure-form-message {
     display: block;
-    color: #666;
+    color: var( --color-base );
     font-size: 0.875em;
 }
 

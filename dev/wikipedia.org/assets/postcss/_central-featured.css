@@ -41,7 +41,7 @@
 /* Surpress blue color */
 .central-featured-lang .link-box em,
 .central-featured-lang .link-box small {
-	color: #000;
+	color: var( --wmui-color-base0 );
 	text-decoration: none;
 }
 

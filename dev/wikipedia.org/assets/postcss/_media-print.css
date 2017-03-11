@@ -7,14 +7,14 @@
 	}
 
 	a {
-		color: #000 !important;
+		color: var( --wmui-color-base0 ) !important;
 		background: none !important;
 		padding: 0 !important;
 	}
 
 	a:link,
 	a:visited {
-		color: #520;
+		color: var( --color-print--visited );
 		background: transparent;
 	}
 

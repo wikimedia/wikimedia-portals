@@ -1,7 +1,7 @@
 /* ::: Portal's base css ::: */
 
 body {
-	background-color: #fff;
+	background-color: var( --background-color-base );
 	font: 13px/1.5 sans-serif;
 	margin: 0.3em 0;
 }

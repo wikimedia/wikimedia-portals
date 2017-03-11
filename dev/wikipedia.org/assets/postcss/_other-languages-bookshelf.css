@@ -3,7 +3,7 @@
 .bookshelf {
 	display: block;
 	border-top: 1px solid var( --border-color-heading );
-	box-shadow: 0 -1px 0 #fff;
+	box-shadow: 0 -1px 0 var( --wmui-color-base100 );
 	text-align: center;
 	white-space: nowrap;
 }
