@@ -94,8 +94,3 @@ a.suggestion-link:focus {
 	font-size: 1em;
 	line-height: 1.1em;
 }
-
-/* FIXME there is no .search-form class */
-.search-form {
-	position: relative;
-}

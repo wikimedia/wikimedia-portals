@@ -61,10 +61,6 @@
 /* stylelint-disable media-feature-name-no-unknown */
 /* Subpixel borders supported in Gecko, Trident */
 @media ( min--moz-device-pixel-ratio: 2 ), ( min-resolution: 2dppx ), ( min-resolution: 192dpi ) {
-    #footer,
-    .search-form fieldset {
-        border-width: 0.5px;
-    }
 
     hr {
         border-bottom-width: 0.5px;
@@ -74,47 +70,8 @@
 
 /* Subpixel borders not supported in older releases of Blink, WebKit */
 @supports ( -webkit-marquee-style: slide ) {
-    #footer,
-    .search-form fieldset {
-        border-width: 1px;
-    }
 
     hr {
         border-bottom-width: 1px;
     }
-}
-
-/* FIXME remove .formBtn ? it's not in wikipedia.org anymore */
-/* Gives the button its previous native look */
-.formBtn {
-    background-color: #fff;
-    border: 1px solid #e4e4e4;
-    border-radius: 4px;
-    border-top: 1px solid #e8e8e8;
-    border-bottom: 1px solid #cecece;
-    font-size: 11px;
-    padding: 1px 8px;
-    margin-left: 0.3em;
-    vertical-align: top;
-}
-.formBtn .sprite-icons-search_icon {
-    display: inline-block;
-    vertical-align: middle;
-}
-.formBtn:focus {
-    background-color: #c0c0c0;
-    outline: 0;
-}
-.formBtn:active {
-    background-color: #b0b0b0;
-}
-
-/* FIXME remove #langsearch-input ? it's not in wikipedia.org anymore */
-/*
-Gives the inputs their previous look
-*/
-#langsearch-input {
-    padding: 1px 2px;
-    font-size: 11px;
-    vertical-align: top;
 }
