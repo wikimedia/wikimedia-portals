@@ -6,6 +6,7 @@ var _ = require( 'underscore' ),
 	stats = require( '../../data/stats' ),
 	otherProjects = require( './other-projects.json' ),
 	otherLanguages = require( './other-languages.json' ),
+	rtlLanguages = require( './rtl-languages.json' ),
 	crypto = require( 'crypto' ),
 	exec = require( 'child_process' ).execSync,
 	top100000List,
@@ -112,6 +113,9 @@ Controller = {
 	top100000Dropdown: top100000Dropdown,
 	otherProjects: otherProjects,
 	otherLanguages: otherLanguages,
+	rtlLanguages: rtlLanguages,
+	// The only "advantage" to do this instead of JSON.stringify is to get single quotes.
+	rtlLanguagesStringified: '[\'' + rtlLanguages.join( '\',\'' ) + '\']',
 	translationChecksum: cachebuster
 };
 

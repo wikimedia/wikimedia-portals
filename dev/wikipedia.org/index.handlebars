@@ -56,7 +56,8 @@ This comment will read by everything and IE greater than 7
 }}
 <![if gt IE 7]>
 <script>
-    var translationsHash = '{{translationChecksum}}',
+    var rtlLangs = {{{rtlLanguagesStringified}}},
+    translationsHash = '{{translationChecksum}}',
     /*
      This object is used by l10n scripts (page-localized.js, topten-localized.js)
      to reveal the page content after l10n json is loaded.

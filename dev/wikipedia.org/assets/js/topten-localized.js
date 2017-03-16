@@ -1,4 +1,4 @@
-/* global wmTest, translationsHash, wmL10nVisible */
+/* global wmTest, translationsHash, wmL10nVisible, rtlLangs */
 /**
  * This code was used to localize the top-ten language links
  * for the A/B test titled "A/B test: browser language detection"
@@ -18,6 +18,7 @@ function localizeTopTen() {
 		topLinkLangs,
 		storedTranslationHash = mw.storage.get( 'translationHash' ),
 		storedTranslations;
+
 	/**
 	 * Helper function to safely parse JSON an return empty string on error.
 	 *
@@ -118,7 +119,8 @@ function localizeTopTen() {
 		anchor.setAttribute( 'title', wikiNameStripped + ' — ' + wikiInfo.siteName + ' — ' + ( wikiInfo.slogan || '' ) );
 		node.setAttribute( 'lang', wikiInfo.lang );
 		node.getElementsByTagName( 'strong' )[ 0 ].textContent = wikiNameStripped;
-		node.getElementsByTagName( 'small' )[ 0 ].textContent = wikiInfo.numPages + '+ ' + ( wikiInfo.entries || '' );
+		node.getElementsByTagName( 'bdi' )[ 0 ].textContent = wikiInfo.numPages + '+';
+		node.getElementsByTagName( 'span' )[ 0 ].textContent = wikiInfo.entries || '';
 	}
 
 	/**
@@ -260,6 +262,7 @@ function localizeTopTen() {
 				localizeTopLink( repurposedTopLink, topLinkLang );
 				topLinksContainer.insertBefore( repurposedTopLink, topLinks[ i ] );
 			}
+			( topLinkNode || repurposedTopLink ).setAttribute( 'dir', rtlLangs.indexOf( topLinkLang ) >= 0 ? 'rtl' : 'ltr' );
 		}
 	}
 

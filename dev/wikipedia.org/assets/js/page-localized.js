@@ -1,4 +1,4 @@
-/* global wmTest, translationsHash, mw, wmL10nVisible */
+/* global wmTest, translationsHash, mw, wmL10nVisible, rtlLangs */
 
 /**
  * This script localizes the page text.
@@ -11,42 +11,13 @@
  * If a translation value is missing, page will default to english.
  */
 
-( function ( wmTest, translationsHash, mw ) {
+( function ( wmTest, translationsHash, mw, rtlLangs ) {
 
 	var primaryLang = wmTest.userLangs[ 0 ],
 		storedTranslationHash,
 		storedTranslations,
 		l10nReq,
-		l10nInfo,
-		rtlLangs = [
-			'ar',
-			'arc',
-			'arz',
-			'bcc',
-			'bgn',
-			'bqi',
-			'ckb',
-			'dv',
-			'fa',
-			'glk',
-			'he',
-			'kk-cn',
-			'kk-arab',
-			'khw',
-			'ks',
-			'ku-arab',
-			'lki',
-			'lrc',
-			'luz',
-			'mzn',
-			'pnb',
-			'ps',
-			'sd',
-			'sdh',
-			'ug',
-			'ur',
-			'yi'
-		];
+		l10nInfo;
 
 	/**
 	 * Helper function to safely parse JSON an return empty string on error.
@@ -215,4 +186,4 @@
 		replacel10nText( l10nInfo );
 	}
 
-}( wmTest, translationsHash, mw ) );
+}( wmTest, translationsHash, mw, rtlLangs ) );

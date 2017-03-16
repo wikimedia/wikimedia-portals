@@ -11,7 +11,7 @@
     {{#each top10views}}
 
         <!-- #{{index}}. {{url}} - {{formatNumber views thousandSeparator=true rounded=true}} views/day -->
-        <div class="central-featured-lang lang{{index}}" lang="{{lang}}">
+        <div class="central-featured-lang lang{{index}}" lang="{{lang}}" dir="{{#has ../rtlLanguages lang}}rtl{{else}}ltr{{/has}}">
         <a id="js-link-box-{{lang}}"
            href="//{{url}}/"
            title="{{#if latin}}{{latin}}{{else}}{{name}}{{/if}} — {{siteName}} — {{slogan}}"
@@ -19,9 +19,9 @@
            data-slogan="{{slogan}}">
             <strong>{{name}}</strong>
             {{#if articlesAttrs}}
-                <small>{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+ <span{{printAttrs 'articlesAttrs'}}>{{entries}}</span></small>
+                <small><bdi dir="ltr">{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+</bdi> <span{{printAttrs 'articlesAttrs'}}>{{entries}}</span></small>
             {{else}}
-                <small>{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+ {{entries}}</small>
+                <small><bdi dir="ltr">{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+</bdi> <span>{{entries}}</span></small>
             {{/if}}
             </a>
         </div>

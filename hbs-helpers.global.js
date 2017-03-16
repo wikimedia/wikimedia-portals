@@ -113,4 +113,19 @@ helpers.trim = function ( options ) {
 	return options.fn( this );
 };
 
+/**
+ * Checks if an array contains an element.
+ *
+ * @param {Mixed} list
+ * @param {array} elem
+ * @param {Object} options Handlebars options object.
+ * @return {Function}
+ */
+helpers.has = function ( list, elem, options ) {
+	if ( list.indexOf( elem ) > -1 ) {
+		return options.fn( this );
+	}
+	return options.inverse( this );
+};
+
 module.exports = helpers;
