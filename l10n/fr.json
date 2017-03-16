@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"Benoit Rochon"
 		]
 	},
 	"language-name": "Français",
@@ -59,7 +60,7 @@
 		"slogan": "Guide de voyage gratuit"
 	},
 	"commons": {
-		"name": "Communs",
+		"name": "Commons",
 		"slogan": "Photos et autres librement utilisables"
 	},
 	"wikispecies": {

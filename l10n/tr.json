@@ -5,7 +5,8 @@
 			"Ece Alpdeniz",
 			"Jandre3000",
 			"1917 Ekim Devrimi",
-			"Velg"
+			"Velg",
+			"Archaeodontosaurus"
 		]
 	},
 	"language-name": "Türkçe",
@@ -13,6 +14,10 @@
 	"language-name-romanized-sorted": "Turkce",
 	"language-button-text": "Vikipediyi kendi  dilinde oku",
 	"footer-description": "Vikipedi, Wikimedia Vakfı'nın bir dizi projeyi bünyesinde barındıran kar amacı gütmeyen bir kuruluştur.",
+	"terms": "Kullanım Koşulları",
+	"Privacy Policy": "Gizlilik Politikası",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Vikipedi",
 		"slogan": "Özgür Ansiklopedi",
