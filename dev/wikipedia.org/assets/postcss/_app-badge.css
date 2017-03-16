@@ -53,7 +53,6 @@
 
     .app-badge-fulllist {
         width: 100%;
-		/* FIXME replace em with rem? */
-        margin: 1.5em 0 0.5em 0;
+        margin: 1.2rem 0 0.4rem 0;
     }
 }

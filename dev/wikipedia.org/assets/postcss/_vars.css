@@ -153,16 +153,16 @@
 	--color-print--visited: 		#520;
 
     /* Search language picker / Styled Select */
-    --ss-pos-top: 10px;
-    --ss-pos-right: 12px;
-    --ss-pos-bottom: 12px;
-    --ss-width: 95px;
-    --ss-height: 24px;
+    --ss-pos-top: 0.625rem;
+    --ss-pos-right: 0.75rem;
+    --ss-pos-bottom: 0.75rem;
+    --ss-width: 5.9375rem;
+    --ss-height: 1.5rem;
 
     --ss-c-grey: var( --wmui-color-base20 );
     --ss-c-grey-hover: var( --wmui-color-base90 );
 
-    --ss-select-width: 110px;
+    --ss-select-width: 6.875rem;
 
     --ss-select-z-index: 1;
     --ss-button-z-index: 2;

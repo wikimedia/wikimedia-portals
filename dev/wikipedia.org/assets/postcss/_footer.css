@@ -4,8 +4,7 @@
 	overflow: hidden;
 	max-width: 100%;
     margin: 0 auto;
-	/* FIXME why mixing em and rem ? */
-    padding: 2.6rem 1em 1em 1em;
+    padding: 2.6rem 0.8rem 0.8rem;
     font-size: 0.8rem;
 }
 
@@ -42,16 +41,17 @@
 .footer-sidebar-text {
     position: relative;
     margin: 0;
-	/* FIXME replace px with rem? */
-    padding-left: 60px;
-    padding-right: 20px;
+    padding-left: 3.75rem;
+    padding-right: 1.25rem;
 	color: var( --ss-c-grey );
 }
 
+/* FIXME is privacy-policy-links being used anywhere? */
 .privacy-policy-links {
-    margin-top: 1em;
+    margin-top: 0.8rem;
 }
 
+/* FIXME is privacy-policy-links being used anywhere? */
 .privacy-policy-links a {
     display: block;
 }
@@ -67,7 +67,7 @@
     .footer {
 		display: flex;
 		flex-direction: column;
-        padding-top: 1em;
+        padding-top: 0.8rem;
     }
 
     .footer .footer-sidebar {
@@ -99,8 +99,7 @@
 		display: block;
         position: relative;
 		left: 0;
-		/* FIXME replace em with rem? */
-        margin: 0 auto 1em auto;
+        margin: 0 auto 0.8rem auto;
     }
 
     .footer-sidebar-content {
@@ -112,16 +111,16 @@
         padding: 0;
         text-align: center;
     }
+
+	/* FIXME is privacy-policy-links being used anywhere? */
     .privacy-policy-links a {
         display: inline-block;
-		/* FIXME replace em with rem? */
-        margin: 0 0.5em;
+        margin: 0 0.5rem;
     }
 }
 
 @media screen and ( max-width: 480px ) {
     .footer {
-		/* FIXME why mixing em and rem? */
-        padding: 0.6rem 0.5em 1em 0.5em;
+        padding: 0.6rem 0.4rem 0.8rem;
     }
 }

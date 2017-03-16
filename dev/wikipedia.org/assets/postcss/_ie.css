@@ -18,6 +18,7 @@ cannot detect (and therefore cannot inline, minify or version)
 files that are placed within HTML comment blocks.
 */
 
+/* FIXME is .bookend being used somewhere ? */
 .bookshelf-container .bookend,
 .otherprojects-icon {
     *zoom: 1;
