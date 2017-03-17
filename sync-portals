@@ -2,8 +2,8 @@
 
 set -e
 
-scap sync-dir portals/prod/wikipedia.org/assets $*
-scap sync-dir portals $*
+scap sync-file portals/prod/wikipedia.org/assets $*
+scap sync-file portals $*
 
 # purgeList is called from from /srv/mediawiki-staging and not /srv/mediawiki
 # to get an up-to-date version of the code and the config. That avoids any
