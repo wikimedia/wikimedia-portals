@@ -1,0 +1,79 @@
+{
+	"@metadata": {
+		"authors": [
+			"Delim"
+		]
+	},
+	"language-name": "조선말",
+	"language-name-romanized": "Joseonmal",
+	"language-button-text": "당신의 언어로 위키백과 읽기",
+	"footer-description": "위키백과는 다른 여러 과제들도 운영하는 비영리 단체인 위키매체 재단이 운영합니다.",
+	"app-links": {
+		"title": "위키백과 응용프로그람을 지금 사용할수 있습니다:",
+		"ios": "응용프로그람 상점에서 iOS용 내리적재",
+		"android": "구글 플레이에서 안드로이드용 내리적재",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>사용 가능한\n 위키백과 프로그람의 전체 목록 보기</a>"
+	},
+	"license": "이 페지는 <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>에 있습니다",
+	"terms": "리용약관",
+	"Privacy Policy": "개인정보 정책",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ko",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ko",
+	"wiki": {
+		"name": "위키백과",
+		"slogan": "우리 모두의 백과사전",
+		"entries": "문서"
+	},
+	"wiktionary": {
+		"name": "위키낱말사전",
+		"slogan": "말과 글의 누리",
+		"entries": "낱말"
+	},
+	"wikibooks": {
+		"name": "위키책",
+		"slogan": "자유로운 생각과 배움",
+		"entries": "문서"
+	},
+	"wikinews": {
+		"name": "위키소식",
+		"slogan": "자유로운 새소식 원문",
+		"entries": "문서"
+	},
+	"wikiquote": {
+		"name": "위키인용집",
+		"slogan": "자유 인용 모음집",
+		"entries": "문서"
+	},
+	"wikisource": {
+		"name": "위키문헌",
+		"slogan": "무료 도서관"
+	},
+	"wikiversity": {
+		"name": "위키배움터",
+		"slogan": "자유 과정 자료",
+		"entries": "학습 자료"
+	},
+	"wikivoyage": {
+		"name": "위키려행",
+		"slogan": "자유 려행 가이드"
+	},
+	"commons": {
+		"name": "공용",
+		"slogan": "자유 매체 보관소"
+	},
+	"wikispecies": {
+		"name": "위키스피시즈",
+		"slogan": "자유로운 생물 도감"
+	},
+	"wikidata": {
+		"name": "위키자료",
+		"slogan": "자유 지식 토대"
+	},
+	"mediawiki": {
+		"name": "매체위키",
+		"slogan": "자유 & 오픈 위키 응용프로그람"
+	},
+	"metawiki": {
+		"name": "메타위키"
+	}
+}

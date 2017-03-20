@@ -6,42 +6,50 @@
 			"Jandre3000",
 			"1917 Ekim Devrimi",
 			"Velg",
-			"Archaeodontosaurus"
+			"Archaeodontosaurus",
+			"Vito Genovese"
 		]
 	},
 	"language-name": "Türkçe",
 	"language-name-romanized": "Turkce",
 	"language-name-romanized-sorted": "Turkce",
-	"language-button-text": "Vikipediyi kendi  dilinde oku",
-	"footer-description": "Vikipedi, Wikimedia Vakfı'nın bir dizi projeyi bünyesinde barındıran kar amacı gütmeyen bir kuruluştur.",
-	"terms": "Kullanım Koşulları",
+	"language-button-text": "Vikipedi'yi kendi dilinizde okuyun",
+	"footer-description": "Vikipedi, başka projeleri de barındıran ve kâr amacı gütmeyen bir kuruluş olan Wikimedia Vakfı tarafından barındırılmaktadır.",
+	"app-links": {
+		"title": "Artık Vikipedi uygulamalarını kullanabilirsiniz:",
+		"ios": "App Store'dan iOS için indirin",
+		"android": "Google Play'den Android için indirin",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Kullanılabilir Vikipedi uygulamalarının tam listesini görün</a>"
+	},
+	"license": "Bu sayfa, <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atıf-BenzerPaylaşım Lisansı</a> altındadır",
+	"terms": "Kullanım Şartları",
 	"Privacy Policy": "Gizlilik Politikası",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Vikipedi",
 		"slogan": "Özgür Ansiklopedi",
-		"entries": "girdiler"
+		"entries": "madde"
 	},
 	"wiktionary": {
-		"name": "VikiSözlük",
-		"slogan": "Özgür Sözlük",
-		"entries": "girdiler"
+		"name": "Vikisözlük",
+		"slogan": "Özgür sözlük",
+		"entries": "girdi"
 	},
 	"wikibooks": {
 		"name": "Vikikitap",
-		"slogan": "Özgür kütüphane",
-		"entries": "sayfalar"
+		"slogan": "Özgür ders kitapları",
+		"entries": "sayfa"
 	},
 	"wikinews": {
 		"name": "Vikihaber",
-		"slogan": "Özgür haber kaynağı!",
-		"entries": "Makaleler"
+		"slogan": "Özgür haber kaynağı",
+		"entries": "madde"
 	},
 	"wikiquote": {
 		"name": "Vikisöz",
-		"slogan": "Ücretsiz alıntı koleksiyonu",
-		"entries": "makaleler"
+		"slogan": "Özgür söz dizini",
+		"entries": "madde"
 	},
 	"wikisource": {
 		"name": "Vikikaynak",
@@ -49,31 +57,31 @@
 	},
 	"wikiversity": {
 		"name": "Vikiversite",
-		"slogan": "Ücretsiz kurs materyalleri",
+		"slogan": "Özgür ders materyalleri",
 		"entries": "öğrenme kaynakları"
 	},
 	"wikivoyage": {
-		"name": "Vikiyolculuğu",
-		"slogan": "Ücretsiz yolculuk rehberi"
+		"name": "Vikigezgin",
+		"slogan": "Özgür gezi rehberi"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Serbestçe kullanılabilir fotoğraflar ve daha fazlası"
+		"slogan": "Özgürce kullanılabilir fotoğraflar ve daha fazlası"
 	},
 	"wikispecies": {
 		"name": "Vikitür",
-		"slogan": "Ücretsiz tür dizini"
+		"slogan": "Özgür tür dizini"
 	},
 	"wikidata": {
 		"name": "Vikiveri",
-		"slogan": "Ücretsiz Bilgi Bankası"
+		"slogan": "Özgür bilgi tabanı"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Ücretsiz & açık wiki uygulaması"
+		"slogan": "Özgür ve açık viki uygulaması"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki",
-		"slogan": "Koordinasyon ve Dokümantasyon topluluğu"
+		"name": "Meta Viki",
+		"slogan": "Topluluk koordinasyonu ve belgelemesi"
 	}
 }

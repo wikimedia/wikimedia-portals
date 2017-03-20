@@ -3,14 +3,18 @@
 		"authors": [
 			"Stam.nikos",
 			"Geraki",
-			"GR"
+			"GR",
+			"Απεργός"
 		]
 	},
 	"language-name": "Ελληνικά",
 	"language-name-romanized": "Ellīniká",
 	"language-name-romanized-sorted": "Ellinika",
 	"language-button-text": "Διαβάστε την Wikipedia στη γλώσσα σας",
-	"footer-description": "Η Wikipedia είναι φιλοξενείται από το Wikimedia Foundation, ένα μη κερδοσκοπικό οργανισμό που φιλοξενεί επίσης μια σειρά από άλλα εγχειρήματα.",
+	"footer-description": "Η Wikipedia φιλοξενείται από το Wikimedia Foundation, ένα μη κερδοσκοπικό οργανισμό που φιλοξενεί επίσης μια σειρά από άλλα εγχειρήματα.",
+	"app-links": {
+		"title": "Εφαρμογές της Βικιπαίδεια είναι τώρα διαθέσιμες:"
+	},
 	"terms": "Όροι χρήσης",
 	"Privacy Policy": "Πολιτική ιδιωτικού απορρήτου",
 	"wiki": {
@@ -25,7 +29,7 @@
 	},
 	"wikibooks": {
 		"name": "Βικιβιβλία",
-		"slogan": "Ελεύθερα βιβλία κειμένου",
+		"slogan": "Ελεύθερα εκπαιδευτικά εγχειρίδια",
 		"entries": "σελίδες"
 	},
 	"wikinews": {
@@ -44,12 +48,12 @@
 	},
 	"wikiversity": {
 		"name": "Βικιεπιστήμιο",
-		"slogan": "Εκπαιδευτική κοινότητα",
+		"slogan": "Ελεύθερο εκπαιδευτικό υλικό",
 		"entries": "πόρους μάθησης"
 	},
 	"wikivoyage": {
 		"name": "Βικιταξίδια",
-		"slogan": "Ταξιδιωτικός Οδηγός"
+		"slogan": "Ελεύθερος Ταξιδιωτικός Οδηγός"
 	},
 	"commons": {
 		"name": "Commons",
