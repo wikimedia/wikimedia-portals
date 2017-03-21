@@ -11,8 +11,8 @@
     visibility: hidden;
 }
 
-.js-l10n-visible .jsl10n,
-.js-l10n-visible .central-featured {
+.jsl10n-visible .jsl10n,
+.jsl10n-visible .central-featured {
     visibility: visible;
 }
 
