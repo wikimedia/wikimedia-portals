@@ -56,7 +56,24 @@ This comment will read by everything and IE greater than 7
 }}
 <![if gt IE 7]>
 <script>
-    var translationsHash = "{{ translationChecksum }}";
+    var translationsHash = '{{translationChecksum}}',
+    /*
+     This object is used by l10n scripts (page-localized.js, topten-localized.js)
+     to reveal the page content after l10n json is loaded.
+     A timer is also set to prevent JS from hiding page content indefinitelty.
+     This script is inlined to safeguard againt script loading errors and placed
+     at the top of the page to safeguard against any html loading/parsing errors.
+    */
+    wmL10nVisible = {
+        ready: false,
+        makeVisible: function(){
+            if ( !wmL10nVisible.ready ) {
+                wmL10nVisible.ready = true;
+                document.body.className += ' jsl10n-visible';
+            }
+        }
+    };
+    window.setTimeout( wmL10nVisible.makeVisible, 1000 )
 </script>
 
 <!-- build:js portal/wikipedia.org/assets/js/index.js -->
