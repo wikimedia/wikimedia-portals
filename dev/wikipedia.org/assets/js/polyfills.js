@@ -238,6 +238,7 @@ function doWhenReady( fn ) {
 		removeEvent( document, 'DOMContentLoaded', ready );
 		removeEvent( window, 'load', ready );
 		fn();
+		fn = function() {};
 	};
 
 	if ( document.readyState === 'complete' ) {
