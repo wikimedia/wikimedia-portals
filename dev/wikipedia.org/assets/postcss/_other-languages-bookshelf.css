@@ -11,7 +11,7 @@
 .bookshelf span {
 	background-color: var( --background-color-framed );
 	position: relative;
-	top: -0.7rem;
+	top: -1.12rem;
 	font-weight: normal;
 }
 
@@ -20,14 +20,14 @@
 	overflow: visible;
 	height: 1px;
 	width: 100%;
-	margin: 1.5rem 0 1rem;
-	font-size: 0.8125rem;
+	margin: 2.4rem 0 1.6rem;
+	font-size: 1.3rem;
 	font-weight: bold;
-	line-height: 1.25rem;
+	line-height: 2rem;
 }
 
 .bookshelf-container .text {
-	padding: 0 0.62rem;
+	padding: 0 0.992rem;
 }
 
 /* FIXME is .bookend being used somewhere ? */

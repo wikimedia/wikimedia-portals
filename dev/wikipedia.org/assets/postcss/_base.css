@@ -20,6 +20,7 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+	font-size: 62.5%; /* 1rem = 10px */
 }
 
 /**
@@ -144,8 +145,8 @@ dfn {
  */
 
 h1 {
-  font-size: 2rem;
-  margin: 0.67rem 0;
+  font-size: 3.2rem;
+  margin: 1.07rem 0;
 }
 
 /**
@@ -212,7 +213,7 @@ svg:not( :root ) {
  */
 
 figure {
-  margin: 1rem 2.5rem;
+  margin: 1.6rem 4rem;
 }
 
 /**
@@ -241,7 +242,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 /* Forms
@@ -395,8 +396,8 @@ input[type="search"]:focus {
 
 fieldset {
   border: 1px solid #c0c0c0;
-  margin: 0 0.125rem;
-  padding: 0.35rem 0.625rem 0.75rem;
+  margin: 0 0.2rem;
+  padding: 0.56rem 1rem 1.2rem;
 }
 
 /**

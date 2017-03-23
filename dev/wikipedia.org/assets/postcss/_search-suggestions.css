@@ -21,9 +21,9 @@
 	display: block;
 	position: relative;
 	box-sizing: border-box;
-	min-height: 4.375rem;
+	min-height: 7rem;
 	width: 100%;
-	padding: 0.625rem 0.625rem 0.625rem 5.3125rem;
+	padding: 1rem 1rem 1rem 8.5rem;
 	border-bottom: 1px solid var( --wmui-color-base80 );
 	color: inherit;
 	text-decoration: none;
@@ -59,17 +59,17 @@ a.suggestion-link:focus {
 	background-size: 100% auto;
 	background-size: cover;
 	height: 100%;
-	width: 4.375rem;
+	width: 7rem;
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
 .suggestion-title {
-	margin: 0 0 0.4875rem 0;
+	margin: 0 0 0.78rem 0;
 	color: var( --wmui-color-base20 );
-	font-size: 0.975rem;
-	line-height: 1.17rem;
+	font-size: 1.56rem;
+	line-height: 1.872rem;
 }
 
 .suggestion-link.active .suggestion-title {
@@ -84,6 +84,6 @@ a.suggestion-link:focus {
 .suggestion-description {
 	color: var( --wmui-color-base30 );
 	margin: 0;
-	font-size: 0.8125rem;
-	line-height: 0.89375rem;
+	font-size: 1.3rem;
+	line-height: 1.43rem;
 }

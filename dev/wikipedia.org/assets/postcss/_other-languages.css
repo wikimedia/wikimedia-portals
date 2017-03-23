@@ -14,7 +14,7 @@
 	box-sizing: border-box;
 	max-height: 0;
 	width: 80%;
-    margin: -1rem auto 3rem;
+    margin: -1.6rem auto 4.8rem;
     transition: max-height 500ms ease-out, visibility 500ms ease-in 1000ms;
 }
 
@@ -43,12 +43,12 @@
     position: relative;
 	z-index: 1;
     margin: 0 auto;
-	padding: 0.4rem 0.8rem;
-	outline: 1rem solid var( --background-color-base );
+	padding: 0.64rem 1.28rem;
+	outline: 1.6rem solid var( --background-color-base );
 	border: var( --border-base );
 	border-radius: var( --border-radius-base );
     color: var( --color-primary );
-    font-size: 0.8rem;
+    font-size: 1.28rem;
 	font-weight: normal;
     line-height: 1;
     transition: outline-width 100ms ease-in 500ms;
@@ -72,7 +72,7 @@
 }
 
 .lang-list-button-text {
-    padding: 0 0.4rem;
+    padding: 0 0.64rem;
 	vertical-align: middle;
 }
 
@@ -92,7 +92,7 @@
 	position: relative;
 	max-width: 460px;
 	width: 80%;
-    margin: -1rem auto 1rem;
+    margin: -1.6rem auto 1.6rem;
     height: 1px;
     transition: max-width 200ms ease-out 400s;
 }
@@ -110,7 +110,7 @@
     position: relative;
 	box-sizing: border-box;
     width: 100%;
-	padding: 1rem 1rem 0;
+	padding: 1.6rem 1.6rem 0;
 }
 
 .sprite-icons-arrow-down-blue {
@@ -123,7 +123,7 @@
 
 .langlist {
 	width: auto;
-	margin: 1rem 0;
+	margin: 1.6rem 0;
     text-align: left;
 }
 
@@ -185,7 +185,7 @@
 }
 
 .langlist > ul {
-    column-width: 7rem;
+    column-width: 11.2rem;
 }
 
 .langlist > ul > li {
@@ -202,7 +202,7 @@
 }
 .no-js .langlist > ul > li {
     display: inline-block;
-    padding: 0 0.5rem;
+    padding: 0 0.8rem;
 }
 
 .langlist > ul > li:before {
@@ -243,8 +243,8 @@
 
     .lang-list-container {
         width: auto;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
 
     }
     .bookshelf {

@@ -23,9 +23,9 @@
 @media all and ( max-width: 480px ) {
     .search-container {
         margin-top: 0;
-        height: 4.875rem;
+        height: 7.8rem;
         position: absolute;
-        top: 4.0625rem;
+        top: 6.5rem;
         left: 0;
         right: 0;
         max-width: 100%;
@@ -54,7 +54,7 @@
     }
 
     hr {
-        margin-top: 0.40625rem;
+        margin-top: 0.65rem;
     }
 }
 

@@ -3,12 +3,12 @@
 /* Section containing the central Wikipedia header */
 
 .central-textlogo {
-	margin: 1.875rem 0 0.9375rem 0;
-	padding: 0.625rem 0;
+	margin: 3rem 0 1.5rem 0;
+	padding: 1rem 0;
 	font-family: 'Linux Libertine', 'Hoefler Text', Georgia, 'Times New Roman', Times, serif;
-	font-size: 1.875rem;
+	font-size: 3rem;
 	font-weight: normal;
-	line-height: 2.0625rem;
+	line-height: 3.3rem;
 	text-align: center;
 	/* Crossed W in Linux Libertine */
 	-moz-font-feature-settings: "ss05=1";
@@ -20,10 +20,10 @@
 
 .localized-slogan {
 	display: block;
-	margin-bottom: -1.25rem;
+	margin-bottom: -2rem;
 	/* FIXME replace with var() */
 	font-family: 'Linux Libertine', 'Times New Roman', serif;
-	font-size: 1rem;
+	font-size: 1.6rem;
 	font-variant: normal;
 	font-weight: normal;
 }
@@ -41,11 +41,11 @@
 	.central-textlogo img {
 		height: 35px;
 		width: auto;
-		margin-top: 0.5rem;
+		margin-top: 0.8rem;
 	}
 
 	.localized-slogan {
-		margin-left: 1.125rem;
+		margin-left: 1.8rem;
 	}
 }
 
