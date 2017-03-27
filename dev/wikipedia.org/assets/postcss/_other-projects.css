@@ -9,7 +9,7 @@
 	float: left;
 	position: relative;
 	width: 33%;
-	height: 90px;
+	height: 5.625rem;
 }
 
 .other-project-link {
@@ -43,8 +43,7 @@
 
 .other-project-tagline {
 	color: var( --ss-c-grey );
-	/* FIXME use rem */
-	font-size: 0.95em;
+	font-size: 0.76rem;
 }
 
 @media screen and ( max-width: 768px ) {
@@ -67,6 +66,10 @@
 @media screen and ( max-width: 320px ) {
 	.other-project-text {
 		margin-right: 5px;
-		font-size: 0.9em;
+		font-size: 0.72rem;
+	}
+
+	.other-project-tagline {
+		font-size: 0.684rem;
 	}
 }

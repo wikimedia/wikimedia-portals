@@ -4,9 +4,8 @@
 
 .central-featured {
 	position: relative;
-	/* FIXME replace em with rem? */
-	height: 25em;
-	width: 42em;
+	height: 20.3125rem;
+	width: 34.125rem;
 	max-width: 100%;
 	margin: 0 auto;
 	text-align: center;
@@ -14,15 +13,13 @@
 }
 
 .central-featured-logo-wrapper {
-	/* FIXME replace with rem */
-	line-height: 24em;
+	line-height: 19.5rem;
 	vertical-align: middle;
 }
 
 .central-featured-lang {
 	position: absolute;
-	/* FIXME replace em with rem? */
-	width: 12em;
+	width: 9.75rem;
 }
 
 /* Make entire block clickable, surpress hover underline */
@@ -39,6 +36,7 @@
 }
 
 /* Surpress blue color */
+/* FIXME it seems there is no .link-box em */
 .central-featured-lang .link-box em,
 .central-featured-lang .link-box small {
 	color: var( --wmui-color-base0 );
@@ -48,6 +46,12 @@
 .central-featured-lang strong {
 	display: block;
 	font-size: larger;
+}
+
+.central-featured-lang small {
+	display: inline-block;
+	font-size: 0.69rem;
+	line-height: 1.036rem;
 }
 
 .central-featured-lang em {
@@ -112,9 +116,9 @@
 	.central-featured {
 		width: auto;
 		height: auto;
-		margin-top: 4em;
-		padding-top: 2em;
-		font-size: 0.8em;
+		margin-top: 2.6rem;
+		padding-top: 1.3rem;
+		font-size: 0.65rem;
 		text-align: left;
 	}
 
@@ -130,10 +134,10 @@
 	.central-featured-logo {
 		position: absolute;
 		top: -70px;
-		left: 0.8em;
+		left: 0.52rem;
 		right: 0;
 		width: 70px;
-		margin-top: -4em;
+		margin-top: -2.6rem;
 	}
 
 	.central-featured-lang {
@@ -144,7 +148,7 @@
 		left: auto;
 		right: auto;
 		box-sizing: border-box;
-		height: 5em;
+		height: 4rem;
 		width: 33%;
 		margin: 0;
 		padding: 0 1rem;
@@ -155,11 +159,21 @@
 	.central-featured-lang strong {
 		font-size: 0.8rem;
 	}
+
+	.central-featured-lang small {
+		font-size: 0.68rem;
+		line-height: 1.02rem;
+	}
 }
 
 @media all and ( max-width: 375px ) {
 	.central-featured-lang {
 		font-size: 0.7rem;
+	}
+
+	.central-featured-lang small {
+		font-size: 0.6rem;
+		line-height: 1.05rem;
 	}
 }
 

@@ -2,8 +2,10 @@
 
 body {
 	background-color: var( --background-color-base );
-	font: 13px/1.5 sans-serif;
-	margin: 0.3em 0;
+	font-family: sans-serif;
+	font-size: 0.8125rem;
+	line-height: 1.5;
+	margin: 0.24375rem 0;
 }
 
 a,
@@ -33,5 +35,5 @@ hr {
 	height: 0;
 	border: 0;
 	border-bottom: 1px solid var( --border-color-heading );
-	margin: 0.2em 1em;
+	margin: 0.1625rem 0.8125rem;
 }
