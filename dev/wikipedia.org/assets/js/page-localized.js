@@ -91,23 +91,24 @@
 	}
 
 	/**
-	 * Takes an object and a string 'foo.bar' and returns object.foo.bar if exists.
-	 * @param {Object} obj The object to traverse.
-	 * @param {String} path A string representing the dot notation of the object.
+	 * Takes an object and a string 'foo.bar' and returns object.foo.bar if exists,
+	 * otherwise returns `undefined`.
 	 *
-	 * @return {Object}
+	 * @param {Object} obj The object to traverse.
+	 * @param {String} keys A string representing the dot notation of the object.
+	 *
+	 * @return {Mixed}
 	 */
-	function getPropFromPath( obj, path ) {
-		var index = 0, length;
-
-		path = path.split( '.' );
-		length = path.length;
-
-		while ( obj && index < length ) {
-			obj = obj[ path[ index++ ] ];
+	function getProp( obj, keys ) {
+		var i = 0;
+		keys = String( keys ).split( '.' );
+		while ( i < keys.length ) {
+			if ( obj === undefined || obj === null ) {
+				return undefined;
+			}
+			obj = obj[ keys[ i++ ] ];
 		}
-		return ( index && index === length ) ? obj : undefined;
-
+		return obj;
 	}
 
 	/**
@@ -124,9 +125,7 @@
 
 			domEl = domEls[ i ];
 			l10nAttr = domEl.getAttribute( 'data-jsl10n' );
-			textValue = getPropFromPath( l10nInfo, l10nAttr );
-			termsHref = ( getPropFromPath( l10nInfo, 'terms-link' ) ) ? getPropFromPath( l10nInfo, 'terms-link' ) : false;
-			privacyHref = ( getPropFromPath( l10nInfo, 'privacy-policy-link' ) ) ? getPropFromPath( l10nInfo, 'privacy-policy-link' ) : false;
+			textValue = getProp( l10nInfo, l10nAttr );
 
 			if ( typeof textValue === 'string' && textValue.length > 0 ) {
 				switch ( l10nAttr ) {
@@ -142,12 +141,14 @@
 						break;
 					case 'terms':
 						domEl.firstChild.textContent = textValue;
+						termsHref = getProp( l10nInfo, 'terms-link' );
 						if ( termsHref ) {
 							domEl.firstChild.setAttribute( 'href', termsHref );
 						}
 						break;
 					case 'Privacy Policy':
 						domEl.firstChild.textContent = textValue;
+						privacyHref = getProp( l10nInfo, 'privacy-policy-link' );
 						if ( privacyHref ) {
 							domEl.firstChild.setAttribute( 'href', privacyHref );
 						}
