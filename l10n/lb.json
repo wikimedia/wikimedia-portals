@@ -9,7 +9,9 @@
 	"language-button-text": "Liest Wikipedia an Ärer Sprooch",
 	"footer-description": "Wikipedia ass op de Servere vun der Wikimedia Foundation, enger Organisatioun ouni Gewënnzweck déi och fir eng Rei vun anere Projeten hier Serveren zur Verfügung stellt.",
 	"app-links": {
-		"title": "Wikipedia-Appe sinn elo disponibel:"
+		"title": "Wikipedia-Appe sinn elo disponibel:",
+		"ios": "Erofluede fir iOS am App Store",
+		"android": "Erofluede fir Android op Google Play"
 	},
 	"license": "Dës Säit ass disponibel ënner der <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike Lizenz</a>",
 	"terms": "Benotzungs-Bedingungen",
