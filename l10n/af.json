@@ -49,9 +49,15 @@
 	},
 	"wikiversity": {
 		"name": "Wikiversiteit",
-		"slogan": "Vry kursusmateriaal"
+		"slogan": "Vry kursusmateriaal",
+		"entries": "onderrighulpbronne"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Vry reisgids"
 	},
 	"commons": {
+		"name": "Commons",
 		"slogan": "Vrylik bruikbare foto's en meer"
 	},
 	"wikispecies": {
