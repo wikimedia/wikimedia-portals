@@ -11,11 +11,14 @@
 	"app-links": {
 		"title": "Wikipedia-Appe sinn elo disponibel:",
 		"ios": "Erofluede fir iOS am App Store",
-		"android": "Erofluede fir Android op Google Play"
+		"android": "Erofluede fir Android op Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Déikomplett Lëscht vun de Wikipedia-Apps weisen</a>"
 	},
 	"license": "Dës Säit ass disponibel ënner der <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike Lizenz</a>",
 	"terms": "Benotzungs-Bedingungen",
 	"Privacy Policy": "Dateschutz",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Déi fräi Enzyklopedie",
