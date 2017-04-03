@@ -259,10 +259,16 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			page = suggestions[ i ];
 			pageDescription = ( page.terms && page.terms.description ) ? page.terms.description : '';
 
+			// Ensure that the value from the previous iteration isn't used
+			sanitizedThumbURL = false;
+
 			if ( page.thumbnail && page.thumbnail.source ) {
 				sanitizedThumbURL = page.thumbnail.source.replace( /\"/g, '%22' );
 				sanitizedThumbURL = sanitizedThumbURL.replace( /'/g, '%27' );
 			}
+
+			// Ensure that the value from the previous iteration isn't used
+			descriptionText = '';
 
 			// check if description exists
 			if ( pageDescription ) {
