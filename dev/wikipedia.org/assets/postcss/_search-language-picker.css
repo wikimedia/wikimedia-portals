@@ -18,8 +18,8 @@
 }
 
 .styled-select .hide-arrow {
-	right: 2rem;
-	max-width: 4.25rem;
+	right: 3.2rem;
+	max-width: 6.8rem;
 
 	height: var( --ss-height );
 	padding: 0;
@@ -39,7 +39,7 @@
 	outline: 0;
 	box-sizing: border-box;
 	border: 0;
-	line-height: 1.21875rem;
+	line-height: 1.95rem;
 
 	/*hide default down arrow in webkit */
 	-webkit-appearance: none;
@@ -68,12 +68,12 @@
 .styled-select.no-js select {
 	opacity: 1;
 	margin: 0;
-	padding: 0 1.5rem 0 0.5rem;
+	padding: 0 2.4rem 0 0.8rem;
 	color: var( --ss-c-grey );
 }
 
 .styled-select.no-js .hide-arrow {
-    width: 4.25rem;
+    width: 6.8rem;
 
 }
 
@@ -86,7 +86,7 @@
 */
 
 .styled-select.js-enabled .hide-arrow {
-    padding: 0 1.5rem 0 0.5rem;
+    padding: 0 2.4rem 0 0.8rem;
 }
 
 .styled-select.js-enabled select {
@@ -99,7 +99,7 @@
 	width: 100%;
 	border: 0;
 	margin: 0;
-	padding: 0 1.5rem 0;
+	padding: 0 2.4rem 0;
 	color: transparent;
 	color: rgba( 255, 255, 255, 0 );
 }
@@ -130,7 +130,7 @@
 	display: inline-block;
 	margin: 0;
 	color: var( --ss-c-grey );
-	font-size: 0.8rem;
+	font-size: 1.28rem;
 	line-height: var( --ss-height );
 	text-transform: uppercase;
 }

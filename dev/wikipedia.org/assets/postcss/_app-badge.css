@@ -7,12 +7,12 @@
 }
 
 .app-badges .footer-sidebar-text {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
 }
 
 .app-badges .footer-sidebar-icon {
-    top: 0.5rem;
+    top: 0.8rem;
 }
 
 .app-badges ul {
@@ -53,6 +53,6 @@
 
     .app-badge-fulllist {
         width: 100%;
-        margin: 1.2rem 0 0.4rem 0;
+        margin: 1.92rem 0 0.64rem 0;
     }
 }

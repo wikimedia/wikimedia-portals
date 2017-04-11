@@ -9,7 +9,7 @@
 	float: left;
 	position: relative;
 	width: 33%;
-	height: 5.625rem;
+	height: 9rem;
 }
 
 .other-project-link {
@@ -43,7 +43,7 @@
 
 .other-project-tagline {
 	color: var( --ss-c-grey );
-	font-size: 0.76rem;
+	font-size: 1.216rem;
 }
 
 @media screen and ( max-width: 768px ) {
@@ -66,10 +66,10 @@
 @media screen and ( max-width: 320px ) {
 	.other-project-text {
 		margin-right: 5px;
-		font-size: 0.72rem;
+		font-size: 1.152rem;
 	}
 
 	.other-project-tagline {
-		font-size: 0.684rem;
+		font-size: 1.0944rem;
 	}
 }

@@ -35,7 +35,7 @@ so we can ignore the csslint warning.
     box-sizing: border-box;
     border: var( --border-base );
     border-radius: var( --border-radius-base );
-    padding: 0.5rem;
+    padding: 0.8rem;
     box-shadow: inset 0 0 0 1px var( --background-color-base );
     vertical-align: middle;
 }
@@ -45,7 +45,7 @@ Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
 since IE8 won't execute CSS that contains a CSS3 selector.
 */
 .pure-form input:not( [type] ) {
-    padding: 0.5rem 0.6rem;
+    padding: 0.8rem 0.96rem;
     display: inline-block;
     border: var( --border-base );
     border-radius: var( --border-radius-base );
@@ -57,7 +57,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 /* Chrome (as of v.32/34 on OS X) needs additional room for color to display. */
 /* May be able to remove this tweak as color inputs become more standardized across browsers. */
 .pure-form input[type="color"] {
-    padding: 0.2em 0.5em;
+    padding: 0.32em 0.8em;
 }
 
 .pure-form input[type="text"]:focus,
@@ -98,7 +98,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 }
 .pure-form .pure-checkbox,
 .pure-form .pure-radio {
-    margin: 0.5rem 0;
+    margin: 0.8rem 0;
     display: block;
 }
 
@@ -153,7 +153,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 }
 .pure-form select {
     /* Normalizes the height; padding is not sufficient. */
-    height: 2.25rem;
+    height: 3.6rem;
     border: var( --border-base );
     background-color: var( --background-color-framed );
 }
@@ -161,18 +161,18 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     height: auto;
 }
 .pure-form label {
-    margin: 0.5rem 0 0.2rem;
+    margin: 0.8rem 0 0.32rem;
 }
 .pure-form fieldset {
     margin: 0;
-    padding: 0.35rem 0 0.75rem;
+    padding: 0.56rem 0 1.2rem;
     border: 0;
 }
 .pure-form legend {
     display: block;
     width: 100%;
-    padding: 0.3rem 0;
-    margin-bottom: 0.3rem;
+    padding: 0.48rem 0;
+    margin-bottom: 0.48rem;
     color: var( --color-base );
 }
 
@@ -195,7 +195,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .pure-form-stacked label,
 .pure-form-stacked textarea {
     display: block;
-    margin: 0.25rem 0;
+    margin: 0.4rem 0;
 }
 
 /*
@@ -204,7 +204,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 */
 .pure-form-stacked input:not( [type] ) {
     display: block;
-    margin: 0.25rem 0;
+    margin: 0.4rem 0;
 }
 .pure-form-aligned input,
 .pure-form-aligned textarea,
@@ -223,34 +223,34 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 
 /* Aligned Forms */
 .pure-form-aligned .pure-control-group {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
 }
 .pure-form-aligned .pure-control-group label {
     text-align: right;
     display: inline-block;
     vertical-align: middle;
-    width: 10rem;
-    margin: 0 1rem 0 0;
+    width: 16rem;
+    margin: 0 1.6rem 0 0;
 }
 .pure-form-aligned .pure-controls {
-    margin: 1.5rem 0 0 11rem;
+    margin: 2.4rem 0 0 17.6rem;
 }
 
 /* Rounded Inputs */
 .pure-form input.pure-input-rounded,
 .pure-form .pure-input-rounded {
-    border-radius: 2rem;
-    padding: 0.5rem 1rem;
+    border-radius: 2.4rem;
+    padding: 0.8rem 1.6rem;
 }
 
 /* Grouped Inputs */
 .pure-form .pure-group fieldset {
-    margin-bottom: 0.67rem;
+    margin-bottom: 1.072rem;
 }
 .pure-form .pure-group input,
 .pure-form .pure-group textarea {
     display: block;
-    padding: 0.625rem;
+    padding: 1rem;
     margin: 0 0 -1px;
     border-radius: 0;
     position: relative;
@@ -279,7 +279,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     margin: 0;
 }
 .pure-form .pure-group button {
-    margin: 0.35rem 0;
+    margin: 0.56rem 0;
 }
 
 .pure-form .pure-input-1 {
@@ -306,22 +306,22 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .pure-form .pure-help-inline,
 .pure-form-message-inline {
     display: inline-block;
-    padding-left: 0.3rem;
+    padding-left: 0.48rem;
     color: var( --color-base );
     vertical-align: middle;
-    font-size: 0.875rem;
+    font-size: 1.4rem;
 }
 
 /* Block help for forms */
 .pure-form-message {
     display: block;
     color: var( --color-base );
-    font-size: 0.875rem;
+    font-size: 1.4rem;
 }
 
 @media only screen and ( max-width: 480px ) {
     .pure-form button[type="submit"] {
-        margin: 0.7rem 0 0;
+        margin: 1.12rem 0 0;
     }
 
     .pure-form input:not( [type] ),
@@ -340,7 +340,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     .pure-form input[type="tel"],
     .pure-form input[type="color"],
     .pure-form label {
-        margin-bottom: 0.3rem;
+        margin-bottom: 0.48rem;
         display: block;
     }
 
@@ -363,14 +363,14 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     }
 
     .pure-form-aligned .pure-control-group label {
-        margin-bottom: 0.3rem;
+        margin-bottom: 0.48rem;
         text-align: left;
         display: block;
         width: 100%;
     }
 
     .pure-form-aligned .pure-controls {
-        margin: 1.5rem 0 0 0;
+        margin: 2.4rem 0 0 0;
     }
 
     /* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
@@ -378,8 +378,8 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     .pure-form-message-inline,
     .pure-form-message {
         display: block;
-        font-size: 0.75rem;
+        font-size: 1.2rem;
         /* Increased bottom padding to make it group with its related input element. */
-        padding: 0.2rem 0 0.8rem;
+        padding: 0.32rem 0 1.28rem;
     }
 }

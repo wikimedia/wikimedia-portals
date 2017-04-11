@@ -4,18 +4,18 @@
 	float: none;
 	max-width: 95%;
 	width: 540px;
-	margin: 0 auto 1.21875rem auto;
-	padding: 0.24375rem;
+	margin: 0 auto 1.95rem auto;
+	padding: 0.39rem;
 	text-align: center;
 	vertical-align: middle;
 }
 
 .search-container button {
 	margin: 0;
-	padding: 0.5rem 1rem;
+	padding: 0.8rem 1.6rem;
 	z-index: var( --ss-button-z-index );
-	font-size: 1rem;
-	line-height: 1.6rem;
+	font-size: 1.6rem;
+	line-height: 1.6;
 	vertical-align: middle;
 }
 
@@ -45,19 +45,19 @@
 .search-container .sprite-icons-arrow-down {
 	display: inline-block;
 	position: absolute;
-	top: 0.375rem;
-	right: 0.40625rem;
+	top: 0.6rem;
+	right: 0.65rem;
 	margin: 0;
 	vertical-align: middle;
 }
 
 #searchInput {
-	height: 2.7rem;
+	height: 4.32rem;
 	width: 100%;
-	padding: 0.5rem;
-	padding-right: 6.4rem;
-	font-size: 1rem;
-	line-height: 1.6rem;
+	padding: 0.8rem;
+	padding-right: 10.24rem;
+	font-size: 1.6rem;
+	line-height: 1.6;
 }
 
 /* FIXME why should we have a class and an id ? */
@@ -66,7 +66,7 @@
 	display: inline-block;
 	position: relative;
 	width: 73%;
-	margin-right: 0.5rem;
+	margin-right: 0.8rem;
 	vertical-align: top;
 }
 
@@ -78,22 +78,22 @@
 	}
 
 	.search-container .pure-form fieldset {
-		margin-left: 0.3125rem;
-		margin-right: 5rem;
+		margin-left: 0.5rem;
+		margin-right: 8rem;
 	}
 
 	/* FIXME why should we have a class and an id ? */
 	.search-container .search-input {
-		margin-left: 0.3125rem;
-		margin-right: -4.375rem;
+		margin-left: 0.5rem;
+		margin-right: -7rem;
 		margin-bottom: 0;
 		width: 100%;
 	}
 
 	.search-container .pure-form button {
 		float: right;
-		right: -4.375rem;
+		right: -7rem;
 		margin: 0;
-		padding: 0.5rem 1rem;
+		padding: 0.8rem 1.6rem;
 	}
 }
