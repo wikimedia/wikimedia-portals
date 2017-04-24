@@ -2,10 +2,23 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Nikola Smolenski"
+			"Nikola Smolenski",
+			"Obsuser"
 		]
 	},
 	"language-button-text": "Читај Википедију на свом језику",
+	"footer-description": "Википедију хостује Фондација Викимедија, непрофитна организација која такође хостује још много других пројеката.",
+	"app-links": {
+		"title": "Википедијине апликације су сада доступне:",
+		"ios": "Преузми за iOS на App Store",
+		"android": "Преузми за Android на Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Погледај цели списак доступних Википедијиних апликација</a>"
+	},
+	"license": "Ова страница је доступна под лиценцом <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Кријејтив комонс Ауторство—Делити под истим условима</a>",
+	"terms": "Услови коришћења",
+	"Privacy Policy": "Политика приватности",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/sr",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/sr",
 	"wiki": {
 		"name": "Википедија",
 		"slogan": "Слободна енциклопедија",
@@ -22,11 +35,12 @@
 		"entries": "странице"
 	},
 	"wikinews": {
+		"name": "Викивести",
 		"slogan": "Слободан извор вести",
 		"entries": "чланци"
 	},
 	"wikiquote": {
-		"name": "Викицитати",
+		"name": "Викицитат",
 		"slogan": "Слободна збирка цитата",
 		"entries": "чланци"
 	},
@@ -35,22 +49,32 @@
 		"slogan": "Слободна библиотека"
 	},
 	"wikiversity": {
-		"name": "Викиверзитет"
+		"name": "Викиверзитет",
+		"slogan": "Слободни наставни материјали за курс",
+		"entries": "ресурси за учење"
+	},
+	"wikivoyage": {
+		"name": "Википутовања",
+		"slogan": "Слободни водич за путовања"
 	},
 	"commons": {
-		"name": "Остава"
+		"name": "Остава",
+		"slogan": "Слободно употребљиве фотографије и више"
 	},
 	"wikispecies": {
-		"name": "Викиврсте"
+		"name": "Викиврсте",
+		"slogan": "Слободни директоријум врста"
 	},
 	"wikidata": {
 		"name": "Википодаци",
 		"slogan": "Слободна база знања"
 	},
 	"mediawiki": {
-		"name": "Медијавики"
+		"name": "Медијавики",
+		"slogan": "Слободна и отворена вики апликација"
 	},
 	"metawiki": {
-		"name": "Метавики"
+		"name": "Метавики",
+		"slogan": "Координација заједнице и документација"
 	}
 }
