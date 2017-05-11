@@ -2,11 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Otokoume",
-			"ネイ"
+			"ネイ",
+			"Omotecho"
 		]
 	},
 	"language-name": "日本語",
 	"language-name-romanized": "Nihongo",
+	"language-button-text": "あなたの言語でウィキペディアを読みませんか",
+	"footer-description": "ウィキペディアは非営利団体が運営しており、他にも多数のプロジェクトを展開しています。",
+	"app-links": {
+		"title": "ウィキペディアのアプリの入手には:",
+		"ios": "iOS にはApp Storeからダウンロード",
+		"android": "AndroidにはGoogle Playからダウンロード",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>ウィキペディア用アプリをすべて見るには</a>"
+	},
 	"terms": "利用規約",
 	"Privacy Policy": "プライバシー・ポリシー",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ja",
@@ -42,7 +51,8 @@
 	},
 	"wikiversity": {
 		"name": "ウィキバーシティ",
-		"slogan": "フリーな学習教材"
+		"slogan": "フリーな学習教材",
+		"entries": "学びに役立つ教材"
 	},
 	"wikivoyage": {
 		"name": "ウィキボヤージュ",
@@ -61,9 +71,11 @@
 		"slogan": "フリー知識ベース"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "無料で使えるwiki形式のアプリ"
 	},
 	"metawiki": {
-		"name": "メタウィキ"
+		"name": "メタウィキ",
+		"slogan": "コミュニティの運営と文書化"
 	}
 }
