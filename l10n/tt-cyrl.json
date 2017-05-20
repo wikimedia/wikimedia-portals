@@ -6,6 +6,12 @@
 	},
 	"language-button-text": "Википедияне үз телегездә укыгыз",
 	"footer-description": "Википедия — Викимедиа Фонды тарафыннан идарә ителүче һәм аның карамагында булган проект.",
+	"app-links": {
+		"title": "Википедия кушымталары:",
+		"ios": "iOS өчен App Store сәхифәсендә",
+		"android": "Android өчен Google Play сәхифәсендә",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Википедия кушымталарының тулы исемлеге</a>"
+	},
 	"license": "Әлеге битне <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike лицензиясе</a> нигезендә файдаланырга мөмкин",
 	"terms": "Куллану шартлары",
 	"Privacy Policy": "Яшеренлек сәясәте",

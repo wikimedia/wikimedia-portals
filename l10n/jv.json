@@ -8,6 +8,17 @@
 	"language-name-romanized-sorted": "Jawa, Basa",
 	"language-button-text": "Panjenengan bisa maca Wikipédia ing basané panjenengan",
 	"footer-description": "Wikipédia iku darbéné Yeyasan Wikimédia, organisasi nirbathi sing uga ndarbéni sawenèh proyèk liya.",
+	"app-links": {
+		"title": "Aplikasi Wikipédia saiki ana:",
+		"ios": "Undhuh kanggo iOS ing App Store",
+		"android": "Undhuh kanggo Android ing Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Deleng pratélan wutuh aplikasi Wikipédia sing ana</a>"
+	},
+	"license": "Kaca iki ana ing pangayomané <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lisènsi Atribusi-DumSairib Creative Commons</a>",
+	"terms": "Pranatan Pangguna",
+	"Privacy Policy": "Paugeran Privasi",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "Bauwarna Bébas",
