@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pon44695"
+			"Pon44695",
+			"Ans"
 		]
 	},
 	"language-name": "ภาษาไทย",
@@ -9,13 +10,15 @@
 	"language-name-romanized-sorted": "Thai, Phasa",
 	"language-button-text": "อ่านวิกิพีเดียในภาษาของคุณ",
 	"footer-description": "วิกิพีเดียเป็นลูกข่ายของมูลนิธิวิกิมีเดีย องค์กรไม่แสวงหาผลกำไร ที่ยังเป็นแม่ข่ายของโครงการอื่น ๆ ด้วย",
+	"terms": "ข้อกำหนดการใช้งาน",
+	"Privacy Policy": "นโยบายความเป็นส่วนตัว",
 	"wiki": {
 		"name": "วิกิพีเดีย",
 		"slogan": "สารานุกรมเสรี",
 		"entries": "บทความ"
 	},
 	"wiktionary": {
-		"name": "Wiktionary",
+		"name": "วิกิพจนานุกรม",
 		"slogan": "พจนานุกรมเนื้อหาเสรี",
 		"entries": "ตำแหน่งเข้า"
 	},

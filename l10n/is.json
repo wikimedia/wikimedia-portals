@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Snævar",
-			"Sveinn í Felli"
+			"Sveinn í Felli",
+			"Sveinki"
 		]
 	},
 	"language-name": "Íslenska",
@@ -15,6 +16,7 @@
 		"android": "Sækja fyrir Android í Google Play",
 		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Skoðaðu lista yfir öll tiltæk smáforrit Wikipedia</a>"
 	},
+	"license": "Þessi síða er gerð tiltæk með <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike notkunarleyfinu</a>",
 	"terms": "Notkunarskilmálar",
 	"Privacy Policy": "Meðferð persónuupplýsinga",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",

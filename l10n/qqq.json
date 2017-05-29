@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Minh Nguyen"
+			"Minh Nguyen",
+			"Ans"
 		]
 	},
 	"language-name": "The name of '''your''' language in its native script.\n\nIf a Wikimedia project in your language (such as your language’s Wikipedia) is written in more than one script, include all the scripts separated by <code>&nbsp;/&nbsp;</code>. For example, include all the scripts if MediaWiki automatically transliterates between them, or if there are many articles in each script, or if the main page features both scripts prominently.\n\n'''Important:''' Do not use your language’s word for “English”. Use the word that your language uses to refer to itself. If you translate this message to mean “English” in your language, your change will be reverted.\n{{Identical|English}}",
@@ -22,45 +23,45 @@
 	"terms-link": "The URL of the translated Terms of service page. Like <code><nowiki>https://meta.wikimedia.org/wiki/Terms_of_use/(your language code)</nowiki></code> but be certain that a translation exists.",
 	"privacy-policy-link": "The URL of the translated Privacy policy page. Like <code><nowiki>https://meta.wikimedia.org/wiki/Privacy_policy/(your language code)</nowiki></code> but be certain that a translation exists.",
 	"wiki": {
-		"name": "Label for Wikipedia\n{{Identical|Wikipedia}}",
+		"name": "Label for Wikipedia\n{{Identical|Wikipedia}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikipedia slogan",
 		"entries": "The name of a content page on Wikipedia, pluralized. For example, in english: articles.\n{{Identical|Article}}"
 	},
 	"wiktionary": {
-		"name": "Label for Wiktionary\n{{Identical|Wiktionary}}",
+		"name": "Label for Wiktionary\n{{Identical|Wiktionary}}\n{{Related|Portals.name}}",
 		"slogan": "The Wiktionary slogan",
 		"entries": "The name of a content page on Wiktionary, pluralized.\n{{Identical|Entry}}"
 	},
 	"wikibooks": {
-		"name": "Label for Wikibooks\n{{Identical|Wikibooks}}",
+		"name": "Label for Wikibooks\n{{Identical|Wikibooks}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikibooks slogan",
 		"entries": "The name of a content page on Wikibooks, pluralized.\n{{Identical|Page}}"
 	},
 	"wikinews": {
-		"name": "Label for Wikinews\n{{Identical|Wikinews}}",
+		"name": "Label for Wikinews\n{{Identical|Wikinews}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikinews slogan",
 		"entries": "The name of a content page on Wikinews, pluralized.\n{{Identical|Article}}"
 	},
 	"wikiquote": {
-		"name": "Label for Wikiquote\n{{Identical|Wikiquote}}",
+		"name": "Label for Wikiquote\n{{Identical|Wikiquote}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikiquote slogan",
 		"entries": "The name of a content page on Wikiquote, pluralized.\n{{Identical|Article}}"
 	},
 	"wikisource": {
-		"name": "Label for Wikisource\n{{Identical|Wikisource}}",
+		"name": "Label for Wikisource\n{{Identical|Wikisource}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikisource slogan"
 	},
 	"wikiversity": {
-		"name": "Label for Wikiversity\n{{Identical|Wikiversity}}",
+		"name": "Label for Wikiversity\n{{Identical|Wikiversity}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikiversity slogan",
 		"entries": "The name of a content page on Wikiversity, pluralized."
 	},
 	"wikivoyage": {
-		"name": "Label for Wikivoyage\n{{Identical|Wikivoyage}}",
+		"name": "Label for Wikivoyage\n{{Identical|Wikivoyage}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikivoyage slogan"
 	},
 	"commons": {
-		"name": "Label for Wikimedia Commons\n{{Identical|Commons}}",
+		"name": "Label for Wikimedia Commons\n{{Identical|Commons}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikimedia Commons slogan"
 	},
 	"wikispecies": {
@@ -68,11 +69,11 @@
 		"slogan": "The Wikispecies slogan"
 	},
 	"wikidata": {
-		"name": "Label for Wikidata\n{{Identical|Wikidata}}",
+		"name": "Label for Wikidata\n{{Identical|Wikidata}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikidata slogan"
 	},
 	"mediawiki": {
-		"name": "Label for MediaWiki\n{{Identical|MediaWiki}}",
+		"name": "Label for MediaWiki\n{{Identical|MediaWiki}}\n{{Related|Portals.name}}",
 		"slogan": "The MediaWiki slogan"
 	},
 	"metawiki": {
