@@ -1,0 +1,78 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saimawnkham"
+		]
+	},
+	"language-button-text": "ဢဝ်ၽႃႇသႃႇၵႂၢမ်း ၸဝ်ႈၵဝ်ႇသေ လူႇဝီႇၶီႇၽီးတီးယႃးလႄႈ",
+	"footer-description": "ဝီႇၶီႇၽီးတီးယႃးၼႆႉ လုၵ်ႉတီႈၾွင်ႇတေးသျိၼ်း ဝီႇၶီႇမီႇတီႇယႃႇ၊ ဢၼ်ဢမ်ႇမုင်ႈမွင်း ၼမ်ႉတွၼ်ႈၼၼ်ႉလႄႈ ဢိၵ်ႇလူၺ်ႈတင်း ၼႃႈၵၢၼ်တၢင်ႇၸိူဝ်းႁူမ်ႈၵၼ် ပိုတ်ႇတၢင်ႇဝႆႉၶႃႈဢေႃႈ။",
+	"app-links": {
+		"title": "ဢႅပ်ႉဝီႇၶီႇၽီးတီးယႃး ၵေႃႈ ယၢမ်းလဵဝ် ၸၢင်ႈဢဝ်ၸႂ်ႉလႆႈ:",
+		"ios": "လူတ်ႇလူင်း တွၼ်ႈတႃႇ iOS ၵႃႈတီႈ App Store",
+		"android": "လူတ်ႇလူင်း တွၼ်ႈတႃႇ Android ၵႃႈတီႈ Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>တူၺ်းသဵၼ်ႈမၢႆ တဵမ်ထူၼ်ႈ ဢၼ်ပဵၼ် ဢႅပ်ႉဝီႇၶီႇၽီးတီးယႃး ၸိူဝ်းၸၢင်ႈ ဢဝ်ၸႂ်ႉလႆႈ</a>"
+	},
+	"license": "ၼႃႈလိၵ်ႈဢၼ်ၼႆႉ ဢဝ်ၸႂ်ႉလႆႈ ၽၢႆႇတႂ်ႈ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> ဢေႃႈ",
+	"terms": "ၶေႃႈၽၢင်ႉလွင်ႈၸႂ်ႉတိုဝ်း",
+	"Privacy Policy": "လၵ်း​ၼမ်း လွင်ႈ​ႁူမ်ႇ​လူမ်ႈ သုၼ်ႇ​လဵဝ်",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"wiki": {
+		"name": "ဝီႇၶီႇၽီးတီးယႃး",
+		"slogan": "ပပ်ႉသႅၼ်သမ်ႇလွတ်ႈလႅဝ်း",
+		"entries": "ပွင်ႈလိၵ်ႈ"
+	},
+	"wiktionary": {
+		"name": "ပပ်ႉတႅတ်ႈဝီႇၶီႇ",
+		"slogan": "ပပ်ႉတႅတ်ႈလွတ်ႈလႅဝ်း",
+		"entries": "တူဝ်ၼႂ်း"
+	},
+	"wikibooks": {
+		"name": "ပပ်ႉလိၵ်ႈဝီႇၶီႇ",
+		"slogan": "ပပ်ႉလိၵ်ႈလွတ်ႈလႅဝ်း",
+		"entries": "ၼႃႈလိၵ်ႈ"
+	},
+	"wikinews": {
+		"name": "ၶၢဝ်ႇဝီႇၶီႇ",
+		"slogan": "ငဝ်ႈငႃႇၶၢဝ်ႇ လွတ်ႈလႅဝ်း",
+		"entries": "ပွင်ႈလိၵ်ႈ"
+	},
+	"wikiquote": {
+		"name": "ၵႂၢမ်းမၢႆဝီႇၶီႇ",
+		"slogan": "ၵႂၢမ်းမၢႆႁုပ်ႈ လွတ်ႈလႅဝ်း",
+		"entries": "ပွင်ႈလိၵ်ႈ"
+	},
+	"wikisource": {
+		"name": "ငဝ်ႈငႃႇဝီႇၶီႇ",
+		"slogan": "သိူင်ႇသဵၼ်ႈမၢႆလွတ်ႈလႅဝ်း"
+	},
+	"wikiversity": {
+		"name": "ၸၼ်ႉၸွမ်ဝီႇၶီႇ",
+		"slogan": "လၵ်းပူင်သွၼ်လွတ်ႈလႅဝ်း",
+		"entries": "ငဝ်ႈငႃႇ လွင်ႈလဵပ်ႈႁဵၼ်း"
+	},
+	"wikivoyage": {
+		"name": "ၶၢဝ်းတၢင်းဝီႇၶီႇ",
+		"slogan": "ၽိုၼ်ၸုင်ၶၢဝ်းတၢင်းလွတ်ႈလႅဝ်း"
+	},
+	"commons": {
+		"name": "ဢၼ်ၸႂ်ႉၼမ်",
+		"slogan": "ၶႅပ်းႁၢင်ႈဢၼ်ၸႂ်ႉလႆႈလွတ်ႈလႅဝ်း လႄႈ တင်းၼမ်"
+	},
+	"wikispecies": {
+		"name": "ၸိူဝ်ႉဝီႇၶီႇ",
+		"slogan": "ပပ်ႉၸႅၵ်ႇၸိူဝ်ႉ လွတ်ႈလႅဝ်း"
+	},
+	"wikidata": {
+		"name": "ဝီႇၶီႇတေႇတႃႇ",
+		"slogan": "ပိုၼ်ႉတၢင်းႁူႉလွတ်ႈလႅဝ်း"
+	},
+	"mediawiki": {
+		"name": "မီႇတီႇယႃႇဝီႇၶီႇ",
+		"slogan": "ဢႅပ်ႉဝီႇၶီႇ ဢၼ်လွတ်ႇလႅဝ်းထၢင်ႇႁၢင်ႈ"
+	},
+	"metawiki": {
+		"name": "မီႇထႃႇ-ဝီႇၶီႇ",
+		"slogan": "လွင်ႈၽွမ်ႉၽဵင်ႇတူင်ႇဝိူင်း လႄႈ ၽိုၼ်လိၵ်ႈ"
+	}
+}
