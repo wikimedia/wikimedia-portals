@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mechanizatar",
-			"Artificial123"
+			"Artificial123",
+			"Liashko"
 		]
 	},
 	"language-name": "Беларуская (Акадэмічная)",
@@ -10,6 +11,17 @@
 	"language-name-romanized-sorted": "Belaruskaya Akademichnaya",
 	"language-button-text": "Чытайце Вікіпедыю на сваёй мове",
 	"footer-description": "Вікіпедыя арганізавана Вікімедыяй - некамерцыйнай арганізацыяй, якая таксама праводзіць шэраг іншых праектаў.",
+	"app-links": {
+		"title": "Цяпер даступныя дадаткі Вікіпедыі:",
+		"ios": "Загрузіць для iOS у Apple Store",
+		"android": "Загрузіць для Android у Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Паглядзець увесь спіс даступных дадаткаў Вікіпэдыі</a>"
+	},
+	"license": "Гэтая старонка даступная пад ліцэнзіяй <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Умовы карыстання",
+	"Privacy Policy": "Палітыка прыватнасці",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/be",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/be",
 	"wiki": {
 		"name": "Вікіпедыя",
 		"slogan": "Свабодная энцыклапедыя",
