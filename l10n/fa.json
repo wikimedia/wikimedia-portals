@@ -1,8 +1,23 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Yoosef Pooranvary"
+		]
+	},
 	"language-name": "فارسی",
 	"language-name-romanized": "Fārsi",
 	"language-name-romanized-sorted": "Farsi",
+	"language-button-text": "ویکی‌پدیا را به زبان خود بخوانید",
+	"footer-description": "ویکی‌پدیا یکی از پروژه‌هایی است که توسط بنیاد ناسودبر ویکی‌مدیا میزبانی می‌شود.",
+	"app-links": {
+		"title": "هم‌اکنون اپلیکیشن‌های ویکی‌پدیا در دسترس هستند:",
+		"ios": "بارگذاری نسخهٔ iOS از App Store",
+		"android": "بارگذاری نسخهٔ اندروید از Google Play"
+	},
+	"terms": "شرایط کاربرد",
+	"Privacy Policy": "سیاست محرمانگی",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/fa",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/fa",
 	"wiki": {
 		"name": "ویکی‌پدیا",
 		"slogan": "دانشنامهٔ آزاد",
@@ -10,7 +25,8 @@
 	},
 	"wiktionary": {
 		"name": "ویکی‌واژه",
-		"slogan": "لغتنامه چندزبانه آزاد"
+		"slogan": "لغتنامه چندزبانه آزاد",
+		"entries": "مدخل‌ها"
 	},
 	"wikibooks": {
 		"name": "ویکی‌کتاب",
@@ -18,7 +34,8 @@
 		"entries": "صفحه"
 	},
 	"wikinews": {
-		"name": "ویکی‌خبر"
+		"name": "ویکی‌خبر",
+		"slogan": "مرجع خبری با محتوای آزاد"
 	},
 	"wikiquote": {
 		"name": "ویکی‌گفتاورد",
@@ -26,10 +43,36 @@
 		"entries": "صفحه"
 	},
 	"wikisource": {
-		"name": "ویکی‌نبشته"
+		"name": "ویکی‌نبشته",
+		"slogan": "کتابخانهٔ آزاد"
+	},
+	"wikiversity": {
+		"name": "ویکی‌دانشگاه",
+		"slogan": "دانشگاه با آموزش نامحدود",
+		"entries": "منبع آموزشی"
 	},
 	"wikivoyage": {
 		"name": "ویکی‌سفر",
 		"slogan": "راهنمای سفر"
+	},
+	"commons": {
+		"name": "انبار",
+		"slogan": "انبار پرونده‌های چندرسانه‌ای عمومی"
+	},
+	"wikispecies": {
+		"name": "ویکی‌گونه",
+		"slogan": "راهنمای گونه‌های زیستی"
+	},
+	"wikidata": {
+		"name": "ویکی‌داده",
+		"slogan": "پایگاه دانش"
+	},
+	"mediawiki": {
+		"name": "مدیاویکی",
+		"slogan": "اپلیکیشن باز و آزاد ویکی"
+	},
+	"metawiki": {
+		"name": "فراویکی",
+		"slogan": "هماهنگ‌کنندهٔ پروژه‌ها"
 	}
 }
