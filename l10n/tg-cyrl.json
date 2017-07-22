@@ -1,0 +1,50 @@
+{
+	"@metadata": {
+		"authors": [
+			"ToJack"
+		]
+	},
+	"language-name": "Тоҷикӣ",
+	"language-button-text": "Википедиаро ба забоно худ хонед",
+	"footer-description": "Википедиа аз тарафи Фонди Википедиа идора мешавад.",
+	"app-links": {
+		"title": "Барномаҳои Википедиа акнун  дастрас ҳастанд бо:"
+	},
+	"wiki": {
+		"name": "Википедиа"
+	},
+	"wiktionary": {
+		"name": "Викилуғат"
+	},
+	"wikibooks": {
+		"name": "Викикитоб"
+	},
+	"wikinews": {
+		"name": "Викиахбор"
+	},
+	"wikiquote": {
+		"name": "Викииқтибос"
+	},
+	"wikisource": {
+		"name": "Викитека",
+		"slogan": "Китобхонаи ройгон"
+	},
+	"wikiversity": {
+		"name": "Викидонишгоҳ"
+	},
+	"wikivoyage": {
+		"name": "Викисафар"
+	},
+	"commons": {
+		"name": "Викианбор"
+	},
+	"wikispecies": {
+		"name": "Викинамудҳо"
+	},
+	"wikidata": {
+		"name": "Викимаълумот"
+	},
+	"metawiki": {
+		"name": "Мета-вики"
+	}
+}
