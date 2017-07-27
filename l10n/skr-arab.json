@@ -1,0 +1,49 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"language-button-text": "اپݨی زبان وچ ویکیپیڈیا پڑھو",
+	"terms": "ورتݨ شرطاں",
+	"wiki": {
+		"name": "ویکیپیڈیا",
+		"slogan": "مفت انسائیکلوپیڈیا",
+		"entries": "مقالے"
+	},
+	"wiktionary": {
+		"name": "وکشنری",
+		"slogan": "مفت ڈکشنری",
+		"entries": "اینٹریاں"
+	},
+	"wikibooks": {
+		"name": "وکی کتاباں",
+		"slogan": "مفت ٹیکسٹ کتاباں",
+		"entries": "ورقے"
+	},
+	"wikinews": {
+		"name": "وکی خبراں",
+		"slogan": "مفت خبراں ذریعے",
+		"entries": "مقالے"
+	},
+	"wikiquote": {
+		"name": "وکی قول",
+		"entries": "مقالے"
+	},
+	"wikisource": {
+		"name": "ویکی ماخذ",
+		"slogan": "مفت لائبریری"
+	},
+	"commons": {
+		"name": "کامنز"
+	},
+	"wikidata": {
+		"name": "ویکی ڈیٹا"
+	},
+	"mediawiki": {
+		"name": "میڈیا وکی"
+	},
+	"metawiki": {
+		"name": "میٹا وکی"
+	}
+}
