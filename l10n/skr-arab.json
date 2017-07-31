@@ -6,6 +6,9 @@
 	},
 	"language-button-text": "اپݨی زبان وچ ویکیپیڈیا پڑھو",
 	"terms": "ورتݨ شرطاں",
+	"Privacy Policy": "پرائیویسی پالیسی",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "ویکیپیڈیا",
 		"slogan": "مفت انسائیکلوپیڈیا",
@@ -33,6 +36,15 @@
 	"wikisource": {
 		"name": "ویکی ماخذ",
 		"slogan": "مفت لائبریری"
+	},
+	"wikiversity": {
+		"name": "وکی ورسٹی",
+		"slogan": "مفت کورس دا مواد",
+		"entries": "سیکھݨ کیتے وسائل"
+	},
+	"wikivoyage": {
+		"name": "ویکی پندھ",
+		"slogan": "مفت ٹریول گائیڈ"
 	},
 	"commons": {
 		"name": "کامنز"
