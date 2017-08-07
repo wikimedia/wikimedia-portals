@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Siebrand",
-			"Wikibelgiaan"
+			"Wikibelgiaan",
+			"Romaine"
 		]
 	},
 	"language-name": "Nederlands",
@@ -24,7 +25,7 @@
 		"entries": "modules"
 	},
 	"wikinews": {
-		"name": "Wikinews",
+		"name": "Wikinieuws",
 		"slogan": "Vrije nieuwsbron",
 		"entries": "artikelen"
 	},

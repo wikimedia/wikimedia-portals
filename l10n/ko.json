@@ -3,7 +3,8 @@
 		"authors": [
 			"Ykhwong",
 			"Kwj2772",
-			"Jerrykim306"
+			"Jerrykim306",
+			"Revi"
 		]
 	},
 	"language-name": "한국어",
@@ -76,6 +77,7 @@
 		"slogan": "자유 & 오픈 위키 애플리케이션"
 	},
 	"metawiki": {
-		"name": "메타위키"
+		"name": "메타위키",
+		"slogan": "공동체 협업 및 문서화"
 	}
 }
