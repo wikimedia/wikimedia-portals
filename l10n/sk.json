@@ -1,11 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"TomášPolonec"
+			"TomášPolonec",
+			"Kusavica"
 		]
 	},
 	"language-name": "Slovenčina",
 	"language-name-romanized-sorted": "Slovencina",
+	"language-button-text": "Prečítajte si Wikipédiu vo svojom vlastnom jazyku",
+	"footer-description": "Wikipédiu prevádzkuje nezisková nadácia Wikimedia Foundation, ktorá spravuje aj veľa iných projektov.",
+	"app-links": {
+		"title": "Wikipédia je dostupná aj ako aplikácia:",
+		"ios": "Prevezmite si aplikáciu pre iOS v App Store",
+		"android": "Prevezmite si aplikáciu pre Android v Obchode Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Pozrite si celý zoznam dostupných aplikácií Wikipédie</a>"
+	},
+	"license": "Táto stránka je dostupná pod licenciou <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Podmienky používania",
+	"Privacy Policy": "Zásady ochrany súkromia",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "Slobodná encyklopédia",
@@ -13,12 +27,12 @@
 	},
 	"wiktionary": {
 		"name": "Wikislovník",
-		"slogan": "slobodný slovník",
+		"slogan": "Slobodný slovník",
 		"entries": "hesiel"
 	},
 	"wikibooks": {
 		"name": "Wikiknihy",
-		"slogan": "voľne dostupné knihy a manuály",
+		"slogan": "Voľne dostupné knihy",
 		"entries": "stránky"
 	},
 	"wikinews": {
@@ -42,6 +56,26 @@
 	},
 	"wikivoyage": {
 		"name": "Wikicesty",
-		"slogan": "slobodný cestovný sprievodca"
+		"slogan": "Slobodný cestovný sprievodca"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Voľne použiteľné fotografie"
+	},
+	"wikispecies": {
+		"name": "Wikidruhy",
+		"slogan": "Adresár biologických druhov"
+	},
+	"wikidata": {
+		"name": "Wikiúdaje",
+		"slogan": "Štruktúrovaná databáza vedomostí"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Slobodný a otvorený wiki softvér"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Koordinácia komunity a dokumentácia"
 	}
 }
