@@ -56,6 +56,21 @@
 	}
 
 	/**
+	 * Preconnects to the search target wiki
+	 *
+	 * @param {string} lang
+	 */
+	function preconnect( lang ) {
+		var link = document.createElement( 'link' ),
+			domain = window.location.hostname.split( '.' ),
+			tld = domain.pop(),
+			sld = domain.pop();
+		link.rel = 'preconnect';
+		link.href = '//' + lang + '.' + sld + '.' + tld;
+		document.head.appendChild( link );
+	}
+
+	/**
 	 * Returns the user's preferred language according to browser preferences.
 	 *
 	 * @return {string}
@@ -195,6 +210,7 @@
 			if ( matchingLang ) {
 				select.value = matchingLang;
 				updateBranding( matchingLang );
+				preconnect( matchingLang );
 			}
 		}
 	} );
