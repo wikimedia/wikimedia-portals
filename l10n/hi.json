@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Jayprakash12345",
-			"Sfic"
+			"Sfic",
+			"Sachinkatiyar"
 		]
 	},
 	"language-name": "हिन्दी",
@@ -27,12 +28,12 @@
 		"entries": "लेख"
 	},
 	"wiktionary": {
-		"name": "विक्षनरी",
+		"name": "विक्शनरी",
 		"slogan": "मुक्त शब्दकोश",
-		"entries": "प्रविष्ट्या"
+		"entries": "प्रविष्ट्यां"
 	},
 	"wikibooks": {
-		"name": "Wikibooks",
+		"name": "विकिकिताबें",
 		"slogan": "मुक्त पुस्तकें",
 		"entries": "पृष्ठ"
 	},
