@@ -156,7 +156,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 	function loadQueryScript( string, lang ) {
 		var script = document.getElementById( 'api_opensearch' ),
 			docHead = document.getElementsByTagName( 'head' )[ 0 ],
-			hostname = '//' + searchLang + '.wikipedia.org/w/api.php?',
+			hostname,
 			callbackIndex,
 			searchQuery;
 
@@ -167,6 +167,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			clearTypeAhead();
 			return;
 		}
+
+		hostname = '//' + searchLang + '.wikipedia.org/w/api.php?';
 
 		// If script already exists, remove it.
 		if ( script ) {
