@@ -1,10 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Cûndûllah el-Kurdî"
 		]
 	},
 	"language-button-text": "Wîkîpediyayê bi zimanê xwe bixwîne",
+	"app-links": {
+		"title": "Êdî sepanên wîkîpediyayê jî mewcûd e:",
+		"ios": "Ji bo iOS'ê ji App Store'ê daxe",
+		"android": "Ji bo Android'ê ji Google Play'ê daxe"
+	},
+	"terms": "Mercên Bikaranînê",
+	"Privacy Policy": "Rêbaza Veşarîtî",
+	"terms-link": "https://meta.wikimedia.org/wiki/Mercên_Bikaranînê",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Rêbaza_Veşarîtî",
 	"wiki": {
 		"name": "Wîkîpediya",
 		"slogan": "Ensîklopediya Azad",
@@ -16,10 +26,12 @@
 	},
 	"wikibooks": {
 		"name": "Wîkîpirtûk",
+		"slogan": "Pirtûkên azad",
 		"entries": "rûpel"
 	},
 	"wikinews": {
 		"name": "Wîkînûçe",
+		"slogan": "Nûçeyên azad",
 		"entries": "gotar"
 	},
 	"wikiquote": {
@@ -27,7 +39,8 @@
 		"entries": "gotar"
 	},
 	"wikisource": {
-		"name": "Wîkîçavkanî"
+		"name": "Wîkîçavkanî",
+		"slogan": "Pirtûkxaneya azad"
 	},
 	"wikiversity": {
 		"name": "Wîkîzanîngeh"
