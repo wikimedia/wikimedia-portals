@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yoosef Pooranvary"
+			"Yoosef Pooranvary",
+			"Reza1615"
 		]
 	},
 	"language-name": "فارسی",
@@ -12,8 +13,10 @@
 	"app-links": {
 		"title": "هم‌اکنون اپلیکیشن‌های ویکی‌پدیا در دسترس هستند:",
 		"ios": "بارگذاری نسخهٔ iOS از App Store",
-		"android": "بارگذاری نسخهٔ اندروید از Google Play"
+		"android": "بارگذاری نسخهٔ اندروید از Google Play",
+		"other": "\n<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>نمایش فهرست کامل همهٔ اپلیکیشن‌های ویکی‌پدیا</a>"
 	},
+	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "شرایط کاربرد",
 	"Privacy Policy": "سیاست محرمانگی",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/fa",
@@ -35,7 +38,8 @@
 	},
 	"wikinews": {
 		"name": "ویکی‌خبر",
-		"slogan": "مرجع خبری با محتوای آزاد"
+		"slogan": "مرجع خبری با محتوای آزاد",
+		"entries": "مقالات"
 	},
 	"wikiquote": {
 		"name": "ویکی‌گفتاورد",
