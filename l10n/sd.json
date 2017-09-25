@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mehtab ahmed",
-			"Aursani"
+			"Aursani",
+			"Indus Asia"
 		]
 	},
 	"language-name": "سنڌي",
@@ -10,6 +11,11 @@
 	"language-name-romanized-sorted": "Sindhi",
 	"language-button-text": "وڪيپيڊيا پنھنجي ٻوليءَ ۾ پڙھو",
 	"footer-description": "وڪيپيڊيا وڪيميڊيا فائونڊيشن طرفان ميزباني ڪئي ويندي آھي، ھڪ غير منافع بخش تنظيم جيڪا ٻين ڪيترن منصوبن جي ميزباني پڻ ڪري ٿي.",
+	"app-links": {
+		"title": "وڪيپيڊيا اپليڪيشنز هاڻي موجود آهن:",
+		"ios": "ايپ اسٽور تان آءِ او ايس (iOS) لاءِ ڊائون لوڊ ڪيو",
+		"android": "گوگل پلي تان اينڊرائيڊ جي لاءِ ڊائون لوڊ ڪيو"
+	},
 	"terms": "استعمال جا شرط",
 	"Privacy Policy": "ذاتيات پاليسي",
 	"wiki": {

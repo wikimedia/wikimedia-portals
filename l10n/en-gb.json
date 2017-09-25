@@ -1,12 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chase me ladies, I'm the Cavalry"
+			"Chase me ladies, I'm the Cavalry",
+			"KATMAKROFAN"
 		]
 	},
+	"language-button-text": "Read Wikipædia in your language",
+	"footer-description": "Wikipædia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.",
+	"app-links": {
+		"title": "Wikipædia apps are now available:",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>View full list of available Wikipædia apps</a>"
+	},
 	"wiki": {
-		"name": "Wikipedia",
-		"slogan": "The Free Encyclopedia",
+		"name": "Wikipædia",
+		"slogan": "The Free Encyclopædia",
 		"entries": "articles"
 	},
 	"wiktionary": {
