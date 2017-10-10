@@ -8,6 +8,9 @@ body {
 	margin: 0.39rem 0;
 }
 
+a {
+	touch-action: manipulation;
+}
 a,
 a:active,
 a:focus {
