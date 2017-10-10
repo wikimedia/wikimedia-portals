@@ -1,4 +1,5 @@
 /* ::: Base ::: */
+@import 'wikimedia-ui-base/wikimedia-ui-base.css';
 @import '_vars.css';
 @import '_base.css';
 @import '_base-portal.css';

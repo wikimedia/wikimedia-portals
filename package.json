@@ -49,6 +49,7 @@
     "sync-request": "^3.0.1",
     "underscore": "^1.8.3",
     "vinyl-paths": "^2.1.0",
+    "wikimedia-ui-base": "^0.10.0",
     "yargs": "^6.3.0"
   }
 }
