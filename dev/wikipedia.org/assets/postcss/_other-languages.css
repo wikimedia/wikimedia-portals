@@ -127,11 +127,6 @@
     text-align: left;
 }
 
-/* FIXME should be removed because overriden in production */
-/*.langlist-tiny {*/
-	/*margin: 0.5em 3em 3em 3em;*/
-/*}*/
-
 .langlist-others {
 	/*margin: 0 3em 2em 3em;*/
 	font-weight: bold;

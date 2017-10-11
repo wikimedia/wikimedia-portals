@@ -46,16 +46,6 @@
 	color: var( --ss-c-grey );
 }
 
-/* FIXME is privacy-policy-links being used anywhere? */
-.privacy-policy-links {
-    margin-top: 1.28rem;
-}
-
-/* FIXME is privacy-policy-links being used anywhere? */
-.privacy-policy-links a {
-    display: block;
-}
-
 .site-license {
 	margin: 0;
 	color: var( --ss-c-grey );
@@ -110,12 +100,6 @@
         margin: 0;
         padding: 0;
         text-align: center;
-    }
-
-	/* FIXME is privacy-policy-links being used anywhere? */
-    .privacy-policy-links a {
-        display: inline-block;
-        margin: 0 0.8rem;
     }
 }
 

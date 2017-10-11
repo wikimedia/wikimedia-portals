@@ -18,20 +18,9 @@ cannot detect (and therefore cannot inline, minify or version)
 files that are placed within HTML comment blocks.
 */
 
-/* FIXME is .bookend being used somewhere ? */
-.bookshelf-container .bookend,
 .otherprojects-icon {
     *zoom: 1;
     *display: inline;
-}
-
-#search-container-pab1.search-container #searchInput {
-    *padding: 0;
-    *line-height: 2.5em;
-    *text-indent: 1em;
-    *width: 95%;
-    *position: relative;
-    *top: -2px;
 }
 
 .suggestion-item {

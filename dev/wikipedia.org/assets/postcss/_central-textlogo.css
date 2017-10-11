@@ -21,8 +21,7 @@
 .localized-slogan {
 	display: block;
 	margin-bottom: -2rem;
-	/* FIXME replace with var() */
-	font-family: 'Linux Libertine', 'Times New Roman', serif;
+	font-family: var( --font-family-serif );
 	font-size: 1.6rem;
 	font-variant: normal;
 	font-weight: normal;

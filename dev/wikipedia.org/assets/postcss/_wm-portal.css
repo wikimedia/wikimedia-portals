@@ -8,18 +8,6 @@
  *
  */
 
-/* FIXME investigate if this might be needed */
-
-/* Serbo-Croatian is dual-script, so it needs some tweaking to fit in the top 10 ring. */
-/* .digraphic strong {
-    font-size: 110%;
-    line-height: 1em;
-}
-.digraphic em,
-.digraphic em + br {
-    display: none;
-} */
-
 @media all and ( max-width: 480px ) {
     .search-container {
         margin-top: 0;
@@ -48,9 +36,6 @@
         margin: 0;
         border-left: 0;
         border-right: 0;
-    }
-    .language-search {
-        display: none;
     }
 
     hr {
