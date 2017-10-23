@@ -52,6 +52,18 @@
 	text-align: center;
 }
 
+.site-license small:after {
+    content: '\2022'; /* bullet character */
+    display: inline-block;
+    font-size: 1.3rem;
+    line-height: inherit;
+    margin-left: 0.8rem; /* margins differ to account for inline-block white-space */
+    margin-right: 0.5rem;
+}
+.site-license small:last-child:after {
+    display: none;
+}
+
 @media screen and ( max-width: 768px ) {
 
     .footer {
