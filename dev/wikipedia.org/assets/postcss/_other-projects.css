@@ -15,7 +15,7 @@
 .other-project-link {
 	display: inline-block;
 	min-height: 50px;
-	max-width: 100%;
+	width: 100%;
 	white-space: nowrap;
 }
 
@@ -25,6 +25,16 @@
 	text-align: center;
 }
 
+/* Wikinews icon remains a raster PNG due to the
+complexity of the SVG file */
+.svg-Wikinews-logo_sister {
+	background-image: url( portal/wikipedia.org/assets/img/Wikinews-logo_sister.png );
+	background-position: 0 0;
+	background-size: 47px auto;
+	width: 47px;
+	height: 26px;
+}
+
 .other-project .sprite-project-logos {
 	display: inline-block;
 }
@@ -32,7 +42,7 @@
 .other-project-text {
 	display: inline-block;
 	max-width: 65%; /* approximating the 50px width of the icon */
-	vertical-align: top;
+	vertical-align: middle;
 	white-space: normal;
 }
 

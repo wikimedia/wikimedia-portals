@@ -113,11 +113,11 @@
 	padding: 1.6rem 1.6rem 0;
 }
 
-.sprite-icons-arrow-down-blue {
+.svg-arrow-down-blue {
     transition: transform 200ms ease-out;
 }
 
-.lang-list-active .sprite-icons-arrow-down-blue {
+.lang-list-active .svg-arrow-down-blue {
     transform: rotate( 180deg );
 }
 

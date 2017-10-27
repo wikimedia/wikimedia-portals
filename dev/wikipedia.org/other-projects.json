@@ -3,35 +3,30 @@
     "name": "Commons",
     "url": "//commons.wikimedia.org/",
     "tagline": "Freely usable photos & more",
-    "img1": "Commons-logo_sister",
     "key": "commons"
   },
   {
     "name": "Wikivoyage",
     "url": "//www.wikivoyage.org/",
     "tagline": "Free travel guide",
-    "img1": "Wikivoyage-logo_sister",
     "key": "wikivoyage"
   },
   {
     "name": "Wiktionary",
     "url": "//www.wiktionary.org/",
     "tagline": "Free dictionary",
-    "img1": "Wiktionary-logo_sister",
     "key": "wiktionary"
   },
   {
     "name": "Wikibooks",
     "url": "//www.wikibooks.org/",
     "tagline": "Free textbooks",
-    "img1": "Wikibooks-logo_sister",
     "key": "wikibooks"
   },
   {
     "name": "Wikinews",
     "url": "//www.wikinews.org/",
     "tagline": "Free news source",
-    "img1": "Wikinews-logo_sister",
     "key": "wikinews"
   },
   {
@@ -45,42 +40,36 @@
     "name": "Wikiversity",
     "url": "//www.wikiversity.org/",
     "tagline": "Free course materials",
-    "img1": "Wikiversity-logo_sister",
     "key": "wikiversity"
   },
   {
       "name": "Wikiquote",
       "url": "//www.wikiquote.org/",
       "tagline": "Free quote compendium",
-      "img1": "Wikiquote-logo_sister",
       "key": "wikiquote"
   },
   {
     "name": "MediaWiki",
     "url": "//www.mediawiki.org/",
     "tagline": "Free & open wiki application",
-    "img1": "MediaWiki-logo_sister",
     "key": "mediawiki"
   },
   {
     "name": "Wikisource",
     "url": "//www.wikisource.org/",
     "tagline": "Free library",
-    "img1": "Wikisource-logo_sister",
     "key": "wikisource"
   },
   {
       "name": "Wikispecies",
       "url": "//species.wikimedia.org/",
       "tagline": "Free species directory",
-      "img1": "Wikispecies-logo_sister",
       "key": "wikispecies"
   },
   {
       "name": "Meta-Wiki",
       "url": "//meta.wikimedia.org/",
       "tagline": "Community coordination & documentation",
-      "img1": "Meta-logo_sister",
       "key": "metawiki"
   }
 ]

@@ -32,7 +32,7 @@
     margin: 0 auto;
 }
 
-.footer-sidebar-icon {
+.sprite.footer-sidebar-icon {
     position: absolute;
     top: 0;
     left: 0.8rem;
@@ -95,7 +95,7 @@
         width: 100%;
     }
 
-    .footer-sidebar-icon {
+    .sprite.footer-sidebar-icon {
 		display: block;
         position: relative;
 		left: 0;

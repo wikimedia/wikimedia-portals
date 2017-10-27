@@ -19,11 +19,6 @@
 	vertical-align: middle;
 }
 
-.search-container .sprite-icons-search-icon {
-	display: inline-block;
-	vertical-align: middle;
-}
-
 /*--- CSS tricks to make the search input a simple input */
 .search-container input[type="search"]::-webkit-search-decoration,
 .search-container input[type="search"]::-webkit-search-cancel-button,
@@ -42,13 +37,11 @@
 	-webkit-appearance: none;
 }
 
-.search-container .sprite-icons-arrow-down {
-	display: inline-block;
+.search-container .sprite.svg-arrow-down {
 	position: absolute;
-	top: 0.6rem;
+	top: 0.7rem;
 	right: 0.65rem;
 	margin: 0;
-	vertical-align: middle;
 }
 
 #searchInput {

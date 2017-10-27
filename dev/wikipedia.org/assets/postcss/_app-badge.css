@@ -11,7 +11,7 @@
     padding-bottom: 0.8rem;
 }
 
-.app-badges .footer-sidebar-icon {
+.app-badges .sprite.footer-sidebar-icon {
     top: 0.8rem;
 }
 
@@ -27,7 +27,7 @@
         text-align: center;
     }
 
-    .app-badges .footer-sidebar-icon {
+    .app-badges .sprite.footer-sidebar-icon {
         display: inline-block;
         position: relative;
         margin: 0;

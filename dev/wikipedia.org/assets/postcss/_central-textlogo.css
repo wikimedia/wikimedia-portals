@@ -28,6 +28,12 @@
 	font-weight: normal;
 }
 
+.central-textlogo__image {
+	color: transparent;
+	display: inline-block;
+	overflow: hidden;
+}
+
 @media all and ( max-width: 480px ) {
 	.central-textlogo {
 		position: relative;
@@ -38,7 +44,7 @@
 		text-align: center;
 	}
 
-	.central-textlogo img {
+	.central-textlogo__image {
 		height: 35px;
 		width: auto;
 		margin-top: 0.8rem;
@@ -58,7 +64,7 @@
 
 @media all and ( max-width: 240px ) {
 
-	.central-textlogo img {
+	.central-textlogo__image {
 		height: auto;
 		width: 100px;
 	}

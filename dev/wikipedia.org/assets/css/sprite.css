@@ -1,0 +1,141 @@
+.sprite {
+    background-repeat: no-repeat;
+    background-image: url("portal/wikipedia.org/assets/img/sprite-2b30cd2d.png");
+	background-image: linear-gradient(transparent, transparent), url("portal/wikipedia.org/assets/img/sprite-2b30cd2d.svg");
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.svg-Commons-logo_sister {
+background-position: 0 0;
+width: 47px;
+height: 47px;
+}
+
+
+.svg-MediaWiki-logo_sister {
+background-position: 0 -47px;
+width: 42px;
+height: 42px;
+}
+
+
+.svg-Meta-Wiki-logo_sister {
+background-position: 0 -89px;
+width: 37px;
+height: 37px;
+}
+
+
+.svg-Wikibooks-logo_sister {
+background-position: 0 -126px;
+width: 37px;
+height: 37px;
+}
+
+
+.svg-Wikidata-logo_sister {
+background-position: 0 -163px;
+width: 49px;
+height: 49px;
+}
+
+
+.svg-Wikimedia-logo_black {
+background-position: 0 -212px;
+width: 42px;
+height: 42px;
+}
+
+
+.svg-Wikipedia_wordmark {
+background-position: 0 -254px;
+width: 176px;
+height: 32px;
+}
+
+
+.svg-Wikiquote-logo_sister {
+background-position: 0 -286px;
+width: 42px;
+height: 42px;
+}
+
+
+.svg-Wikisource-logo_sister {
+background-position: 0 -328px;
+width: 39px;
+height: 39px;
+}
+
+
+.svg-Wikispecies-logo_sister {
+background-position: 0 -367px;
+width: 42px;
+height: 42px;
+}
+
+
+.svg-Wikiversity-logo_sister {
+background-position: 0 -409px;
+width: 43px;
+height: 37px;
+}
+
+
+.svg-Wikivoyage-logo_sister {
+background-position: 0 -446px;
+width: 36px;
+height: 36px;
+}
+
+
+.svg-Wiktionary-logo_sister {
+background-position: 0 -482px;
+width: 37px;
+height: 37px;
+}
+
+
+.svg-arrow-down {
+background-position: 0 -519px;
+width: 12px;
+height: 8px;
+}
+
+
+.svg-arrow-down-blue {
+background-position: 0 -527px;
+width: 12px;
+height: 8px;
+}
+
+
+.svg-noimage {
+background-position: 0 -535px;
+width: 58px;
+height: 58px;
+}
+
+
+.svg-search-icon {
+background-position: 0 -593px;
+width: 22px;
+height: 22px;
+}
+
+
+.svg-translate-icon {
+background-position: 0 -615px;
+width: 25px;
+height: 18px;
+}
+
+
+.svg-wikipedia_app_tile {
+background-position: 0 -633px;
+width: 42px;
+height: 42px;
+}
+
+

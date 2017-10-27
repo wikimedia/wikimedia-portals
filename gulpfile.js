@@ -289,12 +289,12 @@ gulp.task( 'optimize-images', function () {
  * - postCSS files
  * into dev folder.
  */
-gulp.task( 'watch', [ 'compile-handlebars', 'sprite', 'postcss' ], function () {
+gulp.task( 'watch', [ 'compile-handlebars', 'svgSprite', 'postcss' ], function () {
 
 	requirePortalParam();
 
 	gulp.watch( getConfig().watch.hb, [ 'compile-handlebars' ] );
-	gulp.watch( getConfig().watch.sprites, [ 'sprite' ] );
+	gulp.watch( getConfig().watch.sprites, [ 'svgSprite' ] );
 	gulp.watch( getConfig().watch.postcss, [ 'postcss' ] );
 } );
 
@@ -516,7 +516,7 @@ gulp.task( 'convertSVGtoPNG', [ 'createSvgSprite' ], function() {
  */
 gulp.task( 'replaceSVGSpriteCSS', [ 'createSvgSprite' ], function() {
 	return gulp.src( getBaseDir() + 'assets/css/' + spriteConfig.outputCSS )
-	.pipe( replace( '.svg");', '.png");' ) )
+	.pipe( replace( '.svg")/* replace */;', '.png");' ) )
 	.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
 } );
 /**
