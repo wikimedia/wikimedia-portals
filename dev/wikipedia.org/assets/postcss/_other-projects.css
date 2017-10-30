@@ -30,9 +30,15 @@ complexity of the SVG file */
 .svg-Wikinews-logo_sister {
 	background-image: url( portal/wikipedia.org/assets/img/Wikinews-logo_sister.png );
 	background-position: 0 0;
-	background-size: 47px auto;
+	background-size: 47px 26px;
 	width: 47px;
 	height: 26px;
+}
+
+@media ( min-resolution: 120dpi ) {
+	.svg-Wikinews-logo_sister {
+		background-image: url( portal/wikipedia.org/assets/img/Wikinews-logo_sister@2x.png );
+	}
 }
 
 .other-project .sprite-project-logos {
