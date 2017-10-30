@@ -8,13 +8,9 @@
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	argv = require( 'yargs' ).argv,
-	imagemin = require( 'gulp-imagemin' ),
-	imageminPngquant = require( 'imagemin-pngquant' ),
-	imageminZopfli = require( 'imagemin-zopfli' ),
 	siteStats = require( './data/site-stats' ),
 	fs = require( 'fs' ),
 	exec = require( 'child_process' ).exec,
-	sprity = require( 'sprity' ),
 	postCSSNext = require( 'postcss-cssnext' ),
 	postCSSImport = require( 'postcss-import' ),
 	postCSSReporter = require( 'postcss-reporter' ),
@@ -23,13 +19,6 @@ var gulp = require( 'gulp' ),
 	plugins = gulpLoadPlugins(),
 	gulpSlash = require( 'gulp-slash' ),
 	replace = require( 'gulp-replace' ),
-	spriteConfig = {
-		cssPrefix: 'sprite',
-		assets: 'assets/img/sprite_assets/*.svg',
-		outputName: 'sprite',
-		outputCSS: 'sprite.css',
-		template: 'assets/css/sprite-template.mustache'
-	},
 	portalParam = argv.portal,
 	getBaseDir, getProdDir, getConfig;
 
@@ -49,7 +38,6 @@ gulp.task( 'help', function () {
 	console.log( '|                                                                                                 |' );
 	console.log( '| gulp lint --portal wikipedia.org            - run jslint on JS files on portal JS files         |' );
 	console.log( '| gulp inline-assets --portal wikipedia.org   - build inline CSS and JS assets                    |' );
-	console.log( '| gulp optimize-images --portal wikipedia.org - run imagemin on image directory                   |' );
 	console.log( '| gulp watch --portal wikipedia.org           - watches dev directory and generates an index.html |' );
 	console.log( '|                                               file in it without inlined/minified assets        |' );
 	console.log( '| gulp --portal wikipedia.org                 - run all of the above on the specified portal page |' );
@@ -152,18 +140,19 @@ getConfig = function () {
 		]
 	};
 
-	config.optImage = {
-		imageminConf: {
-			plugins: [
-				imagemin.svgo(),
-				imageminPngquant( { quality: '57-95', speed: 1 } ),
-				imagemin.optipng(),
-				imageminZopfli()
-			],
-			options: { verbose: true }
-		},
+	config.img = {
 		src: [ baseDir + 'assets/img/*', '!' + baseDir + 'assets/img/sprite_assets' ],
-		dest: prodDir + 'assets/img'
+		dest: prodDir + 'assets/img',
+		sprite: {
+			cssPrefix: 'sprite',
+			assets: baseDir + 'assets/img/sprite_assets/*.svg',
+			outputName: 'sprite',
+			outputCSS: 'sprite.css',
+			outputCSSPath: baseDir + 'assets/css/' + 'sprite.css', /* outputCSS value */
+			outputSVGGlob: baseDir + 'assets/img/' + 'sprite' /* outputName */ + '*.svg',
+			outputPNGGlob: baseDir + 'assets/img/' + 'sprite' /* outputName */ + '*.png',
+			template: baseDir + 'assets/css/sprite-template.mustache'
+		}
 	};
 
 	getConfig = function () {
@@ -269,21 +258,6 @@ gulp.task( 'minify-html', [ 'inline-assets', 'concat-minify-js' ], function () {
 } );
 
 /**
- * Optimize images in dev folder and moves them into prod folder.
- */
-gulp.task( 'optimize-images', function () {
-
-	var imgOpt;
-	requirePortalParam();
-
-	imgOpt = getConfig().optImage;
-
-	return gulp.src( imgOpt.src )
-		.pipe( imagemin( imgOpt.imageminConf.plugins, imgOpt.imageminConf.options ) )
-		.pipe( gulp.dest( imgOpt.dest ) );
-} );
-
-/**
  * Watch for changes in dev folder and compile:
  * - handlebars templates
  * - postCSS files
@@ -377,7 +351,7 @@ gulp.task( 'fetch-meta', function () {
  * Must be run when after all assets have been versioned, minified &
  * copied into the prod dir.
  */
-gulp.task( 'update-urls-to-purge', [ 'compile-handlebars', 'sprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'optimize-images', 'copy-translation-files' ], function() {
+gulp.task( 'update-urls-to-purge', [ 'compile-handlebars', 'svgSprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'copy-images', 'copy-translation-files' ], function() {
 
 	var UrlsToPurge = [
 			'https://www.wikibooks.org/',
@@ -425,37 +399,6 @@ gulp.task( 'update-urls-to-purge', [ 'compile-handlebars', 'sprite', 'postcss', 
 } );
 
 /**
- * Generate images sprites and accompanying CSS files using Sprity.
- * Outputs sprites into dev assets/img folder.
- * Outputs css into dev css/sprites.css file.
- *
- * Sprites are seperated into subfolders in img/sprite_assets.
- * The contents of each folder will output a single sprite, named after the folder.
- * Sprity will generate @2x, @1.5x, and @1x versions of the sprite.
- *
- * You should only supply and place the @2x versions of the assets into the sprite folders.
- */
-gulp.task( 'sprite', function () {
-
-	requirePortalParam();
-
-	return sprity.src( {
-		src: getBaseDir() + 'assets/img/sprite_assets/**/*.{png,jpg}',
-		cssPath: 'portal/wikipedia.org/assets/img/',
-		style: getBaseDir() + 'assets/css/sprites.css',
-		prefix: 'sprite',
-		dimension: [ { ratio: 1, dpi: 72 },
-			{ ratio: 1.5, dpi: 144 },
-			{ ratio: 2, dpi: 192 }
-		],
-		split: true,
-		margin: 0,
-		cachebuster: true
-	} )
-	.pipe( plugins[ 'if' ]( '*.png', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
-} );
-
-/**
  * Create SVG sprite for use as a CSS background images.
  * Combine SVG images from the assets/img/sprite_assets directory in the dev folder.
  * Output the SVG sprite in the assets/img dir as sprite-*.svg, where * is a cachebusting hash.
@@ -463,7 +406,8 @@ gulp.task( 'sprite', function () {
  * Also outputs a CSS file for the SVG sprite named sprite.css in the dev CSS folder.
  */
 gulp.task( 'createSvgSprite', [ 'cleanSprites' ], function() {
-	return gulp.src( getBaseDir() + spriteConfig.assets )
+	var conf = getConfig();
+	return gulp.src( conf.img.sprite.assets )
 	.pipe( plugins.svgSprite( {
 		shape: {
 			spacing: {
@@ -474,15 +418,15 @@ gulp.task( 'createSvgSprite', [ 'cleanSprites' ], function() {
 		mode: {
 			css: {
 				layout: 'vertical',
-				sprite: '../' + spriteConfig.outputName + '.svg',
+				sprite: '../' + conf.img.sprite.outputName + '.svg',
 				bust: true,
 				dimensions: true,
-				common: spriteConfig.cssPrefix,
+				common: conf.img.sprite.cssPrefix,
 				render: {
 					css: {
 						dimensions: true,
-						dest: '../' + spriteConfig.outputCSS,
-						template: getBaseDir() + spriteConfig.template
+						dest: '../' + conf.img.sprite.outputCSS,
+						template: conf.img.sprite.template
 					}
 				}
 			}
@@ -497,13 +441,14 @@ gulp.task( 'createSvgSprite', [ 'cleanSprites' ], function() {
  * Remove existing SVG sprite before generating a new one.
  */
 gulp.task( 'cleanSprites', function() {
-	return del( getBaseDir() + 'assets/img/' + spriteConfig.outputName + '-*' );
+	var conf = getConfig();
+	return del( [ conf.img.sprite.outputSVGGlob, conf.img.sprite.outputPNGGlob ] );
 } );
 /**
  * Create a PNG fallback for the SVG sprite using PhantomJS.
  */
 gulp.task( 'convertSVGtoPNG', [ 'createSvgSprite' ], function() {
-	return gulp.src( getBaseDir() + 'assets/img/' + spriteConfig.outputName + '*.svg' )
+	return gulp.src( getConfig().img.sprite.outputSVGGlob )
 	.pipe( plugins.svg2png() )
 	.pipe( gulp.dest( getBaseDir() + 'assets/img/' ) );
 } );
@@ -515,17 +460,17 @@ gulp.task( 'convertSVGtoPNG', [ 'createSvgSprite' ], function() {
  * this task changes one of the extensions to '.png'.
  */
 gulp.task( 'replaceSVGSpriteCSS', [ 'createSvgSprite' ], function() {
-	return gulp.src( getBaseDir() + 'assets/css/' + spriteConfig.outputCSS )
+	return gulp.src( getConfig().img.sprite.outputCSSPath )
 	.pipe( replace( '.svg")/* replace */;', '.png");' ) )
 	.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
 } );
-/**
- * Move images to prod folder.
- */
-gulp.task( 'move-images', [ 'createSvgSprite' ], function () {
-	var imgOpt = getConfig().optImage;
+/*
+* Copy images to prod folder.
+*/
+gulp.task( 'copy-images', [ 'createSvgSprite' ], function () {
+	var conf = getConfig();
 	requirePortalParam();
-	return gulp.src( imgOpt.src ).pipe( gulp.dest( imgOpt.dest ) );
+	return gulp.src( conf.img.src ).pipe( gulp.dest( conf.img.dest ) );
 } );
 
 gulp.task( 'svgSprite', [ 'createSvgSprite', 'convertSVGtoPNG', 'replaceSVGSpriteCSS' ] );
@@ -537,13 +482,13 @@ gulp.task( 'test', [ 'lint' ] );
 gulp.task( 'default', [
 	'lint',
 	'compile-handlebars',
-	'sprite',
+	'svgSprite',
 	'postcss',
 	'inline-assets',
 	'clean-prod-js',
 	'concat-minify-js',
 	'minify-html',
-	'optimize-images',
+	'copy-images',
 	'copy-translation-files',
 	'update-urls-to-purge'
 ] );
