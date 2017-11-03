@@ -6,7 +6,8 @@
     "elbucketing": "casperjs test ./tests/elbucketing.js",
     "el-abtest3": "casperjs test ./tests/el-abtest3.js",
     "el-abtest4": "casperjs test ./tests/el-abtest4.js",
-    "lang-dropdown-abtest": "casperjs test ./tests/lang-dropdown-abtest.js"
+    "lang-dropdown-abtest": "casperjs test ./tests/lang-dropdown-abtest.js",
+    "build-all-portals": "./node_modules/.bin/gulp -- lint && ./node_modules/.bin/gulp -- update-stats && ./node_modules/.bin/gulp --portal=all -- fetch-meta && ./node_modules/.bin/gulp --portal=wikipedia.org -- default"
   },
   "devDependencies": {
     "bluebird": "^3.0.5",
