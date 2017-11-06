@@ -4,7 +4,8 @@
 			"Stam.nikos",
 			"Geraki",
 			"GR",
-			"Απεργός"
+			"Απεργός",
+			"Nikosgranturismogt"
 		]
 	},
 	"language-name": "Ελληνικά",
@@ -13,7 +14,9 @@
 	"language-button-text": "Διαβάστε την Wikipedia στη γλώσσα σας",
 	"footer-description": "Η Wikipedia φιλοξενείται από το Wikimedia Foundation, ένα μη κερδοσκοπικό οργανισμό που φιλοξενεί επίσης μια σειρά από άλλα εγχειρήματα.",
 	"app-links": {
-		"title": "Εφαρμογές της Βικιπαίδεια είναι τώρα διαθέσιμες:"
+		"title": "Εφαρμογές της Βικιπαίδεια είναι τώρα διαθέσιμες:",
+		"ios": "Λήψη για iOS στο App Store",
+		"android": "Λήψη για Android on Google Play"
 	},
 	"terms": "Όροι χρήσης",
 	"Privacy Policy": "Πολιτική ιδιωτικού απορρήτου",
