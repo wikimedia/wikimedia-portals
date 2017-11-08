@@ -4,6 +4,7 @@
 /* globals console */
 /* globals JSON */
 /* globals Buffer */
+/* globals Promise */
 /* eslint dot-notation: ["error", { "allowKeywords": false }] */
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
@@ -19,6 +20,9 @@ var gulp = require( 'gulp' ),
 	plugins = gulpLoadPlugins(),
 	gulpSlash = require( 'gulp-slash' ),
 	replace = require( 'gulp-replace' ),
+	execFile = require( 'child_process' ).execFile,
+	pngquant = require( 'pngquant-bin' ),
+	vinylPaths = require( 'vinyl-paths' ),
 	portalParam = argv.portal,
 	getBaseDir, getProdDir, getConfig;
 
@@ -452,6 +456,27 @@ gulp.task( 'convertSVGtoPNG', [ 'createSvgSprite' ], function() {
 	.pipe( plugins.svg2png() )
 	.pipe( gulp.dest( getBaseDir() + 'assets/img/' ) );
 } );
+
+/**
+ * Optimize PNG fallback.
+ */
+gulp.task( 'optimizePNGfallback', [ 'convertSVGtoPNG' ], function() {
+	return gulp.src( getConfig().img.sprite.outputPNGGlob )
+	.pipe(
+		vinylPaths( function ( imagePath ) {
+			return new Promise( function( resolve, reject ) {
+				return execFile( pngquant, [ imagePath, '-f', '-ext', '.png' ], function( err ) {
+					if ( err ) {
+						return reject();
+					} else {
+						return resolve();
+					}
+				} );
+			} );
+		} )
+	);
+} );
+
 /**
  * Replace '.svg' with '.png' extension in the SVG sprite CSS file.
  * This creates a PNG fallback for the SVG sprite in the sprite.css file.
@@ -473,7 +498,7 @@ gulp.task( 'copy-images', [ 'createSvgSprite' ], function () {
 	return gulp.src( conf.img.src ).pipe( gulp.dest( conf.img.dest ) );
 } );
 
-gulp.task( 'svgSprite', [ 'createSvgSprite', 'convertSVGtoPNG', 'replaceSVGSpriteCSS' ] );
+gulp.task( 'svgSprite', [ 'createSvgSprite', 'convertSVGtoPNG', 'optimizePNGfallback', 'replaceSVGSpriteCSS' ] );
 
 gulp.task( 'lint', [ 'lint-js', 'lint-css' ] );
 
