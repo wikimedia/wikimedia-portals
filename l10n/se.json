@@ -1,8 +1,54 @@
 {
-	"language-name": "Sámegiella",
+	"@metadata": {
+		"authors": [
+			"Jandre3000",
+			"Jon Harald Søby (WMNO)"
+		]
+	},
+	"language-name": "Davvisámegiella",
 	"language-name-romanized-sorted": "Samegiella",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Almmolaš diehtosátnegirji"
+	},
+	"wiktionary": {
+		"name": "Wikisátnegirji",
+		"slogan": "Friddja sátnegirji"
+	},
+	"wikibooks": {
+		"name": "Wikigirjjit",
+		"slogan": "Friddjat oahppogirjjit"
+	},
+	"wikinews": {
+		"name": "Wikiođđasat",
+		"slogan": "Friddjat ođđasat"
+	},
+	"wikiquote": {
+		"name": "Wikisitáhtat"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Friddja girjerájus"
+	},
+	"wikiversity": {
+		"name": "Wikiversity"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }

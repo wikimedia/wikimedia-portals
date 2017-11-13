@@ -3,13 +3,14 @@
 		"authors": [
 			"Gomoko",
 			"Wladek92",
-			"Benoit Rochon"
+			"Benoit Rochon",
+			"Ash Crow"
 		]
 	},
 	"language-name": "Français",
 	"language-name-romanized-sorted": "Francais",
 	"language-button-text": "Lire Wikipédia dans votre langue",
-	"footer-description": "Wikipédia est hébergé par la Fondation Wikipédia, un organisme à but non lucratif qui héberge également beaucoup d’autres projets.",
+	"footer-description": "Wikipédia est hébergé par la Wikimedia Foundation, un organisme à but non lucratif qui héberge également beaucoup d’autres projets.",
 	"app-links": {
 		"title": "Les applications Wikipédia sont désormais disponibles:",
 		"ios": "Téléchargement pour iOS sur l'App Store",
