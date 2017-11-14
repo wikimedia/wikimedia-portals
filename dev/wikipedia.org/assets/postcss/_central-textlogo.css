@@ -46,8 +46,6 @@
 	}
 
 	.central-textlogo__image {
-		height: 35px;
-		width: auto;
 		margin-top: 0.8rem;
 	}
 
@@ -67,6 +65,5 @@
 
 	.central-textlogo__image {
 		height: auto;
-		width: 100px;
 	}
 }

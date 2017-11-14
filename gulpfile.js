@@ -492,7 +492,7 @@ gulp.task( 'replaceSVGSpriteCSS', [ 'createSvgSprite' ], function() {
 /*
 * Copy images to prod folder.
 */
-gulp.task( 'copy-images', [ 'createSvgSprite' ], function () {
+gulp.task( 'copy-images', [ 'createSvgSprite', 'optimizePNGfallback' ], function () {
 	var conf = getConfig();
 	requirePortalParam();
 	return gulp.src( conf.img.src ).pipe( gulp.dest( conf.img.dest ) );
