@@ -31,12 +31,6 @@
 	display: none;
 }
 
-/* FIXME verify that we have a #search element */
-#search {
-	border-radius: 0;
-	-webkit-appearance: none;
-}
-
 .search-container .sprite.svg-arrow-down {
 	position: absolute;
 	top: 0.7rem;
@@ -53,7 +47,6 @@
 	line-height: 1.6;
 }
 
-/* FIXME why should we have a class and an id ? */
 /* Language picker */
 .search-container .search-input {
 	display: inline-block;
@@ -75,7 +68,6 @@
 		margin-right: 8rem;
 	}
 
-	/* FIXME why should we have a class and an id ? */
 	.search-container .search-input {
 		margin-left: 0.5rem;
 		margin-right: -7rem;

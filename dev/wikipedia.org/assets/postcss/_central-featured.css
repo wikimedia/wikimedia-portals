@@ -35,14 +35,6 @@
 	text-decoration: underline;
 }
 
-/* Surpress blue color */
-/* FIXME it seems there is no .link-box em */
-.central-featured-lang .link-box em,
-.central-featured-lang .link-box small {
-	color: var( --wmui-color-base0 );
-	text-decoration: none;
-}
-
 .central-featured-lang strong {
 	display: block;
 	font-size: larger;
