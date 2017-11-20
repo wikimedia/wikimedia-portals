@@ -1,8 +1,8 @@
 .sprite {
+    background-image: url("portal/wikipedia.org/assets/img/sprite-6e35f464.png");
+    background-image: linear-gradient(transparent, transparent), url("portal/wikipedia.org/assets/img/sprite-6e35f464.svg");
     background-repeat: no-repeat;
-    background-image: url("portal/wikipedia.org/assets/img/sprite-2b30cd2d.png");
-	background-image: linear-gradient(transparent, transparent), url("portal/wikipedia.org/assets/img/sprite-2b30cd2d.svg");
-	display: inline-block;
+    display: inline-block;
     vertical-align: middle;
 }
 
