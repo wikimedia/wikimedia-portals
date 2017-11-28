@@ -55,8 +55,7 @@
 
 @media all and ( max-width: 375px ) {
 	.central-textlogo {
-		display: inline-block;
-		left: 84px;
+		margin-left: 50px;
 	}
 }
 
