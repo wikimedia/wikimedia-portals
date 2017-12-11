@@ -7,7 +7,7 @@
 	"language-name": "नेपाली",
 	"language-name-romanized": "Nepālī",
 	"language-name-romanized-sorted": "Nepali",
-	"language-button-text": "विकिपिडिया आफ्नो भाषामा हेर्नुहोस्",
+	"language-button-text": "विकिपिडिया आफ्नो भाषामा पढ्नुहोस्",
 	"footer-description": "विकिपिडिया विकिमिडिया गैह्र-मुनाफा कमाउने विकिमिडिया फाउन्डेसनद्वारा सञ्चालित छ, जसले अरू धेरै आयोजनाहरू पनि सञ्चालन गर्दछ।",
 	"app-links": {
 		"title": "विकिपिडिया अनुप्रयोगहरू अब उपलब्ध छन् :",
@@ -18,6 +18,8 @@
 	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/3.0/'>क्रियटिभ कमन्स- एट्रिब्युसन-सेयरअलाइक लाइसेन्स</a>",
 	"terms": "प्रयोगका सर्तहरू",
 	"Privacy Policy": "गोपनीयता नीति",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "विकिपिडिया",
 		"slogan": "स्वतन्त्र  ज्ञानकोष",
