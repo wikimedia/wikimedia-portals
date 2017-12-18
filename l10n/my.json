@@ -1,13 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"NayiMuu"
 		]
 	},
 	"language-name": "မြန်မာဘာသာ",
 	"language-name-romanized": "Myanmarsar",
 	"language-button-text": "ဝီကီပီးဒီးယားအား သင့်ဘာသာစကားဖြင့် ဖတ်ပါ",
 	"footer-description": "ဝီကီပီးဒီးယားကို အခြားသော ပရောဂျက်များ လွှင့်တင်ထားသည့် အကျိုးအမြတ် မယူသော အဖွဲ့အစည်း ဝီကီမီဒီယာ ဖောင်ဒေးရှင်းမှ လွှင့်တင်ထားသည်။",
+	"app-links": {
+		"title": "ဝီကီပီးဒီးယား အက်ပ်စ်ကို ယခုအခါရရှိနိုင်ပါပြီ။",
+		"ios": "iOS အတွက် App Store တွင် ဒေါင်းလော့လုပ်ယူနိုင်ပါသည်။",
+		"android": "Android အတွက် Google Play တွင် ဒေါင်းလော့လုပ်ယူနိုင်ပါသည်။",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'> ရရှိနိုင်သော ဝီကီပီးဒီးယား အက်ပ်စ်စာရင်းအပြည့်အစုံကို ကြည့်ရှုပါ။</a>"
+	},
+	"license": "ဤစာမျက်နှာသည် <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> အောက်တွင် ရှိသည်။",
+	"terms": "အသုံးပြုခြင်းဆိုင်ရာ သတ်မှတ်ချက်များ",
+	"Privacy Policy": "ပုဂ္ဂိုလ်ရေးဆိုင်ရာ မူဝါဒ",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/my",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/my",
 	"wiki": {
 		"name": "ဝီကီပီးဒီးယား",
 		"slogan": "အခမဲ့ လွတ်လပ်စွယ်စုံကျမ်း",
@@ -34,7 +46,7 @@
 		"entries": "ဆောင်းပါးများ"
 	},
 	"wikisource": {
-		"name": "ဝီကီအရင်းမြစ်",
+		"name": "ဝီကီရင်းမြစ်",
 		"slogan": "အခမဲ့စာကြည့်တိုက်"
 	},
 	"wikiversity": {

@@ -1,0 +1,78 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jawadywn"
+		]
+	},
+	"language-button-text": "Baco Wikipédia caro dulur",
+	"footer-description": "Wikipédia niki digawéke ulih Wikimédia Foundation, organisasi nirlaba yang jugo nggawéke betébék proyek laén.",
+	"app-links": {
+		"title": "App Wikipédia mak ini la ado:",
+		"ios": "Mintak vérsi iOS di App Store",
+		"android": "Mintak vérsi Android di Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Selék galo-galo app Wikipédia</a>"
+	},
+	"license": "Laman niki ado dalem <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Ketentuan Penggunaan",
+	"Privacy Policy": "Kebijakan Privasi",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/id",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/id",
+	"wiki": {
+		"name": "Wikipédia",
+		"slogan": "Ensiklopédia baséng",
+		"entries": "Tulisan"
+	},
+	"wiktionary": {
+		"name": "Wikikamus",
+		"slogan": "Kamus baséng",
+		"entries": "entri"
+	},
+	"wikibooks": {
+		"name": "Wikibuku",
+		"slogan": "Buku baséng",
+		"entries": "laman"
+	},
+	"wikinews": {
+		"name": "Wikikabar",
+		"slogan": "Kabar baséng",
+		"entries": "tulisan"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Koleksi kutipan bebas",
+		"entries": "tulisan"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Perpustakaan bebas"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Bahan pelajaran bebas",
+		"entries": "sumber daya pembelajaran"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Situs perjalanan bebas"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Poto bebas & laennyo"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Petunjuk spesies bebas"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Basis pengetahuan bebas"
+	},
+	"mediawiki": {
+		"name": "MédiaWiki",
+		"slogan": "Aplikasi wiki bebas & terbuka"
+	},
+	"metawiki": {
+		"name": "Méta-Wiki",
+		"slogan": "Koordinasi komunitas & dokumentasi"
+	}
+}
