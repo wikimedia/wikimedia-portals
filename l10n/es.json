@@ -3,7 +3,8 @@
 		"authors": [
 			"Macofe",
 			"Koavf",
-			"Fitoschido"
+			"Fitoschido",
+			"La Mantis"
 		]
 	},
 	"language-name": "Español",
@@ -11,7 +12,7 @@
 	"language-button-text": "Leer Wikipedia en tu idioma",
 	"footer-description": "Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también alberga una gama de otros proyectos.",
 	"app-links": {
-		"title": "Ahora están disponibles apicaciones de Wikipedia:",
+		"title": "Las aplicaciones de Wikipedia ya están disponibles:",
 		"ios": "Descargar para iOS en la Tienda de aplicaciones",
 		"android": "Descargar para Android en Google Play",
 		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Ver la lista completa de aplicaciones de Wikipedia disponibles</a>"
