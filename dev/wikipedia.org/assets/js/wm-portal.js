@@ -1,5 +1,5 @@
 /**
- * This is the javascript module for the [[m:Project portals]] templates.
+ * This is the JavaScript module for the [[m:Project portals]] templates.
  *
  * Indention style: 1 tab
  *

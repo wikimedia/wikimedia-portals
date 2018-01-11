@@ -18,10 +18,10 @@
 
 ---
 
-## Javascript
-> Javascript is linted with [eslint](https://eslint.org/) following [eslint-config-wikimedia](https://www.npmjs.com/package/eslint-config-wikimedia) and should follow the [MediaWiki Javascript coding conventions](https://www.mediawiki.org/wiki/Manual:Coding_conventions/JavaScript).
+## JavaScript
+> JavaScript is linted with [eslint](https://eslint.org/) following [eslint-config-wikimedia](https://www.npmjs.com/package/eslint-config-wikimedia) and should follow the [MediaWiki JavaScript coding conventions](https://www.mediawiki.org/wiki/Manual:Coding_conventions/JavaScript).
 
-The main javascript features of www.wikipedia.org include:
+The main JavaScript features of www.wikipedia.org include:
 
 - client-side translation
 - search-as-you-type suggestions with thumbnails and descriptions
@@ -33,15 +33,15 @@ All these features and more live in the `dev/wikipedia.org/assets/js` directory.
 
 There is no ES6 style module-loading on www.wikipedia.org. The javascript files are included in the order they are needed, before the closing body tag in the `index.handlebars` file. The script tags are placed between special comment tags starting with `<!-- build:js` . For a production build, the files between these comments are concatenated using [gulp-useref](https://www.npmjs.com/package/gulp-useref), given a cache-busing suffix with [gulp-rev](https://github.com/sindresorhus/gulp-rev) and minified with [gulp-uglify](https://www.npmjs.com/package/gulp-uglify). The minified JS file is then placed in the `prod` directory.
 
-**Javascript directory structure**
+**JavaScript directory structure**
 
 ```
 |- dev/
     |- wikipedia.org/
-        |- index.handlebars      <- js files are included here before the ending body tag
-        |- index.html            <- compiled html includes links to js source files for dev purposes
+        |- index.handlebars      <- JS files are included here before the ending body tag
+        |- index.html            <- compiled HTML includes links to JS source files for dev purposes
         |- assets
-            |- js                <- source javascript files
+            |- js                <- source JS files
                 |- polyfills.js
                 |- wm-test.js
                 |- etc...

@@ -32,6 +32,6 @@ To run a manual build, first update the stats, then run the following commands:
 3. `gulp fetch-meta --portal=all` Fetch updates for the remaining project portals
 4. Commit the changes to Gerrit.
 
-These Gulp task have also been combined into a single NPM script: `npm run build-all-portals`.
+These Gulp task have also been combined into a single npm script: `npm run build-all-portals`.
 
 Running a build produces a high amount of changes in Git because each l10n file is appended with a cache-busting hash at the end of the file name. When a single translation changes, all the translations get updated with a new cache-busting hash, and therefore, all the l10n file names get changed as well. For this reason, it is typically not necessary to commit a new build of the portals for each patch submitted to Gerrit.

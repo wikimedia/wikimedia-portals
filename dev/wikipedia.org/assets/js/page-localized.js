@@ -5,7 +5,7 @@
  * Text includes the footer text, language button text, sister project name & slogan.
  *
  * Each localized text node is given a class name that corresponds to a property
- * in the translation json object.
+ * in the translation JSON object.
  *
  * eg: the class `jsl10n_wiktionary_name` will be translated to en.wikitionary.name value.
  * If a translation value is missing, page will default to english.

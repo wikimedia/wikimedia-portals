@@ -58,7 +58,7 @@
 // zero-argument form of Math.seedrandom, so entropy can be injected over
 // time by calling seedrandom with explicit data repeatedly.
 //
-// On speed - This javascript implementation of Math.random() is about
+// On speed - This JavaScript implementation of Math.random() is about
 // 3-10x slower than the built-in Math.seededrandom() because it is not native
 // code, but this is typically fast enough anyway.  Seeding is more expensive,
 // especially if you use auto-seeding.  Some details (timings on Chrome 4):
