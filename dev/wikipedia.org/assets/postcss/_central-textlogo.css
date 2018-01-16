@@ -2,9 +2,15 @@
 
 /* Section containing the central Wikipedia header */
 
+.central-textlogo-wrapper {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
 .central-textlogo {
-	margin: 3rem 0 1.5rem 0;
-	padding: 1rem 0;
+	position: relative;
+	margin: 4rem auto 0.5rem;
+	width: 270px; /* static width on desktop */
 	font-family: 'Linux Libertine', 'Hoefler Text', Georgia, 'Times New Roman', Times, serif;
 	font-size: 3rem;
 	font-weight: normal;
@@ -20,10 +26,8 @@
 
 .localized-slogan {
 	display: block;
-	margin-bottom: -2rem;
 	font-family: var( --font-family-serif );
 	font-size: 1.6rem;
-	font-variant: normal;
 	font-weight: normal;
 }
 
@@ -34,28 +38,57 @@
 	text-indent: -10000px;
 }
 
+.central-featured-logo {
+	position: absolute;
+	/* centering position of logo on desktop */
+	top: 136px;
+	left: 35px;
+}
+
 @media all and ( max-width: 480px ) {
+
 	.central-textlogo {
 		position: relative;
 		height: 70px;
+		width: auto;
 		margin: 0;
-		padding: 0;
+		margin-top: 2rem;
 		line-height: normal;
 		text-align: center;
+		/* visual alignment in an rtl compat way */
+		text-indent: -1.5rem;
+	}
+	.central-textlogo-wrapper {
+		position: relative;
+		/* visual alignment */
+		top: 2px;
+		left: 2px;
+		/* visual alignment in an rtl compat way */
+		text-indent: -0.5rem;
 	}
 
-	.central-textlogo__image {
-		margin-top: 0.8rem;
+	.svg-Wikipedia_wordmark {
+		/* modifying svg sprite size to shrink logo */
+		width: 150px;
+		height: 25px;
+		background-position: 0 -218px;
+		background-size: 100%;
 	}
 
 	.localized-slogan {
-		margin-left: 1.8rem;
+		font-size: 1.5rem;
+		/* visual alignment */
+		line-height: 2rem;
 	}
-}
 
-@media all and ( max-width: 375px ) {
-	.central-textlogo {
-		margin-left: 50px;
+	.central-featured-logo {
+		position: relative;
+		display: inline-block;
+		width: 57px;
+		height: auto;
+		left: 0;
+		/* visual alignment */
+		top: 3px;
 	}
 }
 

@@ -27,14 +27,6 @@ files that are placed within HTML comment blocks.
     *width: auto;
 }
 
-.central-featured-logo {
-    *display: inline-block;
-    *line-height: 26em;
-    *top: 6em;
-    *position: absolute;
-    *left: 13.5em;
-}
-
 .search-container button {
     *display: inline;
 }
