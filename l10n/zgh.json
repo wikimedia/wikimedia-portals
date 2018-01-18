@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"YesIn",
+			"ⵕⴰⵊⵉ"
+		]
+	},
+	"language-button-text": "ⵖⵕ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ ⵙ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⴽ",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"wiki": {
+		"name": "ⵡⵉⴽⵉⴱⵉⴷⵢⴰ",
+		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
+	},
+	"wiktionary": {
+		"name": "ⵡⵉⴽⵉⵎⴰⵡⴰⵍ",
+		"slogan": "ⴰⵎⴰⵡⴰⵍ ⵉⵍⴻⵍⵍⵉ"
+	},
+	"wikibooks": {
+		"name": "ⵡⵉⴽⵉⴷⵍⵉⵙⵏ",
+		"entries": "ⵜⴰⵙⵏⵉⵡⵉⵏ"
+	},
+	"wikinews": {
+		"name": "ⵡⵉⴽⵉⵏⵖⵎⵉⵙⵏ",
+		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
+	},
+	"wikiquote": {
+		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
+	},
+	"wikiversity": {
+		"name": "ⵡⵉⴽⵉⵙⴷⴰⵡⵉⵜ"
+	},
+	"wikivoyage": {
+		"name": "ⵡⵉⴽⵉⵎⵓⴷⴷⵓ"
+	}
+}

@@ -1,8 +1,31 @@
 {
+	"@metadata": {
+		"authors": [
+			"Alp Er Tunqa"
+		]
+	},
 	"language-name": "تۆرکجه",
 	"language-name-romanized": "Türkce",
 	"language-name-romanized-sorted": "Turkce",
 	"wiki": {
-		"name": "ویکی‌پدیا"
+		"name": "ویکی‌پدیا",
+		"slogan": "آچیق بیلیکلیک",
+		"entries": "مقاله"
+	},
+	"wiktionary": {
+		"name": "ویکی‌سؤزلوک",
+		"slogan": "آچیق سؤزلوک"
+	},
+	"wikibooks": {
+		"name": "ویکی‌کیتاب",
+		"slogan": "آچیق کیتاب ائوی",
+		"entries": "صفحه"
+	},
+	"wikinews": {
+		"name": "ویکی‌خبر",
+		"entries": "مقاله‌لر"
+	},
+	"wikiquote": {
+		"name": "ویکی‌سؤز"
 	}
 }
