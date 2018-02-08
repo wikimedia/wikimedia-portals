@@ -1,14 +1,81 @@
 {
+	"@metadata": {
+		"authors": [
+			"គីមស៊្រុន"
+		]
+	},
 	"language-name": "ភាសាខ្មែរ",
 	"language-name-romanized": "Phéasa Khmér",
 	"language-name-romanized-sorted": "Khmer, Pheasa",
+	"language-button-text": "អានវិគីភីឌាជាភាសារបស់អ្នក",
+	"footer-description": "វិគីភីឌាត្រូវបានដំណើរការដោយមូលនិធិវិគីមេឌា ដែលជាអង្គការមិនយកប្រាក់ចំណេញ និងកំពុងដំណើរការគម្រោងមួយចំនួនផ្សេងទៀតដែរ។",
+	"app-links": {
+		"title": "កម្មវិធីវិគីភីឌាអាចប្រើបានឥឡូវ៖",
+		"ios": "ទាញយកពី App Store សម្រាប់ iOS",
+		"android": "ទាញយកពី Google Play សម្រាប់ Android",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>មើលបញ្ជីកម្មវិធីវិគីភីឌាទាំងមូល</a>"
+	},
+	"license": "ទំព័រនេះត្រូវបានផ្ដល់ជូនក្រោមអាជ្ញាប័ណ្ណ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "លក្ខខណ្ឌប្រើប្រាស់",
+	"Privacy Policy": "គោលការណ៍នៃ​ភាពឯកជន",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/km",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/km",
 	"wiki": {
-		"name": "វិគីភីឌា"
+		"name": "វិគីភីឌា",
+		"slogan": "សព្វវចនាធិប្បាយសេរី",
+		"entries": "អត្ថបទ"
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Wiktionary",
+		"slogan": "វចនានុក្រមសេរី",
+		"entries": "អត្ថបទ"
 	},
 	"wikibooks": {
-		"name": "Wikibooks"
+		"name": "Wikibooks",
+		"slogan": "សៀវភៅឯកសារ​ឥតគិតថ្លៃ",
+		"entries": "ទំព័រ"
+	},
+	"wikinews": {
+		"name": "វិគីព័ត៌មាន",
+		"slogan": "ព័ត៌មានឥតគិតថ្លៃ",
+		"entries": "អត្ថបទ"
+	},
+	"wikiquote": {
+		"name": "វិគីពាក្យពេចន៍",
+		"slogan": "ប្រជុំ​ពាក្យពេចន៍​របស់មនុស្ស​ល្បីៗ",
+		"entries": "អត្ថបទ"
+	},
+	"wikisource": {
+		"name": "វិគីបណ្ណាល័យ​",
+		"slogan": "បណ្ណាល័យឯកសារឥតគិតថ្លៃ"
+	},
+	"wikiversity": {
+		"name": "វិគីសាកលវិទ្យាល័យ",
+		"slogan": "ឯកសារអប់រំឥតគិតថ្លៃ",
+		"entries": "ឯកសារសិក្សា"
+	},
+	"wikivoyage": {
+		"name": "វិគីទេសចរណ៍",
+		"slogan": "មគ្គុទេសក៍ទេសចរណ៍ឥតគិតថ្លៃ"
+	},
+	"commons": {
+		"name": "វិគីមេឌារួម",
+		"slogan": "រូបថតនិងមេឌាផ្សេងៗដែលអាចប្រើបានដោយឥតគិតថ្លៃ"
+	},
+	"wikispecies": {
+		"name": "វិគីជីវសាស្ត្រ",
+		"slogan": "ថតឯកសារពីជីវសាស្ត្រ"
+	},
+	"wikidata": {
+		"name": "វិគីទិន្នន័យ",
+		"slogan": "មូលដ្ឋានចំណេះដឹងឥតគិតថ្លៃ"
+	},
+	"mediawiki": {
+		"name": "មេឌាវិគី",
+		"slogan": "កម្មវិធីវិគីបើកចំហនិងសេរី"
+	},
+	"metawiki": {
+		"name": "មេតាវិគី",
+		"slogan": "ការសម្របសម្រួលក្នុងសហគមនិងការសរសេរឯកសារ"
 	}
 }
