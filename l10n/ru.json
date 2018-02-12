@@ -4,7 +4,8 @@
 			"Okras",
 			"Ole Yves",
 			"Macofe",
-			"Jack who built the house"
+			"Jack who built the house",
+			"Kaganer"
 		]
 	},
 	"language-name": "Русский",
@@ -53,12 +54,12 @@
 	},
 	"wikiversity": {
 		"name": "Викиверситет",
-		"slogan": "Обучение",
-		"entries": "статей"
+		"slogan": "Свободные учебные курсы",
+		"entries": "образовательных материалов"
 	},
 	"wikivoyage": {
 		"name": "Викигид",
-		"slogan": "Путеводитель"
+		"slogan": "Свободный путеводитель"
 	},
 	"commons": {
 		"name": "Викисклад",
@@ -70,7 +71,7 @@
 	},
 	"wikidata": {
 		"name": "Викиданные",
-		"slogan": "Бесплатная база знаний"
+		"slogan": "Свободная база знаний"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
