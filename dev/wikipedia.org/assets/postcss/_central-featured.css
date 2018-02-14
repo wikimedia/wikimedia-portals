@@ -139,19 +139,14 @@
 	}
 
 	.central-featured-lang small {
-		font-size: 0.68rem;
-		line-height: 1.02rem;
+		font-size: 0.96rem;
+		line-height: 1.68rem;
 	}
 }
 
 @media all and ( max-width: 375px ) {
 	.central-featured-lang {
 		font-size: 1.12rem;
-	}
-
-	.central-featured-lang small {
-		font-size: 0.96rem;
-		line-height: 1.68rem;
 	}
 }
 
