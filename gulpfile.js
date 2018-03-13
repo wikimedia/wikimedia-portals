@@ -368,7 +368,7 @@ gulp.task( 'update-urls-to-purge', [ 'compile-handlebars', 'svgSprite', 'postcss
 			'https://www.wiktionary.org/'
 		],
 		portalAssetDirs = 'prod/**/assets/**/*',
-		purgeFile = 'urls-to-purge.txt';
+		purgeFile = 'prod/urls-to-purge.txt';
 
 	function createAssetUrl( file ) {
 		var domain, urlToPurge;
