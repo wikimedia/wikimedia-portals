@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Delim"
+			"Delim",
+			"Garam"
 		]
 	},
 	"language-name": "조선말",
@@ -62,7 +63,7 @@
 		"slogan": "자유 매체 보관소"
 	},
 	"wikispecies": {
-		"name": "위키스피시즈",
+		"name": "위키생물종",
 		"slogan": "자유로운 생물 도감"
 	},
 	"wikidata": {
