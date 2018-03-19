@@ -1,0 +1,56 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armeniki"
+		]
+	},
+	"language-button-text": "Կարդացէք՛ Ուքիփետիան ձեր լեզուով",
+	"Privacy Policy": "Մտերմութեան Ապահովագիր",
+	"wiki": {
+		"name": "Ուիքիփետիա"
+	},
+	"wiktionary": {
+		"name": "Ուիքիբառարան"
+	},
+	"wikibooks": {
+		"name": "Ուիքիգիրքեր",
+		"entries": "էջեր"
+	},
+	"wikinews": {
+		"name": "Ուիքիլուրեր",
+		"entries": "յօդուածներ"
+	},
+	"wikiquote": {
+		"name": "Ուիքիքաղուածք",
+		"entries": "յօդուածներ"
+	},
+	"wikisource": {
+		"name": "Ուիքիդարան",
+		"slogan": "Ազատ գրադարան"
+	},
+	"wikiversity": {
+		"name": "Ուիքիլսարան",
+		"slogan": "Ցրի ուսումնական նիւթեր",
+		"entries": "ուսումնական աղբիւրներ"
+	},
+	"wikivoyage": {
+		"name": "Ուիքիճամփորդ"
+	},
+	"commons": {
+		"name": "Ուիքիպահեստ"
+	},
+	"wikispecies": {
+		"name": "Ուիքիցեղեր"
+	},
+	"wikidata": {
+		"name": "Ուիքիտուեալներ"
+	},
+	"mediawiki": {
+		"name": "ՄետիաՈւիքի",
+		"slogan": "Ազատ է եւ բաց ուիքի ծրագիրը"
+	},
+	"metawiki": {
+		"name": "Մեթա-Ուիքի",
+		"slogan": "Համայնքի ներդաշնակութիւն եւ փաստաթուղթեր"
+	}
+}
