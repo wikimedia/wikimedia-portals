@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Muhammad Shuaib",
-			"امین اکبر"
+			"امین اکبر",
+			"Abdulq",
+			"BukhariSaeed"
 		]
 	},
 	"language-name": "اردو",
@@ -10,23 +12,23 @@
 	"language-button-text": "اپنی زبان ميں ویکیپیڈیا پڑھیں",
 	"footer-description": "ویکیپیڈیا ایک غیر منافع بخش تنظیم ویکیمیڈیا فاؤنڈیشن کے زیر انتظام ہے، اس تنظیم کے تحت دیگر منصوبے بھی مصروف عمل ہیں۔",
 	"app-links": {
-		"title": "اب ویکیپیڈیا کے اطلاقیے بھی دستیاب ہیں:",
+		"title": "اب ویکیپیڈیا کی اپپلیکیشن بھی دستیاب ہیں:",
 		"ios": "آئی او ایس کا نسخہ ایپ اسٹور سے حاصل کریں",
 		"android": "اینڈرائڈ کا نسخہ گوگل پلے سے حاصل کریں",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>دستیاب ویکیپیڈیا اطلاقیوں کی مکمل فہرست ملاحظہ فرمائیں</a>"
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>دستیاب ویکیپیڈیااطلاقیوں کی مکمل دستیاب فہرست ملاحظہ فرمائیں</a>"
 	},
 	"license": "یہ صفحہ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>کریئیٹیو کامنز انتساب-یکساں شراکت اجازت نامہ</a> کے تحت دستیاب ہے",
-	"terms": "استعمال کے شرائط",
-	"Privacy Policy": "اخفائے راز کے اصول",
+	"terms": "استعمال کی شرائط",
+	"Privacy Policy": "رازداری کے اصول",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ur",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ur",
 	"wiki": {
 		"name": "ویکیپیڈیا",
 		"slogan": "آزاد دائرۃ المعارف",
-		"entries": "مضمون"
+		"entries": "مضامین"
 	},
 	"wiktionary": {
-		"name": "وکی لغت",
+		"name": "ویکی لغت",
 		"slogan": "آزاد لغت",
 		"entries": "اندراجات"
 	},
@@ -52,14 +54,14 @@
 	"wikiversity": {
 		"name": "ویکی جامعہ",
 		"slogan": "آزاد درسی مواد",
-		"entries": "مآخذ آموزش"
+		"entries": "سیکھنے کے مآخذ"
 	},
 	"wikivoyage": {
-		"name": "ویکی سفر",
+		"name": "ویکی سفرنامہ",
 		"slogan": "آزاد رہنماے سفر"
 	},
 	"commons": {
-		"name": "کومنز",
+		"name": "کامنز",
 		"slogan": "آزاد قابل استعمال تصویریں اور مزید"
 	},
 	"wikispecies": {
