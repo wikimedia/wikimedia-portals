@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Elisardojm",
-			"Macofe"
+			"Macofe",
+			"Platonides"
 		]
 	},
 	"language-name": "Galego",
@@ -21,17 +22,17 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/gl",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "a Wikipedia en galego",
+		"slogan": "A Enciclopedia Libre",
 		"entries": "artigos"
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
-		"slogan": "A Enciclopedia Libre",
+		"slogan": "Dicionario Galego",
 		"entries": "entradas"
 	},
 	"wikibooks": {
-		"name": "Wikibooks",
-		"slogan": "o Wikibooks en galego",
+		"name": "Galilibros",
+		"slogan": "A colección de libros participativos en galego",
 		"entries": "páxinas"
 	},
 	"wikinews": {
@@ -40,13 +41,13 @@
 		"entries": "artigos"
 	},
 	"wikiquote": {
-		"name": "Wikiquote",
-		"slogan": "o Wikiquote en galego",
+		"name": "Galicitas",
+		"slogan": "A colección de citas libres en galego",
 		"entries": "artigos"
 	},
 	"wikisource": {
-		"name": "Wikisource",
-		"slogan": "o Wikisource en galego"
+		"name": "Galifontes",
+		"slogan": "A biblioteca libre"
 	},
 	"wikiversity": {
 		"name": "Wikiversidade",
