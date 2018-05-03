@@ -183,13 +183,12 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			action: 'query',
 			format: 'json',
 			generator: 'prefixsearch',
-			prop: 'pageprops|pageimages|pageterms',
+			prop: 'pageprops|pageimages|description',
 			redirects: '',
 			ppprop: 'displaytitle',
 			piprop: 'thumbnail',
 			pithumbsize: thumbnailSize,
 			pilimit: maxSearchResults,
-			wbptterms: 'description',
 			gpssearch: string,
 			gpsnamespace: 0,
 			gpslimit: maxSearchResults,
@@ -259,7 +258,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) {
 			}
 
 			page = suggestions[ i ];
-			pageDescription = ( page.terms && page.terms.description ) ? page.terms.description : '';
+			pageDescription = page.description || '';
 
 			// Ensure that the value from the previous iteration isn't used
 			sanitizedThumbURL = false;
