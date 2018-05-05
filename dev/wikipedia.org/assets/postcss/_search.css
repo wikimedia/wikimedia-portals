@@ -39,12 +39,24 @@
 }
 
 #searchInput {
-	height: 4.32rem;
+	/* Support Chrome, Safari 5: Correct the odd appearance */
+	-webkit-appearance: textfield;
 	width: 100%;
-	padding: 0.8rem;
-	padding-right: 10.24rem;
+	height: 4.32rem;
+	padding: 0.8rem 10.24rem 0.8rem 0.8rem;
 	font-size: 1.6rem;
 	line-height: 1.6;
+	transition: background 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
+}
+
+#searchInput:hover {
+	border-color: var( --wmui-color-base30 );
+}
+
+#searchInput:focus {
+	border-color: var( --wmui-color-accent50 );
+	box-shadow: var( --box-shadow-base--focus );
+	outline: 0;
 }
 
 /* Language picker */
