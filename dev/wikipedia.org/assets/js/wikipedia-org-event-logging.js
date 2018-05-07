@@ -6,7 +6,10 @@
 	'use strict';
 
 	var portalSchema, eventSections, docForms, eventData,
-		geoCookie = document.cookie.match( /GeoIP=.[^:]/ ),
+		geoCookieCountry = document.cookie.match( /GeoIP=.[^:]/ ),
+		// It's possible that geoCookieCountry is defined but geoCookieState is not.
+		// e.g., with an adblocker enabled: "GeoIP=US:::38.00:-97.00:v4; CP=H2".
+		geoCookieState = document.cookie.match( /GeoIP=.[^:].{2}[^:]/ ),
 		country,
 		i;
 
@@ -254,14 +257,14 @@
 	 * loading geoIP and sending landing event.
 	 */
 
-	if ( geoCookie ) {
-		country = geoCookie.toString().split( '=' )[ 1 ];
-		if ( country === 'US' ) {
+	if ( geoCookieCountry ) {
+		country = geoCookieCountry.toString().split( '=' )[ 1 ];
+		if ( country === 'US' && geoCookieState ) {
 			/**
 			 * if the country is United States, we need to obain the 2-letter state name (T136257)
 			 * e.g. "GeoIP=US:CA:..." becomes "US:CA" using a slight modification to the regex:
 			 */
-			portalSchema.defaults.country = document.cookie.match( /GeoIP=.[^:].{2}[^:]/ ).toString().split( '=' )[ 1 ];
+			portalSchema.defaults.country = geoCookieState.toString().split( '=' )[ 1 ];
 		} else {
 			portalSchema.defaults.country = country;
 		}
