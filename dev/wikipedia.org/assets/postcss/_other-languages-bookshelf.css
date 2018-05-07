@@ -8,11 +8,12 @@
 	white-space: nowrap;
 }
 
-.bookshelf span {
+.bookshelf .text {
 	background-color: var( --background-color-framed );
 	position: relative;
 	top: -1.12rem;
 	font-weight: normal;
+	padding: 0 0.992rem;
 }
 
 .bookshelf-container {
@@ -24,10 +25,6 @@
 	font-size: 1.3rem;
 	font-weight: bold;
 	line-height: 2rem;
-}
-
-.bookshelf-container .text {
-	padding: 0 0.992rem;
 }
 
 @media all and ( max-width: 480px ) {
