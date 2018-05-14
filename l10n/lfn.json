@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Cgboeree",
-			"Chabi"
+			"Chabi",
+			"Robin van der Vliet"
 		]
 	},
 	"language-button-text": "Leje Vicipedia en tua lingua",
@@ -65,7 +66,7 @@
 		"slogan": "Arcivo libre de spesies"
 	},
 	"wikidata": {
-		"name": "Wikidata",
+		"name": "Vicidatos",
 		"slogan": "Funda libre de sabe"
 	},
 	"mediawiki": {
