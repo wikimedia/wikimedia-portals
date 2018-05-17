@@ -6,10 +6,16 @@
 		]
 	},
 	"language-button-text": "ⵖⵕ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ ⵙ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⴽ",
+	"app-links": {
+		"ios": "ⴰⴳⵎ iOS ⵙⴳ App Store",
+		"android": "ⴰⴳⵎ Android ⵙⴳ Google Play"
+	},
+	"Privacy Policy": "ⵜⴰⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"wiki": {
 		"name": "ⵡⵉⴽⵉⴱⵉⴷⵢⴰ",
+		"slogan": "ⵜⴰⵙⴰⵏⴰⵢⵜ ⵜⵉⵍⴻⵍⵍⵉⵜ",
 		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
 	},
 	"wiktionary": {
@@ -26,6 +32,10 @@
 	},
 	"wikiquote": {
 		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
+	},
+	"wikisource": {
+		"name": "ⵡⵉⴽⵉ ⴰⵙⴰⴳⵎ",
+		"slogan": "ⵜⴰⴷⵍⵙⴰⵏⵜ ⵜⵉⵍⴻⵍⵍⵉⵜ"
 	},
 	"wikiversity": {
 		"name": "ⵡⵉⴽⵉⵙⴷⴰⵡⵉⵜ"
