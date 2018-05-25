@@ -120,7 +120,11 @@ mw.html = ( function () {
 
 mw.storage = {
 
-	localStorage: window.localStorage,
+	localStorage: ( function () {
+		try {
+			return window.localStorage;
+		} catch ( e ) {}
+	}() ),
 
 	/**
 	 * Retrieve value from device storage.

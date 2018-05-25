@@ -102,7 +102,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 			expires,
 			now;
 
-		if ( window.localStorage && !/1|yes/.test( navigator.doNotTrack ) ) {
+		if ( mw.storage.localStorage && !/1|yes/.test( navigator.doNotTrack ) ) {
 
 			storedSessionId = mw.storage.get( KEYS.SESSION_ID );
 			expires = mw.storage.get( KEYS.EXPIRES );
