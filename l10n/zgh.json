@@ -10,6 +10,7 @@
 		"ios": "ⴰⴳⵎ iOS ⵙⴳ App Store",
 		"android": "ⴰⴳⵎ Android ⵙⴳ Google Play"
 	},
+	"terms": "ⵜⵉⴼⴰⴷⵉⵡⵉⵏ ⵏ ⵓⵙⵎⵔⵙ",
 	"Privacy Policy": "ⵜⴰⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
@@ -31,6 +32,7 @@
 		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
 	},
 	"wikiquote": {
+		"name": "ⵡⵉⴽⵉ ⴰⴱⴷⴰⵔ",
 		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
 	},
 	"wikisource": {
@@ -42,5 +44,8 @@
 	},
 	"wikivoyage": {
 		"name": "ⵡⵉⴽⵉⵎⵓⴷⴷⵓ"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
 	}
 }
