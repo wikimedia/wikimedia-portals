@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Youssef"
+			"Youssef",
+			"Reda Benkhadra"
 		]
 	},
-	"language-button-text": "اقرأ ويكيبيديا بلغتك",
+	"language-button-text": "قرا ويكيبيديا ب لوغتك",
 	"footer-description": "ويكيبيديا تتم استضافتها بواسطة مؤسسة ويكيميديا، وهي منظمة غير ربحية تستضيف أيضا مجموعة من المشاريع الأخرى.",
 	"app-links": {
 		"title": "تطبيق ويكيبيديا الان متوفر",
