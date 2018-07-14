@@ -252,9 +252,6 @@
 			select = $( 'searchLanguage' );
 
 		if ( search ) {
-			// Add a search icon to the box in Safari.
-			search.setAttribute( 'results', '10' );
-
 			if ( search.autofocus === undefined ) {
 				// Focus the search box.
 				search.focus();
