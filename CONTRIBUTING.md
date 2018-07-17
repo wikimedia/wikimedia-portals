@@ -28,7 +28,7 @@ Visit `http://localhost:8080/dev/wikipedia.org` to see the changes in the `dev` 
 
 Running `gulp help` will output a list of available gulp tasks.
 
-*See the [Getting Started](development/getting_started.md) section of the technical documentation for more details.*
+*See the [Getting Started](./docs/development/getting_started.md) section of the technical documentation for more details.*
 
 ## Coding Style
 
@@ -66,7 +66,7 @@ The directory structure is divided into a development ('dev') directory and a pr
 
 `gulp --portal=wikipedia.org` will generate the production version of the page and place it in `/prod/wikipedia.org/`. The production version contains JS and image assets that have been combined, uglified, minified, compressed and suffixed with a cache-busting file-name. **The contents of the `prod` directory should not be edited directly**.
 
-*See the [Production Builds](development/prod.md) section of the technical documentation for more details.*
+*See the [Production Builds](./docs/development/prod.md) section of the technical documentation for more details.*
 
 
 ## Updating Translations
@@ -77,5 +77,5 @@ Translations are edited through translatewiki.net. To edit a translation, [visit
 ## Updating Other Portal Pages
 All other WMF project portals are still updated through their respective wiki templates on meta.wikimedia.org, (e.g [wiktionary portal](https://meta.wikimedia.org/wiki/Www.wiktionary.org_template) ). When these pages are updated through the wiki, they must then be copied into this repository in order to be deployed. They are copied using the gulp command `gulp fetch-meta --portal=wiktionary.org` to copy a single portal, or `gulp fetch-meta --portal=all` to copy the newest versions of all the portal pages (except for wikipedia.org) into the repo.
 
-*See the [Sister Project Portals](development/sister_portals.md) section of the technical documentation for more details.*
+*See the [Sister Project Portals](./docs/development/sister_portals.md) section of the technical documentation for more details.*
 
