@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Гусейн"
+		]
+	},
+	"wiki": {
+		"name": "Википедијә",
+		"slogan": "Озодә енсиклопедијә",
+		"entries": "мәғолон"
+	},
+	"wiktionary": {
+		"name": "Викилуғәт",
+		"slogan": "Озодә луғәт",
+		"entries": "мәғолон"
+	},
+	"wikibooks": {
+		"name": "Викикитоб"
+	},
+	"wikinews": {
+		"name": "Викихәбон",
+		"entries": "мәғолон"
+	},
+	"wikiquote": {
+		"name": "Викиситот",
+		"entries": "мәғолон"
+	},
+	"wikisource": {
+		"name": "Викисәвон"
+	},
+	"wikiversity": {
+		"name": "Викиверситет"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	}
+}
