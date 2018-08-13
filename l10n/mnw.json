@@ -1,0 +1,78 @@
+{
+	"@metadata": {
+		"authors": [
+			"Htawmonzel"
+		]
+	},
+	"language-button-text": "ဗှ် ဝဳကဳပဳဒဳယာ နကဵု အရေဝ်ဘာသာ မၞး",
+	"footer-description": "ဝဳကဳပဳဒဳယာဂှ် သြိုင်ခၞံလဝ် နကဵု Wikimedia Foundation မဒှ်ဂကောံစေတနာမွဲတုဲ သီုကဵု ဒက်ပ္တန်လဝ် ပရောဂျေတ်တၞဟ်တအ်ကီုရ၊၊",
+	"app-links": {
+		"title": "Wikipedia apps မကလိဂွံမာန်တအ်ဂှ် -",
+		"ios": "ကေတ်တံင်လုပ် သွက် iOS ပ္ဍဲ App Store",
+		"android": "ကေတ်တံင်လုပ် သွက် Android ပ္ဍဲ Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>ဗဵု စရင် အာပ် ဝဳကဳပဳဒဳယာ မကလိဂွံမာန်ဂမၠိုင်</a>"
+	},
+	"license": "မုက်လိက်ဏအ် ကလိဂွံ ပ္ဍဲဒၞာဲဏအ်မာန်ရ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "ဂကောံ ညးလွပ်ဂမၠိုင်",
+	"Privacy Policy": "ပဝ်လသဳ အခေါင်အရာပူဂဵု",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"wiki": {
+		"name": "ဝဳကဳပဳဒဳယာ",
+		"slogan": "ပြကိုဟ်အညာ သက္ကုၚုဟ်",
+		"entries": "လိက်ပရေင်ဂမၠိုင်"
+	},
+	"wiktionary": {
+		"name": "ဝဳက်ရှေန်နရဳ",
+		"slogan": "လိက်အဘိဓာန် သက္ကုၚုဟ်",
+		"entries": "စရင်ဂမၠိုင်"
+	},
+	"wikibooks": {
+		"name": "ဝဳကဳလိက်ကၞပ်ဂမၠိုင်",
+		"slogan": "လိက်ဗွဟ် သက္ကုၚုဟ်ဂမၠိုင်",
+		"entries": "မုက်လိက်ဂမၠိုင်"
+	},
+	"wikinews": {
+		"name": "ဝဳကဳပရိုင်",
+		"slogan": "တမ်ရိုဟ် ပရိုင် သက္ကုၚုဟ်",
+		"entries": "လိက်ပရေင်ဂမၠိုင်"
+	},
+	"wikiquote": {
+		"name": "ဝဳကဳဂလာန်သြဝါဒ",
+		"slogan": "ဂလာန်သြဝါဒ ပံင်ပ္ကောံ သက္ကုၚုဟ်",
+		"entries": "လိက်ပရေင်ဂမၠိုင်"
+	},
+	"wikisource": {
+		"name": "ဝဳကဳတမ်ရိုဟ်",
+		"slogan": "တိုက်ဗွဟ်လိက် သက္ကုၚုဟ်"
+	},
+	"wikiversity": {
+		"name": "ဝဳကဳဝါသဳတဳ",
+		"slogan": "လိက်တန်ဗ္တောန် သက္ကုၚုဟ်",
+		"entries": "လ္ၚတ်ဗ္တောန် တမ်ရိုဟ်"
+	},
+	"wikivoyage": {
+		"name": "ဝဳကဳသၟာတရဴ",
+		"slogan": "စၞောန်ပညုင် တရဴ သက္ကုၚုဟ်"
+	},
+	"commons": {
+		"name": "ကောမ္မောန်",
+		"slogan": "ဗီုရုပ် ကေုာံ အရာတၞဟ် မကေတ်ရပ်စပ် ဗွဲမသက္ကုၚုဟ်"
+	},
+	"wikispecies": {
+		"name": "ဝဳကဳသတ်ဗဳဇ",
+		"slogan": "အဘိဓာန် သတ်ဗဳဇ သက္ကုၚုဟ်"
+	},
+	"wikidata": {
+		"name": "ဝဳကဳဒါတာ",
+		"slogan": "ဗဟုသုတ သက္ကုၚုဟ်"
+	},
+	"mediawiki": {
+		"name": "မဳဒဳယာဝဳကဳ",
+		"slogan": "အပ္ပလဳကေရှေန် ဝဳကဳ ဗၠးၜး ကေုာံ သက္ကုၚုဟ်"
+	},
+	"metawiki": {
+		"name": "မေတာ-ဝဳကဳ",
+		"slogan": "ပရေင်ပံင်ကောံ ဂကောံမၞိဟ် ကေုာံ လိက်စံင်"
+	}
+}
