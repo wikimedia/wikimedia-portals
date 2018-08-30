@@ -267,12 +267,12 @@ gulp.task( 'minify-html', [ 'inline-assets', 'concat-minify-js' ], function () {
  * - postCSS files
  * into dev folder.
  */
-gulp.task( 'watch', [ 'compile-handlebars', 'svgSprite', 'postcss' ], function () {
+gulp.task( 'watch', [ 'svgSprite', 'compile-handlebars', 'postcss' ], function () {
 
 	requirePortalParam();
 
-	gulp.watch( getConfig().watch.hb, [ 'compile-handlebars' ] );
 	gulp.watch( getConfig().watch.sprites, [ 'svgSprite' ] );
+	gulp.watch( getConfig().watch.hb, [ 'compile-handlebars' ] );
 	gulp.watch( getConfig().watch.postcss, [ 'postcss' ] );
 } );
 
@@ -355,7 +355,7 @@ gulp.task( 'fetch-meta', function () {
  * Must be run when after all assets have been versioned, minified &
  * copied into the prod dir.
  */
-gulp.task( 'update-urls-to-purge', [ 'compile-handlebars', 'svgSprite', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'copy-images', 'copy-translation-files' ], function() {
+gulp.task( 'update-urls-to-purge', [ 'svgSprite', 'compile-handlebars', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'copy-images', 'copy-translation-files' ], function() {
 
 	var UrlsToPurge = [
 			'https://www.wikibooks.org/',
@@ -506,8 +506,8 @@ gulp.task( 'test', [ 'lint' ] );
 
 gulp.task( 'default', [
 	'lint',
-	'compile-handlebars',
 	'svgSprite',
+	'compile-handlebars',
 	'postcss',
 	'inline-assets',
 	'clean-prod-js',

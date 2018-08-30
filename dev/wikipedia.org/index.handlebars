@@ -20,6 +20,9 @@ This comment will be read by everything and IE greater than 7
 <link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/">
 <link rel="stylesheet" href="assets/css/sprite.css">
 <link rel="stylesheet" href="assets/css/style.css">
+{{#each preloadLinks}}
+<link rel="preload" as="{{as}}" href="{{href}}">
+{{/each}}
 <link rel="preconnect" href="//upload.wikimedia.org">
 </head>
 

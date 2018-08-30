@@ -3,6 +3,7 @@
 var _ = require( 'underscore' ),
 	hbs = require( '../../hbs-helpers.global.js' ),
 	fs = require( 'fs' ),
+	glob = require( 'glob' ),
 	stats = require( '../../data/stats' ),
 	otherProjects = require( './other-projects.json' ),
 	otherLanguages = require( './other-languages.json' ),
@@ -54,6 +55,23 @@ _.each( range, function ( wiki ) {
 
 	siteStats[ wiki.code ] = _.omit( wiki, 'closed', 'code', 'index' );
 } );
+
+function getPreloadLinks() {
+	var preloadLinks = [];
+	[
+		{
+			pattern: 'portal/wikipedia.org/assets/img/sprite*.svg',
+			as: 'image'
+		}
+	].forEach( function ( source ) {
+		glob.sync( source.pattern, { cwd: __dirname } )
+		.forEach( function ( href ) {
+			preloadLinks.push( { href: href, as: source.as } );
+		} );
+	} );
+
+	return preloadLinks;
+}
 
 /**
  * Writing stats to translation files
@@ -111,6 +129,7 @@ Controller = {
 	top1000Articles: stats.getRangeFormatted( 'wiki', 'numPages', 1000, 10000 ),
 	top100Articles: stats.getRangeFormatted( 'wiki', 'numPages', 100, 1000 ),
 	top100000Dropdown: top100000Dropdown,
+	preloadLinks: getPreloadLinks(),
 	otherProjects: otherProjects,
 	otherLanguages: otherLanguages,
 	rtlLanguages: rtlLanguages,
