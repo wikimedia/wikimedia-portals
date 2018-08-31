@@ -1,9 +1,3 @@
-/* jshint strict:false */
-/* globals require */
-/* globals process */
-/* globals console */
-/* globals JSON */
-/* globals Promise */
 /* eslint dot-notation: ["error", { "allowKeywords": false }] */
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
@@ -195,7 +189,7 @@ gulp.task( 'postcss', function () {
 			postCSSImport(),
 			postCSSNext( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } )
 		],
-			{ map: { inline: true } }
+		{ map: { inline: true } }
 		) )
 		.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
 } );
@@ -354,7 +348,7 @@ gulp.task( 'fetch-meta', function () {
  * Must be run when after all assets have been versioned, minified &
  * copied into the prod dir.
  */
-gulp.task( 'update-urls-to-purge', [ 'svgSprite', 'compile-handlebars', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'copy-images', 'copy-translation-files' ], function() {
+gulp.task( 'update-urls-to-purge', [ 'svgSprite', 'compile-handlebars', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'copy-images', 'copy-translation-files' ], function () {
 
 	var UrlsToPurge = [
 			'https://www.wikibooks.org/',
@@ -395,7 +389,7 @@ gulp.task( 'update-urls-to-purge', [ 'svgSprite', 'compile-handlebars', 'postcss
 	return gulp.src( portalAssetDirs, { buffer: false, read: false } )
 		.pipe( gulpSlash() ) // Because windows slashes are '\' instead of '/'
 		.pipe( plugins.tap( assetFilesStream ) )
-		.on( 'end', function() {
+		.on( 'end', function () {
 			writePurgeFile( UrlsToPurge );
 		} );
 } );
@@ -407,72 +401,72 @@ gulp.task( 'update-urls-to-purge', [ 'svgSprite', 'compile-handlebars', 'postcss
  *
  * Also outputs a CSS file for the SVG sprite named sprite.css in the dev CSS folder.
  */
-gulp.task( 'createSvgSprite', [ 'cleanSprites' ], function() {
+gulp.task( 'createSvgSprite', [ 'cleanSprites' ], function () {
 	var conf = getConfig();
 	return gulp.src( conf.img.sprite.assets )
-	.pipe( plugins.svgSprite( {
-		shape: {
-			spacing: {
-				padding: 1
+		.pipe( plugins.svgSprite( {
+			shape: {
+				spacing: {
+					padding: 1
+				},
+				transform: [ 'svgo' ]
 			},
-			transform: [ 'svgo' ]
-		},
-		mode: {
-			css: {
-				layout: 'vertical',
-				sprite: '../' + conf.img.sprite.outputName + '.svg',
-				bust: true,
-				dimensions: true,
-				common: conf.img.sprite.cssPrefix,
-				render: {
-					css: {
-						dimensions: true,
-						dest: '../' + conf.img.sprite.outputCSS,
-						template: conf.img.sprite.template
+			mode: {
+				css: {
+					layout: 'vertical',
+					sprite: '../' + conf.img.sprite.outputName + '.svg',
+					bust: true,
+					dimensions: true,
+					common: conf.img.sprite.cssPrefix,
+					render: {
+						css: {
+							dimensions: true,
+							dest: '../' + conf.img.sprite.outputCSS,
+							template: conf.img.sprite.template
+						}
 					}
 				}
+			},
+			variables: {
+				mapname: 'svg-sprite'
 			}
-		},
-		variables: {
-			mapname: 'svg-sprite'
-		}
-	} ) )
-	.pipe( plugins[ 'if' ]( '*.svg', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
+		} ) )
+		.pipe( plugins[ 'if' ]( '*.svg', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
 } );
 /**
  * Remove existing SVG sprite before generating a new one.
  */
-gulp.task( 'cleanSprites', function() {
+gulp.task( 'cleanSprites', function () {
 	var conf = getConfig();
 	return del( [ conf.img.sprite.outputSVGGlob, conf.img.sprite.outputPNGGlob ] );
 } );
 /**
  * Create a PNG fallback for the SVG sprite using PhantomJS.
  */
-gulp.task( 'convertSVGtoPNG', [ 'createSvgSprite' ], function() {
+gulp.task( 'convertSVGtoPNG', [ 'createSvgSprite' ], function () {
 	return gulp.src( getConfig().img.sprite.outputSVGGlob )
-	.pipe( plugins.svg2png() )
-	.pipe( gulp.dest( getBaseDir() + 'assets/img/' ) );
+		.pipe( plugins.svg2png() )
+		.pipe( gulp.dest( getBaseDir() + 'assets/img/' ) );
 } );
 
 /**
  * Optimize PNG fallback.
  */
-gulp.task( 'optimizePNGfallback', [ 'convertSVGtoPNG' ], function() {
+gulp.task( 'optimizePNGfallback', [ 'convertSVGtoPNG' ], function () {
 	return gulp.src( getConfig().img.sprite.outputPNGGlob )
-	.pipe(
-		vinylPaths( function ( imagePath ) {
-			return new Promise( function( resolve, reject ) {
-				return execFile( pngquant, [ imagePath, '-f', '-ext', '.png' ], function( err ) {
-					if ( err ) {
-						return reject();
-					} else {
-						return resolve();
-					}
+		.pipe(
+			vinylPaths( function ( imagePath ) {
+				return new Promise( function ( resolve, reject ) {
+					return execFile( pngquant, [ imagePath, '-f', '-ext', '.png' ], function ( err ) {
+						if ( err ) {
+							return reject();
+						} else {
+							return resolve();
+						}
+					} );
 				} );
-			} );
-		} )
-	);
+			} )
+		);
 } );
 
 /**
@@ -482,10 +476,10 @@ gulp.task( 'optimizePNGfallback', [ 'convertSVGtoPNG' ], function() {
  * The custom CSS template contains 2 urls that both end with '.svg' until
  * this task changes one of the extensions to '.png'.
  */
-gulp.task( 'replaceSVGSpriteCSS', [ 'createSvgSprite' ], function() {
+gulp.task( 'replaceSVGSpriteCSS', [ 'createSvgSprite' ], function () {
 	return gulp.src( getConfig().img.sprite.outputCSSPath )
-	.pipe( replace( '.svg")/* replace */;', '.png");' ) )
-	.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
+		.pipe( replace( '.svg")/* replace */;', '.png");' ) )
+		.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
 } );
 /*
 * Copy images to prod folder.

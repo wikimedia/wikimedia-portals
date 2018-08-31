@@ -1,6 +1,3 @@
-/* jshint strict:false */
-/* globals require */
-/* globals module */
 var siteStats = require( './site-stats.json' ),
 	siteDefsFormatting = require( './l10n-overrides.json' ),
 	fs = require( 'fs' ),
@@ -15,7 +12,7 @@ Stats.readi18nFiles = function ( dirname ) {
 
 	fileNames.forEach( function ( filename ) {
 		var fileContent = fs.readFileSync( dirname + filename, 'utf-8' ),
-		langCode = filename.replace( '.json', '' );
+			langCode = filename.replace( '.json', '' );
 		siteDefs[ langCode ] = JSON.parse( fileContent );
 
 		if ( siteDefsFormatting[ langCode ] ) {
@@ -26,7 +23,7 @@ Stats.readi18nFiles = function ( dirname ) {
 	return siteDefs;
 };
 
-var siteDefs = Stats.readi18nFiles(  __dirname + '/../l10n/' );
+var siteDefs = Stats.readi18nFiles( __dirname + '/../l10n/' );
 
 Stats.nonStandardCodes = {
 	'zh-min-nan': 'nan'
@@ -291,8 +288,5 @@ Stats.getRangeFormatted = function ( portal, criteria, from, to ) {
 
 	return this.format( portal, list, { merge: true } );
 };
-
-/*REMOVE*/
-// Stats.getRangeFormatted( 'wiki', 'numPages', 0 )
 
 module.exports = Stats;

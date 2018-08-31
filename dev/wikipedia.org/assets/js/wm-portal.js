@@ -13,7 +13,7 @@
  * ResourceLoader on the portal pages and as such is minified and squeezed into a
  * tiny package served from load.php
  *
- * Validate with JSLint or JSHint.
+ * Validate with ESLint.
  *
  */
 /* global addEvent, doWhenReady, getIso639, getDevicePixelRatio */

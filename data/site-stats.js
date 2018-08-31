@@ -1,5 +1,3 @@
-/* jshint node:true, es5: true */
-/* jscs:disable */
 var preq = require( 'preq' );
 var BBPromise = require( 'bluebird' );
 var moment = require( 'moment' );
@@ -35,19 +33,16 @@ function httpGet( url ) {
 		.then( function( request ) {
 			return BBPromise.resolve( request.body );
 		} )
-		//JSHint throwing error on reserved .catch() statement
-		/*jshint -W024 */
 		.catch( function( err ) {
-			/*jshint +W024 */
 			// I can haz error message that makes sense?
 			var msg = err.toString() + ' requesting ' + url;
-			console.error( msg );
+			console.error( msg ); // eslint-disable-line no-console
 			BBPromise.reject( msg );
 		} );
 }
 
 function getPageCounts() {
-	if ( process.env.MEDIAWIKI_DEPLOYMENT_DIR && false ) {
+	if ( process.env.MEDIAWIKI_DEPLOYMENT_DIR && false ) { // eslint-disable-line
 		// Production
 		// TODO:
 	} else {
@@ -58,7 +53,7 @@ function getPageCounts() {
 
 				_.each( pagecounts, function( wiki, code ) {
 					code = code.replace( /_/g, '-' );
-					stats[code] = wiki.contentPages;
+					stats[ code ] = wiki.contentPages;
 				} );
 				return BBPromise.resolve( stats );
 			} );
@@ -77,15 +72,15 @@ function parseProjectString( str ) {
 		} );
 
 	var name = parts.shift();
-	if (codeMapping[name] ) {
-		return codeMapping[name];
+	if ( codeMapping[ name ] ) {
+		return codeMapping[ name ];
 	}
 
 	if ( parts.length ) {
-		if ( !codeMapping[ parts[0] ] ) {
+		if ( !codeMapping[ parts[ 0 ] ] ) {
 			throw 'Cannot parse wiki ' + str;
 		}
-		name += codeMapping[ parts[0] ];
+		name += codeMapping[ parts[ 0 ] ];
 	} else {
 		name += 'wiki';
 	}
@@ -116,7 +111,7 @@ function generateFileList() {
 function garbageCollect() {
 	exec( 'find cache -mtime +' + ( DAYS + 2 ) + ' -delete', function( error ) {
 		if ( error ) {
-			console.error( 'Error deleting old cached stats', error );
+			console.error( 'Error deleting old cached stats', error ); // eslint-disable-line no-console
 		}
 	} );
 }
@@ -141,10 +136,10 @@ function getViewsData() {
 		try {
 			content = fs.readFileSync( fileName, { encoding: 'utf8' } );
 			stats.push( content );
-		} catch( ex ) {
+		} catch ( ex ) {
 			if ( !content ) {
 				promise = promise.then( function() {
-						return httpGet( hour.url )
+					return httpGet( hour.url )
 							.then( function( text ) {
 								if ( !text ) {
 									return;
@@ -152,7 +147,7 @@ function getViewsData() {
 								fs.writeFileSync( fileName, text );
 								stats.push( text );
 							} );
-					}
+				}
 				);
 			}
 		}
@@ -175,9 +170,9 @@ function getProjectViews() {
 				var lines = hourly.toString().split( '\n' );
 				_.each( lines, function( line ) {
 					var parts = line.split( /\s+-?\s*/ );
-					var wiki = parseProjectString( parts[0] );
-					views[wiki] = views[wiki] || 0;
-					views[wiki] += parseInt( parts[1], 10 );
+					var wiki = parseProjectString( parts[ 0 ] );
+					views[ wiki ] = views[ wiki ] || 0;
+					views[ wiki ] += parseInt( parts[ 1 ], 10 );
 				} );
 			} );
 			if ( !views ) {
@@ -190,15 +185,14 @@ function getProjectViews() {
 		.error( function() {} ); // Do nothing, last file can be being generated right now
 }
 
-
 function getSiteStats() {
 	var stats = {};
 
 	return BBPromise.all( [ getPageCounts(), getSiteMatrix(), getProjectViews() ] )
 		.then( function( data ) {
-			var counts = data[0];
-			var siteMatrix = data[1].sitematrix;
-			var views = data[2];
+			var counts = data[ 0 ];
+			var siteMatrix = data[ 1 ].sitematrix;
+			var views = data[ 2 ];
 
 			_.each( siteMatrix, function( lang, propName ) {
 				if ( !/^\d+$/.test( propName ) ) {
@@ -206,11 +200,11 @@ function getSiteStats() {
 				}
 				_.each( lang.site, function( site ) {
 					var dbname = site.dbname.replace( /_/g, '-' );
-					stats[site.code] = stats[site.code] || {};
-					stats[site.code][lang.code] = {
+					stats[ site.code ] = stats[ site.code ] || {};
+					stats[ site.code ][ lang.code ] = {
 						url: site.url,
-						numPages: counts[dbname] || 0,
-						views: views[dbname] || 0,
+						numPages: counts[ dbname ] || 0,
+						views: views[ dbname ] || 0,
 						closed: site.closed !== undefined
 					};
 				} );

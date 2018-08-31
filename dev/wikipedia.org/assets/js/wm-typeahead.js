@@ -18,9 +18,8 @@
  */
 
 /* global addEvent, getDevicePixelRatio */
-/* exported WMTypeAhead */
 
-var WMTypeAhead = function ( appendTo, searchInput ) {
+var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no-unused-vars
 
 	var typeAheadID = 'typeahead-suggestions',
 		typeAheadEl = document.getElementById( typeAheadID ), // type-ahead DOM element.

@@ -1,7 +1,3 @@
-/* jshint strict:false */
-/* globals require */
-/* globals module */
-/* globals console */
 var Handlebars = require( 'handlebars' ),
 	helpers = {};
 

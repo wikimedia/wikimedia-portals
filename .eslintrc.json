@@ -3,11 +3,13 @@
 	"env": {
 		"browser": true,
 		"jquery": true,
-		"qunit": true
+		"qunit": true,
+		"node": true
 	},
 	"globals": {
 		"mw": true,
-		"mediaWiki": false
+		"mediaWiki": false,
+		"Promise": true
 	},
 	"rules": {
 		"no-sequences": "error",
