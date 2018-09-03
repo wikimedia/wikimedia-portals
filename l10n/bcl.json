@@ -1,6 +1,49 @@
 {
+	"@metadata": {
+		"authors": [
+			"ShimunUfesoj"
+		]
+	},
 	"language-name": "Bikol Central",
+	"language-button-text": "Basahon an Wikipedia sa saimong tataramon",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "An Talingkas na Ensiklopedya",
+		"entries": "Mga Artikulo"
+	},
+	"wiktionary": {
+		"name": "Wiksyonaryo",
+		"slogan": "Libreng Diksyunaryo",
+		"entries": "mga entrada"
+	},
+	"wikibooks": {
+		"name": "Wiki-na-mga-libro",
+		"entries": "Mga Pahina"
+	},
+	"wikinews": {
+		"name": "Wiki-na-mga-bareta",
+		"entries": "Mga Artikulo"
+	},
+	"wikiquote": {
+		"name": "Wiking-paninglit",
+		"entries": "Mga Artikulo"
+	},
+	"wikisource": {
+		"name": "Wiki-na-pinaggikanan"
+	},
+	"wikiversity": {
+		"name": "Wikibersidad"
+	},
+	"wikivoyage": {
+		"name": "Wikibiyahe"
+	},
+	"wikidata": {
+		"name": "Wikidatus"
+	},
+	"mediawiki": {
+		"name": "Midya-Wiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }
