@@ -3,7 +3,6 @@
 /* globals process */
 /* globals console */
 /* globals JSON */
-/* globals Buffer */
 /* globals Promise */
 /* eslint dot-notation: ["error", { "allowKeywords": false }] */
 var gulp = require( 'gulp' ),
@@ -389,9 +388,8 @@ gulp.task( 'update-urls-to-purge', [ 'svgSprite', 'compile-handlebars', 'postcss
 	}
 
 	function writePurgeFile( UrlsToPurge ) {
-		var fileContents = UrlsToPurge.join( '\n' ),
-			fileBuffer = new Buffer( fileContents );
-		return fs.writeFile( purgeFile, fileBuffer );
+		var fileContents = UrlsToPurge.join( '\n' );
+		fs.writeFileSync( purgeFile, fileContents );
 	}
 
 	return gulp.src( portalAssetDirs, { buffer: false, read: false } )
