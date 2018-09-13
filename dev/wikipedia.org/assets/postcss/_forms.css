@@ -37,7 +37,6 @@ so we can ignore the csslint warning.
 
 @media only screen and ( max-width: 480px ) {
     .pure-form input[type="search"]{
-        margin-bottom: 0.48rem;
         display: block;
     }
 }
