@@ -1,10 +1,33 @@
 {
+	"@metadata": {
+		"authors": [
+			"Jumpy01"
+		]
+	},
 	"language-name": "Corsu",
+	"terms": "Clause d'usu",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "enciclopedia libera"
+		"slogan": "Enciclopedia libera",
+		"entries": "articuli"
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Wikiziunariu"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }
