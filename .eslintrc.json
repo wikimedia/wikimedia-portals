@@ -1,20 +1,10 @@
 {
 	"extends": "wikimedia",
-	"env": {
-		"browser": true,
-		"jquery": true,
-		"qunit": true,
-		"node": true
+	"root": true,
+	"rules": {
+		"capitalized-comments": "error"
 	},
 	"globals": {
-		"mw": true,
-		"mediaWiki": false,
-		"Promise": true
-	},
-	"rules": {
-		"no-sequences": "error",
-		"vars-on-top": 1,
-		"one-var": 1,
-		"dot-notation": [ "error", { "allowKeywords": true } ]
+		"mw": true
 	}
 }

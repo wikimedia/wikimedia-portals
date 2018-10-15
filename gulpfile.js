@@ -1,4 +1,5 @@
-/* eslint dot-notation: ["error", { "allowKeywords": false }] */
+/* eslint-env node, es6 */
+/* eslint-disable no-console */
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	argv = require( 'yargs' ).argv,
@@ -145,9 +146,9 @@ getConfig = function () {
 			assets: baseDir + 'assets/img/sprite_assets/*.svg',
 			outputName: 'sprite',
 			outputCSS: 'sprite.css',
-			outputCSSPath: baseDir + 'assets/css/' + 'sprite.css', /* outputCSS value */
-			outputSVGGlob: baseDir + 'assets/img/' + 'sprite' /* outputName */ + '*.svg',
-			outputPNGGlob: baseDir + 'assets/img/' + 'sprite' /* outputName */ + '*.png',
+			outputCSSPath: baseDir + 'assets/css/sprite.css',
+			outputSVGGlob: baseDir + 'assets/img/sprite*.svg',
+			outputPNGGlob: baseDir + 'assets/img/sprite*.png',
 			template: baseDir + 'assets/css/sprite-template.mustache'
 		}
 	};
@@ -233,8 +234,8 @@ gulp.task( 'concat-minify-js', [ 'clean-prod-js' ], function () {
 
 	return gulp.src( getConfig().htmlmin.src )
 		.pipe( plugins.useref( { searchPath: getBaseDir() } ) )
-		.pipe( plugins[ 'if' ]( '*.js', plugins.uglify() ) )
-		.pipe( plugins[ 'if' ]( '*.js', plugins.rev() ) )
+		.pipe( plugins.if( '*.js', plugins.uglify() ) )
+		.pipe( plugins.if( '*.js', plugins.rev() ) )
 		.pipe( plugins.revReplace() )
 		.pipe( gulp.dest( getProdDir() ) )
 		.pipe( plugins.rev.manifest() )
@@ -275,11 +276,11 @@ gulp.task( 'watch', [ 'svgSprite', 'compile-handlebars', 'postcss' ], function (
 gulp.task( 'lint-js', function () {
 	var devFolder = 'dev/**/*.js';
 	if ( portalParam ) {
-		// only run on this portal files.
+		// Only run on this portal files.
 		devFolder = 'dev/' + portalParam + '/**/*.js';
 	}
 	gulp.src( [ '*.js', devFolder ] )
-		.pipe( plugins.eslint( '.eslintrc.json' ) )
+		.pipe( plugins.eslint() )
 		.pipe( plugins.eslint.format() )
 		.pipe( plugins.eslint.failAfterError() );
 } );
@@ -431,8 +432,9 @@ gulp.task( 'createSvgSprite', [ 'cleanSprites' ], function () {
 				mapname: 'svg-sprite'
 			}
 		} ) )
-		.pipe( plugins[ 'if' ]( '*.svg', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
+		.pipe( plugins.if( '*.svg', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
 } );
+
 /**
  * Remove existing SVG sprite before generating a new one.
  */

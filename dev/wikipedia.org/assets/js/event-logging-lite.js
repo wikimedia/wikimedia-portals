@@ -19,7 +19,7 @@
 		self, helpers, i;
 
 	helpers = {
-		// replaces $.extend
+		// Replaces $.extend
 		extend: function ( defaults, options ) {
 			var extended = {},
 				prop;
@@ -36,12 +36,12 @@
 			}
 			return extended;
 		},
-		// replaces $.noop
+		// Replaces $.noop
 		noop: function () {
 		}
 	};
 
-	// byte to hex from
+	// Byte to hex from
 	// https://github.com/wikimedia/mediawiki/blob/e87668e86ce9ad20df05c1baa8e7cf3f58900524/resources/src/mediawiki/mediawiki.user.js
 	for ( i = 0; i < 256; i++ ) {
 		// Padding: Add a full byte (0x100, 256) and strip the extra character
@@ -121,7 +121,7 @@
 			}
 
 			// Concatenation of two random integers with entrophy n and m
-			// returns a string with entrophy n+m if those strings are independent
+			// Returns a string with entrophy n+m if those strings are independent
 			return hexRnds.join( '' );
 			/* eslint-enable no-bitwise */
 		},
@@ -143,6 +143,7 @@
 			}
 
 			for ( key in obj ) {
+				// eslint-disable-next-line no-prototype-builtins
 				if ( !schema.properties.hasOwnProperty( key ) ) {
 					errors.push( 'Undeclared property: ' + key );
 				}
@@ -151,7 +152,7 @@
 			for ( key in schema.properties ) {
 				prop = schema.properties[ key ];
 
-				if ( !obj.hasOwnProperty( key ) ) {
+				if ( !obj.hasOwnProperty( key ) ) { // eslint-disable-line no-prototype-builtins
 					if ( prop.required ) {
 						errors.push( 'Missing property:', key );
 					}
@@ -252,6 +253,6 @@
 			}
 		}
 
-	}; // eventLoggingLite
+	}; // EventLoggingLite
 
 }() );

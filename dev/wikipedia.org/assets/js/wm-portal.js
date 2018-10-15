@@ -123,9 +123,11 @@
 			return;
 		}
 
-		// If we ever drop support for IE 8 and below, we can put all these
-		// elements in a 'convertible' class and call
-		// document.getElementsByClassName() instead.
+		/**
+		 * If we ever drop support for IE 8 and below, we can put all these
+		 * elements in a 'convertible' class and call
+		 * document.getElementsByClassName() instead.
+		 */
 		ids = [ 'zh_art', 'zh_others', 'zh_search', 'zh_tag', 'zh_top10', 'zh-yue_wiki', 'gan_wiki', 'hak_wiki', 'wuu_wiki' ];
 		for ( i = 0; i < ids.length; i += 1 ) {
 			elt = $( ids[ i ] );
@@ -187,7 +189,7 @@
 
 		select = $( 'searchLanguage' );
 		// Verify that an <option> exists for the langCode that was
-		// in the cookie. If so, set the value to it.
+		// In the cookie. If so, set the value to it.
 		if ( select ) {
 			options = select.getElementsByTagName( 'option' );
 			for ( i = 0, len = options.length; !matchingLang && i < len; i += 1 ) {
@@ -256,7 +258,7 @@
 				// Focus the search box.
 				search.focus();
 			} else {
-				// autofocus causes scrolling in most browsers that
+				// Autofocus causes scrolling in most browsers that
 				// support it.
 				window.scroll( 0, 0 );
 			}

@@ -49,7 +49,7 @@
 
 	/**
 	 * Saves translation to localstorage
-	 * @param {String} lang language code that acts as the key to the translation.
+	 * @param {string} lang language code that acts as the key to the translation.
 	 * @param {Object} translation translation data.
 	 *
 	 * @return {undefined}
@@ -66,7 +66,7 @@
 	 * otherwise returns `undefined`.
 	 *
 	 * @param {Object} obj The object to traverse.
-	 * @param {String} keys A string representing the dot notation of the object.
+	 * @param {string} keys A string representing the dot notation of the object.
 	 *
 	 * @return {Mixed}
 	 */
@@ -83,7 +83,8 @@
 	}
 
 	/**
-	 * Takes the translation data object and replaces corresponding DOM element textContent with translation values.
+	 * Takes the translation data object and replaces corresponding
+	 * DOM element textContent with translation values.
 	 *
 	 * @param {Object} l10nInfo Object containing translation data.
 	 */
@@ -142,7 +143,7 @@
 		}
 	}
 	/**
-	 * if the primary language is not english, and the translation is missing or outdated,
+	 * If the primary language is not English, and the translation is missing or outdated,
 	 * fetch the latest one.
 	 */
 	if ( !storedTranslations[ primaryLang ] ) {
@@ -160,7 +161,7 @@
 					if ( l10nInfo ) {
 						saveTranslation( primaryLang, l10nInfo );
 
-						// skip if it took too long
+						// Skip if it took too long
 						if ( wmL10nVisible.ready ) {
 							return;
 						}
@@ -178,7 +179,7 @@
 		l10nReq.send();
 	} else {
 		l10nInfo = storedTranslations[ primaryLang ];
-		// skip if it took too long
+		// Skip if it took too long
 		if ( wmL10nVisible.ready ) {
 			return;
 		}

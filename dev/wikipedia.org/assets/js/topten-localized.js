@@ -10,7 +10,7 @@
  * https://www.mediawiki.org/wiki/Wikipedia.org_Portal_A/B_testing
  */
 
-function localizeTopTen() {
+( function ( mw, wmTest ) {
 
 	var preferredLanguages = wmTest.userLangs,
 		i, topLinks = document.querySelectorAll( '.central-featured-lang' ),
@@ -23,7 +23,7 @@ function localizeTopTen() {
 	 * Helper function to safely parse JSON an return empty string on error.
 	 *
 	 * @param {string} json
-	 * @returns {*}
+	 * @return {*}
 	 */
 	function safelyParseJSON( json ) {
 		var parsed;
@@ -59,7 +59,7 @@ function localizeTopTen() {
 	topLinkLangs = getTopLinkLangs( topLinks );
 
 	/**
-	 * translationHash is a global variable that is a hash of all translation strings.
+	 * TranslationHash is a global variable that is a hash of all translation strings.
 	 * it is generated during the build step and placed onto the page with mustache templates.
 	 * For more info on how this hash is generated, see ../controller.js
 	 * This hash is now stored in localstorage.
@@ -109,8 +109,8 @@ function localizeTopTen() {
 	 */
 	function updateTopLinkDOM( node, wikiInfo ) {
 		var anchor = node.getElementsByTagName( 'a' )[ 0 ],
-		// some wiki titles are placed within a <bdi dir="rtl"> tag.
-		// strip the tag for the title attribute.
+			// Some wiki titles are placed within a <bdi dir="rtl"> tag.
+			// Strip the tag for the title attribute.
 			wikiNameStripped = wikiInfo.name.replace( /<\/?[^>]+(>|$)/g, '' );
 
 		anchor.setAttribute( 'href', '//' + wikiInfo.url );
@@ -143,13 +143,15 @@ function localizeTopTen() {
 			topLinksCorrectLangs = topLinkLangs.indexOf( topLinkLang ) >= 0;
 		}
 
-		for ( i = 0; i < topLinks.length && topLinksCorrectLangs === true; i++ ) {
-			topLink = topLinks[ i ];
-			topLinkClass = topLink.className;
-			correctClassName = 'central-featured-lang lang' + ( i + 1 );
+		for ( i = 0; i < topLinks.length; i++ ) {
+			if ( topLinksCorrectLangs ) {
+				topLink = topLinks[ i ];
+				topLinkClass = topLink.className;
+				correctClassName = 'central-featured-lang lang' + ( i + 1 );
 
-			if ( topLinkClass !== correctClassName ) {
-				topLink.className = correctClassName;
+				if ( topLinkClass !== correctClassName ) {
+					topLink.className = correctClassName;
+				}
 			}
 		}
 	}
@@ -157,8 +159,9 @@ function localizeTopTen() {
 	/**
 	 * Retrieves top-ten item info. via ajax.
 	 * On every successful request, we update the top-link DOM, create the localized slogan, and
-	 * reorganize the top-link classes. Each of these methods check to see if the expected (i.e. final)
-	 * data exists before executing. This accomodates both synchronous and asynchronous execution.
+	 * reorganize the top-link classes. Each of these methods check to see if the expected
+	 * (i.e. final) data exists before executing. This accomodates both synchronous and
+	 * asynchronous execution.
 	 *
 	 * After a successful request, the data is appended to a localStorage variable to prevent
 	 * subsequest ajax requests.
@@ -217,7 +220,7 @@ function localizeTopTen() {
 	 *
 	 * @param {Array} topLinks List of DOM nodes.
 	 * @param {string[]} topLinkLangs List of languages.
-	 * @returns {HTMLElement} Node that can be reused with new content.
+	 * @return {HTMLElement} Node that can be reused with new content.
 	 */
 	function findReusableTopLink( topLinks, topLinkLangs ) {
 		var reusableTopLink = null,
@@ -266,13 +269,12 @@ function localizeTopTen() {
 		}
 	}
 
-	// skip if it took too long
+	// Skip if it took too long
 	if ( wmL10nVisible.ready ) {
 		return;
 	}
 	mergeNewTopLinkLangs();
 	organizeTopLinks();
 	reorganizeTopLinkClasses( topLinkLangs );
-}
 
-localizeTopTen();
+}( mw, wmTest ) );

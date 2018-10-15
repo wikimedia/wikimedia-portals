@@ -3,14 +3,15 @@
 window.wmTest = ( function ( eventLoggingLite, mw ) {
 
 	var bucketParams = {
-			// population for prod or dev
+			// Population for prod or dev
 			popSize: ( /www.wikipedia.org/.test( location.hostname ) ) ? 200 : 2,
-			// testGroups can be set to `false` if there's no test. else {control: 'name-of-control-group', test: 'name-of-test-group'}
+			// TestGroups can be set to `false` if there's no test.
+			// Else {control: 'name-of-control-group', test: 'name-of-test-group'}
 			testGroups: false,
-			// set to 15 minutes
+			// Set to 15 minutes
 			sessionLength: 15 * 60 * 1000
 		},
-		// localstorage keys
+		// Localstorage keys
 		KEYS = {
 			GROUP: 'portal_test_group',
 			SESSION_ID: 'portal_session_id',
@@ -37,7 +38,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 			appendLanguage( navigator.languages[ i ] );
 		}
 
-		// gets browser languages from some old Android devices
+		// Gets browser languages from some old Android devices
 		if ( /Android/i.test( navigator.userAgent ) ) {
 			possibleLanguage = navigator.userAgent.split( ';' );
 			if ( possibleLanguage[ 3 ] ) {
@@ -93,7 +94,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	 * Returns a locally stored session ID or generates a new one.
 	 * Returns false if browser doesn't support local storage.
 	 *
-	 * @returns {boolean}
+	 * @return {boolean}
 	 */
 	function getSessionId() {
 
@@ -108,16 +109,16 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 			expires = mw.storage.get( KEYS.EXPIRES );
 			now = new Date().getTime();
 
-			// return storedSessionId if not expired
+			// Return storedSessionId if not expired
 			if ( storedSessionId && expires > parseInt( now, 10 ) ) {
 				sessionId = storedSessionId;
 			} else {
-				// or create new sessionID
+				// Or create new sessionID
 				sessionId = eventLoggingLite.generateRandomSessionId();
 				mw.storage.set( KEYS.SESSION_ID, sessionId );
 			}
 
-			// set or extend sessionId for 15 more minutes
+			// Set or extend sessionId for 15 more minutes
 			mw.storage.set( KEYS.EXPIRES, now + bucketParams.sessionLength );
 
 		}
@@ -133,7 +134,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		group = testOnly ? bucketParams.testGroups.test : getTestGroup();
 	} else {
 		group = 'rejected';
-		testOnly = true; // prevent logging if sessionId can't be generated
+		testOnly = true; // Prevent logging if sessionId can't be generated
 	}
 
 	if ( bucketParams.testGroups && group === bucketParams.testGroups.test ) {
@@ -141,7 +142,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	}
 
 	return {
-		loggingDisabled: testOnly, // for test
+		loggingDisabled: testOnly, // For test
 
 		/**
 		 * User random session ID
@@ -170,13 +171,13 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		testGroups: bucketParams.testGroups,
 
 		/**
-		 * the one in x population.
+		 * The one in x population.
 		 * @type {int}
 		 */
 		populationSize: bucketParams.popSize,
 
 		/**
-		 * getTestGroup function exposed publicly for testing purposes.
+		 * GetTestGroup function exposed publicly for testing purposes.
 		 */
 		getTestGroup: getTestGroup
 

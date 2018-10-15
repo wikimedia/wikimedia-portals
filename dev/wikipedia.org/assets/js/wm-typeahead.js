@@ -5,7 +5,8 @@
  *
  * @constructor
  * @param {string} appendTo  - ID of a container element that the suggestions will be appended to.
- * @param {string} searchInput - ID of a search input whose value will be used to generate search suggestions.
+ * @param {string} searchInput - ID of a search input whose value will be used to generate
+ *                               search suggestions.
  *
  * @return {Object} Returns an object with the following properties:
  * @return {HTMLElement} return.typeAheadEl The type-ahead DOM object.
@@ -19,10 +20,10 @@
 
 /* global addEvent, getDevicePixelRatio */
 
-var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no-unused-vars
+window.WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no-unused-vars
 
 	var typeAheadID = 'typeahead-suggestions',
-		typeAheadEl = document.getElementById( typeAheadID ), // type-ahead DOM element.
+		typeAheadEl = document.getElementById( typeAheadID ), // Type-ahead DOM element.
 		appendEl = document.getElementById( appendTo ),
 		searchEl = document.getElementById( searchInput ),
 		thumbnailSize = getDevicePixelRatio() * 80,
@@ -33,7 +34,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no
 		activeItem,
 		ssActiveIndex;
 
-	// only create typeAheadEl once on page.
+	// Only create typeAheadEl once on page.
 	if ( !typeAheadEl ) {
 		typeAheadEl = document.createElement( 'div' );
 		typeAheadEl.id = typeAheadID;
@@ -41,17 +42,17 @@ var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no
 	}
 
 	/**
-	 * serializes a JS object into a URL parameter string.
+	 * Serializes a JS object into a URL parameter string.
 	 *
 	 * @param {Object} obj - object whose properties will be serialized
-	 * @returns {string}
+	 * @return {string}
 	 */
 	function serialize( obj ) {
 		var serialized = [],
 			prop;
 
 		for ( prop in obj ) {
-			if ( obj.hasOwnProperty( prop ) ) {
+			if ( obj.hasOwnProperty( prop ) ) { // eslint-disable-line no-prototype-builtins
 				serialized.push( prop + '=' + encodeURIComponent( obj[ prop ] ) );
 			}
 		}
@@ -85,7 +86,9 @@ var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no
 
 			for ( callback in this.queue ) {
 				if ( callback < j ) {
-					this.queue[ callback ] = this.deleteSelfFromQueue.bind( window.callbackStack, callback );
+					this.queue[ callback ] = this.deleteSelfFromQueue.bind(
+						window.callbackStack, callback
+					);
 				}
 			}
 		}
@@ -106,10 +109,10 @@ var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no
 			this.index += i;
 			if ( this.index < 0 ) {
 				this.setIndex( this.max - 1 );
-			} // index reaches top
+			} // Index reaches top
 			if ( this.index === this.max ) {
 				this.setIndex( 0 );
-			} // index reaches bottom
+			} // Index reaches bottom
 			return this.index;
 		},
 		setIndex: function ( i ) {
@@ -159,7 +162,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no
 			callbackIndex,
 			searchQuery;
 
-		// variables declared in parent function.
+		// Variables declared in parent function.
 		searchLang = encodeURIComponent( lang ) || 'en';
 		searchString = encodeURIComponent( string );
 		if ( searchString.length === 0 ) {
@@ -204,9 +207,9 @@ var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no
 	 * Highlights the part of the suggestion title that matches the search query.
 	 * Used inside the generateTemplateString function.
 	 *
-	 * @param {string} title - the title of the search suggestion.
-	 * @param {string} searchString - the string to highlight
-	 * @returns {string} the title with highlighted part in an <em> tag.
+	 * @param {string} title - The title of the search suggestion.
+	 * @param {string} searchString - The string to highlight.
+	 * @return {string} The title with highlighted part in an <em> tag.
 	 */
 	function highlightTitle( title, searchString ) {
 
@@ -234,8 +237,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no
 	/**
 	 * Generates a template string based on an array of search suggestions.
 	 *
-	 * @param {Array} suggestions - an array of search suggestion results.
-	 * @returns {string} A string representing the search suggestions DOM
+	 * @param {Array} suggestions - An array of search suggestion results.
+	 * @return {string} A string representing the search suggestions DOM
 	 */
 	function generateTemplateString( suggestions ) {
 		var string = '<div class="suggestions-dropdown">',
@@ -263,20 +266,20 @@ var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no
 			sanitizedThumbURL = false;
 
 			if ( page.thumbnail && page.thumbnail.source ) {
-				sanitizedThumbURL = page.thumbnail.source.replace( /\"/g, '%22' );
+				sanitizedThumbURL = page.thumbnail.source.replace( /"/g, '%22' );
 				sanitizedThumbURL = sanitizedThumbURL.replace( /'/g, '%27' );
 			}
 
 			// Ensure that the value from the previous iteration isn't used
 			descriptionText = '';
 
-			// check if description exists
+			// Check if description exists
 			if ( pageDescription ) {
-				// if the description is an array, use the first item
+				// If the description is an array, use the first item
 				if ( typeof pageDescription === 'object' && pageDescription[ 0 ] ) {
 					descriptionText = pageDescription[ 0 ].toString();
 				} else {
-					// otherwise, use the description as is.
+					// Otherwise, use the description as is.
 					descriptionText = pageDescription.toString();
 				}
 			}
@@ -317,22 +320,22 @@ var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no
 
 	function toggleActiveClass( item, collection ) {
 
-		var activeClass = ' active', // prefixed with space.
+		var activeClass = ' active', // Prefixed with space.
 			colItem,
 			i;
 
 		for ( i = 0; i < collection.length; i++ ) {
 
 			colItem = collection[ i ];
-			// remove the class name from everything except item.
+			// Remove the class name from everything except item.
 			if ( colItem !== item ) {
 				colItem.className = colItem.className.replace( activeClass, '' );
 			} else {
-				// if item has class name, remove it
+				// If item has class name, remove it
 				if ( / active/.test( item.className ) ) {
 					item.className = item.className.replace( activeClass, '' );
 				} else {
-					// it item doesn't have class name, add it.
+					// It item doesn't have class name, add it.
 					item.className += activeClass;
 					ssActiveIndex.setIndex( i );
 				}
@@ -370,7 +373,8 @@ var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no
 				return;
 			}
 
-			suggestions = ( xhrResults.query && xhrResults.query.pages ) ? xhrResults.query.pages : [];
+			suggestions = ( xhrResults.query && xhrResults.query.pages ) ?
+				xhrResults.query.pages : [];
 
 			for ( item in suggestions ) {
 				result = suggestions[ item ];
@@ -386,7 +390,7 @@ var WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no
 
 			typeAheadItems = typeAheadEl.childNodes[ 0 ].childNodes;
 
-			// attaching hover events
+			// Attaching hover events
 			for ( i = 0; i < typeAheadItems.length; i++ ) {
 				listEl = typeAheadItems[ i ];
 				// Requires the addEvent global polyfill

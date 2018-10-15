@@ -2,9 +2,9 @@ var siteStats = require( './site-stats.json' ),
 	siteDefsFormatting = require( './l10n-overrides.json' ),
 	fs = require( 'fs' ),
 	_ = require( 'underscore' ),
-	merge = require( 'deepmerge' );
-
-var Stats = {};
+	merge = require( 'deepmerge' ),
+	Stats = {},
+	siteDefs;
 
 Stats.readi18nFiles = function ( dirname ) {
 	var siteDefs = {},
@@ -23,7 +23,7 @@ Stats.readi18nFiles = function ( dirname ) {
 	return siteDefs;
 };
 
-var siteDefs = Stats.readi18nFiles( __dirname + '/../l10n/' );
+siteDefs = Stats.readi18nFiles( __dirname + '/../l10n/' );
 
 Stats.nonStandardCodes = {
 	'zh-min-nan': 'nan'
@@ -38,7 +38,7 @@ Stats.nonStandardCodes = {
  */
 Stats.getTop = function ( portal, criteria, n ) {
 
-	// validate
+	// Validate
 	var topViewed = _.filter( siteStats[ portal ], function ( stats, key ) {
 		var siteDef = siteDefs[ key ],
 			portalDef = siteDef && siteDef[ portal ];
@@ -46,15 +46,15 @@ Stats.getTop = function ( portal, criteria, n ) {
 		return siteDef && siteDef[ 'language-name' ] && portalDef;
 	} );
 
-	// sort
+	// Sort
 	topViewed.sort( function ( a, b ) {
 		return b[ criteria ] - a[ criteria ];
 	} );
 
-	// return top 10
+	// Return top 10
 	topViewed = topViewed.slice( 0, n );
 
-	// return code only
+	// Return code only
 	topViewed = _.map( topViewed, function ( wiki ) {
 		var light = {
 			code: wiki.code
@@ -77,21 +77,21 @@ Stats.getTop = function ( portal, criteria, n ) {
  */
 Stats.getRange = function ( portal, criteria, from, to ) {
 
-	// validate
+	// Validate
 	var list = _.filter( siteStats[ portal ], function ( stats, code ) {
-
+		var isInRange;
 		if ( !siteDefs[ code ] || !siteDefs[ code ][ 'language-name' ] ) {
 			return false;
 		}
 
 		stats.code = code;
-		var isInRange = stats[ criteria ] >= from &&
+		isInRange = stats[ criteria ] >= from &&
 			( !to || stats[ criteria ] < to );
 
 		return isInRange;
 	} );
 
-	// sort alphabetically
+	// Sort alphabetically
 	list.sort( function ( a, b ) {
 		var asort = siteDefs[ a.code ][ 'language-name-romanized-sorted' ] || siteDefs[ a.code ][ 'language-name-romanized' ] || siteDefs[ a.code ][ 'language-name' ],
 			bsort = siteDefs[ b.code ][ 'language-name-romanized-sorted' ] || siteDefs[ b.code ][ 'language-name-romanized' ] || siteDefs[ b.code ][ 'language-name' ];
@@ -108,7 +108,7 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 		return 0;
 	} );
 
-	// return code only
+	// Return code only
 	list = _.map( list, function ( wiki ) {
 		var light = {
 			code: wiki.code
@@ -147,18 +147,17 @@ Stats.getRange = function ( portal, criteria, from, to ) {
  *
  * @param {string} portal The portal to look at: `wiki`, `wiktionary`...
  * @param {Array} list Raw list of wiki.
- * @param {Object} [options]
+ * @param {Object} [optionsArg]
  * @param {boolean} [options.stripTags=false] Tags are removed from the `name`.
  *  **Note:** this is only removing tags, it is not escaping the string nor
  *  making it secure.
  * @param {boolean} [options.merge=false] Whether subwikis should be merged or not.
  * @return {Array} List of wikis with all their information.
  */
-Stats.format = function ( portal, list, options ) {
-	options = options || {};
-
+Stats.format = function ( portal, list, optionsArg ) {
 	var newList = [],
-		newListByCode = {};
+		newListByCode = {},
+		options = optionsArg || {};
 
 	/**
 	 * Merges some wikis together.
@@ -170,11 +169,10 @@ Stats.format = function ( portal, list, options ) {
 	 * @private
 	 */
 	function mergeWikis( parentCode, wiki ) {
-		newListByCode[ parentCode ] = newListByCode[ parentCode ] || {};
-		newListByCode[ parentCode ].sublinks = newListByCode[ parentCode ].sublinks || [];
-
 		var matches = /(.+)\(([^)]+)\)/.exec( wiki.name );
 
+		newListByCode[ parentCode ] = newListByCode[ parentCode ] || {};
+		newListByCode[ parentCode ].sublinks = newListByCode[ parentCode ].sublinks || [];
 		newListByCode[ parentCode ].name = matches[ 1 ].trim();
 		newListByCode[ parentCode ].parentCode = parentCode;
 
@@ -193,7 +191,30 @@ Stats.format = function ( portal, list, options ) {
 		var stats = siteStats[ portal ][ top.code ],
 			siteDef = siteDefs[ top.code ],
 			portalDef = siteDef && siteDef[ portal ],
-			formatted = _.extend( {}, stats, portalDef );
+			formatted = _.extend( {}, stats, portalDef ),
+			extendedl10n = [
+				'language-button-text',
+				'footer-description',
+				'app-links',
+				'license',
+				'terms',
+				'Privacy Policy',
+				'terms-link',
+				'privacy-policy-link',
+				'wiki',
+				'wiktionary',
+				'wikibooks',
+				'wikinews',
+				'wikiquote',
+				'wikisource',
+				'wikiversity',
+				'wikivoyage',
+				'commons',
+				'wikispecies',
+				'wikidata',
+				'mediawiki',
+				'metawiki' ],
+			nonStandardCode;
 
 		formatted.index = ++index;
 		formatted.name = siteDef[ 'language-name' ];
@@ -210,29 +231,6 @@ Stats.format = function ( portal, list, options ) {
 			formatted.attrs = siteDef.attrs;
 		}
 
-		var extendedl10n = [
-			'language-button-text',
-			'footer-description',
-			'app-links',
-			'license',
-			'terms',
-			'Privacy Policy',
-			'terms-link',
-			'privacy-policy-link',
-			'wiki',
-			'wiktionary',
-			'wikibooks',
-			'wikinews',
-			'wikiquote',
-			'wikisource',
-			'wikiversity',
-			'wikivoyage',
-			'commons',
-			'wikispecies',
-			'wikidata',
-			'mediawiki',
-			'metawiki' ];
-
 		extendedl10n.forEach( function ( prop ) {
 			formatted[ prop ] = siteDef[ prop ];
 		} );
@@ -242,8 +240,9 @@ Stats.format = function ( portal, list, options ) {
 			formatted.name = formatted.name.replace( /<\/?[^>]+(>|$)/g, '' );
 		}
 
+		// eslint-disable-next-line no-prototype-builtins
 		if ( Stats.nonStandardCodes.hasOwnProperty( formatted.code ) ) {
-			var nonStandardCode = Stats.nonStandardCodes[ formatted.code ];
+			nonStandardCode = Stats.nonStandardCodes[ formatted.code ];
 			top.code = nonStandardCode;
 			formatted.code = nonStandardCode;
 		}
