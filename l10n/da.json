@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"BoBrandt",
-			"Joedalton"
+			"Joedalton",
+			"Saederup92"
 		]
 	},
 	"language-name": "Dansk",
@@ -12,7 +13,7 @@
 		"title": "Wikipedia-apper er nu tilgængelige:",
 		"ios": "Download til iOS fra App Store",
 		"android": "Download til Android fra Google Play",
-		"other": "<a href=\"https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications\">Vis den fulde list over tilgængelige Wikipedia-apper</a>"
+		"other": "<a href=\"https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications\">Vis den fulde liste over tilgængelige Wikipedia-apper</a>"
 	},
 	"license": "Denne side er tilgængelig under licensen <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Vilkår for anvendelse",
