@@ -187,7 +187,7 @@ mw.storage = {
 		 * @return {string} Escaped string
 		 */
 		escape: function ( str ) {
-			return str.replace( /([\\{}()|.?*+\-\^$\[\]])/g, '\\$1' );
+			return str.replace( /([\\{}()|.?*+\-^$[\]])/g, '\\$1' );
 		}
 	};
 }( mw ) );

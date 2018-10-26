@@ -1,3 +1,4 @@
+/* eslint-env node */
 var Handlebars = require( 'handlebars' ),
 	helpers = {};
 
@@ -113,7 +114,7 @@ helpers.trim = function ( options ) {
  * Checks if an array contains an element.
  *
  * @param {Mixed} list
- * @param {array} elem
+ * @param {Array} elem
  * @param {Object} options Handlebars options object.
  * @return {Function}
  */

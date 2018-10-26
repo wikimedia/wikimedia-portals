@@ -1,5 +1,4 @@
-/* globals require */
-/* globals module, __dirname */
+/* eslint-env node, es6 */
 var _ = require( 'underscore' ),
 	hbs = require( '../../hbs-helpers.global.js' ),
 	fs = require( 'fs' ),
@@ -65,9 +64,9 @@ function getPreloadLinks() {
 		}
 	].forEach( function ( source ) {
 		glob.sync( source.pattern, { cwd: __dirname } )
-		.forEach( function ( href ) {
-			preloadLinks.push( { href: href, as: source.as } );
-		} );
+			.forEach( function ( href ) {
+				preloadLinks.push( { href: href, as: source.as } );
+			} );
 	} );
 
 	return preloadLinks;
@@ -81,7 +80,7 @@ function createTranslationsChecksum( siteStats ) {
 	var data = JSON.stringify( siteStats ),
 		hash = crypto.createHash( 'md5' ).update( data ).digest( 'hex' );
 
-	// truncating hash for legibility
+	// Truncating hash for legibility
 	hash = hash.substring( 0, 8 );
 	return hash;
 }

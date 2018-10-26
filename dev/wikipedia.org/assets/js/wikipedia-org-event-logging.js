@@ -8,7 +8,7 @@
 	var portalSchema, eventSections, docForms, eventData,
 		geoCookieCountry = document.cookie.match( /GeoIP=.[^:]/ ),
 		// It's possible that geoCookieCountry is defined but geoCookieState is not.
-		// e.g., with an adblocker enabled: "GeoIP=US:::38.00:-97.00:v4; CP=H2".
+		// E.g., with an adblocker enabled: "GeoIP=US:::38.00:-97.00:v4; CP=H2".
 		geoCookieState = document.cookie.match( /GeoIP=.[^:].{2}[^:]/ ),
 		country,
 		i;
@@ -19,7 +19,7 @@
 
 	portalSchema = {
 		name: 'WikipediaPortal',
-		// revision # from https://meta.wikimedia.org/wiki/Schema:WikipediaPortal
+		// Revision # from https://meta.wikimedia.org/wiki/Schema:WikipediaPortal
 		revision: 15890769,
 		defaults: {
 			session_id: wmTest.sessionId,
@@ -147,7 +147,7 @@
 		};
 		eventLoggingLite.logEvent( portalSchema, eventData );
 
-		// clearing event data after logging event.
+		// Clearing event data after logging event.
 		eventData = null;
 
 	}
@@ -242,7 +242,7 @@
 	}
 
 	/**
-	 * adding event listeners to DOM load, document click, and forms
+	 * Adding event listeners to DOM load, document click, and forms
 	 */
 	addEvent( document, 'click', interceptClick );
 	addEvent( document, 'change', interceptChange );
@@ -254,14 +254,14 @@
 	}
 
 	/**
-	 * loading geoIP and sending landing event.
+	 * Loading geoIP and sending landing event.
 	 */
 
 	if ( geoCookieCountry ) {
 		country = geoCookieCountry.toString().split( '=' )[ 1 ];
 		if ( country === 'US' && geoCookieState ) {
 			/**
-			 * if the country is United States, we need to obain the 2-letter state name (T136257)
+			 * If the country is United States, we need to obain the 2-letter state name (T136257)
 			 * e.g. "GeoIP=US:CA:..." becomes "US:CA" using a slight modification to the regex:
 			 */
 			portalSchema.defaults.country = geoCookieState.toString().split( '=' )[ 1 ];
