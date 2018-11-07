@@ -1,14 +1,13 @@
 <div class="search-container">
-
     <form class="pure-form" id="search-form" action="//www.wikipedia.org/search-redirect.php" data-el-section="search">
         <fieldset>
-
             <!-- search-redirect.php is project-independent, requires a family -->
             <input type="hidden" name="family" value="wikipedia">
 
             <input type="hidden" id="hiddenLanguageInput" name="language" value="en">
 
             <div class="search-input" id="search-input">
+                <label for="searchInput" class="screen-reader-text" data-jsl10n="search-input-label">Search Wikipedia</label>
                 <input id="searchInput" name="search" type="search" size="20" autofocus="autofocus" accesskey="F" dir="auto" autocomplete="off" list="suggestions">
 
                 <div class="styled-select no-js">

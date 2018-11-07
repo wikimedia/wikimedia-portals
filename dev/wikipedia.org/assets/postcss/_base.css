@@ -458,5 +458,20 @@ th {
 
 .hidden,
 [hidden] {
-    display: none !important;
+  display: none !important;
+}
+
+/* Screen Reader only class
+   ========================================================================== */
+
+.screen-reader-text {
+  display: block;
+  position: absolute !important; /* stylelint-disable-line declaration-no-important */
+  clip: rect( 1px, 1px, 1px, 1px );
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
 }
