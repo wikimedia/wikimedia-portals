@@ -258,8 +258,7 @@
 				// Focus the search box.
 				search.focus();
 			} else {
-				// Autofocus causes scrolling in most browsers that
-				// support it.
+				// Autofocus causes scrolling in most browsers that support it.
 				window.scroll( 0, 0 );
 			}
 
@@ -289,8 +288,7 @@
 		}
 	} );
 
-	// Based on jquery.hidpi module with the jQuery removed and support for the
-	// full srcset syntax added.
+	// Based on jquery.hidpi module with jQuery removed & support for full srcset syntax added.
 
 	/**
 	 * Matches a srcset entry for the given device pixel ratio.
