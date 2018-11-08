@@ -48,7 +48,7 @@
 		 */
 		function createJSLangLabel() {
 			var langLabel = document.createElement( 'label' );
-			langLabel.setAttribute( 'for', 'language' );
+			langLabel.setAttribute( 'for', 'searchLanguage' );
 			langLabel.setAttribute( 'id', 'jsLangLabel' );
 			langLabel.className = 'js-langpicker-label';
 			langLabel.innerText = select.value;
