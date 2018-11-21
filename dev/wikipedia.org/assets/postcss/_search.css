@@ -19,6 +19,11 @@
 	vertical-align: middle;
 }
 
+/* Hide text from visual browsers */
+.search-container button .svg-search-icon {
+	text-indent: -9999rem;
+}
+
 /*--- CSS tricks to make the search input a simple input */
 .search-container input[type="search"]::-webkit-search-decoration,
 .search-container input[type="search"]::-webkit-search-cancel-button,
