@@ -6,7 +6,8 @@
 			"Macofe",
 			"Jack who built the house",
 			"Kaganer",
-			"Stjn"
+			"Stjn",
+			"Vlad5250"
 		]
 	},
 	"language-name": "Русский",
@@ -24,6 +25,8 @@
 	"Privacy Policy": "Политика конфиденциальности",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ru",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ru",
+	"search-input-button": "Поиск",
+	"search-input-label": "Поиск по Википедии",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Свободная энциклопедия",

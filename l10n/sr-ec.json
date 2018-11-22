@@ -3,7 +3,9 @@
 		"authors": [
 			"Milicevic01",
 			"Nikola Smolenski",
-			"Obsuser"
+			"Obsuser",
+			"BadDog",
+			"Милан Јелисавчић"
 		]
 	},
 	"language-button-text": "Читај Википедију на свом језику",
@@ -19,6 +21,8 @@
 	"Privacy Policy": "Политика приватности",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/sr",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/sr",
+	"search-input-button": "Претражи",
+	"search-input-label": "Претражите Википедију",
 	"wiki": {
 		"name": "Википедија",
 		"slogan": "Слободна енциклопедија",
