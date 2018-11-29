@@ -4,19 +4,27 @@
 	float: none;
 	max-width: 95%;
 	width: 540px;
-	margin: 0 auto 1.95rem auto;
-	padding: 0.39rem;
+	margin: 0.4rem auto 1.95rem auto;
 	text-align: center;
 	vertical-align: middle;
 }
 
+.search-container fieldset {
+	/* Workaround for whitespace between `display: inline-block` elements.
+	 * Going for `4px` only to be on the safe side, where browsers add 4-5 px.
+	 * See https://stackoverflow.com/questions/4767971/how-do-i-center-float-elements
+	 */
+	word-spacing: -4px;
+}
+
 .search-container button {
 	margin: 0;
+    border-radius: 0 var( --border-radius-base ) var( --border-radius-base ) 0;
 	padding: 0.8rem 1.6rem;
-	z-index: var( --ss-button-z-index );
 	font-size: 1.6rem;
 	line-height: 1.6;
 	vertical-align: middle;
+	z-index: var( --ss-button-z-index );
 }
 
 /* Hide text from visual browsers */
@@ -25,8 +33,6 @@
 }
 
 /*--- CSS tricks to make the search input a simple input */
-.search-container input[type="search"]::-webkit-search-decoration,
-.search-container input[type="search"]::-webkit-search-cancel-button,
 .search-container input[type="search"]::-webkit-search-results-button,
 .search-container input[type="search"]::-webkit-search-results-decoration {
 	-webkit-appearance: none;
@@ -48,6 +54,7 @@
 	-webkit-appearance: textfield;
 	width: 100%;
 	height: 4.32rem;
+    border-radius: var( --border-radius-base ) 0 0 var( --border-radius-base );
 	padding: 0.8rem 10.24rem 0.8rem 0.8rem;
 	font-size: 1.6rem;
 	line-height: 1.6;
@@ -69,33 +76,23 @@
 	display: inline-block;
 	position: relative;
 	width: 73%;
-	margin-right: 0.8rem;
 	vertical-align: top;
 }
 
 /* Responsive mode */
 @media only screen and ( max-width: 480px ) {
-
-	.search-container {
-		margin-top: 0;
-	}
-
 	.search-container .pure-form fieldset {
-		margin-left: 0.5rem;
-		margin-right: 8rem;
+		margin-left: 1rem;
+		margin-right: 6.6rem; /* Equals button width + margin-left above */
 	}
 
 	.search-container .search-input {
-		margin-left: 0.5rem;
-		margin-right: -7rem;
-		margin-bottom: 0;
 		width: 100%;
+		margin-right: -6.6rem;
 	}
 
 	.search-container .pure-form button {
 		float: right;
-		right: -7rem;
-		margin: 0;
-		padding: 0.8rem 1.6rem;
+		right: -5.6rem; /* Equals button width */
 	}
 }
