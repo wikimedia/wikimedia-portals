@@ -1,7 +1,82 @@
 {
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
 	"language-name": "Tarandíne",
 	"language-name-romanized-sorted": "Tarandine",
+	"language-button-text": "Lìgge Uicchipèdie jndr'à lènga toje",
+	"footer-description": "Uicchipèdie jè ospitate da 'a Wikimedia Foundation, 'n'organizzazzione no-profit ca ospitesce pure 'nu sbuènne de otre pruggette.",
+	"app-links": {
+		"title": "Le app de Uicchipèdie mò so disponibbile:",
+		"ios": "Scareche pe iOS da l'App Store",
+		"android": "Scareche pe Android da Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>'Ndruche l'elenghe comblete de le applicaziune disponibbile pe Uicchipèdie</a>"
+	},
+	"license": "Sta pàgene jè disponibbile in base a 'a licenze <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribbuzione-Condivide a 'u stesse mode</a>",
+	"terms": "Termine de Ause",
+	"Privacy Policy": "Regole p'a privacy",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"search-input-button": "Cirche",
+	"search-input-label": "Cirche Uicchipèdie",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Uicchipèdie",
+		"slogan": "'A 'ngeclopedije lìbbere",
+		"entries": "vôsce"
+	},
+	"wiktionary": {
+		"name": "Uicchizionarie",
+		"slogan": "Uicchizionarie libbere",
+		"entries": "vôsce"
+	},
+	"wikibooks": {
+		"name": "Uicchilibbre",
+		"slogan": "Manuale e libbre de teste libbere",
+		"entries": "pàggene"
+	},
+	"wikinews": {
+		"name": "Uicchinuvetà",
+		"slogan": "'A fonde de notizie libbere",
+		"entries": "vôsce"
+	},
+	"wikiquote": {
+		"name": "Uicchiquote",
+		"slogan": "Aforisme e citaziune libbere",
+		"entries": "vôsce"
+	},
+	"wikisource": {
+		"name": "Uicchisurgende",
+		"slogan": "'A bibblioteche libbere"
+	},
+	"wikiversity": {
+		"name": "Uicchiversità",
+		"slogan": "Materiale de corse libbere",
+		"entries": "'mbaranne le resorse"
+	},
+	"wikivoyage": {
+		"name": "Uicchivoyage",
+		"slogan": "Guide turisteche libbere"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Fote ausabbele libberamende e otre"
+	},
+	"wikispecies": {
+		"name": "Uicchispecie",
+		"slogan": "Cataloghe libbere de le specie"
+	},
+	"wikidata": {
+		"name": "Uicchidata",
+		"slogan": "Database de canoscenze libbere"
+	},
+	"mediawiki": {
+		"name": "MediaUicchi",
+		"slogan": "Applecazione uicchi gratis & aperte"
+	},
+	"metawiki": {
+		"name": "Meta-Uicchi",
+		"slogan": "Comunitate de coordinamende e documendazione"
 	}
 }

@@ -3,19 +3,26 @@
 		"authors": [
 			"Kumkumuk",
 			"Mirzali",
-			"Asmen"
+			"Asmen",
+			"Orbot707"
 		]
 	},
 	"language-name": "Zazaki",
 	"language-button-text": "Wikipediyay zıwan dê xod bıwan",
 	"footer-description": "Wikipediya, weqıfê wikimedya de dariya we, zey ê organizasyonanê proceyanê binan.",
 	"app-links": {
-		"android": "Google Play ra seba Androidi rê biyarê war"
+		"title": "Hıni aplikasyonanê Wikipedia şenê cı resê",
+		"ios": "App Store ra seba iOS'i biyarê war",
+		"android": "Google Play ra seba Androidi rê biyarê war",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Lista aplikasyonanê Wikipedia pêroyın bivine/a>"
 	},
+	"license": "Na pele <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lisansê Creative Commons Attribution-ShareAlike</a> bın de mewcuda",
 	"terms": "Şertê gureynayışi",
 	"Privacy Policy": "Madeyê Dızdiye",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/diq",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/diq",
+	"search-input-button": "Cı geyre",
+	"search-input-label": "Wikipediya de cı geyre",
 	"wiki": {
 		"name": "Wikipediya",
 		"slogan": "Ansiklopediya Xoser",

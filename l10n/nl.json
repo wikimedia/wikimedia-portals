@@ -3,12 +3,14 @@
 		"authors": [
 			"Siebrand",
 			"Wikibelgiaan",
-			"Romaine"
+			"Romaine",
+			"Elroy"
 		]
 	},
 	"language-name": "Nederlands",
 	"language-button-text": "Lees Wikipedia in uw taal",
 	"footer-description": "Wikipedia wordt gehost door de Wikimedia Foundation, een non-profitorganisatie die ook andere projecten host.",
+	"search-input-button": "Zoeken",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "De vrije encyclopedie",

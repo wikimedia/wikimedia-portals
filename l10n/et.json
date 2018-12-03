@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pikne"
+			"Pikne",
+			"Pyscowicz"
 		]
 	},
 	"language-name": "Eesti",
@@ -16,6 +17,10 @@
 	"license": "See lehekülg on saadaval Creative Commonsi litsentsi \"<a href='https://creativecommons.org/licenses/by-sa/3.0/deed.et'>Autorile viitamine + jagamine samadel tingimustel</a>\" all.",
 	"terms": "Kasutustingimused",
 	"Privacy Policy": "Andmekaitsereeglid",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"search-input-button": "Otsi",
+	"search-input-label": "Otsi Vikipeediast",
 	"wiki": {
 		"name": "Vikipeedia",
 		"slogan": "Vaba entsüklopeedia",
@@ -55,9 +60,11 @@
 		"slogan": "Vaba reisijuht"
 	},
 	"commons": {
+		"name": "Commons",
 		"slogan": "Vabalt kasutatavad fotod ja muud"
 	},
 	"wikispecies": {
+		"name": "Wikispecies",
 		"slogan": "Vaba liigikataloog"
 	},
 	"wikidata": {
@@ -65,6 +72,7 @@
 		"slogan": "Vaba teadmusbaas"
 	},
 	"mediawiki": {
+		"name": "MediaWiki",
 		"slogan": "Vaba ja avatud vikitarkvara"
 	},
 	"metawiki": {

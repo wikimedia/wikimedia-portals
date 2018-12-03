@@ -4,7 +4,8 @@
 			"Macofe",
 			"Koavf",
 			"Fitoschido",
-			"La Mantis"
+			"La Mantis",
+			"Ktranz"
 		]
 	},
 	"language-name": "Español",
@@ -23,6 +24,8 @@
 	"Privacy Policy": "Normativa de privacidad",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/es",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/es",
+	"search-input-button": "Buscar",
+	"search-input-label": "Buscar en Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "La enciclopedia libre",

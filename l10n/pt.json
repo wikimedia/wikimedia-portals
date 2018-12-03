@@ -19,10 +19,12 @@
 		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Ver a lista completa das aplicações disponíveis da Wikipédia</a>"
 	},
 	"license": "Esta página está disponível sob a <a href='https://creativecommons.org/licenses/by-sa/3.0/pt/'>licença Creative Commons Atribuição-Compartilha Igual</a>",
-	"terms": "Termos de utilização",
+	"terms": "Condições de utilização",
 	"Privacy Policy": "Política de privacidade",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/pt",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/pt",
+	"search-input-button": "Pesquisar",
+	"search-input-label": "Pesquisar na Wikipédia",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "A enciclopédia livre",
