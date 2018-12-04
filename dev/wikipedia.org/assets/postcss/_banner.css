@@ -5,7 +5,7 @@ body {
 
 .banner-container {
 	display: none;
-	padding: 0 16px;
+	padding: 0 24px;
 }
 .banner-container.banner-visible {
 	display: block;
@@ -210,13 +210,13 @@ body {
 
 	/*Fixed left*/
 	.banner--is-fixed-left {
-		left: 16px;
+		left: 24px;
 	}
 
 	/*Fixed right*/
 	.banner--is-fixed-right {
 		left: auto;
-		right: 16px;
+		right: 24px;
 	}
 
 	/*Add padding at the bottom of the page so the fixed bottom banner doesn’t overlap*/
