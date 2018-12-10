@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Piramidion",
-			"Vlad5250"
+			"Vlad5250",
+			"Movses"
 		]
 	},
 	"language-name": "Українська",
@@ -21,6 +22,7 @@
 	"Privacy Policy": "Політика конфіденційності",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/uk",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/uk",
+	"search-input-button": "Пошук",
 	"search-input-label": "Пошук по Вікіпедії",
 	"wiki": {
 		"name": "Вікіпедія",

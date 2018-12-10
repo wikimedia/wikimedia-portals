@@ -1,75 +1,78 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jawadywn"
+			"Jawadywn",
+			"Masjawad99"
 		]
 	},
-	"language-button-text": "Baco Wikipédia caro dulur",
-	"footer-description": "Wikipédia niki digawéke ulih Wikimédia Foundation, organisasi nirlaba yang jugo nggawéke betébék proyek laén.",
+	"language-button-text": "Baco Wikipédia ngan baso Dulur",
+	"footer-description": "Wikipédia ini begawé lantak Wikimédia Foundation, organisasi nirlaba yang jugo nggawéke betébék proyék laén.",
 	"app-links": {
-		"title": "App Wikipédia mak ini la ado:",
+		"title": "App Wikipédia mak ini elah ado:",
 		"ios": "Mintak vérsi iOS di App Store",
 		"android": "Mintak vérsi Android di Google Play",
 		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Selék galo-galo app Wikipédia</a>"
 	},
-	"license": "Laman niki ado dalem <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
-	"terms": "Ketentuan Penggunaan",
+	"license": "Laman ini ado di jero <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Aturan Pemakian",
 	"Privacy Policy": "Kebijakan Privasi",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/id",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/id",
+	"search-input-button": "Cari",
+	"search-input-label": "Cari Wikipédia",
 	"wiki": {
 		"name": "Wikipédia",
-		"slogan": "Ensiklopédia baséng",
-		"entries": "Tulisan"
+		"slogan": "Ensiklopédi peréi",
+		"entries": "artikel"
 	},
 	"wiktionary": {
 		"name": "Wikikamus",
-		"slogan": "Kamus baséng",
-		"entries": "entri"
+		"slogan": "Kamus peréi",
+		"entries": "éntri"
 	},
 	"wikibooks": {
 		"name": "Wikibuku",
-		"slogan": "Buku baséng",
+		"slogan": "Buku peréi",
 		"entries": "laman"
 	},
 	"wikinews": {
 		"name": "Wikikabar",
-		"slogan": "Kabar baséng",
-		"entries": "tulisan"
+		"slogan": "Kabar peréi",
+		"entries": "artikel"
 	},
 	"wikiquote": {
-		"name": "Wikiquote",
-		"slogan": "Koleksi kutipan bebas",
-		"entries": "tulisan"
+		"name": "Wikisadur",
+		"slogan": "Kumpulan saduran peréi",
+		"entries": "artikel"
 	},
 	"wikisource": {
-		"name": "Wikisource",
-		"slogan": "Perpustakaan bebas"
+		"name": "Wikisumber",
+		"slogan": "Perpustakaan peréi"
 	},
 	"wikiversity": {
-		"name": "Wikiversity",
-		"slogan": "Bahan pelajaran bebas",
-		"entries": "sumber daya pembelajaran"
+		"name": "Wikiversitas",
+		"slogan": "Bahan pelajaran peréi",
+		"entries": "sumber dayo pembelajaran"
 	},
 	"wikivoyage": {
-		"name": "Wikivoyage",
-		"slogan": "Situs perjalanan bebas"
+		"name": "Wikiwisato",
+		"slogan": "Situs pelancongan peréi"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Poto bebas & laennyo"
+		"slogan": "Poto peréi & laennyo"
 	},
 	"wikispecies": {
-		"name": "Wikispecies",
-		"slogan": "Petunjuk spesies bebas"
+		"name": "Wikispesies",
+		"slogan": "Petunjuk spesies peréi"
 	},
 	"wikidata": {
 		"name": "Wikidata",
-		"slogan": "Basis pengetahuan bebas"
+		"slogan": "Basis élmu peréi"
 	},
 	"mediawiki": {
 		"name": "MédiaWiki",
-		"slogan": "Aplikasi wiki bebas & terbuka"
+		"slogan": "Aplikasi wiki peréi & tebukak"
 	},
 	"metawiki": {
 		"name": "Méta-Wiki",
