@@ -3,7 +3,8 @@
 		"authors": [
 			"R-Joe",
 			"Minh Nguyen",
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Bencemac"
 		]
 	},
 	"language-name": "Magyar",
@@ -20,6 +21,8 @@
 	"Privacy Policy": "Adatvédelmi irányelvek",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/hu",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/hu",
+	"search-input-button": "Keresés",
+	"search-input-label": "Keresés a Wikipédiában",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "A szabad enciklopédia",
