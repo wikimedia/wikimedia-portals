@@ -153,18 +153,16 @@ body {
 	border-color: #ffb8b5;
 }
 
-.banner--is-red .banner__button {
-	background-color: var( --wmui-color-red50 );
-	border-color: var( --wmui-color-red50 );
+/*Yellow theme*/
+.banner--is-yellow {
+	background-color: var( --wmui-color-yellow90 );
+	border-color: #fce4b8;
 }
 
-.banner--is-red .banner__button:hover {
-	background-color: var( --color-destructive--hover );
-	border-color: var( --color-destructive--hover );
-}
-
-.banner--is-red .banner__button:focus {
-	box-shadow: inset 0 0 0 1px var( --wmui-color-red50 ), inset 0 0 0 2px var( --wmui-color-base100 );
+/*Green theme*/
+.banner--is-green {
+	background-color: var( --wmui-color-green90 );
+	border-color: #a8fae8;
 }
 
 /*Fixed styles*/
@@ -179,11 +177,6 @@ body {
 		left: 50%;
 		transform: translate( -50% );
 		margin: 0;
-	}
-
-	/*Fixed bottom*/
-	.banner--is-fixed-bottom {
-		bottom: 24px;
 	}
 
 	/*Fixed left and right*/
@@ -217,10 +210,5 @@ body {
 	.banner--is-fixed-right {
 		left: auto;
 		right: 24px;
-	}
-
-	/*Add padding at the bottom of the page so the fixed bottom banner doesn’t overlap*/
-	#portalBanner_en_2018-11-27_pos_fixedBottom.banner-visible ~ .site-license {
-		padding-bottom: 120px;
 	}
 }

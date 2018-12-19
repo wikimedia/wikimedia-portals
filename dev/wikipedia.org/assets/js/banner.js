@@ -19,7 +19,8 @@
 		bannerEl = allBannerEls[ Math.floor( Math.random() * allBannerEls.length ) ],
 		bannerCloseEl = bannerEl.querySelector( '.banner__close' ),
 		bannerLinkEl = bannerEl.querySelector( 'a' ),
-		bannerVisibleClass = 'banner-visible';
+		bannerVisibleClass = 'banner-visible',
+		currentDate = new Date();
 
 	addEvent( bannerCloseEl, 'click', function () {
 		document.cookie = 'hideWikipediaPortalBanner';
@@ -33,7 +34,8 @@
 	if ( !hideBanner &&
 		country &&
 		bannerCountries.indexOf( country ) > -1 &&
-		userLangs[ 0 ] === bannerLang
+		userLangs[ 0 ] === bannerLang &&
+		currentDate.getFullYear() === 2018
 	) {
 		bannerEl.classList.add( bannerVisibleClass );
 	}
