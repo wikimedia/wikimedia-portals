@@ -1,6 +1,81 @@
 {
+	"@metadata": {
+		"authors": [
+			"Icem4k"
+		]
+	},
 	"language-name": "Chichewa",
+	"language-button-text": "Werengani Wikipedia m'chinenero chanu",
+	"footer-description": "Wikipedia imayang'aniridwa ndi Wikimedia Foundation, bungwe lopanda ntchito yomwe imapanganso ntchito zina zambiri.",
+	"app-links": {
+		"title": "Mapulogalamu a Wikipedia alipo tsopano:",
+		"ios": "Sakanizani iOS pa App Store",
+		"android": "Sakanizani Android pa Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Onani mndandanda wonse wa mapulogalamu a Wikipedia omwe alipo</a>"
+	},
+	"license": "Tsamba ili likupezeka pansi pa<a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Mgwirizano pazakagwiritsidwe",
+	"Privacy Policy": "Mfundo Zazinsinsi",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"search-input-button": "Fufuzani",
+	"search-input-label": "Sakani Wikipedia",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Encyclopedia Yaulere",
+		"entries": "nkhani"
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "dikishonale yaulere",
+		"entries": "Zolemba"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "buku yaulere",
+		"entries": "tsamba"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Chitsime cha uthenga waulere",
+		"entries": "nkhani"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Mawu omasulira aulere",
+		"entries": "nkhani"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "laibulale yaulere"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Zida zamaphunziro yaulere",
+		"entries": "zophunzira"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Ulendo wamutsogolere wayulere"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Momasuka zithunzi zogwiritsidwa ntchito ndi zina zambiri"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Mndandanda wa mitundu yaulere"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Chidziwitso chaulere"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "ufulu ndi yotsegula wiki application"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Kugwirizana pakati pa anthu ndi zolemba"
 	}
 }
