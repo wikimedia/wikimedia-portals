@@ -75,7 +75,7 @@ video {
  * Remove excess height in iOS 5 devices.
  */
 
-audio:not( [controls] ) {
+audio:not( [ controls ] ) {
   display: none;
   height: 0;
 }
@@ -85,7 +85,7 @@ audio:not( [controls] ) {
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
 
-[hidden],
+[ hidden ],
 template {
   display: none;
 }
@@ -118,7 +118,7 @@ a:hover {
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
 
-abbr[title] {
+abbr[ title ] {
   border-bottom: 1px dotted;
 }
 
@@ -299,9 +299,9 @@ select {
  */
 
 button,
-html input[type="button"], /* 1 */
-input[type="reset"],
-input[type="submit"] {
+html input[ type="button" ], /* 1 */
+input[ type="reset" ],
+input[ type="submit" ] {
   -webkit-appearance: button; /* 2 */
   cursor: pointer; /* 3 */
 }
@@ -310,8 +310,8 @@ input[type="submit"] {
  * Re-set default cursor for disabled elements.
  */
 
-button[disabled],
-html input[disabled] {
+button[ disabled ],
+html input[ disabled ] {
   cursor: default;
 }
 
@@ -342,8 +342,8 @@ input {
  * 2. Remove excess padding in IE 8/9/10.
  */
 
-input[type="checkbox"],
-input[type="radio"] {
+input[ type="checkbox" ],
+input[ type="radio" ] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
@@ -354,8 +354,8 @@ input[type="radio"] {
  * decrement button to change from `default` to `text`.
  */
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[ type="number" ]::-webkit-inner-spin-button,
+input[ type="number" ]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -364,7 +364,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
 
-input[type="search"] {
+input[ type="search" ] {
   -webkit-appearance: none; /* 1 */
   box-sizing: content-box; /* 2 */
 }
@@ -375,8 +375,8 @@ input[type="search"] {
  * padding (and `textfield` appearance).
  */
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[ type="search" ]::-webkit-search-cancel-button,
+input[ type="search" ]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -386,7 +386,7 @@ input[type="search"]::-webkit-search-decoration {
  * Remove extra space between input borders and input outline.
  * Needed for Safari.
  */
-input[type="search"]:focus {
+input[ type="search" ]:focus {
     outline-offset: -2px;
 }
 
@@ -457,7 +457,7 @@ th {
  */
 
 .hidden,
-[hidden] {
+[ hidden ] {
   display: none !important;
 }
 

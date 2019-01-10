@@ -1,4 +1,4 @@
-/*Prevent horizontal scroll with Firefox on small screens*/
+/* Prevent horizontal scroll with Firefox on small screens */
 body {
 	overflow-x: hidden;
 }
@@ -7,16 +7,17 @@ body {
 	display: none;
 	padding: 0 24px;
 }
+
 .banner-container.banner-visible {
 	display: block;
 }
 
-/*Resets*/
+/* Resets */
 .banner-container *:focus {
 	outline: 0;
 }
 
-/*Styles*/
+/* Styles */
 .banner {
 	position: relative;
 	margin: 0 auto;
@@ -69,7 +70,7 @@ body {
 	width: 100%;
 }
 
-/*Text*/
+/* Text */
 .banner__cell {
 	padding-left: 16px;
 	padding-right: 16px;
@@ -95,7 +96,7 @@ body {
 	}
 }
 
-/*Button*/
+/* Button */
 .banner__cell:last-child {
 	padding-top: 8px;
 	padding-bottom: 12px;
@@ -140,32 +141,32 @@ body {
 	box-shadow: inset 0 0 0 1px var( --wmui-color-accent50 );
 }
 
-/*Themes*/
-/*Blue theme*/
+/* Themes */
+/* Blue theme */
 .banner--is-blue {
 	background-color: var( --wmui-color-accent90 );
 	border-color: #b8d7ff;
 }
 
-/*Red theme*/
+/* Red theme */
 .banner--is-red {
 	background-color: var( --wmui-color-red90 );
 	border-color: #ffb8b5;
 }
 
-/*Yellow theme*/
+/* Yellow theme */
 .banner--is-yellow {
 	background-color: var( --wmui-color-yellow90 );
 	border-color: #fce4b8;
 }
 
-/*Green theme*/
+/* Green theme */
 .banner--is-green {
 	background-color: var( --wmui-color-green90 );
 	border-color: #a8fae8;
 }
 
-/*Fixed styles*/
+/* Fixed styles */
 @media all and ( min-width: 900px ) {
 	.search-container + .banner-container {
 		margin-top: -10px;
@@ -179,11 +180,11 @@ body {
 		margin: 0;
 	}
 
-	/*Fixed left and right*/
+	/* Fixed left and right */
 	.banner--is-fixed-left,
 	.banner--is-fixed-right {
 		max-width: 200px;
-		margin-top: -24px; /*visually center it*/
+		margin-top: -24px; /* visually center it */
 		top: 50%;
 		transform: translateY( -50% );
 	}
@@ -201,12 +202,12 @@ body {
 		text-align: left;
 	}
 
-	/*Fixed left*/
+	/* Fixed left */
 	.banner--is-fixed-left {
 		left: 24px;
 	}
 
-	/*Fixed right*/
+	/* Fixed right */
 	.banner--is-fixed-right {
 		left: auto;
 		right: 24px;

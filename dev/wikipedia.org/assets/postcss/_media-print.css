@@ -1,7 +1,6 @@
 /* ::: Print stylesheet ::: */
 
 @media print {
-
 	body {
 		background-color: transparent;
 	}
@@ -21,5 +20,4 @@
 	img {
 		border: 0;
 	}
-
 }

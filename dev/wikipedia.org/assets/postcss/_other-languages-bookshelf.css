@@ -28,7 +28,6 @@
 }
 
 @media all and ( max-width: 480px ) {
-
 	.bookshelf {
 		width: auto;
 		left: auto;

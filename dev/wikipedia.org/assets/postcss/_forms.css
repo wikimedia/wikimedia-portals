@@ -11,7 +11,7 @@ also have border and padding. This is done because some browsers don't render
 the padding. We explicitly set the box-model for select elements to border-box,
 so we can ignore the csslint warning.
 */
-.pure-form input[type="search"] {
+.pure-form input[ type="search" ] {
     background-color: var( --background-color-base );
     display: inline-block;
     -webkit-box-sizing: border-box;
@@ -24,7 +24,7 @@ so we can ignore the csslint warning.
     vertical-align: middle;
 }
 
-.pure-form input:focus:invalid{
+.pure-form input:focus:invalid {
     color: var( --wmui-color-red30 );
     border-color: var( --wmui-color-red50 );
 }
@@ -36,7 +36,7 @@ so we can ignore the csslint warning.
 }
 
 @media only screen and ( max-width: 480px ) {
-    .pure-form input[type="search"]{
+    .pure-form input[ type="search" ] {
         display: block;
     }
 }

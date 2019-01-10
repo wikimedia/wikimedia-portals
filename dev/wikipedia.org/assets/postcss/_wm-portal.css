@@ -21,17 +21,21 @@
         padding: 0;
         text-align: left;
     }
+
     .search-container label {
         display: none;
     }
+
     .search-form #searchInput {
         max-width: 40%;
         vertical-align: middle;
     }
+
     .search-form .formBtn {
         max-width: 25%;
         vertical-align: middle;
     }
+
     form fieldset {
         margin: 0;
         border-left: 0;
@@ -46,7 +50,6 @@
 /* stylelint-disable media-feature-name-no-unknown */
 /* Subpixel borders supported in Gecko, Trident */
 @media ( min--moz-device-pixel-ratio: 2 ), ( min-resolution: 2dppx ), ( min-resolution: 192dpi ) {
-
     hr {
         border-bottom-width: 0.5px;
     }
@@ -55,7 +58,6 @@
 
 /* Subpixel borders not supported in older releases of Blink, WebKit */
 @supports ( -webkit-marquee-style: slide ) {
-
     hr {
         border-bottom-width: 1px;
     }

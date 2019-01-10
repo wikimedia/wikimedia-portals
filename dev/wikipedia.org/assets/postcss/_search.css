@@ -32,9 +32,9 @@
 	text-indent: -9999rem;
 }
 
-/*--- CSS tricks to make the search input a simple input */
-.search-container input[type="search"]::-webkit-search-results-button,
-.search-container input[type="search"]::-webkit-search-results-decoration {
+/* --- CSS tricks to make the search input a simple input */
+.search-container input[ type="search" ]::-webkit-search-results-button,
+.search-container input[ type="search" ]::-webkit-search-results-decoration {
 	-webkit-appearance: none;
 }
 

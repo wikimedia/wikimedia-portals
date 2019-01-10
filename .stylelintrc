@@ -5,8 +5,7 @@
 		"font-family-name-quotes": [ "always-where-recommended" ],
 		"indentation": null,
 		"no-descending-specificity": null,
-		"selector-no-id": null,
-		"selector-root-no-composition": null,
+		"selector-max-id": null,
 		"string-quotes": null
 	}
 }

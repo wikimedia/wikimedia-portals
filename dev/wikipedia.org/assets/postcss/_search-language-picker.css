@@ -20,14 +20,12 @@
 .styled-select .hide-arrow {
 	right: 3.2rem;
 	max-width: 6.8rem;
-
 	height: var( --ss-height );
 	padding: 0;
-
 	overflow: hidden;
 	text-align: right;
-
 }
+
 .styled-select select {
 	background: transparent;
 	display: inline;
@@ -41,7 +39,7 @@
 	border: 0;
 	line-height: 1.95rem;
 
-	/*hide default down arrow in webkit */
+	/* Hide default down arrow in webkit */
 	-webkit-appearance: none;
 
 	/* Firefox */
@@ -74,7 +72,6 @@
 
 .styled-select.no-js .hide-arrow {
     width: 6.8rem;
-
 }
 
 .search-container .styled-select.no-js .js-langpicker-label {
@@ -107,6 +104,7 @@
 .styled-select.js-enabled select option {
     color: var( --ss-c-grey );
 }
+
 .styled-select.js-enabled select:hover {
     background-color: transparent;
 }
@@ -139,6 +137,7 @@
 .styled-select select:hover {
     background-color: var( --ss-c-grey-hover );
 }
+
 .styled-select select::-ms-expand {
     display: none; /* hide default down arrow in IE10 */
 }

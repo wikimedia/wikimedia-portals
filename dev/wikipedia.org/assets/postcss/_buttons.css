@@ -21,7 +21,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
-    /* from OOjs UI */
+    /* from OOUI */
     background-color: var( --background-color-framed );
     color: var( --color-base );
     position: relative;
@@ -51,12 +51,14 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     border-color: var( --border-color-base--hover );
 	color: var( --color-base--hover );
 }
+
 .pure-button-active,
 .pure-button:active {
     background-color: var( --background-color-framed--active );
     border-color: var( --border-color-base--active );
 	color: var( --color-base--active );
 }
+
 .pure-button:focus {
 	outline: 0;
     border-color: var( --color-primary--focus );
@@ -69,17 +71,19 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     border-color: var( --color-primary );
     color: var( --color-base--inverted );
 }
+
 .pure-button-primary-progressive:hover {
     background: var( --color-primary--hover );
     border-color: var( --color-primary--hover );
 }
+
 .pure-button-primary-progressive:active {
     background-color: var( --color-primary--active );
     border-color: var( --color-primary--active );
     box-shadow: none;
 	color: var( --color-base--inverted );
-
 }
+
 .pure-button-primary-progressive:focus {
     box-shadow: inset 0 0 0 1px var( --color-primary--focus ), inset 0 0 0 2px var( --color-base--inverted );
     border-color: var( --color-primary--focus );

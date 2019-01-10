@@ -46,7 +46,6 @@
 }
 
 @media all and ( max-width: 480px ) {
-
 	.central-textlogo {
 		position: relative;
 		height: 70px;
@@ -91,7 +90,6 @@
 }
 
 @media all and ( max-width: 240px ) {
-
 	.central-textlogo__image {
 		height: auto;
 	}

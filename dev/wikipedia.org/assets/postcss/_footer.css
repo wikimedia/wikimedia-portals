@@ -60,12 +60,12 @@
     margin-left: 0.8rem; /* margins differ to account for inline-block white-space */
     margin-right: 0.5rem;
 }
+
 .site-license small:last-child:after {
     display: none;
 }
 
 @media screen and ( max-width: 768px ) {
-
     .footer {
 		display: flex;
 		flex-direction: column;
@@ -75,7 +75,7 @@
     .footer .footer-sidebar {
         /* for whatever reason, autoprefixer was
         prefixing these two prefixed properties incorrectly.
-        Giving them a x + 1 value, instead of just x.*/
+        Giving them a x + 1 value, instead of just x. */
         -webkit-box-ordinal-group: 1;
         -moz-box-ordinal-group: 1;
         order: 1;

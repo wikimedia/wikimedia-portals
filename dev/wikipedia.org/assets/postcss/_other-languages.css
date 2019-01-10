@@ -128,13 +128,9 @@
 }
 
 .langlist-others {
-	/*margin: 0 3em 2em 3em;*/
+	/* margin: 0 3em 2em 3em; */
 	font-weight: bold;
 }
-
-/*.langlist-large {*/
-    /*font-size: inherit;*/
-/*}*/
 
 /**
  * Style for horizontal lists (separator following item).
@@ -195,6 +191,7 @@
     text-align: center;
     list-style-type: circle;
 }
+
 .no-js .langlist > ul > li {
     display: inline-block;
     padding: 0 0.8rem;
@@ -226,7 +223,6 @@
 }
 
 @media all and ( max-width: 480px ) {
-
     .langlist {
         font-size: inherit;
     }
@@ -240,8 +236,8 @@
         width: auto;
         margin-left: 0.8rem;
         margin-right: 0.8rem;
-
     }
+
     .bookshelf {
         overflow: visible;
     }
