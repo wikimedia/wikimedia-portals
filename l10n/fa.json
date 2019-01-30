@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Yoosef Pooranvary",
-			"Reza1615"
+			"Reza1615",
+			"Amirsara"
 		]
 	},
 	"language-name": "فارسی",
@@ -12,7 +13,7 @@
 	"footer-description": "ویکی‌پدیا یکی از پروژه‌هایی است که توسط بنیاد ناسودبر ویکی‌مدیا میزبانی می‌شود.",
 	"app-links": {
 		"title": "هم‌اکنون اپلیکیشن‌های ویکی‌پدیا در دسترس هستند:",
-		"ios": "بارگذاری نسخهٔ iOS از App Store",
+		"ios": "دریافت برای  iOS از App Store",
 		"android": "بارگذاری نسخهٔ اندروید از Google Play",
 		"other": "\n<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>نمایش فهرست کامل همهٔ اپلیکیشن‌های ویکی‌پدیا</a>"
 	},

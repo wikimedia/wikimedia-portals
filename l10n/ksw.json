@@ -1,0 +1,80 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jaeminlovetaejoon",
+			"Rul1902"
+		]
+	},
+	"language-button-text": "ဖးဝံၣ်ကံးဖံဒံာ်ယၤလၢနကျိာ်",
+	"app-links": {
+		"title": "ဝံၣ်ကံးဖံဒံာ်ယၤ အဲၣ်ဖု န့ၢ်ပသူအီၤသ့လံ",
+		"ios": "ဒီလိာ်လီၤလၢ iOS အပူၤလၢ App Store",
+		"android": "ဒီလိာ်လီၤလၢ Android အပူၤလၢ Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>View full list of available Wikipedia apps</a>"
+	},
+	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "တၢ်သူတၢ် အတၢ်ကတိၤတဘီ",
+	"Privacy Policy": "တၢ်ခူသူၣ်တၢ်ဘျၢ",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"search-input-button": "ဃုထၢ",
+	"search-input-label": "ဃုထၢ ဝံၣ်ကံးဖံဒံာ်ယၤ",
+	"wiki": {
+		"name": "ဝံၣ်ကံးဖံဒံာ်ယၤ",
+		"slogan": "လံာ်ထံးလံာ်ယ့ၤလၢအတလၢၤကျိၣ်စ့ဘၣ်",
+		"entries": "တၢ်ကွဲးဖုၣ်"
+	},
+	"wiktionary": {
+		"name": "ဝံၣ်ကံးစ့ၤနဲရံၤ",
+		"slogan": "လံာ်ခီယ့ၤလၢအတလၢၤကျိၣ်စ့ဘၣ်",
+		"entries": "တၢ်လဲၤနုာ်"
+	},
+	"wikibooks": {
+		"name": "ဝံၣ်ကံးလံာ်",
+		"slogan": "ကၠိလံာ်ဖးလၢအတၢၤလၢကျိၣ်စ့ဘၣ်",
+		"entries": "ကဘျံးပၤ"
+	},
+	"wikinews": {
+		"name": "ဝံၣ်ကံးတၢ်ကစီၣ်",
+		"slogan": "စိၣ်စု လၢအခီလီ",
+		"entries": "တၢ်ကွဲးဖုၣ်"
+	},
+	"wikiquote": {
+		"name": "ဝံၣ်ကံးတဲဒိးပှၤဂၤအတၢ်ကတိၤ",
+		"slogan": "ပှၤဂၤအတၢ်ကတိၤလၢနသူအီၤတလၢၤကျိၣ်စ့ဘၣ်",
+		"entries": "တၢ်ကွဲးဖုၣ်"
+	},
+	"wikisource": {
+		"name": "ဝံၣ်ကံးစိၣ်စု",
+		"slogan": "လံာ်ရိဒၢးလၢအတလၢၤကျိၣ်စ့ဘၣ်"
+	},
+	"wikiversity": {
+		"name": "ဝံၣ်ကံးဖၢဆံထံး",
+		"slogan": "မးလိတၢ်လၢအတလၢၤကျိၣ်စ့ဘၣ်",
+		"entries": "မၤလိတၢ် ရံစီၣ်စု"
+	},
+	"wikivoyage": {
+		"name": "ဝံၣ်ကံးတၢ်လဲၤတၢ်ကျဲလၢထံကျါ",
+		"slogan": "တၢ်လဲၤတၢ်က့ၤတၢ်လၢတၢ်နဲၣ်ကျဲအဂီၢ်န့ၢ်အတလၢၤကျိၣ်စ့ဘၣ်"
+	},
+	"commons": {
+		"name": "တၢ်ညီညုၢ်",
+		"slogan": "တၢ်ဂီၤလၢနသူအီၤတလၢၤကျိၣ်စ့ဘၣ်"
+	},
+	"wikispecies": {
+		"name": "ဝံၣ်ကံးစၢပံၣ်ဆှံၤ",
+		"slogan": "တၢ်လဲၤနဲၣ်ဘၣ်ဃးစၢပံၣ်ဆှံၤ လၢအတလၢၤကျိၣ်စ့ဘၣ်"
+	},
+	"wikidata": {
+		"name": "ဝံၣ်ကံးဒ့ဒၤ",
+		"slogan": "တၢ်ကူၣ်ဘၣ်ကူၣ်သ့လၢအတလၢၤကျိၣ်စ့ဘၣ်"
+	},
+	"mediawiki": {
+		"name": "မံဒံာ်ယၤဝံၣ်ကံး",
+		"slogan": "ခီလီ ဒီး ဝံၣ်ကံး တၢ်ဆှိးထီၣ်တၢ်"
+	},
+	"metawiki": {
+		"name": "မဲထါ-ဝံၣ်ကံး",
+		"slogan": "ဝံၣ်ကံၤမံဒံၤယၤတၢ်တိာ်ကျဲၤကရၢကရိထီၣ်"
+	}
+}
