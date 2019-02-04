@@ -1,14 +1,82 @@
 {
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
 	"language-name": "Norsk (Nynorsk)",
 	"language-name-romanized-sorted": "Norsk Nynorsk",
+	"language-button-text": "Les Wikipedia på språket ditt",
+	"footer-description": "Wikipedia vert drive av Wikimedia Foundation, ein ideel organisasjon som òg driv ei rekke andre prosjekt.",
+	"app-links": {
+		"title": "Wikipedia-appar er no tolgjengelege:",
+		"ios": "Last ned for iOS i App Store",
+		"android": "Last ned for Android i Google Play",
+		"other": "<a href=\"https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications\">Syn heile lista over tilgjengelege Wikipedia-appar</a>"
+	},
+	"license": "Denne sida er tilgjengeleg under lisensen <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons-Namngiving-Del på same vilkår</a>",
+	"terms": "Bruksvilkår",
+	"Privacy Policy": "Personvernspolitikk",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"search-input-button": "Søk",
+	"search-input-label": "Søk i Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "det frie oppslagsverket"
+		"slogan": "det frie oppslagsverket",
+		"entries": "artiklar"
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Wiktionary",
+		"slogan": "Fri ordbok",
+		"entries": "oppslag"
+	},
+	"wikibooks": {
+		"name": "Wikibøker",
+		"slogan": "Frie lærebøker",
+		"entries": "sider"
+	},
+	"wikinews": {
+		"name": "Wikinytt",
+		"slogan": "Fri nyhendekjelde",
+		"entries": "artiklar"
 	},
 	"wikiquote": {
-		"name": "Wikiquote"
+		"name": "Wikiquote",
+		"slogan": "Fri sitatsamling",
+		"entries": "artiklar"
+	},
+	"wikisource": {
+		"name": "Wikikjelda",
+		"slogan": "Fritt bibliotek"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Fritt kursmateriale",
+		"entries": "læringsressursar"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Fri reiseguide"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Bilete og meir til fri bruk"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Fri artsdatabase"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Fri kunnskapsdatabase"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Fri og open wikiprogramvare"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Koordinerings- og dokumentasjonssenter"
 	}
 }

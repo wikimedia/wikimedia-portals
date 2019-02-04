@@ -22,6 +22,8 @@
 	"Privacy Policy": "رازداری کے اصول",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ur",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ur",
+	"search-input-button": "تلاش",
+	"search-input-label": "ویکیپیڈیا میں تلاش",
 	"wiki": {
 		"name": "ویکیپیڈیا",
 		"slogan": "آزاد دائرۃ المعارف",
@@ -33,17 +35,17 @@
 		"entries": "اندراجات"
 	},
 	"wikibooks": {
-		"name": "وکی کتب",
+		"name": "ویکی کتب",
 		"slogan": "آزاد کتابیں",
 		"entries": "صفحات"
 	},
 	"wikinews": {
-		"name": "ویکی خبریں",
+		"name": "ویکی‌ اخبار",
 		"slogan": "خبروں کا آزاد ماخذ",
 		"entries": "مضامین"
 	},
 	"wikiquote": {
-		"name": "وکی اقتباسات",
+		"name": "ویکی اقتباس",
 		"slogan": "آزاد اقتباسات کا مجموعہ",
 		"entries": "مضامین"
 	},
