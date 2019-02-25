@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"YaronSh"
 		]
 	},
 	"language-name": "עברית",
@@ -20,6 +21,8 @@
 	"Privacy Policy": "מדיניות פרטיות",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/he",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/he",
+	"search-input-button": "חיפוש",
+	"search-input-label": "חיפוש בוויקיפדיה",
 	"wiki": {
 		"name": "ויקיפדיה",
 		"slogan": "האנציקלופדיה החופשית",
