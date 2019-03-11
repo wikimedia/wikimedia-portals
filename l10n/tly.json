@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Гусейн"
+			"Гусейн",
+			"12imom"
 		]
 	},
 	"wiki": {
-		"name": "Википедијә",
-		"slogan": "Озодә енсиклопедијә",
-		"entries": "мәғолон"
+		"name": "Vikipedia",
+		"slogan": "oja ensiklopedia",
+		"entries": "məqalon"
 	},
 	"wiktionary": {
 		"name": "Викилуғәт",
@@ -18,7 +19,7 @@
 		"name": "Викикитоб"
 	},
 	"wikinews": {
-		"name": "Викихәбон",
+		"name": "Vikixəbə",
 		"entries": "мәғолон"
 	},
 	"wikiquote": {
