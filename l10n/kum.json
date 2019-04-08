@@ -1,0 +1,51 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArslanX"
+		]
+	},
+	"terms": "Къоллав шартлары",
+	"Privacy Policy": "Энчилилик ёругъу",
+	"search-input-button": "Излев",
+	"search-input-label": "Википедияда излемек",
+	"wiki": {
+		"name": "Википедия",
+		"slogan": "Эркин энсиклопедия",
+		"entries": "макъалалар"
+	},
+	"wiktionary": {
+		"name": "Викисёзлюк",
+		"slogan": "Эркин сёзлюк"
+	},
+	"wikibooks": {
+		"name": "Викикитап",
+		"slogan": "Эркин китаплар",
+		"entries": "сагьифалар"
+	},
+	"wikinews": {
+		"name": "Викиянгылыкълар",
+		"entries": "макъалалар"
+	},
+	"wikiquote": {
+		"entries": "макъалалар"
+	},
+	"wikisource": {
+		"name": "Викичыкъмакълыкъ",
+		"slogan": "Эркин китапхана"
+	},
+	"wikiversity": {
+		"name": "Викиверситет"
+	},
+	"wikivoyage": {
+		"name": "Викигезев"
+	},
+	"wikidata": {
+		"name": "Викиберимлер"
+	},
+	"mediawiki": {
+		"name": "МедиаВики"
+	},
+	"metawiki": {
+		"name": "Мета-вики"
+	}
+}
