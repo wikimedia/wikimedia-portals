@@ -1,18 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Armeniki"
+			"Armeniki",
+			"Kareyac"
 		]
 	},
 	"language-button-text": "Կարդացէք՛ Ուքիփետիան ձեր լեզուով",
 	"Privacy Policy": "Մտերմութեան Ապահովագիր",
+	"search-input-button": "Որոնել",
+	"search-input-label": "Որոնել Վիքիպետիա կայքին մէջ",
 	"wiki": {
 		"name": "Ուիքիփետիա",
+		"slogan": "Ազատ հանրագիտարան",
 		"entries": "յօդուածներ"
 	},
 	"wiktionary": {
 		"name": "Ուիքիբառարան",
-		"slogan": "Ցրի բառարան"
+		"slogan": "Ցրի բառարան",
+		"entries": "յօդուածներ"
 	},
 	"wikibooks": {
 		"name": "Ուիքիգիրքեր",
