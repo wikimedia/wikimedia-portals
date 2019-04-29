@@ -1,7 +1,82 @@
 {
+	"@metadata": {
+		"authors": [
+			"Aguve"
+		]
+	},
 	"language-name": "Eʋegbe",
 	"language-name-romanized-sorted": "Ewegbe",
+	"language-button-text": "Xlẽ Wikipedia le mia degbe me",
+	"footer-description": "Wikimedia Dɔwɔha lae kpɔa Wikipedia dzi, egakpɔ gbogbo aɖewo hã dzi.",
+	"app-links": {
+		"title": "Wikipedia dɔwɔnuwo li azɔ:",
+		"ios": "He wo le App Store hena iOS-wo",
+		"android": "He wo le Google Play hena Android-wo",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Kpɔ Wikipedia ƒe dɔwɔnu siwo katã li</a>"
+	},
+	"license": "Axa sia le <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License ƒe ɖoɖoa te</a>",
+	"terms": "Ezazã Ŋuti Ɖoɖowo",
+	"Privacy Policy": "Ameŋunyatakaka Ŋuti Ðoɖowo",
+	"terms-link": "https://meta.wikimedia.org/wiki/Ezazã_ŋuti_ɖoɖowo",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Ameŋunyatakaka_ŋuti_ɖoɖowo",
+	"search-input-button": "Dii",
+	"search-input-label": "Di Wikipedia",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Numekugbalẽ Femaxetɔ",
+		"entries": "nyatiwo"
+	},
+	"wiktionary": {
+		"name": "Wiknyagɔmeɖegbalẽ",
+		"slogan": "Nyagɔmeɖegbalẽ femaxetɔ",
+		"entries": "nudidiwo"
+	},
+	"wikibooks": {
+		"name": "Wikigbalẽwo",
+		"slogan": "Agbalẽ femaxetɔwo",
+		"entries": "axawo"
+	},
+	"wikinews": {
+		"name": "Wikinyadzɔdzɔwo",
+		"slogan": "Nyadzɔdzɔtsoƒe femaxetɔ",
+		"entries": "nyatiwo"
+	},
+	"wikiquote": {
+		"name": "Wikinyayɔyɔ",
+		"slogan": "Nyayɔyɔ ƒe ƒuƒoƒo femaxetɔwo",
+		"entries": "nyatiwo"
+	},
+	"wikisource": {
+		"name": "Witsinyatakatsoƒe",
+		"slogan": "Nudzraɖoƒe femaxetɔ"
+	},
+	"wikiversity": {
+		"name": "Wikivɛsiti",
+		"slogan": "Nusrɔ̃nu femaxewo",
+		"entries": "nusrɔ̃nuwo"
+	},
+	"wikivoyage": {
+		"name": "Wikitsaɖiɖi",
+		"slogan": "Tsaɖiɖi femamaxee ŋuti mɔfiame"
+	},
+	"commons": {
+		"name": "Bɔbɔtɔwo",
+		"slogan": "Foto siwo woate ŋu azã femaxee kple nu bubuwo"
+	},
+	"wikispecies": {
+		"name": "Wikinuwo",
+		"slogan": "Nu gbagbewo ƒe ŋkɔwo femaxee"
+	},
+	"wikidata": {
+		"name": "Wikinyatakaba",
+		"slogan": "Sidzedzexɔƒe femaxee"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Wiki dɔwɔnu si amewo katã ate ŋu azã femaxee"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Nutometɔwo ƒe ɖoɖodzikpɔkpɔ & nyatakakawo"
 	}
 }

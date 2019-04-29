@@ -1,7 +1,31 @@
 {
+	"@metadata": {
+		"authors": [
+			"Agilight"
+		]
+	},
 	"language-name": "Тыва дыл",
 	"language-name-romanized": "Tyva dyl",
+	"language-button-text": "Википедияны бодуңарның дылыңарга номчуңар",
+	"terms": "Ажыглаарының байдалдары",
+	"search-input-button": "Дилээр",
+	"search-input-label": "Википедиядан дилээр",
 	"wiki": {
-		"name": "Википедия"
+		"name": "Википедия",
+		"slogan": "Хостуг энциклопедия",
+		"entries": "чүүлдер"
+	},
+	"wiktionary": {
+		"name": "Викисөстүк",
+		"slogan": "Хостуг сөстүк",
+		"entries": "чүүлдер"
+	},
+	"wikibooks": {
+		"name": "Викиномнар",
+		"slogan": "Хостуг өөренир номнар",
+		"entries": "арыннар"
+	},
+	"wikinews": {
+		"name": "Викимедээлер"
 	}
 }
