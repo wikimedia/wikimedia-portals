@@ -1,0 +1,69 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseagush"
+		]
+	},
+	"language-button-text": "Maca Wikipédia ring basa ida dane",
+	"app-links": {
+		"title": "Aplikasi Wikipédia jani sube ade:",
+		"ios": "Unduh anggen iOS ring App Store",
+		"android": "Unduh anggen Android ring Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Cingak daptar app Wikipedia sane lengkap</a>"
+	},
+	"license": "Kaca iki ana ing pangayomané <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lisènsi Atribusi-ShareAlike Creative Commons</a>",
+	"Privacy Policy": "kawicaksanaan padewekan",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"search-input-button": "Rereh",
+	"search-input-label": "Rereh Wikipedia",
+	"wiki": {
+		"name": "Wikipedia",
+		"entries": "suratan"
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"entries": "èntri"
+	},
+	"wikibooks": {
+		"name": "Wikipustaka",
+		"slogan": "Pustaka bébas",
+		"entries": "kaca"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Sumber warta bébas",
+		"entries": "suratan"
+	},
+	"wikiquote": {
+		"name": "Wikikutip",
+		"entries": "suratan"
+	},
+	"wikisource": {
+		"name": "Wikipustaka",
+		"slogan": "Pustaka bébas"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Bahan pelajahan bébas",
+		"entries": "sumber palajahan"
+	},
+	"wikivoyage": {
+		"name": "Wikijalan-jalan"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikispecies": {
+		"name": "Wikispésies"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
+	}
+}

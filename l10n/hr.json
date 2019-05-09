@@ -1,6 +1,11 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Bugoslav"
+		]
+	},
 	"language-name": "Hrvatski",
+	"language-button-text": "Čitajte wikipediju na svom jeziku",
 	"wiki": {
 		"name": "Wikipedija",
 		"slogan": "Slobodna enciklopedija"

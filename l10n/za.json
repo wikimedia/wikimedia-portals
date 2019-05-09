@@ -1,5 +1,11 @@
 {
-	"language-name": "Cuengh",
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"language-name": "Vahcuengh / 話僮",
+	"language-name-romanized-sorted": "Cuengh, Vah",
 	"wiki": {
 		"name": "Wikipedia"
 	}

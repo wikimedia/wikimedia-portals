@@ -1,8 +1,16 @@
 {
+	"@metadata": {
+		"authors": [
+			"Ernác"
+		]
+	},
 	"language-name": "Къарачай–Малкъар",
 	"language-name-romanized": "Qaraçay–Malqar",
 	"language-name-romanized-sorted": "Qaracay-Malqar",
 	"wiki": {
 		"name": "Википедия"
+	},
+	"wikispecies": {
+		"name": "Викитюрле"
 	}
 }

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vikoula5"
+		]
+	},
+	"wiki": {
+		"name": "Wikipedia"
+	},
+	"wikibooks": {
+		"entries": "isebtar"
+	},
+	"wikinews": {
+		"entries": "imagraden"
+	},
+	"wikiquote": {
+		"entries": "imagraden"
+	},
+	"wikisource": {
+		"name": "wikiaɣbalu"
+	},
+	"wikivoyage": {
+		"name": "Wikiamessakwel"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Adfer-Wiki"
+	}
+}

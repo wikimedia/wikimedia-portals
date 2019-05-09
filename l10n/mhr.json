@@ -1,5 +1,10 @@
 {
-	"language-name": "Олык Марий",
+	"@metadata": {
+		"authors": [
+			"Санюн Вадик"
+		]
+	},
+	"language-name": "Марий",
 	"language-name-romanized": "Olyk Marij",
 	"wiki": {
 		"name": "Википедий",

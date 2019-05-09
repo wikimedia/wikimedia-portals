@@ -1,14 +1,20 @@
 {
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			1100100
+		]
+	},
 	"language-name": "සිංහල",
 	"language-name-romanized": "Siṃhala",
 	"language-name-romanized-sorted": "Simhala",
 	"wiki": {
-		"name": "විකිපීඩියා, නිදහස් විශ්වකෝෂය"
+		"name": "විකිපීඩියා"
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "වික්ෂනරි"
 	},
 	"wikibooks": {
-		"name": "Wikibooks"
+		"name": "විකිපොත්"
 	}
 }

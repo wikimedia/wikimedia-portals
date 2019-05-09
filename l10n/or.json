@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"MKar"
+		]
+	},
 	"language-name": "ଓଡି଼ଆ",
 	"language-name-romanized": "Oṛiā",
 	"language-name-romanized-sorted": "Oria",
@@ -10,5 +15,8 @@
 	},
 	"wikisource": {
 		"name": "ଉଇକିପାଠାଗାର"
+	},
+	"wikidata": {
+		"name": "ଉଇକିଡାଟା"
 	}
 }
