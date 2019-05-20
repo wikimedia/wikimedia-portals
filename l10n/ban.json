@@ -19,10 +19,12 @@
 	"search-input-label": "Rereh Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
+		"slogan": "Ensiklopedia Bébas",
 		"entries": "suratan"
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
+		"slogan": "Kamus Bébas",
 		"entries": "èntri"
 	},
 	"wikibooks": {
@@ -49,10 +51,12 @@
 		"entries": "sumber palajahan"
 	},
 	"wikivoyage": {
-		"name": "Wikijalan-jalan"
+		"name": "Wikijalan-jalan",
+		"slogan": "Pangateh wisata bébas"
 	},
 	"commons": {
-		"name": "Commons"
+		"name": "Commons",
+		"slogan": "Poto sane bebas kaanggen lan liyané"
 	},
 	"wikispecies": {
 		"name": "Wikispésies"
