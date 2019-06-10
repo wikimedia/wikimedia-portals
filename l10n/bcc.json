@@ -1,0 +1,80 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sultanselim baloch"
+		]
+	},
+	"language-button-text": "ویکی پیدیائا پہ وتی زبانا وان",
+	"footer-description": "ویکی پدیا مہ بنیاد ویکی مدیا(ویکی رسانک) نندبانیءَ بیت،اے بنیاد پہ ھچ دؤلتے کارءَ نہ کنت،شما تۏن اِت بنیادءِ اݔدگہ پروژئاں ھں چار اِت گۏں",
+	"app-links": {
+		"title": "ویکی پدیاءِ مراگشاں ھنی دسرسا اَنت",
+		"ios": "دانلود پہ اندروید ءُ iOS واستا",
+		"android": "دانلود پہ اندرویدا چہ گوگل پلئ",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>دراھیگݔں دسرسݔں مراگشانءِ چارگ</a>"
+	},
+	"license": "اے تاک پہ<a href='https://creativecommons.org/licenses/by-sa/3.0/'>کریتیو کامنزءِ</a>\nمجوزءِ سرا دسرسئں",
+	"terms": "کارگِرگءِ پئیم",
+	"Privacy Policy": "کرار ءُ مدار",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use_bcc",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy_bcc",
+	"search-input-button": "شۏھاز",
+	"search-input-label": "ویکی پدیاءِ شۏھاز",
+	"wiki": {
+		"name": "ویکی پیڈیا",
+		"slogan": "آزاتݔں زانتنامہ",
+		"entries": "نُبشتانک"
+	},
+	"wiktionary": {
+		"name": "ویکی گال",
+		"slogan": "مُپتݔں گالجاه",
+		"entries": "مان بییگاں"
+	},
+	"wikibooks": {
+		"name": "ویکی کتاب",
+		"slogan": "مُپتݔں کتابلِک",
+		"entries": "تاکاں"
+	},
+	"wikinews": {
+		"name": "ویکی ھال",
+		"slogan": "بے ھالءِ سرچمَگ",
+		"entries": "نبشتانکاں"
+	},
+	"wikiquote": {
+		"name": "ویکی گپ",
+		"slogan": "بے گپ",
+		"entries": "نبشتانکاں"
+	},
+	"wikisource": {
+		"name": "ویکی سرچمَگ",
+		"slogan": "بے کتابجاه"
+	},
+	"wikiversity": {
+		"name": "ویکی زانتجاہ",
+		"slogan": "بے نبشتانک",
+		"entries": "سبَکی چیز"
+	},
+	"wikivoyage": {
+		"name": "ویکی سئیل",
+		"slogan": "بے سئیل سۏج"
+	},
+	"commons": {
+		"name": "ھۏریگ",
+		"slogan": "کارگِرگی مُپتݔں اکس ءُ ..."
+	},
+	"wikispecies": {
+		"name": "ویکی اسپیس",
+		"slogan": "بے اسپیس"
+	},
+	"wikidata": {
+		"name": "ویکی داتگ",
+		"slogan": "بے سبَکجاہ"
+	},
+	"mediawiki": {
+		"name": "میدیا ویکی",
+		"slogan": "آزات ءُ ویکیءِ مراگشءِ پچ کنگ"
+	},
+	"metawiki": {
+		"name": "میتا ویکی",
+		"slogan": "چاگردءِ ھۏر کنگ ءُ مستند کنگ"
+	}
+}
