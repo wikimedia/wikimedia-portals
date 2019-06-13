@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ninjastrikers",
-			"NayiMuu"
+			"NayiMuu",
+			"Dr Lotus Black"
 		]
 	},
 	"language-name": "မြန်မာဘာသာ",
@@ -20,6 +21,8 @@
 	"Privacy Policy": "ပုဂ္ဂိုလ်ရေးဆိုင်ရာ မူဝါဒ",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/my",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/my",
+	"search-input-button": "ရှာဖွေရန်",
+	"search-input-label": "ဝီကီပီးဒီးယားထဲတွင် ရှာဖွေပါ",
 	"wiki": {
 		"name": "ဝီကီပီးဒီးယား",
 		"slogan": "အခမဲ့ လွတ်လပ်စွယ်စုံကျမ်း",
