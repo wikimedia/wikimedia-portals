@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"LeGuyanaisPure"
+			"LeGuyanaisPure",
+			"Léon973"
 		]
 	},
 	"language-button-text": "Li Wikipédja annan zòt lanng",
@@ -67,7 +68,7 @@
 	},
 	"wikidata": {
 		"name": "Wikidata",
-		"slogan": "Baz di konésans lib"
+		"slogan": "Baz di konnésans ki lib"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
