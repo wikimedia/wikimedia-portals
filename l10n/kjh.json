@@ -1,0 +1,44 @@
+{
+	"@metadata": {
+		"authors": [
+			"Андрей Саг."
+		]
+	},
+	"language-button-text": "Википедияны пос тілніӊ хығыраӊар",
+	"search-input-button": "Тілирге",
+	"search-input-label": "Википедияда тілирге",
+	"wiki": {
+		"name": "Википедия",
+		"slogan": "Пос энциклопедия",
+		"entries": "статьялар"
+	},
+	"wiktionary": {
+		"name": "Викисӧстік",
+		"slogan": "Пос сӧстік",
+		"entries": "статьялар"
+	},
+	"wikibooks": {
+		"name": "Викикинде",
+		"entries": "страницалар"
+	},
+	"wikinews": {
+		"name": "Викихабарлар",
+		"entries": "статьялар"
+	},
+	"wikiquote": {
+		"entries": "статьялар"
+	},
+	"wikisource": {
+		"name": "Викитека",
+		"slogan": "Пос библиотека"
+	},
+	"wikiversity": {
+		"name": "Викиверситет"
+	},
+	"wikivoyage": {
+		"name": "Викигид"
+	},
+	"commons": {
+		"name": "Викисклад"
+	}
+}
