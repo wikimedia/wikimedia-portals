@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sator",
-			"Theklan"
+			"Theklan",
+			"An13sa"
 		]
 	},
 	"language-name": "Euskara",
@@ -19,6 +20,8 @@
 	"Privacy Policy": "Pribatutasun politika",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/eu",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/eu",
+	"search-input-button": "Bilatu",
+	"search-input-label": "Bilatu Wikipedian",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Entziklopedia askea",
