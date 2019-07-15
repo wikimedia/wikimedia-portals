@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ильнар"
+			"Ильнар",
+			"Ерней"
 		]
 	},
 	"language-button-text": "Википедияне үз телегездә укыгыз",
-	"footer-description": "Википедия — Викимедиа Фонды тарафыннан идарә ителүче һәм аның карамагында булган проект.",
+	"footer-description": "Википедия Викимедиа Фонды — тиҗарәт булмаган оешма — серверларында урнашкан, ул шулай ук башка проектларның эшен тәэмин итә.",
 	"app-links": {
-		"title": "Википедия кушымталары:",
+		"title": "Википедия кушымталары хәзер алырлык:",
 		"ios": "iOS өчен App Store сәхифәсендә",
 		"android": "Android өчен Google Play сәхифәсендә",
 		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Википедия кушымталарының тулы исемлеге</a>"
@@ -17,6 +18,8 @@
 	"Privacy Policy": "Яшеренлек сәясәте",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ru",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ru",
+	"search-input-button": "Эзләү",
+	"search-input-label": "Википедиядә эзләү",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Ирекле энциклопедия",
@@ -29,7 +32,7 @@
 	},
 	"wikibooks": {
 		"name": "Викикитап",
-		"slogan": "Ирекле дәреслек",
+		"slogan": "Ирекле дәреслекләр",
 		"entries": "бит"
 	},
 	"wikinews": {
@@ -39,7 +42,7 @@
 	},
 	"wikiquote": {
 		"name": "Викиөзек",
-		"slogan": "Өзекләр җыентыгы",
+		"slogan": "Ирекле өзекләр җыентыгы",
 		"entries": "мәкалә"
 	},
 	"wikisource": {

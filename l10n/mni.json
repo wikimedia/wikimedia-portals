@@ -1,0 +1,80 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afingba Mangang"
+		]
+	},
+	"language-button-text": "ꯅꯁꯥꯒꯤ ꯂꯣꯟꯗ ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥ ꯄꯥꯔꯣ",
+	"footer-description": "ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥꯁꯤ ꯋꯤꯀꯤꯃꯦꯗꯤꯌꯥ ꯌꯨꯝꯕꯤꯅꯥ ꯂꯤꯡꯈꯠꯄꯅꯤ, ꯁꯦꯟꯗꯣꯡ ꯂꯧꯗꯕ ꯂꯨꯞ ꯑꯃꯅꯤ ꯑꯃꯗꯤ ꯑꯇꯩ ꯊꯧꯔꯥꯡꯁꯤꯡꯁꯨ ꯄꯥꯏꯈꯠꯂꯤ",
+	"app-links": {
+		"title": "ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥꯒꯤ ꯑꯦꯞꯁ ꯐꯪꯕꯤꯔꯒꯅꯤ",
+		"ios": "ꯑꯦꯞꯁ ꯊꯝꯐꯝꯗꯒꯤ IOS ꯀꯤ ꯆꯤꯡꯊꯔꯣ",
+		"android": "ꯒꯨꯨꯒꯜ ꯄ꯭ꯂꯦꯗꯒꯤ Android ꯀꯤ ꯆꯤꯡꯊꯔꯣ",
+		"other": "<a href='https://mni.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>View full list of available Wikipedia apps</a>"
+	},
+	"license": "ꯃꯁꯤꯒꯤ ꯂꯃꯥꯏꯁꯤ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License/mni</a> ꯃꯈꯥꯗ ꯐꯪꯕꯅꯤ",
+	"terms": "ꯁꯤꯖꯤꯟꯅꯕꯒꯤ ꯃꯇꯝ ꯑꯃꯗꯤ ꯃꯑꯣꯡ",
+	"Privacy Policy": "ꯑꯔꯣꯟꯕ ꯊꯧꯔꯥꯡ",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/mni",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/mni",
+	"search-input-button": "ꯊꯤꯕꯥ",
+	"search-input-label": "ꯊꯤꯔꯣ",
+	"wiki": {
+		"name": "ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥ",
+		"slogan": "ꯃꯃꯜ ꯇꯤꯡꯗꯕ ꯏꯟꯂꯥꯏꯀꯂꯣꯄꯦꯗꯤꯌꯥ",
+		"entries": "ꯋꯥꯔꯦꯡꯁꯤꯡ"
+	},
+	"wiktionary": {
+		"name": "ꯋꯤꯀꯤꯁꯟꯅꯔꯤ",
+		"slogan": "ꯃꯃꯜ ꯇꯤꯡꯗꯕ ꯂꯣꯟꯒꯩ",
+		"entries": "ꯏꯁꯤꯟꯕꯁꯤꯡ"
+	},
+	"wikibooks": {
+		"name": "ꯋꯤꯀꯤꯂꯥꯏꯔꯤꯛꯁꯤꯡ",
+		"slogan": "ꯃꯃꯜ ꯇꯤꯡꯗꯕ ꯂꯥꯏꯔꯤꯛꯁꯤꯡ",
+		"entries": "ꯂꯃꯥꯏꯁꯤꯡ"
+	},
+	"wikinews": {
+		"name": "ꯋꯤꯀꯤꯄꯥꯎꯁꯤꯡ",
+		"slogan": "ꯃꯃꯜ ꯇꯤꯡꯗꯕ ꯄꯥꯎ ꯂꯧꯔꯐꯝ",
+		"entries": "ꯋꯥꯔꯦꯡꯁꯤꯡ"
+	},
+	"wikiquote": {
+		"name": "ꯋꯤꯀꯤꯀꯣꯠ",
+		"slogan": "ꯐꯖꯕ ꯋꯥꯍꯩ ꯋꯥꯇꯥ ꯄꯥꯎꯔꯧꯁꯤꯡ",
+		"entries": "ꯋꯥꯔꯦꯡꯁꯤꯡ"
+	},
+	"wikisource": {
+		"name": "ꯋꯤꯀꯤꯍꯧꯔꯛꯐꯝ",
+		"slogan": "ꯃꯃꯜ ꯇꯤꯡꯗꯕ ꯂꯥꯏꯔꯤꯛ ꯂꯟꯀꯩ"
+	},
+	"wikiversity": {
+		"name": "ꯋꯤꯀꯤꯚꯔꯁꯤꯇꯤ",
+		"slogan": "ꯃꯃꯜ ꯇꯤꯡꯗꯕ ꯇꯝꯕꯒꯤ ꯄꯣꯠꯂꯝꯁꯤꯡ",
+		"entries": "ꯇꯝꯅꯕꯒꯤ ꯑꯆꯧꯕ ꯃꯇꯦꯡ ꯂꯧꯐꯝ"
+	},
+	"wikivoyage": {
+		"name": "ꯋꯤꯀꯤꯚꯣꯌꯦꯖ",
+		"slogan": "ꯃꯃꯜ ꯇꯤꯡꯗꯕ ꯂꯝꯀꯣꯏꯕꯒꯤ ꯂꯝꯇꯥꯛꯄꯤꯕꯥ"
+	},
+	"commons": {
+		"name": "ꯀꯣꯃꯣꯟꯁ",
+		"slogan": "ꯃꯤꯔꯦꯜꯁꯤꯡ ꯏꯅꯤꯡꯇꯝꯅꯥ ꯁꯤꯖꯤꯟꯅꯕ ꯌꯥꯕꯥ ꯑꯃꯁꯨꯡ ꯑꯇꯩ"
+	},
+	"wikispecies": {
+		"name": "ꯋꯤꯀꯤꯁ꯭ꯄꯦꯁꯤꯁ",
+		"slogan": "ꯁ꯭ꯄꯦꯁꯤꯁ ꯃꯔꯝꯗ ꯅꯩꯅꯕ"
+	},
+	"wikidata": {
+		"name": "ꯋꯤꯀꯤꯗꯥꯇꯥ",
+		"slogan": "ꯃꯃꯜ ꯇꯤꯡꯗꯕ ꯂꯧꯁꯤꯡ ꯄꯨꯀꯩ ꯌꯨꯝꯐꯝ ꯑꯣꯏꯕ"
+	},
+	"mediawiki": {
+		"name": "ꯃꯦꯗꯤꯌꯥꯋꯤꯀꯤ",
+		"slogan": "ꯃꯃꯜ ꯇꯤꯡꯗꯕ ꯑꯃꯁꯨꯡ ꯃꯌꯥꯝꯄꯨꯝꯕꯒꯤ ꯋꯤꯀꯤ ꯑꯦꯞꯁꯅꯤ"
+	},
+	"metawiki": {
+		"name": "ꯃꯦꯇꯥ-ꯋꯤꯀꯤ",
+		"slogan": "ꯃꯤꯑꯣꯏ ꯀꯥꯡꯂꯨꯞ ꯀꯌꯥꯅꯥ ꯄꯨꯟꯁꯤꯟꯅꯕ ꯑꯃꯁꯨꯡ ꯗꯣꯀꯨꯃꯦꯟꯇꯦꯁꯅ"
+	}
+}
