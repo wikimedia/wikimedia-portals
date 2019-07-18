@@ -1,0 +1,56 @@
+{
+	"@metadata": {
+		"authors": [
+			"Khanmarat",
+			"Sorbat"
+		]
+	},
+	"language-name": "Себертатарца",
+	"search-input-button": "Эстәү",
+	"search-input-label": "Пикипедиятан эстәү",
+	"wiki": {
+		"name": "Пикипедия",
+		"slogan": "Ацыҡ энциклопедия",
+		"entries": "пелекләр"
+	},
+	"wiktionary": {
+		"name": "Пикисүслек",
+		"slogan": "Ацыҡ сүслек"
+	},
+	"wikibooks": {
+		"name": "Пикикитаплар",
+		"slogan": "Ацыҡ уғыу китаплар"
+	},
+	"wikinews": {
+		"name": "Пикийаңалыҡлар"
+	},
+	"wikiquote": {
+		"name": "Пикицитаталыҡ"
+	},
+	"wikisource": {
+		"name": "Пикитека",
+		"slogan": "Ацыҡ китап өй"
+	},
+	"wikiversity": {
+		"name": "Пикиверситәт",
+		"slogan": "Ацыҡ уғыш курслар"
+	},
+	"wikivoyage": {
+		"name": "Пикигид",
+		"slogan": "Ацыҡ урынцы"
+	},
+	"commons": {
+		"name": "Пикисклад",
+		"slogan": "Ацыҡ фотолар та кәнерәк"
+	},
+	"wikidata": {
+		"name": "Пикиданныйлар",
+		"slogan": "Пелемнәрнең ацыҡ базасы"
+	},
+	"mediawiki": {
+		"name": "МедияПики"
+	},
+	"metawiki": {
+		"name": "Мета-Пики"
+	}
+}
