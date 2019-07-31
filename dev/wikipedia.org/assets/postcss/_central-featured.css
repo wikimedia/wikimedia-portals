@@ -32,14 +32,14 @@
 
 .central-featured-lang strong {
 	display: block;
-	font-size: larger;
+	font-size: 1.6rem;
 }
 
 .central-featured-lang small {
-	display: inline-block;
-	font-size: 1.104rem;
-	line-height: 1.036rem;
 	color: var( --wmui-color-base20 );
+	display: inline-block;
+	font-size: 1.2rem;
+	line-height: 1.6;
 }
 
 .central-featured-lang em {
@@ -130,23 +130,23 @@
 		width: 33%;
 		margin: 0;
 		padding: 0 1.6rem;
-		font-size: 1.28rem;
+		font-size: 1.4rem;
 		text-align: center;
 	}
 
 	.central-featured-lang strong {
-		font-size: 1.28rem;
+		font-size: 1.4rem;
 	}
 
 	.central-featured-lang small {
-		font-size: 0.96rem;
-		line-height: 1.68rem;
+		font-size: 1.1rem;
+		line-height: 1.5;
 	}
 }
 
 @media all and ( max-width: 375px ) {
 	.central-featured-lang {
-		font-size: 1.12rem;
+		font-size: 1.2rem;
 	}
 }
 
