@@ -1,11 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"ShimunUfesoj"
+			"ShimunUfesoj",
+			"Brazal.dang"
 		]
 	},
 	"language-name": "Bikol Central",
 	"language-button-text": "Basahon an Wikipedia sa saimong tataramon",
+	"footer-description": "Ang Wikipedia pinapadalagan kan Wikimedia FOundation, sarong non-profit na organisasyon na nagpapadalagan man nin manlaen-laen na mga proyekto.",
+	"app-links": {
+		"title": "Magagamit na an mga Wikipedia apps:",
+		"ios": "I-download para sa iOS sa App Store",
+		"android": "I-download para sa Android sa Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Hilingon an buong listahan kan mga Wikipedia apps</a>"
+	},
+	"license": "An pahina na ini nasa irarom kan <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Takda kan paggamit",
+	"Privacy Policy": "Kalakawan nin pribasidad",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"search-input-button": "Maghanap",
+	"search-input-label": "Maghanap sa Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "An Talingkas na Ensiklopedya",
@@ -18,32 +33,50 @@
 	},
 	"wikibooks": {
 		"name": "Wiki-na-mga-libro",
+		"slogan": "Libreng mga libro",
 		"entries": "Mga Pahina"
 	},
 	"wikinews": {
 		"name": "Wiki-na-mga-bareta",
+		"slogan": "Libreng ginigikanan kan bareta",
 		"entries": "Mga Artikulo"
 	},
 	"wikiquote": {
 		"name": "Wiking-paninglit",
+		"slogan": "Libreng kompendyum kan mga sipi",
 		"entries": "Mga Artikulo"
 	},
 	"wikisource": {
-		"name": "Wiki-na-pinaggikanan"
+		"name": "Wiki-na-pinaggikanan",
+		"slogan": "Libreng libraryo"
 	},
 	"wikiversity": {
-		"name": "Wikibersidad"
+		"name": "Wikibersidad",
+		"slogan": "Libreng mga materyales sa mga kurso",
+		"entries": "Mga gamit sa pag-adal"
 	},
 	"wikivoyage": {
-		"name": "Wikibiyahe"
+		"name": "Wikibiyahe",
+		"slogan": "Libreng travel guide"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Libreng mga litrato asin iba pa"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Libreng direktory kan mga species"
 	},
 	"wikidata": {
-		"name": "Wikidatus"
+		"name": "Wikidatus",
+		"slogan": "Base kan libreng mga kaaraman"
 	},
 	"mediawiki": {
-		"name": "Midya-Wiki"
+		"name": "Midya-Wiki",
+		"slogan": "Libre asin bukas na mga wiki application"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Koordinasyon kan komunidad asin dokumentasyon"
 	}
 }
