@@ -1,12 +1,39 @@
 {
 	"@metadata": {
 		"authors": [
-			"Minh Nguyen"
+			"Minh Nguyen",
+			"Demmy"
 		]
 	},
 	"language-name": "Yorùbá",
 	"language-name-romanized-sorted": "Yoruba",
+	"language-button-text": "Ẹ ka Wikipedia ní èdè yín",
+	"footer-description": "Wikipedia jẹ́ iṣẹ́-ọwọ́ Wikimedia Foundation, tó jẹ́ ẹgbẹ́ aláìṣiṣẹ́ fún owó tó tún únṣe àwọn iṣẹ́-ọwọ́ oríṣirísi míràn.",
+	"app-links": {
+		"title": "Àwọn ètò àmúlò Wikipedia ti wà báyìí:",
+		"ios": "Ẹ gba àmúlò fún iOS láti orí App Store",
+		"android": "Ẹ gba àmúlò fún Android láti orí Google Play",
+		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Ẹ wo àtòjọ kíkúnrẹ́rẹ́ gbogbo àwọn àmúlò Wikipedia tó wà</a>"
+	},
 	"wiki": {
 		"name": "Wikipedia"
+	},
+	"wiktionary": {
+		"name": "Wíkìaṣètumọ̀",
+		"slogan": "Ìwé ìtumọ̀ ọ̀fẹ́"
+	},
+	"wikibooks": {
+		"name": "Wíkìakàwé",
+		"slogan": "Ìwé kíkà ọ̀fẹ́",
+		"entries": "àwọn ojúewé"
+	},
+	"wikinews": {
+		"name": "Wíkìoníròyìn",
+		"slogan": "Ibi ìròyìn ọ̀fẹ́",
+		"entries": "àwọn àyọkà"
+	},
+	"wikivoyage": {
+		"name": "Wíkìonírìn-àjò",
+		"slogan": "Ìlànà ìrìn-àjò ọ̀fẹ́"
 	}
 }
