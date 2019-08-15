@@ -3,9 +3,9 @@
 body {
 	background-color: var( --background-color-base );
 	font-family: var( --font-family-system-sans );
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	line-height: 1.5;
-	margin: 0.39rem 0;
+	margin: 0.4rem 0;
 }
 
 a {
