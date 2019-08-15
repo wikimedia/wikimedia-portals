@@ -2,7 +2,7 @@
 
 /* Section containing the links to download native mobile apps */
 
-.app-badges {
+.app-badges .footer-sidebar-content {
     background-color: var( --background-color-code );
 }
 
@@ -21,9 +21,12 @@
     list-style-type: none;
 }
 
+.app-badge {
+	display: inline-block;
+}
+
 @media screen and ( max-width: 768px ) {
     .app-badges .footer-sidebar-content {
-        max-width: 350px;
         text-align: center;
     }
 
@@ -35,24 +38,5 @@
         left: 0;
         vertical-align: middle;
         transform: scale( 0.7 );
-    }
-
-    .app-badge {
-        float: left;
-        width: 49%;
-    }
-
-    .app-badge-ios a,
-    .app-badge-android a {
-        display: block;
-    }
-
-    .app-badge-ios {
-        border-right: 1px solid;
-    }
-
-    .app-badge-fulllist {
-        width: 100%;
-        margin: 1.92rem 0 0.64rem 0;
     }
 }

@@ -14,9 +14,8 @@
 	"footer-description": "Text that appears beside the sister project links in the footer on www.wikipedia.org",
 	"app-links": {
 		"title": "Title of that app link section on wikipedia.org",
-		"ios": "Text that describes a link to download the Wikipedia iOS app",
-		"android": "Text that describes a link to download the Wikipedia Android app",
-		"other": "A link to an article that lists all available Wikipedia apps. The link URL should be <code><nowiki>https://(your language code).wikipedia.org/wiki/List_of_Wikipedia_mobile_applications</nowiki></code> when available."
+		"description": "Description of the Wikipedia mobile apps",
+		"url": "The url of an article that lists all available Wikipedia apps. The link URL should be <code><nowiki>https://(your language code).wikipedia.org/wiki/List_of_Wikipedia_mobile_applications</nowiki></code> when available."
 	},
 	"license": "License text, use <code><nowiki>https://creativecommons.org/licenses/by-sa/3.0/deed.(your language code)</nowiki></code> to show the translation of license.",
 	"terms": "Terms of Use\n{{Identical|Terms of use}}",
