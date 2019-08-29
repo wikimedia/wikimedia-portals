@@ -10,10 +10,7 @@
 	"language-button-text": "Prečítajte si Wikipédiu vo svojom vlastnom jazyku",
 	"footer-description": "Wikipédiu prevádzkuje nezisková nadácia Wikimedia Foundation, ktorá spravuje aj veľa iných projektov.",
 	"app-links": {
-		"title": "Wikipédia je dostupná aj ako aplikácia:",
-		"ios": "Prevezmite si aplikáciu pre iOS v App Store",
-		"android": "Prevezmite si aplikáciu pre Android v Obchode Play",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Pozrite si celý zoznam dostupných aplikácií Wikipédie</a>"
+		"title": "Wikipédia je dostupná aj ako aplikácia:"
 	},
 	"license": "Táto stránka je dostupná pod licenciou <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Podmienky používania",

@@ -4,7 +4,8 @@
 			"Marek Pavlica",
 			"Mormegil",
 			"Walter Klosse",
-			"Patriccck"
+			"Patriccck",
+			"Matěj Suchánek"
 		]
 	},
 	"language-name": "Čeština",
@@ -12,10 +13,7 @@
 	"language-button-text": "Přečtěte si Wikipedii ve svém jazyce",
 	"footer-description": "Wikipedii provozuje Wikimedia Foundation, nezisková organizace, která provozuje také mnoho dalších projektů.",
 	"app-links": {
-		"title": "Wikipedie aplikace jsou nyní k dispozici:",
-		"ios": "Ke stažení pro iOS na App Store",
-		"android": "Ke stažení pro Android na Google Play",
-		"other": "<a href=\"https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications\">Zobrazit úplný seznam Wikimedia aplikací</a>"
+		"title": "Stáhnout aplikaci Wikipedie pro Android nebo iOS"
 	},
 	"license": "Tato stránka je k dispozici pod <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Podmínky užití",

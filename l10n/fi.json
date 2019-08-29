@@ -11,10 +11,7 @@
 	"language-button-text": "Lue Wikipediaa kielelläsi",
 	"footer-description": "Wikipediaa ylläpitää Wikimedia Foundation, voittoa tavoittelematon organisaatio joka myös ylläpitää erilaisia muita hankkeita.",
 	"app-links": {
-		"title": "Wikipedia-sovellukset ovat nyt saatavilla:",
-		"ios": "Lataa iOS:lle App Storesta",
-		"android": "Lataa Androidille Google Playsta",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Näytä koko lista saatavilla olevista Wikipedia-sovelluksista</a>"
+		"title": "Wikipedia-sovellukset ovat nyt saatavilla:"
 	},
 	"license": "Tämä sivu on käytettävissä <a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.fi\">Nimeä-JaaSamoin 3.0 lisensillä</a>",
 	"terms": "Käyttöehdot",

@@ -9,10 +9,9 @@
 	"language-button-text": "Lìgge Uicchipèdie jndr'à lènga toje",
 	"footer-description": "Uicchipèdie jè ospitate da 'a Wikimedia Foundation, 'n'organizzazzione no-profit ca ospitesce pure 'nu sbuènne de otre pruggette.",
 	"app-links": {
-		"title": "Le app de Uicchipèdie mò so disponibbile:",
-		"ios": "Scareche pe iOS da l'App Store",
-		"android": "Scareche pe Android da Google Play",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>'Ndruche l'elenghe comblete de le applicaziune disponibbile pe Uicchipèdie</a>"
+		"title": "Scareche Uicchipèdie pe Android o iOS",
+		"description": "Reggìstre le vôsce preferite tune da leggere fore linèe, singronizze l'elenghe de le letture tune 'mbrà le dispositive e personalizze l'esperienze de lettura toje cu l'app ufficiale de Uicchipèdie.",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Sta pàgene jè disponibbile in base a 'a licenze <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribbuzione-Condivide a 'u stesse mode</a>",
 	"terms": "Termine de Ause",

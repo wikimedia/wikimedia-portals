@@ -9,10 +9,7 @@
 	"language-button-text": "Loe Vikipeediat enda keeles",
 	"footer-description": "Vikipeediat majutab Wikimedia Foundation, mittetulunduslik organisatsioon, mis majutab ka mitut teist projekti.",
 	"app-links": {
-		"title": "Vikipeedia rakendused nüüd saadaval:",
-		"ios": "Laadi alla iOS-i rakendus App Store'ist",
-		"android": "Laadi alla Androidi rakendus Google Playst",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Vaata Vikipeedia rakenduste täielikku nimekirja</a>"
+		"title": "Vikipeedia rakendused nüüd saadaval:"
 	},
 	"license": "See lehekülg on saadaval Creative Commonsi litsentsi \"<a href='https://creativecommons.org/licenses/by-sa/3.0/deed.et'>Autorile viitamine + jagamine samadel tingimustel</a>\" all.",
 	"terms": "Kasutustingimused",

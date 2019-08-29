@@ -10,10 +10,9 @@
 	"language-button-text": "Llei Wikipedia na to llingua",
 	"footer-description": "A Wikipedia agóspiala Wikimedia Foundation, una organización ensin ánimu de llucru que tamién agospia otros proyeutos.",
 	"app-links": {
-		"title": "Agora tán disponibles aplicaciones de Wikipedia:",
-		"ios": "Baxar pa iOS na App Store",
-		"android": "Baxar p'Android na Google Play",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Ver el llistáu completu d'aplicaciones de Wikipedia disponibles</a>"
+		"title": "Descargar Wikipedia p'Android o iOS",
+		"description": "Descarga los tos artículos favoritos pa lleelos ensin conexón, sincroniza llistes de llectura ente preseos y personaliza la esperiencia de llectura cola app oficial de Wikipedia.",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Esta páxina ta disponible so la <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">llicencia Creative Commons Atribución-CompartirIgual</a>",
 	"terms": "Términos d'usu",

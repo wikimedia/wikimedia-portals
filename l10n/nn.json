@@ -9,10 +9,7 @@
 	"language-button-text": "Les Wikipedia på språket ditt",
 	"footer-description": "Wikipedia vert drive av Wikimedia Foundation, ein ideel organisasjon som òg driv ei rekke andre prosjekt.",
 	"app-links": {
-		"title": "Wikipedia-appar er no tolgjengelege:",
-		"ios": "Last ned for iOS i App Store",
-		"android": "Last ned for Android i Google Play",
-		"other": "<a href=\"https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications\">Syn heile lista over tilgjengelege Wikipedia-appar</a>"
+		"title": "Wikipedia-appar er no tolgjengelege:"
 	},
 	"license": "Denne sida er tilgjengeleg under lisensen <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons-Namngiving-Del på same vilkår</a>",
 	"terms": "Bruksvilkår",

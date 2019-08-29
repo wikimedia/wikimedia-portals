@@ -11,10 +11,7 @@
 	"language-button-text": "あなたの言語でウィキペディアを読みませんか",
 	"footer-description": "ウィキペディアは非営利団体が運営しており、他にも多数のプロジェクトを展開しています。",
 	"app-links": {
-		"title": "ウィキペディアのアプリの入手には:",
-		"ios": "iOS にはApp Storeからダウンロード",
-		"android": "AndroidにはGoogle Playからダウンロード",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>ウィキペディア用アプリをすべて見るには</a>"
+		"title": "ウィキペディアのアプリの入手には:"
 	},
 	"license": "このページは、<a href='https://creativecommons.org/licenses/by-sa/3.0/'>クリエイティブ・コモンズ 表示 - 継承 ライセンス</a>の下で利用できます。",
 	"terms": "利用規約",

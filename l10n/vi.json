@@ -10,10 +10,7 @@
 	"language-button-text": "Đọc Wikipedia trong ngôn ngữ của bạn",
 	"footer-description": "Wikipedia trực thuộc tổ chức phi lợi nhuận Quỹ Wikimedia. Wikimedia cũng đồng thời điều hành nhiều dự án khác.",
 	"app-links": {
-		"title": "Hiện có sẵn các ứng dụng Wikipedia:",
-		"ios": "Tải về cho iOS từ App Store",
-		"android": "Tải về cho Android từ Google Play",
-		"other": "<a href='https://vi.wikipedia.org/wiki/Danh_sách_các_ứng_dụng_di_động_Wikipedia'>Xem danh sách đầy đủ các ứng dụng Wikipedia</a>"
+		"title": "Hiện có sẵn các ứng dụng Wikipedia:"
 	},
 	"license": "Trang này được phát hành theo <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.vi'>Giấy phép Creative Commons Ghi công–Chia sẻ tương tự</a>",
 	"terms": "Điều khoản Sử dụng",

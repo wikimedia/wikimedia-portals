@@ -13,10 +13,7 @@
 	"language-button-text": "Lees Wikipedia in uw taal",
 	"footer-description": "Wikipedia wordt gehost door de Wikimedia Foundation, een non-profitorganisatie die ook andere projecten host.",
 	"app-links": {
-		"title": "Wikipedia-apps zijn nu beschikbaar:",
-		"ios": "Downloaden voor iOS in de App Store",
-		"android": "Download voor Android in Google Play",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Bekijk de volledige lijst met beschikbare Wikipedia apps</a>"
+		"title": "Wikipedia-apps zijn nu beschikbaar:"
 	},
 	"license": "Deze pagina is beschikbaar onder de <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike-licentie</a>",
 	"terms": "Gebruiksvoorwaarden",

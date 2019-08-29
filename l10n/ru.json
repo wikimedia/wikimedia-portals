@@ -7,7 +7,8 @@
 			"Jack who built the house",
 			"Kaganer",
 			"Stjn",
-			"Vlad5250"
+			"Vlad5250",
+			"Movses"
 		]
 	},
 	"language-name": "Русский",
@@ -15,10 +16,9 @@
 	"language-button-text": "Читайте Википедию на своём языке",
 	"footer-description": "Википедия расположена на серверах Фонда Викимедиа — некоммерческой организации, которая также обеспечивает работу ряда других проектов.",
 	"app-links": {
-		"title": "Приложения Википедии теперь доступны:",
-		"ios": "Скачать для iOS в App Store",
-		"android": "Скачать для Android в Google Play",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Посмотреть полный список доступных приложений Википедии</a>"
+		"title": "Скачать Википедию под Андроид или iOS",
+		"description": "С помощью официального мобильного приложения Википедии вы сможете сохранить статьи в списках для чтения офлайн, синхронизировать списки на различных устройствах и др.",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Эта страница доступна под <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">лицензией Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Условия использования",

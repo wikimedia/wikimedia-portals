@@ -11,10 +11,7 @@
 	"language-button-text": "Читај Википедију на свом језику",
 	"footer-description": "Википедију хостује Фондација Викимедија, непрофитна организација која такође хостује још много других пројеката.",
 	"app-links": {
-		"title": "Википедијине апликације су сада доступне:",
-		"ios": "Преузми за iOS на App Store",
-		"android": "Преузми за Android на Google Play",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Погледај цели списак доступних Википедијиних апликација</a>"
+		"title": "Википедијине апликације су сада доступне:"
 	},
 	"license": "Ова страница је доступна под лиценцом <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Кријејтив комонс Ауторство—Делити под истим условима</a>",
 	"terms": "Услови коришћења",

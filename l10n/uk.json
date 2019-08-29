@@ -12,10 +12,9 @@
 	"language-button-text": "Читайте Вікіпедію своєю мовою",
 	"footer-description": "Вікіпедія перебуває на серверах Фонду Вікімедіа — неприбуткової організації, що також опікується рядом інших проектів.",
 	"app-links": {
-		"title": "Тепер доступні додатки Вікіпедії:",
-		"ios": "Завантажити для iOS в App Store",
-		"android": "Завантажити для Android у Google Play",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Переглянути повний список доступних додатків Вікіпедії</a>"
+		"title": "Завантажити Вікіпедію під Андроід або iOS",
+		"description": "За допомогою офіційного мобільного додатку Вікіпедії ви зможете зберегти статті до списків читання офлайн, синхронізувати списки на різних пристроях та ін.",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Ця сторінка доступна на умовах ліцензії <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Умови використання",

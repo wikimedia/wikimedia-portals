@@ -8,10 +8,7 @@
 	"language-button-text": "Čitajte Wikipediju na svom jeziku",
 	"footer-description": "Wikipediju pruža Zadužbina Wikimedia, neprofitna organizacija koja također udomljuje niz drugih projekata.",
 	"app-links": {
-		"title": "Sad su dostupne Wikipedijine aplikacije:",
-		"ios": "Preuzmi za iOS na App Storeu",
-		"android": "Preuzmi za Android na Google Playu",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Vidi cijeli spisak raspoloživih Wikipedijinih aplikacija</a>"
+		"title": "Sad su dostupne Wikipedijine aplikacije:"
 	},
 	"license": "Stranica je dostupna pod licencom <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Autorstvo-Dijeliti pod istim uvjetima</a>.",
 	"terms": "Uslovi korištenja",

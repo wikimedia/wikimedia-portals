@@ -17,10 +17,7 @@
 	"language-button-text": "Vikipedi'yi kendi dilinizde okuyun",
 	"footer-description": "Vikipedi, başka projeleri de barındıran ve kâr amacı gütmeyen bir kuruluş olan Wikimedia Vakfı tarafından barındırılmaktadır.",
 	"app-links": {
-		"title": "Artık Vikipedi uygulamalarını kullanabilirsiniz:",
-		"ios": "App Store'dan iOS için indirin",
-		"android": "Google Play'den Android için indirin",
-		"other": "<a href='https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'>Kullanılabilir Vikipedi uygulamalarının tam listesini görün</a>"
+		"title": "Artık Vikipedi uygulamalarını kullanabilirsiniz:"
 	},
 	"license": "Bu sayfa, <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atıf-BenzerPaylaşım Lisansı</a> altındadır",
 	"terms": "Kullanım Şartları",
