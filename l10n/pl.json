@@ -3,14 +3,16 @@
 		"authors": [
 			"Chrumps",
 			"Woytecr",
-			"Kastanoto"
+			"Kastanoto",
+			"Railfail536"
 		]
 	},
 	"language-name": "Polski",
 	"language-button-text": "Czytaj Wikipedię w swoim języku",
 	"footer-description": "Wikipedia jest hostowana przez Fundację Wikimedia, organizację non-profit, która także prowadzi szereg innych projektów.",
 	"app-links": {
-		"title": "Aplikacje Wikipedii są już dostępne:"
+		"title": "Pobierz aplikację Wikipedii na Androida lub iOS",
+		"description": "Czytaj swoje ulubione artykuły offline, zsynchronizuj listy czytania pomiędzy urządzeniami i dostosuj swoje doświadczenie, korzystając z oficjalnej aplikacji Wikipedii."
 	},
 	"license": "Ta strona jest dostępna na licencji <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.pl'>Creative Commons Uznanie autorstwa-Na tych samych warunkach</a>",
 	"terms": "Warunki użytkowania",

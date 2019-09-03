@@ -1,14 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Papuass"
+			"Papuass",
+			"Silraks"
 		]
 	},
 	"language-name": "Latviešu",
 	"language-name-romanized-sorted": "Latviesu",
+	"language-button-text": "Lasi Vikipēdiju tavā valodā",
 	"terms": "Lietošanas noteikumi",
 	"Privacy Policy": "Privātuma politika",
 	"search-input-button": "Meklēt",
+	"search-input-label": "Meklēt Vikipēdijā",
 	"wiki": {
 		"name": "Vikipēdija",
 		"slogan": "Brīvā enciklopēdija",
@@ -32,6 +35,7 @@
 		"slogan": "Brīvs ceļojumu gids"
 	},
 	"wikidata": {
+		"name": "Vikidati",
 		"slogan": "Brīva zināšanu bāze"
 	},
 	"mediawiki": {

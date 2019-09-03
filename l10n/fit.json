@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"language-name": "Meänkieli",
+	"language-name-romanized": "Meänkieli",
+	"language-name-romanized-sorted": "Meänkieli",
+	"search-input-label": "Hae Wikipeetiasta",
+	"wiki": {
+		"name": "Wikipeetia",
+		"entries": "artikkelit"
+	},
+	"wikinews": {
+		"entries": "artikkelit"
+	},
+	"wikiquote": {
+		"entries": "artikkelit"
+	}
+}
