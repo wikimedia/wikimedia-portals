@@ -7,6 +7,11 @@
 	"language-name": "Meänkieli",
 	"language-name-romanized": "Meänkieli",
 	"language-name-romanized-sorted": "Meänkieli",
+	"language-button-text": "Lue Wikipeetiaa sinun kielelä",
+	"app-links": {
+		"title": "Lattaa Wikipeetia Androidile eli iOSle"
+	},
+	"search-input-button": "Hae",
 	"search-input-label": "Hae Wikipeetiasta",
 	"wiki": {
 		"name": "Wikipeetia",
