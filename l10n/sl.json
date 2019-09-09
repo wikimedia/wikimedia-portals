@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
-			"HairyFotr"
+			"HairyFotr",
+			"P̲̳l̳eo"
 		]
 	},
 	"language-name": "Slovenščina",
@@ -10,6 +11,9 @@
 	"language-button-text": "Preberite Wikipedijo v svojem jeziku",
 	"footer-description": "Wikipedijo gostuje Fundacija Wikimedia, neprofitna organizacija, ki gostuje tudi vrsto drugih projektov.",
 	"terms": "Pogoji uporabe",
+	"Privacy Policy": "Politika zasebnosti",
+	"search-input-button": "Iskanje",
+	"search-input-label": "Išči po Wikipediji",
 	"wiki": {
 		"name": "Wikipedija",
 		"slogan": "Prosta enciklopedija",
