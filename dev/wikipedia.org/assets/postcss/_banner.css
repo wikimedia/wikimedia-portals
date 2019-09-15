@@ -1,0 +1,175 @@
+/* Prevent horizontal scroll with Firefox on small screens */
+body {
+	overflow-x: hidden;
+}
+
+.banner-container {
+	display: none;
+	padding: 0 16px;
+}
+
+.banner-container.banner-visible {
+	display: block;
+}
+
+/* Resets */
+.banner-container *:focus {
+	outline: 0;
+}
+
+/* Styles */
+.banner {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 540px;
+	background-color: var( --wmui-color-red90 );
+	border: 2px solid #ffb8b5;
+	border-radius: 2px;
+	font-size: 15px;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+@media all and ( min-width: 900px ) {
+	.banner {
+		text-align: left;
+		font-size: 16px;
+	}
+}
+
+.banner__close {
+	position: absolute;
+	margin-top: -24px;
+	margin-right: -24px;
+	padding: 12px;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.banner__close:hover .banner__close-icon path,
+.banner__close:focus .banner__close-icon path,
+.banner__close:hover .banner__close-icon circle,
+.banner__close:focus .banner__close-icon circle {
+	stroke: var( --wmui-color-base0 );
+}
+
+.banner__close-icon {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+}
+
+.banner__table {
+	display: table;
+	width: 100%;
+}
+
+/* Text */
+.banner__cell {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+@media all and ( min-width: 900px ) {
+	.banner__cell {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+.banner__cell:first-child {
+	padding-top: 8px;
+}
+
+@media all and ( min-width: 900px ) {
+	.banner__cell:first-child {
+		padding-top: 10px;
+		padding-bottom: 12px;
+	}
+}
+
+/* Button */
+.banner__cell:last-child {
+	padding-top: 8px;
+	padding-bottom: 12px;
+}
+
+@media all and ( min-width: 900px ) {
+	.banner__cell:last-child {
+		padding-top: 12px;
+		padding-right: 24px;
+		text-align: right;
+	}
+}
+
+.banner__button {
+	display: inline-block;
+	text-decoration: none;
+	background-color: var( --wmui-color-base90 );
+	border: 1px solid var( --wmui-color-base50 );
+	border-radius: 2px;
+	color: var( --wmui-color-accent50 );
+	padding: 8px 12px;
+	cursor: pointer;
+	font-weight: bold;
+	white-space: nowrap;
+	line-height: 1;
+}
+
+@media all and ( min-width: 900px ) {
+	.banner__button {
+		padding: 9px 13px;
+	}
+}
+
+.banner__button:hover {
+	text-decoration: none;
+	background-color: var( --wmui-color-base100 );
+	border-color: var( --color-primary--hover );
+}
+
+.banner__button:focus {
+	border-color: var( --wmui-color-accent50 );
+	box-shadow: inset 0 0 0 1px var( --wmui-color-accent50 );
+}
+
+/* Fixed styles */
+@media all and ( min-width: 960px ) {
+	.search-container + .banner-container {
+		margin-top: -10px;
+	}
+
+	.banner--is-fixed {
+		position: fixed;
+		z-index: 2;
+		left: 50%;
+		transform: translate( -50% );
+		margin: 0;
+	}
+
+	.banner--is-fixed-left {
+		max-width: 200px;
+		margin-top: -48px; /* visually center it */
+		left: 16px;
+		top: 50%;
+		transform: translateY( -50% );
+	}
+
+	.banner--is-fixed-left .banner__cell {
+		display: block;
+	}
+
+	.banner--is-fixed-left .banner__cell:last-child {
+		padding-top: 0;
+		padding-bottom: 16px;
+		text-align: left;
+	}
+
+	/* Add padding at the bottom of the page so the fixed bottom banner doesn’t overlap */
+	#portalBanner_en_2018-11-27_pos_fixedBottom.banner-visible ~ .site-license {
+		padding-bottom: 120px;
+	}
+}
