@@ -2,14 +2,24 @@
 	"@metadata": {
 		"authors": [
 			"YesIn",
-			"ⵕⴰⵊⵉ"
+			"ⵕⴰⵊⵉ",
+			"Mdb897"
 		]
 	},
 	"language-button-text": "ⵖⵕ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ ⵙ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⴽ",
+	"footer-description": "ⵡⵉⴽⵉⴱⵉⴷⵢⴰ ⵜⵜⵡⴰⵙⵣⴷⵖ ⵙ ⵜⵎⵔⵙⵍⵜ ⵏ ⵡⵉⴽⵉⵎⵉⴷⵢⴰ, ⵢⴰⵏ ⵓⵏⴳⵎⴰⵎ ⵡⴰⵔ ⵚⴰⵃⴰ ⵍⵍⵉ ⵉⵙⵙⵣⴷⵖⵏ ⵓⵍⴰ ⵎⵏⵏⴰⵡ ⵉⵙⵏⴼⴰⵔⵏ ⵏⵏⵉⴹⵏⵉ.",
+	"app-links": {
+		"title": "ⴰⴳⵎ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ ⵉ ⵡⴰⵏⴷⵔⵓⵢⴷ ⵏⵖ ⵢⵓⵙ",
+		"description": "ⴰⵔⵉ ⵉⵎⴳⵔⴰⴷⵏ ⵏⴽ ⵢⵓⴼⵏ ⵃⵎⴰ ⴰⴷ ⵜⵏ ⵜⵖⵔⴷ ⵎⵉⵏ ⴰⵏⵜⵉⵔⵏⵉⵜ, ⵎⵢⴰⴽⵓⴷ ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵜⵖⵔⵉ ⵏⴽ ⵏⴳⵔ ⵡⴰⵍⵍⴰⵍⵏ ⵜⵙⵏⴼⵍⴷ ⵜⵓⵔⵉⵎⵜ ⵏ ⵜⵖⵔⵉ ⵏⴽ ⴷ ⵜⵙⵏⵙⵉ ⵜⵓⵏⵚⵉⴱⵜ ⵏ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ.",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+	},
+	"license": "ⵜⴰⵙⵏⴰ ⴰⴷ ⵜⵍⵍⴰ ⴷⴷⴰⵡ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>ⵜⵓⵔⴰⴳⵜ ⵏ Creative Commons Attribution-ShareAlike</a>",
 	"terms": "ⵜⵉⴼⴰⴷⵉⵡⵉⵏ ⵏ ⵓⵙⵎⵔⵙ",
 	"Privacy Policy": "ⵜⴰⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"search-input-button": "ⵔⵣⵓ",
+	"search-input-label": "ⵔⵣⵓ ⴳ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ",
 	"wiki": {
 		"name": "ⵡⵉⴽⵉⴱⵉⴷⵢⴰ",
 		"slogan": "ⵜⴰⵙⴰⵏⴰⵢⵜ ⵜⵉⵍⴻⵍⵍⵉⵜ",
@@ -17,18 +27,22 @@
 	},
 	"wiktionary": {
 		"name": "ⵡⵉⴽⵉⵎⴰⵡⴰⵍ",
-		"slogan": "ⴰⵎⴰⵡⴰⵍ ⵉⵍⴻⵍⵍⵉ"
+		"slogan": "ⴰⵎⴰⵡⴰⵍ ⵉⵍⴻⵍⵍⵉ",
+		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
 	},
 	"wikibooks": {
 		"name": "ⵡⵉⴽⵉⴷⵍⵉⵙⵏ",
+		"slogan": "ⵉⴷⵍⵉⵙⵏ ⵉⵙⴳⵎⴰⵏⵏ ⵉⵍⴻⵍⵍⵉⵏ",
 		"entries": "ⵜⴰⵙⵏⵉⵡⵉⵏ"
 	},
 	"wikinews": {
 		"name": "ⵡⵉⴽⵉⵏⵖⵎⵉⵙⵏ",
+		"slogan": "ⴰⵖⴱⴰⵍⵓ ⵏ ⵉⵏⵖⵎⵉⵙⵏ ⵉⵍⴻⵍⵍⵉⵏ",
 		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
 	},
 	"wikiquote": {
 		"name": "ⵡⵉⴽⵉ ⴰⴱⴷⴰⵔ",
+		"slogan": "ⵜⴰⴷⵍⴰ ⵏ ⵉⴱⴷⴰⵔⵏ ⵉⵍⴻⵍⵍⵉⵏ",
 		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
 	},
 	"wikisource": {

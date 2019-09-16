@@ -4,7 +4,8 @@
 			"Kumkumuk",
 			"Mirzali",
 			"Asmen",
-			"Orbot707"
+			"Orbot707",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"language-name": "Zazaki",
@@ -13,7 +14,9 @@
 	"language-button-text": "Wikipediya zıwanê xo de bıwane",
 	"footer-description": "Wikipediya, weqıfê wikimedya de dariya we, zey ê organizasyonanê proceyanê binan.",
 	"app-links": {
-		"title": "Android ya zi iOSi rê Wikipediya ronê"
+		"title": "Android ya zi iOSi rê Wikipediya ronê",
+		"description": "Nuşteyanê xoyê ercayan wendışê teberi rê qeyd kerê, aplikasyonanê Wikipediyayê resmiyan ra wendışanê lista xo cihazi ra rocanê kerê.",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Na pele bınê <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lisansê Creative Commons Attribution-ShareAlike</a> de mewcuda",
 	"terms": "Şertê gurenayışi",
