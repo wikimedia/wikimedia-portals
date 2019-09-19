@@ -9,11 +9,14 @@
 		]
 	},
 	"language-name": "Čeština",
+	"language-name-romanized": "čeština",
 	"language-name-romanized-sorted": "Cestina",
 	"language-button-text": "Přečtěte si Wikipedii ve svém jazyce",
 	"footer-description": "Wikipedii provozuje Wikimedia Foundation, nezisková organizace, která provozuje také mnoho dalších projektů.",
 	"app-links": {
-		"title": "Stáhnout aplikaci Wikipedie pro Android nebo iOS"
+		"title": "Stáhnout aplikaci Wikipedie pro Android nebo iOS",
+		"description": "Uložte si své oblíbené články, abyste je mohli číst i bez připojení k internetu, synchronizovat seznamy k přečtení napříč různými zařízeními a přizpůsobit si zážitek ze čtení pomocí oficiální aplikace Wikipedie.",
+		"url": "https://cs.wikipedia.org/wiki/Seznam_mobiln%C3%ADch_aplikac%C3%AD_Wikipedie"
 	},
 	"license": "Tato stránka je k dispozici pod <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Podmínky užití",
