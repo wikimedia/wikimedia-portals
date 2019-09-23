@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Armeniki",
-			"Kareyac"
+			"Kareyac",
+			"Դավիթ Սարոյան"
 		]
 	},
-	"language-name": "Անգլերէն",
-	"language-name-romanized": "Անգլերէն",
-	"language-name-romanized-sorted": "Անգլերէն",
-	"language-button-text": "Կարդացէք՛ Ուքիփետիան ձեր լեզուով",
+	"language-name": "Արեւմտահայերէն",
+	"language-name-romanized": "Arevmdahayeren",
+	"language-name-romanized-sorted": "Arevmdahayeren",
+	"language-button-text": "Կարդացէ՛ք Ուքիփետիան Ձեր լեզուով",
 	"Privacy Policy": "Մտերմութեան Ապահովագիր",
 	"search-input-button": "Որոնել",
 	"search-input-label": "Որոնել Վիքիպետիա կայքին մէջ",
@@ -19,7 +20,7 @@
 	},
 	"wiktionary": {
 		"name": "Ուիքիբառարան",
-		"slogan": "Ցրի բառարան",
+		"slogan": "Ազատ բառարան",
 		"entries": "յօդուածներ"
 	},
 	"wikibooks": {
