@@ -8,28 +8,31 @@
 			"Velg",
 			"Archaeodontosaurus",
 			"Vito Genovese",
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"language-name": "Türkçe",
-	"language-name-romanized": "Turkce",
-	"language-name-romanized-sorted": "Turkce",
+	"language-name-romanized": "Türkçe",
+	"language-name-romanized-sorted": "Türkçe",
 	"language-button-text": "Vikipedi'yi kendi dilinizde okuyun",
 	"footer-description": "Vikipedi, başka projeleri de barındıran ve kâr amacı gütmeyen bir kuruluş olan Wikimedia Vakfı tarafından barındırılmaktadır.",
 	"app-links": {
-		"title": "Artık Vikipedi uygulamalarını kullanabilirsiniz:"
+		"title": "Android veya iOS için Vikipedi'yi indirin",
+		"description": "Çevrimdışı okumak için sevdiğiniz makaleleri kaydedin, okuma listelerinizi aygıtlar arasında senkronize edin ve okuma deneyiminizi resmi Wikipedia uygulamasıyla özelleştirin.",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Bu sayfa, <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atıf-BenzerPaylaşım Lisansı</a> altındadır",
 	"terms": "Kullanım Şartları",
 	"Privacy Policy": "Gizlilik Politikası",
-	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
-	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/tr",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/tr",
 	"search-input-button": "Ara",
-	"search-input-label": "Vikipedi'de Ara",
+	"search-input-label": "Vikipedi Ara",
 	"wiki": {
 		"name": "Vikipedi",
 		"slogan": "Özgür Ansiklopedi",
-		"entries": "madde"
+		"entries": "makaleler"
 	},
 	"wiktionary": {
 		"name": "Vikisözlük",
@@ -39,17 +42,17 @@
 	"wikibooks": {
 		"name": "Vikikitap",
 		"slogan": "Özgür ders kitapları",
-		"entries": "sayfa"
+		"entries": "sayfalar"
 	},
 	"wikinews": {
 		"name": "Vikihaber",
 		"slogan": "Özgür haber kaynağı",
-		"entries": "madde"
+		"entries": "makaleler"
 	},
 	"wikiquote": {
 		"name": "Vikisöz",
 		"slogan": "Özgür söz dizini",
-		"entries": "madde"
+		"entries": "makaleler"
 	},
 	"wikisource": {
 		"name": "Vikikaynak",

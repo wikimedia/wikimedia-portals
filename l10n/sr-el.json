@@ -1,0 +1,82 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zoranzoki21"
+		]
+	},
+	"language-name": "Engleski",
+	"language-name-romanized": "Engleski",
+	"language-name-romanized-sorted": "Engleski",
+	"language-button-text": "Čitaj Vikipediju na svom jeziku",
+	"footer-description": "Vikipediju hostuje Fondacija Vikimedija, neprofitna organizacija koja takođe hostuje još mnogo drugih projekata.",
+	"app-links": {
+		"title": "Vikipedijine aplikacije za Android ili iOS",
+		"description": "Sačuvajte vaše omiljene članke za čitanje van mreže, sinhronizujte vaše liste za čitanje na ostalim uređajima i prilagodite vaše iskustvo čitanja sa zvaničnom aplikacijom Vikipedije.",
+		"url": "https://sr.wikipedia.org/wiki/Spisak_Vikipedijinih_mobilnih_aplikacija"
+	},
+	"license": "Ova stranica je dostupna pod licencom <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Krijejtiv komons Autorstvo—Deliti pod istim uslovima</a>",
+	"terms": "Uslovi korišćenja",
+	"Privacy Policy": "Politika privatnosti",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/sr",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/sr",
+	"search-input-button": "Pretraži",
+	"search-input-label": "Pretražite Vikipediju",
+	"wiki": {
+		"name": "Vikipedija",
+		"slogan": "Slobodna enciklopedija",
+		"entries": "članci"
+	},
+	"wiktionary": {
+		"name": "Vikirečnik",
+		"slogan": "Slobodan rečnik",
+		"entries": "unosi"
+	},
+	"wikibooks": {
+		"name": "Vikiknjige",
+		"slogan": "Slobodni udžbenici",
+		"entries": "stranice"
+	},
+	"wikinews": {
+		"name": "Vikinovosti",
+		"slogan": "Slobodan izvor vesti",
+		"entries": "članci"
+	},
+	"wikiquote": {
+		"name": "Vikicitat",
+		"slogan": "Slobodna zbirka citata",
+		"entries": "članci"
+	},
+	"wikisource": {
+		"name": "Vikizvornik",
+		"slogan": "Slobodna biblioteka"
+	},
+	"wikiversity": {
+		"name": "Vikiverzitet",
+		"slogan": "Slobodni nastavni materijali za kurs",
+		"entries": "resursi za učenje"
+	},
+	"wikivoyage": {
+		"name": "Vikiputovanja",
+		"slogan": "Slobodni vodič za putovanja"
+	},
+	"commons": {
+		"name": "Ostava",
+		"slogan": "Slobodno upotrebljive fotografije i više"
+	},
+	"wikispecies": {
+		"name": "Vikivrste",
+		"slogan": "Slobodni direktorijum vrsta"
+	},
+	"wikidata": {
+		"name": "Vikipodaci",
+		"slogan": "Slobodna baza znanja"
+	},
+	"mediawiki": {
+		"name": "Medijaviki",
+		"slogan": "Slobodna i otvorena viki aplikacija"
+	},
+	"metawiki": {
+		"name": "Metaviki",
+		"slogan": "Koordinacija zajednice i dokumentacija"
+	}
+}
