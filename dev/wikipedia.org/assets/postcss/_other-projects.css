@@ -19,6 +19,11 @@
 	white-space: nowrap;
 }
 
+/* Override partial underlining (T232286) */
+a.other-project-link {
+	text-decoration: none;
+}
+
 .other-project-icon {
 	display: inline-block;
 	width: 50px;
