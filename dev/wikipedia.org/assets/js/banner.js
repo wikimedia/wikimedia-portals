@@ -11,8 +11,8 @@
 	var
 		geoCookieCountry = document.cookie.match( /GeoIP=.[^:]/ ),
 		country = geoCookieCountry && geoCookieCountry.toString().split( '=' )[ 1 ],
-		bannerCountries = [ 'JP' ],
-		bannerLang = 'ja',
+		bannerCountries = [ 'FR' ],
+		bannerLang = 'fr',
 		userLangs = wmTest.userLangs,
 		hideBanner = /(hideWikipediaPortalBanner|centralnotice_hide_fundraising)/.test( document.cookie ),
 		allBannerEls = document.querySelectorAll( '.banner-container' ),
@@ -27,7 +27,7 @@
 	} );
 
 	bannerLinkEl.href = 'https://donate.wikimedia.org/?utm_medium=portal&utm_campaign=portalBanner';
-	bannerLinkEl.href += '&uselang=ja&country=JP';
+	bannerLinkEl.href += '&uselang=fr&country=FR';
 	bannerLinkEl.href += '&utm_source=' + bannerEl.id;
 	bannerLinkEl.target = '_blank';
 
