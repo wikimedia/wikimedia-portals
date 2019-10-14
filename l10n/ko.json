@@ -5,7 +5,8 @@
 			"Kwj2772",
 			"Jerrykim306",
 			"Revi",
-			"Garam"
+			"Garam",
+			"ChongDae"
 		]
 	},
 	"language-name": "한국어",
@@ -15,6 +16,7 @@
 	"footer-description": "위키백과는 다른 여러 프로젝트들도 운영하는 비영리 단체인 위키미디어 재단이 운영합니다.",
 	"app-links": {
 		"title": "안드로이드 또는 iOS용 위키백과 다운로드",
+		"description": "공식 위키백과 앱을 사용하여 즐겨찾는 기사를 저장하여 오프라인에서 읽고, 읽기 목록을 장치간에 동기화하고, 읽기 환경을 사용자 정의하십시오.",
 		"url": "https://ko.wikipedia.org/wiki/위키백과_모바일_애플리케이션_목록"
 	},
 	"license": "이 화면은 <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ko'>크리에이티브 커먼즈 저작자표시-동일조건변경허락 라이선스</a> 하에서 이용 가능합니다.",
