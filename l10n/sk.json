@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"TomášPolonec",
-			"Kusavica"
+			"Kusavica",
+			"Luky001"
 		]
 	},
 	"language-name": "Slovenčina",
@@ -33,7 +34,7 @@
 		"entries": "stránky"
 	},
 	"wikinews": {
-		"name": "Wikinoviny",
+		"name": "Wikisprávy",
 		"slogan": "Slobodné spravodajstvo",
 		"entries": "články"
 	},

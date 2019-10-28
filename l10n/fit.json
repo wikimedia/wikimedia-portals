@@ -18,11 +18,17 @@
 		"slogan": "Vapaa tietosanakirja",
 		"entries": "artikkelit"
 	},
+	"wikibooks": {
+		"name": "Wikipipluteekki"
+	},
 	"wikinews": {
 		"entries": "artikkelit"
 	},
 	"wikiquote": {
 		"entries": "artikkelit"
+	},
+	"wikiversity": {
+		"name": "Wikiversiteetti"
 	},
 	"wikidata": {
 		"name": "Wikitaatta"

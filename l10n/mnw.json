@@ -8,16 +8,20 @@
 	"language-button-text": "ဗှ် ဝဳကဳပဳဒဳယာ နကဵု အရေဝ်ဘာသာ မၞး",
 	"footer-description": "ဝဳကဳပဳဒဳယာဂှ် သြိုင်ခၞံလဝ် နကဵု Wikimedia Foundation မဒှ်ဂကောံစေတနာမွဲတုဲ သီုကဵု ဒက်ပ္တန်လဝ် ပရောဂျေတ်တၞဟ်တအ်ကီုရ၊၊",
 	"app-links": {
-		"title": "Wikipedia apps မကလိဂွံမာန်တအ်ဂှ် -"
+		"title": "တံင်လုပ်ကေတ် Wikipedia သွက် Android ဟွံသေင်မ္ဂး iOS",
+		"description": "ဂိုင်ဒေပ်လဝ် လိက်ပရေင် မဒးဂၞပ်မၞး သွက်ဂွံဗှ် မ္ၚးလာင်၊ သေန် စရင်လိက် မၞးမဗှ်လဝ်တုဲ ဂိုင်ဒေပ်လဝ် ပ္ဍဲ ဝဳကဳပဳဒဳယာ အာပ်။",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "မုက်လိက်ဏအ် ကလိဂွံ ပ္ဍဲဒၞာဲဏအ်မာန်ရ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "ဂကောံ ညးလွပ်ဂမၠိုင်",
 	"Privacy Policy": "ပဝ်လသဳ အခေါင်အရာပူဂဵု",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"search-input-button": "ဂၠာဲ",
+	"search-input-label": "ဂၠာဲ ပ္ဍဲ ဝဳကဳပဳဒဳယာ",
 	"wiki": {
 		"name": "ဝဳကဳပဳဒဳယာ",
-		"slogan": "ပြကိုဟ်ဗိသ္တာ သက္ကုၚုဟ်",
+		"slogan": "ပြကိုဟ်ဗိသ္တာ မသက္ကုၚုဟ်မး",
 		"entries": "လိက်ပရေင်ဂမၠိုင်"
 	},
 	"wiktionary": {
