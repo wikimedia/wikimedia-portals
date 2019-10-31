@@ -2,60 +2,70 @@
 	"@metadata": {
 		"authors": [
 			"Youssef",
-			"Reda Benkhadra"
+			"Reda Benkhadra",
+			"SADI9I",
+			"SADIQUI"
 		]
 	},
-	"language-button-text": "قرا ويكيبيديا ب لوغتك",
-	"footer-description": "ويكيبيديا تتم استضافتها بواسطة مؤسسة ويكيميديا، وهي منظمة غير ربحية تستضيف أيضا مجموعة من المشاريع الأخرى.",
+	"language-button-text": "قرا ويكيپيديا بلوغتك",
+	"footer-description": "ويكيپيديا كتّم استضافتها بواسطة مؤسسة ويكيميديا، وهي منظمة غير ربحية كتستضيف مجموعة من المشاريع الأخرى.",
 	"app-links": {
-		"title": "تطبيق ويكيبيديا الان متوفر"
+		"title": "حمّل ويكيپيديا للأندرويد أولا الآي أو إس",
+		"description": "احفظ مقالاتك المفضلة باش تقراهم مللي تكون أوفلاين وزامن قوائم القراءة عبر الأجهزة وخصص تجربة القراءة الخاصة بيك في تطبيق ويكيپيديا الرسمي.",
+		"url": "https://ary.wikipedia.org/wiki/قائمة_تطبيقات_ويكيبيديا_للهاتف"
 	},
-	"terms": "تعليمات الاستخدام",
+	"license": "هاد الصفحة منشورة <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ar '>برخصة المشاع الإبداعي</a>",
+	"terms": "شروط الاستخدام",
 	"Privacy Policy": "سياسة الخصوصية",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ary",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ary",
+	"search-input-button": "قلّب",
+	"search-input-label": "قلّب في ويكيپيديا",
 	"wiki": {
-		"name": "Wikipédya",
-		"slogan": " الموسوعة الحرة",
+		"name": "ويكيپيديا",
+		"slogan": "الـمـوسـوعـة الـحـرة",
 		"entries": "مقالة"
 	},
 	"wiktionary": {
-		"name": "Wikiqamos",
+		"name": "ويكي قاموس",
 		"slogan": "قاموس حر",
 		"entries": "مقالات"
 	},
 	"wikibooks": {
 		"name": "ويكي الكتب",
-		"slogan": "مقالات لكتب مجانية",
+		"slogan": "كتب نصية حرة",
 		"entries": "الصفحات"
 	},
 	"wikinews": {
 		"name": "ويكي الأخبار",
-		"slogan": "مصادر مجانية جديدة",
-		"entries": "مقالة"
+		"slogan": "مصدر أخبار حر",
+		"entries": "مقالات"
 	},
 	"wikiquote": {
-		"name": "ويكي_الاقتباس",
-		"slogan": "خلاصة اقتباسات  حرة",
-		"entries": "مقالة"
+		"name": "ويكي الاقتباس",
+		"slogan": "تجميعية حرة ديال الاقتباسات",
+		"entries": "مقالات"
 	},
 	"wikisource": {
-		"name": "Wikiĝin",
-		"slogan": "مكتبة مجانية"
+		"name": "ويكي مصدر",
+		"slogan": "مكتبة حرة"
 	},
 	"wikiversity": {
-		"name": "Wikoliya",
-		"slogan": "المواد الدراسية المجانية",
+		"name": "ويكي الجامعة",
+		"slogan": "مواد دراسية حرة",
 		"entries": "مصادر التعلم"
 	},
 	"wikivoyage": {
-		"slogan": "دليل سفر مجاني"
+		"name": "ويكي الرحلات",
+		"slogan": "دليل سفر حر"
 	},
 	"commons": {
-		"name": "ردود",
-		"slogan": "الصور التي يمكن استخدامها بحرية والمزيد"
+		"name": "كومنز",
+		"slogan": "التصاور اللي ممكن تّستخدم بحرية والمزيد"
 	},
 	"wikispecies": {
 		"name": "ويكي الأنواع",
-		"slogan": "الدليل الحر للانواع"
+		"slogan": "دليل الأنواع الحر"
 	},
 	"wikidata": {
 		"name": "ويكي بيانات",
@@ -63,7 +73,7 @@
 	},
 	"mediawiki": {
 		"name": "ميدياويكي",
-		"slogan": "برمجيات الويكي الحرة و المستمرة"
+		"slogan": "برمجيات الويكي الحرة"
 	},
 	"metawiki": {
 		"name": "ميتا ويكي",
