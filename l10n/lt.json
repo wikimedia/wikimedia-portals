@@ -4,7 +4,8 @@
 			"Zygimantus",
 			"Eitvys200",
 			"Manvydasz",
-			"Naktis"
+			"Naktis",
+			"Tomasdd"
 		]
 	},
 	"language-name": "Lietuvių",
@@ -12,7 +13,8 @@
 	"language-button-text": "Skaityti Vikipedija savo kalba",
 	"footer-description": "Vikipedija yra talpinama Vikimedia Fondo, nepelno organizacijos, kuri taip pat talpina įvairius kitus projektus.",
 	"app-links": {
-		"title": "Vikipedijos programėlės yra prieinamos:"
+		"title": "Vikipedijos programėlės yra prieinamos:",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Šis puslapis pateikiamas pagal <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.lt'>Creative Commons Attribution-ShareAlike licenciją</a>",
 	"terms": "Naudojimosi sąlygos",
