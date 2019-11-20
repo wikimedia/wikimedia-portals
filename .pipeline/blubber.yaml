@@ -1,0 +1,22 @@
+version: v4
+base: docker-registry.wikimedia.org/apache:0.0.1
+
+variants:
+  build:
+    base: docker-registry.wikimedia.org/nodejs10-devel:0.0.3
+    apt: {packages: [git, python-pkgconfig, build-essential]}
+    node: {requirements: [package.json, package-lock.json]}
+  test:
+    includes: [build]
+    copies: [local]
+    entrypoint: [npm, test]
+  prep:
+    includes: [build]
+    builder:
+      command: [npm, run-script, build-all-portals]
+      requirements: [.]
+  production:
+    copies:
+      - from: prep
+        source: /srv/app/prod
+        destination: /srv/app/prod
