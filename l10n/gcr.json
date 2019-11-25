@@ -5,10 +5,14 @@
 			"Léon973"
 		]
 	},
-	"language-button-text": "Li Wikipédja annan zòt lanng",
+	"language-name": "Kriyòl Gwiyannen",
+	"language-name-romanized": "Kriyòl Gwiyannen",
+	"language-name-romanized-sorted": "Kriyòl Gwiyannen",
+	"language-button-text": "Li Wikipédja annan ou lanng",
 	"footer-description": "Wikipédja sa ébèrjé pa Wikimedia Foundation, oun òrganism san but likratif ki ka ébèrjé égalman bokou di ròt projè.",
 	"app-links": {
-		"title": "Laplikasyon-yan Wikipédja sa dézòrmé disponnib:"
+		"title": "Téléchajé Wikipédja pou Android ké iOS",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Sa paj sa disponnib anba <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative licence Commons Attribution-ShareAlike</a>",
 	"terms": "Kondisyon di litilizasyon",
@@ -34,7 +38,7 @@
 	},
 	"wikinews": {
 		"name": "Wikinews",
-		"slogan": "Sours-a d'enfòrmasyon ki zòt pouvé ékri",
+		"slogan": "Sours di atchwalité lib",
 		"entries": "artik"
 	},
 	"wikiquote": {
@@ -69,7 +73,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Laplikasyon wiki lib ké ouvè"
+		"slogan": "Laplikasyon wiki lib ké louvri"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
