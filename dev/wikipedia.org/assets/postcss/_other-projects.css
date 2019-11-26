@@ -53,6 +53,7 @@ complexity of the SVG file */
 .other-project-text {
 	display: inline-block;
 	max-width: 65%; /* approximating the 50px width of the icon */
+	font-size: 1.4rem;
 	vertical-align: middle;
 	white-space: normal;
 }
@@ -64,7 +65,7 @@ complexity of the SVG file */
 
 .other-project-tagline {
 	color: var( --ss-c-grey );
-	font-size: 1.216rem;
+	font-size: 1.2rem;
 }
 
 @media screen and ( max-width: 768px ) {

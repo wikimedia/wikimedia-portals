@@ -163,7 +163,7 @@ mark {
  */
 
 small {
-  font-size: 85%; /* CHANGED from 80% to 85% */
+  font-size: 1.2rem; /* CHANGED from `80%` to `1.2rem`. */
 }
 
 /**
