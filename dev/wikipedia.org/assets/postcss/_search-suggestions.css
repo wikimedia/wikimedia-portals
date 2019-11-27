@@ -70,7 +70,7 @@ a.suggestion-link:focus {
 .suggestion-title {
 	margin: 0 0 0.78rem 0;
 	color: var( --wmui-color-base20 );
-	font-size: 1.56rem;
+	font-size: 1.6rem;
 	line-height: 1.872rem;
 }
 

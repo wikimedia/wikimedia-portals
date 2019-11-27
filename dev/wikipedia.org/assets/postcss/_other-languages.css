@@ -48,7 +48,7 @@
 	border: var( --border-base );
 	border-radius: var( --border-radius-base );
     color: var( --color-primary );
-    font-size: 1.28rem;
+    font-size: 1.3rem;
 	font-weight: normal;
     line-height: 1;
     transition: outline-width 100ms ease-in 500ms;
