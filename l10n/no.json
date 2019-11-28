@@ -1,6 +1,10 @@
 {
-	"@metadata": [],
-	"language-name": "Norsk (Bokmål)",
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"language-name": "Norsk (bokmål)",
 	"language-name-romanized-sorted": "Norsk Bokmal",
 	"wiki": {
 		"name": "Wikipedia",
