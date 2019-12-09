@@ -15,7 +15,8 @@
 	"language-button-text": "Διαβάστε την Wikipedia στη γλώσσα σας",
 	"footer-description": "Η Wikipedia φιλοξενείται από το Wikimedia Foundation, ένα μη κερδοσκοπικό οργανισμό που φιλοξενεί επίσης μια σειρά από άλλα εγχειρήματα.",
 	"app-links": {
-		"title": "Εφαρμογές της Βικιπαίδεια είναι τώρα διαθέσιμες:"
+		"title": "Κατεβάστε τη Βικιπαίδεια για Android ή iOS",
+		"description": "Αποθηκεύστε τα αγαπημένα σας λήμματα για να διαβάσετε εκτός σύνδεσης, συγχρονίστε τις λίστες ανάγνωσης σε όλες τις συσκευές και προσαρμόστε την εμπειρία ανάγνωσής σας με την επίσημη εφαρμογή Wikipedia."
 	},
 	"license": "Αυτή η σελίδα είναι διαθέσιμη υπό την <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Όροι χρήσης",
@@ -27,7 +28,7 @@
 	"wiki": {
 		"name": "Βικιπαίδεια",
 		"slogan": "Η Ελεύθερη Εγκυκλοπαίδεια",
-		"entries": "άρθρα"
+		"entries": "λήμματα"
 	},
 	"wiktionary": {
 		"name": "Βικιλεξικό",
@@ -47,7 +48,7 @@
 	"wikiquote": {
 		"name": "Βικιφθέγματα",
 		"slogan": "Ελεύθερη ανθολογία αποφθεγμάτων",
-		"entries": "άρθρα"
+		"entries": "σελίδες"
 	},
 	"wikisource": {
 		"name": "Βικιθήκη",
