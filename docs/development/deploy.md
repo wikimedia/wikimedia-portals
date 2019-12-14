@@ -33,13 +33,13 @@ Bug: T128546
 and push the commit to Gerrit. The commit should be merged just before a deployment is about to take place.
 
 ## Deploying the Wikimedia portals
-From the deployment server (tin), run
+From the deployment server (deploy1001), run
 
 ```
 cd /srv/mediawiki-staging && git pull && git submodule update portals
 ```
 
-To test the portals on mwdebug, login to a debug server (e.g. mwdebug1002) and run
+To test the portals on mwdebug, login to a debug server (e.g. mwdebug1001) and run
 
 ```
 scap pull
