@@ -2,13 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Red Winged Duck",
-			"Renessaince"
+			"Renessaince",
+			"Nerogaf"
 		]
 	},
 	"language-button-text": "Чытайце Вікіпэдыю сваёй мовай",
 	"footer-description": "Вікіпэдыя кіраваная Фундацыяй Вікімэдыі, некамэрцыйнай арганізацыяй, якая таксама кіруе шэрагам іншых праектаў.",
 	"app-links": {
-		"title": "Цяпер даступныя дадаткі Вікіпэдыі:"
+		"title": "Спампаваць Вікіпэдыю для Андроіда або iOS",
+		"description": "Захавайце вашыя улюбёныя артыкулы для чытаньня ў аўтаномным рэжыме, сынхранызуйце сьпісы чытаньня на розных прыладах і наладзьце свой вопыт чытаньня з дапамогай афіцыйнага прыкладаньня Вікіпэдыя.",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Гэтая старонка даступная пад ліцэнзіяй <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Умовы выкарыстаньня",
