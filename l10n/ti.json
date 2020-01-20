@@ -1,12 +1,56 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Joanmp17"
+		]
+	},
 	"language-name": "ትግርኛ",
 	"language-name-romanized": "Tigriññā",
 	"language-name-romanized-sorted": "Tigrinna",
+	"terms": "ኣጠቓቕማ መምርሒ",
+	"search-input-button": "ምድላይ",
+	"search-input-label": "ዊኪፐዲኣ ይድለዩ",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "ዊኪፐዲኣ",
+		"slogan": "ናጻው ኤንሳይክሎፒድያ"
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "ዊኪመዝገበ-ቃላት",
+		"slogan": "ናጻው መዝገበ-ቃላት"
+	},
+	"wikibooks": {
+		"name": "ዊኪመጻሕፍቲ",
+		"entries": "ገጻት"
+	},
+	"wikinews": {
+		"name": "ዊኪዜና"
+	},
+	"wikiquote": {
+		"name": "ዊኪቁኦተ",
+		"slogan": "ናጻው ዝጥቕሲ ጽሑፍ"
+	},
+	"wikisource": {
+		"name": "ዊኪሶኡርቸ",
+		"slogan": "ናጻው ቤተ-መጻሕፍቲ"
+	},
+	"wikiversity": {
+		"name": "ዊኪቨርሲቲ",
+		"slogan": "ናጻው ትምህርታዊ ንዋት"
+	},
+	"wikivoyage": {
+		"name": "ዊኪጉዕዞታት",
+		"slogan": "ናጻው ጉዕዞ መምርሒ"
+	},
+	"commons": {
+		"name": "ቾምሞንስ"
+	},
+	"wikidata": {
+		"name": "ዊኪዳታ"
+	},
+	"mediawiki": {
+		"name": "መዲኣዊኪ"
+	},
+	"metawiki": {
+		"name": "መታ-ዊኪ"
 	}
 }
