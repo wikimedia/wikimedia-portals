@@ -1,12 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"GatoSelvadego"
+			"GatoSelvadego",
+			"Conky77"
 		]
 	},
 	"language-name": "Vèneto",
 	"language-name-romanized-sorted": "Veneto",
 	"language-button-text": "Lexi Wikipedia inte ƚa to lengua",
+	"footer-description": "Wikipedia ƚa xe ospità da ƚa Wikimedia Foundation, na organixasione no-profit che òspita anca na serie de altri progeti.",
+	"app-links": {
+		"title": "Descarga Wikipedia par Android o iOS",
+		"description": "Salva el to articoƚo favorìo par lexerƚo offline, sincronixa la to ƚista de ƚetura so tuti i dispoxitivi e personalixa la to esperiensa de letura co l'app ufisiaƚe de Wikipedia."
+	},
 	"license": "Sta pàgina ƚa xe disponibiƚe in baxe a ƚa licensa <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atribusion-Condividi al steso modo</a>",
 	"terms": "Condision d'uxo",
 	"Privacy Policy": "Informativa so ƚa privacy",
