@@ -5,14 +5,18 @@
 		]
 	},
 	"language-name": "ትግርኛ",
-	"language-name-romanized": "Tigriññā",
-	"language-name-romanized-sorted": "Tigrinna",
+	"language-name-romanized": "Təgərəña",
+	"language-name-romanized-sorted": "Təgərəña",
+	"app-links": {
+		"url": "https://ti.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+	},
 	"terms": "ኣጠቓቕማ መምርሒ",
+	"Privacy Policy": "ናይ ምሽጥራውነት ፖሊሲ",
 	"search-input-button": "ምድላይ",
 	"search-input-label": "ዊኪፐዲኣ ይድለዩ",
 	"wiki": {
 		"name": "ዊኪፐዲኣ",
-		"slogan": "ናጻው ኤንሳይክሎፒድያ"
+		"slogan": "ናጻው መዝገበ ፍልጠት"
 	},
 	"wiktionary": {
 		"name": "ዊኪመዝገበ-ቃላት",
