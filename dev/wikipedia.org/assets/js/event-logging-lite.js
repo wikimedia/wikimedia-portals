@@ -184,9 +184,7 @@
 				errors = self.validate( event, schema );
 
 			while ( errors.length ) {
-				/* eslint-disable no-console */
 				console.log( errors[ errors.length - 1 ] );
-				/* eslint-enable no-console */
 				errors.pop();
 			}
 

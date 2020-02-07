@@ -20,7 +20,7 @@
 
 /* global addEvent, getDevicePixelRatio */
 
-window.WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line no-unused-vars
+window.WMTypeAhead = function ( appendTo, searchInput ) {
 
 	var typeAheadID = 'typeahead-suggestions',
 		typeAheadEl = document.getElementById( typeAheadID ), // Type-ahead DOM element.
@@ -246,7 +246,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line
 			strong = title.substring( startHighlightIndex, endHighlightIndex );
 			beforeHighlight = title.substring( 0, startHighlightIndex );
 			aferHighlight = title.substring( endHighlightIndex, title.length );
-			formattedTitle = beforeHighlight + mw.html.element( 'em', { 'class': 'suggestion-highlight' }, strong ) + aferHighlight;
+			formattedTitle = beforeHighlight + mw.html.element( 'em', { class: 'suggestion-highlight' }, strong ) + aferHighlight;
 		}
 
 		return formattedTitle;
@@ -302,19 +302,19 @@ window.WMTypeAhead = function ( appendTo, searchInput ) { // eslint-disable-line
 				}
 			}
 
-			suggestionDescription = mw.html.element( 'p', { 'class': 'suggestion-description' }, descriptionText );
+			suggestionDescription = mw.html.element( 'p', { class: 'suggestion-description' }, descriptionText );
 
-			suggestionTitle = mw.html.element( 'h3', { 'class': 'suggestion-title' }, new mw.html.Raw( highlightTitle( page.title, searchString ) ) );
+			suggestionTitle = mw.html.element( 'h3', { class: 'suggestion-title' }, new mw.html.Raw( highlightTitle( page.title, searchString ) ) );
 
-			suggestionText = mw.html.element( 'div', { 'class': 'suggestion-text' }, new mw.html.Raw( suggestionTitle + suggestionDescription ) );
+			suggestionText = mw.html.element( 'div', { class: 'suggestion-text' }, new mw.html.Raw( suggestionTitle + suggestionDescription ) );
 
 			suggestionThumbnail = mw.html.element( 'div', {
-				'class': 'suggestion-thumbnail',
+				class: 'suggestion-thumbnail',
 				style: ( sanitizedThumbURL ) ? 'background-image:url(' + sanitizedThumbURL + ')' : false
 			}, '' );
 
 			suggestionLink = mw.html.element( 'a', {
-				'class': 'suggestion-link',
+				class: 'suggestion-link',
 				href: 'https://' + searchLang + '.wikipedia.org/wiki/' + encodeURIComponent( page.title.replace( / /gi, '_' ) )
 			}, new mw.html.Raw( suggestionText + suggestionThumbnail ) );
 
