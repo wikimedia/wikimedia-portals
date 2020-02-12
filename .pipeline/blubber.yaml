@@ -4,7 +4,7 @@ base: docker-registry.wikimedia.org/apache:0.0.1
 variants:
   build:
     base: docker-registry.wikimedia.org/nodejs10-devel:0.0.3
-    apt: {packages: [git, python-pkgconfig, build-essential]}
+    apt: {packages: [git, python-pkgconfig, build-essential, libpng-dev]}
     node: {requirements: [package.json, package-lock.json]}
   test:
     includes: [build]
