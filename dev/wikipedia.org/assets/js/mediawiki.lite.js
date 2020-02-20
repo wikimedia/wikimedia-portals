@@ -1,4 +1,5 @@
-var mw = mw || {}; // eslint-disable-line no-use-before-define
+// eslint-disable-next-line no-use-before-define, no-redeclare
+var mw = mw || {};
 
 mw.html = ( function () {
 	function escapeCallback( s ) {

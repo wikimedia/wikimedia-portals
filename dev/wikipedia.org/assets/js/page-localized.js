@@ -1,4 +1,4 @@
-/* global wmTest, translationsHash, mw, wmL10nVisible, rtlLangs */
+/* global wmTest, translationsHash, wmL10nVisible, rtlLangs */
 
 /**
  * This script localizes the page text.

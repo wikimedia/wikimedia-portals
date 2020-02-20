@@ -31,11 +31,9 @@ helpers.printAttrs = function ( attrs ) {
 			if ( whiteList.indexOf( lowercase ) > -1 ) {
 				output += ' ' + Handlebars.escapeExpression( lowercase ) + '="' + Handlebars.escapeExpression( this[ attrs ][ attr ] ) + '"';
 			} else {
-				/* eslint-disable no-console */
 				console.log( '\x1b[31m' );
 				console.log( 'Warning: the attr "' + lowercase + '" was rejected by the printAttrs helper.' );
 				console.log( '\x1b[0m' );
-				/* eslint-enable no-console */
 			}
 		}
 	}

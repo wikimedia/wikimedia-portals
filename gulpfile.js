@@ -1,5 +1,4 @@
 /* eslint-env node, es6 */
-/* eslint-disable no-console */
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	argv = require( 'yargs' ).argv,
@@ -22,7 +21,6 @@ var gulp = require( 'gulp' ),
 
 // Help
 gulp.task( 'help', function () {
-	/* eslint-disable no-console */
 	console.log();
 	console.log( '+-------------------------------------------------------------------------------------------------+' );
 	console.log( '|                                     =====  USAGE =====                                          |' );
@@ -44,7 +42,6 @@ gulp.task( 'help', function () {
 	console.log( '| gulp update-urls-to-purge        - creates the urls-to-purge.txt file to purge the server cache |' );
 	console.log( '+-------------------------------------------------------------------------------------------------+' );
 	console.log();
-	/* eslint-enable no-console */
 } );
 
 /* Preliminary configuration
@@ -56,12 +53,10 @@ gulp.task( 'help', function () {
  */
 function requirePortalParam() {
 	if ( !portalParam ) {
-		/* eslint-disable no-console */
 		console.log( '\x1b[31m' );
 		console.log( 'Error: please specify the portal you wish to build.' );
 		console.log( 'Type gulp help for more information.' );
 		console.log( '\x1b[0m' );
-		/* eslint-enable no-console */
 		process.exit( 1 );
 	}
 }
@@ -320,9 +315,7 @@ gulp.task( 'fetch-meta', function () {
 	requirePortalParam();
 
 	if ( portalParam === 'wikipedia.org' ) {
-		/* eslint-disable no-console */
 		console.log( 'Cannot override ' + portalParam + ' portal using fetch-meta.' );
-		/* eslint-enable no-console */
 		process.exit( 1 );
 		return;
 	}
@@ -377,7 +370,9 @@ gulp.task( 'update-urls-to-purge', [ 'svgSprite', 'compile-handlebars', 'postcss
 
 	function assetFilesStream( file ) {
 		var assetUrl;
-		if ( file.isDirectory() ) { return; }
+		if ( file.isDirectory() ) {
+			return;
+		}
 		assetUrl = createAssetUrl( file );
 		return addAssetUrl( assetUrl );
 	}

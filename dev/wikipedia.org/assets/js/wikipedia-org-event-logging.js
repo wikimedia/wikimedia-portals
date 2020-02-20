@@ -36,7 +36,7 @@
 			event_type: {
 				type: 'string',
 				required: true,
-				'enum': [
+				enum: [
 					'landing',
 					'clickthrough',
 					'select-language'
@@ -45,7 +45,7 @@
 			section_used: {
 				type: 'string',
 				required: false,
-				'enum': [
+				enum: [
 					'primary links',
 					'search',
 					'language search',
