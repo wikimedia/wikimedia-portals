@@ -6,6 +6,7 @@
 		"indentation": null,
 		"no-descending-specificity": null,
 		"selector-max-id": null,
-		"string-quotes": null
+		"string-quotes": null,
+		"unit-blacklist": null
 	}
 }
