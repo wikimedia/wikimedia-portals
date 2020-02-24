@@ -15,13 +15,13 @@
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ti",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ti",
 	"search-input-button": "ምድላይ",
-	"search-input-label": "ዊኪፐዲኣ ምድላይ",
+	"search-input-label": "ዊኪፔዲያ ምድላይ",
 	"wiki": {
-		"name": "ዊኪፐዲኣ",
+		"name": "ዊኪፔዲያ",
 		"slogan": "ናጻው መዝገበ ፍልጠት"
 	},
 	"wiktionary": {
-		"name": "ዊኪመዝገበ-ቃላት",
+		"name": "ዊክመዝገበ-ቃላት",
 		"slogan": "ናጻው መዝገበ-ቃላት"
 	},
 	"wikibooks": {
@@ -48,7 +48,7 @@
 		"slogan": "ናጻው ጉዕዞ መምርሒ"
 	},
 	"commons": {
-		"name": "ቾምሞንስ"
+		"name": "ኮምሞንስ"
 	},
 	"wikidata": {
 		"name": "ዊኪዳታ"
