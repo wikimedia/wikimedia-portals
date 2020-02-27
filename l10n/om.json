@@ -1,11 +1,33 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Oromoo"
+		]
+	},
 	"language-name": "Afaan Oromoo",
 	"language-name-romanized-sorted": "Oromoo, Afaan",
+	"language-button-text": "Wikipiidiyaa afaan keen dubbisi",
+	"terms": "Waliigaltee fayyadamaa",
+	"Privacy Policy": "Imaammata mateenyaa",
+	"search-input-button": "Barbaadi",
 	"wiki": {
 		"name": "Wikipedia"
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Wiktionary",
+		"slogan": "Galmee jechoota kan bilisaa"
+	},
+	"wikibooks": {
+		"slogan": "Kitaaba bilisaa",
+		"entries": "Fuulota"
+	},
+	"wikinews": {
+		"name": "Wikiniiws",
+		"slogan": "Lakkada oduu kan bilisaa",
+		"entries": "Barruulee"
+	},
+	"wikiquote": {
+		"name": "Wikikiwoot",
+		"entries": "Barruulee"
 	}
 }
