@@ -6,23 +6,55 @@
 	},
 	"language-name": "Hrvatski",
 	"language-button-text": "Čitajte wikipediju na svom jeziku",
+	"footer-description": "Zaklada Wikimedija omogućava dostup Wikipediji, neprofitna je organizacija koja također udomljuje niz drugih projekata.",
+	"app-links": {
+		"title": "Preuzmite Wikipediju za Android odnosno iOS"
+	},
+	"terms": "Uvjeti upotrebe",
+	"Privacy Policy": "Pravila privatnosti",
+	"search-input-button": "Pretraži",
+	"search-input-label": "Pretraži Wikipediju",
 	"wiki": {
 		"name": "Wikipedija",
-		"slogan": "Slobodna enciklopedija"
+		"slogan": "Slobodna enciklopedija",
+		"entries": "članci"
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
-		"slogan": "Slobodna enciklopedija"
+		"slogan": "Slobodna enciklopedija",
+		"entries": "unosi"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
-		"slogan": "Knjige slobodnog prisupa"
+		"slogan": "Knjige slobodnog prisupa",
+		"entries": "stranice"
+	},
+	"wikinews": {
+		"slogan": "N",
+		"entries": "članci"
 	},
 	"wikiquote": {
 		"name": "Wikicitat",
-		"slogan": "Knjige slobodnog pristupa"
+		"slogan": "Knjige slobodnog pristupa",
+		"entries": "članci"
 	},
 	"wikisource": {
-		"name": "Wikizvor"
+		"name": "Wikizvor",
+		"slogan": "Slobodna knjižnica"
+	},
+	"wikiversity": {
+		"name": "Wikiučilište",
+		"slogan": "Slobodni materijali za učenje",
+		"entries": "resursi za učenje"
+	},
+	"wikivoyage": {
+		"name": "Wikiputovanja",
+		"slogan": "Slobodni turistički vodič"
+	},
+	"commons": {
+		"name": "Zajednički poslužitelj"
+	},
+	"wikidata": {
+		"name": "Wikipodatci"
 	}
 }
