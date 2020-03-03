@@ -33,13 +33,11 @@ gulp.task( 'help', function () {
 	console.log( '| PORTAL-SPECIFIC TASKS :                                                                         |' );
 	console.log( '|                                                                                                 |' );
 	console.log( '| gulp lint --portal wikipedia.org            - run jslint on JS files on portal JS files         |' );
-	console.log( '| gulp inline-assets --portal wikipedia.org   - build inline CSS and JS assets                    |' );
 	console.log( '| gulp watch --portal wikipedia.org           - watches dev directory and generates an index.html |' );
 	console.log( '|                                               file in it without inlined/minified assets        |' );
 	console.log( '| gulp --portal wikipedia.org                 - run all of the above on the specified portal page |' );
 	console.log( '|                                                                                                 |' );
 	console.log( '| gulp fetch-meta --portal wikipedia.org      - overwrite the portal page with source from Meta   |' );
-	console.log( '| gulp update-urls-to-purge        - creates the urls-to-purge.txt file to purge the server cache |' );
 	console.log( '+-------------------------------------------------------------------------------------------------+' );
 	console.log();
 } );
@@ -160,9 +158,10 @@ getConfig = function () {
 /**
  * Compile Handlebars templates into dev folder.
  * Execute 'build' task if config is undefined
+ *
+ * @return {Stream}
  */
-
-gulp.task( 'compile-handlebars', function () {
+function compileHandlebars() {
 
 	requirePortalParam();
 
@@ -170,13 +169,16 @@ gulp.task( 'compile-handlebars', function () {
 		.pipe( plugins.compileHandlebars( getConfig().hb.templateData, getConfig().hb.options ) )
 		.pipe( plugins.rename( 'index.html' ) )
 		.pipe( gulp.dest( getBaseDir() ) );
-} );
+}
+gulp.task( 'compile-handlebars', compileHandlebars );
 
 /**
  * Compile postCSS files into regular CSS and
  * output them into the CSS dev folder.
+ *
+ * @return {Stream}
  */
-gulp.task( 'postcss', function () {
+function postCSS() {
 
 	requirePortalParam();
 
@@ -188,29 +190,35 @@ gulp.task( 'postcss', function () {
 		{ map: { inline: true } }
 		) )
 		.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
-} );
+}
+gulp.task( 'postcss', postCSS );
 
 /**
  * Inline assets of index.html in dev folder
  * and move index.html into prod folder
+ *
+ * @return {Stream}
  */
-gulp.task( 'inline-assets', [ 'compile-handlebars', 'postcss' ], function () {
+function inlineAssets() {
 
 	requirePortalParam();
 
 	return gulp.src( getConfig().inline.src )
 		.pipe( plugins.inline( getConfig().inline.options ) )
 		.pipe( gulp.dest( getProdDir() ) );
-} );
+}
 
 /**
  * Clean `assets/js/` folder from the prod folder.
+ *
+ * @return {Stream}
  */
-gulp.task( 'clean-prod-js', [ 'inline-assets' ], function () {
-	return del( [ getProdDir() + '/assets/js' ] );
-} );
+function cleanProdJS() {
 
-gulp.task( 'copy-translation-files', [ 'compile-handlebars' ], function () {
+	return del( [ getProdDir() + '/assets/js' ] );
+}
+
+function copyTranslationFiles() {
 
 	requirePortalParam();
 
@@ -218,12 +226,14 @@ gulp.task( 'copy-translation-files', [ 'compile-handlebars' ], function () {
 
 	return gulp.src( getBaseDir() + '/assets/l10n/**/*.json' )
 		.pipe( gulp.dest( getProdDir() + '/assets/l10n/' ) );
-} );
+}
 
 /**
  * Concatenate JS files into a single file and minify it.
+ *
+ * @return {Stream}
  */
-gulp.task( 'concat-minify-js', [ 'clean-prod-js' ], function () {
+function concatMinifyJS() {
 
 	requirePortalParam();
 
@@ -235,52 +245,43 @@ gulp.task( 'concat-minify-js', [ 'clean-prod-js' ], function () {
 		.pipe( gulp.dest( getProdDir() ) )
 		.pipe( plugins.rev.manifest() )
 		.pipe( gulp.dest( getBaseDir() + 'assets' ) );
-} );
+}
 
 /**
  * Minify index.html file in prod folder,
- * depends on inline-assets which moves index.html from dev to prod.
+ * depends on inlineAssets which moves index.html from dev to prod.
+ *
+ * @return {Stream}
  */
-gulp.task( 'minify-html', [ 'inline-assets', 'concat-minify-js' ], function () {
+function minifyHTML() {
 
 	requirePortalParam();
 
 	return gulp.src( getConfig().htmlmin.src )
 		.pipe( plugins.htmlmin( getConfig().htmlmin.options ) )
 		.pipe( gulp.dest( getProdDir() ) );
-} );
-
-/**
- * Watch for changes in dev folder and compile:
- * - handlebars templates
- * - postCSS files
- * into dev folder.
- */
-gulp.task( 'watch', [ 'svgSprite', 'compile-handlebars', 'postcss' ], function () {
-
-	requirePortalParam();
-
-	gulp.watch( getConfig().watch.sprites, [ 'svgSprite' ] );
-	gulp.watch( getConfig().watch.hb, [ 'compile-handlebars' ] );
-	gulp.watch( getConfig().watch.postcss, [ 'postcss' ] );
-} );
+}
 
 /**
  * Lint JS in dev folder as well as in root folder.
+ *
+ * @return {Stream}
  */
-gulp.task( 'lint-js', function () {
+function lintJS() {
 	var devFolder = 'dev/**/*.js';
 	if ( portalParam ) {
 		// Only run on this portal files.
 		devFolder = 'dev/' + portalParam + '/**/*.js';
 	}
-	gulp.src( [ '*.js', devFolder ] )
+	return gulp.src( [ '*.js', devFolder ] )
 		.pipe( plugins.eslint() )
 		.pipe( plugins.eslint.format() )
 		.pipe( plugins.eslint.failAfterError() );
-} );
+}
+gulp.task( 'lint-js', lintJS );
 
-gulp.task( 'validate-postCSS', function () {
+function validatePostCSS() {
+
 	return gulp
 		.src( [ 'dev/**/postcss/*.css', '!dev/**/postcss/_*.css' ] )
 		.pipe( plugins.postcss(
@@ -290,9 +291,10 @@ gulp.task( 'validate-postCSS', function () {
 				postCSSReporter( { clearMessages: true, throwError: true } )
 			], { map: { inline: true } }
 		) );
-} );
+}
+gulp.task( 'validate-postCSS', validatePostCSS );
 
-gulp.task( 'lint-css', [ 'validate-postCSS' ], function () {
+function lintCSS() {
 
 	return gulp
 		.src( 'dev/**/postcss/*.css' )
@@ -301,37 +303,160 @@ gulp.task( 'lint-css', [ 'validate-postCSS' ], function () {
 				{ formatter: 'string', console: true }
 			]
 		} ) );
-} );
+}
+gulp.task( 'lint-css', gulp.series( 'validate-postCSS', lintCSS ) );
 
-gulp.task( 'update-stats', function () {
-	siteStats.getSiteStats().then( function ( stats ) {
+function updateStats() {
+
+	return siteStats.getSiteStats().then( function ( stats ) {
 		fs.writeFileSync( './data/site-stats.json', JSON.stringify( stats, null, '\t' ) );
 	} );
-} );
+}
+gulp.task( 'update-stats', updateStats );
 
-gulp.task( 'fetch-meta', function () {
+function fetchMeta() {
+
 	var portalsFromMeta;
 
 	requirePortalParam();
 
 	if ( portalParam === 'wikipedia.org' ) {
 		console.log( 'Cannot override ' + portalParam + ' portal using fetch-meta.' );
-		process.exit( 1 );
-		return;
+		return process.exit( 1 );
 	}
-	if ( portalParam === 'all' ) {
 
+	if ( portalParam === 'all' ) {
 		portalsFromMeta = [ 'wikibooks.org', 'wikimedia.org', 'wikinews.org', 'wikiquote.org', 'wikiversity.org', 'wikivoyage.org', 'wiktionary.org' ];
 
 		portalsFromMeta.forEach( function ( wiki ) {
 			exec( ' curl -Lo prod/' + wiki + '/index.html  "https://meta.wikimedia.org/w/index.php?title=Www.' + wiki + '_template&action=raw" ' );
 		} );
-
 	} else {
 		exec( ' curl -Lo ' + getProdDir() + 'index.html  "https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw" ' );
 	}
 
-} );
+	return Promise.resolve();
+}
+gulp.task( 'fetch-meta', fetchMeta );
+
+/**
+ * Remove existing SVG sprite before generating a new one.
+ *
+ * @return {Stream}
+ */
+function cleanSprites() {
+	var conf = getConfig();
+	return del( [ conf.img.sprite.outputSVGGlob, conf.img.sprite.outputPNGGlob ] );
+}
+gulp.task( 'cleanSprites', cleanSprites );
+
+/**
+ * Create SVG sprite for use as a CSS background images.
+ * Combine SVG images from the assets/img/sprite_assets directory in the dev folder.
+ * Output the SVG sprite in the assets/img dir as sprite-*.svg, where * is a cachebusting hash.
+ *
+ * Also outputs a CSS file for the SVG sprite named sprite.css in the dev CSS folder.
+ *
+ * @return {Stream}
+ */
+function createSvgSprite() {
+	var conf = getConfig();
+	return gulp.src( conf.img.sprite.assets )
+		.pipe( plugins.svgSprite( {
+			shape: {
+				spacing: {
+					padding: 1
+				},
+				transform: [ 'svgo' ]
+			},
+			mode: {
+				css: {
+					layout: 'vertical',
+					sprite: '../' + conf.img.sprite.outputName + '.svg',
+					bust: true,
+					dimensions: true,
+					common: conf.img.sprite.cssPrefix,
+					render: {
+						css: {
+							dimensions: true,
+							dest: '../' + conf.img.sprite.outputCSS,
+							template: conf.img.sprite.template
+						}
+					}
+				}
+			},
+			variables: {
+				mapname: 'svg-sprite'
+			}
+		} ) )
+		.pipe( plugins.if( '*.svg', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
+}
+gulp.task( 'createSvgSprite', gulp.series( 'cleanSprites', createSvgSprite ) );
+
+/**
+ * Create a PNG fallback for the SVG sprite using PhantomJS.
+ *
+ * @return {Stream}
+ */
+function convertSVGtoPNG() {
+	return gulp.src( getConfig().img.sprite.outputSVGGlob )
+		.pipe( plugins.svg2png() )
+		.pipe( gulp.dest( getBaseDir() + 'assets/img/' ) );
+}
+gulp.task( 'convertSVGtoPNG', gulp.series( 'createSvgSprite', convertSVGtoPNG ) );
+
+/**
+ * Optimize PNG fallback.
+ *
+ * @return {Stream}
+ */
+function optimizePNGfallback() {
+	return gulp.src( getConfig().img.sprite.outputPNGGlob )
+		.pipe(
+			vinylPaths( function ( imagePath ) {
+				return new Promise( function ( resolve, reject ) {
+					return execFile( pngquant, [ imagePath, '-f', '-ext', '.png' ], function ( err ) {
+						if ( err ) {
+							return reject();
+						} else {
+							return resolve();
+						}
+					} );
+				} );
+			} )
+		);
+}
+gulp.task( 'optimizePNGfallback', gulp.series( 'convertSVGtoPNG', optimizePNGfallback ) );
+
+/**
+ * Replace '.svg' with '.png' extension in the SVG sprite CSS file.
+ * This creates a PNG fallback for the SVG sprite in the sprite.css file.
+ *
+ * The custom CSS template contains 2 urls that both end with '.svg' until
+ * this task changes one of the extensions to '.png'.
+ *
+ * @return {Stream}
+ */
+function replaceSVGSpriteCSS() {
+	return gulp.src( getConfig().img.sprite.outputCSSPath )
+		.pipe( replace( '.svg")/* replace */;', '.png");' ) )
+		.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
+}
+gulp.task( 'replaceSVGSpriteCSS', gulp.series( 'createSvgSprite', replaceSVGSpriteCSS ) );
+
+/**
+ * Copy images to prod folder.
+ *
+ * @return {Stream}
+*/
+function copyImages() {
+
+	var conf = getConfig();
+	requirePortalParam();
+	return gulp.src( conf.img.src ).pipe( gulp.dest( conf.img.dest ) );
+}
+
+gulp.task( 'svgSprite', gulp.series( 'createSvgSprite', 'convertSVGtoPNG', 'optimizePNGfallback', 'replaceSVGSpriteCSS' ) );
 
 /**
  * Create a 'urls-to-purge.txt' file at the root of the repo that
@@ -341,9 +466,10 @@ gulp.task( 'fetch-meta', function () {
  *
  * Must be run when after all assets have been versioned, minified &
  * copied into the prod dir.
+ *
+ * @return {Stream}
  */
-gulp.task( 'update-urls-to-purge', [ 'svgSprite', 'compile-handlebars', 'postcss', 'inline-assets', 'clean-prod-js', 'concat-minify-js', 'minify-html', 'copy-images', 'copy-translation-files' ], function () {
-
+function updateURLsToPurge() {
 	var UrlsToPurge = [
 			'https://www.wikibooks.org/',
 			'https://www.wikimedia.org/',
@@ -388,121 +514,39 @@ gulp.task( 'update-urls-to-purge', [ 'svgSprite', 'compile-handlebars', 'postcss
 		.on( 'end', function () {
 			writePurgeFile( UrlsToPurge );
 		} );
-} );
+}
 
 /**
- * Create SVG sprite for use as a CSS background images.
- * Combine SVG images from the assets/img/sprite_assets directory in the dev folder.
- * Output the SVG sprite in the assets/img dir as sprite-*.svg, where * is a cachebusting hash.
- *
- * Also outputs a CSS file for the SVG sprite named sprite.css in the dev CSS folder.
+ * Watch for changes in dev folder and compile:
+ * - handlebars templates
+ * - postCSS files
+ * into dev folder.
  */
-gulp.task( 'createSvgSprite', [ 'cleanSprites' ], function () {
-	var conf = getConfig();
-	return gulp.src( conf.img.sprite.assets )
-		.pipe( plugins.svgSprite( {
-			shape: {
-				spacing: {
-					padding: 1
-				},
-				transform: [ 'svgo' ]
-			},
-			mode: {
-				css: {
-					layout: 'vertical',
-					sprite: '../' + conf.img.sprite.outputName + '.svg',
-					bust: true,
-					dimensions: true,
-					common: conf.img.sprite.cssPrefix,
-					render: {
-						css: {
-							dimensions: true,
-							dest: '../' + conf.img.sprite.outputCSS,
-							template: conf.img.sprite.template
-						}
-					}
-				}
-			},
-			variables: {
-				mapname: 'svg-sprite'
-			}
-		} ) )
-		.pipe( plugins.if( '*.svg', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
-} );
+function watch() {
 
-/**
- * Remove existing SVG sprite before generating a new one.
- */
-gulp.task( 'cleanSprites', function () {
-	var conf = getConfig();
-	return del( [ conf.img.sprite.outputSVGGlob, conf.img.sprite.outputPNGGlob ] );
-} );
-/**
- * Create a PNG fallback for the SVG sprite using PhantomJS.
- */
-gulp.task( 'convertSVGtoPNG', [ 'createSvgSprite' ], function () {
-	return gulp.src( getConfig().img.sprite.outputSVGGlob )
-		.pipe( plugins.svg2png() )
-		.pipe( gulp.dest( getBaseDir() + 'assets/img/' ) );
-} );
-
-/**
- * Optimize PNG fallback.
- */
-gulp.task( 'optimizePNGfallback', [ 'convertSVGtoPNG' ], function () {
-	return gulp.src( getConfig().img.sprite.outputPNGGlob )
-		.pipe(
-			vinylPaths( function ( imagePath ) {
-				return new Promise( function ( resolve, reject ) {
-					return execFile( pngquant, [ imagePath, '-f', '-ext', '.png' ], function ( err ) {
-						if ( err ) {
-							return reject();
-						} else {
-							return resolve();
-						}
-					} );
-				} );
-			} )
-		);
-} );
-
-/**
- * Replace '.svg' with '.png' extension in the SVG sprite CSS file.
- * This creates a PNG fallback for the SVG sprite in the sprite.css file.
- *
- * The custom CSS template contains 2 urls that both end with '.svg' until
- * this task changes one of the extensions to '.png'.
- */
-gulp.task( 'replaceSVGSpriteCSS', [ 'createSvgSprite' ], function () {
-	return gulp.src( getConfig().img.sprite.outputCSSPath )
-		.pipe( replace( '.svg")/* replace */;', '.png");' ) )
-		.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
-} );
-/*
-* Copy images to prod folder.
-*/
-gulp.task( 'copy-images', [ 'createSvgSprite', 'optimizePNGfallback' ], function () {
-	var conf = getConfig();
 	requirePortalParam();
-	return gulp.src( conf.img.src ).pipe( gulp.dest( conf.img.dest ) );
-} );
 
-gulp.task( 'svgSprite', [ 'createSvgSprite', 'convertSVGtoPNG', 'optimizePNGfallback', 'replaceSVGSpriteCSS' ] );
+	gulp.watch( getConfig().watch.sprites, [], [ 'svgSprite' ] );
+	gulp.watch( getConfig().watch.hb, [], [ 'compile-handlebars' ] );
+	gulp.watch( getConfig().watch.postcss, [], [ 'postcss' ] );
 
-gulp.task( 'lint', [ 'lint-js', 'lint-css' ] );
+}
+gulp.task( 'watch', gulp.series( 'svgSprite', 'compile-handlebars', 'postcss', watch ) );
 
-gulp.task( 'test', [ 'lint' ] );
+gulp.task( 'lint', gulp.series( 'lint-js', 'lint-css' ) );
 
-gulp.task( 'default', [
+gulp.task( 'test', gulp.series( 'lint' ) );
+
+gulp.task( 'default', gulp.series(
 	'lint',
 	'svgSprite',
 	'compile-handlebars',
 	'postcss',
-	'inline-assets',
-	'clean-prod-js',
-	'concat-minify-js',
-	'minify-html',
-	'copy-images',
-	'copy-translation-files',
-	'update-urls-to-purge'
-] );
+	inlineAssets,
+	cleanProdJS,
+	concatMinifyJS,
+	minifyHTML,
+	copyImages,
+	copyTranslationFiles,
+	updateURLsToPurge
+) );
