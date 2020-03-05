@@ -22,9 +22,9 @@
 	"app-links": {
 		"title": "Android veya iOS için Vikipedi'yi indirin",
 		"description": "Çevrimdışı okumak için sevdiğiniz makaleleri kaydedin, okuma listelerinizi aygıtlar arasında senkronize edin ve okuma deneyiminizi resmi Wikipedia uygulamasıyla özelleştirin.",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		"url": "https://tr.wikipedia.org/wiki/Vikipedi_mobil_uygulamalarının_listesi"
 	},
-	"license": "Bu sayfa, <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atıf-BenzerPaylaşım Lisansı</a> altındadır",
+	"license": "Bu sayfa, <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.tr'>Creative Commons Atıf-BenzerPaylaşım Lisansı</a> altındadır",
 	"terms": "Kullanım Şartları",
 	"Privacy Policy": "Gizlilik Politikası",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/tr",
@@ -49,12 +49,12 @@
 	"wikinews": {
 		"name": "Vikihaber",
 		"slogan": "Özgür haber kaynağı",
-		"entries": "makaleler"
+		"entries": "maddeler"
 	},
 	"wikiquote": {
 		"name": "Vikisöz",
 		"slogan": "Özgür söz dizini",
-		"entries": "makaleler"
+		"entries": "maddeler"
 	},
 	"wikisource": {
 		"name": "Vikikaynak",

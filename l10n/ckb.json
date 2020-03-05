@@ -1,17 +1,71 @@
 {
 	"@metadata": {
 		"authors": [
-			"Épine"
+			"Épine",
+			"Arya sarhan",
+			"Kurd"
 		]
 	},
 	"language-name": "کوردیی ناوەندی",
 	"language-name-romanized": "Kurdîy Nawendî",
 	"language-name-romanized-sorted": "Kurdiy Nawendi",
+	"language-button-text": "خوێندنەوەی ویکیپیدیا بە زمانی خۆت",
+	"app-links": {
+		"title": "داگرتنی ویکیپیدیا بۆ ئەندرۆید یان ئای ئۆ ئێس",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+	},
+	"license": "ئەم پەڕەیە بەردەستە لەژێر <a href='https://creativecommons.org/licenses/by-sa/3.0/'>مۆڵەتی دروستکەری کۆمنز  Attribution-ShareAlike </a>",
+	"terms": "مەرجەکانی بەکارھێنان",
+	"Privacy Policy": "سیاسەتی تایبەتێتی",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://foundation.m.wikimedia.org/wiki/سیاسەتی تایبەتێتی",
+	"search-input-button": "گەڕان",
+	"search-input-label": "گەڕان بە ویکیپیدیادا",
 	"wiki": {
 		"name": "ویکیپیدیا",
-		"slogan": "ئینسایکڵۆپیدیای ئازاد"
+		"slogan": "ئینسایکڵۆپیدیای ئازاد",
+		"entries": "وتارەکان"
+	},
+	"wiktionary": {
+		"name": "ویکیفەرھەنگ",
+		"slogan": "وەرگێڕی ئازاد"
+	},
+	"wikibooks": {
+		"name": "ویکیپەرتووک",
+		"entries": "پەڕەکان"
+	},
+	"wikinews": {
+		"name": "ویکیهه‌واڵ",
+		"slogan": "سەرچاوەی هەواڵی ئازاد",
+		"entries": "وتارەکان"
+	},
+	"wikiquote": {
+		"name": "ویکیوتە",
+		"entries": "وتارەکان"
+	},
+	"wikisource": {
+		"name": "ویکیژێدەر",
+		"slogan": "کتێبخانەی ئازاد"
+	},
+	"wikiversity": {
+		"name": "ویکیزانکۆ"
+	},
+	"wikivoyage": {
+		"name": "ویکیسەفەر"
+	},
+	"commons": {
+		"name": "کۆمنز"
+	},
+	"wikispecies": {
+		"name": "ویکیجۆر"
+	},
+	"wikidata": {
+		"name": "ویکیداتا"
 	},
 	"mediawiki": {
 		"name": "میدیاویکی"
+	},
+	"metawiki": {
+		"name": "مێتا-ویکی"
 	}
 }

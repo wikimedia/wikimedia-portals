@@ -3,22 +3,27 @@
 		"authors": [
 			"Mechanizatar",
 			"Artificial123",
-			"Liashko"
+			"Liashko",
+			"Maksim L."
 		]
 	},
-	"language-name": "Беларуская (Акадэмічная)",
-	"language-name-romanized": "Belaruskaya (Akademichnaya)",
-	"language-name-romanized-sorted": "Belaruskaya Akademichnaya",
+	"language-name": "Беларуская",
+	"language-name-romanized": "Belaruskaya",
+	"language-name-romanized-sorted": "Belaruskaya",
 	"language-button-text": "Чытайце Вікіпедыю на сваёй мове",
-	"footer-description": "Вікіпедыя арганізавана Вікімедыяй - некамерцыйнай арганізацыяй, якая таксама праводзіць шэраг іншых праектаў.",
+	"footer-description": "Вікіпедыя размешчана на серверах Фонду Вікімедыя - некамерцыйнай арганізацыяй, якая таксама забяспечвае работу шэрагу іншых праектаў.",
 	"app-links": {
-		"title": "Цяпер даступныя дадаткі Вікіпедыі:"
+		"title": "Скачаць Вікіпедыю пад Android або iOS",
+		"description": "Захавайце свае ўпадабаныя артыкулы для чытання офлайн, сінхранізуйце свае спісы чытання на розных прыладах і настройце свае перавагі чытання з афіцыйным Wikipedia app.",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
-	"license": "Гэтая старонка даступная пад ліцэнзіяй <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
+	"license": "Старонка даступная пад ліцэнзіяй <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Умовы карыстання",
 	"Privacy Policy": "Палітыка прыватнасці",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/be",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/be",
+	"search-input-button": "Знайсці",
+	"search-input-label": "Знайсці ў Вікіпедыі",
 	"wiki": {
 		"name": "Вікіпедыя",
 		"slogan": "Свабодная энцыклапедыя",
@@ -30,7 +35,7 @@
 		"entries": "запісы"
 	},
 	"wikibooks": {
-		"name": "Wikibooks",
+		"name": "Вікікнігі",
 		"slogan": "Свабодная калекцыя кніг",
 		"entries": "старонак"
 	},
@@ -40,8 +45,8 @@
 		"entries": "артыкулы"
 	},
 	"wikiquote": {
-		"name": "Wikiquote",
-		"slogan": "Свабодны кампендыум цытат",
+		"name": "Вікіцытатнік",
+		"slogan": "Свабодны зборнік цытат",
 		"entries": "артыкулы"
 	},
 	"wikisource": {
@@ -55,26 +60,26 @@
 	},
 	"wikivoyage": {
 		"name": "Віківандроўка",
-		"slogan": "Свабодны даведнік"
+		"slogan": "Свабодны падарожны даведнік"
 	},
 	"commons": {
-		"name": "Сховішча",
-		"slogan": "Свабоднае выкарыстанне фатаграфій і інш."
+		"name": "Вікісховішча",
+		"slogan": "Свабодныя для карыстання фота і інш."
 	},
 	"wikispecies": {
-		"name": "ВікіВіды",
+		"name": "Віківіды",
 		"slogan": "Свабодны каталог відаў"
 	},
 	"wikidata": {
-		"name": "Вікідата",
-		"slogan": "База ведаў"
+		"name": "Вікідадзеныя",
+		"slogan": "Свабодная база ведаў"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Свабоднае і адкрытае прыкладанне"
+		"slogan": "Свабодны і адкрыты дадатак"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Каардынацыя і дакументацыя супольнасцей"
+		"slogan": "Каардынацыя і дакументацыя супольнасцяў"
 	}
 }
