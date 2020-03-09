@@ -17,7 +17,7 @@
 	"app-links": {
 		"title": "Descargar Wikipedia para Android o iOS",
 		"description": "Guarda tus artículos favoritos para leerlos sin conexión, sincroniza tus listas de lectura en varios dispositivos y personaliza tu experiencia de lectura con la aplicación oficial de Wikipedia.",
-		"url": "https://es.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		"url": "{{delete}}"
 	},
 	"license": "Esta página está disponible bajo la <a href='https://creativecommons.org/licenses/by-sa/3.0/'>licencia Creative Commons Atribución-CompartirIgual</a>",
 	"terms": "Términos de uso",
