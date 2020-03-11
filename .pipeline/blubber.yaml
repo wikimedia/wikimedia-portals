@@ -1,5 +1,5 @@
 version: v4
-base: docker-registry.wikimedia.org/apache:0.0.1
+base: docker-registry.wikimedia.org/dev/stretch-php72-fpm-apache2:0.0.5
 
 variants:
   build:
