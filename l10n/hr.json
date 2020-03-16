@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bugoslav"
+			"Bugoslav",
+			"Neptune, the Mystic"
 		]
 	},
 	"language-name": "Hrvatski",
@@ -30,7 +31,7 @@
 		"entries": "stranice"
 	},
 	"wikinews": {
-		"slogan": "N",
+		"slogan": "Slobodni izvor vijesti",
 		"entries": "članci"
 	},
 	"wikiquote": {
