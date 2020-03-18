@@ -79,7 +79,7 @@ getProdDir = function () {
 
 getConfig = function () {
 	var config = {},
-		baseDir, prodDir, minifyCss;
+		baseDir, prodDir;
 
 	baseDir = getBaseDir();
 	prodDir = getProdDir();
@@ -90,23 +90,6 @@ getConfig = function () {
 		options: {
 			batch: [ './' + baseDir + '/templates' ],
 			helpers: require( './hbs-helpers.global' )
-		}
-	};
-
-	minifyCss = function () {
-		var options = {
-			compatibility: 'ie7',
-			keepSpecialComments: '0'
-		};
-		return plugins.cleanCss.call( this, options );
-	};
-
-	config.inline = {
-		src: baseDir + 'index.html',
-		options: {
-			base: baseDir,
-			css: minifyCss,
-			disabledTypes: [ 'svg', 'img', 'js' ]
 		}
 	};
 
@@ -203,8 +186,15 @@ function inlineAssets() {
 
 	requirePortalParam();
 
-	return gulp.src( getConfig().inline.src )
-		.pipe( plugins.inline( getConfig().inline.options ) )
+	return gulp.src( getBaseDir() + 'index.html' )
+		.pipe( plugins.inline( {
+			css: plugins.cssnano.bind( this, {
+				discardComments: {
+					removeAll: true
+				}
+			} ),
+			disabledTypes: [ 'svg', 'img', 'js' ]
+		} ) )
 		.pipe( gulp.dest( getProdDir() ) );
 }
 
@@ -238,7 +228,16 @@ function concatMinifyJS() {
 	requirePortalParam();
 
 	return gulp.src( getConfig().htmlmin.src )
-		.pipe( plugins.useref( { searchPath: getBaseDir() } ) )
+		.pipe( plugins.useref( {
+			searchPath: getBaseDir(),
+			transformTargetPath: function ( filePath ) {
+				/**
+				 * Rewrite concatenated file path to include symlink
+				 * necessary for production apache config.
+				 */
+				return `portal/${portalParam}/${filePath}`;
+			}
+		} ) )
 		.pipe( plugins.if( '*.js', plugins.uglify() ) )
 		.pipe( plugins.if( '*.js', plugins.rev() ) )
 		.pipe( plugins.revReplace() )
@@ -515,6 +514,18 @@ function updateURLsToPurge() {
 			writePurgeFile( UrlsToPurge );
 		} );
 }
+/**
+ * Creates a symlink in the production folder which is required
+ * by the Apache config:
+ * https://gerrit.wikimedia.org/r/plugins/gitiles/operations/puppet/+/refs/heads/production/modules/mediawiki/templates/apache/sites/wwwportals.conf.erb
+ * @return {Stream}
+ */
+function createProdSymlink() {
+	return gulp.src( getProdDir() )
+		.pipe( gulp.symlink( getProdDir() + '/portal',
+			{ relativeSymlinks: true }
+		) );
+}
 
 /**
  * Watch for changes in dev folder and compile:
@@ -548,5 +559,6 @@ gulp.task( 'default', gulp.series(
 	minifyHTML,
 	copyImages,
 	copyTranslationFiles,
+	createProdSymlink,
 	updateURLsToPurge
 ) );
