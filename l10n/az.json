@@ -1,9 +1,13 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Toghrul Rahimli"
+		]
+	},
 	"language-name": "Azərbaycanca",
 	"language-name-romanized-sorted": "Azerbaycanca",
 	"wiki": {
-		"name": "Vikipediyaya",
+		"name": "Vikipediya",
 		"slogan": "Açıq ensiklopediya"
 	},
 	"wiktionary": {

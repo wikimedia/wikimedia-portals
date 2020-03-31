@@ -7,10 +7,14 @@
 		]
 	},
 	"language-name": "Taqbaylit",
+	"language-name-romanized": "Taqbaylit",
+	"language-name-romanized-sorted": "Taqbaylit",
 	"language-button-text": "Ɣeṛ Wikipedia s tutlayt-ik",
 	"footer-description": "Wikipedia yezdeɣ deg tesbeddit Wikimedia, tuddsa ur nettnadi ara tadrimt, yettmuddun tanezduɣt i ddeqs n yisenfaren-nniḍen.",
 	"app-links": {
-		"title": "Isnasen Wikipedia yellan yakan:"
+		"title": "Sider Wikipedia i Android neɣ iOS",
+		"description": "Sekles imagraden-inek.m imenyafen akken ad ten-teɣreḍ war tuqqna, mtawi tabdert-ik.m n tɣuri s ibenkan sakin sagen tirmit-inek.m s usnas unṣib n Wikipedia.",
+		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Asebter-agi yella daw n <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Tiwtilin n useqdec",
