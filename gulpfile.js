@@ -4,7 +4,6 @@ var gulp = require( 'gulp' ),
 	argv = require( 'yargs' ).argv,
 	siteStats = require( './data/site-stats' ),
 	fs = require( 'fs' ),
-	exec = require( 'child_process' ).exec,
 	postCSSNext = require( 'postcss-cssnext' ),
 	postCSSImport = require( 'postcss-import' ),
 	postCSSReporter = require( 'postcss-reporter' ),
@@ -16,6 +15,7 @@ var gulp = require( 'gulp' ),
 	execFile = require( 'child_process' ).execFile,
 	pngquant = require( 'pngquant-bin' ),
 	vinylPaths = require( 'vinyl-paths' ),
+	preq = require( 'preq' ),
 	portalParam = argv.portal,
 	getBaseDir, getProdDir, getConfig;
 
@@ -315,7 +315,9 @@ gulp.task( 'update-stats', updateStats );
 
 function fetchMeta() {
 
-	var portalsFromMeta;
+	var portalsFromMeta,
+		portalRequest,
+		portalRequests = [];
 
 	requirePortalParam();
 
@@ -328,13 +330,21 @@ function fetchMeta() {
 		portalsFromMeta = [ 'wikibooks.org', 'wikimedia.org', 'wikinews.org', 'wikiquote.org', 'wikiversity.org', 'wikivoyage.org', 'wiktionary.org' ];
 
 		portalsFromMeta.forEach( function ( wiki ) {
-			exec( ' curl -Lo prod/' + wiki + '/index.html  "https://meta.wikimedia.org/w/index.php?title=Www.' + wiki + '_template&action=raw" ' );
+			var portalRequest = preq.get( 'https://meta.wikimedia.org/w/index.php?title=Www.' + wiki + '_template&action=raw' )
+				.then( function ( response ) {
+					return fs.writeFileSync( 'prod/' + wiki + '/index.html', response.body, 'utf8' );
+				} );
+			portalRequests.push( portalRequest );
 		} );
 	} else {
-		exec( ' curl -Lo ' + getProdDir() + 'index.html  "https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw" ' );
+		portalRequest = preq.get( 'https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw' )
+			.then( function ( response ) {
+				return fs.writeFileSync( 'prod/' + portalParam + '/index.html', response.body, 'utf8' );
+			} );
+		portalRequests.push( portalRequest );
 	}
 
-	return Promise.resolve();
+	return Promise.all( portalRequests );
 }
 gulp.task( 'fetch-meta', fetchMeta );
 
