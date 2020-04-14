@@ -332,6 +332,7 @@ function fetchMeta() {
 		portalsFromMeta.forEach( function ( wiki ) {
 			var portalRequest = preq.get( 'https://meta.wikimedia.org/w/index.php?title=Www.' + wiki + '_template&action=raw' )
 				.then( function ( response ) {
+					fs.mkdirSync( 'prod/' + wiki, { recursive: true } );
 					return fs.writeFileSync( 'prod/' + wiki + '/index.html', response.body, 'utf8' );
 				} );
 			portalRequests.push( portalRequest );
@@ -339,6 +340,7 @@ function fetchMeta() {
 	} else {
 		portalRequest = preq.get( 'https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw' )
 			.then( function ( response ) {
+				fs.mkdirSync( 'prod/' + portalParam, { recursive: true } );
 				return fs.writeFileSync( 'prod/' + portalParam + '/index.html', response.body, 'utf8' );
 			} );
 		portalRequests.push( portalRequest );
