@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"language-name": "lojban",
 	"language-name-romanized-sorted": "Lojban",
 	"wiki": {

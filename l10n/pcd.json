@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"language-name": "Picard",
 	"wiki": {
 		"name": "Wikipedia"
