@@ -1,0 +1,78 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeetsinghawadhi"
+		]
+	},
+	"language-button-text": "अपनी भाषा मा विकिपीडिया पढ़ैं",
+	"footer-description": "विकिपीडिया कय अगुवई विकिमीडिया फाउंडेशन द्वारा कीन गय अहय, यक बिना-मुनाफा वाला संगठन जौन अउर परियोजनाओं कय एक श्रृंखला भी होस्ट करत हय।",
+	"app-links": {
+		"title": "एंड्रॉयड या आईओएस के बदे विकिपीडिया डाउनलोड करैं",
+		"description": "ऑफ़लाइन पढ़य के बने अपने पसंद कय लेखों का सहेजँय, उपकरणों मा आपन पढ़य कै सूची का सिंक करैं अउर आधिकारिक विकिपीडिया ऐप के साथे अपने पढ़य के अनुभव का बेहतर करैं।"
+	},
+	"license": "ई पन्ना के अन्तरगत उपलब्ध अहय <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "उपयोग कय शर्त",
+	"Privacy Policy": "गोपनीयता नीति",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"search-input-button": "खोजा जाय",
+	"search-input-label": "विकिपीडिया मा खोजैं",
+	"wiki": {
+		"name": "विकिपीडिया",
+		"slogan": "एक्ठु मुक्त ज्ञानकोश",
+		"entries": "लेख"
+	},
+	"wiktionary": {
+		"name": "विक्षनरी",
+		"slogan": "मुक्त शब्दकोश",
+		"entries": "प्रविष्ट्यां"
+	},
+	"wikibooks": {
+		"name": "विकिकिताब",
+		"slogan": "मुक्त किताबें",
+		"entries": "पन्ना"
+	},
+	"wikinews": {
+		"name": "विकीखबर",
+		"slogan": "मुफ्त खबर सोत",
+		"entries": "लेख"
+	},
+	"wikiquote": {
+		"name": "विकिकहावत",
+		"slogan": "मुक्त कहावतन कय ढेर",
+		"entries": "लेख"
+	},
+	"wikisource": {
+		"name": "विकिस्रोत",
+		"slogan": "मुक्त पुस्तकालय"
+	},
+	"wikiversity": {
+		"name": "विकिभर्सिटी",
+		"slogan": "मुक्त पढ़ाई लिखाई कय सामग्री",
+		"entries": "सीखय कय संसाधन"
+	},
+	"wikivoyage": {
+		"name": "विकियात्रा",
+		"slogan": "मुक्त यात्रा मार्गदर्शक"
+	},
+	"commons": {
+		"name": "कॉमन्स",
+		"slogan": "स्वतंत्र रूप से उपयोगी फोटू अउर बहुत कुछू"
+	},
+	"wikispecies": {
+		"name": "विकिस्पेशिज्",
+		"slogan": "मुक्त प्रजाति निर्देशिका"
+	},
+	"wikidata": {
+		"name": "विकिडाटा",
+		"slogan": "मुक्त ज्ञान अधार"
+	},
+	"mediawiki": {
+		"name": "मीडियाविकी",
+		"slogan": "मुक्त & ओपन विकी एप्लीकेशन"
+	},
+	"metawiki": {
+		"name": "मेटा-विकि",
+		"slogan": "सामुदायिक समन्वय अउर दस्तावेज़ीकरण"
+	}
+}
