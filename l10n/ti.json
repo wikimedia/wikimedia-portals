@@ -7,6 +7,7 @@
 	"language-name": "ትግርኛ",
 	"language-name-romanized": "Təgərəña",
 	"language-name-romanized-sorted": "Təgərəña",
+	"language-button-text": "ዊኪፔዲያ ብቋንቋካ ኣንበበ",
 	"app-links": {
 		"url": "https://ti.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
@@ -15,10 +16,11 @@
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ti",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ti",
 	"search-input-button": "ምድላይ",
-	"search-input-label": "ብዊኪፔዲያ ምድላይ",
+	"search-input-label": "ዊኪፔዲያ ውሽጢ ይድለዩ",
 	"wiki": {
 		"name": "ዊኪፔዲያ",
-		"slogan": "ናጻዊ መዝገበ ፍልጠት"
+		"slogan": "ናጻዊ መዝገበ ፍልጠት",
+		"entries": "ጽሑፋት"
 	},
 	"wiktionary": {
 		"name": "ዊኪ-መዝገበ-ቃላት",
@@ -29,11 +31,13 @@
 		"entries": "ገጻት"
 	},
 	"wikinews": {
-		"name": "ዊኪዜና"
+		"name": "ዊኪዜና",
+		"entries": "ጽሑፋት"
 	},
 	"wikiquote": {
 		"name": "ዊኪቁኦተ",
-		"slogan": "ናጻዊ ዝጥቕሲ ጽሑፍ"
+		"slogan": "ናጻዊ ዝጥቕሲ ጽሑፍ",
+		"entries": "ጽሑፋት"
 	},
 	"wikisource": {
 		"name": "ዊኪሶርስ",
