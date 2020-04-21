@@ -42,7 +42,7 @@
 		"sync-request": "^6.1.0",
 		"underscore": "^1.9.2",
 		"vinyl-paths": "^3.0.1",
-		"wikimedia-ui-base": "0.14.0",
+		"wikimedia-ui-base": "0.15.0",
 		"yargs": "^15.1.0"
 	},
 	"bundlesize": [
