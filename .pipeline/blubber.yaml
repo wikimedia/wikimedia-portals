@@ -19,4 +19,4 @@ variants:
     copies:
       - from: prep
         source: /srv/app/prod
-        destination: /srv/app/prod
+        destination: /var/www/html
