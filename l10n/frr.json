@@ -8,13 +8,16 @@
 	"language-button-text": "Wikipedia uun din spriak lees",
 	"footer-description": "Wikipedia leit bi't Wikimedia Foundation, diar uk för ööder projekten diar as.",
 	"app-links": {
-		"title": "Diar san nü Wikipedia-Apps tu fun:"
+		"title": "Loose Wikipedia för Android of iOS deel",
+		"description": "Seekre en artiikel tu offline leesen, synchronisiare din leeslisten an maage iinstelangen mä det amtelk Wikipedia-App."
 	},
 	"license": "Detdiar sidj as tu fun oner det <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.de'>Creative-Commons-Lisens „Nööm nääm - jüst so widjer du“</a>.",
 	"terms": "Reegeln för't brüken",
 	"Privacy Policy": "Dootenseekerhaid",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/de",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/de",
+	"search-input-button": "Sjük",
+	"search-input-label": "Sjük uun Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Det Frei Ensiklopedii",
