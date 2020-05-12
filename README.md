@@ -19,6 +19,3 @@ www.wikipedia.org is built using a modern (circa 2015) front-end development sta
 
 - [CONTRIBUTING.md](./CONTRIBUTING.md) contains a brief overview and quickstart guide for contributing code to this repository.
 - [Technical Documentation](./docs/README.md) contains a detailed description of all the various aspects of development for this project, including getting started through to deployment.
-
-## License
-Copyright (c) 2016 Wikimedia Foundation
