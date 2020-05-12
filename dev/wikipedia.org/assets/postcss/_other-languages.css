@@ -43,13 +43,13 @@
     position: relative;
 	z-index: 1;
     margin: 0 auto;
-	padding: 0.64rem 1.28rem;
+	padding: 0.6rem 1.2rem;
 	outline: 1.6rem solid var( --background-color-base );
 	border: var( --border-base );
 	border-radius: var( --border-radius-base );
     color: var( --color-primary );
-    font-size: 1.3rem;
-	font-weight: normal;
+    font-size: 1.4rem;
+	font-weight: bold;
     line-height: 1;
     transition: outline-width 100ms ease-in 500ms;
 }
