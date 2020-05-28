@@ -4,16 +4,11 @@
 <meta charset="utf-8">
 <title>Wikipedia</title>
 <meta name="description" content="Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.">
-{{!
-This comment will be read by everything and IE greater than 7
-}}
-<![if gt IE 7]>
+
 <script>
     document.documentElement.className = document.documentElement.className.replace( /(^|\s)no-js(\s|$)/, "$1js-enabled$2" );
 </script>
-<![endif]>
 
-<!--[if lt IE 7]><meta http-equiv="imagetoolbar" content="no"><![endif]-->
 <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
 <link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
 <link rel="shortcut icon" href="/static/favicon/wikipedia.ico">
@@ -55,10 +50,6 @@ This comment will be read by everything and IE greater than 7
 
 {{> site-license }}
 
-{{!
-This comment will read by everything and IE greater than 7
-}}
-<![if gt IE 7]>
 <script>
     var rtlLangs = {{{rtlLanguagesStringified}}},
     translationsHash = '{{translationChecksum}}',
@@ -103,29 +94,28 @@ This comment will read by everything and IE greater than 7
 <script src="assets/js/page-localized.js"></script>
 
 <!-- endbuild -->
-<![endif]>
 
 
 {{!
 This comment will be read by everything and IE greater than 9
 }}
-<![if gt IE 9]>
+<!--[if gt IE 9]>
 <!-- build:js assets/js/gt-ie9.js -->
 <script src="assets/js/search-language-picker.js"></script>
 <!-- endbuild -->
-<![endif]>
+<![endif]-->
 
 
 {{!
 This comment will read by everything except IE less than or equal to 9
 }}
-<![if lte IE 9]>
+<!--[if lte IE 9]>
 <style>
     .styled-select {
         display: block;
     }
 </style>
-<![endif]>
+<![endif]-->
 
 
 {{!
