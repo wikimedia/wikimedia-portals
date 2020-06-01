@@ -3,21 +3,22 @@
 		"authors": [
 			"Belkacem77",
 			"K Messaoudi",
-			"SlimaneAmiri"
+			"SlimaneAmiri",
+			"YouvaDjouadi"
 		]
 	},
 	"language-name": "Taqbaylit",
 	"language-name-romanized": "Taqbaylit",
 	"language-name-romanized-sorted": "Taqbaylit",
-	"language-button-text": "Ɣeṛ Wikipedia s tutlayt-ik",
-	"footer-description": "Wikipedia yezdeɣ deg tesbeddit Wikimedia, tuddsa ur nettnadi ara tadrimt, yettmuddun tanezduɣt i ddeqs n yisenfaren-nniḍen.",
+	"language-button-text": "Ɣeṛ Wikipedia s tutlayt-ik/im",
+	"footer-description": "Wikipedia yezdeɣ deg tesbeddit Wikimedia, tuddsa ur yettnadin tadrimt, tuddsa yettmuddun tanezduɣt i ddeqs n yiṣenfaṛen-nniḍen.",
 	"app-links": {
 		"title": "Sider Wikipedia i Android neɣ iOS",
-		"description": "Sekles imagraden-inek.m imenyafen akken ad ten-teɣreḍ war tuqqna, mtawi tabdert-ik.m n tɣuri s ibenkan sakin sagen tirmit-inek.m s usnas unṣib n Wikipedia.",
+		"description": "Sekles imagraden-ik/im i tebɣiḍ i tɣuṛi-nsen war tuqqna, sseɛdel ummuɣ-ik/m n tɣuri s yibenkan sakkin ɛrek tirmit-ik/m s usnas unṣib n Wikipedia.",
 		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
-	"license": "Asebter-agi yella daw n <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
-	"terms": "Tiwtilin n useqdec",
+	"license": "Asebter-a atan daw n leɛnaya n <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Irman n Useqdec",
 	"Privacy Policy": "Tasertit n tbaḍnit",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
@@ -25,27 +26,27 @@
 	"search-input-label": "Nadi deg Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Tasanayt tilellit",
+		"slogan": "Takussna tilellit",
 		"entries": "imagraden"
 	},
 	"wiktionary": {
-		"name": "Wikamawal",
-		"slogan": "Amawal ilelli",
-		"entries": "imagraden"
+		"name": "Wikawal",
+		"slogan": "Asegzawal ilelli",
+		"entries": "tiwwura"
 	},
 	"wikibooks": {
 		"name": "Wikidlisen",
-		"slogan": "Idlisen n uselmed ilelliyen",
-		"entries": "Isebtar"
+		"slogan": "Idlisen isensegmiyen ilelliyen",
+		"entries": "isebtar"
 	},
 	"wikinews": {
-		"name": "Wikisalan",
-		"slogan": "Aɣbalu n isallen ilelli",
+		"name": "Wikinews",
+		"slogan": "Aɣbalu n yisallen ilelliyen",
 		"entries": "imagraden"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
-		"slogan": "Tagrumma tilellit n tedbarin",
+		"slogan": "Talkensit n tebdar tilelliyin",
 		"entries": "imagraden"
 	},
 	"wikisource": {
@@ -54,31 +55,31 @@
 	},
 	"wikiversity": {
 		"name": "Wikisdawit",
-		"slogan": "Allelen n temsirin n useqdec ilelli",
-		"entries": "Iɣbula n ulmud"
+		"slogan": "Amriw asensegmi ilelli",
+		"entries": "tiɣbula n ulmad"
 	},
 	"wikivoyage": {
-		"name": "Wikasikel",
-		"slogan": "Amnir n usikel ilelli"
+		"name": "Wikisikel",
+		"slogan": "Amnir ilelli n usikel"
 	},
 	"commons": {
-		"name": "Ayen yettwasnen",
-		"slogan": "Tiwlafin d tiyaḍ yettwaseqdacen s wudem ilelli"
+		"name": "Commons",
+		"slogan": "Tiwlafin d wayen-nniḍen i useqdec ilelli"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
-		"slogan": "Akaram ilelli n tilmas"
+		"slogan": "Attafttar ilelli n telmestin"
 	},
 	"wikidata": {
 		"name": "Wikidata",
-		"slogan": "taffa n tmusniwin tilellit"
+		"slogan": "taffa tilellit n tmussni"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Asnas wiki ilelli, yeldin"
+		"slogan": "Asnas n wiki ilelli i yeldin"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Amɛiwen d tsemlit n tmezdagnut"
+		"slogan": "Tumlin d tdukkli n temɣiwent"
 	}
 }

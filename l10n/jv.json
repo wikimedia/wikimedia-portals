@@ -1,77 +1,82 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"NoiX180"
 		]
 	},
 	"language-name": "Jawa",
+	"language-name-romanized": "Jawa",
 	"language-name-romanized-sorted": "Jawa",
 	"language-button-text": "Waca Wikipédia ing basané panjenengan",
 	"footer-description": "Wikipédia iku darbéné Yeyasan Wikimédia, organisasi nirbathi sing uga ndarbéni sawenèh proyèk liya.",
 	"app-links": {
-		"title": "Aplikasi Wikipédia saiki ana:"
+		"title": "Undhuh Wikipédia kanggo Android utawa iOS",
+		"description": "Simpen artikel senenganmu kanggo diwaca ing njaban jaringan, sinkronaké dhaptar wacanmu ing akèh piranti lan atur pangalaman wacamu kalih aplikasi resmi Wikipédia."
 	},
 	"license": "Kaca iki ana ing pangayomané <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lisènsi Atribusi-DumSairib Creative Commons</a>",
 	"terms": "Pranatan Pangguna",
-	"Privacy Policy": "Pranatan Kaprianggan",
+	"Privacy Policy": "Niti Privasi",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
+	"search-input-button": "Golèk",
+	"search-input-label": "Golèk ing Wikipédia",
 	"wiki": {
 		"name": "Wikipédia",
-		"slogan": "Bauwarna Bébas",
+		"slogan": "Bauwarna Mardika",
 		"entries": "artikel"
 	},
 	"wiktionary": {
 		"name": "Wikisastra",
-		"slogan": "Bausastra bébas",
+		"slogan": "Bausastra mardika",
 		"entries": "èntri"
 	},
 	"wikibooks": {
 		"name": "Wikipustaka",
-		"slogan": "Pustaka bébas",
+		"slogan": "Pustaka mardika",
 		"entries": "kaca"
 	},
 	"wikinews": {
 		"name": "Wikiwarta",
-		"slogan": "Sumber warta bébas",
+		"slogan": "Sumber warta mardika",
 		"entries": "artikel"
 	},
 	"wikiquote": {
 		"name": "Wikicuplik",
-		"slogan": "Klumpukan cuplikan bébas",
+		"slogan": "Klumpukan cuplikan mardika",
 		"entries": "artikel"
 	},
 	"wikisource": {
 		"name": "Wikisumber",
-		"slogan": "Kapustakan bébas"
+		"slogan": "Kapustakan mardika"
 	},
 	"wikiversity": {
 		"name": "Wikiversitas",
-		"slogan": "Bahan sinau bébas",
+		"slogan": "Bahan sinau mardika",
 		"entries": "sumber pasinaon"
 	},
 	"wikivoyage": {
 		"name": "Wikiwisata",
-		"slogan": "Panuntun wisata bébas"
+		"slogan": "Panuntun wisata mardika"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Foto lan liya-liyané sing bisa dianggo bébas"
+		"slogan": "Foto lan liya-liyané sing bisa dianggo mardika"
 	},
 	"wikispecies": {
 		"name": "Wikispésies",
-		"slogan": "Dhirèktori spésies bébas"
+		"slogan": "Dhirèktori spésies mardika"
 	},
 	"wikidata": {
-		"name": "Wikidata",
-		"slogan": "Sasana widya bébas"
+		"name": "Wikidhata",
+		"slogan": "Sasana widya mardika"
 	},
 	"mediawiki": {
-		"name": "MediaWiki",
-		"slogan": "Aplikasi wiki bébas & binuka"
+		"name": "MédiaWiki",
+		"slogan": "Aplikasi wiki mardika & binuka"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki",
+		"name": "Méta-Wiki",
 		"slogan": "Koordhinasi & dhokumèntasi paguyuban"
 	}
 }

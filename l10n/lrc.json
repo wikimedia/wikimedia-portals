@@ -1,13 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lorestani"
+			"Lorestani",
+			"Mogoeilor"
 		]
 	},
 	"language-name": "لۊری شومالی",
 	"language-name-romanized": "Löriyé-Šomālī",
 	"language-name-romanized-sorted": "Loriye-Somali",
+	"terms": "شٱرایت ڤ کار گرتن",
+	"search-input-button": "پاٛ جۊری",
+	"search-input-label": "پاٛجۊری د ڤیکیپدیا",
 	"wiki": {
-		"name": "ڤیکیپدیا"
+		"name": "ڤیکیپدیا",
+		"slogan": "دونسمٱنومٱ آزاد",
+		"entries": "گوتارؽا"
+	},
+	"wiktionary": {
+		"name": "ڤیکی نومچؽانومٱ",
+		"slogan": "نومچؽانومٱ آزاد"
+	},
+	"wikibooks": {
+		"name": "ڤیکی کتاو",
+		"slogan": "کتاویا مٱتنی رایگوݩ",
+		"entries": "بٱلگٱیا"
+	},
+	"wikinews": {
+		"name": "ڤیکی هوڤال"
 	}
 }
