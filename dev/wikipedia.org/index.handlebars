@@ -97,31 +97,30 @@
 
 
 {{!
-This comment will be read by everything and IE greater than 9
+This comment is read by all browsers and IE greater than 9.
+Note, that conditional comments support got removed in IE 10+.
+Hence all IEs not parsing conditional comments any more will load script.
 }}
-<!--[if gt IE 9]>
+<!--[if gt IE 9]><!-->
 <!-- build:js assets/js/gt-ie9.js -->
 <script src="assets/js/search-language-picker.js"></script>
 <!-- endbuild -->
-<![endif]-->
-
+<!--<![endif]-->
 
 {{!
-This comment will read by everything except IE less than or equal to 9
+This comment is read by all browsers and IE less than or equal to 9.
 }}
-<!--[if lte IE 9]>
+<!--[if lte IE 9]><!-->
 <style>
     .styled-select {
         display: block;
     }
 </style>
-<![endif]-->
-
+<!--<![endif]-->
 
 {{!
-This comment will be ready by only IE less than or equal to 9
+This comment is read only by IE less than or equal to 9.
 }}
-
 <!--[if lte IE 9]>
 <style>
     .langlist > ul {
