@@ -8,8 +8,6 @@
 	right: var( --ss-pos-right );
 	max-width: var( --ss-width );
 	height: var( --ss-height );
-	margin: 0;
-	padding: 0;
 	border-radius: var( --border-radius-base );
 }
 
@@ -21,7 +19,6 @@
 	right: 3.2rem;
 	max-width: 6.8rem;
 	height: var( --ss-height );
-	padding: 0;
 	overflow: hidden;
 	text-align: right;
 }
