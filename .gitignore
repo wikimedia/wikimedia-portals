@@ -7,6 +7,7 @@ dev/wikipedia.org/index.html
 dev/wikipedia.org/assets/l10n/*
 build/config.gypi
 data/site-stats.json
+dev/wikipedia.org/assets/css/sprite.css
 dev/wikipedia.org/assets/css/style.css
 dev/wikipedia.org/assets/img/sprite-*
 dev/wikipedia.org/assets/img/sprite-*

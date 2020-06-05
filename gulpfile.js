@@ -549,9 +549,9 @@ function watch() {
 
 	requirePortalParam();
 
-	gulp.watch( getConfig().watch.sprites, [], [ 'svgSprite' ] );
-	gulp.watch( getConfig().watch.hb, [], [ 'compile-handlebars' ] );
-	gulp.watch( getConfig().watch.postcss, [], [ 'postcss' ] );
+	gulp.watch( getConfig().watch.sprites, gulp.parallel( 'svgSprite' ) );
+	gulp.watch( getConfig().watch.hb, gulp.parallel( 'compile-handlebars' ) );
+	gulp.watch( getConfig().watch.postcss, gulp.parallel( 'postcss' ) );
 
 }
 gulp.task( 'watch', gulp.series( 'svgSprite', 'compile-handlebars', 'postcss', watch ) );
