@@ -34,7 +34,7 @@
 	outline: 0;
 	box-sizing: border-box;
 	border: 0;
-	line-height: 1.95rem;
+	line-height: var( --ss-height );
 
 	/* Hide default down arrow in webkit */
 	-webkit-appearance: none;
@@ -45,7 +45,6 @@
 	text-overflow: '';
 
 	/* Opera */
-	-o-appearance: none !important;
 	opacity: 0;
 
 	/* All browsers */

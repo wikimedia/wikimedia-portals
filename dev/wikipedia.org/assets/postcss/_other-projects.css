@@ -65,7 +65,7 @@ complexity of the SVG file */
 
 .other-project-tagline {
 	color: var( --ss-c-grey );
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 
 @media screen and ( max-width: 768px ) {
@@ -82,15 +82,15 @@ complexity of the SVG file */
 	.other-project {
 		width: 50%;
 	}
+
+	.other-project-tagline {
+		hyphens: auto;
+	}
 }
 
 @media screen and ( max-width: 320px ) {
 	.other-project-text {
 		margin-right: 5px;
-		font-size: 1.152rem;
-	}
-
-	.other-project-tagline {
-		font-size: 1.0944rem;
+		font-size: 1.3rem;
 	}
 }

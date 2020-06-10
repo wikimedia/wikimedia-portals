@@ -146,7 +146,7 @@ dfn {
 
 h1 {
   font-size: 3.2rem;
-  margin: 1.07rem 0;
+  margin: 1.2rem 0;
 }
 
 /**
@@ -163,7 +163,7 @@ mark {
  */
 
 small {
-  font-size: 1.2rem; /* CHANGED from `80%` to `1.2rem`. */
+  font-size: 1.3rem; /* CHANGED from `80%` to `1.3rem`. */
 }
 
 /**
@@ -395,9 +395,9 @@ input[ type="search" ]:focus {
  */
 
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid var( --border-color-base );
   margin: 0 0.2rem;
-  padding: 0.56rem 1rem 1.2rem;
+  padding: 0.6rem 1rem 1.2rem;
 }
 
 /**

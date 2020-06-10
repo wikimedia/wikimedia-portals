@@ -38,7 +38,7 @@
 .central-featured-lang small {
 	color: var( --wmui-color-base20 );
 	display: inline-block;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	line-height: 1.6;
 }
 
@@ -105,7 +105,7 @@
 		width: auto;
 		height: auto;
 		margin-top: 7rem;
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 		text-align: left;
 	}
 
@@ -128,7 +128,7 @@
 		box-sizing: border-box;
 		height: 6.4rem;
 		width: 33%;
-		margin: 0;
+		margin: 0 0 16px 0;
 		padding: 0 1.6rem;
 		font-size: 1.4rem;
 		text-align: center;
@@ -136,17 +136,17 @@
 
 	.central-featured-lang strong {
 		font-size: 1.4rem;
+		margin-bottom: 4px;
 	}
 
 	.central-featured-lang small {
-		font-size: 1.1rem;
-		line-height: 1.5;
+		line-height: 1.4;
 	}
 }
 
 @media all and ( max-width: 375px ) {
 	.central-featured-lang {
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 	}
 }
 

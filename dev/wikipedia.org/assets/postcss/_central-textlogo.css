@@ -62,7 +62,7 @@
 	.central-textlogo-wrapper {
 		position: relative;
 		/* visual alignment */
-		top: 2px;
+		top: 12px;
 		/* visual horizontal alignment in an rtl compat way */
 		text-indent: 0.2rem;
 	}
