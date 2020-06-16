@@ -130,6 +130,7 @@
 .langlist-others {
 	/* margin: 0 3em 2em 3em; */
 	font-weight: bold;
+	text-align: center;
 }
 
 /**
@@ -203,23 +204,6 @@
 
 .langlist > ul > li a {
 	white-space: normal;
-}
-
-.langlist-others > ul {
-	text-align: center;
-	column-count: 1;
-}
-
-.langlist-others > ul li {
-	display: inline;
-}
-
-.langlist-others > ul li:before {
-	content: ' · ';
-}
-
-.langlist-others > ul li:first-child:before {
-	content: none;
 }
 
 @media all and ( max-width: 480px ) {
