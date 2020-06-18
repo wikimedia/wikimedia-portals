@@ -2,37 +2,67 @@
 	"@metadata": {
 		"authors": [
 			"12imom",
+			"Patriot Kur",
 			"Гусейн"
 		]
 	},
+	"language-button-text": "Bahand bə Vikipedia ıştı zıvonədə",
+	"terms": "Çı istifodə ğaydon",
+	"Privacy Policy": "Məxfiəti siyosət",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/tly",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/tly",
+	"search-input-button": "Nəve",
+	"search-input-label": "Vikipediadə Nəve",
 	"wiki": {
 		"name": "Vikipedia",
 		"slogan": "oja ensiklopedia",
 		"entries": "məqalon"
 	},
 	"wiktionary": {
-		"name": "Викилуғәт",
-		"slogan": "Озодә луғәт",
+		"name": "Vikilüğət",
+		"slogan": "Ozodə lüğət",
 		"entries": "мәғолон"
 	},
 	"wikibooks": {
-		"name": "Викикитоб"
+		"name": "Vikikitob",
+		"slogan": "Ozodə mətnkitobon",
+		"entries": "səhifə"
 	},
 	"wikinews": {
 		"name": "Vikixəbə",
-		"entries": "мәғолон"
+		"slogan": "Mənbədə bepülə xəbəon",
+		"entries": "məğolon"
 	},
 	"wikiquote": {
-		"name": "Викиситот",
-		"entries": "мәғолон"
+		"name": "Vikisitot",
+		"slogan": "Bepülə təklifi məcmuən",
+		"entries": "məğolon"
 	},
 	"wikisource": {
-		"name": "Викисәвон"
+		"name": "Vikisəvon",
+		"slogan": "Ozodə kitobxonə"
 	},
 	"wikiversity": {
-		"name": "Викиверситет"
+		"name": "Vikiversitet"
+	},
+	"commons": {
+		"name": "Vikianbo",
+		"slogan": "Ozodə kardə bıə şəklon iən ve həni"
+	},
+	"wikispecies": {
+		"name": "Vikitip",
+		"slogan": "Ozodə kataloği tipon"
+	},
+	"wikidata": {
+		"name": "Vikiməlumot",
+		"slogan": "Ozodə zınəy bazə"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Ozodə iən ojə viki tətbığ"
+	},
+	"metawiki": {
+		"name": "Meta-Viki",
+		"slogan": "İcmai kordinəsiə bıə iən sənədin kardə bıə"
 	}
 }
