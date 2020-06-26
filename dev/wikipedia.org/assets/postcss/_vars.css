@@ -1,21 +1,21 @@
 :root {
-    /**
-     * Portal specific variables
-     */
+	/**
+	 * Portal specific variables
+	 */
 	--color-print--visited: #520;
 
-    /* Search language picker / Styled Select */
-    --ss-pos-top: 1rem;
-    --ss-pos-right: 1.2rem;
-    --ss-pos-bottom: 1.2rem;
-    --ss-width: 9.5rem;
-    --ss-height: 2.4rem;
+	/* Search language picker / Styled Select */
+	--ss-pos-top: 1rem;
+	--ss-pos-right: 1.2rem;
+	--ss-pos-bottom: 1.2rem;
+	--ss-width: 9.5rem;
+	--ss-height: 2.4rem;
 
-    --ss-c-grey: var( --wmui-color-base20 );
-    --ss-c-grey-hover: var( --wmui-color-base90 );
+	--ss-c-grey: var( --wmui-color-base20 );
+	--ss-c-grey-hover: var( --wmui-color-base90 );
 
-    --ss-select-width: 11rem;
+	--ss-select-width: 11rem;
 
-    --ss-select-z-index: 1;
-    --ss-button-z-index: 2;
+	--ss-select-z-index: 1;
+	--ss-button-z-index: 2;
 }

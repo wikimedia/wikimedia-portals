@@ -5,86 +5,86 @@ Licensed under the BSD License.
 https://github.com/yahoo/pure/blob/master/LICENSE.md
 */
 .pure-button {
-    /* Structure */
-    display: inline-block;
-    zoom: 1;
-    line-height: normal;
-    white-space: nowrap;
-    text-align: center;
-    cursor: pointer;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+	/* Structure */
+	display: inline-block;
+	zoom: 1;
+	line-height: normal;
+	white-space: nowrap;
+	text-align: center;
+	cursor: pointer;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 
-    /* from OOUI */
-    background-color: var( --background-color-framed );
-    color: var( --color-base );
-    position: relative;
-    min-height: 1.92rem;
-    min-width: 1.6rem;
-    margin: 0.16rem 0;
-    border: var( --border-base );
-    border-radius: var( --border-radius-base );
-    padding: 0.8rem 1.6rem;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: bold;
-    text-decoration: none;
-    vertical-align: top;
-    transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
+	/* from OOUI */
+	background-color: var( --background-color-framed );
+	color: var( --color-base );
+	position: relative;
+	min-height: 1.92rem;
+	min-width: 1.6rem;
+	margin: 0.16rem 0;
+	border: var( --border-base );
+	border-radius: var( --border-radius-base );
+	padding: 0.8rem 1.6rem;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: top;
+	transition: background 100ms ease, color 100ms ease, border-color 100ms ease, box-shadow 100ms ease;
 }
 
 /* Firefox: Get rid of the inner focus border */
 .pure-button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
+	padding: 0;
+	border: 0;
 }
 
 .pure-button-hover,
 .pure-button:hover {
-    background-color: var( --background-color-framed--hover );
-    border-color: var( --border-color-base--hover );
+	background-color: var( --background-color-framed--hover );
+	border-color: var( --border-color-base--hover );
 	color: var( --color-base--hover );
 }
 
 .pure-button-active,
 .pure-button:active {
-    background-color: var( --background-color-framed--active );
-    border-color: var( --border-color-base--active );
+	background-color: var( --background-color-framed--active );
+	border-color: var( --border-color-base--active );
 	color: var( --color-base--active );
 }
 
 .pure-button:focus {
 	outline: 0;
-    border-color: var( --color-primary--focus );
-    box-shadow: var( --box-shadow-base--focus );
+	border-color: var( --color-primary--focus );
+	box-shadow: var( --box-shadow-base--focus );
 }
 
 /* Primary Progressive Buttons */
 .pure-button-primary-progressive {
-    background-color: var( --color-primary );
-    border-color: var( --color-primary );
-    color: var( --color-base--inverted );
+	background-color: var( --color-primary );
+	border-color: var( --color-primary );
+	color: var( --color-base--inverted );
 }
 
 .pure-button-primary-progressive:hover {
-    background: var( --color-primary--hover );
-    border-color: var( --color-primary--hover );
+	background: var( --color-primary--hover );
+	border-color: var( --color-primary--hover );
 }
 
 .pure-button-primary-progressive:active {
-    background-color: var( --color-primary--active );
-    border-color: var( --color-primary--active );
-    box-shadow: none;
+	background-color: var( --color-primary--active );
+	border-color: var( --color-primary--active );
+	box-shadow: none;
 	color: var( --color-base--inverted );
 }
 
 .pure-button-primary-progressive:focus {
-    box-shadow: inset 0 0 0 1px var( --color-primary--focus ), inset 0 0 0 2px var( --color-base--inverted );
-    border-color: var( --color-primary--focus );
+	box-shadow: inset 0 0 0 1px var( --color-primary--focus ), inset 0 0 0 2px var( --color-base--inverted );
+	border-color: var( --color-primary--focus );
 }

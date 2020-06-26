@@ -12,31 +12,31 @@ the padding. We explicitly set the box-model for select elements to border-box,
 so we can ignore the csslint warning.
 */
 .pure-form input[ type="search" ] {
-    background-color: var( --background-color-base );
-    display: inline-block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    border: var( --border-base );
-    border-radius: var( --border-radius-base );
-    padding: 0.8rem;
-    box-shadow: inset 0 0 0 1px var( --background-color-base );
-    vertical-align: middle;
+	background-color: var( --background-color-base );
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: var( --border-base );
+	border-radius: var( --border-radius-base );
+	padding: 0.8rem;
+	box-shadow: inset 0 0 0 1px var( --background-color-base );
+	vertical-align: middle;
 }
 
 .pure-form input:focus:invalid {
-    color: var( --wmui-color-red30 );
-    border-color: var( --wmui-color-red50 );
+	color: var( --wmui-color-red30 );
+	border-color: var( --wmui-color-red50 );
 }
 
 .pure-form fieldset {
-    margin: 0;
-    padding: 0.56rem 0 1.2rem;
-    border: 0;
+	margin: 0;
+	padding: 0.56rem 0 1.2rem;
+	border: 0;
 }
 
 @media only screen and ( max-width: 480px ) {
-    .pure-form input[ type="search" ] {
-        display: block;
-    }
+	.pure-form input[ type="search" ] {
+		display: block;
+	}
 }

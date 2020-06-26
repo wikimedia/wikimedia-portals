@@ -56,7 +56,7 @@
 --------> NON JS styled selector
 */
 .styled-select.no-js {
-    width: var( --ss-width );
+	width: var( --ss-width );
 }
 
 .styled-select.no-js select {
@@ -67,11 +67,11 @@
 }
 
 .styled-select.no-js .hide-arrow {
-    width: 6.8rem;
+	width: 6.8rem;
 }
 
 .search-container .styled-select.no-js .js-langpicker-label {
-    display: none;
+	display: none;
 }
 
 /*
@@ -79,7 +79,7 @@
 */
 
 .styled-select.js-enabled .hide-arrow {
-    padding: 0 2.4rem 0 0.8rem;
+	padding: 0 2.4rem 0 0.8rem;
 }
 
 .styled-select.js-enabled select {
@@ -98,15 +98,15 @@
 }
 
 .styled-select.js-enabled select option {
-    color: var( --ss-c-grey );
+	color: var( --ss-c-grey );
 }
 
 .styled-select.js-enabled select:hover {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 .styled-select-active-helper {
-    display: none;
+	display: none;
 }
 
 .styled-select.js-enabled select:focus + .styled-select-active-helper {
@@ -131,22 +131,22 @@
 /* END JS only lang selector idea */
 
 .styled-select select:hover {
-    background-color: var( --ss-c-grey-hover );
+	background-color: var( --ss-c-grey-hover );
 }
 
 .styled-select select::-ms-expand {
-    display: none; /* hide default down arrow in IE10 */
+	display: none; /* hide default down arrow in IE10 */
 }
 
 /* firefox */
 .styled-select select:focus {
-    outline: 0;
-    box-shadow: none;
+	outline: 0;
+	box-shadow: none;
 }
 
 /* firefox */
 @-moz-document url-prefix() {
-    .styled-select select {
-        width: 110%;
-    }
+	.styled-select select {
+		width: 110%;
+	}
 }

@@ -3,46 +3,46 @@
 .footer {
 	overflow: hidden;
 	max-width: 100%;
-    margin: 0 auto;
-    padding: 4.16rem 1.28rem 1.28rem;
-    font-size: 1.3rem;
+	margin: 0 auto;
+	padding: 4.16rem 1.28rem 1.28rem;
+	font-size: 1.3rem;
 }
 
 .footer:before,
 .footer:after {
-    content: ' ';
-    display: table;
+	content: ' ';
+	display: table;
 }
 
 .footer:after {
-    clear: both;
+	clear: both;
 }
 
 .footer-sidebar {
-    width: 35%;
-    float: left;
-    clear: left;
-    margin-bottom: 3.2rem;
-    vertical-align: top;
+	width: 35%;
+	float: left;
+	clear: left;
+	margin-bottom: 3.2rem;
+	vertical-align: top;
 }
 
 .footer-sidebar-content {
-    position: relative;
-    max-width: 350px;
-    margin: 0 auto;
+	position: relative;
+	max-width: 350px;
+	margin: 0 auto;
 }
 
 .sprite.footer-sidebar-icon {
-    position: absolute;
-    top: 0;
-    left: 0.8rem;
+	position: absolute;
+	top: 0;
+	left: 0.8rem;
 }
 
 .footer-sidebar-text {
-    position: relative;
-    margin: 0;
-    padding-left: 6rem;
-    padding-right: 2rem;
+	position: relative;
+	margin: 0;
+	padding-left: 6rem;
+	padding-right: 2rem;
 	color: var( --ss-c-grey );
 }
 
@@ -53,70 +53,70 @@
 }
 
 .site-license small:after {
-    content: '\2022'; /* bullet character */
-    display: inline-block;
-    font-size: 1.3rem;
-    line-height: inherit;
-    margin-left: 0.8rem; /* margins differ to account for inline-block white-space */
-    margin-right: 0.5rem;
+	content: '\2022'; /* bullet character */
+	display: inline-block;
+	font-size: 1.3rem;
+	line-height: inherit;
+	margin-left: 0.8rem; /* margins differ to account for inline-block white-space */
+	margin-right: 0.5rem;
 }
 
 .site-license small:last-child:after {
-    display: none;
+	display: none;
 }
 
 @media screen and ( max-width: 768px ) {
-    .footer {
+	.footer {
 		display: flex;
 		flex-direction: column;
-        padding-top: 1.28rem;
-    }
+		padding-top: 1.28rem;
+	}
 
-    .footer .footer-sidebar {
-        /* for whatever reason, autoprefixer was
-        prefixing these two prefixed properties incorrectly.
-        Giving them a x + 1 value, instead of just x. */
-        -webkit-box-ordinal-group: 1;
-        -moz-box-ordinal-group: 1;
-        order: 1;
-    }
+	.footer .footer-sidebar {
+		/* for whatever reason, autoprefixer was
+		prefixing these two prefixed properties incorrectly.
+		Giving them a x + 1 value, instead of just x. */
+		-webkit-box-ordinal-group: 1;
+		-moz-box-ordinal-group: 1;
+		order: 1;
+	}
 
-    .footer .other-projects {
-        -webkit-box-ordinal-group: 2;
-        -moz-box-ordinal-group: 2;
-        order: 2;
-    }
+	.footer .other-projects {
+		-webkit-box-ordinal-group: 2;
+		-moz-box-ordinal-group: 2;
+		order: 2;
+	}
 
-    .footer .app-badges {
-        -webkit-box-ordinal-group: 3;
-        -moz-box-ordinal-group: 3;
-        order: 3;
-    }
+	.footer .app-badges {
+		-webkit-box-ordinal-group: 3;
+		-moz-box-ordinal-group: 3;
+		order: 3;
+	}
 
-    .footer-sidebar {
-        width: 100%;
-    }
+	.footer-sidebar {
+		width: 100%;
+	}
 
-    .sprite.footer-sidebar-icon {
+	.sprite.footer-sidebar-icon {
 		display: block;
-        position: relative;
+		position: relative;
 		left: 0;
-        margin: 0 auto 1.28rem auto;
-    }
+		margin: 0 auto 1.28rem auto;
+	}
 
-    .footer-sidebar-content {
-        max-width: none;
-    }
+	.footer-sidebar-content {
+		max-width: none;
+	}
 
-    .footer-sidebar-text {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
+	.footer-sidebar-text {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
 }
 
 @media screen and ( max-width: 480px ) {
-    .footer {
-        padding: 0.96rem 0.64rem 1.28rem;
-    }
+	.footer {
+		padding: 0.96rem 0.64rem 1.28rem;
+	}
 }

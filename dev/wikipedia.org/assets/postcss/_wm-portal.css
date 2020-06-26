@@ -3,62 +3,59 @@
  * It should loosely match the style of MediaWiki's Vector theme
  * for consistency.
  * Colors from ./skins/Vector/screen.css
- *
- * Indention style: 1 tab
- *
  */
 
 @media all and ( max-width: 480px ) {
-    .search-container {
-        margin-top: 0;
-        height: 7.8rem;
-        position: absolute;
-        top: 9.6rem;
-        left: 0;
-        right: 0;
-        max-width: 100%;
-        width: auto;
-        padding: 0;
-        text-align: left;
-    }
+	.search-container {
+		margin-top: 0;
+		height: 7.8rem;
+		position: absolute;
+		top: 9.6rem;
+		left: 0;
+		right: 0;
+		max-width: 100%;
+		width: auto;
+		padding: 0;
+		text-align: left;
+	}
 
-    .search-container label {
-        display: none;
-    }
+	.search-container label {
+		display: none;
+	}
 
-    .search-form #searchInput {
-        max-width: 40%;
-        vertical-align: middle;
-    }
+	.search-form #searchInput {
+		max-width: 40%;
+		vertical-align: middle;
+	}
 
-    .search-form .formBtn {
-        max-width: 25%;
-        vertical-align: middle;
-    }
+	.search-form .formBtn {
+		max-width: 25%;
+		vertical-align: middle;
+	}
 
-    form fieldset {
-        margin: 0;
-        border-left: 0;
-        border-right: 0;
-    }
+	form fieldset {
+		margin: 0;
+		border-left: 0;
+		border-right: 0;
+	}
 
-    hr {
-        margin-top: 0.65rem;
-    }
+	hr {
+		margin-top: 0.65rem;
+	}
 }
 
 /* stylelint-disable media-feature-name-no-unknown */
 /* Subpixel borders supported in Gecko, Trident */
 @media ( min--moz-device-pixel-ratio: 2 ), ( min-resolution: 2dppx ), ( min-resolution: 192dpi ) {
-    hr {
-        border-bottom-width: 0.5px;
-    }
+	hr {
+		border-bottom-width: 0.5px;
+	}
 }
 /* stylelint-enable media-feature-name-no-unknown */
 
 /* Subpixel borders not supported in older releases of Blink, WebKit */
 @supports ( -webkit-marquee-style: slide ) {
-    hr {
-        border-bottom-width: 1px;
-    }
+	hr {
+		border-bottom-width: 1px;
+	}
 }

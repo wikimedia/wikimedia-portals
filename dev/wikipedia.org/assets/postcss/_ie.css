@@ -19,34 +19,34 @@ files that are placed within HTML comment blocks.
 */
 
 .otherprojects-icon {
-    *zoom: 1;
-    *display: inline;
+	*zoom: 1;
+	*display: inline;
 }
 
 .suggestion-item {
-    *width: auto;
+	*width: auto;
 }
 
 .search-container button {
-    *display: inline;
+	*display: inline;
 }
 
 #searchInput {
-    *padding: 8px 0 0 8px;
-    *width: 90%;
-    *height: 34px;
+	*padding: 8px 0 0 8px;
+	*width: 90%;
+	*height: 34px;
 }
 
 #search-input {
-    *display: inline;
+	*display: inline;
 }
 
 .langlist ul {
-    *text-align: center;
+	*text-align: center;
 }
 
 .langlist ul li {
-    *display: inline !important;
-    *padding-left: 5px;
-    *padding-right: 5px;
+	*display: inline !important;
+	*padding-left: 5px;
+	*padding-right: 5px;
 }

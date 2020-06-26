@@ -14,117 +14,117 @@
 	box-sizing: border-box;
 	max-height: 0;
 	width: 80%;
-    margin: -1.6rem auto 4.8rem;
-    transition: max-height 500ms ease-out, visibility 500ms ease-in 1000ms;
+	margin: -1.6rem auto 4.8rem;
+	transition: max-height 500ms ease-out, visibility 500ms ease-in 1000ms;
 }
 
 .js-enabled .lang-list-container {
-    visibility: hidden;
+	visibility: hidden;
 }
 
 .lang-list-active .lang-list-container,
 .no-js .lang-list-container {
-    visibility: visible;
-    max-height: 10000px;
-    transition: max-height 1000ms ease-in 200ms, visibility 1000s ease-in 0ms;
+	visibility: visible;
+	max-height: 10000px;
+	transition: max-height 1000ms ease-in 200ms, visibility 1000s ease-in 0ms;
 }
 
 .no-js .lang-list-button {
-    display: none;
+	display: none;
 }
 
 .lang-list-button-wrapper {
-    text-align: center;
+	text-align: center;
 }
 
 .lang-list-button {
 	background-color: var( --background-color-framed );
-    display: inline;
-    position: relative;
+	display: inline;
+	position: relative;
 	z-index: 1;
-    margin: 0 auto;
+	margin: 0 auto;
 	padding: 0.6rem 1.2rem;
 	outline: 1.6rem solid var( --background-color-base );
 	border: var( --border-base );
 	border-radius: var( --border-radius-base );
-    color: var( --color-primary );
-    font-size: 1.4rem;
+	color: var( --color-primary );
+	font-size: 1.4rem;
 	font-weight: bold;
-    line-height: 1;
-    transition: outline-width 100ms ease-in 500ms;
+	line-height: 1;
+	transition: outline-width 100ms ease-in 500ms;
 }
 
 .lang-list-button:hover {
-    background-color: var( --background-color-framed--hover );
-    border-color: var( --border-color-base--hover );
+	background-color: var( --background-color-framed--hover );
+	border-color: var( --border-color-base--hover );
 }
 
 .lang-list-button:focus {
-    border-color: var( --color-primary--focus );
-    box-shadow: inset 0 0 0 1px var( --color-primary--focus );
+	border-color: var( --color-primary--focus );
+	box-shadow: inset 0 0 0 1px var( --color-primary--focus );
 }
 
 .lang-list-active .lang-list-button {
-    background-color: var( --background-color-framed--hover );
-    outline: 1px solid var( --wmui-color-base100 );
+	background-color: var( --background-color-framed--hover );
+	outline: 1px solid var( --wmui-color-base100 );
 	border-color: var( --border-color-base--active );
-    transition-delay: 0s;
+	transition-delay: 0s;
 }
 
 .lang-list-button-text {
-    padding: 0 0.64rem;
+	padding: 0 0.64rem;
 	vertical-align: middle;
 }
 
 .lang-list-button i {
-    display: inline-block;
-    vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .no-js .lang-list-button,
 .no-js .lang-list-border {
-    display: none;
+	display: none;
 }
 
 .lang-list-border {
 	background-color: var( --border-color-heading );
-    display: block;
+	display: block;
 	position: relative;
 	max-width: 460px;
 	width: 80%;
-    margin: -1.6rem auto 1.6rem;
-    height: 1px;
-    transition: max-width 200ms ease-out 400s;
+	margin: -1.6rem auto 1.6rem;
+	height: 1px;
+	transition: max-width 200ms ease-out 400s;
 }
 
 .lang-list-active .lang-list-border {
-    max-width: 85%;
-    transition-delay: 0s;
+	max-width: 85%;
+	transition-delay: 0s;
 }
 
 .no-js .lang-list-content {
-    padding: 0;
+	padding: 0;
 }
 
 .lang-list-content {
-    position: relative;
+	position: relative;
 	box-sizing: border-box;
-    width: 100%;
+	width: 100%;
 	padding: 1.6rem 1.6rem 0;
 }
 
 .svg-arrow-down-blue {
-    transition: transform 200ms ease-out;
+	transition: transform 200ms ease-out;
 }
 
 .lang-list-active .svg-arrow-down-blue {
-    transform: rotate( 180deg );
+	transform: rotate( 180deg );
 }
 
 .langlist {
 	width: auto;
 	margin: 1.6rem 0;
-    text-align: left;
+	text-align: left;
 }
 
 .langlist-others {
@@ -135,8 +135,8 @@
 /**
  * Style for horizontal lists (separator following item).
  * @note Support for unused tags like <dt> has been stripped out, and the
- *     dependency on :last-child and JavaScript has been removed in favor of
- *     :before.
+ *   dependency on :last-child and JavaScript has been removed in favor of
+ *   :before.
  * @source mediawiki.org/wiki/Snippets/Horizontal_lists
  * @revision 6 (2014-05-09)
  * @author [[User:Edokter]]
@@ -176,69 +176,69 @@
 }
 
 .langlist > ul {
-    column-width: 11.2rem;
+	column-width: 11.2rem;
 }
 
 .langlist > ul > li {
-    display: block;
-    line-height: 1.7;
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
+	display: block;
+	line-height: 1.7;
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
 }
 
 .no-js .langlist > ul {
-    text-align: center;
-    list-style-type: circle;
+	text-align: center;
+	list-style-type: circle;
 }
 
 .no-js .langlist > ul > li {
-    display: inline-block;
-    padding: 0 0.8rem;
+	display: inline-block;
+	padding: 0 0.8rem;
 }
 
 .langlist > ul > li:before {
-    content: none;
+	content: none;
 }
 
 .langlist > ul > li a {
-    white-space: normal;
+	white-space: normal;
 }
 
 .langlist-others > ul {
 	text-align: center;
-    column-count: 1;
+	column-count: 1;
 }
 
 .langlist-others > ul li {
-    display: inline;
+	display: inline;
 }
 
 .langlist-others > ul li:before {
-    content: ' · ';
+	content: ' · ';
 }
 
 .langlist-others > ul li:first-child:before {
-    content: none;
+	content: none;
 }
 
 @media all and ( max-width: 480px ) {
-    .langlist {
-        font-size: inherit;
-    }
+	.langlist {
+		font-size: inherit;
+	}
 
 	.langlist a {
 		word-wrap: break-word;
 		white-space: normal;
 	}
 
-    .lang-list-container {
-        width: auto;
-        margin-left: 0.8rem;
-        margin-right: 0.8rem;
-    }
+	.lang-list-container {
+		width: auto;
+		margin-left: 0.8rem;
+		margin-right: 0.8rem;
+	}
 
-    .bookshelf {
-        overflow: visible;
-    }
+	.bookshelf {
+		overflow: visible;
+	}
 }

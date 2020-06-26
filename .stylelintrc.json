@@ -3,7 +3,6 @@
 	"rules": {
 		"declaration-no-important": null,
 		"font-family-name-quotes": [ "always-where-recommended" ],
-		"indentation": null,
 		"no-descending-specificity": null,
 		"selector-max-id": null,
 		"string-quotes": null,
