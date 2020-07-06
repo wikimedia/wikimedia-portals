@@ -8,15 +8,15 @@
 	},
 	"language-button-text": "Bahand bə Vikipedia ıştı zıvonədə",
 	"terms": "Çı istifodə ğaydon",
-	"Privacy Policy": "Məxfiəti siyosət",
+	"Privacy Policy": "Məxfiəti Siyosət",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/tly",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/tly",
-	"search-input-button": "Nəve",
-	"search-input-label": "Vikipediadə Nəve",
+	"search-input-button": "Bınəv",
+	"search-input-label": "Bınəv bə Vikipediadə",
 	"wiki": {
 		"name": "Vikipedia",
-		"slogan": "oja ensiklopedia",
-		"entries": "məqalon"
+		"slogan": "Ozodə Ensiklopediya",
+		"entries": "məğolon"
 	},
 	"wiktionary": {
 		"name": "Vikilüğət",
@@ -26,11 +26,11 @@
 	"wikibooks": {
 		"name": "Vikikitob",
 		"slogan": "Ozodə mətnkitobon",
-		"entries": "səhifə"
+		"entries": "səhifon"
 	},
 	"wikinews": {
-		"name": "Vikixəbə",
-		"slogan": "Mənbədə bepülə xəbəon",
+		"name": "Vikixəbəon",
+		"slogan": "Mənbədə ozodə xəbəon",
 		"entries": "məğolon"
 	},
 	"wikiquote": {
@@ -43,7 +43,13 @@
 		"slogan": "Ozodə kitobxonə"
 	},
 	"wikiversity": {
-		"name": "Vikiversitet"
+		"name": "Vikiversitet",
+		"slogan": "Bepülə kursi materialon",
+		"entries": "umutənin səvonon"
+	},
+	"wikivoyage": {
+		"name": "Vikisəyohət",
+		"slogan": "Ozodə səyahohəti bələdkor"
 	},
 	"commons": {
 		"name": "Vikianbo",
