@@ -2,14 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"BrennodAloisi",
-			"Cedric31"
+			"Cedric31",
+			"Guilhelma"
 		]
 	},
 	"language-name": "Occitan",
 	"language-button-text": "Legissètz la Wikipèdia dins vòstra lenga",
 	"footer-description": "Wikipèdia es albergat per la Fondacion Wikimèdia, un organisme de tòca non lucrativa qu'albèrga tanben fòrça projèctes mai.",
 	"app-links": {
-		"title": "Telecargar Wikipèdia per Android e iOS"
+		"title": "Telecargar Wikipèdia per Android e iOS",
+		"description": "Salvatz los vòstres articles preferits per los legir sens connexion, sincronizatz las vòstras listas de lectura per divèrses dispositius e personalizatz l’experiéncia de lectura amb l’aplicacion oficiala de la Wikipèdia."
 	},
 	"license": "Aquesta pagina es disponibla jos <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">licéncia Creative Commons Atribucion-Partiment a l'identic</a>",
 	"terms": "Condicions d'utilizacion",
