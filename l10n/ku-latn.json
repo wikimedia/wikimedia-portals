@@ -8,12 +8,14 @@
 	},
 	"language-button-text": "Wîkîpediyayê bi zimanê xwe bixwîne",
 	"app-links": {
-		"title": "Êdî sepanên wîkîpediyayê jî mewcûd e:"
+		"title": "Wîkîpediya ji bo Android û iOSê daxe:"
 	},
 	"terms": "Mercên Bikaranînê",
 	"Privacy Policy": "Rêbaza Veşarîtî",
 	"terms-link": "https://meta.wikimedia.org/wiki/Mercên_Bikaranînê",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Rêbaza_Veşarîtî",
+	"search-input-button": "Bigere",
+	"search-input-label": "Li Wîkîpediyayê bigere",
 	"wiki": {
 		"name": "Wîkîpediya",
 		"slogan": "Ensîklopediya Azad",
@@ -21,7 +23,8 @@
 	},
 	"wiktionary": {
 		"name": "Wîkîferheng",
-		"slogan": "Ferhenga azad"
+		"slogan": "Ferhenga azad",
+		"entries": "encam"
 	},
 	"wikibooks": {
 		"name": "Wîkîpirtûk",
@@ -30,7 +33,7 @@
 	},
 	"wikinews": {
 		"name": "Wîkînûçe",
-		"slogan": "Nûçeyên azad",
+		"slogan": "Çavkaniya nûçeyan ya azad",
 		"entries": "gotar"
 	},
 	"wikiquote": {
@@ -47,7 +50,17 @@
 	"wikivoyage": {
 		"name": "Wîkîger"
 	},
+	"commons": {
+		"name": "Commons"
+	},
 	"wikidata": {
 		"name": "Wîkîdane"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Bernameya wîkiye ya azad û vekirî"
+	},
+	"metawiki": {
+		"name": "Meta-Wîkî"
 	}
 }
