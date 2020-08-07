@@ -5,6 +5,7 @@
 			"Alpkant",
 			"Archaeodontosaurus",
 			"BaRaN6161 TURK",
+			"Cobija",
 			"Ece Alpdeniz",
 			"Grkn gll",
 			"Hedda",
@@ -18,13 +19,13 @@
 	"language-name-romanized": "Türkçe",
 	"language-name-romanized-sorted": "Türkçe",
 	"language-button-text": "Vikipedi'yi kendi dilinizde okuyun",
-	"footer-description": "Vikipedi, başka projeleri de barındıran ve kâr amacı gütmeyen bir kuruluş olan Wikimedia Vakfı tarafından barındırılmaktadır.",
+	"footer-description": "Vikipedi, başka projelere de ev sahipliği yapan ve kâr amacı gütmeyen bir kuruluş olan Wikimedia Vakfı tarafından barındırılmaktadır.",
 	"app-links": {
 		"title": "Android veya iOS için Vikipedi'yi indirin",
-		"description": "Çevrimdışı okumak için sevdiğiniz makaleleri kaydedin, okuma listelerinizi aygıtlar arasında senkronize edin ve okuma deneyiminizi resmi Vikipedi uygulamasıyla özelleştirin.",
+		"description": "Resmî Vikipedi uygulamasıyla ilginizi çeken maddeleri çevrimdışıyken okumak için kaydedin, listelerinizi aygıtlarınız arasında eşzamanlayın ve okuma deneyiminizi özelleştirin.",
 		"url": "https://tr.wikipedia.org/wiki/Vikipedi_mobil_uygulamalarının_listesi"
 	},
-	"license": "Bu sayfa, <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.tr'>Creative Commons Atıf-BenzerPaylaşım Lisansı</a> altındadır",
+	"license": "Bu sayfa <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.tr'>Creative Commons Atıf-AynıLisanslaPaylaş</a> hükümlerine tabidir",
 	"terms": "Kullanım Şartları",
 	"Privacy Policy": "Gizlilik Politikası",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/tr",
@@ -53,7 +54,7 @@
 	},
 	"wikiquote": {
 		"name": "Vikisöz",
-		"slogan": "Özgür söz dizini",
+		"slogan": "Özgür söz derlemesi",
 		"entries": "maddeler"
 	},
 	"wikisource": {
@@ -87,6 +88,6 @@
 	},
 	"metawiki": {
 		"name": "Meta Viki",
-		"slogan": "Topluluk koordinasyonu ve belgelemesi"
+		"slogan": "Topluluk eşgüdümü ve belgelemesi"
 	}
 }

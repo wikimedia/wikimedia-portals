@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Pyscowicz"
 		]
 	},
 	"language-name": "Norsk (nynorsk)",
@@ -20,7 +21,7 @@
 	"search-input-label": "Søk i Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "det frie oppslagsverket",
+		"slogan": "Det frie oppslagsverket",
 		"entries": "artiklar"
 	},
 	"wiktionary": {
