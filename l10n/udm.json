@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Irus",
+			"Kotwys",
 			"Shklyaev",
 			"Wadorgurt"
 		]
@@ -10,6 +11,15 @@
 	"language-name-romanized": "Udmurt",
 	"language-button-text": "Лыдӟе Википедиез ас кылады",
 	"footer-description": "Википедиен кузёяське Викимедиа Фонд — табышантэм организация, кудӥз озьы ик кузёяське куд-ог мукет проектъёсын.",
+	"app-links": {
+		"title": "Android'лы но iOS'лы Wikipedia кысконо",
+		"description": "Яратоно статьяостэ вотэстэк соосты лыдӟыны вылысь утьылэ, лэсьтэтъёс куспады лыдӟон лыдметъёстэс вӧлмытэ но официал Wikipedia ватсэтэн лыдӟемдэс тупатэ."
+	},
+	"license": "Та бам <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ru'>Creative Commons Attribution-ShareAlike лицензиен</a> учкымон",
+	"terms": "Кутон Тупанкыл",
+	"Privacy Policy": "Лушкемлык Политика",
+	"search-input-button": "Утчан",
+	"search-input-label": "Википедиысь утчаськон",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Эрико энциклопедия",
@@ -17,20 +27,27 @@
 	},
 	"wiktionary": {
 		"name": "Вики-кылбугор",
+		"slogan": "Эрико кыллюкам",
 		"entries": "статья"
 	},
 	"wikibooks": {
 		"name": "Вики-книгаос",
+		"slogan": "Эрико дышетэтъёс",
 		"entries": "бамъёс"
 	},
 	"wikinews": {
 		"name": "Вики-иворъёс",
+		"slogan": "Эрико ивор ошмес",
 		"entries": "статья"
 	},
 	"wikiquote": {
 		"name": "Вики-цитатаос",
 		"slogan": "Цитатаосын коллекция",
 		"entries": "статья"
+	},
+	"wikisource": {
+		"name": "Викитека",
+		"slogan": "Эрико библиотека"
 	},
 	"wikiversity": {
 		"name": "Викиверситет",
@@ -50,12 +67,15 @@
 		"slogan": "Биологи видъёс"
 	},
 	"wikidata": {
-		"name": "Викиданнойёс"
+		"name": "Викиданнойёс",
+		"slogan": "Эрико тодон-валан база"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Эрико но ватымтэ вики-движок"
 	},
 	"metawiki": {
-		"name": "Метавики"
+		"name": "Метавики",
+		"slogan": "Огазеяськонэз радъян но документаци"
 	}
 }
