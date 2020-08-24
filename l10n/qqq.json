@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Ans",
 			"BaRaN6161 TURK",
 			"Liuxinyu970226",
@@ -16,13 +17,13 @@
 	"app-links": {
 		"title": "Title of that app link section on wikipedia.org",
 		"description": "Description of the Wikipedia mobile apps",
-		"url": "The url of an article that lists all available Wikipedia apps. The link URL should be <code><nowiki>https://(your language code).wikipedia.org/wiki/List_of_Wikipedia_mobile_applications</nowiki></code> when available."
+		"url": "The url of an article that lists all available Wikipedia apps. The link URL should be <code><nowiki>https://(your language code).wikipedia.org/wiki/List_of_Wikipedia_mobile_applications</nowiki></code> when available.\n\nThe English Wikipedia page is https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "License text, use <code><nowiki>https://creativecommons.org/licenses/by-sa/3.0/deed.(your language code)</nowiki></code> to show the translation of license.",
 	"terms": "Terms of Use\n{{Identical|Terms of use}}",
 	"Privacy Policy": "Privacy Policy\n{{Identical|Privacy policy}}",
-	"terms-link": "The URL of the translated Terms of service page. Like <code><nowiki>https://meta.wikimedia.org/wiki/Terms_of_use/(your language code)</nowiki></code> but be certain that a translation exists.",
-	"privacy-policy-link": "The URL of the translated Privacy policy page. Like <code><nowiki>https://meta.wikimedia.org/wiki/Privacy_policy/(your language code)</nowiki></code> but be certain that a translation exists.",
+	"terms-link": "{{Optional}}\n\nThe URL of the translated Terms of service page. Like <code><nowiki>https://meta.wikimedia.org/wiki/Terms_of_use/(your language code)</nowiki></code> but be certain that a translation exists.",
+	"privacy-policy-link": "{{Optional}}\n\nThe URL of the translated Privacy policy page. Like <code><nowiki>https://meta.wikimedia.org/wiki/Privacy_policy/(your language code)</nowiki></code> but be certain that a translation exists.",
 	"search-input-button": "Label for search button\n{{Identical|Search}}",
 	"search-input-label": "The label for the main search input",
 	"wiki": {
