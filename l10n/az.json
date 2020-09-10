@@ -1,25 +1,69 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toghrul Rahimli"
+			"Toghrul Rahimli",
+			"Şeyx Şamil"
 		]
 	},
 	"language-name": "Azərbaycanca",
 	"language-name-romanized-sorted": "Azerbaycanca",
+	"language-button-text": "Vikipediyanı öz dilinizdə oxuyun",
+	"app-links": {
+		"title": "Android və ya IOS üçün Vikipediya yüklə"
+	},
+	"terms": "İstifadə şərtləri",
+	"Privacy Policy": "Məxfilik siyasəti",
+	"search-input-button": "Axtar",
+	"search-input-label": "Vikipediyada axtar",
 	"wiki": {
 		"name": "Vikipediya",
-		"slogan": "Açıq ensiklopediya"
+		"slogan": "Açıq ensiklopediya",
+		"entries": "məqalələr"
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Wiktionary",
+		"slogan": "Azad lüğət",
+		"entries": "daxiletmələr"
 	},
 	"wikibooks": {
-		"name": "Vikikitab"
+		"name": "Vikikitab",
+		"entries": "səhifələr"
+	},
+	"wikinews": {
+		"name": "Vikixəbər",
+		"slogan": "Azad xəbər mənbəyi",
+		"entries": "məqalələr"
 	},
 	"wikiquote": {
-		"name": "Vikisitat"
+		"name": "Vikisitat",
+		"slogan": "Azad sitat məcmuəsi",
+		"entries": "məqalələr"
 	},
 	"wikisource": {
-		"name": "Vikimənbə"
+		"name": "Vikimənbə",
+		"slogan": "Azad kitabxana"
+	},
+	"wikiversity": {
+		"name": "Vikiversitet",
+		"slogan": "Azad kurs materialları"
+	},
+	"wikivoyage": {
+		"name": "Vikisəyahət",
+		"slogan": "Azad səyahət bələdçisi"
+	},
+	"commons": {
+		"name": "Vikianbar"
+	},
+	"wikispecies": {
+		"name": "Vikinövlər"
+	},
+	"wikidata": {
+		"name": "Vikiverilənlər"
+	},
+	"mediawiki": {
+		"name": "Mediaviki"
+	},
+	"metawiki": {
+		"name": "Meta-Viki"
 	}
 }
