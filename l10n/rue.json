@@ -1,11 +1,16 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Tkalyn"
+		]
 	},
 	"language-name": "Русиньскый Язык",
 	"language-name-romanized": "Rusin’skyj Yazyk",
 	"language-name-romanized-sorted": "Rusinskyj Yazyk",
 	"wiki": {
 		"name": "Вікіпедія"
+	},
+	"commons": {
+		"name": "Вікісклад"
 	}
 }
