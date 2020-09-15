@@ -48,7 +48,7 @@ function getPageCounts() {
 		// TODO:
 	} else {
 		// Developer's machine
-		return httpGet( 'https://tools.wmflabs.org/pagecounts/pagecounts.json' )
+		return httpGet( 'https://pagecounts.toolforge.org/pagecounts.json' )
 			.then( function ( pagecounts ) {
 				var stats = {};
 
