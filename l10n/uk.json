@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ahonc",
 			"Movses",
 			"Piramidion",
 			"Vlad5250"
@@ -45,7 +46,7 @@
 	},
 	"wikiquote": {
 		"name": "Вікіцитати",
-		"slogan": "Вільної збірки цитат",
+		"slogan": "Вільна збірка цитат",
 		"entries": "статей"
 	},
 	"wikisource": {
