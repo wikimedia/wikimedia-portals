@@ -2,8 +2,7 @@
 	"extends": "wikimedia",
 	"root": true,
 	"rules": {
-		"capitalized-comments": "error",
-		"no-shadow": "warn"
+		"capitalized-comments": "error"
 	},
 	"globals": {
 		"mw": true
