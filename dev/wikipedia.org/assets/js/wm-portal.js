@@ -295,7 +295,7 @@
 	 *
 	 * @param {number} devicePixelRatio
 	 * @param {string} srcset
-	 * @return {mixed} null or the matching src string
+	 * @return {Mixed} null or the matching src string
 	 */
 	function matchSrcSet( devicePixelRatio, srcset ) {
 		var candidates,

@@ -459,7 +459,7 @@ gulp.task( 'replaceSVGSpriteCSS', gulp.series( 'createSvgSprite', replaceSVGSpri
  * Copy images to prod folder.
  *
  * @return {Stream}
-*/
+ */
 function copyImages() {
 
 	var conf = getConfig();
@@ -530,6 +530,7 @@ function updateURLsToPurge() {
  * Creates a symlink in the production folder which is required
  * by the Apache config:
  * https://gerrit.wikimedia.org/r/plugins/gitiles/operations/puppet/+/refs/heads/production/modules/mediawiki/templates/apache/sites/wwwportals.conf.erb
+ *
  * @return {Stream}
  */
 function createProdSymlink() {

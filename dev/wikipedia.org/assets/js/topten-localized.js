@@ -72,14 +72,14 @@
 	}
 
 	/**
-	* Merges the preferred language codes {@link #preferredLanguages} with the
-	* existing top ten languages {@link #topLinkLangs}.
-	* - If a preferred language exists in the top ten, it is moved to the top of the array.
-	* - If a preferred language doesn't exist, it is added to the array and the last language
-	* is removed.
-	*
-	* Manipulates the {@link #topLinkLangs} array.
-	*/
+	 * Merges the preferred language codes {@link #preferredLanguages} with the
+	 * existing top ten languages {@link #topLinkLangs}.
+	 * - If a preferred language exists in the top ten, it is moved to the top of the array.
+	 * - If a preferred language doesn't exist, it is added to the array and the last language
+	 * is removed.
+	 *
+	 * Manipulates the {@link #topLinkLangs} array.
+	 */
 	function mergeNewTopLinkLangs() {
 		var pl, plIndex, plExists, plRightSpot;
 		for ( i = 0; i < preferredLanguages.length; i++ ) {
@@ -237,11 +237,11 @@
 	}
 
 	/**
-	* Reorganizes the DOM order of top links based on the {@link #topLinkLangs} array.
-	* If a preferred language in `topLinkLangs` does not exist in
-	* the top ten, then the last node in the top ten is manipulated
-	* to contain the new language.
-	*/
+	 * Reorganizes the DOM order of top links based on the {@link #topLinkLangs} array.
+	 * If a preferred language in `topLinkLangs` does not exist in
+	 * the top ten, then the last node in the top ten is manipulated
+	 * to contain the new language.
+	 */
 	function organizeTopLinks() {
 		var topLinks,
 			topLinkLang,

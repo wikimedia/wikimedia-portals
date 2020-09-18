@@ -172,6 +172,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 
 		/**
 		 * The one in x population.
+		 *
 		 * @type {int}
 		 */
 		populationSize: bucketParams.popSize,

@@ -21,6 +21,7 @@
 
 	/**
 	 * Helper function to safely parse JSON an return empty string on error.
+	 *
 	 * @param {JSON} json
 	 * @return {JSON}
 	 */
@@ -49,6 +50,7 @@
 
 	/**
 	 * Saves translation to localstorage
+	 *
 	 * @param {string} lang language code that acts as the key to the translation.
 	 * @param {Object} translation translation data.
 	 *
