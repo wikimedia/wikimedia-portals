@@ -16,7 +16,7 @@
 
 	var baseUrl = '/beacon/event',
 		byteToHex = [],
-		self, helpers, i;
+		self, helpers;
 
 	helpers = {
 		// Replaces $.extend
@@ -41,12 +41,15 @@
 		}
 	};
 
-	// Byte to hex from
-	// https://github.com/wikimedia/mediawiki/blob/e87668e86ce9ad20df05c1baa8e7cf3f58900524/resources/src/mediawiki/mediawiki.user.js
-	for ( i = 0; i < 256; i++ ) {
-		// Padding: Add a full byte (0x100, 256) and strip the extra character
-		byteToHex[ i ] = ( i + 256 ).toString( 16 ).slice( 1 );
-	}
+	( function () {
+		var i;
+		// Byte to hex from
+		// https://github.com/wikimedia/mediawiki/blob/e87668e86ce9ad20df05c1baa8e7cf3f58900524/resources/src/mediawiki/mediawiki.user.js
+		for ( i = 0; i < 256; i++ ) {
+			// Padding: Add a full byte (0x100, 256) and strip the extra character
+			byteToHex[ i ] = ( i + 256 ).toString( 16 ).slice( 1 );
+		}
+	}() );
 
 	self = window.eventLoggingLite = {
 

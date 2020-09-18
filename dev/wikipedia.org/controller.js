@@ -74,9 +74,10 @@ function getPreloadLinks() {
 
 /**
  * Writing stats to translation files
+ *
+ * @return {string}
  */
-
-function createTranslationsChecksum( siteStats ) {
+function createTranslationsChecksum() {
 	var data = JSON.stringify( siteStats ),
 		hash = crypto.createHash( 'md5' ).update( data ).digest( 'hex' );
 
@@ -85,17 +86,17 @@ function createTranslationsChecksum( siteStats ) {
 	return hash;
 }
 
-function createTranslationFiles( translationPath, siteStats, cachebuster ) {
+function createTranslationFiles() {
 	var fileName, lang;
 
-	function writeFile( el, lang ) {
+	function writeFile( el, langCode ) {
 		var fileContent;
 
 		if ( el.code ) {
-			lang = el.code;
+			langCode = el.code;
 		}
 
-		fileName = translationPath + lang + '-' + cachebuster + '.json';
+		fileName = translationPath + langCode + '-' + cachebuster + '.json';
 		fileContent = JSON.stringify( el );
 
 		fs.writeFileSync( fileName, fileContent );
@@ -110,15 +111,14 @@ function createTranslationFiles( translationPath, siteStats, cachebuster ) {
 	}
 }
 
-cachebuster = createTranslationsChecksum( siteStats );
+cachebuster = createTranslationsChecksum();
 
 if ( fs.existsSync( translationPath ) ) {
 	exec( 'find ' + translationPath + ' -mindepth 1 -delete' );
-	createTranslationFiles( translationPath, siteStats, cachebuster );
 } else {
 	fs.mkdirSync( translationPath );
-	createTranslationFiles( translationPath, siteStats, cachebuster );
 }
+createTranslationFiles();
 
 Controller = {
 	top10views: stats.getTopFormatted( 'wiki', 'views', 10 ),

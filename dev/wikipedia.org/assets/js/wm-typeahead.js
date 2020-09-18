@@ -226,12 +226,12 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 * Used inside the generateTemplateString function.
 	 *
 	 * @param {string} title - The title of the search suggestion.
-	 * @param {string} searchString - The string to highlight.
+	 * @param {string} search - The string to highlight.
 	 * @return {string} The title with highlighted part in an <em> tag.
 	 */
-	function highlightTitle( title, searchString ) {
+	function highlightTitle( title, search ) {
 
-		var sanitizedSearchString = mw.html.escape( mw.RegExp.escape( searchString ) ),
+		var sanitizedSearchString = mw.html.escape( mw.RegExp.escape( search ) ),
 			searchRegex = new RegExp( sanitizedSearchString, 'i' ),
 			startHighlightIndex = title.search( searchRegex ),
 			formattedTitle = mw.html.escape( title ),

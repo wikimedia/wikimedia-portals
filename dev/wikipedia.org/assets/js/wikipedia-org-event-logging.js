@@ -11,7 +11,7 @@
 		// E.g., with an adblocker enabled: "GeoIP=US:::38.00:-97.00:v4; CP=H2".
 		geoCookieState = document.cookie.match( /GeoIP=.[^:].{2}[^:]/ ),
 		country,
-		i;
+		n;
 
 	if ( wmTest.group === 'rejected' || wmTest.loggingDisabled ) {
 		return;
@@ -97,10 +97,9 @@
 	 * a DOM element. Returns the name of the section.
 	 *
 	 * @param {HTMLElement} clickNode The DOM element.
-	 * @param {Array} eventSections List of objects describing the DOM sections.
 	 * @return {string} The name of the section the contains the clickNode.
 	 */
-	function findEventSection( clickNode, eventSections ) {
+	function findEventSection( clickNode ) {
 
 		var eventSection = {},
 			i, j, nodes;
@@ -172,7 +171,7 @@
 			eventData = {
 				event_type: 'clickthrough',
 				destination: anchor.href,
-				section_used: findEventSection( anchor, eventSections )
+				section_used: findEventSection( anchor )
 			};
 
 			if ( eventData.section_used === 'search' ) {
@@ -227,7 +226,7 @@
 		if ( eventData === null ) {
 			eventData = {
 				event_type: 'clickthrough',
-				section_used: findEventSection( target, eventSections ),
+				section_used: findEventSection( target ),
 				destination: target.action
 			};
 		}
@@ -249,8 +248,8 @@
 
 	docForms = document.getElementsByTagName( 'form' );
 
-	for ( i = 0; i < docForms.length; i++ ) {
-		addEvent( docForms[ i ], 'submit', interceptForm );
+	for ( n = 0; n < docForms.length; n++ ) {
+		addEvent( docForms[ n ], 'submit', interceptForm );
 	}
 
 	/**

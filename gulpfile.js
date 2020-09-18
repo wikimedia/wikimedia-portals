@@ -19,6 +19,10 @@ var gulp = require( 'gulp' ),
 	portalParam = argv.portal,
 	getBaseDir, getProdDir, getConfig;
 
+/**
+ * @external Stream
+ */
+
 // Help
 gulp.task( 'help', function () {
 	console.log();
@@ -273,9 +277,9 @@ function lintJS() {
 		devFolder = 'dev/' + portalParam + '/**/*.js';
 	}
 	return gulp.src( [ '*.js', devFolder ] )
-		.pipe( plugins.eslint() )
-		.pipe( plugins.eslint.format() )
-		.pipe( plugins.eslint.failAfterError() );
+		.pipe( plugins.eslint7() )
+		.pipe( plugins.eslint7.format() )
+		.pipe( plugins.eslint7.failAfterError() );
 }
 gulp.task( 'lint-js', lintJS );
 
@@ -330,12 +334,12 @@ function fetchMeta() {
 		portalsFromMeta = [ 'wikibooks.org', 'wikimedia.org', 'wikinews.org', 'wikiquote.org', 'wikiversity.org', 'wikivoyage.org', 'wiktionary.org' ];
 
 		portalsFromMeta.forEach( function ( wiki ) {
-			var portalRequest = preq.get( 'https://meta.wikimedia.org/w/index.php?title=Www.' + wiki + '_template&action=raw' )
+			var request = preq.get( 'https://meta.wikimedia.org/w/index.php?title=Www.' + wiki + '_template&action=raw' )
 				.then( function ( response ) {
 					fs.mkdirSync( 'prod/' + wiki, { recursive: true } );
 					return fs.writeFileSync( 'prod/' + wiki + '/index.html', response.body, 'utf8' );
 				} );
-			portalRequests.push( portalRequest );
+			portalRequests.push( request );
 		} );
 	} else {
 		portalRequest = preq.get( 'https://meta.wikimedia.org/w/index.php?title=Www.' + portalParam + '_template&action=raw' )
@@ -514,7 +518,7 @@ function updateURLsToPurge() {
 		return addAssetUrl( assetUrl );
 	}
 
-	function writePurgeFile( UrlsToPurge ) {
+	function writePurgeFile() {
 		var fileContents = UrlsToPurge.join( '\n' );
 		fs.writeFileSync( purgeFile, fileContents );
 	}
@@ -523,7 +527,7 @@ function updateURLsToPurge() {
 		.pipe( gulpSlash() ) // Because windows slashes are '\' instead of '/'
 		.pipe( plugins.tap( assetFilesStream ) )
 		.on( 'end', function () {
-			writePurgeFile( UrlsToPurge );
+			writePurgeFile();
 		} );
 }
 /**

@@ -73,32 +73,32 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 	 */
 	function getTestGroup() {
 
-		var group = 'rejected';
+		var grp = 'rejected';
 		// 1:populationSize of the people are tested (baseline)
 		if ( oneIn( bucketParams.popSize ) ) {
-			group = 'baseline';
+			grp = 'baseline';
 
 			if ( bucketParams.testGroups && bucketParams.testGroups.test && oneIn( 10 ) ) {
 				if ( oneIn( 2 ) ) {
-					group = bucketParams.testGroups.test;
+					grp = bucketParams.testGroups.test;
 				} else {
-					group = bucketParams.testGroups.control;
+					grp = bucketParams.testGroups.control;
 				}
 			}
 		}
 
-		return group;
+		return grp;
 	}
 
 	/**
 	 * Returns a locally stored session ID or generates a new one.
 	 * Returns false if browser doesn't support local storage.
 	 *
-	 * @return {boolean}
+	 * @return {string|boolean}
 	 */
 	function getSessionId() {
 
-		var sessionId = false,
+		var id = false,
 			storedSessionId,
 			expires,
 			now;
@@ -111,18 +111,18 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 
 			// Return storedSessionId if not expired
 			if ( storedSessionId && expires > parseInt( now, 10 ) ) {
-				sessionId = storedSessionId;
+				id = storedSessionId;
 			} else {
 				// Or create new sessionID
-				sessionId = eventLoggingLite.generateRandomSessionId();
-				mw.storage.set( KEYS.SESSION_ID, sessionId );
+				id = eventLoggingLite.generateRandomSessionId();
+				mw.storage.set( KEYS.SESSION_ID, id );
 			}
 
 			// Set or extend sessionId for 15 more minutes
 			mw.storage.set( KEYS.EXPIRES, now + bucketParams.sessionLength );
 
 		}
-		return sessionId;
+		return id;
 	}
 
 	testOnly = location.hash.slice( 1 ) === bucketParams.testGroups.test;
@@ -173,7 +173,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		/**
 		 * The one in x population.
 		 *
-		 * @type {int}
+		 * @type {number}
 		 */
 		populationSize: bucketParams.popSize,
 

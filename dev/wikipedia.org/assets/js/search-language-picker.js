@@ -47,18 +47,18 @@
 		 * @return {HTMLElement}
 		 */
 		function createJSLangLabel() {
-			var langLabel = document.createElement( 'label' );
-			langLabel.setAttribute( 'for', 'searchLanguage' );
-			langLabel.setAttribute( 'id', 'jsLangLabel' );
-			langLabel.className = 'js-langpicker-label';
-			langLabel.innerText = select.value;
-			langLabel.textContent = select.value;
+			var label = document.createElement( 'label' );
+			label.setAttribute( 'for', 'searchLanguage' );
+			label.setAttribute( 'id', 'jsLangLabel' );
+			label.className = 'js-langpicker-label';
+			label.innerText = select.value;
+			label.textContent = select.value;
 
 			select.parentNode.parentNode.className = ' styled-select js-enabled';
 			adjustInputPadding( select.value );
-			select.parentNode.insertBefore( langLabel, select );
+			select.parentNode.insertBefore( label, select );
 
-			return langLabel;
+			return label;
 		}
 
 		langLabel = createJSLangLabel();
