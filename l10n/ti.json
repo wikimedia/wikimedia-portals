@@ -7,23 +7,23 @@
 	"language-name": "ትግርኛ",
 	"language-name-romanized": "Təgərəña",
 	"language-name-romanized-sorted": "Təgərəña",
-	"language-button-text": "ዊኪፔዲያ ብቋንቋካ ኣንብብ",
+	"language-button-text": "ዊኪፐድያ ኣብ ቋንቋኻ ኣንብብ",
 	"app-links": {
-		"title": "ዊኪፔዲያ ንAndroid ወይ iOS ኣውርድ",
+		"title": "ዊኪፐድያ ንAndroid ወይ iOS ኣውርድ",
 		"url": "https://ti.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"terms": "ናይ ኣጠቓቕማ ኩነታት",
 	"Privacy Policy": "ናይ ስትረት ሕጊ",
 	"search-input-button": "ምድላይ",
-	"search-input-label": "ኣብ ውሽጢ ዊኪፔዲያ ድለይ",
+	"search-input-label": "ኣብ ውሽጢ ዊኪፐድያ ድለይ",
 	"wiki": {
-		"name": "ዊኪፔዲያ",
-		"slogan": "ናጻዊ መዝገበ ፍልጠት",
+		"name": "ዊኪፐድያ",
+		"slogan": "ናጻ መዝገበ ፍልጠት",
 		"entries": "ጽሑፋት"
 	},
 	"wiktionary": {
 		"name": "ዊኪ-መዝገበ-ቃላት",
-		"slogan": "ናጻዊ መዝገበ-ቃላት"
+		"slogan": "ናጻ መዝገበ-ቃላት"
 	},
 	"wikibooks": {
 		"name": "ዊኪመጻሕፍቲ",
@@ -35,20 +35,20 @@
 	},
 	"wikiquote": {
 		"name": "ዊኪኰውት",
-		"slogan": "ናጻዊ ዝጥቕሲ ጽሑፍ",
+		"slogan": "ናጻ ዝጥቕሲ ጽሑፍ",
 		"entries": "ጽሑፋት"
 	},
 	"wikisource": {
 		"name": "ዊኪሶርስ",
-		"slogan": "ናጻዊ ቤተ-መጻሕፍቲ"
+		"slogan": "ናጻ ቤተ-መጻሕፍቲ"
 	},
 	"wikiversity": {
 		"name": "ዊኪቨርሲቲ",
-		"slogan": "ናጻዊ ትምህርታዊ ንዋት"
+		"slogan": "ናጻ ትምህርታዊ ንዋት"
 	},
 	"wikivoyage": {
 		"name": "ዊኪጉዕዞታት",
-		"slogan": "ናጻዊ ጉዕዞ መምርሒ"
+		"slogan": "ናጻ ጉዕዞ መምርሒ"
 	},
 	"commons": {
 		"name": "ኮምሞንስ"
@@ -57,7 +57,7 @@
 		"name": "ዊኪዳታ"
 	},
 	"mediawiki": {
-		"name": "ሜዲያዊኪ"
+		"name": "ሜድያዊኪ"
 	},
 	"metawiki": {
 		"name": "ሜታ-ዊኪ"
