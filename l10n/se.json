@@ -2,11 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Jandre3000",
-			"Jon Harald Søby (WMNO)"
+			"Jon Harald Søby (WMNO)",
+			"Yupik"
 		]
 	},
 	"language-name": "Davvisámegiella",
 	"language-name-romanized-sorted": "Davvisamegiella",
+	"terms": "Geavahaneavttut",
+	"Privacy Policy": "Diehtosuodjalanvuohki",
+	"search-input-button": "Oza",
+	"search-input-label": "Oza Wikipedias",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Almmolaš diehtosátnegirji"
@@ -17,7 +22,8 @@
 	},
 	"wikibooks": {
 		"name": "Wikigirjjit",
-		"slogan": "Friddjat oahppogirjjit"
+		"slogan": "Friddjat oahppogirjjit",
+		"entries": "siiddut"
 	},
 	"wikinews": {
 		"name": "Wikiođđasat",

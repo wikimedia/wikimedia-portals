@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Arifin.wijaya",
+			"Daud I.F. Argana",
 			"Gombang",
 			"J Nia30"
 		]
@@ -11,7 +12,8 @@
 	"language-button-text": "Baca Wikipedia dalam bahasa Anda",
 	"footer-description": "Wikipedia dioperasikan oleh Wikimedia Foundation, sebuah organisasi nirlaba yang juga mengoperasikan berbagai proyek lainnya.",
 	"app-links": {
-		"title": "App Wikipedia sekarang tersedia:"
+		"title": "Unduh Wikipedia untuk Android atau iOS",
+		"description": "Simpan artikel favorit Anda untuk membacanya secara luring, sinkronkan daftar bacaan Anda di berbagai gawai dan ubah suaikan pengalaman membaca Anda dengan aplikasi Wikipedia resmi."
 	},
 	"license": "Halaman ini tersedia dalam <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Ketentuan Penggunaan",

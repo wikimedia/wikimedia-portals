@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Obonggi"
+			"Obonggi",
+			"OmniBus"
 		]
 	},
+	"terms": "使用條款",
+	"Privacy Policy": "私隱政策",
 	"wiki": {
 		"name": "維基百科",
 		"slogan": "自由嘅百科全書",
@@ -35,5 +38,8 @@
 	"wikivoyage": {
 		"name": "維基遊埠",
 		"slogan": "免費旅行指南"
+	},
+	"wikidata": {
+		"name": "維基數據"
 	}
 }
