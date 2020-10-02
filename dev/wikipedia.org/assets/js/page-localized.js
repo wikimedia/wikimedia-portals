@@ -46,7 +46,7 @@
 	}
 
 	storedTranslationHash = isValidHash();
-	storedTranslations = ( storedTranslationHash ) ? safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {} : {};
+	storedTranslations = storedTranslationHash ? safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {} : {};
 
 	/**
 	 * Saves translation to localstorage
@@ -57,10 +57,10 @@
 	 * @return {undefined}
 	 */
 	function saveTranslation( lang, translation ) {
-		var storedTranslations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
+		var translations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
 
-		storedTranslations[ lang ] = translation;
-		mw.storage.set( 'storedTranslations', JSON.stringify( storedTranslations ) );
+		translations[ lang ] = translation;
+		mw.storage.set( 'storedTranslations', JSON.stringify( translations ) );
 	}
 
 	/**
@@ -88,9 +88,9 @@
 	 * Takes the translation data object and replaces corresponding
 	 * DOM element textContent with translation values.
 	 *
-	 * @param {Object} l10nInfo Object containing translation data.
+	 * @param {Object} info Object containing translation data.
 	 */
-	function replacel10nText( l10nInfo ) {
+	function replacel10nText( info ) {
 		var domEls = document.querySelectorAll( '.jsl10n' ),
 			validAnchor = new RegExp( /<a[^>]*>([^<]+)<\/a>/ ),
 			i, domEl, l10nAttr, textValue, termsHref, privacyHref;
@@ -99,7 +99,7 @@
 
 			domEl = domEls[ i ];
 			l10nAttr = domEl.getAttribute( 'data-jsl10n' );
-			textValue = getProp( l10nInfo, l10nAttr );
+			textValue = getProp( info, l10nAttr );
 
 			if ( typeof textValue === 'string' && textValue.length > 0 ) {
 				switch ( l10nAttr ) {
@@ -115,14 +115,14 @@
 						break;
 					case 'terms':
 						domEl.firstChild.textContent = textValue;
-						termsHref = getProp( l10nInfo, 'terms-link' );
+						termsHref = getProp( info, 'terms-link' );
 						if ( termsHref ) {
 							domEl.firstChild.setAttribute( 'href', termsHref );
 						}
 						break;
 					case 'Privacy Policy':
 						domEl.firstChild.textContent = textValue;
-						privacyHref = getProp( l10nInfo, 'privacy-policy-link' );
+						privacyHref = getProp( info, 'privacy-policy-link' );
 						if ( privacyHref ) {
 							domEl.firstChild.setAttribute( 'href', privacyHref );
 						}

@@ -13,7 +13,7 @@
 ( function ( mw, wmTest ) {
 
 	var preferredLanguages = wmTest.userLangs,
-		i, topLinks = document.querySelectorAll( '.central-featured-lang' ),
+		topLinks = document.querySelectorAll( '.central-featured-lang' ),
 		topLinksContainer = document.querySelector( '.central-featured' ),
 		topLinkLangs,
 		storedTranslationHash = mw.storage.get( 'translationHash' ),
@@ -44,7 +44,7 @@
 	 * @return {Array} List of top link languages.
 	 */
 	function getTopLinkLangs( topLinks ) {
-		var topLinkLangs = [ ],
+		var topLinkLangs = [],
 			topLinkLang,
 			i;
 
@@ -81,7 +81,7 @@
 	 * Manipulates the {@link #topLinkLangs} array.
 	 */
 	function mergeNewTopLinkLangs() {
-		var pl, plIndex, plExists, plRightSpot;
+		var i, pl, plIndex, plExists, plRightSpot;
 		for ( i = 0; i < preferredLanguages.length; i++ ) {
 			pl = preferredLanguages[ i ];
 			plIndex = topLinkLangs.indexOf( pl );
@@ -243,7 +243,7 @@
 	 * to contain the new language.
 	 */
 	function organizeTopLinks() {
-		var topLinks,
+		var i, topLinks,
 			topLinkLang,
 			topLinkNode,
 			topLinkNodeIndex,
