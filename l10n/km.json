@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
+			"Pokno Royal",
 			"Y.snsqr",
 			"គីមស៊្រុន"
 		]
@@ -12,13 +13,16 @@
 	"language-button-text": "អានវិគីភីឌាជាភាសារបស់អ្នក",
 	"footer-description": "វិគីភីឌាត្រូវបានដំណើរការដោយមូលនិធិវិគីមេឌា ដែលជាអង្គការមិនយកប្រាក់ចំណេញ និងកំពុងដំណើរការគម្រោងមួយចំនួនផ្សេងទៀតដែរ។",
 	"app-links": {
-		"title": "កម្មវិធីវិគីភីឌាអាចប្រើបានឥឡូវ៖"
+		"title": "ទាញយកកម្មវិធីវិគីភីឌាសម្រាប់ Android ឬ iOS",
+		"description": "រក្សាទុកអត្ថបទដែលអ្នកពេញចិត្ត ដើម្បីអាននៅក្រៅបណ្ដាញ សមកាលបញ្ជីអានរបស់អ្នកឆ្លងឧបករណ៍ និងផ្លាស់ប្ដូរបទពិសោធន៍ការអានរបស់អ្នកជាមួយកម្មវិធី វិគីភីឌាផ្លូវការ។"
 	},
 	"license": "ទំព័រនេះត្រូវបានផ្ដល់ជូនក្រោមអាជ្ញាប័ណ្ណ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "លក្ខខណ្ឌប្រើប្រាស់",
 	"Privacy Policy": "គោលការណ៍នៃ​ភាពឯកជន",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/km",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/km",
+	"search-input-button": "ស្វែងរក",
+	"search-input-label": "ស្វែងរក វិគីភីឌា",
 	"wiki": {
 		"name": "វិគីភីឌៀ",
 		"slogan": "សព្វវចនាធិប្បាយសេរី",
