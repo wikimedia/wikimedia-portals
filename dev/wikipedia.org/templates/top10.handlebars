@@ -12,7 +12,7 @@
            title="{{#if latin}}{{latin}}{{else}}{{name}}{{/if}} — {{siteName}} — {{slogan}}"
            class="link-box"{{printAttrs 'linkBoxAttrs'}}
            data-slogan="{{slogan}}">
-            <strong>{{name}}</strong>
+            <strong>{{{name}}}</strong>
             {{#if articlesAttrs}}
                 <small><bdi dir="ltr">{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+</bdi> <span{{printAttrs 'articlesAttrs'}}>{{entries}}</span></small>
             {{else}}
