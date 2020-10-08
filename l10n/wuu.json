@@ -1,10 +1,13 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Qiyue2001"
+		]
 	},
 	"language-name": "吳語",
 	"language-name-romanized": "Wú Yǔ",
 	"language-name-romanized-sorted": "Wu Yu",
+	"search-input-label": "搜索维基百科",
 	"wiki": {
 		"name": "维基百科"
 	}
