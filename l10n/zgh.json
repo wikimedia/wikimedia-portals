@@ -14,7 +14,7 @@
 		"description": "ⴰⵔⵉ ⵉⵎⴳⵔⴰⴷⵏ ⵏⴽ ⵢⵓⴼⵏ ⵃⵎⴰ ⴰⴷ ⵜⵏ ⵜⵖⵔⴷ ⵎⵉⵏ ⴰⵏⵜⵉⵔⵏⵉⵜ, ⵎⵢⴰⴽⵓⴷ ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵜⵖⵔⵉ ⵏⴽ ⵏⴳⵔ ⵡⴰⵍⵍⴰⵍⵏ ⵜⵙⵏⴼⵍⴷ ⵜⵓⵔⵉⵎⵜ ⵏ ⵜⵖⵔⵉ ⵏⴽ ⴷ ⵜⵙⵏⵙⵉ ⵜⵓⵏⵚⵉⴱⵜ ⵏ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ.",
 		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
-	"license": "ⵜⴰⵙⵏⴰ ⴰⴷ ⵜⵍⵍⴰ ⴷⴷⴰⵡ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>ⵜⵓⵔⴰⴳⵜ ⵏ Creative Commons Attribution-ShareAlike</a>",
+	"license": "ⵜⵍⵍⴰ ⵜⴰⵙⵏⴰ ⴰⴷ ⴷⴷⴰⵡ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>ⵜⵓⵔⴰⴳⵜ ⵏ Creative Commons Attribution-ShareAlike</a>",
 	"terms": "ⵜⵉⴼⴰⴷⵉⵡⵉⵏ ⵏ ⵓⵙⵎⵔⵙ",
 	"Privacy Policy": "ⵜⴰⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ",
 	"search-input-button": "ⵔⵣⵓ",
@@ -40,7 +40,7 @@
 		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
 	},
 	"wikiquote": {
-		"name": "ⵡⵉⴽⵉ ⴰⴱⴷⴰⵔ",
+		"name": "ⵡⵉⴽⵉⴱⴷⴰⵔ",
 		"slogan": "ⵜⴰⴷⵍⴰ ⵏ ⵉⴱⴷⴰⵔⵏ ⵉⵍⴻⵍⵍⵉⵏ",
 		"entries": "ⵉⵎⴳⵔⴰⴷⵏ"
 	},
@@ -70,7 +70,7 @@
 		"slogan": "ⵜⴰⵙⵉⵍⴰ ⵏ ⵜⵓⵙⵙⵏⵉⵡⵉⵏ ⵉⵍⴻⵍⵍⵉⵏ"
 	},
 	"mediawiki": {
-		"name": "MediaWiki",
+		"name": "ⵡⵉⴽⵉⵎⵉⴷⵢⴰ",
 		"slogan": "ⵜⵉⵙⵏⵙⵉ ⵏ ⵡⵉⴽⵉ ⵉⵍⴻⵍⵍⵉⵏ ⴷ ⵉⵕⵥⵎⵏ"
 	},
 	"metawiki": {
