@@ -7,6 +7,9 @@
 			"ⵕⴰⵊⵉ"
 		]
 	},
+	"language-name": "ⵜⴰⵎⴰⵣⵉⵖⵜ ⵜⴰⵏⴰⵡⴰⵢⵜ",
+	"language-name-romanized": "Tamazight tanawayt",
+	"language-name-romanized-sorted": "Tamazight tanawayt",
 	"language-button-text": "ⵖⵕ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ ⵙ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⴽ",
 	"footer-description": "ⵡⵉⴽⵉⴱⵉⴷⵢⴰ ⵜⵜⵡⴰⵙⵣⴷⵖ ⵙ ⵜⵎⵔⵙⵍⵜ ⵏ ⵡⵉⴽⵉⵎⵉⴷⵢⴰ, ⵢⴰⵏ ⵓⵏⴳⵎⴰⵎ ⵡⴰⵔ ⵚⴰⵃⴰ ⵍⵍⵉ ⵉⵙⵙⵣⴷⵖⵏ ⵓⵍⴰ ⵎⵏⵏⴰⵡ ⵉⵙⵏⴼⴰⵔⵏ ⵏⵏⵉⴹⵏⵉ.",
 	"app-links": {
@@ -17,6 +20,8 @@
 	"license": "ⵜⵍⵍⴰ ⵜⴰⵙⵏⴰ ⴰⴷ ⴷⴷⴰⵡ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>ⵜⵓⵔⴰⴳⵜ ⵏ Creative Commons Attribution-ShareAlike</a>",
 	"terms": "ⵜⵉⴼⴰⴷⵉⵡⵉⵏ ⵏ ⵓⵙⵎⵔⵙ",
 	"Privacy Policy": "ⵜⴰⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"search-input-button": "ⵔⵣⵓ",
 	"search-input-label": "ⵔⵣⵓ ⴳ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ",
 	"wiki": {
