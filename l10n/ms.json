@@ -1,9 +1,14 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"MuratTheTurkish"
+		]
 	},
 	"language-name": "Bahasa Melayu",
 	"language-name-romanized-sorted": "Melayu, Bahasa",
+	"app-links": {
+		"url": "https://ms.wikipedia.org/wiki/Senarai_aplikasi_mu_ah_alih_Wikipedia"
+	},
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Ensiklopedia Bebas"
