@@ -1,37 +1,49 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amara-Amaziɣ"
+			"Amara-Amaziɣ",
+			"Ayour2002"
 		]
 	},
-	"Privacy Policy": "ⵜⴰⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ",
+	"language-button-text": "Ɣr Wikipidtya s tutlayt nnk",
+	"Privacy Policy": "Tasrit n tinnutla",
+	"search-input-button": "Siggl",
+	"search-input-label": "Siggl ɣ Wikipidya",
 	"wiki": {
-		"name": "ⵡⵉⴽⵉⴱⵉⴷⵢⴰ",
-		"entries": "ⴰⵔⵜⵉⴽⵍⵏ"
+		"name": "Wikipidya",
+		"slogan": "Tasanayt Tilellit",
+		"entries": "Imgradn"
 	},
 	"wiktionary": {
-		"name": "ⵡⵉⴽⵉⵎⴰⵡⴰⵍ",
-		"slogan": "ⴰⵎⴰⵡⴰⵍ ⵉⵍⴻⵍⵍⵉ",
-		"entries": "ⵜⵓⴷⵉⴼⵉⵏ"
+		"name": "Wikimawal",
+		"slogan": "Amawal ilelli",
+		"entries": "Imgradn"
 	},
 	"wikibooks": {
-		"name": "ⵡⵉⴽⵉⴷⵍⵉⵙⵏ",
-		"entries": "ⵜⴰⵙⵏⵉⵡⵉⵏ"
+		"name": "Wikidlisn",
+		"slogan": "Idlisn n fabur",
+		"entries": "Tasniwin"
 	},
 	"wikinews": {
-		"name": "ⵡⵉⴽⵉⵏⵖⵎⵉⵙⵏ",
-		"entries": "ⴰⵔⵜⵉⴽⵍⵏ"
+		"name": "Wikinɣmisn",
+		"entries": "Imgradn"
 	},
 	"wikiquote": {
-		"entries": "ⴰⵔⵜⵉⴽⵍⵏ"
+		"entries": "Imgradn"
+	},
+	"wikisource": {
+		"name": "Wikiɣbalu"
 	},
 	"wikiversity": {
-		"entries": "ⵉⵙⵓⴳⴰⵎ ⵏ ⵓⵍⵎⵎⵓⴷ"
+		"entries": "Isugam n ulmmud"
+	},
+	"wikivoyage": {
+		"name": "Wikimuddu"
 	},
 	"wikidata": {
-		"name": "ⵡⵉⴽⵉⵙⴼⴽⴰ"
+		"name": "Wikisfka"
 	},
 	"mediawiki": {
-		"name": "ⵎⵉⴷⵢⴰⵡⵉⴽⵉ"
+		"name": "Midyawiki"
 	}
 }
