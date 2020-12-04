@@ -38,11 +38,7 @@
 
 	bannerLinkEl.href = 'https://donate.wikimedia.org/?utm_medium=portal&utm_campaign=portalBanner';
 	bannerLinkEl.href += '&uselang=en';
-	if ( Math.random() >= 0.5 ) {
-		bannerLinkEl.href += '&utm_source=portalBanner_en6C_2020a_dwk_logoWikipedia&addStyle=add_logoWikipedia1';
-	} else {
-		bannerLinkEl.href += '&utm_source=portalBanner_en6C_2020a_dwk_control&addStyle=add_logoWMF';
-	}
+	bannerLinkEl.href += '&utm_source=' + bannerEl.id;
 	bannerLinkEl.target = '_blank';
 
 	if ( bannerAmounts[ country ] ) {
