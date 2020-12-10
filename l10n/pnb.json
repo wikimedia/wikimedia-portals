@@ -10,6 +10,8 @@
 	"language-button-text": "اپنی بولی وچ ویکیپیڈیا پڑھو",
 	"terms": "ورتن شرطاں",
 	"Privacy Policy": "پرائیویسی پالیسی",
+	"search-input-button": "کھوج",
+	"search-input-label": "وکیپیڈیا کھوجو",
 	"wiki": {
 		"name": "وکیپیڈیا",
 		"slogan": "مفت انسائیکلوپیڈیا",
@@ -35,15 +37,29 @@
 		"entries": "لیکھ"
 	},
 	"wikisource": {
+		"name": "وکی زریعے",
 		"slogan": "مفت لائبریری"
 	},
+	"wikiversity": {
+		"name": "وکی ورسٹی"
+	},
 	"wikivoyage": {
+		"name": "وکی سفر",
 		"slogan": "مفت ٹریول گائیڈ"
 	},
 	"commons": {
 		"name": "کامنز"
 	},
+	"wikispecies": {
+		"name": "وکی انواح"
+	},
 	"wikidata": {
 		"name": "ویکی ڈیٹا"
+	},
+	"mediawiki": {
+		"name": "میڈیا وکی"
+	},
+	"metawiki": {
+		"name": "میٹا-وکی"
 	}
 }

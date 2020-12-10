@@ -1,0 +1,61 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kambai Akau"
+		]
+	},
+	"language-button-text": "Fang Wikipidya da̠ a̠lyem ang ka",
+	"footer-description": "Wikipidya yet a̠kpa̠p A̠tyin Wikimidya kya, sot nta̠m nang á̠ ku nkhwuk di̠ mi̠n cat kpangti̠n zang kya ma nkyiak a̠kpa̠p á̠ghyang nta̠m ma̠ a̠di̠di̠t.",
+	"app-links": {
+		"title": "Cyok ma̠ng Wikimidya mat Android ke iOS"
+	},
+	"search-input-button": "Zop",
+	"search-input-label": "Zop Wikipidya",
+	"wiki": {
+		"name": "Wikipidya",
+		"slogan": "A̠sa̠t Wikipidya wu",
+		"entries": "a̠yaati̠kut"
+	},
+	"wiktionary": {
+		"name": "Wikshyonari",
+		"entries": "nwuai"
+	},
+	"wikibooks": {
+		"name": "Wikibooks"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "A̠ni̠nan a̠sa̠t nkhang",
+		"entries": "a̠yaati̠kut"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"entries": "a̠yaati̠kut"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "A̠sa̠t tutu nkwambwat"
+	},
+	"wikiversity": {
+		"name": "Wikivasti",
+		"entries": "nkyang myiam"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikispecies": {
+		"name": "Wkispecies"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
+	}
+}
