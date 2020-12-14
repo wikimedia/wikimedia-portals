@@ -1,0 +1,53 @@
+{
+	"@metadata": {
+		"authors": [
+			"Seipinne"
+		]
+	},
+	"app-links": {
+		"title": "Luođii Wikipedia Anroidin teikâ iOS:n"
+	},
+	"terms": "Kevttimiävtuh",
+	"search-input-button": "Uusâ",
+	"search-input-label": "Uusâ Wikipediast",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Rijjâ tiätusänikirje"
+	},
+	"wiktionary": {
+		"name": "Wikisänikirje",
+		"slogan": "Rijjâ sänikirje"
+	},
+	"wikibooks": {
+		"name": "Wikikirjeh",
+		"entries": "sijđoh"
+	},
+	"wikinews": {
+		"name": "Wikiuđđâseh"
+	},
+	"wikiquote": {
+		"name": "Wikisitaateh"
+	},
+	"wikisource": {
+		"name": "Wikikäldee",
+		"slogan": "Rijjâ kirjerááju"
+	},
+	"wikiversity": {
+		"name": "Wikiollâopâttâh"
+	},
+	"wikivoyage": {
+		"name": "Wikimääđhih"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
+	}
+}
