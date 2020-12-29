@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Alefar",
 			"Bjh21",
 			"Chase me ladies, I'm the Cavalry",
 			"KATMAKROFAN"
@@ -11,42 +12,63 @@
 	"app-links": {
 		"title": "Download Wikipedia for Android or iOS"
 	},
+	"terms": "Terms of Use",
+	"Privacy Policy": "Privacy Policy",
+	"search-input-button": "Search",
+	"search-input-label": "Search Wikipedia",
 	"wiki": {
 		"name": "Wikipædia",
 		"slogan": "The Free Encyclopædia",
 		"entries": "articles"
 	},
 	"wiktionary": {
-		"name": "Wiktionary",
+		"name": "Wiktionary:",
 		"slogan": "Free dictionary",
 		"entries": "entries"
 	},
 	"wikibooks": {
-		"name": "Wikibooks",
+		"name": "Wikibooks:",
 		"slogan": "Free textbooks",
 		"entries": "pages"
 	},
 	"wikinews": {
-		"name": "Wikinews",
+		"name": "Wikinews:",
 		"slogan": "Free news source",
 		"entries": "articles"
 	},
 	"wikiquote": {
-		"name": "Wikiquote",
+		"name": "Wikiquote:",
 		"slogan": "Free quote compendium",
 		"entries": "articles"
 	},
 	"wikisource": {
-		"name": "Wikisource",
+		"name": "Wikisource:",
 		"slogan": "Free library"
 	},
 	"wikiversity": {
-		"name": "Wikiversity",
+		"name": "Wikiversity:",
 		"slogan": "Free course materials",
 		"entries": "learning resources"
 	},
 	"wikivoyage": {
-		"name": "Wikivoyage",
+		"name": "Wikivoyage:",
 		"slogan": "Free travel guide"
+	},
+	"commons": {
+		"name": "Commons:",
+		"slogan": "Freely usable photos & more"
+	},
+	"wikispecies": {
+		"name": "Wikispecies:",
+		"slogan": "Free species directory"
+	},
+	"wikidata": {
+		"name": "Wikidata:"
+	},
+	"mediawiki": {
+		"name": "MediaWiki:"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki:"
 	}
 }

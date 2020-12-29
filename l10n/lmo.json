@@ -1,10 +1,77 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Salvemm el lombard"
+		]
 	},
-	"language-name": "Lumbaart",
+	"language-name": "Lombard",
+	"language-button-text": "Lensg Wikipedia ind la toa lengua",
+	"footer-description": "Wikipedia l'è ospitada de la Wikimedia Foundation, un'organizzazion no-profit che l'ospita anca una fila de alter proget.",
+	"app-links": {
+		"title": "Descarega Wikipedia per Android o iOS",
+		"description": "Salva i to vos preferide de lensg quand che te see minga coness, sincronizza i to liste de lettura in tucc i dipositiv e personalizza la toa esperienza con l'aplicazzion offizial de Wikipedia."
+	},
+	"license": "Qusta pagina chì l'è disponibil second conforma a la <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atribuzzion-Spartiss con di alter persone a l'istessa manera</a>",
+	"terms": "Condizion de utilizzazion",
+	"Privacy Policy": "Politega sora la \"riservatezza\"",
+	"search-input-button": "Cerca",
+	"search-input-label": "Cerca in Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "L'enciclupedia libera"
+		"slogan": "L'encicopedia libera",
+		"entries": "vos"
+	},
+	"wiktionary": {
+		"name": "Wikizzionari",
+		"slogan": "El dizzionari liber",
+		"entries": "inseriment"
+	},
+	"wikibooks": {
+		"name": "Wikiliber",
+		"slogan": "Manuai e liber de test liber",
+		"entries": "pagine"
+	},
+	"wikinews": {
+		"name": "Wikinotizzie",
+		"slogan": "Noeuva sorgent de notizzie liber",
+		"entries": "vos"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Compendi di citazzion",
+		"entries": "vos"
+	},
+	"wikisource": {
+		"name": "Wikisorgent",
+		"slogan": "La biblioteca libera"
+	},
+	"wikiversity": {
+		"name": "Wikiversità",
+		"slogan": "Material per imparà a gratis",
+		"entries": "lezzion"
+	},
+	"wikivoyage": {
+		"name": "Wikiviagg",
+		"slogan": "Guida turistica libera"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Foto doprabil a gratis e altra roba"
+	},
+	"wikispecies": {
+		"name": "Wikispecie",
+		"slogan": "Catalogh di speci a gratis"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Databeis de conoscenza a gratis"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Aplicazion wiki averta e a gratis"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Coordinazzion e documentazzion de la comunità"
 	}
 }
