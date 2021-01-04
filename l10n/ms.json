@@ -1,23 +1,69 @@
 {
 	"@metadata": {
 		"authors": [
-			"MuratTheTurkish"
+			"MuratTheTurkish",
+			"Tofeiku"
 		]
 	},
 	"language-name": "Bahasa Melayu",
 	"language-name-romanized-sorted": "Melayu, Bahasa",
+	"language-button-text": "Baca Wikipedia dalam bahasa anda",
 	"app-links": {
+		"title": "Muat turun Wikipedia untuk Android atau iOS",
 		"url": "https://ms.wikipedia.org/wiki/Senarai_aplikasi_mu_ah_alih_Wikipedia"
 	},
+	"Privacy Policy": "Dasar Privasi",
+	"search-input-button": "Cari",
+	"search-input-label": "Cari Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Ensiklopedia Bebas"
+		"slogan": "Ensiklopedia Bebas",
+		"entries": "rencana"
 	},
 	"wiktionary": {
 		"name": "Wikikamus",
-		"slogan": "Kamus bebas"
+		"slogan": "Kamus bebas",
+		"entries": "masukan"
 	},
 	"wikibooks": {
-		"name": "Wikibooks"
+		"name": "Wikibooks",
+		"slogan": "Buku teks bebas",
+		"entries": "laman"
+	},
+	"wikinews": {
+		"name": "Wikiberita",
+		"slogan": "Sumber berita bebas",
+		"entries": "rencana"
+	},
+	"wikiquote": {
+		"name": "Wikipetikan",
+		"entries": "rencana"
+	},
+	"wikisource": {
+		"name": "Wikisumber",
+		"slogan": "Perpustakaan bebas"
+	},
+	"wikiversity": {
+		"name": "Wikiversiti",
+		"entries": "sumber pelajaran"
+	},
+	"wikivoyage": {
+		"name": "Wikilayar"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikispecies": {
+		"name": "Wikispesies"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Pangkalan pengetahuan bebas"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }
