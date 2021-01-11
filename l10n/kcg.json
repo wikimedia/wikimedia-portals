@@ -8,11 +8,11 @@
 	"footer-description": "Wikipidya yet a̠kpa̠p Sotbeang Wikimidya wa, sot nta̠m nang á̠ khwuk di̠ nwai cat kpangti̠n zang ja ma nkyiak a̠kpa̠p á̠ghyang nta̠m ma̠ a̠di̠di̠t.",
 	"app-links": {
 		"title": "Cyok ma̠ng Wikimidya mat Android ke iOS",
-		"description": "Sak a̠yaati̠kut ba nang a lan cat a̠ni mat nfang di̠ ta̠usa lang, tyia̠ pwut di̱n ta̱m lís fang ang hu mami a̠mgba̠m nkyangta̠m a ba̱ nyia̠ jhyi a̠gwam di̠ fwuong ansham fang ang hu ma̱ng ap. ̂Wikipidya ofisha wu."
+		"description": "Sak a̠yaati̠kut ba nang a lan cat a̠ni mat fang di̠ lang nta, tyia̠ pwut di̱n ta̱m lís fang ang hu mami a̠mgba̠m nkyangta̠m a ba̱ nyia̠ jhyi a̠gwam di̠ fwuong ansham fang ang hu ma̱ng ap. ̂Wikipidya ofisha wu."
 	},
-	"license": "Peji huni nshyia̠ a̠tafa <a href='https://creativecommons.org/licenses/by-sa/3.0/kcg'>Creative Commons Attribution-ShareAlike</a> hu",
+	"license": "Peji huni shyia̠ a̠tafa <a href='https://creativecommons.org/licenses/by-sa/3.0/kcg'>Creative Commons Attribution-ShareAlike</a> hwa",
 	"terms": "A̠yaaka̠nda̠n Nyian Ta̠m",
-	"Privacy Policy": "Kwambwat Khap A̠pyia̠",
+	"Privacy Policy": "Kwambwat A̱bala̱lang",
 	"search-input-button": "Zop",
 	"search-input-label": "Zop Wikipidya",
 	"wiki": {
@@ -67,10 +67,10 @@
 	},
 	"mediawiki": {
 		"name": "MidyaWiki",
-		"slogan": "A̠sa̠t & a̠gang a̠pi̠likeshyon wiki"
+		"slogan": "A̠sa̠t & a̠gang api̠likeshyon wiki"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Nyian ta̠m ndung á̠niet & saailyuut"
+		"slogan": "Jhyi nkyang mat á̠niet & saailyuut"
 	}
 }
