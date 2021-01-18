@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
+			"Eleassar",
 			"HairyFotr",
 			"P̲̳l̳eo"
 		]
@@ -10,8 +11,13 @@
 	"language-name-romanized-sorted": "Slovenscina",
 	"language-button-text": "Preberite Wikipedijo v svojem jeziku",
 	"footer-description": "Wikipedijo gostuje Fundacija Wikimedia, neprofitna organizacija, ki gostuje tudi vrsto drugih projektov.",
+	"app-links": {
+		"title": "Prenos Wikipedije za Android ali iOS",
+		"description": "Shranite svoje izbrane članke za branje brez povezave, sinhronizirajte bralne sezname v različnih napravah in si z uradno aplikacijo Wikipedije prilagodite izkušnjo branja."
+	},
+	"license": "Stran je na voljo pod licenco <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji</a>",
 	"terms": "Pogoji uporabe",
-	"Privacy Policy": "Politika zasebnosti",
+	"Privacy Policy": "Pravilnik o zasebnosti",
 	"search-input-button": "Iskanje",
 	"search-input-label": "Išči po Wikipediji",
 	"wiki": {
