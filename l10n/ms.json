@@ -8,10 +8,14 @@
 	"language-name": "Bahasa Melayu",
 	"language-name-romanized-sorted": "Melayu, Bahasa",
 	"language-button-text": "Baca Wikipedia dalam bahasa anda",
+	"footer-description": "Wikipedia dihoskan oleh Yayasan Wikimedia, pertubuhan bukan untung yang juga mengehoskan pelbagai projek yang lain.",
 	"app-links": {
 		"title": "Muat turun Wikipedia untuk Android atau iOS",
+		"description": "Simpan rencana kegemaran anda untuk dibaca luar talian, segerakkan senarai bacaan anda rentas peranti dan sesuaikan pengalaman bacaan anda dengan aplikasi Wikipedia yang rasmi.",
 		"url": "https://ms.wikipedia.org/wiki/Senarai_aplikasi_mu_ah_alih_Wikipedia"
 	},
+	"license": "Laman ini tersedia di bawah <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lesen Atribusi-PerkongsianSerupa Creative Commons</a>",
+	"terms": "Syarat-syarat Penggunaan",
 	"Privacy Policy": "Dasar Privasi",
 	"search-input-button": "Cari",
 	"search-input-label": "Cari Wikipedia",
@@ -37,6 +41,7 @@
 	},
 	"wikiquote": {
 		"name": "Wikipetikan",
+		"slogan": "Ikhtisar petikan bebas",
 		"entries": "rencana"
 	},
 	"wikisource": {
@@ -45,25 +50,31 @@
 	},
 	"wikiversity": {
 		"name": "Wikiversiti",
+		"slogan": "Bahan kursus bebas",
 		"entries": "sumber pelajaran"
 	},
 	"wikivoyage": {
-		"name": "Wikilayar"
+		"name": "Wikilayar",
+		"slogan": "Panduan perjalanan bebas"
 	},
 	"commons": {
-		"name": "Commons"
+		"name": "Commons",
+		"slogan": "Foto yang boleh digunakan bebas & lagi"
 	},
 	"wikispecies": {
-		"name": "Wikispesies"
+		"name": "Wikispesies",
+		"slogan": "Panduan spesies bebas"
 	},
 	"wikidata": {
 		"name": "Wikidata",
 		"slogan": "Pangkalan pengetahuan bebas"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Aplikasi wiki bebas & terbuka"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Penyelarasan & pendokumenan masyarakat"
 	}
 }
