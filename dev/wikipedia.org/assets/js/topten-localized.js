@@ -37,26 +37,10 @@
 
 	storedTranslations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
 
-	/**
-	 * Returns an array of language codes based on the lang attributes of the top-ten links.
-	 *
-	 * @param {Array} topLinks List of top link elements.
-	 * @return {Array} List of top link languages.
-	 */
-	function getTopLinkLangs( topLinks ) {
-		var topLinkLangs = [],
-			topLinkLang,
-			i;
-
-		for ( i = 0; i < topLinks.length; i++ ) {
-			topLinkLang = topLinks[ i ].getAttribute( 'lang' );
-			topLinkLangs.push( topLinkLang );
-		}
-
-		return topLinkLangs;
-	}
-
-	topLinkLangs = getTopLinkLangs( topLinks );
+	// Generate an array of language codes based on the lang attributes of the top-ten links.
+	topLinkLangs = Array.prototype.map.call( topLinks, function ( link ) {
+		return link.getAttribute( 'lang' );
+	} );
 
 	/**
 	 * TranslationHash is a global variable that is a hash of all translation strings.
@@ -126,17 +110,16 @@
 	/**
 	 * Renames the top link classes to appear correctly around the globe image.
 	 * this should happen after the top links nodes have been reorganized.
-	 *
-	 * @param {Array} topLinkLangs - an array of language codes.
 	 */
-	function reorganizeTopLinkClasses( topLinkLangs ) {
-		var topLinks = document.querySelectorAll( '.central-featured-lang' ),
-			topLink,
+	function reorganizeTopLinkClasses() {
+		var topLink,
 			topLinkLang,
 			topLinkClass,
 			correctClassName,
 			topLinksCorrectLangs = true,
 			i;
+
+		topLinks = document.querySelectorAll( '.central-featured-lang' );
 
 		for ( i = 0; i < topLinks.length && topLinksCorrectLangs === true; i++ ) {
 			topLinkLang = topLinks[ i ].getAttribute( 'lang' );
@@ -186,7 +169,7 @@
 
 			if ( wikiInfo ) {
 				updateTopLinkDOM( node, wikiInfo );
-				reorganizeTopLinkClasses( topLinkLangs );
+				reorganizeTopLinkClasses();
 				storedTranslations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
 				storedTranslations[ lang ] = wikiInfo;
 				mw.storage.set( 'storedTranslations', JSON.stringify( storedTranslations ) );
@@ -218,11 +201,9 @@
 	 * Returns the first DOM node that does not have a lang attribute that is
 	 * one of topLinkLangs.
 	 *
-	 * @param {Array} topLinks List of DOM nodes.
-	 * @param {string[]} topLinkLangs List of languages.
 	 * @return {HTMLElement} Node that can be reused with new content.
 	 */
-	function findReusableTopLink( topLinks, topLinkLangs ) {
+	function findReusableTopLink() {
 		var reusableTopLink = null,
 			topLinkLang,
 			i;
@@ -243,7 +224,7 @@
 	 * to contain the new language.
 	 */
 	function organizeTopLinks() {
-		var i, topLinks,
+		var i,
 			topLinkLang,
 			topLinkNode,
 			topLinkNodeIndex,
@@ -261,7 +242,7 @@
 					topLinksContainer.insertBefore( topLinkNode, topLinks[ i ] );
 				}
 			} else {
-				repurposedTopLink = findReusableTopLink( topLinks, topLinkLangs );
+				repurposedTopLink = findReusableTopLink();
 				localizeTopLink( repurposedTopLink, topLinkLang );
 				topLinksContainer.insertBefore( repurposedTopLink, topLinks[ i ] );
 			}
@@ -275,6 +256,6 @@
 	}
 	mergeNewTopLinkLangs();
 	organizeTopLinks();
-	reorganizeTopLinkClasses( topLinkLangs );
+	reorganizeTopLinkClasses();
 
 }( mw, wmTest ) );
