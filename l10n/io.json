@@ -6,6 +6,8 @@
 		]
 	},
 	"language-name": "Ido",
+	"language-name-romanized": "Ido",
+	"language-name-romanized-sorted": "Ido",
 	"language-button-text": "Lektez Wikipedio en vua linguo",
 	"footer-description": "Wikimedia Foundation, neprofit organizuro, gastigas la Wikipedio e serio di altra projeti.",
 	"app-links": {
@@ -18,6 +20,7 @@
 	"Privacy Policy": "Sistemo di agado pri privateso",
 	"search-input-button": "Serchar",
 	"search-input-label": "Serchar en Wikipedio",
+	"other-languages-label": "Altra lingui",
 	"wiki": {
 		"name": "Wikipedio",
 		"slogan": "La Libera Enciklopedio",

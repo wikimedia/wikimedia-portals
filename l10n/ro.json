@@ -1,33 +1,78 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"NGC 54"
+		]
 	},
 	"language-name": "Română",
 	"language-name-romanized-sorted": "Romana",
+	"language-button-text": "Citiți Wikipedia în limba dvs.",
+	"footer-description": "Wikipedia este găzduită de Wikimedia Foundation, o organizație non-profit care găzduiește de asemenea o varietate de alte proiecte.",
+	"app-links": {
+		"title": "Descarcă Wikipedia pentru Android sau iOS",
+		"description": "Salvați-vă articolele favorite pentru a citi offline, sincronizați-vă listele de lectură între dispozitive și personalizați-vă experiența de lectură cu aplicația oficială Wikipedia."
+	},
+	"license": "Această pagină este disponibilă sub licența <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ro'>Creative Commons cu atribuire și distribuire în condiții identice</a>",
+	"terms": "Termeni de utilizare",
+	"Privacy Policy": "Politica de confidențialitate",
+	"search-input-button": "Căutare",
+	"search-input-label": "Căutare în Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "enciclopedia liberă"
+		"slogan": "Enciclopedia liberă",
+		"entries": "articole"
 	},
 	"wiktionary": {
-		"name": "Wikţionar",
-		"slogan": "Dicţionarul liber"
+		"name": "Wikționar",
+		"slogan": "Dicționar liber",
+		"entries": "intrări"
 	},
 	"wikibooks": {
-		"name": "Wikimanuale"
+		"name": "Wikimanuale",
+		"slogan": "Manuale libere",
+		"entries": "pagini"
 	},
 	"wikinews": {
 		"name": "Wikiștiri",
-		"slogan": "Sursa liberă de știri",
+		"slogan": "Sursă de știri liberă",
 		"entries": "știri"
 	},
 	"wikiquote": {
-		"name": "Wikicitat"
+		"name": "Wikicitat",
+		"slogan": "Compendiu de citate liber",
+		"entries": "articole"
 	},
 	"wikisource": {
-		"name": "Wikisource"
+		"name": "Wikisursă",
+		"slogan": "Bibliotecă liberă"
+	},
+	"wikiversity": {
+		"name": "Wikiversitate",
+		"slogan": "Materiale de studiu libere",
+		"entries": "resurse de învățare"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Ghid Turistic"
+		"slogan": "Ghid turistic liber"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Poze liber utilizabile & mai mult"
+	},
+	"wikispecies": {
+		"name": "Wikispecii",
+		"slogan": "Director de specii liber"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Bază de cunoștințe liberă"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Aplicație wiki deschisă & liberă"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Documentație & coordonare a comunității"
 	}
 }

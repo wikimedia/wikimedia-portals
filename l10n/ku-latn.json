@@ -15,10 +15,11 @@
 	"app-links": {
 		"title": "Wîkîpediya ji bo Android û iOSê daxe:"
 	},
+	"license": "Ev rûpel di bin lîsansa <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> de heye",
 	"terms": "Mercên Bikaranînê",
 	"Privacy Policy": "Rêbaza Veşarîtî",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ku",
-	"search-input-button": "Bigere",
+	"search-input-button": "Lê bigere",
 	"search-input-label": "Li Wîkîpediyayê bigere",
 	"wiki": {
 		"name": "Wîkîpediya",
