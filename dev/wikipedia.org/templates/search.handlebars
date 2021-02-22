@@ -1,7 +1,7 @@
 <div class="search-container">
     <form class="pure-form" id="search-form" action="//www.wikipedia.org/search-redirect.php" data-el-section="search">
         <fieldset>
-            <!-- search-redirect.php is project-independent, requires a family -->
+            {{! search-redirect.php is project-independent, requires a family }}
             <input type="hidden" name="family" value="wikipedia">
 
             <input type="hidden" id="hiddenLanguageInput" name="language" value="en">
@@ -13,7 +13,7 @@
                 <div class="styled-select no-js">
                     <div class="hide-arrow">
                         <select id="searchLanguage" name="language">
-                            <!-- 100,000+ content pages, sorted by romanization -->
+                            {{! 100,000+ content pages, sorted by romanization }}
                             {{#each top100000Dropdown}}
                                 {{> search.option}}
                             {{/each}}

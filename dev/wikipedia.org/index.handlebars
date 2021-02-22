@@ -27,7 +27,7 @@
 
 {{> top10}}
 
-<!-- Search form -->
+{{! Search form }}
 {{> search}}
 
 {{> language-list-button }}
@@ -38,7 +38,7 @@
 
     <div id="js-lang-lists" class="lang-list-content">
         {{> top-n-articles}}
-        <!-- Other languages -->
+        {{! Other languages }}
         {{> other-languages}}
     </div>
 
@@ -74,18 +74,18 @@
 
 <!-- build:js assets/js/index.js -->
 
-<!-- utilities or polyfills -->
+{{! Utilities or polyfills }}
 <script src="assets/js/polyfills.js"></script>
 <script src="assets/js/underscore.partial.js"></script>
 <script src="assets/js/mediawiki.lite.js"></script>
 
-<!-- event logging & AB testing -->
+{{! Event logging & AB testing }}
 <script src="assets/js/seedrandom.js"></script>
 <script src="assets/js/event-logging-lite.js"></script>
 <script src="assets/js/wm-test.js"></script>
 <script src="assets/js/wikipedia-org-event-logging.js"></script>
 
-<!-- page features -->
+{{! Page features }}
 <script src="assets/js/wm-typeahead.js"></script>
 <script src="assets/js/typeahead-init.js"></script>
 <script src="assets/js/topten-localized.js"></script>
