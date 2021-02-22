@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Qiyue2001"
+			"Qiyue2001",
+			"Subarupan"
 		]
 	},
 	"language-name": "吳語",
 	"language-name-romanized": "Wú Yǔ",
 	"language-name-romanized-sorted": "Wu Yu",
 	"search-input-label": "搜索维基百科",
+	"other-languages-label": "别样闲话版本",
 	"wiki": {
 		"name": "维基百科"
 	}

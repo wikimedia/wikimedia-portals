@@ -5,7 +5,8 @@
 		]
 	},
 	"language-name": "Română",
-	"language-name-romanized-sorted": "Romana",
+	"language-name-romanized": "Română",
+	"language-name-romanized-sorted": "Română",
 	"language-button-text": "Citiți Wikipedia în limba dvs.",
 	"footer-description": "Wikipedia este găzduită de Wikimedia Foundation, o organizație non-profit care găzduiește de asemenea o varietate de alte proiecte.",
 	"app-links": {
@@ -15,8 +16,11 @@
 	"license": "Această pagină este disponibilă sub licența <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ro'>Creative Commons cu atribuire și distribuire în condiții identice</a>",
 	"terms": "Termeni de utilizare",
 	"Privacy Policy": "Politica de confidențialitate",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ro",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ro",
 	"search-input-button": "Căutare",
 	"search-input-label": "Căutare în Wikipedia",
+	"other-languages-label": "Alte limbi",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Enciclopedia liberă",
@@ -35,7 +39,7 @@
 	"wikinews": {
 		"name": "Wikiștiri",
 		"slogan": "Sursă de știri liberă",
-		"entries": "știri"
+		"entries": "articole"
 	},
 	"wikiquote": {
 		"name": "Wikicitat",
