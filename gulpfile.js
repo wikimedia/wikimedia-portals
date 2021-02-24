@@ -11,10 +11,6 @@ var gulp = require( 'gulp' ),
 	del = require( 'del' ),
 	plugins = gulpLoadPlugins(),
 	gulpSlash = require( 'gulp-slash' ),
-	replace = require( 'gulp-replace' ),
-	execFile = require( 'child_process' ).execFile,
-	pngquant = require( 'pngquant-bin' ),
-	vinylPaths = require( 'vinyl-paths' ),
 	preq = require( 'preq' ),
 	portalParam = argv.portal,
 	getBaseDir, getProdDir, getConfig;
@@ -128,7 +124,6 @@ getConfig = function () {
 			outputCSS: 'sprite.css',
 			outputCSSPath: baseDir + 'assets/css/sprite.css',
 			outputSVGGlob: baseDir + 'assets/img/sprite*.svg',
-			outputPNGGlob: baseDir + 'assets/img/sprite*.png',
 			template: baseDir + 'assets/css/sprite-template.mustache'
 		}
 	};
@@ -361,7 +356,7 @@ gulp.task( 'fetch-meta', fetchMeta );
  */
 function cleanSprites() {
 	var conf = getConfig();
-	return del( [ conf.img.sprite.outputSVGGlob, conf.img.sprite.outputPNGGlob ] );
+	return del( [ conf.img.sprite.outputSVGGlob ] );
 }
 gulp.task( 'cleanSprites', cleanSprites );
 
@@ -409,57 +404,6 @@ function createSvgSprite() {
 gulp.task( 'createSvgSprite', gulp.series( 'cleanSprites', createSvgSprite ) );
 
 /**
- * Create a PNG fallback for the SVG sprite using PhantomJS.
- *
- * @return {Stream}
- */
-function convertSVGtoPNG() {
-	return gulp.src( getConfig().img.sprite.outputSVGGlob )
-		.pipe( plugins.svg2png() )
-		.pipe( gulp.dest( getBaseDir() + 'assets/img/' ) );
-}
-gulp.task( 'convertSVGtoPNG', gulp.series( 'createSvgSprite', convertSVGtoPNG ) );
-
-/**
- * Optimize PNG fallback.
- *
- * @return {Stream}
- */
-function optimizePNGfallback() {
-	return gulp.src( getConfig().img.sprite.outputPNGGlob )
-		.pipe(
-			vinylPaths( function ( imagePath ) {
-				return new Promise( function ( resolve, reject ) {
-					return execFile( pngquant, [ imagePath, '-f', '-ext', '.png' ], function ( err ) {
-						if ( err ) {
-							return reject();
-						} else {
-							return resolve();
-						}
-					} );
-				} );
-			} )
-		);
-}
-gulp.task( 'optimizePNGfallback', gulp.series( 'convertSVGtoPNG', optimizePNGfallback ) );
-
-/**
- * Replace '.svg' with '.png' extension in the SVG sprite CSS file.
- * This creates a PNG fallback for the SVG sprite in the sprite.css file.
- *
- * The custom CSS template contains 2 urls that both end with '.svg' until
- * this task changes one of the extensions to '.png'.
- *
- * @return {Stream}
- */
-function replaceSVGSpriteCSS() {
-	return gulp.src( getConfig().img.sprite.outputCSSPath )
-		.pipe( replace( '.svg")/* replace */;', '.png");' ) )
-		.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
-}
-gulp.task( 'replaceSVGSpriteCSS', gulp.series( 'createSvgSprite', replaceSVGSpriteCSS ) );
-
-/**
  * Copy images to prod folder.
  *
  * @return {Stream}
@@ -471,7 +415,7 @@ function copyImages() {
 	return gulp.src( conf.img.src ).pipe( gulp.dest( conf.img.dest ) );
 }
 
-gulp.task( 'svgSprite', gulp.series( 'createSvgSprite', 'convertSVGtoPNG', 'optimizePNGfallback', 'replaceSVGSpriteCSS' ) );
+gulp.task( 'svgSprite', gulp.series( 'createSvgSprite' ) );
 
 /**
  * Create a 'urls-to-purge.txt' file at the root of the repo that
