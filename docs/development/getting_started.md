@@ -32,18 +32,16 @@ npm install
 
 ### Starting a development server
 
-**The portals repo does not provide a developement server**. To view changes you make while developing, you will need to run an HTTP server pointing to the root of this repository. This can be as easy as running one of the following commands from the root directory of the portals repository.
-
-Starting a python simple server:
+To view changes you make while developing, you will need to run a development server pointing to the root of this repository. This can be as easy as running one of the following commands from the root directory of the portals repository.
 
 ```
-python -m SimpleHTTPServer 8080
+npm run dev-server
 ```
 
-Or starting a PHP server:
+**Note** You can update the page stats, watch for changes in the wikipedia.org dev dir, and start a dev server by using a single command
 
 ```
-php -S 0.0.0.0:8080
+npm run start 
 ```
 
 Then, you should be able to access the development directory at `http://localhost:8080/dev/wikipedia.org` and the production directory at `http://localhost:8080/prod/wikipedia.org`.
