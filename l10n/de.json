@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Gebu",
 			"Gnom",
 			"Metalhead64",
 			"Tobi 406"
@@ -20,6 +21,7 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/de",
 	"search-input-button": "Suchen",
 	"search-input-label": "Wikipedia durchsuchen",
+	"other-languages-label": "Andere Sprachen",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Die freie Enzyklopädie",
