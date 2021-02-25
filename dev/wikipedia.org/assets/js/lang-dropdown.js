@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* global addEvent, wmTest */
 /*
  * The following functions open and close the language list
