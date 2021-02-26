@@ -18,6 +18,8 @@
 	"app-links": {
 		"title": "Title of that app link section on wikipedia.org",
 		"description": "Description of the Wikipedia mobile apps",
+		"google-store": "Title of the Google Play Store",
+		"apple-store": "Title of the Apple App Store",
 		"url": "The url of an article that lists all available Wikipedia apps. The link URL should be <code><nowiki>https://(your language code).wikipedia.org/wiki/List_of_Wikipedia_mobile_applications</nowiki></code> when available.\n\nThe English Wikipedia page is https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "License text, use <code><nowiki>https://creativecommons.org/licenses/by-sa/3.0/deed.(your language code)</nowiki></code> to show the translation of license.",
