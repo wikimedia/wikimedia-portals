@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Jaroslav.micek",
 			"Kusavica",
 			"Luky001",
 			"TomášPolonec"
@@ -12,7 +13,7 @@
 	"language-button-text": "Prečítajte si Wikipédiu vo svojom jazyku",
 	"footer-description": "Wikipédiu prevádzkuje nezisková nadácia Wikimedia Foundation, ktorá spravuje aj veľa iných projektov.",
 	"app-links": {
-		"title": "Stiahnúť aplikáciu Wikipédie pre Android alebo iOS",
+		"title": "Stiahnúť aplikáciu Wikipédia pre Android alebo iOS",
 		"description": "Uložte si svoje obľúbené články, aby ste ich mohli čítať aj bez pripojenia k internetu, synchronizujte zoznamy na prečítanie naprieč rôznymi zariadeniami a prispôsobte si zážitok z čítania prostredníctvom oficiálnej aplikácie Wikipédie."
 	},
 	"license": "Táto stránka je dostupná pod licenciou <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
@@ -21,10 +22,11 @@
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/sk",
 	"search-input-button": "Hľadať",
 	"search-input-label": "Hľadať na Wikipédii",
+	"other-languages-label": "Iné jazyky",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "Slobodná encyklopédia",
-		"entries": "Články"
+		"entries": "článkov"
 	},
 	"wiktionary": {
 		"name": "Wikislovník",
@@ -48,7 +50,7 @@
 	},
 	"wikisource": {
 		"name": "Wikizdroje",
-		"slogan": "Voľne dostupné dokumeny"
+		"slogan": "Voľne dostupné dokumenty"
 	},
 	"wikiversity": {
 		"name": "Wikiverzita",
@@ -73,7 +75,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Slobodný a otvorený wiki softvér"
+		"slogan": "Slobodná a otvorená wiki aplikácia"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
