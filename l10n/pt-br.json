@@ -6,6 +6,7 @@
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Macofe",
+			"Mariagarbin",
 			"TheEduGobi"
 		]
 	},
@@ -14,6 +15,8 @@
 	"app-links": {
 		"title": "Faça o download da Wikipedia para Android ou iOS",
 		"description": "Salve seus artigos favoritos para ler offline, sincronize suas listas de leitura entre dispositivos e personalize sua experiência de leitura com o aplicativo oficial da Wikipédia.",
+		"google-store": "Play Store do Google",
+		"apple-store": "App Store da Apple",
 		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Esta página está disponível sob a <a href='https://creativecommons.org/licenses/by-sa/3.0/'>licença Creative Commons Attribution-ShareAlike</a>",

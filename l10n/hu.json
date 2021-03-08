@@ -13,7 +13,9 @@
 	"footer-description": "A Wikipédiát a Wikimédia Alapítvány üzemelteti, egy nonprofit szervezet, ami sok más projektet is üzemeltet.",
 	"app-links": {
 		"title": "Wikipédia Android-és iOS-alkalmazás letöltése",
-		"description": "Mentsd el a kedvenc szócikkeidet kapcsolat nélküli olvasásra, szinkronizáld az olvasólistáidat az eszközeid között, és szabd testre az olvasási élményedet a hivatalos Wikipédia-mobilalkalmazással."
+		"description": "Mentsd el a kedvenc szócikkeidet kapcsolat nélküli olvasásra, szinkronizáld az olvasólistáidat az eszközeid között, és szabd testre az olvasási élményedet a hivatalos Wikipédia-mobilalkalmazással.",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store"
 	},
 	"license": "Ez a lap a <a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.hu\">Creative Commons Nevezd meg! – Így add tovább! licenc</a> alatt érhető el.",
 	"terms": "Felhasználási feltételek",

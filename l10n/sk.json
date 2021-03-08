@@ -5,7 +5,8 @@
 			"Jaroslav.micek",
 			"Kusavica",
 			"Luky001",
-			"TomášPolonec"
+			"TomášPolonec",
+			"Yardom78"
 		]
 	},
 	"language-name": "Slovenčina",
@@ -14,7 +15,9 @@
 	"footer-description": "Wikipédiu prevádzkuje nezisková nadácia Wikimedia Foundation, ktorá spravuje aj veľa iných projektov.",
 	"app-links": {
 		"title": "Stiahnúť aplikáciu Wikipédia pre Android alebo iOS",
-		"description": "Uložte si svoje obľúbené články, aby ste ich mohli čítať aj bez pripojenia k internetu, synchronizujte zoznamy na prečítanie naprieč rôznymi zariadeniami a prispôsobte si zážitok z čítania prostredníctvom oficiálnej aplikácie Wikipédie."
+		"description": "Uložte si svoje obľúbené články, aby ste ich mohli čítať aj bez pripojenia k internetu, synchronizujte zoznamy na prečítanie naprieč rôznymi zariadeniami a prispôsobte si zážitok z čítania prostredníctvom oficiálnej aplikácie Wikipédie.",
+		"google-store": "Obchod Google Play",
+		"apple-store": "Obchod Apple App"
 	},
 	"license": "Táto stránka je dostupná pod licenciou <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Podmienky používania",

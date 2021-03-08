@@ -15,6 +15,8 @@
 	"app-links": {
 		"title": "下載適用於 Android 或 iOS 的維基百科",
 		"description": "以官方維基百科應用程式來儲存您喜愛的條目以便離線閱讀，並跨裝置同步您的閱讀清單，和自訂化您的閱讀體驗。",
+		"google-store": "Google Play 商店",
+		"apple-store": "App Store 商店",
 		"url": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F"
 	},
 	"license": "此頁面依據<a href='https://creativecommons.org/licenses/by-sa/3.0/deed.zh_TW'>創用CC姓名標示-相同方式分享</a>授權。",

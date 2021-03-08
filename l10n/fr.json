@@ -20,6 +20,8 @@
 	"app-links": {
 		"title": "Télécharger Wikipédia pour Android et iOS",
 		"description": "Enregistrer vos articles favoris pour lire hors connexion, synchroniser vos listes de lecture entre les appareils et personnaliser votre expérience de lecture avec l’application officielle Wikipédia.",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store",
 		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Cette page est disponible sous la <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative licence Commons Attribution-ShareAlike</a>",

@@ -14,6 +14,8 @@
 	"app-links": {
 		"title": "Ladda ned Wikipedia för Android och iOS",
 		"description": "Spara dina favoritartiklar för att läsa dem utan uppkoppling, synkronisera dina läslistor över enheter och anpassa din läsupplevelse med den officiella Wikipedia-appen.",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store",
 		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Denna sida är tillgänglig under licensen <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Erkännande-DelaLika</a>",

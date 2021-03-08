@@ -3,6 +3,7 @@
 		"authors": [
 			"Amire80",
 			"Balyozxane",
+			"Bikarhêner",
 			"Cûndûllah el-Kurdî",
 			"George Animal",
 			"Guherto"
@@ -13,7 +14,9 @@
 	"language-name-romanized-sorted": "Îngilîzî",
 	"language-button-text": "Wîkîpediyayê bi zimanê xwe bixwîne",
 	"app-links": {
-		"title": "Wîkîpediya ji bo Android û iOSê daxe:"
+		"title": "Wîkîpediya ji bo Android û iOSê daxe:",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store"
 	},
 	"license": "Ev rûpel di bin lîsansa <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> de heye",
 	"terms": "Mercên Bikaranînê",
