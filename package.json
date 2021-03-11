@@ -8,7 +8,7 @@
 	},
 	"devDependencies": {
 		"bluebird": "^3.7.2",
-		"bundlesize": "0.18.0",
+		"bundlesize": "^0.18.1",
 		"deepmerge": "^4.2.2",
 		"del": "^5.1.0",
 		"es-dev-server": "^1.54.1",
