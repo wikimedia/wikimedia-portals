@@ -129,6 +129,8 @@
 						break;
 					default:
 						domEl.textContent = textValue;
+						// T254611 Specific 'lang' attribute for every localized text
+						domEl.setAttribute( 'lang', info.lang );
 						break;
 				}
 			}
