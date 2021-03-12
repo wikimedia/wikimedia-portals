@@ -10,7 +10,8 @@
 		]
 	},
 	"language-name": "Slovenčina",
-	"language-name-romanized-sorted": "Slovencina",
+	"language-name-romanized": "Angličtina",
+	"language-name-romanized-sorted": "Angličtina",
 	"language-button-text": "Prečítajte si Wikipédiu vo svojom jazyku",
 	"footer-description": "Wikipédiu prevádzkuje nezisková nadácia Wikimedia Foundation, ktorá spravuje aj veľa iných projektov.",
 	"app-links": {
@@ -44,7 +45,7 @@
 	"wikinews": {
 		"name": "Wikisprávy",
 		"slogan": "Slobodné spravodajstvo",
-		"entries": "články"
+		"entries": "článkov"
 	},
 	"wikiquote": {
 		"name": "Wikicitáty",
