@@ -15,8 +15,13 @@
 .other-project-link {
 	display: inline-block;
 	min-height: 50px;
-	width: 100%;
+	width: 90%;
+	padding: 1em;
 	white-space: nowrap;
+}
+
+.other-project-link:hover {
+	background-color: var( --wmui-color-base80 );
 }
 
 /* Override partial underlining (T232286) */

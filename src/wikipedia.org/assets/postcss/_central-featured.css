@@ -30,6 +30,10 @@
 	text-decoration: underline;
 }
 
+.central-featured-lang :hover {
+	background-color: var( --wmui-color-base80 );
+}
+
 .central-featured-lang strong {
 	display: block;
 	font-size: 1.6rem;
