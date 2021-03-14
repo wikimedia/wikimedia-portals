@@ -94,7 +94,7 @@
 	width: 80%;
 	margin: -1.6rem auto 1.6rem;
 	height: 1px;
-	transition: max-width 200ms ease-out 400s;
+	transition: max-width 200ms ease-out 400ms;
 }
 
 .lang-list-active .lang-list-border {
