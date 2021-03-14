@@ -19,7 +19,6 @@ be referenced in the HTML file with `<link rel="stylesheet">` tags.
 Special files
 -------------
 _vars.css - is reserved for CSS variables (CSS custom properties).
-_ie.css - reserved for IE6 and IE7 specific styles.
 
 =====================
 PostCSS Plugins Used:
