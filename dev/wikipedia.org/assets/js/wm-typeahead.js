@@ -148,24 +148,6 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	}
 
 	/**
-	 * Manually redirects the page to the href of a given element.
-	 *
-	 * For Chrome on Android to solve T221628.
-	 * When search suggestions below the fold are clicked, the blur event
-	 * on the search input is triggered and the page scrolls the search input
-	 * into view. However, the originating click event does not redirect
-	 * the page.
-	 *
-	 * @param {Event} e
-	 */
-	function forceLinkFollow( e ) {
-		var el = e.relatedTarget;
-		if ( el && /suggestion-link/.test( el.className ) ) {
-			window.location = el.href;
-		}
-	}
-
-	/**
 	 * Inserts script element containing the Search API results into document head.
 	 * The script itself calls the 'portalOpensearchCallback' callback function,
 	 *
@@ -463,9 +445,12 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 
 	addEvent( searchEl, 'keydown', keyboardEvents );
 
-	addEvent( searchEl, 'blur', function ( e ) {
-		clearTypeAhead();
-		forceLinkFollow( e );
+	window.addEventListener( 'click', function ( event ) {
+		var target = event.target.closest( '#search-form' );
+
+		if ( !target ) {
+			clearTypeAhead();
+		}
 	} );
 
 	return {
