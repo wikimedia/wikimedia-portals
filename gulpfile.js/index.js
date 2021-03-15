@@ -2,7 +2,7 @@
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	argv = require( 'yargs' ).argv,
-	siteStats = require( './data/site-stats' ),
+	siteStats = require( '../data/site-stats' ),
 	fs = require( 'fs' ),
 	postCSSNext = require( 'postcss-cssnext' ),
 	postCSSImport = require( 'postcss-import' ),
@@ -86,10 +86,10 @@ getConfig = function () {
 
 	config.hb = {
 		src: baseDir + 'index.handlebars',
-		templateData: require( './' + baseDir + 'controller.js' ),
+		templateData: require( '../' + baseDir + 'controller.js' ),
 		options: {
 			batch: [ './' + baseDir + '/templates' ],
-			helpers: require( './hbs-helpers.global' )
+			helpers: require( '../hbs-helpers.global' )
 		}
 	};
 
