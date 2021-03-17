@@ -16,7 +16,7 @@
  * Validate with ESLint.
  *
  */
-/* global addEvent, doWhenReady, getIso639, getDevicePixelRatio */
+/* global doWhenReady, getIso639, getDevicePixelRatio */
 
 ( function () {
 	'use strict';
@@ -273,7 +273,7 @@
 			}
 		}
 
-		addEvent( select, 'change', function () {
+		select.addEventListener( 'change', function () {
 			select.blur();
 			setLang( select.value );
 		} );

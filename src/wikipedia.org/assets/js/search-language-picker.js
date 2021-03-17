@@ -16,7 +16,7 @@
  * Validate with ESLint.
  *
  */
-/* global addEvent, doWhenReady */
+/* global doWhenReady */
 
 ( function () {
 	'use strict';
@@ -74,7 +74,7 @@
 			adjustInputPadding( val );
 		}
 
-		addEvent( select, 'change', function () {
+		select.addEventListener( 'change', function () {
 			changeLangLabel( select.value );
 		} );
 	} );
