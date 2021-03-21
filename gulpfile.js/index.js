@@ -20,27 +20,9 @@ var gulp = require( 'gulp' ),
  */
 
 // Help
-gulp.task( 'help', function () {
-	console.log();
-	console.log( '+-------------------------------------------------------------------------------------------------+' );
-	console.log( '|                                     =====  USAGE =====                                          |' );
-	console.log( '+-------------------------------------------------------------------------------------------------+' );
-	console.log( '| GLOBAL TASKS :                                                                                  |' );
-	console.log( '|                                                                                                 |' );
-	console.log( '| gulp lint                                   - run jslint on all JS files                        |' );
-	console.log( '| gulp update-stats                           - update file containing projects stats             |' );
-	console.log( '+-------------------------------------------------------------------------------------------------+' );
-	console.log( '| PORTAL-SPECIFIC TASKS :                                                                         |' );
-	console.log( '|                                                                                                 |' );
-	console.log( '| gulp lint --portal wikipedia.org            - run jslint on JS files on portal JS files         |' );
-	console.log( '| gulp watch --portal wikipedia.org           - watches dev directory and generates an index.html |' );
-	console.log( '|                                               file in it without inlined/minified assets        |' );
-	console.log( '| gulp --portal wikipedia.org                 - run all of the above on the specified portal page |' );
-	console.log( '|                                                                                                 |' );
-	console.log( '| gulp fetch-meta --portal wikipedia.org      - overwrite the portal page with source from Meta   |' );
-	console.log( '+-------------------------------------------------------------------------------------------------+' );
-	console.log();
-} );
+const { help } = require( './help' );
+
+gulp.task( 'help',  help);
 
 /* Preliminary configuration
  =========================================================================== */
