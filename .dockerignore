@@ -3,11 +3,11 @@
 node_modules
 .idea
 cache
-dev/wikipedia.org/index.html
-dev/wikipedia.org/assets/l10n/*
+src/wikipedia.org/index.html
+src/wikipedia.org/assets/l10n/*
 build/config.gypi
 data/site-stats.json
-dev/wikipedia.org/assets/css/style.css
-dev/wikipedia.org/assets/img/sprite-*
-dev/wikipedia.org/assets/img/sprite-*
-dev/wikipedia.org/assets/rev-manifest.json
+src/wikipedia.org/assets/css/style.css
+src/wikipedia.org/assets/img/sprite-*
+src/wikipedia.org/assets/img/sprite-*
+src/wikipedia.org/assets/rev-manifest.json

@@ -8,4 +8,4 @@ It exports a `getSiteStats` function that executes the actual code. This functio
 
 ## stats.js
 Merges the `site-stats.json` and `new-site-defs.json` files together and exposes functions for ranking the wikis.
-Also formats the data for use on the portal page, like strips tags from strings. This file is used to define variables for Handlebars templates in `/dev/wikipedia.org/controller.js`.
+Also formats the data for use on the portal page, like strips tags from strings. This file is used to define variables for Handlebars templates in `/src/wikipedia.org/controller.js`.

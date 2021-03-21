@@ -44,7 +44,7 @@ npm run dev-server
 npm run start 
 ```
 
-Then, you should be able to access the development directory at `http://localhost:8080/dev/wikipedia.org` and the production directory at `http://localhost:8080/prod/wikipedia.org`.
+Then, you should be able to access the development directory at `http://localhost:8080/src/wikipedia.org` and the production directory at `http://localhost:8080/prod/wikipedia.org`.
 
 ### Watching for changes
 
@@ -54,7 +54,7 @@ To watch for changes while you're developing, run:
 gulp watch --portal=wikipedia.org
 ```
 
-This will watch for changes in `dev/wikipedia.org` and recompile the HTML/CSS/JS and images if they change. The changes will be visible when then browser is reloaded.
+This will watch for changes in `src/wikipedia.org` and recompile the HTML/CSS/JS and images if they change. The changes will be visible when then browser is reloaded.
 
 ### Updating Stats
 To download the latest stats (article-counts and page-views) for the portal pages, run:

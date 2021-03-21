@@ -3,7 +3,7 @@
 window.wmTest = ( function ( eventLoggingLite, mw ) {
 
 	var bucketParams = {
-			// Population for prod or dev
+			// Population for prod or src
 			popSize: ( /www.wikipedia.org/.test( location.hostname ) ) ? 200 : 2,
 			// TestGroups can be set to `false` if there's no test.
 			// Else {control: 'name-of-control-group', test: 'name-of-test-group'}

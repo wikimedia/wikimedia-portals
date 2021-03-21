@@ -29,14 +29,14 @@ The main JavaScript features of www.wikipedia.org include:
 - event-logging
 - And more!
 
-All these features and more live in the `dev/wikipedia.org/assets/js` directory. JS features are separated into individual files, with each file being encapsulated in an [IIFE](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression). If a features needs to be shared across different files, it is exposed as a global variable, assigned to an IIFE (see `wm-test.js` as an example). This lets us follow a [revealing module pattern](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript) for separate features.
+All these features and more live in the `src/wikipedia.org/assets/js` directory. JS features are separated into individual files, with each file being encapsulated in an [IIFE](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression). If a features needs to be shared across different files, it is exposed as a global variable, assigned to an IIFE (see `wm-test.js` as an example). This lets us follow a [revealing module pattern](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript) for separate features.
 
 There is no ES6 style module-loading on www.wikipedia.org. The javascript files are included in the order they are needed, before the closing body tag in the `index.handlebars` file. The script tags are placed between special comment tags starting with `<!-- build:js` . For a production build, the files between these comments are concatenated using [gulp-useref](https://www.npmjs.com/package/gulp-useref), given a cache-busing suffix with [gulp-rev](https://github.com/sindresorhus/gulp-rev) and minified with [gulp-uglify](https://www.npmjs.com/package/gulp-uglify). The minified JS file is then placed in the `prod` directory.
 
 **JavaScript directory structure**
 
 ```
-|- dev/
+|- src/
     |- wikipedia.org/
         |- index.handlebars      <- JS files are included here before the ending body tag
         |- index.html            <- compiled HTML includes links to JS source files for dev purposes

@@ -21,7 +21,7 @@ getBaseDir = function () {
 	requirePortalParam();
 
 	getBaseDir = function () {
-		return 'dev/' + portalParam + '/';
+		return 'src/' + portalParam + '/';
 	};
 	return getBaseDir();
 };

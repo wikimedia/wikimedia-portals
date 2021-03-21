@@ -32,7 +32,7 @@ const { requirePortalParam, getBaseDir, getProdDir, getConfig } = require( './co
  =========================================================================== */
 
 /**
- * Compile Handlebars templates into dev folder.
+ * Compile Handlebars templates into src folder.
  * Execute 'build' task if config is undefined
  *
  * @return {Stream}
@@ -50,7 +50,7 @@ gulp.task( 'compile-handlebars', compileHandlebars );
 
 /**
  * Compile postCSS files into regular CSS and
- * output them into the CSS dev folder.
+ * output them into the CSS src folder.
  *
  * @return {Stream}
  */
@@ -70,7 +70,7 @@ function postCSS() {
 gulp.task( 'postcss', postCSS );
 
 /**
- * Inline assets of index.html in dev folder
+ * Inline assets of index.html in src folder
  * and move index.html into prod folder
  *
  * @return {Stream}
@@ -141,7 +141,7 @@ function concatMinifyJS() {
 
 /**
  * Minify index.html file in prod folder,
- * depends on inlineAssets which moves index.html from dev to prod.
+ * depends on inlineAssets which moves index.html from src to prod.
  *
  * @return {Stream}
  */
@@ -155,17 +155,17 @@ function minifyHTML() {
 }
 
 /**
- * Lint JS in dev folder as well as in root folder.
+ * Lint JS in src folder as well as in root folder.
  *
  * @return {Stream}
  */
 function lintJS() {
-	var devFolder = 'dev/**/*.js';
+	var srcFolder = 'src/**/*.js';
 	if ( portalParam ) {
 		// Only run on this portal files.
-		devFolder = 'dev/' + portalParam + '/**/*.js';
+		srcFolder = 'src/' + portalParam + '/**/*.js';
 	}
-	return gulp.src( [ '*.js', devFolder ] )
+	return gulp.src( [ '*.js', srcFolder ] )
 		.pipe( plugins.eslint7() )
 		.pipe( plugins.eslint7.format() )
 		.pipe( plugins.eslint7.failAfterError() );
@@ -175,7 +175,7 @@ gulp.task( 'lint-js', lintJS );
 function validatePostCSS() {
 
 	return gulp
-		.src( [ 'dev/**/postcss/*.css', '!dev/**/postcss/_*.css' ] )
+		.src( [ 'src/**/postcss/*.css', '!src/**/postcss/_*.css' ] )
 		.pipe( plugins.postcss(
 			[
 				postCSSImport(),
@@ -189,7 +189,7 @@ gulp.task( 'validate-postCSS', validatePostCSS );
 function lintCSS() {
 
 	return gulp
-		.src( 'dev/**/postcss/*.css' )
+		.src( 'src/**/postcss/*.css' )
 		.pipe( gulpStylelint( {
 			reporters: [
 				{ formatter: 'string', console: true }
@@ -256,10 +256,10 @@ gulp.task( 'cleanSprites', cleanSprites );
 
 /**
  * Create SVG sprite for use as a CSS background images.
- * Combine SVG images from the assets/img/sprite_assets directory in the dev folder.
+ * Combine SVG images from the assets/img/sprite_assets directory in the src folder.
  * Output the SVG sprite in the assets/img dir as sprite-*.svg, where * is a cachebusting hash.
  *
- * Also outputs a CSS file for the SVG sprite named sprite.css in the dev CSS folder.
+ * Also outputs a CSS file for the SVG sprite named sprite.css in the src CSS folder.
  *
  * @return {Stream}
  */
@@ -383,10 +383,10 @@ function createProdSymlink() {
 }
 
 /**
- * Watch for changes in dev folder and compile:
+ * Watch for changes in src folder and compile:
  * - handlebars templates
  * - postCSS files
- * into dev folder.
+ * into src folder.
  */
 function watch() {
 

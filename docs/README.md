@@ -24,7 +24,7 @@
 
 The wikipedia.org page is a static HTML/CSS/JS page. However, it uses modern front-end development stack that includes templates, preprocessors and build-tools to achieve an optimized and performant output. We use [Handlebars](http://handlebarsjs.com/) for HTML templates,  [PostCSS](http://postcss.org/) as a CSS pre-processor, and [Gulp](http://gulpjs.com/) as build tool to stitch everything together.
 
-Templates and source files are located in the `dev` folder. The source files are populated with data from the `data` folder and processed using Gulp. During devlopment, the compiled but un-optimized assets remain in the dev folder. During a production build, these assets are optimized and copied to the `prod`  folder.
+Templates and source files are located in the `src` folder. The source files are populated with data from the `data` folder and processed using Gulp. During devlopment, the compiled but un-optimized assets remain in the src folder. During a production build, these assets are optimized and copied to the `prod`  folder.
 
 This diagram represents the flow of data and rough order of operation in the portals repository. The data is collected from multiple sources, processed and passed to the templates for rendering.
 ![Portals repository dataflow](portals-dataflow.jpg)
