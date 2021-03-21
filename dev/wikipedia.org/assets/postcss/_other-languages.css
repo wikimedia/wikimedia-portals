@@ -15,7 +15,7 @@
 	max-height: 0;
 	width: 80%;
 	margin: -1.6rem auto 4.8rem;
-	transition: max-height 500ms ease-out, visibility 500ms ease-in 1000ms;
+	transition: max-height 500ms ease-out 160ms, visibility 500ms ease-in 1000ms;
 }
 
 .js-enabled .lang-list-container {
