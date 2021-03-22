@@ -13,7 +13,9 @@
 	"footer-description": "Wikipedijo gostuje Fundacija Wikimedia, neprofitna organizacija, ki gostuje tudi vrsto drugih projektov.",
 	"app-links": {
 		"title": "Prenos Wikipedije za Android ali iOS",
-		"description": "Shranjujte svoje izbrane članke za branje brez povezave, sinhronizirajte bralne sezname v različnih napravah in si z uradno aplikacijo Wikipedije prilagodite izkušnjo branja."
+		"description": "Shranjujte svoje izbrane članke za branje brez povezave, sinhronizirajte bralne sezname v različnih napravah in si z uradno aplikacijo Wikipedije prilagodite izkušnjo branja.",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store"
 	},
 	"license": "Stran je na razpolago pod licenco <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Priznanje avtorstva-Deljenje pod enakimi pogoji</a>",
 	"terms": "Pogoji uporabe",
