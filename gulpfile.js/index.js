@@ -37,16 +37,7 @@ const { requirePortalParam, getBaseDir, getProdDir, getConfig } = require( './co
  *
  * @return {Stream}
  */
-function compileHandlebars() {
-
-	requirePortalParam();
-
-	return gulp.src( getConfig().hb.src )
-		.pipe( plugins.compileHandlebars( getConfig().hb.templateData, getConfig().hb.options ) )
-		.pipe( plugins.rename( 'index.html' ) )
-		.pipe( gulp.dest( getBaseDir() ) );
-}
-gulp.task( 'compile-handlebars', compileHandlebars );
+const { compileHandlebars } = require( './handlebar' );
 
 /**
  * Compile postCSS files into regular CSS and
