@@ -20,11 +20,11 @@ From the root of the repo, run:
 ```
 npm install                       # install dependancies
 gulp update-stats                 # update portal stats
-gulp watch --portal=wikipedia.org # watch dev directory for changes
+gulp watch --portal=wikipedia.org # watch src directory for changes
 python -m SimpleHTTPServer 8080   # start a dev server
 ```
 
-Visit `http://localhost:8080/dev/wikipedia.org` to see the changes in the `dev` directory.
+Visit `http://localhost:8080/src/wikipedia.org` to see the changes in the `src` directory.
 
 Running `gulp help` will output a list of available gulp tasks.
 
@@ -37,12 +37,12 @@ Running `gulp help` will output a list of available gulp tasks.
 
 ## Directory Structure
 
-The directory structure is divided into a development ('dev') directory and a production ('prod') directory. `prod` should not be edited directly, as its content will be overridden when running the build command `gulp --portal=wikipedia.org`.
+The directory structure is divided into a development ('src') directory and a production ('prod') directory. `prod` should not be edited directly, as its content will be overridden when running the build command `gulp --portal=wikipedia.org`.
 
 ````
 |— package.json
 |— gulpfile.js
-|— dev/                                 development dir
+|— src/                                 development dir
 |	|— wikipedia.org/
 |		|— portal/                      symlink to '../' for mirroring prod server setup.
 |		|— templates/                   Handlebars template partials
@@ -55,7 +55,7 @@ The directory structure is divided into a development ('dev') directory and a pr
 |			|— postcss/                 postCSS files
 |— prod                                 Compiled production dir
     |—wikipedia.org/
-        |— index.html                   compiled from dev with inlined CSS
+        |— index.html                   compiled from src with inlined CSS
         |— assets/                      minimized & compressed assets
             |— img/
             |— js/
