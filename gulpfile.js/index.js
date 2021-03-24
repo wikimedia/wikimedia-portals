@@ -4,10 +4,6 @@ var gulp = require( 'gulp' ),
 	argv = require( 'yargs' ).argv,
 	siteStats = require( '../data/site-stats' ),
 	fs = require( 'fs' ),
-	postCSSNext = require( 'postcss-cssnext' ),
-	postCSSImport = require( 'postcss-import' ),
-	postCSSReporter = require( 'postcss-reporter' ),
-	gulpStylelint = require( 'gulp-stylelint' ),
 	del = require( 'del' ),
 	plugins = gulpLoadPlugins(),
 	gulpSlash = require( 'gulp-slash' ),
@@ -39,26 +35,22 @@ const { requirePortalParam, getBaseDir, getProdDir, getConfig } = require( './co
  */
 const { compileHandlebars } = require( './handlebar' );
 
+gulp.task( 'compile-handlebars', compileHandlebars );
+
 /**
  * Compile postCSS files into regular CSS and
  * output them into the CSS src folder.
  *
  * @return {Stream}
  */
-function postCSS() {
 
-	requirePortalParam();
+const { postCSS, validatePostCSS, lintCSS } = require( './postcss' );
 
-	return gulp.src( [ getBaseDir() + 'assets/postcss/*.css', '!' + getBaseDir() + 'assets/postcss/_*.css' ] )
-		.pipe( plugins.postcss( [
-			postCSSImport(),
-			postCSSNext( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } )
-		],
-		{ map: { inline: true } }
-		) )
-		.pipe( gulp.dest( getBaseDir() + 'assets/css/' ) );
-}
 gulp.task( 'postcss', postCSS );
+
+gulp.task( 'validate-postCSS', validatePostCSS );
+
+gulp.task( 'lint-css', gulp.series( 'validate-postCSS', lintCSS ) );
 
 /**
  * Inline assets of index.html in src folder
@@ -162,32 +154,6 @@ function lintJS() {
 		.pipe( plugins.eslint7.failAfterError() );
 }
 gulp.task( 'lint-js', lintJS );
-
-function validatePostCSS() {
-
-	return gulp
-		.src( [ 'src/**/postcss/*.css', '!src/**/postcss/_*.css' ] )
-		.pipe( plugins.postcss(
-			[
-				postCSSImport(),
-				postCSSNext( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } ),
-				postCSSReporter( { clearMessages: true, throwError: true } )
-			], { map: { inline: true } }
-		) );
-}
-gulp.task( 'validate-postCSS', validatePostCSS );
-
-function lintCSS() {
-
-	return gulp
-		.src( 'src/**/postcss/*.css' )
-		.pipe( gulpStylelint( {
-			reporters: [
-				{ formatter: 'string', console: true }
-			]
-		} ) );
-}
-gulp.task( 'lint-css', gulp.series( 'validate-postCSS', lintCSS ) );
 
 function updateStats() {
 

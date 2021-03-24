@@ -13,6 +13,5 @@ function compileHandlebars() {
 		.pipe( plugins.rename( 'index.html' ) )
 		.pipe( gulp.dest( getBaseDir() ) );
 }
-gulp.task( 'compile-handlebars', compileHandlebars );
 
 exports.compileHandlebars = compileHandlebars;
