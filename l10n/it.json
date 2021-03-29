@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Anto",
 			"Beta16",
 			"Fitoschido",
@@ -18,6 +19,8 @@
 	"app-links": {
 		"title": "Scarica Wikipedia per Android o iOS",
 		"description": "Salva le tue voci preferite da leggere offline, sincronizza i tuoi elenchi di lettura su tutti i dispositivi e personalizza la tua esperienza di lettura con l'applicazione ufficiale di Wikipedia.",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store",
 		"url": "https://it.wikipedia.org/wiki/Lista_di_applicazioni_mobile_di_Wikipedia"
 	},
 	"license": "Questa pagina è disponibile in base alla licenza <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribuzione-Condividi allo stesso modo</a>",
