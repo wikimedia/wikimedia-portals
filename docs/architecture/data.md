@@ -21,7 +21,7 @@
 
 In order to populate the wikipedia.org page with up-to-date article counts and translation strings, we use three sources of data:
 
-1. **Page-count data** retrieved from Wikimedia Labs database replicas, by [page-counts.json](https://github.com/MaxSem/pagecounts), a tool hosted on Wikimedia toolForge that retrieves article counts of all Wikimedia projects, and outputs them in JSON format.
+1. **Page-count data** retrieved from Wikimedia Toolforge database replicas, by [page-counts.json](https://github.com/MaxSem/pagecounts), a tool hosted on Wikimedia Toolforge that retrieves article counts of all Wikimedia projects, and outputs them in JSON format.
 2. **Page-View data** retrieved from the [Wikimedia data dumps](https://dumps.wikimedia.org/other/pageviews/) by the `site-stats.js` script in the `data` folder. This script pulls down the hourly page-view data (formatted as CSV) for each project and places them in the `cache` folder. The script then parses the data, which is used to order the top-ten links around the globe.
 3. **l10n** strings retrieved from translatewiki, which get pushed to the repo by an automated bot and placed in the `l10n` folder at the root of the repo.
 
