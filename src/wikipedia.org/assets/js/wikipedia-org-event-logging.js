@@ -1,5 +1,5 @@
 /* eslint camelcase: ["error", {properties: "never"}] */
-/* global eventLoggingLite, wmTest, addEvent */
+/* global eventLoggingLite, wmTest */
 
 ( function ( eventLoggingLite, wmTest ) {
 
@@ -243,13 +243,13 @@
 	/**
 	 * Adding event listeners to DOM load, document click, and forms
 	 */
-	addEvent( document, 'click', interceptClick );
-	addEvent( document, 'change', interceptChange );
+	document.addEventListener( 'click', interceptClick );
+	document.addEventListener( 'change', interceptChange );
 
 	docForms = document.getElementsByTagName( 'form' );
 
 	for ( n = 0; n < docForms.length; n++ ) {
-		addEvent( docForms[ n ], 'submit', interceptForm );
+		docForms[ n ].addEventListener( 'submit', interceptForm );
 	}
 
 	/**
@@ -267,9 +267,9 @@
 		} else {
 			portalSchema.defaults.country = country;
 		}
-		addEvent( window, 'load', interceptLandingEvent );
+		window.addEventListener( 'load', interceptLandingEvent );
 	}
 
-	addEvent( window, 'load', interceptLandingEvent );
+	window.addEventListener( 'load', interceptLandingEvent );
 
 }( eventLoggingLite, wmTest ) );

@@ -1,4 +1,4 @@
-/* global wmTest, WMTypeAhead, _, addEvent */
+/* global wmTest, WMTypeAhead, _ */
 
 ( function ( wmTest, WMTypeAhead ) {
 
@@ -18,7 +18,7 @@
 	/**
 	 * Attaching type-ahead query action to 'input' event.
 	 */
-	addEvent( searchInput, inputEvent, _.debounce( function () {
+	searchInput.addEventListener( inputEvent, _.debounce( function () {
 		typeAhead.query( searchInput.value, document.getElementById( 'searchLanguage' ).value );
 	}, 100 ) );
 

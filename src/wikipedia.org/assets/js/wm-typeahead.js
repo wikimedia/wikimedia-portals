@@ -18,7 +18,7 @@
  *
  */
 
-/* global addEvent, getDevicePixelRatio */
+/* global getDevicePixelRatio */
 
 window.WMTypeAhead = function ( appendTo, searchInput ) {
 
@@ -393,9 +393,9 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 			// Attaching hover events
 			for ( i = 0; i < typeAheadItems.length; i++ ) {
 				listEl = typeAheadItems[ i ];
-				// Requires the addEvent global polyfill
-				addEvent( listEl, 'mouseenter', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
-				addEvent( listEl, 'mouseleave', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
+				// Requires the global polyfill
+				listEl.addEventListener( 'mouseenter', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
+				listEl.addEventListener( 'mouseleave', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
 			}
 		};
 	};
@@ -443,7 +443,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 		}
 	}
 
-	addEvent( searchEl, 'keydown', keyboardEvents );
+	searchEl.addEventListener( 'keydown', keyboardEvents );
 
 	window.addEventListener( 'click', function ( event ) {
 		var target = event.target.closest( '#search-form' );

@@ -22,32 +22,6 @@ if ( window.Element && !Element.prototype.matches ) {
 
 window.attachedEvents = [];
 
-function addEvent( obj, evt, fn ) {
-
-	if ( !obj ) {
-		return;
-	}
-
-	if ( obj.addEventListener ) {
-		obj.addEventListener( evt, fn, false );
-	} else if ( obj.attachEvent ) {
-		attachedEvents.push( [ obj, evt, fn ] );
-		obj.attachEvent( 'on' + evt, fn );
-	}
-}
-
-function removeEvent( obj, evt, fn ) {
-
-	if ( !obj ) {
-		return;
-	}
-
-	if ( obj.removeEventListener ) {
-		obj.removeEventListener( evt, fn );
-	} else if ( obj.detachEvent ) {
-		obj.detachEvent( 'on' + evt, fn );
-	}
-}
 
 /**
  * Queues the given function to be called once the DOM has finished loading.
@@ -56,8 +30,8 @@ function removeEvent( obj, evt, fn ) {
  */
 function doWhenReady( fn ) {
 	var ready = function () {
-		removeEvent( document, 'DOMContentLoaded', ready );
-		removeEvent( window, 'load', ready );
+		document.removeEventListener( 'DOMContentLoaded', ready );
+		window.removeEventListener( 'load', ready );
 		fn();
 		fn = function() {};
 	};
@@ -67,8 +41,8 @@ function doWhenReady( fn ) {
 		fn();
 	} else {
 		// Wait until the DOM or whole page loads, whichever comes first.
-		addEvent( document, 'DOMContentLoaded', ready );
-		addEvent( window, 'load', ready );
+		document.addEventListener( 'DOMContentLoaded', ready );
+		window.addEventListener( 'load', ready );
 	}
 }
 

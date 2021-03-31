@@ -1,4 +1,4 @@
-/* global addEvent, wmTest */
+/* global wmTest */
 /*
  * The following functions open and close the language list
  * via the language drop-down button.
@@ -46,7 +46,7 @@
 		toggleActiveClass();
 	}
 
-	addEvent( langButton, 'click', function () {
+	langButton.addEventListener( 'click', function () {
 		toggleActiveClass();
 	} );
 
