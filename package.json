@@ -6,7 +6,9 @@
 		"test": "gulp -- lint",
 		"build-all-portals": "gulp -- lint && gulp -- update-stats && gulp --portal=all -- fetch-meta && gulp --portal=wikipedia.org -- default"
 	},
-	"pre-commit": ["test"],
+	"pre-commit": [
+		"test"
+	],
 	"devDependencies": {
 		"bluebird": "^3.7.2",
 		"bundlesize": "^0.18.1",
