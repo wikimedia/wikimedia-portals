@@ -195,6 +195,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 			extendedl10n = [
 				'language-button-text',
 				'footer-description',
+				'footer-donate',
 				'app-links',
 				'license',
 				'terms',
