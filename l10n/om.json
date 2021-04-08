@@ -2,12 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Ahrada2016",
+			"Lalise2021",
 			"Oromoo"
 		]
 	},
 	"language-name": "Afaan Oromoo",
+	"language-name-romanized": "Ingiliffaa",
 	"language-name-romanized-sorted": "Oromoo, Afaan",
 	"language-button-text": "Wikipiidiyaa afaan keen dubbisi",
+	"app-links": {
+		"title": "Wikipediyaa gaffe'i Andirooyidiif ykn iOS"
+	},
 	"terms": "Waliigaltee fayyadamaa",
 	"Privacy Policy": "Imaammata mateenyaa",
 	"search-input-button": "Barbaadi",
@@ -16,7 +21,7 @@
 		"name": "Wikipedia"
 	},
 	"wiktionary": {
-		"name": "Wiktionary",
+		"name": "Wiikshinarii",
 		"slogan": "Galmee jechoota kan bilisaa"
 	},
 	"wikibooks": {

@@ -10,12 +10,15 @@
 	"language-button-text": "ዊኪፐድያ ኣብ ቋንቋኻ ኣንብብ",
 	"app-links": {
 		"title": "ዊኪፐድያ ንAndroid ወይ iOS ኣውርድ",
+		"google-store": "ጉግል ፕለይ ስቶር",
+		"apple-store": "ኣፕል ኣፕ ስቶር",
 		"url": "https://ti.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"terms": "ናይ ኣጠቓቕማ ኩነታት",
 	"Privacy Policy": "ናይ ስትረት ሕጊ",
 	"search-input-button": "ምድላይ",
 	"search-input-label": "ኣብ ውሽጢ ዊኪፐድያ ድለይ",
+	"other-languages-label": "ካልኦት ቋንቋታት",
 	"wiki": {
 		"name": "ዊኪፐድያ",
 		"slogan": "ናጻ ኢንሳይክሎፐድያ",
@@ -23,14 +26,17 @@
 	},
 	"wiktionary": {
 		"name": "ዊኪ-መዝገበ-ቃላት",
-		"slogan": "ናጻ መዝገበ-ቃላት"
+		"slogan": "ናጻ መዝገበ-ቃላት",
+		"entries": "መእተዊታት"
 	},
 	"wikibooks": {
 		"name": "ዊኪመጻሕፍቲ",
+		"slogan": "ናጻ መምሃሪ መጻሕፍቲ",
 		"entries": "ገጻት"
 	},
 	"wikinews": {
 		"name": "ዊኪዜና",
+		"slogan": "ናጻ ምንጪ ዜና",
 		"entries": "ጽሑፋት"
 	},
 	"wikiquote": {
