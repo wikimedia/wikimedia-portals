@@ -52,24 +52,16 @@ gulp.task( 'validate-postCSS', validatePostCSS );
 
 gulp.task( 'lint-css', gulp.series( 'validate-postCSS', lintCSS ) );
 
-const { inlineAssets, cleanProdJS, copyTranslationFiles, concatMinifyJS, minifyHTML, copyImages, createProdSymlink} = require( './prod' ) ;
+const { inlineAssets, cleanProdJS, copyTranslationFiles, concatMinifyJS, minifyHTML, copyImages, createProdSymlink } = require( './prod' );
 
 /**
  * Lint JS in src folder as well as in root folder.
  *
  * @return {Stream}
  */
-function lintJS() {
-	var srcFolder = 'src/**/*.js';
-	if ( portalParam ) {
-		// Only run on this portal files.
-		srcFolder = 'src/' + portalParam + '/**/*.js';
-	}
-	return gulp.src( [ '*.js', srcFolder ] )
-		.pipe( plugins.eslint7() )
-		.pipe( plugins.eslint7.format() )
-		.pipe( plugins.eslint7.failAfterError() );
-}
+
+const { lintJS } = require( './javascript' );
+
 gulp.task( 'lint-js', lintJS );
 
 function updateStats() {
