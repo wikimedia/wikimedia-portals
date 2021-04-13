@@ -3,7 +3,8 @@ var gulp = require( 'gulp' ),
 	plugins = gulpLoadPlugins(),
     del = require( 'del' ),
     argv = require( 'yargs' ).argv,
-    portalParam = argv.portal;
+    portalParam = argv.portal,
+	cssnano = require('cssnano');
 
 const { requirePortalParam, getBaseDir, getConfig ,getProdDir} = require( './config' );
 
@@ -17,13 +18,18 @@ function inlineAssets() {
 
 	requirePortalParam();
 
+	const preset = {
+		preset : [
+			'default', {
+				discardComments: {
+					removeAll: true,
+				}
+			}]
+	};
+
 	return gulp.src( getBaseDir() + 'index.html' )
 		.pipe( plugins.inline( {
-			css: plugins.cssnano.bind( this, {
-				discardComments: {
-					removeAll: true
-				}
-			} ),
+			css: plugins.postcss.bind(this, [(cssnano(preset))]),
 			disabledTypes: [ 'svg', 'img', 'js' ]
 		} ) )
 		.pipe( gulp.dest( getProdDir() ) );
