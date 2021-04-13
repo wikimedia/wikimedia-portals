@@ -411,6 +411,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 		var e = event || window.event,
 			keycode = e.which || e.keyCode,
 			suggestionItems,
+			suggestiontitle,
 			searchSuggestionIndex;
 
 		if ( !typeAheadEl.firstChild ) {
@@ -425,6 +426,10 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 			} else {
 				searchSuggestionIndex = ssActiveIndex.increment( -1 );
 			}
+
+			// (T279994) NewFeature:-Autofill search suggestion by using key up and key down event
+			suggestiontitle = suggestionItems[ searchSuggestionIndex ].firstChild.childNodes[ 0 ];
+			searchEl.value = suggestiontitle.textContent;
 
 			activeItem = ( suggestionItems ) ? suggestionItems[ searchSuggestionIndex ] : false;
 
