@@ -2,7 +2,6 @@
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	argv = require( 'yargs' ).argv,
-	siteStats = require( '../data/site-stats' ),
 	fs = require( 'fs' ),
 	del = require( 'del' ),
 	plugins = gulpLoadPlugins(),
@@ -64,12 +63,8 @@ const { lintJS } = require( './javascript' );
 
 gulp.task( 'lint-js', lintJS );
 
-function updateStats() {
+const { updateStats } = require( './stats' );
 
-	return siteStats.getSiteStats().then( function ( stats ) {
-		fs.writeFileSync( './data/site-stats.json', JSON.stringify( stats, null, '\t' ) );
-	} );
-}
 gulp.task( 'update-stats', updateStats );
 
 function fetchMeta() {
