@@ -1,13 +1,10 @@
 /* eslint-env node, es6 */
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
-	argv = require( 'yargs' ).argv,
 	fs = require( 'fs' ),
 	del = require( 'del' ),
 	plugins = gulpLoadPlugins(),
-	gulpSlash = require( 'gulp-slash' ),
-	preq = require( 'preq' ),
-	portalParam = argv.portal;
+	gulpSlash = require( 'gulp-slash' );
 
 /**
  * @external Stream
@@ -21,7 +18,7 @@ gulp.task( 'help', help );
 /* Preliminary configuration
  =========================================================================== */
 
-const { requirePortalParam, getBaseDir, getProdDir, getConfig } = require( './config' );
+const { requirePortalParam, getBaseDir, getConfig } = require( './config' );
 
 /* List of tasks
  =========================================================================== */

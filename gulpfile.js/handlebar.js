@@ -1,6 +1,6 @@
 var gulp = require( 'gulp' ),
-gulpLoadPlugins = require( 'gulp-load-plugins' ),
-plugins = gulpLoadPlugins();
+	gulpLoadPlugins = require( 'gulp-load-plugins' ),
+	plugins = gulpLoadPlugins();
 
 const { requirePortalParam, getBaseDir, getConfig } = require( './config' );
 

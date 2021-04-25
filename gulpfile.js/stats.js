@@ -1,6 +1,5 @@
-var gulp = require( 'gulp' ),
-siteStats = require( '../data/site-stats' ),
-fs = require( 'fs' );
+var siteStats = require( '../data/site-stats' ),
+	fs = require( 'fs' );
 
 function updateStats() {
 

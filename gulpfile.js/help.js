@@ -1,7 +1,5 @@
-var gulp = require( 'gulp' );
-
 // Help
-function help(cb) {
+function help( cb ) {
 	const helpinfo = `
 	+-------------------------------------------------------------------------------------------------+
 	|                                     =====  USAGE =====                                          |
@@ -20,8 +18,8 @@ function help(cb) {
 	|                                                                                                 |
 	| gulp fetch-meta --portal wikipedia.org      - overwrite the portal page with source from Meta   |
 	+-------------------------------------------------------------------------------------------------+
-	                                                                                                   `
-	console.log(helpinfo);
+	                                                                                                   `;
+	console.log( helpinfo );
 	cb();
 }
 

@@ -6,8 +6,7 @@ var gulp = require( 'gulp' ),
 	postCSSReporter = require( 'postcss-reporter' ),
 	gulpStylelint = require( 'gulp-stylelint' );
 
-
-const { requirePortalParam, getBaseDir, getConfig } = require( './config' );
+const { requirePortalParam, getBaseDir } = require( './config' );
 
 function postCSS() {
 

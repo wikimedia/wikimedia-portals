@@ -10,7 +10,7 @@ function lintJS() {
 		// Only run on this portal files.
 		srcFolder = 'src/' + portalParam + '/**/*.js';
 	}
-	return gulp.src( [ '*.js', srcFolder ] )
+	return gulp.src( [ 'gulpfile.js/*js', '*.js', srcFolder ] )
 		.pipe( plugins.eslint7() )
 		.pipe( plugins.eslint7.format() )
 		.pipe( plugins.eslint7.failAfterError() );

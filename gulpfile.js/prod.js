@@ -1,12 +1,12 @@
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	plugins = gulpLoadPlugins(),
-    del = require( 'del' ),
-    argv = require( 'yargs' ).argv,
-    portalParam = argv.portal,
-	cssnano = require('cssnano');
+	del = require( 'del' ),
+	argv = require( 'yargs' ).argv,
+	portalParam = argv.portal,
+	cssnano = require( 'cssnano' );
 
-const { requirePortalParam, getBaseDir, getConfig ,getProdDir} = require( './config' );
+const { requirePortalParam, getBaseDir, getConfig, getProdDir } = require( './config' );
 
 /**
  * Inline assets of index.html in src folder
@@ -19,17 +19,17 @@ function inlineAssets() {
 	requirePortalParam();
 
 	const preset = {
-		preset : [
+		preset: [
 			'default', {
 				discardComments: {
-					removeAll: true,
+					removeAll: true
 				}
-			}]
+			} ]
 	};
 
 	return gulp.src( getBaseDir() + 'index.html' )
 		.pipe( plugins.inline( {
-			css: plugins.postcss.bind(this, [(cssnano(preset))]),
+			css: plugins.postcss.bind( this, [ ( cssnano( preset ) ) ] ),
 			disabledTypes: [ 'svg', 'img', 'js' ]
 		} ) )
 		.pipe( gulp.dest( getProdDir() ) );
@@ -103,7 +103,7 @@ function minifyHTML() {
  *
  * @return {Stream}
  */
- function copyImages() {
+function copyImages() {
 
 	var conf = getConfig();
 	requirePortalParam();
@@ -117,17 +117,17 @@ function minifyHTML() {
  *
  * @return {Stream}
  */
- function createProdSymlink() {
+function createProdSymlink() {
 	return gulp.src( getProdDir() )
 		.pipe( gulp.symlink( getProdDir() + '/portal',
 			{ relativeSymlinks: true }
 		) );
 }
 
-exports.inlineAssets = inlineAssets ;
-exports.cleanProdJS = cleanProdJS ;
-exports.copyTranslationFiles = copyTranslationFiles ;
-exports.concatMinifyJS = concatMinifyJS ;
-exports.minifyHTML = minifyHTML ;
-exports.copyImages = copyImages ;
-exports.createProdSymlink = createProdSymlink ;
+exports.inlineAssets = inlineAssets;
+exports.cleanProdJS = cleanProdJS;
+exports.copyTranslationFiles = copyTranslationFiles;
+exports.concatMinifyJS = concatMinifyJS;
+exports.minifyHTML = minifyHTML;
+exports.copyImages = copyImages;
+exports.createProdSymlink = createProdSymlink;
