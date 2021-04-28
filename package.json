@@ -4,6 +4,9 @@
 		"start": "gulp update-stats && gulp watch --portal=wikipedia.org & npm run dev-server",
 		"dev-server": "es-dev-server --app-index ./src/wikipedia.org/index.html --preserve-symlinks=true --watch --open",
 		"test": "gulp -- lint",
+		"lint:fix": "npm -s run lint:styles -- --fix && npm -s run lint:js -- --fix",
+		"lint:styles": "stylelint 'src/*/assets/postcss/*.css'",
+		"lint:js": "eslint '**/*.js'",
 		"build-all-portals": "gulp -- lint && gulp -- update-stats && gulp --portal=all -- fetch-meta && gulp --portal=wikipedia.org -- default"
 	},
 	"pre-commit": [
