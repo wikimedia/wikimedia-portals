@@ -45,7 +45,7 @@
 		"postcss-reporter": "^6.0.1",
 		"pre-commit": "1.2.2",
 		"preq": "^0.5.14",
-		"stylelint-config-wikimedia": "0.10.1",
+		"stylelint-config-wikimedia": "0.10.3",
 		"sync-request": "^6.1.0",
 		"underscore": "^1.10.2",
 		"wikimedia-ui-base": "0.15.0",
