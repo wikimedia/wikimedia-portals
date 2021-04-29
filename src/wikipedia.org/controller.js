@@ -7,7 +7,7 @@ var _ = require( 'underscore' ),
 	otherProjects = require( './other-projects.json' ),
 	rtlLanguages = require( './rtl-languages.json' ),
 	crypto = require( 'crypto' ),
-	exec = require( 'child_process' ).execSync,
+	deleteFiles = require( '../../data/utils' ),
 	top100000List,
 	top100000Dropdown,
 	Controller,
@@ -113,7 +113,7 @@ function createTranslationFiles() {
 cachebuster = createTranslationsChecksum();
 
 if ( fs.existsSync( translationPath ) ) {
-	exec( 'find ' + translationPath + ' -mindepth 1 -delete' );
+	deleteFiles( translationPath, 1 );
 } else {
 	fs.mkdirSync( translationPath );
 }

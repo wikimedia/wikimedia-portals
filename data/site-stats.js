@@ -1,9 +1,9 @@
 var preq = require( 'preq' ),
 	BBPromise = require( 'bluebird' ),
 	moment = require( 'moment' ),
-	exec = require( 'child_process' ).exec,
 	fs = require( 'fs' ),
 	_ = require( 'underscore' ),
+	deleteFiles = require( './utils' ),
 
 	/**
  	* Number of days to generate the stats over
@@ -110,11 +110,7 @@ function generateFileList() {
 }
 
 function garbageCollect() {
-	exec( 'find cache -mtime +' + ( DAYS + 2 ) + ' -delete', function ( error ) {
-		if ( error ) {
-			console.error( 'Error deleting old cached stats', error ); // eslint-disable-line no-console
-		}
-	} );
+	deleteFiles( __dirname + '/../cache/', DAYS + 2 );
 }
 
 function getViewsData() {
