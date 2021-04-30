@@ -11,6 +11,7 @@
 	"language-name-romanized-sorted": "Bali",
 	"language-button-text": "Wacén Wikipédia ring basa ida dané",
 	"footer-description": "Wikipédia kakaryanin olih Wikimedia Foundation, silih tunggil sekaa sané nénten ngrereh bati taler madué akéh pakaryan lianan",
+	"footer-donate": "Ida prasida ngadukung pakaryan iraga antuk punia.",
 	"app-links": {
 		"title": "Unduh Wikipédia anggén Android utawi iOS",
 		"description": "Simpen suratan sané kasenengin anggén maca tanpa internét, ngayarin  wacakan baca druéné ring makasami sarana miwah patehang pengalaman baca druéné antuk panganggé aplikasi Wikipédia",
@@ -32,18 +33,18 @@
 		"entries": "suratan"
 	},
 	"wiktionary": {
-		"name": "Wiktionary",
+		"name": "Wikikruna",
 		"slogan": "Kamus Bébas",
 		"entries": "éntri"
 	},
 	"wikibooks": {
-		"name": "Wikipustaka",
+		"name": "Wikibuku",
 		"slogan": "Pustaka bébas",
 		"entries": "kaca"
 	},
 	"wikinews": {
 		"name": "Wikiorti",
-		"slogan": "Sumber warta bébas",
+		"slogan": "Sumber orti bébas",
 		"entries": "suratan"
 	},
 	"wikiquote": {
@@ -56,7 +57,7 @@
 		"slogan": "Pustaka bébas"
 	},
 	"wikiversity": {
-		"name": "Wikiversity",
+		"name": "Wikiversitas",
 		"slogan": "Bahan pelajahan bébas",
 		"entries": "sumber palajahan"
 	},
@@ -69,7 +70,7 @@
 		"slogan": "Poto sane bebas kaanggen lan liyané"
 	},
 	"wikispecies": {
-		"name": "Wikispésies",
+		"name": "Wikispésiés",
 		"slogan": "Tata cara soroh sané nénten madué paiketan"
 	},
 	"wikidata": {
@@ -77,11 +78,11 @@
 		"slogan": "Sarana kaweruhan sané nénten kaiket"
 	},
 	"mediawiki": {
-		"name": "MediaWiki",
+		"name": "MédiaWiki",
 		"slogan": "Aplikasi wiki bébas miwah malukar"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki",
+		"name": "Méta-Wiki",
 		"slogan": "Pabligbagan sekaa miwah dokuméntasi"
 	}
 }

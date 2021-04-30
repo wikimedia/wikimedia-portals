@@ -8,13 +8,15 @@
 			"Mguix",
 			"Ssola",
 			"Toniher",
-			"Vriullop"
+			"Vriullop",
+			"Xavier Dengra"
 		]
 	},
 	"language-name": "Català",
 	"language-name-romanized-sorted": "Catala",
 	"language-button-text": "Llegiu la Viquipèdia en la vostra llengua",
 	"footer-description": "La Viquipèdia està hostatjada per la Fundació Wikimedia, una organització sense afany de lucre que també hostatja altres projectes.",
+	"footer-donate": "Podeu agraïr i contribuir a la nostra feina amb un donatiu.",
 	"app-links": {
 		"title": "Baixeu Viquipèdia per a l’Android i l’iOS",
 		"description": "Deseu els vostres articles preferits per a llegir-los sense connexió, sincronitzeu les vostres llistes de lectura per diversos dispositius i personalitzeu l’experiència de lectura amb l’aplicació oficial de la Viquipèdia.",
@@ -52,7 +54,7 @@
 	},
 	"wikiquote": {
 		"name": "Viquidites",
-		"slogan": "Compendi de citacions lliure",
+		"slogan": "Portal de paremiologia i citacions lliure",
 		"entries": "articles"
 	},
 	"wikisource": {
@@ -73,12 +75,12 @@
 		"slogan": "Fotos i molt més, tot utilitzable lliurement"
 	},
 	"wikispecies": {
-		"name": "Wikispecies",
+		"name": "Viquiespècies",
 		"slogan": "Directori d’espècies lliure"
 	},
 	"wikidata": {
 		"name": "Wikidata",
-		"slogan": "Base de coneixements lliure"
+		"slogan": "Base de dades lliure"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",

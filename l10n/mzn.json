@@ -1,10 +1,13 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"فیروز"
+		]
 	},
 	"language-name": "مازِرونی",
 	"language-name-romanized": "Mäzeruni",
 	"language-name-romanized-sorted": "Mazeruni",
+	"footer-donate": "شما تونِنی مالی کمک جا امه کار جا حمایت هاکنین.",
 	"wiki": {
 		"name": "ویکی‌پدیا"
 	}
