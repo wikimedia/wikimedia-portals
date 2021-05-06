@@ -2,7 +2,6 @@
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	fs = require( 'fs' ),
-	del = require( 'del' ),
 	plugins = gulpLoadPlugins(),
 	gulpSlash = require( 'gulp-slash' );
 
@@ -18,7 +17,7 @@ gulp.task( 'help', help );
 /* Preliminary configuration
  =========================================================================== */
 
-const { requirePortalParam, getBaseDir, getConfig } = require( './config' );
+const { requirePortalParam, getConfig } = require( './config' );
 
 /* List of tasks
  =========================================================================== */
@@ -73,10 +72,9 @@ gulp.task( 'fetch-meta', fetchMeta );
  *
  * @return {Stream}
  */
-function cleanSprites() {
-	var conf = getConfig();
-	return del( [ conf.img.sprite.outputSVGGlob ] );
-}
+
+const { cleanSprites, createSvgSprite } = require( './sprites' );
+
 gulp.task( 'cleanSprites', cleanSprites );
 
 /**
@@ -88,38 +86,7 @@ gulp.task( 'cleanSprites', cleanSprites );
  *
  * @return {Stream}
  */
-function createSvgSprite() {
-	var conf = getConfig();
-	return gulp.src( conf.img.sprite.assets )
-		.pipe( plugins.svgSprite( {
-			shape: {
-				spacing: {
-					padding: 1
-				},
-				transform: [ 'svgo' ]
-			},
-			mode: {
-				css: {
-					layout: 'vertical',
-					sprite: '../' + conf.img.sprite.outputName + '.svg',
-					bust: true,
-					dimensions: true,
-					common: conf.img.sprite.cssPrefix,
-					render: {
-						css: {
-							dimensions: true,
-							dest: '../' + conf.img.sprite.outputCSS,
-							template: conf.img.sprite.template
-						}
-					}
-				}
-			},
-			variables: {
-				mapname: 'svg-sprite'
-			}
-		} ) )
-		.pipe( plugins.if( '*.svg', gulp.dest( getBaseDir() + 'assets/img/' ), gulp.dest( getBaseDir() + 'assets/css/' ) ) );
-}
+
 gulp.task( 'createSvgSprite', gulp.series( 'cleanSprites', createSvgSprite ) );
 
 gulp.task( 'svgSprite', gulp.series( 'createSvgSprite' ) );
