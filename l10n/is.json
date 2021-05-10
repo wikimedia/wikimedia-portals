@@ -10,14 +10,19 @@
 	"language-name-romanized-sorted": "Islenska",
 	"language-button-text": "Lesa Wikipediu á þínu tungumáli",
 	"footer-description": "Wikipedia er hýst af Wikimedia stofnuninni, samtökum sem eru rekin án hagnaðar og hýsa einnig önnur verkefni.",
+	"footer-donate": "Þú getur stutt við vinnu okkar með framlagi.",
 	"app-links": {
-		"title": "Sæktu Wikipedia-forrit fyrir Android eða iOS"
+		"title": "Sæktu Wikipedia-forrit fyrir Android eða iOS",
+		"description": "Vistaðu eftirlætisgreinarnar þínar til að lesa þær án nettengingar, samstilltu leslistana þína á milli tækja og aðlagðu lesumhverfið þitt til samræmis við opinbera Wikipedia-forritið.",
+		"google-store": "Google Play Store verslun",
+		"apple-store": "Apple App Store verslun"
 	},
 	"license": "Þessi síða er gerð tiltæk með <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike notkunarleyfinu</a>",
 	"terms": "Notkunarskilmálar",
 	"Privacy Policy": "Meðferð persónuupplýsinga",
 	"search-input-button": "Leita",
 	"search-input-label": "Leita á Wikipedia",
+	"other-languages-label": "Önnur tungumál",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Frjálsa alfræðiritið",
