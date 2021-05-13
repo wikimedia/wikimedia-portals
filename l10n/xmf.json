@@ -1,10 +1,79 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Narazeni"
+		]
 	},
 	"language-name": "მარგალური",
 	"language-name-romanized": "Margaluri",
+	"language-button-text": "იკითხით ვიკიპედია თქვან ნინაშა",
+	"footer-description": "ვიკიპედია ვაკომერციული ორგანიზაცია ფონდი ვიკიმედიაშით იმართჷ, ნამუთ დიო მუსხირენ პროექტის დუდენს.",
+	"app-links": {
+		"title": "გეგმოხარგეთ ვიკიპედია Android-შო დო iOS-შო",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store"
+	},
+	"terms": "გჷმორინაფაშ წესეფი",
+	"Privacy Policy": "კონფიდენციალურალაშ პოლიტიკა",
+	"search-input-button": "გორუა",
+	"search-input-label": "გორუა ვიკიპედიას",
+	"other-languages-label": "შხვა ნინეფი",
 	"wiki": {
-		"name": "ვიკიპედია"
+		"name": "ვიკიპედია",
+		"slogan": "დუდიშული ენციკლოპედია",
+		"entries": "სტატიეფი"
+	},
+	"wiktionary": {
+		"name": "ვიქსიკონი",
+		"slogan": "დუდიშული ლექსიკონი",
+		"entries": "დინნაჭარეფი"
+	},
+	"wikibooks": {
+		"name": "ვიკიწინგეფი",
+		"slogan": "დუდიშული ოხემანჯღვერეეფი",
+		"entries": "ხასჷლეფი"
+	},
+	"wikinews": {
+		"name": "ვიკისიახალეეფი",
+		"slogan": "დუდიშული სიახალეეფიშ წყუ",
+		"entries": "სტატიეფი"
+	},
+	"wikiquote": {
+		"name": "ვიკიციტატა",
+		"slogan": "ციტატეფიშ კოლექხია",
+		"entries": "სტატიეფი"
+	},
+	"wikisource": {
+		"name": "ვიკიწყუ",
+		"slogan": "დუდიშული ბიბლიოთეკა"
+	},
+	"wikiversity": {
+		"name": "ვიკივერსიტეტი",
+		"slogan": "დუდიშული ოგონათუე მასალეფი",
+		"entries": "დაგურაფალი რესურსეფი"
+	},
+	"wikivoyage": {
+		"name": "ვიკივოიაჟი",
+		"slogan": "დუდიშული რზაგემაწურაფალი"
+	},
+	"commons": {
+		"name": "ვიკიოწკარუე",
+		"slogan": "მედიაფაილეფიშ დუდიშული ოჩუაშე"
+	},
+	"wikispecies": {
+		"name": "ვიკიგვარობეფი",
+		"slogan": "ჯიშეფიშ დო გვარობეშიშ ოჩუაშე"
+	},
+	"wikidata": {
+		"name": "ვიკიმუნაჩემეფი",
+		"slogan": "დუდიშული რჩქინაშ ბაზა"
+	},
+	"mediawiki": {
+		"name": "მედიავიკი",
+		"slogan": "უფასე პროგრამული უნარღელჸუა"
+	},
+	"metawiki": {
+		"name": "მეტა-ვიკი",
+		"slogan": "ვიკიმედიაშ პროექტეფიშ კოორდინაცია"
 	}
 }

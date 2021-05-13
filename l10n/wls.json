@@ -1,0 +1,80 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lea.Fakauvea"
+		]
+	},
+	"language-button-text": "Lau te Wikipedia i tau lea",
+	"footer-description": "E fakaha'ele te Wikipedia e te kautahi o te Wikimedia Foundation.",
+	"footer-donate": "E lava hau tokoni falā mai ki te gaue.",
+	"app-links": {
+		"title": "Faka'aoga'i te Wikipedia i te Android pe iOS",
+		"description": "Taupau te 'u pāsina e ke fia lau pea fakatatau tona faka'aoga aki te app Wikipedia.",
+		"google-store": "Fale koloa Google Play",
+		"apple-store": "Fale koloa Apple App"
+	},
+	"license": "Ko te pāsina aeni e foaki atu i te\n<a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Lēkula faka'aoga",
+	"Privacy Policy": "Lēkula puipui",
+	"search-input-button": "Kumi",
+	"search-input-label": "Kumi i te Wikipedia",
+	"other-languages-label": "Lea kehekehe",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Te Tohi Fakailo Tau'ateaina",
+		"entries": "Fakamatala"
+	},
+	"wiktionary": {
+		"name": "Wikitionary",
+		"slogan": "Tohi kupu tau'ateaina",
+		"entries": "Kupu"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Tohi tau'ateaina",
+		"entries": "pāsina"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Talalogo tau'ateaina",
+		"entries": "fakamatala"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Taupau lea tau'ateaina",
+		"entries": "fakamatala"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Faletohi tau'ateaina"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Tohi 'ako tau'ateaina",
+		"entries": "Matapuna 'ako"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Tohi fai folau tau'ateaina"
+	},
+	"commons": {
+		"name": "Fakatahi",
+		"slogan": "Pāki faka'aoga'i noa"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Tohi va'ega manu tau'ateaina"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Tohi poto tau'ateaina"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Gaue wiki tau'ateaina"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Gaue fakatahi"
+	}
+}
