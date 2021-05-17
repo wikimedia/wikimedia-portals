@@ -4,7 +4,8 @@
 			"Ahonc",
 			"Movses",
 			"Piramidion",
-			"Vlad5250"
+			"Vlad5250",
+			"Ата"
 		]
 	},
 	"language-name": "Українська",
@@ -12,9 +13,12 @@
 	"language-name-romanized-sorted": "Ukrayinska",
 	"language-button-text": "Читайте Вікіпедію своєю мовою",
 	"footer-description": "Вікіпедія перебуває на серверах Фонду Вікімедіа — неприбуткової організації, що також опікується рядом інших проектів.",
+	"footer-donate": "Ви можете підтримати нашу роботу пожертвою.",
 	"app-links": {
 		"title": "Завантажити Вікіпедію під Андроід або iOS",
 		"description": "За допомогою офіційного мобільного додатку Вікіпедії ви зможете зберегти статті до списків читання офлайн, синхронізувати списки на різних пристроях та ін.",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store",
 		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Ця сторінка доступна на умовах ліцензії <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
@@ -24,6 +28,7 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/uk",
 	"search-input-button": "Пошук",
 	"search-input-label": "Пошук по Вікіпедії",
+	"other-languages-label": "Інші мови",
 	"wiki": {
 		"name": "Вікіпедія",
 		"slogan": "Вільна енциклопедія",

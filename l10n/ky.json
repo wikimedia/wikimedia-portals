@@ -1,20 +1,71 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Bosogo"
+		]
 	},
 	"language-name": "Кыргызча",
 	"language-name-romanized": "Kyrgyzča",
 	"language-name-romanized-sorted": "Kyrgyzca",
+	"language-button-text": "Уикипедияны өз тилиңизде окуңүз",
+	"app-links": {
+		"title": "Android же iOS үчүн Уикипедияны жүктөп алыңыз",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store"
+	},
+	"Privacy Policy": "Купуялык саясаты",
+	"search-input-button": "Издөө",
+	"search-input-label": "Уикипедиядан издөө",
+	"other-languages-label": "Башка тилдерде",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Уикипедия",
+		"slogan": "Ачык энциклопедия",
+		"entries": "макалалар"
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Уикисөздүк",
+		"slogan": "Ачык сөздүк"
 	},
 	"wikibooks": {
-		"name": "Wikibooks"
+		"name": "Уикикитептер",
+		"entries": "барактар"
+	},
+	"wikinews": {
+		"name": "Уикижаңылыктар",
+		"entries": "макалалар"
 	},
 	"wikiquote": {
-		"name": "Wikiquote"
+		"name": "Уикицитата",
+		"entries": "макалалар"
+	},
+	"wikisource": {
+		"name": "Уикикана",
+		"slogan": "Ачык китепкана"
+	},
+	"wikiversity": {
+		"name": "Уикиверситет",
+		"slogan": "Ачык окутуу курстары",
+		"entries": "билим берүү ресурстары"
+	},
+	"wikivoyage": {
+		"name": "Уикисаякат"
+	},
+	"commons": {
+		"name": "Уикикампа",
+		"slogan": "Эркин колдонула турган сүрөттөр жана башкалар"
+	},
+	"wikispecies": {
+		"name": "Уикитүрлөр"
+	},
+	"wikidata": {
+		"name": "Уикимаалыматтар",
+		"slogan": "Ачык билим базасы"
+	},
+	"mediawiki": {
+		"name": "МедиаУики",
+		"slogan": "Акысыз жана ачык уики тиркемеси"
+	},
+	"metawiki": {
+		"name": "Мета-Уики"
 	}
 }

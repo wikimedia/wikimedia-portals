@@ -6,6 +6,7 @@
 			"Elroy",
 			"Encycloon",
 			"Marcelhospers",
+			"Nickthijssen1994",
 			"Optilete",
 			"Pcoombe",
 			"Romaine",
@@ -19,7 +20,9 @@
 	"footer-donate": "U kunt ons werk steunen met een donatie.",
 	"app-links": {
 		"title": "Download de Wikipedia-app voor Android of iOS",
-		"description": "Sla uw favoriete artikelen op om offline te lezen, synchroniseer uw leeslijsten met andere apparaten en pas uw leeservaring aan met de officiële Wikipedia-app."
+		"description": "Sla uw favoriete artikelen op om offline te lezen, synchroniseer uw leeslijsten met andere apparaten en pas uw leeservaring aan met de officiële Wikipedia-app.",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store"
 	},
 	"license": "Deze pagina is beschikbaar onder de <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike-licentie</a>",
 	"terms": "Gebruiksvoorwaarden",
@@ -28,13 +31,14 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/nl",
 	"search-input-button": "Zoeken",
 	"search-input-label": "In Wikipedia zoeken",
+	"other-languages-label": "Andere talen",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "De vrije encyclopedie",
 		"entries": "pagina's"
 	},
 	"wiktionary": {
-		"name": "WikiWoordenboek",
+		"name": "Wiktionary",
 		"slogan": "Het vrije woordenboek",
 		"entries": "pagina's"
 	},
