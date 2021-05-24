@@ -8,9 +8,12 @@
 	},
 	"language-button-text": "Чытайце Вікіпэдыю сваёй мовай",
 	"footer-description": "Вікіпэдыя кіраваная Фундацыяй Вікімэдыі, некамэрцыйнай арганізацыяй, якая таксама кіруе шэрагам іншых праектаў.",
+	"footer-donate": "Можаце падтрымаць нашую працу ахвяраваньнем.",
 	"app-links": {
 		"title": "Спампаваць Вікіпэдыю для Андроіда або iOS",
 		"description": "Захавайце вашыя ўлюбёныя артыкулы для чытаньня ў аўтаномным рэжыме, сынхранізуйце сьпісы чытаньня на розных прыладах і наладзьце свой досьвед чытаньня з дапамогай афіцыйнай праграмы Вікіпэдыі.",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store",
 		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 	},
 	"license": "Гэтая старонка даступная пад ліцэнзіяй <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
@@ -19,6 +22,7 @@
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/be-tarask",
 	"search-input-button": "Пошук",
 	"search-input-label": "Пошук у Вікіпэдыі",
+	"other-languages-label": "Іншыя мовы",
 	"wiki": {
 		"name": "Вікіпэдыя",
 		"slogan": "Вольная энцыкляпэдыя",

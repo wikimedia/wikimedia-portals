@@ -4,6 +4,7 @@
 			"A Chinese Wikipedian",
 			"Irati",
 			"Liuxinyu970226",
+			"Shizhao",
 			"VulpesVulpes825",
 			"Zhang8569"
 		]
@@ -13,6 +14,7 @@
 	"language-name-romanized-sorted": "Jiantizhongwen",
 	"language-button-text": "在您的语言中阅读维基百科",
 	"footer-description": "维基百科由非盈利组织维基媒体基金会管理，它还拥有一系列其他项目。",
+	"footer-donate": "您可以捐款支持我们的工作。",
 	"app-links": {
 		"title": "下载iOS或安卓版维基百科应用：",
 		"description": "用官方维基百科应用来保存您喜爱的文章以便离线阅读，在设备之间同步您的阅读列表，和自定义您的阅读体验。",
@@ -35,18 +37,18 @@
 	},
 	"wiktionary": {
 		"name": "维基词典",
-		"slogan": "自由的多语言词典",
+		"slogan": "自由的词典",
 		"entries": "词条"
 	},
 	"wikibooks": {
 		"name": "维基教科书",
-		"slogan": "自由的教学读本",
-		"entries": "教科书"
+		"slogan": "自由的教材",
+		"entries": "页面"
 	},
 	"wikinews": {
 		"name": "维基新闻",
 		"slogan": "自由的新闻源",
-		"entries": "新闻稿"
+		"entries": "文章"
 	},
 	"wikiquote": {
 		"name": "维基语录",
@@ -60,7 +62,7 @@
 	"wikiversity": {
 		"name": "维基学院",
 		"slogan": "自由的研习社群",
-		"entries": "学习项目"
+		"entries": "学习资源"
 	},
 	"wikivoyage": {
 		"name": "维基导游",
@@ -68,7 +70,7 @@
 	},
 	"commons": {
 		"name": "共享资源",
-		"slogan": "自由使用的照片以及更多"
+		"slogan": "自由使用的照片等"
 	},
 	"wikispecies": {
 		"name": "维基物种",
