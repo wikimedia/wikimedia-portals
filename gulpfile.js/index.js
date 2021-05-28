@@ -10,11 +10,6 @@ const { help } = require( './help' );
 
 gulp.task( 'help', help );
 
-/* Preliminary configuration
- =========================================================================== */
-
-const { requirePortalParam, getConfig } = require( './config' );
-
 /* List of tasks
  =========================================================================== */
 
@@ -107,15 +102,8 @@ const { updateURLsToPurge } = require( './scap-urls' );
  * - postCSS files
  * into src folder.
  */
-function watch() {
+const { watch } = require( './dev' );
 
-	requirePortalParam();
-
-	gulp.watch( getConfig().watch.sprites, gulp.parallel( 'svgSprite' ) );
-	gulp.watch( getConfig().watch.hb, gulp.parallel( 'compile-handlebars' ) );
-	gulp.watch( getConfig().watch.postcss, gulp.parallel( 'postcss' ) );
-
-}
 gulp.task( 'watch', gulp.series( 'svgSprite', 'compile-handlebars', 'postcss', watch ) );
 
 gulp.task( 'lint', gulp.series( 'lint-js', 'lint-css' ) );
