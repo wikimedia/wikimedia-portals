@@ -8,9 +8,12 @@
 	"language-name-romanized-sorted": "Interlingua",
 	"language-button-text": "Lege Wikipedia in tu lingua",
 	"footer-description": "Wikipedia es albergate per le Fundation Wikimedia, un organisation sin scopo lucrative que etiam alberga un varietate de altere projectos.",
+	"footer-donate": "Tu pote sustener nostre travalio con un donation.",
 	"app-links": {
 		"title": "Discarga Wikipedia pro Android o iOS",
-		"description": "Salveguarda tu articulos favorite pro leger los sin connexion, synchronisa tu listas de lectura inter apparatos e personalisa tu experientia de lectura con le app official de Wikipedia."
+		"description": "Salveguarda tu articulos favorite pro leger los sin connexion, synchronisa tu listas de lectura inter apparatos e personalisa tu experientia de lectura con le app official de Wikipedia.",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store"
 	},
 	"license": "Iste pagina es disponibile sub le licentia <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Conditiones de uso",
@@ -18,6 +21,7 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ia",
 	"search-input-button": "Cercar",
 	"search-input-label": "Cercar in Wikipedia",
+	"other-languages-label": "Altere linguas",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Le encyclopedia libere",
