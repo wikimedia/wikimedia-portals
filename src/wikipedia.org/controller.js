@@ -14,7 +14,14 @@ var _ = require( 'underscore' ),
 	cachebuster,
 	siteStats,
 	range,
-	translationPath = __dirname + '/assets/l10n/';
+	translationPath = __dirname + '/assets/l10n/',
+	l10n = require( '../../l10n/en.json' ); // These will be global values
+
+// This is specific to Wikipedia.
+l10n.portal = l10n.wiki;
+
+// For resolving space issues of handlebar
+l10n[ 'privacy-policy' ] = l10n[ 'Privacy Policy' ];
 
 // Format the dropdown for ./templates/search.mustache
 top100000List = stats.getRange( 'wiki', 'numPages', 100000 );
@@ -132,7 +139,8 @@ Controller = {
 	rtlLanguages: rtlLanguages,
 	// The only "advantage" to do this instead of JSON.stringify is to get single quotes.
 	rtlLanguagesStringified: '[\'' + rtlLanguages.join( '\',\'' ) + '\']',
-	translationChecksum: cachebuster
+	translationChecksum: cachebuster,
+	l10n
 };
 
 module.exports = Controller;
