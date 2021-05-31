@@ -2,28 +2,28 @@
 	"language-name": "English",
 	"language-name-romanized": "English",
 	"language-name-romanized-sorted": "English",
-	"language-button-text": "Read Wikipedia in your language",
-	"footer-description": "Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.",
 	"footer-donate": "You can support our work with a donation.",
-	"app-links": {
-		"title": "Download Wikipedia for Android or iOS",
-		"description": "Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Terms of Use",
-	"Privacy Policy": "Privacy Policy",
+	"privacy-policy": "Privacy Policy",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"search-input-button": "Search",
-	"search-input-label": "Search Wikipedia",
 	"other-languages-label": "Other languages",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "The Free Encyclopedia",
-		"entries": "articles"
+		"entries": "articles",
+		"search-input-label": "Search Wikipedia",
+		"language-button-text": "Read Wikipedia in your language",
+		"footer-description": "Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.",
+		"app-links": {
+			"title": "Download Wikipedia for Android or iOS",
+			"description": "Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
