@@ -10,7 +10,9 @@
 	"language-button-text": "Irakurri Wikipedia zeure hizkuntzan",
 	"footer-description": "Wikipedia Wikimedia Fundazioaren ostatupean dago, irabazi asmorik gabeko erakunde bat beste hainbat proiektu ere babesten dituena",
 	"app-links": {
-		"title": "Wikipedia deskargatu Android edo iOS-erako"
+		"title": "Wikipedia deskargatu Android edo iOS-erako",
+		"google-store": "Google Play Store",
+		"apple-store": "Apple App Store"
 	},
 	"license": "Webgune hau <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike lizentziapean</a> eskuragarri dago",
 	"terms": "Erabilera baldintzak",
@@ -19,6 +21,7 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/eu",
 	"search-input-button": "Bilatu",
 	"search-input-label": "Bilatu Wikipedian",
+	"other-languages-label": "Beste hizkuntzak",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Entziklopedia askea",
