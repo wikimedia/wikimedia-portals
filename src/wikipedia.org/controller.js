@@ -20,9 +20,6 @@ var _ = require( 'underscore' ),
 // This is specific to Wikipedia.
 l10n.portal = l10n.wiki;
 
-// For resolving space issues of handlebar
-l10n[ 'privacy-policy' ] = l10n[ 'Privacy Policy' ];
-
 // Format the dropdown for ./templates/search.mustache
 top100000List = stats.getRange( 'wiki', 'numPages', 100000 );
 top100000Dropdown = stats.format( 'wiki', top100000List, {

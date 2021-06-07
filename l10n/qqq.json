@@ -13,28 +13,28 @@
 	"language-name": "The name of '''your''' language in its native script.\n\nIf a Wikimedia project in your language (such as your language’s Wikipedia) is written in more than one script, include all the scripts separated by <code>&nbsp;/&nbsp;</code>. For example, include all the scripts if MediaWiki automatically transliterates between them, or if there are many articles in each script, or if the main page features both scripts prominently.\n\n'''Important:''' Do not use your language’s word for “English”. Use the word that your language uses to refer to itself. If you translate this message to mean “English” in your language, your change will be reverted.\n{{Identical|English}}",
 	"language-name-romanized": "The '''romanized''' version of the name of '''your''' language. Do not translate this message if your language is written using a Latin alphabet.\n\n'''Important:''' Do not use your language’s word for “English”. Use the word that your language uses to refer to itself. If you translate this message to mean “English” in your language, your change will be reverted.\n\n'''Important:''' This message must be romanized – that is, it should use a Latin alphabet rather than your language’s usual script. If you change this message to a script other than Latin, your change will be reverted.\n{{Identical|English}}",
 	"language-name-romanized-sorted": "The romanized version of a language name, sorted in alphabetical, left-to-right order, without diacritics. For many languages, a grammatical article or the word for 'language' may normally appear before the language name; move this word to the end for sorting purposes. For example, romanized Arabic is 'Al-ʿArabīyah', whereas the sorted, romanized version is 'Arabiyah, Al'.\n\n'''Important:''' Do not use your language’s word for “English”. Use the word that your language uses to refer to itself. If you translate this message to mean “English” in your language, your change will be reverted.\n\n'''Warning:''' However, you should use the English alphabet (i.e. only A(a) - Z(z) are accepted), even if your language is usually written either with diacritics or in a different script. If you change this message to either with diacritics or a script other than Latin, your change will be reverted.\n\n'''Important:''' This message should be in ASCII if possible. It also should not begin with a word meaning “the” or “language”.\n{{Identical|English}}",
-	"language-button-text": "Text for the language dropdown button",
-	"footer-description": "Text that appears beside the sister project links in the footer on www.wikipedia.org",
 	"footer-donate": "Text that appears in the footer on www.wikipedia.org. Will be linked to donate.wikimedia.org",
-	"app-links": {
-		"title": "Title of that app link section on wikipedia.org",
-		"description": "Description of the Wikipedia mobile apps",
-		"google-store": "Title of the Google Play Store",
-		"apple-store": "Title of the Apple App Store",
-		"url": "The url of an article that lists all available Wikipedia apps. The link URL should be <code><nowiki>https://(your language code).wikipedia.org/wiki/List_of_Wikipedia_mobile_applications</nowiki></code> when available.\n\nThe English Wikipedia page is https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "License text, use <code><nowiki>https://creativecommons.org/licenses/by-sa/3.0/deed.(your language code)</nowiki></code> to show the translation of license.",
 	"terms": "Terms of Use\n{{Identical|Terms of use}}",
-	"Privacy Policy": "Privacy Policy\n{{Identical|Privacy policy}}",
+	"privacy-policy": "Privacy Policy\n{{Identical|Privacy policy}}",
 	"terms-link": "{{Optional}}\n\nThe URL of the translated Terms of service page. Like <code><nowiki>https://meta.wikimedia.org/wiki/Terms_of_use/</nowiki>{{UILANGCODE}}</code> but be certain that a translation exists.",
 	"privacy-policy-link": "{{Optional}}\n\nThe URL of the translated Privacy policy page. Like <code><nowiki>https://meta.wikimedia.org/wiki/Privacy_policy/</nowiki>{{UILANGCODE}}</code> but be certain that a translation exists.",
 	"search-input-button": "Label for search button\n{{Identical|Search}}",
-	"search-input-label": "The label for the main search input",
 	"other-languages-label": "The label of the link to a list of all Wikipedia: [[Special:MyLanguage/List_of_Wikipedias|List of Wikipedias]]",
 	"wiki": {
 		"name": "Label for Wikipedia\n{{Identical|Wikipedia}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikipedia slogan",
-		"entries": "The name of a content page on Wikipedia, pluralized. For example, in english: articles.\n{{Identical|Article}}"
+		"entries": "The name of a content page on Wikipedia, pluralized. For example, in english: articles.\n{{Identical|Article}}",
+		"search-input-label": "The label for the main search input for searching Wikipedia",
+		"language-button-text": "Text for the language dropdown button",
+		"footer-description": "Text that appears beside the sister project links in the footer on www.wikipedia.org",
+		"app-links": {
+			"title": "Title of that app link section on wikipedia.org",
+			"description": "Description of the Wikipedia mobile apps",
+			"google-store": "Title of the Google Play Store",
+			"apple-store": "Title of the Apple App Store",
+			"url": "The URL of an article that lists all available Wikipedia apps. The link URL should be <code><nowiki>https://(your language code).wikipedia.org/wiki/List_of_Wikipedia_mobile_applications</nowiki></code> when available.\n\nThe English Wikipedia page is https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Label for Wiktionary\n{{Identical|Wiktionary}}\n{{Related|Portals.name}}",
