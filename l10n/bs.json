@@ -7,20 +7,20 @@
 		]
 	},
 	"language-name": "Bosanski",
-	"language-button-text": "Čitajte Wikipediju na svom jeziku",
-	"footer-description": "Wikipediju pruža Zadužbina Wikimedia, neprofitna organizacija koja također udomljuje niz drugih projekata.",
-	"app-links": {
-		"title": "Sad su dostupne Wikipedijine aplikacije:"
-	},
 	"license": "Stranica je dostupna pod licencom <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Autorstvo-Dijeliti pod istim uvjetima</a>.",
 	"terms": "Uslovi korištenja",
-	"Privacy Policy": "Pravila o privatnosti",
+	"privacy-policy": "Pravila o privatnosti",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/bs",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/bs",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Slobodna enciklopedija",
-		"entries": "članaka"
+		"entries": "članaka",
+		"language-button-text": "Čitajte Wikipediju na svom jeziku",
+		"footer-description": "Wikipediju pruža Zadužbina Wikimedia, neprofitna organizacija koja također udomljuje niz drugih projekata.",
+		"app-links": {
+			"title": "Sad su dostupne Wikipedijine aplikacije:"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikirječnik",

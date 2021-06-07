@@ -9,21 +9,21 @@
 	},
 	"language-name": "Удмурт",
 	"language-name-romanized": "Udmurt",
-	"language-button-text": "Лыдӟе Википедиез ас кылады",
-	"footer-description": "Википедиен кузёяське Викимедиа Фонд — табышантэм организация, кудӥз озьы ик кузёяське куд-ог мукет проектъёсын.",
-	"app-links": {
-		"title": "Android'лы но iOS'лы Wikipedia кысконо",
-		"description": "Яратоно статьяостэ вотэстэк соосты лыдӟыны вылысь утьылэ, лэсьтэтъёс куспады лыдӟон лыдметъёстэс вӧлмытэ но официал Wikipedia ватсэтэн лыдӟемдэс тупатэ."
-	},
 	"license": "Та бам <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ru'>Creative Commons Attribution-ShareAlike лицензиен</a> учкымон",
 	"terms": "Кутон Тупанкыл",
-	"Privacy Policy": "Лушкемлык Политика",
+	"privacy-policy": "Лушкемлык Политика",
 	"search-input-button": "Утчан",
-	"search-input-label": "Википедиысь утчаськон",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Эрико энциклопедия",
-		"entries": "статья"
+		"entries": "статья",
+		"search-input-label": "Википедиысь утчаськон",
+		"language-button-text": "Лыдӟе Википедиез ас кылады",
+		"footer-description": "Википедиен кузёяське Викимедиа Фонд — табышантэм организация, кудӥз озьы ик кузёяське куд-ог мукет проектъёсын.",
+		"app-links": {
+			"title": "Android'лы но iOS'лы Wikipedia кысконо",
+			"description": "Яратоно статьяостэ вотэстэк соосты лыдӟыны вылысь утьылэ, лэсьтэтъёс куспады лыдӟон лыдметъёстэс вӧлмытэ но официал Wikipedia ватсэтэн лыдӟемдэс тупатэ."
+		}
 	},
 	"wiktionary": {
 		"name": "Вики-кылбугор",

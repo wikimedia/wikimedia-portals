@@ -5,11 +5,11 @@
 			"Mashoi7"
 		]
 	},
-	"language-button-text": "Luve Wikipediedy omal kielel",
 	"wiki": {
 		"name": "Wikipedii",
 		"slogan": "Välly tiedosanakniigu",
-		"entries": "kirjutustu"
+		"entries": "kirjutustu",
+		"language-button-text": "Luve Wikipediedy omal kielel"
 	},
 	"wiktionary": {
 		"name": "Wikisanakniigu",

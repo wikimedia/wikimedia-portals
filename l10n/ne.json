@@ -10,23 +10,23 @@
 	"language-name": "नेपाली",
 	"language-name-romanized": "Nepālī",
 	"language-name-romanized-sorted": "Nepali",
-	"language-button-text": "विकिपिडिया आफ्नो भाषामा पढ्नुहोस्",
-	"footer-description": "विकिपिडिया विकिमिडिया गैह्र-मुनाफा कमाउने विकिमिडिया फाउन्डेसनद्वारा सञ्चालित छ, जसले अरू धेरै आयोजनाहरू पनि सञ्चालन गर्दछ।",
-	"app-links": {
-		"title": "एण्ड्रोइड वा आइओएसको लागि विकिपिडिया डाउनलोड गर्नुहोस्",
-		"description": "तपाईँले मन पराउनुभएको लेखहरू अफलाइनमा साँच्नुहोस्, उपकरणहरू बीच पाठ्यसूची समक्रमण गर्नुहोस् र पढाईका आफ्ना अनुभवहरूलाई विकिपिडियाको आधिकारिक एपद्वारा अनुकुलन गर्नुहोस्।"
-	},
 	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/3.0/'>क्रियटिभ कमन्स- एट्रिब्युसन-सेयरअलाइक लाइसेन्स</a>",
 	"terms": "प्रयोगका सर्तहरू",
-	"Privacy Policy": "गोपनीयता नीति",
+	"privacy-policy": "गोपनीयता नीति",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ne",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ne",
 	"search-input-button": "खोज्नुहोस्",
-	"search-input-label": "विकिपिडियामा खोज्नुहोस्",
 	"wiki": {
 		"name": "विकिपिडिया",
 		"slogan": "स्वतन्त्र  ज्ञानकोष",
-		"entries": "लेखहरू"
+		"entries": "लेखहरू",
+		"search-input-label": "विकिपिडियामा खोज्नुहोस्",
+		"language-button-text": "विकिपिडिया आफ्नो भाषामा पढ्नुहोस्",
+		"footer-description": "विकिपिडिया विकिमिडिया गैह्र-मुनाफा कमाउने विकिमिडिया फाउन्डेसनद्वारा सञ्चालित छ, जसले अरू धेरै आयोजनाहरू पनि सञ्चालन गर्दछ।",
+		"app-links": {
+			"title": "एण्ड्रोइड वा आइओएसको लागि विकिपिडिया डाउनलोड गर्नुहोस्",
+			"description": "तपाईँले मन पराउनुभएको लेखहरू अफलाइनमा साँच्नुहोस्, उपकरणहरू बीच पाठ्यसूची समक्रमण गर्नुहोस् र पढाईका आफ्ना अनुभवहरूलाई विकिपिडियाको आधिकारिक एपद्वारा अनुकुलन गर्नुहोस्।"
+		}
 	},
 	"wiktionary": {
 		"name": "विक्सनरी",

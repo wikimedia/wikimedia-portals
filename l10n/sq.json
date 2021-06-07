@@ -5,11 +5,11 @@
 		]
 	},
 	"language-name": "Shqip",
-	"language-button-text": "Lexo Wikipedian në gjuhën tuaj",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "enciklopedia e lirë",
-		"entries": "artikuj"
+		"entries": "artikuj",
+		"language-button-text": "Lexo Wikipedian në gjuhën tuaj"
 	},
 	"wiktionary": {
 		"name": "WikiFjalori",

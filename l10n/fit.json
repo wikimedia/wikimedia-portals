@@ -7,18 +7,18 @@
 	"language-name": "meänkieli",
 	"language-name-romanized": "meänkieli",
 	"language-name-romanized-sorted": "meänkieli",
-	"language-button-text": "Lue Wikipeetiaa sinun kielelä",
-	"app-links": {
-		"title": "Lattaa Wikipeetia Androidile eli iOSle"
-	},
 	"terms": "Käyttöehdot",
-	"Privacy Policy": "Tietosuojakäytäntö",
+	"privacy-policy": "Tietosuojakäytäntö",
 	"search-input-button": "Hae",
-	"search-input-label": "Hae Wikipeetiasta",
 	"wiki": {
 		"name": "Wikipeetia",
 		"slogan": "Vapaa tietosanakirja",
-		"entries": "artikkelit"
+		"entries": "artikkelit",
+		"search-input-label": "Hae Wikipeetiasta",
+		"language-button-text": "Lue Wikipeetiaa sinun kielelä",
+		"app-links": {
+			"title": "Lattaa Wikipeetia Androidile eli iOSle"
+		}
 	},
 	"wikibooks": {
 		"name": "Wikipipluteekki"

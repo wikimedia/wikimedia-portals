@@ -12,26 +12,26 @@
 	"language-name": "Slovenčina",
 	"language-name-romanized": "Angličtina",
 	"language-name-romanized-sorted": "Angličtina",
-	"language-button-text": "Prečítajte si Wikipédiu vo svojom jazyku",
-	"footer-description": "Wikipédiu prevádzkuje nezisková nadácia Wikimedia Foundation, ktorá spravuje aj veľa iných projektov.",
 	"footer-donate": "Našu prácu môžete podporiť finančným darom.",
-	"app-links": {
-		"title": "Stiahnúť aplikáciu Wikipédia pre Android alebo iOS",
-		"description": "Uložte si svoje obľúbené články, aby ste ich mohli čítať aj bez pripojenia k internetu, synchronizujte zoznamy na prečítanie naprieč rôznymi zariadeniami a prispôsobte si zážitok z čítania prostredníctvom oficiálnej aplikácie Wikipédie.",
-		"google-store": "Obchod Google Play",
-		"apple-store": "Obchod Apple App"
-	},
 	"license": "Táto stránka je dostupná pod licenciou <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Podmienky používania",
-	"Privacy Policy": "Zásady ochrany súkromia",
+	"privacy-policy": "Zásady ochrany súkromia",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/sk",
 	"search-input-button": "Hľadať",
-	"search-input-label": "Hľadať na Wikipédii",
 	"other-languages-label": "Iné jazyky",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "Slobodná encyklopédia",
-		"entries": "článkov"
+		"entries": "článkov",
+		"search-input-label": "Hľadať na Wikipédii",
+		"language-button-text": "Prečítajte si Wikipédiu vo svojom jazyku",
+		"footer-description": "Wikipédiu prevádzkuje nezisková nadácia Wikimedia Foundation, ktorá spravuje aj veľa iných projektov.",
+		"app-links": {
+			"title": "Stiahnúť aplikáciu Wikipédia pre Android alebo iOS",
+			"description": "Uložte si svoje obľúbené články, aby ste ich mohli čítať aj bez pripojenia k internetu, synchronizujte zoznamy na prečítanie naprieč rôznymi zariadeniami a prispôsobte si zážitok z čítania prostredníctvom oficiálnej aplikácie Wikipédie.",
+			"google-store": "Obchod Google Play",
+			"apple-store": "Obchod Apple App"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikislovník",

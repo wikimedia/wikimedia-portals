@@ -9,14 +9,14 @@
 	"language-name": "Արեւմտահայերէն",
 	"language-name-romanized": "Arevmdahayeren",
 	"language-name-romanized-sorted": "Arevmdahayeren",
-	"language-button-text": "Կարդացէ՛ք Ուքիփետիան Ձեր լեզուով",
-	"Privacy Policy": "Մտերմութեան Ապահովագիր",
+	"privacy-policy": "Մտերմութեան Ապահովագիր",
 	"search-input-button": "Որոնել",
-	"search-input-label": "Որոնել Վիքիպետիա կայքին մէջ",
 	"wiki": {
 		"name": "Ուիքիփետիա",
 		"slogan": "Ազատ հանրագիտարան",
-		"entries": "յօդուածներ"
+		"entries": "յօդուածներ",
+		"search-input-label": "Որոնել Վիքիպետիա կայքին մէջ",
+		"language-button-text": "Կարդացէ՛ք Ուքիփետիան Ձեր լեզուով"
 	},
 	"wiktionary": {
 		"name": "Ուիքիբառարան",

@@ -5,8 +5,10 @@
 			"Dnshitobu"
 		]
 	},
-	"app-links": {
-		"google-store": "Google Play Shitɔɣu",
-		"apple-store": "Apple App Shitɔɣu"
+	"wiki": {
+		"app-links": {
+			"google-store": "!!FUZZY!!Google Play Shitɔɣu",
+			"apple-store": "Apple App Shitɔɣu"
+		}
 	}
 }

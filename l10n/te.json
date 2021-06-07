@@ -9,23 +9,23 @@
 	},
 	"language-name": "తెలుగు",
 	"language-name-romanized": "Telugu",
-	"language-button-text": "వికీపీడియాను మీ భాషలో చదవండి",
-	"footer-description": "వికీపీడియాను వికీమీడియా ఫౌండేషను హోస్టు చేస్తోంది. ఇదొక లాభాపేక్ష లేని సంస్థ. ఇది అనేక ఇతర ప్రాజెక్టులను కూడా హోస్టు చేస్తోంది.",
-	"app-links": {
-		"title": "Android లేదా iOS కోసం వికీపీడియాను దింపుకోండి",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "ఈ పేజీ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> కు లోబడి లభిస్తోంది",
 	"terms": "వాడుక నియమాలు",
-	"Privacy Policy": "అంతరంగికతా విధానం",
+	"privacy-policy": "అంతరంగికతా విధానం",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/te",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/te",
 	"search-input-button": "వెతుకు",
-	"search-input-label": "వికీపీడియాలో వెతకండి",
 	"wiki": {
 		"name": "వికీపీడియా",
 		"slogan": "ఒక స్వేచ్ఛా విజ్ఞాన సర్వస్వం",
-		"entries": "వ్యాసాలు"
+		"entries": "వ్యాసాలు",
+		"search-input-label": "వికీపీడియాలో వెతకండి",
+		"language-button-text": "వికీపీడియాను మీ భాషలో చదవండి",
+		"footer-description": "వికీపీడియాను వికీమీడియా ఫౌండేషను హోస్టు చేస్తోంది. ఇదొక లాభాపేక్ష లేని సంస్థ. ఇది అనేక ఇతర ప్రాజెక్టులను కూడా హోస్టు చేస్తోంది.",
+		"app-links": {
+			"title": "Android లేదా iOS కోసం వికీపీడియాను దింపుకోండి",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "విక్షనరీ",

@@ -6,18 +6,18 @@
 	},
 	"language-name": "Саха Тыла",
 	"language-name-romanized": "Saxa Tyla",
-	"language-button-text": "Бикипиэдьийэни бэйэҥ тылгынан аах",
-	"footer-description": "Бикипиэдьийэни уонна атын атылыы бырайыактары Бикимиэдьийэ Пуондата диэн барыһы киллэриммэт тэрилтэ салайар.",
 	"license": "Бу сирэй <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike лиссиэнсийэнэн</a> тарҕанар",
 	"terms": "Туһаныы сиэрэ",
-	"Privacy Policy": "Кистээһин сиэрэ",
+	"privacy-policy": "Кистээһин сиэрэ",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ru",
 	"search-input-button": "Бул",
-	"search-input-label": "Бикипиэдьийэттэн булуу",
 	"wiki": {
 		"name": "Бикипиэдьийэ",
 		"slogan": "Аһаҕас энциклопедия",
-		"entries": "ыстатыйалаах"
+		"entries": "ыстатыйалаах",
+		"search-input-label": "Бикипиэдьийэттэн булуу",
+		"language-button-text": "Бикипиэдьийэни бэйэҥ тылгынан аах",
+		"footer-description": "Бикипиэдьийэни уонна атын атылыы бырайыактары Бикимиэдьийэ Пуондата диэн барыһы киллэриммэт тэрилтэ салайар."
 	},
 	"wiktionary": {
 		"name": "Биики Тылдьыт",

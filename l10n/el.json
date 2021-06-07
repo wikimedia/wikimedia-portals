@@ -14,23 +14,23 @@
 	"language-name": "Ελληνικά",
 	"language-name-romanized": "Ellīniká",
 	"language-name-romanized-sorted": "Ellinika",
-	"language-button-text": "Διαβάστε την Wikipedia στη γλώσσα σας",
-	"footer-description": "Η Wikipedia φιλοξενείται από το Wikimedia Foundation, ένα μη κερδοσκοπικό οργανισμό που φιλοξενεί επίσης μια σειρά από άλλα εγχειρήματα.",
-	"app-links": {
-		"title": "Κατεβάστε τη Βικιπαίδεια για Android ή iOS",
-		"description": "Αποθηκεύστε τα αγαπημένα σας λήμματα για να διαβάσετε εκτός σύνδεσης, συγχρονίστε τις λίστες ανάγνωσης σε όλες τις συσκευές και προσαρμόστε την εμπειρία ανάγνωσής σας με την επίσημη εφαρμογή Wikipedia."
-	},
 	"license": "Αυτή η σελίδα είναι διαθέσιμη υπό την <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Όροι χρήσης",
-	"Privacy Policy": "Πολιτική ιδιωτικού απορρήτου",
+	"privacy-policy": "Πολιτική ιδιωτικού απορρήτου",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/el",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/el",
 	"search-input-button": "Αναζήτηση",
-	"search-input-label": "Αναζήτηση στη Βικιπαίδεια",
 	"wiki": {
 		"name": "Βικιπαίδεια",
 		"slogan": "Η Ελεύθερη Εγκυκλοπαίδεια",
-		"entries": "λήμματα"
+		"entries": "λήμματα",
+		"search-input-label": "Αναζήτηση στη Βικιπαίδεια",
+		"language-button-text": "Διαβάστε την Wikipedia στη γλώσσα σας",
+		"footer-description": "Η Wikipedia φιλοξενείται από το Wikimedia Foundation, ένα μη κερδοσκοπικό οργανισμό που φιλοξενεί επίσης μια σειρά από άλλα εγχειρήματα.",
+		"app-links": {
+			"title": "Κατεβάστε τη Βικιπαίδεια για Android ή iOS",
+			"description": "Αποθηκεύστε τα αγαπημένα σας λήμματα για να διαβάσετε εκτός σύνδεσης, συγχρονίστε τις λίστες ανάγνωσης σε όλες τις συσκευές και προσαρμόστε την εμπειρία ανάγνωσής σας με την επίσημη εφαρμογή Wikipedia."
+		}
 	},
 	"wiktionary": {
 		"name": "Βικιλεξικό",

@@ -14,28 +14,28 @@
 	"language-name": "한국어",
 	"language-name-romanized": "Hangugeo",
 	"language-name-romanized-sorted": "한국어",
-	"language-button-text": "내 언어로 위키백과 읽기",
-	"footer-description": "위키백과는 다른 여러 프로젝트들도 운영하는 비영리 단체인 위키미디어 재단이 운영합니다.",
 	"footer-donate": "후원을 통해 저희의 업무를 지원하실 수 있습니다.",
-	"app-links": {
-		"title": "안드로이드 또는 iOS용 위키백과 다운로드",
-		"description": "공식 위키백과 앱을 사용하여 즐겨찾는 기사를 저장하여 오프라인에서 읽고, 읽기 목록을 장치간에 동기화하고, 읽기 환경을 사용자 정의하십시오.",
-		"google-store": "구글 플레이 스토어",
-		"apple-store": "애플 앱 스토어",
-		"url": "https://ko.wikipedia.org/wiki/위키백과_모바일_애플리케이션_목록"
-	},
 	"license": "이 화면은 <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ko'>크리에이티브 커먼즈 저작자표시-동일조건변경허락 라이선스</a> 하에서 이용 가능합니다.",
 	"terms": "이용 약관",
-	"Privacy Policy": "개인정보보호정책",
+	"privacy-policy": "개인정보보호정책",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ko",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ko",
 	"search-input-button": "검색",
-	"search-input-label": "위키백과 검색",
 	"other-languages-label": "다른 언어",
 	"wiki": {
 		"name": "위키백과",
 		"slogan": "우리 모두의 백과사전",
-		"entries": "문서"
+		"entries": "문서",
+		"search-input-label": "위키백과 검색",
+		"language-button-text": "내 언어로 위키백과 읽기",
+		"footer-description": "위키백과는 다른 여러 프로젝트들도 운영하는 비영리 단체인 위키미디어 재단이 운영합니다.",
+		"app-links": {
+			"title": "안드로이드 또는 iOS용 위키백과 다운로드",
+			"description": "공식 위키백과 앱을 사용하여 즐겨찾는 기사를 저장하여 오프라인에서 읽고, 읽기 목록을 장치간에 동기화하고, 읽기 환경을 사용자 정의하십시오.",
+			"google-store": "구글 플레이 스토어",
+			"apple-store": "애플 앱 스토어",
+			"url": "https://ko.wikipedia.org/wiki/위키백과_모바일_애플리케이션_목록"
+		}
 	},
 	"wiktionary": {
 		"name": "위키낱말사전",

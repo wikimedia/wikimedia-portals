@@ -6,12 +6,12 @@
 	},
 	"language-name": "Avañe’ẽ",
 	"language-name-romanized-sorted": "Avanee",
-	"language-button-text": "Emoñe'ẽ Vikipetã ne ñe'ẽme",
-	"footer-description": "Vikipetã niko Wikimedia Foundation mba'e, peteĩ amandaje avei oguerekóva heta ambue ñanduti rogue.",
 	"wiki": {
 		"name": "Vikipetã",
 		"slogan": "Kuatiañe'ẽ isãsóva",
-		"entries": "haipykuéra"
+		"entries": "haipykuéra",
+		"language-button-text": "Emoñe'ẽ Vikipetã ne ñe'ẽme",
+		"footer-description": "Vikipetã niko Wikimedia Foundation mba'e, peteĩ amandaje avei oguerekóva heta ambue ñanduti rogue."
 	},
 	"wiktionary": {
 		"name": "Wiktionary",

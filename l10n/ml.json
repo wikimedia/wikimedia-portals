@@ -8,15 +8,15 @@
 	},
 	"language-name": "മലയാളം",
 	"language-name-romanized": "Malayalam",
-	"language-button-text": "വിക്കിപീഡിയ താങ്കളുടെ ഭാഷയിൽ വായിക്കുക",
 	"terms": "ഉപയോഗനിബന്ധനകൾ",
-	"Privacy Policy": "സ്വകാര്യതാനയം",
+	"privacy-policy": "സ്വകാര്യതാനയം",
 	"search-input-button": "തിരയുക",
-	"search-input-label": "വിക്കിപീഡിയയിൽ തിരയുക",
 	"wiki": {
 		"name": "വിക്കിപീഡിയ",
 		"slogan": "ഒരു സ്വതന്ത്ര വിജ്ഞാനകോശം",
-		"entries": "ലേഖനങ്ങൾ"
+		"entries": "ലേഖനങ്ങൾ",
+		"search-input-label": "വിക്കിപീഡിയയിൽ തിരയുക",
+		"language-button-text": "വിക്കിപീഡിയ താങ്കളുടെ ഭാഷയിൽ വായിക്കുക"
 	},
 	"wiktionary": {
 		"name": "വിക്കിനിഘണ്ടു",

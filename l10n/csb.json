@@ -6,18 +6,18 @@
 	},
 	"language-name": "Kaszëbsczi",
 	"language-name-romanized-sorted": "Kaszebsczi",
-	"language-button-text": "Czëtôj Wikipedijã w swòjim jãzëkù",
-	"footer-description": "Wikipedijô je hòstowónô przez Fundacëjã Wikimedia, bezzwëskòwą òrganizacëjã, chrtërnô téż prowadzy wiele jinnych ùdbów.",
-	"app-links": {
-		"title": "Aplikacëje Wikipediji są ju przistãpné:"
-	},
 	"license": "Hewòtnô starna je dostãpny na licencëji<a href='https://creativecommons.org/licenses/by-sa/3.0/deed.pl'>Creative Commons Ùznanié ùsôdztwa-Na tich sómych prawach</a>",
 	"terms": "Warënczi kòrzëstaniô",
-	"Privacy Policy": "Priwatnota",
+	"privacy-policy": "Priwatnota",
 	"wiki": {
 		"name": "Wikipedijô",
 		"slogan": "Wòlnô Encyklopedijô",
-		"entries": "artiklów"
+		"entries": "artiklów",
+		"language-button-text": "Czëtôj Wikipedijã w swòjim jãzëkù",
+		"footer-description": "Wikipedijô je hòstowónô przez Fundacëjã Wikimedia, bezzwëskòwą òrganizacëjã, chrtërnô téż prowadzy wiele jinnych ùdbów.",
+		"app-links": {
+			"title": "Aplikacëje Wikipediji są ju przistãpné:"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikisłowôrz",

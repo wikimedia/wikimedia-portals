@@ -7,20 +7,20 @@
 	"language-name": "Кыргызча",
 	"language-name-romanized": "Kyrgyzča",
 	"language-name-romanized-sorted": "Kyrgyzca",
-	"language-button-text": "Уикипедияны өз тилиңизде окуңүз",
-	"app-links": {
-		"title": "Android же iOS үчүн Уикипедияны жүктөп алыңыз",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store"
-	},
-	"Privacy Policy": "Купуялык саясаты",
+	"privacy-policy": "Купуялык саясаты",
 	"search-input-button": "Издөө",
-	"search-input-label": "Уикипедиядан издөө",
 	"other-languages-label": "Башка тилдерде",
 	"wiki": {
 		"name": "Уикипедия",
 		"slogan": "Ачык энциклопедия",
-		"entries": "макалалар"
+		"entries": "макалалар",
+		"search-input-label": "Уикипедиядан издөө",
+		"language-button-text": "Уикипедияны өз тилиңизде окуңүз",
+		"app-links": {
+			"title": "Android же iOS үчүн Уикипедияны жүктөп алыңыз",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
 	},
 	"wiktionary": {
 		"name": "Уикисөздүк",

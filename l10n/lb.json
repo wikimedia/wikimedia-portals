@@ -7,27 +7,27 @@
 	},
 	"language-name": "Lëtzebuergesch",
 	"language-name-romanized-sorted": "Letzebuergesch",
-	"language-button-text": "Liest Wikipedia an Ärer Sprooch",
-	"footer-description": "Wikipedia ass op de Servere vun der Wikimedia Foundation, enger Organisatioun ouni Gewënnzweck déi och fir eng Rei vun anere Projeten hier Serveren zur Verfügung stellt.",
 	"footer-donate": "Dir kënnt eis Aarbecht mat engem Don ënnerstëtzen.",
-	"app-links": {
-		"title": "Wikipedia fir Android oder iOS eroflueden",
-		"description": "Späichert Är Lieblingsartikelen fir se offline ze liesen, synchroniséiert Är Lieslëscht tëschent den Apparater a personaliséiert Äert Lieserliefness mat der offizielle Wikipedia App.",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store"
-	},
 	"license": "Dës Säit ass disponibel ënner der <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike Lizenz</a>",
 	"terms": "Benotzungs-Bedingungen",
-	"Privacy Policy": "Dateschutz",
+	"privacy-policy": "Dateschutz",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/lb",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/lb",
 	"search-input-button": "Sichen",
-	"search-input-label": "Op Wikipedia sichen",
 	"other-languages-label": "Aner Sproochen",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Déi fräi Enzyklopedie",
-		"entries": "Artikelen"
+		"entries": "Artikelen",
+		"search-input-label": "Op Wikipedia sichen",
+		"language-button-text": "Liest Wikipedia an Ärer Sprooch",
+		"footer-description": "Wikipedia ass op de Servere vun der Wikimedia Foundation, enger Organisatioun ouni Gewënnzweck déi och fir eng Rei vun anere Projeten hier Serveren zur Verfügung stellt.",
+		"app-links": {
+			"title": "Wikipedia fir Android oder iOS eroflueden",
+			"description": "Späichert Är Lieblingsartikelen fir se offline ze liesen, synchroniséiert Är Lieslëscht tëschent den Apparater a personaliséiert Äert Lieserliefness mat der offizielle Wikipedia App.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionnaire",

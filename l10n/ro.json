@@ -7,27 +7,27 @@
 	"language-name": "Română",
 	"language-name-romanized": "Română",
 	"language-name-romanized-sorted": "Română",
-	"language-button-text": "Citiți Wikipedia în limba dvs.",
-	"footer-description": "Wikipedia este găzduită de Wikimedia Foundation, o organizație non-profit care găzduiește de asemenea o varietate de alte proiecte.",
 	"footer-donate": "Ne puteți sprijini munca cu o donație.",
-	"app-links": {
-		"title": "Descarcă Wikipedia pentru Android sau iOS",
-		"description": "Salvați-vă articolele favorite pentru a citi offline, sincronizați-vă listele de lectură între dispozitive și personalizați-vă experiența de lectură cu aplicația oficială Wikipedia.",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store"
-	},
 	"license": "Această pagină este disponibilă sub licența <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ro'>Creative Commons cu atribuire și distribuire în condiții identice</a>",
 	"terms": "Termeni de utilizare",
-	"Privacy Policy": "Politica de confidențialitate",
+	"privacy-policy": "Politica de confidențialitate",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ro",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ro",
 	"search-input-button": "Căutare",
-	"search-input-label": "Căutare în Wikipedia",
 	"other-languages-label": "Alte limbi",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Enciclopedia liberă",
-		"entries": "articole"
+		"entries": "articole",
+		"search-input-label": "Căutare în Wikipedia",
+		"language-button-text": "Citiți Wikipedia în limba dvs.",
+		"footer-description": "Wikipedia este găzduită de Wikimedia Foundation, o organizație non-profit care găzduiește de asemenea o varietate de alte proiecte.",
+		"app-links": {
+			"title": "Descarcă Wikipedia pentru Android sau iOS",
+			"description": "Salvați-vă articolele favorite pentru a citi offline, sincronizați-vă listele de lectură între dispozitive și personalizați-vă experiența de lectură cu aplicația oficială Wikipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikționar",

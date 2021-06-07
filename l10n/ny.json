@@ -5,20 +5,20 @@
 		]
 	},
 	"language-name": "Chichewa",
-	"language-button-text": "Werengani Wikipedia m'chinenero chanu",
-	"footer-description": "Wikipedia imayang'aniridwa ndi Wikimedia Foundation, bungwe lopanda ntchito yomwe imapanganso ntchito zina zambiri.",
-	"app-links": {
-		"title": "Mapulogalamu a Wikipedia alipo tsopano:"
-	},
 	"license": "Tsamba ili likupezeka pansi pa<a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Mgwirizano pazakagwiritsidwe",
-	"Privacy Policy": "Mfundo Zazinsinsi",
+	"privacy-policy": "Mfundo Zazinsinsi",
 	"search-input-button": "Fufuzani",
-	"search-input-label": "Sakani Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Encyclopedia Yaulere",
-		"entries": "nkhani"
+		"entries": "nkhani",
+		"search-input-label": "Sakani Wikipedia",
+		"language-button-text": "Werengani Wikipedia m'chinenero chanu",
+		"footer-description": "Wikipedia imayang'aniridwa ndi Wikimedia Foundation, bungwe lopanda ntchito yomwe imapanganso ntchito zina zambiri.",
+		"app-links": {
+			"title": "Mapulogalamu a Wikipedia alipo tsopano:"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",

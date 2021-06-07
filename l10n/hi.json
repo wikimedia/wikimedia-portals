@@ -12,23 +12,23 @@
 	"language-name": "हिन्दी",
 	"language-name-romanized": "Hindī",
 	"language-name-romanized-sorted": "Hindi",
-	"language-button-text": "अपनी भाषा में विकिपीडिया पढ़ें",
-	"footer-description": "विकिपीडिया की मेजबानी विकिमीडिया फाउंडेशन द्वारा की गई है, एक गैर-लाभकारी संगठन जो अन्य परियोजनाओं की एक श्रृंखला भी होस्ट करता है",
-	"app-links": {
-		"title": "ऐंड्रौइड या आईओएस के लिये विकिपीडीया डाउनलोड करें",
-		"description": "अधिकारिक विकिपीडिया ऐप पर अपने पसंदीदा लेख बिना इंटरनेट के पढ़ने के लिये सहेजें, लेखों की सूचियों को सभी यंत्रों पर समकालीन बनाएं और पढ़ने के अपने अनुभव को अपने अनुकूल बनाएं।"
-	},
 	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/3.0/'>क्रिएटिव कॉमन्स एट्रिब्यूशन-शेयरअलाइक लाइसेंस</a>",
 	"terms": "उपयोग की शर्तें",
-	"Privacy Policy": "गोपनीयता नीति",
+	"privacy-policy": "गोपनीयता नीति",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/hi",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/hi",
 	"search-input-button": "खोजें",
-	"search-input-label": "विकिपीडिया में खोजें",
 	"wiki": {
 		"name": "विकिपीडिया",
 		"slogan": "मुक्त ज्ञानकोश",
-		"entries": "लेख"
+		"entries": "लेख",
+		"search-input-label": "विकिपीडिया में खोजें",
+		"language-button-text": "अपनी भाषा में विकिपीडिया पढ़ें",
+		"footer-description": "विकिपीडिया की मेजबानी विकिमीडिया फाउंडेशन द्वारा की गई है, एक गैर-लाभकारी संगठन जो अन्य परियोजनाओं की एक श्रृंखला भी होस्ट करता है",
+		"app-links": {
+			"title": "ऐंड्रौइड या आईओएस के लिये विकिपीडीया डाउनलोड करें",
+			"description": "अधिकारिक विकिपीडिया ऐप पर अपने पसंदीदा लेख बिना इंटरनेट के पढ़ने के लिये सहेजें, लेखों की सूचियों को सभी यंत्रों पर समकालीन बनाएं और पढ़ने के अपने अनुभव को अपने अनुकूल बनाएं।"
+		}
 	},
 	"wiktionary": {
 		"name": "विक्शनरी",

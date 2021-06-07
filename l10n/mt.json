@@ -5,19 +5,19 @@
 		]
 	},
 	"language-name": "Malti",
-	"language-button-text": "Aqra l-Wikipedija fil-lingwa tiegħek",
-	"footer-description": "Il-Wikipedija hija ospitata mill-Wikimedia Foundation, għaqda non-profit li tospita sensiela ta' proġetti oħra",
-	"app-links": {
-		"title": "Niżżel il-Wikipedija għall-Android jew iOS"
-	},
 	"license": "Din il-paġna hija disponibbli permezz ta' liċenzja <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a> (CC-by-SA 3.0)",
 	"terms": "Kundizzjonijiet tal-Użu",
-	"Privacy Policy": "Politika dwar il-privatezza",
+	"privacy-policy": "Politika dwar il-privatezza",
 	"search-input-button": "Fittex",
-	"search-input-label": "Fittex fuq il-Wikipedija",
 	"wiki": {
 		"name": "Wikipedija",
-		"slogan": "L-enċiklopedija l-ħielsa"
+		"slogan": "L-enċiklopedija l-ħielsa",
+		"search-input-label": "Fittex fuq il-Wikipedija",
+		"language-button-text": "Aqra l-Wikipedija fil-lingwa tiegħek",
+		"footer-description": "Il-Wikipedija hija ospitata mill-Wikimedia Foundation, għaqda non-profit li tospita sensiela ta' proġetti oħra",
+		"app-links": {
+			"title": "Niżżel il-Wikipedija għall-Android jew iOS"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikizzjunarju"

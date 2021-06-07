@@ -10,28 +10,28 @@
 		]
 	},
 	"language-name": "Svenska",
-	"language-button-text": "Läs Wikipedia på ditt språk",
-	"footer-description": "Wikipedia drivs av Wikimedia Foundation, en ideell organisation som också driver en rad andra projekt.",
 	"footer-donate": "Du kan stödja vårt arbete med ett bidrag.",
-	"app-links": {
-		"title": "Ladda ned Wikipedia för Android och iOS",
-		"description": "Spara dina favoritartiklar för att läsa dem utan uppkoppling, synkronisera dina läslistor över enheter och anpassa din läsupplevelse med den officiella Wikipedia-appen.",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "Denna sida är tillgänglig under licensen <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Erkännande-DelaLika</a>",
 	"terms": "Användarvillkor",
-	"Privacy Policy": "Integritetspolicy",
+	"privacy-policy": "Integritetspolicy",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/sv",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/sv",
 	"search-input-button": "Sök",
-	"search-input-label": "Sök på Wikipedia",
 	"other-languages-label": "Andra språk",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Den fria encyklopedin",
-		"entries": "artiklar"
+		"entries": "artiklar",
+		"search-input-label": "Sök på Wikipedia",
+		"language-button-text": "Läs Wikipedia på ditt språk",
+		"footer-description": "Wikipedia drivs av Wikimedia Foundation, en ideell organisation som också driver en rad andra projekt.",
+		"app-links": {
+			"title": "Ladda ned Wikipedia för Android och iOS",
+			"description": "Spara dina favoritartiklar för att läsa dem utan uppkoppling, synkronisera dina läslistor över enheter och anpassa din läsupplevelse med den officiella Wikipedia-appen.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",

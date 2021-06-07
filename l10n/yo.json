@@ -7,13 +7,13 @@
 	},
 	"language-name": "Yorùbá",
 	"language-name-romanized-sorted": "Yoruba",
-	"language-button-text": "Ẹ ka Wikipedia ní èdè yín",
-	"footer-description": "Wikipedia jẹ́ iṣẹ́-ọwọ́ Wikimedia Foundation, tó jẹ́ ẹgbẹ́ aláìṣiṣẹ́ fún owó tó tún únṣe àwọn iṣẹ́-ọwọ́ oríṣirísi míràn.",
-	"app-links": {
-		"title": "Àwọn ètò àmúlò Wikipedia ti wà báyìí:"
-	},
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"language-button-text": "Ẹ ka Wikipedia ní èdè yín",
+		"footer-description": "Wikipedia jẹ́ iṣẹ́-ọwọ́ Wikimedia Foundation, tó jẹ́ ẹgbẹ́ aláìṣiṣẹ́ fún owó tó tún únṣe àwọn iṣẹ́-ọwọ́ oríṣirísi míràn.",
+		"app-links": {
+			"title": "Àwọn ètò àmúlò Wikipedia ti wà báyìí:"
+		}
 	},
 	"wiktionary": {
 		"name": "Wíkìaṣètumọ̀",

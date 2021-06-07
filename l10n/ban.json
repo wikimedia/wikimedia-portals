@@ -9,28 +9,28 @@
 	"language-name": "Basa Bali",
 	"language-name-romanized": "Basa Bali",
 	"language-name-romanized-sorted": "Bali",
-	"language-button-text": "Wacén Wikipédia ring basa ida dané",
-	"footer-description": "Wikipédia kakaryanin olih Wikimedia Foundation, silih tunggil sekaa sané nénten ngrereh bati taler madué akéh pakaryan lianan",
 	"footer-donate": "Ida prasida ngadukung pakaryan iraga antuk punia.",
-	"app-links": {
-		"title": "Unduh Wikipédia anggén Android utawi iOS",
-		"description": "Simpen suratan sané kasenengin anggén maca tanpa internét, ngayarin  wacakan baca druéné ring makasami sarana miwah patehang pengalaman baca druéné antuk panganggé aplikasi Wikipédia",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "Kaca iki ana ing pangayomané <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lisènsi Atribusi-ShareAlike Creative Commons</a>",
 	"terms": "Tata cara yéning jagi nganggé",
-	"Privacy Policy": "kawicaksanaan padewekan",
+	"privacy-policy": "kawicaksanaan padewekan",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"search-input-button": "Rereh",
-	"search-input-label": "Rereh Wikipédia",
 	"other-languages-label": "Basa tiosan",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "Ensiklopedia Bébas",
-		"entries": "suratan"
+		"entries": "suratan",
+		"search-input-label": "Rereh Wikipédia",
+		"language-button-text": "Wacén Wikipédia ring basa ida dané",
+		"footer-description": "Wikipédia kakaryanin olih Wikimedia Foundation, silih tunggil sekaa sané nénten ngrereh bati taler madué akéh pakaryan lianan",
+		"app-links": {
+			"title": "Unduh Wikipédia anggén Android utawi iOS",
+			"description": "Simpen suratan sané kasenengin anggén maca tanpa internét, ngayarin  wacakan baca druéné ring makasami sarana miwah patehang pengalaman baca druéné antuk panganggé aplikasi Wikipédia",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikikruna",

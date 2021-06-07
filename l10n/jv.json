@@ -9,21 +9,21 @@
 	"language-name": "Jawa",
 	"language-name-romanized": "Jawa",
 	"language-name-romanized-sorted": "Jawa",
-	"language-button-text": "Waca Wikipédia ing basané panjenengan",
-	"footer-description": "Wikipédia iku darbéné Yeyasan Wikimédia, organisasi nirbathi sing uga ndarbéni sawenèh proyèk liya.",
-	"app-links": {
-		"title": "Undhuh Wikipédia kanggo Android utawa iOS",
-		"description": "Simpen artikel senenganmu kanggo diwaca ing njaban jaringan, sinkronaké dhaptar wacanmu ing akèh piranti lan atur pangalaman wacamu kalih aplikasi resmi Wikipédia."
-	},
 	"license": "Kaca iki ana ing pangayomané <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lisènsi Atribusi-DumSairib Creative Commons</a>",
 	"terms": "Pranatan Pangguna",
-	"Privacy Policy": "Niti Privasi",
+	"privacy-policy": "Niti Privasi",
 	"search-input-button": "Golèk",
-	"search-input-label": "Golèk ing Wikipédia",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "Bauwarna Mardika",
-		"entries": "artikel"
+		"entries": "artikel",
+		"search-input-label": "Golèk ing Wikipédia",
+		"language-button-text": "Waca Wikipédia ing basané panjenengan",
+		"footer-description": "Wikipédia iku darbéné Yeyasan Wikimédia, organisasi nirbathi sing uga ndarbéni sawenèh proyèk liya.",
+		"app-links": {
+			"title": "Undhuh Wikipédia kanggo Android utawa iOS",
+			"description": "Simpen artikel senenganmu kanggo diwaca ing njaban jaringan, sinkronaké dhaptar wacanmu ing akèh piranti lan atur pangalaman wacamu kalih aplikasi resmi Wikipédia."
+		}
 	},
 	"wiktionary": {
 		"name": "Wikisastra",
@@ -67,7 +67,7 @@
 		"slogan": "Dhirèktori spésies mardika"
 	},
 	"wikidata": {
-		"name": "Wikidhata",
+		"name": "Wikidata",
 		"slogan": "Sasana widya mardika"
 	},
 	"mediawiki": {

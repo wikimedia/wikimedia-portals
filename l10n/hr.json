@@ -6,19 +6,19 @@
 		]
 	},
 	"language-name": "Hrvatski",
-	"language-button-text": "Čitajte wikipediju na svom jeziku",
-	"footer-description": "Zaklada Wikimedija omogućava dostup Wikipediji, neprofitna je organizacija koja također udomljuje niz drugih projekata.",
-	"app-links": {
-		"title": "Preuzmite Wikipediju za Android odnosno iOS"
-	},
 	"terms": "Uvjeti upotrebe",
-	"Privacy Policy": "Pravila privatnosti",
+	"privacy-policy": "Pravila privatnosti",
 	"search-input-button": "Pretraži",
-	"search-input-label": "Pretraži Wikipediju",
 	"wiki": {
 		"name": "Wikipedija",
 		"slogan": "Slobodna enciklopedija",
-		"entries": "članci"
+		"entries": "članci",
+		"search-input-label": "Pretraži Wikipediju",
+		"language-button-text": "Čitajte wikipediju na svom jeziku",
+		"footer-description": "Zaklada Wikimedija omogućava dostup Wikipediji, neprofitna je organizacija koja također udomljuje niz drugih projekata.",
+		"app-links": {
+			"title": "Preuzmite Wikipediju za Android odnosno iOS"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",

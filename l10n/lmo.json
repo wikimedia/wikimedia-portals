@@ -5,21 +5,21 @@
 		]
 	},
 	"language-name": "Lombard",
-	"language-button-text": "Lensg Wikipedia in la toa lengua",
-	"footer-description": "Wikipedia l'è ospitada de la Wikimedia Foundation, un'organizzazion no-profit che l'ospita anca una fila de alter proget.",
-	"app-links": {
-		"title": "Descarega Wikipedia per Android o iOS",
-		"description": "Salva i to vos preferide de lensg quand che te see minga coness, sincronizza i to liste de lettura in tucc i dipositiv e personalizza la toa esperienza con l'aplicazzion offizial de Wikipedia."
-	},
 	"license": "Qusta pagina chì l'è disponibil second conforma a la <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atribuzzion-Spartiss con di alter persone a l'istessa manera</a>",
 	"terms": "Condizion de utilizzazion",
-	"Privacy Policy": "Politega sora la \"riservatezza\"",
+	"privacy-policy": "Politega sora la \"riservatezza\"",
 	"search-input-button": "Cerca",
-	"search-input-label": "Cerca in Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "L'encicopedia libera",
-		"entries": "vos"
+		"entries": "vos",
+		"search-input-label": "Cerca in Wikipedia",
+		"language-button-text": "Lensg Wikipedia in la toa lengua",
+		"footer-description": "Wikipedia l'è ospitada de la Wikimedia Foundation, un'organizzazion no-profit che l'ospita anca una fila de alter proget.",
+		"app-links": {
+			"title": "Descarega Wikipedia per Android o iOS",
+			"description": "Salva i to vos preferide de lensg quand che te see minga coness, sincronizza i to liste de lettura in tucc i dipositiv e personalizza la toa esperienza con l'aplicazzion offizial de Wikipedia."
+		}
 	},
 	"wiktionary": {
 		"name": "Wikizzionari",

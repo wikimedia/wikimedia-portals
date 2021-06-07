@@ -6,26 +6,26 @@
 	},
 	"language-name": "Tarandíne",
 	"language-name-romanized-sorted": "Tarandine",
-	"language-button-text": "Lìgge Uicchipèdie jndr'à lènga toje",
-	"footer-description": "Uicchipèdie jè ospitate da 'a Wikimedia Foundation, 'n'organizzazzione no-profit ca ospitesce pure 'nu sbuènne de otre pruggette.",
 	"footer-donate": "Puè supportà 'a nostra fatije cu 'na donazione.",
-	"app-links": {
-		"title": "Scareche Uicchipèdie pe Android o iOS",
-		"description": "Reggìstre le vôsce preferite tune da leggere fore linèe, singronizze l'elenghe de le letture tune 'mbrà le dispositive e personalizze l'esperienze de lettura toje cu l'app ufficiale de Uicchipèdie.",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "Sta pàgene jè disponibbile in base a 'a licenze <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribbuzione-Condivide a 'u stesse mode</a>",
 	"terms": "Termine de Ause",
-	"Privacy Policy": "Regole p'a privacy",
+	"privacy-policy": "Regole p'a privacy",
 	"search-input-button": "Cirche",
-	"search-input-label": "Cirche Uicchipèdie",
 	"other-languages-label": "Otre lènghe",
 	"wiki": {
 		"name": "Uicchipèdie",
 		"slogan": "'A 'ngeclopedije lìbbere",
-		"entries": "vôsce"
+		"entries": "vôsce",
+		"search-input-label": "Cirche Uicchipèdie",
+		"language-button-text": "Lìgge Uicchipèdie jndr'à lènga toje",
+		"footer-description": "Uicchipèdie jè ospitate da 'a Wikimedia Foundation, 'n'organizzazzione no-profit ca ospitesce pure 'nu sbuènne de otre pruggette.",
+		"app-links": {
+			"title": "Scareche Uicchipèdie pe Android o iOS",
+			"description": "Reggìstre le vôsce preferite tune da leggere fore linèe, singronizze l'elenghe de le letture tune 'mbrà le dispositive e personalizze l'esperienze de lettura toje cu l'app ufficiale de Uicchipèdie.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Uicchizionarie",

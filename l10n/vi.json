@@ -9,25 +9,25 @@
 	},
 	"language-name": "Tiếng Việt",
 	"language-name-romanized-sorted": "Viet, Tieng",
-	"language-button-text": "Đọc Wikipedia trong ngôn ngữ của bạn",
-	"footer-description": "Wikipedia trực thuộc tổ chức phi lợi nhuận Quỹ Wikimedia. Wikimedia cũng đồng thời điều hành nhiều dự án khác.",
-	"app-links": {
-		"title": "Tải xuống Wikipedia cho Android hay IOS",
-		"description": "Hãy lưu các bài viết ưu thích của bạn để đọc ngoại tuyến, đồng bộ hóa các danh sách đọc của bạn sang các thiết bị, và tùy biến giao diện đọc của bạn dùng ứng dụng Wikipedia chính thức.",
-		"url": "https://vi.wikipedia.org/wiki/Danh_sách_các_ứng_dụng_di_động_Wikipedia"
-	},
 	"license": "Trang này được phát hành theo <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.vi'>Giấy phép Creative Commons Ghi công–Chia sẻ tương tự</a>",
 	"terms": "Điều khoản sử dụng",
-	"Privacy Policy": "Quy định về Quyền Riêng tư",
+	"privacy-policy": "Quy định về Quyền Riêng tư",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/vi",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/vi",
 	"search-input-button": "Tìm kiếm",
-	"search-input-label": "Tìm trong Wikipedia",
 	"other-languages-label": "Ngôn ngữ khác",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Bách khoa toàn thư mở",
-		"entries": "bài viết"
+		"entries": "bài viết",
+		"search-input-label": "Tìm trong Wikipedia",
+		"language-button-text": "Đọc Wikipedia trong ngôn ngữ của bạn",
+		"footer-description": "Wikipedia trực thuộc tổ chức phi lợi nhuận Quỹ Wikimedia. Wikimedia cũng đồng thời điều hành nhiều dự án khác.",
+		"app-links": {
+			"title": "Tải xuống Wikipedia cho Android hay IOS",
+			"description": "Hãy lưu các bài viết ưu thích của bạn để đọc ngoại tuyến, đồng bộ hóa các danh sách đọc của bạn sang các thiết bị, và tùy biến giao diện đọc của bạn dùng ứng dụng Wikipedia chính thức.",
+			"url": "https://vi.wikipedia.org/wiki/Danh_sách_các_ứng_dụng_di_động_Wikipedia"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",

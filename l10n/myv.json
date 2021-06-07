@@ -6,8 +6,8 @@
 	},
 	"language-name": "Эрзянь",
 	"language-name-romanized": "Erzjanj",
-	"language-button-text": "Википедиянь эсь кельсэ ловнотадо",
 	"wiki": {
-		"name": "Википедиясь"
+		"name": "Википедиясь",
+		"language-button-text": "Википедиянь эсь кельсэ ловнотадо"
 	}
 }

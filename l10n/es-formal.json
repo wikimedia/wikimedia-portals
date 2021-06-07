@@ -4,7 +4,9 @@
 			"Fitoschido"
 		]
 	},
-	"app-links": {
-		"description": "Guarde sus artículos favoritos para leerlos sin conexión, sincronice sus listas de lectura en varios dispositivos y personalice su experiencia de lectura con la aplicación oficial de Wikipedia."
+	"wiki": {
+		"app-links": {
+			"description": "Guarde sus artículos favoritos para leerlos sin conexión, sincronice sus listas de lectura en varios dispositivos y personalice su experiencia de lectura con la aplicación oficial de Wikipedia."
+		}
 	}
 }

@@ -8,27 +8,27 @@
 	"language-name": "עברית",
 	"language-name-romanized": "Ivrit",
 	"language-name-romanized-sorted": "Ivrit",
-	"language-button-text": "לקרוא את ויקיפדיה בשפה שלך",
-	"footer-description": "ויקיפדיה מתארחת בקרן ויקימדיה, מוסד ללא כוונת רווח שמארח עוד מספר מיזמים.",
 	"footer-donate": "אתם יכולים לתמוך בעבודה שלנו בתרומה.",
-	"app-links": {
-		"title": "הורדת ויקיפדיה ל־Android או ל־iOS",
-		"description": "מאפשר לך לשמור את הערכים המועדפים עליך כדי לקרוא אותם ללא אינטרנט, לסנכרן את רשימות הקריאה שלך בין מכשירים שונים ולהתאים את חווית הקריאה שלך לטעמך בעזרת היישומון הרשמי של ויקיפדיה.",
-		"google-store": "חנות Play של Google",
-		"apple-store": "חנות היישומונים של Apple"
-	},
 	"license": "הדף הזה זמין לפי תנאי <a href='https://creativecommons.org/licenses/by-sa/3.0/'>רישיון קריאייטיב קומנז–ייחוס–שיתוף זהה</a>",
 	"terms": "תנאי שימוש",
-	"Privacy Policy": "מדיניות פרטיות",
+	"privacy-policy": "מדיניות פרטיות",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/he",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/he",
 	"search-input-button": "חיפוש",
-	"search-input-label": "חיפוש בוויקיפדיה",
 	"other-languages-label": "שפות אחרות",
 	"wiki": {
 		"name": "ויקיפדיה",
 		"slogan": "האנציקלופדיה החופשית",
-		"entries": "ערכים"
+		"entries": "ערכים",
+		"search-input-label": "חיפוש בוויקיפדיה",
+		"language-button-text": "לקרוא את ויקיפדיה בשפה שלך",
+		"footer-description": "ויקיפדיה מתארחת בקרן ויקימדיה, מוסד ללא כוונת רווח שמארח עוד מספר מיזמים.",
+		"app-links": {
+			"title": "הורדת ויקיפדיה ל־Android או ל־iOS",
+			"description": "מאפשר לך לשמור את הערכים המועדפים עליך כדי לקרוא אותם ללא אינטרנט, לסנכרן את רשימות הקריאה שלך בין מכשירים שונים ולהתאים את חווית הקריאה שלך לטעמך בעזרת היישומון הרשמי של ויקיפדיה.",
+			"google-store": "חנות Play של Google",
+			"apple-store": "חנות היישומונים של Apple"
+		}
 	},
 	"wiktionary": {
 		"name": "ויקימילון",

@@ -5,19 +5,19 @@
 			"Rul1902"
 		]
 	},
-	"language-button-text": "ဖးဝံၣ်ကံးဖံဒံာ်ယၤလၢနကျိာ်",
-	"app-links": {
-		"title": "ဝံၣ်ကံးဖံဒံာ်ယၤ အဲၣ်ဖု န့ၢ်ပသူအီၤသ့လံ"
-	},
 	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "တၢ်သူတၢ် အတၢ်ကတိၤတဘီ",
-	"Privacy Policy": "တၢ်ခူသူၣ်တၢ်ဘျၢ",
+	"privacy-policy": "တၢ်ခူသူၣ်တၢ်ဘျၢ",
 	"search-input-button": "ဃုထၢ",
-	"search-input-label": "ဃုထၢ ဝံၣ်ကံးဖံဒံာ်ယၤ",
 	"wiki": {
 		"name": "ဝံၣ်ကံးဖံဒံာ်ယၤ",
 		"slogan": "လံာ်ထံးလံာ်ယ့ၤလၢအတလၢၤကျိၣ်စ့ဘၣ်",
-		"entries": "တၢ်ကွဲးဖုၣ်"
+		"entries": "တၢ်ကွဲးဖုၣ်",
+		"search-input-label": "ဃုထၢ ဝံၣ်ကံးဖံဒံာ်ယၤ",
+		"language-button-text": "ဖးဝံၣ်ကံးဖံဒံာ်ယၤလၢနကျိာ်",
+		"app-links": {
+			"title": "ဝံၣ်ကံးဖံဒံာ်ယၤ အဲၣ်ဖု န့ၢ်ပသူအီၤသ့လံ"
+		}
 	},
 	"wiktionary": {
 		"name": "ဝံၣ်ကံးစ့ၤနဲရံၤ",

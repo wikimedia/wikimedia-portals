@@ -7,18 +7,18 @@
 	},
 	"language-name": "Ślůnski",
 	"language-name-romanized-sorted": "Slunski",
-	"language-button-text": "Czytej Wikipedyjŏ we swojij gŏdce.",
-	"footer-description": "Wikipedyjŏ je kludzōnŏ bez Fundacyjõ Wikimedia, ôrganizacyjõ nōn-profit, kero kludzi tyż moc inkszych projektōw.",
-	"app-links": {
-		"title": "Aplikacyje Wikipedyje sōm już dostympne:"
-	},
 	"license": "Ta strōne je dostympnŏ na licyncyji <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Uznanie autora-Na jednakich warōnkach</a>",
 	"terms": "Prawidła używaniŏ",
-	"Privacy Policy": "Prawidła chrōniyniŏ prywŏtności",
+	"privacy-policy": "Prawidła chrōniyniŏ prywŏtności",
 	"wiki": {
 		"name": "Wikipedyjŏ",
 		"slogan": "Swobodnŏ yncyklopedyjŏ",
-		"entries": "artikli"
+		"entries": "artikli",
+		"language-button-text": "Czytej Wikipedyjŏ we swojij gŏdce.",
+		"footer-description": "Wikipedyjŏ je kludzōnŏ bez Fundacyjõ Wikimedia, ôrganizacyjõ nōn-profit, kero kludzi tyż moc inkszych projektōw.",
+		"app-links": {
+			"title": "Aplikacyje Wikipedyje sōm już dostympne:"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikcjōnŏrz",

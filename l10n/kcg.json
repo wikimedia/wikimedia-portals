@@ -4,24 +4,24 @@
 			"Kambai Akau"
 		]
 	},
-	"language-button-text": "Fang Wikipidya da̠ a̠lyem ang ka",
-	"footer-description": "Wikipidya yet a̠kpa̠p Sotbeang Wikimidya wa, sot nta̠m nang á̠ khwuk di̠ nwai cat kpangti̠n zang ja ma nkyiak a̠kpa̠p á̠ghyang nta̠m ma̠ a̠di̠di̠t.",
-	"app-links": {
-		"title": "Cyok ma̠ng Wikimidya mat Android ke iOS",
-		"description": "Sak a̠yaati̠kut ba nang a lan cat a̠ni mat fang di̠ lang nta, tyia̠ pwut di̱n ta̱m lís fang ang hu mami a̠mgba̠m nkyangta̠m a ba̱ nyia̠ jhyi a̠gwam di̠ fwuong ansham fang ang hu ma̱ng ap. ̂Wikipidya ofisha wu.",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store"
-	},
 	"license": "Peji huni shyia̠ a̠tafa <a href='https://creativecommons.org/licenses/by-sa/3.0/kcg'>Creative Commons Attribution-ShareAlike</a> hwa",
 	"terms": "A̠yaaka̠nda̠n Nyian Ta̠m",
-	"Privacy Policy": "Kwambwat A̱bala̱lang",
+	"privacy-policy": "Kwambwat A̱bala̱lang",
 	"search-input-button": "Zop",
-	"search-input-label": "Zop Wikipidya",
 	"other-languages-label": "Lilyem ghyáng",
 	"wiki": {
 		"name": "Wikipidya",
 		"slogan": "A̠sa̠t A̱gban Lyen Wu",
-		"entries": "a̠yaati̠kut"
+		"entries": "a̠yaati̠kut",
+		"search-input-label": "Zop Wikipidya",
+		"language-button-text": "Fang Wikipidya da̠ a̠lyem ang ka",
+		"footer-description": "Wikipidya yet a̠kpa̠p Sotbeang Wikimidya wa, sot nta̠m nang á̠ khwuk di̠ nwai cat kpangti̠n zang ja ma nkyiak a̠kpa̠p á̠ghyang nta̠m ma̠ a̠di̠di̠t.",
+		"app-links": {
+			"title": "Cyok ma̠ng Wikimidya mat Android ke iOS",
+			"description": "Sak a̠yaati̠kut ba nang a lan cat a̠ni mat fang di̠ lang nta, tyia̠ pwut di̱n ta̱m lís fang ang hu mami a̠mgba̠m nkyangta̠m a ba̱ nyia̠ jhyi a̠gwam di̠ fwuong ansham fang ang hu ma̱ng ap. ̂Wikipidya ofisha wu.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikshyonari",

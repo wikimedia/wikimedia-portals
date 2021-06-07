@@ -7,15 +7,15 @@
 	"language-name": "پنجابی (شاہ مکھی)",
 	"language-name-romanized": "Pañjābī (Shāhmukhī)",
 	"language-name-romanized-sorted": "Panjabi Shahmukhi",
-	"language-button-text": "اپنی بولی وچ ویکیپیڈیا پڑھو",
 	"terms": "ورتن شرطاں",
-	"Privacy Policy": "پرائیویسی پالیسی",
+	"privacy-policy": "پرائیویسی پالیسی",
 	"search-input-button": "کھوج",
-	"search-input-label": "وکیپیڈیا وچ کھوجو",
 	"wiki": {
 		"name": "وکیپیڈیا",
 		"slogan": "مفت انسائیکلوپیڈیا",
-		"entries": "لیکھ"
+		"entries": "لیکھ",
+		"search-input-label": "وکیپیڈیا وچ کھوجو",
+		"language-button-text": "اپنی بولی وچ ویکیپیڈیا پڑھو"
 	},
 	"wiktionary": {
 		"name": "وکشنری",

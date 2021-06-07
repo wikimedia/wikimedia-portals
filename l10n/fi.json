@@ -11,24 +11,24 @@
 	"language-name": "Suomi",
 	"language-name-romanized": "suomi",
 	"language-name-romanized-sorted": "suomi",
-	"language-button-text": "Lue Wikipediaa kielelläsi",
-	"footer-description": "Wikipediaa ylläpitää Wikimedia Foundation, voittoa tavoittelematon organisaatio joka myös ylläpitää erilaisia muita hankkeita.",
-	"app-links": {
-		"title": "Lataa Wikipedia Androidille tai iOS:lle",
-		"description": "Tallenna suosikkiartikkelisi luettavaksi offline-tilassa, synkronoi lukulistasi eri laitteidesi välillä ja mukauta lukukokemustasi virallisella Wikipedia-sovelluksella."
-	},
 	"license": "Tämä sivu on käytettävissä <a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.fi\">Nimeä-JaaSamoin 3.0 -lisenssillä</a>",
 	"terms": "Käyttöehdot",
-	"Privacy Policy": "Tietosuojakäytäntö",
+	"privacy-policy": "Tietosuojakäytäntö",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/fi",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/fi",
 	"search-input-button": "Hae",
-	"search-input-label": "Hae Wikipediasta",
 	"other-languages-label": "Muut kielet",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Vapaa tietosanakirja",
-		"entries": "artikkelia"
+		"entries": "artikkelia",
+		"search-input-label": "Hae Wikipediasta",
+		"language-button-text": "Lue Wikipediaa kielelläsi",
+		"footer-description": "Wikipediaa ylläpitää Wikimedia Foundation, voittoa tavoittelematon organisaatio joka myös ylläpitää erilaisia muita hankkeita.",
+		"app-links": {
+			"title": "Lataa Wikipedia Androidille tai iOS:lle",
+			"description": "Tallenna suosikkiartikkelisi luettavaksi offline-tilassa, synkronoi lukulistasi eri laitteidesi välillä ja mukauta lukukokemustasi virallisella Wikipedia-sovelluksella."
+		}
 	},
 	"wiktionary": {
 		"name": "Wikisanakirja",

@@ -4,17 +4,17 @@
 			"Андрей Саг."
 		]
 	},
-	"language-button-text": "Википедияны пос тілніӊ хығыраӊар",
-	"app-links": {
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
-	"Privacy Policy": "Чазыттығ политика",
+	"privacy-policy": "Чазыттығ политика",
 	"search-input-button": "Тілирге",
-	"search-input-label": "Википедияда тілирге",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Пос энциклопедия",
-		"entries": "статьялар"
+		"entries": "статьялар",
+		"search-input-label": "Википедияда тілирге",
+		"language-button-text": "Википедияны пос тілніӊ хығыраӊар",
+		"app-links": {
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Викисӧстік",

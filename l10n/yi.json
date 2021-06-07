@@ -7,21 +7,21 @@
 	"language-name": "ייִדיש",
 	"language-name-romanized": "Yidiš",
 	"language-name-romanized-sorted": "Yidis",
-	"language-button-text": "לייענען וויקיפעדיע אין אייער שפראך",
-	"footer-description": "וויקיפעדיע ווערט איינקווארטירט דורך דער וויקימעדיע פֿונדאציע, א נישט־פֿאר־ריווח ארגאניזאציע וואס איינקווארטירט אויך א רייע אנדערע פראיעקטן.",
-	"app-links": {
-		"title": "וויקיפעדיע אפליקאציעס זענען פֿאראן:"
-	},
 	"terms": "ניצבאדינגונגען",
-	"Privacy Policy": "פּריוואַטקייט פּאליסי",
+	"privacy-policy": "פּריוואַטקייט פּאליסי",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/yi",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/yi",
 	"search-input-button": "זוכן",
-	"search-input-label": "זוכן וויקיפעדיע",
 	"wiki": {
 		"name": "װיקיפּעדיע",
 		"slogan": "די פֿרײַע ענציקלאָפּעדיע",
-		"entries": "אַרטיקלען"
+		"entries": "אַרטיקלען",
+		"search-input-label": "זוכן וויקיפעדיע",
+		"language-button-text": "לייענען וויקיפעדיע אין אייער שפראך",
+		"footer-description": "וויקיפעדיע ווערט איינקווארטירט דורך דער וויקימעדיע פֿונדאציע, א נישט־פֿאר־ריווח ארגאניזאציע וואס איינקווארטירט אויך א רייע אנדערע פראיעקטן.",
+		"app-links": {
+			"title": "וויקיפעדיע אפליקאציעס זענען פֿאראן:"
+		}
 	},
 	"wiktionary": {
 		"name": "װיקיװערטערבוך",

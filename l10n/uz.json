@@ -6,21 +6,21 @@
 	},
 	"language-name": "Oʻzbekcha / Ўзбекча",
 	"language-name-romanized-sorted": "Ozbekcha",
-	"language-button-text": "Vikipediyani oʻz tilingizda oʻqing",
-	"footer-description": "Vikipediya Wikimedia Foundation notijorat tashkiloti tomonidan uyushtirilgan boʻlib, u boshqa bir qator loyihalarga ham mezbonlik qiladi.",
-	"app-links": {
-		"title": "Android yoki IOS uchun Vikipediyani yuklab oling",
-		"description": "Sevimli maqolalaringizni oflayn rejimda oʻqish uchun saqlang, oʻqish roʻyxatlaringizni qurilmalarda sinxronlashtiring va rasmiy Vikipediya ilovasi yordamida oʻqish tajribangizni sozlang."
-	},
 	"license": "Ushbu sahifa <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> ostida mavjud",
 	"terms": "Foydalanish shartlari",
-	"Privacy Policy": "Maxfiylik siyosati",
+	"privacy-policy": "Maxfiylik siyosati",
 	"search-input-button": "Qidiruv",
-	"search-input-label": "Vikipediyadan izlash",
 	"wiki": {
 		"name": "Vikipediya",
 		"slogan": "Bepul Ensiklopediya",
-		"entries": "Maqolalar"
+		"entries": "Maqolalar",
+		"search-input-label": "Vikipediyadan izlash",
+		"language-button-text": "Vikipediyani oʻz tilingizda oʻqing",
+		"footer-description": "Vikipediya Wikimedia Foundation notijorat tashkiloti tomonidan uyushtirilgan boʻlib, u boshqa bir qator loyihalarga ham mezbonlik qiladi.",
+		"app-links": {
+			"title": "Android yoki IOS uchun Vikipediyani yuklab oling",
+			"description": "Sevimli maqolalaringizni oflayn rejimda oʻqish uchun saqlang, oʻqish roʻyxatlaringizni qurilmalarda sinxronlashtiring va rasmiy Vikipediya ilovasi yordamida oʻqish tajribangizni sozlang."
+		}
 	},
 	"wiktionary": {
 		"name": "Vikilug‘at",

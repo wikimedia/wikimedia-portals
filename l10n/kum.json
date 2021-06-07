@@ -5,13 +5,13 @@
 		]
 	},
 	"terms": "Къоллав шартлары",
-	"Privacy Policy": "Энчилилик ёругъу",
+	"privacy-policy": "Энчилилик ёругъу",
 	"search-input-button": "Излев",
-	"search-input-label": "Википедияда излемек",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Эркин энсиклопедия",
-		"entries": "макъалалар"
+		"entries": "макъалалар",
+		"search-input-label": "Википедияда излемек"
 	},
 	"wiktionary": {
 		"name": "Викисёзлюк",

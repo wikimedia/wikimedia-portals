@@ -6,20 +6,20 @@
 	},
 	"language-name": "Eʋegbe",
 	"language-name-romanized-sorted": "Ewegbe",
-	"language-button-text": "Xlẽ Wikipedia le mia degbe me",
-	"footer-description": "Wikimedia Dɔwɔha lae kpɔa Wikipedia dzi, egakpɔ gbogbo aɖewo hã dzi.",
-	"app-links": {
-		"title": "Wikipedia dɔwɔnuwo li azɔ:"
-	},
 	"license": "Axa sia le <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License ƒe ɖoɖoa te</a>",
 	"terms": "Ezazã Ŋuti Ɖoɖowo",
-	"Privacy Policy": "Ameŋunyatakaka Ŋuti Ðoɖowo",
+	"privacy-policy": "Ameŋunyatakaka Ŋuti Ðoɖowo",
 	"search-input-button": "Dii",
-	"search-input-label": "Di Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Numekugbalẽ Femaxetɔ",
-		"entries": "nyatiwo"
+		"entries": "nyatiwo",
+		"search-input-label": "Di Wikipedia",
+		"language-button-text": "Xlẽ Wikipedia le mia degbe me",
+		"footer-description": "Wikimedia Dɔwɔha lae kpɔa Wikipedia dzi, egakpɔ gbogbo aɖewo hã dzi.",
+		"app-links": {
+			"title": "Wikipedia dɔwɔnuwo li azɔ:"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiknyagɔmeɖegbalẽ",

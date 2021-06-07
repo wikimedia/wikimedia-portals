@@ -7,15 +7,15 @@
 	},
 	"language-name": "Latviešu",
 	"language-name-romanized-sorted": "Latviesu",
-	"language-button-text": "Lasi Vikipēdiju tavā valodā",
 	"terms": "Lietošanas noteikumi",
-	"Privacy Policy": "Privātuma politika",
+	"privacy-policy": "Privātuma politika",
 	"search-input-button": "Meklēt",
-	"search-input-label": "Meklēt Vikipēdijā",
 	"wiki": {
 		"name": "Vikipēdija",
 		"slogan": "Brīvā enciklopēdija",
-		"entries": "raksti"
+		"entries": "raksti",
+		"search-input-label": "Meklēt Vikipēdijā",
+		"language-button-text": "Lasi Vikipēdiju tavā valodā"
 	},
 	"wiktionary": {
 		"name": "Wiktionary",

@@ -6,25 +6,25 @@
 			"Гусейн"
 		]
 	},
-	"language-button-text": "Bahand bə Vikipedia ıştı zıvonədə",
-	"footer-description": "Википедиа че бесавды ширкәти Викимедиа Фонди серверонәдә мандә - ком че ҹо нахшон ко кардејәдә дастыш һесте.",
 	"footer-donate": "Шымә бәзнејон де пули дастәк кардә бә чәмә коон.",
-	"app-links": {
-		"title": "Окырније Википедиа бо Android ја iOS",
-		"description": "Ыштә пијә мәғолон огәтән, быдә әвони пешо офлајнәдә һанде, синхрон быкән ыштә сијоһијон бо ҹурбәҹурә диләгонәдә һанде ијән адаптасијә быкән ыштә һандә чәми де рәсмијә мобил Википидеа ҹынәвә.",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store"
-	},
 	"license": "Ым сәһифә дастрәсе бо <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">лисенсијә Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Çı istifodə ğaydon",
-	"Privacy Policy": "Məxfiəti Siyosət",
+	"privacy-policy": "Məxfiəti Siyosət",
 	"search-input-button": "Bınəv",
-	"search-input-label": "Bınəv bə Vikipediadə",
 	"other-languages-label": "Ҹо зывононәдә",
 	"wiki": {
 		"name": "Vikipedia",
 		"slogan": "Ozodə Ensiklopediya",
-		"entries": "məğolon"
+		"entries": "məğolon",
+		"search-input-label": "Bınəv bə Vikipediadə",
+		"language-button-text": "Bahand bə Vikipedia ıştı zıvonədə",
+		"footer-description": "Википедиа че бесавды ширкәти Викимедиа Фонди серверонәдә мандә - ком че ҹо нахшон ко кардејәдә дастыш һесте.",
+		"app-links": {
+			"title": "Окырније Википедиа бо Android ја iOS",
+			"description": "Ыштә пијә мәғолон огәтән, быдә әвони пешо офлајнәдә һанде, синхрон быкән ыштә сијоһијон бо ҹурбәҹурә диләгонәдә һанде ијән адаптасијә быкән ыштә һандә чәми де рәсмијә мобил Википидеа ҹынәвә.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
 	},
 	"wiktionary": {
 		"name": "Vikilüğət",

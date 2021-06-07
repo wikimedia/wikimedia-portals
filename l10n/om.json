@@ -9,16 +9,16 @@
 	"language-name": "Afaan Oromoo",
 	"language-name-romanized": "Ingiliffaa",
 	"language-name-romanized-sorted": "Oromoo, Afaan",
-	"language-button-text": "Wikipiidiyaa afaan keen dubbisi",
-	"app-links": {
-		"title": "Wikipediyaa gaffe'i Andirooyidiif ykn iOS"
-	},
 	"terms": "Waliigaltee fayyadamaa",
-	"Privacy Policy": "Imaammata mateenyaa",
+	"privacy-policy": "Imaammata mateenyaa",
 	"search-input-button": "Barbaadi",
 	"other-languages-label": "Qooqawwan biraa",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"language-button-text": "Wikipiidiyaa afaan keen dubbisi",
+		"app-links": {
+			"title": "Wikipediyaa gaffe'i Andirooyidiif ykn iOS"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiikshinarii",

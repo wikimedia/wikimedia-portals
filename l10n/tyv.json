@@ -6,14 +6,14 @@
 	},
 	"language-name": "Тыва дыл",
 	"language-name-romanized": "Tyva dyl",
-	"language-button-text": "Википедияны бодуңарның дылыңарга номчуңар",
 	"terms": "Ажыглаарының байдалдары",
 	"search-input-button": "Дилээр",
-	"search-input-label": "Википедиядан дилээр",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Хостуг энциклопедия",
-		"entries": "чүүлдер"
+		"entries": "чүүлдер",
+		"search-input-label": "Википедиядан дилээр",
+		"language-button-text": "Википедияны бодуңарның дылыңарга номчуңар"
 	},
 	"wiktionary": {
 		"name": "Викисөстүк",

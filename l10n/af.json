@@ -5,18 +5,18 @@
 		]
 	},
 	"language-name": "Afrikaans",
-	"language-button-text": "Lees Wikipedia in u taal",
-	"footer-description": "Wikipedia word gehuisves deur die Wikimedia-stigting, 'n organisasie sonder winsbejag wat ook 'n klomp ander projekte huisves.",
-	"app-links": {
-		"title": "Wikipedia-programme is nou beskikbaar:"
-	},
 	"license": "Dié bladsy is beskikbaar onderhewig aan die <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike-lisensie</a>",
 	"terms": "Gebruiksvoorwaardes",
-	"Privacy Policy": "Privaatheidsbeleid",
+	"privacy-policy": "Privaatheidsbeleid",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Die vry ensiklopedie",
-		"entries": "artikels"
+		"entries": "artikels",
+		"language-button-text": "Lees Wikipedia in u taal",
+		"footer-description": "Wikipedia word gehuisves deur die Wikimedia-stigting, 'n organisasie sonder winsbejag wat ook 'n klomp ander projekte huisves.",
+		"app-links": {
+			"title": "Wikipedia-programme is nou beskikbaar:"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikiwoordeboek",

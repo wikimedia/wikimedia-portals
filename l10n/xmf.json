@@ -6,22 +6,22 @@
 	},
 	"language-name": "მარგალური",
 	"language-name-romanized": "Margaluri",
-	"language-button-text": "იკითხით ვიკიპედია თქვან ნინაშა",
-	"footer-description": "ვიკიპედია ვაკომერციული ორგანიზაცია ფონდი ვიკიმედიაშით იმართჷ, ნამუთ დიო მუსხირენ პროექტის დუდენს.",
-	"app-links": {
-		"title": "გეგმოხარგეთ ვიკიპედია Android-შო დო iOS-შო",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store"
-	},
 	"terms": "გჷმორინაფაშ წესეფი",
-	"Privacy Policy": "კონფიდენციალურალაშ პოლიტიკა",
+	"privacy-policy": "კონფიდენციალურალაშ პოლიტიკა",
 	"search-input-button": "გორუა",
-	"search-input-label": "გორუა ვიკიპედიას",
 	"other-languages-label": "შხვა ნინეფი",
 	"wiki": {
 		"name": "ვიკიპედია",
 		"slogan": "დუდიშული ენციკლოპედია",
-		"entries": "სტატიეფი"
+		"entries": "სტატიეფი",
+		"search-input-label": "გორუა ვიკიპედიას",
+		"language-button-text": "იკითხით ვიკიპედია თქვან ნინაშა",
+		"footer-description": "ვიკიპედია ვაკომერციული ორგანიზაცია ფონდი ვიკიმედიაშით იმართჷ, ნამუთ დიო მუსხირენ პროექტის დუდენს.",
+		"app-links": {
+			"title": "გეგმოხარგეთ ვიკიპედია Android-შო დო iOS-შო",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
 	},
 	"wiktionary": {
 		"name": "ვიქსიკონი",

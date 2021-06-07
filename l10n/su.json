@@ -6,18 +6,18 @@
 	},
 	"language-name": "Basa Sunda",
 	"language-name-romanized-sorted": "Sunda, Basa",
-	"language-button-text": "Baca Wikipédia dina basa anjeun",
-	"footer-description": "Wikipedia dioperasikeun ku Yayasan Wikimédia, hiji organisasi tanpabati anu ngoperasikeun ogé proyék-proyék lianna.",
-	"app-links": {
-		"title": "Aplikasi Wikipédia kiwati geus nyangkaruk:"
-	},
 	"license": "Ieu kaca nyangkaruk kalawan ditangtayungan ku <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lisénsi Creative Commons Atribusi-BabagiSarupa</a>",
 	"terms": "Katangtuan Pamakéan",
-	"Privacy Policy": "Kawijakan Privasi",
+	"privacy-policy": "Kawijakan Privasi",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "Énsiklopédi Bébas",
-		"entries": "artikel"
+		"entries": "artikel",
+		"language-button-text": "Baca Wikipédia dina basa anjeun",
+		"footer-description": "Wikipedia dioperasikeun ku Yayasan Wikimédia, hiji organisasi tanpabati anu ngoperasikeun ogé proyék-proyék lianna.",
+		"app-links": {
+			"title": "Aplikasi Wikipédia kiwati geus nyangkaruk:"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikikamus",

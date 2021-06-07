@@ -6,22 +6,22 @@
 	},
 	"language-name": "Bahaso Minangkabau",
 	"language-name-romanized-sorted": "Minangkabau, Bahaso",
-	"language-button-text": "Baco Wikipedia dalam bahaso Sanak",
-	"footer-description": "Wikipedia dioperasikan dek Wikimedia Foundation, sabuah organisasi nirlaba nan maoperasikan pulo baragam proyek lainnyo.",
-	"app-links": {
-		"title": "Unduh Wikipedia untuak Android atau iOS",
-		"description": "Simpan artikel nan katuju bana dek Sanak untuak dibaco luring, sinkronkan daftar baco Sanak dari baragam parangkek jo atua pangalaman baco Sanak jo aplikasi Wikipedia rasmi.",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "Halaman ko tasadio dalam <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Katantuan Panggunoan",
-	"Privacy Policy": "Kabijakan privasi",
+	"privacy-policy": "Kabijakan privasi",
 	"search-input-button": "Cari",
-	"search-input-label": "Cari Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Ensiklopedia Bebas",
-		"entries": "artikel"
+		"entries": "artikel",
+		"search-input-label": "Cari Wikipedia",
+		"language-button-text": "Baco Wikipedia dalam bahaso Sanak",
+		"footer-description": "Wikipedia dioperasikan dek Wikimedia Foundation, sabuah organisasi nirlaba nan maoperasikan pulo baragam proyek lainnyo.",
+		"app-links": {
+			"title": "Unduh Wikipedia untuak Android atau iOS",
+			"description": "Simpan artikel nan katuju bana dek Sanak untuak dibaco luring, sinkronkan daftar baco Sanak dari baragam parangkek jo atua pangalaman baco Sanak jo aplikasi Wikipedia rasmi.",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "WikiKato",

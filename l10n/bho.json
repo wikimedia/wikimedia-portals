@@ -4,7 +4,9 @@
 			"SatyamMishra"
 		]
 	},
-	"language-button-text": "अपनी भाषा में विकिपीडिया पढ़ीं",
+	"wiki": {
+		"language-button-text": "अपनी भाषा में विकिपीडिया पढ़ीं"
+	},
 	"wikidata": {
 		"name": "विकिडेटा"
 	}

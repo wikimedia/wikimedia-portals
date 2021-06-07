@@ -7,22 +7,22 @@
 	},
 	"language-name": "조선말",
 	"language-name-romanized": "Joseonmal",
-	"language-button-text": "당신의 언어로 위키백과 읽기",
-	"footer-description": "위키백과는 다른 여러 과제들도 운영하는 비영리 단체인 위키매체 재단이 운영합니다.",
-	"app-links": {
-		"title": "위키백과 응용프로그람을 지금 사용할수 있습니다:"
-	},
 	"license": "이 페지는 <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>에 있습니다",
 	"terms": "리용약관",
-	"Privacy Policy": "개인정보 정책",
+	"privacy-policy": "개인정보 정책",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ko",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ko",
 	"search-input-button": "검색",
-	"search-input-label": "위키백과 검색",
 	"wiki": {
 		"name": "위키백과",
 		"slogan": "우리 모두의 백과사전",
-		"entries": "문서"
+		"entries": "문서",
+		"search-input-label": "위키백과 검색",
+		"language-button-text": "당신의 언어로 위키백과 읽기",
+		"footer-description": "위키백과는 다른 여러 과제들도 운영하는 비영리 단체인 위키매체 재단이 운영합니다.",
+		"app-links": {
+			"title": "위키백과 응용프로그람을 지금 사용할수 있습니다:"
+		}
 	},
 	"wiktionary": {
 		"name": "위키낱말사전",

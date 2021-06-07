@@ -8,21 +8,21 @@
 	},
 	"language-name": "Тоҷикӣ",
 	"language-name-romanized": "Tojiki",
-	"language-button-text": "Википедиаро ба забоно худ хонед",
-	"footer-description": "Википедия аз тарафи Фонди Википедия идора мешавад.",
-	"app-links": {
-		"title": "Барномаҳои Википедия акнун  дастрас ҳастанд бо:"
-	},
 	"license": "Ин саҳиф таҳти <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">иҷозатномаи Creative Commons Attribution-ShareAlike</a> дастрас аст",
 	"terms": "Шартҳои истифодабарӣ",
-	"Privacy Policy": "Сиёсати ҳифзи асрор",
+	"privacy-policy": "Сиёсати ҳифзи асрор",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/tg",
 	"search-input-button": "Ҷустуҷӯ",
-	"search-input-label": "Ҷустуҷӯи Википедия",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Донишномаи Озод",
-		"entries": "мақолаҳо"
+		"entries": "мақолаҳо",
+		"search-input-label": "Ҷустуҷӯи Википедия",
+		"language-button-text": "Википедиаро ба забоно худ хонед",
+		"footer-description": "Википедия аз тарафи Фонди Википедия идора мешавад.",
+		"app-links": {
+			"title": "Барномаҳои Википедия акнун  дастрас ҳастанд бо:"
+		}
 	},
 	"wiktionary": {
 		"name": "Викилуғат",

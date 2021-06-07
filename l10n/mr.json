@@ -7,11 +7,11 @@
 	},
 	"language-name": "मराठी",
 	"language-name-romanized": "Marathi",
-	"language-button-text": "विकिपीडिया आपल्या भाषेत वाचा",
 	"wiki": {
 		"name": "विकिपीडिया",
 		"slogan": "एक मुक्त ज्ञानकोश",
-		"entries": "लेख"
+		"entries": "लेख",
+		"language-button-text": "विकिपीडिया आपल्या भाषेत वाचा"
 	},
 	"wiktionary": {
 		"name": "विक्शनरी",

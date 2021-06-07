@@ -21,28 +21,28 @@
 	"language-name": "Türkçe",
 	"language-name-romanized": "Türkçe",
 	"language-name-romanized-sorted": "Türkçe",
-	"language-button-text": "Vikipedi'yi kendi dilinizde okuyun",
-	"footer-description": "Vikipedi, başka projelere de ev sahipliği yapan ve kâr amacı gütmeyen bir kuruluş olan Wikimedia Vakfı tarafından barındırılmaktadır.",
 	"footer-donate": "Çalışmamızı bir bağış ile destekleyebilirsiniz.",
-	"app-links": {
-		"title": "Android veya iOS için Vikipedi'yi indirin",
-		"description": "Resmî Vikipedi uygulamasıyla ilginizi çeken maddeleri çevrimdışıyken okumak için kaydedin, listelerinizi aygıtlarınız arasında eşzamanlayın ve okuma deneyiminizi özelleştirin.",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store",
-		"url": "https://tr.wikipedia.org/wiki/Vikipedi_mobil_uygulamalarının_listesi"
-	},
 	"license": "Bu sayfa <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.tr'>Creative Commons Atıf-AynıLisanslaPaylaş</a> hükümlerine tabidir",
 	"terms": "Kullanım Şartları",
-	"Privacy Policy": "Gizlilik Politikası",
+	"privacy-policy": "Gizlilik Politikası",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/tr",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/tr",
 	"search-input-button": "Ara",
-	"search-input-label": "Vikipedi Ara",
 	"other-languages-label": "Diğer diller",
 	"wiki": {
 		"name": "Vikipedi",
 		"slogan": "Özgür Ansiklopedi",
-		"entries": "madde"
+		"entries": "madde",
+		"search-input-label": "Vikipedi Ara",
+		"language-button-text": "Vikipedi'yi kendi dilinizde okuyun",
+		"footer-description": "Vikipedi, başka projelere de ev sahipliği yapan ve kâr amacı gütmeyen bir kuruluş olan Wikimedia Vakfı tarafından barındırılmaktadır.",
+		"app-links": {
+			"title": "Android veya iOS için Vikipedi'yi indirin",
+			"description": "Resmî Vikipedi uygulamasıyla ilginizi çeken maddeleri çevrimdışıyken okumak için kaydedin, listelerinizi aygıtlarınız arasında eşzamanlayın ve okuma deneyiminizi özelleştirin.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://tr.wikipedia.org/wiki/Vikipedi_mobil_uygulamalarının_listesi"
+		}
 	},
 	"wiktionary": {
 		"name": "Vikisözlük",

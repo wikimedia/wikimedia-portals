@@ -4,8 +4,10 @@
 			"Teitei Para"
 		]
 	},
-	"app-links": {
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store"
+	"wiki": {
+		"app-links": {
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
 	}
 }

@@ -8,20 +8,20 @@
 	"language-name": "အေန်ဂ်ုလါ်ဘာႋသာ့",
 	"language-name-romanized": "အေန်ဂ်ုလါ်",
 	"language-name-romanized-sorted": "အေန်ဂ်ုလါ်",
-	"language-button-text": "ဝီကီပီဒီယားဏ်ှပေဝ်ႋလာ လ်ုဏ်ှဆ်ုခၠါင်ဏှ်",
-	"footer-description": "ဝီကီပီးဒီးယားဏှ် အ်ုၰိုဲလ်ုအ်ှ ဆ်ုမာဆိုင်ခြိုင့် ဝီကီမီဒီယာ့ ဖါန်ဍေႋယှေန်ႋ ဏှ်ခဝ့် ထုဂ်လုင့်ထးဟှံင် အ်ုၰာၰံင် ပရောဂျက်အး သ်ုသီး ထုဂ်လုင့်ထးဝေ့ဆေဝ်လှ်။",
-	"app-links": {
-		"title": "ဝီကီပီးဒီးယား အက်ပ်စ်ၮ်ှ အ်ုခါ့ယိုဝ်ၮ်ုမာၮေဝ် ၮေဝ်ယုဂ်။"
-	},
 	"license": "လိက်မေံယိုဝ် <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> ဖံင့်လါ့အ်ှဝေ့လှ်။",
-	"Privacy Policy": "ၜးဆါင့်ဟ်ုက်ုဆာႋ ဆ်ုဖံင်ဖၠေံ",
+	"privacy-policy": "ၜးဆါင့်ဟ်ုက်ုဆာႋ ဆ်ုဖံင်ဖၠေံ",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/kjp",
 	"search-input-button": "အင်းၰူ့",
-	"search-input-label": "အင်းၰူ့ ဝီးကေဝ်ပီဍီယာႋ",
 	"wiki": {
 		"name": "ဝီႋကေဝ်ပီဍီႋယာ",
 		"slogan": "အ်ုၰိုဲလ်ုအ်ှ ဆ်ုခၠါင်ပ္ကုံ",
-		"entries": "လိက်သာထိင်ႋသယ်"
+		"entries": "လိက်သာထိင်ႋသယ်",
+		"search-input-label": "အင်းၰူ့ ဝီးကေဝ်ပီဍီယာႋ",
+		"language-button-text": "ဝီကီပီဒီယားဏ်ှပေဝ်ႋလာ လ်ုဏ်ှဆ်ုခၠါင်ဏှ်",
+		"footer-description": "ဝီကီပီးဒီးယားဏှ် အ်ုၰိုဲလ်ုအ်ှ ဆ်ုမာဆိုင်ခြိုင့် ဝီကီမီဒီယာ့ ဖါန်ဍေႋယှေန်ႋ ဏှ်ခဝ့် ထုဂ်လုင့်ထးဟှံင် အ်ုၰာၰံင် ပရောဂျက်အး သ်ုသီး ထုဂ်လုင့်ထးဝေ့ဆေဝ်လှ်။",
+		"app-links": {
+			"title": "ဝီကီပီးဒီးယား အက်ပ်စ်ၮ်ှ အ်ုခါ့ယိုဝ်ၮ်ုမာၮေဝ် ၮေဝ်ယုဂ်။"
+		}
 	},
 	"wiktionary": {
 		"name": "ဝှေံယှေန်ဏ်ုလေဝ်",

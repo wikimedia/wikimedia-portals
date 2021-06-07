@@ -6,25 +6,25 @@
 		]
 	},
 	"language-name": "Papiamentu",
-	"language-button-text": "Lesa e Wikipedia na su idioma",
-	"footer-description": "Wikipedia ta un kalamidat riba e Fundashon Wikimedia, ta un organisacion sin lat di lucro e largu e ta un dama di otro projects.",
 	"footer-donate": "Bo por apoyá nos trabou ku un donashon.",
-	"app-links": {
-		"title": "Baha Wikipedia pa Android 1of iOS",
-		"description": "Warda bo artíkulonan faborito pa lesa offline, sinkronisá bo listanan di artíkulo entre tur bo aparatonan i personalisá bo lesamentu ku e app ofisial di Wikipedia.",
-		"google-store": "Google Play Store",
-		"apple-store": "Apple App Store"
-	},
 	"license": "E página akí ta disponibel segun e <a href='https://creativecommons.org/licenses/by-sa/3.0/'>lisensia Creative Commons Attribution-ShareAlike </a>",
 	"terms": "Kondishon di uzo",
-	"Privacy Policy": "Kuadro di privasidat",
+	"privacy-policy": "Kuadro di privasidat",
 	"search-input-button": "Buska",
-	"search-input-label": "Buska na Wikipedia",
 	"other-languages-label": "Na otro idioma",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "E Ensiklopedia Liber",
-		"entries": "articulo"
+		"entries": "articulo",
+		"search-input-label": "Buska na Wikipedia",
+		"language-button-text": "Lesa e Wikipedia na su idioma",
+		"footer-description": "Wikipedia ta un kalamidat riba e Fundashon Wikimedia, ta un organisacion sin lat di lucro e largu e ta un dama di otro projects.",
+		"app-links": {
+			"title": "Baha Wikipedia pa Android 1of iOS",
+			"description": "Warda bo artíkulonan faborito pa lesa offline, sinkronisá bo listanan di artíkulo entre tur bo aparatonan i personalisá bo lesamentu ku e app ofisial di Wikipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikdiccionario",

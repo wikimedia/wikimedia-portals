@@ -5,21 +5,21 @@
 			"Ильнар"
 		]
 	},
-	"language-button-text": "Википедияне үз телегездә укыгыз",
-	"footer-description": "Википедия Викимедиа Фонды — тиҗарәт булмаган оешма — серверларында урнашкан, ул шулай ук башка проектларның эшен тәэмин итә.",
-	"app-links": {
-		"title": "Андроид яки iOS өчен Википедияне күчереп алу",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "Әлеге битне <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike лицензиясе</a> нигезендә файдаланырга мөмкин",
 	"terms": "Куллану шартлары",
-	"Privacy Policy": "Яшеренлек сәясәте",
+	"privacy-policy": "Яшеренлек сәясәте",
 	"search-input-button": "Эзләү",
-	"search-input-label": "Википедиядә эзләү",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Ирекле энциклопедия",
-		"entries": "мәкалә"
+		"entries": "мәкалә",
+		"search-input-label": "Википедиядә эзләү",
+		"language-button-text": "Википедияне үз телегездә укыгыз",
+		"footer-description": "Википедия Викимедиа Фонды — тиҗарәт булмаган оешма — серверларында урнашкан, ул шулай ук башка проектларның эшен тәэмин итә.",
+		"app-links": {
+			"title": "Андроид яки iOS өчен Википедияне күчереп алу",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Викисүзлек",

@@ -9,12 +9,12 @@
 	"language-name": "Davvisámegiella",
 	"language-name-romanized-sorted": "Davvisamegiella",
 	"terms": "Geavahaneavttut",
-	"Privacy Policy": "Diehtosuodjalanvuohki",
+	"privacy-policy": "Diehtosuodjalanvuohki",
 	"search-input-button": "Oza",
-	"search-input-label": "Oza Wikipedias",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Almmolaš diehtosátnegirji"
+		"slogan": "Almmolaš diehtosátnegirji",
+		"search-input-label": "Oza Wikipedias"
 	},
 	"wiktionary": {
 		"name": "Wikisátnegirji",

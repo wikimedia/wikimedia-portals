@@ -8,21 +8,21 @@
 		]
 	},
 	"language-name": "Brezhoneg",
-	"language-button-text": "Lenn Wikipedia en ho yezh",
-	"footer-description": "Gant an diazezadur Wikipedia eo herberc'hiet Wikipedia. Un aozadur hep pal kenwerzhel eo hag a herberc'h kalz a raktresoù all ivez.",
-	"app-links": {
-		"title": "Pellgargañ WIkipedia evit Android pe iOS",
-		"description": "Enrolli ho restroù karetañ evit lenn anezho ezlinenn, sinkronelaat ho rolloù lenn etre an ardivinkoù ha personelaat ho boazioù lenn gant arload ofisiel Wikipedia."
-	},
 	"license": "Emañ ar bajenn-mañ dindan an aotre implijout <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Deroadur-RannañHeñvel</a>",
 	"terms": "Termenoù implijout",
-	"Privacy Policy": "Reolennoù prevezded",
+	"privacy-policy": "Reolennoù prevezded",
 	"search-input-button": "Klask",
-	"search-input-label": "Klask e Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "An Holloueziadur digor",
-		"entries": "pennadoù"
+		"entries": "pennadoù",
+		"search-input-label": "Klask e Wikipedia",
+		"language-button-text": "Lenn Wikipedia en ho yezh",
+		"footer-description": "Gant an diazezadur Wikipedia eo herberc'hiet Wikipedia. Un aozadur hep pal kenwerzhel eo hag a herberc'h kalz a raktresoù all ivez.",
+		"app-links": {
+			"title": "Pellgargañ WIkipedia evit Android pe iOS",
+			"description": "Enrolli ho restroù karetañ evit lenn anezho ezlinenn, sinkronelaat ho rolloù lenn etre an ardivinkoù ha personelaat ho boazioù lenn gant arload ofisiel Wikipedia."
+		}
 	},
 	"wiktionary": {
 		"name": "Wikeriadur",

@@ -5,16 +5,16 @@
 			"Yupik"
 		]
 	},
-	"app-links": {
-		"title": "Luođii Wikipedia Anroidin teikâ iOS:n"
-	},
 	"terms": "Kevttimiävtuh",
 	"search-input-button": "Uusâ",
-	"search-input-label": "Uusâ Wikipediast",
 	"other-languages-label": "Eres kielah",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Rijjâ tiätusänikirje"
+		"slogan": "Rijjâ tiätusänikirje",
+		"search-input-label": "Uusâ Wikipediast",
+		"app-links": {
+			"title": "Luođii Wikipedia Anroidin teikâ iOS:n"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikisänikirje",

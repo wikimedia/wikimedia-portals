@@ -11,26 +11,26 @@
 	},
 	"language-name": "日本語",
 	"language-name-romanized": "Nihongo",
-	"language-button-text": "あなたの言語でウィキペディアを読みませんか",
-	"footer-description": "ウィキペディアは非営利団体が運営しており、他にも多数のプロジェクトを展開しています。",
 	"footer-donate": "寄付することで私たちの活動をサポートできます。",
-	"app-links": {
-		"title": "Android 版もしくは iOS 版ウィキペディアの入手",
-		"description": "ウィキペディアの公式アプリを使うと、お気に入りの記事をオフライン用に保存したり、読書リストを他の端末と同期したりして、読書体験がカスタマイズできます。",
-		"url": "https://ja.wikipedia.org/wiki/ウィキペディアのモバイルアプリケーション一覧"
-	},
 	"license": "このページは、<a href='https://creativecommons.org/licenses/by-sa/3.0/'>クリエイティブ・コモンズ 表示 - 継承 ライセンス</a>の下で利用できます。",
 	"terms": "利用規約",
-	"Privacy Policy": "プライバシー・ポリシー",
+	"privacy-policy": "プライバシー・ポリシー",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ja",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ja",
 	"search-input-button": "検索",
-	"search-input-label": "ウィキペディア内を検索",
 	"other-languages-label": "他の言語",
 	"wiki": {
 		"name": "ウィキペディア",
 		"slogan": "フリー百科事典",
-		"entries": "記事"
+		"entries": "記事",
+		"search-input-label": "ウィキペディア内を検索",
+		"language-button-text": "あなたの言語でウィキペディアを読みませんか",
+		"footer-description": "ウィキペディアは非営利団体が運営しており、他にも多数のプロジェクトを展開しています。",
+		"app-links": {
+			"title": "Android 版もしくは iOS 版ウィキペディアの入手",
+			"description": "ウィキペディアの公式アプリを使うと、お気に入りの記事をオフライン用に保存したり、読書リストを他の端末と同期したりして、読書体験がカスタマイズできます。",
+			"url": "https://ja.wikipedia.org/wiki/ウィキペディアのモバイルアプリケーション一覧"
+		}
 	},
 	"wiktionary": {
 		"name": "ウィクショナリー",

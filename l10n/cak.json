@@ -6,11 +6,11 @@
 	},
 	"language-name": "Kaqchikel",
 	"language-name-romanized-sorted": "Kaqchikel",
-	"app-links": {
-		"title": "Ruqasaxik la Wikipetya’ richin Android, richin iOS"
-	},
 	"wiki": {
-		"entries": "tzijonibʼälaʼ"
+		"entries": "tzijonibʼälaʼ",
+		"app-links": {
+			"title": "Ruqasaxik la Wikipetya’ richin Android, richin iOS"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiksoltzij",

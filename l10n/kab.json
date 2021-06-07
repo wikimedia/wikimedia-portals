@@ -10,22 +10,22 @@
 	"language-name": "Taqbaylit",
 	"language-name-romanized": "Taqbaylit",
 	"language-name-romanized-sorted": "Taqbaylit",
-	"language-button-text": "Ɣeṛ Wikipedia s tutlayt-ik/im",
-	"footer-description": "Wikipedia yezdeɣ deg tesbeddit Wikimedia, tuddsa ur yettnadin tadrimt, tuddsa yettmuddun tanezduɣt i ddeqs n yiṣenfaṛen-nniḍen.",
-	"app-links": {
-		"title": "Sider Wikipedia i Android neɣ iOS",
-		"description": "Sekles imagraden-ik/im i tebɣiḍ i tɣuṛi-nsen war tuqqna, sseɛdel ummuɣ-ik/m n tɣuri s yibenkan sakkin ɛrek tirmit-ik/m s usnas unṣib n Wikipedia.",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "Asebter-a atan daw n leɛnaya n <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Irman n Useqdec",
-	"Privacy Policy": "Tasertit n tbaḍnit",
+	"privacy-policy": "Tasertit n tbaḍnit",
 	"search-input-button": "Nadi",
-	"search-input-label": "Nadi deg Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Takussna tilellit",
-		"entries": "imagraden"
+		"entries": "imagraden",
+		"search-input-label": "Nadi deg Wikipedia",
+		"language-button-text": "Ɣeṛ Wikipedia s tutlayt-ik/im",
+		"footer-description": "Wikipedia yezdeɣ deg tesbeddit Wikimedia, tuddsa ur yettnadin tadrimt, tuddsa yettmuddun tanezduɣt i ddeqs n yiṣenfaṛen-nniḍen.",
+		"app-links": {
+			"title": "Sider Wikipedia i Android neɣ iOS",
+			"description": "Sekles imagraden-ik/im i tebɣiḍ i tɣuṛi-nsen war tuqqna, sseɛdel ummuɣ-ik/m n tɣuri s yibenkan sakkin ɛrek tirmit-ik/m s usnas unṣib n Wikipedia.",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikawal",

@@ -12,26 +12,26 @@
 	"language-name": "Polski",
 	"language-name-romanized": "Angielski",
 	"language-name-romanized-sorted": "Angielski",
-	"language-button-text": "Czytaj Wikipedię w swoim języku",
-	"footer-description": "Wikipedia jest hostowana przez Fundację Wikimedia, organizację non-profit, która także prowadzi szereg innych projektów.",
 	"footer-donate": "Wesprzyj naszą pracę datkiem.",
-	"app-links": {
-		"title": "Pobierz aplikację Wikipedii na Androida lub iOS",
-		"description": "Czytaj swoje ulubione artykuły offline, zsynchronizuj listy czytania pomiędzy urządzeniami i dostosuj swoje doświadczenie, korzystając z oficjalnej aplikacji Wikipedii.",
-		"google-store": "Sklep Play"
-	},
 	"license": "Ta strona jest dostępna na licencji <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.pl'>Creative Commons Uznanie autorstwa-Na tych samych warunkach</a>",
 	"terms": "Warunki użytkowania",
-	"Privacy Policy": "Polityka prywatności",
+	"privacy-policy": "Polityka prywatności",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/pl",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/pl",
 	"search-input-button": "Szukaj",
-	"search-input-label": "Szukaj w Wikipedii",
 	"other-languages-label": "Inne języki",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Wolna encyklopedia",
-		"entries": "haseł"
+		"entries": "haseł",
+		"search-input-label": "Szukaj w Wikipedii",
+		"language-button-text": "Czytaj Wikipedię w swoim języku",
+		"footer-description": "Wikipedia jest hostowana przez Fundację Wikimedia, organizację non-profit, która także prowadzi szereg innych projektów.",
+		"app-links": {
+			"title": "Pobierz aplikację Wikipedii na Androida lub iOS",
+			"description": "Czytaj swoje ulubione artykuły offline, zsynchronizuj listy czytania pomiędzy urządzeniami i dostosuj swoje doświadczenie, korzystając z oficjalnej aplikacji Wikipedii.",
+			"google-store": "Sklep Play"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikisłownik",

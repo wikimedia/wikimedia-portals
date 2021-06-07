@@ -12,24 +12,24 @@
 	"language-name": "Čeština",
 	"language-name-romanized": "čeština",
 	"language-name-romanized-sorted": "Cestina",
-	"language-button-text": "Přečtěte si Wikipedii ve svém jazyce",
-	"footer-description": "Wikipedii provozuje Wikimedia Foundation, nezisková organizace, která provozuje také mnoho dalších projektů.",
-	"app-links": {
-		"title": "Stáhnout aplikaci Wikipedie pro Android nebo iOS",
-		"description": "Uložte si své oblíbené články, abyste je mohli číst i bez připojení k internetu, synchronizovat seznamy k přečtení napříč různými zařízeními a přizpůsobit si zážitek ze čtení pomocí oficiální aplikace Wikipedie.",
-		"url": "https://cs.wikipedia.org/wiki/Seznam_mobiln%C3%ADch_aplikac%C3%AD_Wikipedie"
-	},
 	"license": "Tato stránka je k dispozici pod <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Podmínky užití",
-	"Privacy Policy": "Zásady ochrany osobních údajů",
+	"privacy-policy": "Zásady ochrany osobních údajů",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/cs",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/cs",
 	"search-input-button": "Hledat",
-	"search-input-label": "Hledat ve Wikipedii",
 	"wiki": {
 		"name": "Wikipedie",
 		"slogan": "Otevřená encyklopedie",
-		"entries": "článků"
+		"entries": "článků",
+		"search-input-label": "Hledat ve Wikipedii",
+		"language-button-text": "Přečtěte si Wikipedii ve svém jazyce",
+		"footer-description": "Wikipedii provozuje Wikimedia Foundation, nezisková organizace, která provozuje také mnoho dalších projektů.",
+		"app-links": {
+			"title": "Stáhnout aplikaci Wikipedie pro Android nebo iOS",
+			"description": "Uložte si své oblíbené články, abyste je mohli číst i bez připojení k internetu, synchronizovat seznamy k přečtení napříč různými zařízeními a přizpůsobit si zážitek ze čtení pomocí oficiální aplikace Wikipedie.",
+			"url": "https://cs.wikipedia.org/wiki/Seznam_mobiln%C3%ADch_aplikac%C3%AD_Wikipedie"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikislovník",

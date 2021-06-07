@@ -10,28 +10,28 @@
 			"TheEduGobi"
 		]
 	},
-	"language-button-text": "Ler a Wikipédia no seu idioma",
-	"footer-description": "A Wikipédia é hospedada pela Fundação Wikimedia, uma organização sem fins lucrativos que também hospeda uma gama de outros projetos.",
 	"footer-donate": "Você pode apoiar nosso trabalho com uma doação.",
-	"app-links": {
-		"title": "Faça o download da Wikipedia para Android ou iOS",
-		"description": "Salve seus artigos favoritos para ler offline, sincronize suas listas de leitura entre dispositivos e personalize sua experiência de leitura com o aplicativo oficial da Wikipédia.",
-		"google-store": "Play Store do Google",
-		"apple-store": "App Store da Apple",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "Esta página está disponível sob a <a href='https://creativecommons.org/licenses/by-sa/3.0/'>licença Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Termo de uso",
-	"Privacy Policy": "Política de Privacidade",
+	"privacy-policy": "Política de Privacidade",
 	"terms-link": "https://meta.wikimedia.org/wiki/Privacy_policy/pt-br",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/pt-br",
 	"search-input-button": "Pesquisar",
-	"search-input-label": "Pesquisar na Wikipédia",
 	"other-languages-label": "Outros idiomas",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "A enciclopédia livre",
-		"entries": "artigos"
+		"entries": "artigos",
+		"search-input-label": "Pesquisar na Wikipédia",
+		"language-button-text": "Ler a Wikipédia no seu idioma",
+		"footer-description": "A Wikipédia é hospedada pela Fundação Wikimedia, uma organização sem fins lucrativos que também hospeda uma gama de outros projetos.",
+		"app-links": {
+			"title": "Faça o download da Wikipedia para Android ou iOS",
+			"description": "Salve seus artigos favoritos para ler offline, sincronize suas listas de leitura entre dispositivos e personalize sua experiência de leitura com o aplicativo oficial da Wikipédia.",
+			"google-store": "Play Store do Google",
+			"apple-store": "App Store da Apple",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikcionário",

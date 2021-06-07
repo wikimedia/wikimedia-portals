@@ -7,18 +7,18 @@
 	},
 	"language-name": "Azərbaycanca",
 	"language-name-romanized-sorted": "Azerbaycanca",
-	"language-button-text": "Vikipediyanı öz dilinizdə oxuyun",
-	"app-links": {
-		"title": "Android və ya IOS üçün Vikipediya yüklə"
-	},
 	"terms": "İstifadə şərtləri",
-	"Privacy Policy": "Məxfilik siyasəti",
+	"privacy-policy": "Məxfilik siyasəti",
 	"search-input-button": "Axtar",
-	"search-input-label": "Vikipediyada axtar",
 	"wiki": {
 		"name": "Vikipediya",
 		"slogan": "Açıq ensiklopediya",
-		"entries": "məqalələr"
+		"entries": "məqalələr",
+		"search-input-label": "Vikipediyada axtar",
+		"language-button-text": "Vikipediyanı öz dilinizdə oxuyun",
+		"app-links": {
+			"title": "Android və ya IOS üçün Vikipediya yüklə"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",

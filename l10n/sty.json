@@ -7,11 +7,11 @@
 	},
 	"language-name": "Себертатарца",
 	"search-input-button": "Эстәү",
-	"search-input-label": "Пикипедиятан эстәү",
 	"wiki": {
 		"name": "Пикипедия",
 		"slogan": "Ацыҡ энциклопедия",
-		"entries": "пелекләр"
+		"entries": "пелекләр",
+		"search-input-label": "Пикипедиятан эстәү"
 	},
 	"wiktionary": {
 		"name": "Пикисүслек",

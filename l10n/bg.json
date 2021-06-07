@@ -10,24 +10,24 @@
 	"language-name": "Български",
 	"language-name-romanized": "Bǎlgarski",
 	"language-name-romanized-sorted": "Balgarski",
-	"language-button-text": "Четете Уикипедия на вашия език",
-	"footer-description": "Уикипедия се хоства от Фондация Уикимедия, организация с идеална цел, която поддържа и редица други проекти.",
-	"app-links": {
-		"title": "Изтегляне на Уикипедия за Андроид или iOS",
-		"description": "Запазете любимите си статии за офлайн четене, синхронизирайте списъците си за четене с различните устройства и персонализирайте четенето с официалното приложение на Уикипедия.",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "Страницата е достъпна под <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">условията на лиценза Криейтив Комънс Признание-споделяне на споделеното</a>",
 	"terms": "Условия за ползване",
-	"Privacy Policy": "Защита на личните данни",
+	"privacy-policy": "Защита на личните данни",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/bg",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/bg",
 	"search-input-button": "Търсене",
-	"search-input-label": "Търсене в Уикипедия",
 	"wiki": {
 		"name": "Уикипедия",
 		"slogan": "Cвободната енциклопедия",
-		"entries": "статии"
+		"entries": "статии",
+		"search-input-label": "Търсене в Уикипедия",
+		"language-button-text": "Четете Уикипедия на вашия език",
+		"footer-description": "Уикипедия се хоства от Фондация Уикимедия, организация с идеална цел, която поддържа и редица други проекти.",
+		"app-links": {
+			"title": "Изтегляне на Уикипедия за Андроид или iOS",
+			"description": "Запазете любимите си статии за офлайн четене, синхронизирайте списъците си за четене с различните устройства и персонализирайте четенето с официалното приложение на Уикипедия.",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Уикиречник",

@@ -7,18 +7,18 @@
 			"Robin van der Vliet"
 		]
 	},
-	"language-button-text": "Leje Vicipedia en tua lingua",
-	"footer-description": "Wikipedia es ospitada par la Wikimedia Foundation, un organiza nonprofitante cual ospita ance otra projetas variosa.",
-	"app-links": {
-		"title": "Apes de Wikipedia desponable aora:"
-	},
 	"license": "Esta paje es desponable su la lisensa de <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Acorda de Usa",
-	"Privacy Policy": "Promete de privatia",
+	"privacy-policy": "Promete de privatia",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "La ensiclopedia libre",
-		"entries": "articles"
+		"entries": "articles",
+		"language-button-text": "Leje Vicipedia en tua lingua",
+		"footer-description": "Wikipedia es ospitada par la Wikimedia Foundation, un organiza nonprofitante cual ospita ance otra projetas variosa.",
+		"app-links": {
+			"title": "Apes de Wikipedia desponable aora:"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",

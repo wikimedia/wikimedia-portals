@@ -4,25 +4,25 @@
 			"Lea.Fakauvea"
 		]
 	},
-	"language-button-text": "Lau te Wikipedia i tau lea",
-	"footer-description": "E fakaha'ele te Wikipedia e te kautahi o te Wikimedia Foundation.",
 	"footer-donate": "E lava hau tokoni falā mai ki te gaue.",
-	"app-links": {
-		"title": "Faka'aoga'i te Wikipedia i te Android pe iOS",
-		"description": "Taupau te 'u pāsina e ke fia lau pea fakatatau tona faka'aoga aki te app Wikipedia.",
-		"google-store": "Fale koloa Google Play",
-		"apple-store": "Fale koloa Apple App"
-	},
 	"license": "Ko te pāsina aeni e foaki atu i te\n<a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Lēkula faka'aoga",
-	"Privacy Policy": "Lēkula puipui",
+	"privacy-policy": "Lēkula puipui",
 	"search-input-button": "Kumi",
-	"search-input-label": "Kumi i te Wikipedia",
 	"other-languages-label": "Lea kehekehe",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Te Tohi Fakailo Tau'ateaina",
-		"entries": "Fakamatala"
+		"entries": "Fakamatala",
+		"search-input-label": "Kumi i te Wikipedia",
+		"language-button-text": "Lau te Wikipedia i tau lea",
+		"footer-description": "E fakaha'ele te Wikipedia e te kautahi o te Wikimedia Foundation.",
+		"app-links": {
+			"title": "Faka'aoga'i te Wikipedia i te Android pe iOS",
+			"description": "Taupau te 'u pāsina e ke fia lau pea fakatatau tona faka'aoga aki te app Wikipedia.",
+			"google-store": "Fale koloa Google Play",
+			"apple-store": "Fale koloa Apple App"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikitionary",

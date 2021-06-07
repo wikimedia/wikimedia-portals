@@ -8,23 +8,23 @@
 		]
 	},
 	"language-name": "Occitan",
-	"language-button-text": "Legissètz la Wikipèdia dins vòstra lenga",
-	"footer-description": "Wikipèdia es albergat per la Fondacion Wikimèdia, un organisme de tòca non lucrativa qu'albèrga tanben fòrça projèctes mai.",
-	"app-links": {
-		"title": "Telecargar Wikipèdia per Android e iOS",
-		"description": "Salvatz los vòstres articles preferits per los legir sens connexion, sincronizatz las vòstras listas de lectura per divèrses dispositius e personalizatz l’experiéncia de lectura amb l’aplicacion oficiala de la Wikipèdia."
-	},
 	"license": "Aquesta pagina es disponibla jos <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">licéncia Creative Commons Atribucion-Partiment a l'identic</a>",
 	"terms": "Condicions d'utilizacion",
-	"Privacy Policy": "Politica de confidencialitat",
+	"privacy-policy": "Politica de confidencialitat",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/oc",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/oc",
 	"search-input-button": "Recercar",
-	"search-input-label": "Recercar dins Wikipèdia",
 	"wiki": {
 		"name": "Wikipèdia",
 		"slogan": "l'enciclopèdia liura",
-		"entries": "articles"
+		"entries": "articles",
+		"search-input-label": "Recercar dins Wikipèdia",
+		"language-button-text": "Legissètz la Wikipèdia dins vòstra lenga",
+		"footer-description": "Wikipèdia es albergat per la Fondacion Wikimèdia, un organisme de tòca non lucrativa qu'albèrga tanben fòrça projèctes mai.",
+		"app-links": {
+			"title": "Telecargar Wikipèdia per Android e iOS",
+			"description": "Salvatz los vòstres articles preferits per los legir sens connexion, sincronizatz las vòstras listas de lectura per divèrses dispositius e personalizatz l’experiéncia de lectura amb l’aplicacion oficiala de la Wikipèdia."
+		}
 	},
 	"wiktionary": {
 		"name": "Wikiccionari",

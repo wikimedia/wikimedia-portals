@@ -11,24 +11,24 @@
 	"language-name": "فارسی",
 	"language-name-romanized": "Fārsi",
 	"language-name-romanized-sorted": "Farsi",
-	"language-button-text": "ویکی‌پدیا را به زبان خود بخوانید",
-	"footer-description": "ویکی‌پدیا یکی از پروژه‌هایی است که توسط بنیاد ناسودبر ویکی‌مدیا میزبانی می‌شود.",
 	"footer-donate": "می‌توانید با اهدای کمک مالی از کار ما پشتیبانی کنید.",
-	"app-links": {
-		"title": "ویکی‌پدیا را برای اندروید یا iOS بارگیری کنید",
-		"description": "مقاله‌های مورد علاقه‌تان را برای مطالعهٔ برون‌خط ذخیره کنید، فهرست‌های مطالعه‌تان را در بین دستگاه‌های مختلف‌تان همگام‌سازی کنید، و تجربهٔ مطالعه‌تان با نرم‌افزار رسمی ویکی‌پدیا را شخصی‌سازی کنید."
-	},
 	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "شرایط کاربرد",
-	"Privacy Policy": "سیاست محرمانگی",
+	"privacy-policy": "سیاست محرمانگی",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/fa",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/fa",
 	"search-input-button": "جستجو",
-	"search-input-label": "جستجو در ویکی‌پدیا",
 	"wiki": {
 		"name": "ویکی‌پدیا",
 		"slogan": "دانشنامهٔ آزاد",
-		"entries": "مقاله"
+		"entries": "مقاله",
+		"search-input-label": "جستجو در ویکی‌پدیا",
+		"language-button-text": "ویکی‌پدیا را به زبان خود بخوانید",
+		"footer-description": "ویکی‌پدیا یکی از پروژه‌هایی است که توسط بنیاد ناسودبر ویکی‌مدیا میزبانی می‌شود.",
+		"app-links": {
+			"title": "ویکی‌پدیا را برای اندروید یا iOS بارگیری کنید",
+			"description": "مقاله‌های مورد علاقه‌تان را برای مطالعهٔ برون‌خط ذخیره کنید، فهرست‌های مطالعه‌تان را در بین دستگاه‌های مختلف‌تان همگام‌سازی کنید، و تجربهٔ مطالعه‌تان با نرم‌افزار رسمی ویکی‌پدیا را شخصی‌سازی کنید."
+		}
 	},
 	"wiktionary": {
 		"name": "ویکی‌واژه",

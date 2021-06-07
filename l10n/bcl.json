@@ -6,20 +6,20 @@
 		]
 	},
 	"language-name": "Bikol Central",
-	"language-button-text": "Basahon an Wikipedia sa saimong tataramon",
-	"footer-description": "Ang Wikipedia pinapadalagan kan Wikimedia FOundation, sarong non-profit na organisasyon na nagpapadalagan man nin manlaen-laen na mga proyekto.",
-	"app-links": {
-		"title": "Magagamit na an mga Wikipedia apps:"
-	},
 	"license": "An pahina na ini nasa irarom kan <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Takda kan paggamit",
-	"Privacy Policy": "Kalakawan nin pribasidad",
+	"privacy-policy": "Kalakawan nin pribasidad",
 	"search-input-button": "Maghanap",
-	"search-input-label": "Maghanap sa Wikipedia",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "An Talingkas na Ensiklopedya",
-		"entries": "Mga Artikulo"
+		"entries": "Mga Artikulo",
+		"search-input-label": "Maghanap sa Wikipedia",
+		"language-button-text": "Basahon an Wikipedia sa saimong tataramon",
+		"footer-description": "Ang Wikipedia pinapadalagan kan Wikimedia FOundation, sarong non-profit na organisasyon na nagpapadalagan man nin manlaen-laen na mga proyekto.",
+		"app-links": {
+			"title": "Magagamit na an mga Wikipedia apps:"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiksyonaryo",

@@ -7,22 +7,22 @@
 		]
 	},
 	"language-name": "Eesti",
-	"language-button-text": "Loe Vikipeediat enda keeles",
-	"footer-description": "Vikipeediat majutab Wikimedia Foundation, mittetulunduslik organisatsioon, mis majutab ka mitut teist projekti.",
-	"app-links": {
-		"title": "Laadi alla Vikipeedia Androidile või iOS-ile",
-		"description": "Salvesta oma lemmikartiklid ühenduseta lugemiseks, sünkrooni oma lugemisloendid eri seadmetes ja kohanda lugemiseelistusi, kasutades ametlikku Vikipeedia rakendust."
-	},
 	"license": "See lehekülg on saadaval Creative Commonsi litsentsi \"<a href='https://creativecommons.org/licenses/by-sa/3.0/deed.et'>Autorile viitamine + jagamine samadel tingimustel</a>\" all.",
 	"terms": "Kasutustingimused",
-	"Privacy Policy": "Andmekaitsereeglid",
+	"privacy-policy": "Andmekaitsereeglid",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/et",
 	"search-input-button": "Otsi",
-	"search-input-label": "Otsi Vikipeediast",
 	"wiki": {
 		"name": "Vikipeedia",
 		"slogan": "Vaba entsüklopeedia",
-		"entries": "artiklit"
+		"entries": "artiklit",
+		"search-input-label": "Otsi Vikipeediast",
+		"language-button-text": "Loe Vikipeediat enda keeles",
+		"footer-description": "Vikipeediat majutab Wikimedia Foundation, mittetulunduslik organisatsioon, mis majutab ka mitut teist projekti.",
+		"app-links": {
+			"title": "Laadi alla Vikipeedia Androidile või iOS-ile",
+			"description": "Salvesta oma lemmikartiklid ühenduseta lugemiseks, sünkrooni oma lugemisloendid eri seadmetes ja kohanda lugemiseelistusi, kasutades ametlikku Vikipeedia rakendust."
+		}
 	},
 	"wiktionary": {
 		"name": "Vikisõnastik",

@@ -7,19 +7,19 @@
 			"KATMAKROFAN"
 		]
 	},
-	"language-button-text": "Read Wikipædia in your language",
-	"footer-description": "Wikipædia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.",
-	"app-links": {
-		"title": "Download Wikipedia for Android or iOS"
-	},
 	"terms": "Terms of Use",
-	"Privacy Policy": "Privacy Policy",
+	"privacy-policy": "Privacy Policy",
 	"search-input-button": "Search",
-	"search-input-label": "Search Wikipedia",
 	"wiki": {
 		"name": "Wikipædia",
 		"slogan": "The Free Encyclopædia",
-		"entries": "articles"
+		"entries": "articles",
+		"search-input-label": "Search Wikipedia",
+		"language-button-text": "Read Wikipædia in your language",
+		"footer-description": "Wikipædia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.",
+		"app-links": {
+			"title": "Download Wikipedia for Android or iOS"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary:",

@@ -12,26 +12,26 @@
 	"language-name": "ภาษาไทย",
 	"language-name-romanized": "Phasa Thai",
 	"language-name-romanized-sorted": "Thai, Phasa",
-	"language-button-text": "อ่านวิกิพีเดียในภาษาของคุณ",
-	"footer-description": "วิกิพีเดียเป็นลูกข่ายของมูลนิธิวิกิมีเดีย องค์กรไม่แสวงหาผลกำไร ที่ยังเป็นแม่ข่ายของโครงการอื่น ๆ ด้วย",
-	"app-links": {
-		"title": "ดาวน์โหลดแอปวิกิพีเดียสำหรับแอนดรอยด์หรือ iOS",
-		"description": "บันทึกบทความที่คุณชื่นชอบสำหรับอ่านออฟไลน์ ซิงค์รายการที่คุณอ่านข้ามอุปกรณ์และปรับแต่งประสบการณ์ในการอ่านมากขึ้นไปกับแอปพลิเคชันวิกิพีเดียอย่างเป็นทางการของเรา",
-		"google-store": "กูเกิลเพลย์สโตร์",
-		"apple-store": "แอปเปิลแอปสโตร์"
-	},
 	"license": "หน้านี้อยู่ภายใต้สัญญาอนุญาต<a href='https://creativecommons.org/licenses/by-sa/3.0/deed.th'>ครีเอทีฟคอมมอนส์ อ้างอิงแหล่งที่มา อนุญาตแบบเดียวกัน 3.0</a>",
 	"terms": "ข้อกำหนดการใช้งาน",
-	"Privacy Policy": "นโยบายความเป็นส่วนตัว",
+	"privacy-policy": "นโยบายความเป็นส่วนตัว",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/th",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/th",
 	"search-input-button": "ค้นหา",
-	"search-input-label": "ค้นหาในวิกิพีเดีย",
 	"other-languages-label": "ภาษาอื่น ๆ",
 	"wiki": {
 		"name": "วิกิพีเดีย",
 		"slogan": "สารานุกรมเสรี",
-		"entries": "บทความ"
+		"entries": "บทความ",
+		"search-input-label": "ค้นหาในวิกิพีเดีย",
+		"language-button-text": "อ่านวิกิพีเดียในภาษาของคุณ",
+		"footer-description": "วิกิพีเดียเป็นลูกข่ายของมูลนิธิวิกิมีเดีย องค์กรไม่แสวงหาผลกำไร ที่ยังเป็นแม่ข่ายของโครงการอื่น ๆ ด้วย",
+		"app-links": {
+			"title": "ดาวน์โหลดแอปวิกิพีเดียสำหรับแอนดรอยด์หรือ iOS",
+			"description": "บันทึกบทความที่คุณชื่นชอบสำหรับอ่านออฟไลน์ ซิงค์รายการที่คุณอ่านข้ามอุปกรณ์และปรับแต่งประสบการณ์ในการอ่านมากขึ้นไปกับแอปพลิเคชันวิกิพีเดียอย่างเป็นทางการของเรา",
+			"google-store": "กูเกิลเพลย์สโตร์",
+			"apple-store": "แอปเปิลแอปสโตร์"
+		}
 	},
 	"wiktionary": {
 		"name": "วิกิพจนานุกรม",

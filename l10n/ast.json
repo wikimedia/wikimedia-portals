@@ -10,25 +10,25 @@
 	},
 	"language-name": "Asturianu",
 	"language-name-romanized-sorted": "Asturianu",
-	"language-button-text": "Llei Wikipedia na to llingua",
-	"footer-description": "A Wikipedia agóspiala Wikimedia Foundation, una organización ensin ánimu de llucru que tamién agospia otros proyeutos.",
-	"app-links": {
-		"title": "Descargar Wikipedia p'Android o iOS",
-		"description": "Descarga los tos artículos favoritos pa lleelos ensin conexón, sincroniza llistes de llectura ente preseos y personaliza la esperiencia de llectura cola app oficial de Wikipedia.",
-		"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-	},
 	"license": "Esta páxina ta disponible so la <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">llicencia Creative Commons Atribución-CompartirIgual</a>",
 	"terms": "Términos d'usu",
-	"Privacy Policy": "Política de privacidá",
+	"privacy-policy": "Política de privacidá",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ast",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ast",
 	"search-input-button": "Buscar",
-	"search-input-label": "Buscar na Wikipedia",
 	"other-languages-label": "Otres llingües",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "La enciclopedia llibre",
-		"entries": "artículos"
+		"entries": "artículos",
+		"search-input-label": "Buscar na Wikipedia",
+		"language-button-text": "Llei Wikipedia na to llingua",
+		"footer-description": "A Wikipedia agóspiala Wikimedia Foundation, una organización ensin ánimu de llucru que tamién agospia otros proyeutos.",
+		"app-links": {
+			"title": "Descargar Wikipedia p'Android o iOS",
+			"description": "Descarga los tos artículos favoritos pa lleelos ensin conexón, sincroniza llistes de llectura ente preseos y personaliza la esperiencia de llectura cola app oficial de Wikipedia.",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikcionariu",
