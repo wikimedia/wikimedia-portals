@@ -46,7 +46,7 @@ getConfig = function () {
 		src: baseDir + 'index.handlebars',
 		templateData: require( '../' + baseDir + 'controller.js' ),
 		options: {
-			batch: [ './' + baseDir + '/templates' ],
+			batch: [ './src/common/templates', './' + baseDir + '/templates' ],
 			helpers: require( '../hbs-helpers.global' )
 		}
 	};

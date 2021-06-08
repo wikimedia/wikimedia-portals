@@ -20,6 +20,22 @@ var _ = require( 'underscore' ),
 // This is specific to Wikipedia.
 l10n.portal = l10n.wiki;
 
+l10n.assets = {
+	logo: {
+		src: 'portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png',
+		srcset: 'portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png 1.5x, portal/wikipedia.org/assets/img/Wikipedia-logo-v2@2x.png 2x',
+		width: '200',
+		height: '183'
+	},
+	lang: {
+		url: 'https://meta.wikimedia.org/wiki/Special:MyLanguage/List_of_Wikipedias'
+	},
+	search:
+	{
+		action: '//www.wikipedia.org/search-redirect.php'
+	}
+};
+
 // Format the dropdown for ./templates/search.mustache
 top100000List = stats.getRange( 'wiki', 'numPages', 100000 );
 top100000Dropdown = stats.format( 'wiki', top100000List, {

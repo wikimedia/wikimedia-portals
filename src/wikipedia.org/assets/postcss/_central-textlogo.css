@@ -57,6 +57,7 @@
 		line-height: 2.5rem;
 		/* visual horizontal alignment in an rtl compat way */
 		text-indent: -1rem;
+		font-size: 1em;
 	}
 
 	.central-textlogo-wrapper {
