@@ -3,6 +3,7 @@
 		"authors": [
 			"ASHmed",
 			"DRIHEM",
+			"Hhaboh162002",
 			"Meno25",
 			"Mido",
 			"Minh Nguyen",
@@ -14,6 +15,7 @@
 	"language-name": "الإنجليزية",
 	"language-name-romanized": "Al-ʿArabīyah",
 	"language-name-romanized-sorted": "Arabiyah, Al",
+	"footer-donate": "يمكنك مساندة عملنا بالتبرع.",
 	"license": "هذه الصفحة منشورة <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ar '>برخصة المشاع الإبداعي</a>",
 	"terms": "شروط الاستخدام",
 	"privacy-policy": "سياسة الخصوصية",
@@ -31,6 +33,8 @@
 		"app-links": {
 			"title": "قم بتنزيل ويكيبيديا لأندرويد أو آي أو إس",
 			"description": "احفظ مقالاتك المفضلة للقراءة في وضع عدم الاتصال ومزامنة قوائم القراءة عبر الأجهزة وتخصيص تجربة القراءة الخاصة بك بتطبيق ويكيبيديا الرسمي.",
+			"google-store": "متجر Google Play",
+			"apple-store": "متجر Apple App",
 			"url": "https://ar.wikipedia.org/wiki/قائمة_تطبيقات_ويكيبيديا_للهاتف"
 		}
 	},
