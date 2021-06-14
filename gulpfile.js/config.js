@@ -68,7 +68,8 @@ getConfig = function () {
 		hb: [ baseDir + '*.handlebars',
 			baseDir + '.json',
 			baseDir + 'controller.js',
-			baseDir + 'templates/**/*'
+			baseDir + 'templates/**/*',
+			'./src/common/templates'
 		]
 	};
 

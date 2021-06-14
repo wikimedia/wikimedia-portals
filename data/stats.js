@@ -199,7 +199,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 				'app-links',
 				'license',
 				'terms',
-				'Privacy Policy',
+				'privacy-policy',
 				'terms-link',
 				'privacy-policy-link',
 				'wiki',

@@ -55,6 +55,12 @@
 <script>
     var rtlLangs = {{{rtlLanguagesStringified}}},
     translationsHash = '{{translationChecksum}}',
+    /**
+     * This variable is used to convert the generic "portal" keyword in the data-jsl10n attributes
+     * e.g. 'data-jsl10n="portal.footer-description"' into a portal-specific key, e.g. "wiki"
+     * for the Wikipedia portal.
+     */
+    translationsPortalKey = 'wiki';
     /*
      This object is used by l10n scripts (page-localized.js, topten-localized.js)
      to reveal the page content after l10n json is loaded.

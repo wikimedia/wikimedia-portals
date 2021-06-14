@@ -1,4 +1,4 @@
-/* global wmTest, translationsHash, wmL10nVisible, rtlLangs */
+/* global wmTest, translationsHash, translationsPortalKey, wmL10nVisible, rtlLangs */
 
 /**
  * This script localizes the page text.
@@ -98,7 +98,12 @@
 		for ( i = 0; i < domEls.length; i++ ) {
 
 			domEl = domEls[ i ];
-			l10nAttr = domEl.getAttribute( 'data-jsl10n' );
+			/**
+			 * This converts the generic "portal" keyword in the data-jsl10n
+			 * attributes e.g. 'data-jsl10n="portal.footer-description"' into a portal-specific
+			 * keys as defined by the global `translationsPortalKey` variable inlined in index.html
+			 */
+			l10nAttr = domEl.getAttribute( 'data-jsl10n' ).replace( 'portal.', translationsPortalKey + '.' );
 			textValue = getProp( info, l10nAttr );
 
 			if ( typeof textValue === 'string' && textValue.length > 0 ) {
@@ -120,7 +125,7 @@
 							domEl.firstChild.setAttribute( 'href', termsHref );
 						}
 						break;
-					case 'Privacy Policy':
+					case 'privacy-policy':
 						domEl.firstChild.textContent = textValue;
 						privacyHref = getProp( info, 'privacy-policy-link' );
 						if ( privacyHref ) {
