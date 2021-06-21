@@ -7,6 +7,7 @@
 		]
 	},
 	"language-name": "Euskara",
+	"footer-donate": "Gure lana lagundu dezakezu dohaintza batekin.",
 	"license": "Webgune hau <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike lizentziapean</a> eskuragarri dago",
 	"terms": "Erabilera baldintzak",
 	"privacy-policy": "Pribatutasun politika",
@@ -23,8 +24,10 @@
 		"footer-description": "Wikipedia Wikimedia Fundazioaren ostatupean dago, irabazi asmorik gabeko erakunde bat beste hainbat proiektu ere babesten dituena",
 		"app-links": {
 			"title": "Wikipedia deskargatu Android edo iOS-erako",
+			"description": "Zure gustuko artikuluak gorde sarerik gabe irakurtzeko, zure irakurketa zerrendak sinkronizatu eta zure irakurtze-esperientzia pertsonalizatu Wikipediaren app ofizialarekin.",
 			"google-store": "Google Play Store",
-			"apple-store": "Apple App Store"
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {

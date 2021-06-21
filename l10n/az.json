@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"NMW03",
 			"Toghrul Rahimli",
 			"Şeyx Şamil"
 		]
@@ -12,7 +13,7 @@
 	"search-input-button": "Axtar",
 	"wiki": {
 		"name": "Vikipediya",
-		"slogan": "Açıq ensiklopediya",
+		"slogan": "Azad ensiklopediya",
 		"entries": "məqalələr",
 		"search-input-label": "Vikipediyada axtar",
 		"language-button-text": "Vikipediyanı öz dilinizdə oxuyun",
