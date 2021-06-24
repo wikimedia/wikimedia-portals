@@ -14,12 +14,14 @@
 	"language-name": "Ελληνικά",
 	"language-name-romanized": "Ellīniká",
 	"language-name-romanized-sorted": "Ellinika",
+	"footer-donate": "Μπορείτε να υποστηρίξετε το έργο μας με μια δωρεά.",
 	"license": "Αυτή η σελίδα είναι διαθέσιμη υπό την <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Όροι χρήσης",
 	"privacy-policy": "Πολιτική ιδιωτικού απορρήτου",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/el",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/el",
 	"search-input-button": "Αναζήτηση",
+	"other-languages-label": "Άλλες γλώσσες",
 	"wiki": {
 		"name": "Βικιπαίδεια",
 		"slogan": "Η Ελεύθερη Εγκυκλοπαίδεια",
@@ -29,7 +31,9 @@
 		"footer-description": "Η Wikipedia φιλοξενείται από το Wikimedia Foundation, ένα μη κερδοσκοπικό οργανισμό που φιλοξενεί επίσης μια σειρά από άλλα εγχειρήματα.",
 		"app-links": {
 			"title": "Κατεβάστε τη Βικιπαίδεια για Android ή iOS",
-			"description": "Αποθηκεύστε τα αγαπημένα σας λήμματα για να διαβάσετε εκτός σύνδεσης, συγχρονίστε τις λίστες ανάγνωσης σε όλες τις συσκευές και προσαρμόστε την εμπειρία ανάγνωσής σας με την επίσημη εφαρμογή Wikipedia."
+			"description": "Αποθηκεύστε τα αγαπημένα σας λήμματα για να διαβάσετε εκτός σύνδεσης, συγχρονίστε τις λίστες ανάγνωσης σε όλες τις συσκευές και προσαρμόστε την εμπειρία ανάγνωσής σας με την επίσημη εφαρμογή Wikipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
 		}
 	},
 	"wiktionary": {
