@@ -61,6 +61,12 @@
      * for the Wikipedia portal.
      */
     translationsPortalKey = 'wiki';
+    /**
+     * The wm-typeahead.js feature is used for search,and it uses domain name for searching. We want domain
+     * name to be portal Specific (different for every portal).So by declaring variable 'portalSearchDomain'
+     * in index.handlebars we will make this portal Specific.
+    **/
+    portalSearchDomain = 'wikipedia.org'
     /*
      This object is used by l10n scripts (page-localized.js, topten-localized.js)
      to reveal the page content after l10n json is loaded.
@@ -83,23 +89,25 @@
 <!-- build:js assets/js/index.js -->
 
 {{! Utilities or polyfills }}
-<script src="assets/js/polyfills.js"></script>
-<script src="assets/js/underscore.partial.js"></script>
-<script src="assets/js/mediawiki.lite.js"></script>
+<script src="../common/assets/js/polyfills.js"></script>
+<script src="../common/assets/js/underscore.partial.js"></script>
+<script src="../common/assets/js/mediawiki.lite.js"></script>
 
 {{! Event logging & AB testing }}
-<script src="assets/js/seedrandom.js"></script>
+<script src="../common/assets/js/seedrandom.js"></script>
+
+{{! Event logging, AB testing & Portal Specific }}
 <script src="assets/js/event-logging-lite.js"></script>
 <script src="assets/js/wm-test.js"></script>
 <script src="assets/js/wikipedia-org-event-logging.js"></script>
 
 {{! Page features }}
-<script src="assets/js/wm-typeahead.js"></script>
-<script src="assets/js/typeahead-init.js"></script>
-<script src="assets/js/topten-localized.js"></script>
-<script src="assets/js/wm-portal.js"></script>
-<script src="assets/js/lang-dropdown.js"></script>
-<script src="assets/js/page-localized.js"></script>
+<script src="../common/assets/js/wm-typeahead.js"></script>
+<script src="../common/assets/js/typeahead-init.js"></script>
+<script src="../common/assets/js/topten-localized.js"></script>
+<script src="../common/assets/js/wm-portal.js"></script>
+<script src="../common/assets/js/lang-dropdown.js"></script>
+<script src="../common/assets/js/page-localized.js"></script>
 
 <!-- endbuild -->
 
@@ -111,7 +119,7 @@ Hence all IEs not parsing conditional comments any more will load script.
 }}
 <!--[if gt IE 9]><!-->
 <!-- build:js assets/js/gt-ie9.js -->
-<script src="assets/js/search-language-picker.js"></script>
+<script src="../common/assets/js/search-language-picker.js"></script>
 <!-- endbuild -->
 <!--<![endif]-->
 
