@@ -18,7 +18,7 @@
  *
  */
 
-/* global getDevicePixelRatio */
+/* global getDevicePixelRatio,portalSearchDomain */
 
 window.WMTypeAhead = function ( appendTo, searchInput ) {
 
@@ -170,7 +170,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 			return;
 		}
 
-		hostname = '//' + searchLang + '.wikipedia.org/w/api.php?';
+		hostname = '//' + searchLang + '.' + portalSearchDomain + '/w/api.php?';
 
 		// If script already exists, remove it.
 		if ( script ) {
@@ -297,7 +297,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 
 			suggestionLink = mw.html.element( 'a', {
 				class: 'suggestion-link',
-				href: 'https://' + searchLang + '.wikipedia.org/wiki/' + encodeURIComponent( page.title.replace( / /gi, '_' ) )
+				href: 'https://' + searchLang + '.' + portalSearchDomain + '/wiki/' + encodeURIComponent( page.title.replace( / /gi, '_' ) )
 			}, new mw.html.Raw( suggestionText + suggestionThumbnail ) );
 
 			string += suggestionLink;
