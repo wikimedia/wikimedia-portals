@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iflaq"
+		]
+	},
+	"other-languages-label": "باقیَن زَبانَن",
+	"wiki": {
+		"name": "ویکیپیڈیا"
+	},
+	"wikibooks": {
+		"name": "ویکی کِتاب"
+	},
+	"wikinews": {
+		"name": "ویکی خَبر"
+	},
+	"wikidata": {
+		"name": "ویکی ڈیٹا"
+	},
+	"mediawiki": {
+		"name": "میڈیاویکی"
+	},
+	"metawiki": {
+		"name": "میٹاویکی"
+	}
+}
