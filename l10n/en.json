@@ -28,7 +28,9 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Free dictionary",
-		"entries": "entries"
+		"entries": "entries",
+		"search-input-label": "Search Wiktionary",
+		"language-button-text": "Read Wiktionary in your language"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
