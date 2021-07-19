@@ -1,18 +1,47 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jumpy01"
+			"Jumpy01",
+			"Jun Misugi"
 		]
 	},
 	"language-name": "Corsu",
+	"footer-donate": "Pói sustene u nostru travàgliu cù una dunazione.",
 	"terms": "Clause d'usu",
+	"search-input-button": "Ricerca",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Enciclopedia libera",
-		"entries": "articuli"
+		"entries": "articuli",
+		"search-input-label": "Cerca in Wikipedia"
 	},
 	"wiktionary": {
-		"name": "Wikiziunariu"
+		"name": "Wikiziunariu",
+		"slogan": "Dizziunàriu lìbaru",
+		"entries": "entrate"
+	},
+	"wikibooks": {
+		"name": "Wikilibri",
+		"entries": "pàgine"
+	},
+	"wikinews": {
+		"name": "Wikinuvità",
+		"entries": "artìculi"
+	},
+	"wikiquote": {
+		"name": "Wikiquote (Citazioni)",
+		"entries": "artìculi"
+	},
+	"wikisource": {
+		"name": "Wikifonte",
+		"slogan": "Librarìa lìbara"
+	},
+	"wikiversity": {
+		"name": "Wikiversità"
+	},
+	"wikivoyage": {
+		"name": "Wikivïaghju",
+		"slogan": "Guida di vïaghju lìberu"
 	},
 	"commons": {
 		"name": "Commons"
