@@ -5,15 +5,10 @@ node_modules
 cache
 build/config.gypi
 data/site-stats.json
-#For wikipedia.org
-src/wikipedia.org/index.html
-src/wikipedia.org/assets/l10n/*
-src/wikipedia.org/assets/css/sprite.css
-src/wikipedia.org/assets/css/style.css
-src/wikipedia.org/assets/img/sprite-*
-src/wikipedia.org/assets/rev-manifest.json
-#For wiktionary.org
-src/wiktionary.org/index.html
-src/wiktionary.org/assets/css/sprite.css
-src/wiktionary.org/assets/img/sprite-*
-src/wiktionary.org/assets/css/style.css
+src/*.org/index.html
+src/*.org/assets/l10n/*
+src/*.org/assets/css/sprite.css
+src/*.org/assets/css/style.css
+src/*.org/assets/img/sprite-*
+src/*.org/assets/rev-manifest.json
+

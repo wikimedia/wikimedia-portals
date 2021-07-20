@@ -12,7 +12,7 @@ function postCSS() {
 
 	requirePortalParam();
 
-	return gulp.src( [ getBaseDir() + 'assets/postcss/*.css', '!' + getBaseDir() + 'assets/postcss/_*.css' ] )
+	return gulp.src( getBaseDir() + 'assets/postcss/style.css' )
 		.pipe( plugins.postcss( [
 			postCSSImport(),
 			postCSSNext( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } )
