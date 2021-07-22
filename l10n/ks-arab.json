@@ -6,13 +6,19 @@
 	},
 	"other-languages-label": "باقیَن زَبانَن",
 	"wiki": {
-		"name": "ویکیپیڈیا"
+		"name": "ویکیپیڈیا",
+		"entries": "مَضموٗن",
+		"search-input-label": "ویکیپیڈیاہس مَنٛز کٕرو تلاش"
 	},
 	"wikibooks": {
-		"name": "ویکی کِتاب"
+		"name": "ویکی کِتاب",
+		"entries": "صفہٕ"
 	},
 	"wikinews": {
 		"name": "ویکی خَبر"
+	},
+	"commons": {
+		"name": "کامَنز"
 	},
 	"wikidata": {
 		"name": "ویکی ڈیٹا"
