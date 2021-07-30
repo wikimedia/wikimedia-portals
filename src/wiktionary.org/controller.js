@@ -1,17 +1,21 @@
 /* eslint-env node, es6 */
 var _ = require( 'underscore' ),
 	hbs = require( '../../hbs-helpers.global.js' ),
-	Controller,
+	fs = require( 'fs' ),
 	glob = require( 'glob' ),
 	stats = require( '../../data/stats' ),
+	otherProjects = require( './other-projects.json' ),
+	rtlLanguages = require( './rtl-languages.json' ),
+	crypto = require( 'crypto' ),
+	deleteFiles = require( '../../data/utils' ),
 	top100000List,
 	top100000Dropdown,
-	otherProjects = require( './other-projects.json' ),
+	Controller,
+	cachebuster,
 	siteStats,
 	range,
-	rtlLanguages = require( './rtl-languages.json' ),
+	translationPath = __dirname + '/assets/l10n/',
 	l10n = require( '../../l10n/en.json' ); // These will be global values
-
 // This is specific to Wiktionary.
 l10n.portal = l10n.wiktionary;
 
@@ -86,6 +90,53 @@ _.each( range, function ( wiki ) {
 	siteStats[ wiki.code ] = _.omit( wiki, 'closed', 'code', 'index' );
 } );
 
+/**
+ * Writing stats to translation files
+ *
+ * @return {string}
+ */
+function createTranslationsChecksum() {
+	var data = JSON.stringify( siteStats ),
+		hash = crypto.createHash( 'md5' ).update( data ).digest( 'hex' );
+	// Truncating hash for legibility
+	hash = hash.substring( 0, 8 );
+	return hash;
+}
+
+function createTranslationFiles() {
+	var fileName, lang;
+
+	function writeFile( el, langCode ) {
+		var fileContent;
+
+		if ( el.code ) {
+			langCode = el.code;
+		}
+
+		fileName = translationPath + langCode + '-' + cachebuster + '.json';
+		fileContent = JSON.stringify( el );
+
+		fs.writeFileSync( fileName, fileContent );
+	}
+
+	for ( lang in siteStats ) {
+		if ( siteStats[ lang ].sublinks ) {
+			siteStats[ lang ].sublinks.forEach( writeFile );
+		} else {
+			writeFile( siteStats[ lang ], lang );
+		}
+	}
+}
+
+cachebuster = createTranslationsChecksum();
+
+if ( fs.existsSync( translationPath ) ) {
+	deleteFiles( translationPath, 1 );
+} else {
+	fs.mkdirSync( translationPath );
+}
+createTranslationFiles();
+
 Controller = {
 	top10views: stats.getTopFormatted( 'wiktionary', 'views', 10 ),
 	top1000000Articles: stats.getRangeFormatted( 'wiktionary', 'numPages', 1000000 ),
@@ -96,6 +147,7 @@ Controller = {
 	top100000Dropdown: top100000Dropdown,
 	rtlLanguages: rtlLanguages,
 	rtlLanguagesStringified: '[\'' + rtlLanguages.join( '\',\'' ) + '\']',
+	translationChecksum: cachebuster,
 	preloadLinks: getPreloadLinks(),
 	otherProjects: otherProjects,
 	l10n
