@@ -1,4 +1,5 @@
-/* global wmTest, translationsHash, translationsPortalKey, wmL10nVisible, rtlLangs */
+/* global wmTest, translationsHash, translationsPortalKey, wmL10nVisible, rtlLangs,
+ portalSearchDomain */
 
 /**
  * This script localizes the page text.
@@ -159,7 +160,7 @@
 
 		l10nReq = new XMLHttpRequest();
 
-		l10nReq.open( 'GET', encodeURI( 'portal/wikipedia.org/assets/l10n/' + primaryLang + '-' + translationsHash + '.json' ), true );
+		l10nReq.open( 'GET', encodeURI( 'portal/' + portalSearchDomain + '/assets/l10n/' + primaryLang + '-' + translationsHash + '.json' ), true );
 
 		l10nReq.onreadystatechange = function () {
 			if ( l10nReq.readyState === 4 ) {
