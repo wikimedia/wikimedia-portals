@@ -6,6 +6,7 @@
 		]
 	},
 	"footer-donate": "Сірер полызығ пир поларзар.",
+	"license": "Пу страница <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\"> Creative Commons Attribution-ShareAlike</a> лицензиянең хада азых.",
 	"terms": "Тузаланғанның условиелері",
 	"privacy-policy": "Чазыттығ политика",
 	"search-input-button": "Тілирге",
@@ -31,7 +32,7 @@
 		"entries": "статьялар"
 	},
 	"wikibooks": {
-		"name": "Викикинде",
+		"name": "Вики-кинделер",
 		"slogan": "Пос кинделер",
 		"entries": "страницалар"
 	},
@@ -60,7 +61,7 @@
 	},
 	"commons": {
 		"name": "Викисклад",
-		"slogan": "Пос фотографиялар паза аның пасха"
+		"slogan": "Пос сомнар паза аның пасха"
 	},
 	"wikispecies": {
 		"name": "Викикӧрімнары",
