@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chidananda Kampa",
 			"VASANTH S.N."
 		]
 	},
@@ -37,5 +38,11 @@
 	"wikivoyage": {
 		"name": "ವಿಕಿವೊಯೇಜ್",
 		"slogan": "ಧರ್ಮಾರ್ಥ ಸಂಚಾರ ಮಾಹಿತಿ"
+	},
+	"mediawiki": {
+		"name": "ಮೀಡಿಯಾವಿಕಿ"
+	},
+	"metawiki": {
+		"name": "ಮೆಟಾ-ವಿಕಿ"
 	}
 }

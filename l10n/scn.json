@@ -6,9 +6,15 @@
 	},
 	"language-name": "Sicilianu",
 	"language-name-romanized-sorted": "Sicilianu",
+	"terms": "Cunnizzioni d'usu",
+	"privacy-policy": "Pulìtica supra la privacy",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "La nciclupidìa lìbbira"
+		"slogan": "La nciclupidìa lìbbira",
+		"entries": "vuci",
+		"app-links": {
+			"apple-store": "Apple App Store"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikizziunariu",
@@ -16,6 +22,10 @@
 	},
 	"wikibooks": {
 		"entries": "pàggini"
+	},
+	"wikinews": {
+		"name": "Wikinutizzi",
+		"entries": "vuci"
 	},
 	"mediawiki": {
 		"name": "MediaWiki"
