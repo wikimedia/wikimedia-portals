@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adriendelucca",
 			"Fulup",
 			"Gwenn-Ael",
 			"Macofe",
@@ -8,10 +9,12 @@
 		]
 	},
 	"language-name": "Brezhoneg",
+	"footer-donate": "Gallout a rit hon skoazellañ en ur reiñ un donezon.",
 	"license": "Emañ ar bajenn-mañ dindan an aotre implijout <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Deroadur-RannañHeñvel</a>",
 	"terms": "Termenoù implijout",
 	"privacy-policy": "Reolennoù prevezded",
 	"search-input-button": "Klask",
+	"other-languages-label": "Yezhoù all",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "An Holloueziadur digor",
@@ -21,7 +24,10 @@
 		"footer-description": "Gant an diazezadur Wikipedia eo herberc'hiet Wikipedia. Un aozadur hep pal kenwerzhel eo hag a herberc'h kalz a raktresoù all ivez.",
 		"app-links": {
 			"title": "Pellgargañ WIkipedia evit Android pe iOS",
-			"description": "Enrolli ho restroù karetañ evit lenn anezho ezlinenn, sinkronelaat ho rolloù lenn etre an ardivinkoù ha personelaat ho boazioù lenn gant arload ofisiel Wikipedia."
+			"description": "Enrolli ho restroù karetañ evit lenn anezho ezlinenn, sinkronelaat ho rolloù lenn etre an ardivinkoù ha personelaat ho boazioù lenn gant arload ofisiel Wikipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
