@@ -6,11 +6,13 @@
 		]
 	},
 	"language-name": "Nordfriisk",
+	"footer-donate": "Dü könst üs werk mä dan bidrach widjerhalep.",
 	"license": "Detdiar sidj as tu fun oner det <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.de'>Creative-Commons-Lisens „Nööm nääm - jüst so widjer du“</a>.",
 	"terms": "Reegeln för't brüken",
 	"privacy-policy": "Dootenseekerhaid",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/frr",
 	"search-input-button": "Sjük",
+	"other-languages-label": "Ööder spriaken",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Det Frei Ensiklopedii",
@@ -20,7 +22,10 @@
 		"footer-description": "Wikipedia leit bi't Wikimedia Foundation, diar uk för ööder projekten diar as.",
 		"app-links": {
 			"title": "Loose Wikipedia för Android of iOS deel",
-			"description": "Seekre en artiikel tu offline leesen, synchronisiare din leeslisten an maage iinstelangen mä det amtelk Wikipedia-App."
+			"description": "Seekre en artiikel tu offline leesen, synchronisiare din leeslisten an maage iinstelangen mä det amtelk Wikipedia-App.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {

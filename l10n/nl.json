@@ -32,9 +32,10 @@
 		"footer-description": "Wikipedia wordt gehost door de Wikimedia Foundation, een non-profitorganisatie die ook andere projecten host.",
 		"app-links": {
 			"title": "Download de Wikipedia-app voor Android of iOS",
-			"description": "Sla uw favoriete artikelen op om offline te lezen, synchroniseer uw leeslijsten met andere apparaten en pas uw leeservaring aan met de officiële Wikipedia-app.",
+			"description": "Sla uw favoriete pagina's op om offline te lezen, synchroniseer uw leeslijsten met andere apparaten en pas uw leeservaring aan met de officiële Wikipedia-app.",
 			"google-store": "Google Play Store",
-			"apple-store": "Apple App Store"
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
