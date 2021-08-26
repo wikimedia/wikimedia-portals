@@ -1,13 +1,35 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Anasskoko"
+		]
 	},
 	"language-name": "Hausa / هَوُسَا",
+	"language-name-romanized": "Turanci",
 	"language-name-romanized-sorted": "Hausa",
+	"footer-donate": "Zaka iya taimakon aikin mu ta hanyar bada kuɗi.",
+	"terms": "Ƙa'idojin amfani",
+	"privacy-policy": "Ƙa'idojin sirri",
+	"search-input-button": "Bincike",
+	"other-languages-label": "Sauran yaruka",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Ensakolofidiya Ta Kyauta",
+		"entries": "muƙala",
+		"search-input-label": "Duba Wikipedia",
+		"language-button-text": "Karan ta Wikipedia a cikin harshen ka"
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Wiktionary",
+		"entries": "Shigarwa"
+	},
+	"wikibooks": {
+		"entries": "Shafuka"
+	},
+	"wikisource": {
+		"slogan": "Ɗakin karatu kyauta"
+	},
+	"commons": {
+		"slogan": "Hotunan amfani da dai sauran su"
 	}
 }
