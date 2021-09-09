@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amirsara",
+			"Darafsh",
 			"FarsiNevis",
 			"Jeeputer",
 			"Reza1615",
@@ -18,6 +19,7 @@
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/fa",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/fa",
 	"search-input-button": "جستجو",
+	"other-languages-label": "زبان‌های دیگر",
 	"wiki": {
 		"name": "ویکی‌پدیا",
 		"slogan": "دانشنامهٔ آزاد",
@@ -27,7 +29,10 @@
 		"footer-description": "ویکی‌پدیا یکی از پروژه‌هایی است که توسط بنیاد ناسودبر ویکی‌مدیا میزبانی می‌شود.",
 		"app-links": {
 			"title": "ویکی‌پدیا را برای اندروید یا iOS بارگیری کنید",
-			"description": "مقاله‌های مورد علاقه‌تان را برای مطالعهٔ برون‌خط ذخیره کنید، فهرست‌های مطالعه‌تان را در بین دستگاه‌های مختلف‌تان همگام‌سازی کنید، و تجربهٔ مطالعه‌تان با نرم‌افزار رسمی ویکی‌پدیا را شخصی‌سازی کنید."
+			"description": "مقاله‌های مورد علاقه‌تان را برای مطالعهٔ برون‌خط ذخیره کنید، فهرست‌های مطالعه‌تان را در بین دستگاه‌های مختلف‌تان همگام‌سازی کنید، و تجربهٔ مطالعه‌تان با نرم‌افزار رسمی ویکی‌پدیا را شخصی‌سازی کنید.",
+			"google-store": "فروشگاه گوگل‌پلی",
+			"apple-store": "فروشگاه اپل‌استور",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
