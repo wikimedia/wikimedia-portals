@@ -1,0 +1,61 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olve Utne"
+		]
+	},
+	"search-input-button": "Åtså",
+	"other-languages-label": "Mubbe gielajn",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Frijja diehtobáhkogirrje",
+		"entries": "artijjkala",
+		"search-input-label": "Åtså Wikipedian",
+		"language-button-text": "Lågå Wikipediav duv gielan",
+		"app-links": {
+			"title": "Lässti vuolláj Wikipediav Android'a vaj iOS'a áppaj",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikibáhkogirrje",
+		"slogan": " Frijja báhkogirrje"
+	},
+	"wikibooks": {
+		"name": "Wikigirje",
+		"entries": "biele"
+	},
+	"wikinews": {
+		"name": "Wikiåđđåsa",
+		"slogan": "Frijja åđđåsijgálldo",
+		"entries": "artijjkala"
+	},
+	"wikiquote": {
+		"name": "Wikisitáhta",
+		"slogan": "Frijja sitáhttavuarrká",
+		"entries": "artijjkala"
+	},
+	"wikisource": {
+		"name": "Wikigálldo",
+		"slogan": "Frijja girrjevuarrká"
+	},
+	"wikiversity": {
+		"name": "Wikiversitähtta"
+	},
+	"wikivoyage": {
+		"name": "Wikiminnulahka"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikidata": {
+		"name": "Wikidáhtá"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
+	}
+}
