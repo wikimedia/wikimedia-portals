@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Akmaie Ajam",
 			"Andikbuyung",
 			"Arifin.wijaya",
 			"Daud I.F. Argana",
@@ -10,6 +11,7 @@
 	},
 	"language-name": "Bahasa Indonesia",
 	"language-name-romanized-sorted": "Indonesia, Bahasa",
+	"footer-donate": "Anda dapat mendukung kami dengan sebuah donasi.",
 	"license": "Halaman ini tersedia dalam <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Ketentuan Penggunaan",
 	"privacy-policy": "Kebijakan Privasi",
@@ -26,7 +28,9 @@
 		"footer-description": "Wikipedia dioperasikan oleh Wikimedia Foundation, sebuah organisasi nirlaba yang juga mengoperasikan berbagai proyek lainnya.",
 		"app-links": {
 			"title": "Unduh Wikipedia untuk Android atau iOS",
-			"description": "Simpan artikel favorit Anda untuk membacanya secara luring, sinkronkan daftar bacaan Anda di berbagai gawai dan ubah suaikan pengalaman membaca Anda dengan aplikasi Wikipedia resmi."
+			"description": "Simpan artikel favorit Anda untuk membacanya secara luring, sinkronkan daftar bacaan Anda di berbagai gawai dan ubah suaikan pengalaman membaca Anda dengan aplikasi Wikipedia resmi.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
 		}
 	},
 	"wiktionary": {
