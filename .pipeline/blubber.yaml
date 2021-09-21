@@ -1,9 +1,9 @@
 version: v4
-base: docker-registry.wikimedia.org/dev/stretch-php72-fpm-apache2:0.0.5
+base: docker-registry.wikimedia.org/dev/stretch-php72-fpm-apache2
 
 variants:
   build:
-    base: docker-registry.wikimedia.org/nodejs10-devel:0.0.3
+    base: docker-registry.wikimedia.org/nodejs10-devel
     apt: {packages: [git, python-pkgconfig, build-essential, libpng-dev, libfreetype6, libfontconfig]}
     node: {requirements: [package.json, package-lock.json]}
   test:
