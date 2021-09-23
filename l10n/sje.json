@@ -24,6 +24,7 @@
 	},
 	"wikibooks": {
 		"name": "Wikigirje",
+		"slogan": "Frijja lieradusgirje",
 		"entries": "biele"
 	},
 	"wikinews": {
@@ -49,11 +50,17 @@
 	"commons": {
 		"name": "Commons"
 	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Frijja sårrtådáhtávuođđo"
+	},
 	"wikidata": {
-		"name": "Wikidáhtá"
+		"name": "Wikidáhtá",
+		"slogan": "Frijja diehtovuođđo"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Frijja ja rabas wikidáhtáprográmma"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki"

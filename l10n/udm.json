@@ -9,10 +9,12 @@
 	},
 	"language-name": "Удмурт",
 	"language-name-romanized": "Udmurt",
+	"footer-donate": "Коньдонэн ужмылы юрттэмды луэ.",
 	"license": "Та бам <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ru'>Creative Commons Attribution-ShareAlike лицензиен</a> учкымон",
 	"terms": "Кутон Тупанкыл",
 	"privacy-policy": "Лушкемлык Политика",
 	"search-input-button": "Утчан",
+	"other-languages-label": "Мукет кылъёс",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Эрико энциклопедия",
@@ -22,7 +24,9 @@
 		"footer-description": "Википедиен кузёяське Викимедиа Фонд — табышантэм организация, кудӥз озьы ик кузёяське куд-ог мукет проектъёсын.",
 		"app-links": {
 			"title": "Android'лы но iOS'лы Wikipedia кысконо",
-			"description": "Яратоно статьяостэ вотэстэк соосты лыдӟыны вылысь утьылэ, лэсьтэтъёс куспады лыдӟон лыдметъёстэс вӧлмытэ но официал Wikipedia ватсэтэн лыдӟемдэс тупатэ."
+			"description": "Яратоно статьяостэ вотэстэк соосты лыдӟыны вылысь утьылэ, лэсьтэтъёс куспады лыдӟон лыдметъёстэс вӧлмытэ но официал Wikipedia ватсэтэн лыдӟемдэс тупатэ.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
 		}
 	},
 	"wiktionary": {
