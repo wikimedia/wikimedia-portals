@@ -7,10 +7,10 @@
 	"search-input-button": "ژھانٛڈُن",
 	"other-languages-label": "باقیَن زَبانَن",
 	"wiki": {
-		"name": "ویکیپیڈیا",
+		"name": "وِکیٖپیٖڈیا",
 		"slogan": "آزاد انسائيكلوپيڈيا",
 		"entries": "مَضموٗن",
-		"search-input-label": "ویکیپیڈیاہس مَنٛز کٕرو تلاش"
+		"search-input-label": "وِکیٖپیٖڈیاہَس مَنٛز کٕرو تلاش"
 	},
 	"wiktionary": {
 		"name": "ویٖکیٖلۄغَتھ",
@@ -21,7 +21,7 @@
 		"entries": "صَفہٕ"
 	},
 	"wikinews": {
-		"name": "ویکی خَبر",
+		"name": "وِکی خَبر",
 		"entries": "مَضموٗن"
 	},
 	"wikiquote": {
@@ -34,9 +34,9 @@
 		"name": "ویکی ڈیٹا"
 	},
 	"mediawiki": {
-		"name": "میڈیاویکی"
+		"name": "میٖڈیاوِکی"
 	},
 	"metawiki": {
-		"name": "میٹاویکی"
+		"name": "میٹاوِکی"
 	}
 }
