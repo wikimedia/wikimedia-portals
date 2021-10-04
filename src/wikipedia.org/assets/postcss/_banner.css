@@ -1,0 +1,124 @@
+/* Prevent horizontal scroll with Firefox on small screens */
+body {
+	overflow-x: hidden;
+}
+/* Resets */
+.banner,
+.banner * {
+	box-sizing: border-box;
+}
+
+.banner *:focus {
+	outline: 0;
+}
+
+/* Styles */
+.banner {
+	display: none;
+	position: relative;
+	width: calc( 100% - 24px );
+	max-width: 640px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 24px;
+	background-color: #fff;
+	border: 4px solid #900;
+	z-index: 3;
+}
+
+@media all and ( min-width: 321px ) {
+	.banner {
+		font-size: 15px;
+	}
+}
+
+.banner.banner--visible {
+	display: block;
+}
+
+.banner__topbar {
+	background: #900;
+	color: #fff;
+	font-weight: 600;
+	padding: 2px 12px 4px 12px;
+}
+
+.banner__close {
+	position: absolute;
+	margin-top: -24px;
+	margin-right: -24px;
+	padding: 12px;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.banner__close:hover .banner__close-icon path,
+.banner__close:focus .banner__close-icon path,
+.banner__close:hover .banner__close-icon circle,
+.banner__close:focus .banner__close-icon circle {
+	stroke: var( --wmui-color-base0 );
+}
+
+.banner__close-icon {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+}
+
+.banner__main {
+	padding: 8px 8px 12px 8px;
+}
+
+.banner__button {
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 2px;
+	padding: 8px 12px;
+	cursor: pointer;
+	font-weight: bold;
+	white-space: nowrap;
+	line-height: 1;
+	margin-top: 8px;
+}
+
+.banner__button:hover {
+	text-decoration: none;
+}
+
+.banner__button--progressive {
+	color: var( --wmui-color-accent50 );
+	background-color: var( --wmui-color-base90 );
+	border-color: var( --wmui-color-base50 );
+
+	&:hover {
+		background-color: var( --wmui-color-base100 );
+		border-color: var( --color-primary--hover );
+	}
+
+	&:focus {
+		border-color: var( --wmui-color-accent50 );
+		box-shadow: inset 0 0 0 1px var( --wmui-color-accent50 );
+	}
+}
+
+@media all and ( min-width: 1024px ) {
+	.search-container + .banner-container {
+		margin-top: -10px;
+	}
+
+	.banner {
+		position: fixed;
+		z-index: 2;
+		max-width: 250px;
+		margin: -48px 0 0 0; /* visually center it */
+		left: 12px;
+		top: 50%;
+		bottom: auto;
+		transform: translateY( -50% );
+		font-size: 15px;
+	}
+}
