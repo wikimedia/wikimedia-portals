@@ -11,6 +11,9 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"search-input-button": "ᬋᬋᬄ",
 	"wiki": {
+		"name": "ᬯᬶᬓᬶᬧᬾᬤᬶᬬ",
+		"entries": "ᬲᬸᬭᬢᬦ᭄",
+		"search-input-label": "ᬋᬋᬳ᭄ᬯᬶᬓᬶᬧᬾᬤᬶᬬ",
 		"app-links": {
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
@@ -23,9 +26,34 @@
 		"entries": "ᬓᬘ"
 	},
 	"wikinews": {
-		"name": "ᬯᬶᬓᬶᬬᭀᬃᬢᬶ"
+		"name": "ᬯᬶᬓᬶᬬᭀᬃᬢᬶ",
+		"slogan": "ᬯᬶᬢ᭄ᬳᭀᬃᬢᬶᬩᬾᬩᬲ᭄",
+		"entries": "ᬲᬸᬭᬢᬦ᭄"
+	},
+	"wikiquote": {
+		"name": "ᬯᬶᬓᬶᬳᬗ᭄ᬕᬶᬢ᭄",
+		"entries": "ᬲᬸᬭᬢᬦ᭄"
 	},
 	"wikisource": {
-		"name": "ᬯᬶᬓᬶᬧᬸᬲ᭄ᬢᬓ"
+		"name": "ᬯᬶᬓᬶᬧᬸᬲ᭄ᬢᬓ",
+		"slogan": "ᬧᬸᬲ᭄ᬢᬓᬩᬾᬩᬲ᭄"
+	},
+	"wikiversity": {
+		"name": "ᬯᬶᬓᬶᬧᭂᬃᬲᬶᬢᬲ᭄"
+	},
+	"commons": {
+		"name": "ᬘᭀᬫ᭄ᬫᭀᬦ᭄ᬲ᭄"
+	},
+	"wikispecies": {
+		"name": "ᬯᬶᬓᬶᬲ᭄ᬧᬾᬲᬶᬳᬾᬲ᭄"
+	},
+	"wikidata": {
+		"name": "ᬯᬶᬓᬶᬤᬢ"
+	},
+	"mediawiki": {
+		"name": "ᬫᬾᬤᬶᬳᬯᬶᬓᬶ"
+	},
+	"metawiki": {
+		"name": "ᬫᬾᬢᬯᬶᬓᬶ"
 	}
 }
