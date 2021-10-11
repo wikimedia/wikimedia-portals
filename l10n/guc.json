@@ -1,0 +1,81 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leonfd1992"
+		]
+	},
+	"footer-donate": "Eesü süpüla pükaalijai waya sünain tü wa'yataainka süka kasa pi'itaweein sünain.",
+	"license": "Ee'iyalayaaka tüü sulu'usu sukua'ipa <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Ashajuushi saa'ujee aapawaa sukua'ipa",
+	"privacy-policy": "Jünoutia anaajaaya jukua'ipa",
+	"search-input-button": "Achajawaa",
+	"other-languages-label": "Süka waneeirua anüiki",
+	"wiki": {
+		"name": "Wikipeetia",
+		"slogan": "Tü atüjaamaajatü jutatsü",
+		"entries": "ashajalaa",
+		"search-input-label": "Achajawaa sulu'upünaa Wikipeetia",
+		"language-button-text": "Ashaaje'eraa Wikipeetia süka pünüikika",
+		"footer-description": "Wikipeetia sajapülu'usu tü Fundación Wikimedia, wane outkajaapülee nnojotka achajaain awashirajaa süka tia otta eere kottüin tü aa'innaka natuma.",
+		"app-links": {
+			"title": "Ashakatiraa Wikipeetia süpüla Android jee iOS",
+			"description": "Pünaajaa tü püshajalaka ke'ireeka paa'in süpüla paashaje'erai mapeena maka nnojorüle internet püma'ana, pe'ejeipajiraa tü kanüliasükalü eere tü paashaje'erüinka sümaa tü pükorolokalüirua jee pi'itaa pukua'ipa sünain tü paashaje'eraka süka tü akumajiaka saainjüinka Wikipeetia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikipütchimaajatü",
+		"slogan": "Tü pütchimaajatü jutatsü",
+		"entries": "ashajuushikalü"
+	},
+	"wikibooks": {
+		"name": "Wikikaralo'uta",
+		"slogan": "Karalo'uta taashikaa akua'ipa",
+		"entries": "ee'iyalayaakalüirua"
+	},
+	"wikinews": {
+		"name": "Wikiachikimaajatü",
+		"slogan": "Eere taashin süchikimaajatü wane kasachiki",
+		"entries": "ashajalairua"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Eere sükotchajünüin anüiki ashajuushi",
+		"entries": "ashajalairua"
+	},
+	"wikisource": {
+		"name": "Wikiekiirü",
+		"slogan": "Karalo'utamaajatü taashikaa akua'ipa"
+	},
+	"wikiversity": {
+		"name": "Wikiekirajaapülee",
+		"slogan": "Süpülajanaa ekirajawaa tijitaalü taashikaa akua'ipa",
+		"entries": "Eekalü jutatüin süpüla ekirajaa"
+	},
+	"wikivoyage": {
+		"name": "Wikiakua",
+		"slogan": "Süpülajanaa aashajaa saa'ujee awaraijaa taashikaa akua'ipa"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Ayaakuwairua sünainjee taashin süpüla aapawaa jee waneeirua"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Süpülajanaa mürülü jee wuna'apü sünain taashin sukua'ipa"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Süpüleerua atüjaa sünain taashin sukua'ipa"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Akumajiaa wiki jutatsü & taashisü"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Na akumajakaa sukua'ipa jee ashajakaa karalo'uta süchiki sünain kottüin naya"
+	}
+}
