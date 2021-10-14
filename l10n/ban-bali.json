@@ -1,20 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
+			"Carma Citrawati",
 			"Chinamoonroll"
 		]
 	},
 	"language-name": "ᬪᬲᬩᬮᬸ",
-	"language-name-romanized": "ᬪᬲᬩᬮᬸ",
-	"language-name-romanized-sorted": "ᬪᬲᬩᬮᬸ",
+	"language-name-romanized": "Bali",
+	"language-name-romanized-sorted": "Bali",
+	"footer-donate": "ᬭᬕᬦᬾᬧ᭄ᬭᬲᬶᬤᬦᬸᬓᬸᬂᬧᬓᬃᬬᬦᬾᬧᬸᬦᬶᬓᬶᬬᬦ᭄ᬢᬸᬓ᭄ᬧᬸᬦ᭄ᬬ᭟",
+	"license": "ᬓᬘᬧᬸᬦᬶᬓᬶᬯᬾᬦ᭄ᬢᭂᬦ᭄ᬭᬶᬂᬲᬚᭂᬭᭀᬦᬶᬂ<a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "ᬢᬢᬘᬭᬗᬗ᭄ᬕᬾᬦ᭄",
+	"privacy-policy": "ᬅᬯᬶᬕ᭄ᬅᬯᬶᬕ᭄ᬳᬶᬦ᭄ᬤᬶᬓ᭄ᬤᬢᬧ᭄ᬭᬭᬕᬦ᭄",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"search-input-button": "ᬋᬋᬄ",
+	"other-languages-label": "ᬪᬵᬱᬢᬶᬬᭀᬲᬦ᭄",
 	"wiki": {
 		"name": "ᬯᬶᬓᬶᬧᬾᬤᬶᬬ",
+		"slogan": "ᬏᬦ᭄ᬲᬶᬓ᭄ᬮᭀᬧᬾᬤ᭄ᬬᬩᬾᬩᬲ᭄",
 		"entries": "ᬲᬸᬭᬢᬦ᭄",
 		"search-input-label": "ᬋᬋᬳ᭄ᬯᬶᬓᬶᬧᬾᬤᬶᬬ",
+		"language-button-text": "ᬯᬘᬾᬦ᭄ᬯᬶᬓᬶᬧᬾᬤ᭄ᬬᬭᬶᬂᬪᬵᬱᬳᬶᬤᬤᬦᬾ",
+		"footer-description": "ᬯᬶᬓᬶᬧᬾᬤ᭄ᬬᬓᬓᬃᬬᬦᬶᬦ᭄‌ᬳᭀᬮᬶᬄᬯᬶᬓᬶᬫᬾᬤ᭄ᬬᬧᭀᬦ᭄ᬤᬾᬲ᭄ᬬᭂᬦ᭄᭞ᬲᬶᬮᬶᬄᬢᬸᬗ᭄ᬕᬶᬮ᭄ᬲᭂᬓᬵᬲᬦᬾᬦᬾᬦ᭄ᬢᭂᬦ᭄ᬗᬺᬋᬄᬩᬢᬶᬢᬮᬾᬃᬳᬓᬾᬄᬫᬤᬸᬯᬾᬧᬓᬃᬬᬦ᭄ᬮᬶᬬᬦᬦ᭄",
 		"app-links": {
+			"title": "ᬉᬦ᭄ᬤᬸᬄᬯᬶᬓᬶᬧᬾᬤ᭄ᬬᬳᬗ᭄ᬕᬾᬦ᭄ᬅᬦ᭄ᬤ᭄ᬭᭀᬯᬶᬤ᭄‌ᬳᬸᬢᬯᬶ᭞ᬅᬬᭀᬲ᭄",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
