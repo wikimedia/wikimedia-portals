@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Anasskoko"
+			"Anasskoko",
+			"Em-em"
 		]
 	},
 	"language-name": "Hausa",
 	"language-name-romanized": "Turanci",
 	"language-name-romanized-sorted": "Hausa",
 	"footer-donate": "Zaka iya taimakon aikin mu ta hanyar bada kuɗi.",
+	"license": "Wannan shafin sakakke ne ƙarƙashin <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lasisin Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Ƙa'idojin amfani",
 	"privacy-policy": "Ƙa'idojin sirri",
 	"search-input-button": "Bincike",
@@ -18,17 +20,47 @@
 		"slogan": "Ensakolofidiya Ta Kyauta",
 		"entries": "muƙala",
 		"search-input-label": "Duba Wikipedia",
-		"language-button-text": "Karan ta Wikipedia a cikin harshen ka"
+		"language-button-text": "Karan ta Wikipedia a cikin harshen ka",
+		"footer-description": "Wikipedia ɗaukar nauyin Wikimedia Foundation ce, ma'aikata wacce bata riba bace, kuma ita ke ɗaukar nauyin ƙarin wasu manhajoji.",
+		"app-links": {
+			"title": "Sauke Wikipedia ga Android ko iOS",
+			"description": "Aje mafifitan muƙalolin ku dan karantawa sanda baku da intanet, jera jerin karatunku akan dukkanin wayoyi kuma ku tsaranta karatun ku tare da manhaja Wikipedia.",
+			"google-store": "Ma'ajiyar Play ta Google",
+			"apple-store": "Ma'ajiyar Manhaja ta Apple",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
+		"slogan": "Ƙamus ta kyauta",
 		"entries": "Shigarwa"
 	},
 	"wikibooks": {
+		"name": "WikiLittattafai",
+		"slogan": "Littattafai na kyauta",
 		"entries": "Shafuka"
 	},
+	"wikinews": {
+		"name": "WikiLabarai",
+		"slogan": "Tsatson labarai na kyauta",
+		"entries": "muƙaloli"
+	},
+	"wikiquote": {
+		"name": "Wikikarin magana",
+		"slogan": "matattarar karin magana na kyauta",
+		"entries": "muƙaloli"
+	},
 	"wikisource": {
+		"name": "Wikitsatso",
 		"slogan": "Ɗakin karatu kyauta"
+	},
+	"wikiversity": {
+		"name": "Wikijami'a",
+		"slogan": "Kayayyakin karatu na kyauta",
+		"entries": "Abubuwan koyo"
+	},
+	"wikivoyage": {
+		"name": "Wikimatafiyi"
 	},
 	"commons": {
 		"slogan": "Hotunan amfani da dai sauran su"
