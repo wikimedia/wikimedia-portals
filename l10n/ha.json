@@ -60,9 +60,27 @@
 		"entries": "Abubuwan koyo"
 	},
 	"wikivoyage": {
-		"name": "Wikimatafiyi"
+		"name": "Wikimatafiyi",
+		"slogan": "Kwatance ga matafiyi kyauta"
 	},
 	"commons": {
+		"name": "Commons",
 		"slogan": "Hotunan amfani da dai sauran su"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Mashigar halittu ta kyauta"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Mazaunin ilimi ta kyauta"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Budaddiyar manhajar wiki ta kyauta"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Matattarar gudanarwa da tattara bayanai"
 	}
 }

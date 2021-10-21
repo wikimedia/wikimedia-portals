@@ -9,20 +9,27 @@
 	"language-name": "سنڌي",
 	"language-name-romanized": "Sindhī",
 	"language-name-romanized-sorted": "Sindhi",
+	"footer-donate": "توھان اسان جي ڪم کي چندو ڏئي ھٿي وٺرائي سگهو ٿا.",
+	"license": "ھي صفحو <a href='https://creativecommons.org/licenses/by-sa/3.0/'>ڪريئيٽو ڪامنز انتساب-ھڪجھڙي-ونڊ اجازتنامي</a> ھيٺ موجود آھي",
 	"terms": "استعمال جا شرط",
 	"privacy-policy": "ذاتيات پاليسي",
+	"search-input-button": "ڳوليو",
+	"other-languages-label": "ٻيون ٻوليون",
 	"wiki": {
 		"name": "وڪيپيڊيا",
 		"slogan": "مفت انسائيڪلوپيڊيا",
 		"entries": "مضمون",
+		"search-input-label": "وڪيپيڊيا ۾ ڳوليو",
 		"language-button-text": "وڪيپيڊيا پنھنجي ٻوليءَ ۾ پڙھو",
 		"footer-description": "وڪيپيڊيا وڪيميڊيا فائونڊيشن طرفان ميزباني ڪئي ويندي آھي، ھڪ غير منافع بخش تنظيم جيڪا ٻين ڪيترن منصوبن جي ميزباني پڻ ڪري ٿي.",
 		"app-links": {
-			"title": "وڪيپيڊيا اپليڪيشنز هاڻي موجود آهن:"
+			"title": "وڪيپيڊيا اپليڪيشنز هاڻي موجود آهن:",
+			"google-store": "گوگل پلي اسٽور",
+			"apple-store": "ايپل ايپ اسٽور"
 		}
 	},
 	"wiktionary": {
-		"name": "وڪشنري",
+		"name": "وڪي‌لغت",
 		"slogan": "مفت لغت",
 		"entries": "دخلائون"
 	},
@@ -59,7 +66,7 @@
 		"slogan": "مفت استعمال ڪري سگھجندڙ ڦوٽو ۽ وڌيڪ"
 	},
 	"wikispecies": {
-		"name": "وڪي‌انواع",
+		"name": "وڪي‌جنسون",
 		"slogan": "مفت انواعن جي ڊائريڪٽري"
 	},
 	"wikidata": {
