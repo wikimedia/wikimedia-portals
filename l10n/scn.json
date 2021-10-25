@@ -8,6 +8,7 @@
 	"language-name-romanized-sorted": "Sicilianu",
 	"terms": "Cunnizzioni d'usu",
 	"privacy-policy": "Pulìtica supra la privacy",
+	"other-languages-label": "Àutri lingui",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "La nciclupidìa lìbbira",
@@ -21,13 +22,39 @@
 		"slogan": "Lu dizziunariu lìbbiru"
 	},
 	"wikibooks": {
+		"name": "Wikibooks",
 		"entries": "pàggini"
 	},
 	"wikinews": {
 		"name": "Wikinutizzi",
 		"entries": "vuci"
 	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"entries": "vuci"
+	},
+	"wikisource": {
+		"name": "Wikisource"
+	},
+	"wikiversity": {
+		"name": "Wikiversità"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
 	"mediawiki": {
 		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }
