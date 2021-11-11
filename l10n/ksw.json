@@ -2,25 +2,33 @@
 	"@metadata": {
 		"authors": [
 			"Jaeminlovetaejoon",
-			"Rul1902"
+			"Rul1902",
+			"SawJaemin"
 		]
 	},
+	"footer-donate": "နမၤစၢၤပှၤသ့လၢဟ့ၣ်ပှၤတၢ်မၣ်ဘူၣ်.",
 	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "တၢ်သူတၢ် အတၢ်ကတိၤတဘီ",
 	"privacy-policy": "တၢ်ခူသူၣ်တၢ်ဘျၢ",
 	"search-input-button": "ဃုထၢ",
+	"other-languages-label": "ကျိာ်အဂၤတဖၣ်",
 	"wiki": {
 		"name": "ဝံၣ်ကံးဖံဒံာ်ယၤ",
 		"slogan": "လံာ်ထံးလံာ်ယ့ၤလၢအတလၢၤကျိၣ်စ့ဘၣ်",
 		"entries": "တၢ်ကွဲးဖုၣ်",
 		"search-input-label": "ဃုထၢ ဝံၣ်ကံးဖံဒံာ်ယၤ",
 		"language-button-text": "ဖးဝံၣ်ကံးဖံဒံာ်ယၤလၢနကျိာ်",
+		"footer-description": "ဝံၣ်ကံးဖံဒံာ်ယၤန့ၣ်ဘၣ်တၢ်ဒုးအိၣ်ထီၣ်အီၤလၢဝံၣ်ကံးမံဒံာ်ယၤတၢ်ကရၢကရိန့ၣ်လီၤ.တၢ်ကရၢကရိတခါလၢဒုးအိၣ်ထီၣ်တၢ်တိာ်ကျဲၤအဂၤတဖၣ်စ့ၢ်ကီးလီၤ.",
 		"app-links": {
-			"title": "ဝံၣ်ကံးဖံဒံာ်ယၤ အဲၣ်ဖု န့ၢ်ပသူအီၤသ့လံ"
+			"title": "ဝံၣ်ကံးဖံဒံာ်ယၤ အဲၣ်ဖု န့ၢ်ပသူအီၤသ့လံ",
+			"description": "ပာ်ဃၤတၢ်ကွဲးဖုၣ်လၢနကၠဲးဒိၣ်တဖၣ်လၢနကဖးဖဲနတအီးလဲအဂီၢ်န့ၣ်လီၤ.",
+			"google-store": "ကူကိၤဖျ့စတိ",
+			"apple-store": "အဲပိၤစတိ",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
-		"name": "ဝံၣ်ကံးစ့ၤနဲရံၤ",
+		"name": "ဝ့းၡ့ၣ်နရံၣ်",
 		"slogan": "လံာ်ခီယ့ၤလၢအတလၢၤကျိၣ်စ့ဘၣ်",
 		"entries": "တၢ်လဲၤနုာ်"
 	},
