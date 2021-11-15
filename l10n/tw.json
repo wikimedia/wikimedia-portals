@@ -1,9 +1,52 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Robertjamal12"
+		]
 	},
 	"language-name": "Twi",
+	"footer-donate": "Wo bɛ  tumi de sika kakra aboa yɛn adwuma.",
+	"terms": "Mmra a ɛda sɛnea wo de bɛ yɛ Adwuma.",
+	"privacy-policy": "Kukuwa mu Nti ase",
+	"search-input-button": "Hwehwɛ",
+	"other-languages-label": "Wɔ kasa ahorow mu",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Nnimdeɛ a ɛwɔ hɔ ma obiaa",
+		"search-input-label": "Hwehwɛ ade wɔ Wikipedia mu",
+		"language-button-text": "Kan Wikipedia wɔ wo kasa mu",
+		"app-links": {
+			"title": "Twe Wikipedia gu wo ahamatorofo so",
+			"google-store": "'Google Play Store'",
+			"apple-store": "'Apple App Store'",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"slogan": "Suae bia yɛn gye hwee"
+	},
+	"wikibooks": {
+		"name": "Wikinwuma",
+		"slogan": "Nwoma a yɛ de hyɛ",
+		"entries": "Kratafa"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "'Free news source\""
+	},
+	"wikiversity": {
+		"entries": "Nea ɛbɛ boa wo ama w'atumi aua ade"
+	},
+	"wikivoyage": {
+		"slogan": "Akwantu mu akyerɛkyerɛ a yɛn gye hwee"
+	},
+	"commons": {
+		"slogan": "Mfoni ne nneɛma a ɛkeka ho a wo bɛ tumi de ayɛ biribiara"
+	},
+	"wikidata": {
+		"slogan": "Nnimdeɛ bea a yɛ de hyɛ"
+	},
+	"metawiki": {
+		"name": "'Meta-Wiki'"
 	}
 }
