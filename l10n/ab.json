@@ -1,18 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pupsik-ipa",
 			"Андрей"
 		]
 	},
-	"language-name": "Аҧсуа",
-	"language-name-romanized": "Aṗsua",
-	"language-name-romanized-sorted": "Apsua",
+	"language-name": "аԥсуа",
+	"language-name-romanized": "aṗsua",
+	"language-name-romanized-sorted": "apsua",
 	"privacy-policy": "Аконфиденциалтә политика",
+	"search-input-button": "Аԥшаара",
+	"other-languages-label": "Егьырҭ абызшәақәа",
 	"wiki": {
 		"name": "Авикипедиа",
-		"slogan": "Зых иақәиҭу аенциклопедиа"
+		"slogan": "Зых иақәиҭу аенциклопедиа",
+		"search-input-label": "Википедиа аҟны аԥшаара"
 	},
 	"wiktionary": {
 		"slogan": "Зых иақәиҭу ажәар"
+	},
+	"wikibooks": {
+		"entries": "адаҟьақәа"
 	}
 }
