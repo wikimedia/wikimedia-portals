@@ -5,27 +5,33 @@
 			"Giodiassi5",
 			"Giromin Cangiaxo",
 			"Jandre3000",
+			"N. Longo",
 			"S4b1nuz E.656",
 			"Samuele2002"
 		]
 	},
 	"language-name": "Lìgure",
 	"language-name-romanized-sorted": "Lìgure",
-	"license": "Questa paggina a l'è disponibbile in baze a-a liçençia <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atribuçion-Condividdi a-o mæximo moddo</a>",
-	"terms": "Condiçioin d'Utilizzo",
-	"privacy-policy": "Polittica in sci dæti privæ",
+	"footer-donate": "Ti ti pêu suportâ o nòstro travàggio co-ina donaçión.",
+	"license": "Quésta pàgina a l'é disponìbile sótt'a-a licénsa <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atribuçión-Condivìddi a-o mæximo mòddo</a>",
+	"terms": "Condiçioîn d'Ûzo",
+	"privacy-policy": "Polìtica in scî dæti privæ",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/lij",
-	"search-input-button": "Çerca",
+	"search-input-button": "Çèrchia",
+	"other-languages-label": "In âtre léngoe",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "A lìbera enciclopedîa",
 		"entries": "vôxe",
-		"search-input-label": "Çerca in sce Wikipedia",
-		"language-button-text": "Lêzi Wikipedia inta teu léngoa",
-		"footer-description": "Wikipedia o l'è ospitou da-a Wikimedia Foundation, un'organizzaçion non-profit ch'a l'ospita una riga d'atri progetti ascì.",
+		"search-input-label": "Çèrchia in sce Wikipedia",
+		"language-button-text": "Lêzi Wikipedia inta tò léngoa",
+		"footer-description": "Wikipedia a l'é òspitâ da-a Wikimedia Foundation, 'n'organizaçión non-profit ch'a l'òspita 'na série d'âtri progètti ascì.",
 		"app-links": {
-			"title": "Scàrega Wikipedia pe Android o iOS",
-			"description": "Sàrva e tò pagine preferîe da lêze offline, sincronîza a tò lista de letûa in scê tutti i dispoxitîvi e personalizâ a tò espertîxe de letûa con l'aplicaçion ofiçiâ de Wikipedia."
+			"title": "Scàrega Wikipedia pe Android ò iOS",
+			"description": "Sàrva e tò pàgine preferîe da lêze offline, sincronîza a tò lìsta de letûa in sce tùtti i dispoxitîvi e personalizâ a tò espertîxe de letûa con l'aplicaçión ofiçiâ de Wikipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://lij.wikipedia.org/wiki/Lìsta_de_aplicaçioîn_mobile_de_Wikipedia"
 		}
 	},
 	"wiktionary": {
@@ -34,51 +40,51 @@
 		"entries": "lémmi"
 	},
 	"wikibooks": {
-		"name": "Wikilibbri",
-		"slogan": "Manoali e libbri de testo liberi",
-		"entries": "moduli"
+		"name": "Wikilìbbri",
+		"slogan": "Manoâli e lìbbri de tèsto lìberi",
+		"entries": "pàgine"
 	},
 	"wikinews": {
-		"name": "Wikinotìçie",
-		"slogan": "A fonte de notiçie libera",
+		"name": "Wikinêuve",
+		"slogan": "A vivàgna de nêuve lìbera",
 		"entries": "vôxe"
 	},
 	"wikiquote": {
-		"name": "Wikiçitaçion",
-		"slogan": "Libero compendio de çitaçioin",
+		"name": "Wikiçitaçión",
+		"slogan": "Lìbero conpéndio de çitaçioîn",
 		"entries": "vôxe"
 	},
 	"wikisource": {
-		"name": "Wikivivagna",
-		"slogan": "A biblioteca libera"
+		"name": "Wikivivàgna",
+		"slogan": "A bibliotêca lìbera"
 	},
 	"wikiversity": {
 		"name": "Wikiverscitæ",
-		"slogan": "L’universcitæ libera",
-		"entries": "leçioin"
+		"slogan": "L'universcitæ lìbera",
+		"entries": "leçioîn"
 	},
 	"wikivoyage": {
-		"name": "Wikiviægio",
-		"slogan": "Guidda turistega libera"
+		"name": "Wikiviâgi",
+		"slogan": "Goìdda turìstica lìbera"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Foto utilizabbile liberamente e atro"
+		"slogan": "Föto e âtro liberaménte utilizàbili"
 	},
 	"wikispecies": {
-		"name": "Wikispecies",
-		"slogan": "Directory de specce libere"
+		"name": "Wikispêce",
+		"slogan": "Lìbero catàlogo de spêce"
 	},
 	"wikidata": {
-		"name": "Wikidata",
-		"slogan": "Database de conoscença libera"
+		"name": "Wikidæta",
+		"slogan": "Bànca dæti de conoscénsa lìbera"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Apricaçion wiki gratoîta & averta"
+		"slogan": "Aplicaçión wiki de bàdda e avèrta"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Comunitæ de coordinamento e documentaçion"
+		"slogan": "Comunitæ de cordinaménto e docomentaçión"
 	}
 }

@@ -16,6 +16,7 @@
 		"entries": "ntwerɛsɛm",
 		"search-input-label": "Hwehwɛ ade wɔ Wikipedia mu",
 		"language-button-text": "Kan Wikipedia wɔ wo kasa mu",
+		"footer-description": "Wikipedia yɛ Wikimedia Foundation deɛ, ɛkuo a wɔngye sika a wɔ san wɔ dwumadi pii a wɔyɛ.",
 		"app-links": {
 			"title": "Twe Wikipedia gu wo ahamatorofo so",
 			"google-store": "'Google Play Store'",
@@ -33,7 +34,8 @@
 	},
 	"wikinews": {
 		"name": "Wikinews",
-		"slogan": "'Free news source\""
+		"slogan": "'Free news source\"",
+		"entries": "ntwerɛsɛm"
 	},
 	"wikiversity": {
 		"entries": "Nea ɛbɛ boa wo ama w'atumi aua ade"
