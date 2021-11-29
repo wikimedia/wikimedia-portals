@@ -4,8 +4,46 @@
 			"Yupik"
 		]
 	},
+	"language-name": "sääʹmǩiõll",
 	"terms": "Ââʹnnem-määin",
+	"search-input-button": "Ooʒʒ",
+	"other-languages-label": "Jeeʹres ǩiõl",
+	"wiki": {
+		"name": "Wikipedia",
+		"search-input-label": "Ooʒʒ Wikipediast"
+	},
+	"wiktionary": {
+		"name": "Wikisääʹnnǩeʹrjj"
+	},
 	"wikibooks": {
+		"name": "Wikiǩeeʹrj",
 		"entries": "seeid"
+	},
+	"wikinews": {
+		"name": "Wikiođđâz"
+	},
+	"wikiquote": {
+		"name": "Wikisitaatt"
+	},
+	"wikisource": {
+		"name": "Wikikäivv"
+	},
+	"wikiversity": {
+		"name": "Wikiversiteʹtt"
+	},
+	"wikivoyage": {
+		"name": "Wikimääʹtǩ"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }
