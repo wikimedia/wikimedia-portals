@@ -11,6 +11,7 @@
 	"terms": "İstifadə şərtləri",
 	"privacy-policy": "Məxfilik siyasəti",
 	"search-input-button": "Axtar",
+	"other-languages-label": "Digər dillər",
 	"wiki": {
 		"name": "Vikipediya",
 		"slogan": "Azad ensiklopediya",
@@ -18,7 +19,9 @@
 		"search-input-label": "Vikipediyada axtar",
 		"language-button-text": "Vikipediyanı öz dilinizdə oxuyun",
 		"app-links": {
-			"title": "Android və ya IOS üçün Vikipediya yüklə"
+			"title": "Android və ya IOS üçün Vikipediya yüklə",
+			"google-store": "Play Store",
+			"apple-store": "App Store"
 		}
 	},
 	"wiktionary": {
