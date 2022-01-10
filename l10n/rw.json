@@ -1,10 +1,19 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Amire80",
+			"Ndahiro derrick"
+		]
 	},
 	"language-name": "Kinyarwanda",
+	"footer-donate": "Ushobora gushyikira ibikorwa byacu",
+	"license": "Uru rubuga ruboneka kuri :\n<a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Amategeko agenga imikoreshereze",
+	"search-input-button": "Shakira aha",
+	"other-languages-label": "Izindi ndimi",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Inkoranyanzimbunzi y’ubuntu"
 	},
 	"wiktionary": {
 		"name": "Wiktionary"
