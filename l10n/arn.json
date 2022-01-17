@@ -1,0 +1,65 @@
+{
+	"@metadata": {
+		"authors": [
+			"Manke ruLpa"
+		]
+	},
+	"search-input-button": "Kintun",
+	"other-languages-label": "Kake zungun",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Neykülechi Ensikülopedia",
+		"entries": "tapülh",
+		"search-input-label": "Kintun Wikipedia mew",
+		"language-button-text": "Wikipedia tami zungun mew",
+		"app-links": {
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikinhemül",
+		"slogan": "Neykülechi nemülhkawe"
+	},
+	"wikibooks": {
+		"name": "Wikicillka",
+		"slogan": "Neykülechi chillka",
+		"entries": "tapülh"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"entries": "tapülh"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Konümpan gülümkawe",
+		"entries": "tapülh"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Neykülechi chillkawe"
+	},
+	"wikiversity": {
+		"name": "Wikichillkatuwe",
+		"slogan": "Neykülechi kimeltuwe",
+		"entries": "kimeltuwe"
+	},
+	"wikivoyage": {
+		"name": "Wikinhampülkan",
+		"slogan": "Neykülechi nhampülkan"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Neykülechi kimün"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
+	}
+}
