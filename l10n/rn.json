@@ -1,10 +1,81 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Gilbert Ndihokubwayo"
+		]
 	},
 	"language-name": "Kirundi",
 	"language-name-romanized-sorted": "Rundi, Ki",
+	"footer-donate": "Ushobora gushigikira igikorwa cacu mu gutanga intererano.",
+	"license": "Uru rupapuro ruboneka biciye ku <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Amategeko yo gukoresha",
+	"search-input-button": "Rondeza",
+	"other-languages-label": "Izindi ndimi",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Encyclopedia yirebanga",
+		"entries": "ingingo",
+		"search-input-label": "Rondeza Wikipediya",
+		"language-button-text": "Soma Wikipediya mu rurimi rwawe",
+		"footer-description": "Wikipediya icumbikiwe na Fondasiyo Wikimediya, umuryango udaharanira inyungu kandi ucumbikiye n'iyindi migambi itandukanye.",
+		"app-links": {
+			"title": "Cukura Wikipediya yo gukoresha kuri Android canke kuri iOS",
+			"description": "Bika ingingo ukunda kugirango ushobore kuzisoma utari ku rubuga, huza intonde zawe z'ibisomwa ukoresheje ibikoresho hanyuma werekane uburambe bwawe mu gusoma hamwe na porogaramu yemewe ya Wikipediya.",
+			"google-store": "Ububiko bwo kuri Google",
+			"apple-store": "Ububiko bwo kuri Apple",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Kazinduzi yirebanga",
+		"entries": "ivyinjiye"
+	},
+	"wikibooks": {
+		"name": "Ibitabo kuri wiki",
+		"slogan": "Inyandiko z'ibitabo vyirebanga",
+		"entries": "impapuro"
+	},
+	"wikinews": {
+		"name": "Amakuru ya wiki",
+		"slogan": "Inkomoko y'amakuru yirebanga",
+		"entries": "ingingo"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Itororokaniro ry'amajambo yirebanga",
+		"entries": "ingingo"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Ububiko bw'ibitabo bwirebanga"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Ibikoresho vyinyigisho vyirebanga",
+		"entries": "ibikoresho vyo kwiga"
+	},
+	"wikivoyage": {
+		"name": "Ingendo kuri wiki",
+		"slogan": "Ubuyobozi bw'ingendo k'ubuntu"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Amasanamu akoreshwa k'ubuntu & ibindi"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Ishingiro y'ubumenyi bwirebanga"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Porogaramu ya wiki yirebanga kandi yuguruye"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Ihuriro rusangi hamwe n'inyandiko"
 	}
 }

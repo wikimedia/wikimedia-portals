@@ -1,0 +1,83 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joshateji",
+			"Sagbosam",
+			"Samatics"
+		]
+	},
+	"footer-donate": "Mì sọgan nọgodona azọ́n mítọn po nunina dé po.",
+	"license": "Weda ehe tin to aimẹ to <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> glọ",
+	"terms": "Osẹ́n Nọtẹn Lọ Tọn Lẹ",
+	"privacy-policy": "Osẹ́n Nudọnamẹ Mẹdetiti Tọn",
+	"search-input-button": "Dín",
+	"other-languages-label": "Ogbè devo lẹ",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Owe oyọnẹn vọnu tọn",
+		"entries": "hosọ lẹ",
+		"search-input-label": "Dín Wikipedia",
+		"language-button-text": "hia Wikipedia do ogbè towe mẹ",
+		"footer-description": "Wikipedia yin azọ́n Wikimedia Foundation tọn, yèdọ ogbẹ́ dé he ma nọ wazọn na akuẹ he sọ to azọ́n wunmẹ voovo devo lẹ wà.",
+		"app-links": {
+			"title": "Mọ Wikipedia yí do Android kavi iOS ji",
+			"description": "Sè hosọ he a yinwanna hugan lẹ do nado wá vọ hia matin akuẹ susú, tò todohukanji wehihia towe tọn do alokan voovo lẹ ji bo basi tito numimọ wehihia towe tọn to ada vonọtaun Wikipedia tọn ji.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://guw.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikiwezẹhomẹ",
+		"slogan": "Wezẹhomẹ vọnu",
+		"entries": "hosọ lẹ"
+	},
+	"wikibooks": {
+		"name": "Wikiowe-lẹ",
+		"slogan": "Nuplọnmẹwe vọnu",
+		"entries": "weda lẹ"
+	},
+	"wikinews": {
+		"name": "Wikilinlin",
+		"slogan": "Asisa linlin vọnu tọn",
+		"entries": "hosọ lẹ"
+	},
+	"wikiquote": {
+		"name": "Wikinudọnamẹ",
+		"slogan": "Bẹ yihodọ vọnu hẹn",
+		"entries": "hosọ lẹ"
+	},
+	"wikisource": {
+		"name": "Wikiasisa",
+		"slogan": "Wesẹdotẹn vọnu"
+	},
+	"wikiversity": {
+		"name": "Wikivasiti",
+		"slogan": "Nuzinzan vọnu nupinpọn tọn lẹ",
+		"entries": "Asisa nupinplọn tọn lẹ"
+	},
+	"wikivoyage": {
+		"name": "Wikigbejizọnlin",
+		"slogan": "Anadenamẹ vọnu gbejizọnlin tọn"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Foto vọnu he sọgan yin yiyizan lẹ po nudevo lẹ po"
+	},
+	"wikispecies": {
+		"name": "Wikinudida",
+		"slogan": "Todohukanji nudida vọnu tọn"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Dodonu nuyọnẹn vọnu tọn"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Azọnwanu intẹnẹt ji tọn to tata podọ hunhun"
+	},
+	"metawiki": {
+		"name": "Mẹta-Wiki",
+		"slogan": "Tito podọ kandai lẹdo tọn po"
+	}
+}
