@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Tkalyn"
 		]
 	},
-	"language-name": "Русиньскый Язык",
-	"language-name-romanized": "Rusin’skyj Yazyk",
-	"language-name-romanized-sorted": "Rusinskyj Yazyk",
+	"language-name": "Русиньскый",
+	"language-name-romanized": "Rusin’skyj",
+	"language-name-romanized-sorted": "Rusinskyj",
 	"wiki": {
 		"name": "Вікіпедія"
 	},

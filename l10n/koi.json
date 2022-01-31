@@ -1,9 +1,12 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Amire80"
+		]
 	},
-	"language-name": "Перем Коми",
+	"language-name": "Перем коми",
 	"language-name-romanized": "Perem Komi",
+	"language-name-romanized-sorted": "komi, perem",
 	"wiki": {
 		"name": "Википедия"
 	}

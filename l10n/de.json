@@ -3,6 +3,7 @@
 		"authors": [
 			"Ajeje Brazorf",
 			"Anna7321",
+			"Brettchenweber",
 			"Gebu",
 			"Gnom",
 			"ManuelFranz",
@@ -42,7 +43,7 @@
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Die freie Bibliothek",
-		"entries": "Kapitel"
+		"entries": "Seiten"
 	},
 	"wikinews": {
 		"name": "Wikinews",
@@ -61,7 +62,7 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Freie Lehr- und Lernmaterialien",
-		"entries": "Seiten"
+		"entries": "Lehrmittel"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",

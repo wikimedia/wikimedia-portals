@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Adam-Yourist"
+			"Adam-Yourist",
+			"Amire80"
 		]
 	},
+	"language-name": "ГӀалгӀай",
+	"language-name-romanized": "Ghalghai",
 	"wiki": {
 		"search-input-label": "Википеде гӀолла лахар"
 	},

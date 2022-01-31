@@ -6,12 +6,14 @@
 		]
 	},
 	"language-name": "Norsk (bokmål)",
+	"footer-donate": "Du kan støtte arbeidet vårt med en gave.",
 	"license": "Denne siden er tilgjengelig under lisensen <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons-Navngivelse-Del på samme vilkår</a>",
 	"terms": "Bruksvilkår",
 	"privacy-policy": "Personvernpolitikk",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/nb",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/nb",
 	"search-input-button": "Søk",
+	"other-languages-label": "Andre språk",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Den frie encyklopedi",
@@ -22,6 +24,8 @@
 		"app-links": {
 			"title": "Last ned Wikipedia til Android eller iOS",
 			"description": "Lagre favorittartiklene dine for å lese dem i frakoblet modus, synkroniser leselistene på tvers av enheter og gjør leseopplevelsen personlig med den offisielle Wikipedia-appen.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
