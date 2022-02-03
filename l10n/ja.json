@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"LaMagiaaa",
+			"MathXplore",
 			"MuratTheTurkish",
 			"Omotecho",
 			"Otokoume",
@@ -35,7 +36,9 @@
 	"wiktionary": {
 		"name": "ウィクショナリー",
 		"slogan": "フリー多機能辞典",
-		"entries": "項目"
+		"entries": "項目",
+		"search-input-label": "ウィクショナリーで検索",
+		"language-button-text": "あなたの言語でウィクショナリーを読みませんか"
 	},
 	"wikibooks": {
 		"name": "ウィキブックス",

@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"CptViraj"
+		]
 	},
 	"language-name": "ગુજરાતી",
 	"language-name-romanized": "Gujarati",
@@ -8,7 +10,8 @@
 		"name": "વિકિપીડિયા"
 	},
 	"wiktionary": {
-		"name": "વિકિકોશ"
+		"name": "વિકિકોશ",
+		"language-button-text": "વિકિકોશ તમારી ભાષામાં વાંચો"
 	},
 	"wikiquote": {
 		"name": "વિકિસૂક્તિ"

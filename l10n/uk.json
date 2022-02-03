@@ -38,7 +38,9 @@
 	"wiktionary": {
 		"name": "Вікісловник",
 		"slogan": "Вільний словник",
-		"entries": "записи"
+		"entries": "записи",
+		"search-input-label": "Шукати у Вікісловнику",
+		"language-button-text": "Читати Вікісловник вашою мовою"
 	},
 	"wikibooks": {
 		"name": "Вікіпідручник",

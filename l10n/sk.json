@@ -37,7 +37,9 @@
 	"wiktionary": {
 		"name": "Wikislovník",
 		"slogan": "Slobodný slovník",
-		"entries": "hesiel"
+		"entries": "hesiel",
+		"search-input-label": "Prehľadávať Wiktionary",
+		"language-button-text": "Prečítajte si Wiktionary vo svojom jazyku"
 	},
 	"wikibooks": {
 		"name": "Wikiknihy",

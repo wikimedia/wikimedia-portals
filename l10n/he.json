@@ -34,7 +34,9 @@
 	"wiktionary": {
 		"name": "ויקימילון",
 		"slogan": "המילון החופשי",
-		"entries": "ערכים"
+		"entries": "ערכים",
+		"search-input-label": "חיפוש בוויקימילון",
+		"language-button-text": "לקרוא את ויקימילון בשפה שלך"
 	},
 	"wikibooks": {
 		"name": "ויקיספר",

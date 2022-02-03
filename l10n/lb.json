@@ -32,7 +32,9 @@
 	"wiktionary": {
 		"name": "Wiktionnaire",
 		"slogan": "Fräien Dictionnaire",
-		"entries": "Säiten"
+		"entries": "Säiten",
+		"search-input-label": "Am Wiktionaire sichen",
+		"language-button-text": "Liest de Wiktionary an Ärer Sprooch"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",

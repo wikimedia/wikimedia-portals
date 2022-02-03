@@ -42,7 +42,8 @@
 	"wiktionary": {
 		"name": "ويكاموس",
 		"slogan": "قاموس حر",
-		"entries": "مقالات"
+		"entries": "مقالات",
+		"search-input-label": "ابحث في ويكاموس"
 	},
 	"wikibooks": {
 		"name": "ويكي الكتب",

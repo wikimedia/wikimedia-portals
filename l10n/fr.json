@@ -41,7 +41,9 @@
 	"wiktionary": {
 		"name": "Wiktionnaire",
 		"slogan": "Le dictionnaire libre",
-		"entries": "entrées"
+		"entries": "entrées",
+		"search-input-label": "Rechercher dans Wiktionary",
+		"language-button-text": "Lire Wiktionary dans votre langue"
 	},
 	"wikibooks": {
 		"name": "Wikilivres",

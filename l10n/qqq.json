@@ -40,7 +40,9 @@
 	"wiktionary": {
 		"name": "Label for Wiktionary\n{{Identical|Wiktionary}}\n{{Related|Portals.name}}",
 		"slogan": "The Wiktionary slogan",
-		"entries": "The name of a content page on Wiktionary, pluralized.\n{{Identical|Entry}}"
+		"entries": "The name of a content page on Wiktionary, pluralized.\n{{Identical|Entry}}",
+		"search-input-label": "The label for the main search input for searching Wiktionary.\n\nShould be similar to {{msg-wm|Portals-wiki.search-input-label}}",
+		"language-button-text": "Text for the language dropdown button\n\nShould be similar to {{msg-wm|Portals-wiki.language-button-text}}"
 	},
 	"wikibooks": {
 		"name": "Label for Wikibooks\n{{Identical|Wikibooks}}\n{{Related|Portals.name}}",

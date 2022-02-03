@@ -32,7 +32,9 @@
 	"wiktionary": {
 		"name": "Wikționar",
 		"slogan": "Dicționar liber",
-		"entries": "intrări"
+		"entries": "intrări",
+		"search-input-label": "Căutare în Wikționar",
+		"language-button-text": "Citiți Wikționar în limba dvs."
 	},
 	"wikibooks": {
 		"name": "Wikimanuale",

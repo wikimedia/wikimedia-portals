@@ -37,7 +37,9 @@
 	"wiktionary": {
 		"name": "維基詞典",
 		"slogan": "自由的詞典",
-		"entries": "條目"
+		"entries": "條目",
+		"search-input-label": "搜尋維基詞典",
+		"language-button-text": "以您的語言閱讀維基詞典"
 	},
 	"wikibooks": {
 		"name": "維基教科書",

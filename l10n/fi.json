@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"MITO",
 			"Macofe",
 			"Moj",
 			"Olimar",
@@ -35,7 +36,9 @@
 	"wiktionary": {
 		"name": "Wikisanakirja",
 		"slogan": "Vapaa sanakirja",
-		"entries": "artikkelia"
+		"entries": "artikkelia",
+		"search-input-label": "Hae Wikisanakirjasta",
+		"language-button-text": "Lue Wikisanakirjaa kielelläsi"
 	},
 	"wikibooks": {
 		"name": "Wikikirjasto",

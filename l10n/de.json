@@ -38,7 +38,8 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Das freie Wörterbuch",
-		"entries": "Einträge"
+		"entries": "Einträge",
+		"search-input-label": "Wiktionary durchsuchen"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
