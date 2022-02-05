@@ -8,8 +8,8 @@ var _ = require( 'underscore' ),
 	rtlLanguages = require( './rtl-languages.json' ),
 	crypto = require( 'crypto' ),
 	deleteFiles = require( '../../data/utils' ),
-	top100000List,
-	top100000Dropdown,
+	top1000List,
+	top1000Dropdown,
 	Controller,
 	cachebuster,
 	siteStats,
@@ -53,8 +53,8 @@ function getPreloadLinks() {
 }
 
 // Format the dropdown for ./templates/search.mustache
-top100000List = stats.getRange( 'wikibooks', 'numPages', 100000 );
-top100000Dropdown = stats.format( 'wikibooks', top100000List, {
+top1000List = stats.getRange( 'wikibooks', 'numPages', 1000 );
+top1000Dropdown = stats.format( 'wikibooks', top1000List, {
 	stripTags: true
 } );
 
@@ -139,12 +139,10 @@ createTranslationFiles();
 
 Controller = {
 	top10views: stats.getTopFormatted( 'wikibooks', 'views', 10 ),
-	top1000000Articles: stats.getRangeFormatted( 'wikibboks', 'numPages', 1000000 ),
-	top100000Articles: stats.getRangeFormatted( 'wikibboks', 'numPages', 100000, 1000000 ),
-	top10000Articles: stats.getRangeFormatted( 'wikibboks', 'numPages', 10000, 100000 ),
-	top1000Articles: stats.getRangeFormatted( 'wikibboks', 'numPages', 1000, 10000 ),
-	top100Articles: stats.getRangeFormatted( 'wikibboks', 'numPages', 100, 1000 ),
-	top100000Dropdown: top100000Dropdown,
+	top10000Articles: stats.getRangeFormatted( 'wikibooks', 'numPages', 10000, 100000 ),
+	top1000Articles: stats.getRangeFormatted( 'wikibooks', 'numPages', 1000, 10000 ),
+	top100Articles: stats.getRangeFormatted( 'wikibooks', 'numPages', 100, 1000 ),
+	top1000Dropdown: top1000Dropdown,
 	rtlLanguages: rtlLanguages,
 	rtlLanguagesStringified: '[\'' + rtlLanguages.join( '\',\'' ) + '\']',
 	translationChecksum: cachebuster,

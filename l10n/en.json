@@ -35,7 +35,9 @@
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Free textbooks",
-		"entries": "pages"
+		"entries": "pages",
+		"search-input-label": "Search Wikibooks",
+		"language-button-text": "Read Wikibooks in your language"
 	},
 	"wikinews": {
 		"name": "Wikinews",
