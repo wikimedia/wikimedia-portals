@@ -29,7 +29,9 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Su ditzionàriu lìberu",
-		"entries": "paràulas"
+		"entries": "paràulas",
+		"search-input-label": "Chirca in su Wikitzionàriu",
+		"language-button-text": "Leghe su Wikitzionàriu in sa limba tua"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",

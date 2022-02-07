@@ -42,7 +42,9 @@
 	"wiktionary": {
 		"name": "Викисловарь",
 		"slogan": "Свободный словарь",
-		"entries": "статей"
+		"entries": "статей",
+		"search-input-label": "Найти Викисловарь",
+		"language-button-text": "Читать Викисловарь на своём языке"
 	},
 	"wikibooks": {
 		"name": "Викиучебник",

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
+			"MdsShakil",
 			"MuratTheTurkish",
 			"R4356th",
 			"Tahmid",
@@ -37,7 +38,9 @@
 	"wiktionary": {
 		"name": "উইকিঅভিধান",
 		"slogan": "একটি মুক্ত অভিধান",
-		"entries": "টি ভুক্তি"
+		"entries": "টি ভুক্তি",
+		"search-input-label": "উইকিঅভিধানে অনুসন্ধান",
+		"language-button-text": "আপনার ভাষায় উইকিঅভিধান পড়ুন"
 	},
 	"wikibooks": {
 		"name": "উইকিবই",

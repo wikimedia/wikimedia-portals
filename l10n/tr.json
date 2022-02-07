@@ -47,7 +47,9 @@
 	"wiktionary": {
 		"name": "Vikisözlük",
 		"slogan": "Özgür sözlük",
-		"entries": "girdi"
+		"entries": "girdi",
+		"search-input-label": "Vikisözlük'te Ara",
+		"language-button-text": "Vikisözlük'ü kendi dilinizde okuyun"
 	},
 	"wikibooks": {
 		"name": "Vikikitap",
