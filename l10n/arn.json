@@ -4,6 +4,9 @@
 			"Manke ruLpa"
 		]
 	},
+	"license": "Fachi tapülh pünekey ti <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Chumngechi ñi Püneleam",
+	"privacy-policy": "Kuñiwtun Zungu",
 	"search-input-button": "Kintun",
 	"other-languages-label": "Kake zungun",
 	"wiki": {
@@ -20,7 +23,9 @@
 	},
 	"wiktionary": {
 		"name": "Wikinhemül",
-		"slogan": "Neykülechi nemülhkawe"
+		"slogan": "Neykülechi nemülhkawe",
+		"search-input-label": "Kintun Wiktionary",
+		"language-button-text": "Wiktionary tami zungun mew"
 	},
 	"wikibooks": {
 		"name": "Wikicillka",
@@ -29,6 +34,7 @@
 	},
 	"wikinews": {
 		"name": "Wikinews",
+		"slogan": "Kizungünewkechi we zugu",
 		"entries": "tapülh"
 	},
 	"wikiquote": {
