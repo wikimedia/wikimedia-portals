@@ -1,9 +1,42 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Karapananguasú Kururú Teremembé"
 		]
 	},
 	"language-name": "Nhẽẽgatú",
-	"language-name-romanized-sorted": "Nheengatu"
+	"language-name-romanized-sorted": "Nheengatu",
+	"terms": "Puruçawa rekô",
+	"privacy-policy": "Mirapuraçawa Politika",
+	"search-input-button": "Usikári",
+	"other-languages-label": "Amũ nhẽẽga'etá",
+	"wiki": {
+		"name": "Wikipediya",
+		"search-input-label": "Usikári Wikipediya upé",
+		"app-links": {
+			"google-store": "Google Play Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"entries": "Ikeçawa'etá"
+	},
+	"wikibooks": {
+		"entries": "Sowa'etá"
+	},
+	"wikinews": {
+		"name": "Wikimarãduçawa",
+		"slogan": "Marãduçawa'etá imutara çatari"
+	},
+	"wikisource": {
+		"slogan": "Papera rẽdawa imutara"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Mburipawa & pirariwá wiki imutara"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
+	}
 }

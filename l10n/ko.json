@@ -41,7 +41,9 @@
 	"wiktionary": {
 		"name": "위키낱말사전",
 		"slogan": "말과 글의 누리",
-		"entries": "낱말"
+		"entries": "낱말",
+		"search-input-label": "위키낱말사전 검색",
+		"language-button-text": "내 언어로 위키낱말사전 읽기"
 	},
 	"wikibooks": {
 		"name": "위키책",

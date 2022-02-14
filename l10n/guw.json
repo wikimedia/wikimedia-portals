@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Atej2*",
 			"Joshateji",
 			"Sagbosam",
 			"Samatics"
@@ -32,7 +33,9 @@
 	"wiktionary": {
 		"name": "Wikiwezẹhomẹ",
 		"slogan": "Wezẹhomẹ vọnu",
-		"entries": "hosọ lẹ"
+		"entries": "hosọ lẹ",
+		"search-input-label": "Dín to Wiktionary ji",
+		"language-button-text": "Hia Wiktionary to ogbè towe mẹ"
 	},
 	"wikibooks": {
 		"name": "Wikiowe-lẹ",
