@@ -41,7 +41,9 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Het vrije woordenboek",
-		"entries": "pagina's"
+		"entries": "pagina's",
+		"search-input-label": "Doorzoek WikiWoordenboek",
+		"language-button-text": "Lees WikiWoordenboek in uw taal"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",

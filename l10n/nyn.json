@@ -1,8 +1,85 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Kakonjo"
 		]
 	},
-	"language-name": "Runyankore"
+	"language-name": "Runyankore",
+	"footer-donate": "Nobasa ku shagyika omurimo gwiitu ori kutuhayo obuyambi",
+	"license": "Orubaju oru ruriho ahansi ya <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Enkozesa",
+	"privacy-policy": "Enkozesa y'ebihama",
+	"search-input-button": "Sherura",
+	"other-languages-label": "Endimi ezindi",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Encyclopedia eya busha",
+		"entries": "Engingo",
+		"search-input-label": "Sherura Wikipedia",
+		"language-button-text": "Shoma Wikipedia omu orurimi rwawe",
+		"footer-description": "Wikipedia nerebererwa Wikimedia Foundation, ekyitongore ekyitari kyamagoba ekyiri kureberera za purogyekiti ezindi.",
+		"app-links": {
+			"title": "Yihayo Wikipedia eya Android ninga iOS",
+			"description": "Biika engingo zawe ezi orikukunda kwija kuzishoma ori Offline, Gita kumwe can enkarara za okushoma kwawe omu Karimagyezi zoona Kandi otereeze oku oraShome nana app etongozibwe eya Wikipedia.",
+			"google-store": "Google play store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikikavunuzi",
+		"slogan": "Kavunuzi eya busha",
+		"entries": "Ebitahizibwemu",
+		"search-input-label": "Sherura Wikikavunuzi",
+		"language-button-text": "Shoma Wikikavunuzi omu orurimi rwawe"
+	},
+	"wikibooks": {
+		"name": "Wikibitabo",
+		"slogan": "Ebitabo ebya busha",
+		"entries": "Embaju"
+	},
+	"wikinews": {
+		"name": "Wikimakuru",
+		"slogan": "Obukukomoko bwa amakuru ga busha",
+		"entries": "Engingo"
+	},
+	"wikiquote": {
+		"name": "Wikitugambo",
+		"slogan": "Otugambo twa busha omubwijwire",
+		"entries": "Engingo"
+	},
+	"wikisource": {
+		"name": "Wikioburigo",
+		"slogan": "Ibikiro rya ebitabo rya busha"
+	},
+	"wikiversity": {
+		"name": "Wikisoma",
+		"slogan": "Ebikozeso by'okushoma bya busha",
+		"entries": "Eby'kukoresa omukushoma"
+	},
+	"wikivoyage": {
+		"name": "Wikitambura",
+		"slogan": "Engyenderwaho za busha z'okutambura"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Ekishushani byabusha byokukozesa nana ebindi"
+	},
+	"wikispecies": {
+		"name": "WikiEbiine-amagara",
+		"slogan": "Ebiine-amagara bya busha"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Obukomoko bw'kumanya bwa busha"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Apprikeshoni ya busha ya wiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Enkwatanisa y'ebyanga nana ebirikubikwataho"
+	}
 }
