@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Lynessa",
 			"Robertjamal12"
 		]
 	},
 	"language-name": "Twi",
 	"footer-donate": "Wo bɛ  tumi de sika kakra aboa yɛn adwuma.",
+	"license": "Saa krataafa yi hyɛ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> ase",
 	"terms": "Mmra a ɛda sɛnea wo de bɛ yɛ Adwuma.",
 	"privacy-policy": "Kukuwa mu Nti ase",
 	"search-input-button": "Hwehwɛ",
@@ -25,7 +27,10 @@
 		}
 	},
 	"wiktionary": {
-		"slogan": "Suae bia yɛn gye hwee"
+		"name": "wiktionari",
+		"slogan": "Suae bia yɛn gye hwee",
+		"search-input-label": "Hwehwɛ Wiktionari",
+		"language-button-text": "Kekan Wiktionari wɔ wo kasa mu"
 	},
 	"wikibooks": {
 		"name": "Wikinwuma",
@@ -40,7 +45,11 @@
 	"wikiquote": {
 		"entries": "ntwerɛsɛm"
 	},
+	"wikisource": {
+		"name": "Wikisɔɔso"
+	},
 	"wikiversity": {
+		"slogan": "Adesuadeɛ ho nnoɔma a yɛnntua ho ka",
 		"entries": "Nea ɛbɛ boa wo ama w'atumi aua ade"
 	},
 	"wikivoyage": {

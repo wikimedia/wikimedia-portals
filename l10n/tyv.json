@@ -1,24 +1,39 @@
 {
 	"@metadata": {
 		"authors": [
-			"Agilight"
+			"Agilight",
+			"Riverman"
 		]
 	},
 	"language-name": "Тыва дыл",
 	"language-name-romanized": "Tyva dyl",
+	"footer-donate": "Ажылывысты өргүл-биле деткип болур силер.",
+	"license": "Бо арын <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike лисензи</a>-биле көрдүнгүр.",
 	"terms": "Ажыглаарының байдалдары",
+	"privacy-policy": "Хуу чорук дүрүмү",
 	"search-input-button": "Дилээр",
+	"other-languages-label": "Өске дылдар",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Хостуг энциклопедия",
 		"entries": "чүүлдер",
 		"search-input-label": "Википедиядан дилээр",
-		"language-button-text": "Википедияны бодуңарның дылыңарга номчуңар"
+		"language-button-text": "Википедияны бодуңарның дылыңарга номчуңар",
+		"footer-description": "Википедианы болза Викимедиа Фондузу тудуп турар, кезек өске төлевилел база тудуп турар орулгалыг эвес организас.",
+		"app-links": {
+			"title": "Android биле iOS-ка Википедианы кииртир",
+			"description": "Ынак чүүлдериңер оффлайн шыгжап, номчулгаңар даңзызын херекселдер аразынга синхроннап, номчулгаңар дуржулгазын Википедияның официалдыг капсырылгазы биле экижидип алыңар.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Викисөстүк",
 		"slogan": "Хостуг сөстүк",
-		"entries": "чүүлдер"
+		"entries": "чүүлдер",
+		"search-input-label": "Викисөстүктен дилээр",
+		"language-button-text": "Викисөстүктү бодуңар дылыңарга номчуңар"
 	},
 	"wikibooks": {
 		"name": "Викиномнар",
@@ -26,6 +41,46 @@
 		"entries": "арыннар"
 	},
 	"wikinews": {
-		"name": "Викимедээлер"
+		"name": "Викимедээлер",
+		"slogan": "Хостуг медээлер дөзү",
+		"entries": "чүүлдер"
+	},
+	"wikiquote": {
+		"name": "Викицитата",
+		"slogan": "Хостуг цитата коллекциязы",
+		"entries": "чүүлдер"
+	},
+	"wikisource": {
+		"name": "Викидөс",
+		"slogan": "Хостуг библиотека"
+	},
+	"wikiversity": {
+		"name": "Викиверситет",
+		"slogan": "Хостуг курс материалдары",
+		"entries": "өөредилге ресурстары"
+	},
+	"wikivoyage": {
+		"name": "Викичорук",
+		"slogan": "Хостуг аян-чорук чедикчизи"
+	},
+	"commons": {
+		"name": "Шыгжамыр",
+		"slogan": "Хостуг ажыглап болур чуруктар болгаш оон-даа"
+	},
+	"wikispecies": {
+		"name": "Викивидтер",
+		"slogan": "Хостуг видтер директоризи"
+	},
+	"wikidata": {
+		"name": "Викимедээлел",
+		"slogan": "Хостуг билиг баазазы"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Хостуг болгаш ажык вики капсырылгазы"
+	},
+	"metawiki": {
+		"name": "Мета-Вики",
+		"slogan": "Ниитилел координазы биле документазы"
 	}
 }
