@@ -1,0 +1,75 @@
+[
+	{
+		"name": "Commons",
+		"url": "//commons.wikimedia.org/",
+		"tagline": "Freely usable photos & more",
+		"key": "commons"
+	},
+	{
+		"name": "Wikivoyage",
+		"url": "//www.wikivoyage.org/",
+		"tagline": "Free travel guide",
+		"key": "wikivoyage"
+	},
+	{
+		"name": "Wiktionary",
+		"url": "//www.wiktionary.org/",
+		"tagline": "Free dictionary",
+		"key": "wiktionary"
+	},
+	{
+		"name": "Wikipedia",
+		"url": "//www.wikipedia.org/",
+		"tagline": "The Free Encyclopedia",
+		"key": "wikipedia"
+	},
+	{
+		"name": "Wikinews",
+		"url": "//www.wikinews.org/",
+		"tagline": "Free news source",
+		"key": "wikinews"
+	},
+	{
+		"name": "Wikidata",
+		"url": "//www.wikidata.org/",
+		"tagline": "Free knowledge base",
+		"img1": "Wikidata-logo_sister",
+		"key": "wikidata"
+	},
+	{
+		"name": "Wikiversity",
+		"url": "//www.wikiversity.org/",
+		"tagline": "Free course materials",
+		"key": "wikiversity"
+	},
+	{
+		"name": "Wikiquote",
+		"url": "//www.wikiquote.org/",
+		"tagline": "Free quote compendium",
+		"key": "wikiquote"
+	},
+	{
+		"name": "MediaWiki",
+		"url": "//www.mediawiki.org/",
+		"tagline": "Free & open wiki application",
+		"key": "mediawiki"
+	},
+	{
+		"name": "Wikisource",
+		"url": "//www.wikisource.org/",
+		"tagline": "Free library",
+		"key": "wikisource"
+	},
+	{
+		"name": "Wikispecies",
+		"url": "//species.wikimedia.org/",
+		"tagline": "Free species directory",
+		"key": "wikispecies"
+	},
+	{
+		"name": "Meta-Wiki",
+		"url": "//meta.wikimedia.org/",
+		"tagline": "Community coordination & documentation",
+		"key": "metawiki"
+	}
+]
