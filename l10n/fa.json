@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amirsara",
+			"Beginneruser",
 			"Darafsh",
 			"FarsiNevis",
 			"Jeeputer",
@@ -38,7 +39,9 @@
 	"wiktionary": {
 		"name": "ویکی‌واژه",
 		"slogan": "لغتنامه چندزبانه آزاد",
-		"entries": "مدخل‌ها"
+		"entries": "مدخل‌ها",
+		"search-input-label": "جستجو در ویکی‌واژه",
+		"language-button-text": "ویکی‌واژه را به زبان خود بخوانید"
 	},
 	"wikibooks": {
 		"name": "ویکی‌کتاب",
