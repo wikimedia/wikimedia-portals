@@ -2,73 +2,82 @@
 	"@metadata": {
 		"authors": [
 			"Brazal.dang",
+			"Daramlagon",
 			"ShimunUfesoj"
 		]
 	},
 	"language-name": "Bikol Central",
+	"footer-donate": "Pwede kang magsuporta sa proyekto mi sa paagi nin donasyon.",
 	"license": "An pahina na ini nasa irarom kan <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
-	"terms": "Takda kan paggamit",
-	"privacy-policy": "Kalakawan nin pribasidad",
-	"search-input-button": "Maghanap",
+	"terms": "Mga Panundon sa Paggamit",
+	"privacy-policy": "Patakaran sa Pagigin Pridado",
+	"search-input-button": "Hanapon",
+	"other-languages-label": "Ibang mga lenggwahe",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "An Talingkas na Ensiklopedya",
-		"entries": "Mga Artikulo",
-		"search-input-label": "Maghanap sa Wikipedia",
-		"language-button-text": "Basahon an Wikipedia sa saimong tataramon",
-		"footer-description": "Ang Wikipedia pinapadalagan kan Wikimedia FOundation, sarong non-profit na organisasyon na nagpapadalagan man nin manlaen-laen na mga proyekto.",
+		"slogan": "An Talingkas na Ensayklopidya",
+		"entries": "mga artikulo",
+		"search-input-label": "Hanapon sa Wikipedia",
+		"language-button-text": "Basahon an Wikipedia sa saimong lenggwahe",
+		"footer-description": "Ang Wikipedia pinapadalagan kan Wikimedia Foundation, sarong non-profit na organisasyon na nagpapadalagan man nin manlain-lain na mga proyekto.",
 		"app-links": {
-			"title": "Magagamit na an mga Wikipedia apps:"
+			"title": "I-download an Wikipedia para sa Android o iOS",
+			"description": "I-save an paborito mong mga artikulo para mabasa ini offline, ma-sync an mga reading list sa manlain-lain na mga device, asin ma-customize an saimong pagbasa gamit an opisyal na Wikipedia app.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
-		"name": "Wiksyonaryo",
+		"name": "Wiksyunaryo",
 		"slogan": "Libreng Diksyunaryo",
-		"entries": "mga entrada"
+		"entries": "mga entra",
+		"search-input-label": "Hanapon sa Wiksyunaryo",
+		"language-button-text": "Basahon an Wikipedia sa saimong lenggwahe"
 	},
 	"wikibooks": {
-		"name": "Wiki-na-mga-libro",
-		"slogan": "Libreng mga libro",
-		"entries": "Mga Pahina"
+		"name": "Wikilibro",
+		"slogan": "Libreng mga textbook",
+		"entries": "mga pahina"
 	},
 	"wikinews": {
-		"name": "Wiki-na-mga-bareta",
-		"slogan": "Libreng ginigikanan kan bareta",
-		"entries": "Mga Artikulo"
+		"name": "Wikibarita",
+		"slogan": "Libreng kuanan nin mga barita",
+		"entries": "mga artikulo"
 	},
 	"wikiquote": {
-		"name": "Wiking-paninglit",
-		"slogan": "Libreng kompendyum kan mga sipi",
-		"entries": "Mga Artikulo"
+		"name": "Wikisambit",
+		"slogan": "Libreng katiripunan nin mga sambit",
+		"entries": "mga artikulo"
 	},
 	"wikisource": {
-		"name": "Wiki-na-pinaggikanan",
-		"slogan": "Libreng libraryo"
+		"name": "Wikisusugan",
+		"slogan": "Libreng gunuan"
 	},
 	"wikiversity": {
 		"name": "Wikibersidad",
-		"slogan": "Libreng mga materyales sa mga kurso",
-		"entries": "Mga gamit sa pag-adal"
+		"slogan": "Libreng mga kagamitan sa kurso",
+		"entries": "mga kagamitan sa pag-adal"
 	},
 	"wikivoyage": {
-		"name": "Wikibiyahe",
-		"slogan": "Libreng travel guide"
+		"name": "Wikibyahe",
+		"slogan": "Libreng giya sa pagbyahe"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Libreng mga litrato asin iba pa"
+		"slogan": "Libreng magagamit na mga litrato asin iba pa"
 	},
 	"wikispecies": {
-		"name": "Wikispecies",
-		"slogan": "Libreng direktory kan mga species"
+		"name": "Wikiespesye",
+		"slogan": "Libreng direktoryo nin mga espesye"
 	},
 	"wikidata": {
-		"name": "Wikidatus",
-		"slogan": "Base kan libreng mga kaaraman"
+		"name": "Wikidatos",
+		"slogan": "Libreng muhon nin kaaraman"
 	},
 	"mediawiki": {
-		"name": "Midya-Wiki",
-		"slogan": "Libre asin bukas na mga wiki application"
+		"name": "MediaWiki",
+		"slogan": "Libre asin bukas na wiki application"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",

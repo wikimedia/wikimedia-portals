@@ -7,6 +7,7 @@
 	},
 	"language-name": "Nhẽẽgatú",
 	"language-name-romanized-sorted": "Nheengatu",
+	"footer-donate": "Ĩdé remurú repitimũ yãné murakiçawa yepé rikuyara pitimũgawa rupí.",
 	"terms": "Puruçawa rekô",
 	"privacy-policy": "Mirapuraçawa Politika",
 	"search-input-button": "Usikári",
@@ -14,6 +15,7 @@
 	"wiki": {
 		"name": "Wikipediya",
 		"search-input-label": "Usikári Wikipediya upé",
+		"language-button-text": "E-mũgetá Wikipediya ne nhẽẽga rupí",
 		"app-links": {
 			"google-store": "Google Play Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
@@ -31,6 +33,9 @@
 	},
 	"wikisource": {
 		"slogan": "Papera rẽdawa imutara"
+	},
+	"wikidata": {
+		"slogan": "Kuauçawa çatari imutara"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
