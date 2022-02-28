@@ -45,7 +45,9 @@
 	"wikibooks": {
 		"name": "উইকিবই",
 		"slogan": "উন্মুক্ত পাঠ্যপুস্তক",
-		"entries": "টি পাতা"
+		"entries": "টি পাতা",
+		"search-input-label": "উইকিবই অনুসন্ধান",
+		"language-button-text": "আপনার ভাষায় উইকিবই পড়ুন"
 	},
 	"wikinews": {
 		"name": "উইকিসংবাদ",

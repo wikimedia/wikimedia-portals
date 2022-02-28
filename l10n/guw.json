@@ -3,6 +3,7 @@
 		"authors": [
 			"Amire80",
 			"Atej2*",
+			"Gadarawamo",
 			"Joshateji",
 			"Sagbosam",
 			"Samatics"
@@ -40,7 +41,9 @@
 	"wikibooks": {
 		"name": "Wikiowe-lẹ",
 		"slogan": "Nuplọnmẹwe vọnu",
-		"entries": "weda lẹ"
+		"entries": "weda lẹ",
+		"search-input-label": "Din wikiwema lẹ",
+		"language-button-text": "Hia Wikiwema lẹ to ogbè towe mẹ"
 	},
 	"wikinews": {
 		"name": "Wikilinlin",

@@ -41,7 +41,9 @@
 	"wikibooks": {
 		"name": "Викикниги",
 		"slogan": "Слободни учебници",
-		"entries": "страници"
+		"entries": "страници",
+		"search-input-label": "Пребарај по Викикниги",
+		"language-button-text": "Читајте ги Викикнигите на вашиот јазик"
 	},
 	"wikinews": {
 		"name": "Викивести",

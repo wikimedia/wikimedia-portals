@@ -39,7 +39,9 @@
 	"wikibooks": {
 		"name": "Wikimanuale",
 		"slogan": "Manuale libere",
-		"entries": "pagini"
+		"entries": "pagini",
+		"search-input-label": "Căutare în Wikimanuale",
+		"language-button-text": "Citiți Wikimanuale în limba dvs."
 	},
 	"wikinews": {
 		"name": "Wikiștiri",

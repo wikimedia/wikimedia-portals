@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Lynessa",
-			"Robertjamal12"
+			"Robertjamal12",
+			"Rsaawah"
 		]
 	},
 	"language-name": "Twi",
+	"language-name-romanized": "Mfantse",
 	"footer-donate": "Wo bɛ  tumi de sika kakra aboa yɛn adwuma.",
 	"license": "Saa krataafa yi hyɛ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> ase",
 	"terms": "Mmra a ɛda sɛnea wo de bɛ yɛ Adwuma.",
@@ -35,7 +38,9 @@
 	"wikibooks": {
 		"name": "Wikinwuma",
 		"slogan": "Nwoma a yɛ de hyɛ",
-		"entries": "Kratafa"
+		"entries": "Kratafa",
+		"search-input-label": "Hwehwɛ Wikinwoma",
+		"language-button-text": "Kenkan Wikinwoma wɔ wo kasa mu"
 	},
 	"wikinews": {
 		"name": "Wikinews",

@@ -48,7 +48,9 @@
 	"wikibooks": {
 		"name": "Wikilivres",
 		"slogan": "Textes pédagogiques libres",
-		"entries": "pages"
+		"entries": "pages",
+		"search-input-label": "Rechercher sur Wikilivres",
+		"language-button-text": "Lire Wikilivres dans votre langue"
 	},
 	"wikinews": {
 		"name": "Wikinews",

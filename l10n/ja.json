@@ -43,7 +43,9 @@
 	"wikibooks": {
 		"name": "ウィキブックス",
 		"slogan": "フリー教科書",
-		"entries": "項目"
+		"entries": "項目",
+		"search-input-label": "ウィキブックスを検索する",
+		"language-button-text": "あなたの言語でウィキペディアを読みましょう"
 	},
 	"wikinews": {
 		"name": "ウィキニュース",

@@ -44,7 +44,9 @@
 	"wikibooks": {
 		"name": "Wikilivros",
 		"slogan": "Livros abertos por um mundo aberto",
-		"entries": "páginas"
+		"entries": "páginas",
+		"search-input-label": "Pesquisar em Wikilivros",
+		"language-button-text": "Ler Wikilivros na sua língua"
 	},
 	"wikinews": {
 		"name": "Wikinotícias",

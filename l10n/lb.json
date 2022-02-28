@@ -39,7 +39,9 @@
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Fräi Textbicher",
-		"entries": "Säiten"
+		"entries": "Säiten",
+		"search-input-label": "Op Wikibooks sichen",
+		"language-button-text": "Liest Wikibooks an Ärer Sprooch"
 	},
 	"wikinews": {
 		"name": "Wikinews",

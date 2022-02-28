@@ -41,7 +41,9 @@
 	"wikibooks": {
 		"name": "ויקיספר",
 		"slogan": "ספרי לימוד חופשיים",
-		"entries": "עמודים"
+		"entries": "עמודים",
+		"search-input-label": "חיפוש בוויקיספר",
+		"language-button-text": "לקרוא את ויקיספר בשפה שלך"
 	},
 	"wikinews": {
 		"name": "ויקיחדשות",
