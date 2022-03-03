@@ -36,7 +36,9 @@
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Manuales e libros lìberos",
-		"entries": "pàginas"
+		"entries": "pàginas",
+		"search-input-label": "Chirca in Wikibooks",
+		"language-button-text": "Leghe Wikibooks in sa limba tua"
 	},
 	"wikinews": {
 		"name": "Wikinews",

@@ -11,6 +11,7 @@
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Rijjâ tiätusänikirje",
+		"entries": "artikkâleh",
 		"search-input-label": "Uusâ Wikipediast",
 		"app-links": {
 			"title": "Luođii Wikipedia Anroidin teikâ iOS:n"
@@ -25,10 +26,12 @@
 		"entries": "sijđoh"
 	},
 	"wikinews": {
-		"name": "Wikiuđđâseh"
+		"name": "Wikiuđđâseh",
+		"entries": "artikkâleh"
 	},
 	"wikiquote": {
-		"name": "Wikisitaateh"
+		"name": "Wikisitaateh",
+		"entries": "artikkâleh"
 	},
 	"wikisource": {
 		"name": "Wikikäldee",

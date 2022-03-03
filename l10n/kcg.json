@@ -29,17 +29,21 @@
 	},
 	"wiktionary": {
 		"name": "Wikshyonari",
-		"slogan": "A̠sa̠t a̠gban",
-		"entries": "nwuai mi̱ nwuai"
+		"slogan": "A̠sa̠t a̠gban swang a̱lyiat",
+		"entries": "nwuai mi̱ nwuai",
+		"search-input-label": "Zop Wikshyonari",
+		"language-button-text": "Fang Wikshyonari da̱ a̱lyem ang ka"
 	},
 	"wikibooks": {
 		"name": "Wikinkwambwat",
 		"slogan": "A̠sa̠t nkwambwat-fang",
-		"entries": "pejí"
+		"entries": "pejí",
+		"search-input-label": "Zop Wikinkwambwat",
+		"language-button-text": "Fang Wikinkwambwat da̱ a̱lyem ang ka"
 	},
 	"wikinews": {
 		"name": "Wikinkhang",
-		"slogan": "A̠vwuoneet a̠sa̠t nkhang",
+		"slogan": "A̱tyin a̠sa̠t nkhang",
 		"entries": "a̠yaati̠kut"
 	},
 	"wikiquote": {
@@ -52,7 +56,7 @@
 		"slogan": "A̠sa̠t tutu nkwambwat"
 	},
 	"wikiversity": {
-		"name": "Wikivasti",
+		"name": "Wikivasi̱ti",
 		"slogan": "A̠sa̠t nkyangfang",
 		"entries": "nkyang myiam"
 	},
@@ -70,10 +74,10 @@
 	},
 	"wikidata": {
 		"name": "Wikideita",
-		"slogan": "A̠sa̠t a̠tyin lyen"
+		"slogan": "A̠sa̠t kuntyin lyen"
 	},
 	"mediawiki": {
-		"name": "MidyaWiki",
+		"name": "MediaWiki",
 		"slogan": "A̠sa̠t & a̠gang api̠likeshyon wiki"
 	},
 	"metawiki": {
