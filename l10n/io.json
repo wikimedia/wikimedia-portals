@@ -32,12 +32,16 @@
 	"wiktionary": {
 		"name": "Wikivortaro",
 		"slogan": "La Libera Dicionario",
-		"entries": "termini"
+		"entries": "termini",
+		"search-input-label": "Serchar Wikivortaro",
+		"language-button-text": "Lektez Wikivortaro en vua linguo"
 	},
 	"wikibooks": {
 		"name": "Wikilibri",
 		"slogan": "Gratuita lernolibri",
-		"entries": "pagini"
+		"entries": "pagini",
+		"search-input-label": "Serchez Wikilibri (''Wikibooks'')",
+		"language-button-text": "Lektez Wikilibri en vua linguo"
 	},
 	"wikinews": {
 		"name": "Wikinovaji",
