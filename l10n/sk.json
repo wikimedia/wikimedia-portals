@@ -44,7 +44,9 @@
 	"wikibooks": {
 		"name": "Wikiknihy",
 		"slogan": "Voľne dostupné knihy",
-		"entries": "stránky"
+		"entries": "stránky",
+		"search-input-label": "Prehľadávať Wikiknihy",
+		"language-button-text": "Číta Wikiknihy vo vašom jazyku"
 	},
 	"wikinews": {
 		"name": "Wikisprávy",

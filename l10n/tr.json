@@ -54,7 +54,9 @@
 	"wikibooks": {
 		"name": "Vikikitap",
 		"slogan": "Özgür ders kitapları",
-		"entries": "sayfalar"
+		"entries": "sayfalar",
+		"search-input-label": "Vikikitap'ta ara",
+		"language-button-text": "Vikikitap'ı kendi dilinizde okuyun"
 	},
 	"wikinews": {
 		"name": "Vikihaber",

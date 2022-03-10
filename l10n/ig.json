@@ -2,11 +2,47 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Chikapatience",
+			"Jenniferkene",
 			"Oby Ezeilo"
 		]
 	},
 	"language-name": "Igbo",
+	"footer-donate": "I nwere iji onyinye kwado ọrụ anyị",
+	"license": "Ihu a dị n'okpuru <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Iwu njirarụ",
+	"privacy-policy": "Iwu izochi onwe",
+	"search-input-button": "Chọọ",
+	"other-languages-label": "Asụsụ ndị ọzọga",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Encyclopedia akwụ ụgwọ",
+		"entries": "ederede",
+		"search-input-label": "Chọọ na wikipedia",
+		"language-button-text": "Gụọ wikipedia n'asụsụ gị",
+		"footer-description": "Ndị na-ahazi wikipedia bụ Wikimedia Foundation, bụ ụlọ ọrụ enwe uru nke na-ahazikwa ọrụ dị iche iche.",
+		"app-links": {
+			"title": "Butuo Wikipedia maka Android ma ọ bụ iOS",
+			"google-store": "Gaa na Google Play Store",
+			"apple-store": "Gaa na Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Nkọwa okwu Wiki",
+		"slogan": "Nkọwa okwu akwụ ụgwọ",
+		"entries": "Ndebanyega",
+		"search-input-label": "Chọọ na Nkọwa okwu Wiki",
+		"language-button-text": "Gụọ nkwọwa okwu Wiki n'asụsụ gị"
+	},
+	"wikibooks": {
+		"name": "Akwụkwọ Wiki",
+		"slogan": "Akwụkwọ ọgụgụ efu",
+		"entries": "Ihuga",
+		"search-input-label": "Chọọ n'akwụkwọ Wikiga",
+		"language-button-text": "Gụọ akwụkwọ Wiki n'asụsụ gị"
+	},
+	"wikinews": {
+		"name": "Nuuzu Wiki"
 	}
 }

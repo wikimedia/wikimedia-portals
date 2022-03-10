@@ -49,7 +49,8 @@
 	"wikibooks": {
 		"name": "ويكي الكتب",
 		"slogan": "كتب مدرسية مجانية",
-		"entries": "الصفحات"
+		"entries": "الصفحات",
+		"language-button-text": "اقرأ ويكي الكتب بلغتك"
 	},
 	"wikinews": {
 		"name": "ويكي الأخبار",

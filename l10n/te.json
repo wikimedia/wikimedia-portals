@@ -35,7 +35,9 @@
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "ఉచిత పాఠ్యపుస్తకాలు",
-		"entries": "పుటలు"
+		"entries": "పుటలు",
+		"search-input-label": "వికీబుక్స్ లో వెతకండి",
+		"language-button-text": "వికీబుక్స్‌ను మీ భాషలో చదవండి"
 	},
 	"wikinews": {
 		"name": "వికీవార్తలు",
