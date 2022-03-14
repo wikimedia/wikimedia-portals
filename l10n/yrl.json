@@ -14,10 +14,12 @@
 	"other-languages-label": "Amũ nhẽẽga'etá",
 	"wiki": {
 		"name": "Wikipediya",
+		"entries": "kuatiara",
 		"search-input-label": "Usikári Wikipediya upé",
 		"language-button-text": "E-mũgetá Wikipediya ne nhẽẽga rupí",
 		"app-links": {
 			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
@@ -25,11 +27,19 @@
 		"entries": "Ikeçawa'etá"
 	},
 	"wikibooks": {
-		"entries": "Sowa'etá"
+		"name": "Wikipapera'etá",
+		"slogan": "Pinimaça'papera'etá imutara",
+		"entries": "Sowa'etá",
+		"search-input-label": "Usikári Wikipapera'etá",
+		"language-button-text": "Umũgetá Wikipapera'etá ne nhẽẽga rupí"
 	},
 	"wikinews": {
 		"name": "Wikimarãduçawa",
-		"slogan": "Marãduçawa'etá imutara çatari"
+		"slogan": "Marãduçawa'etá imutara çatari",
+		"entries": "kuatiara'etá"
+	},
+	"wikiquote": {
+		"entries": "kuatiara"
 	},
 	"wikisource": {
 		"slogan": "Papera rẽdawa imutara"
