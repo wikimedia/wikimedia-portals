@@ -8,8 +8,8 @@ var _ = require( 'underscore' ),
 	rtlLanguages = require( './rtl-languages.json' ),
 	crypto = require( 'crypto' ),
 	deleteFiles = require( '../../data/utils' ),
-	top1000List,
-	top1000Dropdown,
+	searchLanguageWikis,
+	searchLanguageDropdown,
 	Controller,
 	cachebuster,
 	siteStats,
@@ -53,8 +53,8 @@ function getPreloadLinks() {
 }
 
 // Format the dropdown for ./templates/search.mustache
-top1000List = stats.getRange( 'wikibooks', 'numPages', 1000 );
-top1000Dropdown = stats.format( 'wikibooks', top1000List, {
+searchLanguageWikis = stats.getRange( 'wikibooks', 'numPages', 1000 );
+searchLanguageDropdown = stats.format( 'wikibooks', searchLanguageWikis, {
 	stripTags: true
 } );
 
@@ -142,7 +142,7 @@ Controller = {
 	top10000Articles: stats.getRangeFormatted( 'wikibooks', 'numPages', 10000, 100000 ),
 	top1000Articles: stats.getRangeFormatted( 'wikibooks', 'numPages', 1000, 10000 ),
 	top100Articles: stats.getRangeFormatted( 'wikibooks', 'numPages', 100, 1000 ),
-	top1000Dropdown: top1000Dropdown,
+	searchLanguageDropdown: searchLanguageDropdown,
 	rtlLanguages: rtlLanguages,
 	rtlLanguagesStringified: '[\'' + rtlLanguages.join( '\',\'' ) + '\']',
 	translationChecksum: cachebuster,

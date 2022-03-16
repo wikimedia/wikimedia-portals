@@ -8,8 +8,8 @@ var _ = require( 'underscore' ),
 	rtlLanguages = require( './rtl-languages.json' ),
 	crypto = require( 'crypto' ),
 	deleteFiles = require( '../../data/utils' ),
-	top100000List,
-	top100000Dropdown,
+	searchLanguageWikis,
+	searchLanguageDropdown,
 	Controller,
 	cachebuster,
 	siteStats,
@@ -37,8 +37,8 @@ l10n.assets = {
 };
 
 // Format the dropdown for ./templates/search.mustache
-top100000List = stats.getRange( 'wiki', 'numPages', 100000 );
-top100000Dropdown = stats.format( 'wiki', top100000List, {
+searchLanguageWikis = stats.getRange( 'wiki', 'numPages', 100000 );
+searchLanguageDropdown = stats.format( 'wiki', searchLanguageWikis, {
 	stripTags: true
 } );
 
@@ -146,7 +146,7 @@ Controller = {
 	top10000Articles: stats.getRangeFormatted( 'wiki', 'numPages', 10000, 100000 ),
 	top1000Articles: stats.getRangeFormatted( 'wiki', 'numPages', 1000, 10000 ),
 	top100Articles: stats.getRangeFormatted( 'wiki', 'numPages', 100, 1000 ),
-	top100000Dropdown: top100000Dropdown,
+	searchLanguageDropdown: searchLanguageDropdown,
 	preloadLinks: getPreloadLinks(),
 	otherProjects: otherProjects,
 	rtlLanguages: rtlLanguages,
