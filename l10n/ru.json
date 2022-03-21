@@ -44,13 +44,15 @@
 		"name": "Викисловарь",
 		"slogan": "Свободный словарь",
 		"entries": "статей",
-		"search-input-label": "Найти Викисловарь",
+		"search-input-label": "Поиск по Викисловарю",
 		"language-button-text": "Читать Викисловарь на родном языке"
 	},
 	"wikibooks": {
 		"name": "Викиучебник",
 		"slogan": "Свободные учебники",
-		"entries": "учебников"
+		"entries": "учебников",
+		"search-input-label": "Поиск по Викиучебнику",
+		"language-button-text": "Читайте Викиучебник на своё языке"
 	},
 	"wikinews": {
 		"name": "Викиновости",

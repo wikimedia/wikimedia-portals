@@ -37,7 +37,8 @@
 	"wikibooks": {
 		"name": "Wikibitabo",
 		"slogan": "Ebitabo ebya busha",
-		"entries": "Embaju"
+		"entries": "Embaju",
+		"language-button-text": "Shoma ebitabo ebya wiki omu Orurimi rwaawe"
 	},
 	"wikinews": {
 		"name": "Wikimakuru",

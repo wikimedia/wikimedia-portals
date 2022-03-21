@@ -38,7 +38,9 @@
 	"wikibooks": {
 		"name": "Викикнїжки",
 		"slogan": "Шлєбодни учебнїки",
-		"entries": "боки"
+		"entries": "боки",
+		"search-input-label": "Преглєдуй Викиучебнїки",
+		"language-button-text": "Читай Викиучебнїки на своїм язику"
 	},
 	"wikinews": {
 		"name": "Викиновосци",
