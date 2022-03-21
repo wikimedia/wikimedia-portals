@@ -14,7 +14,7 @@
 
 	'use strict';
 
-	var baseUrl = '/beacon/event',
+	var baseUrl = 'https://intake-analytics.wikimedia.org/v1/events',
 		byteToHex = [],
 		self, helpers;
 
@@ -195,8 +195,15 @@
 				event: event,
 				revision: schema.revision || -1,
 				schema: schema.name,
+				$schema: '/analytics/legacy/' + schema.name.toLowerCase() + '/1.0.0',
+				// eslint-disable-next-line camelcase
+				client_dt: new Date().toISOString(),
 				webHost: location.hostname,
-				wiki: 'metawiki'
+				wiki: 'metawiki',
+				meta: {
+					stream: 'eventlogging_' + schema.name,
+					domain: location.hostname
+				}
 			};
 		},
 
