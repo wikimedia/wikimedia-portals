@@ -41,7 +41,9 @@
 	"wikibooks": {
 		"name": "Vikilibroj",
 		"slogan": "Liberaj lernolibroj",
-		"entries": "paĝoj"
+		"entries": "paĝoj",
+		"search-input-label": "Serĉi ĉe Vikilibroj",
+		"language-button-text": "Legi Vikilibrojn en via lingvo"
 	},
 	"wikinews": {
 		"name": "Vikinovaĵoj",
