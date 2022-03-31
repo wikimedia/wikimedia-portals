@@ -7,6 +7,7 @@
 			"Omotecho",
 			"Otokoume",
 			"Pcoombe",
+			"Yamagata Yusuke",
 			"ネイ"
 		]
 	},
@@ -30,6 +31,8 @@
 		"app-links": {
 			"title": "Android 版もしくは iOS 版ウィキペディアの入手",
 			"description": "ウィキペディアの公式アプリを使うと、お気に入りの記事をオフライン用に保存したり、読書リストを他の端末と同期したりして、読書体験がカスタマイズできます。",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://ja.wikipedia.org/wiki/ウィキペディアのモバイルアプリケーション一覧"
 		}
 	},

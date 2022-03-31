@@ -30,12 +30,16 @@
 	"wiktionary": {
 		"name": "ꯋꯤꯛꯁꯟꯅꯔꯤ",
 		"slogan": "ꯃꯅꯤꯡꯇꯝꯕ ꯂꯣꯟꯒꯩ",
-		"entries": "ꯏꯁꯤꯟꯕꯁꯤꯡ"
+		"entries": "ꯏꯁꯤꯟꯕꯁꯤꯡ",
+		"search-input-label": "ꯋꯤꯛꯁꯟꯅꯔꯤ ꯊꯤꯕ",
+		"language-button-text": "ꯋꯤꯛꯁꯟꯅꯔꯤ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟꯗ ꯄꯥꯑꯣ"
 	},
 	"wikibooks": {
 		"name": "ꯋꯤꯀꯤꯂꯥꯏꯔꯤꯛꯁꯤꯡ",
 		"slogan": "ꯃꯅꯤꯡꯇꯝꯕ ꯂꯥꯏꯔꯤꯛꯁꯤꯡ",
-		"entries": "ꯂꯃꯥꯏꯁꯤꯡ"
+		"entries": "ꯂꯃꯥꯏꯁꯤꯡ",
+		"search-input-label": "ꯋꯤꯀꯤꯂꯥꯏꯔꯤꯛ ꯊꯤꯕ",
+		"language-button-text": "ꯋꯤꯀꯤꯂꯥꯏꯔꯤꯛ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟꯗ ꯄꯥꯑꯣ"
 	},
 	"wikinews": {
 		"name": "ꯋꯤꯀꯤꯄꯥꯎꯁꯤꯡ",

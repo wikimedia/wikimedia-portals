@@ -35,12 +35,16 @@
 	"wiktionary": {
 		"name": "Вікіслоўнік",
 		"slogan": "Вольны слоўнік",
-		"entries": "запісы"
+		"entries": "запісы",
+		"search-input-label": "Пошук у Вікіслоўніку",
+		"language-button-text": "Чытайце Вікіслоўнік сваёй мовай"
 	},
 	"wikibooks": {
 		"name": "Вікікнігі",
 		"slogan": "Вольныя падручнікі",
-		"entries": "старонкі"
+		"entries": "старонкі",
+		"search-input-label": "Пошук у Вікікнігах",
+		"language-button-text": "Чытайце Вікікнігі сваёй мовай"
 	},
 	"wikinews": {
 		"name": "Вікінавіны",
