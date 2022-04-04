@@ -1,3 +1,4 @@
 [submodule "prod"]
 	path = prod
 	url = https://gerrit.wikimedia.org/r/wikimedia/portals/deploy
+	branch = master
