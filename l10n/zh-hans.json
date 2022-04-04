@@ -5,6 +5,7 @@
 			"Irati",
 			"Liuxinyu970226",
 			"Shizhao",
+			"StarrySky",
 			"Tranve",
 			"VulpesVulpes825",
 			"Zhang8569"
@@ -39,12 +40,16 @@
 	"wiktionary": {
 		"name": "维基词典",
 		"slogan": "自由的词典",
-		"entries": "词条"
+		"entries": "词条",
+		"search-input-label": "搜索维基词典",
+		"language-button-text": "在您的语言中阅读维基词典"
 	},
 	"wikibooks": {
 		"name": "维基教科书",
 		"slogan": "自由的教材",
-		"entries": "页面"
+		"entries": "页面",
+		"search-input-label": "搜索维基教科书",
+		"language-button-text": "在您的语言中阅读维基百科"
 	},
 	"wikinews": {
 		"name": "维基新闻",
