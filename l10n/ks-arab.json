@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Iflaq"
+			"Iflaq",
+			"Tajamul9"
 		]
 	},
+	"footer-donate": "تۄہہِ ہؠکِیوٚ سہارٕ بٕنِتھ سانہِ کامہِ ہِیوٚنٛد بذٕریعہ زَکات.",
 	"terms": "اِستِعمالٕک شَرت",
 	"privacy-policy": "رازدٲری اصوٗل",
 	"search-input-button": "ژھانٛڈُن",
@@ -12,7 +14,11 @@
 		"name": "وِکیٖپیٖڈیا",
 		"slogan": "آزاد انسائيكلوپيڈيا",
 		"entries": "مَضموٗن",
-		"search-input-label": "وِکیٖپیٖڈیاہَس مَنٛز کٕرو تلاش"
+		"search-input-label": "وِکیٖپیٖڈیاہَس مَنٛز کٕرو تلاش",
+		"app-links": {
+			"google-store": "گوگٕل پٕلیسِٹور",
+			"apple-store": "اؠپٕل اؠپسِٹور"
+		}
 	},
 	"wiktionary": {
 		"name": "ویٖکیٖلۄغَتھ",
@@ -25,24 +31,42 @@
 	},
 	"wikinews": {
 		"name": "وِکی خَبر",
+		"slogan": "مُفت خبر سورٕس",
 		"entries": "مَضموٗن"
 	},
 	"wikiquote": {
+		"name": "وِکیٖکووٕٹ",
 		"entries": "مَضموٗن"
 	},
+	"wikisource": {
+		"name": "وِکیسورُس",
+		"slogan": "مُفت کِتابخانہٕ"
+	},
 	"wikiversity": {
-		"name": "وِکی جامِعہ"
+		"name": "وِکی جامِعہ",
+		"slogan": "مُفت کورٕس چیٖز",
+		"entries": "ہؠچِھنٕکی ذرٲیی"
+	},
+	"wikivoyage": {
+		"name": "وِکیسَفر",
+		"slogan": "مُفت سَفر نامہٕ"
 	},
 	"commons": {
 		"name": "کامَنز"
 	},
+	"wikispecies": {
+		"name": "وِکیٖزٲژ"
+	},
 	"wikidata": {
-		"name": "ویکی ڈیٹا"
+		"name": "ویکی ڈیٹا",
+		"slogan": "مُفت بُنیٲدی عٕلم"
 	},
 	"mediawiki": {
-		"name": "میٖڈیاوِکی"
+		"name": "میٖڈیاوِکی",
+		"slogan": "مُفت تہٕ یَلہٕ وِکی اؠپلِکیشَن"
 	},
 	"metawiki": {
-		"name": "میٹاوِکی"
+		"name": "میٹاوِکی",
+		"slogan": "عوٲمی کاڈِنیشَن تہٕ دَستاویٖزات"
 	}
 }
