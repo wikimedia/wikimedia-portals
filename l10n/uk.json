@@ -46,7 +46,9 @@
 	"wikibooks": {
 		"name": "Вікіпідручник",
 		"slogan": "Вільні посібники",
-		"entries": "сторінки"
+		"entries": "сторінки",
+		"search-input-label": "Пошук у Вікікнигах",
+		"language-button-text": "Читайте Вікікниги своєю мовою"
 	},
 	"wikinews": {
 		"name": "Вікіновини",
