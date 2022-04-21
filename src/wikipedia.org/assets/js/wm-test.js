@@ -107,7 +107,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 
 			storedSessionId = mw.storage.get( KEYS.SESSION_ID );
 			expires = mw.storage.get( KEYS.EXPIRES );
-			now = new Date().getTime();
+			now = Date.now();
 
 			// Return storedSessionId if not expired
 			if ( storedSessionId && expires > parseInt( now, 10 ) ) {

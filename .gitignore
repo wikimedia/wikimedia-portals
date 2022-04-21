@@ -4,6 +4,7 @@ node_modules
 .idea
 .vscode
 cache
+.eslintcache
 build/config.gypi
 data/site-stats.json
 src/*.org/index.html

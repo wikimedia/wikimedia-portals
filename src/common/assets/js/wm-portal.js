@@ -182,7 +182,7 @@
 			}
 
 			// Prefills the search box with the "search" URL parameter.
-			params = location.search && location.search.substr( 1 ).split( '&' );
+			params = location.search && location.search.slice( 1 ).split( '&' );
 			for ( i = 0; i < params.length; i += 1 ) {
 				param = params[ i ].split( '=' );
 				if ( param[ 0 ] === 'search' && param[ 1 ] ) {

@@ -101,7 +101,7 @@ function createTranslationsChecksum() {
 		hash = crypto.createHash( 'md5' ).update( data ).digest( 'hex' );
 
 	// Truncating hash for legibility
-	hash = hash.substring( 0, 8 );
+	hash = hash.slice( 0, 8 );
 	return hash;
 }
 

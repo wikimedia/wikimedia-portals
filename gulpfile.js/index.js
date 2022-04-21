@@ -30,25 +30,13 @@ gulp.task( 'compile-handlebars', compileHandlebars );
  * @return {Stream}
  */
 
-const { postCSS, validatePostCSS, lintCSS } = require( './postcss' );
+const { postCSS, validatePostCSS } = require( './postcss' );
 
 gulp.task( 'postcss', postCSS );
 
 gulp.task( 'validate-postCSS', validatePostCSS );
 
-gulp.task( 'lint-css', gulp.series( 'validate-postCSS', lintCSS ) );
-
 const { inlineAssets, cleanProdJS, copyTranslationFiles, concatMinifyJS, minifyHTML, copyImages, createProdSymlink } = require( './prod' );
-
-/**
- * Lint JS in src folder as well as in root folder.
- *
- * @return {Stream}
- */
-
-const { lintJS } = require( './javascript' );
-
-gulp.task( 'lint-js', lintJS );
 
 const { updateStats } = require( './stats' );
 
@@ -106,12 +94,7 @@ const { watch } = require( './dev' );
 
 gulp.task( 'watch', gulp.series( 'svgSprite', 'compile-handlebars', 'postcss', watch ) );
 
-gulp.task( 'lint', gulp.series( 'lint-js', 'lint-css' ) );
-
-gulp.task( 'test', gulp.series( 'lint' ) );
-
 gulp.task( 'default', gulp.series(
-	'lint',
 	'svgSprite',
 	'compile-handlebars',
 	'postcss',
