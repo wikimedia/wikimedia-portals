@@ -37,12 +37,16 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Kamus bebas",
-		"entries": "entri"
+		"entries": "entri",
+		"search-input-label": "Telusuri Wiktionary",
+		"language-button-text": "Baca Wikitionary dalam bahasa Anda"
 	},
 	"wikibooks": {
 		"name": "Wikibuku",
 		"slogan": "Buku bebas",
-		"entries": "buku"
+		"entries": "buku",
+		"search-input-label": "Telusuri Wikibooks",
+		"language-button-text": "Baca Wikibooks dalam bahasa Anda"
 	},
 	"wikinews": {
 		"name": "Wikinews",
