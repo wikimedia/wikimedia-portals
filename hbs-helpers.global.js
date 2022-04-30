@@ -22,7 +22,7 @@ var Handlebars = require( 'handlebars' ),
  */
 helpers.printAttrs = function ( attrs ) {
 	var output = '',
-		whiteList = [ 'id', 'class', 'lang', 'data-converttitle-hans', 'data-convert-hans' ],
+		whiteList = [ 'id', 'class', 'lang', 'data-title-hans', 'data-title-hant', 'data-hans', 'data-hant' ],
 		lowercase, attr;
 
 	if ( this[ attrs ] ) {

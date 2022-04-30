@@ -60,8 +60,9 @@
 	},
 	"gan": {
 		"attrs": {
-			"data-convert-Hans": "赣语",
-			"id": "gan_wiki"
+			"data-hans": "赣语",
+			"data-hant": "贛語",
+			"class": "jscnconv"
 		}
 	},
 	"glk": {
@@ -172,61 +173,22 @@
 	"ur": {
 		"language-name": "<bdi dir=\"rtl\">اردو</bdi>"
 	},
-	"wuu": {
-		"attrs": {
-			"data-convert-Hans": "吴语",
-			"id": "wuu_wiki"
-		}
-	},
 	"yi": {
 		"language-name": "<bdi dir=\"rtl\">ייִדיש</bdi>"
 	},
 	"zh": {
 		"wiki": {
 			"linkBoxAttrs": {
-				"data-convertTitle-Hans": "Zhōngwén — 维基百科 — 自由的百科全书",
-				"id": "zh_top10"
-			},
-			"sloganAttrs": {
-				"data-convert-Hans": "自由的百科全书",
-				"id": "zh_tag",
-				"class": "emNonItalicLang"
+				"data-title-hans": "Zhōngwén — 维基百科 — 自由的百科全书",
+				"data-title-hant": "Zhōngwén — 維基百科 — 自由的百科全書"
 			},
 			"articlesAttrs": {
-				"data-convert-Hans": "条目",
-				"id": "zh_art"
-			}
-		},
-		"wiktionary": {
-			"linkBoxAttrs": {
-				"id": "zh_top10"
+				"data-hans": "条目",
+				"data-hant": "條目",
+				"class": "jscnconv"
 			},
 			"sloganAttrs": {
-				"data-convert-Hans": "自由的多语言词典",
-				"id": "zh_tag",
 				"class": "emNonItalicLang"
-			},
-			"articlesAttrs": {
-				"data-convert-Hans": "条词条",
-				"id": "zh_art"
-			}
-		},
-		"wikinews": {
-			"articlesAttrs": {
-				"data-convert-Hans": "篇",
-				"id": "zh_art"
-			},
-			"linkBoxAttrs": {
-				"data-convertTitle-Hans": "Zhōngwén",
-				"id": "zh_top10"
-			},
-			"create": "新聞投稿",
-			"sloganAttrs": {
-				"class": "emNonItalicLang"
-			},
-			"createAttrs": {
-				"data-convert-Hans": "新闻投稿",
-				"id": "zh_tag"
 			}
 		}
 	},
@@ -237,10 +199,6 @@
 		"lang": "nan"
 	},
 	"zh-yue": {
-		"attrs": {
-			"data-convert-Hans": "粤语",
-			"id": "zh-yue_wiki"
-		},
 		"lang": "yue"
 	}
 }

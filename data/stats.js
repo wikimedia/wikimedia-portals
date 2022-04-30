@@ -7,20 +7,21 @@ var siteStats = require( './site-stats.json' ),
 	siteDefs;
 
 Stats.readi18nFiles = function ( dirname ) {
-	var siteDefs = {},
+	var siteDefinitions = {},
 		fileNames = fs.readdirSync( dirname );
 
 	fileNames.forEach( function ( filename ) {
 		var fileContent = fs.readFileSync( dirname + filename, 'utf-8' ),
 			langCode = filename.replace( '.json', '' );
-		siteDefs[ langCode ] = JSON.parse( fileContent );
+		siteDefinitions[ langCode ] = JSON.parse( fileContent );
 
 		if ( siteDefsFormatting[ langCode ] ) {
-			siteDefs[ langCode ] = merge( siteDefs[ langCode ], siteDefsFormatting[ langCode ] );
+			siteDefinitions[ langCode ] = merge(
+				siteDefinitions[ langCode ], siteDefsFormatting[ langCode ] );
 		}
 	} );
 
-	return siteDefs;
+	return siteDefinitions;
 };
 
 siteDefs = Stats.readi18nFiles( __dirname + '/../l10n/' );
@@ -148,10 +149,10 @@ Stats.getRange = function ( portal, criteria, from, to ) {
  * @param {string} portal The portal to look at: `wiki`, `wiktionary`...
  * @param {Array} list Raw list of wiki.
  * @param {Object} [optionsArg]
- * @param {boolean} [options.stripTags=false] Tags are removed from the `name`.
+ * @param {boolean} [optionsArg.stripTags=false] Tags are removed from the `name`.
  *  **Note:** this is only removing tags, it is not escaping the string nor
  *  making it secure.
- * @param {boolean} [options.merge=false] Whether subwikis should be merged or not.
+ * @param {boolean} [optionsArg.merge=false] Whether subwikis should be merged or not.
  * @return {Array} List of wikis with all their information.
  */
 Stats.format = function ( portal, list, optionsArg ) {
@@ -230,6 +231,14 @@ Stats.format = function ( portal, list, optionsArg ) {
 		}
 		if ( siteDef.attrs ) {
 			formatted.attrs = siteDef.attrs;
+		}
+
+		if ( top.code === 'zh' ) {
+			// Carry translations for simp and trad Chinese, used later in controller.js
+			formatted.variants = {
+				'zh-hans': _.extend( {}, siteDefs[ 'zh-hans' ][ portal ], siteDefs[ 'zh-hans' ] ),
+				'zh-hant': _.extend( {}, siteDefs[ 'zh-hant' ][ portal ], siteDefs[ 'zh-hant' ] )
+			};
 		}
 
 		extendedl10n.forEach( function ( prop ) {

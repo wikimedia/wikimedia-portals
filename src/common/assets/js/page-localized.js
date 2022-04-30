@@ -15,6 +15,7 @@
 ( function ( wmTest, translationsHash, mw, rtlLangs ) {
 
 	var primaryLang = wmTest.userLangs[ 0 ],
+		fullLang,
 		storedTranslationHash,
 		storedTranslations,
 		l10nReq,
@@ -36,14 +37,98 @@
 		return parsed;
 	}
 
+	/**
+	 * Returns the preferred locale in BCP 47 format in lowercase (like 'zh-cn').
+	 * This is used to handle some language with variants like Chinese.
+	 *
+	 * @return {string}
+	 */
+	function getFullLocale() {
+		var uiLang = ( navigator.languages && navigator.languages[ 0 ] ) ||
+		navigator.language || navigator.userLanguage || '';
+		return uiLang.toLowerCase();
+	}
+
+	/**
+	 * Determine whether the specified locale is Simplified Chinese or not.
+	 *
+	 * @param {string} locale
+	 * @return {boolean} true if locale is a Simp Chinese script, false for Trad Chinese
+	 * @throws {TypeError} if locale is not a zh locale
+	 */
+	function isSimpChinese( locale ) {
+		var hans = [ 'zh', 'zh-hans', 'zh-cn', 'zh-sg', 'zh-my', 'zh-hans-cn', 'zh-hans-sg', 'zh-hans-my' ],
+			hant = [ 'zh-hk', 'zh-tw', 'zh-mo', 'zh-hant-hk', 'zh-hant-tw', 'zh-hant-mo' ];
+
+		if ( hans.indexOf( locale ) !== -1 ) {
+			return true;
+		} else if ( hant.indexOf( locale !== -1 ) ) {
+			return false;
+		} else {
+			throw new TypeError( locale + ' is not a Chinese locale!' );
+		}
+	}
+
+	/**
+	 * Do conversion on html tags in Chinese according to user preference.
+	 *
+	 * @param {string} locale
+	 */
+	function performChineseConversion( locale ) {
+		var i, elements, elt, isSimp,
+			txtAttrHans = 'data-hans',
+			txtAttrHant = 'data-hant',
+			titleAttrHans = 'data-title-hans',
+			titleAttrHant = 'data-title-hant',
+			selector = '.jscnconv, #js-link-box-zh';
+
+		try {
+			isSimp = isSimpChinese( locale );
+		} catch ( error ) {
+			return;
+		}
+
+		elements = document.querySelectorAll( selector );
+		for ( i = 0; i < elements.length; i++ ) {
+			elt = elements[ i ];
+			if ( isSimp ) {
+				if ( elt.hasAttribute( txtAttrHans ) ) {
+					// HTML escaping for paranoia, as it should all be text anyways.
+					elt.textContent = elt.getAttribute( txtAttrHans );
+				}
+				if ( elt.hasAttribute( titleAttrHans ) ) {
+					elt.title = elt.getAttribute( titleAttrHans );
+				}
+			} else {
+				if ( elt.hasAttribute( txtAttrHant ) ) {
+					elt.textContent = elt.getAttribute( txtAttrHant );
+				}
+				if ( elt.hasAttribute( titleAttrHant ) ) {
+					elt.title = elt.getAttribute( titleAttrHant );
+				}
+			}
+
+		}
+	}
+
 	function isValidHash() {
 		var storedHash = mw.storage.get( 'translationHash' );
 		return ( translationsHash === storedHash ) ? storedHash : false;
 	}
 
-	if ( wmTest.userLangs[ 0 ] === 'en' ) {
+	if ( primaryLang === 'en' ) {
 		wmL10nVisible.makeVisible();
 		return;
+	}
+
+	if ( primaryLang === 'zh' ) {
+		fullLang = getFullLocale();
+		if ( isSimpChinese( fullLang ) ) {
+			primaryLang = 'zh-hans';
+		} else {
+			primaryLang = 'zh-hant';
+		}
+		performChineseConversion( primaryLang );
 	}
 
 	storedTranslationHash = isValidHash();
@@ -54,8 +139,6 @@
 	 *
 	 * @param {string} lang language code that acts as the key to the translation.
 	 * @param {Object} translation translation data.
-	 *
-	 * @return {undefined}
 	 */
 	function saveTranslation( lang, translation ) {
 		var translations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};

@@ -93,85 +93,6 @@
 	}
 
 	/**
-	 * Imitates `element.textContent = text` for back-compatibility.
-	 *
-	 * @param {HTMLElement} element
-	 * @param {string} text
-	 */
-	function textContent( element, text ) {
-		while ( element.firstChild ) {
-			element.removeChild( element.firstChild );
-		}
-		element.appendChild( document.createTextNode( text ) );
-	}
-
-	/**
-	 * Converts Chinese strings from traditional to simplified.
-	 *
-	 * Convertible elements start out with traditional text and title attributes
-	 * along with simplified counterparts in the data-*-hans attributes.
-	 *
-	 * @param {string} lang
-	 */
-	function convertChinese( lang ) {
-		var i, elt,
-			txtAttr = 'data-convert-hans',
-			titleAttr = 'data-converttitle-hans',
-			ids;
-
-		if ( 'zh-hans,zh-cn,zh-sg,zh-my,'.indexOf( lang + ',' ) === -1 ) {
-			return;
-		}
-
-		/**
-		 * If we ever drop support for IE 8 and below, we can put all these
-		 * elements in a 'convertible' class and call
-		 * document.getElementsByClassName() instead.
-		 */
-		ids = [ 'zh_art', 'zh_others', 'zh_search', 'zh_tag', 'zh_top10', 'zh-yue_wiki', 'gan_wiki', 'hak_wiki', 'wuu_wiki' ];
-		for ( i = 0; i < ids.length; i += 1 ) {
-			elt = $( ids[ i ] );
-			if ( elt ) {
-				if ( elt.hasAttribute( txtAttr ) ) {
-					// HTML escaping for paranoia, as it should all be text anyways.
-					textContent( elt, elt.getAttribute( txtAttr ) );
-				}
-				if ( elt.hasAttribute( titleAttr ) ) {
-					elt.title = elt.getAttribute( titleAttr );
-				}
-			}
-		}
-	}
-
-	/**
-	 * Modifies links to the Chinese language edition to point to traditional or
-	 * simplified versions, based on the user's preference.
-	 *
-	 * @param {string} lang
-	 */
-	function convertZhLinks( lang ) {
-		var locale;
-
-		if ( lang.indexOf( 'zh' ) !== 0 ) {
-			return;
-		}
-
-		locale = lang.substring( 3 /* 'zh-'.length */ );
-		if ( locale === 'mo' ) {
-			locale = 'hk';
-		} else if ( locale === 'my' ) {
-			locale = 'sg';
-		}
-
-		if ( locale && 'cn,tw,hk,sg,'.indexOf( locale + ',' ) >= 0 ) {
-			$( 'zh_wiki' ).href += 'zh-' + locale + '/';
-			$( 'zh_others' ).href = $( 'zh_others' ).href.replace( 'wiki/', 'zh-' + locale + '/' );
-		}
-
-		convertChinese( lang );
-	}
-
-	/**
 	 * Selects the language from the dropdown according to the user's preference.
 	 */
 	doWhenReady( function () {
@@ -182,8 +103,6 @@
 		if ( !lang ) {
 			return;
 		}
-
-		convertZhLinks( lang );
 
 		iso639 = getIso639( lang );
 
@@ -205,7 +124,7 @@
 					customOption.setAttribute( 'lang', iso639 );
 					customOption.setAttribute( 'value', iso639 );
 					customOptionText = matchingLink.textContent || matchingLink.innerText || iso639;
-					textContent( customOption, customOptionText );
+					customOption.textContent = customOptionText;
 					select.appendChild( customOption );
 				}
 			}
