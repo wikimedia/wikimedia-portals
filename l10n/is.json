@@ -25,18 +25,23 @@
 			"title": "Sæktu Wikipedia-forrit fyrir Android eða iOS",
 			"description": "Vistaðu eftirlætisgreinarnar þínar til að lesa þær án nettengingar, samstilltu leslistana þína á milli tækja og aðlagðu lesumhverfið þitt til samræmis við opinbera Wikipedia-forritið.",
 			"google-store": "Google Play Store verslun",
-			"apple-store": "Apple App Store verslun"
+			"apple-store": "Apple App Store verslun",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Wikiorðabók",
 		"slogan": "Frjálsa orðabókin",
-		"entries": "færslur"
+		"entries": "færslur",
+		"search-input-label": "Leita í Wiktionary",
+		"language-button-text": "Lesta Wiktionary á þínu tungumáli"
 	},
 	"wikibooks": {
 		"name": "Wikibækur",
 		"slogan": "Frjálsa kennslubókaverkefnið",
-		"entries": "síður"
+		"entries": "síður",
+		"search-input-label": "Leita í Wikibooks",
+		"language-button-text": "Lesa Wikibooks á þínu tungumáli"
 	},
 	"wikinews": {
 		"name": "Wikifrétt",
