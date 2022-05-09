@@ -27,8 +27,8 @@
 		"slogan": "自由的百科全书",
 		"entries": "条目",
 		"search-input-label": "搜索维基百科",
-		"language-button-text": "在您的语言中阅读维基百科",
-		"footer-description": "维基百科由非盈利组织维基媒体基金会管理，它还拥有一系列其他项目。",
+		"language-button-text": "以您的语言阅读维基百科",
+		"footer-description": "维基百科由非盈利组织维基媒体基金会管理，基金会也管理一系列其它项目。",
 		"app-links": {
 			"title": "下载iOS或Android版维基百科应用",
 			"description": "保存您最喜欢的条目以供离线阅读，跨设备同步您的阅读列表，并使用官方维基百科应用定制您的阅读体验。",
@@ -42,14 +42,14 @@
 		"slogan": "自由的词典",
 		"entries": "词条",
 		"search-input-label": "搜索维基词典",
-		"language-button-text": "在您的语言中阅读维基词典"
+		"language-button-text": "以您的语言阅读维基词典"
 	},
 	"wikibooks": {
 		"name": "维基教科书",
 		"slogan": "自由的教材",
 		"entries": "页面",
 		"search-input-label": "搜索维基教科书",
-		"language-button-text": "在您的语言中阅读维基百科"
+		"language-button-text": "以您的语言阅读维基教科书"
 	},
 	"wikinews": {
 		"name": "维基新闻",
