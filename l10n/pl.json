@@ -6,6 +6,7 @@
 			"Pietrasagh",
 			"Rail",
 			"Railfail536",
+			"Strebski",
 			"WTM",
 			"Woytecr"
 		]
@@ -31,18 +32,24 @@
 		"app-links": {
 			"title": "Pobierz aplikację Wikipedii na Androida lub iOS",
 			"description": "Czytaj swoje ulubione artykuły offline, zsynchronizuj listy czytania pomiędzy urządzeniami i dostosuj swoje doświadczenie, korzystając z oficjalnej aplikacji Wikipedii.",
-			"google-store": "Sklep Play"
+			"google-store": "Sklep Play",
+			"apple-store": "Sklep z aplikacjami Apple",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Wikisłownik",
 		"slogan": "Wolny słownik",
-		"entries": "stron"
+		"entries": "stron",
+		"search-input-label": "Szukaj w Wikisłowniku",
+		"language-button-text": "Czytaj Wikisłownik w swoim języku"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Otwarte podręczniki",
-		"entries": "stron"
+		"entries": "stron",
+		"search-input-label": "Szukaj w Wikibookach",
+		"language-button-text": "Czytaj Wikibooki w swoim języku"
 	},
 	"wikinews": {
 		"name": "Wikinews",

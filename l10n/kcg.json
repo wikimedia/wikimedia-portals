@@ -6,82 +6,82 @@
 		]
 	},
 	"language-name": "Tyap",
-	"footer-donate": "A maai a li̱n a̱ma ta̱m nzi̱t hu di̱n vak za̱nang kurum.",
-	"license": "Peji huni shyia̠ a̠tafa <a href='https://creativecommons.org/licenses/by-sa/3.0/kcg'>Creative Commons Attribution-ShareAlike</a> hwa",
+	"footer-donate": "A maai nang ta̱m nzi̱t hu li̱n-a̱ma di̱n vak nwuat za̱nang kurum.",
+	"license": "Wat huni shyia̠ a̠tafa <a href='https://creativecommons.org/licenses/by-sa/3.0/kcg'>Creative Commons Attribution-ShareAlike</a> hwa",
 	"terms": "A̠yaaka̠nda̠n Nyian Ta̠m",
 	"privacy-policy": "Kwambwat A̱bala̱lang",
 	"search-input-button": "Zop",
 	"other-languages-label": "Lilyem ghyáng",
 	"wiki": {
-		"name": "Wikipidya",
-		"slogan": "A̠sa̠t A̱gban Lyen Wu",
+		"name": "Wukipedia",
+		"slogan": "A̱gban Lyen Wu Ma̱sa̱t",
 		"entries": "a̠yaati̠kut",
-		"search-input-label": "Zop Wikipidya",
-		"language-button-text": "Fang Wikipidya da̠ a̠lyem ang ka",
-		"footer-description": "Wikipidya yet a̠kpa̠p Sotbeang Wikimidya wa, sot nta̠m nang á̠ khwuk di̠ nwai cat kpangti̠n zang ja ma nkyiak a̠kpa̠p á̠ghyang nta̠m ma̠ a̠di̠di̠t.",
+		"search-input-label": "Zop Wukipedia",
+		"language-button-text": "Fang Wukipedia da̠ a̠lyem ang ka",
+		"footer-description": "Wukipedia yet kpa̠t Sotbeang Wukimedia hwa, sot nta̠m nang á̠ khwuk di̠ nwai cat kpangti̠n a̱ni ji̱ byia̱ á̠ghyang nta̠m da̱ a̱pyia̱ nji.",
 		"app-links": {
-			"title": "Cyok ma̠ng Wikimidya mat Android ke iOS",
-			"description": "Sak a̠yaati̠kut ba nang a lan cat a̠ni mat fang di̠ lang nta, tyia̠ pwut di̱n ta̱m lís fang ang hu mami a̠mgba̠m nkyangta̠m a ba̱ nyia̠ jhyi a̠gwam di̠ fwuong ansham fang ang hu ma̱ng ap. ̂Wikipidya ofisha wu.",
+			"title": "Cyok ma̠ng Wukipedia mat Android ku iOS",
+			"description": "Sak a̠yaati̠kut ba nang a lan-cat a̠ni mat fang di̠ lang nta, tyia̠ pwut di̱n ta̱m lyulyoot fang ang hu mami a̠mgba̠m nkyangta̠m a ba̱ nyia̠ jhyi a̠gwam di̠ fwuong ansham fang ang hu ma̱ng ap. Wukipedia ofisha wu.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
-		"name": "Wikshyonari",
-		"slogan": "A̠sa̠t a̠gban swang a̱lyiat",
-		"entries": "nwuai mi̱ nwuai",
-		"search-input-label": "Zop Wikshyonari",
-		"language-button-text": "Fang Wikshyonari da̱ a̱lyem ang ka"
+		"name": "Wukshyonari",
+		"slogan": "A̱gban swang a̱lyiat ntyap wu ma̱sa̱t",
+		"entries": "lyulyoot nwuai",
+		"search-input-label": "Zop Wukshyonari",
+		"language-button-text": "Fang Wukshyonari da̱ a̱lyem ang ka"
 	},
 	"wikibooks": {
-		"name": "Wikinkwambwat",
-		"slogan": "A̠sa̠t nkwambwat-fang",
-		"entries": "pejí",
-		"search-input-label": "Zop Wikinkwambwat",
-		"language-button-text": "Fang Wikinkwambwat da̱ a̱lyem ang ka"
+		"name": "Nkwambwatwuki",
+		"slogan": "Nkwambwat-fang ma̱sa̱t",
+		"entries": "ngwat",
+		"search-input-label": "Zop Nkwambwatwuki",
+		"language-button-text": "Fang Nkwambwatwuki da̱ a̱lyem ang ka"
 	},
 	"wikinews": {
-		"name": "Wikinkhang",
-		"slogan": "A̱tyin a̠sa̠t nkhang",
+		"name": "Nkhangwuki",
+		"slogan": "A̱tyin nkhang ma̱sa̱t",
 		"entries": "a̠yaati̠kut"
 	},
 	"wikiquote": {
-		"name": "Wikityan",
-		"slogan": "A̠sa̠t kompendyom tyan",
+		"name": "Tyanwuki",
+		"slogan": "Kompendyom tyan ma̱sa̱t",
 		"entries": "a̠yaati̠kut"
 	},
 	"wikisource": {
-		"name": "Wikia̱vwuoneet",
-		"slogan": "A̠sa̠t tutu nkwambwat"
+		"name": "A̱tyinwuki",
+		"slogan": "Tutu nkwambwat ma̱sa̱t"
 	},
 	"wikiversity": {
-		"name": "Wikivasi̱ti",
-		"slogan": "A̠sa̠t nkyangfang",
+		"name": "Wukivasi̱ti",
+		"slogan": "Nkyangfang kos ma̱sa̱t",
 		"entries": "nkyang myiam"
 	},
 	"wikivoyage": {
-		"name": "Wikia̱cyet",
-		"slogan": "A̠sa̠t a̠kwak a̠son a̠cyet"
+		"name": "A̱cyetwuki",
+		"slogan": "A̱kwak a̠son a̠cyet ma̱sa̱t"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "A̠sa̠t nghwughwu nang á̠ maai nyia̠ ta̠m ma̠ng á̠na a̠ni ma̠ng nkyang njhyang"
+		"slogan": "Nghwughwu nang á̠ maai nyia̠ ta̠m ma̠ng á̠na ma̱sa̱t ma̠ng nkyang njhyang"
 	},
 	"wikispecies": {
-		"name": "Wikisusotbishyi",
-		"slogan": "A̠sa̠t kwambwat a̠myim susotbishyi"
+		"name": "Susotbishyiwuki",
+		"slogan": "Kwambwat a̠myim susotbishyi ma̱sa̱t"
 	},
 	"wikidata": {
-		"name": "Wikideita",
-		"slogan": "A̠sa̠t kuntyin lyen"
+		"name": "Deitawuki",
+		"slogan": "Kuntyin lyen ma̱sa̱t"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "A̠sa̠t & a̠gang api̠likeshyon wiki"
+		"slogan": "A̠sa̠t & a̠gang api̠likeshyon wuki"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Mun á̠niet & saailyuut"
+		"slogan": "Tung á̠niet ndung & saailyuut"
 	}
 }

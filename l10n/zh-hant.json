@@ -38,7 +38,7 @@
 	"wiktionary": {
 		"name": "維基詞典",
 		"slogan": "自由的詞典",
-		"entries": "條目",
+		"entries": "詞條",
 		"search-input-label": "搜尋維基詞典",
 		"language-button-text": "以您的語言閱讀維基詞典"
 	},
@@ -86,7 +86,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "自由與開放的維基應用程式"
+		"slogan": "自由與開放的wiki應用程式"
 	},
 	"metawiki": {
 		"name": "元維基",
