@@ -41,6 +41,30 @@ helpers.printAttrs = function ( attrs ) {
 };
 
 /**
+ * If `classes` is an array in the current context,
+ * it will print out its value by concatenating all of the elements in
+ * it, separated by spaces.
+ *
+ *     // if this is:
+ *     [ 'class1', 'class2' ]
+ *
+ *     // it will output:
+ *     ' class1 class2'
+ *
+ * @param {string} classes
+ * @return {Handlebars.SafeString}
+ */
+helpers.printClasses = function ( classes ) {
+	var output = '';
+
+	if ( this[ classes ] && Array.isArray( this[ classes ] ) ) {
+		output = Handlebars.escapeExpression( ' ' + this[ classes ].join( ' ' ) );
+	}
+
+	return new Handlebars.SafeString( output );
+};
+
+/**
  * Equal to helper
  *
  * @param {Mixed} a

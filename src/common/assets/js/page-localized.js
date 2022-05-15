@@ -45,7 +45,7 @@
 	 */
 	function getFullLocale() {
 		var uiLang = ( navigator.languages && navigator.languages[ 0 ] ) ||
-		navigator.language || navigator.userLanguage || '';
+			navigator.language || navigator.userLanguage || '';
 		return uiLang.toLowerCase();
 	}
 
@@ -80,7 +80,7 @@
 			txtAttrHant = 'data-hant',
 			titleAttrHans = 'data-title-hans',
 			titleAttrHant = 'data-title-hant',
-			selector = '.jscnconv, #js-link-box-zh';
+			className = 'jscnconv';
 
 		try {
 			isSimp = isSimpChinese( locale );
@@ -88,7 +88,7 @@
 			return;
 		}
 
-		elements = document.querySelectorAll( selector );
+		elements = document.getElementsByClassName( className );
 		for ( i = 0; i < elements.length; i++ ) {
 			elt = elements[ i ];
 			if ( isSimp ) {
@@ -99,6 +99,7 @@
 				if ( elt.hasAttribute( titleAttrHans ) ) {
 					elt.title = elt.getAttribute( titleAttrHans );
 				}
+				elt.lang = 'zh-hans';
 			} else {
 				if ( elt.hasAttribute( txtAttrHant ) ) {
 					elt.textContent = elt.getAttribute( txtAttrHant );
@@ -106,6 +107,7 @@
 				if ( elt.hasAttribute( titleAttrHant ) ) {
 					elt.title = elt.getAttribute( titleAttrHant );
 				}
+				elt.lang = 'zh-hant';
 			}
 
 		}
