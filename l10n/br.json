@@ -33,12 +33,16 @@
 	"wiktionary": {
 		"name": "Wikeriadur",
 		"slogan": "Ar geriadur frank",
-		"entries": "Pennadoù"
+		"entries": "Pennadoù",
+		"search-input-label": "Klask er Wikeriadur",
+		"language-button-text": "Lenn Wikeriadur en ho yezh"
 	},
 	"wikibooks": {
 		"name": "Wikilevrioù",
 		"slogan": "Testennoù pedagogel frank",
-		"entries": "pajennoù"
+		"entries": "pajennoù",
+		"search-input-label": "Klask e Wikilevrioù",
+		"language-button-text": "Lenn Wikilevrioù en ho yezh"
 	},
 	"wikinews": {
 		"name": "Wikikeloù",
@@ -68,7 +72,7 @@
 		"slogan": "Luc'hskeudennoù ha traoù all  c'haller implijout en un doar frank"
 	},
 	"wikispecies": {
-		"name": "Wikispesadoù",
+		"name": "Wikispesad",
 		"slogan": "Roll frank ar spesadoù"
 	},
 	"wikidata": {

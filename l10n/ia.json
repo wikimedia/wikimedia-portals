@@ -18,7 +18,7 @@
 		"slogan": "Le encyclopedia libere",
 		"entries": "articulos",
 		"search-input-label": "Cercar in Wikipedia",
-		"language-button-text": "Lege Wikipedia in tu lingua",
+		"language-button-text": "Leger Wikipedia in tu lingua",
 		"footer-description": "Wikipedia es albergate per le Fundation Wikimedia, un organisation sin scopo lucrative que etiam alberga un varietate de altere projectos.",
 		"app-links": {
 			"title": "Discarga Wikipedia pro Android o iOS",
@@ -30,12 +30,16 @@
 	"wiktionary": {
 		"name": "Wiktionario",
 		"slogan": "Dictionario libere",
-		"entries": "entratas"
+		"entries": "entratas",
+		"search-input-label": "Cercar in Wiktionario",
+		"language-button-text": "Leger Wiktionario in tu lingua"
 	},
 	"wikibooks": {
-		"name": "Wikibooks",
+		"name": "Wikilibros",
 		"slogan": "Manuales a contento libere",
-		"entries": "paginas"
+		"entries": "paginas",
+		"search-input-label": "Cercar in Wikilibros",
+		"language-button-text": "Leger Wikilibros in tu lingua"
 	},
 	"wikinews": {
 		"name": "Wikinovas",
