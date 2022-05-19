@@ -2,36 +2,46 @@
 	"@metadata": {
 		"authors": [
 			"Asadbek Botirqulov",
-			"CoderSI"
+			"CoderSI",
+			"Malikxan"
 		]
 	},
 	"language-name": "Oʻzbekcha / Ўзбекча",
-	"language-name-romanized-sorted": "Ozbekcha",
+	"language-name-romanized": "Oʻzbekcha",
+	"language-name-romanized-sorted": "Oʻzbekcha",
+	"footer-donate": "Ishimizni xayriya qilish orqali qoʻllab-quvvatlashingiz mumkin.",
 	"license": "Ushbu sahifa <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> ostida mavjud",
 	"terms": "Foydalanish shartlari",
 	"privacy-policy": "Maxfiylik siyosati",
 	"search-input-button": "Qidiruv",
+	"other-languages-label": "Boshqa tillar",
 	"wiki": {
 		"name": "Vikipediya",
 		"slogan": "Bepul Ensiklopediya",
-		"entries": "Maqolalar",
-		"search-input-label": "Vikipediyadan izlash",
+		"entries": "ta maqola",
+		"search-input-label": "Vikipediyadan qidirish",
 		"language-button-text": "Vikipediyani oʻz tilingizda oʻqing",
 		"footer-description": "Vikipediya Wikimedia Foundation notijorat tashkiloti tomonidan uyushtirilgan boʻlib, u boshqa bir qator loyihalarga ham mezbonlik qiladi.",
 		"app-links": {
 			"title": "Android yoki IOS uchun Vikipediyani yuklab oling",
-			"description": "Sevimli maqolalaringizni oflayn rejimda oʻqish uchun saqlang, oʻqish roʻyxatlaringizni qurilmalarda sinxronlashtiring va rasmiy Vikipediya ilovasi yordamida oʻqish tajribangizni sozlang."
+			"description": "Sevimli maqolalaringizni oflayn rejimda oʻqish uchun saqlang, oʻqish roʻyxatlaringizni qurilmalarda sinxronlashtiring va rasmiy Vikipediya ilovasi yordamida oʻqish tajribangizni sozlang.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
 		}
 	},
 	"wiktionary": {
 		"name": "Vikilugʻat",
 		"slogan": "Bepul lugʻat",
-		"entries": "yozuvlar"
+		"entries": "yozuvlar",
+		"search-input-label": "Vikilugʻatdan qidirish",
+		"language-button-text": "Vikilugʻatni oʻz tilingizda oʻqing"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Bepul darsliklar",
-		"entries": "sahifalar"
+		"entries": "sahifalar",
+		"search-input-label": "Vikikitobdan qidirish",
+		"language-button-text": "Vikikitobni oʻz tilingizda oʻqing"
 	},
 	"wikinews": {
 		"name": "Vikiyangiliklar",
@@ -65,7 +75,7 @@
 		"slogan": "Bepul turlar katalogi"
 	},
 	"wikidata": {
-		"name": "Wikidata",
+		"name": "Vikimaʼlumotlar",
 		"slogan": "Bepul bilimlar bazasi"
 	},
 	"mediawiki": {
