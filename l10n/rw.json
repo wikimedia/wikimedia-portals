@@ -2,20 +2,87 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Ndahiro derrick"
+			"Ndahiro derrick",
+			"Rodrigue"
 		]
 	},
 	"language-name": "Ikinyarwanda",
 	"footer-donate": "Ushobora gushyikira ibikorwa byacu",
 	"license": "Uru rubuga ruboneka kuri :\n<a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Amategeko agenga imikoreshereze",
+	"privacy-policy": "Politiki y'ibanga",
 	"search-input-button": "Shakira aha",
 	"other-languages-label": "Izindi ndimi",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Inkoranyanzimbunzi y’ubuntu"
+		"slogan": "Inkoranyanzimbunzi y’ubuntu",
+		"entries": "Ingingo",
+		"search-input-label": "Shaka Wikipedia",
+		"language-button-text": "sooma Wikipedia mu rurimi rwawe",
+		"footer-description": "Wikipedia yakiriwe na Wikimedia Foundation, umuryango udaharanira inyungu nawe wakira urutonde rwindi mishinga.",
+		"app-links": {
+			"title": "Shyiramo Wikipedia kuri Android cyangwa iOS",
+			"description": "Bika ingingo ukunda kugirango usome utari kumurongo, uhuze urutonde rwawe rwo gusoma mu bikoresho hamwe no guhindura uburambe bwo gusoma ukoresheje porogaramu ya wikipedia yemewe.",
+			"google-store": "Ububiko bwa google",
+			"apple-store": "Ububiko bwa Apple",
+			"url": "https://en.wikipedia.org/wiki/Urutonde rwa porogaramu zo muri terefone ngendanwa za Wikipedia"
+		}
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Wiktionary",
+		"slogan": "Inkoranyamagambo y'ubuntu",
+		"entries": "Ibyanditswe",
+		"search-input-label": "shaka Wiktionary",
+		"language-button-text": "Soma Wiktionary mu rurimi rwawe"
+	},
+	"wikibooks": {
+		"name": "Wikibitabo",
+		"slogan": "Ibitabo by'ubuntu",
+		"entries": "Impapuro",
+		"search-input-label": "Shaka wikibitabo",
+		"language-button-text": "soma Wikibitabo mururimi rwawe"
+	},
+	"wikinews": {
+		"name": "Wikimakuru",
+		"slogan": "Inkomoko y'amakuru y'ubuntu",
+		"entries": "Inyandiko"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Icyegeranyo cy'amagambo y'umunsi cy'ubuntu",
+		"entries": "Inyandiko"
+	},
+	"wikisource": {
+		"name": "Wikinkomoko",
+		"slogan": "Isomero ry'ubuntu"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Ibikoresho by'amasomo by'ubuntu",
+		"entries": "Ibikoresho byo kwiga"
+	},
+	"wikivoyage": {
+		"name": "Wikingendo",
+		"slogan": "ubuyobozi bw'ingendo bw'ubuntu"
+	},
+	"commons": {
+		"name": "rusange",
+		"slogan": "Amafoto akoreshwa kubuntu & byinshi"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Ububiko bw'ubwoko kubuntu"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Ishingiro ry'ubumenyi ry'ubuntu"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Porogaramu ya wiki ifunguye & y'ubuntu"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "guhuza & kwandika abanyamuryango"
 	}
 }

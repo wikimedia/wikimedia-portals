@@ -33,12 +33,16 @@
 	"wiktionary": {
 		"name": "Wikiszótár",
 		"slogan": "A szabad szótár",
-		"entries": "bejegyzés"
+		"entries": "bejegyzés",
+		"search-input-label": "Keresés a Wikiszótárban",
+		"language-button-text": "Olvasd a Wikiszótárat az anyanyelveden"
 	},
 	"wikibooks": {
 		"name": "Wikikönyvek",
 		"slogan": "Szabad könyvek",
-		"entries": "lap"
+		"entries": "lap",
+		"search-input-label": "Keresés a Wikikönyvekben",
+		"language-button-text": "Olvasd a Wikikönyveket az anyanyelveden"
 	},
 	"wikinews": {
 		"name": "Wikihírek",
