@@ -122,6 +122,10 @@ function createTranslationFiles() {
 	for ( lang in siteStats ) {
 		if ( siteStats[ lang ].sublinks ) {
 			siteStats[ lang ].sublinks.forEach( writeFile );
+		} else if ( lang === 'zh' ) {
+			writeFile( siteStats[ lang ].variants[ 'zh-hans' ], 'zh-hans' );
+			writeFile( siteStats[ lang ].variants[ 'zh-hant' ], 'zh-hant' );
+			writeFile( _.omit( siteStats[ lang ], 'variants' ), lang );
 		} else {
 			writeFile( siteStats[ lang ], lang );
 		}

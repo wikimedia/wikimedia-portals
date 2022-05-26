@@ -203,6 +203,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 				'privacy-policy',
 				'terms-link',
 				'privacy-policy-link',
+				'other-languages-label',
 				'wiki',
 				'wiktionary',
 				'wikibooks',
@@ -233,11 +234,29 @@ Stats.format = function ( portal, list, optionsArg ) {
 			formatted.attrs = siteDef.attrs;
 		}
 
+		/**
+		 * Get a raw list of a variant and formats it.
+		 * @param {string} variant
+		 * @private
+		 * @returns list
+		 */
+		function getVariantList( variant ) {
+			return _.extend(
+				{},
+				siteDefs[ variant ][ portal ],
+				_.pick( siteDefs[ variant ], extendedl10n ),
+				{
+					lang: variant, // Used as HTML lang attribute
+					code: variant, // Used in filename
+				}
+			);
+		}
+
 		if ( top.code === 'zh' ) {
 			// Carry translations for simp and trad Chinese, used later in controller.js
 			formatted.variants = {
-				'zh-hans': _.extend( {}, siteDefs[ 'zh-hans' ][ portal ], siteDefs[ 'zh-hans' ] ),
-				'zh-hant': _.extend( {}, siteDefs[ 'zh-hant' ][ portal ], siteDefs[ 'zh-hant' ] )
+				'zh-hans': getVariantList( 'zh-hans' ),
+				'zh-hant': getVariantList( 'zh-hant' )
 			};
 		}
 
