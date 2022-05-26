@@ -24,6 +24,7 @@
 		"footer-description": "Wikipedia djouman ô ti Wikimedia Foundation i liè, mô ô ti tchèlè sou hata dilè anouanzè koun mô ô lé djouman ouflè vié moun ékoun.",
 		"app-links": {
 			"title": "Fa Android anzè iOS bé Wikipedia fa kô",
+			"description": "Fa ô klounklo sou articles moun fa sié, kôko yé nan a kloua kangan bé noun ékoun sè interneti nounmanlè, niannian liké nga a kangan bé noun ôni ô téléfônou moun, kôkoun siésié ô liké kanganlè ôni Wikipedia i application officielle.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://bci.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
@@ -31,6 +32,59 @@
 	},
 	"wiktionary": {
 		"name": "Wiktionnaire",
-		"slogan": "Tchèlè sou dictionnairi"
+		"slogan": "Tchèlè sou dictionnairi",
+		"entries": "ndè mma wlouwlè moun",
+		"search-input-label": "Kounndè i Wiktionnaire sou",
+		"language-button-text": "Kangan Wiktionnaire ô aniein noun"
+	},
+	"wikibooks": {
+		"name": "Wikifloua moun",
+		"slogan": "Tchèlè sou floua moun",
+		"entries": "floua boué moun",
+		"search-input-label": "Kounndè i Wikifloua moun bé noun",
+		"language-button-text": "Kangan Wikifloua moun ô aniein noun"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Tchèlè sou djôlè i afinwlè",
+		"entries": "articles moun"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Tchèlè sou idjolè moun bé lélélè",
+		"entries": "articles moun"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Tchèlè sou bibliothèqui"
+	},
+	"wikiversity": {
+		"name": "Wikiversité",
+		"slogan": "Tchèlè sou souklou ningué moun",
+		"entries": "liké souanlè ningué moun"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Tchèlè sou lika kôlè atin kléfouè floua"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Tchèlè sou photos ôni liké ouflè vié moun ékoun"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Tchèlè sou sran ni ningué moun bé wafa i dossier"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Tchèlè sou liké silè dossier"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Tchèlè sou ôni klounklo sou wiki application"
+	},
+	"metawiki": {
+		"name": "Méta-Wiki",
+		"slogan": "Nvlé siésiélè ôni i sou floua"
 	}
 }

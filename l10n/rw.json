@@ -16,36 +16,36 @@
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Inkoranyanzimbunzi y’ubuntu",
-		"entries": "Ingingo",
+		"entries": "ingingo",
 		"search-input-label": "Shaka Wikipedia",
-		"language-button-text": "sooma Wikipedia mu rurimi rwawe",
+		"language-button-text": "Sooma Wikipedia mu rurimi rwawe",
 		"footer-description": "Wikipedia yakiriwe na Wikimedia Foundation, umuryango udaharanira inyungu nawe wakira urutonde rwindi mishinga.",
 		"app-links": {
 			"title": "Shyiramo Wikipedia kuri Android cyangwa iOS",
 			"description": "Bika ingingo ukunda kugirango usome utari kumurongo, uhuze urutonde rwawe rwo gusoma mu bikoresho hamwe no guhindura uburambe bwo gusoma ukoresheje porogaramu ya wikipedia yemewe.",
-			"google-store": "Ububiko bwa google",
+			"google-store": "Ububiko bwa Google",
 			"apple-store": "Ububiko bwa Apple",
-			"url": "https://en.wikipedia.org/wiki/Urutonde rwa porogaramu zo muri terefone ngendanwa za Wikipedia"
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Inkoranyamagambo y'ubuntu",
-		"entries": "Ibyanditswe",
-		"search-input-label": "shaka Wiktionary",
+		"entries": "ibyanditswe",
+		"search-input-label": "Shaka Wiktionary",
 		"language-button-text": "Soma Wiktionary mu rurimi rwawe"
 	},
 	"wikibooks": {
 		"name": "Wikibitabo",
 		"slogan": "Ibitabo by'ubuntu",
-		"entries": "Impapuro",
-		"search-input-label": "Shaka wikibitabo",
-		"language-button-text": "soma Wikibitabo mururimi rwawe"
+		"entries": "impapuro",
+		"search-input-label": "Shaka Wikibitabo",
+		"language-button-text": "Soma Wikibitabo mururimi rwawe"
 	},
 	"wikinews": {
 		"name": "Wikimakuru",
 		"slogan": "Inkomoko y'amakuru y'ubuntu",
-		"entries": "Inyandiko"
+		"entries": "inyandiko"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
@@ -59,14 +59,14 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Ibikoresho by'amasomo by'ubuntu",
-		"entries": "Ibikoresho byo kwiga"
+		"entries": "ibikoresho byo kwiga"
 	},
 	"wikivoyage": {
 		"name": "Wikingendo",
-		"slogan": "ubuyobozi bw'ingendo bw'ubuntu"
+		"slogan": "Ubuyobozi bw'ingendo bw'ubuntu"
 	},
 	"commons": {
-		"name": "rusange",
+		"name": "Rusange",
 		"slogan": "Amafoto akoreshwa kubuntu & byinshi"
 	},
 	"wikispecies": {
@@ -83,6 +83,6 @@
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "guhuza & kwandika abanyamuryango"
+		"slogan": "Guhuza & kwandika abanyamuryango"
 	}
 }

@@ -10,6 +10,7 @@
 		]
 	},
 	"language-name": "Svenska",
+	"language-name-romanized-sorted": "Svenska",
 	"footer-donate": "Du kan stödja vårt arbete med ett bidrag.",
 	"license": "Denna sida är tillgänglig under licensen <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Erkännande-DelaLika</a>",
 	"terms": "Användarvillkor",
@@ -36,15 +37,15 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Den fria ordboken",
-		"entries": "stavningar",
-		"search-input-label": "Sök Wiktionary",
+		"entries": "uppslag",
+		"search-input-label": "Sök på Wiktionary",
 		"language-button-text": "Läs Wiktionary på ditt språk"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Fria läroböcker",
 		"entries": "sidor",
-		"search-input-label": "Sök Wikibooks",
+		"search-input-label": "Sök på Wikibooks",
 		"language-button-text": "Läs Wikibooks på ditt språk"
 	},
 	"wikinews": {
@@ -63,12 +64,12 @@
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
-		"slogan": "Fria kursmaterial",
+		"slogan": "Fritt kursmaterial",
 		"entries": "läroresurser"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Den fria reseguiden"
+		"slogan": "Fri reseguide"
 	},
 	"commons": {
 		"name": "Commons",
