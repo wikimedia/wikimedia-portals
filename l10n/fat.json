@@ -2,10 +2,86 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Ebenoffen1",
 			"Theo"
 		]
 	},
 	"language-name": "Mfantse",
 	"footer-donate": "Ibotum dze sika bi aboa hɛn adwumadzi no.",
-	"terms": " Dwumadzi ho mbra"
+	"license": "Dɛm krataafa yi hyɛ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> ase",
+	"terms": " Dwumadzi ho mbra",
+	"privacy-policy": "Nsuma mu ntsease",
+	"search-input-button": "Hwehwɛ",
+	"other-languages-label": "Kasa afofor",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Nyimdzee a ɔwɔ hɔ ma obiara",
+		"entries": "Nkyerɛwsɛm",
+		"search-input-label": "Hwehwɛ adze wɔ Wikipedia do",
+		"language-button-text": "Kenkan wikipedia wɔ wo kasaa mu",
+		"footer-description": "Wikipedia yɛ Wikimedia Foundation dze, kuw a wɔnngye sika a wɔsan wɔ dwumadzi pii a wodzi.",
+		"app-links": {
+			"title": "Twe Wikipedia to fuon do",
+			"description": "Sie wo nkyerɛwsɛm a epɛ ama eetum aakenkan no ber a ennsɔɔ wo deta. Ma w'akenkandze no nyɛ kor wɔ mfir ahorow do na nam wikipedia aapo do sesa w'akenkan suahu dɛ mbrɛ epɛ.",
+			"google-store": "'Google Play Store'",
+			"apple-store": "'Apple App Store'",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Nkyerɛase nwoma a inntua ho hwee",
+		"entries": "nhyɛmu",
+		"search-input-label": "Hwehwɛ Wiktionari",
+		"language-button-text": "Kenkan wikipedia wɔ wo kasaa mu"
+	},
+	"wikibooks": {
+		"name": "wikimbuukuu",
+		"slogan": "Nwoma a inntua ho hwee",
+		"entries": "Nkratafa",
+		"search-input-label": "Hwehwɛ Wikimbuukuu",
+		"language-button-text": "Kenkan Wikimbuukuu wɔ wo kasaa mu"
+	},
+	"wikinews": {
+		"name": "wikikdawurbɔ",
+		"slogan": "Bea a yebenya dawurbɔ a yenntua ho hwee",
+		"entries": "Nkyerɛwsɛm"
+	},
+	"wikiquote": {
+		"name": "wikianomusɛm",
+		"slogan": "Anomusɛm tɔfa tsiaba a inntua ho hwee",
+		"entries": "Nkyerɛwsɛm"
+	},
+	"wikisource": {
+		"name": "Wikisɔɔso",
+		"slogan": "Akenkanbea a inntua ho hwee"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Adzesuadze a yenntua ho ka",
+		"entries": "Adzesuadze"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Akwantu ho akyerɛkyerɛdze a yenntua ho hwee"
+	},
+	"commons": {
+		"name": "Nkasaho",
+		"slogan": "Mfonyin na ndzɛmba a ɔkeka ho a ibotum dze ayɛ biribiara"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "wikidata",
+		"slogan": "Nyimdzeebea a inntua ho hwee"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Wiki aapo a no mu da hɔ a inntua ho hwee"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Borɔno nkabɔmu na ntsintsinsɛm"
+	}
 }

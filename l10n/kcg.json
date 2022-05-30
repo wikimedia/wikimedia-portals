@@ -6,7 +6,7 @@
 		]
 	},
 	"language-name": "Tyap",
-	"footer-donate": "A maai nang ta̱m nzi̱t hu li̱n-a̱ma di̱n vak nwuat za̱nang kurum.",
+	"footer-donate": "A maai a li̱n-a̱ma ta̱m nzi̱t hu di̱n vak nwuat za̱nang kurum.",
 	"license": "Wat huni shyia̠ a̠tafa <a href='https://creativecommons.org/licenses/by-sa/3.0/kcg'>Creative Commons Attribution-ShareAlike</a> hwa",
 	"terms": "A̠yaaka̠nda̠n Nyian Ta̠m",
 	"privacy-policy": "Kwambwat A̱bala̱lang",
@@ -18,7 +18,7 @@
 		"entries": "a̠yaati̠kut",
 		"search-input-label": "Zop Wukipedia",
 		"language-button-text": "Fang Wukipedia da̠ a̠lyem ang ka",
-		"footer-description": "Wukipedia yet kpa̠t Sotbeang Wukimedia hwa, sot nta̠m nang á̠ khwuk di̠ nwai cat kpangti̠n a̱ni ji̱ byia̱ á̠ghyang nta̠m da̱ a̱pyia̱ nji.",
+		"footer-description": "Wukipedia yet kpa̠t Sotbeang Wukimedia hwa, sot nta̠m nang á̠ khwuk di̠ nwai cat kpangti̠n a̱ni ji̱ byia̱ nta̠m jhyang da̱ a̱pyia̱ nji.",
 		"app-links": {
 			"title": "Cyok ma̠ng Wukipedia mat Android ku iOS",
 			"description": "Sak a̠yaati̠kut ba nang a lan-cat a̠ni mat fang di̠ lang nta, tyia̠ pwut di̱n ta̱m lyulyoot fang ang hu mami a̠mgba̠m nkyangta̠m a ba̱ nyia̠ jhyi a̠gwam di̠ fwuong ansham fang ang hu ma̱ng ap. Wukipedia ofisha wu.",
@@ -66,14 +66,14 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Nghwughwu nang á̠ maai nyia̠ ta̠m ma̠ng á̠na ma̱sa̱t ma̠ng nkyang njhyang"
+		"slogan": "Nghwughwu nang á̠ maai á̱ nyia̠ ta̠m ma̠ng á̠na ma̱sa̱t ma̠ng nkyang njhyang"
 	},
 	"wikispecies": {
 		"name": "Susotbishyiwuki",
 		"slogan": "Kwambwat a̠myim susotbishyi ma̱sa̱t"
 	},
 	"wikidata": {
-		"name": "Deitawuki",
+		"name": "Wikidata",
 		"slogan": "Kuntyin lyen ma̱sa̱t"
 	},
 	"mediawiki": {
