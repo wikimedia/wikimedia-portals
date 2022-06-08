@@ -6,16 +6,16 @@
 		]
 	},
 	"language-name": "Tyap",
-	"footer-donate": "A maai a li̱n-a̱ma ta̱m nzi̱t hu di̱n vak nwuat za̱nang kurum.",
-	"license": "Wat huni shyia̠ a̠tafa <a href='https://creativecommons.org/licenses/by-sa/3.0/kcg'>Creative Commons Attribution-ShareAlike</a> hwa",
-	"terms": "A̠yaaka̠nda̠n Nyian Ta̠m",
+	"footer-donate": "A maai a li̱n-a̱ma ta̱m nzi̱t hu di̱n vak za̱nang kurum.",
+	"license": "Wat huni shyia̠ a̠tafa <a href='https://creativecommons.org/licenses/by-sa/3.0/kcg'>Kwambwat A̱ka̱wat A̱di̱dam Kaswuo-ShareAlike si̱ Creative Commons</a> hu hwa",
+	"terms": "A̱yaaka̱nda̱n Nyian Ta̱m",
 	"privacy-policy": "Kwambwat A̱bala̱lang",
 	"search-input-button": "Zop",
 	"other-languages-label": "Lilyem ghyáng",
 	"wiki": {
 		"name": "Wukipedia",
 		"slogan": "A̱gban Lyen Wu Ma̱sa̱t",
-		"entries": "a̠yaati̠kut",
+		"entries": "a̱yaati̱kut",
 		"search-input-label": "Zop Wukipedia",
 		"language-button-text": "Fang Wukipedia da̠ a̠lyem ang ka",
 		"footer-description": "Wukipedia yet kpa̠t Sotbeang Wukimedia hwa, sot nta̠m nang á̠ khwuk di̠ nwai cat kpangti̠n a̱ni ji̱ byia̱ nta̠m jhyang da̱ a̱pyia̱ nji.",
@@ -44,12 +44,12 @@
 	"wikinews": {
 		"name": "Nkhangwuki",
 		"slogan": "A̱tyin nkhang ma̱sa̱t",
-		"entries": "a̠yaati̠kut"
+		"entries": "a̱yaati̱kut"
 	},
 	"wikiquote": {
 		"name": "Tyanwuki",
 		"slogan": "Kompendyom tyan ma̱sa̱t",
-		"entries": "a̠yaati̠kut"
+		"entries": "a̱yaati̱kut"
 	},
 	"wikisource": {
 		"name": "A̱tyinwuki",
@@ -62,7 +62,7 @@
 	},
 	"wikivoyage": {
 		"name": "A̱cyetwuki",
-		"slogan": "A̱kwak a̠son a̠cyet ma̱sa̱t"
+		"slogan": "A̱kwak a̱son a̱cyet ma̱sa̱t"
 	},
 	"commons": {
 		"name": "Commons",
@@ -78,10 +78,10 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "A̠sa̠t & a̠gang api̠likeshyon wuki"
+		"slogan": "A̱sa̱t & a̱gang api̱likeshyon wuki"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Tung á̠niet ndung & saailyuut"
+		"slogan": "Tung á̱niet sot ndung & saailyuut"
 	}
 }
