@@ -1,10 +1,87 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ezagren"
+		]
 	},
 	"language-name": "Bahasa Banjar",
 	"language-name-romanized-sorted": "Banjar, Bahasa",
+	"footer-donate": "Pian kawa mandukung kami lawan sabuting sumbangan.",
+	"license": "Laman ngini tasadia dalam <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Katantuan Pamakaian",
+	"privacy-policy": "Kabijakan Privasi",
+	"search-input-button": "Gagai",
+	"other-languages-label": "Basa lainnya",
 	"wiki": {
-		"name": "Wikipidia"
+		"name": "Wikipidia",
+		"slogan": "Insiklupidia Bibas",
+		"entries": "artikal",
+		"search-input-label": "Kikihi Wikipidia",
+		"language-button-text": "Baca Wikipidia dalam basa Pian",
+		"footer-description": "Wikipidia dijalanakan ulih Wikimedia Foundation, sabuting urganisasi nirlaba nang jua manjalanakan babagai rangka gawian lainnya.",
+		"app-links": {
+			"title": "Unduh Wikipidia gasan Android atawa iOS",
+			"description": "Simpan artikal nang Pian katuju gasan mambacanya sacara luring, sinkronakan daptar bacaan Pian di babagai gawai wan ubah suaiakan pangalaman mambaca Pian lawan aplikasi Wikipidia rasmi.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Kamus bibas",
+		"entries": "éntri",
+		"search-input-label": "Kikihi Wiktionary",
+		"language-button-text": "Baca Wiktionary dalam basa Pian"
+	},
+	"wikibooks": {
+		"name": "Wikibuku",
+		"slogan": "Buku bibas",
+		"entries": "buku",
+		"search-input-label": "Kikihi Wikibooks",
+		"language-button-text": "Baca Wikibuku dalam basa Pian"
+	},
+	"wikinews": {
+		"name": "Wikihabar",
+		"slogan": "Bahan acuan habar bibas",
+		"entries": "artikal"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Koléksi kutipan bibas",
+		"entries": "artikal"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Parpustakaan bibas"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Bahan ajar bibas",
+		"entries": "bahan acuan daya pambalajaran"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Situs parjalanan bibas"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Foto & lainnya nang kawa dipakai sacara bibas"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Patunjuk spésiés bibas"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Basis pangatahuan bibas"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Aplikasi wiki bibas & tabuka"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Koordinasi komunitas & dokuméntasi"
 	}
 }

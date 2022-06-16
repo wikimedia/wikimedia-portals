@@ -1,10 +1,87 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Tumbuka Arch"
+		]
 	},
 	"language-name": "chiTumbuka",
 	"language-name-romanized-sorted": "Tumbuka, chi",
+	"footer-donate": "Mungativwila kwizila mwakupeleka chawanangwa.",
+	"license": "Peji ili likusangika pa ndondomeko ya <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Kagwiliskilo",
+	"privacy-policy": "Fundo zachisisi",
+	"search-input-button": "Fufuza",
+	"other-languages-label": "Viyowoyelo vinyake",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Encyclopedia Yaulere",
+		"entries": "nkhani",
+		"search-input-label": "Fufuzani Wikipediya",
+		"language-button-text": "Ẇelengani Wikipediya m'chiyowoyelo chinu",
+		"footer-description": "Wikipediya ikuwoneleleka na Wikimediya Foundation,bungwe lambula kupanga phindu,iloso likupanga vinthu vinyake.",
+		"app-links": {
+			"title": "Tolani Wikipediya ya Android or iOS",
+			"description": "Sungani pawemi nkhani izo mwatemwa kuti muŵelenge mwenekale kwambula intaneti,pa vinthu vakupambana pambana, panji pangani vyose kwizila pa Wikimedia app.",
+			"google-store": "Nkhokwe ya Google",
+			"apple-store": "Nkhokwe ya Apple",
+			"url": "https://tum.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Dikichonale yaulele",
+		"entries": "vakulemba",
+		"search-input-label": "Fufuzani Wiktionary",
+		"language-button-text": "Ẇelengani Wiktionary m'chiyowoyelo chinu"
+	},
+	"wikibooks": {
+		"name": "Wikimabuku",
+		"slogan": "Mabuku ghaulele",
+		"entries": "majani",
+		"search-input-label": "Fufuza mu Wikibooks",
+		"language-button-text": "Ẇelengani Wikibooks m'chiyowoyelo chinu"
+	},
+	"wikinews": {
+		"name": "Wikinkhani",
+		"slogan": "Chiziŵa cha nkhani chaulele",
+		"entries": "nkhani"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Mazgo ghakumasulila ghaulele",
+		"entries": "nkhani"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Laibulale yaulele"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Vilwelo va masambilo vaulele",
+		"entries": "vakusambilila"
+	},
+	"wikivoyage": {
+		"name": "Wikiyaulendo",
+		"slogan": "Buku lakulongozga  nthowa laulele"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Vinthuzi vaulele vakugwiliskila ntchito an vinyake"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Mndandanda wa mitundu yaulele"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Chimanyisko chaulele"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Applicatio yaulele ya waliyose"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Kukolelanako pakati pa ŵanthu na volemba"
 	}
 }
