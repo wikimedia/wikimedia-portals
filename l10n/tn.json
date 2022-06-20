@@ -1,12 +1,26 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Rebelagent"
+		]
 	},
 	"language-name": "Setswana",
+	"footer-donate": "O ka ema nokeng tiro ya rona ka moneelo.",
+	"license": "Tsebe ye e teng ko tase ga <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"search-input-button": "Batla",
+	"other-languages-label": "Diteme tse dingwe",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Encyclopedia ya mahala",
+		"entries": "Dipego",
+		"search-input-label": "Batla mo Wikipedia",
+		"language-button-text": "Bala Wikipedia mo temeng ya gago"
 	},
 	"wiktionary": {
 		"name": "Wiktionary"
+	},
+	"wikibooks": {
+		"slogan": "Dibuka tsa mekwalo tsa mahala",
+		"entries": "Ditsebe"
 	}
 }

@@ -13,13 +13,13 @@
 	},
 	"language-name": "Lìgure",
 	"language-name-romanized-sorted": "Ligure",
-	"footer-donate": "Ti ti pêu suportâ o nòstro travàggio co-ina donaçión.",
-	"license": "Quésta pàgina a l'é disponìbile sótt'a-a licénsa <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atribuçión-Condivìddi a-o mæximo mòddo</a>",
-	"terms": "Condiçioîn d'Ûzo",
+	"footer-donate": "Ti ti peu suportâ o nòstro travàggio co-ina donaçión.",
+	"license": "Quésta pàgina a l'é disponìbile sott'a-a licénsa <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atribuçión-Condivìddi a-o mæximo mòddo</a>",
+	"terms": "Condiçioìn d'Ûzo",
 	"privacy-policy": "Polìtica in scî dæti privæ",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/lij",
-	"search-input-button": "Çèrchia",
-	"other-languages-label": "In âtre léngoe",
+	"search-input-button": "Çèrca",
+	"other-languages-label": "Âtre léngoe",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "A lìbera enciclopedîa",
@@ -32,18 +32,22 @@
 			"description": "Sàrva e tò pàgine preferîe da lêze offline, sincronîza a tò lìsta de letûa in sce tùtti i dispoxitîvi e personalizâ a tò espertîxe de letûa con l'aplicaçión ofiçiâ de Wikipedia.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
-			"url": "https://lij.wikipedia.org/wiki/Lìsta_de_aplicaçioîn_mobile_de_Wikipedia"
+			"url": "https://lij.wikipedia.org/wiki/Lìsta_de_aplicaçioìn_mòbile_de_Wikipedia"
 		}
 	},
 	"wiktionary": {
 		"name": "Wikiçionâio",
 		"slogan": "O diçionâio lìbero",
-		"entries": "lémmi"
+		"entries": "lémmi",
+		"search-input-label": "Çèrca into Wikiçionâio",
+		"language-button-text": "Lêzi Wikiçionâio inta tò léngoa"
 	},
 	"wikibooks": {
 		"name": "Wikilìbbri",
 		"slogan": "Manoâli e lìbbri de tèsto lìberi",
-		"entries": "pàgine"
+		"entries": "pàgine",
+		"search-input-label": "Çèrca inte Wikilìbbri",
+		"language-button-text": "Lêzi Wikilìbbri inta tò léngoa"
 	},
 	"wikinews": {
 		"name": "Wikinêuve",
@@ -52,7 +56,7 @@
 	},
 	"wikiquote": {
 		"name": "Wikiçitaçión",
-		"slogan": "Lìbero conpéndio de çitaçioîn",
+		"slogan": "Lìbero conpéndio de çitaçioìn",
 		"entries": "vôxe"
 	},
 	"wikisource": {
@@ -62,7 +66,7 @@
 	"wikiversity": {
 		"name": "Wikiverscitæ",
 		"slogan": "L'universcitæ lìbera",
-		"entries": "leçioîn"
+		"entries": "leçioìn"
 	},
 	"wikivoyage": {
 		"name": "Wikiviâgi",
