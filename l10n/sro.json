@@ -1,8 +1,60 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"F Samaritani"
 		]
 	},
-	"language-name": "Sardu campidanesu"
+	"language-name": "Sardu campidanesu",
+	"privacy-policy": "Normas po s'arriservadesa",
+	"search-input-button": "Circa",
+	"other-languages-label": "Atras lìnguas",
+	"wiki": {
+		"name": "Wikipèdia",
+		"entries": "Boxis",
+		"search-input-label": "Circa in Wikipedia",
+		"language-button-text": "Circa in Wikipedia in prus lìnguas",
+		"app-links": {
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"entries": "Pàginas"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"entries": "Boxis"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"entries": "Boxis"
+	},
+	"wikisource": {
+		"name": "Wikisource"
+	},
+	"wikiversity": {
+		"name": "Wikiversity"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
+	}
 }
