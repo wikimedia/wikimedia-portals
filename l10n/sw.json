@@ -1,14 +1,75 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Hussein m mmbaga"
+		]
 	},
 	"language-name": "Kiswahili",
 	"language-name-romanized-sorted": "Swahili, Ki",
+	"footer-donate": "Unaweza kusaidia kazi yetu na mchango wako.",
+	"license": "Ukurasa huu unapatikana chini ya <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Sheria na Masharti",
+	"privacy-policy": "Sera ya faragha",
+	"search-input-button": "Tafuta",
+	"other-languages-label": "Lugha nyingine",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Kamusi elezo ya maandishi huru"
+		"slogan": "Kamusi elezo ya maandishi huru",
+		"entries": "makala",
+		"search-input-label": "Tafuta Wikipedia",
+		"language-button-text": "Soma Wikipedia kwa lugha yako",
+		"footer-description": "Wikipedia inasimamiwa na Wikimedia Foundation, shirika lisilo la faida ambalo pia lina simamia miradi mingine mbalimbali",
+		"app-links": {
+			"title": "Pakua Wikipedia katika kifaa cha Android au iOS",
+			"description": "Hifadhi makala unayopenda ili kuisoma hata ukiwa umezima mtandao(data), unganisha orodha zako za kusoma kwenye vifaa vyote na ubadilishe uzoefu wako wa kusoma na programu rasmi ya Wikipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Wiktionary",
+		"slogan": "Kamusi huru",
+		"search-input-label": "Tafuta Wiktionary",
+		"language-button-text": "Soma Wiktionary kwa lugha yako"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Vitabu vya kiada vya bure",
+		"entries": "Kurasa",
+		"search-input-label": "Tafuta Wikibooks",
+		"language-button-text": "Soma Wikibooks katika lugha yako"
+	},
+	"wikinews": {
+		"name": "Wikihabari",
+		"slogan": "Chanzo cha habari huru",
+		"entries": "Makala"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Sehemu yenye nukuu bila malipo",
+		"entries": "Makala"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Maktaba ya bure"
+	},
+	"wikiversity": {
+		"name": "Wikiversity"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }
