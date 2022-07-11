@@ -1,0 +1,27 @@
+/* ::: Base ::: */
+@import 'wikimedia-ui-base/wikimedia-ui-base.css';
+@import '../../../common/assets/postcss/_vars.css';
+@import '../../../common/assets/postcss/_base.css';
+@import '../../../common/assets/postcss/_base-portal.css';
+@import '../../../common/assets/postcss/_buttons.css';
+@import '../../../common/assets/postcss/_forms.css';
+
+/* ::: Sections ::: */
+@import '../../../common/assets/postcss/_central-textlogo.css';
+@import '../../../common/assets/postcss/_central-featured.css';
+@import '../../../common/assets/postcss/_search.css';
+@import '../../../common/assets/postcss/_search-suggestions.css';
+@import '../../../common/assets/postcss/_search-language-picker.css';
+@import '../../../common/assets/postcss/_other-projects.css';
+@import '../../../common/assets/postcss/_other-languages.css';
+@import '../../../common/assets/postcss/_other-languages-bookshelf.css';
+@import '../../../common/assets/postcss/_app-badge.css';
+@import '../../../common/assets/postcss/_footer.css';
+
+/* ::: Special ::: */
+@import '../../../common/assets/postcss/_wm-portal.css';
+@import '../../../common/assets/postcss/_localization.css';
+@import '../../../common/assets/postcss/_media-print.css';
+
+/* ::: custom css for wikibooks portal ::: */
+@import './_wikibooks-custom.css';

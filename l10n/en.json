@@ -47,7 +47,9 @@
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Free quote compendium",
-		"entries": "articles"
+		"entries": "articles",
+		"search-input-label": "Search Wikiquote",
+		"language-button-text": "Read Wikiquote in your language"
 	},
 	"wikisource": {
 		"name": "Wikisource",
