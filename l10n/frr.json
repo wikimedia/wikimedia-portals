@@ -31,12 +31,16 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Frei wurdenbuk",
-		"entries": "Iindracher"
+		"entries": "Iindracher",
+		"search-input-label": "Sjük uun Wiktionary",
+		"language-button-text": "Wiktionary uun din spriak lees"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Frei bibleteek",
-		"entries": "Sidjen"
+		"entries": "Sidjen",
+		"search-input-label": "Sjük uun Wikibooks",
+		"language-button-text": "Wikibooks uun din spriak lees"
 	},
 	"wikinews": {
 		"name": "Wikinews",

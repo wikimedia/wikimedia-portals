@@ -5,11 +5,83 @@
 			"Teitei Para"
 		]
 	},
-	"language-name": "Mara",
+	"language-name": "Mongyuh",
+	"footer-donate": "Eima raihria he sôhtyuna ta miah nâ châhkhei thei.",
+	"license": "He hmia he <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> ry lia a y.",
+	"terms": "Hmâna rudâh",
+	"privacy-policy": "Thlahlôhna Pawlisi",
+	"search-input-button": "Tlua",
+	"other-languages-label": "Reihchâ hropazy",
 	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Biebu saipa",
+		"entries": "châpawzy",
+		"search-input-label": "Wikipedia tlua",
+		"language-button-text": "Wikipedia he nâma reihchâ lâta reih teh",
+		"footer-description": "Wikipedia he parawche hropazy patheipa athôhna mo leipa phupy sâkha a châpa Wikimedia foundation tawh pathleipa a châ.",
 		"app-links": {
+			"title": "Android cvk iOS châta Wikipedia he adao teh",
+			"description": "Wikipedia official application ta na khohpa châpawzy kha offline pachô la, châ na reipa lizy kha chhaichhi hropazy nah patla la, châ na reipa lia na pahnonazy kha na khodâh ta tao teh.",
 			"google-store": "Google Play Store",
-			"apple-store": "Apple App Store"
+			"apple-store": "Apple App Store",
+			"url": "https://mrh.wikipedia.org/wiki/Wikipedia_mobile_application_lizy"
 		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Disinari saipa",
+		"entries": "chhikaozy",
+		"search-input-label": "Wiktionary lia tlua teh",
+		"language-button-text": "Nâma reihchâ lâta Wiktionary reih teh"
+	},
+	"wikibooks": {
+		"name": "Wikichâbuzy",
+		"slogan": "Châbu saipazy",
+		"entries": "Hmiazy",
+		"search-input-label": "Wikichâbuzy lia tlua teh",
+		"language-button-text": "Wikichâbuzy he nâma reihchâ lâta reih teh"
+	},
+	"wikinews": {
+		"name": "Wikithâtih",
+		"slogan": "Thâtih hnawh saipa",
+		"entries": "châpawzy"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Bie reipachhuah saipa pahmaohpa",
+		"entries": "châpawzy"
+	},
+	"wikisource": {
+		"name": "Wikihnawh",
+		"slogan": "Châreino o saipa"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Châchu awpa saipazy",
+		"entries": "Hnawhzy achuna"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Khitly chhihthana saipa"
+	},
+	"commons": {
+		"name": "Zawhlyzy",
+		"slogan": "Asaipa ta hmâtheipa hmâthlâzy & ahrozy"
+	},
+	"wikispecies": {
+		"name": "Wikichizy",
+		"slogan": "Chizy chhihthana saipa"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Pahnokawhna saipa abôna"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Asaipa & pahypa wiki application"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Moto hriaparaohna & châhnarahvozy"
 	}
 }

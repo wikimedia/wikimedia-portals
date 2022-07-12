@@ -60,16 +60,24 @@
 	"wikivoyage": {
 		"name": "Wikivoyage"
 	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Picha zinazotumiwa kwa uhuru bila malipo  na zaidi"
+	},
 	"wikispecies": {
-		"name": "Wikispecies"
+		"name": "Wikispecies",
+		"slogan": "Mpangilio wa orodha za spishi bila malipo"
 	},
 	"wikidata": {
-		"name": "Wikidata"
+		"name": "Wikidata",
+		"slogan": "Msingi wa maarifa huru"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Programu ya bure na ya wazi ya wiki"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Uratibu wa jamii na uwekaji kumbukumbu pamoja na nyaraka"
 	}
 }
