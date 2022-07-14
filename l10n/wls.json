@@ -2,82 +2,88 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Lea.Fakauvea"
+			"Lea.Fakauvea",
+			"Lea.fakauvea"
 		]
 	},
 	"language-name": "Fakaʻuvea",
 	"language-name-romanized-sorted": "Faka'uvea",
 	"footer-donate": "E lava hau tokoni falā mai ki te gaue.",
-	"license": "Ko te pāsina aeni e foaki atu i te\n<a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"license": "Ko te pāsina aeni e foaki atu i te\n<a href='https://creativecommons.org/licenses/by-sa/3.0/(wls)'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Lēkula faka'aoga",
 	"privacy-policy": "Lēkula puipui",
 	"search-input-button": "Kumi",
-	"other-languages-label": "Lea kehekehe",
+	"other-languages-label": "Lea kehe",
 	"wiki": {
-		"name": "Wikipedia",
-		"slogan": "Te Tohi Fakailo Tau'ateaina",
-		"entries": "Fakamatala",
-		"search-input-label": "Kumi i te Wikipedia",
-		"language-button-text": "Lau te Wikipedia i tau lea",
-		"footer-description": "E fakaha'ele te Wikipedia e te kautahi o te Wikimedia Foundation.",
+		"name": "Vikipetia",
+		"slogan": "Te fakamahino 'āteaina",
+		"entries": "fakamatala",
+		"search-input-label": "Kumi i te Vikipetia",
+		"language-button-text": "Lau te Vikipetia i tau lea",
+		"footer-description": "E fakaha'ele te Vikipetia e te kautahi o te Vikimetia.",
 		"app-links": {
-			"title": "Faka'aoga'i te Wikipedia i te Android pe iOS",
-			"description": "Taupau te 'u pāsina e ke fia lau pea fakatatau tona faka'aoga aki te app Wikipedia.",
+			"title": "Faka'aoga'i te Vikipetia i te Android pe iOS",
+			"description": "Taupau te 'u pāsina e ke fia lau pea fakatatau tona faka'aoga aki te māsini Vikipetia.",
 			"google-store": "Fale koloa Google Play",
-			"apple-store": "Fale koloa Apple App"
+			"apple-store": "Fale koloa Apple App",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
-		"name": "Wikitionary",
+		"name": "Vikisionalio",
 		"slogan": "Tohi kupu tau'ateaina",
-		"entries": "Kupu"
+		"entries": "Kupu",
+		"search-input-label": "Kumi i te Vikisionalio",
+		"language-button-text": "Lau te Vikisionalio i tau lea"
 	},
 	"wikibooks": {
-		"name": "Wikibooks",
-		"slogan": "Tohi tau'ateaina",
-		"entries": "pāsina"
+		"name": "Vikitohi",
+		"slogan": "Tohi 'ateaina",
+		"entries": "pāsina",
+		"search-input-label": "Kumi i te Vikitohi",
+		"language-button-text": "Lau te Vikitohi i tau lea"
 	},
 	"wikinews": {
-		"name": "Wikinews",
-		"slogan": "Talalogo tau'ateaina",
+		"name": "Vikilogo",
+		"slogan": "Talalogo 'ateaina",
 		"entries": "fakamatala"
 	},
 	"wikiquote": {
-		"name": "Wikiquote",
-		"slogan": "Taupau lea tau'ateaina",
+		"name": "Vikitala",
+		"slogan": "Taupau lea ateaina",
 		"entries": "fakamatala"
 	},
 	"wikisource": {
-		"name": "Wikisource",
-		"slogan": "Faletohi tau'ateaina"
+		"name": "Vikimatapuna",
+		"slogan": "Faletohi 'ateaina"
 	},
 	"wikiversity": {
-		"name": "Wikiversity",
-		"slogan": "Tohi 'ako tau'ateaina",
+		"name": "Vikima'oluga",
+		"slogan": "Tohi 'ako 'ateaina",
 		"entries": "Matapuna 'ako"
 	},
 	"wikivoyage": {
-		"name": "Wikivoyage",
-		"slogan": "Tohi fai folau tau'ateaina"
+		"name": "Vikifolau",
+		"slogan": "Tohi fai folau 'ateaina"
 	},
 	"commons": {
 		"name": "Fakatahi",
 		"slogan": "Pāki faka'aoga'i noa"
 	},
 	"wikispecies": {
-		"name": "Wikispecies",
-		"slogan": "Tohi va'ega manu tau'ateaina"
+		"name": "Vikifa'ahiga",
+		"slogan": "Tohi fa'ahiga manu ateaina"
 	},
 	"wikidata": {
-		"name": "Wikidata",
-		"slogan": "Tohi poto tau'ateaina"
+		"name": "Vikipoto",
+		"slogan": "Viki poto ateaina"
 	},
 	"mediawiki": {
-		"name": "MediaWiki",
-		"slogan": "Gaue wiki tau'ateaina"
+		"name": "Metiaviki",
+		"slogan": "Gaue viki 'ateaina"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki",
+		"name": "Meta-Viki",
 		"slogan": "Gaue fakatahi"
 	}
 }

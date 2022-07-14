@@ -17,11 +17,13 @@
 	},
 	"wiktionary": {
 		"name": "Wikisääʹnnǩeʹrjj",
-		"slogan": "Luõvâs sääʹnnǩeʹrjj"
+		"slogan": "Luõvâs sääʹnnǩeʹrjj",
+		"search-input-label": "Ooʒʒ Wikisääʹnnǩeeʹrjest"
 	},
 	"wikibooks": {
 		"name": "Wikiǩeeʹrj",
-		"entries": "seeid"
+		"entries": "seeid",
+		"search-input-label": "Ooʒʒ Wikiǩiiʹrjin"
 	},
 	"wikinews": {
 		"name": "Wikiođđâz"
