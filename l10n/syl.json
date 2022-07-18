@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"এম আবু সাঈদ"
+			"Amire80",
+			"এম আবু সাঈদ",
+			"ꠢꠣꠍꠘ ꠞꠣꠎꠣ"
 		]
 	},
+	"language-name": "ꠍꠤꠟꠐꠤ",
+	"language-name-romanized": "Silôṭi",
+	"language-name-romanized-sorted": "Siloti",
+	"footer-donate": "ꠖꠣꠘ ꠈꠞꠤꠀ ꠀꠚꠘꠦ ꠀꠝꠞꠣꠞ ꠈꠣꠝꠧ ꠡꠣꠖ ꠖꠤꠔꠣ ꠚꠣꠞꠂꠘ",
 	"license": "ꠁ ꠚꠣꠔꠣ ꠁꠉꠥ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>ꠇ꠆ꠞꠤꠄꠐꠤꠜ ꠇꠝꠘ꠆ꠍ ꠄꠐ꠆ꠞꠤꠛꠤꠃꠡꠘ-ꠡꠦꠀꠞꠄꠟꠣꠁꠇ ꠟꠣꠁꠍꠦꠘ꠆ꠍ</a> ꠅꠞ ꠀꠅꠔꠣꠄ ꠞꠁꠍꠦ",
 	"terms": "ꠛꠦꠛꠀꠞꠞ ꠡꠞ꠆ꠔ",
 	"privacy-policy": "ꠘꠤꠞꠣꠚꠁꠔ꠆ꠔꠣ ꠘꠤꠔꠤ",
@@ -18,19 +24,25 @@
 		"footer-description": "ꠃꠁꠇꠤꠙꠤꠒꠤꠀꠞꠦ ꠃꠁꠇꠤꠝꠤꠒꠤꠀ ꠚꠣꠃꠘ꠆ꠒꠦꠡꠘꠦ ꠍꠣꠟꠣꠄ, ꠎꠦꠉꠥ ꠄꠈꠐꠣ ꠀꠘꠣ-ꠚꠄꠡꠣꠞ ꠡꠋꠉꠑꠘ, ꠎꠦꠈꠐꠣꠄ ꠁꠎꠣꠔꠤ ꠀꠞꠅ ꠙ꠆ꠞꠎꠦꠇ꠆ꠐ ꠅꠈꠟ ꠍꠣꠟꠣꠄ",
 		"app-links": {
 			"title": "ꠄꠘ꠆ꠒ꠆ꠞꠄꠒ ꠘꠣꠄ ꠀꠁꠅꠄꠍ'ꠞ ꠟꠣꠉꠤ ꠃꠁꠇꠤꠙꠤꠒꠤꠀ ꠒꠣꠃꠘꠟꠃꠒ ꠇꠞꠇꠣ",
+			"description": "ꠎꠝꠣꠁꠀ ꠕꠂꠇ꠆ꠇꠣ ꠘꠦꠐꠧꠞ ꠛꠣꠁꠞꠣ ꠄꠙ꠆ꠙꠖꠤ ꠙꠠꠣꠞ ꠟꠣꠉꠤ",
 			"google-store": "ꠉꠥꠉꠟ ꠙ꠆ꠟꠦ ꠁꠍ꠆ꠐꠞ",
-			"apple-store": "ꠄꠙꠟ ꠙ꠆ꠟꠦ ꠁꠍ꠆ꠐꠞ"
+			"apple-store": "ꠄꠙꠟ ꠙ꠆ꠟꠦ ꠁꠍ꠆ꠐꠞ",
+			"url": "https://syl.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "ꠃꠁꠇꠤꠡꠘꠣꠞꠤ",
 		"slogan": "ꠚ꠆ꠞꠤ ꠡꠛ꠆ꠖꠇꠥꠐꠣ",
-		"entries": "ꠢꠣꠞꠣꠘꠤ ꠚꠣꠔꠣ"
+		"entries": "ꠢꠣꠞꠣꠘꠤ ꠚꠣꠔꠣ",
+		"search-input-label": "ꠃꠁꠇꠤꠃꠉꠣꠞ ꠕꠥꠇꠣꠃꠇ꠆ꠇꠣ",
+		"language-button-text": "ꠀꠙꠘꠣꠞ ꠝꠣꠔꠇꠕꠣꠄ ꠃꠁꠇꠤꠃꠉꠣꠞ ꠙꠠꠇ꠆ꠇꠣ"
 	},
 	"wikibooks": {
 		"name": "ꠃꠁꠇꠤꠛꠁ",
 		"slogan": "ꠚ꠆ꠞꠤ ꠚꠠꠣꠞꠛꠁ",
-		"entries": "ꠚꠣꠔꠣꠁꠘ"
+		"entries": "ꠚꠣꠔꠣꠁꠘ",
+		"search-input-label": "ꠃꠁꠇꠤꠛꠁ ꠕꠥꠇꠣꠃꠇ꠆ꠇꠣ",
+		"language-button-text": "ꠀꠙꠘꠣꠞ ꠝꠣꠔꠇꠕꠣꠄ ꠃꠁꠇꠤꠛꠁ ꠙꠠꠂꠇ꠆ꠇꠣ"
 	},
 	"wikinews": {
 		"name": "ꠃꠁꠇꠤꠘꠤꠃꠎ",
@@ -39,6 +51,7 @@
 	},
 	"wikiquote": {
 		"name": "ꠃꠁꠇꠤꠇꠤꠅꠐ",
+		"slogan": "ꠝꠣꠉꠘꠣ ꠒꠣꠇꠞ ꠇꠝ꠆ꠙꠦꠘ꠆ꠒꠤꠀꠝ",
 		"entries": "ꠘꠤꠛꠘ꠆ꠗ"
 	},
 	"wikisource": {
@@ -63,13 +76,15 @@
 		"slogan": "ꠎꠣꠔꠤ ꠅꠈꠟꠞ ꠚ꠆ꠞꠤ ꠜꠣꠘ꠆ꠒꠣꠞ"
 	},
 	"wikidata": {
-		"name": "ꠃꠁꠇꠤꠒꠣꠐꠣ"
+		"name": "ꠃꠁꠇꠤꠒꠣꠐꠣ",
+		"slogan": "ꠝꠣꠉꠘꠣ ꠉꠤꠀꠘꠧꠞ ꠃꠉꠣꠞ"
 	},
 	"mediawiki": {
 		"name": "ꠝꠤꠒꠤꠀꠃꠁꠇꠤ",
 		"slogan": "ꠚ꠆ꠙꠤ ꠀꠞ ꠇꠥꠟꠣ ꠃꠁꠇꠤ ꠄꠙꠟꠤꠇꠦꠡꠘ"
 	},
 	"metawiki": {
-		"name": "ꠝꠦꠐꠣ-ꠃꠁꠇꠤ"
+		"name": "ꠝꠦꠐꠣ-ꠃꠁꠇꠤ",
+		"slogan": "ꠙꠣꠘ꠆ꠌꠣꠁꠔꠤ ꠝꠤꠟꠝꠣꠟ ꠀꠞ ꠔꠁꠔ꠆ꠔ ꠟꠦꠇꠤꠀꠞꠣꠈꠣ"
 	}
 }

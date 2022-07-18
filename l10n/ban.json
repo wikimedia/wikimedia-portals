@@ -35,12 +35,16 @@
 	"wiktionary": {
 		"name": "Wikikruna",
 		"slogan": "Kamus Bébas",
-		"entries": "éntri"
+		"entries": "éntri",
+		"search-input-label": "Rereh Wikikruna",
+		"language-button-text": "Wacén Wikikruna ring basa ida dané"
 	},
 	"wikibooks": {
 		"name": "Wikibuku",
 		"slogan": "Pustaka bébas",
-		"entries": "kaca"
+		"entries": "kaca",
+		"search-input-label": "Rereh Wikibuku",
+		"language-button-text": "Wacén Wikibuku ring basa ida dané"
 	},
 	"wikinews": {
 		"name": "Wikiorti",
