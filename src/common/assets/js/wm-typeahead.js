@@ -225,9 +225,9 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 		if ( startHighlightIndex >= 0 ) {
 
 			endHighlightIndex = startHighlightIndex + sanitizedSearchString.length;
-			strong = title.substring( startHighlightIndex, endHighlightIndex );
-			beforeHighlight = title.substring( 0, startHighlightIndex );
-			aferHighlight = title.substring( endHighlightIndex, title.length );
+			strong = title.slice( startHighlightIndex, endHighlightIndex );
+			beforeHighlight = title.slice( 0, Math.max( 0, startHighlightIndex ) );
+			aferHighlight = title.slice( endHighlightIndex, title.length );
 			formattedTitle = beforeHighlight + mw.html.element( 'em', { class: 'suggestion-highlight' }, strong ) + aferHighlight;
 		}
 

@@ -3,8 +3,7 @@ var gulp = require( 'gulp' ),
 	plugins = gulpLoadPlugins(),
 	postCSSNext = require( 'postcss-cssnext' ),
 	postCSSImport = require( 'postcss-import' ),
-	postCSSReporter = require( 'postcss-reporter' ),
-	gulpStylelint = require( 'gulp-stylelint' );
+	postCSSReporter = require( 'postcss-reporter' );
 
 const { requirePortalParam, getBaseDir } = require( './config' );
 
@@ -35,17 +34,5 @@ function validatePostCSS() {
 		) );
 }
 
-function lintCSS() {
-
-	return gulp
-		.src( 'src/**/postcss/*.css' )
-		.pipe( gulpStylelint( {
-			reporters: [
-				{ formatter: 'string', console: true }
-			]
-		} ) );
-}
-
 exports.postCSS = postCSS;
 exports.validatePostCSS = validatePostCSS;
-exports.lintCSS = lintCSS;
