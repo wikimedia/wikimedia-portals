@@ -100,10 +100,10 @@ gulp.task( 'default', gulp.series(
 	'postcss',
 	inlineAssets,
 	cleanProdJS,
-	concatMinifyJS,
 	minifyHTML,
 	copyImages,
 	copyTranslationFiles,
 	createProdSymlink,
+	concatMinifyJS,
 	updateURLsToPurge
 ) );
