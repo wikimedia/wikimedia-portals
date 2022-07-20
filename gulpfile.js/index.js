@@ -103,7 +103,7 @@ gulp.task( 'default', gulp.series(
 	minifyHTML,
 	copyImages,
 	copyTranslationFiles,
-	createProdSymlink,
 	concatMinifyJS,
+	createProdSymlink,
 	updateURLsToPurge
 ) );
