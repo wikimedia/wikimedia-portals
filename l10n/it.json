@@ -57,7 +57,9 @@
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Aforismi e citazioni",
-		"entries": "voci"
+		"entries": "voci",
+		"search-input-label": "Ricerca Wikiquote",
+		"language-button-text": "Leggi Wikiquote nella tua lingua"
 	},
 	"wikisource": {
 		"name": "Wikisource",

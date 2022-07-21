@@ -61,7 +61,9 @@
 	"wikiquote": {
 		"name": "维基语录",
 		"slogan": "自由的名人名言录",
-		"entries": "摘录"
+		"entries": "摘录",
+		"search-input-label": "搜索维基语录",
+		"language-button-text": "以您的语言阅读维基语录"
 	},
 	"wikisource": {
 		"name": "维基文库",

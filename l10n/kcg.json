@@ -6,10 +6,10 @@
 		]
 	},
 	"language-name": "Tyap",
-	"footer-donate": "A maai a li̱n-a̱ma ta̱m nzi̱t hu di̱n vak za̱nang kurum.",
-	"license": "Wat huni shyia̠ a̠tafa <a href='https://creativecommons.org/licenses/by-sa/3.0/kcg'>Kwambwat A̱ka̱wat A̱di̱dam Kaswuo-ShareAlike si̱ Creative Commons</a> hu hwa",
+	"footer-donate": "A maai a li̱n-a̱ma ta̱m nzi̱t hu di̱n vak nang za̱nang kurum.",
+	"license": "Wat huni shyia̠ a̠tafa <a href='https://creativecommons.org/licenses/by-sa/3.0/kcg'>Kwaa̱mbwat A̱ka̱wat A̱di̱dam Kaswuo-ShareAlike si̱ Creative Commons</a> hu hwa",
 	"terms": "A̱yaaka̱nda̱n Nyian Ta̱m",
-	"privacy-policy": "Kwambwat A̱bala̱lang",
+	"privacy-policy": "Kwaa̱mbwat A̱bala̱lang",
 	"search-input-button": "Zop",
 	"other-languages-label": "Lilyem ghyáng",
 	"wiki": {
@@ -35,11 +35,11 @@
 		"language-button-text": "Fang Wukshyonari da̱ a̱lyem ang ka"
 	},
 	"wikibooks": {
-		"name": "Nkwambwatwuki",
-		"slogan": "Nkwambwat-fang ma̱sa̱t",
+		"name": "Nkwaa̱mbwatwuki",
+		"slogan": "Nkwaa̱mbwat-fang ma̱sa̱t",
 		"entries": "ngwat",
-		"search-input-label": "Zop Nkwambwatwuki",
-		"language-button-text": "Fang Nkwambwatwuki da̱ a̱lyem ang ka"
+		"search-input-label": "Zop Nkwaa̱mbwatwuki",
+		"language-button-text": "Fang Nkwaa̱mbwatwuki da̱ a̱lyem ang ka"
 	},
 	"wikinews": {
 		"name": "Nkhangwuki",
@@ -53,7 +53,7 @@
 	},
 	"wikisource": {
 		"name": "A̱tyinwuki",
-		"slogan": "Tutu nkwambwat ma̱sa̱t"
+		"slogan": "Tutu nkwaa̱mbwat ma̱sa̱t"
 	},
 	"wikiversity": {
 		"name": "Wukivasi̱ti",
@@ -70,7 +70,7 @@
 	},
 	"wikispecies": {
 		"name": "Susotbishyiwuki",
-		"slogan": "Kwambwat a̠myim susotbishyi ma̱sa̱t"
+		"slogan": "Kwaa̱mbwat a̠myim susotbishyi ma̱sa̱t"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -82,6 +82,6 @@
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Tung á̱niet sot ndung & saailyuut"
+		"slogan": "Tung á̱niet-sot ndung & saailyuut"
 	}
 }

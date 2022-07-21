@@ -6,6 +6,7 @@
 			"Benoit Rochon",
 			"Florian COLLIN",
 			"Gomoko",
+			"Jules*",
 			"Niridya",
 			"Thibaut120094",
 			"Urhixidur",
@@ -15,7 +16,7 @@
 	},
 	"language-name": "Français",
 	"language-name-romanized": "français",
-	"language-name-romanized-sorted": "français",
+	"language-name-romanized-sorted": "Francais",
 	"footer-donate": "Vous pouvez soutenir notre travail avec un don.",
 	"license": "Cette page est disponible sous la <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative licence Commons Attribution-ShareAlike</a>",
 	"terms": "Conditions d’utilisation",
@@ -61,7 +62,9 @@
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Collection de citations libres",
-		"entries": "articles"
+		"entries": "articles",
+		"search-input-label": "Rechercher dans Wikiquote",
+		"language-button-text": "Lire Wikiquote dans votre langue"
 	},
 	"wikisource": {
 		"name": "Wikisource",

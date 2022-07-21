@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Mn00ch"
 		]
 	},
 	"language-name": "Norsk (bokmål)",
@@ -47,7 +48,9 @@
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Fri sitatsamling",
-		"entries": "artikler"
+		"entries": "artikler",
+		"search-input-label": "Søk på Wikiquote",
+		"language-button-text": "Les Wikiquote på ditt eget språk"
 	},
 	"wikisource": {
 		"name": "Wikikilden",

@@ -13,6 +13,7 @@
 	"other-languages-label": "Jeeʹres ǩiõl",
 	"wiki": {
 		"name": "Wikipedia",
+		"entries": "artikkeeʹl",
 		"search-input-label": "Ooʒʒ Wikipediast"
 	},
 	"wiktionary": {
@@ -26,10 +27,12 @@
 		"search-input-label": "Ooʒʒ Wikiǩiiʹrjin"
 	},
 	"wikinews": {
-		"name": "Wikiođđâz"
+		"name": "Wikiođđâz",
+		"entries": "artikkeeʹl"
 	},
 	"wikiquote": {
-		"name": "Wikisitaatt"
+		"name": "Wikisitaatt",
+		"entries": "artikkeeʹl"
 	},
 	"wikisource": {
 		"name": "Wikiaunstõõzz"

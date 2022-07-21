@@ -22,10 +22,10 @@
 	"language-name": "Türkçe",
 	"language-name-romanized": "Türkçe",
 	"language-name-romanized-sorted": "Turkce",
-	"footer-donate": "Çalışmamızı bir bağış ile destekleyebilirsiniz.",
-	"license": "Bu sayfa <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.tr'>Creative Commons Atıf-AynıLisanslaPaylaş</a> hükümlerine tabidir",
+	"footer-donate": "Çalışmalarımıza bağış yaparak destek olabilirsiniz.",
+	"license": "Bu sayfa, <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike Lisansı</a> altındadır",
 	"terms": "Kullanım Şartları",
-	"privacy-policy": "Gizlilik Politikası",
+	"privacy-policy": "Gizlilik İlkesi",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/tr",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/tr",
 	"search-input-button": "Ara",
@@ -34,12 +34,12 @@
 		"name": "Vikipedi",
 		"slogan": "Özgür Ansiklopedi",
 		"entries": "madde",
-		"search-input-label": "Vikipedi Ara",
+		"search-input-label": "Vikipedi'de Ara",
 		"language-button-text": "Vikipedi'yi kendi dilinizde okuyun",
-		"footer-description": "Vikipedi, başka projelere de ev sahipliği yapan ve kâr amacı gütmeyen bir kuruluş olan Wikimedia Vakfı tarafından barındırılmaktadır.",
+		"footer-description": "Vikipedi, bir dizi başka projeye de ev sahipliği yapan kâr amacı gütmeyen bir kuruluş olan Wikimedia Vakfı tarafından barındırılmaktadır.",
 		"app-links": {
 			"title": "Android veya iOS için Vikipedi'yi indirin",
-			"description": "Resmî Vikipedi uygulamasıyla ilginizi çeken maddeleri çevrimdışıyken okumak için kaydedin, listelerinizi aygıtlarınız arasında eşzamanlayın ve okuma deneyiminizi özelleştirin.",
+			"description": "En sevdiğiniz makaleleri çevrimdışı okumak için kaydedin, okuma listelerinizi cihazlar arasında senkronize edin ve resmî Vikipedi uygulamasıyla okuma deneyiminizi özelleştirin.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://tr.wikipedia.org/wiki/Vikipedi_mobil_uygulamalarının_listesi"
@@ -67,7 +67,9 @@
 	"wikiquote": {
 		"name": "Vikisöz",
 		"slogan": "Özgür söz dizini",
-		"entries": "maddeler"
+		"entries": "maddeler",
+		"search-input-label": "Vikisöz'de Ara",
+		"language-button-text": "Vikisöz'ü kendi dilinizde okuyun"
 	},
 	"wikisource": {
 		"name": "Vikikaynak",
@@ -84,7 +86,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Özgürce kullanılabilir fotoğraflar ve daha fazlası"
+		"slogan": "Özgürce kullanılabilen fotoğraflar ve daha fazlası"
 	},
 	"wikispecies": {
 		"name": "Vikitür",
@@ -100,6 +102,6 @@
 	},
 	"metawiki": {
 		"name": "Meta Viki",
-		"slogan": "Topluluk eşgüdümü ve belgelemesi"
+		"slogan": "Topluluk koordinasyonu ve dokümantasyon"
 	}
 }

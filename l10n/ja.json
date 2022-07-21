@@ -58,7 +58,9 @@
 	"wikiquote": {
 		"name": "ウィキクォート",
 		"slogan": "引用句集",
-		"entries": "記事"
+		"entries": "記事",
+		"search-input-label": "ウィキクォートを検索",
+		"language-button-text": "あなたの言語でウィキクォートを読む"
 	},
 	"wikisource": {
 		"name": "ウィキソース",

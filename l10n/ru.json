@@ -62,7 +62,9 @@
 	"wikiquote": {
 		"name": "Викицитатник",
 		"slogan": "Свободная коллекция цитат",
-		"entries": "статей"
+		"entries": "статей",
+		"search-input-label": "Поиск по Викицитатнику",
+		"language-button-text": "Читайте Викицитатник на вашем языке"
 	},
 	"wikisource": {
 		"name": "Викитека",

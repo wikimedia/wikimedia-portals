@@ -36,7 +36,7 @@
 		"slogan": "Слободен речник",
 		"entries": "записи",
 		"search-input-label": "Пребарај го Викиречник",
-		"language-button-text": "Читајте Викиречник на вашиот јазик"
+		"language-button-text": "Читајте го Викиречник на вашиот јазик"
 	},
 	"wikibooks": {
 		"name": "Викикниги",
@@ -53,7 +53,9 @@
 	"wikiquote": {
 		"name": "Викицитат",
 		"slogan": "Слободна збирка на цитати",
-		"entries": "статии"
+		"entries": "статии",
+		"search-input-label": "Пребарај го Викицитат",
+		"language-button-text": "Читајте го Викицитат на вашиот јазик"
 	},
 	"wikisource": {
 		"name": "Викиизвор",

@@ -53,7 +53,9 @@
 	"wikiquote": {
 		"name": "ויקיציטוט",
 		"slogan": "מאגר הציטוטים החופשי",
-		"entries": "דפים"
+		"entries": "דפים",
+		"search-input-label": "חיפוש בוויקיציטוט",
+		"language-button-text": "לקרוא את ויקיציטוט בשפה שלך"
 	},
 	"wikisource": {
 		"name": "ויקיטקסט",

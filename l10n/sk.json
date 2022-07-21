@@ -55,7 +55,9 @@
 	"wikiquote": {
 		"name": "Wikicitáty",
 		"slogan": "Zbierka citátov",
-		"entries": "článkov"
+		"entries": "článkov",
+		"search-input-label": "Hľadať vo Wikicitáty",
+		"language-button-text": "Prečítajte si Wikicitáty vo svojom jazyku"
 	},
 	"wikisource": {
 		"name": "Wikizdroje",
