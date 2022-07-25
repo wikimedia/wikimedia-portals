@@ -1,8 +1,89 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Slaia"
 		]
 	},
-	"language-name": "Li Niha"
+	"language-name": "Li Niha",
+	"footer-donate": "Be wanolo ba wondrou'ö halöŵö da'a.",
+	"license": "Nga'örö andre so barö <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Goi-goi wangoguna'ö",
+	"privacy-policy": "Goi-goi sanandrösa ba privasi",
+	"search-input-button": "Alui",
+	"other-languages-label": "Li bö'ö",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Ensiklopedi bebas",
+		"entries": "sura",
+		"search-input-label": "Alui Wikipedia",
+		"language-button-text": "Baso Wikipedia ba li khömi",
+		"footer-description": "Wikipedia no irorogö Wikimedia Foundation, sambua organisasi si lö mangalui hare, sondrorogö göi oya proyek tanö bö'ö.",
+		"app-links": {
+			"title": "Fairö Wikipedia sofanö ba Android ma iOS",
+			"description": "Irö'ö zura somasi-masi'ö ena'ö tola öbaso ia heŵa'ae lö tekhai ba internet, fagölösi gangolifa zura sinangea mubaso ba fefu perangkat internet, haogö fefu zomasi-masi'ö ba aplikasi resmi Wikipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikikamus",
+		"slogan": "Kamus bebas",
+		"entries": "entri",
+		"search-input-label": "Alui Wikikamus",
+		"language-button-text": "Baso Wikikamus ba limö samösa"
+	},
+	"wikibooks": {
+		"name": "Wikibuku",
+		"slogan": "Ngawalö mbuku si bebas",
+		"entries": "nga'örö",
+		"search-input-label": "Alui Wikibuku",
+		"language-button-text": "Baso Wikibuku ba limö samösa"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Umbu duria si bebas",
+		"entries": "sura"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Angowuloa gamaedola si bebas",
+		"entries": "sura",
+		"search-input-label": "Alui Wikiquote",
+		"language-button-text": "Baso Wikiquote ba limö samösa"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Perpustakaan bebas"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Ngawalö kursus si bebas",
+		"entries": "Ngawalö gumbu wamahaö"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Fanuturu lala ba wekoli si bebas"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Foto ba tanö bö'ö si tola te'oguna'ö"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Angolifa spesies si bebas"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Basis wangi'ila si bebas"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Aplikasi wiki si teboka ba bebas"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Koordinasi komunitas & dokumentasi"
+	}
 }

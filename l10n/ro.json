@@ -52,7 +52,9 @@
 	"wikiquote": {
 		"name": "Wikicitat",
 		"slogan": "Compendiu de citate liber",
-		"entries": "articole"
+		"entries": "articole",
+		"search-input-label": "Căutare în Wikicitat",
+		"language-button-text": "Citiți Wikicitat în limba dvs."
 	},
 	"wikisource": {
 		"name": "Wikisursă",

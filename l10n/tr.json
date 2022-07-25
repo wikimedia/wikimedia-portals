@@ -23,7 +23,7 @@
 	"language-name-romanized": "Türkçe",
 	"language-name-romanized-sorted": "Turkce",
 	"footer-donate": "Çalışmalarımıza bağış yaparak destek olabilirsiniz.",
-	"license": "Bu sayfa, <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike Lisansı</a> altındadır",
+	"license": "Bu sayfa <a href=https://creativecommons.org/licenses/by-sa/3.0/deed.tr>Creative Commons Atıf-AynıLisanslaPaylaş</a> hükümlerine tabidir",
 	"terms": "Kullanım Şartları",
 	"privacy-policy": "Gizlilik İlkesi",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/tr",
@@ -39,7 +39,7 @@
 		"footer-description": "Vikipedi, bir dizi başka projeye de ev sahipliği yapan kâr amacı gütmeyen bir kuruluş olan Wikimedia Vakfı tarafından barındırılmaktadır.",
 		"app-links": {
 			"title": "Android veya iOS için Vikipedi'yi indirin",
-			"description": "En sevdiğiniz makaleleri çevrimdışı okumak için kaydedin, okuma listelerinizi cihazlar arasında senkronize edin ve resmî Vikipedi uygulamasıyla okuma deneyiminizi özelleştirin.",
+			"description": "Resmî Vikipedi uygulamasıyla ilginizi çeken maddeleri çevrimdışıyken okumak için kaydedin, listelerinizi cihazlarınız arasında eşzamanlayın ve okuma deneyiminizi özelleştirin.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://tr.wikipedia.org/wiki/Vikipedi_mobil_uygulamalarının_listesi"
@@ -102,6 +102,6 @@
 	},
 	"metawiki": {
 		"name": "Meta Viki",
-		"slogan": "Topluluk koordinasyonu ve dokümantasyon"
+		"slogan": "Topluluk eşgüdümü ve belgelemesi"
 	}
 }

@@ -59,7 +59,9 @@
 	"wikiquote": {
 		"name": "維基語錄",
 		"slogan": "自由的名人名言錄",
-		"entries": "條目"
+		"entries": "條目",
+		"search-input-label": "搜尋維基語錄",
+		"language-button-text": "以您的語言閱讀維基語錄"
 	},
 	"wikisource": {
 		"name": "維基文庫",

@@ -5,10 +5,14 @@
 		]
 	},
 	"language-name": "Sardu",
+	"language-name-romanized": "Sardu",
+	"language-name-romanized-sorted": "Sardu",
 	"footer-donate": "Podes suportare su traballu nostru cun una donatzione.",
 	"license": "Custa pàgina est disponìbile cun sa litzèntzia <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Atributzione-Cumpartzi in sa matessi manera</a>",
 	"terms": "Tèrmines de impreu",
 	"privacy-policy": "Polìtica pro sos datos privados",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/sc",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/sc",
 	"search-input-button": "Chirca",
 	"other-languages-label": "Àteras limbas",
 	"wiki": {
@@ -48,7 +52,9 @@
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "S'archìviu lìberu de tzitas e ditzos",
-		"entries": "artìculos"
+		"entries": "artìculos",
+		"search-input-label": "Chirca in Wikiquote",
+		"language-button-text": "Leghe Wikiquote in sa limba tua"
 	},
 	"wikisource": {
 		"name": "Wikisource",
