@@ -52,7 +52,9 @@
 	"wikiquote": {
 		"name": "Wikidézet",
 		"slogan": "A szabad idézetgyűjtemény",
-		"entries": "szócikk"
+		"entries": "szócikk",
+		"search-input-label": "Keresés a Wikidézetben",
+		"language-button-text": "Olvasd a Wikidézetet az anyanyelveden"
 	},
 	"wikisource": {
 		"name": "Wikiforrás",

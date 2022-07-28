@@ -3,6 +3,7 @@
 		"authors": [
 			"Amire80",
 			"Cristofer Alves",
+			"Duke of Wikipädia",
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Macofe",
@@ -36,12 +37,16 @@
 	"wiktionary": {
 		"name": "Wikcionário",
 		"slogan": "O dicionário livre",
-		"entries": "entradas"
+		"entries": "entradas",
+		"search-input-label": "Pesquisar no Wikcionário",
+		"language-button-text": "Leia o Wikcionário em seu idioma"
 	},
 	"wikibooks": {
 		"name": "Wikilivros",
 		"slogan": "Livros didáticos livres",
-		"entries": "páginas"
+		"entries": "páginas",
+		"search-input-label": "Pesquisar Wikilivros",
+		"language-button-text": "Leia Wikilivros em seu idioma"
 	},
 	"wikinews": {
 		"name": "Wikinotícias",
@@ -51,7 +56,9 @@
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Coletânea de citações livres",
-		"entries": "artigos"
+		"entries": "artigos",
+		"search-input-label": "Pesquisar Wikiquote",
+		"language-button-text": "Leia o Wikiquote em seu idioma"
 	},
 	"wikisource": {
 		"name": "Wikisource",

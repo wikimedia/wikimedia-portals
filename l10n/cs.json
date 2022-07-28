@@ -49,7 +49,9 @@
 	"wikiquote": {
 		"name": "Wikicitáty",
 		"slogan": "Sbírka citátů",
-		"entries": "stránek"
+		"entries": "stránek",
+		"search-input-label": "Hledat ve Wikicitátech",
+		"language-button-text": "Přečtěte si Wikicitáty ve svém jazyce"
 	},
 	"wikisource": {
 		"name": "Wikizdroje",
