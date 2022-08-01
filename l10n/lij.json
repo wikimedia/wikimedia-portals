@@ -57,7 +57,9 @@
 	"wikiquote": {
 		"name": "Wikiçitaçión",
 		"slogan": "Lìbero conpéndio de çitaçioìn",
-		"entries": "vôxe"
+		"entries": "vôxe",
+		"search-input-label": "Çèrca inte Wikiçitaçioìn",
+		"language-button-text": "Lêzi Wikiçitaçioìn inta tò léngoa"
 	},
 	"wikisource": {
 		"name": "Wikivivàgna",

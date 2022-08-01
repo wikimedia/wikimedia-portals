@@ -34,12 +34,16 @@
 	"wiktionary": {
 		"name": "ߥߞߌߞߘߐߝߐߟߊ߲",
 		"slogan": "ߞߘߐߝߐߟߊ߲߫ ߟߊߓߌ߬ߟߊ߬ߣߍ߲",
-		"entries": "ߘߏ߲߬ߘߊ ߟߎ߬"
+		"entries": "ߘߏ߲߬ߘߊ ߟߎ߬",
+		"search-input-label": "ߢߌߣߌ߲ߣߌ߲ ߞߍ߫ ߥߞߌߛߌߦߐ߲ߣߍߙߌ ߞߣߐ߫",
+		"language-button-text": "ߥߞߌߛߌߦߐ߲ߣߍߙߌ ߘߐߞߊ߬ߙߊ߲߬ ߌ ߟߊ߫ ߞߊ߲ ߘߐ߫"
 	},
 	"wikibooks": {
 		"name": "ߥߞߌߞߊ߬ߝߊ ߟߎ߬",
 		"slogan": "ߟߊ߬ߞߊ߬ߙߊ߲߬ߠߌ߬ ߞߝߊ߫ ߞߊ߲ߠߊߓߌߟߊߣߍ߲ ߠߎ߬",
-		"entries": "ߞߐߜߍ ߟߎ߬"
+		"entries": "ߞߐߜߍ ߟߎ߬",
+		"search-input-label": "ߢߌߣߌ߲ߣߌ߲ ߞߍ߫ ߥߞߌߞߊ߬ߝߊ ߞߣߐ߫",
+		"language-button-text": "ߥߞߌߞߊ߬ߝߊ ߘߐߞߊ߬ߙߊ߲߬ ߌ ߟߊ߫ ߞߊ߲ ߘߐ߫"
 	},
 	"wikinews": {
 		"name": "ߥߞߌߞߍߞߎߘߊ ߟߎ߬",
@@ -49,7 +53,9 @@
 	"wikiquote": {
 		"name": "ߥߞߌߞߎߡߊߞߎߘߎ߲",
 		"slogan": "ߝߌߛߙߌ߫ ߘߝߐ ߟߊߞߊ߬ߝߏ߬ߣߍ߲",
-		"entries": "ߞߎߡߘߊ ߟߎ߬"
+		"entries": "ߞߎߡߘߊ ߟߎ߬",
+		"search-input-label": "ߢߌߣߌ߲ߠߌ߲ ߞߍ߫ ߥߞߌߞߏߋߕߌ ߞߣߐ߫",
+		"language-button-text": "ߥߞߌߞߏߋߕߌ ߘߐߞߊ߬ߙߊ߲߬ ߌ ߟߊ߫ ߞߊ߲ ߘߐ߫"
 	},
 	"wikisource": {
 		"name": "ߥߞߌߛߎ߲",

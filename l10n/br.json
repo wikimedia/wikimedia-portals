@@ -4,6 +4,7 @@
 			"Adriendelucca",
 			"Fulup",
 			"Gwenn-Ael",
+			"Huñvreüs",
 			"Macofe",
 			"Y-M D"
 		]
@@ -52,7 +53,9 @@
 	"wikiquote": {
 		"name": "Wikiarroud",
 		"slogan": "Dastumad frank an arroudennoù",
-		"entries": "pennadoù"
+		"entries": "pennadoù",
+		"search-input-label": "Klask er Wikiarroud",
+		"language-button-text": "Lenn Wikiarroud en ho yezh"
 	},
 	"wikisource": {
 		"name": "Wikimammenn",

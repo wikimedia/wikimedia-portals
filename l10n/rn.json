@@ -10,6 +10,7 @@
 	"footer-donate": "Ushobora gushigikira igikorwa cacu mu gutanga intererano.",
 	"license": "Uru rupapuro ruboneka biciye ku <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Amategeko yo gukoresha",
+	"privacy-policy": "Indinganizo y'amabanga",
 	"search-input-button": "Rondeza",
 	"other-languages-label": "Izindi ndimi",
 	"wiki": {
@@ -30,12 +31,16 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Kazinduzi yirebanga",
-		"entries": "ivyinjiye"
+		"entries": "ivyinjiye",
+		"search-input-label": "Rondera Wiktionary",
+		"language-button-text": "Soma Wiktionary mu rurimi rwawe"
 	},
 	"wikibooks": {
 		"name": "Ibitabo kuri wiki",
 		"slogan": "Inyandiko z'ibitabo vyirebanga",
-		"entries": "impapuro"
+		"entries": "impapuro",
+		"search-input-label": "Rondera Wikibooks (ibitabo)",
+		"language-button-text": "Soma Wikibooks (ibitabo) mu rurimi rwawe"
 	},
 	"wikinews": {
 		"name": "Amakuru ya wiki",
@@ -45,7 +50,9 @@
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Itororokaniro ry'amajambo yirebanga",
-		"entries": "ingingo"
+		"entries": "ingingo",
+		"search-input-label": "Rondera Wikiquote",
+		"language-button-text": "Soma Wikiquote mu rurimi rwawe"
 	},
 	"wikisource": {
 		"name": "Wikisource",
@@ -65,7 +72,8 @@
 		"slogan": "Amasanamu akoreshwa k'ubuntu & ibindi"
 	},
 	"wikispecies": {
-		"name": "Wikispecies"
+		"name": "Wikispecies",
+		"slogan": "Ububiko bw'ubwoko k'ubuntu"
 	},
 	"wikidata": {
 		"name": "Wikidata",
