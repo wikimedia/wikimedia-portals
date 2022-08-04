@@ -49,7 +49,9 @@
 	"wikiquote": {
 		"name": "Tyanwuki",
 		"slogan": "Kompendyom tyan ma̱sa̱t",
-		"entries": "a̱yaati̱kut"
+		"entries": "a̱yaati̱kut",
+		"search-input-label": "Zop Tyanwuki",
+		"language-button-text": "Fang Tyanwuki da̱ a̱lyem ang ka"
 	},
 	"wikisource": {
 		"name": "A̱tyinwuki",
