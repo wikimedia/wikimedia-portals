@@ -1,10 +1,88 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Nurlan"
+		]
 	},
 	"language-name": "Qaraqalpaqsha",
+	"footer-donate": "Jumısımızdı qayırqomlıq qılıw arqalı qollap-quwatlawıńız múmkin.",
+	"license": "Bul bet <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> astında ámelde",
+	"terms": "Paydalanıw shártleri",
+	"privacy-policy": "Konfidenciallıq siyasatı",
+	"search-input-button": "İzlew",
+	"other-languages-label": "Basqa tiller",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Qaraqalpaq Erkin Ensiklopediyası"
+		"slogan": "Qaraqalpaq Erkin Ensiklopediyası",
+		"entries": "maqalalar",
+		"search-input-label": "Wikipediyadan qıdırıń",
+		"language-button-text": "Wikipediyanı óz tilińizde oqıń",
+		"footer-description": "Vikipediya Wikimedia Foundation kommerciyalıq bolmaǵan shólkemi tárepinen uyımlastırılǵan bolıp, ol basqa bir qatar joybarlarǵa da miyman kútiwshilik etedi.",
+		"app-links": {
+			"title": "Android yamasa IOS ushın wikipediyanı júklep alıń",
+			"description": "Súyikli maqalalarıńızdı oflayn rejimde oqıw ushın saqlań, oqıw dizimlerińizdi apparatlarda sinxronlastırıń hám official wikipediya qosımshası járdeminde oqıw tájiriybeńizdi sazlań.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikisózlik",
+		"slogan": "Biypul sózlik",
+		"entries": "jazıwlar",
+		"search-input-label": "Wikisózlikten izlew",
+		"language-button-text": "Wikisózlikti óz tilińizde oqiń"
+	},
+	"wikibooks": {
+		"name": "Wikikitap",
+		"slogan": "Biypul sabaqlıqlar",
+		"entries": "betler",
+		"search-input-label": "Wikikitaptan izlew",
+		"language-button-text": "Wikikitaptı óz tilińizde oqıń"
+	},
+	"wikinews": {
+		"name": "Wikijańalıq",
+		"slogan": "Biypul jańalıq deregi",
+		"entries": "maqalalar"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Biypul usınıs toplamı",
+		"entries": "maqalalar",
+		"search-input-label": "Wikitúrlerden izlew",
+		"language-button-text": "Wikitúrlerdi óz tilińizde oqıń"
+	},
+	"wikisource": {
+		"name": "Wikiderek",
+		"slogan": "Biypul kitapxana"
+	},
+	"wikiversity": {
+		"name": "Wikiversitet",
+		"slogan": "Biypul sabaqlıq materialları",
+		"entries": "oqıw derekleri"
+	},
+	"wikivoyage": {
+		"name": "Wikigid",
+		"slogan": "Biypul sayaxat ushın qollanba"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Biypul paydalanıwǵa jaramlı fotosúwretler & basqalar"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Biypul túrler katalogi"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Biypul bilimler bazası"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Biypul & ashıq wiki qosımshası"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Jámiyetti muwapıqlastırıw & hújjetler"
 	}
 }

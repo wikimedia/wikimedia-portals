@@ -56,7 +56,9 @@
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Fri samling av citat",
-		"entries": "artiklar"
+		"entries": "artiklar",
+		"search-input-label": "Sök på Wikiquote",
+		"language-button-text": "Läs Wikiquote på ditt språk"
 	},
 	"wikisource": {
 		"name": "Wikisource",

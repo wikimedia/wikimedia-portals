@@ -14,17 +14,23 @@
 	"other-languages-label": "Amũ nhẽẽga'etá",
 	"wiki": {
 		"name": "Wikipediya",
+		"slogan": "Nhẽẽguatiá imutara",
 		"entries": "kuatiara",
 		"search-input-label": "Usikári Wikipediya upé",
 		"language-button-text": "E-mũgetá Wikipediya ne nhẽẽga rupí",
 		"app-links": {
+			"title": "Eremunhã download Wikipediya Android arã ã iOS arã",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
-		"entries": "Ikeçawa'etá"
+		"name": "Wikẽgatywa",
+		"slogan": "Nhẽẽgatywa imutara",
+		"entries": "Ikeçawa'etá",
+		"search-input-label": "Usikári Wikẽgatywa rupí",
+		"language-button-text": "Umũgetá Wikẽgatywa ne nhẽẽga rupí"
 	},
 	"wikibooks": {
 		"name": "Wikipapera'etá",
@@ -39,12 +45,35 @@
 		"entries": "kuatiara'etá"
 	},
 	"wikiquote": {
-		"entries": "kuatiara"
+		"name": "Wikinhẽẽga",
+		"slogan": "Mĩduariçawa imutara ayurí",
+		"entries": "kuatiara",
+		"search-input-label": "Usikári Wikinhẽẽga rupí",
+		"language-button-text": "Umũgetá Wikinhẽẽga ne nhẽẽga rupí"
 	},
 	"wikisource": {
+		"name": "Wikipapera",
 		"slogan": "Papera rẽdawa imutara"
 	},
+	"wikiversity": {
+		"name": "Wikimbueçaruka",
+		"slogan": "Mbueçawa pupepura imutara",
+		"entries": "Yũbueçawa murakimaé"
+	},
+	"wikivoyage": {
+		"name": "Wikiwatawatá",
+		"slogan": "Watawata imutara mupikaçara"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Çãgawa puruwara imutara rupí açuí píri kuaye"
+	},
+	"wikispecies": {
+		"name": "Wikisoonũgara",
+		"slogan": "Soonũgara patuá imutara"
+	},
 	"wikidata": {
+		"name": "Wikupuça",
 		"slogan": "Kuauçawa çatari imutara"
 	},
 	"mediawiki": {

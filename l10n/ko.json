@@ -61,7 +61,8 @@
 		"name": "위키인용집",
 		"slogan": "자유 인용 모음집",
 		"entries": "문서",
-		"search-input-label": "위키인용집 검색"
+		"search-input-label": "위키인용집 검색",
+		"language-button-text": "내 언어로 위키인용집 읽기"
 	},
 	"wikisource": {
 		"name": "위키문헌",

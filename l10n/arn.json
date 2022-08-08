@@ -4,6 +4,7 @@
 			"Manke ruLpa"
 		]
 	},
+	"footer-donate": "Rume kelluaeyiñmew tami wülfiel",
 	"license": "Fachi tapülh pünekey ti <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Chumngechi ñi Püneleam",
 	"privacy-policy": "Kuñiwtun Zungu",
@@ -15,7 +16,10 @@
 		"entries": "tapülh",
 		"search-input-label": "Kintun Wikipedia mew",
 		"language-button-text": "Wikipedia tami zungun mew",
+		"footer-description": "Wikimedia Foundation ngenhngey Wikipedia mew, feyta kiñe ngülümrangnochi trokiñ che ngenhngelu kake zungu kay.",
 		"app-links": {
+			"title": "Nakümfinge Wikipedia Android mew kam iOS mew",
+			"description": "Eltunge tami zoy ayünieelchi tapülh mi wüla chillkatuael, kiñewkünunge tami chillkatuel kake chemkün mew, kafey küme azümkünunge tami chillkatun Wikipedia app mew.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
@@ -24,13 +28,16 @@
 	"wiktionary": {
 		"name": "Wikinhemül",
 		"slogan": "Neykülechi nemülhkawe",
+		"entries": "troy",
 		"search-input-label": "Kintun Wiktionary",
 		"language-button-text": "Wiktionary tami zungun mew"
 	},
 	"wikibooks": {
 		"name": "Wikicillka",
 		"slogan": "Neykülechi chillka",
-		"entries": "tapülh"
+		"entries": "tapülh",
+		"search-input-label": "Kintun Wikibooks",
+		"language-button-text": "Wikibooks tami zungun mew"
 	},
 	"wikinews": {
 		"name": "Wikinews",
@@ -40,7 +47,9 @@
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Konümpan gülümkawe",
-		"entries": "tapülh"
+		"entries": "tapülh",
+		"search-input-label": "Kintun Wikiquote",
+		"language-button-text": "Wikiquote tami zungun mew"
 	},
 	"wikisource": {
 		"name": "Wikisource",
@@ -55,17 +64,24 @@
 		"name": "Wikinhampülkan",
 		"slogan": "Neykülechi nhampülkan"
 	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Itro pünefal azentu kake ka"
+	},
 	"wikispecies": {
-		"name": "Wikispecies"
+		"name": "Wikispecies",
+		"slogan": "Itrokom trokiñ ñi niewe"
 	},
 	"wikidata": {
 		"name": "Wikidata",
 		"slogan": "Neykülechi kimün"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Itrokom nülangelu wiki pünekan"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Kom trokiñ ñi azeluwün ka wirintukun"
 	}
 }

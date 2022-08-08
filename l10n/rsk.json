@@ -50,7 +50,9 @@
 	"wikiquote": {
 		"name": "Викицитат",
 		"slogan": "Шлєбодна збирка цитатох",
-		"entries": "статї"
+		"entries": "статї",
+		"search-input-label": "Преглєдуй Викицитати",
+		"language-button-text": "Читай Викицитати на своїм язику"
 	},
 	"wikisource": {
 		"name": "Викижридло",

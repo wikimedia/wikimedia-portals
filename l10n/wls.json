@@ -51,7 +51,9 @@
 	"wikiquote": {
 		"name": "Vikitala",
 		"slogan": "Taupau lea ateaina",
-		"entries": "fakamatala"
+		"entries": "fakamatala",
+		"search-input-label": "Kumi i te Vikitohi",
+		"language-button-text": "Lau te Vikitala i tau lea"
 	},
 	"wikisource": {
 		"name": "Vikimatapuna",
