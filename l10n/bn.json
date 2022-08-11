@@ -6,6 +6,7 @@
 			"MuratTheTurkish",
 			"R4356th",
 			"Tahmid",
+			"আজিজ",
 			"আফতাবুজ্জামান"
 		]
 	},
@@ -57,7 +58,9 @@
 	"wikiquote": {
 		"name": "উইকিউক্তি",
 		"slogan": "উক্তি-উদ্ধৃতির সংকলন",
-		"entries": "টি নিবন্ধ"
+		"entries": "টি নিবন্ধ",
+		"search-input-label": "উইকিউক্তি অনুসন্ধান করুন",
+		"language-button-text": "আপনার ভাষায় উইকিউক্তি পড়ুন"
 	},
 	"wikisource": {
 		"name": "উইকিসংকলন",
