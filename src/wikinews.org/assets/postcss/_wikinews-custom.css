@@ -1,0 +1,14 @@
+.footer {
+	text-align: center;
+}
+
+.other-projects {
+	text-align: initial;
+}
+
+.central-featured-logo {
+	position: absolute;
+	/* centering position of logo on desktop */
+	top: 178px;
+	left: 15px;
+}
