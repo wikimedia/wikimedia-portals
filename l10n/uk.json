@@ -58,7 +58,9 @@
 	"wikiquote": {
 		"name": "Вікіцитати",
 		"slogan": "Вільна збірка цитат",
-		"entries": "статей"
+		"entries": "статей",
+		"search-input-label": "Пошук Вікіцитати",
+		"language-button-text": "Читати Вікіцитати вашою мовою"
 	},
 	"wikisource": {
 		"name": "Вікіджерела",

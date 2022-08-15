@@ -33,12 +33,16 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Fri ordbok",
-		"entries": "oppslag"
+		"entries": "oppslag",
+		"search-input-label": "Søk i Wiktionary",
+		"language-button-text": "Les Wiktionary på ditt språk"
 	},
 	"wikibooks": {
 		"name": "Wikibøker",
 		"slogan": "Frie lærebøker",
-		"entries": "sider"
+		"entries": "sider",
+		"search-input-label": "Søk i Wikibøker",
+		"language-button-text": "Les Wikibøker på ditt språk"
 	},
 	"wikinews": {
 		"name": "Wikinytt",

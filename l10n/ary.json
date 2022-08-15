@@ -13,33 +13,42 @@
 	"language-name": "داريجة",
 	"language-name-romanized": "Darija",
 	"language-name-romanized-sorted": "Darija",
-	"license": "هاد الصفحة منشورة <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ar '>برخصة المشاع الإبداعي</a>",
-	"terms": "شروط الاستخدام",
-	"privacy-policy": "سياسة الخصوصية",
+	"footer-donate": "يمكن ليك تعاون خدمتنا ب تبرع.",
+	"license": "هاد الصفحة منشورة <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ar '>برخصة لمشاع لإبداعي</a>",
+	"terms": "شروط تخدام",
+	"privacy-policy": "سياسة لخصوصية",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ary",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ary",
 	"search-input-button": "قلّب",
+	"other-languages-label": "لوغات خرين",
 	"wiki": {
 		"name": "ويكيپيديا",
-		"slogan": "الـمـوسـوعـة الـحـرة",
+		"slogan": "لموسوعة لحرة",
 		"entries": "مقالة",
 		"search-input-label": "قلّب ف ويكيپيديا",
 		"language-button-text": "قرا ويكيپيديا بلوغتك",
 		"footer-description": "ويكيپيديا كتّم استضافتها بواسطة مؤسسة ويكيميديا، وهي منظمة غير ربحية كتستضيف مجموعة من المشاريع الأخرى.",
 		"app-links": {
-			"title": "حمّل ويكيپيديا للأندرويد أولا الآي أو إس",
-			"description": "احفظ مقالاتك المفضلة باش تقراهم مللي تكون أوفلاين وزامن قوائم القراءة عبر الأجهزة وخصص تجربة القراءة الخاصة بيك في تطبيق ويكيپيديا الرسمي.",
+			"title": "طيليشارجي ويكيپيديا ل أندرويد ولا أي ؤ إس",
+			"description": "احفظ مقالاتك المفضلة باش تقراهم ملي تكون أوفلاين وزامن قوائم القراءة عبر الأجهزة وخصص تجربة القراءة الخاصة بيك في تطبيق ويكيپيديا الرسمي.",
+			"google-store": "حانوت ڭوڭل پلاي",
+			"apple-store": "حانوت أپل أپ",
 			"url": "https://ary.wikipedia.org/wiki/قائمة_تطبيقات_ويكيبيديا_للهاتف"
 		}
 	},
 	"wiktionary": {
 		"name": "ويكي قاموس",
 		"slogan": "قاموس حر",
-		"entries": "مقالات"
+		"entries": "مقالات",
+		"search-input-label": "قلب ف ويقاموس",
+		"language-button-text": "قرا ويقاموس ب لوغتك"
 	},
 	"wikibooks": {
 		"name": "ويكي الكتب",
 		"slogan": "كتب نصية حرة",
-		"entries": "الصفحات"
+		"entries": "الصفحات",
+		"search-input-label": "قلب ف ويكي كتوبا",
+		"language-button-text": "قرا ويكي كتوبا ب لوغتك"
 	},
 	"wikinews": {
 		"name": "ويكي الأخبار",
@@ -49,7 +58,9 @@
 	"wikiquote": {
 		"name": "ويكي الاقتباس",
 		"slogan": "تجميعية حرة ديال الاقتباسات",
-		"entries": "مقالات"
+		"entries": "مقالات",
+		"search-input-label": "قلب ف ويكي قتيباس",
+		"language-button-text": "قرا ويكي قتيباس ب لوغتك"
 	},
 	"wikisource": {
 		"name": "ويكي مصدر",
