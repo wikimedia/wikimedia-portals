@@ -42,7 +42,9 @@
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Free news source",
-		"entries": "articles"
+		"entries": "articles",
+		"search-input-label": "Search Wikinews",
+		"language-button-text": "Read Wikinews in your language"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
