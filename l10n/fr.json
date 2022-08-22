@@ -57,7 +57,9 @@
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Source d’actualités libres",
-		"entries": "articles"
+		"entries": "articles",
+		"search-input-label": "Rechercher dans Wikinews",
+		"language-button-text": "Lire Wikinews dans votre langue"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",

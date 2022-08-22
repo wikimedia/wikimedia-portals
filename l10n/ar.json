@@ -56,7 +56,8 @@
 	"wikinews": {
 		"name": "ويكي الأخبار",
 		"slogan": "مصادر مجانية جديدة",
-		"entries": "مقالات"
+		"entries": "مقالات",
+		"language-button-text": "اقرأ ويكي الأخبار بلغتك"
 	},
 	"wikiquote": {
 		"name": "ويكي الاقتباس",

@@ -48,7 +48,9 @@
 	"wikinews": {
 		"name": "ויקיחדשות",
 		"slogan": "מקור החדשות החופשי",
-		"entries": "מאמרים"
+		"entries": "מאמרים",
+		"search-input-label": "חיפוש בוויקיחדשות",
+		"language-button-text": "לקרוא את ויקיחדשות בשפה שלך"
 	},
 	"wikiquote": {
 		"name": "ויקיציטוט",

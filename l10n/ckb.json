@@ -4,6 +4,7 @@
 			"Amire80",
 			"Aram",
 			"Arya sarhan",
+			"Halbast",
 			"Kurd",
 			"Épine",
 			"ئارام بکر"
@@ -39,7 +40,9 @@
 	"wikinews": {
 		"name": "ویکیهه‌واڵ",
 		"slogan": "سەرچاوەی هەواڵی ئازاد",
-		"entries": "وتارەکان"
+		"entries": "وتارەکان",
+		"search-input-label": "لە ویکیھەواڵدا بگەڕێ",
+		"language-button-text": "ویکیھەواڵ بخوێنەرەوە بە زمانی خۆت"
 	},
 	"wikiquote": {
 		"name": "ویکیوتە",

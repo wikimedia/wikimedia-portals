@@ -9,6 +9,7 @@
 	"terms": "Куллану шартлары",
 	"privacy-policy": "Яшеренлек сәясәте",
 	"search-input-button": "Эзләү",
+	"other-languages-label": "Башка телләр",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Ирекле энциклопедия",
@@ -18,28 +19,38 @@
 		"footer-description": "Википедия Викимедиа Фонды — тиҗарәт булмаган оешма — серверларында урнашкан, ул шулай ук башка проектларның эшен тәэмин итә.",
 		"app-links": {
 			"title": "Андроид яки iOS өчен Википедияне күчереп алу",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Викисүзлек",
 		"slogan": "Ирекле сүзлек",
-		"entries": "мәкалә"
+		"entries": "мәкалә",
+		"search-input-label": "Викисүзлектә эзләү",
+		"language-button-text": "Викисүзлекне үз телегездә укыгыз"
 	},
 	"wikibooks": {
 		"name": "Викикитап",
 		"slogan": "Ирекле дәреслекләр",
-		"entries": "бит"
+		"entries": "бит",
+		"search-input-label": "Викикитапта эзләү",
+		"language-button-text": "Викикитапны үз телегездә укыгыз"
 	},
 	"wikinews": {
-		"name": "Викияңалыклар",
+		"name": "Викихәбәрләр",
 		"slogan": "Ирекле яңалыклар чыганагы",
-		"entries": "мәкалә"
+		"entries": "мәкалә",
+		"search-input-label": "Викихәбәрләрдә эзләү",
+		"language-button-text": "Викихәбәрләрне үз телегездә укыгыз"
 	},
 	"wikiquote": {
 		"name": "Викиөзек",
 		"slogan": "Ирекле өзекләр җыентыгы",
-		"entries": "мәкалә"
+		"entries": "мәкалә",
+		"search-input-label": "Викиөзектә эзләү",
+		"language-button-text": "Викиөзекне үз телегездә укыгыз"
 	},
 	"wikisource": {
 		"name": "Викиханә",
@@ -67,7 +78,7 @@
 		"slogan": "Ирекле белем җыелмасы"
 	},
 	"mediawiki": {
-		"name": "Медиавики",
+		"name": "MediaWiki",
 		"slogan": "Ирекле һәм бушлай викикушымта"
 	},
 	"metawiki": {

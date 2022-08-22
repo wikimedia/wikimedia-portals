@@ -17,6 +17,7 @@
 	},
 	"language-name": "Русский",
 	"language-name-romanized": "Russkiy",
+	"language-name-romanized-sorted": "Английский",
 	"footer-donate": "Вы можете поддержать нашу работу пожертвованием.",
 	"license": "Эта страница доступна под <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">лицензией Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Условия использования",
@@ -57,7 +58,9 @@
 	"wikinews": {
 		"name": "Викиновости",
 		"slogan": "Свободный источник новостей",
-		"entries": "статей"
+		"entries": "статей",
+		"search-input-label": "Поиск по Викиновостям",
+		"language-button-text": "Читайте Викиновости на своём языке"
 	},
 	"wikiquote": {
 		"name": "Викицитатник",

@@ -46,17 +46,21 @@
 		"slogan": "Livros abertos por um mundo aberto",
 		"entries": "páginas",
 		"search-input-label": "Pesquisar em Wikilivros",
-		"language-button-text": "Ler Wikilivros na sua língua"
+		"language-button-text": "Ler a Wikilivros na sua língua"
 	},
 	"wikinews": {
 		"name": "Wikinotícias",
 		"slogan": "A fonte de notícias livre que todos podem editar",
-		"entries": "artigos"
+		"entries": "artigos",
+		"search-input-label": "Pesquisar na Wikinotícias",
+		"language-button-text": "Ler a Wikinotícias na sua língua"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Coletânea de citações livre",
-		"entries": "artigos"
+		"entries": "artigos",
+		"search-input-label": "Pesquisar na Wikiquote",
+		"language-button-text": "Ler a Wikiquote na sua língua"
 	},
 	"wikisource": {
 		"name": "Wikisource",

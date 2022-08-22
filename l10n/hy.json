@@ -3,6 +3,7 @@
 		"authors": [
 			"23artashes",
 			"Beko",
+			"GeoO",
 			"Irus",
 			"Jandre3000",
 			"Kareyac",
@@ -35,7 +36,9 @@
 	"wikinews": {
 		"name": "Վիքիլուրեր",
 		"slogan": "Նորությունների ազատ  աղբյուր",
-		"entries": "հոդվածներ"
+		"entries": "հոդվածներ",
+		"search-input-label": "Որոնել Վիքինորություններում",
+		"language-button-text": "Կարդացեք Վիքինորությունները ձեր լեզվով"
 	},
 	"wikiquote": {
 		"name": "Վիքիքաղվածք",

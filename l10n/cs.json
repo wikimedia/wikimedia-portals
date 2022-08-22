@@ -44,7 +44,9 @@
 	"wikinews": {
 		"name": "Wikizprávy",
 		"slogan": "Otevřené zpravodajství",
-		"entries": "zpráv"
+		"entries": "zpráv",
+		"search-input-label": "Hledat ve Wikizprávách",
+		"language-button-text": "Přečtěte si Wikizprávy ve svém jazyce"
 	},
 	"wikiquote": {
 		"name": "Wikicitáty",

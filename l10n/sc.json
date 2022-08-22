@@ -47,7 +47,9 @@
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Sa mitza lìbera de noas",
-		"entries": "artìculos"
+		"entries": "artìculos",
+		"search-input-label": "Chirca in Wikinews",
+		"language-button-text": "Leghe Wikinews in sa limba tua"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",

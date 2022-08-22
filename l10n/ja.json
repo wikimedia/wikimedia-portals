@@ -53,7 +53,8 @@
 	"wikinews": {
 		"name": "ウィキニュース",
 		"slogan": "フリーニュースサイト",
-		"entries": "記事"
+		"entries": "記事",
+		"search-input-label": "ウィキニュースを検索"
 	},
 	"wikiquote": {
 		"name": "ウィキクォート",

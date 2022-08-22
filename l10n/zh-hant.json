@@ -54,7 +54,9 @@
 	"wikinews": {
 		"name": "維基新聞",
 		"slogan": "自由的新聞源",
-		"entries": "條目"
+		"entries": "條目",
+		"search-input-label": "搜尋維基新聞",
+		"language-button-text": "以您的語言閱讀維基新聞"
 	},
 	"wikiquote": {
 		"name": "維基語錄",

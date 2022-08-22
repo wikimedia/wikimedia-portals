@@ -9,7 +9,7 @@
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Frijja diehtobáhkogirrje",
-		"entries": "artijjkala",
+		"entries": "artihkkala",
 		"search-input-label": "Åtså Wikipedian",
 		"language-button-text": "Lågå Wikipediav duv gielan",
 		"app-links": {
@@ -30,12 +30,12 @@
 	"wikinews": {
 		"name": "Wikiåđđåsa",
 		"slogan": "Frijja åđđåsijgálldo",
-		"entries": "artijjkala"
+		"entries": "artihkkala"
 	},
 	"wikiquote": {
 		"name": "Wikisitáhta",
 		"slogan": "Frijja sitáhttavuarrká",
-		"entries": "artijjkala"
+		"entries": "artihkkala"
 	},
 	"wikisource": {
 		"name": "Wikigálldo",

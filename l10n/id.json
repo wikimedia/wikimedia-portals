@@ -6,7 +6,8 @@
 			"Arifin.wijaya",
 			"Daud I.F. Argana",
 			"Gombang",
-			"J Nia30"
+			"J Nia30",
+			"Veracious"
 		]
 	},
 	"language-name": "Bahasa Indonesia",
@@ -35,7 +36,7 @@
 		}
 	},
 	"wiktionary": {
-		"name": "Wiktionary",
+		"name": "Wikikamus",
 		"slogan": "Kamus bebas",
 		"entries": "entri",
 		"search-input-label": "Telusuri Wiktionary",
@@ -49,26 +50,30 @@
 		"language-button-text": "Baca Wikibooks dalam bahasa Anda"
 	},
 	"wikinews": {
-		"name": "Wikinews",
+		"name": "Wikiberita",
 		"slogan": "Sumber berita bebas",
-		"entries": "artikel"
+		"entries": "artikel",
+		"search-input-label": "Telusuri Wikiberita",
+		"language-button-text": "Baca Wikiberita dalam bahasa Anda"
 	},
 	"wikiquote": {
-		"name": "Wikiquote",
+		"name": "Wikikutip",
 		"slogan": "Koleksi kutipan bebas",
-		"entries": "artikel"
+		"entries": "artikel",
+		"search-input-label": "Telusuri Wikiquote",
+		"language-button-text": "Baca Wikiquote dalam bahasa Anda"
 	},
 	"wikisource": {
-		"name": "Wikisource",
+		"name": "Wikisumber",
 		"slogan": "Perpustakaan bebas"
 	},
 	"wikiversity": {
-		"name": "Wikiversity",
+		"name": "Wikiversitas",
 		"slogan": "Bahan pelajaran bebas",
 		"entries": "sumber daya pembelajaran"
 	},
 	"wikivoyage": {
-		"name": "Wikivoyage",
+		"name": "Wikiwisata",
 		"slogan": "Situs perjalanan bebas"
 	},
 	"commons": {

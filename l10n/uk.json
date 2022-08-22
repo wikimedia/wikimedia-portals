@@ -53,7 +53,9 @@
 	"wikinews": {
 		"name": "Вікіновини",
 		"slogan": "Вільне джерело новин",
-		"entries": "статей"
+		"entries": "статей",
+		"search-input-label": "Шукати ВікіНовини",
+		"language-button-text": "Читати ВікіНовини вашою мовою"
 	},
 	"wikiquote": {
 		"name": "Вікіцитати",

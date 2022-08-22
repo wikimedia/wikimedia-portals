@@ -47,7 +47,9 @@
 	"wikinews": {
 		"name": "Wikihírek",
 		"slogan": "Szabad hírforrás",
-		"entries": "szócikk"
+		"entries": "cikk",
+		"search-input-label": "Keresés a Wikihírekben",
+		"language-button-text": "Olvasd a Wikihíreket az anyanyelveden"
 	},
 	"wikiquote": {
 		"name": "Wikidézet",

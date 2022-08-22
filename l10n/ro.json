@@ -47,7 +47,9 @@
 	"wikinews": {
 		"name": "Wikiștiri",
 		"slogan": "Sursă de știri liberă",
-		"entries": "articole"
+		"entries": "articole",
+		"search-input-label": "Căutare în Wikiștiri",
+		"language-button-text": "Citiți Wikiștiri în limba dvs."
 	},
 	"wikiquote": {
 		"name": "Wikicitat",

@@ -47,7 +47,9 @@
 	"wikinews": {
 		"name": "Wikinytt",
 		"slogan": "Fri nyhetskilde",
-		"entries": "artikler"
+		"entries": "artikler",
+		"search-input-label": "Søk i Wikinytt",
+		"language-button-text": "Les Wikinytt på ditt språk"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",

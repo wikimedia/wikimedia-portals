@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"MthulisiNcube"
 		]
 	},
 	"language-name": "Tjikalanga",
-	"language-name-romanized": "Kalanga, Tji"
+	"language-name-romanized": "Kalanga, Tji",
+	"wikinews": {
+		"search-input-label": "Haka Wikinews",
+		"language-button-text": "Bala Wikinews mululimi gugo"
+	}
 }
