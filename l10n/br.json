@@ -48,7 +48,9 @@
 	"wikinews": {
 		"name": "Wikikeloù",
 		"slogan": "Ar vammenn ditouroù a c'hallit skrivañ",
-		"entries": "pennadoù"
+		"entries": "pennadoù",
+		"search-input-label": "Klask e Wikineventioù",
+		"language-button-text": "Lenn Wikineventioù en ho yezh"
 	},
 	"wikiquote": {
 		"name": "Wikiarroud",

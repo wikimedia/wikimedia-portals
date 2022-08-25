@@ -1,11 +1,21 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Vlad5250"
+		]
 	},
 	"language-name": "Srpskohrvatski / Српскохрватски",
 	"language-name-romanized-sorted": "Srpskohrvatski",
+	"terms": "Uslovi korišćenja",
+	"privacy-policy": "Politika privatnosti",
+	"search-input-button": "Pretraži",
+	"other-languages-label": "Drugi jezici",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Slobodna enciklopedija",
+		"entries": "članaka",
+		"search-input-label": "Pretraži Wikipediju",
+		"language-button-text": "Čitajte Wikipediju na svom jeziku"
 	},
 	"wiktionary": {
 		"name": "Wiktionary",

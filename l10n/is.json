@@ -46,12 +46,16 @@
 	"wikinews": {
 		"name": "Wikifrétt",
 		"slogan": "Frítt fréttaefni",
-		"entries": "greinar"
+		"entries": "greinar",
+		"search-input-label": "Leita á Wikinews",
+		"language-button-text": "Lestu Wikinews á þínu tungumáli"
 	},
 	"wikiquote": {
 		"name": "Wikivitnun",
 		"slogan": "Safn tilvitnana",
-		"entries": "greinar"
+		"entries": "greinar",
+		"search-input-label": "Leita á Wikiquote",
+		"language-button-text": "Lestu Wikiquote á þínu tungumáli"
 	},
 	"wikisource": {
 		"name": "Wikiheimild",

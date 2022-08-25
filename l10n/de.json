@@ -8,6 +8,7 @@
 			"Gnom",
 			"ManuelFranz",
 			"Metalhead64",
+			"ThisCarthing",
 			"Tobi 406"
 		]
 	},
@@ -39,22 +40,29 @@
 		"name": "Wiktionary",
 		"slogan": "Das freie Wörterbuch",
 		"entries": "Einträge",
-		"search-input-label": "Wiktionary durchsuchen"
+		"search-input-label": "Wiktionary durchsuchen",
+		"language-button-text": "Wiktionary in deiner Sprache lesen"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Die freie Bibliothek",
-		"entries": "Seiten"
+		"entries": "Seiten",
+		"search-input-label": "Wikibooks durchsuchen",
+		"language-button-text": "Wikibooks in deiner Sprache lesen"
 	},
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Freie Nachrichtenquelle",
-		"entries": "Artikel"
+		"entries": "Artikel",
+		"search-input-label": "Wikinews durchsuchen",
+		"language-button-text": "Wikinews in deiner Sprache lesen"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Zitatsammlung",
-		"entries": "Artikel"
+		"entries": "Artikel",
+		"search-input-label": "Wikiquote durchsuchen",
+		"language-button-text": "Wikiquote in deiner Sprache lesen"
 	},
 	"wikisource": {
 		"name": "Wikisource",
