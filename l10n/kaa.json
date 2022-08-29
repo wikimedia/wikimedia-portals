@@ -43,7 +43,9 @@
 	"wikinews": {
 		"name": "Wikijańalıq",
 		"slogan": "Biypul jańalıq deregi",
-		"entries": "maqalalar"
+		"entries": "maqalalar",
+		"search-input-label": "Wikijańalıqtan izlew",
+		"language-button-text": "Wikijańalıqtı óz tilińizde oqıń"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",

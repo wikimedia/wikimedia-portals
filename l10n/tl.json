@@ -1,18 +1,90 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"GinawaSaHapon"
+		]
 	},
 	"language-name": "Tagalog",
+	"footer-donate": "Pwede mong masuportahan ang aming gawa sa pamamagitan ng donasyon.",
+	"license": "Magagamit ang pahinang ito sa ilalim ng <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lisensiyang Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Kasunduan sa Paggamit",
+	"privacy-policy": "Patakaran sa Pagkapribado",
+	"search-input-button": "Maghanap",
+	"other-languages-label": "Ibang wika",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Ang Malayang Ensiklopedya"
+		"slogan": "Ang Malayang Ensiklopedya",
+		"entries": "mga artikulo",
+		"search-input-label": "Maghanap sa Wikipedia",
+		"language-button-text": "Basahin ang Wikipedia sa wika mo",
+		"footer-description": "Hino-host ang Wikipedia ng Wikimedia Foundation, isang non-profit na organisasyon na nagho-host din ng marami pang ibang mga proyekto.",
+		"app-links": {
+			"title": "I-download ang Wikipedia para sa Android o iOS",
+			"description": "I-save ang mga paborito mong artikulo para mabasa ito offline, i-sync ang mga listahan ng babasahin mo sa iba't-ibang mga device at i-customize ang karanasan mo sa pagbabasa gamit ang opisyal na Wikipedia app.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
-		"slogan": "Ang malayang diksyonaryo"
+		"slogan": "Ang malayang diksyonaryo",
+		"entries": "mga entry",
+		"search-input-label": "Maghanap sa Wiktionary",
+		"language-button-text": "Basahin ang Wiktionary sa wika mo"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
-		"slogan": "Mula sa Wikibooks, ang koleksyon ng mga malayang-kontentong pang-araling aklat."
+		"slogan": "Ang malayang textbook",
+		"entries": "mga pahina",
+		"search-input-label": "Maghanap sa Wikibooks",
+		"language-button-text": "Basahin ang Wikibooks sa wika mo"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Ang malayang balita",
+		"entries": "mga artikulo",
+		"search-input-label": "Maghanap sa Wikinews",
+		"language-button-text": "Basahin ang Wikinews sa wika mo"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Ang malayang talasipian",
+		"entries": "mga artikulo",
+		"search-input-label": "Maghanap sa Wikiquote",
+		"language-button-text": "Basahin ang Wikiquote sa wika mo"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Ang malayang aklatan"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Ang malayang kurso",
+		"entries": "mga learning resource"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Ang malayang paglalakbay"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Mga magagamit na larawan & iba pa"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Ang malayang direktoryo ng espesye"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Ang malayang kaalaman"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Ang libre & open wiki application"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Pakikipagtulungan ng pamayanan & dokumentasyon"
 	}
 }

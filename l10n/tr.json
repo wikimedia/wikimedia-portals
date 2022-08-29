@@ -62,7 +62,9 @@
 	"wikinews": {
 		"name": "Vikihaber",
 		"slogan": "Özgür haber kaynağı",
-		"entries": "maddeler"
+		"entries": "maddeler",
+		"search-input-label": "Vikihaber'de Ara",
+		"language-button-text": "Vikihaber'i kendi dilinizde okuyun"
 	},
 	"wikiquote": {
 		"name": "Vikisöz",
