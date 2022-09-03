@@ -24,10 +24,10 @@
 		"key": "wiki"
 	},
 	{
-		"name": "Wikinews",
-		"url": "//www.wikinews.org/",
-		"tagline": "Free news source",
-		"key": "wikinews"
+		"name": "Wikibooks",
+		"url": "//www.wikibooks.org/",
+		"tagline": "Free textbooks",
+		"key": "wikibooks"
 	},
 	{
 		"name": "Wikidata",
