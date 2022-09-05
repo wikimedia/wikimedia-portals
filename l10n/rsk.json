@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Keresturec"
+			"Keresturec",
+			"Vlad5250"
 		]
 	},
 	"language-name": "руски",
@@ -45,7 +46,9 @@
 	"wikinews": {
 		"name": "Викиновосци",
 		"slogan": "Шлєбодне жридло вистох",
-		"entries": "статї"
+		"entries": "статї",
+		"search-input-label": "Преглєдуйце Викиновини",
+		"language-button-text": "Читай Викиновини на своїм язику"
 	},
 	"wikiquote": {
 		"name": "Викицитат",
