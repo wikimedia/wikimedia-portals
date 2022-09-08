@@ -8,7 +8,7 @@
 	"language-name": "کٲشُر",
 	"language-name-romanized": "کٲشُر",
 	"language-name-romanized-sorted": "کٲشُر",
-	"footer-donate": "تۄہہِ ہؠکِیوٚ سہارٕ بٕنِتھ سانہِ کامہِ ہِیوٚنٛد بذٕریعہ زَکات.",
+	"footer-donate": "تۄہہِ ہیٚکِو سَہارٕ بٕنِتھ سانہِ کامہِ ہِیوٚنٛد بذٕریعہ زَکات.",
 	"license": "یہِ صَفہٕ چھُ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>کرٛییٹِو کامَنٕز اِنتِساب-یَکسان شَرکَژ اِجازَت نامہٕ</a> تَحَت دٕستِیاب",
 	"terms": "اِستِمالٕک شَرٕط",
 	"privacy-policy": "رازدٲری اصوٗل",
@@ -48,7 +48,9 @@
 	"wikinews": {
 		"name": "وِکی خَبر",
 		"slogan": "مُفت خبر سورٕس",
-		"entries": "مَضموٗن"
+		"entries": "مَضموٗن",
+		"search-input-label": "وِکیٖخَبرَن مَنٛز کٕرو تلاش",
+		"language-button-text": "پَنہٕ زَبانہٕ مَنٛز پٔرِٛو وِکیٖخَبرٕ"
 	},
 	"wikiquote": {
 		"name": "وِکیٖکووٕٹ",
