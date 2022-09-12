@@ -1,0 +1,89 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahmedadeljaff"
+		]
+	},
+	"footer-donate": "تكدر تساعد شغلنا بالتبرع.",
+	"license": "هذه الصفحة منشوره <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ar '>برخصة المشاع الإبداعي</a>",
+	"terms": "شروط الأستخدام",
+	"privacy-policy": "سياسة الخصوصيه",
+	"search-input-button": "بـحـث",
+	"other-languages-label": "لغات ثانية",
+	"wiki": {
+		"name": "ويكيبيديا",
+		"slogan": "الموسوعة الحرة",
+		"entries": "مقالآت",
+		"search-input-label": "ابحث فـي ويكيبيديا",
+		"language-button-text": "اقرا ويكيبيديا بلغتك",
+		"footer-description": "ويكيبيديا تتم استضافتها بواسطة مؤوسسة ويكيميديا، وهي منظمة غير ربحية تستضيف أيضا مجموعة من المشاريع الأخرى.",
+		"app-links": {
+			"title": "قم بتنزيل ويكيبيديا لاندرويد أو آي أو اس",
+			"description": "احفظ مقالاتك المفضلة للقراءة في وضع ماكو اتصال وزامن قوائم القراءة ويه الأجهزة وتخصيص تجربة القراءة الخاصة  بتطبيق ويكيبيديا الرسمي.",
+			"google-store": "ستور Google Play",
+			"apple-store": "ستور Apple App",
+			"url": "https://ar.wikipedia.org/wiki/قائمة_تطبيقات_ويكيبيديا_للتلفون"
+		}
+	},
+	"wiktionary": {
+		"name": "ويكامـوس",
+		"slogan": "قامـوس حـر",
+		"entries": "مقـالات",
+		"search-input-label": "ابحث في ويكامـوس",
+		"language-button-text": "اقرا ويكامـوس بلغتك"
+	},
+	"wikibooks": {
+		"name": "ويكي الكـتب",
+		"slogan": "كتب مدرسـية مجـانية",
+		"entries": "الصفحـات",
+		"search-input-label": "ابحث في ويكي الكتـب",
+		"language-button-text": "اقرا ويكي الكتـب بلغتك"
+	},
+	"wikinews": {
+		"name": "ويكي الاخبـار",
+		"slogan": "مصادر مجانية جديده",
+		"entries": "مقـالات",
+		"search-input-label": "ابحث فـي ويكي الاخبـار",
+		"language-button-text": "اقرأ ويكي الاخبـار بلغتك"
+	},
+	"wikiquote": {
+		"name": "ويكي الاقتبـاس",
+		"slogan": "خلاصة اقتبـاسات حرة",
+		"entries": "مقـالات",
+		"search-input-label": "ابحث في ويكي اقتبـاس",
+		"language-button-text": "اقرا ويكي اقتبـاس بلغتك"
+	},
+	"wikisource": {
+		"name": "ويكي سورس",
+		"slogan": "مكتبة مجانيـة"
+	},
+	"wikiversity": {
+		"name": "ويكي الجامعـة",
+		"slogan": "المواد الدراسيـة المجانـية",
+		"entries": "مصـادر التعـلم"
+	},
+	"wikivoyage": {
+		"name": "ويكي الرحـلات",
+		"slogan": "دليل سفـر مجـاني"
+	},
+	"commons": {
+		"name": "كومنـز",
+		"slogan": "الصور الي يمكن استخدامها بحرية والمزيد"
+	},
+	"wikispecies": {
+		"name": "ويكي الانواع",
+		"slogan": "دليل الانواع الحـر"
+	},
+	"wikidata": {
+		"name": "ويكي داتا",
+		"slogan": "قاعدة البيانات الحـره"
+	},
+	"mediawiki": {
+		"name": "ميديا ويكي",
+		"slogan": "برمجيات الويكي الحـره"
+	},
+	"metawiki": {
+		"name": "ميتا-ويكي",
+		"slogan": "تنسيق & توثيق مشاريع ويكيميديا"
+	}
+}

@@ -4,6 +4,7 @@
 			"ASHmed",
 			"Amire80",
 			"DRIHEM",
+			"Dr-Taher",
 			"Hhaboh162002",
 			"Meno25",
 			"Mido",
@@ -57,12 +58,15 @@
 		"name": "ويكي الأخبار",
 		"slogan": "مصادر مجانية جديدة",
 		"entries": "مقالات",
+		"search-input-label": "بحث في ويكي الأخبار",
 		"language-button-text": "اقرأ ويكي الأخبار بلغتك"
 	},
 	"wikiquote": {
 		"name": "ويكي الاقتباس",
 		"slogan": "خلاصة اقتباسات  حرة",
-		"entries": "مقالات"
+		"entries": "مقالات",
+		"search-input-label": "ابحث في ويكي الاقتباس",
+		"language-button-text": "اقرأ ويكي الاقتباس بلغتك"
 	},
 	"wikisource": {
 		"name": "ويكي مصدر",

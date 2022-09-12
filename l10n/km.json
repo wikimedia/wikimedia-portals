@@ -10,12 +10,14 @@
 	"language-name": "ភាសាខ្មែរ",
 	"language-name-romanized": "Phéasa Khmér",
 	"language-name-romanized-sorted": "Khmer, Pheasa",
+	"footer-donate": "អ្នកអាចគាំទ្រការងាររបស់យើងខ្ញុំដោយធ្វើការបរិច្ចាគវិភាគទាន។",
 	"license": "ទំព័រនេះត្រូវបានផ្ដល់ជូនក្រោមអាជ្ញាប័ណ្ណ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "លក្ខខណ្ឌប្រើប្រាស់",
 	"privacy-policy": "គោលការណ៍នៃ​ភាពឯកជន",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/km",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/km",
 	"search-input-button": "ស្វែងរក",
+	"other-languages-label": "ភាសា​ដទៃ​ទៀត",
 	"wiki": {
 		"name": "វិគីភីឌៀ",
 		"slogan": "សព្វវចនាធិប្បាយសេរី",
@@ -25,28 +27,38 @@
 		"footer-description": "វិគីភីឌាត្រូវបានដំណើរការដោយមូលនិធិវិគីមេឌា ដែលជាអង្គការមិនយកប្រាក់ចំណេញ និងកំពុងដំណើរការគម្រោងមួយចំនួនផ្សេងទៀតដែរ។",
 		"app-links": {
 			"title": "ទាញយកកម្មវិធីវិគីភីឌាសម្រាប់ Android ឬ iOS",
-			"description": "រក្សាទុកអត្ថបទដែលអ្នកពេញចិត្ត ដើម្បីអាននៅក្រៅបណ្ដាញ សមកាលបញ្ជីអានរបស់អ្នកឆ្លងឧបករណ៍ និងផ្លាស់ប្ដូរបទពិសោធន៍ការអានរបស់អ្នកជាមួយកម្មវិធី វិគីភីឌាផ្លូវការ។"
+			"description": "រក្សាទុកអត្ថបទដែលអ្នកពេញចិត្ត ដើម្បីអាននៅក្រៅបណ្ដាញ សមកាលបញ្ជីអានរបស់អ្នកឆ្លងឧបករណ៍ និងផ្លាស់ប្ដូរបទពិសោធន៍ការអានរបស់អ្នកជាមួយកម្មវិធី វិគីភីឌាផ្លូវការ។",
+			"google-store": "ហាងកម្មវិធីរបស់​ Google",
+			"apple-store": "ហាងកម្មវិធីរបស់ Apple"
 		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "វចនានុក្រមសេរី",
-		"entries": "អត្ថបទ"
+		"entries": "អត្ថបទ",
+		"search-input-label": "ស្វែងរកក្នុង Wiktionary",
+		"language-button-text": "អាន Wiktionary ជាភាសារបស់អ្នក"
 	},
 	"wikibooks": {
 		"name": "វិគីសៀវភៅ",
 		"slogan": "សៀវភៅឯកសារ​ឥតគិតថ្លៃ",
-		"entries": "ទំព័រ"
+		"entries": "ទំព័រ",
+		"search-input-label": "ស្វែងរកក្នុង Wikibooks",
+		"language-button-text": "អាន Wikibooks ជាភាសារបស់អ្នក"
 	},
 	"wikinews": {
 		"name": "វិគីព័ត៌មាន",
 		"slogan": "ព័ត៌មានឥតគិតថ្លៃ",
-		"entries": "អត្ថបទ"
+		"entries": "អត្ថបទ",
+		"search-input-label": "ស្វែងរកក្នុង Wikinews",
+		"language-button-text": "អាន Wikinews ជាភាសារបស់អ្នក"
 	},
 	"wikiquote": {
 		"name": "វិគីពាក្យពេចន៍",
 		"slogan": "ប្រជុំ​ពាក្យពេចន៍​របស់មនុស្ស​ល្បីៗ",
-		"entries": "អត្ថបទ"
+		"entries": "អត្ថបទ",
+		"search-input-label": "ស្វែងរកក្នុង Wikiquote",
+		"language-button-text": "អាន Wikiquote ជាភាសារបស់អ្នក"
 	},
 	"wikisource": {
 		"name": "វិគីបណ្ណាល័យ​",
