@@ -60,7 +60,9 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Free course materials",
-		"entries": "learning resources"
+		"entries": "learning resources",
+		"search-input-label": "Search Wikiversity",
+		"language-button-text": "Read Wikiversity in your language"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
