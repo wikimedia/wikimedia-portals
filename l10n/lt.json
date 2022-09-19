@@ -5,6 +5,7 @@
 			"Eitvys200",
 			"Manvydasz",
 			"Naktis",
+			"Pavel1513",
 			"Tomasdd",
 			"Zygimantus"
 		]
@@ -56,7 +57,9 @@
 	"wikiversity": {
 		"name": "Vikiversitetas",
 		"slogan": "Nemokama kursų medžiaga",
-		"entries": "mokymosi ištekliai"
+		"entries": "mokymosi ištekliai",
+		"search-input-label": "Ieškoti \"Wikiversity\" svetainėje",
+		"language-button-text": "Skaityti \"Wikiversity\" savo kalba"
 	},
 	"wikivoyage": {
 		"name": "Vikikelionės",

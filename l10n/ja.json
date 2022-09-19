@@ -70,7 +70,8 @@
 	"wikiversity": {
 		"name": "ウィキバーシティ",
 		"slogan": "フリーな学習教材",
-		"entries": "学びに役立つ教材"
+		"entries": "学びに役立つ教材",
+		"search-input-label": "ウィキバーシティを検索"
 	},
 	"wikivoyage": {
 		"name": "ウィキボヤージュ",

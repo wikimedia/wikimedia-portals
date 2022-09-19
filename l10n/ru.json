@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Deltaspace",
 			"Iniquity",
 			"Jack who built the house",
 			"Kaganer",
@@ -76,7 +77,9 @@
 	"wikiversity": {
 		"name": "Викиверситет",
 		"slogan": "Свободные учебные курсы",
-		"entries": "образовательных материалов"
+		"entries": "образовательных материалов",
+		"search-input-label": "Поиск в Викиверситете",
+		"language-button-text": "Читайте Викиверситет на вашем языке"
 	},
 	"wikivoyage": {
 		"name": "Викигид",

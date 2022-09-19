@@ -61,7 +61,9 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Ang malayang kurso",
-		"entries": "mga learning resource"
+		"entries": "mga learning resource",
+		"search-input-label": "Maghanap sa Wikiversity",
+		"language-button-text": "Basahin ang Wikiversity sa wika mo"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
