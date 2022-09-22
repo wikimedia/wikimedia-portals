@@ -31,7 +31,7 @@
 		}
 	},
 	"wiktionary": {
-		"name": "Wiktionary",
+		"name": "Wikitzionàriu",
 		"slogan": "Su ditzionàriu lìberu",
 		"entries": "paràulas",
 		"search-input-label": "Chirca in su Wikitzionàriu",
@@ -63,9 +63,11 @@
 		"slogan": "Sa biblioteca lìbera"
 	},
 	"wikiversity": {
-		"name": "Wikiversity",
+		"name": "Wikiversidade",
 		"slogan": "S'universidade lìbera",
-		"entries": "cursos e letziones"
+		"entries": "cursos e letziones",
+		"search-input-label": "Chirca in sa Wikiversidade",
+		"language-button-text": "Leghe sa Wikiversidade in sa limba tua"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",

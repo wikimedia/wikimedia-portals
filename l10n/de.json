@@ -6,6 +6,7 @@
 			"Brettchenweber",
 			"Gebu",
 			"Gnom",
+			"Justman10000",
 			"ManuelFranz",
 			"Metalhead64",
 			"ThisCarthing",
@@ -71,7 +72,9 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Freie Lehr- und Lernmaterialien",
-		"entries": "Lehrmittel"
+		"entries": "Lehrmittel",
+		"search-input-label": "Wikiversity durchsuchen",
+		"language-button-text": "Wikiversity in deiner Sprache lesen"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",

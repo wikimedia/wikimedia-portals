@@ -75,7 +75,8 @@
 	"wikiversity": {
 		"name": "ويكي الجامعة",
 		"slogan": "المواد الدراسية المجانية",
-		"entries": "مصادر التعلم"
+		"entries": "مصادر التعلم",
+		"language-button-text": "اقرأ ويكي الجامعة بلغتك"
 	},
 	"wikivoyage": {
 		"name": "ويكي الرحلات",

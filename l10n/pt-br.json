@@ -69,7 +69,9 @@
 	"wikiversity": {
 		"name": "Wikiversidade",
 		"slogan": "Materiais educativos livres",
-		"entries": "recursos de aprendizagem"
+		"entries": "recursos de aprendizagem",
+		"search-input-label": "Pesquisar na Wikiversidade",
+		"language-button-text": "Ler a Wikiversidade no seu idioma"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",

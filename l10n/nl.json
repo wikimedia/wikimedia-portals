@@ -6,6 +6,7 @@
 			"Elroy",
 			"Encycloon",
 			"Marcelhospers",
+			"McDutchie",
 			"Nickthijssen1994",
 			"Optilete",
 			"Pcoombe",
@@ -67,7 +68,9 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Vrij cursusmateriaal",
-		"entries": "leermiddelen"
+		"entries": "leermiddelen",
+		"search-input-label": "Wikiversity doorzoeken",
+		"language-button-text": "Wikiversity in uw taal lezen"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",

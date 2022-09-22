@@ -65,7 +65,9 @@
 	"wikiversity": {
 		"name": "Wikiverza",
 		"slogan": "Prosti spletni univerzi",
-		"entries": "člankov"
+		"entries": "člankov",
+		"search-input-label": "Preišči Wikiverzo",
+		"language-button-text": "Berite Wikiverzo v svojem jeziku"
 	},
 	"wikivoyage": {
 		"name": "Wikipotovanje",
