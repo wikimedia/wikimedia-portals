@@ -44,12 +44,16 @@
 	"wikinews": {
 		"name": "Wikithâtih",
 		"slogan": "Thâtih hnawh saipa",
-		"entries": "châpawzy"
+		"entries": "châpawzy",
+		"search-input-label": "Wikithâtih lia tlua",
+		"language-button-text": "Wikithâtih he nâma reihchâ lâta reih teh"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Bie reipachhuah saipa pahmaohpa",
-		"entries": "châpawzy"
+		"entries": "châpawzy",
+		"search-input-label": "Wikiquote lia tlua",
+		"language-button-text": "Wikiquote Wikiquote"
 	},
 	"wikisource": {
 		"name": "Wikihnawh",
@@ -58,7 +62,9 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Châchu awpa saipazy",
-		"entries": "Hnawhzy achuna"
+		"entries": "Hnawhzy achuna",
+		"search-input-label": "Wikiversity lia tlua",
+		"language-button-text": "Wikiversity he nâma reihchâ lâta reih teh"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
