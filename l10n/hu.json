@@ -65,7 +65,9 @@
 	"wikiversity": {
 		"name": "Wikiegyetem",
 		"slogan": "Szabad tananyagok",
-		"entries": "tanulási segédlet"
+		"entries": "tanulási segédlet",
+		"search-input-label": "Keresés a Wikiegyetemen",
+		"language-button-text": "Olvasd a Wikiegyetemet az anyanyelveden"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
