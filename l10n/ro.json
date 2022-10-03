@@ -65,7 +65,9 @@
 	"wikiversity": {
 		"name": "Wikiversitate",
 		"slogan": "Materiale de studiu libere",
-		"entries": "resurse de învățare"
+		"entries": "resurse de învățare",
+		"search-input-label": "Căutare în Wikiversitate",
+		"language-button-text": "Citiți Wikiversitate în limba dvs."
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",

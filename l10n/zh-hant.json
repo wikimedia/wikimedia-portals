@@ -33,7 +33,7 @@
 			"title": "下載適用於 Android 或 iOS 的維基百科",
 			"description": "以官方維基百科應用程式來儲存您喜愛的條目以便離線閱讀，並跨裝置同步您的閱讀清單，和自訂化您的閱讀體驗。",
 			"google-store": "Google Play 商店",
-			"apple-store": "App Store 商店",
+			"apple-store": "Apple App 商店",
 			"url": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F"
 		}
 	},
@@ -72,7 +72,9 @@
 	"wikiversity": {
 		"name": "維基學院",
 		"slogan": "自由的研習社群",
-		"entries": "學習資源"
+		"entries": "學習資源",
+		"search-input-label": "搜尋維基學院",
+		"language-button-text": "以您的語言閱讀維基學院"
 	},
 	"wikivoyage": {
 		"name": "維基導遊",
