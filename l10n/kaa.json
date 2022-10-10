@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajiniyaz",
 			"Nurlan"
 		]
 	},
@@ -15,11 +16,11 @@
 		"name": "Wikipedia",
 		"slogan": "Qaraqalpaq Erkin Ensiklopediyası",
 		"entries": "maqalalar",
-		"search-input-label": "Wikipediyadan qıdırıń",
+		"search-input-label": "Wikipediyada izleń",
 		"language-button-text": "Wikipediyanı óz tilińizde oqıń",
-		"footer-description": "Wikipediya Wikimedia Foundation kommerciyalıq bolmaǵan shólkemi tárepinen uyımlastırılǵan bolıp, ol basqa bir qatar joybarlarǵa da miyman kútiwshilik etedi.",
+		"footer-description": "Wikipediya Wikimedia Foundation kommerciyalıq bolmaǵan shólkemi tárepinen uyımlastırılǵan bolıp, ol basqa bir qatar joybarlarǵa da iyelik etedi.",
 		"app-links": {
-			"title": "Android yamasa IOS ushın wikipediyanı júklep alıń",
+			"title": "Android yamasa IOS ushın Wikipediyanı júklep alıń",
 			"description": "Súyikli maqalalarıńızdı oflayn rejimde oqıw ushın saqlań, oqıw dizimlerińizdi apparatlarda sinxronlastırıń hám official wikipediya qosımshası járdeminde oqıw tájiriybeńizdi sazlań.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
@@ -31,7 +32,7 @@
 		"slogan": "Biypul sózlik",
 		"entries": "jazıwlar",
 		"search-input-label": "Wikisózlikten izlew",
-		"language-button-text": "Wikisózlikti óz tilińizde oqiń"
+		"language-button-text": "Wikisózlikti óz tilińizde oqıń"
 	},
 	"wikibooks": {
 		"name": "Wikikitap",
@@ -48,7 +49,7 @@
 		"language-button-text": "Wikijańalıqtı óz tilińizde oqıń"
 	},
 	"wikiquote": {
-		"name": "Wikiquote",
+		"name": "Wikicitata",
 		"slogan": "Biypul usınıs toplamı",
 		"entries": "maqalalar",
 		"search-input-label": "Wikitúrlerden izlew",
@@ -61,7 +62,9 @@
 	"wikiversity": {
 		"name": "Wikiversitet",
 		"slogan": "Biypul sabaqlıq materialları",
-		"entries": "oqıw derekleri"
+		"entries": "oqıw derekleri",
+		"search-input-label": "Wikiversitette izlew",
+		"language-button-text": "Wikiversitetti óz tilińizde oqıń"
 	},
 	"wikivoyage": {
 		"name": "Wikigid",

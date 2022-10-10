@@ -66,7 +66,9 @@
 	"wikiversity": {
 		"name": "وِکی جامِعہ",
 		"slogan": "مُفت کورٕس چیٖز",
-		"entries": "ہؠچِھنٕکی ذرٲیی"
+		"entries": "ہؠچِھنٕکی ذرٲیی",
+		"search-input-label": "وِکیٖوَرسِٹیس منز ژھٲرِیوٚ",
+		"language-button-text": "پنٕنہِ زبانہِ منٛز پٕریٚو وِکیٖوَرسِٹی"
 	},
 	"wikivoyage": {
 		"name": "وِکیسَفر",

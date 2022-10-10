@@ -17,49 +17,71 @@
 		"slogan": "مفت انسائیکلوپیڈیا",
 		"entries": "لیکھ",
 		"search-input-label": "وکیپیڈیا وچ کھوجو",
-		"language-button-text": "اپنی بولی وچ ویکیپیڈیا پڑھو"
+		"language-button-text": "اپنی بولی وچ ویکیپیڈیا پڑھو",
+		"app-links": {
+			"title": "آنڈروئیڈ یا آئی‌فون لئی وِکیپیڈیا دا اَیپ ڈاؤن‌لوڈ کریو",
+			"google-store": "گوگل پلے سٹور",
+			"apple-store": "اَیپل اَیپ سٹور"
+		}
 	},
 	"wiktionary": {
 		"name": "وکشنری",
 		"slogan": "مفت ڈکشنری",
-		"entries": "اینٹریاں"
+		"entries": "اینٹریاں",
+		"search-input-label": "وِکشنیری تے کھوجیو",
+		"language-button-text": "تہاڈیاں بولی وچ وِکشنیری پڑھایو"
 	},
 	"wikibooks": {
 		"name": "ویکی کتاباں",
 		"slogan": "مفت ٹیکسٹ کتاباں",
-		"entries": "صفحے"
+		"entries": "صفحے",
+		"search-input-label": "وِکی کتاباں تے کھوجیو",
+		"language-button-text": "تہاڈیاں بولی وچ وِکی کتاباں پڑھایو"
 	},
 	"wikinews": {
 		"name": "ویکی خبراں",
 		"slogan": "مفت خبراں زریعے",
-		"entries": "لیکھ"
+		"entries": "لیکھ",
+		"search-input-label": "وِکی خبراں تے کھوجیو",
+		"language-button-text": "تہاڈیاں بولی وچ وِکی خبراں پڑھایو"
 	},
 	"wikiquote": {
 		"name": "ویکی اقوال",
-		"entries": "لیکھ"
+		"slogan": "آزاد افباس دا جلاصہ",
+		"entries": "لیکھ",
+		"search-input-label": "وِکی افباس تے کھوجیو",
+		"language-button-text": "تہاڈیاں بولی وچ وِکی افباس پڑھایو"
 	},
 	"wikisource": {
 		"name": "وکی زریعے",
 		"slogan": "مفت لائبریری"
 	},
 	"wikiversity": {
-		"name": "وکی ورسٹی"
+		"name": "وکی ورسٹی",
+		"slogan": "آزاد کورس دا مواد",
+		"entries": "سکھݨ کیتے وسائل",
+		"search-input-label": "وِکیویرسیٹی تے کھوجیو",
+		"language-button-text": "تہادیاں بولی وچ وِکیویرسیٹی پڑھایو"
 	},
 	"wikivoyage": {
 		"name": "وکی سفر",
 		"slogan": "مفت ٹریول گائیڈ"
 	},
 	"commons": {
-		"name": "کامنز"
+		"name": "کامنز",
+		"slogan": "آزاد تصویراں تے ہور میڈیا"
 	},
 	"wikispecies": {
-		"name": "وکی انواح"
+		"name": "وکی انواح",
+		"slogan": "آزاد ٹیکسون ڈائیریکٹری"
 	},
 	"wikidata": {
-		"name": "وِکیڈیٹا"
+		"name": "وِکیڈیٹا",
+		"slogan": "آزاد جاݨ بنیاد"
 	},
 	"mediawiki": {
-		"name": "میڈیا وکی"
+		"name": "میڈیا وکی",
+		"slogan": "آزاد تے مفت وِکی ایپلیکیشن"
 	},
 	"metawiki": {
 		"name": "میٹا-وکی"
