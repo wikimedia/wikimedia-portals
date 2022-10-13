@@ -49,12 +49,16 @@
 	"wikinews": {
 		"name": "Вікінавіны",
 		"slogan": "Вольная крыніца навінаў",
-		"entries": "артыкулы"
+		"entries": "артыкулы",
+		"search-input-label": "Пошук у Вікінавінах",
+		"language-button-text": "Чытайце Вікінавіны сваёй мовай"
 	},
 	"wikiquote": {
 		"name": "Вікіцытатнік",
 		"slogan": "Вольны зборнік цытатаў",
-		"entries": "артыкулы"
+		"entries": "артыкулы",
+		"search-input-label": "Пошук у Вікіцытатніку",
+		"language-button-text": "Чытайце Вікіцытатнік сваёй мовай"
 	},
 	"wikisource": {
 		"name": "Вікікрыніцы",
@@ -63,7 +67,9 @@
 	"wikiversity": {
 		"name": "Віківэрсытэт",
 		"slogan": "Вольныя адукацыйныя матэрыялы",
-		"entries": "адукацыйныя рэсурсы"
+		"entries": "адукацыйныя рэсурсы",
+		"search-input-label": "Пошук у Віківэрсытэце",
+		"language-button-text": "Чытайце Віківэрсытэт сваёй мовай"
 	},
 	"wikivoyage": {
 		"name": "Віківандроўка",
