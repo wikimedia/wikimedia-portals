@@ -1,53 +1,94 @@
 {
 	"@metadata": {
 		"authors": [
-			"Guillermo2149"
+			"Guillermo2149",
+			"P. S. F. Freitas"
 		]
 	},
 	"language-name": "Avañe’ẽ",
 	"language-name-romanized-sorted": "Avanee",
+	"footer-donate": "Ikatu reipytyvõ ore rembiapo viru ñeme'ẽ rupive.",
+	"license": "Ko kuatiarogue ojeguereko <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> rupive",
+	"terms": "Ñe'ẽme'ẽ Jepururã",
+	"privacy-policy": "Marandu Ñeñangareko Rekorã",
+	"search-input-button": "Eheka",
+	"other-languages-label": "Ambue ñe'ẽ",
 	"wiki": {
 		"name": "Vikipetã",
-		"slogan": "Kuatiañe'ẽ isãsóva",
+		"slogan": "Opaite tembikuaa hekosãsóva renda",
 		"entries": "haipykuéra",
+		"search-input-label": "Eheka Vikipetãme",
 		"language-button-text": "Emoñe'ẽ Vikipetã ne ñe'ẽme",
-		"footer-description": "Vikipetã niko Wikimedia Foundation mba'e, peteĩ amandaje avei oguerekóva heta ambue ñanduti rogue."
+		"footer-description": "Vikipetã ha'e Wikimedia Foundation mba'e, peteĩ aty viruremimono'õ'ỹva orekóva avei heta apopyrã ambuéva.",
+		"app-links": {
+			"title": "Emboguejy Vikipetã Android térã iOS-pe g̃uarã",
+			"description": "Eñongatu nde kuatiarogue rehayhuvéva emoñe'ẽ hag̃ua internet'ỹre, embojoaju nde rysýi moñe'ẽrã tembipurukuéra apytépe ha emohenda ne moñe'ẽrã rembiasa Vikipetã purupyrã tee reheve.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
-		"name": "Wiktionary",
-		"slogan": "Ñe'ẽndy isãsóva"
+		"name": "Vikiñe'ẽndy",
+		"slogan": "Ñe'ẽndy isãsóva",
+		"entries": "kuatiakuéra",
+		"search-input-label": "Eheka Vikiñe'ẽndýpe",
+		"language-button-text": "Emoñe'ẽ Vikiñe'ẽndýpe ne ñe'ẽme"
 	},
 	"wikibooks": {
-		"name": "Vikuatiañe'ẽ",
+		"name": "Vikiaranduka",
 		"slogan": "Kuatiañe'ẽ aty isãsóva",
-		"entries": "kuatiaroguekuéra"
+		"entries": "kuatiaroguekuéra",
+		"search-input-label": "Eheka Vikiarandukápe",
+		"language-button-text": "Emoñe'ẽ Vikiaranduka ne ñe'ẽme"
 	},
 	"wikinews": {
 		"name": "Vikimarandu",
-		"entries": "haipykuéra"
+		"slogan": "Marandukuéra hekosãsóva renda",
+		"entries": "haipykuéra",
+		"search-input-label": "Eheka Vikimarandúpe",
+		"language-button-text": "Emoñe'ẽ Vikimarandu ne ñe'ẽme"
 	},
 	"wikiquote": {
 		"name": "Vikiñe'ẽnga",
-		"entries": "haipykuéra"
+		"slogan": "Ñe'ẽnga aty hekosãsóva",
+		"entries": "haipykuéra",
+		"search-input-label": "Eheka Vikiñe'ẽngápe",
+		"language-button-text": "Emoñe'ẽ Vikiñe'ẽnga ne ñe'ẽme"
 	},
 	"wikisource": {
 		"name": "Vikihaipy",
 		"slogan": "Aranduka renda isãsóva"
 	},
 	"wikiversity": {
-		"name": "Vikimboe'hao",
-		"slogan": "Mba'e kuaaha mbo'ehaorã"
+		"name": "Vikimbo'ehao",
+		"slogan": "Mba'e kuaaha mbo'ehaorã",
+		"entries": "ñemomarandu rembiporukuéra",
+		"search-input-label": "Eheka Vikimbo'ehaópe",
+		"language-button-text": "Emoñe'ẽ Vikimbo'ehao ne ñe'ẽme"
 	},
 	"wikivoyage": {
-		"name": "Vikiandu"
+		"name": "Vikiandu",
+		"slogan": "Jeho mombyry motenondeha"
 	},
 	"commons": {
+		"name": "Commons",
 		"slogan": "Ta'anga pururã & hetave"
 	},
 	"wikispecies": {
-		"name": "Vikimymba"
+		"name": "Vikovekuaaty",
+		"slogan": "Tekovekuaaty rysýi hekosãsóva"
 	},
 	"wikidata": {
-		"name": "Vikuaaha"
+		"name": "Vikuaaha",
+		"slogan": "Mba'ekuaapy hekosãsóva"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Viki rembiporukuéra hekosãsóva"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Ore rekoha sãmbyhyha ha kuatiakuéra"
 	}
 }

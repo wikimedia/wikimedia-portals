@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hussein m mmbaga"
+			"Hussein m mmbaga",
+			"Wangombe"
 		]
 	},
 	"language-name": "Kiswahili",
@@ -30,6 +31,7 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Kamusi huru",
+		"entries": "maingizo",
 		"search-input-label": "Tafuta Wiktionary",
 		"language-button-text": "Soma Wiktionary kwa lugha yako"
 	},
@@ -43,22 +45,31 @@
 	"wikinews": {
 		"name": "Wikihabari",
 		"slogan": "Chanzo cha habari huru",
-		"entries": "Makala"
+		"entries": "Makala",
+		"search-input-label": "Tafuta Wikihabari",
+		"language-button-text": "Soma Wikihabari kwa lugha yako"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Sehemu yenye nukuu bila malipo",
-		"entries": "Makala"
+		"entries": "Makala",
+		"search-input-label": "Tafuta Wikinukuu",
+		"language-button-text": "Soma Wikinukuu katika lugha yako"
 	},
 	"wikisource": {
 		"name": "Wikisource",
 		"slogan": "Maktaba ya bure"
 	},
 	"wikiversity": {
-		"name": "Wikiversity"
+		"name": "Wikiversity",
+		"slogan": "Vifaa vya kozi ya bure",
+		"entries": "rasilimali za kujifunza",
+		"search-input-label": "Tafuta Wikiversity",
+		"language-button-text": "Soma Wikiversity kwa lugha yako"
 	},
 	"wikivoyage": {
-		"name": "Wikivoyage"
+		"name": "Wikivoyage",
+		"slogan": "Mwongozo wa kusafiri bila malipo"
 	},
 	"commons": {
 		"name": "Commons",
