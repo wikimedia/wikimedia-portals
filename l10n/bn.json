@@ -23,7 +23,7 @@
 	"other-languages-label": "অন্যান্য ভাষাসমূহ",
 	"wiki": {
 		"name": "উইকিপিডিয়া",
-		"slogan": "উন্মুক্ত বিশ্বকোষ",
+		"slogan": "একটি মুক্ত বিশ্বকোষ",
 		"entries": "টি নিবন্ধ",
 		"search-input-label": "উইকিপিডিয়ায় অনুসন্ধান করুন",
 		"language-button-text": "আপনার ভাষায় উইকিপিডিয়া পড়ুন",
@@ -53,7 +53,9 @@
 	"wikinews": {
 		"name": "উইকিসংবাদ",
 		"slogan": "উন্মুক্ত সংবাদ উৎস",
-		"entries": "টি নিবন্ধ"
+		"entries": "টি নিবন্ধ",
+		"search-input-label": "উইকিসংবাদ অনুসন্ধান",
+		"language-button-text": "আপনার ভাষায় উইকিসংবাদ পড়ুন"
 	},
 	"wikiquote": {
 		"name": "উইকিউক্তি",
@@ -69,7 +71,9 @@
 	"wikiversity": {
 		"name": "উইকিবিশ্ববিদ্যালয়",
 		"slogan": "উন্মুক্ত শিক্ষা মাধ্যম",
-		"entries": "টি শিক্ষার উপকরণ"
+		"entries": "টি শিক্ষার উপকরণ",
+		"search-input-label": "উইকিবিশ্ববিদ্যালয় অনুসন্ধান",
+		"language-button-text": "আপনার ভাষায় উইকিবিশ্ববিদ্যালয় পড়ুন"
 	},
 	"wikivoyage": {
 		"name": "উইকিভ্রমণ",

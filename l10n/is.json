@@ -64,7 +64,9 @@
 	"wikiversity": {
 		"name": "Wikiháskóli",
 		"slogan": "Frjálst kennsluefni",
-		"entries": "námsefni"
+		"entries": "námsefni",
+		"search-input-label": "Leitaðu á Wikiversity",
+		"language-button-text": "Lesa Wikiversity á þínu tungumáli"
 	},
 	"wikivoyage": {
 		"name": "Wikiferðir",
