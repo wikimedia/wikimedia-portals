@@ -80,7 +80,9 @@
 	"wikiversity": {
 		"name": "Vikiversite",
 		"slogan": "Özgür ders materyalleri",
-		"entries": "öğrenme kaynakları"
+		"entries": "öğrenme kaynakları",
+		"search-input-label": "Vikiversite'de Ara",
+		"language-button-text": "Vikiversite'yi kendi dilinizde okuyun"
 	},
 	"wikivoyage": {
 		"name": "Vikigezgin",
