@@ -66,7 +66,10 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Free travel guide"
+		"slogan": "Free travel guide",
+		"entries": "pages",
+		"search-input-label": "Search Wikivoyage",
+		"language-button-text": "Read Wikivoyage in your language"
 	},
 	"commons": {
 		"name": "Commons",

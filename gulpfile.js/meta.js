@@ -13,13 +13,13 @@ function fetchMeta() {
 
 	requirePortalParam();
 
-	if ( [ 'wikipedia.org', 'wiktionary.org', 'wikibooks.org', 'wikiquote.org', 'wikinews.org', 'wikiversity.org' ].includes( portalParam ) ) {
+	if ( [ 'wikipedia.org', 'wiktionary.org', 'wikibooks.org', 'wikiquote.org', 'wikinews.org', 'wikiversity.org', 'wikivoyage.org' ].includes( portalParam ) ) {
 		console.log( 'Cannot override ' + portalParam + ' portal using fetch-meta.' );
 		return process.exit( 1 );
 	}
 
 	if ( portalParam === 'all' ) {
-		portalsFromMeta = [ 'wikimedia.org', 'wikivoyage.org' ];
+		portalsFromMeta = [ 'wikimedia.org' ];
 
 		portalsFromMeta.forEach( function ( wiki ) {
 			var request = preq.get( 'https://meta.wikimedia.org/w/index.php?title=Www.' + wiki + '_template&action=raw' )
