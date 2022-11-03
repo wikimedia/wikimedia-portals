@@ -44,7 +44,9 @@
 	"wikinews": {
 		"name": "Nkhangwuki",
 		"slogan": "A̱tyin nkhang ma̱sa̱t",
-		"entries": "a̱yaati̱kut"
+		"entries": "a̱yaati̱kut",
+		"search-input-label": "Zop Wukinkhang",
+		"language-button-text": "Fang Wukinkhang da̱ a̱lyem ang ka"
 	},
 	"wikiquote": {
 		"name": "Tyanwuki",
@@ -60,7 +62,9 @@
 	"wikiversity": {
 		"name": "Wukivasi̱ti",
 		"slogan": "Nkyangfang kos ma̱sa̱t",
-		"entries": "nkyang myiam"
+		"entries": "nkyang myiam",
+		"search-input-label": "Zop Wukivasi̱ti",
+		"language-button-text": "Fang Wukivasi̱ti da̱ a̱lyem ang ka"
 	},
 	"wikivoyage": {
 		"name": "A̱cyetwuki",
