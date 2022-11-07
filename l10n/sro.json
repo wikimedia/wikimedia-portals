@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"F Samaritani"
+			"F Samaritani",
+			"Samaritanif"
 		]
 	},
 	"language-name": "Sardu campidanesu",
+	"terms": "Conditzionis de imperu",
 	"privacy-policy": "Normas po s'arriservadesa",
 	"search-input-button": "Circa",
 	"other-languages-label": "Atras lìnguas",
@@ -19,7 +21,8 @@
 		}
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Wiktionary",
+		"language-button-text": "Circa in Wikipedia in prus lìnguas"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
@@ -27,7 +30,8 @@
 	},
 	"wikinews": {
 		"name": "Wikinews",
-		"entries": "Boxis"
+		"entries": "Boxis",
+		"search-input-label": "Circa in Wikinews"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
