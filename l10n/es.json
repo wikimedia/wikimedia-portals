@@ -11,7 +11,8 @@
 			"Macofe",
 			"MarcoAurelio",
 			"McDutchie",
-			"Pcoombe"
+			"Pcoombe",
+			"SpikeShroom"
 		]
 	},
 	"language-name": "Español",
@@ -71,7 +72,10 @@
 	},
 	"wikivoyage": {
 		"name": "Wikiviajes",
-		"slogan": "La guía de viajes libre"
+		"slogan": "La guía de viajes libre",
+		"entries": "páginas",
+		"search-input-label": "Buscar en Wikiviaje",
+		"language-button-text": "Leer Wikipedia en tu idioma"
 	},
 	"commons": {
 		"name": "Commons",

@@ -74,7 +74,8 @@
 	},
 	"wikivoyage": {
 		"name": "Label for Wikivoyage\n{{Identical|Wikivoyage}}\n{{Related|Portals.name}}",
-		"slogan": "The Wikivoyage slogan"
+		"slogan": "The Wikivoyage slogan",
+		"entries": "The name of a content page on Wikivoyages, pluralized."
 	},
 	"commons": {
 		"name": "Label for Wikimedia Commons.",

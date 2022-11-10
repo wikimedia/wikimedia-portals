@@ -72,7 +72,9 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Guida turistica libera"
+		"slogan": "Guida turistica libera",
+		"entries": "pagine",
+		"language-button-text": "Leggi Wikivoyage nella tua lingua"
 	},
 	"commons": {
 		"name": "Commons",

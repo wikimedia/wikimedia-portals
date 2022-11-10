@@ -71,7 +71,10 @@
 	},
 	"wikivoyage": {
 		"name": "Wikipotovanje",
-		"slogan": "Prost potovalni vodnik"
+		"slogan": "Prost potovalni vodnik",
+		"entries": "strani",
+		"search-input-label": "Preišči Wikipotovanje",
+		"language-button-text": "Berite Wikipotovanje v svojem jeziku"
 	},
 	"commons": {
 		"name": "Zbirka",

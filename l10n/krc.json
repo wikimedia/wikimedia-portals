@@ -2,16 +2,98 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Ernác"
+			"Ernác",
+			"Къарачайлы"
 		]
 	},
 	"language-name": "Къарачай–малкъар",
 	"language-name-romanized": "Qaraçay–Malqar",
 	"language-name-romanized-sorted": "Qaracay-Malqar",
+	"footer-donate": "Ишлерибизге багъыш этиб, дагъан болургъа боллукъсуз.",
+	"license": "Бу бет <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike лицензия бла</a> ачыкъды",
+	"terms": "Хайырланыу шартла",
+	"privacy-policy": "Ташалыкъ политика",
+	"search-input-button": "Изле",
+	"other-languages-label": "Башха тилле",
 	"wiki": {
-		"name": "Википедия"
+		"name": "Википедия",
+		"slogan": "Эркин энципклопедия",
+		"entries": "статья",
+		"search-input-label": "Википедияда излеу",
+		"language-button-text": "Википедияны кесигизни тилигизде окъугъуз",
+		"footer-description": "Википедия Викимедианы Фондуну серверлеринде орналгъанды, бу коммерциялы болмагъан, башха талай проектлени ишлеюн баджаргъан къуралышды.",
+		"app-links": {
+			"title": "Андроид неда IOS ючюн Википедияны эндир",
+			"description": "Официал Википедия мобил къошакъны болушлугъу бла джаратхан статьяларыгъызны, оффлайн окъур ючюн сакълагъыз, тюрлю-тюрлю къурамлада хайырланыр ючюн окъуу тизмелеригизге синхронизация этигиз, окъуучу сынамыгъызны айнытыгъыз.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Викисёзлюк",
+		"slogan": "Эркин сёзлюк",
+		"entries": "джазма",
+		"search-input-label": "Викисёзлюкде изле",
+		"language-button-text": "Викисёзлюкню кесигизни тилигизде окъугъуз"
+	},
+	"wikibooks": {
+		"name": "Викикитаб",
+		"slogan": "Эркин дерс китабла",
+		"entries": "бетле",
+		"search-input-label": "Викикитабда изле",
+		"language-button-text": "Викикитабны кесигизни тилигизде окъугъуз"
+	},
+	"wikinews": {
+		"name": "Викиджангылыкъла",
+		"slogan": "Эркин хапар къайнакъ",
+		"entries": "статьяла",
+		"search-input-label": "Викиджангылыкълада изле",
+		"language-button-text": "Викиджангылыкъланы кесигизни тилигизде окъугъуз"
+	},
+	"wikiquote": {
+		"name": "Викисёзле",
+		"slogan": "Эркин цитата джыйым",
+		"entries": "статьяла",
+		"search-input-label": "Викисёзледе изле",
+		"language-button-text": "Викисёзлени кесигизни тилигизде окъугъуз"
+	},
+	"wikisource": {
+		"name": "Викитека",
+		"slogan": "Эркин китабхана"
+	},
+	"wikiversity": {
+		"name": "Викиверситет",
+		"slogan": "Эркин дерс материалла",
+		"entries": "окъуу материалла",
+		"search-input-label": "Викиверситетде изле",
+		"language-button-text": "Викиверситетни кесигизни тилигизде окъугъуз"
+	},
+	"wikivoyage": {
+		"name": "Викигид",
+		"slogan": "Эркин джолоучулукъ гид",
+		"entries": "бетле",
+		"search-input-label": "Викиджолоучулукъда изле",
+		"language-button-text": "Викиджолоучулукъну кесигизни тилигизде окъугъуз"
+	},
+	"commons": {
+		"name": "Викигёзен",
+		"slogan": "Эркин хайырланаллыклъ фотосуратла эмда андан аслмамы"
 	},
 	"wikispecies": {
-		"name": "Викитюрле"
+		"name": "Викитюрле",
+		"slogan": "Тюрлюлени эркин каталогу"
+	},
+	"wikidata": {
+		"name": "Викибилгиле",
+		"slogan": "Эркин билги база"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Эркин эмда ачыкъ вики къошакъ"
+	},
+	"metawiki": {
+		"name": "Мета-вики",
+		"slogan": "Джамагъатны координациясы эмда документациясы"
 	}
 }

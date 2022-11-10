@@ -12,6 +12,7 @@
 	"terms": "ورتݨ شرطاں",
 	"privacy-policy": "رازداری پالیسی",
 	"search-input-button": "ڳولو",
+	"other-languages-label": "ٻیاں زباناں",
 	"wiki": {
 		"name": "وکیپیڈیا",
 		"slogan": "مفت انسائیکلوپیڈیا",
@@ -54,7 +55,8 @@
 	},
 	"wikivoyage": {
 		"name": "وکی سیرسپاٹا",
-		"slogan": "مفت ٹریول گائیڈ"
+		"slogan": "مفت ٹریول گائیڈ",
+		"entries": "ورقے"
 	},
 	"commons": {
 		"name": "کامنز",

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ajiniyaz",
+			"Ajiniyaz Nurniyazov",
 			"Nurlan"
 		]
 	},
@@ -68,10 +69,13 @@
 	},
 	"wikivoyage": {
 		"name": "Wikigid",
-		"slogan": "Biypul sayaxat ushın qollanba"
+		"slogan": "Biypul sayaxat ushın qollanba",
+		"entries": "betler",
+		"search-input-label": "Wikisayaxattan izlew",
+		"language-button-text": "Wikisayaxattı óz tilińizde oqıń"
 	},
 	"commons": {
-		"name": "Commons",
+		"name": "Wikiqoyma",
 		"slogan": "Biypul paydalanıwǵa jaramlı fotosúwretler & basqalar"
 	},
 	"wikispecies": {
