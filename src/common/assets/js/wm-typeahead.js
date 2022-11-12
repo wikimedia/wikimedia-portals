@@ -26,7 +26,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 		typeAheadEl = document.getElementById( typeAheadID ), // Type-ahead DOM element.
 		appendEl = document.getElementById( appendTo ),
 		searchEl = document.getElementById( searchInput ),
-		thumbnailSize = Math.round( getDevicePixelRatio() * 80 ),
+		thumbnailSize = Math.round( getDevicePixelRatio() * 60 ),
 		maxSearchResults = 6,
 		searchLang,
 		searchString,
