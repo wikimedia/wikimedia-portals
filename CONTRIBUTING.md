@@ -74,8 +74,3 @@ Translations are edited through translatewiki.net. To edit a translation, [visit
 
 *See [the l10n section](./docs/architecture/l10n.md) of the technical documentation for more details.*
 
-## Updating Other Portal Pages
-All other WMF project portals are still updated through their respective wiki templates on meta.wikimedia.org, (e.g [wiktionary portal](https://meta.wikimedia.org/wiki/Www.wiktionary.org_template) ). When these pages are updated through the wiki, they must then be copied into this repository in order to be deployed. They are copied using the gulp command `gulp fetch-meta --portal=wiktionary.org` to copy a single portal, or `gulp fetch-meta --portal=all` to copy the newest versions of all the portal pages (except for wikipedia.org) into the repo.
-
-*See the [Sister Project Portals](./docs/development/sister_portals.md) section of the technical documentation for more details.*
-

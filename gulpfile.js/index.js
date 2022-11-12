@@ -42,10 +42,6 @@ const { updateStats } = require( './stats' );
 
 gulp.task( 'update-stats', updateStats );
 
-const { fetchMeta } = require( './meta' );
-
-gulp.task( 'fetch-meta', fetchMeta );
-
 /**
  * Remove existing SVG sprite before generating a new one.
  *

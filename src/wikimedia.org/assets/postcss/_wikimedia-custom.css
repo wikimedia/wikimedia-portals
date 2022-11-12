@@ -1,0 +1,105 @@
+/**
+ * Copied from MediaWiki:Gadget-wm-portal.css in meta.wikimedia.org
+ */
+a,
+a:active,
+a:focus {
+	unicode-bidi: embed;
+	white-space: nowrap;
+	outline: 0;
+	color: #36c;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.otherprojects {
+	font-weight: bold;
+	margin: 1.5em auto;
+	text-align: left;
+	vertical-align: middle;
+	width: 80%;
+}
+
+.otherprojects-item {
+	height: 175px;
+	min-width: 150px;
+	max-width: 300px;
+	line-height: 175px;
+	float: left;
+	width: 24.75%;
+}
+
+.otherprojects-item a {
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.otherprojects-item .icon {
+	display: -moz-inline-stack;
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+}
+
+.wm-site-info {
+	clear: both;
+	margin: 2.5em 0 2em 0;
+	text-align: center;
+	padding-top: 1.5em;
+}
+
+@media all and ( max-width: 480px ) {
+	.otherprojects-item {
+		width: 50%;
+		text-align: left;
+	}
+}
+
+@media all and ( max-width: 240px ) {
+	.otherprojects-item {
+		width: 100%;
+	}
+}
+
+@media all and ( max-width: 45em ) {
+	.otherprojects {
+		width: 100%;
+	}
+
+	.otherprojects-item {
+		width: 33.33%;
+	}
+}
+
+@media all and ( max-width: 30em ) {
+	.otherprojects-item {
+		width: 50%;
+	}
+}
+
+@media all and ( max-width: 20em ) {
+	.otherprojects-item {
+		width: 100%;
+	}
+}
+
+#intro {
+	text-align: justify;
+	vertical-align: top;
+	width: 70%;
+	font-size: 150%;
+	margin: 0 auto;
+	padding: 0.5em 1em;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
