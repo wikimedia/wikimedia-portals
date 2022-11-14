@@ -71,7 +71,10 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Ghid turistic liber"
+		"slogan": "Ghid turistic liber",
+		"entries": "pagini",
+		"search-input-label": "Căutare în Wikivoyage",
+		"language-button-text": "Citiți Wikivoyage în limba dvs."
 	},
 	"commons": {
 		"name": "Commons",

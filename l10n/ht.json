@@ -1,10 +1,96 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Kitanago"
+		]
 	},
 	"language-name": "Kreyòl Ayisyen",
 	"language-name-romanized-sorted": "Kreyol Ayisyen",
+	"footer-donate": "Ou ka sipòte travay nou ak yon don.",
+	"license": "Paj sa a disponib sou <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Lisans Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Kondisyon itilizasyon",
+	"privacy-policy": "Politik konfidansyalite",
+	"search-input-button": "Chèche",
+	"other-languages-label": "Lòt lang yo",
 	"wiki": {
-		"name": "Wikipedya"
+		"name": "Wikipedya",
+		"slogan": "Ansiklopedi lib la",
+		"entries": "atik yo",
+		"search-input-label": "Chache nan Wikipedya",
+		"language-button-text": "Li Wikipedya nan lang pa w",
+		"footer-description": "Se Wikimedia Fondation ki jere Wikipedya, se yon òganizasyon ki pa fè pwofi ki òganize yon seri lòt pwojè tou.",
+		"app-links": {
+			"title": "Telechaje Wikipedya pou android oswa iOS",
+			"description": "Anrejistre atik prefere w yo pou li san entènèt, senkronize lis lekti ou yo sou tout aparèy epi pèsonalize eksperyans lekti ou ak aplikasyon ofisyèl Wikipedya a.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiksyonè",
+		"slogan": "diksyonè lib la",
+		"entries": "antre",
+		"search-input-label": "Chache nan Wiksyonè",
+		"language-button-text": "Li Wiksyonè nan lang pa w"
+	},
+	"wikibooks": {
+		"name": "Wikiliv",
+		"slogan": "Liv pedagojik liv",
+		"entries": "Paj yo",
+		"search-input-label": "Chache sou Wikiliv",
+		"language-button-text": "Li Wikiliv nan lang pa w"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Sous nouvèl lib",
+		"entries": "atik yo",
+		"search-input-label": "Rechèch Wikinews",
+		"language-button-text": "Li Wikinews nan lang pa w"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Koleksyon sitasyon lib",
+		"entries": "atik yo",
+		"search-input-label": "Chache sou Wikiquote",
+		"language-button-text": "Li Wikiquote nan lang pa w"
+	},
+	"wikisource": {
+		"name": "Wikisous",
+		"slogan": "Bibliyotèk lib"
+	},
+	"wikiversity": {
+		"name": "Wikivèsite",
+		"slogan": "Materyèl pedagojik lib",
+		"entries": "resous aprantisaj",
+		"search-input-label": "Chache nan Wikivèsite",
+		"language-button-text": "Li Wikivèsite nan lang pa w"
+	},
+	"wikivoyage": {
+		"name": "Wikivwayaj",
+		"slogan": "Gid vwayaj gratis",
+		"entries": "Paj yo",
+		"search-input-label": "Chache nan Wiki Vwayaj",
+		"language-button-text": "Li Wikivwayaj nan lang pa w"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Foto pou itilize lib  ak plis ankò"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Anyè espès lib"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Baz konesans lib"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Aplikasyon wiki ;ib ak louvri"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Kowòdinasyon kominotè ak dokimantasyon"
 	}
 }

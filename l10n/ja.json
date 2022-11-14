@@ -76,7 +76,8 @@
 	"wikivoyage": {
 		"name": "ウィキボヤージュ",
 		"slogan": "フリー旅行ガイド",
-		"entries": "ページ"
+		"entries": "ページ",
+		"search-input-label": "ウィキボヤージュで検索"
 	},
 	"commons": {
 		"name": "コモンズ",

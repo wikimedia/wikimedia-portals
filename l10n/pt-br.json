@@ -75,7 +75,9 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "O guia de viagens livre"
+		"slogan": "O guia de viagens livre",
+		"entries": "páginas",
+		"search-input-label": "Pesqisar no Wikivoyage"
 	},
 	"commons": {
 		"name": "Commons",
