@@ -21,7 +21,7 @@ From the root of the repo, run:
 npm install                       # install dependancies
 gulp update-stats                 # update portal stats
 gulp watch --portal=wikipedia.org # watch src directory for changes
-python -m SimpleHTTPServer 8080   # start a dev server
+python3 -m http.server 8080       # start a dev server
 ```
 
 Visit `http://localhost:8080/src/wikipedia.org` to see the changes in the `src` directory.
