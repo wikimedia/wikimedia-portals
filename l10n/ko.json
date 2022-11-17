@@ -75,7 +75,8 @@
 	},
 	"wikivoyage": {
 		"name": "위키여행",
-		"slogan": "자유 여행 가이드"
+		"slogan": "자유 여행 가이드",
+		"search-input-label": "위키여행 검색"
 	},
 	"commons": {
 		"name": "공용",

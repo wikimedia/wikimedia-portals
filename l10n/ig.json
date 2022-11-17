@@ -4,12 +4,13 @@
 			"Amire80",
 			"Chikapatience",
 			"Jenniferkene",
+			"Karen",
 			"Oby Ezeilo",
 			"Tochiprecious"
 		]
 	},
 	"language-name": "Igbo",
-	"footer-donate": "I nwere iji onyinye kwado ọrụ anyị",
+	"footer-donate": "I nwere ike iji onyinye kwado ọrụ anyị",
 	"license": "Ihu a dị n'okpuru <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Iwu njirarụ",
 	"privacy-policy": "Iwu izochi onwe",
@@ -19,14 +20,14 @@
 		"name": "Wikipedia",
 		"slogan": "Encyclopedia akwụ ụgwọ",
 		"entries": "ederede",
-		"search-input-label": "Chọọ na wikipedia",
-		"language-button-text": "Gụọ wikipedia n'asụsụ gị",
+		"search-input-label": "Chọọ na Wikipedia",
+		"language-button-text": "Gụọ Wikipedia n'asụsụ gị",
 		"footer-description": "Ndị na-ahazi wikipedia bụ Wikimedia Foundation, bụ ụlọ ọrụ enwe uru nke na-ahazikwa ọrụ dị iche iche.",
 		"app-links": {
 			"title": "Butuo Wikipedia maka Android ma ọ bụ iOS",
 			"description": "Chekwaa akụkọ kacha amasị gị ka ị gụọ na-anọghị n'ịntanetị, mekọrịta ndepụta ọgụgụ gị n'ofe ngwaọrụ ma hazie ahụmịhe ọgụgụ gị site na ngwa mkpanaka Wikipedia.",
-			"google-store": "Gaa na Google Play Store",
-			"apple-store": "Gaa na Apple App Store",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
@@ -34,21 +35,21 @@
 		"name": "Nkọwa okwu Wiki",
 		"slogan": "Nkọwa okwu akwụ ụgwọ",
 		"entries": "Ndebanyega",
-		"search-input-label": "Chọọ na Nkọwa okwu Wiki",
-		"language-button-text": "Gụọ nkwọwa okwu Wiki n'asụsụ gị"
+		"search-input-label": "Chọọ na Wikshọnari",
+		"language-button-text": "Gụọ Wikshọnari n'asụsụ gị"
 	},
 	"wikibooks": {
 		"name": "Akwụkwọ Wiki",
 		"slogan": "Akwụkwọ ọgụgụ efu",
 		"entries": "Ihuga",
-		"search-input-label": "Chọọ n'akwụkwọ Wikiga",
-		"language-button-text": "Gụọ akwụkwọ Wiki n'asụsụ gị"
+		"search-input-label": "Chọọ na Wikibuuku",
+		"language-button-text": "Gụọ Wikibuuku n'asụsụ gị"
 	},
 	"wikinews": {
 		"name": "Nuuzu Wiki",
 		"slogan": "Ebe ṅweta akụkọ n'efu",
 		"entries": "ederede",
-		"search-input-label": "Chọọ ya na Wikinews",
+		"search-input-label": "Chọọ na Wikinews",
 		"language-button-text": "Gụọ Wikinews n'asụsụ gị"
 	},
 	"wikiquote": {
@@ -66,12 +67,13 @@
 		"name": "Wikiversity",
 		"slogan": "Ngwa nkụzi n'efu",
 		"entries": "akụrụngwa mmụta",
-		"search-input-label": "Chọọ ya na Wikiversity",
+		"search-input-label": "Chọọ na Wikiversity",
 		"language-button-text": "Gụọ Wikiversity n'asụsụ gị"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Ntụziaka njem n'efu"
+		"slogan": "Ntụziaka njem n'efu",
+		"search-input-label": "Chọọ na Wikivoyage"
 	},
 	"commons": {
 		"name": "Kọmọns"

@@ -70,7 +70,10 @@
 	},
 	"wikivoyage": {
 		"name": "Wikiferðir",
-		"slogan": "Ferða leiðarvísar"
+		"slogan": "Ferða leiðarvísar",
+		"entries": "síður",
+		"search-input-label": "Leita á Wikiferðum",
+		"language-button-text": "Lesta Wikiferðir á þínu tungumáli"
 	},
 	"commons": {
 		"name": "Commons",

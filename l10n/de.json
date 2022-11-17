@@ -78,7 +78,9 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Reiseführer"
+		"slogan": "Reiseführer",
+		"entries": "Seiten",
+		"search-input-label": "Wikivoyage durchsuchen"
 	},
 	"commons": {
 		"name": "Commons",

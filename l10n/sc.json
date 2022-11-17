@@ -71,7 +71,10 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Sa ghia turìstica lìbera"
+		"slogan": "Sa ghia turìstica lìbera",
+		"entries": "pàginas",
+		"search-input-label": "Chirca in Wikivoyage",
+		"language-button-text": "Leghe Wikivoyage in sa limba tua"
 	},
 	"commons": {
 		"name": "Commons",
