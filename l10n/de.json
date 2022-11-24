@@ -80,7 +80,8 @@
 		"name": "Wikivoyage",
 		"slogan": "Reiseführer",
 		"entries": "Seiten",
-		"search-input-label": "Wikivoyage durchsuchen"
+		"search-input-label": "Wikivoyage durchsuchen",
+		"language-button-text": "Lies Wikivoyage in deiner Sprache"
 	},
 	"commons": {
 		"name": "Commons",

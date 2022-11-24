@@ -51,7 +51,9 @@
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Fri nyhetskälla",
-		"entries": "artiklar"
+		"entries": "artiklar",
+		"search-input-label": "Sök på Wikinews",
+		"language-button-text": "Läs Wikinews på ditt språk"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
@@ -67,11 +69,16 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Fritt kursmaterial",
-		"entries": "läroresurser"
+		"entries": "läroresurser",
+		"search-input-label": "Sök på Wikiversity",
+		"language-button-text": "Läs Wikiversity på ditt språk"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Fri reseguide"
+		"slogan": "Fri reseguide",
+		"entries": "sidor",
+		"search-input-label": "Sök på Wikivoyage",
+		"language-button-text": "Läs Wikivoyage på ditt språk"
 	},
 	"commons": {
 		"name": "Commons",

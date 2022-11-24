@@ -7,7 +7,8 @@
 			"Movses",
 			"Piramidion",
 			"Vlad5250",
-			"Ата"
+			"Ата",
+			"Пан Хаунд"
 		]
 	},
 	"language-name": "Українська",
@@ -77,7 +78,10 @@
 	},
 	"wikivoyage": {
 		"name": "Вікімандри",
-		"slogan": "Туристичний путівник"
+		"slogan": "Туристичний путівник",
+		"entries": "сторінки",
+		"search-input-label": "Пошук Wikivoyage",
+		"language-button-text": "Читайте Wikivoyage своєю мовою"
 	},
 	"commons": {
 		"name": "Вікісховище",

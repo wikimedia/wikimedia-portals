@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"NGC 54"
+			"NGC 54",
+			"Tanea.d"
 		]
 	},
 	"language-name": "Română",
 	"language-name-romanized": "Română",
 	"language-name-romanized-sorted": "Romana",
-	"footer-donate": "Ne puteți sprijini munca cu o donație.",
+	"footer-donate": "Ne puteți susține munca cu o donație.",
 	"license": "Această pagină este disponibilă sub licența <a href='https://creativecommons.org/licenses/by-sa/3.0/deed.ro'>Creative Commons cu atribuire și distribuire în condiții identice</a>",
 	"terms": "Termeni de utilizare",
 	"privacy-policy": "Politica de confidențialitate",
@@ -27,7 +28,8 @@
 			"title": "Descarcă Wikipedia pentru Android sau iOS",
 			"description": "Salvați-vă articolele favorite pentru a citi off-line, sincronizați-vă listele de lectură între dispozitive și personalizați-vă experiența de lectură cu aplicația oficială Wikipedia.",
 			"google-store": "Google Play Store",
-			"apple-store": "Apple App Store"
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {

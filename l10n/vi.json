@@ -35,22 +35,30 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Từ điển mở",
-		"entries": "mục từ"
+		"entries": "mục từ",
+		"search-input-label": "Tìm trong Wiktionary",
+		"language-button-text": "Đọc Wiktionary trong ngôn ngữ của bạn"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Tủ sách mở",
-		"entries": "trang sách"
+		"entries": "trang sách",
+		"search-input-label": "Tìm trong Wikibooks",
+		"language-button-text": "Đọc Wikibooks trong ngôn ngữ của bạn"
 	},
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Nguồn tin tức mở",
-		"entries": "bài báo"
+		"entries": "bài báo",
+		"search-input-label": "Tìm trong Wikinews",
+		"language-button-text": "Đọc Wikinews trong ngôn ngữ của bạn"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Bộ sưu tập danh ngôn",
-		"entries": "bài viết"
+		"entries": "bài viết",
+		"search-input-label": "Tìm trong Wikiquote",
+		"language-button-text": "Đọc Wikiquote trong ngôn ngữ của bạn"
 	},
 	"wikisource": {
 		"name": "Wikisource",
@@ -59,11 +67,16 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Học liệu mở",
-		"entries": "học liệu"
+		"entries": "học liệu",
+		"search-input-label": "Tìm trong Wikiversity",
+		"language-button-text": "Đọc Wikiversity trong ngôn ngữ của bạn"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Cẩm nang du lịch mở"
+		"slogan": "Cẩm nang du lịch mở",
+		"entries": "trang",
+		"search-input-label": "Tìm trong Wikivoyage",
+		"language-button-text": "Đọc Wikivoyage trong ngôn ngữ của bạn"
 	},
 	"commons": {
 		"name": "Commons",

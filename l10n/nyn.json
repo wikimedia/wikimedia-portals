@@ -38,12 +38,15 @@
 		"name": "Wikibitabo",
 		"slogan": "Ebitabo ebya busha",
 		"entries": "Embaju",
+		"search-input-label": "Sherura wikibitabo",
 		"language-button-text": "Shoma ebitabo ebya wiki omu Orurimi rwaawe"
 	},
 	"wikinews": {
 		"name": "Wikimakuru",
 		"slogan": "Obukukomoko bwa amakuru ga busha",
-		"entries": "Engingo"
+		"entries": "Engingo",
+		"search-input-label": "Sherura wikimakuru",
+		"language-button-text": "Shoma wikimakuru omu orurimi rwa'we"
 	},
 	"wikiquote": {
 		"name": "Wikitugambo",

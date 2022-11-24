@@ -45,22 +45,22 @@
 		"name": "Wikilivros",
 		"slogan": "Livros abertos por um mundo aberto",
 		"entries": "páginas",
-		"search-input-label": "Pesquisar em Wikilivros",
-		"language-button-text": "Ler a Wikilivros na sua língua"
+		"search-input-label": "Pesquisar na wiki Wikilivros",
+		"language-button-text": "Ler a wiki Wikilivros na sua língua"
 	},
 	"wikinews": {
 		"name": "Wikinotícias",
 		"slogan": "A fonte de notícias livre que todos podem editar",
 		"entries": "artigos",
-		"search-input-label": "Pesquisar na Wikinotícias",
-		"language-button-text": "Ler a Wikinotícias na sua língua"
+		"search-input-label": "Pesquisar na wiki Wikinotícias",
+		"language-button-text": "Ler a wiki Wikinotícias na sua língua"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Coletânea de citações livre",
 		"entries": "artigos",
-		"search-input-label": "Pesquisar na Wikiquote",
-		"language-button-text": "Ler a Wikiquote na sua língua"
+		"search-input-label": "Pesquisar na wiki Wikiquote",
+		"language-button-text": "Ler a wiki Wikiquote na sua língua"
 	},
 	"wikisource": {
 		"name": "Wikisource",
@@ -75,7 +75,10 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "O guia de viagens livre"
+		"slogan": "O guia de viagens livre",
+		"entries": "páginas",
+		"search-input-label": "Pesquisar na wiki Wikivoyage",
+		"language-button-text": "Ler a wiki Wikivoyage na sua língua"
 	},
 	"commons": {
 		"name": "Commons",

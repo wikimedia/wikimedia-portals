@@ -72,7 +72,10 @@
 	},
 	"wikivoyage": {
 		"name": "Wikibeaj",
-		"slogan": "Levr beajiñ digoust"
+		"slogan": "Levr beajiñ digoust",
+		"entries": "pajennoù",
+		"search-input-label": "Klask e Wikibeaj",
+		"language-button-text": "Lenn Wikibeaj en ho yezh"
 	},
 	"commons": {
 		"name": "Commons",
