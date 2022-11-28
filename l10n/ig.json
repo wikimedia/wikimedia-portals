@@ -24,7 +24,7 @@
 		"language-button-text": "Gụọ Wikipedia n'asụsụ gị",
 		"footer-description": "Ndị na-ahazi wikipedia bụ Wikimedia Foundation, bụ ụlọ ọrụ enwe uru nke na-ahazikwa ọrụ dị iche iche.",
 		"app-links": {
-			"title": "Butuo Wikipedia maka Android ma ọ bụ iOS",
+			"title": "Tinye Wikipedia maka Android ma ọ bụ iOS",
 			"description": "Chekwaa akụkọ kacha amasị gị ka ị gụọ na-anọghị n'ịntanetị, mekọrịta ndepụta ọgụgụ gị n'ofe ngwaọrụ ma hazie ahụmịhe ọgụgụ gị site na ngwa mkpanaka Wikipedia.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
@@ -32,21 +32,21 @@
 		}
 	},
 	"wiktionary": {
-		"name": "Nkọwa okwu Wiki",
+		"name": "Wikshọnari",
 		"slogan": "Nkọwa okwu akwụ ụgwọ",
-		"entries": "Ndebanyega",
+		"entries": "ndebanyega",
 		"search-input-label": "Chọọ na Wikshọnari",
 		"language-button-text": "Gụọ Wikshọnari n'asụsụ gị"
 	},
 	"wikibooks": {
-		"name": "Akwụkwọ Wiki",
+		"name": "Wikibụụkụ",
 		"slogan": "Akwụkwọ ọgụgụ efu",
 		"entries": "Ihuga",
 		"search-input-label": "Chọọ na Wikibuuku",
 		"language-button-text": "Gụọ Wikibuuku n'asụsụ gị"
 	},
 	"wikinews": {
-		"name": "Nuuzu Wiki",
+		"name": "Wikinuuzu",
 		"slogan": "Ebe ṅweta akụkọ n'efu",
 		"entries": "ederede",
 		"search-input-label": "Chọọ na Wikinews",
@@ -73,9 +73,28 @@
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "Ntụziaka njem n'efu",
-		"search-input-label": "Chọọ na Wikivoyage"
+		"entries": "ihu akwụkwọ",
+		"search-input-label": "Chọọ na Wikivoyage",
+		"language-button-text": "Gụọ Wikivoyage n'asụsụ gị"
 	},
 	"commons": {
-		"name": "Kọmọns"
+		"name": "Kọmọns",
+		"slogan": "Foto enwere ike iji ya na ihe ndị ọzọ"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Akwụkwọ ndekọ aha ihe dị ndu n'efu"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Ebe ihe ọmụma n'efu"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Ngwa wiki n'efu na nke mepere emepe"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Nhazị obodo na ndekọ akwụkwọ"
 	}
 }

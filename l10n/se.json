@@ -3,14 +3,17 @@
 		"authors": [
 			"Jandre3000",
 			"Jon Harald Søby (WMNO)",
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
 	"language-name": "Davvisámegiella",
+	"language-name-romanized": "davvisámegiella",
 	"language-name-romanized-sorted": "Davvisamegiella",
 	"terms": "Geavahaneavttut",
 	"privacy-policy": "Diehtosuodjalanvuohki",
 	"search-input-button": "Oza",
+	"other-languages-label": "Eará gielat",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Almmolaš diehtosátnegirji",
@@ -37,10 +40,12 @@
 		"slogan": "Friddja girjerájus"
 	},
 	"wikiversity": {
-		"name": "Wikiversity"
+		"name": "Wikiversitehta",
+		"search-input-label": "Oza Wikiversitehtas"
 	},
 	"wikivoyage": {
-		"name": "Wikivoyage"
+		"name": "Wikivoyage",
+		"entries": "siiddut"
 	},
 	"commons": {
 		"name": "Commons"
