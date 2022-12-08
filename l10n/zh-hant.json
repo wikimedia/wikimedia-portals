@@ -78,7 +78,10 @@
 	},
 	"wikivoyage": {
 		"name": "維基導遊",
-		"slogan": "自由的旅行指南"
+		"slogan": "自由的旅行指南",
+		"entries": "頁面",
+		"search-input-label": "搜尋維基導遊",
+		"language-button-text": "以您的語言閱讀維基導遊"
 	},
 	"commons": {
 		"name": "共享資源",
