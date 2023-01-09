@@ -12,3 +12,14 @@
 	top: 178px;
 	left: 15px;
 }
+
+@media all and ( max-width: 480px ) {
+	.central-featured-logo {
+		position: relative;
+		display: inline-block;
+		width: 57px;
+		height: auto;
+		left: 0;
+		top: 0;
+	}
+}
