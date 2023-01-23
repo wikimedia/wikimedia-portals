@@ -13,6 +13,13 @@ Stats.readi18nFiles = function ( dirname ) {
 	fileNames.forEach( function ( filename ) {
 		var fileContent = fs.readFileSync( dirname + filename, 'utf-8' ),
 			langCode = filename.replace( '.json', '' );
+
+		// T319137 skr translation file is named differently than
+		// domain name and name in site-stats.json.
+		if ( langCode === 'skr-arab') {
+			langCode = 'skr';
+		}
+
 		siteDefinitions[ langCode ] = JSON.parse( fileContent );
 
 		if ( siteDefsFormatting[ langCode ] ) {
@@ -27,7 +34,8 @@ Stats.readi18nFiles = function ( dirname ) {
 siteDefs = Stats.readi18nFiles( __dirname + '/../l10n/' );
 
 Stats.nonStandardCodes = {
-	'zh-min-nan': 'nan'
+	'zh-min-nan': 'nan',
+	'skr-arab': 'skr'
 };
 /**
  * Get top `n` wikis with most `criteria`.
