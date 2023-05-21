@@ -116,6 +116,7 @@ function createTranslationFiles() {
 		fileName = translationPath + langCode + '-' + cachebuster + '.json';
 		fileContent = JSON.stringify( el );
 
+		// eslint-disable-next-line security/detect-non-literal-fs-filename
 		fs.writeFileSync( fileName, fileContent );
 	}
 

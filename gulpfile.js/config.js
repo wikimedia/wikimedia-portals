@@ -44,6 +44,7 @@ getConfig = function () {
 
 	config.hb = {
 		src: baseDir + 'index.handlebars',
+		// eslint-disable-next-line security/detect-non-literal-require
 		templateData: require( '../' + baseDir + 'controller.js' ),
 		options: {
 			batch: [ './src/common/templates', './' + baseDir + '/templates' ],
