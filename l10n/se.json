@@ -17,27 +17,33 @@
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Almmolaš diehtosátnegirji",
+		"entries": "artihkkalat",
 		"search-input-label": "Oza Wikipedias"
 	},
 	"wiktionary": {
 		"name": "Wikisátnegirji",
-		"slogan": "Friddja sátnegirji"
+		"slogan": "Friddja sátnegirji",
+		"search-input-label": "Oza Wikisátnegirjjis"
 	},
 	"wikibooks": {
 		"name": "Wikigirjjit",
 		"slogan": "Friddjat oahppogirjjit",
-		"entries": "siiddut"
+		"entries": "siiddut",
+		"search-input-label": "Oza Wikigirjjiid"
 	},
 	"wikinews": {
 		"name": "Wikiođđasat",
-		"slogan": "Friddjat ođđasat"
+		"slogan": "Friddjat ođđasat",
+		"entries": "artihkkalat",
+		"search-input-label": "Oza Wikiođđasiin"
 	},
 	"wikiquote": {
-		"name": "Wikisitáhtat"
+		"name": "Wikisitáhtat",
+		"entries": "artihkkalat"
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "Friddja girjerájus"
+		"slogan": "Friddja girjerádju"
 	},
 	"wikiversity": {
 		"name": "Wikiversitehta",

@@ -1,8 +1,96 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Ella Lachow"
 		]
 	},
-	"language-name": "Wolaytta"
+	"language-name": "Wolaytta",
+	"footer-donate": "Nu oosuwaa imotan kaafana danddayaasa.",
+	"license": "Ha sinttay <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> giddon de'ees",
+	"terms": "Go'ettiyoo seerata",
+	"privacy-policy": "Buzo Polisiya",
+	"search-input-button": "Koyya",
+	"other-languages-label": "Hara doonata",
+	"wiki": {
+		"name": "Wikkiipeediyaa",
+		"slogan": "La'a insaykloopediyaa",
+		"entries": "Xuufeta",
+		"search-input-label": "Wikkiipeediyaa Koyya",
+		"language-button-text": "Wikkiipeediyaa ne doonan nabbaba",
+		"footer-description": "Wikkiipeedee Wikkiimiidiyaa Baasuwaa giyo woriyawu eqqibeenna eqotan giigis, ha eqotay hara dumma dumma proojekteta giigissees.",
+		"app-links": {
+			"title": "Wikkiipeediyaa Androyidiyaassi woykko iOSiyaassi ha wotta",
+			"description": "Ne dosiyo xuufeta interneetee baynnan be'anawu wotta, ne nabbabidoogaa paatettata ne go'ettiyoo buquratun daana mala issipe oottanne ne nabbabuwaa meeziyaa oifishaale Wikkiipeediyaa applikeeshiniyaara giigissa.",
+			"google-store": "Googili Pilay Stoori",
+			"apple-store": "Appili Appi Stoori",
+			"url": "https\n://wal.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikkii qaalaa kochchaa",
+		"slogan": "La'a dikshineeriya",
+		"entries": "Gelidaageeta",
+		"search-input-label": "Wiikishineeriyaa koyya",
+		"language-button-text": "Wiikishineeriyaa ne doonan nabbaba"
+	},
+	"wikibooks": {
+		"name": "Wiikiimaxaafata",
+		"slogan": "La'a luxiyo maxaafata",
+		"entries": "sinttata",
+		"search-input-label": "Wiikiimaxaafata koyya",
+		"language-button-text": "Wiikiimaxaafata ne doonan nabbaba"
+	},
+	"wikinews": {
+		"name": "Wiikiiodota",
+		"slogan": "La'a ofotu pulttuwaa",
+		"entries": "Xuufeta",
+		"search-input-label": "Wiikiiodota Koyya",
+		"language-button-text": "Wiikiiodota ne doonan nabbaba"
+	},
+	"wikiquote": {
+		"name": "Wikkii geetettidabaa",
+		"slogan": "La'a besuwaa shiishota",
+		"entries": "Xuufeta",
+		"search-input-label": "Wikkiigeetettidabata Koyya",
+		"language-button-text": "Wikkiigeetettidabata ne doonan nabbaba"
+	},
+	"wikisource": {
+		"name": "Wikkii-xaafettidabata",
+		"slogan": "La'a maxaafa keettaa"
+	},
+	"wikiversity": {
+		"name": "Wiikiversitiyaa",
+		"slogan": "La'an luxiyoobata",
+		"entries": "Luxiyoobata",
+		"search-input-label": "Wiikiversitiyaa koyya",
+		"language-button-text": "Wiikiversitiyaa ne doonan nabbaba"
+	},
+	"wikivoyage": {
+		"name": "Wikkiimandaraa",
+		"slogan": "La'a manddaraa kaaletaa",
+		"entries": "sinttata",
+		"search-input-label": "Wikkiimanddaraa koyya",
+		"language-button-text": "Wikkiimanddaraa ne doonan nabbaba"
+	},
+	"commons": {
+		"name": "Komens",
+		"slogan": "La'an go'iya misiletanne haraata"
+	},
+	"wikispecies": {
+		"name": "Wikkiimeretatubaa",
+		"slogan": "La'a meretatu kaaletaa"
+	},
+	"wikidata": {
+		"name": "Wikiidaataa",
+		"slogan": "La'a ereaa baasuwaa"
+	},
+	"mediawiki": {
+		"name": "MiidiyaaWikkii",
+		"slogan": "La'anne qoncce wikkii applikeeshiniyaa"
+	},
+	"metawiki": {
+		"name": "Meetaa-Wikiiyaa",
+		"slogan": "Heeraa kushettissiyoogaanne xaafi oyqqiyoogaa"
+	}
 }

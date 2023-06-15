@@ -72,7 +72,10 @@
 	},
 	"wikivoyage": {
 		"name": "وِکیسَفر",
-		"slogan": "مُفت سَفر نامہٕ"
+		"slogan": "مُفت سَفر نامہٕ",
+		"entries": "صَفہٕ",
+		"search-input-label": "ژھٲرِیوٚ وِکیٖ ووییج",
+		"language-button-text": "پَنہٕ زَبانہٕ مَنٛز پٔرِٛو وِکیٖوییج"
 	},
 	"commons": {
 		"name": "کامَنز",

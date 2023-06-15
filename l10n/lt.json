@@ -5,6 +5,7 @@
 			"Eitvys200",
 			"Manvydasz",
 			"Naktis",
+			"Nokeoo",
 			"Pavel1513",
 			"Tomasdd",
 			"Zygimantus"
@@ -12,12 +13,14 @@
 	},
 	"language-name": "Lietuvių",
 	"language-name-romanized-sorted": "Lietuviu",
+	"footer-donate": "Galite paremti mūsų darbą aukodami.",
 	"license": "Šis puslapis pateikiamas pagal <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.lt'>Creative Commons Attribution-ShareAlike licenciją</a>",
 	"terms": "Naudojimosi sąlygos",
 	"privacy-policy": "Privatumo politika",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/lt",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/lt",
 	"search-input-button": "Paieška",
+	"other-languages-label": "Kitos kalbos",
 	"wiki": {
 		"name": "Vikipedija",
 		"slogan": "Laisvoji enciklopedija",
@@ -27,28 +30,37 @@
 		"footer-description": "Vikipedija yra talpinama Vikimedia Fondo, nepelno organizacijos, kuri taip pat talpina įvairius kitus projektus.",
 		"app-links": {
 			"title": "Vikipedijos programėlės yra prieinamos:",
+			"description": "Išsaugokite savo mėgstamiausius straipsnius skaitymui neprisijungus, sinchronizuokite savo skaitymo sąrašus tarp įrenginių ir pritaikykite savo skaitymo patirtį su oficialia Vikipedijos programėle.",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Vikižodynas",
 		"slogan": "Laisvasis žodynas",
-		"entries": "įrašai"
+		"entries": "įrašai",
+		"search-input-label": "Ieškoti Vikižodyne",
+		"language-button-text": "Skaitykite Vikižodyną savo kalba"
 	},
 	"wikibooks": {
 		"name": "Vikiknygos",
 		"slogan": "Nemokami vadovėliai",
-		"entries": "puslapiai"
+		"entries": "puslapiai",
+		"search-input-label": "Ieškokite Vikiknygose",
+		"language-button-text": "Skaitykite Vikiknygas savo kalba"
 	},
 	"wikinews": {
 		"name": "Vikinaujienos",
 		"slogan": "Nemokamas naujienų šaltinis",
-		"entries": "straipsniai"
+		"entries": "straipsniai",
+		"search-input-label": "Ieškokite Vikinaujienose",
+		"language-button-text": "Skaitykite Vikinaujienas savo kalba"
 	},
 	"wikiquote": {
 		"name": "Vikicitatos",
 		"slogan": "Aforizmų ir sentencijų lobynas",
-		"entries": "straipsniai"
+		"entries": "straipsniai",
+		"search-input-label": "Ieškokite Vikicitatose",
+		"language-button-text": "Skaitykite Vikicitatas savo kalba"
 	},
 	"wikisource": {
 		"name": "Vikišaltiniai",
@@ -63,7 +75,10 @@
 	},
 	"wikivoyage": {
 		"name": "Vikikelionės",
-		"slogan": "Nemokamas kelionių gidas"
+		"slogan": "Nemokamas kelionių gidas",
+		"entries": "puslapiai",
+		"search-input-label": "Ieškokite Vikikelionėse",
+		"language-button-text": "Skaitykite Vikikeliones savo kalba"
 	},
 	"commons": {
 		"name": "Vikiteka",

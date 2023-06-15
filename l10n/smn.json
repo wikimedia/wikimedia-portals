@@ -8,7 +8,7 @@
 	},
 	"language-name": "Anarâškielâ",
 	"language-name-romanized": "anarâškielâ",
-	"language-name-romanized-sorted": "anaraskiela",
+	"language-name-romanized-sorted": "anarâškielâ",
 	"terms": "Kevttimiävtuh",
 	"search-input-button": "Uusâ",
 	"other-languages-label": "Eres kielah",
@@ -31,7 +31,8 @@
 	},
 	"wikinews": {
 		"name": "Wikiuđđâseh",
-		"entries": "artikkâleh"
+		"entries": "artikkâleh",
+		"search-input-label": "Uusâ Wikiuđđâsijd"
 	},
 	"wikiquote": {
 		"name": "Wikisitaateh",

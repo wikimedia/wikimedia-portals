@@ -66,11 +66,16 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Fritt kursmateriale",
-		"entries": "læringsressurser"
+		"entries": "læringsressurser",
+		"search-input-label": "Søk i Wikiversity",
+		"language-button-text": "Les Wikiversity på ditt språk"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Fri reisegaid"
+		"slogan": "Fri reisegaid",
+		"entries": "sider",
+		"search-input-label": "Søk i Wikivoyage",
+		"language-button-text": "Les Wikivoyage på ditt språk"
 	},
 	"commons": {
 		"name": "Commons",

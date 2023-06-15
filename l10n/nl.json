@@ -28,8 +28,8 @@
 		"name": "Wikipedia",
 		"slogan": "De vrije encyclopedie",
 		"entries": "pagina's",
-		"search-input-label": "In Wikipedia zoeken",
-		"language-button-text": "Lees Wikipedia in uw taal",
+		"search-input-label": "Zoeken in Wikipedia",
+		"language-button-text": "Wikipedia in uw taal lezen",
 		"footer-description": "Wikipedia wordt gehost door de Wikimedia Foundation, een non-profitorganisatie die ook andere projecten host.",
 		"app-links": {
 			"title": "Download de Wikipedia-app voor Android of iOS",
@@ -44,22 +44,28 @@
 		"slogan": "Het vrije woordenboek",
 		"entries": "pagina's",
 		"search-input-label": "Doorzoek WikiWoordenboek",
-		"language-button-text": "Lees WikiWoordenboek in uw taal"
+		"language-button-text": "WikiWoordenboek in uw taal lezen"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Vrije leerboeken",
-		"entries": "modules"
+		"entries": "modules",
+		"search-input-label": "Zoeken in Wikibooks",
+		"language-button-text": "Wikibooks in uw taal lezen"
 	},
 	"wikinews": {
 		"name": "Wikinieuws",
 		"slogan": "Vrije nieuwsbron",
-		"entries": "artikelen"
+		"entries": "artikelen",
+		"search-input-label": "Zoeken in Wikinieuws",
+		"language-button-text": "Wikinieuws in uw taal lezen"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Vrije verzameling van citaten",
-		"entries": "pagina's"
+		"entries": "pagina's",
+		"search-input-label": "Zoeken in Wikiquote",
+		"language-button-text": "Wikiquote in uw taal lezen"
 	},
 	"wikisource": {
 		"name": "Wikisource",
@@ -74,7 +80,10 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Vrije, wereldwijde reisgids"
+		"slogan": "Vrije, wereldwijde reisgids",
+		"entries": "pagina's",
+		"search-input-label": "Zoeken in Wikivoyage",
+		"language-button-text": "Wikivoyage in uw taal lezen"
 	},
 	"commons": {
 		"name": "Commons",

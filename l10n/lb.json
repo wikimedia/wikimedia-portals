@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"language-name": "Lëtzebuergesch",
@@ -26,7 +27,8 @@
 			"title": "Wikipedia fir Android oder iOS eroflueden",
 			"description": "Späichert Är Lieblingsartikelen fir se offline ze liesen, synchroniséiert Är Lieslëscht tëschent den Apparater a personaliséiert Äert Lieserliefness mat der offizielle Wikipedia App.",
 			"google-store": "Google Play Store",
-			"apple-store": "Apple App Store"
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
@@ -34,7 +36,7 @@
 		"slogan": "Fräien Dictionnaire",
 		"entries": "Säiten",
 		"search-input-label": "Am Wiktionaire sichen",
-		"language-button-text": "Liest de Wiktionary an Ärer Sprooch"
+		"language-button-text": "Liest Wiktionary an Ärer Sprooch"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
@@ -46,12 +48,16 @@
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Fräi Quelle vun Noriichten",
-		"entries": "Artikelen"
+		"entries": "Artikelen",
+		"search-input-label": "Op Wikinews sichen",
+		"language-button-text": "Liest Wikinews an Ärer Sprooch"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Fräi Sammlung vun Zitaten",
-		"entries": "Artikelen"
+		"entries": "Artikelen",
+		"search-input-label": "Op Wikiquote sichen",
+		"language-button-text": "Liest Wikiquote an Ärer Sprooch"
 	},
 	"wikisource": {
 		"name": "Wikisource",
@@ -60,12 +66,16 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Fräi Materialie vu Coursen",
-		"entries": "Säiten"
+		"entries": "Säiten",
+		"search-input-label": "Op Wikiversity sichen",
+		"language-button-text": "Liest Wikiversity an Ärer Sprooch"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "Fräie Reesguide",
-		"entries": "Säiten"
+		"entries": "Säiten",
+		"search-input-label": "Op Wikivoyage sichen",
+		"language-button-text": "Liest Wikivoyage an Ärer Sprooch"
 	},
 	"commons": {
 		"name": "Commons",

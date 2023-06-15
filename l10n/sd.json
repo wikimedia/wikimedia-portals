@@ -24,29 +24,39 @@
 		"footer-description": "وڪيپيڊيا وڪيميڊيا فائونڊيشن طرفان ميزباني ڪئي ويندي آھي، ھڪ غير منافع بخش تنظيم جيڪا ٻين ڪيترن منصوبن جي ميزباني پڻ ڪري ٿي.",
 		"app-links": {
 			"title": "وڪيپيڊيا اپليڪيشنز هاڻي موجود آهن:",
+			"description": "آف لائن پڙهڻ لاءِ پنھنجا پسنديده مضمون سانڍيو، پنھنجي پڙھڻ جي فھرستن کي سڀني ڊوائيسز تي هم وقت سازي ڪريو ۽ پنھنجي پڙھڻ جي تجربي کي دفتري وڪيپيڊيا ايپ سان ترتيب ڏيو.",
 			"google-store": "گوگل پلي اسٽور",
-			"apple-store": "ايپل ايپ اسٽور"
+			"apple-store": "ايپل ايپ اسٽور",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "وڪي‌لغت",
 		"slogan": "مفت لغت",
-		"entries": "دخلائون"
+		"entries": "دخلائون",
+		"search-input-label": "وڪي‌لغت ڳوليو",
+		"language-button-text": "وڪي‌لغت پنھنجي ٻوليءَ ۾ پڙھو"
 	},
 	"wikibooks": {
 		"name": "وڪي‌ڪتاب",
 		"slogan": "مفت ڪتاب",
-		"entries": "صفحا"
+		"entries": "صفحا",
+		"search-input-label": "وڪي‌ڪتاب ڳوليو",
+		"language-button-text": "وڪي‌ڪتاب پنھنجي ٻوليءَ ۾ پڙھو"
 	},
 	"wikinews": {
 		"name": "وڪي‌خبرون",
 		"slogan": "مفت خبرن جو ذريعو",
-		"entries": "مضمون"
+		"entries": "مضمون",
+		"search-input-label": "وڪي‌خبرون ڳوليو",
+		"language-button-text": "وڪي‌خبرون پنھنجي ٻوليءَ ۾ پڙھو"
 	},
 	"wikiquote": {
 		"name": "وڪي‌قول",
 		"slogan": "مفت قولن جو مجموعو",
-		"entries": "مضمون"
+		"entries": "مضمون",
+		"search-input-label": "وڪي‌قول ڳوليو",
+		"language-button-text": "وڪي‌قول پنھنجي ٻوليءَ ۾ پڙھو"
 	},
 	"wikisource": {
 		"name": "وڪي‌ذريعو",
@@ -55,11 +65,16 @@
 	"wikiversity": {
 		"name": "جامعہ‌وڪي",
 		"slogan": "مفت ڪورس جو مواد",
-		"entries": "سکڻ جا ذريعا"
+		"entries": "سکڻ جا ذريعا",
+		"search-input-label": "وڪيورسٽي ڳوليو",
+		"language-button-text": "وڪيورسٽي پنھنجي ٻوليءَ ۾ ڳوليو"
 	},
 	"wikivoyage": {
 		"name": "وڪي‌سفر",
-		"slogan": "مفت سفري رھنما"
+		"slogan": "مفت سفري رھنما",
+		"entries": "صفحا",
+		"search-input-label": "وڪي‌سفر ڳوليو",
+		"language-button-text": "وڪي‌سفر پنھنجي ٻوليءَ ۾ پڙھو"
 	},
 	"commons": {
 		"name": "العام",

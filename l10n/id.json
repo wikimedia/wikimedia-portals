@@ -60,7 +60,7 @@
 		"name": "Wikikutip",
 		"slogan": "Koleksi kutipan bebas",
 		"entries": "artikel",
-		"search-input-label": "Telusuri Wikiquote",
+		"search-input-label": "Telusuri Wikikutip",
 		"language-button-text": "Baca Wikiquote dalam bahasa Anda"
 	},
 	"wikisource": {
@@ -70,11 +70,16 @@
 	"wikiversity": {
 		"name": "Wikiversitas",
 		"slogan": "Bahan pelajaran bebas",
-		"entries": "sumber daya pembelajaran"
+		"entries": "sumber daya pembelajaran",
+		"search-input-label": "Cari Wikiversitas",
+		"language-button-text": "Baca Wikiversitas dalam bahasa anda"
 	},
 	"wikivoyage": {
 		"name": "Wikiwisata",
-		"slogan": "Situs perjalanan bebas"
+		"slogan": "Situs perjalanan bebas",
+		"entries": "halaman",
+		"search-input-label": "Cari Wikiwisata",
+		"language-button-text": "Baca Wikiwisata dalam bahasa anda"
 	},
 	"commons": {
 		"name": "Commons",

@@ -8,6 +8,7 @@
 			"Eduardoaddad",
 			"Macofe",
 			"Mariagarbin",
+			"Mello25",
 			"TheEduGobi"
 		]
 	},
@@ -77,7 +78,8 @@
 		"name": "Wikivoyage",
 		"slogan": "O guia de viagens livre",
 		"entries": "páginas",
-		"search-input-label": "Pesqisar no Wikivoyage"
+		"search-input-label": "Pesqisar no Wikivoyage",
+		"language-button-text": "Leia a Wikivoyage em sua língua"
 	},
 	"commons": {
 		"name": "Commons",

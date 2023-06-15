@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Afalau",
 			"Amire80",
 			"Jandre3000",
 			"Robin Owain"
@@ -9,60 +10,78 @@
 	"language-name": "Cymraeg",
 	"language-name-romanized": "Cymraeg",
 	"language-name-romanized-sorted": "Cymraeg",
+	"footer-donate": "Gallwch chi roi arian i gefnogi ein gwaith.",
 	"license": "Mae'r ddalen hon ar gael dan drwydded<a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike</a>",
-	"terms": "Amodau",
-	"privacy-policy": "Polisi preifatrwydd",
+	"terms": "Telerau Gwasanaeth",
+	"privacy-policy": "Polisi Preifatrwydd",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/cy",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/cy",
+	"search-input-button": "Chwilio",
+	"other-languages-label": "Ieithoedd eraill",
 	"wiki": {
 		"name": "Wicipedia",
-		"slogan": "Y Gwyddoniadur rhydd, agored ac am ddim",
+		"slogan": "Y Gwyddoniadur Rhydd",
 		"entries": "erthyglau",
 		"search-input-label": "Chwilio Wicipedia",
 		"language-button-text": "Darllenwch yn eich iaith chi",
 		"footer-description": "Cynhelir Wicipedia gan Sefydliad Wicimedia, sefydliad di-elw sydd hefyd yn cynnal nifer o chwaer brosiectau.",
 		"app-links": {
-			"title": "Lawrlwytha Wicipedia ar gyfer Android neu iOS",
+			"title": "Lawrlwytho Wicipedia ar gyfer Android neu iOS",
 			"description": "Lawrlwythwch eich hoff erthyglau i'w darllen all-lein, cydamserwch eich rhaglen ddarllen ac addaswch eich profiad darllen gydag ap swyddogol Wicipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Wiciadur",
 		"slogan": "Y Geiriadur Rhydd",
-		"entries": "cofnodion"
+		"entries": "cofnodion",
+		"search-input-label": "Chwilio Wiciadur",
+		"language-button-text": "Darllen Wiciadur yn eich iaith"
 	},
 	"wikibooks": {
 		"name": "Wicilyfrau",
 		"slogan": "Gwerslyfrau rhydd",
-		"entries": "dalennau"
+		"entries": "tudalennau",
+		"search-input-label": "Chwilio Wicilyfrau",
+		"language-button-text": "Darllen Wicilyfrau yn eich iaith"
 	},
 	"wikinews": {
 		"name": "Wicinewyddion",
-		"slogan": "Ffynonellau agored (newyddion)",
-		"entries": "erthyglau"
+		"slogan": "Ffynhonnell newyddion rhydd",
+		"entries": "erthyglau",
+		"search-input-label": "Chwilio Wicinewyddion",
+		"language-button-text": "Darllen Wicinewyddion yn eich iaith"
 	},
 	"wikiquote": {
-		"name": "Wiciddyfynu",
+		"name": "Wiciddyfynnu",
 		"slogan": "Casgliad o ddyfyniadau",
-		"entries": "erthyglau"
+		"entries": "erthyglau",
+		"search-input-label": "Chwilio Wiciddyfynnu",
+		"language-button-text": "Darllen Wiciddyfynnu yn eich iaith"
 	},
 	"wikisource": {
 		"name": "Wicidestun",
 		"slogan": "Llyfrgell rhydd ac am ddim"
 	},
 	"wikiversity": {
-		"name": "Wikiversity",
+		"name": "Wiciysgol",
 		"slogan": "Deunydd rhydd ac agored",
-		"entries": "deunyddiau addysgu"
+		"entries": "deunyddiau addysgu",
+		"search-input-label": "Chwilio Wiciysgol",
+		"language-button-text": "Darllen Wiciysgol yn eich iaith"
 	},
 	"wikivoyage": {
 		"name": "Wicidaith",
-		"slogan": "Teithlyfrau rhydd ac agored"
+		"slogan": "Teithlyfrau rhydd ac agored",
+		"entries": "tudalennau",
+		"search-input-label": "Chwilio Wicidaith",
+		"language-button-text": "Darllen Wicidaith yn eich iaith"
 	},
 	"commons": {
 		"name": "Comin",
-		"slogan": "Delweddau, ffotograffau ayb rhydd ac agored"
+		"slogan": "Delweddau rhydd ac agored & mwy"
 	},
 	"wikispecies": {
 		"name": "Wicirywogaeth",
@@ -73,11 +92,11 @@
 		"slogan": "Cefnfor o wybodaeth rhydd ac am ddim"
 	},
 	"mediawiki": {
-		"name": "MediaWiki",
+		"name": "MediaWici",
 		"slogan": "Cymhwysiad rhydd ac agored"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki",
-		"slogan": "Dogfennu a chyd-drefnu gwaith y gymuned"
+		"name": "Meta-Wici",
+		"slogan": "Cydlynu cymunedol & dogfennaeth"
 	}
 }

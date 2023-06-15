@@ -7,15 +7,19 @@
 		]
 	},
 	"language-name": "Qaraqalpaqsha",
+	"language-name-romanized": "Qaraqalpaqsha",
+	"language-name-romanized-sorted": "Qaraqalpaqsha",
 	"footer-donate": "Jumısımızdı qayırqomlıq qılıw arqalı qollap-quwatlawıńız múmkin.",
 	"license": "Bul bet <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> astında ámelde",
 	"terms": "Paydalanıw shártleri",
 	"privacy-policy": "Konfidenciallıq siyasatı",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/kaa",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/kaa",
 	"search-input-button": "Izlew",
 	"other-languages-label": "Basqa tiller",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Qaraqalpaq Erkin Ensiklopediyası",
+		"slogan": "Erkin Enciklopediya",
 		"entries": "maqalalar",
 		"search-input-label": "Wikipediyada izleń",
 		"language-button-text": "Wikipediyanı óz tilińizde oqıń",
@@ -83,7 +87,7 @@
 		"slogan": "Biypul túrler katalogi"
 	},
 	"wikidata": {
-		"name": "Wikidata",
+		"name": "Wikimaǵlıwmat",
 		"slogan": "Biypul bilimler bazası"
 	},
 	"mediawiki": {

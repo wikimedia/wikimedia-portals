@@ -3,6 +3,7 @@
 		"authors": [
 			"ASHmed",
 			"Amire80",
+			"Asma",
 			"DRIHEM",
 			"Dr-Taher",
 			"Hhaboh162002",
@@ -18,7 +19,7 @@
 	"language-name-romanized": "Al-ʿArabīyah",
 	"language-name-romanized-sorted": "Arabiyah, Al",
 	"footer-donate": "يمكنك مساندة عملنا بالتبرع.",
-	"license": "هذه الصفحة منشورة <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.ar'>برخصة المشاع الإبداعي</a>",
+	"license": "هذه الصفحة متاحة تحت <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "شروط الاستخدام",
 	"privacy-policy": "سياسة الخصوصية",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ar",
@@ -81,7 +82,10 @@
 	},
 	"wikivoyage": {
 		"name": "ويكي الرحلات",
-		"slogan": "دليل سفر مجاني"
+		"slogan": "دليل سفر مجاني",
+		"entries": "الصفحات",
+		"search-input-label": "ابحث في ويكي الرحلات",
+		"language-button-text": "اقرأ ويكي الرحلات بلغتك"
 	},
 	"commons": {
 		"name": "كومنز",

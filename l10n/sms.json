@@ -28,20 +28,25 @@
 	},
 	"wikinews": {
 		"name": "Wikiođđâz",
-		"entries": "artikkeeʹl"
+		"entries": "artikkeeʹl",
+		"search-input-label": "Ooʒʒ Wikiođđsin"
 	},
 	"wikiquote": {
 		"name": "Wikisitaatt",
-		"entries": "artikkeeʹl"
+		"entries": "artikkeeʹl",
+		"search-input-label": "Ooʒʒ Wikisitaattâst"
 	},
 	"wikisource": {
 		"name": "Wikiaunstõõzz"
 	},
 	"wikiversity": {
-		"name": "Wikiversiteʹtt"
+		"name": "Wikiversiteʹtt",
+		"search-input-label": "Ooʒʒ Wikiversiteeʹttest"
 	},
 	"wikivoyage": {
-		"name": "Wikimääʹtǩ"
+		"name": "Wikimääʹtǩ",
+		"entries": "seeid",
+		"search-input-label": "Ooʒʒ Wikimaaʹtǩin"
 	},
 	"commons": {
 		"name": "Commons"

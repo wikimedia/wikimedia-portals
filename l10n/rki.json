@@ -68,7 +68,10 @@
 	},
 	"wikivoyage": {
 		"name": "ဝီကီခရီးလား",
-		"slogan": "အခမဲ့ ခရီးလားလမ်းညွှန်"
+		"slogan": "အခမဲ့ ခရီးလားလမ်းညွှန်",
+		"entries": "စာမျက်နှာတိ",
+		"search-input-label": "Wikivoyage ကိုယှာပါ။",
+		"language-button-text": "ဝီကီခရီးလားအား မင့်ဘာသာစကားနန့် ဖတ်ပါ"
 	},
 	"commons": {
 		"name": "ကွန်မွန်းစ်",

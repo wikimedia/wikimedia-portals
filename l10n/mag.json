@@ -7,22 +7,22 @@
 	},
 	"language-name": "मगही",
 	"language-name-romanized": "Magahi",
-	"footer-donate": "अपने दान करके हमनीके कामके समर्थन दे सकह।",
+	"footer-donate": "अपने दान करके हमनीके कामके समर्थन दे सकही।",
 	"license": "इपन्ना <a href='https://creativecommons.org/licenses/by-sa/4.0/'>क्रिएटिब् कॉमन्स् एट्रिब्यूसन्-सेयरअलाइके लाइसेन्स्</a> के तहत उपलब्ध हई",
 	"terms": "उपयोगके सर्त",
 	"privacy-policy": "गोपनीयता नीति",
-	"search-input-button": "खोज",
+	"search-input-button": "खोजी",
 	"other-languages-label": "दूसर भासा",
 	"wiki": {
 		"name": "बिकिपीडिया",
 		"slogan": "मुक्तज्ञानकोस",
 		"entries": "लेख",
-		"search-input-label": "बिकिपीडियामे खोज",
-		"language-button-text": "अपन भासामे बिकिपीडिया पढ़",
-		"footer-description": "बिकिपीडियाके आतिथेय बिकिमीडिया फाउण्डेसन् द्वारा करल् जाहई, एगो गैर-लाभकारी सङ्गठन जे अन्न परियोजनाके एक श्रृङ्खलो आतिथेय करहई।",
+		"search-input-label": "बिकिपीडियामे खोजी",
+		"language-button-text": "अपन भासामे बिकिपीडिया पढ़ी",
+		"footer-description": "बिकिपीडियाके आतिथेय बिकिमीडिया सन्सथानद्वारा करल जाहे, एगो गैर-लाभकारी सङ्गठन जे अन्य परियोजनाके एगो श्रृङ्खलो आतिथेय करहे।",
 		"app-links": {
-			"title": "एण्ड्रॉइड् या iOS ला बिकिपीडीया डाउन्लोड् कर",
-			"description": "अधिकारिक बिकिपीडिया ऐप् पर अपन पसन्दीदा लेख आफलाइन् पढ़ेला सहेज, लेखके सूचीके सब यन्त्रपर समकालीन बनाव आउ पढ़ेके अपन अनुभवके अपन अनुकूल बनाव।",
+			"title": "एण्ड्रॉइड् इया iOS ला बिकिपीडिया डाउन्लोड् करी",
+			"description": "अधिकारिक बिकिपीडिया ऐप् पर अपन पसन्दीदा लेख आफलाइन् पढ़ेला सहेजी, लेखके सूचीके सब यन्त्रपर समकालीन बनावी आउ पढ़ेके अपन अनुभवके अपन अनुकूल बनावी।",
 			"google-store": "Google प्ले स्टोर्",
 			"apple-store": "Apple ऐप् स्टोर्",
 			"url": "https://mag.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
@@ -31,30 +31,30 @@
 	"wiktionary": {
 		"name": "बिकिकोस",
 		"slogan": "मुक्त सब्दकोस",
-		"entries": "प्रविष्टि",
-		"search-input-label": "बिकिकोसमे खोज",
-		"language-button-text": "अपन भासामे बिकिकोस पढ़"
+		"entries": "प्रबिष्टि",
+		"search-input-label": "बिकिकोसमे खोजी",
+		"language-button-text": "अपन भासामे बिकिकोस पढ़ी"
 	},
 	"wikibooks": {
 		"name": "बिकिपुस्तक",
 		"slogan": "मुक्त पुस्तक",
 		"entries": "पन्ना",
-		"search-input-label": "बिकिपुस्तकमे खोज",
-		"language-button-text": "अपन भासामे बिकिपुस्तक पढ़"
+		"search-input-label": "बिकिपुस्तकमे खोजी",
+		"language-button-text": "अपन भासामे बिकिपुस्तक पढ़ी"
 	},
 	"wikinews": {
 		"name": "बिकिसमाचार",
 		"slogan": "मुफ्त समाचार स्रोत",
 		"entries": "लेख",
-		"search-input-label": "बिकिसमाचारमे खोज",
-		"language-button-text": "अपन भासामे बिकिसमाचार पढ़"
+		"search-input-label": "बिकिसमाचारमे खोजी",
+		"language-button-text": "अपन भासामे बिकिसमाचार पढ़ी"
 	},
 	"wikiquote": {
 		"name": "बिकिसूक्ति",
 		"slogan": "मुक्त सूक्ति सङ्ग्रह",
 		"entries": "लेख",
-		"search-input-label": "बिकिसूक्तिमे खोज",
-		"language-button-text": "अपन भासामे बिकिसूक्ति पढ़"
+		"search-input-label": "बिकिसूक्तिमे खोजी",
+		"language-button-text": "अपन भासामे बिकिसूक्ति पढ़ी"
 	},
 	"wikisource": {
 		"name": "बिकिस्रोत",
@@ -64,12 +64,15 @@
 		"name": "बिकिबिस्वबिद्यालय",
 		"slogan": "मुक्त पाठक्रम सामग्री",
 		"entries": "सीखेके सन्साधन",
-		"search-input-label": "बिकिबिस्वबिद्यालयमे खोज",
-		"language-button-text": "अपन भासामे बिकिबिस्वबिद्यालय पढ़"
+		"search-input-label": "बिकिबिस्वबिद्यालयमे खोजी",
+		"language-button-text": "अपन भासामे बिकिबिस्वबिद्यालय पढ़ी"
 	},
 	"wikivoyage": {
 		"name": "बिकिजतरा",
-		"slogan": "मुक्त जतरा मार्गदर्सक"
+		"slogan": "मुक्त जतरा मार्गदर्सक",
+		"entries": "पन्ना",
+		"search-input-label": "बिकिजतरामे खोजी",
+		"language-button-text": "अपन भासामे बिकिजतरा पढ़ी"
 	},
 	"commons": {
 		"name": "कॉमन्स्",
@@ -85,10 +88,10 @@
 	},
 	"mediawiki": {
 		"name": "मीडियाबिकि",
-		"slogan": "मुक्त आउ खुलल् बिकि एप्लीकेसन्"
+		"slogan": "मुक्त आउ खुलल बिकि एप्लीकेसन्"
 	},
 	"metawiki": {
 		"name": "मेटा-बिकि",
-		"slogan": "सामुदायिक समन्बय आउ लेखीकरन"
+		"slogan": "सामुदायिक समन्बय आउ लेखीकरण"
 	}
 }

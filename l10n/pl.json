@@ -40,7 +40,7 @@
 	"wiktionary": {
 		"name": "Wikisłownik",
 		"slogan": "Wolny słownik",
-		"entries": "stron",
+		"entries": "haseł",
 		"search-input-label": "Szukaj w Wikisłowniku",
 		"language-button-text": "Czytaj Wikisłownik w swoim języku"
 	},
@@ -54,12 +54,16 @@
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Wolne źródło informacji",
-		"entries": "hasel"
+		"entries": "artykułów",
+		"search-input-label": "Szukaj w Wikinews",
+		"language-button-text": "Czytaj Wikinews w swoim języku"
 	},
 	"wikiquote": {
 		"name": "Wikicytaty",
 		"slogan": "Kolekcja cytatów",
-		"entries": "artykulów"
+		"entries": "artykulów",
+		"search-input-label": "Szukaj w Wikicytatach",
+		"language-button-text": "Czytaj Wikicytaty w swoim języku"
 	},
 	"wikisource": {
 		"name": "Wikiźródła",
@@ -68,11 +72,16 @@
 	"wikiversity": {
 		"name": "Wikiwersytet",
 		"slogan": "Wolne materiały edukacyjne",
-		"entries": "zasoby edukacyjne"
+		"entries": "zasoby edukacyjne",
+		"search-input-label": "Szukaj w Wikiwersytecie",
+		"language-button-text": "Czytaj Wikiwersytet w swoim języku"
 	},
 	"wikivoyage": {
 		"name": "Wikipodróże",
-		"slogan": "Przewodnik Turystyczny"
+		"slogan": "Przewodnik Turystyczny",
+		"entries": "stron",
+		"search-input-label": "Szukaj w Wikipodróżach",
+		"language-button-text": "Czytaj Wikipodróże w swoim języku"
 	},
 	"commons": {
 		"name": "Commons",

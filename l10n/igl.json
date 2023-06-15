@@ -1,0 +1,97 @@
+{
+	"@metadata": {
+		"authors": [
+			"AgnesAbah",
+			"Amire80",
+			"Henry Ojonugwa"
+		]
+	},
+	"language-name": "Igala",
+	"footer-donate": "É néké chateko úkólò wa kpaí é déwn ú wa",
+	"license": "Ogbá yí dé ogane <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Alukuma du cheku",
+	"privacy-policy": "Ewn-umaja óda",
+	"search-input-button": "Téné",
+	"other-languages-label": "Amí ichi ómuné",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Encyclopedia alafá",
+		"entries": "Ohiàla",
+		"search-input-label": "Téné Wikipedia",
+		"language-button-text": "Gbí Wikipedia e fú íchi wé",
+		"footer-description": "ècheneke dèwu Wikipedia tefu android wè kpài iOS wè",
+		"app-links": {
+			"title": "Fí Wikipedia gbà ñwi Android kpaí ios",
+			"description": "Éwn má kò ké téné dú té ké néké gbà égbá kí dé pé, ché ké néké na gbí aménwu ojí énwu dú kpaí á lu ké téné gbà lé é né ké ché tó jí tojí appù Wikipedia.",
+			"google-store": "Google íya ugbo ma kewn jó",
+			"apple-store": "Apple App ugbo ma kewn jó",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Otakada ki yá kí ófé ewn alafa",
+		"entries": "etefu-ènwu",
+		"search-input-label": "Téné Wiktionary",
+		"language-button-text": "Gbí Wikitionary e fú íchi wé"
+	},
+	"wikibooks": {
+		"name": "Wikiamiotakada",
+		"slogan": "òtàkàdà àlàfà",
+		"entries": "Amí ogbá",
+		"search-input-label": "Téné wikiamiotakada",
+		"language-button-text": "Gbí Wikitamiotakada e fú íchi wé"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Alafa ete inabali",
+		"entries": "Ohiàla",
+		"search-input-label": "Téné Wikinews",
+		"language-button-text": "Gbí Wikinews e fú íchi wé"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "ènwu àlàfà ejuwe àmènwu kìchèbiòlàmà",
+		"entries": "Ohiàla",
+		"search-input-label": "Téné wikiquote",
+		"language-button-text": "Gbí Wikiquote fú íchi wé"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Unyi ami Otakada alafa"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "àmenwu ukòchè àlàfà",
+		"entries": "àmènwu ùkòchè",
+		"search-input-label": "Téné Wikiversity",
+		"language-button-text": "Gbí Wikiversity e fú íchi wé"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "ènwu ulè-àlàfa ibe",
+		"entries": "Amí ogbá",
+		"search-input-label": "Téné Wikivoyage",
+		"language-button-text": "Gbí Wikivoyage fú íchi wé"
+	},
+	"commons": {
+		"name": "àmènwu òtàlàkà",
+		"slogan": "ojibo àmonè kuma-dà pkài àmènwu omunè kumàduchekwu àlàfà"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "òdà-edu àlàfà lugbo àmènwuka"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Umà àlàfà kete"
+	},
+	"mediawiki": {
+		"name": "àmènwu òkàlà àpkuchè wiki",
+		"slogan": "ebi wiki àlàfà"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "àkwàrà unyi-ide kpài àmu-òkòtànènwu"
+	}
+}

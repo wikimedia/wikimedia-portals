@@ -6,9 +6,9 @@
 		]
 	},
 	"language-name": "Tyap",
-	"footer-donate": "A maai a li̱n-a̱ma ta̱m nzi̱t hu di̱n vak nang za̱nang kurum.",
+	"footer-donate": "A maai a li̱n ta̱m nzi̱t hu a̱ma ma̱ng za̱nang kurum.",
 	"license": "Wat huni shyia̠ a̠tafa <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.kcg'>Kwaa̱mbwat A̱ka̱wat A̱di̱dam Kaswuo-ShareAlike si̱ Creative Commons</a> hu hwa",
-	"terms": "Nka̱nda̱n Nyian Ta̱m na",
+	"terms": "Nka̱nda̱n Nyian Ta̱m",
 	"privacy-policy": "Kwaa̱mbwat A̱bala̱lang",
 	"search-input-button": "Zop",
 	"other-languages-label": "Lilyem ghyáng",
@@ -17,7 +17,7 @@
 		"slogan": "A̱gban Lyen Wu Ma̱sa̱t",
 		"entries": "a̱yaati̱kut",
 		"search-input-label": "Zop Wukipedia",
-		"language-button-text": "Fang Wukipedia da̠ a̠lyem ang ka",
+		"language-button-text": "Fang Wukipedia da̱ a̱lyem ang ka",
 		"footer-description": "Wukipedia yet kpa̠t Sotbeang Wukimedia hwa, sot nta̠m nang á̠ khwuk di̠ nwai cat kpangti̠n a̱ni ji̱ byia̱ nta̠m jhyang da̱ a̱pyia̱ nji.",
 		"app-links": {
 			"title": "Cyok ma̠ng Wukipedia mat Android ku iOS",
@@ -28,35 +28,35 @@
 		}
 	},
 	"wiktionary": {
-		"name": "Wukiswanga̱lyiat",
-		"slogan": "A̱gban swang a̱lyiat ntyap wu ma̱sa̱t",
+		"name": "Wukiswánga̱lyiat",
+		"slogan": "A̱gban swáng a̱lyiat ma̱sa̱t wu",
 		"entries": "lyulyoot nwuai",
-		"search-input-label": "Zop Wukiswanga̱lyiat",
-		"language-button-text": "Fang Wukiswanga̱lyiat da̱ a̱lyem ang ka"
+		"search-input-label": "Zop Swánga̱lyiatwuki",
+		"language-button-text": "Fang Swánga̱lyiatwuki da̱ a̱lyem ang ka"
 	},
 	"wikibooks": {
-		"name": "Wukinkwaa̱mbwat",
+		"name": "Nkwaa̱mbwatwuki",
 		"slogan": "Nkwaa̱mbwat-fang ma̱sa̱t",
 		"entries": "ngwat",
-		"search-input-label": "Zop Wikinkwaa̱mbwat",
-		"language-button-text": "Fang Wukinkwaa̱mbwat da̱ a̱lyem ang ka"
+		"search-input-label": "Zop Nkwaa̱mbwatwuki",
+		"language-button-text": "Fang Nkwaa̱mbwatwuki da̱ a̱lyem ang ka"
 	},
 	"wikinews": {
-		"name": "Wukinkhang",
+		"name": "Nkhangwuki",
 		"slogan": "A̱tyin nkhang ma̱sa̱t",
 		"entries": "a̱yaati̱kut",
-		"search-input-label": "Zop Wukinkhang",
-		"language-button-text": "Fang Wukinkhang da̱ a̱lyem ang ka"
+		"search-input-label": "Zop Nkhangwuki",
+		"language-button-text": "Fang Nkhangwuki da̱ a̱lyem ang ka"
 	},
 	"wikiquote": {
-		"name": "Wukintyan",
+		"name": "Tyanwuki",
 		"slogan": "Kompendyom tyan ma̱sa̱t",
 		"entries": "a̱yaati̱kut",
-		"search-input-label": "Zop Wukintyan",
-		"language-button-text": "Fang Wukintyan da̱ a̱lyem ang ka"
+		"search-input-label": "Zop Tyanwuki",
+		"language-button-text": "Fang Tyanwuki da̱ a̱lyem ang ka"
 	},
 	"wikisource": {
-		"name": "Wukia̱tyin",
+		"name": "A̱tyinwuki",
 		"slogan": "Tutunkwaa̱mbwat ma̱sa̱t"
 	},
 	"wikiversity": {
@@ -67,18 +67,18 @@
 		"language-button-text": "Fang Wukivasi̱ti da̱ a̱lyem ang ka"
 	},
 	"wikivoyage": {
-		"name": "Wukia̱ka̱cyet",
+		"name": "A̱ka̱cyetwuki",
 		"slogan": "A̱kwak-a̱son a̱cyet ma̱sa̱t",
 		"entries": "Ngwat",
-		"search-input-label": "Zop Wukia̱ka̱cyet",
-		"language-button-text": "Fang Wukia̱ka̱cyet da̱ a̱lyem ang ka"
+		"search-input-label": "Zop A̱ka̱cyetwuki",
+		"language-button-text": "Fang A̱ka̱cyetwuki da̱ a̱lyem ang ka"
 	},
 	"commons": {
-		"name": "Commons",
+		"name": "Komon",
 		"slogan": "Nghwughwu nang á̠ maai á̱ nyia̠ ta̠m ma̠ng á̠na ma̱sa̱t ma̠ng nkyang jhyang"
 	},
 	"wikispecies": {
-		"name": "Wukisusotbishyi",
+		"name": "Susotbishyiwuki",
 		"slogan": "Kwaa̱mbwat a̠myim susotbishyi ma̱sa̱t"
 	},
 	"wikidata": {

@@ -6,6 +6,8 @@
 	},
 	"language-name": "მარგალური",
 	"language-name-romanized": "Margaluri",
+	"footer-donate": "შეილებჷნა ქელუდირთათ ჩქინ ხანდას დონაციათ.",
+	"license": "ათე ხასჷლა ხემიოჭირინუს რე <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">ლიცენზიათ Creative Commons Attribution-ShareAlike</a>",
 	"terms": "გჷმორინაფაშ წესეფი",
 	"privacy-policy": "კონფიდენციალურალაშ პოლიტიკა",
 	"search-input-button": "გორუა",
@@ -26,22 +28,30 @@
 	"wiktionary": {
 		"name": "ვიქსიკონი",
 		"slogan": "დუდიშული ლექსიკონი",
-		"entries": "დინნაჭარეფი"
+		"entries": "დინნაჭარეფი",
+		"search-input-label": "გირუა ვიქსიკონს",
+		"language-button-text": "წეკითხით ვიქსიკონი თქვან ნინაშა"
 	},
 	"wikibooks": {
 		"name": "ვიკიწინგეფი",
 		"slogan": "დუდიშული ოხემანჯღვერეეფი",
-		"entries": "ხასჷლეფი"
+		"entries": "ხასჷლეფი",
+		"search-input-label": "გორუა ვიკიწინგეფს",
+		"language-button-text": "წეკითხით ვიკიწინგეფი თქვან ნინაშა"
 	},
 	"wikinews": {
 		"name": "ვიკისიახალეეფი",
 		"slogan": "დუდიშული სიახალეეფიშ წყუ",
-		"entries": "სტატიეფი"
+		"entries": "სტატიეფი",
+		"search-input-label": "გორუა ვიკი ახალ ამბეეფს",
+		"language-button-text": "წეკითხით ვიკი ახალ ამბეეფი თქვან ნინაშა"
 	},
 	"wikiquote": {
 		"name": "ვიკიციტატა",
 		"slogan": "ციტატეფიშ კოლექხია",
-		"entries": "სტატიეფი"
+		"entries": "სტატიეფი",
+		"search-input-label": "გორუა ვიკიციტატას",
+		"language-button-text": "წეკითხით ვიკიციტატეფი თქვან ნინაშა"
 	},
 	"wikisource": {
 		"name": "ვიკიწყუ",
@@ -50,11 +60,16 @@
 	"wikiversity": {
 		"name": "ვიკივერსიტეტი",
 		"slogan": "დუდიშული ოგონათუე მასალეფი",
-		"entries": "დაგურაფალი რესურსეფი"
+		"entries": "დაგურაფალი რესურსეფი",
+		"search-input-label": "გირუა ვიკივერსიტეტის",
+		"language-button-text": "წეკითხით ვიკივერსიტეტი თქვან ნინაშა"
 	},
 	"wikivoyage": {
 		"name": "ვიკივოიაჟი",
-		"slogan": "დუდიშული რზაგემაწურაფალი"
+		"slogan": "დუდიშული რზაგემაწურაფალი",
+		"entries": "ხასჷლეფი",
+		"search-input-label": "გირუა ვიკიშარობუას",
+		"language-button-text": "წეკითხით ვიკიშარობუა თქვან ნინაშა"
 	},
 	"commons": {
 		"name": "ვიკიოწკარუე",

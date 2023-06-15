@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bencemac",
+			"Einstein2",
 			"Hanna Tardos",
 			"Minh Nguyen",
 			"R-Joe",
@@ -9,6 +10,7 @@
 		]
 	},
 	"language-name": "Magyar",
+	"footer-donate": "Adománnyal segítheted munkánkat.",
 	"license": "Ez a lap a <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.hu\">Creative Commons Nevezd meg! – Így add tovább! licenc</a> alatt érhető el.",
 	"terms": "Felhasználási feltételek",
 	"privacy-policy": "Adatvédelmi irányelvek",
@@ -71,7 +73,10 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Szabad útikalauz"
+		"slogan": "Szabad útikalauz",
+		"entries": "lap",
+		"search-input-label": "Keresés a Wikivoyage-ban",
+		"language-button-text": "Olvasd a Wikivoyage-ot az anyanyelveden"
 	},
 	"commons": {
 		"name": "Commons",

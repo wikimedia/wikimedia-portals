@@ -1,8 +1,70 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Kuukye"
 		]
 	},
-	"language-name": "Dagaare"
+	"language-name": "Dagaare",
+	"footer-donate": "Fo na baŋ soŋ la a te Toma ŋa ane libiri fee",
+	"license": "A vuo ŋa be la a wuli zie ŋa poɔ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Yelbie the naŋ na de tons neŋ toma",
+	"search-input-button": "Bɔ",
+	"other-languages-label": "Kɔkɔ yobo",
+	"wiki": {
+		"search-input-label": "Bɔ wikipedia",
+		"language-button-text": "Kanne Wikipedia go kɔkɔreŋ",
+		"app-links": {
+			"google-store": "Gɔɔgile apere nyezie"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikiyebie doge",
+		"entries": "Boŋ enne"
+	},
+	"wikibooks": {
+		"name": "Wikigama",
+		"slogan": "Game weɛlɛ",
+		"entries": "Vori",
+		"search-input-label": "Bɔ wikigama",
+		"language-button-text": "Kanne wikigama to kɔkɔreŋ"
+	},
+	"wikinews": {
+		"name": "Wikiduorisaama",
+		"slogan": "Duosaama kpala yizie",
+		"entries": "Yelyaga",
+		"search-input-label": "Bɔ wikiduosaama",
+		"language-button-text": "Kane wikiduasaama a fo kɔkɔreŋ"
+	},
+	"wikiquote": {
+		"name": "Wikinɔyelli",
+		"entries": "Yelyaga",
+		"search-input-label": "Bɔ wikinɔyelli",
+		"language-button-text": "Kanne wikinɔyelli do kɔkɔreŋ"
+	},
+	"wikisource": {
+		"name": "Wikiyizie",
+		"slogan": "Gama nyezie"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"entries": "Zannoo bonsonne",
+		"search-input-label": "Bɔ wikiversity",
+		"language-button-text": "Kanne wikiversity fo kɔkɔreŋ"
+	},
+	"wikivoyage": {
+		"slogan": "Sori tuubu bonmanewulla weɛlɛ",
+		"entries": "Vori"
+	},
+	"commons": {
+		"name": "Yitaaloŋ",
+		"slogan": "Fotori fo naŋ na baŋ de weɛle ane amine"
+	},
+	"wikidata": {
+		"name": "Wiki yelnyarre",
+		"slogan": "Yɛŋ weɛlɛ bezie"
+	},
+	"metawiki": {
+		"slogan": "Te laŋkpeɛbo lammo and segebimmo"
+	}
 }

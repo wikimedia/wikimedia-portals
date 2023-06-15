@@ -16,10 +16,13 @@
 	"privacy-policy": "د پټنتيا تگلاره",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ps",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ps",
+	"search-input-button": "پلټل",
+	"other-languages-label": "نورې ژبې",
 	"wiki": {
 		"name": "ويکيپېډيا",
 		"slogan": "يو وړيا پوهنغونډ",
 		"entries": "ليکنې",
+		"search-input-label": "ويکيپېډيا پلټل",
 		"language-button-text": "ويکيپېډيا پخپله ژبه کې ولولئ",
 		"footer-description": "ويکيپېډيا د ويکيمېډيا بنسټ په کوربه توب خپرېږي، دا يو ناگټندويه تنظيم دی او د يو شمېر نورو پروژو کوربه هم دی.",
 		"app-links": {
@@ -57,7 +60,8 @@
 	},
 	"wikivoyage": {
 		"name": "ويکيسفر",
-		"slogan": "د سفرونو وړيا لارښود"
+		"slogan": "د سفرونو وړيا لارښود",
+		"entries": "مخونه"
 	},
 	"commons": {
 		"name": "خونديځ",

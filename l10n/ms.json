@@ -8,6 +8,7 @@
 	},
 	"language-name": "Bahasa Melayu",
 	"language-name-romanized-sorted": "Melayu, Bahasa",
+	"footer-donate": "Anda boleh menyokong kerja kami dengan menderma.",
 	"license": "Laman ini tersedia di bawah <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Lesen Atribusi-PerkongsianSerupa Creative Commons</a>",
 	"terms": "Syarat-syarat Penggunaan",
 	"privacy-policy": "Dasar Privasi",
@@ -23,28 +24,38 @@
 		"app-links": {
 			"title": "Muat turun Wikipedia untuk Android atau iOS",
 			"description": "Simpan rencana kegemaran anda untuk dibaca luar talian, segerakkan senarai bacaan anda rentas peranti dan sesuaikan pengalaman bacaan anda dengan aplikasi Wikipedia yang rasmi.",
+			"google-store": "Gedung Google Play",
+			"apple-store": "Gedung Apple App",
 			"url": "https://ms.wikipedia.org/wiki/Senarai_aplikasi_mu_ah_alih_Wikipedia"
 		}
 	},
 	"wiktionary": {
 		"name": "Wikikamus",
 		"slogan": "Kamus bebas",
-		"entries": "masukan"
+		"entries": "masukan",
+		"search-input-label": "Cari Wikikamus",
+		"language-button-text": "Baca Wikikamus dalam bahasa anda"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Buku teks bebas",
-		"entries": "laman"
+		"entries": "laman",
+		"search-input-label": "Cari Wikibuku",
+		"language-button-text": "Baca Wikibuku dalam bahasa anda"
 	},
 	"wikinews": {
 		"name": "Wikiberita",
 		"slogan": "Sumber berita bebas",
-		"entries": "rencana"
+		"entries": "rencana",
+		"search-input-label": "Cari Wikiberita",
+		"language-button-text": "Baca Wikiberita dalam bahasa anda"
 	},
 	"wikiquote": {
 		"name": "Wikipetikan",
 		"slogan": "Ikhtisar petikan bebas",
-		"entries": "rencana"
+		"entries": "rencana",
+		"search-input-label": "Cari Wikipetikan",
+		"language-button-text": "Baca Wikipetikan dalam bahasa anda"
 	},
 	"wikisource": {
 		"name": "Wikisumber",
@@ -53,11 +64,16 @@
 	"wikiversity": {
 		"name": "Wikiversiti",
 		"slogan": "Bahan kursus bebas",
-		"entries": "sumber pelajaran"
+		"entries": "sumber pelajaran",
+		"search-input-label": "Cari Wikiversiti",
+		"language-button-text": "Baca Wikiversiti dalam bahasa anda"
 	},
 	"wikivoyage": {
 		"name": "Wikikembara",
-		"slogan": "Panduan perjalanan bebas"
+		"slogan": "Panduan perjalanan bebas",
+		"entries": "laman",
+		"search-input-label": "Cari Wikilayar",
+		"language-button-text": "Baca Wikilayar dalam bahasa anda"
 	},
 	"commons": {
 		"name": "Commons",

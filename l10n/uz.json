@@ -4,7 +4,8 @@
 			"Asadbek Botirqulov",
 			"CoderSI",
 			"Malikxan",
-			"Nurlan"
+			"Nurlan",
+			"Zafar Shamsiddinov"
 		]
 	},
 	"language-name": "Oʻzbekcha / Ўзбекча",
@@ -27,7 +28,8 @@
 			"title": "Android yoki IOS uchun Vikipediyani yuklab oling",
 			"description": "Sevimli maqolalaringizni oflayn rejimda oʻqish uchun saqlang, oʻqish roʻyxatlaringizni qurilmalarda sinxronlashtiring va rasmiy Vikipediya ilovasi yordamida oʻqish tajribangizni sozlang.",
 			"google-store": "Google Play Store",
-			"apple-store": "Apple App Store"
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
@@ -47,12 +49,16 @@
 	"wikinews": {
 		"name": "Vikiyangiliklar",
 		"slogan": "Bepul yangiliklar manbasi",
-		"entries": "maqolalar"
+		"entries": "maqolalar",
+		"search-input-label": "Vikiyangiliklarni izlash",
+		"language-button-text": "Vikiyangiliklarni oʻz tilingizda oʻqing"
 	},
 	"wikiquote": {
 		"name": "Vikiiqtibos",
 		"slogan": "Bepul takliflar toʻplami",
-		"entries": "maqolalar"
+		"entries": "maqolalar",
+		"search-input-label": "Vikiiqtibosni izlash",
+		"language-button-text": "Vikiiqtibosni oʻz tilingizda oʻqing"
 	},
 	"wikisource": {
 		"name": "Vikimanba",
@@ -61,11 +67,16 @@
 	"wikiversity": {
 		"name": "Vikiversitet",
 		"slogan": "Bepul dars materiallari",
-		"entries": "oʻquv manbalari"
+		"entries": "oʻquv manbalari",
+		"search-input-label": "Vikiversitetni izlash",
+		"language-button-text": "Vikiversitetni oʻz tilingizda oʻqing"
 	},
 	"wikivoyage": {
 		"name": "Vikigid",
-		"slogan": "Bepul sayohat uchun qoʻllanma"
+		"slogan": "Bepul sayohat uchun qoʻllanma",
+		"entries": "sahifalar",
+		"search-input-label": "Vikisayohatni izlash",
+		"language-button-text": "Vikisayohatdan oʻz tilingizda oʻqing"
 	},
 	"commons": {
 		"name": "Commons",

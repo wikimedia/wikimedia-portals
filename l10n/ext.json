@@ -2,15 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Crucifunked",
+			"HackerPunki",
 			"Julio Nepote"
 		]
 	},
 	"language-name": "Estremeñu",
 	"language-name-romanized-sorted": "Estremenu",
+	"other-languages-label": "Otrus idiomas",
 	"wiki": {
 		"name": "Güiquipedia",
 		"slogan": "L'enciclopeya libri",
-		"entries": "artículus"
+		"entries": "artículus",
+		"search-input-label": "Buscal en Güiquipedia",
+		"language-button-text": "Leyel Güiquipedia en la tu idioma"
 	},
 	"wiktionary": {
 		"name": "Güiquizionariu",
@@ -20,7 +24,7 @@
 	"wikibooks": {
 		"name": "Güiquilibrus",
 		"slogan": "Librus de testu de calteniu libri",
-		"entries": "Páhinas"
+		"entries": "Páginas"
 	},
 	"wikinews": {
 		"name": "Güiquinotícias",
@@ -43,6 +47,7 @@
 	},
 	"wikivoyage": {
 		"name": "Güiquiviahis",
-		"slogan": "La guía viahis libri"
+		"slogan": "La guía viahis libri",
+		"entries": "páginas"
 	}
 }

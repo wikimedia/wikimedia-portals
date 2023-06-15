@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"فیروز"
+			"فیروز",
+			"محک"
 		]
 	},
 	"language-name": "مازِرونی",
@@ -10,5 +11,35 @@
 	"footer-donate": "شما تونِنی مالی کمک جا امه کار جا حمایت هاکنین.",
 	"wiki": {
 		"name": "ویکی‌پدیا"
+	},
+	"wiktionary": {
+		"name": "ویکی‌واژه"
+	},
+	"wikibooks": {
+		"name": "ویکی‌کتاب"
+	},
+	"wikinews": {
+		"name": "ویکی‌خور"
+	},
+	"wikiquote": {
+		"name": "ویکی‌بائوته"
+	},
+	"wikisource": {
+		"name": "ویکی‌قالزم"
+	},
+	"wikiversity": {
+		"name": "ویکی‌دانشگاه"
+	},
+	"wikivoyage": {
+		"name": "ویکی‌سفر"
+	},
+	"commons": {
+		"name": "ویکی‌تلمبار"
+	},
+	"wikidata": {
+		"name": "ویکی‌دیتا"
+	},
+	"mediawiki": {
+		"name": "مدیاویکی"
 	}
 }

@@ -42,7 +42,9 @@
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Kizungünewkechi we zugu",
-		"entries": "tapülh"
+		"entries": "tapülh",
+		"search-input-label": "Kintun Wikinews mew",
+		"language-button-text": "Wikinews tami zungun mew"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
@@ -58,11 +60,16 @@
 	"wikiversity": {
 		"name": "Wikichillkatuwe",
 		"slogan": "Neykülechi kimeltuwe",
-		"entries": "kimeltuwe"
+		"entries": "kimeltuwe",
+		"search-input-label": "Kintun Wikiversity mew",
+		"language-button-text": "Wikiversity tami zungun mew"
 	},
 	"wikivoyage": {
 		"name": "Wikinhampülkan",
-		"slogan": "Neykülechi nhampülkan"
+		"slogan": "Neykülechi nhampülkan",
+		"entries": "tapülh",
+		"search-input-label": "Kintun Wikivoyage mew",
+		"language-button-text": "Wikivoyage tami zungun mew"
 	},
 	"commons": {
 		"name": "Commons",

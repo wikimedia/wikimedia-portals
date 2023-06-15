@@ -24,7 +24,8 @@
 			"title": "Discarga Wikipedia pro Android o iOS",
 			"description": "Salveguarda tu articulos favorite pro leger los sin connexion, synchronisa tu listas de lectura inter apparatos e personalisa tu experientia de lectura con le app official de Wikipedia.",
 			"google-store": "Google Play Store",
-			"apple-store": "Apple App Store"
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
@@ -44,12 +45,16 @@
 	"wikinews": {
 		"name": "Wikinovas",
 		"slogan": "Fonte libere de novas",
-		"entries": "articulos"
+		"entries": "articulos",
+		"search-input-label": "Cercar in Wikinovas",
+		"language-button-text": "Leger Wikinovas in tu lingua"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Collection libere de citatos",
-		"entries": "articulos"
+		"entries": "articulos",
+		"search-input-label": "Cercar in Wikiquote",
+		"language-button-text": "Leger Wikiquote in tu lingua"
 	},
 	"wikisource": {
 		"name": "Wikisource",
@@ -58,11 +63,16 @@
 	"wikiversity": {
 		"name": "Wikiversitate",
 		"slogan": "Material educative libere",
-		"entries": "ressources de apprendimento"
+		"entries": "ressources de apprendimento",
+		"search-input-label": "Cercar in Wikiversitate",
+		"language-button-text": "Leger Wikiversitate in tu lingua"
 	},
 	"wikivoyage": {
 		"name": "Wikiviage",
-		"slogan": "Guida libere de viage"
+		"slogan": "Guida libere de viage",
+		"entries": "paginas",
+		"search-input-label": "Cercar in Wikiviage",
+		"language-button-text": "Leger Wikiviage in tu lingua"
 	},
 	"commons": {
 		"name": "Commons",

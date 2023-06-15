@@ -2,19 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"LesVisages",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Tbodt"
 		]
 	},
 	"language-name": "toki pona",
 	"other-languages-label": "toki ante",
 	"wiki": {
 		"name": "lipu Wikipesija",
-		"slogan": "lipu sona open",
+		"slogan": "lipu sona pi jan ale",
 		"entries": "lipu",
 		"search-input-label": "o alasa lon lipu Wikipesija",
-		"language-button-text": "o lukin e lipu Wikipesija lon toki sina"
+		"language-button-text": "o lukin e lipu Wikipesija kepeken toki sina"
 	},
 	"wikidata": {
-		"name": "Wikitata"
+		"name": "lipu Wikitata"
 	}
 }

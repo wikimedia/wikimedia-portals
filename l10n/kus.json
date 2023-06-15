@@ -1,9 +1,96 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Agurwin Isaac",
+			"Akudugu",
+			"Amire80",
+			"Bugirbiig",
+			"Musahfm",
+			"Wintima Akudugu"
 		]
 	},
 	"language-name": "Kʋsaal",
-	"language-name-romanized-sorted": "Kusaal"
+	"language-name-romanized-sorted": "Kusaal",
+	"footer-donate": "Fʋ na nyaŋε sʋŋi ti tʋʋma la nε piini",
+	"terms": "Tʋʋma suor dɔlisʋg",
+	"privacy-policy": "Gban'agir line su'a",
+	"search-input-button": "Iem",
+	"other-languages-label": "Buudi Pian'ad sieba",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Sɔ woo Ɛnsakolopidia",
+		"entries": "gbana",
+		"search-input-label": "Ieem Wikipedia",
+		"language-button-text": "Karim Wikipedia fʋ mɛŋ pian'adin",
+		"footer-description": "Wikipedia Foundation dimi gɔsid Wikipedia tʋʋma la, lʋgir kanɛ pʋ di'ed nyɔɔd si'a ka sʋŋid tʋʋm sieba nam",
+		"app-links": {
+			"title": "Vɛgim Wikipedia tis fɔɔn bɛɛ i0s",
+			"description": "Su'amɛ fʋ bɔɔdin gbana ka ti karimɛ li yiŋ, kɛ ka fʋ karim zut mi'ilim la dɔl nɛ Wikipedia app.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "\nhttps://en.Wikipedia.org/Wiki/List_of_Wikipedia_mobile_app zin'ig"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Zaalim dictionary",
+		"entries": "banɛ kpɛn'ed",
+		"search-input-label": "ɛɛp/bƆ wiktionary",
+		"language-button-text": "Karim Wiktionary n bɛ fʋ mɛŋ pian'din"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Zaalim karʋŋgbana",
+		"entries": "lakirnam",
+		"search-input-label": "Ieem Wikigbana",
+		"language-button-text": "Karim Wikigbana fʋ mɛŋ pian'adin"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Zaalim labaya zin'ig",
+		"entries": "gbana",
+		"search-input-label": "Ieem Wikinews",
+		"language-button-text": "Karim Wikilabaya fʋ mɛŋ pian'adin"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"entries": "gbana",
+		"search-input-label": "Iem Wikiquote",
+		"language-button-text": "Karim Wikigbana fʋ mɛŋ pian'adin"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Zaalim gbana zin'ig"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Zaalim zamisʋg la'ad",
+		"entries": "zamisʋg la'ad",
+		"search-input-label": "Iem Wikiversity",
+		"language-button-text": "Karimim Wikiversity n bɛ fʋ pian'adin"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Zaalim pa'alʋg ken",
+		"entries": "Lakirnam",
+		"search-input-label": "Iem Wikivoyage",
+		"language-button-text": "Karimim Wikivoyage n bɛ fʋ pian'adin"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Zaalim fɔtonam banɛ tʋm & ka sieba"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Zaalim mi'ilim zin'ig"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
+	}
 }

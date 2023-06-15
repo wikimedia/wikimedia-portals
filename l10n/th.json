@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aefgh39622",
 			"Ans",
 			"Bebiezaza",
 			"Geonuch",
@@ -12,6 +13,7 @@
 	"language-name": "ภาษาไทย",
 	"language-name-romanized": "Phasa Thai",
 	"language-name-romanized-sorted": "Thai, Phasa",
+	"footer-donate": "คุณสามารถสนับสนุนงานของเราได้ด้วยการบริจาค",
 	"license": "หน้านี้อยู่ภายใต้สัญญาอนุญาต<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.th'>ครีเอทีฟคอมมอนส์ อ้างอิงแหล่งที่มา อนุญาตแบบเดียวกัน 3.0</a>",
 	"terms": "ข้อกำหนดการใช้งาน",
 	"privacy-policy": "นโยบายความเป็นส่วนตัว",
@@ -30,28 +32,37 @@
 			"title": "ดาวน์โหลดแอปวิกิพีเดียสำหรับแอนดรอยด์หรือ iOS",
 			"description": "บันทึกบทความที่คุณชื่นชอบสำหรับอ่านออฟไลน์ ซิงค์รายการที่คุณอ่านข้ามอุปกรณ์และปรับแต่งประสบการณ์ในการอ่านมากขึ้นไปกับแอปพลิเคชันวิกิพีเดียอย่างเป็นทางการของเรา",
 			"google-store": "กูเกิลเพลย์สโตร์",
-			"apple-store": "แอปเปิลแอปสโตร์"
+			"apple-store": "แอปเปิลแอปสโตร์",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "วิกิพจนานุกรม",
 		"slogan": "พจนานุกรมเสรี",
-		"entries": "ตำแหน่งเข้า"
+		"entries": "ตำแหน่งเข้า",
+		"search-input-label": "ค้นหาวิกิพจนานุกรม",
+		"language-button-text": "อ่านวิกิพจนานุกรมในภาษาของคุณ"
 	},
 	"wikibooks": {
 		"name": "วิกิตำรา",
 		"slogan": "หนังสือตำราเสรี",
-		"entries": "หน้า"
+		"entries": "หน้า",
+		"search-input-label": "ค้นหาวิกิตำรา",
+		"language-button-text": "อ่านวิกิตำราในภาษาของคุณ"
 	},
 	"wikinews": {
 		"name": "วิกิข่าว",
 		"slogan": "แหล่งข่าวเสรี",
-		"entries": "บทความ"
+		"entries": "บทความ",
+		"search-input-label": "ค้นหาวิกิข่าว",
+		"language-button-text": "อ่านวิกิข่าวในภาษาของคุณ"
 	},
 	"wikiquote": {
 		"name": "วิกิคำคม",
 		"slogan": "แหล่งรวบรวมคำคมเสรี",
-		"entries": "บทความ"
+		"entries": "บทความ",
+		"search-input-label": "ค้นหาวิกิคำคม",
+		"language-button-text": "อ่านวิกิคำคมในภาษาของคุณ"
 	},
 	"wikisource": {
 		"name": "วิกิซอร์ซ",

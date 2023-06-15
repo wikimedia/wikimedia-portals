@@ -8,6 +8,7 @@
 	"language-name": "سرائیکی",
 	"language-name-romanized": "Saraiki",
 	"language-name-romanized-sorted": "Saraiki",
+	"footer-donate": "تساں عطیہ نال ساݙے کم دی حمایت کر سڳدے ہو۔",
 	"license": "ایہ ورقہ <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> دے تحت دستیاب ہے",
 	"terms": "ورتݨ شرطاں",
 	"privacy-policy": "رازداری پالیسی",
@@ -21,28 +22,39 @@
 		"language-button-text": "اپݨی زبان وچ وکیپیڈیا پڑھو",
 		"footer-description": "وکی پیڈیا دا ہوسٹ وکی میڈیا فاؤنڈیشن ہے جہڑی غیر منافع تنظیم ہے تے ڈھیر سارے ٻئے منصوبیاں دی آدری تے ہوسٹ ہے۔",
 		"app-links": {
-			"title": "اینڈرائیڈ یا آئی اوایس کیتے وکی پیڈیا ڈاؤن لوڈ کرو"
+			"title": "اینڈرائیڈ یا آئی اوایس کیتے وکی پیڈیا ڈاؤن لوڈ کرو",
+			"google-store": "گوگل پلے سٹور",
+			"apple-store": "اَیپل اَیپ سٹور",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "وکشنری",
 		"slogan": "مفت ڈکشنری",
-		"entries": "اینٹریاں"
+		"entries": "اینٹریاں",
+		"search-input-label": "وکشنری وچ ڳولو",
+		"language-button-text": "آپݨی زبان وچ وکشنری پڑھو"
 	},
 	"wikibooks": {
 		"name": "وکی کتاباں",
 		"slogan": "مفت ٹیکسٹ کتاباں",
-		"entries": "ورقے"
+		"entries": "ورقے",
+		"search-input-label": "وکی کتاباں وچ ڳولو",
+		"language-button-text": "آپݨی زبان وچ وکی کتاباں پڑھو"
 	},
 	"wikinews": {
 		"name": "وکی خبراں",
 		"slogan": "مفت خبراں ذریعے",
-		"entries": "مقالے"
+		"entries": "مقالے",
+		"search-input-label": "وکی خبراں وچ ڳولو",
+		"language-button-text": "آپݨی زبان وچ وکی خبراں پڑھو"
 	},
 	"wikiquote": {
-		"name": "وکی قول",
+		"name": "وکی ٻول",
 		"slogan": "اقباس دا مفت خلاصہ",
-		"entries": "مقالے"
+		"entries": "مقالے",
+		"search-input-label": "وکی ٻول وچ ڳولو",
+		"language-button-text": "آپݨی زبان وچ وکی ٻول پڑھو"
 	},
 	"wikisource": {
 		"name": "وکی ماخذ",
@@ -51,12 +63,16 @@
 	"wikiversity": {
 		"name": "وکی ورسٹی",
 		"slogan": "مفت کورس دا مواد",
-		"entries": "سیکھݨ کیتے وسائل"
+		"entries": "سیکھݨ کیتے وسائل",
+		"search-input-label": "وکی ورسٹی وچ ڳولو",
+		"language-button-text": "آپݨی زبان وچ وکی ورسٹی پڑھو"
 	},
 	"wikivoyage": {
 		"name": "وکی سیرسپاٹا",
 		"slogan": "مفت ٹریول گائیڈ",
-		"entries": "ورقے"
+		"entries": "ورقے",
+		"search-input-label": "وکی سیر سپاٹا وچ ڳولو",
+		"language-button-text": "آپݨی زبان وچ وکی سیر سپاٹا پڑھو"
 	},
 	"commons": {
 		"name": "کامنز",

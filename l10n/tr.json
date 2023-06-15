@@ -86,7 +86,10 @@
 	},
 	"wikivoyage": {
 		"name": "Vikigezgin",
-		"slogan": "Özgür seyahat rehberi"
+		"slogan": "Özgür seyahat rehberi",
+		"entries": "sayfa",
+		"search-input-label": "Vikigezgin'de Ara",
+		"language-button-text": "Vikigezgin'i kendi dilinizde okuyun"
 	},
 	"commons": {
 		"name": "Commons",

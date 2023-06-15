@@ -8,13 +8,16 @@
 	"language-name-romanized-sorted": "Sicilianu",
 	"terms": "Cunnizzioni d'usu",
 	"privacy-policy": "Pulìtica supra la privacy",
+	"search-input-button": "Arricerca",
 	"other-languages-label": "Àutri lingui",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "La nciclupidìa lìbbira",
 		"entries": "vuci",
+		"search-input-label": "Arricerca supra Wikipedia",
 		"language-button-text": "Leggi Wikipedia ntâ tò lingua",
 		"app-links": {
+			"title": "Scàrrica Wikipedia p'Android o iOS",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://it.wikipedia.org/wiki/Lista_di_applicazioni_mobile_di_Wikipedia"
@@ -23,28 +26,41 @@
 	"wiktionary": {
 		"name": "Wikizziunariu",
 		"slogan": "Lu dizziunariu lìbbiru",
-		"entries": "vuci"
+		"entries": "vuci",
+		"search-input-label": "Arricerca supra lu Wikizziunariu",
+		"language-button-text": "Leggi lu Wikizziunariu ntâ tò lingua"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
-		"entries": "pàggini"
+		"entries": "pàggini",
+		"search-input-label": "Arricerca supra Wikibooks",
+		"language-button-text": "Leggi Wikibooks ntâ tò lingua"
 	},
 	"wikinews": {
 		"name": "Wikinutizzi",
-		"entries": "vuci"
+		"entries": "vuci",
+		"search-input-label": "Arricerca supra Wikinews",
+		"language-button-text": "Leggi Wikinews ntâ tò lingua"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
-		"entries": "vuci"
+		"entries": "vuci",
+		"search-input-label": "Arricerca supra Wikiquote",
+		"language-button-text": "Leggi Wikiquote ntâ tò lingua"
 	},
 	"wikisource": {
 		"name": "Wikisource"
 	},
 	"wikiversity": {
-		"name": "Wikiversità"
+		"name": "Wikiversità",
+		"search-input-label": "Arricerca supra Wikiversità",
+		"language-button-text": "Leggi Wikiversità ntâ tò lingua"
 	},
 	"wikivoyage": {
-		"name": "Wikivoyage"
+		"name": "Wikivoyage",
+		"entries": "pàggini",
+		"search-input-label": "Arricerca supra Wikivoyage",
+		"language-button-text": "Leggi Wikivoyage ntâ tò lingua"
 	},
 	"commons": {
 		"name": "Commons"

@@ -30,7 +30,9 @@
 		"app-links": {
 			"title": "Lataa Wikipedia Androidille tai iOS:lle",
 			"description": "Tallenna suosikkiartikkelisi luettavaksi offline-tilassa, synkronoi lukulistasi eri laitteidesi välillä ja mukauta lukukokemustasi virallisella Wikipedia-sovelluksella.",
-			"google-store": "Google Play -kauppa"
+			"google-store": "Google Play -kauppa",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
@@ -43,17 +45,23 @@
 	"wikibooks": {
 		"name": "Wikikirjasto",
 		"slogan": "Vapaa tietokirjasto",
-		"entries": "sivut"
+		"entries": "sivut",
+		"search-input-label": "Hae Wikikirjastosta",
+		"language-button-text": "Lue Wikikirjastoa kielelläsi"
 	},
 	"wikinews": {
 		"name": "Wikiuutiset",
 		"slogan": "Vapaa uutislähde",
-		"entries": "artikkelit"
+		"entries": "artikkelit",
+		"search-input-label": "Hae Wikiuutisista",
+		"language-button-text": "Lue Wikiuutisia kielelläsi"
 	},
 	"wikiquote": {
 		"name": "Wikisitaatit",
 		"slogan": "Vapaa sitaattikokoelma",
-		"entries": "artikkelit"
+		"entries": "artikkelit",
+		"search-input-label": "Hae Wikisitaateista",
+		"language-button-text": "Lue Wikisitaatteja kielelläsi"
 	},
 	"wikisource": {
 		"name": "Wikiaineisto",
@@ -62,11 +70,16 @@
 	"wikiversity": {
 		"name": "Wikiopisto",
 		"slogan": "Vapaa oppimisympäristö",
-		"entries": "artikkelia"
+		"entries": "artikkelia",
+		"search-input-label": "Hae Wikiopistosta",
+		"language-button-text": "Lue Wikiopistoa kielelläsi"
 	},
 	"wikivoyage": {
 		"name": "Wikimatkat",
-		"slogan": "Vapaa matkaopas"
+		"slogan": "Vapaa matkaopas",
+		"entries": "artikkelia",
+		"search-input-label": "Hae Wikimatkoista",
+		"language-button-text": "Lue Wikimatkoja kielelläsi"
 	},
 	"commons": {
 		"name": "Commons",
