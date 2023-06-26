@@ -8,36 +8,50 @@
 	"language-name": "Кыргызча",
 	"language-name-romanized": "Kyrgyzča",
 	"language-name-romanized-sorted": "Kyrgyzca",
+	"terms": "Колдонуу шарттары",
 	"privacy-policy": "Купуялык саясаты",
+	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ky",
+	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ky",
 	"search-input-button": "Издөө",
 	"other-languages-label": "Башка тилдерде",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Ачык энциклопедия",
-		"entries": "макалалар",
-		"search-input-label": "Уикипедиядан издөө",
-		"language-button-text": "Уикипедияны өз тилиңизде окуңүз",
+		"entries": "макала",
+		"search-input-label": "Википедиядан издөө",
+		"language-button-text": "Википедияны эне тилиңизде окуңүз",
+		"footer-description": "Википедия жана башка долбоорлор Викимедиа фондунун — комерциялык эмес уюмунун серверлеринде жайгашууда.",
 		"app-links": {
-			"title": "Android же iOS үчүн Уикипедияны жүктөп алыңыз",
+			"title": "Android же iOS үчүн Википедияны жүктөө",
 			"google-store": "Google Play Store",
-			"apple-store": "Apple App Store"
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Викисөздүк",
-		"slogan": "Ачык сөздүк"
+		"slogan": "Ачык сөздүк",
+		"entries": "макала",
+		"search-input-label": "Викисөздүктөн издөө",
+		"language-button-text": "Викисөздүктү эне тилиңизде окуңуз"
 	},
 	"wikibooks": {
 		"name": "Викикитеп",
-		"entries": "барактар"
+		"entries": "китеп",
+		"search-input-label": "Викикитептен издөө",
+		"language-button-text": "Викикитепти эне тилиңизде окуңуз"
 	},
 	"wikinews": {
 		"name": "Викижаңылыктар",
-		"entries": "макалалар"
+		"entries": "макала",
+		"search-input-label": "Викижаңылыктардан издөө",
+		"language-button-text": "Викижаңылыктарды эне тилиңизде окуңуз"
 	},
 	"wikiquote": {
 		"name": "Викиүзүндү",
-		"entries": "макалалар"
+		"entries": "макала",
+		"search-input-label": "Викиүзүндүдөн издөө",
+		"language-button-text": "Викиүзүндүнү эне тилиңизде окуңуз"
 	},
 	"wikisource": {
 		"name": "Викибулак",
@@ -46,17 +60,22 @@
 	"wikiversity": {
 		"name": "Викиверситет",
 		"slogan": "Ачык окутуу курстары",
-		"entries": "билим берүү ресурстары"
+		"entries": "билим берүү ресурстары",
+		"search-input-label": "Викиверситеттен издөө",
+		"language-button-text": "Викиверситетти эне тилиңизде окуңуз"
 	},
 	"wikivoyage": {
-		"name": "Викисаякат"
+		"name": "Викисаякат",
+		"entries": "барак",
+		"search-input-label": "Викисаякаттан издөө",
+		"language-button-text": "Викисаякатты эне тилиңизде окуңуз"
 	},
 	"commons": {
 		"name": "Викиказына",
 		"slogan": "Эркин колдонула турган сүрөттөр жана башкалар"
 	},
 	"wikispecies": {
-		"name": "Уикитүрлөр"
+		"name": "Викитүрлөр"
 	},
 	"wikidata": {
 		"name": "Викимаалымат",
@@ -67,6 +86,6 @@
 		"slogan": "Акысыз жана ачык уики тиркемеси"
 	},
 	"metawiki": {
-		"name": "Мета-Уики"
+		"name": "Мета-вики"
 	}
 }
