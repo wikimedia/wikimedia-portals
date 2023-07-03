@@ -7,11 +7,13 @@
 		]
 	},
 	"language-name": "Eesti",
+	"footer-donate": "Saad toetada meie tööd annetusega.",
 	"license": "See lehekülg on saadaval Creative Commonsi litsentsi \"<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.et'>Autorile viitamine + jagamine samadel tingimustel</a>\" all.",
 	"terms": "Kasutustingimused",
 	"privacy-policy": "Andmekaitsereeglid",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/et",
 	"search-input-button": "Otsi",
+	"other-languages-label": "Teised keeled",
 	"wiki": {
 		"name": "Vikipeedia",
 		"slogan": "Vaba entsüklopeedia",
@@ -27,22 +29,26 @@
 	"wiktionary": {
 		"name": "Vikisõnastik",
 		"slogan": "Vaba sõnastik",
-		"entries": "sissekannet"
+		"entries": "sissekannet",
+		"language-button-text": "Loe Vikisõnastikku enda keeles"
 	},
 	"wikibooks": {
 		"name": "Vikiõpikud",
 		"slogan": "Vabad õpikud",
-		"entries": "lehekülge"
+		"entries": "lehekülge",
+		"language-button-text": "Loe Vikiõpikuid enda keeles"
 	},
 	"wikinews": {
 		"name": "Vikiuudised",
 		"slogan": "Vaba uudiste allikas",
-		"entries": "artiklit"
+		"entries": "artiklit",
+		"language-button-text": "Loe Vikiuudiseid enda keeles"
 	},
 	"wikiquote": {
 		"name": "Vikitsitaadid",
 		"slogan": "Vaba tsitaadikogumik",
-		"entries": "artiklit"
+		"entries": "artiklit",
+		"language-button-text": "Loe Vikitsitaate enda keeles"
 	},
 	"wikisource": {
 		"name": "Vikitekstid",
@@ -51,11 +57,14 @@
 	"wikiversity": {
 		"name": "Vikiülikool",
 		"slogan": "Vabad õppematerjalid",
-		"entries": "lehekülge"
+		"entries": "lehekülge",
+		"language-button-text": "Loe Vikiülikooli enda keeles"
 	},
 	"wikivoyage": {
 		"name": "Vikireisid",
-		"slogan": "Vaba reisijuht"
+		"slogan": "Vaba reisijuht",
+		"entries": "lehekülge",
+		"language-button-text": "Loe Vikireise enda keeles"
 	},
 	"commons": {
 		"name": "Commons",
