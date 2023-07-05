@@ -67,6 +67,13 @@
 		"key": "wikispecies"
 	},
 	{
+		"name": "Wikifunctions",
+		"url": "//www.wikifunctions.org/",
+		"tagline": "Free function library",
+		"img1": "Wikifunctions-logo_sister",
+		"key": "wikifunctions"
+	},
+	{
 		"name": "Meta-Wiki",
 		"url": "//meta.wikimedia.org/",
 		"tagline": "Community coordination & documentation",
