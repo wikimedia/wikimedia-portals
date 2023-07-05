@@ -3,3 +3,4 @@ prod
 data
 src/**/portal
 l10n
+src/**/assets/rev-manifest.json
