@@ -6,17 +6,64 @@
 	},
 	"language-name": "ગુજરાતી",
 	"language-name-romanized": "Gujarati",
+	"terms": "વપરાશની શરતો",
+	"privacy-policy": "ગોપનિયતા નીતિ",
+	"other-languages-label": "અન્ય ભાષાઓ",
 	"wiki": {
-		"name": "વિકિપીડિયા"
+		"name": "વિકિપીડિયા",
+		"slogan": "મફત વિશ્વજ્ઞાનકોશ",
+		"entries": "લેખો",
+		"search-input-label": "વિકિપીડિયામાં શોધો",
+		"language-button-text": "વિકિપીડિયા તમારી ભાષામાં વાંચો"
 	},
 	"wiktionary": {
 		"name": "વિકિકોશ",
+		"slogan": "મફત શબ્દકોશ",
+		"search-input-label": "વિકિકોશમાં શોધો",
 		"language-button-text": "વિકિકોશ તમારી ભાષામાં વાંચો"
 	},
+	"wikibooks": {
+		"name": "વિકિપુસ્તક",
+		"slogan": "મફત પાઠ્યપુસ્તકો",
+		"search-input-label": "વિકિપુસ્તકમાં શોધો",
+		"language-button-text": "વિકિપુસ્તક તમારી ભાષામાં વાંચો"
+	},
+	"wikinews": {
+		"name": "વિકિસમાચાર",
+		"slogan": "મફત સમાચાર સ્ત્રોત",
+		"entries": "લેખો",
+		"search-input-label": "વિકિસમાચારમાં શોધો",
+		"language-button-text": "વિકિસમાચાર તમારી ભાષામાં વાંચો"
+	},
 	"wikiquote": {
-		"name": "વિકિસૂક્તિ"
+		"name": "વિકિસૂક્તિ",
+		"slogan": "મફત સૂક્તિ સંકલન",
+		"entries": "લેખો",
+		"search-input-label": "વિકિસૂક્તિમાં શોધો",
+		"language-button-text": "વિકિસૂક્તિ તમારી ભાષામાં વાંચો"
 	},
 	"wikisource": {
 		"name": "વિકિસ્રોત"
+	},
+	"wikiversity": {
+		"name": "વિકિવિદ્યાલય",
+		"slogan": "મફત અભ્યાસક્રમ સામગ્રી",
+		"entries": "શિક્ષણના સંસાધનો",
+		"search-input-label": "વિકિવિદ્યાલયમાં શોધો",
+		"language-button-text": "વિકિવિદ્યાલય તમારી ભાષામાં વાંચો"
+	},
+	"wikivoyage": {
+		"name": "વિકિયાત્રા",
+		"search-input-label": "વિકિયાત્રામાં શોધો",
+		"language-button-text": "વિકિયાત્રા તમારી ભાષામાં વાંચો"
+	},
+	"commons": {
+		"slogan": "મફતમાં ઉપયોગ કરી શકાય તેવા ફોટાઓ વગેરે"
+	},
+	"wikispecies": {
+		"name": "વિકિજાતિ"
+	},
+	"mediawiki": {
+		"name": "મીડિયાવિકિ"
 	}
 }
