@@ -7,7 +7,7 @@
 	"language-name": "ChiShona",
 	"language-name-romanized-sorted": "Shona, Chi",
 	"footer-donate": "Unokwanisa kutsigira basa redu nemupiro.",
-	"license": "Zanhi rino rinowanikwa pasi pe <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"license": "Zanhi rino rinowanikwa paso pe <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons\n Attribution-ShareAlike License</a>",
 	"terms": "Mitemo yekuShandisa",
 	"privacy-policy": "Uraho we ruvaravando",
 	"search-input-button": "Tsvaga",
@@ -77,7 +77,8 @@
 		"slogan": "Mifananidzo yekushandisa mahara nezvimwe"
 	},
 	"wikispecies": {
-		"name": "Wikirudzi"
+		"name": "Wikirudzi",
+		"slogan": "Jiretori remahara rezvemarudzi"
 	},
 	"wikidata": {
 		"name": "Wikidhata",

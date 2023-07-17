@@ -7,46 +7,54 @@
 			"Гусейн"
 		]
 	},
-	"footer-donate": "Шымә бәзнејон де пули дастәк кардә бә чәмә коон.",
-	"license": "Ым сәһифә дастрәсе бо <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">лисенсијә Creative Commons Attribution-ShareAlike</a>",
-	"terms": "Çı istifodə ğaydon",
-	"privacy-policy": "Məxfiyəti Siyosət",
-	"search-input-button": "Bınəv",
-	"other-languages-label": "Co zıvonon",
+	"footer-donate": "Šymə bəznejon de puli dastək karde bə cəmə koon.",
+	"license": "Ym səhifə dastrəse bo <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">lisensijə Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Oko doj šərton",
+	"privacy-policy": "Məxfijəti Sijosət",
+	"search-input-button": "Nəve",
+	"other-languages-label": "Čo zyvonon",
 	"wiki": {
 		"name": "Vikipedia",
-		"slogan": "Ozodə Ensiklopediya",
-		"entries": "məğolon",
-		"search-input-label": "Bınəv bə Vikipediadə",
-		"language-button-text": "Bıhand bə Vikipediya ıştı zıvonədə",
-		"footer-description": "Википедиа че бесавды ширкәти Викимедиа Фонди серверонәдә мандә - ком че ҹо нахшон ко кардејәдә дастыш һесте.",
+		"slogan": "Ozodə Ensiklopedija",
+		"entries": "məǧolon",
+		"search-input-label": "Vikipediadə Nəve",
+		"language-button-text": "Vikipedija yštə zyvonədə byhand",
+		"footer-description": "Vikipedia ce besavdo širkəti Vikimedia Fondi serveronədə vyrəbəvyrə bejdə — kom həm bə čo projekton ko kardej dastək hestyše.",
 		"app-links": {
-			"title": "Окырније Википедиа бо Android ја iOS",
-			"description": "Ыштә пијә мәғолон огәтән, быдә әвони пешо офлајнәдә һанде, синхрон быкән ыштә сијоһијон бо ҹурбәҹурә диләгонәдә һанде ијән адаптасијә быкән ыштә һандә чәми де рәсмијә мобил Википидеа ҹынәвә.",
+			"title": "Okyrnije Vikipedia bə Android ja iOS",
+			"description": "Yštə pijə məǧolon ogətən, əvoni pešo oflajnədə hande, sinxron bykən yštə sijohijon bo čurbəčurə diləgonədə hande ijən adaptasijə bykən yštə handə cəmi de rəsmijə mobil Vikipedia čynəvə.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
-		"name": "Vikilüğət",
-		"slogan": "Ozodə lüğət",
-		"entries": "мәғолон"
+		"name": "Vikiluǧət",
+		"slogan": "Ozodə luǧət",
+		"entries": "məǧolon",
+		"search-input-label": "Vikiluǧətədə nəve",
+		"language-button-text": "Yštə zyvonədə Vikiluǧəti hande"
 	},
 	"wikibooks": {
 		"name": "Vikikitob",
-		"slogan": "Ozodə mətnkitobon",
-		"entries": "səhifon"
+		"slogan": "Ozodə dərsikitob",
+		"entries": "səhifon",
+		"search-input-label": "Vikikitobədə nəve",
+		"language-button-text": "Yštə zyvonədə Vikikitobi hande"
 	},
 	"wikinews": {
-		"name": "Vikixəbəon",
-		"slogan": "Mənbədə ozodə xəbəon",
-		"entries": "məğolon"
+		"name": "Vikixəbon",
+		"slogan": "Xəbon ozodə səvon",
+		"entries": "məǧolon",
+		"search-input-label": "Vikixəbonədə nəve",
+		"language-button-text": "Yštə zyvonədə Vikixəbon hande"
 	},
 	"wikiquote": {
 		"name": "Vikisitot",
-		"slogan": "Bepülə təklifi məcmuən",
-		"entries": "məğolon"
+		"slogan": "Sitoton ozodə dəcyn",
+		"entries": "məǧolon",
+		"search-input-label": "Vikisitotədə nəve",
+		"language-button-text": "Vikisitoti yštə zyvonədə hande"
 	},
 	"wikisource": {
 		"name": "Vikisəvon",
@@ -54,31 +62,36 @@
 	},
 	"wikiversity": {
 		"name": "Vikiversitet",
-		"slogan": "Bepülə kursi materialon",
-		"entries": "umutənin səvonon"
+		"slogan": "Bepulə kursi materialon",
+		"entries": "umutənin səvonon",
+		"search-input-label": "Vikiversitetədə nəve",
+		"language-button-text": "Vikiversiteti yštə zyvonədə hande"
 	},
 	"wikivoyage": {
-		"name": "Vikisəyohət",
-		"slogan": "Ozodə səyahohəti bələdkor"
+		"name": "Vikisəjohət",
+		"slogan": "Ozodə səjohəti kitob",
+		"entries": "səhifon",
+		"search-input-label": "Vikisəjohətədə nəve",
+		"language-button-text": "Vikisəjohəti yštə zyvonvdə hande"
 	},
 	"commons": {
-		"name": "Vikianbo",
-		"slogan": "Ozodə kardə bıə şəklon iən ve həni"
+		"name": "Vikiambo",
+		"slogan": "Ozod kardə byə şikilon ijən čo cijon"
 	},
 	"wikispecies": {
-		"name": "Vikitip",
-		"slogan": "Ozodə kataloği tipon"
+		"name": "Vikitispiron",
+		"slogan": "Ozodə katalogi tispiron"
 	},
 	"wikidata": {
 		"name": "Vikiməlumot",
-		"slogan": "Ozodə zınəy bazə"
+		"slogan": "Zynəjon ozodə bazə"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Ozodə iən ojə viki tətbığ"
+		"slogan": "Ozodə ijən ožə viki čynəvə"
 	},
 	"metawiki": {
 		"name": "Meta-Viki",
-		"slogan": "İcmai kordinəsiə bıə iən sənədin kardə bıə"
+		"slogan": "Gruppi koordinəsijə ijən sənədon"
 	}
 }
