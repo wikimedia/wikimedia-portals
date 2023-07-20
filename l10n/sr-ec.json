@@ -40,25 +40,29 @@
 		"name": "Викиречник",
 		"slogan": "Слободан речник",
 		"entries": "уноси",
-		"search-input-label": "Претрага Викиречника"
+		"search-input-label": "Претрага Викиречника",
+		"language-button-text": "Читај Викиречник на свом језику"
 	},
 	"wikibooks": {
 		"name": "Викикњиге",
 		"slogan": "Слободни уџбеници",
 		"entries": "странице",
-		"search-input-label": "Претрага Викикњига"
+		"search-input-label": "Претрага Викикњига",
+		"language-button-text": "Читај Викикњиге на свом језику"
 	},
 	"wikinews": {
 		"name": "Викиновости",
 		"slogan": "Слободан извор вести",
 		"entries": "чланци",
-		"search-input-label": "Претрага Викивести"
+		"search-input-label": "Претрага Викивести",
+		"language-button-text": "Читај Викивести на свом језику"
 	},
 	"wikiquote": {
 		"name": "Викицитат",
 		"slogan": "Слободна збирка цитата",
 		"entries": "чланци",
-		"search-input-label": "Претрага Викицитата"
+		"search-input-label": "Претрага Викицитата",
+		"language-button-text": "Читај Викицитате на свом језику"
 	},
 	"wikisource": {
 		"name": "Викизворник",
@@ -68,7 +72,8 @@
 		"name": "Викиверзитет",
 		"slogan": "Слободни наставни материјали за курс",
 		"entries": "ресурси за учење",
-		"search-input-label": "Претрага Викиверзитета"
+		"search-input-label": "Претрага Викиверзитета",
+		"language-button-text": "Читај Викиверзитет на свом језику"
 	},
 	"wikivoyage": {
 		"name": "Википутовања",
