@@ -5,7 +5,7 @@
 			"Teitei Para"
 		]
 	},
-	"language-name": "Mongyuh",
+	"language-name": "Mara",
 	"footer-donate": "Eima raihria he sôhtyuna ta miah nâ châhkhei thei.",
 	"license": "He hmia he <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> ry lia a y.",
 	"terms": "Hmâna rudâh",
@@ -37,7 +37,7 @@
 	"wikibooks": {
 		"name": "Wikichâbuzy",
 		"slogan": "Châbu saipazy",
-		"entries": "Hmiazy",
+		"entries": "hmiazy",
 		"search-input-label": "Wikichâbuzy lia tlua teh",
 		"language-button-text": "Wikichâbuzy he nâma reihchâ lâta reih teh"
 	},
@@ -68,7 +68,8 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Khitly chhihthana saipa"
+		"slogan": "Khitly chhihthana saipa",
+		"entries": "hmiazy"
 	},
 	"commons": {
 		"name": "Zawhlyzy",

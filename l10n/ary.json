@@ -14,7 +14,7 @@
 	"language-name-romanized": "Darija",
 	"language-name-romanized-sorted": "Darija",
 	"footer-donate": "يمكن ليك تعاون خدمتنا ب تبرع.",
-	"license": "هاد الصفحة منشورة <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.ar'>برخصة لمشاع لإبداعي</a>",
+	"license": "هاد الصفحة منشورة <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.ar'>تحت لپيرمي ديال لمشاع لإبداعي</a>",
 	"terms": "شروط تخدام",
 	"privacy-policy": "سياسة لخصوصية",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ary",
@@ -53,11 +53,13 @@
 	"wikinews": {
 		"name": "ويكي خبار",
 		"slogan": "مصدر أخبار حر",
-		"entries": "مقالات"
+		"entries": "مقالات",
+		"search-input-label": "قلّب ف ويكي خبار",
+		"language-button-text": "قرا ويكي خبار ب لوغتك"
 	},
 	"wikiquote": {
-		"name": "ويكي الاقتباس",
-		"slogan": "تجميعية حرة ديال الاقتباسات",
+		"name": "ويكي لإقتباس",
+		"slogan": "تجميعة ديال لإقتباسات فابور",
 		"entries": "مقالات",
 		"search-input-label": "قلب ف ويكي قتيباس",
 		"language-button-text": "قرا ويكي قتيباس ب لوغتك"
@@ -69,11 +71,16 @@
 	"wikiversity": {
 		"name": "ويكي جامعة",
 		"slogan": "مواد دراسية حرة",
-		"entries": "مصادر التعلم"
+		"entries": "مصادر التعلم",
+		"search-input-label": "قلّب ف ويكي جاميعة",
+		"language-button-text": "قرا ويكي جاميعة ب لوغتك"
 	},
 	"wikivoyage": {
 		"name": "ويكي تسافير",
-		"slogan": "دليل سفر حر"
+		"slogan": "ڭيد فابور ديال التسافير",
+		"entries": "صفاحي",
+		"search-input-label": "قلّب ف ويكي تسافير",
+		"language-button-text": "قرا ويكي تسافير ب لوغتك"
 	},
 	"commons": {
 		"name": "كومنز",
