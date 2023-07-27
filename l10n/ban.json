@@ -22,7 +22,7 @@
 		"slogan": "Ensiklopedia Bébas",
 		"entries": "suratan",
 		"search-input-label": "Rereh Wikipédia",
-		"language-button-text": "Wacén Wikipédia ring basa ida dané",
+		"language-button-text": "Wacén Wikipédia ring basa ragané",
 		"footer-description": "Wikipédia kakaryanin olih Wikimedia Foundation, silih tunggil sekaa sané nénten ngrereh bati taler madué akéh pakaryan lianan",
 		"app-links": {
 			"title": "Unduh Wikipédia anggén Android utawi iOS",
@@ -37,24 +37,28 @@
 		"slogan": "Kamus Bébas",
 		"entries": "éntri",
 		"search-input-label": "Rereh Wikikruna",
-		"language-button-text": "Wacén Wikikruna ring basa ida dané"
+		"language-button-text": "Wacén Wikikruna ring basa ragané"
 	},
 	"wikibooks": {
 		"name": "Wikibuku",
 		"slogan": "Pustaka bébas",
 		"entries": "kaca",
 		"search-input-label": "Rereh Wikibuku",
-		"language-button-text": "Wacén Wikibuku ring basa ida dané"
+		"language-button-text": "Wacén Wikibuku ring basa ragané"
 	},
 	"wikinews": {
 		"name": "Wikiorti",
 		"slogan": "Sumber orti bébas",
-		"entries": "suratan"
+		"entries": "suratan",
+		"search-input-label": "Rereh Wikiorti",
+		"language-button-text": "Wacén Wikiorti ring basa ragané"
 	},
 	"wikiquote": {
 		"name": "Wikianggit",
 		"slogan": "Pupulan tanduran sané nénten mapaiketan",
-		"entries": "suratan"
+		"entries": "suratan",
+		"search-input-label": "Rereh Wikianggit",
+		"language-button-text": "Wacén Wikianggit ring basa ragané"
 	},
 	"wikisource": {
 		"name": "Wikipustaka",
@@ -63,11 +67,16 @@
 	"wikiversity": {
 		"name": "Wikiversitas",
 		"slogan": "Bahan pelajahan bébas",
-		"entries": "sumber palajahan"
+		"entries": "sumber palajahan",
+		"search-input-label": "Rereh Wikivérsitas",
+		"language-button-text": "Wacén Wikivérsitas ring basa ragané"
 	},
 	"wikivoyage": {
 		"name": "Wikimelali",
-		"slogan": "Pangateh wisata bébas"
+		"slogan": "Pangateh wisata bébas",
+		"entries": "kaca",
+		"search-input-label": "Rereh Wikilancaran",
+		"language-button-text": "Wacén Wikilancaran ring basa ragané"
 	},
 	"commons": {
 		"name": "Commons",

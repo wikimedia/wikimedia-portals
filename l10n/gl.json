@@ -8,44 +8,56 @@
 		]
 	},
 	"language-name": "Galego",
-	"license": "Esta páxina está dispoñible baixo a <a href='https://creativecommons.org/licenses/by-sa/4.0/'>licenza Creative Commons Atribución-CompartirIgual</a>",
+	"footer-donate": "Podes apoiar o noso traballo cunha doazón.",
+	"license": "Esta páxina está dispoñible baixo a <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.gl'>licenza Creative Commons recoñecemento compartir igual</a>",
 	"terms": "Termos de uso",
 	"privacy-policy": "Política de protección de datos",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/gl",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/gl",
 	"search-input-button": "Procurar",
+	"other-languages-label": "Outras linguas",
 	"wiki": {
-		"name": "Wikipedia",
-		"slogan": "A Enciclopedia Libre",
+		"name": "Galipedia",
+		"slogan": "A enciclopedia libre",
 		"entries": "artigos",
 		"search-input-label": "Procurar na Wikipedia",
-		"language-button-text": "Lea Wikipedia na súa lingua",
-		"footer-description": "Wikipedia é soportada pola Fundación Wikimedia, unha organización sen ánimo de lucro que tamén soporta un gran grupo doutros proxectos.",
+		"language-button-text": "Le a Wikipedia na túa lingua",
+		"footer-description": "Wikipedia está aloxada pola Fundación Wikimedia, unha organización sen ánimo de lucro que tamén abrangue moitos outros proxectos.",
 		"app-links": {
 			"title": "Descargar Wikipedia para Android ou iOS",
-			"description": "Garde os seus artigos preferidos para ler sen conexión, sincronice as súas listas de lectura entre dispositivos e personalice a súa experiencia de lectura coa aplicación oficial da Wikipedia.",
+			"description": "Garda os teus artigos preferidos para ler sen conexión, sincroniza as túas listas de lectura entre dispositivos e personaliza a túa experiencia de lectura coa aplicación oficial da Wikipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
-		"name": "Wiktionary",
-		"slogan": "Dicionario Galego",
-		"entries": "entradas"
+		"name": "Galizionario",
+		"slogan": "O dicionario libre",
+		"entries": "entradas",
+		"search-input-label": "Procurar en Wiktionary",
+		"language-button-text": "Le Wiktionary na túa lingua"
 	},
 	"wikibooks": {
 		"name": "Galilibros",
-		"slogan": "A colección de libros participativos en galego",
-		"entries": "páxinas"
+		"slogan": "Os libros de texto libres",
+		"entries": "páxinas",
+		"search-input-label": "Procurar en Wikibooks",
+		"language-button-text": "Le Wikibooks na túa lingua"
 	},
 	"wikinews": {
 		"name": "Wikinovas",
-		"slogan": "A fonte de noticias libre que vostede pode editar",
-		"entries": "artigos"
+		"slogan": "A fonte de noticias libre",
+		"entries": "artigos",
+		"search-input-label": "Procurar en Wikinews",
+		"language-button-text": "Le Wikinews na túa lingua"
 	},
 	"wikiquote": {
 		"name": "Galicitas",
-		"slogan": "A colección de citas libres en galego",
-		"entries": "artigos"
+		"slogan": "A colección de citas libre",
+		"entries": "artigos",
+		"search-input-label": "Procurar en Wikiquote",
+		"language-button-text": "Le Wikiquote na túa lingua"
 	},
 	"wikisource": {
 		"name": "Galifontes",
@@ -54,11 +66,16 @@
 	"wikiversity": {
 		"name": "Wikiversidade",
 		"slogan": "A universidade libre",
-		"entries": "recursos de aprendizaxe"
+		"entries": "recursos de aprendizaxe",
+		"search-input-label": "Procurar en Wikiversity",
+		"language-button-text": "Le Wikiversity na túa lingua"
 	},
 	"wikivoyage": {
 		"name": "Wikiviaxes",
-		"slogan": "Guía de viaxe"
+		"slogan": "A guía de viaxes libre",
+		"entries": "páxinas",
+		"search-input-label": "Procurar en Wikivoyage",
+		"language-button-text": "Le Wikivoyage na túa lingua"
 	},
 	"commons": {
 		"name": "Commons",
@@ -66,11 +83,11 @@
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
-		"slogan": "Directorio libre de especies"
+		"slogan": "O directorio de especies libre"
 	},
 	"wikidata": {
 		"name": "Wikidata",
-		"slogan": "Base de datos de coñecementos libre"
+		"slogan": "A base de datos de coñecementos libre"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
