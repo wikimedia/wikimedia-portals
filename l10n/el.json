@@ -41,22 +41,30 @@
 	"wiktionary": {
 		"name": "Βικιλεξικό",
 		"slogan": "Το ελεύθερο λεξικό",
-		"entries": "λήμματα"
+		"entries": "λήμματα",
+		"search-input-label": "Αναζήτηση στο Βικιλεξικό",
+		"language-button-text": "Διαβάστε το Βικιλεξικό στη γλώσσα σας"
 	},
 	"wikibooks": {
 		"name": "Βικιβιβλία",
 		"slogan": "Ελεύθερα εκπαιδευτικά εγχειρίδια",
-		"entries": "σελίδες"
+		"entries": "σελίδες",
+		"search-input-label": "Αναζήτηση στα Βικιβιβλία",
+		"language-button-text": "Διαβάστε τα Βικιβιβλία στη γλώσσα σας"
 	},
 	"wikinews": {
 		"name": "Βικινέα",
 		"slogan": "Ελεύθερη πηγή ειδήσεων",
-		"entries": "άρθρα"
+		"entries": "άρθρα",
+		"search-input-label": "Αναζήτηση στα Βικινέα",
+		"language-button-text": "Διαβάστε τα Βικινέα στη γλώσσα σας"
 	},
 	"wikiquote": {
 		"name": "Βικιφθέγματα",
 		"slogan": "Ελεύθερη ανθολογία αποφθεγμάτων",
-		"entries": "σελίδες"
+		"entries": "σελίδες",
+		"search-input-label": "Αναζήτηση στα Βικιφθέγματα",
+		"language-button-text": "Διαβάστε το Βικιφθέγματα στη γλώσσα σας"
 	},
 	"wikisource": {
 		"name": "Βικιθήκη",
@@ -65,12 +73,16 @@
 	"wikiversity": {
 		"name": "Βικιεπιστήμιο",
 		"slogan": "Ελεύθερο εκπαιδευτικό υλικό",
-		"entries": "πόρους μάθησης"
+		"entries": "πόρους μάθησης",
+		"search-input-label": "Αναζήτηση στο Βικιεπιστήμιο",
+		"language-button-text": "Διαβάστε το Βικιεπιστήμιο στη γλώσσα σας"
 	},
 	"wikivoyage": {
 		"name": "Βικιταξίδια",
 		"slogan": "Ελεύθερος Ταξιδιωτικός Οδηγός",
-		"entries": "σελίδες"
+		"entries": "σελίδες",
+		"search-input-label": "Αναζήτηση στα Βικιταξίδια",
+		"language-button-text": "Διαβάστε τα Βικιταξίδια στη γλώσσα σας"
 	},
 	"commons": {
 		"name": "Commons",
