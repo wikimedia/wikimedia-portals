@@ -6,6 +6,7 @@
 			"Fitoschido",
 			"Lluis tgn",
 			"Mguix",
+			"SMP",
 			"Ssola",
 			"Toniher",
 			"Vriullop",
@@ -13,9 +14,10 @@
 		]
 	},
 	"language-name": "Català",
+	"language-name-romanized": "",
 	"language-name-romanized-sorted": "Catala",
 	"footer-donate": "Podeu agraïr i contribuir a la nostra feina amb un donatiu.",
-	"license": "Aquesta pàgina és disponible sota la <a href='https://creativecommons.org/licenses/by-sa/4.0/'>llicència Creative Commons Reconeixement-CompartirIgual</a>",
+	"license": "Aquesta pàgina es troba disponible sota la <a href='https://creativecommons.org/licenses/by-sa/4.0/'>llicència Creative Commons Reconeixement-CompartirIgual</a>",
 	"terms": "Condicions d'ús",
 	"privacy-policy": "Política de privadesa",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ca",
@@ -40,22 +42,30 @@
 	"wiktionary": {
 		"name": "Viccionari",
 		"slogan": "El diccionari lliure",
-		"entries": "entrades"
+		"entries": "entrades",
+		"search-input-label": "Cerca al Viccionari",
+		"language-button-text": "Llegiu el Viccionari en el vostre idioma"
 	},
 	"wikibooks": {
 		"name": "Viquillibres",
 		"slogan": "La biblioteca de llibres de text i manuals lliures",
-		"entries": "pàgines"
+		"entries": "pàgines",
+		"search-input-label": "Cerca a Viquillibres",
+		"language-button-text": "Llegiu Viquillibres en el vostre idioma"
 	},
 	"wikinews": {
 		"name": "Viquinotícies",
 		"slogan": "Font de notícies lliures",
-		"entries": "notícies"
+		"entries": "notícies",
+		"search-input-label": "Cerca a Viquinotícies",
+		"language-button-text": "Llegiu Viquinotícies en el vostre idioma"
 	},
 	"wikiquote": {
 		"name": "Viquidites",
 		"slogan": "Portal de paremiologia i citacions lliure",
-		"entries": "articles"
+		"entries": "articles",
+		"search-input-label": "Cerca a Viquidites",
+		"language-button-text": "Llegiu Viquidites en el vostre idioma"
 	},
 	"wikisource": {
 		"name": "Viquitexts",
@@ -64,11 +74,16 @@
 	"wikiversity": {
 		"name": "Viquiversitat",
 		"slogan": "Materials per a cursos lliures",
-		"entries": "recursos per a l’aprenentatge"
+		"entries": "recursos per a l’aprenentatge",
+		"search-input-label": "Cerca a Viquiversitat",
+		"language-button-text": "Llegiu la Viquiversitat en el vostre idioma"
 	},
 	"wikivoyage": {
 		"name": "Viquiviatges",
-		"slogan": "Guia de viatges lliure"
+		"slogan": "Guia de viatges lliure",
+		"entries": "pàgines",
+		"search-input-label": "Cerca a Viquiviatges",
+		"language-button-text": "Llegiu Viquiviatges en el vostre idioma"
 	},
 	"commons": {
 		"name": "Commons",
