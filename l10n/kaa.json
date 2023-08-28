@@ -40,14 +40,14 @@
 		"language-button-text": "Wikisózlikti óz tilińizde oqıń"
 	},
 	"wikibooks": {
-		"name": "Wikikitap",
+		"name": "Wikikitaplar",
 		"slogan": "Biypul sabaqlıqlar",
 		"entries": "betler",
 		"search-input-label": "Wikikitaptan izlew",
 		"language-button-text": "Wikikitaptı óz tilińizde oqıń"
 	},
 	"wikinews": {
-		"name": "Wikijańalıq",
+		"name": "Wikijańalıqlar",
 		"slogan": "Biypul jańalıq deregi",
 		"entries": "maqalalar",
 		"search-input-label": "Wikijańalıqtan izlew",
@@ -72,7 +72,7 @@
 		"language-button-text": "Wikiversitetti óz tilińizde oqıń"
 	},
 	"wikivoyage": {
-		"name": "Wikigid",
+		"name": "Wikisayaxat",
 		"slogan": "Biypul sayaxat ushın qollanba",
 		"entries": "betler",
 		"search-input-label": "Wikisayaxattan izlew",

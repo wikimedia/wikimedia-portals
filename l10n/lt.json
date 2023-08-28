@@ -14,7 +14,7 @@
 	"language-name": "Lietuvių",
 	"language-name-romanized-sorted": "Lietuviu",
 	"footer-donate": "Galite paremti mūsų darbą aukodami.",
-	"license": "Šis puslapis pateikiamas pagal <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.lt'>Creative Commons Attribution-ShareAlike licenciją</a>",
+	"license": "Šis puslapis pateikiamas pagal <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike licenciją</a>",
 	"terms": "Naudojimosi sąlygos",
 	"privacy-policy": "Privatumo politika",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/lt",
@@ -31,6 +31,8 @@
 		"app-links": {
 			"title": "Vikipedijos programėlės yra prieinamos:",
 			"description": "Išsaugokite savo mėgstamiausius straipsnius skaitymui neprisijungus, sinchronizuokite savo skaitymo sąrašus tarp įrenginių ir pritaikykite savo skaitymo patirtį su oficialia Vikipedijos programėle.",
+			"google-store": "Google Play parduotuvė",
+			"apple-store": "Apple programėlių parduotuvė",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
