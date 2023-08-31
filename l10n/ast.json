@@ -5,7 +5,8 @@
 			"Enolp",
 			"Macofe",
 			"Tokvo",
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
 	"language-name": "Asturianu",
@@ -27,6 +28,8 @@
 		"app-links": {
 			"title": "Descargar Wikipedia p'Android o iOS",
 			"description": "Descarga los tos artículos favoritos pa lleelos ensin conexón, sincroniza llistes de llectura ente preseos y personaliza la esperiencia de llectura cola app oficial de Wikipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
