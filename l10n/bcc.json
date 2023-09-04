@@ -6,10 +6,12 @@
 		]
 	},
 	"language-name": "مکرانی بلۏچی",
-	"license": "اے تاک پہ<a href='https://creativecommons.org/licenses/by-sa/4.0/'>کریتیو کامنزءِ</a>\nمجوزءِ سرا دسرسئں",
+	"footer-donate": "شما تۏن اِت پہ مئی کارءِ واستا پول ھئیراب بہ کن اِت۔",
+	"license": "اے تاک پہ<a href='https://creativecommons.org/licenses/by-sa/4.0/'>کریتیو کامنزءِ</a>\nمجوزءِ سرا دسرسئن",
 	"terms": "کارگِرگءِ پئیم",
 	"privacy-policy": "کرار ءُ مدار",
 	"search-input-button": "شۏھاز",
+	"other-languages-label": "اݔدگہ زبانان",
 	"wiki": {
 		"name": "ویکی پیڈیا",
 		"slogan": "آزاتݔں زانتنامہ",
@@ -18,28 +20,40 @@
 		"language-button-text": "ویکی پیدیائا پہ وتی زبانا وان",
 		"footer-description": "ویکی پدیا مہ بنیاد ویکی مدیا(ویکی رسانک) نندبانیءَ بیت،اے بنیاد پہ ھچ دؤلتے کارءَ نہ کنت،شما تۏن اِت بنیادءِ اݔدگہ پروژئاں ھں چار اِت گۏں",
 		"app-links": {
-			"title": "ویکی پدیاءِ مراگشاں ھنی دسرسا اَنت"
+			"title": "ویکی پدیاءِ مراگشاں ھنی دسرسا اَنت",
+			"description": "وتی گچݔنی نبشتانکا سپت کن اِت ءُ پدا بے اینترنتی بہ وان اِت،وتی وانگءِ لیستا وتی دستگاھانءِ میانا امگام بہ کن اِت، ءُ وتی وانگءِ پددری‌ئان گۏن ویکی پدیاءِ رسمی لھم ابزارا وتپئیمی بہ کن اِت",
+			"google-store": "گوگل پلئی استور",
+			"apple-store": "اپل اپ استور",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "ویکی گال",
 		"slogan": "مُپتݔں گالجاه",
-		"entries": "مان بییگاں"
+		"entries": "مان بییگاں",
+		"search-input-label": "ویکی گالءِ شۏھاز",
+		"language-button-text": "وتی ویکی گالءِ زبانا بہ وان"
 	},
 	"wikibooks": {
 		"name": "ویکی کتاب",
 		"slogan": "مُپتݔں کتابلِک",
-		"entries": "تاکاں"
+		"entries": "تاکاں",
+		"search-input-label": "ویکی کتابءِ شۏھاز",
+		"language-button-text": "ویکی کتاب گۏن وتی زبانا بہ وان"
 	},
 	"wikinews": {
 		"name": "ویکی ھال",
 		"slogan": "بے ھالءِ سرچمَگ",
-		"entries": "نبشتانکاں"
+		"entries": "نبشتانکاں",
+		"search-input-label": "ویکی ھالءِ شۏھاز",
+		"language-button-text": "ویکی ھالا گۏن وتی زبانا بہ وان"
 	},
 	"wikiquote": {
 		"name": "ویکی گپ",
 		"slogan": "بے گپ",
-		"entries": "نبشتانکاں"
+		"entries": "نبشتانکاں",
+		"search-input-label": "ویکی گپتارءِ شۏھاز",
+		"language-button-text": "ویکی گپتارا گۏن وتی زبانا بہ وان"
 	},
 	"wikisource": {
 		"name": "ویکی سرچمَگ",
@@ -48,11 +62,16 @@
 	"wikiversity": {
 		"name": "ویکی زانتجاہ",
 		"slogan": "بے نبشتانک",
-		"entries": "سبَکی چیز"
+		"entries": "سبَکی چیز",
+		"search-input-label": "ویکی زانتجاہءِ شۏھاز",
+		"language-button-text": "ویکی زانتجاھا گۏن وتی زبانا بہ وان"
 	},
 	"wikivoyage": {
 		"name": "ویکی سئیل",
-		"slogan": "بے سئیل سۏج"
+		"slogan": "بے سئیل سۏج",
+		"entries": "تاکان",
+		"search-input-label": "ویکی سئیلءِ شۏھاز",
+		"language-button-text": "ویکی سئیلا گۏن وتی زبانا بہ وان"
 	},
 	"commons": {
 		"name": "ھۏریگ",
@@ -67,7 +86,7 @@
 		"slogan": "بے سبَکجاہ"
 	},
 	"mediawiki": {
-		"name": "میدیا ویکی",
+		"name": "مدیاویکی",
 		"slogan": "آزات ءُ ویکیءِ مراگشءِ پچ کنگ"
 	},
 	"metawiki": {

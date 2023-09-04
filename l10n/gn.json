@@ -69,7 +69,10 @@
 	},
 	"wikivoyage": {
 		"name": "Vikiandu",
-		"slogan": "Jeho mombyry motenondeha"
+		"slogan": "Jeho mombyry motenondeha",
+		"entries": "kuatiakuéra",
+		"search-input-label": "Eheka Vikiandúpe",
+		"language-button-text": "Emoñe'ẽ Vikiandu ne ñe'ẽme"
 	},
 	"commons": {
 		"name": "Commons",
