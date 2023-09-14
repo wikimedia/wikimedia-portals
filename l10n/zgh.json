@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AguzulH",
 			"Brahim-essaidi",
 			"Hakim1bal",
 			"Mdb897",
@@ -62,7 +63,8 @@
 	},
 	"wikivoyage": {
 		"name": "ⵡⵉⴽⵉⵎⵓⴷⴷⵓ",
-		"slogan": "ⴰⵎⴰⵏⴰⵔ ⵏ ⵓⵎⵓⴷⴷⵓ ⵉⵍⴻⵍⵍⵉⵏ"
+		"slogan": "ⴰⵎⴰⵏⴰⵔ ⵏ ⵓⵎⵓⴷⴷⵓ ⵉⵍⴻⵍⵍⵉⵏ",
+		"entries": "ⵜⴰⵙⵏⵉⵡⵉⵏ"
 	},
 	"commons": {
 		"name": "ⴽⵓⵎⵏⵣ",
