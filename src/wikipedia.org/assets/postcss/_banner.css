@@ -1,0 +1,382 @@
+/* Prevent horizontal scroll with Firefox on small screens */
+body {
+	overflow-x: hidden;
+}
+/* Resets */
+.banner,
+.banner * {
+	box-sizing: border-box;
+}
+
+.banner *:focus {
+	outline: 0;
+}
+
+/* Styles */
+.banner {
+	display: none;
+	position: relative;
+	width: calc( 100% - 24px );
+	max-width: 640px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 24px;
+	background-color: #fff;
+	border: 4px solid #900;
+	z-index: 3;
+}
+
+@media all and ( min-width: 321px ) {
+	.banner {
+		font-size: 15px;
+	}
+}
+
+.banner.banner--visible {
+	display: block;
+}
+
+.banner__topbar {
+	background: #900;
+	color: #fff;
+	font-weight: 600;
+	padding: 2px 12px 4px 12px;
+}
+
+.banner__close {
+	position: absolute;
+	margin-top: -24px;
+	margin-right: -24px;
+	padding: 12px;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.banner__close:hover .banner__close-icon path,
+.banner__close:focus .banner__close-icon path,
+.banner__close:hover .banner__close-icon circle,
+.banner__close:focus .banner__close-icon circle {
+	stroke: var( --wmui-color-base0 );
+}
+
+.banner__close-icon {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+}
+
+.banner__main {
+	padding: 8px 8px 12px 8px;
+}
+
+.banner__button {
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 2px;
+	padding: 8px 12px;
+	cursor: pointer;
+	font-weight: bold;
+	white-space: nowrap;
+	line-height: 1;
+	margin-top: 8px;
+}
+
+.banner__button:hover {
+	text-decoration: none;
+}
+
+.banner__button--progressive {
+	color: var( --wmui-color-accent50 );
+	background-color: var( --wmui-color-base90 );
+	border-color: var( --wmui-color-base50 );
+
+	&:hover {
+		background-color: var( --wmui-color-base100 );
+		border-color: var( --color-primary--hover );
+	}
+
+	&:focus {
+		border-color: var( --wmui-color-accent50 );
+		box-shadow: inset 0 0 0 1px var( --wmui-color-accent50 );
+	}
+}
+
+@media all and ( min-width: 1024px ) {
+	.search-container + .banner-container {
+		margin-top: -10px;
+	}
+
+	.banner {
+		position: fixed;
+		z-index: 2;
+		max-width: 250px;
+		margin: -48px 0 0 0; /* visually center it */
+		left: 12px;
+		top: 50%;
+		bottom: auto;
+		transform: translateY( -50% );
+		font-size: 15px;
+	}
+}
+
+/* bookmark banner styles */
+.banner.banner-bookmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width: none;
+	margin: 0;
+	border: 0;
+	transform: none;
+	background-color: transparent;
+}
+
+.banner.banner-bookmark .banner__close {
+	display: none;
+}
+
+.portal-banner-content {
+	position: relative;
+	display: flex;
+	min-height: 10px;
+	background: #dbf3ec;
+	max-width: 100%;
+	box-shadow: inset 2px 2px 6px 0 rgba( 0, 0, 0, 0.15 );
+	transition: all 0.3s ease-in-out;
+	padding: 12px 0;
+	transform: translateY( -100% ) translateY( 10px );
+}
+
+#bookmark-button {
+	position: absolute;
+	top: calc( 100% - 10px );
+	right: 250px;
+	width: 40px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+#bookmark-button:before {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: -7px;
+	border-top: 7px solid #246342;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	transform: rotate( -45deg );
+	z-index: 1;
+}
+
+#bookmark-button:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 60px;
+	background: #308557;
+	border-radius: 0 0 20px 20px;
+	z-index: 2;
+	transition: all 0.2s ease-in-out;
+}
+
+#bookmark-button:hover {
+	height: 67px;
+}
+
+#bookmark-button:hover:after {
+	height: 63px;
+}
+
+.bookmark-button-text {
+	position: absolute;
+	right: 100%;
+	padding-right: 15px;
+	font-weight: bold;
+	top: 25px;
+	width: calc( 100vw - 70px );
+	line-height: 1.2;
+	text-align: right;
+}
+
+.portal-banner-content svg {
+	position: relative;
+	top: 7px;
+	transform: scale( 1.5 );
+	z-index: 3;
+}
+
+.portal-banner-content .frb-icon-info circle {
+	fill: #fefd34;
+}
+
+.portal-banner-content .frb-icon-info path {
+	fill: #000;
+}
+
+body.bookmark-banner:before {
+	content: '';
+	display: block;
+	height: 0;
+	transition: height 0.2s linear;
+}
+
+body.bookmark-banner.banner-open {
+	transition: all 0.2s linear;
+}
+
+body.bookmark-banner.banner-open:before {
+	height: 80px;
+}
+
+body.bookmark-banner.banner-open .portal-banner-content {
+	transform: translateY( 0 );
+}
+
+.portal-banner-content-message {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 15px;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.portal-banner-content-message h3 {
+	margin: 0 0 5px;
+	font-size: 18px;
+}
+
+.portal-banner-content-message p {
+	color: #000;
+	text-align: left;
+	margin: 0;
+	font-size: 15px;
+	line-height: 1.4;
+	flex: 0 1 auto;
+}
+
+.portal-banner-content-message p a {
+	display: inline-block;
+	background: #36c;
+	color: #fff;
+	padding: 7px 15px;
+	border-radius: 3px;
+	margin-left: 15px;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+.portal-banner-content-message p a:hover {
+	background: #447ff5;
+}
+
+.portal-banner-donate-button {
+	flex: 0 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.portal-banner .frb-submit {
+	position: relative;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 0 0 0 15px;
+	background-color: #36c;
+	border-color: #36c;
+	color: #fff;
+	border-radius: 2px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+}
+
+.portal-banner .frb-submit:hover {
+	background: #447ff5;
+}
+
+@media all and ( min-width: 768px ) {
+	body.bookmark-banner .central-textlogo {
+		margin-top: 7rem;
+	}
+}
+
+@media all and ( max-width: 1024px ) {
+	#bookmark-button {
+		right: 50px;
+	}
+}
+
+@media all and ( max-width: 767px ) {
+	.bookmark-button-text {
+		font-size: 12px;
+		top: 20px;
+	}
+
+	body.bookmark-banner:before {
+		height: 30px;
+	}
+
+	body.bookmark-banner.banner-open:before {
+		height: 100px;
+	}
+
+	body.bookmark-banner .search-container {
+		top: 13.6rem;
+		transition: all 0.2s;
+	}
+
+	body.bookmark-banner.banner-open .search-container {
+		top: 20.6rem;
+	}
+
+	.portal-banner-content-message p {
+		font-size: 12px;
+	}
+
+	.portal-banner .frb-submit {
+		font-size: 14px;
+	}
+}
+
+@media all and ( max-width: 650px ) {
+	#bookmark-button {
+		right: 20px;
+	}
+}
+
+@media all and ( max-width: 355px ) {
+	body.bookmark-banner.banner-open:before {
+		height: 120px;
+	}
+
+	body.bookmark-banner.banner-open .search-container {
+		top: 22.6rem;
+	}
+}
+
+@media all and ( max-width: 319px ) {
+	body.bookmark-banner.banner-open:before {
+		height: 140px;
+	}
+
+	body.bookmark-banner.banner-open .search-container {
+		top: 24.6rem;
+	}
+}
