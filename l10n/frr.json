@@ -7,7 +7,7 @@
 	},
 	"language-name": "Nordfriisk",
 	"footer-donate": "Dü könst üs werk mä dan bidrach widjerhalep.",
-	"license": "Detdiar sidj as tu fun oner det <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.de'>Creative-Commons-Lisens „Nööm nääm - jüst so widjer du“</a>.",
+	"license": "Detdiar sidj as tu fun oner det <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative-Commons-Lisens „Nööm nääm - jüst so widjer du“</a>.",
 	"terms": "Reegeln för't brüken",
 	"privacy-policy": "Dootenseekerhaid",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/frr",
@@ -45,12 +45,16 @@
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Frei neis",
-		"entries": "Artiikler"
+		"entries": "Artiikler",
+		"search-input-label": "Sjük uun Wikinews",
+		"language-button-text": "Wikinews uun din spriak lees"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Frei sitaatensaamlang",
-		"entries": "Artiikler"
+		"entries": "Artiikler",
+		"search-input-label": "Sjük uun Wikiquote",
+		"language-button-text": "Wikiquote uun din spriak lees"
 	},
 	"wikisource": {
 		"name": "Wikisource",
@@ -59,11 +63,16 @@
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Frei onerrachtsmateriol",
-		"entries": "Sidjen"
+		"entries": "Sidjen",
+		"search-input-label": "Sjük uun Wikiversity",
+		"language-button-text": "Wikiversity uun din spriak lees"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Frei raisfeerer"
+		"slogan": "Frei raisfeerer",
+		"entries": "sidjen",
+		"search-input-label": "Sjük uun Wikivoyage",
+		"language-button-text": "Wikivoyage uun din spriak lees"
 	},
 	"commons": {
 		"name": "Commons",
