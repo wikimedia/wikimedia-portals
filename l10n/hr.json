@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bugoslav",
-			"Neptune, the Mystic"
+			"Neptune, the Mystic",
+			"Ponor"
 		]
 	},
 	"language-name": "Hrvatski",
@@ -12,7 +13,7 @@
 	"wiki": {
 		"name": "Wikipedija",
 		"slogan": "Slobodna enciklopedija",
-		"entries": "članci",
+		"entries": "članaka",
 		"search-input-label": "Pretraži Wikipediju",
 		"language-button-text": "Čitajte wikipediju na svom jeziku",
 		"footer-description": "Zaklada Wikimedija omogućava dostup Wikipediji, neprofitna je organizacija koja također udomljuje niz drugih projekata.",
