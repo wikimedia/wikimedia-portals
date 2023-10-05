@@ -8,11 +8,36 @@
 	"language-name": "Нохчийн",
 	"language-name-romanized": "Нохчийн",
 	"language-name-romanized-sorted": "Нохчийн",
+	"terms": "Лелоран биллам",
+	"privacy-policy": "Къайлаха политика",
+	"search-input-button": "Лахар",
+	"other-languages-label": "Кхин меттанаш",
 	"wiki": {
 		"name": "Википеди",
-		"slogan": "маьрша энциклопеди"
+		"slogan": "маьрша энциклопеди",
+		"entries": "йаззамаш",
+		"search-input-label": "Википедехь лахар",
+		"language-button-text": "Йеша Википеди ненан маттахь"
+	},
+	"wiktionary": {
+		"entries": "йаззамаш",
+		"search-input-label": "Викидошамехь лахар",
+		"language-button-text": "Деша Викидошам ненан маттахь"
+	},
+	"wikiquote": {
+		"entries": "йаззамаш"
+	},
+	"wikivoyage": {
+		"entries": "агӀонаш"
 	},
 	"commons": {
 		"name": "Викиларма"
+	},
+	"wikidata": {
+		"name": "Викихаамаш",
+		"slogan": "Хаарийн маьрша база"
+	},
+	"metawiki": {
+		"slogan": "Йукъараллин координаци а, документаци а"
 	}
 }

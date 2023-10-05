@@ -1,55 +1,81 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fwolff"
+			"Fwolff",
+			"Hentie"
 		]
 	},
 	"language-name": "Afrikaans",
+	"language-name-romanized": "Afrikaans",
+	"language-name-romanized-sorted": "Afrikaans",
+	"footer-donate": "U kan ons werk ondersteun deur donasies",
 	"license": "Dié bladsy is beskikbaar onderhewig aan die <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike-lisensie</a>",
 	"terms": "Gebruiksvoorwaardes",
 	"privacy-policy": "Privaatheidsbeleid",
+	"terms-link": "https//meta.wikimedia.org/Terme_van_Gebruik",
+	"privacy-policy-link": "https//meta.wikimedia.org/Wiki/Privaatheids_beleid",
+	"search-input-button": "Deursoek",
+	"other-languages-label": "Ander tale",
 	"wiki": {
-		"name": "Wikipedia",
-		"slogan": "Die vry ensiklopedie",
+		"name": "Wikipedaia",
+		"slogan": "Die vrye ensiklopedia",
 		"entries": "artikels",
-		"language-button-text": "Lees Wikipedia in u taal",
-		"footer-description": "Wikipedia word gehuisves deur die Wikimedia-stigting, 'n organisasie sonder winsbejag wat ook 'n klomp ander projekte huisves.",
+		"search-input-label": "Deursoek Wikipedia",
+		"language-button-text": "Lees Wikipedia in jou taal",
+		"footer-description": "Wikipedia word aangebied deur die Wikimedia-stigting, 'n organisasie sonder winsbejag wat ook 'n vele ander projekte bevat.",
 		"app-links": {
-			"title": "Wikipedia-programme is nou beskikbaar:"
+			"title": "Laai Wikipedia nou af vir Android of IOS",
+			"description": "Stoor jou gunsteling artikels om dit van lyn af te lees, sinkroniseer jou leeslyste oor meer as een toestel en pas jou leeservaring aan met die amptelike Wikipedia app.",
+			"google-store": "Google Play Winkel",
+			"apple-store": "Apple App Winkel",
+			"url": "https//en.wikipedia.org/lys_van_Wikipedia_mobiele_toepassings"
 		}
 	},
 	"wiktionary": {
 		"name": "Wikiwoordeboek",
 		"slogan": "Die vrye woordeboek",
-		"entries": "inskrywings"
+		"entries": "inskrywings",
+		"search-input-label": "Deursoek die Wikiwoordeboek",
+		"language-button-text": "Lees die Wikiwoordeboek in jou taal"
 	},
 	"wikibooks": {
-		"name": "Wikibooks",
+		"name": "Wikiboeke",
 		"slogan": "Vry handboeke",
-		"entries": "bladsye"
+		"entries": "bladsye",
+		"search-input-label": "Deursoek Wikiboeke",
+		"language-button-text": "Lees Wikiboeke i jou taal"
 	},
 	"wikinews": {
 		"name": "Wikinuus",
-		"slogan": "Vry nuusbron",
-		"entries": "artikels"
+		"slogan": "Vrye nuusbron",
+		"entries": "artikels",
+		"search-input-label": "Deursoek Wikinuus in jou taal",
+		"language-button-text": "Lees Wikinuus in jou taal"
 	},
 	"wikiquote": {
-		"name": "Wikiquote",
+		"name": "Wiki aanhaling",
 		"slogan": "Vry versameling van aanhalings",
-		"entries": "artikels"
+		"entries": "artikels",
+		"search-input-label": "Deursoek Wikiaanhaling",
+		"language-button-text": "Lees Wikiaanhaling i jou taal"
 	},
 	"wikisource": {
 		"name": "Wikibron",
 		"slogan": "Vry biblioteek"
 	},
 	"wikiversity": {
-		"name": "Wikiversiteit",
+		"name": "Wikiuniveriteit",
 		"slogan": "Vry kursusmateriaal",
-		"entries": "onderrighulpbronne"
+		"entries": "onderrighulpbronne",
+		"search-input-label": "Deursoek Wikiuniversiteit",
+		"language-button-text": "Lees Wikiuniversiteit in jou taal"
 	},
 	"wikivoyage": {
-		"name": "Wikivoyage",
-		"slogan": "Vry reisgids"
+		"name": "Wikireis",
+		"slogan": "Vrye reisgids",
+		"entries": "bladsye",
+		"search-input-label": "Deursoek Wikireis",
+		"language-button-text": "Lees Wikireis in joun taal"
 	},
 	"commons": {
 		"name": "Commons",
@@ -57,7 +83,7 @@
 	},
 	"wikispecies": {
 		"name": "Wikispesies",
-		"slogan": "Vry spesiegids"
+		"slogan": "Vrye spesiegids"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -69,6 +95,6 @@
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Gemeenskapskoördinasie en -dokumentasie"
+		"slogan": "Gemeenskapskoördinering en -dokumentasie"
 	}
 }
