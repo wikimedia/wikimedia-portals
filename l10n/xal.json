@@ -1,13 +1,97 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Алия"
 		]
 	},
 	"language-name": "Хальмг",
 	"language-name-romanized": "Halʹmg",
 	"language-name-romanized-sorted": "Halmg",
+	"footer-donate": "Өглһ өргсәр Та мана көдлмшиг демҗҗ чадҗанат.",
+	"license": "Тус халхин текстиг <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> лицензин даху ашглх болмҗта",
+	"terms": "Керглх нөкцл",
+	"privacy-policy": "Нууцллын бодлһ",
+	"search-input-button": "Хәәлт",
+	"other-languages-label": "Бус келәр",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Чөләтә невтркә толь",
+		"entries": "өгүллмүд",
+		"search-input-label": "Википедяс хәәх",
+		"language-button-text": "Википедиг төрскн келәрн умштн",
+		"footer-description": "Википедь бусд төслмүдин көдлмшиг демҗдг ашгин төлә бус бәәһүллһ болҗах Викимедиа Саңгин сервемудт бәәршсн бәәнә.",
+		"app-links": {
+			"title": "iOS эс гихлә Андроид системд Википедиг татҗ авх",
+			"google-store": "Google Play делгүр",
+			"apple-store": "Apple делгүр",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "ВикиТоль",
+		"slogan": "Чөләтә толь",
+		"entries": "өгүлл",
+		"search-input-label": "ВикиТоляс хәәх",
+		"language-button-text": "ВикиТолиг төрскн келәрн умштн"
+	},
+	"wikibooks": {
+		"name": "Вики сурх бичг",
+		"slogan": "Чөләтә сурх бичгүд",
+		"entries": "халхс",
+		"search-input-label": "Вики сурх бичгәс хәәх",
+		"language-button-text": "Вики сурх бичгиг төрскн келәрн умштн"
+	},
+	"wikinews": {
+		"name": "Вики-медән",
+		"slogan": "Медәнә чөләтә экн-үүсвр",
+		"entries": "өгүллмүд",
+		"search-input-label": "Вики-медәнәс хәәх",
+		"language-button-text": "Вики-медәг төрскн келәрн умштн"
+	},
+	"wikiquote": {
+		"name": "Вики-ишлл",
+		"slogan": "Ишллин чөләтә цуглуллһ",
+		"entries": "өгүллмүд",
+		"search-input-label": "Вики-ишлләс хәәх",
+		"language-button-text": "Вики-ишллиг төрскн келәрн умштн"
+	},
+	"wikisource": {
+		"name": "Вики-саң",
+		"slogan": "Чөләтә номин саң"
+	},
+	"wikiversity": {
+		"name": "Вики-Ик сурһуль",
+		"slogan": "Чөләтә сурһлтс",
+		"entries": "болвсрлын нөөц-материалмуд",
+		"search-input-label": "Вики-Ик сурһуляс хәәх",
+		"language-button-text": "Вики-Ик сурһулиг төрскн келәрн умштн"
+	},
+	"wikivoyage": {
+		"name": "Вики-айлл",
+		"slogan": "Айллын чөләтә көтч",
+		"entries": "халхс",
+		"search-input-label": "Вики-айллас хәәх",
+		"language-button-text": "Вики-айллыг төрскн келәрн умштн"
+	},
+	"commons": {
+		"name": "Вики-аһулх һазр",
+		"slogan": "Чөләтә герл зургуд / түүнәс үлү"
+	},
+	"wikispecies": {
+		"name": "Вики-зүүл",
+		"slogan": "Зүүлин чөләтә җигсәлт"
+	},
+	"wikidata": {
+		"name": "Вики-өггдл",
+		"slogan": "Чөләтә медлһин саң"
+	},
+	"mediawiki": {
+		"name": "Медиа-Вики",
+		"slogan": "Неелттә болн чөләтә вики-көдлгүр"
+	},
+	"metawiki": {
+		"name": "Мета-вики",
+		"slogan": "Төслин бәрмт бичгүд болн зокцуллт"
 	}
 }
