@@ -48,14 +48,12 @@
 	) {
 		bannerEl.classList.add( bannerVisibleClass );
 	}
-	var bookmarkButton = document.getElementById( 'bookmark-button' );
-	if ( bookmarkButton ) {
-		bookmarkButton.addEventListener( 'click', function () {
-			document.body.classList.toggle( 'banner-open' );
-		} );
-	}
 	var bookmarkBanner = document.querySelector( '.banner-bookmark' );
 	if ( bookmarkBanner.classList.contains( 'banner--visible' ) ) {
 		document.body.classList.add( 'bookmark-banner' );
+	}
+	var bottomBanner = document.querySelector( '.banner-bottom' );
+	if ( bottomBanner.classList.contains( 'banner--visible' ) ) {
+		document.body.classList.add( 'bottom-banner' );
 	}
 }( wmTest ) );
