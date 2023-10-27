@@ -43,11 +43,11 @@
 	margin: 0;
 	padding-left: 6rem;
 	padding-right: 2rem;
-	color: var( --ss-c-grey );
+	color: var( --color-subtle );
 }
 
 .site-license {
-	color: var( --ss-c-grey );
+	color: var( --color-subtle );
 	text-align: center;
 }
 

@@ -6,7 +6,7 @@
 	}
 
 	a {
-		color: var( --wmui-color-base0 ) !important;
+		color: #000 !important;
 		background: none !important;
 		padding: 0 !important;
 	}

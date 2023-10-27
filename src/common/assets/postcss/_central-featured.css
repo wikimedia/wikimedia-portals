@@ -31,7 +31,7 @@
 }
 
 .central-featured-lang :hover {
-	background-color: var( --wmui-color-base80 );
+	background-color: var( --background-color-interactive );
 }
 
 .central-featured-lang strong {
@@ -40,7 +40,7 @@
 }
 
 .central-featured-lang small {
-	color: var( --wmui-color-base20 );
+	color: var( --color-subtle );
 	display: inline-block;
 	font-size: 1.3rem;
 	line-height: 1.6;

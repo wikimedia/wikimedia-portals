@@ -154,8 +154,8 @@ h1 {
  */
 
 mark {
-	background: var( --wmui-color-yellow50 );
-	color: var( --wmui-color-base0 );
+	background: #fef6e7;
+	color: var( --color-emphasized );
 }
 
 /**
@@ -241,7 +241,7 @@ code,
 kbd,
 pre,
 samp {
-	font-family: monospace, monospace;
+	font-family: var( --font-family-monospace--fallback );
 	font-size: 1.4rem;
 }
 
@@ -395,7 +395,7 @@ input[ type="search" ]:focus {
  */
 
 fieldset {
-	border: 1px solid var( --border-color-base );
+	border: var( --border-base );
 	margin: 0 0.2rem;
 	padding: 0.6rem 1rem 1.2rem;
 }

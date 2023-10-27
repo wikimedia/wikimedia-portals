@@ -1,4 +1,4 @@
-/* ::: Portal's base css ::: */
+/* ::: Portal's base CSS ::: */
 
 body {
 	background-color: var( --background-color-base );
@@ -17,12 +17,12 @@ a:active,
 a:focus {
 	unicode-bidi: embed;
 	outline: 0;
-	color: var( --color-primary );
+	color: var( --color-progressive );
 	text-decoration: none;
 }
 
 a:focus {
-	outline: 1px solid var( --color-primary );
+	outline: 1px solid var( --outline-color-progressive--focus );
 }
 
 a:hover {
@@ -38,6 +38,6 @@ hr {
 	clear: both;
 	height: 0;
 	border: 0;
-	border-bottom: 1px solid var( --border-color-heading );
+	border-bottom: var( --border-subtle );
 	margin: 0.26rem 1.3rem;
 }

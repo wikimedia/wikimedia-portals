@@ -8,25 +8,22 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 /*
 Box-model set to false because we're setting a height on select elements, which
 also have border and padding. This is done because some browsers don't render
-the padding. We explicitly set the box-model for select elements to border-box,
-so we can ignore the csslint warning.
+the padding. We explicitly set the box-model for select elements to border-box.
 */
 .pure-form input[ type="search" ] {
 	background-color: var( --background-color-base );
 	display: inline-block;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: var( --border-base );
 	border-radius: var( --border-radius-base );
 	padding: 0.8rem;
-	box-shadow: inset 0 0 0 1px var( --background-color-base );
+	box-shadow: var( --box-shadow-inset-small ) var( --box-shadow-color-inverted );
 	vertical-align: middle;
 }
 
 .pure-form input:focus:invalid {
-	color: var( --wmui-color-red30 );
-	border-color: var( --wmui-color-red50 );
+	color: var( --color-error );
+	border-color: var( --border-color-error );
 }
 
 .pure-form fieldset {

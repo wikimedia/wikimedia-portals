@@ -9,7 +9,7 @@ body {
 }
 
 .banner *:focus {
-	outline: 0;
+	outline: var( --outline-base--focus );
 }
 
 /* Styles */
@@ -23,7 +23,7 @@ body {
 	line-height: 1.5;
 	text-align: center;
 	margin-bottom: 24px;
-	background-color: #fff;
+	background-color: var( --background-color-base );
 	border: 4px solid #900;
 	z-index: 3;
 }
@@ -40,7 +40,7 @@ body {
 
 .banner__topbar {
 	background: #900;
-	color: #fff;
+	color: var( --color-inverted );
 	font-weight: 600;
 	padding: 2px 12px 4px 12px;
 }
@@ -59,7 +59,7 @@ body {
 .banner__close:focus .banner__close-icon path,
 .banner__close:hover .banner__close-icon circle,
 .banner__close:focus .banner__close-icon circle {
-	stroke: var( --wmui-color-base0 );
+	stroke: var( --color-emphasized );
 }
 
 .banner__close-icon {
@@ -76,7 +76,7 @@ body {
 	display: inline-block;
 	text-decoration: none;
 	border: 1px solid;
-	border-radius: 2px;
+	border-radius: var( --border-radius-base );
 	padding: 8px 12px;
 	cursor: pointer;
 	font-weight: bold;
@@ -90,18 +90,21 @@ body {
 }
 
 .banner__button--progressive {
-	color: var( --wmui-color-accent50 );
-	background-color: var( --wmui-color-base90 );
-	border-color: var( --wmui-color-base50 );
+	color: var( --color-progressive );
+	background-color: var( --background-color-interactive-subtle );
+	border-color: var( --border-color-progressive );
 
 	&:hover {
-		background-color: var( --wmui-color-base100 );
-		border-color: var( --color-primary--hover );
+		background-color: var( --background-color-base );
+		border-color: var( --border-color-progressive--hover );
 	}
 
 	&:focus {
-		border-color: var( --wmui-color-accent50 );
-		box-shadow: inset 0 0 0 1px var( --wmui-color-accent50 );
+		border-color: var( --border-color-progressive--focus );
+		/* stylelint-disable value-list-comma-newline-after, declaration-colon-space-after */
+		box-shadow: var( --box-shadow-inset-small ) var( --box-shadow-color-progressive--focus ),
+			var( --box-shadow-inset-medium ) var( --box-shadow-color-inverted );
+		/* stylelint-enable value-list-comma-newline-after, declaration-colon-space-after */
 	}
 }
 
@@ -262,7 +265,7 @@ body.bookmark-banner.banner-open .portal-banner-content {
 }
 
 .portal-banner-content-message p {
-	color: #000;
+	color: var( --color-emphasized );
 	text-align: left;
 	margin: 0;
 	font-size: 15px;
@@ -296,10 +299,10 @@ body.bookmark-banner.banner-open .portal-banner-content {
 	display: inline-block;
 	padding: 10px 15px;
 	margin: 0 0 0 15px;
-	background-color: #36c;
-	border-color: #36c;
-	color: #fff;
-	border-radius: 2px;
+	background-color: var( --background-color-progressive );
+	border-color: var( --border-color-progressive );
+	color: var( --color-inverted );
+	border-radius: var( --border-radius-base );
 	text-align: center;
 	font-weight: bold;
 	font-size: 16px;
@@ -308,7 +311,7 @@ body.bookmark-banner.banner-open .portal-banner-content {
 }
 
 .portal-banner .frb-submit:hover {
-	background: #447ff5;
+	background: var( --background-color-progressive--hover );
 }
 
 @media all and ( min-width: 768px ) {

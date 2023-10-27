@@ -8,7 +8,7 @@
 */
 
 .lang-list-container {
-	background-color: var( --background-color-framed );
+	background-color: var( --background-color-interactive-subtle );
 	overflow: hidden;
 	position: relative;
 	box-sizing: border-box;
@@ -38,7 +38,7 @@
 }
 
 .lang-list-button {
-	background-color: var( --background-color-framed );
+	background-color: var( --background-color-interactive-subtle );
 	display: inline;
 	position: relative;
 	z-index: 1;
@@ -47,7 +47,7 @@
 	outline: 1.6rem solid var( --background-color-base );
 	border: var( --border-base );
 	border-radius: var( --border-radius-base );
-	color: var( --color-primary );
+	color: var( --color-progressive );
 	font-size: 1.4rem;
 	font-weight: bold;
 	line-height: 1;
@@ -55,19 +55,19 @@
 }
 
 .lang-list-button:hover {
-	background-color: var( --background-color-framed--hover );
-	border-color: var( --border-color-base--hover );
+	background-color: var( --background-color-base );
+	border-color: var( --border-color-base );
 }
 
 .lang-list-button:focus {
-	border-color: var( --color-primary--focus );
-	box-shadow: inset 0 0 0 1px var( --color-primary--focus );
+	border-color: var( --border-color-progressive--focus );
+	box-shadow: var( --box-shadow-inset-small ) var( --box-shadow-color-progressive--focus );
 }
 
 .lang-list-active .lang-list-button {
-	background-color: var( --background-color-framed--hover );
-	outline: 1px solid var( --wmui-color-base100 );
-	border-color: var( --border-color-base--active );
+	background-color: var( --background-color-base );
+	outline: 1px solid var( --border-color-inverted );
+	border-color: var( --border-color-interactive );
 	transition-delay: 0s;
 }
 
@@ -87,7 +87,8 @@
 }
 
 .lang-list-border {
-	background-color: var( --border-color-heading );
+	/* Use border color token as this is a fake border. */
+	background-color: var( --border-color-subtle );
 	display: block;
 	position: relative;
 	max-width: 460px;

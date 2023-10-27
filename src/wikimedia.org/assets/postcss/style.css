@@ -1,5 +1,5 @@
 /* ::: Base ::: */
-@import 'wikimedia-ui-base/wikimedia-ui-base.css';
+@import '@wikimedia/codex-design-tokens/theme-wikimedia-ui.css';
 @import '../../../common/assets/postcss/_vars.css';
 @import '../../../common/assets/postcss/_base.css';
 @import '../../../common/assets/postcss/_base-portal.css';

@@ -7,7 +7,7 @@ a:focus {
 	unicode-bidi: embed;
 	white-space: nowrap;
 	outline: 0;
-	color: #36c;
+	color: var( --color-progressive );
 	text-decoration: none;
 }
 

@@ -13,6 +13,7 @@
 		"test"
 	],
 	"devDependencies": {
+		"@wikimedia/codex-design-tokens": "^1.0.0",
 		"bluebird": "^3.7.2",
 		"bundlesize": "^0.18.1",
 		"cssnano": "^4.1.10",
@@ -49,7 +50,6 @@
 		"stylelint-config-wikimedia": "0.10.3",
 		"sync-request": "^6.1.0",
 		"underscore": "^1.10.2",
-		"wikimedia-ui-base": "0.21.0",
 		"yargs": "^15.3.1"
 	},
 	"bundlesize": [

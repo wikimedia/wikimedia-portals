@@ -2,14 +2,14 @@
 
 .bookshelf {
 	display: block;
-	border-top: 1px solid var( --border-color-heading );
-	box-shadow: 0 -1px 0 var( --wmui-color-base100 );
+	border-top: var( --border-subtle );
+	box-shadow: 0 -1px 0 var( --box-shadow-color-inverted );
 	text-align: center;
 	white-space: nowrap;
 }
 
 .bookshelf .text {
-	background-color: var( --background-color-framed );
+	background-color: var( --background-color-interactive-subtle );
 	position: relative;
 	top: -1.12rem;
 	font-weight: normal;

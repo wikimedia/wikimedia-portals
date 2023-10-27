@@ -65,13 +65,13 @@
 }
 
 #searchInput:hover {
-	border-color: var( --wmui-color-base30 );
+	border-color: var( --border-color-interactive );
 }
 
 #searchInput:focus {
-	border-color: var( --wmui-color-accent50 );
-	box-shadow: var( --box-shadow-base--focus );
-	outline: 0;
+	border-color: var( --border-color-progressive );
+	box-shadow: var( --box-shadow-inset-small ) var( --box-shadow-color-progressive--focus );
+	outline: var( --outline-base--focus );
 }
 
 /* Language picker */

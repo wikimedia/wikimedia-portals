@@ -21,7 +21,7 @@
 }
 
 .other-project-link:hover {
-	background-color: var( --wmui-color-base80 );
+	background-color: var( --background-color-interactive );
 }
 
 /* Override partial underlining (T232286) */
@@ -69,7 +69,7 @@ complexity of the SVG file */
 }
 
 .other-project-tagline {
-	color: var( --ss-c-grey );
+	color: var( --color-subtle );
 	font-size: 1.3rem;
 }
 
