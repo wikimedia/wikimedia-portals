@@ -86,6 +86,10 @@
 		"name": "Label for Wikispecies\n{{Identical|Wikispecies}}",
 		"slogan": "The Wikispecies slogan"
 	},
+	"wikifunctions": {
+		"name": "Label for Wikifunctions\n{{Identical|Wikifunctions}}",
+		"slogan": "The Wikifunctions slogan"
+	},
 	"wikidata": {
 		"name": "Label for Wikidata\n{{Identical|Wikidata}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikidata slogan"
