@@ -6,6 +6,7 @@
 			"Benoit Rochon",
 			"Florian COLLIN",
 			"Gomoko",
+			"Jdforrester",
 			"Jules*",
 			"Niridya",
 			"Thibaut120094",
@@ -93,6 +94,10 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Répertoire libre des espèces"
+	},
+	"wikifunctions": {
+		"name": "Wikifonctions",
+		"slogan": "Une bibliothèque libre de fonctions"
 	},
 	"wikidata": {
 		"name": "Wikidata",

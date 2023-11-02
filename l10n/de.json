@@ -6,6 +6,7 @@
 			"Brettchenweber",
 			"Gebu",
 			"Gnom",
+			"Jdforrester",
 			"Justman10000",
 			"ManuelFranz",
 			"Metalhead64",
@@ -91,6 +92,10 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Freies Artenverzeichnis"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions",
+		"slogan": "Freie Bibliothek von Funktionen"
 	},
 	"wikidata": {
 		"name": "Wikidata",

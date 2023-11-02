@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Римма"
 		]
 	},
 	"language-name": "Перем коми",
@@ -9,5 +10,9 @@
 	"language-name-romanized-sorted": "komi, perem",
 	"wiki": {
 		"name": "Википедия"
+	},
+	"wikifunctions": {
+		"name": "Вики функцияэз",
+		"slogan": "Функцияэзлӧн мынтісьтӧм небӧгаин"
 	}
 }

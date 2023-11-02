@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Jdforrester",
 			"YaronSh"
 		]
 	},
@@ -84,6 +85,10 @@
 	"wikispecies": {
 		"name": "ויקימינים",
 		"slogan": "מדריך מינים חופשי"
+	},
+	"wikifunctions": {
+		"name": "ויקיפונקציות",
+		"slogan": "ספריית הפונקציות החינמיות"
 	},
 	"wikidata": {
 		"name": "ויקינתונים",

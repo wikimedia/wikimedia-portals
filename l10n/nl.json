@@ -17,7 +17,7 @@
 	},
 	"language-name": "Nederlands",
 	"footer-donate": "U kunt ons werk steunen met een donatie.",
-	"license": "Deze pagina is beschikbaar onder de <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike-licentie</a>",
+	"license": "Deze pagina is beschikbaar onder de licentie <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.nl\">Creative Commons Naamsvermelding-GelijkDelen</a>",
 	"terms": "Gebruiksvoorwaarden",
 	"privacy-policy": "Privacybeleid",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/nl",
@@ -92,6 +92,10 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Open lijst van soorten"
+	},
+	"wikifunctions": {
+		"name": "Wikifuncties",
+		"slogan": "Bibliotheek met vrije functies"
 	},
 	"wikidata": {
 		"name": "Wikidata",
