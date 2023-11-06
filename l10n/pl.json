@@ -3,6 +3,7 @@
 		"authors": [
 			"Chrumps",
 			"Kastanoto",
+			"Msz2001",
 			"Pietrasagh",
 			"Rail",
 			"Railfail536",
@@ -90,6 +91,10 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Wolny katalog gatunków"
+	},
+	"wikifunctions": {
+		"name": "Wikifunkcje",
+		"slogan": "Wolna biblioteka funkcji"
 	},
 	"wikidata": {
 		"name": "Wikidane",
