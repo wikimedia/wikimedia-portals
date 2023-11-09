@@ -35,7 +35,24 @@
 	} );
 	bannerLinkEl.href = 'https://donate.wikimedia.org/?utm_medium=portal&utm_campaign=portalBanner';
 	bannerLinkEl.href += '&uselang=en';
+
 	bannerLinkEl.href += '&utm_source=' + bannerEl.id;
+	if ( Math.random() > 0.5 ) {
+		bannerEl.classList.add( 'banner--with-fonts' );
+		bannerLinkEl.href += '_withFonts';
+	} else {
+		bannerLinkEl.href += '_noFonts';
+	}
+
+	// Fundraise Up test
+	if ( country === 'US' ) {
+		if ( Math.random() > 0.5 ) {
+			bannerLinkEl.href += 'FRU&fundraiseupScript=1&form-template=FRU_US_3&form=FUNJLDGRVDY';
+		} else {
+			bannerLinkEl.href += 'WikiForm&country=US&form-countryspecific=Form-countryspecific-firstAmt3&monthlyconvert=false&pym_variant=noMonthlyConvert';
+		}
+	}
+
 	bannerLinkEl.target = '_blank';
 	if ( bannerAmounts[ country ] ) {
 		bannerAmountEl.innerHTML = bannerAmounts[ country ];
@@ -47,10 +64,6 @@
 		currentDate.getFullYear() === 2023
 	) {
 		bannerEl.classList.add( bannerVisibleClass );
-	}
-	var bookmarkBanner = document.querySelector( '.banner-bookmark' );
-	if ( bookmarkBanner.classList.contains( 'banner--visible' ) ) {
-		document.body.classList.add( 'bookmark-banner' );
 	}
 	var bottomBanner = document.querySelector( '.banner-bottom' );
 	if ( bottomBanner.classList.contains( 'banner--visible' ) ) {

@@ -73,33 +73,11 @@ body {
 .banner {
 	display: none;
 	position: relative;
-	width: calc( 100% - 24px );
-	max-width: 640px;
-	margin: 0 auto;
-	font-size: 14px;
-	line-height: 1.5;
-	text-align: center;
-	margin-bottom: 24px;
-	background-color: var( --background-color-base );
-	border: 4px solid #900;
 	z-index: 3;
-}
-
-@media all and ( min-width: 321px ) {
-	.banner {
-		font-size: 15px;
-	}
 }
 
 .banner.banner--visible {
 	display: block;
-}
-
-.banner__topbar {
-	background: #900;
-	color: var( --color-inverted );
-	font-weight: 600;
-	padding: 2px 12px 4px 12px;
 }
 
 .banner__close {
@@ -110,23 +88,6 @@ body {
 	top: 0;
 	right: 0;
 	cursor: pointer;
-}
-
-.banner__close:hover .banner__close-icon path,
-.banner__close:focus .banner__close-icon path,
-.banner__close:hover .banner__close-icon circle,
-.banner__close:focus .banner__close-icon circle {
-	stroke: var( --color-emphasized );
-}
-
-.banner__close-icon {
-	width: 24px;
-	height: 24px;
-	display: inline-block;
-}
-
-.banner__main {
-	padding: 8px 8px 12px 8px;
 }
 
 .banner__button {
@@ -146,281 +107,8 @@ body {
 	text-decoration: none;
 }
 
-.banner__button--progressive {
-	color: var( --color-progressive );
-	background-color: var( --background-color-interactive-subtle );
-	border-color: var( --border-color-progressive );
-
-	&:hover {
-		background-color: var( --background-color-base );
-		border-color: var( --border-color-progressive--hover );
-	}
-
-	&:focus {
-		border-color: var( --border-color-progressive--focus );
-		/* stylelint-disable value-list-comma-newline-after, declaration-colon-space-after */
-		box-shadow: var( --box-shadow-inset-small ) var( --box-shadow-color-progressive--focus ),
-			var( --box-shadow-inset-medium ) var( --box-shadow-color-inverted );
-		/* stylelint-enable value-list-comma-newline-after, declaration-colon-space-after */
-	}
-}
-
-@media all and ( min-width: 1024px ) {
-	.search-container + .banner-container {
-		margin-top: -10px;
-	}
-
-	.banner {
-		position: fixed;
-		z-index: 2;
-		max-width: 250px;
-		margin: -48px 0 0 0; /* visually center it */
-		left: 12px;
-		top: 50%;
-		bottom: auto;
-		transform: translateY( -50% );
-		font-size: 15px;
-	}
-}
-
-/* bookmark banner styles */
-.banner.banner-bookmark {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	max-width: none;
-	margin: 0;
-	border: 0;
-	transform: none;
-	background-color: transparent;
-}
-
-.banner.banner-bookmark .banner__close {
-	display: none;
-}
-
-.banner.banner-bookmark .portal-banner {
-	min-height: 116px;
-	transition: all 0.3s;
-}
-
-.banner.banner-bookmark .portal-banner-content {
-	position: relative;
-	display: flex;
-	min-height: 20px;
-	background: #308557;
-	max-width: 100%;
-	box-shadow: inset 2px 2px 6px 0 rgba( 0, 0, 0, 0.15 );
-	transition: all 0.3s ease-in-out;
-	padding: 12px 0;
-	border-bottom: 8px solid #dbf3ec;
-}
-
-#bookmark-button {
-	position: absolute;
-	top: calc( 100% - 10px );
-	right: 250px;
-	width: 40px;
-	height: 80px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	z-index: 2;
-	transition: all 0.2s ease-in-out;
-}
-
-#bookmark-button:before {
-	content: '';
-	position: absolute;
-	top: 3px;
-	left: -7px;
-	border-top: 7px solid #246342;
-	border-right: 7px solid transparent;
-	border-left: 7px solid transparent;
-	border-bottom: 7px solid transparent;
-	transform: rotate( -45deg );
-	z-index: 1;
-}
-
-#bookmark-button:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 40px;
-	height: 80px;
-	background: #3aa169;
-	border-radius: 0 0 20px 20px;
-	z-index: 2;
-	transition: all 0.2s ease-in-out;
-}
-
-#bookmark-button:hover {
-	height: 87px;
-}
-
-#bookmark-button:hover:after {
-	height: 83px;
-}
-
-.bookmark-button-text {
-	position: absolute;
-	right: 100%;
-	padding-right: 15px;
-	font-weight: bold;
-	top: 26px;
-	width: calc( 100vw - 70px );
-	line-height: 1.2;
-	text-align: right;
-}
-
-.banner.banner-bookmark .portal-banner-content svg {
-	position: relative;
-	top: 20px;
-	transform: scale( 1.5 );
-	z-index: 3;
-}
-
-.banner.banner-bookmark .portal-banner-content .frb-icon-info circle {
-	fill: #fefd34;
-}
-
-.banner.banner-bookmark .portal-banner-content .frb-icon-info path {
-	fill: #000;
-}
-
-body.bookmark-banner:before {
-	content: '';
-	display: block;
-	height: 80px;
-}
-
-.banner.banner-bookmark .portal-banner-content-message {
-	width: 100%;
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 15px;
-	text-align: left;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.banner.banner-bookmark .portal-banner-content-message h3 {
-	margin: 0 0 5px;
-	font-size: 18px;
-}
-
-.banner.banner-bookmark .portal-banner-content-message p {
-	color: #fff;
-	font-weight: bold;
-	text-align: left;
-	margin: 0;
-	font-size: 15px;
-	line-height: 1.4;
-	flex: 0 1 auto;
-}
-
-.banner.banner-bookmark .portal-banner-content-message p a {
-	display: inline-block;
-	background: #36c;
-	color: #fff;
-	padding: 7px 15px;
-	border-radius: 3px;
-	margin-left: 15px;
-	text-decoration: none;
-	transition: all 0.3s ease-in-out;
-}
-
-.banner.banner-bookmark .portal-banner-content-message p a:hover {
-	background: #447ff5;
-}
-
-.banner.banner-bookmark .portal-banner-donate-button {
-	flex: 0 0 auto;
-	display: flex;
-	align-items: center;
-}
-
-.banner.banner-bookmark .portal-banner .frb-submit {
-	position: relative;
-	display: inline-block;
-	padding: 10px 15px;
-	margin: 0 0 0 15px;
-	background-color: var( --background-color-progressive );
-	border-color: var( --border-color-progressive );
-	color: var( --color-inverted );
-	border-radius: var( --border-radius-base );
-	text-align: center;
-	font-weight: bold;
-	font-size: 16px;
-	cursor: pointer;
-	transition: background-color 0.5s ease;
-}
-
-.banner.banner-bookmark .portal-banner .frb-submit:hover {
-	background: var( --background-color-progressive--hover );
-}
-
-@media all and ( max-width: 1024px ) {
-	#bookmark-button {
-		right: 50px;
-	}
-}
-
-@media all and ( max-width: 767px ) {
-	.bookmark-button-text {
-		font-size: 12px;
-		top: 20px;
-	}
-
-	body.bookmark-banner:before {
-		height: 100px;
-	}
-
-	body.bookmark-banner .search-container {
-		top: 20.6rem;
-		transition: all 0.2s;
-	}
-
-	.banner.banner-bookmark .portal-banner-content-message p {
-		font-size: 12px;
-	}
-
-	.banner.banner-bookmark .portal-banner .frb-submit {
-		font-size: 14px;
-	}
-}
-
-@media all and ( max-width: 650px ) {
-	#bookmark-button {
-		right: 20px;
-	}
-}
-
-@media all and ( max-width: 355px ) {
-	body.bookmark-banner:before {
-		height: 120px;
-	}
-
-	body.bookmark-banner .search-container {
-		top: 22.6rem;
-	}
-}
-
-@media all and ( max-width: 319px ) {
-	body.bookmark-banner:before {
-		height: 140px;
-	}
-
-	body.bookmark-banner .search-container {
-		top: 24.6rem;
-	}
-}
-
 /* bottom banner styles */
-.banner.banner-bottom {
+.banner-bottom {
 	position: fixed;
 	top: auto;
 	bottom: 0;
@@ -431,6 +119,10 @@ body.bookmark-banner:before {
 	border: 0;
 	transform: none;
 	background-color: transparent;
+	font-family: Times, serif;
+}
+
+.banner-bottom.banner--with-fonts {
 	font-family: 'Source Serif Pro', Times, serif;
 }
 
@@ -438,40 +130,40 @@ body.bottom-banner {
 	padding-bottom: 235px;
 }
 
-.banner.banner-bottom .banner__close {
+.banner-bottom .banner__close {
 	z-index: 2;
 	right: 30px;
 	top: 30px;
 }
 
-.banner.banner-bottom .banner__close-icon {
+.banner-bottom .banner__close-icon {
 	width: 45px;
 	height: 45px;
 	display: inline-block;
 }
 
-.banner.banner-bottom .banner__close-icon circle {
+.banner-bottom .banner__close-icon circle {
 	fill: #0e65c0;
 	stroke: #c0e6ff;
 	stroke-width: 0.5;
 }
 
-.banner.banner-bottom .banner__close-icon path {
+.banner-bottom .banner__close-icon path {
 	stroke: #c0e6ff;
 	stroke-width: 0.5;
 }
 
-.banner.banner-bottom .banner__close-icon:hover circle,
-.banner.banner-bottom .banner__close-icon:hover path {
+.banner-bottom .banner__close:hover circle,
+.banner-bottom .banner__close:hover path {
 	stroke: #fff;
 }
 
-.banner.banner-bottom .portal-banner {
+.banner-bottom .portal-banner {
 	background: #c0e6ff;
 	border-top: 1px solid #c3d8ef;
 }
 
-.banner.banner-bottom .portal-banner-content {
+.banner-bottom .portal-banner-content {
 	position: relative;
 	display: flex;
 	width: 100%;
@@ -480,7 +172,7 @@ body.bottom-banner {
 	transition: all 0.3s ease-in-out;
 }
 
-.banner.banner-bottom .portal-banner-content-message {
+.banner-bottom .portal-banner-content-message {
 	width: 100%;
 	flex: 1 1 auto;
 	max-width: 66.7%;
@@ -489,13 +181,17 @@ body.bottom-banner {
 	text-align: left;
 }
 
-.banner.banner-bottom .portal-banner-content-message h3 {
+.banner-bottom .portal-banner-content-message h3 {
 	margin: 0 0 0.5em;
 	font-size: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-bottom.banner--with-fonts .portal-banner-content-message h3 {
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
-.banner.banner-bottom .portal-banner-content-message p {
+.banner-bottom .portal-banner-content-message p {
 	color: #000;
 	text-align: left;
 	margin: 0 0 0.5em;
@@ -503,7 +199,7 @@ body.bottom-banner {
 	line-height: 1.4;
 }
 
-.banner.banner-bottom .portal-banner-content-message p a {
+.banner-bottom .portal-banner-content-message p a {
 	display: inline-block;
 	background: #36c;
 	color: #fff;
@@ -514,17 +210,17 @@ body.bottom-banner {
 	transition: all 0.3s ease-in-out;
 }
 
-.banner.banner-bottom .portal-banner-content-message p a:hover {
+.banner-bottom .portal-banner-content-message p a:hover {
 	background: #447ff5;
 }
 
-.banner.banner-bottom .portal-banner-content-message svg.wmf-identity {
+.banner-bottom .portal-banner-content-message svg.wmf-identity {
 	width: 150px;
 	height: auto;
 	margin-bottom: 5px;
 }
 
-.banner.banner-bottom .portal-banner-donate-button {
+.banner-bottom .portal-banner-donate-button {
 	position: relative;
 	flex: 0 0 400px;
 	max-width: 400px;
@@ -535,7 +231,7 @@ body.bottom-banner {
 	justify-content: center;
 }
 
-.banner.banner-bottom .portal-banner-donate-button:after {
+.banner-bottom .portal-banner-donate-button:after {
 	content: '';
 	position: absolute;
 	left: 100%;
@@ -545,7 +241,7 @@ body.bottom-banner {
 	background: #0e65c0;
 }
 
-.banner.banner-bottom .portal-banner-donate-button p {
+.banner-bottom .portal-banner-donate-button p {
 	color: #fff;
 	text-align: left;
 	margin: 0 0 1em;
@@ -553,12 +249,12 @@ body.bottom-banner {
 	line-height: 1.4;
 }
 
-.banner.banner-bottom .portal-banner-donate-button p strong {
+.banner-bottom .portal-banner-donate-button p strong {
 	color: #000;
 	background: #f0bc00;
 }
 
-.banner.banner-bottom .portal-banner .frb-submit {
+.banner-bottom .portal-banner .frb-submit {
 	position: relative;
 	display: inline-block;
 	padding: 10px 15px;
@@ -574,76 +270,84 @@ body.bottom-banner {
 	transition: background-color 0.5s ease;
 }
 
-.banner.banner-bottom .portal-banner .frb-submit:hover {
+.banner-bottom .portal-banner .frb-submit:hover {
 	background: #447ff5;
 	border-color: #447ff5;
+}
+
+.banner-bottom .portal-banner .frb-submit:focus {
+	border-color: var( --border-color-progressive--focus );
+	/* stylelint-disable value-list-comma-newline-after, declaration-colon-space-after */
+	box-shadow: var( --box-shadow-inset-small ) var( --box-shadow-color-progressive--focus ),
+		var( --box-shadow-inset-medium ) var( --box-shadow-color-inverted );
+	/* stylelint-enable value-list-comma-newline-after, declaration-colon-space-after */
 }
 
 /* responsive styling */
 
 @media ( max-width: 960px ) {
-	.banner.banner-bottom .banner__close {
+	.banner-bottom .banner__close {
 		right: 20px;
 		top: 20px;
 	}
 }
 
 @media ( max-width: 768px ) {
-	.banner.banner-bottom .portal-banner-content {
+	.banner-bottom .portal-banner-content {
 		flex-direction: column;
 	}
 
-	.banner.banner-bottom .portal-banner-content-message {
+	.banner-bottom .portal-banner-content-message {
 		flex: 0 1 auto;
 		max-width: 100%;
 	}
 
-	.banner.banner-bottom .portal-banner-donate-button {
+	.banner-bottom .portal-banner-donate-button {
 		flex: 0 1 auto;
 		max-width: 100%;
 		padding: 15px;
 	}
 
-	.banner.banner-bottom .banner__close-icon circle {
+	.banner-bottom .banner__close-icon circle {
 		fill: transparent;
 		stroke: #36c;
 	}
 
-	.banner.banner-bottom .banner__close-icon:hover circle,
-	.banner.banner-bottom .banner__close-icon:hover path {
+	.banner-bottom .banner__close-icon:hover circle,
+	.banner-bottom .banner__close-icon:hover path {
 		stroke: #000;
 	}
 
-	.banner.banner-bottom .banner__close-icon path {
+	.banner-bottom .banner__close-icon path {
 		stroke: #36c;
 	}
 
-	.banner.banner-bottom .portal-banner-content-message p {
+	.banner-bottom .portal-banner-content-message p {
 		font-size: 14px;
 		display: inline;
 	}
 
-	.banner.banner-bottom .portal-banner-content-message h3 {
+	.banner-bottom .portal-banner-content-message h3 {
 		font-size: 18px;
 	}
 
-	.banner.banner-bottom .portal-banner-donate-button p {
+	.banner-bottom .portal-banner-donate-button p {
 		font-size: 15px;
 	}
 
-	.banner.banner-bottom .portal-banner-content-message .wmf-identity {
+	.banner-bottom .portal-banner-content-message .wmf-identity {
 		display: none;
 	}
 }
 
 @media ( max-width: 500px ) {
-	.banner.banner-bottom .portal-banner-donate-button p:first-of-type {
+	.banner-bottom .portal-banner-donate-button p:first-of-type {
 		display: none;
 	}
 }
 
 @media ( max-width: 400px ) {
-	.banner.banner-bottom .portal-banner-donate-button p {
+	.banner-bottom .portal-banner-donate-button p {
 		display: none;
 	}
 }
