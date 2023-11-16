@@ -41,28 +41,28 @@
 		"name": "維基詞典",
 		"slogan": "自由的詞典",
 		"entries": "詞條",
-		"search-input-label": "搜尋維基詞典",
+		"search-input-label": "在維基詞典搜尋",
 		"language-button-text": "以您的語言閱讀維基詞典"
 	},
 	"wikibooks": {
 		"name": "維基教科書",
 		"slogan": "自由的教學讀本",
 		"entries": "頁面",
-		"search-input-label": "搜尋維基教科書",
+		"search-input-label": "在維基教科書搜尋",
 		"language-button-text": "以您的語言閱讀維基教科書"
 	},
 	"wikinews": {
 		"name": "維基新聞",
 		"slogan": "自由的新聞源",
 		"entries": "條目",
-		"search-input-label": "搜尋維基新聞",
+		"search-input-label": "在維基新聞搜尋",
 		"language-button-text": "以您的語言閱讀維基新聞"
 	},
 	"wikiquote": {
 		"name": "維基語錄",
 		"slogan": "自由的名人名言錄",
 		"entries": "條目",
-		"search-input-label": "搜尋維基語錄",
+		"search-input-label": "在維基語錄搜尋",
 		"language-button-text": "以您的語言閱讀維基語錄"
 	},
 	"wikisource": {
@@ -73,14 +73,14 @@
 		"name": "維基學院",
 		"slogan": "自由的研習社群",
 		"entries": "學習資源",
-		"search-input-label": "搜尋維基學院",
+		"search-input-label": "在維基學院搜尋",
 		"language-button-text": "以您的語言閱讀維基學院"
 	},
 	"wikivoyage": {
 		"name": "維基導遊",
 		"slogan": "自由的旅行指南",
 		"entries": "頁面",
-		"search-input-label": "搜尋維基導遊",
+		"search-input-label": "在維基導遊搜尋",
 		"language-button-text": "以您的語言閱讀維基導遊"
 	},
 	"commons": {

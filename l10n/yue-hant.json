@@ -1,16 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
+			"H78c67c",
 			"Obonggi",
-			"OmniBus"
+			"OmniBus",
+			"Winston Sung"
 		]
 	},
+	"footer-donate": "你可以捐款以支持我哋所做嘅嘢。",
 	"terms": "使用條款",
 	"privacy-policy": "私隱政策",
+	"other-languages-label": "第啲語言",
 	"wiki": {
 		"name": "維基百科",
 		"slogan": "自由嘅百科全書",
-		"entries": "文章"
+		"entries": "文章",
+		"search-input-label": "搵維基百科",
+		"language-button-text": "用你嘅語言嚟讀維基百科",
+		"app-links": {
+			"title": "下載 Android 或 iOS 版維基百科應用程式"
+		}
 	},
 	"wiktionary": {
 		"name": "維基辭典",
@@ -39,7 +48,20 @@
 		"name": "維基遊埠",
 		"slogan": "免費旅行指南"
 	},
+	"wikispecies": {
+		"name": "維基物種",
+		"slogan": "自由嘅物種名錄"
+	},
 	"wikidata": {
-		"name": "維基數據"
+		"name": "維基數據",
+		"slogan": "自由嘅知識庫"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "自由開放嘅 wiki 應用程式"
+	},
+	"metawiki": {
+		"name": "維基元",
+		"slogan": "社羣協調同説明文件"
 	}
 }

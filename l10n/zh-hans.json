@@ -10,6 +10,7 @@
 			"StarrySky",
 			"Tranve",
 			"VulpesVulpes825",
+			"Winston Sung",
 			"Zhang8569"
 		]
 	},
@@ -28,7 +29,7 @@
 		"name": "维基百科",
 		"slogan": "自由的百科全书",
 		"entries": "条目",
-		"search-input-label": "搜索维基百科",
+		"search-input-label": "在维基百科搜索",
 		"language-button-text": "以您的语言阅读维基百科",
 		"footer-description": "维基百科由非盈利组织维基媒体基金会管理，基金会也管理一系列其它项目。",
 		"app-links": {
@@ -43,14 +44,14 @@
 		"name": "维基词典",
 		"slogan": "自由的词典",
 		"entries": "词条",
-		"search-input-label": "搜索维基词典",
+		"search-input-label": "在维基词典搜索",
 		"language-button-text": "以您的语言阅读维基词典"
 	},
 	"wikibooks": {
 		"name": "维基教科书",
 		"slogan": "自由的教学读本",
 		"entries": "页面",
-		"search-input-label": "搜索维基教科书",
+		"search-input-label": "在维基教科书搜索",
 		"language-button-text": "以您的语言阅读维基教科书"
 	},
 	"wikinews": {
@@ -62,7 +63,7 @@
 		"name": "维基语录",
 		"slogan": "自由的名人名言录",
 		"entries": "摘录",
-		"search-input-label": "搜索维基语录",
+		"search-input-label": "在维基语录搜索",
 		"language-button-text": "以您的语言阅读维基语录"
 	},
 	"wikisource": {

@@ -8,13 +8,22 @@
 	},
 	"language-name": "Estremeñu",
 	"language-name-romanized-sorted": "Estremenu",
+	"footer-donate": "Pueis sostribal el nuestru trebaju con una donación",
+	"license": "Esta página está disponibli baxu la <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Términus de gastu",
+	"privacy-policy": "Política de privacidá",
+	"search-input-button": "Precural",
 	"other-languages-label": "Otrus idiomas",
 	"wiki": {
 		"name": "Güiquipedia",
 		"slogan": "L'enciclopeya libri",
 		"entries": "artículus",
 		"search-input-label": "Buscal en Güiquipedia",
-		"language-button-text": "Leyel Güiquipedia en la tu idioma"
+		"language-button-text": "Leyel Güiquipedia en la tu idioma",
+		"app-links": {
+			"google-store": "Google Play Store",
+			"apple-store": "Tienda de apricacionis de Apple"
+		}
 	},
 	"wiktionary": {
 		"name": "Güiquizionariu",
