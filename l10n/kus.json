@@ -6,12 +6,14 @@
 			"Amire80",
 			"Bugirbiig",
 			"Musahfm",
+			"Poasana Anabah",
 			"Wintima Akudugu"
 		]
 	},
 	"language-name": "Kʋsaal",
 	"language-name-romanized-sorted": "Kusaal",
 	"footer-donate": "Fʋ na nyaŋε sʋŋi ti tʋʋma la nε piini",
+	"license": "Lakir kaŋa bɛnɛ <a href='https:// creativecommons.org/licenses/ by-sa/4.0/'>Creative Commons Attribution-ShareAlike Licenses </a>",
 	"terms": "Tʋʋma suor dɔlisʋg",
 	"privacy-policy": "Gban'agir line su'a",
 	"search-input-button": "Iem",
@@ -54,6 +56,7 @@
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
+		"slogan": "Zaalim nɔɔrpiank",
 		"entries": "gbana",
 		"search-input-label": "Iem Wikiquote",
 		"language-button-text": "Karim Wikigbana fʋ mɛŋ pian'adin"
@@ -81,16 +84,23 @@
 		"slogan": "Zaalim fɔtonam banɛ tʋm & ka sieba"
 	},
 	"wikispecies": {
-		"name": "Wikispecies"
+		"name": "Wikispecies",
+		"slogan": "Zɛnyubsa zin'ig"
+	},
+	"wikifunctions": {
+		"name": "Baŋir tʋm si'em",
+		"slogan": "Zaalim zamisʋg dɔɔg tʋm siem"
 	},
 	"wikidata": {
 		"name": "Wikidata",
 		"slogan": "Zaalim mi'ilim zin'ig"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Saŋa wʋsa zaalim baŋir tʋʋma"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Teŋgbaʋŋ nɔɔryinne la'asʋg nɛ li gban'ar"
 	}
 }

@@ -1,8 +1,100 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abdul Fatawu 352",
 			"Amire80"
 		]
 	},
-	"language-name": "Moore"
+	"language-name": "Moore",
+	"footer-donate": "Y tõe n kõ-y-la kũun n sõng tõnd tʋʋmdã ne kuuna",
+	"license": "Neng kada be ne <a\nhref='https://creativecommonsorg/licenses/by-sa/4.0/'>Creative commonsorg Attribution-ShareAlike License</a>",
+	"terms": "Goam-bana n toe tʋm ne",
+	"privacy-policy": "Solgr Laluwa",
+	"search-input-button": "Sã n bao n bãng",
+	"other-languages-label": "Buud-goam a taaba",
+	"wiki": {
+		"name": "wikipedia",
+		"slogan": "Encyclopɛdia zaalem",
+		"entries": "Sõssã",
+		"search-input-label": "Sã n bao n bãng wikipedia",
+		"language-button-text": "Karmẽ wikipedia fo buud-goam pʋge",
+		"footer-description": "Wikipedia maanda ne wikipedia yĩgr-ramba,n ya tigngo ninga n ka tar yũr la a maand tʋʋma taaba",
+		"app-links": {
+			"title": "Taki wikipedia n kõ Android bɩ ios",
+			"description": "Yãk y sõss nins y sẽn nong n karemdã n karem y sẽn pa tar sorã, y kɩt tɩ y sõssã sõssã zĩnd ne y sõssbã, la y kɩt tɩ b sõssã lebg sõma ne Wikipedia app wã.",
+			"google-store": "Google Play Store wã",
+			"apple-store": "Apple App Store wã",
+			"url": "https://en.wikipedia.org/wiki/Sodgr-sebr_ne wikipedia_pogtable_kosgo"
+		}
+	},
+	"wiktionary": {
+		"name": "Sõng-vɩɩs",
+		"slogan": "Sõngr sẽn pa tar yõodã",
+		"entries": "kesg-ramba",
+		"search-input-label": "Bao-y Wiktionary wã pʋgẽ",
+		"language-button-text": "Karmẽ wikipedia fo buud-goam pʋge"
+	},
+	"wikibooks": {
+		"name": "wiki-seba",
+		"slogan": "Sõsg sebrã sẽn Sõsg sebrã sẽn pa tar ligdpa tar ligd",
+		"entries": "nense",
+		"search-input-label": "Wilg-y Wikibooks wã pʋgẽ",
+		"language-button-text": "Karm-y Wikibooks y buud-gomdã pʋgẽ"
+	},
+	"wikinews": {
+		"name": "wiki-kibaya",
+		"slogan": "kibay-rãmbã sẽn yaa zaalem",
+		"entries": "Sõssã",
+		"search-input-label": "Sã n bao n bãng wikipedia",
+		"language-button-text": "Karm-y wiki-kibay y buud-gomdã pʋgẽ87% match"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Sõng-y n deeg-y-yã kumbgo",
+		"entries": "Sõssã",
+		"search-input-label": "Bao-y wikiquote wã pʋgẽ",
+		"language-button-text": "Karm-y wiki-kibay y buud-gomdã pʋgẽ87% match83% match"
+	},
+	"wikisource": {
+		"name": "wiki-yegre",
+		"slogan": "Sɛb roog zaalem"
+	},
+	"wikiversity": {
+		"name": "Wiki-Ɛiversite",
+		"slogan": "Zaalem bãngr teedo",
+		"entries": "zãmsg teedo",
+		"search-input-label": "Bao wikiɛniversite",
+		"language-button-text": "Karmẽ wikiɛniversite fo buud-goam pʋge"
+	},
+	"wikivoyage": {
+		"name": "Wiki-sor-tõka",
+		"slogan": "Zaalem sor-wilgda",
+		"entries": "nense",
+		"search-input-label": "Boa wiki-sortʋka",
+		"language-button-text": "Karm-y wiki-kibay y buud-gomdã pʋgẽ87% match83% match"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Foto rãmb sẽn tõe n tall n dɩk n tʋm m pas la wʋsgo"
+	},
+	"wikispecies": {
+		"name": "Wiki-teeda",
+		"slogan": "Zaalem gom-biisi sebr teedo"
+	},
+	"wikifunctions": {
+		"name": "Wiki-tʋʋm-ramba",
+		"slogan": "Zaalem sebr roog tʋʋma"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Zaalem bãngr zĩiga"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Zaalem la wiki pakr tʋʋma"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Komindi songr la gɩlsgo"
+	}
 }

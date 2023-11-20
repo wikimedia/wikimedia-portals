@@ -4,6 +4,7 @@
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
 			"Fitoschido",
+			"Jmarchn",
 			"Lluis tgn",
 			"Mguix",
 			"SMP",
@@ -92,6 +93,10 @@
 	"wikispecies": {
 		"name": "Viquiespècies",
 		"slogan": "Directori d’espècies lliure"
+	},
+	"wikifunctions": {
+		"name": "Funcions wiki",
+		"slogan": "Biblioteca de funcions lliures"
 	},
 	"wikidata": {
 		"name": "Wikidata",

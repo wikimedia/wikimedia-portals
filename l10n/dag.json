@@ -3,17 +3,85 @@
 		"authors": [
 			"Amire80",
 			"Dnshitobu",
+			"Issahiddris98",
 			"Musahfm",
 			"Naporo"
 		]
 	},
 	"language-name": "Dagbanli",
 	"footer-donate": "A ni tooi tɔhi niŋ ti pɔŋ ni n-tabi sɔŋ ti tuma ŋɔ",
-	"license": "A ku tooi kpe yaɣili ŋɔ saha ŋɔ <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"license": "A ku tooi kpe yaɣili ŋɔ saha ŋɔ \n<a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Zaŋ tum tuma soya",
+	"search-input-button": "Yulibo",
+	"other-languages-label": "Zuliyanima ŋan pahi",
 	"wiki": {
+		"name": "Wikipedia",
+		"entries": "Atikilinima",
+		"search-input-label": "Yulimi Wikipedia puuni",
+		"language-button-text": "Karimi Wikipedia a zuliya yɛltɔɣa puuni",
+		"footer-description": "Wikimedia foundation nima n yuuni wikipedia zuɣu, Wikipedia nyɛla ʒiɛngama laɣiŋgu din ʒiri tuun' bɔbili.",
 		"app-links": {
 			"google-store": "!!FUZZY!!Google Play Shitɔɣu",
-			"apple-store": "Apple App Shitɔɣu"
+			"apple-store": "Apple App Shitɔɣu",
+			"url": "https\n://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"entries": "Kpehibu",
+		"search-input-label": "Yulibo wiktiinary",
+		"language-button-text": "Karimi Wiktionary a zuliya yɛltɔɣa puuni"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Buku karimda din be yɔli",
+		"entries": "Paajinima",
+		"search-input-label": "Yulibo wikibooks",
+		"language-button-text": "Karimi wikibooks a zuliya yɛltɔɣa puuni"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Lahabaya ŋan niŋ bayana shee",
+		"entries": "Atikilinima",
+		"search-input-label": "Yulibo Wikinews",
+		"language-button-text": "Karimi wikinews a zuliya yɛltɔɣa ni"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"entries": "atikilinima",
+		"search-input-label": "Yulibo Wikiquote",
+		"language-button-text": "Karimi Wikiquote a zuliya yɛltɔɣa ni"
+	},
+	"wikisource": {
+		"name": "Wikisource"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"entries": "Bɔhimbu yɛlibɔra",
+		"search-input-label": "Yulibo Wikiversity",
+		"language-button-text": "Karimi Wikiversity a zuliya yɛltɔɣa ni"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"entries": "Paajinima",
+		"search-input-label": "Yulibo Wikivoyage",
+		"language-button-text": "Karimi wikivoyage a zuliya yɛltɔɣa ni"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Yoli mini din yooi wiki tuma"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Kɔminiti soya mini di kpabukpabu"
 	}
 }
