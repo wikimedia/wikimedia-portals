@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Achiri Bitamsimli",
 			"Amire80",
 			"Dnshitobu",
 			"Issahiddris98",
@@ -63,6 +64,7 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
+		"slogan": "Gɔrim sɔdoligu din nyɛ yoli",
 		"entries": "Paajinima",
 		"search-input-label": "Yulibo Wikivoyage",
 		"language-button-text": "Karimi wikivoyage a zuliya yɛltɔɣa ni"
@@ -74,7 +76,8 @@
 		"name": "Wikifunctions"
 	},
 	"wikidata": {
-		"name": "Wikidata"
+		"name": "Wikidata",
+		"slogan": "Baŋsim yoli shee"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",

@@ -1,8 +1,100 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Amoramah"
 		]
 	},
-	"language-name": "Farefare"
+	"language-name": "Farefare",
+	"footer-donate": "Fu ta'am dikɛ bo'olum suŋɛ tu tuuma la",
+	"license": "Pɛgedina wa boi la <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Itegɔ yɛla",
+	"privacy-policy": "Sugulum wara",
+	"search-input-button": "Ɛ",
+	"other-languages-label": "Yeletɔgum sisesi",
+	"wiki": {
+		"name": "Wikipiidiya",
+		"slogan": "Zaalum yelebɛa gɔŋɔ",
+		"entries": "gɔnɔ",
+		"search-input-label": "Ɛ wikipiidiya",
+		"language-button-text": "Kaalɛ wikipiidiya fu yeletɔgum puan",
+		"footer-description": "Wikipiidiya Tigere, Tansugere n eeri liiba n sɔi wikipiidiya la tuuma asi'a me",
+		"app-links": {
+			"title": "Dikɛ Android bii Isod Ve'e Wikipiidiya",
+			"description": "Digesɛ gɔnseko ti fu ba'am nɔŋɛ biŋe ta'am kaalɛ fu san bɔna intanɛti puan, iŋɛ fu tangaleŋa la ti di tana ita yɛla gaŋera diyima gee dıkɛ Wikipiidiya api labasɛ ti fu kaalegɔ yɛm paɛ zi'an woo",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Zaalum yelebɛa gɔŋɔ",
+		"entries": "Ki'a",
+		"search-input-label": "Ɛ Wiktionary",
+		"language-button-text": "Kaalɛ Wiktionary fu yeletɔgum puan"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "Zaalum gɔnkaaletɔ",
+		"entries": "Pɛgera",
+		"search-input-label": "Ɛ Wikibooks",
+		"language-button-text": "Kaalɛ Wikibooks fu yeletɔgum puan"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Zi'a ti lasebaya dɛna zaalum",
+		"entries": "gɔnɔ",
+		"search-input-label": "Ɛ Wikinews",
+		"language-button-text": "Kaalɛ Wikinews fu yeletɔgum puan"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Zaalum tɔgum tɔgesegɔ",
+		"entries": "gɔnɔ",
+		"search-input-label": "Ɛ Wikiquote",
+		"language-button-text": "Kaalɛ Wikiquote fu yeletɔgum puan"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Zaalum lɔgerɔ zi'an"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Zaalum zamesegɔ lɔgerɔ",
+		"entries": "Zamesegɔ lɔgerɔ",
+		"search-input-label": "Ɛ Wikiversity",
+		"language-button-text": "Kaalɛ Wikiversity fu yeletɔgum puan"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Zaalum Sadɔ kinɛ pa'alegɔ",
+		"entries": "Pɛgera",
+		"search-input-label": "Ɛ Wikivoyage",
+		"language-button-text": "Kaalɛ Wikivoyage fu yeletɔgum puan"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Zaalum fɔɔra la lɔgerɔ zo'e zo'e ti fu wan ta'am dikɛ tum"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Zaalum bunvɔpa pa'alegɔ"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions",
+		"slogan": "Zaalum tuuma lɔgerɔ zi'an"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Zaalum mi'ilum zi'an"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Gulesegɔ n de zaalum bo nɛrawoo"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "So'olum lageŋɔ la yɛla gulesɛ biŋere"
+	}
 }
