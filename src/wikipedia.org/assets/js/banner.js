@@ -38,18 +38,19 @@
 
 	bannerLinkEl.href += '&utm_source=' + bannerEl.id;
 	if ( Math.random() > 0.5 ) {
-		bannerEl.classList.add( 'banner--with-fonts' );
-		bannerLinkEl.href += '_withFonts';
+		bannerEl.classList.add( 'banner--fonts1' );
+		bannerLinkEl.href += '_fonts1';
 	} else {
-		bannerLinkEl.href += '_noFonts';
+		bannerEl.classList.add( 'banner--fonts2' );
+		bannerLinkEl.href += '_fonts2';
 	}
 
 	// Fundraise Up test
 	if ( country === 'US' ) {
 		if ( Math.random() > 0.5 ) {
-			bannerLinkEl.href += 'FRU&fundraiseupScript=1&form-template=FRU_US_3&form=FUNJLDGRVDY';
+			bannerLinkEl.href += 'FRU&fundraiseupScript=1&form-template=FRU_US_4';
 		} else {
-			bannerLinkEl.href += 'WikiForm&country=US&form-countryspecific=Form-countryspecific-firstAmt3&monthlyconvert=false&pym_variant=noMonthlyConvert';
+			bannerLinkEl.href += 'WikiForm&country=US&form-countryspecific=Form-countryspecific-firstAmt3&monthlyconvert=false';
 		}
 	}
 
