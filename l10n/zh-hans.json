@@ -4,6 +4,7 @@
 			"A Chinese Wikipedian",
 			"Amire80",
 			"Diskdance",
+			"GuoPC",
 			"Irati",
 			"Liuxinyu970226",
 			"Shizhao",
@@ -57,7 +58,9 @@
 	"wikinews": {
 		"name": "维基新闻",
 		"slogan": "自由的新闻源",
-		"entries": "文章"
+		"entries": "文章",
+		"search-input-label": "在维基新闻搜索",
+		"language-button-text": "以您的语言阅读维基新闻"
 	},
 	"wikiquote": {
 		"name": "维基语录",
@@ -73,11 +76,16 @@
 	"wikiversity": {
 		"name": "维基学院",
 		"slogan": "自由的研习社群",
-		"entries": "学习资源"
+		"entries": "学习资源",
+		"search-input-label": "在维基学院搜索",
+		"language-button-text": "以您的语言阅读维基学院"
 	},
 	"wikivoyage": {
 		"name": "维基导游",
-		"slogan": "自由的旅行指南"
+		"slogan": "自由的旅行指南",
+		"entries": "页面",
+		"search-input-label": "在维基导游搜索",
+		"language-button-text": "以您的语言阅读维基导游"
 	},
 	"commons": {
 		"name": "共享资源",
