@@ -1,60 +1,3 @@
-/* fonts */
-@font-face {
-	font-family: Montserrat;
-	font-weight: normal;
-	font-style: normal;
-	src: local( 'Montserrat Regular' ), local( 'Montserrat-Regular' ), url( https://upload.wikimedia.org/wikipedia/donate/7/7c/Montserrat-regular-webfont.woff2 ) format( 'woff2' );
-}
-
-@font-face {
-	font-family: Montserrat;
-	font-weight: normal;
-	font-style: italic;
-	src: local( 'Montserrat Italic' ), local( 'Montserrat-Italic' ), url( https://upload.wikimedia.org/wikipedia/donate/e/e4/Montserrat-italic-webfont.woff2 ) format( 'woff2' );
-}
-
-@font-face {
-	font-family: Montserrat;
-	font-weight: bold;
-	font-style: normal;
-	src: local( 'Montserrat Bold' ), local( 'Montserrat-Bold' ), url( https://upload.wikimedia.org/wikipedia/donate/4/47/Montserrat-bold-webfont.woff2 ) format( 'woff2' );
-}
-
-@font-face {
-	font-family: Montserrat;
-	font-weight: bold;
-	font-style: italic;
-	src: local( 'Montserrat Bold Italic' ), local( 'Montserrat-BoldItalic' ), url( https://upload.wikimedia.org/wikipedia/donate/d/db/Montserrat-bolditalic-webfont.woff2 ) format( 'woff2' );
-}
-
-@font-face {
-	font-family: 'Source Serif Pro';
-	font-weight: normal;
-	font-style: normal;
-	src: local( 'Source Serif Pro Regular' ), local( 'SourceSerifPro-Regular' ), url( https://upload.wikimedia.org/wikipedia/donate/8/8a/Sourceserifpro-regular-webfont.woff2 ) format( 'woff2' );
-}
-
-@font-face {
-	font-family: 'Source Serif Pro';
-	font-weight: normal;
-	font-style: italic;
-	src: local( 'Source Serif Pro Italic' ), local( 'SourceSerifPro-Italic' ), url( https://upload.wikimedia.org/wikipedia/donate/7/75/Sourceserifpro-italic-webfont.woff2 ) format( 'woff2' );
-}
-
-@font-face {
-	font-family: 'Source Serif Pro';
-	font-weight: bold;
-	font-style: normal;
-	src: local( 'Source Serif Pro Bold' ), local( 'SourceSerifPro-Bold' ), url( https://upload.wikimedia.org/wikipedia/donate/7/72/Sourceserifpro-bold-webfont.woff2 ) format( 'woff2' );
-}
-
-@font-face {
-	font-family: 'Source Serif Pro';
-	font-weight: bold;
-	font-style: italic;
-	src: local( 'Source Serif Pro Bold Italic' ), local( 'SourceSerifPro-BoldItalic' ), url( https://upload.wikimedia.org/wikipedia/donate/8/82/Sourceserifpro-bolditalic-webfont.woff2 ) format( 'woff2' );
-}
-
 /* Prevent horizontal scroll with Firefox on small screens */
 body {
 	overflow-x: hidden;
@@ -88,6 +31,8 @@ body {
 	top: 0;
 	right: 0;
 	cursor: pointer;
+	background: none;
+	border: 0;
 }
 
 .banner__button {
@@ -122,8 +67,12 @@ body {
 	font-family: Times, serif;
 }
 
-.banner-bottom.banner--with-fonts {
-	font-family: 'Source Serif Pro', Times, serif;
+.banner-bottom.banner--fonts1 {
+	font-family: Times, serif;
+}
+
+.banner-bottom.banner--fonts2 {
+	font-family: 'Source Serif Pro', Georgia, Times, serif;
 }
 
 body.bottom-banner {
@@ -134,6 +83,15 @@ body.bottom-banner {
 	z-index: 2;
 	right: 30px;
 	top: 30px;
+	color: #c0e6ff;
+}
+
+.banner-bottom .banner__close:hover {
+	color: #fff;
+}
+
+.banner-bottom .banner__close:focus .banner__close-icon {
+	outline: 1px solid;
 }
 
 .banner-bottom .banner__close-icon {
@@ -143,19 +101,14 @@ body.bottom-banner {
 }
 
 .banner-bottom .banner__close-icon circle {
-	fill: #0e65c0;
-	stroke: #c0e6ff;
+	fill: transparent;
+	stroke: currentColor;
 	stroke-width: 0.5;
 }
 
 .banner-bottom .banner__close-icon path {
-	stroke: #c0e6ff;
+	stroke: currentColor;
 	stroke-width: 0.5;
-}
-
-.banner-bottom .banner__close:hover circle,
-.banner-bottom .banner__close:hover path {
-	stroke: #fff;
 }
 
 .banner-bottom .portal-banner {
@@ -184,11 +137,14 @@ body.bottom-banner {
 .banner-bottom .portal-banner-content-message h3 {
 	margin: 0 0 0.5em;
 	font-size: 26px;
+}
+
+.banner-bottom.banner--fonts1 .portal-banner-content-message h3 {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.banner-bottom.banner--with-fonts .portal-banner-content-message h3 {
-	font-family: Montserrat, Arial, Helvetica, sans-serif;
+.banner-bottom.banner--fonts2 .portal-banner-content-message h3 {
+	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .banner-bottom .portal-banner-content-message p {
@@ -308,18 +264,12 @@ body.bottom-banner {
 		padding: 15px;
 	}
 
-	.banner-bottom .banner__close-icon circle {
-		fill: transparent;
-		stroke: #36c;
+	.banner-bottom .banner__close {
+		color: #36c;
 	}
 
-	.banner-bottom .banner__close-icon:hover circle,
-	.banner-bottom .banner__close-icon:hover path {
-		stroke: #000;
-	}
-
-	.banner-bottom .banner__close-icon path {
-		stroke: #36c;
+	.banner-bottom .banner__close:hover {
+		color: #000;
 	}
 
 	.banner-bottom .portal-banner-content-message p {
