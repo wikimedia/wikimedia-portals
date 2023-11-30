@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chqaz",
 			"LaMagiaaa",
 			"MathXplore",
 			"MuratTheTurkish",
@@ -54,11 +55,12 @@
 		"name": "ウィキニュース",
 		"slogan": "フリーニュースサイト",
 		"entries": "記事",
-		"search-input-label": "ウィキニュースを検索"
+		"search-input-label": "ウィキニュースを検索",
+		"language-button-text": "あなたの言語でウィキニュースを読みませんか"
 	},
 	"wikiquote": {
 		"name": "ウィキクォート",
-		"slogan": "引用句集",
+		"slogan": "フリーな引用句集",
 		"entries": "記事",
 		"search-input-label": "ウィキクォートを検索",
 		"language-button-text": "あなたの言語でウィキクォートを読む"
@@ -71,13 +73,15 @@
 		"name": "ウィキバーシティ",
 		"slogan": "フリーな学習教材",
 		"entries": "学びに役立つ教材",
-		"search-input-label": "ウィキバーシティを検索"
+		"search-input-label": "ウィキバーシティを検索",
+		"language-button-text": "あなたの言語でウィキバーシティを読みませんか"
 	},
 	"wikivoyage": {
 		"name": "ウィキボヤージュ",
 		"slogan": "フリー旅行ガイド",
 		"entries": "ページ",
-		"search-input-label": "ウィキボヤージュで検索"
+		"search-input-label": "ウィキボヤージュで検索",
+		"language-button-text": "あなたの言語でウィキボヤージュを読みましょう"
 	},
 	"commons": {
 		"name": "コモンズ",
