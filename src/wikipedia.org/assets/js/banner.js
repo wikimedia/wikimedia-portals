@@ -13,7 +13,7 @@
 		bannerLang = 'en',
 		userLangs = wmTest.userLangs,
 		currentDate = new Date(),
-		hideBanner = /(hideWikipediaPortalBanner|centralnotice_hide_fundraising)/.test( document.cookie ),
+		hideBanner = /(hideWikipediaPortalBanner|centralnotice_hide_fundraising|centralauth_User)/.test( document.cookie ),
 		allBannerEls = document.querySelectorAll( '.banner' ),
 		bannerEl = allBannerEls[ Math.floor( Math.random() * allBannerEls.length ) ],
 		bannerCloseEl = bannerEl.querySelector( '.banner__close' ),
@@ -28,6 +28,7 @@
 			GB: '£2',
 			IE: '€2'
 		};
+
 	bannerCloseEl.addEventListener( 'click', function () {
 		// 30 day cookie
 		document.cookie = 'hideWikipediaPortalBanner=1; max-age=2592000; path=/; Secure';
@@ -36,19 +37,18 @@
 	bannerLinkEl.href = 'https://donate.wikimedia.org/?utm_medium=portal&utm_campaign=portalBanner';
 	bannerLinkEl.href += '&uselang=en';
 
-	bannerLinkEl.href += '&utm_source=' + bannerEl.id;
 	if ( Math.random() > 0.5 ) {
-		bannerEl.classList.add( 'banner--fonts1' );
-		bannerLinkEl.href += '_fonts1';
+		bannerLinkEl.href += '&appeal=Default';
+		bannerLinkEl.href += '&utm_source=' + bannerEl.id + '_appeal2023';
 	} else {
-		bannerEl.classList.add( 'banner--fonts2' );
-		bannerLinkEl.href += '_fonts2';
+		bannerLinkEl.href += '&appeal=2022';
+		bannerLinkEl.href += '&utm_source=' + bannerEl.id + '_appeal2022';
 	}
 
 	// Fundraise Up test
 	if ( country === 'US' ) {
 		if ( Math.random() > 0.5 ) {
-			bannerLinkEl.href += 'FRU&fundraiseupScript=1&form-template=FRU_US_4';
+			bannerLinkEl.href += 'FRU&country=US&fundraiseupScript=1&form-template=FRU_US_ButtonGroup';
 		} else {
 			bannerLinkEl.href += 'WikiForm&country=US&form-countryspecific=Form-countryspecific-firstAmt3&monthlyconvert=false';
 		}

@@ -64,14 +64,6 @@ body {
 	border: 0;
 	transform: none;
 	background-color: transparent;
-	font-family: Times, serif;
-}
-
-.banner-bottom.banner--fonts1 {
-	font-family: Times, serif;
-}
-
-.banner-bottom.banner--fonts2 {
 	font-family: 'Source Serif Pro', Georgia, Times, serif;
 }
 
@@ -137,13 +129,6 @@ body.bottom-banner {
 .banner-bottom .portal-banner-content-message h3 {
 	margin: 0 0 0.5em;
 	font-size: 26px;
-}
-
-.banner-bottom.banner--fonts1 .portal-banner-content-message h3 {
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-.banner-bottom.banner--fonts2 .portal-banner-content-message h3 {
 	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
