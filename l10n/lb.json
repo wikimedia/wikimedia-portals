@@ -9,7 +9,7 @@
 	"language-name": "Lëtzebuergesch",
 	"language-name-romanized-sorted": "Letzebuergesch",
 	"footer-donate": "Dir kënnt eis Aarbecht mat engem Don ënnerstëtzen.",
-	"license": "Dës Säit ass disponibel ënner der <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike Lizenz</a>",
+	"license": "Dës Säit ass disponibel ënnert der <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative-Commons-Attribution-ShareAlike-Lizenz</a>",
 	"terms": "Benotzungs-Bedingungen",
 	"privacy-policy": "Dateschutz",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/lb",
@@ -84,6 +84,10 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Fräi Lëscht vun den Aarten"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions",
+		"slogan": "Fräi Bibliothéik vu Funktiounen"
 	},
 	"wikidata": {
 		"name": "Wikidata",
