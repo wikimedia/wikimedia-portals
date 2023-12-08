@@ -13,7 +13,7 @@
 		bannerLang = 'en',
 		userLangs = wmTest.userLangs,
 		currentDate = new Date(),
-		hideBanner = /(hideWikipediaPortalBanner|centralnotice_hide_fundraising|centralauth_User)/.test( document.cookie ),
+		hideBanner = /(hideWikipediaPortalBanner|centralnotice_hide_fundraising)/.test( document.cookie ),
 		allBannerEls = document.querySelectorAll( '.banner' ),
 		bannerEl = allBannerEls[ Math.floor( Math.random() * allBannerEls.length ) ],
 		bannerCloseEl = bannerEl.querySelector( '.banner__close' ),
@@ -38,8 +38,8 @@
 	bannerLinkEl.href += '&uselang=en';
 
 	if ( Math.random() > 0.5 ) {
-		bannerLinkEl.href += '&appeal=Default';
-		bannerLinkEl.href += '&utm_source=' + bannerEl.id + '_appeal2023';
+		bannerLinkEl.href += '&appeal=2023withAnchors';
+		bannerLinkEl.href += '&utm_source=' + bannerEl.id + '_appeal2023a';
 	} else {
 		bannerLinkEl.href += '&appeal=2022';
 		bannerLinkEl.href += '&utm_source=' + bannerEl.id + '_appeal2022';
@@ -48,7 +48,7 @@
 	// Fundraise Up test
 	if ( country === 'US' ) {
 		if ( Math.random() > 0.5 ) {
-			bannerLinkEl.href += 'FRU&country=US&fundraiseupScript=1&form-template=FRU_US_ButtonGroup';
+			bannerLinkEl.href += 'FRU&country=US&fundraiseupScript=1&form-template=FRU_US_PortalTest4';
 		} else {
 			bannerLinkEl.href += 'WikiForm&country=US&form-countryspecific=Form-countryspecific-firstAmt3&monthlyconvert=false';
 		}
