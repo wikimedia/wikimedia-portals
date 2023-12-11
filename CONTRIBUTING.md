@@ -14,14 +14,14 @@ Prerequisites:
 
 - Node
 - npm
+- nvm
 
 From the root of the repo, run:
 
 ```
-npm install                       # install dependancies
-gulp update-stats                 # update portal stats
-gulp watch --portal=wikipedia.org # watch src directory for changes
-python3 -m http.server 8080       # start a dev server
+nvm use                                 # use correct node version
+npm install                             # install dependancies
+npm run start --portal=wikipedia.org    # update portal stats, start dev server
 ```
 
 Visit `http://localhost:8080/src/wikipedia.org` to see the changes in the `src` directory.
