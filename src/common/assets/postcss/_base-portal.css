@@ -8,6 +8,10 @@ body {
 	margin: 0.4rem 0 1.6rem;
 }
 
+main {
+	padding: 0 1.28rem;
+}
+
 a {
 	touch-action: manipulation;
 }
@@ -39,5 +43,5 @@ hr {
 	height: 0;
 	border: 0;
 	border-bottom: var( --border-subtle );
-	margin: 0.26rem 1.3rem;
+	margin: 0.26rem 0;
 }

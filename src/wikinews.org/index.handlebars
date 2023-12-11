@@ -23,16 +23,18 @@
 
 <body id="www-wikinews-org">
 
-{{> header-logo}}
+<main>
+    {{> header-logo}}
+    
+    {{> top10}}
+    
+    {{! Search form }}
+    {{> search}}
+    
+    {{> language-list }}
 
-{{> top10}}
-
-{{! Search form }}
-{{> search}}
-
-{{> language-list }}
-
-{{> divider}}
+    {{> divider}}
+</main>
 
 {{> footer}}
 

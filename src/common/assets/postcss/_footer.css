@@ -96,6 +96,18 @@
 		order: 3;
 	}
 
+	.footer hr {
+		-webkit-box-ordinal-group: 4;
+		-moz-box-ordinal-group: 4;
+		order: 4;
+	}
+
+	.footer .site-license {
+		-webkit-box-ordinal-group: 5;
+		-moz-box-ordinal-group: 5;
+		order: 5;
+	}
+
 	.footer-sidebar {
 		width: 100%;
 	}
