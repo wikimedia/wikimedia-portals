@@ -86,6 +86,9 @@
 		"name": "위키생물종",
 		"slogan": "열린 생물종 사전"
 	},
+	"wikifunctions": {
+		"name": "위키함수"
+	},
 	"wikidata": {
 		"name": "위키데이터",
 		"slogan": "자유 지식 베이스"
