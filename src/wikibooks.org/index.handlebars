@@ -8,7 +8,6 @@
 <script>
     document.documentElement.className = document.documentElement.className.replace( /(^|\s)no-js(\s|$)/, "$1js-enabled$2" );
 </script>
-<!--[if lt IE 7]><meta http-equiv="imagetoolbar" content="no"><![endif]-->
 <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
 
 <link rel="apple-touch-icon" href="/static/apple-touch/wikibooks.png">
@@ -110,42 +109,15 @@
 
 <!-- endbuild -->
 
-
-{{!
-This comment is read by all browsers and IE greater than 9.
-Note, that conditional comments support got removed in IE 10+.
-Hence all IEs not parsing conditional comments any more will load script.
-}}
-<!--[if gt IE 9]><!-->
 <!-- build:js assets/js/gt-ie9.js -->
 <script src="../common/assets/js/search-language-picker.js"></script>
 <!-- endbuild -->
-<!--<![endif]-->
 
-{{!
-This comment is read by all browsers and IE less than or equal to 9.
-}}
-<!--[if lte IE 9]><!-->
 <style>
     .styled-select {
         display: block;
     }
 </style>
-<!--<![endif]-->
 
-{{!
-This comment is read only by IE less than or equal to 9.
-}}
-<!--[if lte IE 9]>
-<style>
-    .langlist > ul {
-        text-align: center;
-    }
-    .langlist > ul > li {
-        display: inline;
-        padding: 0 0.5em;
-    }
-</style>
-<![endif]-->
 </body>
 </html>

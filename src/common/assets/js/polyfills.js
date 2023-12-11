@@ -1,29 +1,6 @@
 /* eslint-disable */
 
 /**
- * Polyfills for IE8 and under
- * code taken from https://developer.mozilla.org/ is dedicated to the Public Domain:
- * https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses
- */
-
-/**
- * Element.matches polyfill
- * https://developer.mozilla.org/en-US/docs/Web/API/Element/matches
- */
-if ( window.Element && !Element.prototype.matches ) {
-
-	Element.prototype.matches = function matches( selector ) {
-		var matches = ( this.document || this.ownerDocument ).querySelectorAll( selector ),
-			i = matches.length;
-		while ( --i >= 0 && matches.item(i) !== this ) ;
-		return i > -1;
-	};
-}
-
-window.attachedEvents = [];
-
-
-/**
  * Queues the given function to be called once the DOM has finished loading.
  *
  * Based on jquery/src/core/ready.js@825ac37 (MIT licensed)
@@ -86,20 +63,6 @@ function getDevicePixelRatio () {
 		// * Opera
 		// * Firefox 18+
 		return window.devicePixelRatio;
-	} else if ( window.msMatchMedia !== undefined ) {
-		// Windows 8 desktops / tablets, probably Windows Phone 8
-		//
-		// IE 10 doesn't report pixel ratio directly, but we can get the
-		// screen DPI and divide by 96. We'll bracket to [1, 1.5, 2.0] for
-		// simplicity, but you may get different values depending on zoom
-		// factor, size of screen and orientation in Metro IE.
-		if ( window.msMatchMedia( '(min-resolution: 192dpi)' ).matches ) {
-			return 2;
-		} else if ( window.msMatchMedia( '(min-resolution: 144dpi)' ).matches ) {
-			return 1.5;
-		} else {
-			return 1;
-		}
 	} else {
 		// Legacy browsers...
 		// Assume 1 if unknown.
