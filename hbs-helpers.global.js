@@ -77,26 +77,10 @@ helpers.eq = function ( a, b, options ) {
 };
 
 /**
- * Converts the number into a string and adds a space to separate each group of
- * 3 digits.
- *
- * Inspired from http://stackoverflow.com/a/2254896
- *
- * @param {number} number
- * @return {string}
- * @private
- */
-function thousandFloor( number ) {
-	return number.toString().replace( /(\d)(?=(\d{3})+(?!\d))/g, '$1 ' );
-}
-
-/**
  *
  * @param {number} number
  * @param {Object} options Handlebars options object.
  * @param {Object} options.hash
- * @param {boolean} [options.hash.thousandSeparator=false] Numbers are run through
- *  {@link #thousandFloor}.
  * @param {boolean} [options.hash.rounded=false] Rounds numbers downwards to
  *  the nearest power of ten, up to a thousand.
  * @param {boolean} [options.hash.nbsp=false] The separating space is replaced by
@@ -112,12 +96,7 @@ helpers.formatNumber = function ( number, options ) {
 
 		number = Math.floor( number / powerOfTen ) * powerOfTen;
 	}
-	if ( options.hash.thousandSeparator ) {
-		number = thousandFloor( number );
-	}
-	if ( options.hash.nbsp ) {
-		number = number.toString().split( ' ' ).join( '&nbsp;' );
-	}
+	number = number.toLocaleString();
 	return new Handlebars.SafeString( number );
 };
 
