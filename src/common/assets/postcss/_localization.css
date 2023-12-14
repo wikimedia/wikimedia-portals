@@ -8,10 +8,10 @@
 
 .js-enabled .jsl10n,
 .js-enabled .central-featured {
-	visibility: hidden;
+	opacity: 0;
 }
 
 .jsl10n-visible .jsl10n,
 .jsl10n-visible .central-featured {
-	visibility: visible;
+	opacity: 1;
 }
