@@ -1,13 +1,13 @@
-{{> language-list-button }}
+<nav data-jsl10n="all-languages-nav-label" aria-label="{{l10n.all-languages-nav-label}}">
+  {{> language-list-button }}
 
-<div class="lang-list-border"></div>
+  <div class="lang-list-border"></div>
 
-<div class="lang-list-container">
-
+  <div class="lang-list-container">
     <div id="js-lang-lists" class="lang-list-content">
-        {{> top-n-articles}}
-        {{! Other languages }}
-        {{> other-languages}}
+      {{> top-n-articles}}
+      {{! Other languages }}
+      {{> other-languages}}
     </div>
-
-</div>
+  </div>
+</nav>

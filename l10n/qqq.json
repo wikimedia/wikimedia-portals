@@ -23,6 +23,9 @@
 	"privacy-policy-link": "{{Optional}}\n\nThe URL of the translated Privacy policy page. Like <code><nowiki>https://meta.wikimedia.org/wiki/Privacy_policy/</nowiki>{{UILANGCODE}}</code> but be certain that a translation exists.",
 	"search-input-button": "Label for search button\n{{Identical|Search}}",
 	"other-languages-label": "The label of the link to a list of all Wikipedia: [[Special:MyLanguage/List_of_Wikipedias|List of Wikipedias]]",
+	"top-ten-nav-label": "The label for the nav landmark containing the top ten languages for a project",
+	"all-languages-nav-label": "The label for the nav landmark containing all the languages for a project",
+	"other-projects-nav-label": "The label for the nav landmark containing other wikimedia projects",
 	"wiki": {
 		"name": "Label for Wikipedia\n{{Identical|Wikipedia}}\n{{Related|Portals.name}}",
 		"slogan": "The Wikipedia slogan",
