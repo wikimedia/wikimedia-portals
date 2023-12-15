@@ -286,3 +286,8 @@ body.bottom-banner {
 		display: none;
 	}
 }
+
+.banner--txt1 .txt2,
+.banner--txt2 .txt1 {
+	display: none;
+}

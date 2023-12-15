@@ -19,15 +19,29 @@
 		bannerCloseEl = bannerEl.querySelector( '.banner__close' ),
 		bannerLinkEl = bannerEl.querySelector( 'a' ),
 		bannerVisibleClass = 'banner--visible',
-		bannerAmountEl = bannerEl.querySelector( '.banner__amount' ),
-		bannerAmounts = {
-			US: '$3',
-			CA: '$3',
-			AU: '$3',
-			NZ: '$3',
-			GB: '£2',
-			IE: '€2'
-		};
+		bannerReplacements = [
+			{ selector: '.banner__amount1', US: '$2.75', CA: '$2.75', AU: '$2.75', NZ: '$2.75', GB: '£2', IE: '€2' },
+			{ selector: '.banner__amount2', US: '$25', CA: '$25', AU: '$25', NZ: '$25', GB: '£25', IE: '€25' },
+			{
+				selector: '.banner__country',
+				US: 'the United States',
+				CA: 'Canada',
+				AU: 'Australia',
+				NZ: 'New Zealand',
+				GB: 'the UK',
+				IE: 'Ireland'
+			}
+		];
+
+	for ( var i = 0; i < bannerReplacements.length; i++ ) {
+		var replacedElements = document.querySelectorAll( bannerReplacements[ i ].selector );
+		for ( var j = 0; j < replacedElements.length; j++ ) {
+			var element = replacedElements[ j ];
+			if ( bannerReplacements[ i ][ country ] ) {
+				element.innerHTML = bannerReplacements[ i ][ country ];
+			}
+		}
+	}
 
 	bannerCloseEl.addEventListener( 'click', function () {
 		// 30 day cookie
@@ -38,26 +52,14 @@
 	bannerLinkEl.href += '&uselang=en';
 
 	if ( Math.random() > 0.5 ) {
-		bannerLinkEl.href += '&appeal=2023withAnchors';
-		bannerLinkEl.href += '&utm_source=' + bannerEl.id + '_appeal2023a';
+		bannerEl.classList.add( 'banner--txt1' );
+		bannerLinkEl.href += '&utm_source=' + bannerEl.id + '_txt1';
 	} else {
-		bannerLinkEl.href += '&appeal=2022';
-		bannerLinkEl.href += '&utm_source=' + bannerEl.id + '_appeal2022';
-	}
-
-	// Fundraise Up test
-	if ( country === 'US' ) {
-		if ( Math.random() > 0.5 ) {
-			bannerLinkEl.href += 'FRU&country=US&fundraiseupScript=1&form-template=FRU_US_PortalTest4';
-		} else {
-			bannerLinkEl.href += 'WikiForm&country=US&form-countryspecific=Form-countryspecific-firstAmt3&monthlyconvert=false';
-		}
+		bannerEl.classList.add( 'banner--txt2' );
+		bannerLinkEl.href += '&utm_source=' + bannerEl.id + '_txt2';
 	}
 
 	bannerLinkEl.target = '_blank';
-	if ( bannerAmounts[ country ] ) {
-		bannerAmountEl.innerHTML = bannerAmounts[ country ];
-	}
 	if ( !hideBanner &&
 		country &&
 		bannerCountries.indexOf( country ) > -1 &&
