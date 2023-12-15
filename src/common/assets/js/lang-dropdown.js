@@ -19,9 +19,11 @@
 		if ( / lang-list-active /g.test( document.body.className ) ) {
 			document.body.className = document.body.className.replace( ' lang-list-active ', '' );
 			mw.storage.set( 'lang-list-active', 'false' );
+			langButton.setAttribute( 'aria-expanded', false );
 		} else {
 			document.body.className += ' lang-list-active ';
 			mw.storage.set( 'lang-list-active', 'true' );
+			langButton.setAttribute( 'aria-expanded', true );
 		}
 	}
 
