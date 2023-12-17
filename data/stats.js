@@ -3,8 +3,84 @@ var siteStats = require( './site-stats.json' ),
 	fs = require( 'fs' ),
 	_ = require( 'underscore' ),
 	merge = require( 'deepmerge' ),
+	languageData = require( '@wikimedia/language-data' ),
+	/** @type {Set.<string>} Languages for which language name warnings have already been issued */
+	warnedLanguages = new Set(),
 	Stats = {},
 	siteDefs;
+
+/**
+ * Determine whether there is a notable difference between two names
+ * for the same language. `<bdi>` wrapping and upper-case first letter
+ * in the site definition are ignored.
+ * @param {string} a Name in the site definition
+ * @param {string} b Name in `language-data`
+ * @returns {boolean} Whether the names differ
+ */
+function languageNamesDiffer( a, b ) {
+	if ( a === b ) {
+		// Fast path
+		return false;
+	}
+	a = a.replace( /^<bdi dir="rtl">(.*)<\/bdi>$/, '$1' );
+	b = b.replace( /^./, char => char.toUpperCase() );
+	return a !== b;
+}
+
+/**
+ * Print a warning to the console.
+ * @param {string} code Language code, to avoid printing the warning if
+ *  it has already been printed
+ * @param {string} text
+ * @param {boolean} [info=false] Whether the message is only informational
+ *  (as opposed to a warning)
+ */
+function warn( code, text, info ) {
+	if ( !warnedLanguages.has( code ) ) {
+		console.log( ( info ? '\x1b[34mInfo' : '\x1b[33mWarning' ) + ':\x1b[0m %s', text );
+		warnedLanguages.add( code );
+	}
+}
+
+/**
+ * Get the different names for a language, primarily from `siteDefs`,
+ * falling back to `language-data`.
+ * @param {string} code Code of the language
+ * @returns {{name: string, sort?: string, latin?: string}}
+ */
+function getLanguageName( code ) {
+	var siteDef = siteDefs[ code ],
+		languageDataAutonym = languageData.getAutonym( code );
+	if ( siteDef ) {
+		var name = siteDef[ 'language-name' ],
+			names = { name: name || languageDataAutonym };
+		if ( !name ) {
+			warn(
+				code,
+				`No 'language-name' for ${code}, using the one from @wikimedia/language-data (${languageDataAutonym})`
+			);
+		} else if ( languageNamesDiffer( name, languageDataAutonym ) ) {
+			warn(
+				code,
+				`'language-name' for ${code} (${name}) differs from the one from @wikimedia/language-data (${languageDataAutonym})`,
+				true
+			);
+		}
+		if ( siteDef[ 'language-name-romanized-sorted' ] ) {
+			names.sort = siteDef[ 'language-name-romanized-sorted' ];
+		}
+		if ( siteDef[ 'language-name-romanized' ] ) {
+			names.latin = siteDef[ 'language-name-romanized' ];
+		}
+		return names;
+	} else {
+		warn(
+			code,
+			`No siteDef for ${code}, using name from @wikimedia/language-data (${languageDataAutonym})`
+		);
+		return { name: languageDataAutonym };
+	}
+}
 
 Stats.readi18nFiles = function ( dirname ) {
 	var siteDefinitions = {},
@@ -52,7 +128,7 @@ Stats.getTop = function ( portal, criteria, n ) {
 		var siteDef = siteDefs[ key ],
 			portalDef = siteDef && siteDef[ portal ];
 		stats.code = key;
-		return siteDef && siteDef[ 'language-name' ] && portalDef;
+		return siteDef && portalDef;
 	} );
 
 	// Sort
@@ -89,9 +165,6 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 	// Validate
 	var list = _.filter( siteStats[ portal ], function ( stats, code ) {
 		var isInRange;
-		if ( !siteDefs[ code ] || !siteDefs[ code ][ 'language-name' ] ) {
-			return false;
-		}
 
 		stats.code = code;
 		isInRange = stats[ criteria ] >= from &&
@@ -102,8 +175,10 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 
 	// Sort alphabetically
 	list.sort( function ( a, b ) {
-		var asort = siteDefs[ a.code ][ 'language-name-romanized-sorted' ] || siteDefs[ a.code ][ 'language-name-romanized' ] || siteDefs[ a.code ][ 'language-name' ],
-			bsort = siteDefs[ b.code ][ 'language-name-romanized-sorted' ] || siteDefs[ b.code ][ 'language-name-romanized' ] || siteDefs[ b.code ][ 'language-name' ];
+		var aName = getLanguageName( a.code ),
+			bName = getLanguageName( b.code ),
+			asort = aName.sort || aName.latin || aName.name,
+			bsort = bName.sort || bName.latin || bName.name;
 
 		asort = asort.toLowerCase();
 		bsort = bsort.toLowerCase();
@@ -200,7 +275,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 		var stats = siteStats[ portal ][ top.code ],
 			siteDef = siteDefs[ top.code ],
 			portalDef = siteDef && siteDef[ portal ],
-			formatted = _.extend( {}, stats, portalDef ),
+			formatted = _.extend( {}, stats, portalDef, getLanguageName( top.code ) ),
 			extendedl10n = [
 				'language-button-text',
 				'footer-description',
@@ -228,17 +303,10 @@ Stats.format = function ( portal, list, optionsArg ) {
 			nonStandardCode;
 
 		formatted.index = ++index;
-		formatted.name = siteDef[ 'language-name' ];
 		formatted.siteName = ( portalDef && portalDef.name ) ? portalDef.name : siteDefs.en.name;
-		formatted.lang = siteDef.lang || formatted.code;
+		formatted.lang = siteDef?.lang || formatted.code;
 
-		if ( siteDef[ 'language-name-romanized-sorted' ] ) {
-			formatted.sort = siteDef[ 'language-name-romanized-sorted' ];
-		}
-		if ( siteDef[ 'language-name-romanized' ] ) {
-			formatted.latin = siteDef[ 'language-name-romanized' ];
-		}
-		if ( siteDef.attrs ) {
+		if ( siteDef?.attrs ) {
 			formatted.attrs = siteDef.attrs;
 		}
 
@@ -268,9 +336,11 @@ Stats.format = function ( portal, list, optionsArg ) {
 			};
 		}
 
-		extendedl10n.forEach( function ( prop ) {
-			formatted[ prop ] = siteDef[ prop ];
-		} );
+		if ( siteDef ) {
+			extendedl10n.forEach( function ( prop ) {
+				formatted[ prop ] = siteDef[ prop ];
+			} );
+		}
 
 		if ( options.stripTags ) {
 			// http://stackoverflow.com/a/5002161
