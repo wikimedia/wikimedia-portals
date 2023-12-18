@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Antho201723",
 			"Jumpy01",
 			"Jun Misugi"
 		]
 	},
 	"language-name": "Corsu",
-	"footer-donate": "Pói sustene u nostru travàgliu cù una dunazione.",
-	"terms": "Clause d'usu",
-	"search-input-button": "Ricerca",
+	"footer-donate": "Poi sustene u nostru travagliu cù una dunazione.",
+	"terms": "Termini d'usu",
+	"search-input-button": "Circà",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Enciclopedia libera",
@@ -17,7 +18,7 @@
 	},
 	"wiktionary": {
 		"name": "Wikiziunariu",
-		"slogan": "Dizziunàriu lìbaru",
+		"slogan": "Dizziunariu lìbaru",
 		"entries": "entrate"
 	},
 	"wikibooks": {
