@@ -4,28 +4,29 @@
 			"Amire80",
 			"Joachim Yirkang",
 			"Kuukye",
+			"Linus Konkor",
 			"Zakaria Tunsung"
 		]
 	},
 	"language-name": "Dagaare",
-	"footer-donate": "Fo na baŋ soŋ la a te Toma ŋa ane libiri fee",
-	"license": "A gampɛle ŋa be la a wuli zie ŋa poɔ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
-	"terms": "Yelbie naŋ na de toŋ ne toma",
-	"privacy-policy": "Gondo yɛlwaanoo",
-	"search-input-button": "Bɔ",
+	"footer-donate": "Fo na baŋ teɛ la te toma ne kyeɛra.",
+	"license": "A peegyi ŋa be la a puli kyɛ <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Yelsɛgere biŋ sagere",
+	"privacy-policy": "Sɔgl-meŋɛ yelnyɔgere",
+	"search-input-button": "Weɛre bɔ",
 	"other-languages-label": "Kɔkɔ yobo",
 	"wiki": {
 		"name": "Wikipiideɛ",
-		"slogan": "Duori mɔlɔ bɔzie",
-		"entries": "Aketele",
-		"search-input-label": "Bɔ wikipiidia",
-		"language-button-text": "Kanne Wikipiidia fo kɔkɔreŋ",
-		"footer-description": "Wikipiideɛ die kpoŋ waa la a Wikipiideɛ Foundation, toŋtonzie ŋa naŋ tona zagelaa toma kyɛ la waa die kpoŋ biŋne zaala toŋtoneba mine meŋ toŋtonɔɛ.",
+		"slogan": "A yɛŋ duor-zaala zie",
+		"entries": "Atekele",
+		"search-input-label": "Weɛre wikipiidia",
+		"language-button-text": "Kanne Wikipiidia fo kɔkɔre poɔ",
+		"footer-description": "Wikipiideɛ Foundation la kaara Wikipiideɛ, toŋtonzie ŋa naŋ tona zagelaa toma meŋ naŋ la kaara toŋyobo toma naŋ be vuo kaŋa.",
 		"app-links": {
-			"title": "Daaloodi Android bee i0S Wikipiideɛ",
-			"description": "Seebi fo aketelehi ka a be zie fo naŋ na baŋ kanne ka a ba be a entɛnɛte poɔ, fo na baŋ daŋ la fo kanne bonne a yi kanneboma yaga poɔŋ kyɛ la baŋ maale fo kannebo a yi a Ɔɔfiseɛle Wikipiidia app ŋa eŋaŋ.",
-			"google-store": "Gɔɔgile apere nyezie",
-			"apple-store": "Apple App zagekpoŋ",
+			"title": "Danloodi wikipiideɛ ko Android bee i0S",
+			"description": "Biŋ fo atekele boɔre na kanne ba-be-saseɛŋ, fo na baŋ e la ka fo kannoo pɛll kpɛ kanneboma yaga poɔ kyɛ maale fo dannyaabo kannoo ne a Wikipiidia app kpoŋ.",
+			"google-store": "Gɔgoll Pilee dazie",
+			"apple-store": "Apɔll App dazie",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
@@ -33,70 +34,70 @@
 		"name": "Wikiyebie doge",
 		"slogan": "Disinaare zagelaa",
 		"entries": "Boŋ enne",
-		"search-input-label": "Bɔ Wiknaare",
-		"language-button-text": "Kanne Wiknaare fo kɔkɔre poɔŋ"
+		"search-input-label": "Weɛre Wiknaare",
+		"language-button-text": "Kanne Wiknaare fo kɔkɔre poɔ"
 	},
 	"wikibooks": {
 		"name": "Wikigama",
-		"slogan": "Game weɛlɛ",
-		"entries": "Gampɛlɛ",
-		"search-input-label": "Bɔ wikigama",
-		"language-button-text": "Kanne wikigama fo kɔkɔreŋ"
+		"slogan": "Zaala gan-kanne",
+		"entries": "Peegyiri",
+		"search-input-label": "Weɛre wikigama",
+		"language-button-text": "Kanne wikigama fo kɔkɔre poɔ"
 	},
 	"wikinews": {
 		"name": "Wikiduorisaama",
-		"slogan": "Duosaama weɛlɛ yizie",
-		"entries": "aketele",
-		"search-input-label": "Bɔ wikiduosaama",
-		"language-button-text": "Kanne wikiduasaama a fo kɔkɔreŋ"
+		"slogan": "Zaala duorisaama yizie",
+		"entries": "Atekele",
+		"search-input-label": "Weɛre wikiduorisaama",
+		"language-button-text": "Kanne wikiduorisaama fo kɔkɔre poɔ"
 	},
 	"wikiquote": {
-		"name": "Wikinɔyelli",
-		"slogan": "Zagekpoŋ ŋa naŋ taa noba nɔɛ yɛlyaga Zagelaa",
-		"entries": "Yelyaga",
-		"search-input-label": "Bɔ wikinɔyelli",
-		"language-button-text": "Kanne wikinɔyelli a fo kɔkɔreŋ"
+		"name": "Wikiquote",
+		"slogan": "Yɛŋkyoɔre zaala gyeremɛ tere",
+		"entries": "Atekele",
+		"search-input-label": "Weɛre wikiquote",
+		"language-button-text": "Kanne wikiquote fo kɔkɔre poɔ"
 	},
 	"wikisource": {
-		"name": "Wikiyizie",
-		"slogan": "Gama nyezi Weɛlɛ"
+		"name": "Wikisource",
+		"slogan": "Zaala gama-die"
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
-		"slogan": "Kannebo boma zagelaa",
-		"entries": "Zannoo boma",
-		"search-input-label": "Bɔ wikiversity",
-		"language-button-text": "Kanne wikiversity fo kɔkɔreŋ"
+		"slogan": "Zaala kɔnɔ-zannaa bomma",
+		"entries": "Zannoo bomma",
+		"search-input-label": "Weɛre wikiversity",
+		"language-button-text": "Kanne wikiversity fo kɔkɔre poɔ"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Sori tuubu bonmanewulla weɛlɛ",
-		"entries": "Vori",
-		"search-input-label": "Bɔ Wikivoyage",
-		"language-button-text": "Kanne Wikivoyage fo kɔkɔre poɔŋ"
+		"slogan": "Zaala sori tuubo bonde-guuraa",
+		"entries": "Peegyiri",
+		"search-input-label": "Weɛre Wikivoyage",
+		"language-button-text": "Kanne Wikivoyage fo kɔkɔre poɔ"
 	},
 	"commons": {
 		"name": "Yitaaloŋ",
-		"slogan": "Fotori fo naŋ na baŋ de weɛle ane amine"
+		"slogan": "Zaala lɛ de tonne fotori & amine"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
-		"slogan": "Zagelaa Disinaare gbulo mine"
+		"slogan": "Zaala yitaaloŋ dagawuli"
 	},
 	"wikifunctions": {
-		"name": "Wiki tɔna",
-		"slogan": "Gama kannedie Zagelaa naŋ tona"
+		"name": "Wikitontonne",
+		"slogan": "Zaala gandie tonaa"
 	},
 	"wikidata": {
-		"name": "Wiki yelnyarre",
-		"slogan": "Yɛŋ weɛlɛ bezie"
+		"name": "Wikidata",
+		"slogan": "Zaala yɛŋ zie"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Zagelaa & Yuo wiki apilikeesiŋ"
+		"slogan": "Zaala & wiki yuoraa apilikeesiŋ"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Te laŋkpeɛbo lammo and segebimmo"
+		"slogan": "Yiri laŋkpeɛbo lammo & segebimmo"
 	}
 }
