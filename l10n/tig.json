@@ -1,9 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Bbeshir"
 		]
 	},
 	"language-name": "ትግራይት‎",
-	"language-name-romanized": "Tigrayit"
+	"language-name-romanized": "Tigrayit",
+	"search-input-button": "ሕዘው",
+	"other-languages-label": "ብዕድ ሉቃት",
+	"wiki": {
+		"name": "ዊኪፐድያ",
+		"search-input-label": "ዲብ ዊኪፐድያ ሕዘው",
+		"language-button-text": "ዊኪፐድያ እብ ሉቀትኩም ቅርኦ",
+		"app-links": {
+			"google-store": "ጉግል ፕለይ ስቶር",
+			"apple-store": "ኣፕል ኣፕ ስቶር"
+		}
+	},
+	"wiktionary": {
+		"name": "ውክሾነሪ",
+		"search-input-label": "ዲብ ውክሾነሪ ሕዝው",
+		"language-button-text": "ዊኪፐድያ እብ ሉቀትኩም ቅርኦ"
+	},
+	"wikibooks": {
+		"name": "ዊኪቡክስ",
+		"search-input-label": "ዲብ ዊኪቡክስ ሕዛው",
+		"language-button-text": "ዊኪፐድያ እብ ሉቀትኩም ቅርኦ"
+	}
 }
