@@ -1,0 +1,70 @@
+{
+	"@metadata": {
+		"authors": [
+			"Histnou"
+		]
+	},
+	"footer-donate": "Ou pé sipòte travay an-nou èvè on don.",
+	"search-input-button": "Chèché",
+	"other-languages-label": "Sé lézòt lang-la",
+	"wiki": {
+		"name": "Wikipédya",
+		"slogan": "Ansiklopédi lib-la",
+		"entries": "awtik",
+		"search-input-label": "Chèché asi wikipédya",
+		"language-button-text": "Li Wikipédya adan lang a-w",
+		"app-links": {
+			"title": "Téléchajé Wikipédya pou Android oben iOS",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiksyonnè",
+		"slogan": "diksyonnè lib-la"
+	},
+	"wikibooks": {
+		"name": "Wikiliv",
+		"slogan": "Tèks pédagojik lib",
+		"entries": "paj",
+		"search-input-label": "Chèche si Wikiliv",
+		"language-button-text": "Li Wikiliv adan lang a-w"
+	},
+	"wikinews": {
+		"name": "Wikinouvèl",
+		"entries": "awtik",
+		"search-input-label": "Chèché asi wikinouvèl",
+		"language-button-text": "Li Wikinouvèl adan lang a-w"
+	},
+	"wikiquote": {
+		"name": "Wikisitasyon",
+		"entries": "awtik",
+		"search-input-label": "Chèche asi Wikisitasyon",
+		"language-button-text": "Li Wikisitasyon adan lang a-w"
+	},
+	"wikisource": {
+		"name": "Wikichouk",
+		"slogan": "Bibliyotèk lib"
+	},
+	"wikiversity": {
+		"name": "Wikivèsité",
+		"entries": "Wousous pou aprantisaj",
+		"search-input-label": "Chèché adan Wikivèsité",
+		"language-button-text": "Li Wikivèsité adan lang a-w"
+	},
+	"wikivoyage": {
+		"name": "Wikivwayaj",
+		"entries": "paj",
+		"search-input-label": "Chèché adan Wikivwayaj",
+		"language-button-text": "Li Wikivwayaj adan lang a-w"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikidata": {
+		"name": "Wikidata"
+	},
+	"metawiki": {
+		"name": "Méta-Wiki"
+	}
+}
