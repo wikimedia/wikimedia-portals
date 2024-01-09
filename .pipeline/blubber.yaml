@@ -3,8 +3,8 @@ base: docker-registry.wikimedia.org/httpd
 
 variants:
   build:
-    base: docker-registry.wikimedia.org/nodejs12-devel
-    apt: {packages: [git, python, pkg-config, build-essential, libpng-dev, libfreetype6, libfontconfig]}
+    base: docker-registry.wikimedia.org/nodejs18-devel
+    apt: {packages: [git, python3, pkg-config, build-essential, libpng-dev, libfreetype6, libfontconfig]}
     node: {requirements: [package.json, package-lock.json]}
   test:
     includes: [build]
