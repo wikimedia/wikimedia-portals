@@ -10,6 +10,7 @@
 			"Meno25",
 			"Mido",
 			"Minh Nguyen",
+			"Sandra Hanbo",
 			"بدارين",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
@@ -94,6 +95,10 @@
 	"wikispecies": {
 		"name": "ويكي الأنواع",
 		"slogan": "دليل الأنواع الحر"
+	},
+	"wikifunctions": {
+		"name": "ويكي الدوال",
+		"slogan": "مكتبة الدوال المجانية"
 	},
 	"wikidata": {
 		"name": "ويكي بيانات",
