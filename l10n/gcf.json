@@ -21,7 +21,8 @@
 	},
 	"wiktionary": {
 		"name": "Wiksyonnè",
-		"slogan": "diksyonnè lib-la"
+		"slogan": "diksyonnè lib-la",
+		"language-button-text": "Li Wiksyonnè adan lang a-w"
 	},
 	"wikibooks": {
 		"name": "Wikiliv",
@@ -63,6 +64,9 @@
 	},
 	"wikidata": {
 		"name": "Wikidata"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
 	},
 	"metawiki": {
 		"name": "Méta-Wiki"
