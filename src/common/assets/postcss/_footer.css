@@ -4,7 +4,7 @@
 	overflow: hidden;
 	max-width: 100%;
 	margin: 0 auto;
-	padding: 4.16rem 1.28rem 1.28rem;
+	padding: 4.16rem 1.28rem 0;
 	font-size: 1.3rem;
 }
 
@@ -62,6 +62,10 @@
 
 .site-license small:last-child:after {
 	display: none;
+}
+
+.footer hr {
+	margin-top: 1.28rem;
 }
 
 @media screen and ( max-width: 768px ) {
