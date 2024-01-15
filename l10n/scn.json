@@ -6,6 +6,8 @@
 	},
 	"language-name": "Sicilianu",
 	"language-name-romanized-sorted": "Sicilianu",
+	"footer-donate": "Poi sustèniri lu nostru travagghiu c'una dunazzioni.",
+	"license": "Sta pàggina è dispunìbbili sutta â a href='https://creativecommons.org/licenses/by-sa/4.0/'>licenzia Creative Commons Attribbuzzioni-Cunnividi ô stissu modu</a>",
 	"terms": "Cunnizzioni d'usu",
 	"privacy-policy": "Pulìtica supra la privacy",
 	"search-input-button": "Arricerca",
@@ -32,32 +34,38 @@
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
+		"slogan": "Manuali e libbra di testu lìbbiri",
 		"entries": "pàggini",
 		"search-input-label": "Arricerca supra Wikibooks",
 		"language-button-text": "Leggi Wikibooks ntâ tò lingua"
 	},
 	"wikinews": {
 		"name": "Wikinutizzi",
+		"slogan": "La fonti di nutìzzi lìbbiri",
 		"entries": "vuci",
 		"search-input-label": "Arricerca supra Wikinews",
 		"language-button-text": "Leggi Wikinews ntâ tò lingua"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
+		"slogan": "Afurismi e citazzioni",
 		"entries": "vuci",
 		"search-input-label": "Arricerca supra Wikiquote",
 		"language-button-text": "Leggi Wikiquote ntâ tò lingua"
 	},
 	"wikisource": {
-		"name": "Wikisource"
+		"name": "Wikisource",
+		"slogan": "La bibbriuteca lìbbira"
 	},
 	"wikiversity": {
 		"name": "Wikiversità",
+		"entries": "lizzioni",
 		"search-input-label": "Arricerca supra Wikiversità",
 		"language-button-text": "Leggi Wikiversità ntâ tò lingua"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
+		"slogan": "Guida turìstica lìbbira",
 		"entries": "pàggini",
 		"search-input-label": "Arricerca supra Wikivoyage",
 		"language-button-text": "Leggi Wikivoyage ntâ tò lingua"
@@ -66,10 +74,16 @@
 		"name": "Commons"
 	},
 	"wikispecies": {
-		"name": "Wikispecies"
+		"name": "Wikispecies",
+		"slogan": "Catàlugu lìbbiru dî speci"
+	},
+	"wikifunctions": {
+		"name": "Wikifunzioni",
+		"slogan": "Bibbriuteca di funzioni lìbbira"
 	},
 	"wikidata": {
-		"name": "Wikidata"
+		"name": "Wikidata",
+		"slogan": "Databbasi di canuscenza lìbbira"
 	},
 	"mediawiki": {
 		"name": "MediaWiki"
