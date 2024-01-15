@@ -9,10 +9,12 @@
 	"language-name": "Kriyòl Gwiyannen",
 	"language-name-romanized": "Kriyòl Gwiyannen",
 	"language-name-romanized-sorted": "Kriyol Gwiyannen",
+	"footer-donate": "Ou pouvé soutni nou travay ké roun donnasyon.",
 	"license": "Sa paj disponnib anba <a href='https://creativecommons.org/licenses/by-sa/4.0/'>lisans Creative Commons Attribution-Pataj ké menm kondisyon-yan</a>",
 	"terms": "Kondisyon di litilizasyon",
 	"privacy-policy": "Politik di konfidansyalité",
 	"search-input-button": "Sasé",
+	"other-languages-label": "Ròt lanng",
 	"wiki": {
 		"name": "Wikipédja",
 		"slogan": "Lansiklopédi lib",
@@ -22,28 +24,39 @@
 		"footer-description": "Wikipédja sa ébèrjé pa Wikimedia Foundation, oun òrganism san but likratif ki ka ébèrjé égalman bokou di ròt projè.",
 		"app-links": {
 			"title": "Téléchajé Wikipédja pou Android ké iOS",
+			"description": "Anréjistré ou artik ki ou kontan pou li yé lò ou pa gen rézo, senkronnizé ou lis di lègtir ant yé aparèy épi pésonnalizé ou lèspéryans di lègtir ké laplikasyon ofisyèl di Wikipédja.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Wiksyonèr",
 		"slogan": "Diksyonnèr lib",
-		"entries": "artik"
+		"entries": "artik",
+		"search-input-label": "Sasé annan Wikisyonnèr",
+		"language-button-text": "Li Wikipédja annan ou lanng"
 	},
 	"wikibooks": {
 		"name": "Wikiliv",
 		"slogan": "Tègs pédagojik lib",
-		"entries": "paj"
+		"entries": "paj",
+		"search-input-label": "Sasé asou Wikiliv",
+		"language-button-text": "Li Wikiliv annan ou lanng"
 	},
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Sours di atchwalité lib",
-		"entries": "artik"
+		"entries": "artik",
+		"search-input-label": "Sasé annan Wikinews",
+		"language-button-text": "Li Wikinews annan ou lanng"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
-		"slogan": "Kolèksyon lib dé sitasyon",
-		"entries": "artik"
+		"slogan": "Kolègsyon di sitasyon lib",
+		"entries": "artik",
+		"search-input-label": "Sasé asou Wikiquote",
+		"language-button-text": "Li Wikiquote annan ou lanng"
 	},
 	"wikisource": {
 		"name": "Wikisours",
@@ -52,11 +65,16 @@
 	"wikiversity": {
 		"name": "Wikivèrsité",
 		"slogan": "Matéryèl di kour lib d'itilizasyon",
-		"entries": "Rousours d'aprantisaj"
+		"entries": "Rousours d'aprantisaj",
+		"search-input-label": "Sasé asou Wikivèrsité",
+		"language-button-text": "Li Wikivèrsité annan ou lanng"
 	},
 	"wikivoyage": {
 		"name": "Wikivwayaj",
-		"slogan": "Gid di vwayaj gratchwi"
+		"slogan": "Gid di vwayaj gratchwi",
+		"entries": "paj",
+		"search-input-label": "Sasé annan Wikivwéyèj",
+		"language-button-text": "Li Wikivwéyèj annan ou lanng"
 	},
 	"commons": {
 		"name": "Commons",
@@ -65,6 +83,10 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Répèrtwè lib di lèspès-ya"
+	},
+	"wikifunctions": {
+		"name": "Wikifongsyon",
+		"slogan": "Oun biblioyotèk ki lib di fongsyon"
 	},
 	"wikidata": {
 		"name": "Wikidata",
