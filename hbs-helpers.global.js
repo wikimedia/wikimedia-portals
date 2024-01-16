@@ -96,7 +96,8 @@ helpers.formatNumber = function ( number, options ) {
 
 		number = Math.floor( number / powerOfTen ) * powerOfTen;
 	}
-	number = number.toLocaleString();
+
+	number = number.toLocaleString( options.hash.locale );
 	return new Handlebars.SafeString( number );
 };
 

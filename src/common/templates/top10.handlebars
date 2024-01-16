@@ -14,9 +14,9 @@
            data-slogan="{{slogan}}">
             <strong>{{{name}}}</strong>
             {{#if articlesAttrs}}
-                <small><bdi dir="ltr">{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+</bdi> <span{{printAttrs 'articlesAttrs'}}>{{entries}}</span></small>
+                <small>{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true locale=lang}}+ <span{{printAttrs 'articlesAttrs'}}>{{entries}}</span></small>
             {{else}}
-                <small><bdi dir="ltr">{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true}}+</bdi> <span>{{entries}}</span></small>
+                <small>{{formatNumber numPages thousandSeparator=true rounded=true nbsp=true locale=lang}}+ <span>{{entries}}</span></small>
             {{/if}}
             </a>
         </div>
