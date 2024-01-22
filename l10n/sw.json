@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Hussein m mmbaga",
+			"Killy95",
 			"Wangombe"
 		]
 	},
@@ -13,6 +14,9 @@
 	"privacy-policy": "Sera ya faragha",
 	"search-input-button": "Tafuta",
 	"other-languages-label": "Lugha nyingine",
+	"top-ten-nav-label": "Lugha kuu",
+	"all-languages-nav-label": "Lugha zote",
+	"other-projects-nav-label": "Miradi mingine",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Kamusi elezo ya maandishi huru",

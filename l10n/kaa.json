@@ -3,6 +3,7 @@
 		"authors": [
 			"Ajiniyaz",
 			"Ajiniyaz Nurniyazov",
+			"Inabat Allanova",
 			"Nurlan"
 		]
 	},
@@ -10,13 +11,16 @@
 	"language-name-romanized": "Qaraqalpaqsha",
 	"language-name-romanized-sorted": "Qaraqalpaqsha",
 	"footer-donate": "Jumısımızdı qayırqomlıq qılıw arqalı qollap-quwatlawıńız múmkin.",
-	"license": "Bul bet <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> astında ámelde",
+	"license": "Bul bet <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> astında jumıs alıp baradı.",
 	"terms": "Paydalanıw shártleri",
 	"privacy-policy": "Konfidenciallıq siyasatı",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/kaa",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/kaa",
 	"search-input-button": "Izlew",
 	"other-languages-label": "Basqa tiller",
+	"top-ten-nav-label": "Eń belgili tiller",
+	"all-languages-nav-label": "Barlıq tiller",
+	"other-projects-nav-label": "Basqa joybarlar",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Erkin Enciklopediya",
@@ -85,6 +89,10 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Biypul túrler katalogi"
+	},
+	"wikifunctions": {
+		"name": "Wikifunkciyalar",
+		"slogan": "Biypul funkciyalar toplamı"
 	},
 	"wikidata": {
 		"name": "Wikimaǵlıwmat",
