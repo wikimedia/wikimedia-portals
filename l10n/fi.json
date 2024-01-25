@@ -20,6 +20,9 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/fi",
 	"search-input-button": "Hae",
 	"other-languages-label": "Muut kielet",
+	"top-ten-nav-label": "Suosituimmat kielet",
+	"all-languages-nav-label": "Kaikki kielet",
+	"other-projects-nav-label": "Muut hankkeet",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Vapaa tietosanakirja",
@@ -88,6 +91,9 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Vapaa lajihakemisto"
+	},
+	"wikifunctions": {
+		"slogan": "Vapaa funktiokirjasto"
 	},
 	"wikidata": {
 		"name": "Wikidata",

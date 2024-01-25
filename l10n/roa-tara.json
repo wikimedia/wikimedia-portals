@@ -8,11 +8,14 @@
 	"language-name": "Tarandíne",
 	"language-name-romanized-sorted": "Tarandine",
 	"footer-donate": "Puè supportà 'a nostra fatije cu 'na donazione.",
-	"license": "Sta pàgene jè disponibbile in base a 'a licenze <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribbuzione-Condivide a 'u stesse mode</a>",
+	"license": "Sta pàgene jè disponibbele in base a 'a licenze <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribbuzione-Condivide a 'u stesse mode</a>",
 	"terms": "Termine de Ause",
 	"privacy-policy": "Regole p'a privacy",
 	"search-input-button": "Cirche",
 	"other-languages-label": "Otre lènghe",
+	"top-ten-nav-label": "Le megghie lènghe",
+	"all-languages-nav-label": "Tutte le lènghe",
+	"other-projects-nav-label": "Otre pruggette",
 	"wiki": {
 		"name": "Uicchipèdie",
 		"slogan": "'A 'ngeclopedije lìbbere",
@@ -31,22 +34,30 @@
 	"wiktionary": {
 		"name": "Uicchizionarie",
 		"slogan": "Uicchizionarie libbere",
-		"entries": "vôsce"
+		"entries": "vôsce",
+		"search-input-label": "Cirche 'u Uicchizionarie",
+		"language-button-text": "Lìgge 'u uicchizionarie jndr'à lènga toje"
 	},
 	"wikibooks": {
 		"name": "Uicchilibbre",
 		"slogan": "Manuale e libbre de teste libbere",
-		"entries": "pàggene"
+		"entries": "pàggene",
+		"search-input-label": "Cirche Uicchilibbre",
+		"language-button-text": "Lìgge Uicchilibbre jndr'à lènga toje"
 	},
 	"wikinews": {
 		"name": "Uicchinuvetà",
 		"slogan": "'A fonde de notizie libbere",
-		"entries": "vôsce"
+		"entries": "vôsce",
+		"search-input-label": "Cirche Uicchinuvetà",
+		"language-button-text": "Lìgge Uicchinuvetà jndr'à lènga toje"
 	},
 	"wikiquote": {
 		"name": "Uicchiquote",
 		"slogan": "Aforisme e citaziune libbere",
-		"entries": "vôsce"
+		"entries": "vôsce",
+		"search-input-label": "Cirche Uicchiquote",
+		"language-button-text": "Lìgge Uicchiquote jndr'à lènga toje"
 	},
 	"wikisource": {
 		"name": "Uicchisurgende",
@@ -55,11 +66,16 @@
 	"wikiversity": {
 		"name": "Uicchiversità",
 		"slogan": "Materiale de corse libbere",
-		"entries": "'mbaranne le resorse"
+		"entries": "'mbaranne le resorse",
+		"search-input-label": "Cirche Uicchiversità",
+		"language-button-text": "Lìgge Uicchiversità jndr'à lènga toje"
 	},
 	"wikivoyage": {
 		"name": "Uicchivoyage",
-		"slogan": "Guide turisteche libbere"
+		"slogan": "Guide turisteche libbere",
+		"entries": "pàggene",
+		"search-input-label": "Cirche Uicchiviagge",
+		"language-button-text": "Lìgge Uicchiviagge jndr'à lènga toje"
 	},
 	"commons": {
 		"name": "Commons",
@@ -68,6 +84,10 @@
 	"wikispecies": {
 		"name": "Uicchispecie",
 		"slogan": "Cataloghe libbere de le specie"
+	},
+	"wikifunctions": {
+		"name": "Uicchifunziune",
+		"slogan": "'Na libbrerie de funziune libbere"
 	},
 	"wikidata": {
 		"name": "Uicchidate",

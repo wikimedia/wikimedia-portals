@@ -7,14 +7,18 @@
 	"footer-donate": "Ou pé sipòte travay an-nou èvè on don.",
 	"search-input-button": "Chèché",
 	"other-languages-label": "Sé lézòt lang-la",
+	"all-languages-nav-label": "Tout lang",
+	"other-projects-nav-label": "Lézòt projé",
 	"wiki": {
 		"name": "Wikipédya",
 		"slogan": "Ansiklopédi lib-la",
 		"entries": "awtik",
 		"search-input-label": "Chèché asi wikipédya",
 		"language-button-text": "Li Wikipédya adan lang a-w",
+		"footer-description": "Sé Wikimedia Fondation ka lojé Wikipédya, on òganizasyon san bi likratif ka lojé onlo dòt projé.",
 		"app-links": {
 			"title": "Téléchajé Wikipédya pou Android oben iOS",
+			"description": "Gadésòf awtik ou pisimyé ba li-yo lè ou pa konnèkté, senkronizé lis a lèkti a-w èvè aparèy épi pèsonnalizé èkspériyas dé lèkti a-w èvè aplikasyon Wikipédya-la ki ofisyèl.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store"
 		}
@@ -22,6 +26,7 @@
 	"wiktionary": {
 		"name": "Wiksyonnè",
 		"slogan": "diksyonnè lib-la",
+		"search-input-label": "Chèché adan Wiksyonnè",
 		"language-button-text": "Li Wiksyonnè adan lang a-w"
 	},
 	"wikibooks": {
@@ -61,6 +66,9 @@
 	},
 	"commons": {
 		"name": "Commons"
+	},
+	"wikispecies": {
+		"slogan": "Lisfichyé a èspès lib"
 	},
 	"wikidata": {
 		"name": "Wikidata"
