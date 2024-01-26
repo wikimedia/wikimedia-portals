@@ -10,7 +10,7 @@
         <a id="js-link-box-{{lang}}"
            href="//{{url}}/"
            title="{{#if latin}}{{latin}}{{else}}{{name}}{{/if}} — {{siteName}} — {{slogan}}"
-           class="link-box{{printClasses 'linkBoxClasses'}}"{{printAttrs 'linkBoxAttrs'}}
+           class="link-box{{printClasses 'linkBoxClasses'}}{{#eq lang 'zh'}} localize-variant{{/eq}}"{{printAttrs 'linkBoxAttrs'}}
            data-slogan="{{slogan}}">
             <strong>{{{name}}}</strong>
             {{#if articlesAttrs}}

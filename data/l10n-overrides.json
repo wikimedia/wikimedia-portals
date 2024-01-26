@@ -164,52 +164,6 @@
 	"yi": {
 		"language-name": "<bdi dir=\"rtl\">ייִדיש</bdi>"
 	},
-	"zh": {
-		"wiki": {
-			"linkBoxAttrs": {
-				"data-title-hans": "Zhōngwén — 维基百科 — 自由的百科全书",
-				"data-title-hant": "Zhōngwén — 維基百科 — 自由的百科全書"
-			},
-			"linkBoxClasses": [
-				"jscnconv"
-			],
-			"articlesAttrs": {
-				"data-hans": "条目",
-				"data-hant": "條目",
-				"class": "jscnconv"
-			},
-		},
-		"wiktionary": {
-			"linkBoxAttrs": {
-				"data-title-hans": "Zhōngwén — 维基词典 — 自由的词典",
-				"data-title-hant": "Zhōngwén — 維基詞典 — 自由的詞典"
-			},
-			"linkBoxClasses": [
-				"jscnconv"
-			],
-			"articlesAttrs": {
-				"data-hans": "词条",
-				"data-hant": "詞條",
-				"class": "jscnconv",
-				"lang": "zh"
-			},
-		},
-		"wikibooks": {
-			"linkBoxAttrs": {
-				"data-title-hans": "Zhōngwén — 维基教科书 — 自由的教学读本",
-				"data-title-hant": "Zhōngwén — 維基教科書 — 自由的教學讀本"
-			},
-			"linkBoxClasses": [
-				"jscnconv"
-			],
-			"articlesAttrs": {
-				"data-hans": "页面",
-				"data-hant": "頁面",
-				"class": "jscnconv",
-				"lang": "zh"
-			},
-		}
-	},
 	"zh-classical": {
 		"lang": "lzh"
 	},

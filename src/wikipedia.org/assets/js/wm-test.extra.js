@@ -1,6 +1,7 @@
-/* global eventLoggingLite, getIso639 */
+/* global eventLoggingLite */
 
-window.wmTest = ( function ( eventLoggingLite, mw ) {
+window.wmTest = window.wmTest || {};
+( function ( eventLoggingLite, mw ) {
 
 	var bucketParams = {
 			// Population for prod or src
@@ -17,44 +18,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 			SESSION_ID: 'portal_session_id',
 			EXPIRES: 'portal_test_group_expires'
 		},
-		preferredLangs, sessionId, group, testOnly;
-
-	/**
-	 * Created an array of preferred languages in ISO939 format.
-	 *
-	 * @return {Array} langs
-	 */
-	function setPreferredLanguages() {
-		var langs = [], possibleLanguage, i;
-
-		function appendLanguage( l ) {
-			var lang = getIso639( l );
-			if ( lang && langs.indexOf( lang ) < 0 ) {
-				langs.push( lang );
-			}
-		}
-
-		for ( i in navigator.languages ) {
-			appendLanguage( navigator.languages[ i ] );
-		}
-
-		// Gets browser languages from some old Android devices
-		if ( /Android/i.test( navigator.userAgent ) ) {
-			possibleLanguage = navigator.userAgent.split( ';' );
-			if ( possibleLanguage[ 3 ] ) {
-				appendLanguage( possibleLanguage[ 3 ].trim() );
-			}
-		}
-
-		appendLanguage( navigator.language );
-		appendLanguage( navigator.userLanguage );
-		appendLanguage( navigator.browserLanguage );
-		appendLanguage( navigator.systemLanguage );
-
-		return langs;
-	}
-
-	preferredLangs = setPreferredLanguages();
+		sessionId, group, testOnly;
 
 	/**
 	 * Determines whether the user is part of the population size.
@@ -141,7 +105,7 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		document.body.className += ' ' + group;
 	}
 
-	return {
+	Object.assign( window.wmTest, {
 		loggingDisabled: testOnly, // For test
 
 		/**
@@ -150,12 +114,6 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		 * @type {string}
 		 */
 		sessionId: sessionId,
-
-		/**
-		 * The users preferred languages as inferred from
-		 * their browser settings.
-		 */
-		userLangs: preferredLangs,
 
 		/**
 		 * User population group
@@ -182,6 +140,6 @@ window.wmTest = ( function ( eventLoggingLite, mw ) {
 		 */
 		getTestGroup: getTestGroup
 
-	};
+	} );
 
 }( eventLoggingLite, mw ) );

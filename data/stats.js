@@ -128,7 +128,12 @@ Stats.getTop = function ( portal, criteria, n ) {
 		var siteDef = siteDefs[ key ],
 			portalDef = siteDef && siteDef[ portal ];
 		stats.code = key;
-		return siteDef && portalDef;
+		// T355001: Lacking localization should not bar the site from being top 10.
+		// For Chinese sites, we will build zh entries from zh-hans and zh-hant entries later.
+		if ( !portalDef && key !== 'zh' ) {
+			warn( key, `No localization of the site name, entry name, and slogan for ${key}.${portal}.org` );
+		}
+		return siteDef && stats.closed === false;
 	} );
 
 	// Sort
@@ -274,8 +279,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 
 		var stats = siteStats[ portal ][ top.code ],
 			siteDef = siteDefs[ top.code ],
-			portalDef = siteDef && siteDef[ portal ],
-			formatted = _.extend( {}, stats, portalDef, getLanguageName( top.code ) ),
+			portalDef = siteDef?.[ portal ] || {},
 			extendedl10n = [
 				'language-button-text',
 				'footer-description',
@@ -299,16 +303,9 @@ Stats.format = function ( portal, list, optionsArg ) {
 				'wikispecies',
 				'wikidata',
 				'mediawiki',
-				'metawiki' ],
+				'metawiki'
+			],
 			nonStandardCode;
-
-		formatted.index = ++index;
-		formatted.siteName = ( portalDef && portalDef.name ) ? portalDef.name : siteDefs.en.name;
-		formatted.lang = siteDef?.lang || formatted.code;
-
-		if ( siteDef?.attrs ) {
-			formatted.attrs = siteDef.attrs;
-		}
 
 		/**
 		 * Get a raw list of a variant and formats it.
@@ -328,12 +325,38 @@ Stats.format = function ( portal, list, optionsArg ) {
 			);
 		}
 
+		function buildVariantedL10n( a, b, attrs ) {
+			var varianted = {};
+			_.each( attrs, function ( attr ) {
+				if ( a[ attr ] && b[ attr ] ) {
+					varianted[ attr ] = `${a[ attr ]} / ${b[ attr ]}`;
+				} else if ( a[ attr ] ) {
+					varianted[ attr ] = a?.[ attr ] || b?.[ attr ] || siteStats[ portal ].en[ attr ];
+				}
+			} );
+			return varianted;
+		}
+
 		if ( top.code === 'zh' ) {
 			// Carry translations for simp and trad Chinese, used later in controller.js
-			formatted.variants = {
+			portalDef.variants = {
 				'zh-hans': getVariantList( 'zh-hans' ),
 				'zh-hant': getVariantList( 'zh-hant' )
 			};
+			_.extend( portalDef, buildVariantedL10n(
+				portalDef.variants[ 'zh-hans' ],
+				portalDef.variants[ 'zh-hant' ],
+				[ 'name', 'slogan', 'entries' ]
+			) );
+		}
+
+		var formatted = _.extend( {}, stats, portalDef, getLanguageName( top.code ) );
+		formatted.index = ++index;
+		formatted.siteName = portalDef?.name || siteDefs.en[ portal ].name;
+		formatted.lang = siteDef?.lang || formatted.code;
+
+		if ( siteDef?.attrs ) {
+			formatted.attrs = siteDef.attrs;
 		}
 
 		if ( siteDef ) {

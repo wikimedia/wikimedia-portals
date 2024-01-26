@@ -1,4 +1,4 @@
-/* global wmTest, translationsHash, wmL10nVisible, rtlLangs */
+/* global wmTest, translationsHash, wmL10nVisible, rtlLangs, portalSearchDomain */
 /**
  * This code was used to localize the top-ten language links
  * for the A/B test titled "A/B test: browser language detection"
@@ -13,6 +13,7 @@
 ( function ( mw, wmTest ) {
 
 	var preferredLanguages = wmTest.userLangs,
+		primaryLang = wmTest.primaryLang,
 		topLinks = document.querySelectorAll( '.central-featured-lang' ),
 		topLinksContainer = document.querySelector( '.central-featured' ),
 		topLinkLangs,
@@ -90,21 +91,33 @@
 	 *
 	 * @param {HTMLElement} node A DOM Element from the top-ten links that will be modified.
 	 * @param {Object} wikiInfo The info to modify the node with.
+	 * @param {boolean} localizeVariant Whether we are only localizing to variant.
 	 */
-	function updateTopLinkDOM( node, wikiInfo ) {
+	function updateTopLinkDOM( node, wikiInfo, localizeVariant ) {
 		var anchor = node.getElementsByTagName( 'a' )[ 0 ],
-			// Some wiki titles are placed within a <bdi dir="rtl"> tag.
-			// Strip the tag for the title attribute.
-			wikiNameStripped = wikiInfo.name.replace( /<\/?[^>]+(>|$)/g, '' );
+			elePages = node.getElementsByTagName( 'small' )[ 0 ],
+			eleEntries = elePages.getElementsByTagName( 'span' )[ 0 ],
+			eleCaption = node.getElementsByTagName( 'strong' )[ 0 ];
 
-		anchor.setAttribute( 'href', '//' + wikiInfo.url );
 		anchor.setAttribute( 'id', 'js-link-box-' + wikiInfo.lang );
 		anchor.setAttribute( 'data-slogan', wikiInfo.slogan || 'The Free Encyclopedia' );
-		anchor.setAttribute( 'title', wikiNameStripped + ' — ' + wikiInfo.siteName + ' — ' + ( wikiInfo.slogan || '' ) );
+		eleEntries.textContent = wikiInfo.entries || '';
 		node.setAttribute( 'lang', wikiInfo.lang );
-		node.getElementsByTagName( 'strong' )[ 0 ].textContent = wikiNameStripped;
-		node.getElementsByTagName( 'bdi' )[ 0 ].textContent = wikiInfo.numPages + '+';
-		node.getElementsByTagName( 'span' )[ 0 ].textContent = wikiInfo.entries || '';
+
+		if ( !localizeVariant ) {
+			// Some wiki titles are placed within a <bdi dir="rtl"> tag.
+			// Strip the tag for the title attribute.
+			var wikiNameStripped = wikiInfo.siteName.replace( /<\/?[^>]+(>|$)/g, '' );
+
+			anchor.setAttribute( 'href', '//' + wikiInfo.url );
+			anchor.setAttribute( 'title', wikiInfo.name + ' — ' + wikiNameStripped + ' — ' + ( wikiInfo.slogan || '' ) );
+			eleCaption.textContent = wikiInfo.name;
+			elePages.textContent = wikiInfo.numPages + '+ ';
+			elePages.appendChild( eleEntries );
+		} else {
+			// FIXME: wikiInfo.name for the main code (e.g. zh) and variants (e.g. zh-hans) are not the same thing...
+			anchor.setAttribute( 'title', eleCaption.textContent + ' — ' + wikiInfo.name + ' — ' + ( wikiInfo.slogan || '' ) );
+		}
 	}
 
 	/**
@@ -122,7 +135,11 @@
 		topLinks = document.querySelectorAll( '.central-featured-lang' );
 
 		for ( i = 0; i < topLinks.length && topLinksCorrectLangs === true; i++ ) {
-			topLinkLang = topLinks[ i ].getAttribute( 'lang' );
+			/**
+			 * Get the main code, we want the lang attribute varied to zh-hans and zh-hant
+			 * for Chinese users, because the font style for them are different.
+			 */
+			topLinkLang = topLinks[ i ].getAttribute( 'lang' ).split( '-' )[ 0 ];
 			topLinksCorrectLangs = topLinkLangs.indexOf( topLinkLang ) >= 0;
 		}
 
@@ -151,13 +168,14 @@
 	 *
 	 * @param {HTMLElement} node A DOM node that will be modified with new info upon ajax success.
 	 * @param {string} lang Language code for which to get new wiki info.
+	 * @param {boolean} localizeVariant Whether we are only localizing to variant.
 	 */
-	function getAjaxTranslation( node, lang ) {
+	function getAjaxTranslation( node, lang, localizeVariant ) {
 
 		var i18nReq = new XMLHttpRequest(),
 			wikiInfo;
 
-		i18nReq.open( 'GET', encodeURI( 'portal/wikipedia.org/assets/l10n/' + lang + '-' + translationsHash + '.json' ), true );
+		i18nReq.open( 'GET', encodeURI( 'portal/' + portalSearchDomain + '/assets/l10n/' + lang + '-' + translationsHash + '.json' ), true );
 
 		i18nReq.onload = function () {
 
@@ -168,7 +186,7 @@
 			wikiInfo = safelyParseJSON( this.responseText );
 
 			if ( wikiInfo ) {
-				updateTopLinkDOM( node, wikiInfo );
+				updateTopLinkDOM( node, wikiInfo, localizeVariant );
 				reorganizeTopLinkClasses();
 				storedTranslations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
 				storedTranslations[ lang ] = wikiInfo;
@@ -184,15 +202,17 @@
 	 *
 	 * @param {HTMLElement} node The DOM node that will be modified with new info.
 	 * @param {string} lang The language code with which to modify the node.
+	 * @param {boolean} localizeVariant Whether we are only localizing to variant.
 	 */
-	function localizeTopLink( node, lang ) {
-
+	function localizeTopLink( node, lang, localizeVariant ) {
 		var translations = storedTranslations;
 
+		localizeVariant = localizeVariant || false;
+
 		if ( translations[ lang ] ) {
-			updateTopLinkDOM( node, translations[ lang ] );
+			updateTopLinkDOM( node, translations[ lang ], localizeVariant );
 		} else {
-			getAjaxTranslation( node, lang );
+			getAjaxTranslation( node, lang, localizeVariant );
 		}
 	}
 
@@ -240,6 +260,10 @@
 				topLinkNodeIndex = Array.prototype.indexOf.call( topLinks, topLinkNode );
 				if ( topLinkNodeIndex !== i ) {
 					topLinksContainer.insertBefore( topLinkNode, topLinks[ i ] );
+				}
+				// Apply localization in variant when needed.
+				if ( preferredLanguages[ 0 ] === 'zh' && topLinkNode.firstElementChild.classList.contains( 'localize-variant' ) ) {
+					localizeTopLink( topLinkNode, primaryLang, true );
 				}
 			} else {
 				repurposedTopLink = findReusableTopLink();
