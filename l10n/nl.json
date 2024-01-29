@@ -12,6 +12,7 @@
 			"Pcoombe",
 			"Romaine",
 			"Siebrand",
+			"Sjoerddebruin",
 			"Wikibelgiaan"
 		]
 	},
@@ -24,6 +25,9 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/nl",
 	"search-input-button": "Zoeken",
 	"other-languages-label": "Andere talen",
+	"top-ten-nav-label": "Meest populaire talen",
+	"all-languages-nav-label": "Alle talen",
+	"other-projects-nav-label": "Andere projecten",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "De vrije encyclopedie",

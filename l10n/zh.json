@@ -23,6 +23,20 @@
 		"entries": "页面 / 頁面"
 	},
 	"wikinews": {
-		"name": "维基新闻 / 維基新聞"
+		"name": "维基新闻 / 維基新聞",
+		"slogan": "你也可以撰写的自由新闻源",
+		"entries": "篇"
+	},
+	"wikiquote": {
+		"name": "維基語錄",
+		"slogan": "自由的名人名言錄",
+		"entries": "篇摘录"
+	},
+	"wikisource": {
+		"name": "Wikisource"
+	},
+	"wikivoyage": {
+		"name": "维基导游",
+		"slogan": "自由的旅行指南"
 	}
 }

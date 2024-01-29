@@ -14,6 +14,9 @@
 	"privacy-policy": "Политика приватносци",
 	"search-input-button": "Преглєдуй",
 	"other-languages-label": "Други язики",
+	"top-ten-nav-label": "Главни язики",
+	"all-languages-nav-label": "Шицки язики",
+	"other-projects-nav-label": "Други проєкти",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Шлєбодна енциклопедия",
@@ -82,6 +85,10 @@
 	"wikispecies": {
 		"name": "Викифайти",
 		"slogan": "Шлєбодни каталоґ файтох"
+	},
+	"wikifunctions": {
+		"name": "Викифункциї",
+		"slogan": "Безплатна библиотека функцийох"
 	},
 	"wikidata": {
 		"name": "Википодатки",
