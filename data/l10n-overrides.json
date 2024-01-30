@@ -76,18 +76,6 @@
 			"create": "Scrivi un articolo"
 		}
 	},
-	"ja": {
-		"wiki": {
-			"sloganAttrs": {
-				"class": "emNonItalicLang"
-			}
-		},
-		"wikibooks": {
-			"sloganAttrs": {
-				"class": "emNonItalicLang"
-			}
-		}
-	},
 	"kk": {
 		"language-name": "<span lang=\"kk-Cyrl\">Қазақша</span> / <span lang=\"kk-Latn\">Qazaqşa</span> / <bdi lang=\"kk-Arab\" dir=\"rtl\">قازاقشا</bdi>"
 	},
@@ -190,9 +178,6 @@
 				"data-hant": "條目",
 				"class": "jscnconv"
 			},
-			"sloganAttrs": {
-				"class": "emNonItalicLang"
-			}
 		},
 		"wiktionary": {
 			"linkBoxAttrs": {
@@ -208,9 +193,6 @@
 				"class": "jscnconv",
 				"lang": "zh"
 			},
-			"sloganAttrs": {
-				"class": "emNonItalicLang"
-			}
 		},
 		"wikibooks": {
 			"linkBoxAttrs": {
@@ -226,9 +208,6 @@
 				"class": "jscnconv",
 				"lang": "zh"
 			},
-			"sloganAttrs": {
-				"class": "emNonItalicLang"
-			}
 		}
 	},
 	"zh-classical": {
