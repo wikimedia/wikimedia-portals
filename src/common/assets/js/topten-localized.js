@@ -105,13 +105,14 @@
 		node.setAttribute( 'lang', wikiInfo.lang );
 
 		if ( !localizeVariant ) {
-			// Some wiki titles are placed within a <bdi dir="rtl"> tag.
-			// Strip the tag for the title attribute.
-			var wikiNameStripped = wikiInfo.siteName.replace( /<\/?[^>]+(>|$)/g, '' );
+			// Some language names are placed within HTML tags.
+			// Strip the tags for the title attribute.
+			var langNameStripped = wikiInfo.name.replace( /<\/?[^>]+(>|$)/g, '' );
 
 			anchor.setAttribute( 'href', '//' + wikiInfo.url );
-			anchor.setAttribute( 'title', wikiInfo.name + ' — ' + wikiNameStripped + ' — ' + ( wikiInfo.slogan || '' ) );
-			eleCaption.textContent = wikiInfo.name;
+			anchor.setAttribute( 'title', langNameStripped + ' — ' + wikiInfo.siteName + ' — ' + ( wikiInfo.slogan || '' ) );
+			// TODO: We may want to set `innerHTML = wikiInfo.name` instead as the rendered HTML did.
+			eleCaption.textContent = langNameStripped;
 			elePages.textContent = wikiInfo.numPages + '+ ';
 			elePages.appendChild( eleEntries );
 		} else {
