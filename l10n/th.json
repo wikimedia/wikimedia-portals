@@ -15,13 +15,16 @@
 	"language-name-romanized": "Phasa Thai",
 	"language-name-romanized-sorted": "Thai, Phasa",
 	"footer-donate": "คุณสามารถสนับสนุนงานของเราได้ด้วยการบริจาค",
-	"license": "หน้านี้อยู่ภายใต้สัญญาอนุญาต<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.th'>ครีเอทีฟคอมมอนส์ อ้างอิงแหล่งที่มา อนุญาตแบบเดียวกัน 3.0</a>",
+	"license": "หน้านี้อยู่ภายใต้สัญญาอนุญาต<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.th'>ครีเอทีฟคอมมอนส์ อ้างอิงแหล่งที่มา อนุญาตแบบเดียวกัน 4.0</a>",
 	"terms": "ข้อกำหนดการใช้งาน",
 	"privacy-policy": "นโยบายความเป็นส่วนตัว",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/th",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/th",
 	"search-input-button": "ค้นหา",
 	"other-languages-label": "ภาษาอื่น ๆ",
+	"top-ten-nav-label": "ภาษายอดนิยม",
+	"all-languages-nav-label": "ภาษาทั้งหมด",
+	"other-projects-nav-label": "โครงการอื่น ๆ",
 	"wiki": {
 		"name": "วิกิพีเดีย",
 		"slogan": "สารานุกรมเสรี",
@@ -72,11 +75,16 @@
 	"wikiversity": {
 		"name": "วิกิวิทยาลัย",
 		"slogan": "หลักสูตรการสอนเสรี",
-		"entries": "ทรัพยากรการเรียนรู้"
+		"entries": "ทรัพยากรการเรียนรู้",
+		"search-input-label": "ค้นหาวิกิวิทยาลัย",
+		"language-button-text": "อ่านวิกิวิทยาลัยในภาษาของคุณ"
 	},
 	"wikivoyage": {
 		"name": "วิกิท่องเที่ยว",
-		"slogan": "คู่มือเดินทางเสรี"
+		"slogan": "คู่มือเดินทางเสรี",
+		"entries": "หน้า",
+		"search-input-label": "ค้นหาวิกิท่องเที่ยว",
+		"language-button-text": "อ่านวิกิท่องเที่ยวในภาษาของคุณ"
 	},
 	"commons": {
 		"name": "คอมมอนส์",
@@ -87,7 +95,8 @@
 		"slogan": "อนุกรมวิธานเสรี"
 	},
 	"wikifunctions": {
-		"name": "วิกิฟังก์ชัน"
+		"name": "วิกิฟังก์ชัน",
+		"slogan": "ห้องสมุดฟังก์ชันเสรี"
 	},
 	"wikidata": {
 		"name": "วิกิสนเทศ",
