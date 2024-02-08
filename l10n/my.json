@@ -18,6 +18,9 @@
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/my",
 	"search-input-button": "ရှာဖွေရန်",
 	"other-languages-label": "အခြားဘာသာစကားများ",
+	"top-ten-nav-label": "ထိပ်ဆုံး ဘာသာစကားများ",
+	"all-languages-nav-label": "ဘာသာစကားများ အားလုံး",
+	"other-projects-nav-label": "အခြား ပရောဂျက်များ",
 	"wiki": {
 		"name": "ဝီကီပီးဒီးယား",
 		"slogan": "အခမဲ့ လွတ်လပ်စွယ်စုံကျမ်း",
@@ -86,6 +89,10 @@
 	"wikispecies": {
 		"name": "ဝီကီမျိုးစိတ်",
 		"slogan": "မျိုးစိတ် အခမဲ့-လမ်းညွှန်"
+	},
+	"wikifunctions": {
+		"name": "ဝီကီဖန်ရှင်",
+		"slogan": "အခမဲ့ လုပ်ဆောင်ချက် စာကြည့်တိုက်"
 	},
 	"wikidata": {
 		"name": "ဝီကီဒေတာ",
