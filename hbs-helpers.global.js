@@ -77,7 +77,6 @@ helpers.eq = function ( a, b, options ) {
 };
 
 /**
- *
  * @param {number} number
  * @param {Object} options Handlebars options object.
  * @param {Object} options.hash
