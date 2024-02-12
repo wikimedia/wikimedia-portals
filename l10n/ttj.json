@@ -1,0 +1,97 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahiise2"
+		]
+	},
+	"footer-donate": "Waakuyamba omulimo gwaitu n'ekisembo.",
+	"license": "Runu orupapura haroho hansi ya <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Ebiragiro by'okukozesa",
+	"privacy-policy": "Ebiragiro by'ensita",
+	"search-input-button": "Serra",
+	"other-languages-label": "Endimi ezindi",
+	"top-ten-nav-label": "Endimi enkuru",
+	"all-languages-nav-label": "Endimi zoona",
+	"other-projects-nav-label": "Ebyekambwa bindi",
+	"wiki": {
+		"name": "Wikipediya",
+		"slogan": "Ensaikiropediya ey'Obugabe",
+		"entries": "amakuru",
+		"search-input-label": "Serra Wikipediya",
+		"language-button-text": "Soma Wikipediya omu rulimi rwawe",
+		"footer-description": "Wikipediya elemwa Wikimediya Foundation, ekitongole ekitali ky'amagoba ekilema ebyekambwa bindi.",
+		"app-links": {
+			"title": "Tuura Wikipediya ya Android rundi iOS",
+			"google-store": "Akatale k'Okuzaana ka Google",
+			"apple-store": "Akatale k'Api k'Apple",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikitondogorozi",
+		"slogan": "Katondogorozi y'obugabe",
+		"entries": "ebitaahiibwemu",
+		"search-input-label": "Serra Wikitondogorozi",
+		"language-button-text": "Soma Wikitondogorozi omu rulimi rwawe"
+	},
+	"wikibooks": {
+		"name": "Wikibitabu",
+		"slogan": "Ebitabu by'isomero by'obugabe",
+		"entries": "empapura",
+		"search-input-label": "Serra Wikibitabu",
+		"language-button-text": "Soma Wikibitabu omu rulimi rwawe"
+	},
+	"wikinews": {
+		"name": "Wikimahurre",
+		"slogan": "Oburugo bw'amahurre bw'obugabe",
+		"entries": "amakuru",
+		"search-input-label": "Serra Wikimahurre",
+		"language-button-text": "Soma Wikimahurre omu rulimi rwawe"
+	},
+	"wikiquote": {
+		"name": "Wikibijurro",
+		"slogan": "Omuganda gw'ebijurro by'obugabe",
+		"entries": "amakuru",
+		"search-input-label": "Serra Wikibijurro",
+		"language-button-text": "Soma Wikibijurro omu rulimi rwawe"
+	},
+	"wikisource": {
+		"name": "Wikiburugo",
+		"slogan": "Eryahurro ly'ebitabu by'obugabe"
+	},
+	"wikiversity": {
+		"name": "Wikivasite",
+		"slogan": "Ebikozeso by'okusoma by'obugabe",
+		"entries": "ebikozeso by'okwega",
+		"search-input-label": "Serra Wikivasite",
+		"language-button-text": "Soma Wikivasite omu rulimi rwawe"
+	},
+	"wikivoyage": {
+		"name": "Wikirugendo",
+		"entries": "empapura",
+		"search-input-label": "Serra Wikirugendo",
+		"language-button-text": "Soma Wikirugendo omu rulimi rwawe"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Ebisisani by'okukozesibwa by'obugabe n'ebindi"
+	},
+	"wikispecies": {
+		"name": "Wikibika"
+	},
+	"wikifunctions": {
+		"name": "Wikimirimo",
+		"slogan": "Eryahurro ly'emirimo ly'obugabe"
+	},
+	"wikidata": {
+		"name": "Wikibumanyi",
+		"slogan": "Omusinge gw'obumanyi gw'obugabe"
+	},
+	"mediawiki": {
+		"name": "MediyaWiki",
+		"slogan": "Apirikesooni ya wiki y'obugabe"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
+	}
+}

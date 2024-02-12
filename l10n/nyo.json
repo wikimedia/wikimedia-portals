@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahiise2"
+		]
+	},
+	"footer-donate": "Noosobora kuyamba omulimo gwaitu n'ekisembo.",
+	"terms": "Ebiragiro by'enkozesa",
+	"privacy-policy": "Ebiragiro by'ensita",
+	"search-input-button": "Serra",
+	"other-languages-label": "Endimi ezindi",
+	"top-ten-nav-label": "Endimi enkuru",
+	"all-languages-nav-label": "Endimi zoona",
+	"other-projects-nav-label": "Ebyehinyirwa bindi",
+	"wiki": {
+		"name": "Wikipediya",
+		"entries": "endugaho",
+		"search-input-label": "Serra Wikipediya",
+		"language-button-text": "Soma Wikipediya omu rulimi rwawe"
+	},
+	"wiktionary": {
+		"name": "Wikikatondogorozi",
+		"slogan": "Katondogorozi y'obugabe",
+		"search-input-label": "Serra Wikikatondogorozi",
+		"language-button-text": "Soma Wikikatondogorozi omu rulimi rwawe"
+	},
+	"wikibooks": {
+		"name": "Wikyebitabu"
+	},
+	"wikinews": {
+		"name": "Wikyamahurre"
+	},
+	"wikiquote": {
+		"name": "Wikyebijurro"
+	}
+}
