@@ -25,12 +25,18 @@
 		"language-button-text": "Soma Wikikatondogorozi omu rulimi rwawe"
 	},
 	"wikibooks": {
-		"name": "Wikyebitabu"
+		"name": "Wikyebitabu",
+		"entries": "empapura"
 	},
 	"wikinews": {
-		"name": "Wikyamahurre"
+		"name": "Wikyamahurre",
+		"entries": "endugaho"
 	},
 	"wikiquote": {
-		"name": "Wikyebijurro"
+		"name": "Wikyebijurro",
+		"entries": "endugaho"
+	},
+	"wikivoyage": {
+		"entries": "empapura"
 	}
 }

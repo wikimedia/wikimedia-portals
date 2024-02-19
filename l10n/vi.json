@@ -4,7 +4,8 @@
 			"Awdsweq123",
 			"Macofe",
 			"Minh Nguyen",
-			"Phjtieudoc"
+			"Phjtieudoc",
+			"Pisceskaze"
 		]
 	},
 	"language-name": "Tiếng Việt",
@@ -17,6 +18,9 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/vi",
 	"search-input-button": "Tìm kiếm",
 	"other-languages-label": "Ngôn ngữ khác",
+	"top-ten-nav-label": "Ngôn ngữ hàng đầu",
+	"all-languages-nav-label": "Tất cả ngôn ngữ",
+	"other-projects-nav-label": "Các dự án khác",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Bách khoa toàn thư mở",
@@ -85,6 +89,9 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Danh mục các loài"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions"
 	},
 	"wikidata": {
 		"name": "Wikidata",

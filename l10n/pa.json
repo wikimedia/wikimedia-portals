@@ -1,19 +1,80 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Amire80",
+			"Kuldeepburjbhalaike"
+		]
 	},
-	"language-name": "ਪੰਜਾਬੀ (ਗੁਰਮੁਖੀ)",
+	"language-name": "ਪੰਜਾਬੀ",
 	"language-name-romanized": "Pañjābī (Gurmukhī)",
 	"language-name-romanized-sorted": "Panjabi Gurmukhi",
+	"footer-donate": "ਤੁਸੀਂ ਦਾਨ ਨਾਲ ਸਾਡੇ ਕੰਮ ਦਾ ਸਮਰਥਨ ਕਰ ਸਕਦੇ ਹੋ।",
+	"search-input-button": "ਖੋਜੋ",
+	"other-languages-label": "ਹੋਰ ਭਾਸ਼ਾਵਾਂ",
+	"top-ten-nav-label": "ਪ੍ਰਮੁੱਖ ਭਾਸ਼ਾਵਾਂ",
+	"all-languages-nav-label": "ਸਾਰੀਆਂ ਭਾਸ਼ਾਵਾਂ",
+	"other-projects-nav-label": "ਹੋਰ ਪ੍ਰੋਜੈਕਟ",
 	"wiki": {
 		"name": "ਵਿਕੀਪੀਡੀਆ",
-		"slogan": "ਇਕ ਅਜ਼ਾਦ ਵਿਸ਼ਵਗਿਆਨਕੋਸ਼"
+		"slogan": "ਇਕ ਅਜ਼ਾਦ ਵਿਸ਼ਵਗਿਆਨਕੋਸ਼",
+		"entries": "ਲੇਖ",
+		"search-input-label": "ਵਿਕੀਪੀਡੀਆ ਖੋਜੋ",
+		"language-button-text": "ਵਿਕੀਪੀਡੀਆ ਨੂੰ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪਡ਼੍ਹੋ",
+		"app-links": {
+			"title": "ਐਂਡਰਾਇਡ ਜਾਂ ਆਈਓਐਸ ਲਈ ਵਿਕੀਪੀਡੀਆ ਡਾਊਨਲੋਡ ਕਰੋ",
+			"google-store": "ਗੂਗਲ ਪਲੇ ਸਟੋਰ",
+			"apple-store": "ਐਪਲ ਐਪ ਸਟੋਰ"
+		}
 	},
 	"wiktionary": {
-		"name": "Wiktionary",
-		"slogan": "ਇਕ ਅਜ਼ਾਦ ਸ਼ਬਦਕੋਸ਼"
+		"name": "ਵਿਕਸ਼ਨਰੀ",
+		"slogan": "ਇਕ ਅਜ਼ਾਦ ਸ਼ਬਦਕੋਸ਼",
+		"entries": "ਇੰਦਰਾਜ਼",
+		"search-input-label": "ਵਿਕਸ਼ਨਰੀ ਖੋਜੋ",
+		"language-button-text": "ਵਿਕਸ਼ਨਰੀ ਨੂੰ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
 	},
 	"wikibooks": {
-		"name": "Wikibooks"
+		"name": "ਵਿਕੀਕਿਤਾਬਾਂ",
+		"slogan": "ਮੁਫ਼ਤ ਪਾਠ ਪੁਸਤਕਾਂ",
+		"entries": "ਸਫ਼ੇ",
+		"search-input-label": "ਵਿਕੀਕਿਤਾਬਾਂ ਖੋਜੋ",
+		"language-button-text": "ਵਿਕੀਕਿਤਾਬਾਂ ਨੂੰ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪਡ਼੍ਹੋ"
+	},
+	"wikinews": {
+		"name": "ਵਿਕੀਖ਼ਬਰਾਂ",
+		"slogan": "ਮੁਫਤ ਖ਼ਬਰਾਂ ਦਾ ਸਰੋਤ",
+		"entries": "ਲੇਖ"
+	},
+	"wikiquote": {
+		"name": "ਵਿਕੀਕਥਨ"
+	},
+	"wikisource": {
+		"name": "ਵਿਕੀਸਰੋਤ"
+	},
+	"wikiversity": {
+		"name": "ਵਿਕੀਵਰਸਿਟੀ"
+	},
+	"wikivoyage": {
+		"name": "ਵਿਕੀਸਫ਼ਰ"
+	},
+	"commons": {
+		"name": "ਕਾਮਨਜ਼",
+		"slogan": "ਮੁਫ਼ਤ ਵਰਤੋਂ ਯੋਗ ਫੋਟੋਆਂ ਅਤੇ ਹੋਰ"
+	},
+	"wikispecies": {
+		"name": "ਵਿਕੀਕਿਸਮਾਂ"
+	},
+	"wikifunctions": {
+		"name": "ਵਿਕੀਫੰਕਸ਼ਨਜ਼",
+		"slogan": "ਮੁਫ਼ਤ ਫੰਕਸ਼ਨ ਲਾਇਬ੍ਰੇਰੀ"
+	},
+	"wikidata": {
+		"name": "ਵਿਕੀਡਾਟਾ"
+	},
+	"mediawiki": {
+		"name": "ਮੀਡੀਆਵਿਕੀ"
+	},
+	"metawiki": {
+		"name": "ਮੈਟਾ-ਵਿਕੀ"
 	}
 }
