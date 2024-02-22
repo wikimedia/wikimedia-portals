@@ -43,19 +43,30 @@
 	"wikinews": {
 		"name": "ਵਿਕੀਖ਼ਬਰਾਂ",
 		"slogan": "ਮੁਫਤ ਖ਼ਬਰਾਂ ਦਾ ਸਰੋਤ",
-		"entries": "ਲੇਖ"
+		"entries": "ਲੇਖ",
+		"search-input-label": "ਵਿਕੀਖ਼ਬਰਾਂ ਖੋਜੋ",
+		"language-button-text": "ਵਿਕੀਖ਼ਬਰਾਂ ਨੂੰ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
 	},
 	"wikiquote": {
-		"name": "ਵਿਕੀਕਥਨ"
+		"name": "ਵਿਕੀਕਥਨ",
+		"entries": "ਲੇਖ",
+		"search-input-label": "ਵਿਕੀਕਥਨ ਖੋਜੋ",
+		"language-button-text": "ਵਿਕੀਕਥਨ ਨੂੰ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
 	},
 	"wikisource": {
-		"name": "ਵਿਕੀਸਰੋਤ"
+		"name": "ਵਿਕੀਸਰੋਤ",
+		"slogan": "ਮੁਫ਼ਤ ਲਾਇਬ੍ਰੇਰੀ"
 	},
 	"wikiversity": {
-		"name": "ਵਿਕੀਵਰਸਿਟੀ"
+		"name": "ਵਿਕੀਵਰਸਿਟੀ",
+		"search-input-label": "ਵਿਕੀਵਰਸਿਟੀ ਖੋਜੋ",
+		"language-button-text": "ਵਿਕੀਵਰਸਿਟੀ ਨੂੰ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
 	},
 	"wikivoyage": {
-		"name": "ਵਿਕੀਸਫ਼ਰ"
+		"name": "ਵਿਕੀਸਫ਼ਰ",
+		"entries": "ਸਫ਼ੇ",
+		"search-input-label": "ਵਿਕੀਸਫ਼ਰ ਖੋਜੋ",
+		"language-button-text": "ਵਿਕੀਸਫ਼ਰ ਨੂੰ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
 	},
 	"commons": {
 		"name": "ਕਾਮਨਜ਼",
@@ -69,7 +80,8 @@
 		"slogan": "ਮੁਫ਼ਤ ਫੰਕਸ਼ਨ ਲਾਇਬ੍ਰੇਰੀ"
 	},
 	"wikidata": {
-		"name": "ਵਿਕੀਡਾਟਾ"
+		"name": "ਵਿਕੀਡਾਟਾ",
+		"slogan": "ਮੁਫ਼ਤ ਗਿਆਨ ਅਧਾਰ"
 	},
 	"mediawiki": {
 		"name": "ਮੀਡੀਆਵਿਕੀ"
