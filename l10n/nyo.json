@@ -30,11 +30,18 @@
 	},
 	"wikinews": {
 		"name": "Wikyamahurre",
+		"slogan": "Oburugo bw'amakuru bw'obugabe",
 		"entries": "endugaho"
 	},
 	"wikiquote": {
 		"name": "Wikyebijurro",
 		"entries": "endugaho"
+	},
+	"wikisource": {
+		"name": "Wikyoburugo"
+	},
+	"wikiversity": {
+		"name": "Wikivasite"
 	},
 	"wikivoyage": {
 		"entries": "empapura"
