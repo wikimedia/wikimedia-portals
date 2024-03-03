@@ -1,5 +1,4 @@
-var preq = require( 'preq' ),
-	BBPromise = require( 'bluebird' ),
+var BBPromise = require( 'bluebird' ),
 	fs = require( 'fs' ),
 	deleteFiles = require( './utils' ),
 
@@ -25,13 +24,11 @@ var preq = require( 'preq' ),
 	};
 
 function httpGet( url ) {
-	var preqOptions = { headers: { 'User-Agent': 'Wikimedia portals updater' } };
+	var options = { headers: { 'User-Agent': 'Wikimedia portals updater' } };
 
-	return preq.get( url, preqOptions )
-		.then( function ( request ) {
-			return BBPromise.resolve( request.body );
-		} )
-		.catch( function ( err ) {
+	return fetch( url, options )
+		.then( response => BBPromise.resolve( response.json() ) )
+		.catch( err => {
 			// I can haz error message that makes sense?
 			var msg = err.toString() + ' requesting ' + url;
 			console.error( msg ); // eslint-disable-line no-console
