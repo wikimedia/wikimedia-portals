@@ -2,7 +2,6 @@ var preq = require( 'preq' ),
 	BBPromise = require( 'bluebird' ),
 	moment = require( 'moment' ),
 	fs = require( 'fs' ),
-	_ = require( 'underscore' ),
 	deleteFiles = require( './utils' ),
 
 	/**
@@ -52,7 +51,7 @@ function getPageCounts() {
 			.then( function ( pagecounts ) {
 				var stats = {};
 
-				_.each( pagecounts, function ( wiki, code ) {
+				Object.entries( pagecounts ).forEach( ( [ code, wiki] ) => {
 					code = code.replace( /_/g, '-' );
 					stats[ code ] = wiki.contentPages;
 				} );
@@ -126,7 +125,7 @@ function getViewsData() {
 	garbageCollect();
 
 	// Go synchronously to avoid hitting throttling on the server
-	_.each( list, function ( hour ) {
+	list.forEach( ( hour ) => {
 		var fileName = 'cache/' + hour.file,
 			content;
 		try {
@@ -159,13 +158,13 @@ function getProjectViews() {
 		.then( function ( hourlies ) {
 			var views = {};
 
-			_.each( hourlies, function ( hourly ) {
+			hourlies.forEach( ( hourly ) => {
 				var lines;
 				if ( !hourly ) {
 					return;
 				}
 				lines = hourly.toString().split( '\n' );
-				_.each( lines, function ( line ) {
+				lines.forEach( ( line ) => {
 					var parts = line.split( /\s+-?\s*/ ),
 						wiki = parseProjectString( parts[ 0 ] );
 					views[ wiki ] = views[ wiki ] || 0;
@@ -191,11 +190,11 @@ function getSiteStats() {
 				siteMatrix = data[ 1 ].sitematrix,
 				views = data[ 2 ];
 
-			_.each( siteMatrix, function ( lang, propName ) {
+			Object.entries( siteMatrix ).forEach( ( [ propName, lang ] ) => {
 				if ( !/^\d+$/.test( propName ) ) {
 					return; // Not a language... Fuck, this API's output is ugly
 				}
-				_.each( lang.site, function ( site ) {
+				Object.values( lang.site ).forEach( ( site ) => {
 					var dbname = site.dbname.replace( /_/g, '-' );
 					stats[ site.code ] = stats[ site.code ] || {};
 					stats[ site.code ][ lang.code ] = {
