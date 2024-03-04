@@ -6,5 +6,8 @@
 	},
 	"globals": {
 		"mw": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018
 	}
 }
