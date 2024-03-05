@@ -2,7 +2,6 @@ var siteStats = require( './site-stats.json' ),
 	siteDefsFormatting = require( './l10n-overrides.json' ),
 	fs = require( 'fs' ),
 	_ = require( 'underscore' ),
-	merge = require( 'deepmerge' ),
 	languageData = require( '@wikimedia/language-data' ),
 	/** @type {Set.<string>} Languages for which language name warnings have already been issued */
 	warnedLanguages = new Set(),
@@ -99,8 +98,7 @@ Stats.readi18nFiles = function ( dirname ) {
 		siteDefinitions[ langCode ] = JSON.parse( fileContent );
 
 		if ( siteDefsFormatting[ langCode ] ) {
-			siteDefinitions[ langCode ] = merge(
-				siteDefinitions[ langCode ], siteDefsFormatting[ langCode ] );
+			siteDefinitions[ langCode ] = { ...siteDefinitions[ langCode ], ...siteDefsFormatting[ langCode ] };
 		}
 	} );
 
