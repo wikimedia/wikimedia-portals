@@ -1,12 +1,13 @@
 {
+	"name": "wikimedia-portals",
 	"private": true,
 	"scripts": {
 		"start": "gulp update-stats && gulp watch --portal=${npm_config_portal} & npm run dev-server",
 		"dev-server": "es-dev-server --app-index ./src/${npm_config_portal}/index.html --preserve-symlinks=true --watch --open",
 		"test": "npm -s run lint:styles && npm -s run lint:js",
 		"lint:fix": "npm -s run lint:styles -- --fix && npm -s run lint:js -- --fix",
-		"lint:styles": "stylelint -f verbose 'src/*/assets/postcss/*.css'",
-		"lint:js": "eslint '**/*.{js,json,yaml}'",
+		"lint:styles": "stylelint -f verbose \"src/*/assets/postcss/*.css\"",
+		"lint:js": "eslint \"**/*.{js,json,yaml}\"",
 		"build-all-portals": "npm -s run test && gulp -- update-stats && gulp --portal=wikimedia.org -- default && gulp --portal=wikipedia.org -- default && gulp --portal=wiktionary.org -- default && gulp --portal=wikibooks.org -- default && gulp --portal=wikiquote.org -- default && gulp --portal=wikinews.org -- default &&  gulp --portal=wikiversity.org -- default && gulp --portal=wikivoyage.org -- default"
 	},
 	"pre-commit": [
@@ -20,7 +21,7 @@
 		"cssnano": "^4.1.10",
 		"del": "^5.1.0",
 		"es-dev-server": "^1.54.1",
-		"eslint-config-wikimedia": "0.25.1",
+		"eslint-config-wikimedia": "0.26.0",
 		"eslint-plugin-unicorn": "40.1.0",
 		"eslint-plugin-yml": "0.13.0",
 		"glob": "^7.1.6",
