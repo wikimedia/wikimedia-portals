@@ -10,6 +10,9 @@
 	"language-name-romanized": "Sybyrtsa",
 	"language-name-romanized-sorted": "Sybyrtsa",
 	"search-input-button": "Эстәү",
+	"other-languages-label": "Пашҡа телләр",
+	"all-languages-nav-label": "Пөтөн телләр",
+	"other-projects-nav-label": "Пашҡа проектлар",
 	"wiki": {
 		"name": "Пикипедия",
 		"slogan": "Ацыҡ энциклопедия",
@@ -25,10 +28,13 @@
 		"slogan": "Ацыҡ уғыу китаплар"
 	},
 	"wikinews": {
-		"name": "Пикийаңалыҡлар"
+		"name": "Пикийаңалыҡлар",
+		"entries": "мәҡәләләр"
 	},
 	"wikiquote": {
-		"name": "Пикицитаталыҡ"
+		"name": "Пикицитаталыҡ",
+		"slogan": "Цитаталарның ацыҡ коллекциялары",
+		"entries": "мәҡәләләр"
 	},
 	"wikisource": {
 		"name": "Пикитека",
@@ -45,6 +51,9 @@
 	"commons": {
 		"name": "Пикисклад",
 		"slogan": "Ацыҡ фотолар та кәнерәк"
+	},
+	"wikifunctions": {
+		"name": "Үикифункциялар"
 	},
 	"wikidata": {
 		"name": "Пикиданныйлар",
