@@ -1,7 +1,6 @@
 var siteStats = require( './site-stats.json' ),
 	siteDefsFormatting = require( './l10n-overrides.json' ),
 	fs = require( 'fs' ),
-	_ = require( 'underscore' ),
 	languageData = require( '@wikimedia/language-data' ),
 	/** @type {Set.<string>} Languages for which language name warnings have already been issued */
 	warnedLanguages = new Set(),
@@ -122,17 +121,18 @@ Stats.nonStandardCodes = {
 Stats.getTop = function ( portal, criteria, n ) {
 
 	// Validate
-	var topViewed = _.filter( siteStats[ portal ], function ( stats, key ) {
-		var siteDef = siteDefs[ key ],
-			portalDef = siteDef && siteDef[ portal ];
-		stats.code = key;
-		// T355001: Lacking localization should not bar the site from being top 10.
-		// For Chinese sites, we will build zh entries from zh-hans and zh-hant entries later.
-		if ( !portalDef && key !== 'zh' ) {
-			warn( key, `No localization of the site name, entry name, and slogan for ${key}.${portal}.org` );
-		}
-		return siteDef && stats.closed === false;
-	} );
+	let topViewed = Object.entries( siteStats[ portal ] )
+    .map( ( [ code, stats ] ) => ( { ...stats, code } ) )
+    .filter( function ( { code, closed } ) {
+        var siteDef = siteDefs[ code ],
+            portalDef = siteDef && siteDef[ portal ];
+        // T355001: Lacking localization should not bar the site from being top 10.
+        // For Chinese sites, we will build zh entries from zh-hans and zh-hant entries later.
+        if ( !portalDef && code !== 'zh' ) {
+            warn( code, `No localization of the site name, entry name, and slogan for ${code}.${portal}.org` );
+        }
+        return siteDef && closed === false;
+    } );
 
 	// Sort
 	topViewed.sort( function ( a, b ) {
@@ -143,7 +143,7 @@ Stats.getTop = function ( portal, criteria, n ) {
 	topViewed = topViewed.slice( 0, n );
 
 	// Return code only
-	topViewed = _.map( topViewed, function ( wiki ) {
+	topViewed = topViewed.map( function( wiki ) {
 		var light = {
 			code: wiki.code
 		};
@@ -166,15 +166,10 @@ Stats.getTop = function ( portal, criteria, n ) {
 Stats.getRange = function ( portal, criteria, from, to ) {
 
 	// Validate
-	var list = _.filter( siteStats[ portal ], function ( stats, code ) {
-		var isInRange;
-
-		stats.code = code;
-		isInRange = stats[ criteria ] >= from &&
-			( !to || stats[ criteria ] < to );
-
-		return isInRange;
-	} );
+	let list = Object.entries( siteStats[ portal ] )
+    .map( ( [ code, stats ] ) => ( { ...stats, code } ) )
+    .filter( stats => stats[ criteria ] >= from &&
+        ( !to || stats[ criteria ] < to ) );
 
 	// Sort alphabetically
 	list.sort( function ( a, b ) {
@@ -196,7 +191,7 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 	} );
 
 	// Return code only
-	list = _.map( list, function ( wiki ) {
+	list = list.map( function ( wiki ) {
 		var light = {
 			code: wiki.code
 		};
@@ -273,7 +268,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 	}
 
 	// Format the list with all the information we have
-	_.each( list, function ( top, index ) {
+	list.forEach( function ( top, index ) {
 
 		var stats = siteStats[ portal ][ top.code ],
 			siteDef = siteDefs[ top.code ],
@@ -312,10 +307,10 @@ Stats.format = function ( portal, list, optionsArg ) {
 		 * @returns list
 		 */
 		function getVariantList( variant ) {
-			return _.extend(
+			return Object.assign(
 				{},
 				siteDefs[ variant ][ portal ],
-				_.pick( siteDefs[ variant ], extendedl10n ),
+				Object.fromEntries( Object.entries( siteDefs[ variant ] ).filter( ( [ key ] ) => extendedl10n.includes( key ) ) ),
 				{
 					lang: variant, // Used as HTML lang attribute
 					code: variant, // Used in filename
@@ -325,7 +320,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 
 		function buildVariantedL10n( a, b, attrs ) {
 			var varianted = {};
-			_.each( attrs, function ( attr ) {
+			attrs.forEach( function( attr ) {
 				if ( a[ attr ] && b[ attr ] ) {
 					varianted[ attr ] = `${a[ attr ]} / ${b[ attr ]}`;
 				} else if ( a[ attr ] ) {
@@ -341,14 +336,14 @@ Stats.format = function ( portal, list, optionsArg ) {
 				'zh-hans': getVariantList( 'zh-hans' ),
 				'zh-hant': getVariantList( 'zh-hant' )
 			};
-			_.extend( portalDef, buildVariantedL10n(
+			Object.assign( portalDef, buildVariantedL10n(
 				portalDef.variants[ 'zh-hans' ],
 				portalDef.variants[ 'zh-hant' ],
 				[ 'name', 'slogan', 'entries' ]
 			) );
 		}
 
-		var formatted = _.extend( {}, stats, portalDef, getLanguageName( top.code ) );
+		var formatted = Object.assign( {}, stats, portalDef, getLanguageName( top.code ) );
 		formatted.index = ++index;
 		formatted.siteName = portalDef?.name || siteDefs.en[ portal ].name;
 		formatted.lang = siteDef?.lang || formatted.code;
@@ -387,7 +382,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 	} );
 
 	// Need to rebuild the list as some wikis may have been merged.
-	_.each( list, function ( top ) {
+	list.forEach( function( top ) {
 		if ( newListByCode[ top.code ] ) {
 			newList.push( newListByCode[ top.code ] );
 		}
