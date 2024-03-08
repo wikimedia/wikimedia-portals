@@ -1,6 +1,5 @@
 var preq = require( 'preq' ),
 	BBPromise = require( 'bluebird' ),
-	moment = require( 'moment' ),
 	fs = require( 'fs' ),
 	_ = require( 'underscore' ),
 	deleteFiles = require( './utils' ),
@@ -90,18 +89,22 @@ function parseProjectString( str ) {
 	return name;
 }
 
-function generateFileList() {
-	var day = moment.utc().startOf( 'day' ),
-		list = [],
-		baseUrl, baseName, file, d, i;
+function generateFileList( days ) {
+	const list = [],
+		currentDate = new Date();
 
-	for ( d = 0; d < DAYS; d++ ) {
-		day = day.subtract( 1, 'days' );
-		baseUrl = 'https://dumps.wikimedia.org/other/pageviews/' + day.format( 'YYYY/YYYY-MM' ) + '/';
-		baseName = 'projectviews-' + day.format( 'YYYYMMDD' );
+	for ( let d = 0; d < days; d++ ) {
+		currentDate.setDate( currentDate.getDate() - 1 ); // Subtract a day
 
-		for ( i = 0; i <= 23; i++ ) {
-			file = baseName + '-' + ( i < 10 ? '0' : '' ) + i.toString() + '0000';
+		const year = currentDate.getFullYear();
+		const month = ( currentDate.getMonth() + 1 ).toString().padStart( 2, '0' );
+		const day = currentDate.getDate().toString().padStart( 2, '0' );
+
+		const baseUrl = 'https://dumps.wikimedia.org/other/pageviews/' + year + '/' + year + '-' + month + '/';
+		const baseName = 'projectviews-' + year + month + day;
+
+		for ( let i = 0; i <= 23; i++ ) {
+			const file = baseName + '-' + ( i < 10 ? '0' : '' ) + i.toString() + '0000';
 			list.push( { file: file, url: baseUrl + file } );
 		}
 	}
@@ -114,7 +117,7 @@ function garbageCollect() {
 }
 
 function getViewsData() {
-	var list = generateFileList(),
+	var list = generateFileList( DAYS ),
 		stats = [],
 		promise = new BBPromise( function ( resolve ) {
 			resolve();
