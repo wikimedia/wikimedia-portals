@@ -1,6 +1,5 @@
 /* eslint-env node, es6 */
-var _ = require( 'underscore' ),
-	hbs = require( '../../hbs-helpers.global.js' ),
+var hbs = require( '../../hbs-helpers.global.js' ),
 	fs = require( 'fs' ),
 	glob = require( 'glob' ),
 	stats = require( '../../data/stats' ),
@@ -58,7 +57,7 @@ searchLanguageDropdown = stats.format( 'wiki', searchLanguageWikis, {
 siteStats = {};
 range = stats.getRangeFormatted( 'wiki', 'views', 10 );
 
-_.each( range, function ( wiki ) {
+range.forEach( function ( wiki ) {
 	if ( wiki.closed || wiki.sublinks ) {
 		return;
 	}
@@ -71,7 +70,10 @@ _.each( range, function ( wiki ) {
 		}
 	} ).toString();
 
-	siteStats[ wiki.code ] = _.omit( wiki, 'closed', 'code', 'index' );
+	siteStats[ wiki.code ] = { ...wiki }; // Create a shallow copy to avoid modifying the parameter
+	delete siteStats[ wiki.code ].closed;
+	delete siteStats[ wiki.code ].code;
+	delete siteStats[ wiki.code ].index;
 } );
 
 function getPreloadLinks() {
@@ -126,9 +128,10 @@ function createTranslationFiles() {
 		if ( siteStats[ lang ].sublinks ) {
 			siteStats[ lang ].sublinks.forEach( writeFile );
 		} else if ( lang === 'zh' ) {
-			writeFile( siteStats[ lang ].variants[ 'zh-hans' ], 'zh-hans' );
-			writeFile( siteStats[ lang ].variants[ 'zh-hant' ], 'zh-hant' );
-			writeFile( _.omit( siteStats[ lang ], 'variants' ), lang );
+			const { variants, ...rest } = siteStats[ lang ];
+			writeFile( variants[ 'zh-hans' ], 'zh-hans' );
+			writeFile( variants[ 'zh-hant' ], 'zh-hant' );
+			writeFile( rest, lang );
 		} else {
 			writeFile( siteStats[ lang ], lang );
 		}
