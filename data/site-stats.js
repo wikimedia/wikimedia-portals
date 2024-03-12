@@ -1,5 +1,4 @@
-var BBPromise = require( 'bluebird' ),
-	fs = require( 'fs' ),
+const fs = require( 'fs' ),
 	deleteFiles = require( './utils' ),
 
 	/**
@@ -60,7 +59,7 @@ function getPageCounts() {
 					code = code.replace( /_/g, '-' );
 					stats[ code ] = wiki.contentPages;
 				} );
-				return BBPromise.resolve( stats );
+				return stats;
 			} );
 	}
 }
@@ -123,9 +122,7 @@ function garbageCollect() {
 function getViewsData() {
 	var list = generateFileList( DAYS ),
 		stats = [],
-		promise = new BBPromise( function ( resolve ) {
-			resolve();
-		} );
+		promise = Promise.resolve();
 
 	if ( !fs.existsSync( 'cache' ) ) {
 		fs.mkdirSync( 'cache' );
@@ -156,9 +153,7 @@ function getViewsData() {
 		}
 	} );
 
-	return promise.then( function () {
-		return BBPromise.resolve( stats );
-	} );
+	return promise.then( () => stats );
 }
 
 function getProjectViews() {
@@ -182,17 +177,17 @@ function getProjectViews() {
 			if ( !views ) {
 				// We permit some hourly files to fail to be downloaded, but all of them missing
 				// Is a sign of a problem
-				return BBPromise.reject( 'No hourly project views file was successfully loaded' );
+				return Promise.reject( 'No hourly project views file was successfully loaded' );
 			}
-			return BBPromise.resolve( views );
+			return views;
 		} )
-		.error( function () {} ); // Do nothing, last file can be being generated right now
+		.catch( () => {} ); // Do nothing, last file can be being generated right now
 }
 
 function getSiteStats() {
 	var stats = {};
 
-	return BBPromise.all( [ getPageCounts(), getSiteMatrix(), getProjectViews() ] )
+	return Promise.all( [ getPageCounts(), getSiteMatrix(), getProjectViews() ] )
 		.then( function ( data ) {
 			var counts = data[ 0 ],
 				siteMatrix = data[ 1 ].sitematrix,
@@ -214,7 +209,7 @@ function getSiteStats() {
 				} );
 			} );
 
-			return BBPromise.resolve( stats );
+			return stats;
 		} );
 
 }

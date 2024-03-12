@@ -16,7 +16,6 @@
 	"devDependencies": {
 		"@wikimedia/codex-design-tokens": "2.2.1",
 		"@wikimedia/language-data": "^1.1.8",
-		"bluebird": "^3.7.2",
 		"browserslist-config-wikimedia": "0.7.0",
 		"cssnano": "^4.1.10",
 		"es-dev-server": "^1.54.1",
