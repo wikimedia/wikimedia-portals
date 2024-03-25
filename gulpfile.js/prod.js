@@ -1,7 +1,8 @@
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	plugins = gulpLoadPlugins(),
-	del = require( 'del' ),
+	fs = require( 'fs' ),
+	path = require( 'path' ),
 	argv = require( 'yargs' ).argv,
 	portalParam = argv.portal,
 	cssnano = require( 'cssnano' );
@@ -37,24 +38,43 @@ function inlineAssets() {
 
 /**
  * Clean `assets/js/` folder from the prod folder.
- *
- * @return {Stream}
+ * @param cb
  */
-function cleanProdJS() {
+function cleanProdJS( cb ) {
+	try {
+		var prodDir = getProdDir();
+		var jsFolderPath = path.join( prodDir, 'assets', 'js' );
 
-	return del( [ getProdDir() + '/assets/js' ] );
+		if ( fs.existsSync( jsFolderPath ) ) {
+			fs.rmdirSync( jsFolderPath, { recursive: true } );
+			console.log( `Cleaned: ${jsFolderPath}` );
+			cb(); // Callback after success
+		} else {
+			console.log( `Directory does not exist: ${jsFolderPath}` );
+			cb(); // Callback after success (assuming cleaning is not needed if the directory doesn't exist)
+		}
+	} catch ( error ) {
+		console.error( 'Error cleaning prod JS:', error );
+		cb( error ); // Callback with error if there's an error cleaning the directory
+	}
 }
-
 function copyTranslationFiles() {
-
 	requirePortalParam();
 
-	del( getProdDir() + '/assets/l10n/**/*.json' );
+	const prodDir = getProdDir();
+	const assetsDir = path.join( prodDir, 'assets', 'l10n' );
 
-	return gulp.src( getBaseDir() + '/assets/l10n/**/*.json' )
-		.pipe( gulp.dest( getProdDir() + '/assets/l10n/' ) );
+	if ( fs.existsSync( assetsDir ) ) {
+		// Remove existing JSON files in the destination directory
+		fs.readdirSync( assetsDir )
+			.filter( file => file.endsWith( '.json' ) )
+			.forEach( file => fs.unlinkSync( path.join( assetsDir, file ) ) );
+	} else {
+		console.log( `Directory does not exist: ${assetsDir}` );
+	}
+	return gulp.src( path.join( getBaseDir(), 'assets', 'l10n/**/*.json' ) )
+		.pipe( gulp.dest( assetsDir ) );
 }
-
 /**
  * Concatenate JS files into a single file and minify it.
  *

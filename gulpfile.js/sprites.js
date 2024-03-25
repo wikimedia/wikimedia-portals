@@ -1,13 +1,28 @@
 var gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
-	del = require( 'del' ),
+	fs = require( 'fs' ),
+	glob = require( 'glob' ),
 	plugins = gulpLoadPlugins();
 
 const { getBaseDir, getConfig } = require( './config' );
 
 function cleanSprites() {
-	var conf = getConfig();
-	return del( [ conf.img.sprite.outputSVGGlob ] );
+	const conf = getConfig();
+	const outputSVGGlob = conf.img.sprite.outputSVGGlob;
+	const outputSVGFiles = glob.sync( outputSVGGlob );
+
+	return Promise.all( outputSVGFiles.map( file => {
+		return new Promise( ( resolve, reject ) => {
+			fs.unlink( file, err => {
+				if ( err ) {
+					reject( err );
+				} else {
+					console.log( `Sprite file deleted: ${file}` );
+					resolve();
+				}
+			} );
+		} );
+	} ) );
 }
 
 function createSvgSprite() {
