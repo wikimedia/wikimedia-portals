@@ -58,11 +58,11 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "Free library"
+		"slogan": "Free content library"
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
-		"slogan": "Free course materials",
+		"slogan": "Free learning resources",
 		"entries": "learning resources",
 		"search-input-label": "Search Wikiversity",
 		"language-button-text": "Read Wikiversity in your language"
@@ -76,7 +76,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Freely usable photos & more"
+		"slogan": "Free media collection"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -92,7 +92,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Free & open wiki application"
+		"slogan": "Free & open wiki software"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
