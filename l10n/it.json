@@ -64,11 +64,11 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "La biblioteca libera"
+		"slogan": "Libreria di contenuti libera"
 	},
 	"wikiversity": {
 		"name": "Wikiversità",
-		"slogan": "L'apprendimento libero",
+		"slogan": "Risorse di apprendimento libere",
 		"entries": "lezioni"
 	},
 	"wikivoyage": {
@@ -79,7 +79,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Foto utilizzabili liberamente e altro"
+		"slogan": "Raccolta multimediale libera"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -95,7 +95,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Applicazione wiki gratuita e aperta"
+		"slogan": "Software wiki libero e aperto"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
