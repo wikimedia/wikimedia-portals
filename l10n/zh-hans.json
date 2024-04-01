@@ -78,7 +78,7 @@
 	},
 	"wikiversity": {
 		"name": "维基学院",
-		"slogan": "自由的研习社群",
+		"slogan": "自由的学习资源",
 		"entries": "学习资源",
 		"search-input-label": "在维基学院搜索",
 		"language-button-text": "以您的语言阅读维基学院"
@@ -108,7 +108,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "自由开放的wiki应用程序"
+		"slogan": "自由开放的wiki软件"
 	},
 	"metawiki": {
 		"name": "元维基",

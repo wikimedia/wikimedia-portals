@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Avengium",
+			"Eulalio",
 			"Fitoschido",
 			"Jack30",
 			"Jdforrester",
@@ -65,7 +66,7 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "La biblioteca libre"
+		"slogan": "Biblioteca de contenido libre"
 	},
 	"wikiversity": {
 		"name": "Wikiversidad",
@@ -81,7 +82,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Fotos libremente utilizables y más"
+		"slogan": "Colección multimedia libre"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -96,7 +97,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Aplicación wiki libre y abierta"
+		"slogan": "Software wiki libre y abierto"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",

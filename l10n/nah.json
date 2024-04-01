@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Akapochtli",
+			"Amire80",
 			"Languaeditor"
 		]
 	},
@@ -11,13 +12,13 @@
 	"search-input-button": "Xiktemo",
 	"other-languages-label": "Sekinok tlahtolli",
 	"wiki": {
-		"name": "Wikipediah",
+		"name": "Huiquipedia",
 		"slogan": "Ne ihtonki weyiamochtli",
 		"entries": "tlahkwilolamatl",
-		"search-input-label": "Xiktemo pan Wikipediah",
-		"language-button-text": "Xikixpowa Wikipediah ika motlahtol",
+		"search-input-label": "Xiktemo pan Huiquipedia",
+		"language-button-text": "Xikixpowa Huiquipedia ika motlahtol",
 		"app-links": {
-			"title": "Xiktemowi Wikipediah pan Android so iOS",
+			"title": "Xiktemowi Huiquipedia pan Android so iOS",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"

@@ -68,7 +68,7 @@
 	},
 	"wikisource": {
 		"name": "Wikiaineisto",
-		"slogan": "Vapaa kirjasto"
+		"slogan": "Vapaasisältöinen kirjasto"
 	},
 	"wikiversity": {
 		"name": "Wikiopisto",
@@ -86,7 +86,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Vapaasti käytettäviä kuvia ja tiedostoja"
+		"slogan": "Vapaa mediakokoelma"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -101,7 +101,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Ilmainen & avoin wikisovellus"
+		"slogan": "Ilmainen ja avoin wikiohjelmisto"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",

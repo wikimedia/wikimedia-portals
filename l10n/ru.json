@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Deltaspace",
+			"Dirruw'o",
 			"Iniquity",
 			"Jack who built the house",
 			"Jdforrester",
@@ -76,11 +77,11 @@
 	},
 	"wikisource": {
 		"name": "Викитека",
-		"slogan": "Свободная библиотека"
+		"slogan": "Бесплатная библиотека контента"
 	},
 	"wikiversity": {
 		"name": "Викиверситет",
-		"slogan": "Свободные учебные курсы",
+		"slogan": "Бесплатные учебные ресурсы",
 		"entries": "образовательных материалов",
 		"search-input-label": "Поиск в Викиверситете",
 		"language-button-text": "Читайте Викиверситет на родном языке"
@@ -94,7 +95,7 @@
 	},
 	"commons": {
 		"name": "Викисклад",
-		"slogan": "Свободные фотографии и не только"
+		"slogan": "Свободная медиаколлекция"
 	},
 	"wikispecies": {
 		"name": "Викивиды",
@@ -110,7 +111,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Свободный и открытый вики-движок"
+		"slogan": "Бесплатное и открытое программное обеспечение вики"
 	},
 	"metawiki": {
 		"name": "Мета-вики",
