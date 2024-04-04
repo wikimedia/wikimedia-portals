@@ -6,6 +6,7 @@
 			"Benoit Rochon",
 			"Florian COLLIN",
 			"Gomoko",
+			"Hecatonchire",
 			"Jdforrester",
 			"Jules*",
 			"Niridya",
@@ -17,7 +18,7 @@
 	},
 	"language-name": "Français",
 	"language-name-romanized": "français",
-	"language-name-romanized-sorted": "Français",
+	"language-name-romanized-sorted": "Francais",
 	"footer-donate": "Vous pouvez soutenir notre travail avec un don.",
 	"license": "Cette page est disponible sous la <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">licence Creative Commons Attribution-Partage dans les mêmes conditions</a>.",
 	"terms": "Conditions d’utilisation",
@@ -74,11 +75,11 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "Bibliothèque libre"
+		"slogan": "Bibliothèque libre de droit"
 	},
 	"wikiversity": {
 		"name": "Wikiversité",
-		"slogan": "Matériel pédagogique libre",
+		"slogan": "Ressources pédagogiques libres",
 		"entries": "ressources d’apprentissage",
 		"search-input-label": "Rechercher sur Wikiversité",
 		"language-button-text": "Lire Wikiversité dans votre langue"

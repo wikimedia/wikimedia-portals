@@ -18,6 +18,8 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/hu",
 	"search-input-button": "Keresés",
 	"other-languages-label": "További nyelvek",
+	"all-languages-nav-label": "Minden nyelv",
+	"other-projects-nav-label": "További projektek",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "A szabad enciklopédia",
@@ -26,7 +28,7 @@
 		"language-button-text": "Olvasd a Wikipédiát az anyanyelveden",
 		"footer-description": "A Wikipédiát a Wikimédia Alapítvány üzemelteti, egy nonprofit szervezet, ami sok más projektet is üzemeltet.",
 		"app-links": {
-			"title": "Wikipédia Android-és iOS-alkalmazás letöltése",
+			"title": "Wikipédia Android- és iOS-alkalmazás letöltése",
 			"description": "Mentsd el a kedvenc szócikkeidet kapcsolat nélküli olvasásra, szinkronizáld az olvasólistáidat az eszközeid között, és szabd testre az olvasási élményedet a hivatalos Wikipédia-mobilalkalmazással.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store"
@@ -34,7 +36,7 @@
 	},
 	"wiktionary": {
 		"name": "Wikiszótár",
-		"slogan": "A szabad szótár",
+		"slogan": "Szabad szótár",
 		"entries": "bejegyzés",
 		"search-input-label": "Keresés a Wikiszótárban",
 		"language-button-text": "Olvasd a Wikiszótárat az anyanyelveden"
@@ -55,14 +57,14 @@
 	},
 	"wikiquote": {
 		"name": "Wikidézet",
-		"slogan": "A szabad idézetgyűjtemény",
+		"slogan": "Szabad idézetgyűjtemény",
 		"entries": "szócikk",
 		"search-input-label": "Keresés a Wikidézetben",
 		"language-button-text": "Olvasd a Wikidézetet az anyanyelveden"
 	},
 	"wikisource": {
 		"name": "Wikiforrás",
-		"slogan": "Szabad könyvtár"
+		"slogan": "Szabad tartalmak könyvtára"
 	},
 	"wikiversity": {
 		"name": "Wikiegyetem",
@@ -80,11 +82,14 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Szabad felhasználású fényképek és egyebek"
+		"slogan": "Szabad médiafájlok gyűjteménye"
 	},
 	"wikispecies": {
 		"name": "Wikifajok",
 		"slogan": "Szabad fajmutató"
+	},
+	"wikifunctions": {
+		"slogan": "Szabad függvénykönyvtár"
 	},
 	"wikidata": {
 		"name": "Wikidata",

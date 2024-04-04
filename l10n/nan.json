@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Winston Sung"
 		]
 	},
-	"language-name": "閩南語 / Bân-lâm-gú"
+	"language-name": "閩南語 / Bân-lâm-gú",
+	"language-name-romanized": "Bân-lâm-gú",
+	"language-name-romanized-sorted": "Ban-lam-gu",
+	"search-input-button": "Chhoē",
+	"wiki": {
+		"name": "Wikipedia"
+	}
 }
