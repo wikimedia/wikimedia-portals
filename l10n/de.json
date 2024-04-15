@@ -11,29 +11,33 @@
 			"ManuelFranz",
 			"Metalhead64",
 			"ThisCarthing",
-			"Tobi 406"
+			"Tobi 406",
+			"TomatoCake"
 		]
 	},
 	"language-name": "Deutsch",
 	"language-name-romanized-sorted": "Deutsch",
 	"footer-donate": "Du kannst uns bei unserer Arbeit mit einer Spende unterstützen.",
-	"license": "Diese Seite ist verfügbar unter der <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.de'>Creative-Commons-Lizenz „Namensnennung – Weitergabe unter gleichen Bedingungen“</a>.",
+	"license": "Diese Seite ist verfügbar unter der <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.de'>Creative-Commons-Lizenz „Namensnennung – Weitergabe unter gleichen Bedingungen“</a>",
 	"terms": "Nutzungsbedingungen",
 	"privacy-policy": "Datenschutzrichtlinie",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/de",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/de",
 	"search-input-button": "Suchen",
 	"other-languages-label": "Andere Sprachen",
+	"top-ten-nav-label": "Beliebte Sprachen",
+	"all-languages-nav-label": "Alle Sprachen",
+	"other-projects-nav-label": "Andere Projekte",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Die freie Enzyklopädie",
 		"entries": "Artikel",
 		"search-input-label": "Wikipedia durchsuchen",
 		"language-button-text": "Wikipedia in deiner Sprache lesen",
-		"footer-description": "Wikipedia wird gehostet von der Wikimedia Foundation, einer Non-Profit-Organisation, die auch eine Reihe anderer Projekte betreibt.",
+		"footer-description": "Wikipedia wird von der Wikimedia Foundation gehostet, einer gemeinnützigen Organisation, die auch eine Reihe anderer Projekte hostet.",
 		"app-links": {
 			"title": "Lade Wikipedia für Android oder iOS herunter",
-			"description": "Speichere deinen Lieblingsartikel zum Offline-Lesen, synchronisiere deine Leselisten und passe deine Lese-Erfahrung an, alles mit der offiziellen Wikipedia-App.",
+			"description": "Speichere deine Lieblingsartikel, um sie offline zu lesen, synchronisiere deine Leselisten und passe dein Leseerlebnis an, alles mit der offiziellen Wikipedia-App.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
@@ -69,25 +73,25 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "Die freie Quellensammlung"
+		"slogan": "Bibliothek mit freiem Inhalt"
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
-		"slogan": "Freie Lehr- und Lernmaterialien",
+		"slogan": "Freie Lernressourcen",
 		"entries": "Lehrmittel",
 		"search-input-label": "Wikiversity durchsuchen",
 		"language-button-text": "Wikiversity in deiner Sprache lesen"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Reiseführer",
+		"slogan": "Freie Reiseführer",
 		"entries": "Seiten",
 		"search-input-label": "Wikivoyage durchsuchen",
-		"language-button-text": "Lies Wikivoyage in deiner Sprache"
+		"language-button-text": "Wikivoyage in deiner Sprache lesen"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Frei verwendbare Fotos und mehr"
+		"slogan": "Freie Mediensammlung"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -103,7 +107,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Freie und offene Wikianwendung"
+		"slogan": "Freie und offene Wiki-Software"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
