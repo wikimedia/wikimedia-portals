@@ -13,6 +13,9 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ia",
 	"search-input-button": "Cercar",
 	"other-languages-label": "Altere linguas",
+	"top-ten-nav-label": "Linguas popular",
+	"all-languages-nav-label": "Tote le linguas",
+	"other-projects-nav-label": "Altere projectos",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Le encyclopedia libere",
@@ -58,11 +61,11 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "Bibliotheca libere"
+		"slogan": "Bibliotheca de contento libere"
 	},
 	"wikiversity": {
 		"name": "Wikiversitate",
-		"slogan": "Material educative libere",
+		"slogan": "Ressources educative libere",
 		"entries": "ressources de apprendimento",
 		"search-input-label": "Cercar in Wikiversitate",
 		"language-button-text": "Leger Wikiversitate in tu lingua"
@@ -76,7 +79,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Photos de uso libere e plus"
+		"slogan": "Collection multimedia libere"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",

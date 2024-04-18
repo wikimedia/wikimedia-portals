@@ -15,6 +15,9 @@
 	"privacy-policy": "ꠘꠤꠞꠣꠚꠁꠔ꠆ꠔꠣ ꠘꠤꠔꠤ",
 	"search-input-button": "ꠔꠥꠇꠣꠅ",
 	"other-languages-label": "ꠀꠞꠎꠣꠔꠤ ꠝꠣꠔꠦ",
+	"top-ten-nav-label": "ꠃꠙꠞꠞ ꠜꠣꠡꠣꠁꠘ",
+	"all-languages-nav-label": "ꠢꠇꠟ ꠜꠣꠡꠣꠁꠘ",
+	"other-projects-nav-label": "ꠅꠘ꠆ꠘ ꠎꠦꠉꠣꠞ ꠇꠣꠝꠅꠇꠟ",
 	"wiki": {
 		"name": "ꠃꠁꠇꠤꠙꠤꠒꠤꠀ",
 		"slogan": "ꠚ꠆ꠞꠤ ꠉꠤꠀꠘꠇꠥꠐꠣ",
@@ -83,6 +86,10 @@
 	"wikispecies": {
 		"name": "ꠃꠁꠇꠤꠁꠍꠙꠤꠍꠤꠎ",
 		"slogan": "ꠎꠣꠔꠤ ꠅꠈꠟꠞ ꠚ꠆ꠞꠤ ꠜꠣꠘ꠆ꠒꠣꠞ"
+	},
+	"wikifunctions": {
+		"name": "ꠁꠁꠇꠤꠚꠣꠋꠡꠘꠣꠁꠘ",
+		"slogan": "ꠝꠣꠉꠘꠣ ꠚꠣꠋꠡꠘꠞ ꠟꠣꠁꠛ꠆ꠛꠦꠞꠤ"
 	},
 	"wikidata": {
 		"name": "ꠃꠁꠇꠤꠒꠣꠐꠣ",
