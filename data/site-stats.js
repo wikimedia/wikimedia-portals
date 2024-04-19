@@ -27,12 +27,20 @@ function httpGet( url ) {
 	var options = { headers: { 'User-Agent': 'Wikimedia portals updater' } };
 
 	return fetch( url, options )
-		.then( response => BBPromise.resolve( response.json() ) )
+		.then( response => response.text() )
+		.then( responseText => {
+			try {
+				const responseJSON = JSON.parse( responseText );
+				return Promise.resolve( responseJSON );
+			} catch {
+				return Promise.resolve( responseText );
+			}
+		} )
 		.catch( err => {
 			// I can haz error message that makes sense?
 			var msg = err.toString() + ' requesting ' + url;
 			console.error( msg ); // eslint-disable-line no-console
-			BBPromise.reject( msg );
+			return Promise.reject( msg );
 		} );
 }
 
@@ -104,7 +112,6 @@ function generateFileList( days ) {
 			list.push( { file: file, url: baseUrl + file } );
 		}
 	}
-
 	return list;
 }
 
@@ -137,7 +144,7 @@ function getViewsData() {
 					return httpGet( hour.url )
 						.then( function ( text ) {
 							if ( !text ) {
-								return;
+								throw new Error(`There was an error fetching the following URL: ${hour.url}`);
 							}
 							fs.writeFileSync( fileName, text );
 							stats.push( text );
