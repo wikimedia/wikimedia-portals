@@ -140,18 +140,7 @@ Stats.getTop = function ( portal, criteria, n ) {
 	} );
 
 	// Return top 10
-	topViewed = topViewed.slice( 0, n );
-
-	// Return code only
-	topViewed = topViewed.map( function( wiki ) {
-		var light = {
-			code: wiki.code
-		};
-		light[ criteria ] = wiki[ criteria ];
-		return light;
-	} );
-
-	return topViewed;
+	return topViewed.slice( 0, n );
 };
 
 /**
@@ -343,9 +332,15 @@ Stats.format = function ( portal, list, optionsArg ) {
 			) );
 		}
 
-		var formatted = Object.assign( {}, stats, portalDef, getLanguageName( top.code ) );
-		formatted.index = ++index;
-		formatted.siteName = portalDef?.name || siteDefs.en[ portal ].name;
+		const formatted = {
+			...top,
+			...stats,
+			...portalDef,
+			...getLanguageName( top.code ),
+			index: ++index,
+			siteName: portalDef?.name || siteDefs.en[ portal ].name
+		};
+
 		formatted.lang = siteDef?.lang || formatted.code;
 
 		if ( siteDef?.attrs ) {
