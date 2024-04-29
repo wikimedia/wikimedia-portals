@@ -63,11 +63,11 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "Sa biblioteca lìbera"
+		"slogan": "Sa biblioteca de cuntenutos lìberos"
 	},
 	"wikiversity": {
 		"name": "Wikiversidade",
-		"slogan": "S'universidade lìbera",
+		"slogan": "Materiales educativos lìberos",
 		"entries": "cursos e letziones",
 		"search-input-label": "Chirca in sa Wikiversidade",
 		"language-button-text": "Leghe sa Wikiversidade in sa limba tua"
@@ -81,7 +81,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Immàgines impreàbiles liberamente e àteru"
+		"slogan": "Regorta multimediale lìbera"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -97,7 +97,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Aplicatzione wiki lìbera e aberta"
+		"slogan": "Programma wiki lìberu e abertu"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",

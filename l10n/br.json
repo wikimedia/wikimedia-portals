@@ -65,11 +65,11 @@
 	},
 	"wikisource": {
 		"name": "Wikimammenn",
-		"slogan": "Levraoueg dieub"
+		"slogan": "Levraoueg endalc’h dieub"
 	},
 	"wikiversity": {
 		"name": "Wikiskolveur",
-		"slogan": "Dafar kentelioù en implij frank",
+		"slogan": "Dafar deskiñ en implij frank",
 		"entries": "Danvezioù deskiñ",
 		"search-input-label": "Klask e Wikiskolveur",
 		"language-button-text": "Lenn Wikiskolveur en ho yezh"
@@ -83,7 +83,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Luc'hskeudennoù ha traoù all  c'haller implijout en un doar frank"
+		"slogan": "Dastumad media frank"
 	},
 	"wikispecies": {
 		"name": "Wikispesad",
@@ -99,7 +99,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Arload wiki frank ha digor"
+		"slogan": "Meziant wiki frank ha digor"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
