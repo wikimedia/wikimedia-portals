@@ -17,6 +17,9 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ro",
 	"search-input-button": "Căutare",
 	"other-languages-label": "Alte limbi",
+	"top-ten-nav-label": "Limbi de top",
+	"all-languages-nav-label": "Alte limbi",
+	"other-projects-nav-label": "Alte proiecte",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Enciclopedia liberă",
@@ -62,11 +65,11 @@
 	},
 	"wikisource": {
 		"name": "Wikisursă",
-		"slogan": "Bibliotecă liberă"
+		"slogan": "Bibliotecă cu conținut liber"
 	},
 	"wikiversity": {
 		"name": "Wikiversitate",
-		"slogan": "Materiale de studiu libere",
+		"slogan": "Resurse de învățare libere",
 		"entries": "resurse de învățare",
 		"search-input-label": "Căutare în Wikiversitate",
 		"language-button-text": "Citiți Wikiversitate în limba dvs."
@@ -80,7 +83,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Poze liber utilizabile și altele"
+		"slogan": "Colecție media liberă"
 	},
 	"wikispecies": {
 		"name": "Wikispecii",
@@ -96,7 +99,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Aplicație wiki deschisă și liberă"
+		"slogan": "Software wiki deschis și liber"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
