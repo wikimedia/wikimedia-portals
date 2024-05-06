@@ -2,7 +2,7 @@
 	{
 		"name": "Commons",
 		"url": "//commons.wikimedia.org/",
-		"tagline": "Freely usable photos & more",
+		"tagline": "Free media collection",
 		"key": "commons"
 	},
 	{
@@ -39,7 +39,7 @@
 	{
 		"name": "Wikiversity",
 		"url": "//www.wikiversity.org/",
-		"tagline": "Free course materials",
+		"tagline": "Free learning resources",
 		"key": "wikiversity"
 	},
 	{
@@ -51,13 +51,13 @@
 	{
 		"name": "MediaWiki",
 		"url": "//www.mediawiki.org/",
-		"tagline": "Free & open wiki application",
+		"tagline": "Free & open wiki software",
 		"key": "mediawiki"
 	},
 	{
 		"name": "Wikisource",
 		"url": "//www.wikisource.org/",
-		"tagline": "Free library",
+		"tagline": "Free content library",
 		"key": "wikisource"
 	},
 	{
