@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Castellum",
 			"Kareyac",
 			"Pikne",
 			"Pyscowicz"
@@ -15,7 +16,9 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/et",
 	"search-input-button": "Otsi",
 	"other-languages-label": "Teised keeled",
+	"top-ten-nav-label": "Tipmised keeled",
 	"all-languages-nav-label": "Kõik keeled",
+	"other-projects-nav-label": "Muud projektid",
 	"wiki": {
 		"name": "Vikipeedia",
 		"slogan": "Vaba entsüklopeedia",
@@ -25,56 +28,69 @@
 		"footer-description": "Vikipeediat majutab Wikimedia Foundation, mittetulunduslik organisatsioon, mis majutab ka mitut teist projekti.",
 		"app-links": {
 			"title": "Laadi alla Vikipeedia Androidile või iOS-ile",
-			"description": "Salvesta oma lemmikartiklid ühenduseta lugemiseks, sünkrooni oma lugemisloendid eri seadmetes ja kohanda lugemiseelistusi, kasutades ametlikku Vikipeedia rakendust."
+			"description": "Salvesta oma lemmikartiklid ühenduseta lugemiseks, sünkrooni oma lugemisloendid eri seadmetes ja kohanda lugemiseelistusi, kasutades ametlikku Vikipeedia rakendust.",
+			"google-store": "Google Play pood",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Vikisõnastik",
 		"slogan": "Vaba sõnastik",
 		"entries": "sissekannet",
+		"search-input-label": "Otsi Vikisõnastikust",
 		"language-button-text": "Loe Vikisõnastikku enda keeles"
 	},
 	"wikibooks": {
 		"name": "Vikiõpikud",
 		"slogan": "Vabad õpikud",
 		"entries": "lehekülge",
+		"search-input-label": "Otsi Vikiõpikutest",
 		"language-button-text": "Loe Vikiõpikuid enda keeles"
 	},
 	"wikinews": {
 		"name": "Vikiuudised",
 		"slogan": "Vaba uudiste allikas",
 		"entries": "artiklit",
+		"search-input-label": "Otsi Vikiuudistest",
 		"language-button-text": "Loe Vikiuudiseid enda keeles"
 	},
 	"wikiquote": {
 		"name": "Vikitsitaadid",
 		"slogan": "Vaba tsitaadikogumik",
 		"entries": "artiklit",
+		"search-input-label": "Otsi Vikitsitaatidest",
 		"language-button-text": "Loe Vikitsitaate enda keeles"
 	},
 	"wikisource": {
 		"name": "Vikitekstid",
-		"slogan": "Vaba raamatukogu"
+		"slogan": "Vaba sisu raamatukogu"
 	},
 	"wikiversity": {
 		"name": "Vikiülikool",
 		"slogan": "Vabad õppematerjalid",
 		"entries": "lehekülge",
+		"search-input-label": "Otsi Vikiülikoolist",
 		"language-button-text": "Loe Vikiülikooli enda keeles"
 	},
 	"wikivoyage": {
 		"name": "Vikireisid",
 		"slogan": "Vaba reisijuht",
 		"entries": "lehekülge",
+		"search-input-label": "Otsi Vikireisidest",
 		"language-button-text": "Loe Vikireise enda keeles"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Vabalt kasutatavad fotod ja muud"
+		"slogan": "Vaba failikogu"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Vaba liigikataloog"
+	},
+	"wikifunctions": {
+		"name": "Vikifunktsioonid",
+		"slogan": "Vaba funktsioonikogu"
 	},
 	"wikidata": {
 		"name": "Vikiandmed",
