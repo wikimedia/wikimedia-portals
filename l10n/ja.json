@@ -22,7 +22,9 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ja",
 	"search-input-button": "検索",
 	"other-languages-label": "他の言語",
+	"top-ten-nav-label": "上位の言語",
 	"all-languages-nav-label": "すべての言語",
+	"other-projects-nav-label": "その他のプロジェクト",
 	"wiki": {
 		"name": "ウィキペディア",
 		"slogan": "フリー百科事典",
@@ -68,11 +70,11 @@
 	},
 	"wikisource": {
 		"name": "ウィキソース",
-		"slogan": "フリーコンテンツの図書館"
+		"slogan": "フリーなコンテンツ図書館"
 	},
 	"wikiversity": {
 		"name": "ウィキバーシティ",
-		"slogan": "フリーな学習教材",
+		"slogan": "フリーな学習リソース",
 		"entries": "学びに役立つ教材",
 		"search-input-label": "ウィキバーシティを検索",
 		"language-button-text": "あなたの言語でウィキバーシティを読みませんか"
@@ -86,14 +88,15 @@
 	},
 	"commons": {
 		"name": "コモンズ",
-		"slogan": "フリーメディアレポジトリ"
+		"slogan": "フリーなメディアコレクション"
 	},
 	"wikispecies": {
 		"name": "ウィキスピーシーズ",
 		"slogan": "フリーの生物種図鑑"
 	},
 	"wikifunctions": {
-		"name": "ウィキファンクションズ"
+		"name": "ウィキファンクションズ",
+		"slogan": "フリーな関数ライブラリ"
 	},
 	"wikidata": {
 		"name": "ウィキデータ",
@@ -101,7 +104,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "無料で使えるwiki形式のアプリ"
+		"slogan": "フリーで開かれたウィキソフトウェア"
 	},
 	"metawiki": {
 		"name": "メタウィキ",

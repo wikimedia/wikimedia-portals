@@ -7,6 +7,7 @@
 			"Jerrykim306",
 			"Kwj2772",
 			"Revi",
+			"Suleiman the Magnificent Television",
 			"Ykhwong",
 			"그냥기여자",
 			"아라"
@@ -23,6 +24,8 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ko",
 	"search-input-button": "검색",
 	"other-languages-label": "다른 언어",
+	"top-ten-nav-label": "주요 언어",
+	"all-languages-nav-label": "모든 언어",
 	"wiki": {
 		"name": "위키백과",
 		"slogan": "우리 모두의 백과사전",
@@ -55,7 +58,8 @@
 	"wikinews": {
 		"name": "위키뉴스",
 		"slogan": "자유로운 뉴스 컨텐츠",
-		"entries": "문서"
+		"entries": "문서",
+		"search-input-label": "위키뉴스 검색"
 	},
 	"wikiquote": {
 		"name": "위키인용집",
@@ -66,7 +70,7 @@
 	},
 	"wikisource": {
 		"name": "위키문헌",
-		"slogan": "자유 컨텐츠 도서관"
+		"slogan": "무료 콘텐츠 라이브러리"
 	},
 	"wikiversity": {
 		"name": "위키배움터",
@@ -76,6 +80,7 @@
 	"wikivoyage": {
 		"name": "위키여행",
 		"slogan": "자유 여행 가이드",
+		"entries": "페이지",
 		"search-input-label": "위키여행 검색"
 	},
 	"commons": {
