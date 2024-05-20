@@ -12,6 +12,7 @@
 	"language-name": "Zazaki",
 	"language-name-romanized": "Zazaki",
 	"language-name-romanized-sorted": "Zazaki",
+	"footer-donate": "Gurenayışan rê şıma eşkenê pê beja marë peşti bıdê",
 	"license": "Na pele bınê <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Lisansê Creative Commons Attribution-ShareAlike</a> de mewcuda",
 	"terms": "Şertê gurenayışi",
 	"privacy-policy": "Madeyê Dızdiye",
@@ -47,39 +48,53 @@
 	"wikibooks": {
 		"name": "Wikikıtabi",
 		"slogan": "Kıtabxaneyo Xoser",
-		"entries": "peli"
+		"entries": "peli",
+		"search-input-label": "Cıgeyrê Wikikitab",
+		"language-button-text": "Wikikıtabi zonê ho de bıwane"
 	},
 	"wikinews": {
 		"name": "Wikixebere",
 		"slogan": "Çımey Xeberanê Xosera",
-		"entries": "Wesiqey"
+		"entries": "Wesiqey",
+		"search-input-label": "Cıgeyrê wikixeber",
+		"language-button-text": "Wikixeber zonê ho de bıwane"
 	},
 	"wikiquote": {
 		"name": "Wikivate",
 		"slogan": "Koleksiyona vatenan",
-		"entries": "wesiqey"
+		"entries": "wesiqey",
+		"search-input-label": "Cıgeyrê Wikivateyi",
+		"language-button-text": "Wikivateyi zonê ho de bıwane"
 	},
 	"wikisource": {
 		"name": "Wikiçıme",
-		"slogan": "Çımeyo Xoser"
+		"slogan": "Azad zereke kıtıbxaney"
 	},
 	"wikiversity": {
 		"name": "Wikiversite",
-		"slogan": "Xoser materyal",
-		"entries": "Kursê musayışi"
+		"slogan": "Azad cıgeyrayışi bımusê",
+		"entries": "Kursê musayışi",
+		"search-input-label": "Cıgeyrê Wikiwersita",
+		"language-button-text": "Wikiwersita zıwanê xo de bıwane"
 	},
 	"wikivoyage": {
 		"name": "Wikigeyrayış",
 		"slogan": "Xoser rehberê geyrayışi",
-		"entries": "peli"
+		"entries": "peli",
+		"search-input-label": "Cıgeyrê Wikiseyahat",
+		"language-button-text": "Wikiseyahati zonê ho de bıwane"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Serbest istifedeyın resimi &  vêşi"
+		"slogan": "Azad koleksiyonê Medya"
 	},
 	"wikispecies": {
 		"name": "Wikibabet",
 		"slogan": "Xoser rehbera tewran"
+	},
+	"wikifunctions": {
+		"name": "Wikifonksyon",
+		"slogan": "Azad kıtıbxaney fonksiyoni"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -87,7 +102,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Xoser u Akerde dezgey wiki"
+		"slogan": "Azad u Akerde softwarey Wiki"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
