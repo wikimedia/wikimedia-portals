@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Cabal",
 			"Kuldeepburjbhalaike"
 		]
 	},
@@ -9,6 +10,8 @@
 	"language-name-romanized": "Pañjābī (Gurmukhī)",
 	"language-name-romanized-sorted": "Panjabi Gurmukhi",
 	"footer-donate": "ਤੁਸੀਂ ਦਾਨ ਨਾਲ ਸਾਡੇ ਕੰਮ ਦਾ ਸਮਰਥਨ ਕਰ ਸਕਦੇ ਹੋ।",
+	"terms": "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ",
+	"privacy-policy": "ਪਰਦਾ ਨੀਤੀ",
 	"search-input-button": "ਖੋਜੋ",
 	"other-languages-label": "ਹੋਰ ਭਾਸ਼ਾਵਾਂ",
 	"top-ten-nav-label": "ਪ੍ਰਮੁੱਖ ਭਾਸ਼ਾਵਾਂ",
@@ -55,15 +58,18 @@
 	},
 	"wikisource": {
 		"name": "ਵਿਕੀਸਰੋਤ",
-		"slogan": "ਮੁਫ਼ਤ ਸਮੱਗਰੀ ਲਾਇਬ੍ਰੇਰੀ"
+		"slogan": "ਮੁਫ਼ਤ ਸਮੱਗਰੀ ਕਿਤਾਬਘਰ"
 	},
 	"wikiversity": {
 		"name": "ਵਿਕੀਵਰਸਿਟੀ",
+		"slogan": "ਮੁਫਤ ਸਿੱਖਣ ਦੇ ਸਰੋਤ",
+		"entries": "ਸਿੱਖਣ ਦੇ ਸਰੋਤ",
 		"search-input-label": "ਵਿਕੀਵਰਸਿਟੀ ਖੋਜੋ",
 		"language-button-text": "ਵਿਕੀਵਰਸਿਟੀ ਨੂੰ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
 	},
 	"wikivoyage": {
 		"name": "ਵਿਕੀਸਫ਼ਰ",
+		"slogan": "ਮੁਫ਼ਤ ਸਫ਼ਰ ਦਸਤੀ",
 		"entries": "ਸਫ਼ੇ",
 		"search-input-label": "ਵਿਕੀਸਫ਼ਰ ਖੋਜੋ",
 		"language-button-text": "ਵਿਕੀਸਫ਼ਰ ਨੂੰ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
@@ -73,7 +79,7 @@
 		"slogan": "ਮੁਫ਼ਤ ਮੀਡੀਆ ਸੰਗ੍ਰਹਿ"
 	},
 	"wikispecies": {
-		"name": "ਵਿਕੀਕਿਸਮਾਂ"
+		"name": "ਵਿਕੀਜਾਤੀਆਂ"
 	},
 	"wikifunctions": {
 		"name": "ਵਿਕੀਫੰਕਸ਼ਨਜ਼",
@@ -88,6 +94,7 @@
 		"slogan": "ਮੁਫ਼ਤ ਅਤੇ ਖੁੱਲ੍ਹਾ ਵਿਕੀ ਸਾਫਟਵੇਅਰ"
 	},
 	"metawiki": {
-		"name": "ਮੈਟਾ-ਵਿਕੀ"
+		"name": "ਮੈਟਾ-ਵਿਕੀ",
+		"slogan": "ਭਾਈਚਾਰਕ ਤਾਲਮੇਲ ਅਤੇ ਲਿਖਤਾਂ"
 	}
 }
