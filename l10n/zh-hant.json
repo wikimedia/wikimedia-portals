@@ -3,6 +3,7 @@
 		"authors": [
 			"Amire80",
 			"Diskdance",
+			"Key0121",
 			"Kly",
 			"LNDDYL",
 			"Liuxinyu970226",
@@ -64,7 +65,7 @@
 	"wikiquote": {
 		"name": "維基語錄",
 		"slogan": "自由的名人名言錄",
-		"entries": "條目",
+		"entries": "摘錄",
 		"search-input-label": "在維基語錄搜尋",
 		"language-button-text": "以您的語言閱讀維基語錄"
 	},
@@ -74,7 +75,7 @@
 	},
 	"wikiversity": {
 		"name": "維基學院",
-		"slogan": "自由的研習社群",
+		"slogan": "自由的學習資源",
 		"entries": "學習資源",
 		"search-input-label": "在維基學院搜尋",
 		"language-button-text": "以您的語言閱讀維基學院"
@@ -88,7 +89,7 @@
 	},
 	"commons": {
 		"name": "共享資源",
-		"slogan": "可自由使用的照片，以及很多好東西"
+		"slogan": "自由的媒體庫"
 	},
 	"wikispecies": {
 		"name": "維基物種",
@@ -104,7 +105,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "自由與開放的wiki應用程式"
+		"slogan": "自由與開放的wiki軟體"
 	},
 	"metawiki": {
 		"name": "元維基",

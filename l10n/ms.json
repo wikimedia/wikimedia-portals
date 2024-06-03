@@ -3,6 +3,7 @@
 		"authors": [
 			"Hakimi97",
 			"MuratTheTurkish",
+			"Stress 043",
 			"Tofeiku",
 			"Ultron90"
 		]
@@ -15,6 +16,9 @@
 	"privacy-policy": "Dasar Privasi",
 	"search-input-button": "Cari",
 	"other-languages-label": "Bahasa-bahasa lain",
+	"top-ten-nav-label": "Bahasa utama",
+	"all-languages-nav-label": "Semua bahasa",
+	"other-projects-nav-label": "Projek lain",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Ensiklopedia Bebas",
@@ -60,11 +64,11 @@
 	},
 	"wikisource": {
 		"name": "Wikisumber",
-		"slogan": "Perpustakaan bebas"
+		"slogan": "Kandungan pustaka bebas"
 	},
 	"wikiversity": {
 		"name": "Wikiversiti",
-		"slogan": "Bahan kursus bebas",
+		"slogan": "Bahan pembelajaran bebas",
 		"entries": "sumber pelajaran",
 		"search-input-label": "Cari Wikiversiti",
 		"language-button-text": "Baca Wikiversiti dalam bahasa anda"
@@ -78,14 +82,15 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Foto yang boleh digunakan bebas & lagi"
+		"slogan": "Koleksi media bebas"
 	},
 	"wikispecies": {
 		"name": "Wikispesies",
 		"slogan": "Panduan spesies bebas"
 	},
 	"wikifunctions": {
-		"name": "Wikifungsi"
+		"name": "Wikifungsi",
+		"slogan": "Pustaka kefungsian bebas"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -93,7 +98,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Aplikasi wiki bebas & terbuka"
+		"slogan": "Perisian bebas & terbuka"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
