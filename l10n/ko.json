@@ -16,16 +16,17 @@
 	"language-name": "한국어",
 	"language-name-romanized": "Hangugeo",
 	"language-name-romanized-sorted": "Hangugeo",
-	"footer-donate": "후원을 통해 저희의 업무를 지원하실 수 있습니다.",
+	"footer-donate": "기부금으로 저희 일을 지원하실 수 있습니다.",
 	"license": "이 화면은 <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.ko'>크리에이티브 커먼즈 저작자표시-동일조건변경허락 라이선스</a> 하에서 이용 가능합니다.",
-	"terms": "이용 약관",
-	"privacy-policy": "개인정보보호정책",
+	"terms": "사용 조건",
+	"privacy-policy": "개인정보 보호정책",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ko",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ko",
 	"search-input-button": "검색",
 	"other-languages-label": "다른 언어",
 	"top-ten-nav-label": "주요 언어",
 	"all-languages-nav-label": "모든 언어",
+	"other-projects-nav-label": "다른 프로젝트",
 	"wiki": {
 		"name": "위키백과",
 		"slogan": "우리 모두의 백과사전",
@@ -59,7 +60,8 @@
 		"name": "위키뉴스",
 		"slogan": "자유로운 뉴스 컨텐츠",
 		"entries": "문서",
-		"search-input-label": "위키뉴스 검색"
+		"search-input-label": "위키뉴스 검색",
+		"language-button-text": "자신의 언어로 위키뉴스를 읽어보세요"
 	},
 	"wikiquote": {
 		"name": "위키인용집",
@@ -74,7 +76,7 @@
 	},
 	"wikiversity": {
 		"name": "위키배움터",
-		"slogan": "자유 코스 자료",
+		"slogan": "무료 학습 자원",
 		"entries": "학습 자료"
 	},
 	"wikivoyage": {

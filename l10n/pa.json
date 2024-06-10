@@ -10,6 +10,7 @@
 	"language-name-romanized": "Pañjābī (Gurmukhī)",
 	"language-name-romanized-sorted": "Panjabi Gurmukhi",
 	"footer-donate": "ਤੁਸੀਂ ਦਾਨ ਨਾਲ ਸਾਡੇ ਕੰਮ ਦਾ ਸਮਰਥਨ ਕਰ ਸਕਦੇ ਹੋ।",
+	"license": "ਇਹ ਸਫ਼ਾ <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> ਦੇ ਤਹਿਤ ਉਪਲਬਧ ਹੈ।",
 	"terms": "ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ",
 	"privacy-policy": "ਪਰਦਾ ਨੀਤੀ",
 	"search-input-button": "ਖੋਜੋ",
@@ -26,8 +27,10 @@
 		"footer-description": "ਵਿਕੀਪੀਡੀਆ ਦੀ ਮੇਜ਼ਬਾਨੀ ਵਿਕੀਮੀਡੀਆ ਸੰਸਥਾ ਦੁਆਰਾ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਜੋ ਇੱਕ ਗੈਰ-ਮੁਨਾਫਾ ਸੰਸਥਾ ਹੈ ਜੋ ਕਈ ਹੋਰ ਪ੍ਰੋਜੈਕਟਾਂ ਦੀ ਮੇਜ਼ਬਾਨੀ ਵੀ ਕਰਦਾ ਹੈ।",
 		"app-links": {
 			"title": "ਐਂਡਰਾਇਡ ਜਾਂ ਆਈਓਐਸ ਲਈ ਵਿਕੀਪੀਡੀਆ ਡਾਊਨਲੋਡ ਕਰੋ",
+			"description": "offline ਪੜ੍ਹਨ ਲਈ ਆਪਣੇ ਮਨਪਸੰਦ ਲੇਖਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ, ਆਪਣੀਆਂ ਪੜ੍ਹਨ ਦੀਆਂ ਸੂਚੀਆਂ ਨੂੰ ਸਾਰੇ ਉਪਕਰਣਾਂ ਵਿੱਚ ਸਮਕਾਲੀ ਕਰੋ ਅਤੇ ਅਧਿਕਾਰਤ ਵਿਕੀਪੀਡੀਆ ਐਪ ਦੇ ਨਾਲ ਆਪਣੇ ਪੜ੍ਹਨ ਦੇ ਤਜ਼ਰਬੇ ਨੂੰ ਤਬਦੀਲ ਕਰੋ।",
 			"google-store": "ਗੂਗਲ ਪਲੇ ਸਟੋਰ",
-			"apple-store": "ਐਪਲ ਐਪ ਸਟੋਰ"
+			"apple-store": "ਐਪਲ ਐਪ ਸਟੋਰ",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
@@ -53,6 +56,7 @@
 	},
 	"wikiquote": {
 		"name": "ਵਿਕੀਕਥਨ",
+		"slogan": "ਮੁਫ਼ਤ ਹਵਾਲੇ ਦਾ ਸੰਗ੍ਰਹਿ",
 		"entries": "ਲੇਖ",
 		"search-input-label": "ਵਿਕੀਕਥਨ ਖੋਜੋ",
 		"language-button-text": "ਵਿਕੀਕਥਨ ਨੂੰ ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਪੜ੍ਹੋ"
