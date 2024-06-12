@@ -49,9 +49,9 @@
 		document.cookie = 'hideWikipediaPortalBanner=1; max-age=2592000; path=/; Secure';
 		bannerEl.classList.remove( bannerVisibleClass );
 	} );
-	bannerLinkEl.href = 'https://donate.wikimedia.org/?utm_medium=portal&utm_campaign=portalBanner';
+	bannerLinkEl.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
 	bannerLinkEl.href += '&country=JP&uselang=ja';
-	bannerLinkEl.href += '&utm_source=' + bannerEl.id;
+	bannerLinkEl.href += '&wmf_source=' + bannerEl.id;
 	bannerLinkEl.target = '_blank';
 	if ( !hideBanner &&
 		country &&
