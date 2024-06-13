@@ -25,11 +25,11 @@
 		"name": "Wikipedia",
 		"slogan": "Erkin Enciklopediya",
 		"entries": "maqalalar",
-		"search-input-label": "Wikipediyada izleń",
+		"search-input-label": "Wikipediadan izleń",
 		"language-button-text": "Wikipediyanı óz tilińizde oqıń",
-		"footer-description": "Wikipediya Wikimedia Foundation kommerciyalıq bolmaǵan shólkemi tárepinen uyımlastırılǵan bolıp, ol basqa bir qatar joybarlarǵa da iyelik etedi.",
+		"footer-description": "Wikipedia Wikimedia Foundation kommerciyalıq emes shólkemi tárepinen uyımlastırılǵan bolıp, fond basqa bir qatar joybarlarǵa da iyelik etedi.",
 		"app-links": {
-			"title": "Android yamasa IOS ushın Wikipediyanı júklep alıń",
+			"title": "Android yamasa IOS ushın Wikipedianı júklep alıw",
 			"description": "Súyikli maqalalarıńızdı oflayn rejimde oqıw ushın saqlań, oqıw dizimlerińizdi apparatlarda sinxronlastırıń hám official wikipediya qosımshası járdeminde oqıw tájiriybeńizdi sazlań.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
@@ -47,14 +47,14 @@
 		"name": "Wikikitaplar",
 		"slogan": "Biypul sabaqlıqlar",
 		"entries": "betler",
-		"search-input-label": "Wikikitaptan izlew",
+		"search-input-label": "Wikikitaplardan izlew",
 		"language-button-text": "Wikikitaptı óz tilińizde oqıń"
 	},
 	"wikinews": {
 		"name": "Wikijańalıqlar",
 		"slogan": "Biypul jańalıq deregi",
 		"entries": "maqalalar",
-		"search-input-label": "Wikijańalıqtan izlew",
+		"search-input-label": "Wikijańalıqlardan izlew",
 		"language-button-text": "Wikijańalıqtı óz tilińizde oqıń"
 	},
 	"wikiquote": {
@@ -72,7 +72,7 @@
 		"name": "Wikiversitet",
 		"slogan": "Biypul sabaqlıq materialları",
 		"entries": "oqıw derekleri",
-		"search-input-label": "Wikiversitette izlew",
+		"search-input-label": "Wikiversitetten izlew",
 		"language-button-text": "Wikiversitetti óz tilińizde oqıń"
 	},
 	"wikivoyage": {

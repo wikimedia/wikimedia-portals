@@ -1,7 +1,25 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"IJzeren Jan"
+		]
 	},
 	"language-name": "medžuslovjansky",
-	"language-name-romanized-sorted": "medzuslovjansky"
+	"language-name-romanized-sorted": "medzuslovjansky",
+	"terms": "Uslovja upotrěbjanja",
+	"other-languages-label": "Druge jezyky",
+	"top-ten-nav-label": "Glavne jezyky",
+	"all-languages-nav-label": "Vse jezyky",
+	"other-projects-nav-label": "Druge projekty",
+	"wiki": {
+		"name": "Vikipedija",
+		"slogan": "Svobodna enciklopedija",
+		"entries": "člankov",
+		"search-input-label": "Iskati v Vikipediji",
+		"language-button-text": "Čitajte Vikipediju na svojem jezyku",
+		"footer-description": "Vikipedija nahodi se na serverah prinaležečih fundaciji Vikimedija – nekomercialnoj organizacije, ktora takože zajmaje se rabotoju nad inymi projektami.",
+		"app-links": {
+			"title": "Daunlodovati Vikipediju za Android ili iOS"
+		}
+	}
 }
