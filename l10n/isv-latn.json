@@ -6,7 +6,11 @@
 	},
 	"language-name": "medžuslovjansky",
 	"language-name-romanized-sorted": "medzuslovjansky",
+	"footer-donate": "Vy možete podporiti našu rabotu darovanjem.",
+	"license": "Tuta stranica jest dostupna pod licencijeju <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Uslovja upotrěbjanja",
+	"privacy-policy": "Politika odnosno privatnosti",
+	"search-input-button": "Iskati",
 	"other-languages-label": "Druge jezyky",
 	"top-ten-nav-label": "Glavne jezyky",
 	"all-languages-nav-label": "Vse jezyky",
@@ -19,7 +23,81 @@
 		"language-button-text": "Čitajte Vikipediju na svojem jezyku",
 		"footer-description": "Vikipedija nahodi se na serverah prinaležečih fundaciji Vikimedija – nekomercialnoj organizacije, ktora takože zajmaje se rabotoju nad inymi projektami.",
 		"app-links": {
-			"title": "Daunlodovati Vikipediju za Android ili iOS"
+			"title": "Daunlodovati Vikipediju za Android ili iOS",
+			"description": "Shranite svoje ulubjene članky i čitajte jih oflajn, sinhronizujte svoje spisky do prěčitanja na raznyh aparatah i prisposobite svoje čitateljsko prěžitje s pomočju oficialnoj aplikacije Vikipedije.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
+	},
+	"wiktionary": {
+		"name": "Vikislovnik",
+		"slogan": "Svobodny slovnik",
+		"entries": "članky",
+		"search-input-label": "Iskati v Vikislovniku",
+		"language-button-text": "Čitati Vikislovnik na svojem jezyku"
+	},
+	"wikibooks": {
+		"name": "Vikiknigy",
+		"slogan": "Svobodne učebniky",
+		"entries": "stranic",
+		"search-input-label": "Iskati v Vikiknigah",
+		"language-button-text": "Čitati Vikiknigy na svojem jezyku"
+	},
+	"wikinews": {
+		"name": "Vikinoviny",
+		"slogan": "Svobodny izvor novin",
+		"entries": "člankov",
+		"search-input-label": "Iskati v Vikinovinah",
+		"language-button-text": "Čitati Vikinoviny na svojem jezyku"
+	},
+	"wikiquote": {
+		"name": "Vikicitatnik",
+		"slogan": "Svobodny sbornik citatov",
+		"entries": "člankov",
+		"search-input-label": "Iskati v Vikicitatniku",
+		"language-button-text": "Čitati Vikicitatnik na svojem jezyku"
+	},
+	"wikisource": {
+		"name": "Vikiizvornik",
+		"slogan": "Svobodna biblioteka"
+	},
+	"wikiversity": {
+		"name": "Vikiversitet",
+		"slogan": "Svobodne učebne izvory",
+		"entries": "učebne izvory",
+		"search-input-label": "Iskati v Vikiversitetu",
+		"language-button-text": "Čitati Vikiversitet na svojem jezyku"
+	},
+	"wikivoyage": {
+		"name": "Vikiputovanje",
+		"slogan": "Svobodny turističny provodnik",
+		"entries": "stranic",
+		"search-input-label": "Iskati v Vikiputovanju",
+		"language-button-text": "Čitati Vikiputovanje na svojem jezyku"
+	},
+	"commons": {
+		"name": "Vikisklad",
+		"slogan": "Svobodny sbornik medijev"
+	},
+	"wikispecies": {
+		"name": "Vikividy",
+		"slogan": "Svobodny katalog vidov"
+	},
+	"wikifunctions": {
+		"name": "Vikifunkcije",
+		"slogan": "Svobodna biblioteka funkcij"
+	},
+	"wikidata": {
+		"name": "Vikidane",
+		"slogan": "Svobodna baza znanij"
+	},
+	"mediawiki": {
+		"name": "MediaViki",
+		"slogan": "Bezplatny i otvorjeny vikisoftver"
+	},
+	"metawiki": {
+		"name": "Meta-viki",
+		"slogan": "Koordinacija i dokumentacija občiny"
 	}
 }
