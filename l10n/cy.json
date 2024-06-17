@@ -11,13 +11,16 @@
 	"language-name-romanized": "Cymraeg",
 	"language-name-romanized-sorted": "Cymraeg",
 	"footer-donate": "Gallwch chi roi arian i gefnogi ein gwaith.",
-	"license": "Mae'r ddalen hon ar gael dan drwydded<a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike</a>",
+	"license": "Mae'r dudalen hon ar gael dan drwydded <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Telerau Gwasanaeth",
 	"privacy-policy": "Polisi Preifatrwydd",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/cy",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/cy",
 	"search-input-button": "Chwilio",
 	"other-languages-label": "Ieithoedd eraill",
+	"top-ten-nav-label": "Ieithoedd Uchaf",
+	"all-languages-nav-label": "Pob iaith",
+	"other-projects-nav-label": "Prosiectau eraill",
 	"wiki": {
 		"name": "Wicipedia",
 		"slogan": "Y Gwyddoniadur Rhydd",
@@ -63,11 +66,11 @@
 	},
 	"wikisource": {
 		"name": "Wicidestun",
-		"slogan": "Llyfrgell rhydd ac am ddim"
+		"slogan": "Llyfrgell cynnwys am ddim"
 	},
 	"wikiversity": {
 		"name": "Wiciysgol",
-		"slogan": "Deunydd rhydd ac agored",
+		"slogan": "Adnoddau dysgu am ddim",
 		"entries": "deunyddiau addysgu",
 		"search-input-label": "Chwilio Wiciysgol",
 		"language-button-text": "Darllen Wiciysgol yn eich iaith"
@@ -81,11 +84,15 @@
 	},
 	"commons": {
 		"name": "Comin",
-		"slogan": "Delweddau rhydd ac agored & mwy"
+		"slogan": "Casgliad cyfryngau am ddim"
 	},
 	"wikispecies": {
-		"name": "Wicirywogaeth",
+		"name": "Wicifywyd",
 		"slogan": "Geiriadur rhywogaethau rhydd ac am ddim"
+	},
+	"wikifunctions": {
+		"name": "Wicifwythiannau",
+		"slogan": "Llyfrgell ffwythiant am ddim"
 	},
 	"wikidata": {
 		"name": "Wicidata",
@@ -93,7 +100,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWici",
-		"slogan": "Cymhwysiad rhydd ac agored"
+		"slogan": "Meddalwedd wici rhydd ac agored"
 	},
 	"metawiki": {
 		"name": "Meta-Wici",
