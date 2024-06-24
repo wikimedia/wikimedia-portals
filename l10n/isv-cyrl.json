@@ -1,8 +1,104 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Qiorly"
+		]
 	},
 	"language-name": "меджусловјанскы",
 	"language-name-romanized": "medžuslovjansky",
-	"language-name-romanized-sorted": "medzuslovjansky"
+	"language-name-romanized-sorted": "medzuslovjansky",
+	"footer-donate": "Вы можете подпорити нашу работу даровањем.",
+	"license": "Тута страница јест достапна под лиценцијеју <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Услоија употрєбјанја",
+	"privacy-policy": "Политика односно приватности",
+	"search-input-button": "Искати",
+	"other-languages-label": "Друге језыкы",
+	"top-ten-nav-label": "Главне језыкы",
+	"all-languages-nav-label": "Все језыкы",
+	"other-projects-nav-label": "Друге пројекты",
+	"wiki": {
+		"name": "Википедија",
+		"slogan": "Свободна енциклопедија",
+		"entries": "чланков",
+		"search-input-label": "Искати в Википедији",
+		"language-button-text": "Читајте Википедију на својем језыку",
+		"footer-description": "Википедија находи се на серверах приналежечих фундацији Викимедија - некомрциалној организације, ктора такоже зајмаје се раюотоју над иными пројектами.",
+		"app-links": {
+			"title": "Даунлодовати Википедију за Android или iOS",
+			"description": "Схраните своје улубјене чланкы и читајте јих офлајн, синхронизирујте своје спискы до прєчитања на разных апаратах и приспособите своје читатељско прєжитје с помочју апликације Википедије.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Викисловник",
+		"slogan": "Свободны словник",
+		"entries": "чланкы",
+		"search-input-label": "Искати в Викисловнику",
+		"language-button-text": "Читајте Викисловник на својем језыку"
+	},
+	"wikibooks": {
+		"name": "Викикнигы",
+		"slogan": "Свободне учебникы",
+		"entries": "страниц",
+		"search-input-label": "Искати в Викикнигах",
+		"language-button-text": "Читајте Викикнигы на својем језыку"
+	},
+	"wikinews": {
+		"name": "Викиновины",
+		"slogan": "Свободны извор новин",
+		"entries": "чланков",
+		"search-input-label": "Искати в Викиновинах",
+		"language-button-text": "Читајте Викиновины на својем језыку"
+	},
+	"wikiquote": {
+		"name": "Викицитатник",
+		"slogan": "Свободны сборник цитатов",
+		"entries": "чланков",
+		"search-input-label": "Искати в Викицитатнику",
+		"language-button-text": "Читајте Викицитатник на својем језыку"
+	},
+	"wikisource": {
+		"name": "Викиизворник",
+		"slogan": "Свободна библиотека"
+	},
+	"wikiversity": {
+		"name": "Викиверситет",
+		"slogan": "Свободне учебне изворы",
+		"entries": "учебне изворы",
+		"search-input-label": "Искати в Викиверситету",
+		"language-button-text": "Читајте Викиверситет на својем језыку"
+	},
+	"wikivoyage": {
+		"name": "Википутовање",
+		"slogan": "Свободны туристичны проводник",
+		"entries": "страниц",
+		"search-input-label": "Искати в Википутовању",
+		"language-button-text": "Читајте Википутовање на својем језыку"
+	},
+	"commons": {
+		"name": "Викисклад",
+		"slogan": "Свободны сборник медијев"
+	},
+	"wikispecies": {
+		"name": "Викивиды",
+		"slogan": "Свободны каталог видов"
+	},
+	"wikifunctions": {
+		"name": "Викифунције",
+		"slogan": "Свободна библиотка функциј"
+	},
+	"wikidata": {
+		"name": "Викидане",
+		"slogan": "Свободна база знаниј"
+	},
+	"mediawiki": {
+		"name": "МедиаВики",
+		"slogan": "Безплатны и отворјены викисофтвер"
+	},
+	"metawiki": {
+		"name": "Мета-вики",
+		"slogan": "Координација и документација обчины"
+	}
 }
