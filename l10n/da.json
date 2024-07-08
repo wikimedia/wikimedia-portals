@@ -3,18 +3,23 @@
 		"authors": [
 			"Amire80",
 			"BoBrandt",
+			"Fugithora",
 			"Joedalton",
 			"Saederup92"
 		]
 	},
 	"language-name": "Dansk",
-	"license": "Denne side er tilgængelig under licensen <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike</a>",
+	"footer-donate": "Du kan støtte vores arbejde med en donation.",
+	"license": "Denne side er tilgængelig under licensen <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Vilkår for anvendelse",
 	"privacy-policy": "Databeskyttelse",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/da",
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/da",
 	"search-input-button": "Søg",
 	"other-languages-label": "Andre sprog",
+	"top-ten-nav-label": "Top sprog",
+	"all-languages-nav-label": "Alle sprog",
+	"other-projects-nav-label": "Andre projekter",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Den frie encyklopædi",
@@ -23,32 +28,41 @@
 		"language-button-text": "Læs Wikipedia på dit sprog",
 		"footer-description": "Wikipedia drives af Wikimedia Foundation, en non-profit organisation som også driver en række andre projekter.",
 		"app-links": {
-			"title": "Hent Wikipedia til Android eller iOS"
+			"title": "Hent Wikipedia til Android eller iOS",
+			"description": "Gem dine yndlingsartikler til læsning offline, synkroniser dine læselister på tværs af enheder og tilpas din læseoplevelse med den officielle Wikipedia-app."
 		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Den frie ordbog",
-		"entries": "opslag"
+		"entries": "opslag",
+		"search-input-label": "Søg i Wiktionary",
+		"language-button-text": "Læs Wiktionary på dit sprog"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Den frie lærebogssamling",
-		"entries": "sider"
+		"entries": "sider",
+		"search-input-label": "Søg i Wikibooks",
+		"language-button-text": "Læs Wikibooks på dit sprog"
 	},
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Fri nyhedskilde",
-		"entries": "artikler"
+		"entries": "artikler",
+		"search-input-label": "Søg i Wikinews",
+		"language-button-text": "Læs Wikinews på dit sprog"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Fri citatsamling",
-		"entries": "artikler"
+		"entries": "artikler",
+		"search-input-label": "Søg i Wikiquote",
+		"language-button-text": "Læs Wikiquote på dit sprog"
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "Det frie bibliotek"
+		"slogan": "Bibliotek for frit indhold"
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
@@ -57,7 +71,10 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Fri rejseguide"
+		"slogan": "Fri rejseguide",
+		"entries": "sider",
+		"search-input-label": "Søg på Wikivoyage",
+		"language-button-text": "Læs Wikivoyage på dit sprog"
 	},
 	"commons": {
 		"name": "Commons",
@@ -66,6 +83,9 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Fri artsdatabase"
+	},
+	"wikifunctions": {
+		"slogan": "Det frie funktionsbibliotek"
 	},
 	"wikidata": {
 		"name": "Wikidata",

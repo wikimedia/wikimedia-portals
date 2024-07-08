@@ -24,7 +24,7 @@
 		"footer-description": "Vikipedija nahodi se na serverah prinaležečih fundaciji Vikimedija – nekomercialnoj organizacije, ktora takože zajmaje se rabotoju nad inymi projektami.",
 		"app-links": {
 			"title": "Daunlodovati Vikipediju za Android ili iOS",
-			"description": "Shranite svoje ulubjene članky i čitajte jih oflajn, sinhronizujte svoje spisky do prěčitanja na raznyh aparatah i prisposobite svoje čitateljsko prěžitje s pomočju oficialnoj aplikacije Vikipedije.",
+			"description": "Shranite svoje uljubjene članky i čitajte jih oflajn, sinhronizujte svoje spisky čitanja na raznyh aparatah i prisposobite svoje čitateljsko prěžitje s pomočju oficialnoj aplikacije Vikipedije.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
@@ -70,11 +70,11 @@
 		"language-button-text": "Čitati Vikiversitet na svojem jezyku"
 	},
 	"wikivoyage": {
-		"name": "Vikiputovanje",
+		"name": "Vikiputnik",
 		"slogan": "Svobodny turističny provodnik",
 		"entries": "stranic",
-		"search-input-label": "Iskati v Vikiputovanju",
-		"language-button-text": "Čitati Vikiputovanje na svojem jezyku"
+		"search-input-label": "Iskati v Vikiputniku",
+		"language-button-text": "Čitati Vikiputnik na svojem jezyku"
 	},
 	"commons": {
 		"name": "Vikisklad",
@@ -90,10 +90,10 @@
 	},
 	"wikidata": {
 		"name": "Vikidane",
-		"slogan": "Svobodna baza znanij"
+		"slogan": "Svobodna baza znanja"
 	},
 	"mediawiki": {
-		"name": "MediaViki",
+		"name": "MediaWiki",
 		"slogan": "Bezplatny i otvorjeny vikisoftver"
 	},
 	"metawiki": {
