@@ -1,8 +1,33 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Song GK"
 		]
 	},
-	"language-name": "Jaku Iban"
+	"language-name": "Jaku Iban",
+	"footer-donate": "Nuan ulih nyukung pengawa kami enggau pemeri",
+	"license": "Lambar tu tesedia ba baruh <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike\n License</a>",
+	"terms": "Syarat-syarat Ngena",
+	"privacy-policy": "Polisi privasi",
+	"search-input-button": "Giga",
+	"other-languages-label": "Jaku bukai",
+	"top-ten-nav-label": "Jaku pemadu atas",
+	"all-languages-nav-label": "Semua jaku",
+	"other-projects-nav-label": "Projek bukai",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Ensiklopedia Bibas",
+		"entries": "artikel",
+		"search-input-label": "Giga Wikipedia",
+		"language-button-text": "Bacha Wikipedia dalam jaku nuan",
+		"app-links": {
+			"title": "Download Wikipedia kena Android tauka iOS",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
+	},
+	"wikivoyage": {
+		"entries": "lambar"
+	}
 }
