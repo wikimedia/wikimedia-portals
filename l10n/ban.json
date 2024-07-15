@@ -17,6 +17,9 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy",
 	"search-input-button": "Rereh",
 	"other-languages-label": "Basa tiosan",
+	"top-ten-nav-label": "Basa pinih utama",
+	"all-languages-nav-label": "Makasami basa",
+	"other-projects-nav-label": "Proyék lianan",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "Ensiklopedia Bébas",
@@ -62,11 +65,11 @@
 	},
 	"wikisource": {
 		"name": "Wikipustaka",
-		"slogan": "Pustaka bébas"
+		"slogan": "Perpustakaan konten bébas"
 	},
 	"wikiversity": {
 		"name": "Wikiversitas",
-		"slogan": "Bahan pelajahan bébas",
+		"slogan": "Bahan palajahan bébas",
 		"entries": "sumber palajahan",
 		"search-input-label": "Rereh Wikivérsitas",
 		"language-button-text": "Wacén Wikivérsitas ring basa ragané"
@@ -80,11 +83,15 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Poto sane bebas kaanggen lan liyané"
+		"slogan": "Koléksi média sané bébas kaanggén"
 	},
 	"wikispecies": {
 		"name": "Wikispésiés",
 		"slogan": "Tata cara soroh sané nénten madué paiketan"
+	},
+	"wikifunctions": {
+		"name": "Wikifungsi",
+		"slogan": "Perpustakaan fungsi bébas"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -92,7 +99,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Aplikasi wiki bébas miwah malukar"
+		"slogan": "Perangkat lunak wiki gratis miwah terbuka"
 	},
 	"metawiki": {
 		"name": "Méta-Wiki",

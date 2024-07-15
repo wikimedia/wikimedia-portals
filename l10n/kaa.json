@@ -66,11 +66,11 @@
 	},
 	"wikisource": {
 		"name": "Wikiresurs",
-		"slogan": "Biypul kitapxana"
+		"slogan": "Biypul kontent kitapxanası"
 	},
 	"wikiversity": {
 		"name": "Wikiversitet",
-		"slogan": "Biypul sabaqlıq materialları",
+		"slogan": "Biypul oqıw materialları",
 		"entries": "oqıw derekleri",
 		"search-input-label": "Wikiversitetten izlew",
 		"language-button-text": "Wikiversitetti óz tilińizde oqıń"
@@ -84,7 +84,7 @@
 	},
 	"commons": {
 		"name": "Wikiqoyma",
-		"slogan": "Biypul paydalanıwǵa jaramlı fotosúwretler & basqalar"
+		"slogan": "Biypul media toplamı"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -100,7 +100,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Biypul & ashıq wiki qosımshası"
+		"slogan": "Biypul & ashıq wiki baǵdarlaması"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",

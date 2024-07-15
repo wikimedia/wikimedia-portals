@@ -21,13 +21,78 @@
 		"entries": "artikel",
 		"search-input-label": "Giga Wikipedia",
 		"language-button-text": "Bacha Wikipedia dalam jaku nuan",
+		"footer-description": "Wikipedia diatur Foundasyen Wikimedia, sebengkah gerempung ti nadai nguntungka orang ti mega ngatur mayuh macham projek bukai.",
 		"app-links": {
 			"title": "Download Wikipedia kena Android tauka iOS",
+			"description": "Simpan artikel ti dikerinduka nuan dikena macha offline, nyegerakka ripih bacha nuan ba semua perengka lalu ubah peneleba pemacha nuan enggau app resmi Wikipedia.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store"
 		}
 	},
+	"wiktionary": {
+		"name": "Wikikamus",
+		"slogan": "Kamus bibas",
+		"entries": "entri",
+		"search-input-label": "Giga Wikikamus",
+		"language-button-text": "Bacha Wikikamus dalam jaku nuan"
+	},
+	"wikibooks": {
+		"name": "Wikibup",
+		"slogan": "Bup teks bibas",
+		"entries": "lambar",
+		"search-input-label": "Giga Wikibup",
+		"language-button-text": "Bacha Wikibup dalam jaku nuan"
+	},
+	"wikinews": {
+		"name": "Wikiberita",
+		"slogan": "Bunsu berita bibas",
+		"entries": "artikel",
+		"search-input-label": "Giga Wikiberita",
+		"language-button-text": "Bacha Wikiberita dalam jaku nuan"
+	},
+	"wikiquote": {
+		"entries": "artikel"
+	},
+	"wikisource": {
+		"name": "Wikibunsu",
+		"slogan": "Isi librari bibas"
+	},
+	"wikiversity": {
+		"name": "Wikiversiti",
+		"slogan": "Kereban pelajar bibas",
+		"entries": "kereban pelajar",
+		"search-input-label": "Giga Wikiversiti",
+		"language-button-text": "Bacha Wikiversiti dalam jaku nuan"
+	},
 	"wikivoyage": {
-		"entries": "lambar"
+		"name": "Wikilayar",
+		"slogan": "Iring pejalai bibas",
+		"entries": "lambar",
+		"search-input-label": "Giga Wikilayar",
+		"language-button-text": "Bacha Wikilayar dalam jaku nuan"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Pengumpul media bibas"
+	},
+	"wikispecies": {
+		"name": "Wikispesis",
+		"slogan": "Iring spesis bibas"
+	},
+	"wikifunctions": {
+		"name": "Wikifungsyen",
+		"slogan": "Librari fungsyen bibas"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Pengkalan penemu bibas"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Software wiki bibas & tebuka"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Koordinasyen & dokumentasyen komuniti"
 	}
 }
