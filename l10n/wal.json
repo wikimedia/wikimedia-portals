@@ -2,16 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Ella Lachow"
+			"Ella Lachow",
+			"Malaalaa"
 		]
 	},
 	"language-name": "Wolaytta",
 	"footer-donate": "Nu oosuwaa imotan kaafana danddayaasa.",
-	"license": "Ha sinttay <a href='https://creativecommons.org/licenses/by-sa/3.0/'>Creative Commons Attribution-ShareAlike License</a> giddon de'ees",
+	"license": "Ha sinttay <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Ha eenotaa giddon de'ees</a>",
 	"terms": "Go'ettiyoo seerata",
 	"privacy-policy": "Buzo Polisiya",
 	"search-input-button": "Koyya",
 	"other-languages-label": "Hara doonata",
+	"top-ten-nav-label": "Erettida doonata",
+	"all-languages-nav-label": "Ubba doonata",
+	"other-projects-nav-label": "Hara proojekteta",
 	"wiki": {
 		"name": "Wikkiipeediyaa",
 		"slogan": "La'a insaykloopediyaa",
@@ -80,6 +84,10 @@
 	"wikispecies": {
 		"name": "Wikkiimeretatubaa",
 		"slogan": "La'a meretatu kaaletaa"
+	},
+	"wikifunctions": {
+		"name": "Wikiioosota",
+		"slogan": "La'a maxaafa keettaa"
 	},
 	"wikidata": {
 		"name": "Wikiidaataa",
