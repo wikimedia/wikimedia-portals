@@ -2,13 +2,42 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Denö"
+			"Denö",
+			"Rueter"
 		]
 	},
 	"language-name": "Эрзянь",
 	"language-name-romanized": "Erzjanj",
+	"search-input-button": "Вешнемс",
+	"other-languages-label": "Лия кельть",
+	"top-ten-nav-label": "Весемеде вастневиця кельть",
+	"all-languages-nav-label": "Весе кельтне",
+	"other-projects-nav-label": "Лия теварсевкст",
 	"wiki": {
 		"name": "Википедиясь",
-		"language-button-text": "Википедиянь эсь кельсэ ловнотадо"
+		"entries": "статият",
+		"search-input-label": "Вешнемс Википедиясто",
+		"language-button-text": "Ловнок Википедия эсеть кельсэ"
+	},
+	"wiktionary": {
+		"name": "Викивалкс",
+		"slogan": "Весенень панжадо валкс",
+		"entries": "статият",
+		"search-input-label": "Вешнемс Викивалкссто",
+		"language-button-text": "Ловнок Викивалкс эсеть кельсэ"
+	},
+	"wikibooks": {
+		"name": "Викикинигат",
+		"entries": "лопат"
+	},
+	"wikinews": {
+		"name": "Викикулят",
+		"entries": "статият"
+	},
+	"wikiquote": {
+		"entries": "статият"
+	},
+	"wikivoyage": {
+		"entries": "лопат"
 	}
 }

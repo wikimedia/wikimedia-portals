@@ -8,11 +8,13 @@
 	"language-name": "ᨣᩴᩤᨾᩮᩥᩬᨦ",
 	"language-name-romanized-sorted": "Kam Mueang",
 	"footer-donate": "ᨩ᩠ᩅ᩠᩵ᨿᨣ᩶ᩤᩴᨩ᩠ᩅ᩠᩵ᨿᩉ᩠ᨶᩩᩁᨦᩣ᩠ᨶᨡᩬᨦᩉ᩠ᨾᩪ᩵ᩁᩮᩢᩣᨯᩱ᩶ᨯᩰ᩠ᨿᨠᩣ᩠ᩁᨷᩁᩥᨧᩣ᩠ᨣ",
-	"license": "ᩉ᩠ᨶ᩶ᩣᨶᩦ᩶ᩀᩪ᩵ᨲᩱ᩶ᩈᩢᨬ᩠ᨬᩣᩋᨶᩩᨬᩣ᩠ᨲ<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.th'>ครีเอทีฟคอมมอนส์ อ้างอิงแหล่งที่มา อนุญาตแบบเดียวกัน 3.0</a>",
+	"license": "ᩉ᩠ᨶ᩶ᩣᨶᩦ᩶ᩀᩪ᩵ᨲᩱ᩶ᩈᩢᨬ᩠ᨬᩣᩋᨶᩩᨬᩣ᩠ᨲ<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.th'>ครีเอทีฟคอมมอนส์ อ้างอิงแหล่งที่มา อนุญาตแบบเดียวกัน 4.0</a>",
 	"terms": "ᨠᩫ᩠ᨭᨠᩣ᩠ᩁᨩᩱ᩶ᨦᩣ᩠ᨶ",
 	"privacy-policy": "ᨶᨿᩰᨷᩣ᩠ᨿᨤ᩠ᩅᩣ᩠ᨾᨸᩮ᩠ᨶᩈ᩠ᩅ᩵ᩁᨲ᩠ᩅᩫ",
 	"search-input-button": "ᨪᩰᩬᩡᩉᩣ",
 	"other-languages-label": "ᨶᩲᨽᩣᩈᩣᩋᩨ᩠᩵ᨶ",
+	"all-languages-nav-label": "ᨩᩩᨽᩣᩈᩣ",
+	"other-projects-nav-label": "ᨣᩕᩰᩫ᩠ᨦᨠᩣ᩠ᩁᩋᩨ᩠᩵ᨶ",
 	"wiki": {
 		"name": "ᩅᩥᨠᩥᨻᩦᨯᩮ᩠ᨿ",
 		"slogan": "ᩈᩣᩁᩣᨶᩩᨠᩕᩫ᩠ᨾᩈᩮᩁᩦ",
@@ -45,7 +47,8 @@
 	"wikinews": {
 		"name": "ᩅᩥᨠᩥᨡ᩵ᩣ᩠ᩅ",
 		"slogan": "ᩉᩖᩯ᩵ᨦᨡ᩵ᩣ᩠ᩅᩈᩮᩁᩦ",
-		"entries": "ᨷᩫ᩠ᨴᨤ᩠ᩅᩣ᩠ᨾ"
+		"entries": "ᨷᩫ᩠ᨴᨤ᩠ᩅᩣ᩠ᨾ",
+		"search-input-label": "ᨪᩰᩬᩡᩉᩣᨶᩲᩅᩥᨠᩥᨡᩕ᩵ᩣ᩠ᩅ"
 	},
 	"wikiquote": {
 		"name": "ᩅᩥᨠᩥᨣᩤᩴᨤᩫ᩠ᨾ",
@@ -54,16 +57,17 @@
 	},
 	"wikisource": {
 		"name": "ᩅᩥᨠᩥᨪᩬᩁ᩠ᩈ᩺",
-		"slogan": "ᩉ᩶ᩬᨦᩉ᩠ᨶᩢᨦᩈᩨᩈᩮᩁᩦ"
+		"slogan": "ᩉ᩶ᩬᨦᩈ᩠ᨾ᩻ᩩᨯᩈᩮᩁᩦ"
 	},
 	"wikiversity": {
 		"name": "ᩅᩥᨠᩥᩅᩥᨴ᩠ᨿᩣᩃᩱ᩠ᨿ",
-		"slogan": "ᩉᩖᩢᨠᩈᩪᨲᩕᨠᩣ᩠ᩁᩈᩬᩁᩈᩮᩁᩦ",
+		"slogan": "ᩉᩖᩢᨠᩈᩪᨲᩕ᩼ᨠᩣ᩠ᩁᩈᩬᩁᩈᩮᩁᩦ",
 		"entries": "ᨪᩢᨻ᩠ᨿᩣᨠᩬᩁᨠᩣ᩠ᩁᩁ᩠ᨿᩁᩁᩪ᩶"
 	},
 	"wikivoyage": {
 		"name": "ᩅᩥᨠᩥᩋᩯ᩠᩵ᩅ",
-		"slogan": "ᨣᩪ᩵ᨾᩨᨶᩣᩴᩋᩯ᩠᩵ᩅᩈᩮᩁᩦ"
+		"slogan": "ᨣᩪ᩵ᨾᩨᨶᩣᩴᩋᩯ᩠᩵ᩅᩈᩮᩁᩦ",
+		"entries": "ᩉ᩠ᨶ᩶ᩣ"
 	},
 	"commons": {
 		"name": "ᨤᩬᨾᨾᩬᨶ᩠ᩈ᩼",
