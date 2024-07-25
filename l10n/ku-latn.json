@@ -12,12 +12,16 @@
 	"language-name": "Kurdî",
 	"language-name-romanized": "Kurdî",
 	"language-name-romanized-sorted": "Kurdi",
-	"license": "Ev rûpel di bin lîsansa <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> de heye",
+	"footer-donate": "Tu karî bi bexşekê destek bidî xebata me.",
+	"license": "Ev rûpel di bin Lîsansa <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> de berdest e.",
 	"terms": "Mercên Bikaranînê",
 	"privacy-policy": "Rêbaza Veşarîtî",
 	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/ku",
 	"search-input-button": "Lê bigere",
 	"other-languages-label": "Zimanên din",
+	"top-ten-nav-label": "Zimanên populer",
+	"all-languages-nav-label": "Temamê zimanan",
+	"other-projects-nav-label": "projeyên din",
 	"wiki": {
 		"name": "Wîkîpediya",
 		"slogan": "Ensîklopediya Azad",
@@ -29,49 +33,67 @@
 			"title": "Wîkîpediya ji bo Android û iOSê daxe:",
 			"description": "Gotarên xwe yên bijare qeyd bike ji bo ku karibî wan offlayn bixwînî, lîsteyên xwe yên xwendinê ên li seransera amûrên xwe senkronîze bike û bi sepana fermî ya Wîkîpediyayê tecribeya xwe ya xwendinê taybet bike.",
 			"google-store": "Google Play Store",
-			"apple-store": "Apple App Store"
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Wîkîferheng",
 		"slogan": "Ferhenga azad",
-		"entries": "encam"
+		"entries": "encam",
+		"search-input-label": "Li Wîkîferhengê lê bigere",
+		"language-button-text": "Wîkîferhengê bi zimanê xwe bixwîne"
 	},
 	"wikibooks": {
 		"name": "Wîkîpirtûk",
 		"slogan": "Pirtûkên azad",
-		"entries": "rûpel"
+		"entries": "rûpel",
+		"search-input-label": "Li Wîkîkitêban lê bigere",
+		"language-button-text": "Wîkîkitêban bi zimanê xwe bixwîne"
 	},
 	"wikinews": {
 		"name": "Wîkînûçe",
 		"slogan": "Çavkaniya nûçeyan ya azad",
-		"entries": "gotar"
+		"entries": "gotar",
+		"search-input-label": "Li Wîkînûçeyê lê bigere",
+		"language-button-text": "Wîkînûçeyê bi zimanê xwe bixwîne"
 	},
 	"wikiquote": {
 		"name": "Wîkîgotin",
 		"slogan": "Koleksîyona jêgirtinan yê azad",
-		"entries": "gotar"
+		"entries": "gotar",
+		"search-input-label": "Li Wîkîgotinê lê bigere",
+		"language-button-text": "Wîkîgotinê bi zimanê xwe bixwîne"
 	},
 	"wikisource": {
 		"name": "Wîkîçavkanî",
-		"slogan": "Pirtûkxaneya azad"
+		"slogan": "Kitêbxaneya naverok-azad"
 	},
 	"wikiversity": {
 		"name": "Wîkîzanîngeh",
-		"slogan": "Materyalên kursê yên azad",
-		"entries": "çavkaniyên hînbûnê"
+		"slogan": "Çavkanîyên hînbûnê yên belaş",
+		"entries": "çavkaniyên hînbûnê",
+		"search-input-label": "Li Wîkîzanîngehê lê bigere",
+		"language-button-text": "Wîkîzanîngehê bi zimanê xwe bixwîne"
 	},
 	"wikivoyage": {
 		"name": "Wîkîger",
-		"slogan": "Rêbera seyahetê ya azad"
+		"slogan": "Rêbera seyahetê ya azad",
+		"entries": "rûpel",
+		"search-input-label": "Li Wîkîgerê lê bigere",
+		"language-button-text": "Wîkîgerê bi zimanê xwe bixwîne"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Wêneyên bi serbestî dikarin werin bikaranîn û jê zêdetir"
+		"slogan": "Koleksîyona medyayê ya azad"
 	},
 	"wikispecies": {
 		"name": "Wîkîcure",
 		"slogan": "Pelrêça cureyan yê azad"
+	},
+	"wikifunctions": {
+		"name": "Wîkîfonksîyon",
+		"slogan": "Kitêbxaneya bi fonksîyona azad"
 	},
 	"wikidata": {
 		"name": "Wîkîdane",
@@ -79,7 +101,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Bernameya wîkiye ya azad û vekirî"
+		"slogan": "Nermalava wîkiye ya azad û vekirî"
 	},
 	"metawiki": {
 		"name": "Meta-Wîkî",

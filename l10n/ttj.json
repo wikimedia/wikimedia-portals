@@ -16,7 +16,7 @@
 	"wiki": {
 		"name": "Wikipediya",
 		"slogan": "Ensaikiropediya ey'Obugabe",
-		"entries": "amakuru",
+		"entries": "engingo",
 		"search-input-label": "Serra Wikipediya",
 		"language-button-text": "Soma Wikipediya omu rulimi rwawe",
 		"footer-description": "Wikipediya elemwa Wikimediya Foundation, ekitongole ekitali ky'amagoba ekilema ebyekambwa bindi.",
@@ -44,14 +44,14 @@
 	"wikinews": {
 		"name": "Wikimahurre",
 		"slogan": "Oburugo bw'amahurre bw'obugabe",
-		"entries": "amakuru",
+		"entries": "engingo",
 		"search-input-label": "Serra Wikimahurre",
 		"language-button-text": "Soma Wikimahurre omu rulimi rwawe"
 	},
 	"wikiquote": {
 		"name": "Wikibijurro",
 		"slogan": "Omuganda gw'ebijurro by'obugabe",
-		"entries": "amakuru",
+		"entries": "engingo",
 		"search-input-label": "Serra Wikibijurro",
 		"language-button-text": "Soma Wikibijurro omu rulimi rwawe"
 	},
