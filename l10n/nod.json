@@ -5,14 +5,15 @@
 			"Noktonissian"
 		]
 	},
-	"language-name": "ᨣᩴᩤᨾᩮᩥᩬᨦ",
-	"language-name-romanized-sorted": "Kam Mueang",
+	"language-name": "ᨣᩤᩴᨾᩮᩬᩥᨦ",
+	"language-name-romanized": "Kam Mueang",
 	"footer-donate": "ᨩ᩠ᩅ᩠᩵ᨿᨣ᩶ᩤᩴᨩ᩠ᩅ᩠᩵ᨿᩉ᩠ᨶᩩᩁᨦᩣ᩠ᨶᨡᩬᨦᩉ᩠ᨾᩪ᩵ᩁᩮᩢᩣᨯᩱ᩶ᨯᩰ᩠ᨿᨠᩣ᩠ᩁᨷᩁᩥᨧᩣ᩠ᨣ",
 	"license": "ᩉ᩠ᨶ᩶ᩣᨶᩦ᩶ᩀᩪ᩵ᨲᩱ᩶ᩈᩢᨬ᩠ᨬᩣᩋᨶᩩᨬᩣ᩠ᨲ<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.th'>ครีเอทีฟคอมมอนส์ อ้างอิงแหล่งที่มา อนุญาตแบบเดียวกัน 4.0</a>",
 	"terms": "ᨠᩫ᩠ᨭᨠᩣ᩠ᩁᨩᩱ᩶ᨦᩣ᩠ᨶ",
 	"privacy-policy": "ᨶᨿᩰᨷᩣ᩠ᨿᨤ᩠ᩅᩣ᩠ᨾᨸᩮ᩠ᨶᩈ᩠ᩅ᩵ᩁᨲ᩠ᩅᩫ",
 	"search-input-button": "ᨪᩰᩬᩡᩉᩣ",
 	"other-languages-label": "ᨶᩲᨽᩣᩈᩣᩋᩨ᩠᩵ᨶ",
+	"top-ten-nav-label": "ᨽᩣᩈᩣᨴᩦ᩵ᨤᩫ᩠ᨶ​ᨾᩢ᩠ᨠᩉᩖᩣ᩠ᨿ",
 	"all-languages-nav-label": "ᨩᩩᨽᩣᩈᩣ",
 	"other-projects-nav-label": "ᨣᩕᩰᩫ᩠ᨦᨠᩣ᩠ᩁᩋᩨ᩠᩵ᨶ",
 	"wiki": {
@@ -48,12 +49,15 @@
 		"name": "ᩅᩥᨠᩥᨡ᩵ᩣ᩠ᩅ",
 		"slogan": "ᩉᩖᩯ᩵ᨦᨡ᩵ᩣ᩠ᩅᩈᩮᩁᩦ",
 		"entries": "ᨷᩫ᩠ᨴᨤ᩠ᩅᩣ᩠ᨾ",
-		"search-input-label": "ᨪᩰᩬᩡᩉᩣᨶᩲᩅᩥᨠᩥᨡᩕ᩵ᩣ᩠ᩅ"
+		"search-input-label": "ᨪᩰᩬᩡᩉᩣᨶᩲᩅᩥᨠᩥᨡᩕ᩵ᩣ᩠ᩅ",
+		"language-button-text": "ᩋ᩵ᩣ᩠ᨶᩅᩥᨠᩥᨻᩦᨡᩕ᩵ᩣ᩠ᩅ​ᨶᩱ​ᨽᩣᩈᩣ​ᨡᩬᨦᨴ᩵ᩤ᩠ᨶ"
 	},
 	"wikiquote": {
 		"name": "ᩅᩥᨠᩥᨣᩤᩴᨤᩫ᩠ᨾ",
 		"slogan": "ᩉᩖᩯ᩵ᨦᩁ᩠ᩅᨾᨣᩤᩴᨤᩫ᩠ᨾᩈᩮᩁᩦ",
-		"entries": "ᨷᩫ᩠ᨴᨤ᩠ᩅᩣ᩠ᨾ"
+		"entries": "ᨷᩫ᩠ᨴᨤ᩠ᩅᩣ᩠ᨾ",
+		"search-input-label": "ᨪᩰᩬᩡ​ᩉᩣ​ᨶᩲ​ᩅᩥᨠᩥᨣᩤᩴ​ᨤᩫ᩠ᨾ",
+		"language-button-text": "ᩋ᩵ᩣ᩠ᨶ​ᩅᩥᨠᩥᨻᩦᨣᩤᩴ​ᨤᩫ᩠ᨾ​ᨶᩲ​ᨽᩣᩈᩣ​ᨡᩬᨦ​ᨴ᩵ᩤ᩠ᨶ"
 	},
 	"wikisource": {
 		"name": "ᩅᩥᨠᩥᨪᩬᩁ᩠ᩈ᩺",
@@ -62,20 +66,28 @@
 	"wikiversity": {
 		"name": "ᩅᩥᨠᩥᩅᩥᨴ᩠ᨿᩣᩃᩱ᩠ᨿ",
 		"slogan": "ᩉᩖᩢᨠᩈᩪᨲᩕ᩼ᨠᩣ᩠ᩁᩈᩬᩁᩈᩮᩁᩦ",
-		"entries": "ᨪᩢᨻ᩠ᨿᩣᨠᩬᩁᨠᩣ᩠ᩁᩁ᩠ᨿᩁᩁᩪ᩶"
+		"entries": "ᨪᩢᨻ᩠ᨿᩣᨠᩬᩁᨠᩣ᩠ᩁᩁ᩠ᨿᩁᩁᩪ᩶",
+		"search-input-label": "ᨪᩰᩬᩡ​ᩉᩣ​ᨶᩲ​ᩅᩥᨠᩥ​ᩅᩥᨴ᩠ᨿᩣᩃᩱ᩠ᨿ",
+		"language-button-text": "ᩋ᩵ᩣ᩠ᨶᩅᩥᨠᩥᨻᩦᩅᩥᨴ᩠ᨿᩣᩃᩱ᩠ᨿ​ᨶᩱᨽᩣᩈᩣᨡᩬᨦᨴ᩵ᩤ᩠ᨶ"
 	},
 	"wikivoyage": {
 		"name": "ᩅᩥᨠᩥᩋᩯ᩠᩵ᩅ",
 		"slogan": "ᨣᩪ᩵ᨾᩨᨶᩣᩴᩋᩯ᩠᩵ᩅᩈᩮᩁᩦ",
-		"entries": "ᩉ᩠ᨶ᩶ᩣ"
+		"entries": "ᩉ᩠ᨶ᩶ᩣ",
+		"search-input-label": "ᨪᩰᩬᩡ​ᩉᩣ​ᨶᩲ​ᩅᩥᨠᩥ​ᩋᩯ᩠᩵ᩅ",
+		"language-button-text": "ᩋ᩵ᩣ᩠ᨶ​ᩅᩥᨠᩥᨻᩦᩋᩯ᩠᩵ᩅ​ᨶᩲ​ᨽᩣᩈᩣ​ᨡᩬᨦ​ᨴ᩵ᩤ᩠ᨶ"
 	},
 	"commons": {
 		"name": "ᨤᩬᨾᨾᩬᨶ᩠ᩈ᩼",
-		"slogan": "ᩁᩪᨷᨳ᩵ᩣ᩠ᨿᨴᩦ᩵ᩐᩣᨻᩱᨩᩲ᩶ᨯᩱ᩶ᩀ᩵ᩣ᩠ᨦᩈᩮᩁᩦ ᩓᩋᩨ᩠᩵ᨶᪧ"
+		"slogan": "ᩁᩪ᩠ᨷᨳ᩵ᩣ᩠ᨿᨴᩦ᩵ᩐᩣᨻᩱᨩᩲ᩶ᨯᩱ᩶ᩀ᩵ᩣ᩠ᨦᩈᩮᩁᩦ"
 	},
 	"wikispecies": {
 		"name": "ᩅᩥᨠᩥᩈᨻᩦᨪᩦᩈ᩼",
 		"slogan": "ᨮᩣ᩠ᨶᨡᩬᩴ᩶ᨾᩪᩃ᩼ᨠᩣ᩠ᩁᨧᩢ᩠ᨯᩉ᩠ᨾ᩠ᩅᨯᩉ᩠ᨾᩪ᩵ᩈᩥ᩠᩵ᨾᨾᩦᨩᩦᩅᩥ᩠ᨲᩈᩮᩁᩦ"
+	},
+	"wikifunctions": {
+		"name": "ᩅᩥᨠᩥᨼᩢᨦ᩠ᨣ᩼ᨫᩢ᩠ᨶ",
+		"slogan": "ᩉᩬ᩶ᨦ​ᩈ᩠ᨾ᩻ᩩᨯ​ᨼᩢᨦ᩠ᨣ᩼ᨫᩢ᩠ᨶ​ᩈᩮᩁᩦ"
 	},
 	"wikidata": {
 		"name": "ᩅᩥᨠᩥᨡᩬᩴ᩶ᨾᩪᩃ᩼",
@@ -83,7 +95,7 @@
 	},
 	"mediawiki": {
 		"name": "ᨾᩦᨯ᩠ᨿᩮᩅᩥᨠᩥ",
-		"slogan": "ᩅᩥᨠᩥᩋᩯ᩠ᨻᨻᩖᩥᨤᩮᨫᩢ᩠ᨶᨷᩯ᩠ᨷᨸᩮᩥ᩠ᨯᩓᩈᩮᩁᩦ"
+		"slogan": "ᩅᩥᨠᩥᨪᩬᨼ᩠ᨴ᩼ᩅᩯᩁ᩼ᨷᩯ᩠ᨷ​ᨸᩮᩥ᩠ᨯ​ᩓ​ᩈᩮᩁᩦ"
 	},
 	"metawiki": {
 		"name": "ᨾᩮᨴᩣᩅᩥᨠᩥ",
