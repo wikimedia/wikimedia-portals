@@ -26,7 +26,8 @@
 			"title": "Download Wikipedia kena Android tauka iOS",
 			"description": "Simpan artikel ti dikerinduka nuan dikena macha offline, nyegerakka ripih bacha nuan ba semua perengka lalu ubah peneleba pemacha nuan enggau app resmi Wikipedia.",
 			"google-store": "Google Play Store",
-			"apple-store": "Apple App Store"
+			"apple-store": "Apple App Store",
+			"url": "https://iba.wikipedia.org/wiki/Ripih_aplikasyen_mobail_Wikipedia"
 		}
 	},
 	"wiktionary": {
@@ -51,7 +52,11 @@
 		"language-button-text": "Bacha Wikiberita dalam jaku nuan"
 	},
 	"wikiquote": {
-		"entries": "artikel"
+		"name": "Wikiquote",
+		"slogan": "Koleksyen jaku ambi bibas",
+		"entries": "artikel",
+		"search-input-label": "Giga Wikiquote",
+		"language-button-text": "Bacha Wikiquote dalam jaku nuan"
 	},
 	"wikisource": {
 		"name": "Wikibunsu",

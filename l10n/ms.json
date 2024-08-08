@@ -5,13 +5,15 @@
 			"MuratTheTurkish",
 			"Stress 043",
 			"Tofeiku",
-			"Ultron90"
+			"Ultron90",
+			"Zahirulnukman"
 		]
 	},
 	"language-name": "Bahasa Melayu",
+	"language-name-romanized": "Bahasa Melayu",
 	"language-name-romanized-sorted": "Melayu, Bahasa",
 	"footer-donate": "Anda boleh menyokong kerja kami dengan menderma.",
-	"license": "Laman ini tersedia di bawah <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Lesen Atribusi-PerkongsianSerupa Creative Commons</a>",
+	"license": "Laman ini tersedia di bawah <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Lesen Pengiktirafan-PerkongsianSerupa Creative Commons</a>",
 	"terms": "Syarat-syarat Penggunaan",
 	"privacy-policy": "Dasar Privasi",
 	"search-input-button": "Cari",
@@ -42,7 +44,7 @@
 		"language-button-text": "Baca Wikikamus dalam bahasa anda"
 	},
 	"wikibooks": {
-		"name": "Wikibooks",
+		"name": "Wikibuku",
 		"slogan": "Buku teks bebas",
 		"entries": "laman",
 		"search-input-label": "Cari Wikibuku",
