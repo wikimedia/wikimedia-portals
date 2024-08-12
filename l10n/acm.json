@@ -5,91 +5,98 @@
 			"MRidhaAJ"
 		]
 	},
-	"footer-donate": "تكدر تساعد شغلنا بالتبرع.",
-	"license": "هذه الصفحة منشوره <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.ar'>برخصة المشاع الإبداعي</a>",
-	"terms": "شروط الأستخدام",
+	"footer-donate": "تكدر تساعد شغلنه بالتبرع.",
+	"license": "هاي الصفحه منشوره جوه <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "شروط الاستخدام",
 	"privacy-policy": "سياسة الخصوصيه",
 	"search-input-button": "بحث",
 	"other-languages-label": "لغات ثانية",
+	"top-ten-nav-label": "اقوه لغات",
+	"all-languages-nav-label": "كل اللغات",
+	"other-projects-nav-label": "مشاريع ثانيه",
 	"wiki": {
 		"name": "ويكيبيديا",
 		"slogan": "الموسوعة الحرة",
 		"entries": "مقالات",
-		"search-input-label": "ابحث فـي ويكيبيديا",
-		"language-button-text": "اقرا ويكيبيديا بلغتك",
-		"footer-description": "ويكيبيديا تستضاف من مؤسسة ويكيميديا، وهي منظمة مو ربحية تستضيف همين مجموعة مشاريع ثانية.",
+		"search-input-label": "ابحث بويكيبيديا",
+		"language-button-text": "اقره ويكيبيديا بلغتك",
+		"footer-description": "ويكيبيديا تستضاف من مؤسسة ويكيميديا، وهي منظمه مو ربحيه هم تستضيف مجموعة مشاريع ثانيه.",
 		"app-links": {
-			"title": "نزل ويكيبيديا لاندرويد أو آي أو اس",
-			"description": "احفظ مقالاتك المفضلة للقراءة في وضع ماكو اتصال وزامن قوائم القراءة ويه الأجهزة وتخصيص تجربة القراءة الخاصة بتطبيق ويكيبيديا الرسمي.",
-			"google-store": "كوكل بلي ستور",
-			"apple-store": "أبل أب ستور",
+			"title": "نزل ويكيبيديا لاندرويد و آي أو اس (ايفون)",
+			"description": "احفظ مقالاتك اللي تحبها حته تقراها بدون نت وزامن قوائم القراءه ويه الاجهزه وخصص تجربة القراءة مالتك بتطبيق ويكيبيديا الرسمي.",
+			"google-store": "متجر كوكل بلي",
+			"apple-store": "متجر آب ستور",
 			"url": "https://ar.wikipedia.org/wiki/قائمة_تطبيقات_ويكيبيديا_للتلفون"
 		}
 	},
 	"wiktionary": {
 		"name": "ويكاموس",
-		"slogan": "قامـوس حـر",
-		"entries": "مقـالات",
-		"search-input-label": "ابحث في ويكامـوس",
-		"language-button-text": "اقرا ويكامـوس بلغتك"
+		"slogan": "قاموس حر",
+		"entries": "مقالات",
+		"search-input-label": "ابحث بويكاموس",
+		"language-button-text": "اقره ويكاموس بلغتك"
 	},
 	"wikibooks": {
-		"name": "ويكي الكـتب",
-		"slogan": "كتب مدرسـية مجـانية",
-		"entries": "الصفحـات",
-		"search-input-label": "ابحث في ويكي الكتـب",
-		"language-button-text": "اقرا ويكي الكتـب بلغتك"
+		"name": "ويكي الكتب",
+		"slogan": "كتب مدرسيه مجانيه",
+		"entries": "الصفحات",
+		"search-input-label": "ابحث بويكي الكتب",
+		"language-button-text": "اقره ويكي الكتب بلغتك"
 	},
 	"wikinews": {
-		"name": "ويكي الاخبـار",
-		"slogan": "مصادر مجانية جديده",
-		"entries": "مقـالات",
-		"search-input-label": "ابحث فـي ويكي الاخبـار",
-		"language-button-text": "اقرأ ويكي الاخبـار بلغتك"
+		"name": "ويكي الاخبار",
+		"slogan": "مصادر مجانيه جديده",
+		"entries": "مقالات",
+		"search-input-label": "ابحث بويكي الاخبار",
+		"language-button-text": "اقره ويكي الاخبار بلغتك"
 	},
 	"wikiquote": {
-		"name": "ويكي الاقتبـاس",
-		"slogan": "خلاصة اقتبـاسات حرة",
-		"entries": "مقـالات",
-		"search-input-label": "ابحث في ويكي اقتبـاس",
-		"language-button-text": "اقرا ويكي اقتبـاس بلغتك"
+		"name": "ويكي الاقتباس",
+		"slogan": "خلاصة اقتباسات حره",
+		"entries": "مقالات",
+		"search-input-label": "ابحث بويكي اقتباس",
+		"language-button-text": "اقره ويكي اقتباس بلغتك"
 	},
 	"wikisource": {
 		"name": "ويكي مصدر",
-		"slogan": "مكتبة مجانيـة"
+		"slogan": "مكتبه محتوه مجاني"
 	},
 	"wikiversity": {
-		"name": "ويكي الجامعـة",
-		"slogan": "المواد الدراسيـة المجانـية",
-		"entries": "مصـادر التعـلم",
-		"search-input-label": "ابحث في ويكي الجامعة",
-		"language-button-text": "اقرأ ويكي الجامعة بلغتك"
+		"name": "ويكي الجامعه",
+		"slogan": "مواد تعليميه مجانيه",
+		"entries": "مصادر تعلم",
+		"search-input-label": "ابحث بويكي الجامعه",
+		"language-button-text": "اقره ويكي الجامعه بلغتك"
 	},
 	"wikivoyage": {
-		"name": "ويكي الرحـلات",
-		"slogan": "دليل سفـر مجـاني",
+		"name": "ويكي سفرات",
+		"slogan": "دليل سفر مجاني",
 		"entries": "الصفحات",
 		"search-input-label": "إبحث في ويكي سفرات",
 		"language-button-text": "اقرأ ويكي الرحلات بلغتك"
 	},
 	"commons": {
-		"name": "كومنـز",
-		"slogan": "الصور الي يمكن استخدامها بحرية وأكثر"
+		"name": "كومنز",
+		"slogan": "تجميعه ميديا مجانيه"
 	},
 	"wikispecies": {
 		"name": "ويكي الانواع",
-		"slogan": "دليل الانواع الحـر"
+		"slogan": "دليل الانواع الحر"
+	},
+	"wikifunctions": {
+		"name": "ويكي الدوال",
+		"slogan": "مكتبه دوال مجانيه"
 	},
 	"wikidata": {
 		"name": "ويكي داتا",
-		"slogan": "قاعدة البيانات الحـره"
+		"slogan": "قاعدة البيانات الحره"
 	},
 	"mediawiki": {
 		"name": "ميديا ويكي",
-		"slogan": "برمجيات الويكي الحـره"
+		"slogan": "برمجيات ويكي مجانيه ومفتوحه"
 	},
 	"metawiki": {
 		"name": "ميتا-ويكي",
-		"slogan": "تنسيق & توثيق مشاريع ويكيميديا"
+		"slogan": "تنسيق وتوثيق مشاريع ويكيميديا"
 	}
 }

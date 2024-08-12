@@ -9,18 +9,25 @@
 	},
 	"language-name": "Azərbaycanca",
 	"language-name-romanized-sorted": "Azerbaycanca",
+	"footer-donate": "İşimizə ianə ilə dəstək ola bilərsiniz.",
+	"license": "Bu səhifə <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.az'>Creative Commons Attribution-ShareAlike Lisenziyası</a> altında mövcuddur",
 	"terms": "İstifadə şərtləri",
 	"privacy-policy": "Məxfilik siyasəti",
 	"search-input-button": "Axtar",
 	"other-languages-label": "Digər dillər",
+	"top-ten-nav-label": "Ən yaxşı dillər",
+	"all-languages-nav-label": "Bütün dillər",
+	"other-projects-nav-label": "Digər layihələr",
 	"wiki": {
 		"name": "Vikipediya",
 		"slogan": "Azad ensiklopediya",
-		"entries": "məqalələr",
+		"entries": "məqalə",
 		"search-input-label": "Vikipediyada axtar",
 		"language-button-text": "Vikipediyanı öz dilinizdə oxuyun",
+		"footer-description": "Vikipediya, bir sıra digər layihələrlə birlikdə qeyri-kommersiya təşkilatı olan Vikimedia Fonduna məxsusdur.",
 		"app-links": {
-			"title": "Android və ya IOS üçün Vikipediya yüklə",
+			"title": "Android və ya IOS üçün Wikipedia-nı yüklə",
+			"description": "Rəsmi Wikipedia proqramı ilə məqalələri oflayn oxumaq, oxu siyahılarınızı cihazlar arasında sinxronlaşdırmaq və oxu təcrübənizi fərdiləşdirmək üçün sevimli məqalələrinizi yaddaşda saxlayın.",
 			"google-store": "Play Store",
 			"apple-store": "App Store"
 		}
@@ -28,47 +35,71 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Azad lüğət",
-		"entries": "daxiletmələr"
+		"entries": "daxiletmələr",
+		"search-input-label": "Vikilüğətdə axtar",
+		"language-button-text": "Vikilüğəti öz dilinizdə oxuyun"
 	},
 	"wikibooks": {
 		"name": "Vikikitab",
-		"entries": "səhifələr"
+		"slogan": "Pulsuz dərsliklər",
+		"entries": "səhifələr",
+		"search-input-label": "Vikikitabda axtar",
+		"language-button-text": "Vikikitabı öz dilinizdə oxuyun"
 	},
 	"wikinews": {
 		"name": "Vikixəbər",
 		"slogan": "Azad xəbər mənbəyi",
-		"entries": "məqalələr"
+		"entries": "məqalələr",
+		"search-input-label": "Vikixəbərdə axtar",
+		"language-button-text": "Vikixəbəri öz dilinizdə oxuyun"
 	},
 	"wikiquote": {
 		"name": "Vikisitat",
 		"slogan": "Azad sitat məcmuəsi",
-		"entries": "məqalələr"
+		"entries": "məqalələr",
+		"search-input-label": "Vikisitatda axtar",
+		"language-button-text": "Vikisitatı öz dilinizdə oxuyun"
 	},
 	"wikisource": {
 		"name": "Vikimənbə",
-		"slogan": "Azad kitabxana"
+		"slogan": "Azad məzmun kitabxanası"
 	},
 	"wikiversity": {
 		"name": "Vikiversitet",
-		"slogan": "Azad kurs materialları"
+		"slogan": "Azad öyrənmə resursları",
+		"entries": "öyrənmə resursları",
+		"search-input-label": "Vikiversitetdə axtar",
+		"language-button-text": "Vikiversiteti öz dilinizdə oxuyun"
 	},
 	"wikivoyage": {
 		"name": "Vikisəyahət",
-		"slogan": "Azad səyahət bələdçisi"
+		"slogan": "Azad səyahət bələdçisi",
+		"entries": "səhifə",
+		"search-input-label": "Vikisəyahətdə axtar",
+		"language-button-text": "Vikisəyahəti öz dilinizdə oxuyun"
 	},
 	"commons": {
-		"name": "Vikianbar"
+		"name": "Vikianbar",
+		"slogan": "Pulsuz media toplusu"
 	},
 	"wikispecies": {
-		"name": "Vikinövlər"
+		"name": "Vikinövlər",
+		"slogan": "Pulsuz növlər kataloqu"
+	},
+	"wikifunctions": {
+		"name": "Vikifunksiyalar",
+		"slogan": "Pulsuz funksiya kitabxanası"
 	},
 	"wikidata": {
-		"name": "Vikidata"
+		"name": "Vikidata",
+		"slogan": "Pulsuz bilik bazası"
 	},
 	"mediawiki": {
-		"name": "Mediaviki"
+		"name": "Mediaviki",
+		"slogan": "Pulsuz və açıq wiki proqram təminatı"
 	},
 	"metawiki": {
-		"name": "Meta-Viki"
+		"name": "Meta-Viki",
+		"slogan": "İcma koordinasiyası və sənədləşdirmə"
 	}
 }

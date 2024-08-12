@@ -60,7 +60,7 @@
 	"wikinews": {
 		"name": "Wikinieuws",
 		"slogan": "Vrije nieuwsbron",
-		"entries": "artikelen",
+		"entries": "pagina's",
 		"search-input-label": "Zoeken in Wikinieuws",
 		"language-button-text": "Wikinieuws in uw taal lezen"
 	},
@@ -73,11 +73,11 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "De vrije bibliotheek"
+		"slogan": "Bibliotheek met rechtenvrije inhoud"
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
-		"slogan": "Vrij cursusmateriaal",
+		"slogan": "Vrije leermaterialen",
 		"entries": "leermiddelen",
 		"search-input-label": "Wikiversity doorzoeken",
 		"language-button-text": "Wikiversity in uw taal lezen"
@@ -91,7 +91,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Vrij te gebruiken foto's en meer"
+		"slogan": "Vrij te gebruiken media"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -107,7 +107,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Vrije en open wiki-applicatie"
+		"slogan": "Vrije en open wiki-software"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
