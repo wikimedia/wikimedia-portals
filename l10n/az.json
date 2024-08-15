@@ -8,6 +8,7 @@
 		]
 	},
 	"language-name": "Azərbaycanca",
+	"language-name-romanized": "Azərbaycanca",
 	"language-name-romanized-sorted": "Azerbaycanca",
 	"footer-donate": "İşimizə ianə ilə dəstək ola bilərsiniz.",
 	"license": "Bu səhifə <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.az'>Creative Commons Attribution-ShareAlike Lisenziyası</a> altında mövcuddur",
@@ -29,7 +30,8 @@
 			"title": "Android və ya IOS üçün Wikipedia-nı yüklə",
 			"description": "Rəsmi Wikipedia proqramı ilə məqalələri oflayn oxumaq, oxu siyahılarınızı cihazlar arasında sinxronlaşdırmaq və oxu təcrübənizi fərdiləşdirmək üçün sevimli məqalələrinizi yaddaşda saxlayın.",
 			"google-store": "Play Store",
-			"apple-store": "App Store"
+			"apple-store": "App Store",
+			"url": "https://az.wikipedia.org/wiki/Vikipediya_mobil_t%C9%99tbiql%C9%99rinin_siyah%C4%B1s%C4%B1"
 		}
 	},
 	"wiktionary": {
