@@ -37,7 +37,7 @@
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Azad lüğət",
-		"entries": "daxiletmələr",
+		"entries": "mətn",
 		"search-input-label": "Vikilüğətdə axtar",
 		"language-button-text": "Vikilüğəti öz dilinizdə oxuyun"
 	},
@@ -97,7 +97,7 @@
 		"slogan": "Pulsuz bilik bazası"
 	},
 	"mediawiki": {
-		"name": "Mediaviki",
+		"name": "MediaViki",
 		"slogan": "Pulsuz və açıq wiki proqram təminatı"
 	},
 	"metawiki": {
