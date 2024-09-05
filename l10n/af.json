@@ -3,20 +3,24 @@
 		"authors": [
 			"Amire80",
 			"Fwolff",
-			"Hentie"
+			"Hentie",
+			"Rooiratel"
 		]
 	},
 	"language-name": "Afrikaans",
 	"language-name-romanized": "Afrikaans",
 	"language-name-romanized-sorted": "Afrikaans",
 	"footer-donate": "U kan ons werk ondersteun deur donasies",
-	"license": "Dié bladsy is beskikbaar onderhewig aan die <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike-lisensie</a>",
+	"license": "Dié bladsy is beskikbaar onderhewig aan die <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.af'>Creative Commons Attribution-ShareAlike-lisensie</a>",
 	"terms": "Gebruiksvoorwaardes",
 	"privacy-policy": "Privaatheidsbeleid",
 	"terms-link": "https//meta.wikimedia.org/Terme_van_Gebruik",
 	"privacy-policy-link": "https//meta.wikimedia.org/Wiki/Privaatheids_beleid",
 	"search-input-button": "Deursoek",
 	"other-languages-label": "Ander tale",
+	"top-ten-nav-label": "Top tale",
+	"all-languages-nav-label": "Alle tale",
+	"other-projects-nav-label": "Ander projekte",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Die vrye ensiklopedia",
@@ -25,7 +29,7 @@
 		"language-button-text": "Lees Wikipedia in jou taal",
 		"footer-description": "Wikipedia word aangebied deur die Wikimedia-stigting, 'n organisasie sonder winsbejag wat ook 'n vele ander projekte bevat.",
 		"app-links": {
-			"title": "Laai Wikipedia nou af vir Android of IOS",
+			"title": "Laai Wikipedia nou af vir Android of iOS",
 			"description": "Stoor jou gunsteling artikels om dit van lyn af te lees, sinkroniseer jou leeslyste oor meer as een toestel en pas jou leeservaring aan met die amptelike Wikipedia app.",
 			"google-store": "Google Play Winkel",
 			"apple-store": "Apple App Winkel",
@@ -62,11 +66,11 @@
 	},
 	"wikisource": {
 		"name": "Wikibron",
-		"slogan": "Vry biblioteek"
+		"slogan": "Vrye inhoud biblioteek"
 	},
 	"wikiversity": {
 		"name": "Wikiuniveriteit",
-		"slogan": "Vry kursusmateriaal",
+		"slogan": "Vrye leerhulpbronne",
 		"entries": "onderrighulpbronne",
 		"search-input-label": "Deursoek Wikiuniversiteit",
 		"language-button-text": "Lees Wikiuniversiteit in jou taal"
@@ -80,11 +84,15 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Vrylik bruikbare foto's en meer"
+		"slogan": "Vrye mediaversameling"
 	},
 	"wikispecies": {
 		"name": "Wikispesies",
 		"slogan": "Vrye spesiegids"
+	},
+	"wikifunctions": {
+		"name": "Wikifunksies",
+		"slogan": "Vrye funksie biblioteek"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -92,7 +100,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Vry en oop wikitoepassing"
+		"slogan": "Vry & oop wiki sagteware"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
