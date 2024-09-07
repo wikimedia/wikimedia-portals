@@ -2,9 +2,7 @@
 
 > READ: [Technical Documentation](./docs/README.md)
 
-These steps outline the wikipedia.org portal development process. Steps for updating all other Wikimedia Foundation portals are described in the [Updating Other Portal Pages](#updating-other-portal-pages) section.
-
-The wikipedia.org portal page utilizes several pre/post processors to generate an optimized HTML page.
+The portal pages utilize several pre/post processors to generate an optimized HTML page.
 
 ## Quick Start
 
