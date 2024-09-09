@@ -9,7 +9,32 @@
 	"footer-donate": "Ekau boleh monyokong kojo kito mo dermo",
 	"license": "Muko ini boleh ado sobab guno <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Lesen Pongiktirafan mo Pokongsian Seghoman Creative Commons</a>",
 	"terms": "Syarat Guno",
+	"other-languages-label": "Bahaso lain",
+	"top-ten-nav-label": "Bahaso torateh",
+	"all-languages-nav-label": "Semuo bahaso",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"language-button-text": "Baco Wikipedia dalam bahaso awak",
+		"app-links": {
+			"description": "Simpan artikel yang awak goma untuk baco luar talian, sogoghakkan sonaghai baco awak ghonteh poghanti dan ubah pongalaman baco awak mo aplikasi ghesmi Wikipedia."
+		}
+	},
+	"wiktionary": {
+		"language-button-text": "Baco Wikikamus dalam bahaso awak"
+	},
+	"wikibooks": {
+		"language-button-text": "Baco Wikibuku dalam bahaso awak"
+	},
+	"wikinews": {
+		"language-button-text": "Baco Wikisemaso dalam bahaso awak"
+	},
+	"wikiquote": {
+		"language-button-text": "Baco Wikipotek dalam bahaso awak"
+	},
+	"wikiversity": {
+		"language-button-text": "Baco Wikibersiti dalam bahaso awak"
+	},
+	"wikivoyage": {
+		"language-button-text": "Baco Wikilaya dalam bahaso awak"
 	}
 }
