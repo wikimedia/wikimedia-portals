@@ -3,7 +3,7 @@
 **TOC**
 
 - **Overview**
-- Architecture of www.wikipedia.org
+- Architecture of portals
 	- [Data sources](architecture/data.md)
 	- [l10n](architecture/l10n.md)
 	- [HTML](architecture/html.md)
@@ -22,7 +22,7 @@
 
 > NOTE: This documentation is best read online through the repository clone on [diffusion](https://phabricator.wikimedia.org/diffusion/WPOR/browse/master/docs) or [github](https://github.com/wikimedia/portals/tree/master/docs)
 
-The wikipedia.org page is a static HTML/CSS/JS page. However, it uses modern front-end development stack that includes templates, preprocessors and build-tools to achieve an optimized and performant output. We use [Handlebars](http://handlebarsjs.com/) for HTML templates,  [PostCSS](http://postcss.org/) as a CSS pre-processor, and [Gulp](http://gulpjs.com/) as build tool to stitch everything together.
+The portals are static HTML/CSS/JS pages. However, they use a front-end development stack that includes templates, preprocessors and build-tools to achieve an optimized and performant output. We use [Handlebars](http://handlebarsjs.com/) for HTML templates,  [PostCSS](http://postcss.org/) as a CSS pre-processor, and [Gulp](http://gulpjs.com/) as build tool to stitch everything together.
 
 Templates and source files are located in the `src` folder. The source files are populated with data from the `data` folder and processed using Gulp. During devlopment, the compiled but un-optimized assets remain in the src folder. During a production build, these assets are optimized and copied to the `prod`  folder.
 

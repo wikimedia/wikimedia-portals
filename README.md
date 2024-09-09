@@ -13,7 +13,7 @@ This repo houses the portal pages for the following Wikimedia Foundation project
 
 ## Overview
 
-www.wikipedia.org is built using a modern (circa 2015) front-end development stack which includes HTML templates, CSS preprocessors and build tooling to generate a static, optimized HTML page. Sister project portals (e.g. www.wiktionary.org) are generated using [these Lua templates](https://meta.wikimedia.org/wiki/Project_portals) on meta-wiki. After these templates are updated, the pages need to be pulled into this repository for deployment.
+The portal pages are built using a 2015 front-end development stack which includes HTML templates, CSS preprocessors and build tooling to generate a static, optimized HTML page. 
 
 ## Getting Started
 
