@@ -1,12 +1,51 @@
 {
 	"@metadata": {
 		"authors": [
+			"Midleading",
 			"Minh Nguyen"
 		]
 	},
 	"language-name": "Vahcuengh / 話僮",
 	"language-name-romanized-sorted": "Cuengh, Vah",
+	"privacy-policy": "Seiyaem Cwngcwz",
+	"search-input-button": "Ra",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"entries": "faenzcieng"
+	},
+	"wiktionary": {
+		"name": "Sawloih Veizgiek",
+		"slogan": "Bonj swzdenj swyouz"
+	},
+	"wikibooks": {
+		"name": "Veizgiek Gobwnj",
+		"slogan": "Bonj gobwnj swyouz",
+		"entries": "yieb"
+	},
+	"wikinews": {
+		"name": "Veizgiek Sinhvwnz",
+		"entries": "faenzcieng"
+	},
+	"wikiquote": {
+		"name": "Veizgiek Yijluz",
+		"entries": "faenzcieng"
+	},
+	"wikisource": {
+		"name": "Veizgiek Vwnzgu",
+		"slogan": "Bonj vwnzgu swyouz"
+	},
+	"wikivoyage": {
+		"name": "Veizgiek Lijyouz",
+		"entries": "yieb"
+	},
+	"wikispecies": {
+		"name": "Veizgiek Vuzcungj",
+		"slogan": "Bonj vuzcungj swhliugu swyouz"
+	},
+	"wikidata": {
+		"name": "Veizgiek Soqgi"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
 	}
 }
