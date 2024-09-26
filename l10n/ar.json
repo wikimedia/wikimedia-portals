@@ -27,6 +27,9 @@
 	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/ar",
 	"search-input-button": "بحث",
 	"other-languages-label": "لغات أخرى",
+	"top-ten-nav-label": "أفضل اللغات",
+	"all-languages-nav-label": "كل اللغات",
+	"other-projects-nav-label": "مشاريع أخرى",
 	"wiki": {
 		"name": "ويكيبيديا",
 		"slogan": "الموسوعة الحرة",
@@ -72,11 +75,11 @@
 	},
 	"wikisource": {
 		"name": "ويكي مصدر",
-		"slogan": "مكتبة مجانية"
+		"slogan": "مكتبة المحتوى الحر"
 	},
 	"wikiversity": {
 		"name": "ويكي الجامعة",
-		"slogan": "المواد الدراسية المجانية",
+		"slogan": "الموارد التعلمية الحرة",
 		"entries": "مصادر التعلم",
 		"search-input-label": "ابحث في ويكي الجامعة",
 		"language-button-text": "اقرأ ويكي الجامعة بلغتك"
@@ -90,7 +93,7 @@
 	},
 	"commons": {
 		"name": "كومنز",
-		"slogan": "الصور التي يمكن استخدامها بحرية والمزيد"
+		"slogan": "مستودع الوسائط الحرة"
 	},
 	"wikispecies": {
 		"name": "ويكي الأنواع",
@@ -106,7 +109,7 @@
 	},
 	"mediawiki": {
 		"name": "ميدياويكي",
-		"slogan": "برمجيات الويكي الحرة"
+		"slogan": "برمجيات ويكي حرة ومفتوحة المصدر"
 	},
 	"metawiki": {
 		"name": "ميتا ويكي",

@@ -1,10 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"امین اکبر"
 		]
 	},
 	"language-name": "ہریانوی",
 	"language-name-romanized": "Hariyāṇvī (Shāhmukhī)",
-	"language-name-romanized-sorted": "Hariyanvi (Shahmukhi)"
+	"language-name-romanized-sorted": "Hariyanvi (Shahmukhi)",
+	"search-input-button": "ٹوھؤ",
+	"wiki": {
+		"search-input-label": "ویکیپیڈیا مینھ ٹوھؤ"
+	},
+	"wiktionary": {
+		"search-input-label": "وکشنری مینھ ٹوھؤ"
+	}
 }
