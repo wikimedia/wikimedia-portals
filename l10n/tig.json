@@ -7,6 +7,7 @@
 	},
 	"language-name": "ትግሬ",
 	"language-name-romanized": "Tigre",
+	"footer-donate": "እብ ተበሩዓትኩም ሹቁልና ትስደው ትቀድሮ.",
 	"search-input-button": "ሕዘው",
 	"other-languages-label": "ብዕድ ሉቃት",
 	"wiki": {
@@ -25,7 +26,24 @@
 	},
 	"wikibooks": {
 		"name": "ዊኪቡክስ",
+		"entries": "ገጻት",
 		"search-input-label": "ዲብ ዊኪቡክስ ሕዛው",
 		"language-button-text": "ዊኪፐድያ እብ ሉቀትኩም ቅርኦ"
+	},
+	"wikinews": {
+		"name": "ዊኪ ኣክባር"
+	},
+	"wikiversity": {
+		"name": "ዊኪጃምዓት"
+	},
+	"wikivoyage": {
+		"name": "ዊኪሰፈር",
+		"entries": "ገጻት"
+	},
+	"wikidata": {
+		"name": "ዊኪዳታ"
+	},
+	"mediawiki": {
+		"name": "ሜድያዊኪ"
 	}
 }
