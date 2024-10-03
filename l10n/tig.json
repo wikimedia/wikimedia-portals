@@ -10,6 +10,8 @@
 	"footer-donate": "እብ ተበሩዓትኩም ሹቁልና ትስደው ትቀድሮ.",
 	"search-input-button": "ሕዘው",
 	"other-languages-label": "ብዕድ ሉቃት",
+	"top-ten-nav-label": "ለሐሰያ ሉቃት",
+	"all-languages-nav-label": "ኩለን ሉቃት",
 	"wiki": {
 		"name": "ዊኪፐድያ",
 		"search-input-label": "ዲብ ዊኪፐድያ ሕዘው",
@@ -39,6 +41,9 @@
 	"wikivoyage": {
 		"name": "ዊኪሰፈር",
 		"entries": "ገጻት"
+	},
+	"commons": {
+		"name": "ኮመንዝ"
 	},
 	"wikidata": {
 		"name": "ዊኪዳታ"

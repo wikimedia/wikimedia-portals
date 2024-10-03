@@ -2,10 +2,104 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"MiiCii",
 			"Moon0319",
 			"Obonggi",
 			"Араси"
 		]
 	},
-	"language-name-romanized": "manju gisun"
+	"language-name-romanized": "manju gisun",
+	"footer-donate": "Si menggun be aisilame jafafi meni weile be urušeci ombi.",
+	"license": "Ere afaha <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.mnc'>Sarasu be Sasari Gaijara Gebu Gidara-Adalingga Arga be Ssari Gaijara Aljara Boji Bithe</a> -i toose bure be songkolorongge.",
+	"terms": "Baitalara justan",
+	"privacy-policy": "Cisui dasan bodogon",
+	"search-input-button": "Suwelere",
+	"other-languages-label": "Gūwa gisun",
+	"top-ten-nav-label": "Justan labdu gisun",
+	"all-languages-nav-label": "Yooningga gisun",
+	"other-projects-nav-label": "Gūwa bodomin",
+	"wiki": {
+		"name": "Uikipediya",
+		"slogan": "Sulfangga hacingga buleku bithe",
+		"entries": "Justan",
+		"search-input-label": "Uikipediya de suwelere",
+		"language-button-text": "Sini gisun de Uikipediya be hūlara",
+		"footer-description": "Uikipediya oci tusa jalurakū meyen Uiki Mediya Fulehengge Jihai Isan -i kadalarangge, Fulehengge Jihai Isan geli gūwa bodomin be kadalambi.",
+		"app-links": {
+			"title": "iOS eici Android ban -i Uikipediya App be danglotlara",
+			"description": "Sirenci fakcara de hūlara be dahame, sini umesi cihalara justan be asarara, debais be dabaname sini hūlara iletun be okson adališabume, Uikipediya -i alban -i baitalan be baitalame sini hūlara yargiyalame dursulen be toktobume arambi.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://mnc.wikipedia.org/wiki/Uikipediya aššafun App -i iletun"
+		}
+	},
+	"wiktionary": {
+		"name": "Uiki buleku bithe",
+		"slogan": "Sulfangga buleku bithe",
+		"entries": "Justan",
+		"search-input-label": "Uiki buleku bithe be suwelere",
+		"language-button-text": "Sini gisun de Uiki buleku bithe be hūlara"
+	},
+	"wikibooks": {
+		"name": "Uiki tacibcen",
+		"slogan": "Sulfangga tacibcen",
+		"entries": "Afaha",
+		"search-input-label": "Uiki tacibcen be suwelere",
+		"language-button-text": "Sini gisun de Uiki tacibcen be hūlara"
+	},
+	"wikinews": {
+		"name": "Uiki medege",
+		"slogan": "Sulfangga medege -i sekiyen",
+		"entries": "Justan",
+		"search-input-label": "Uiki medege be suwelere",
+		"language-button-text": "Sini gisun de Uiki medege bithe be hūlara"
+	},
+	"wikiquote": {
+		"name": "Uiki gisuren",
+		"slogan": "Sulfangga gisuren",
+		"entries": "Justan",
+		"search-input-label": "Uiki gisuren be suwelere",
+		"language-button-text": "Sini gisun de Uiki gisuren be hūlara"
+	},
+	"wikisource": {
+		"name": "Uiki bithei namun",
+		"slogan": "Sulfangga bithei namun"
+	},
+	"wikiversity": {
+		"name": "Uiki ambatacikū",
+		"slogan": "Sulfangga tacire bayasu",
+		"entries": "Tacire bayasu",
+		"search-input-label": "Uiki ambatacikū be suwelere",
+		"language-button-text": "Sini gisun de Uiki ambatacikū be hūlara"
+	},
+	"wikivoyage": {
+		"name": "Uiki sarašan",
+		"slogan": "Sulfangga sarašara jorin",
+		"entries": "Afaha",
+		"search-input-label": "Uiki sarašan be suwelere",
+		"language-button-text": "Sini gisun de Uiki sarašan be hūlara"
+	},
+	"commons": {
+		"name": "Sasari gaijara bayasu",
+		"slogan": "Sulfangga mediya namun"
+	},
+	"wikispecies": {
+		"name": "Uiki jaka hacin",
+		"slogan": "Sulfangga jaka hacin -i iletun"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions"
+	},
+	"wikidata": {
+		"name": "Uiki deta",
+		"slogan": "Sulfangga sarasu namun"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Sulfangga neire Uiki sofutweya"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Gerenusu uhei hūwaliyabun jai bithe"
+	}
 }

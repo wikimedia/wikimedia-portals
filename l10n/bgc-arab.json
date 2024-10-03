@@ -10,9 +10,27 @@
 	"language-name-romanized-sorted": "Hariyanvi (Shahmukhi)",
 	"search-input-button": "ٹوھؤ",
 	"wiki": {
-		"search-input-label": "ویکیپیڈیا مینھ ٹوھؤ"
+		"name": "ویکیپیڈیا",
+		"search-input-label": "ویکیپیڈیا مینھ ٹوھؤ",
+		"app-links": {
+			"google-store": "گوگل پلے سٹور",
+			"apple-store": "اَیپل اَیپ سٹور",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"search-input-label": "وکشنری مینھ ٹوھؤ"
+	},
+	"wikibooks": {
+		"entries": "پنے"
+	},
+	"wikivoyage": {
+		"entries": "پنے"
+	},
+	"mediawiki": {
+		"name": "میڈیا ویکی"
+	},
+	"metawiki": {
+		"name": "میٹا-ویکی"
 	}
 }
