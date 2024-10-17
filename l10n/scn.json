@@ -1,23 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"Dapal"
 		]
 	},
 	"language-name": "Sicilianu",
 	"language-name-romanized-sorted": "Sicilianu",
-	"footer-donate": "Poi sustèniri lu nostru travagghiu c'una dunazzioni.",
-	"license": "Sta pàggina è dispunìbbili sutta â a href='https://creativecommons.org/licenses/by-sa/4.0/'>licenzia Creative Commons Attribbuzzioni-Cunnividi ô stissu modu</a>",
+	"footer-donate": "Susteni u nostru travagghiu cu na dunazzioni.",
+	"license": "Sta pàggina è dispunìbbili cu na licenza <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.scn'>Creative Commons Attribbuzzioni-Sparti â stissa manera</a>",
 	"terms": "Cunnizzioni d'usu",
-	"privacy-policy": "Pulìtica supra la privacy",
+	"privacy-policy": "Pulìtica supra â privatizza",
 	"search-input-button": "Arricerca",
-	"other-languages-label": "Àutri lingui",
+	"other-languages-label": "Autri lingui",
+	"top-ten-nav-label": "Lingui cchiù usati",
+	"all-languages-nav-label": "Tutti i lingui",
+	"other-projects-nav-label": "Autri pruggetti",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "La nciclupidìa lìbbira",
-		"entries": "vuci",
+		"slogan": "A nciclupidìa lìbbira",
+		"entries": "artìculi",
 		"search-input-label": "Arricerca supra Wikipedia",
-		"language-button-text": "Leggi Wikipedia ntâ tò lingua",
+		"language-button-text": "Leggi Wikipedia ntâ to lingua",
+		"footer-description": "Wikipedia è uspitata dâ Funnazzioni Wikimedia, n'urganizzazzioni senza scopu di lucru chi òspita assai autri pruggetti.",
 		"app-links": {
 			"title": "Scàrrica Wikipedia p'Android o iOS",
 			"google-store": "Google Play Store",
@@ -27,48 +32,49 @@
 	},
 	"wiktionary": {
 		"name": "Wikizziunariu",
-		"slogan": "Lu dizziunariu lìbbiru",
+		"slogan": "U dizziunariu lìbbiru",
 		"entries": "vuci",
 		"search-input-label": "Arricerca supra lu Wikizziunariu",
-		"language-button-text": "Leggi lu Wikizziunariu ntâ tò lingua"
+		"language-button-text": "Leggi u Wikizziunariu ntâ to lingua"
 	},
 	"wikibooks": {
-		"name": "Wikibooks",
-		"slogan": "Manuali e libbra di testu lìbbiri",
+		"name": "Wikilibbra",
+		"slogan": "Manuali e libbra lìbbiri",
 		"entries": "pàggini",
 		"search-input-label": "Arricerca supra Wikibooks",
-		"language-button-text": "Leggi Wikibooks ntâ tò lingua"
+		"language-button-text": "Leggi Wikilibbra ntâ to lingua"
 	},
 	"wikinews": {
 		"name": "Wikinutizzi",
-		"slogan": "La fonti di nutìzzi lìbbiri",
-		"entries": "vuci",
+		"slogan": "A funti di nutìzzi lìbbiri",
+		"entries": "artìculi",
 		"search-input-label": "Arricerca supra Wikinews",
-		"language-button-text": "Leggi Wikinews ntâ tò lingua"
+		"language-button-text": "Leggi Wikinutizzi ntâ to lingua"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Afurismi e citazzioni",
-		"entries": "vuci",
+		"entries": "artìculi",
 		"search-input-label": "Arricerca supra Wikiquote",
-		"language-button-text": "Leggi Wikiquote ntâ tò lingua"
+		"language-button-text": "Leggi Wikiquote ntâ to lingua"
 	},
 	"wikisource": {
 		"name": "Wikisource",
 		"slogan": "La bibbriuteca lìbbira"
 	},
 	"wikiversity": {
-		"name": "Wikiversità",
-		"entries": "lizzioni",
+		"name": "Wikivirsità",
+		"slogan": "Risursi di nzignamentu lìbbiri",
+		"entries": "risursi di nzignamentu",
 		"search-input-label": "Arricerca supra Wikiversità",
-		"language-button-text": "Leggi Wikiversità ntâ tò lingua"
+		"language-button-text": "Leggi a Wikivirsità ntâ to lingua"
 	},
 	"wikivoyage": {
-		"name": "Wikivoyage",
+		"name": "Wikiviaggi",
 		"slogan": "Guida turìstica lìbbira",
 		"entries": "pàggini",
 		"search-input-label": "Arricerca supra Wikivoyage",
-		"language-button-text": "Leggi Wikivoyage ntâ tò lingua"
+		"language-button-text": "Leggi a Wikiviaggi ntâ to lingua"
 	},
 	"commons": {
 		"name": "Commons"
