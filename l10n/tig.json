@@ -1,54 +1,102 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80",
-			"Bbeshir"
+			"Bbeshir",
+			"IdrisSeid"
 		]
 	},
 	"language-name": "ትግሬ",
 	"language-name-romanized": "Tigre",
 	"footer-donate": "እብ ተበሩዓትኩም ሹቁልና ትስደው ትቀድሮ.",
+	"license": "እሊ ገጽ እሊ ሐንቴ እሊ ለተሌ ራብጥ ልትረከብ <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "ሹሩጣት መትነፍዖት",
+	"privacy-policy": "ቃኑን ክሱስየት",
 	"search-input-button": "ሕዘው",
 	"other-languages-label": "ብዕድ ሉቃት",
 	"top-ten-nav-label": "ለሐሰያ ሉቃት",
 	"all-languages-nav-label": "ኩለን ሉቃት",
+	"other-projects-nav-label": "ካልእ መሻርዕ",
 	"wiki": {
 		"name": "ዊኪፐድያ",
+		"slogan": "ለናይ መጃኒ ኢንሳይክሎፒድያ",
+		"entries": "መቃለት",
 		"search-input-label": "ዲብ ዊኪፐድያ ሕዘው",
 		"language-button-text": "ዊኪፐድያ እብ ሉቀትኩም ቅርኦ",
+		"footer-description": "ዊኪፒድያ እባ እግል መክሰብ ልይሸቄ መአሰሰት ዊኪሚድያ ልትመቅረሕ። መጥመጦሩማ፡ ዊኪሚድያ ብዝሓት መሻርዕ ለአመቅርሕ።",
 		"app-links": {
+			"title": "ዊኪፒድያ እግል Android አው iOS አው ክረው",
 			"google-store": "ጉግል ፕለይ ስቶር",
-			"apple-store": "ኣፕል ኣፕ ስቶር"
+			"apple-store": "ኣፕል ኣፕ ስቶር",
+			"url": "https://tig.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "ውክሾነሪ",
+		"slogan": "ናይ መጃኒ ክብት ቃላት",
+		"entries": "መቃላት",
 		"search-input-label": "ዲብ ውክሾነሪ ሕዝው",
 		"language-button-text": "ዊኪፐድያ እብ ሉቀትኩም ቅርኦ"
 	},
 	"wikibooks": {
 		"name": "ዊኪቡክስ",
+		"slogan": "አክትበት መጃን",
 		"entries": "ገጻት",
 		"search-input-label": "ዲብ ዊኪቡክስ ሕዛው",
 		"language-button-text": "ዊኪፐድያ እብ ሉቀትኩም ቅርኦ"
 	},
 	"wikinews": {
-		"name": "ዊኪ ኣክባር"
+		"name": "ዊኪ ኣክባር",
+		"slogan": "ዒን አክባር መጃኒ",
+		"entries": "መቃለት",
+		"search-input-label": "ዊኪ-አክባር ሕዘው",
+		"language-button-text": "ዊኪ-ከበር እብ ሂጋኩም ቅርኡ"
+	},
+	"wikiquote": {
+		"name": "ብሂል ዊኪ",
+		"entries": "መቃለት",
+		"search-input-label": "ዊኪ-ብሂል ሕዘው",
+		"language-button-text": "ዊኪ-ብሂል እብ ሂጋኩም ቅርኡ"
+	},
+	"wikisource": {
+		"name": "ዊኪ-ዒን",
+		"slogan": "መክተበት ጽበጥ መጃኒ"
 	},
 	"wikiversity": {
-		"name": "ዊኪጃምዓት"
+		"name": "ዊኪጃምዓት",
+		"slogan": "ናይ መጃኒ ዓያን መድረሲ",
+		"entries": "ዓያን መድረሲ",
+		"search-input-label": "ዊኪ-ጃምዐት ሐዘው",
+		"language-button-text": "ዊኪ-ጃምዐት እብ ሂጋኩም ቅርኡ"
 	},
 	"wikivoyage": {
 		"name": "ዊኪሰፈር",
-		"entries": "ገጻት"
+		"slogan": "መጃኒ መምርሒ ሰፈር",
+		"entries": "ገጻት",
+		"search-input-label": "ዊኪ-ሰፈር ሕዘው",
+		"language-button-text": "ዊኪ-ሰፈር እብ ሂጋኩም ቅርኡ"
 	},
 	"commons": {
-		"name": "ኮመንዝ"
+		"name": "ኮመንዝ",
+		"slogan": "መክዘን መጃኒ ፋይላት"
+	},
+	"wikispecies": {
+		"name": "ዊኪ-ሕበርበሮ",
+		"slogan": "መሐበሪ እት መጃኒ ሕበርበሮ"
+	},
+	"wikifunctions": {
+		"name": "ዊኪ-ሽቅል",
+		"slogan": "መጃኒ መክዘን ሽቅል"
 	},
 	"wikidata": {
-		"name": "ዊኪዳታ"
+		"name": "ዊኪዳታ",
+		"slogan": "ዲብ መጃኒ ለገብአ ዕልም ለተንከባ"
 	},
 	"mediawiki": {
-		"name": "ሜድያዊኪ"
+		"name": "ሜድያዊኪ",
+		"slogan": "መጃኒ ዎ ፍቱሕ ለገብአ ሶፍትዋረ"
+	},
+	"metawiki": {
+		"name": "ሜታ-ዊኪ",
+		"slogan": "ረተቦት ሕበር ዎ ተንሲቅ"
 	}
 }

@@ -5,72 +5,98 @@
 			"Masjawad99"
 		]
 	},
-	"license": "Laman ini ado di jero <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
-	"terms": "Aturan Pemakian",
-	"privacy-policy": "Kebijakan Privasi",
+	"footer-donate": "Dulur diaturi amen na' ngenju' sumbangan na' nyokong gawî-gawî kami.",
+	"license": "Laman ni ado dicagerke di bawa <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Surat Ijin Nisbat-MagikeSemémper Creative Commons</a>",
+	"terms": "Sarat Pemakîan",
+	"privacy-policy": "Belid Keresioan",
 	"search-input-button": "Cari",
+	"other-languages-label": "Baso laénnyo",
+	"top-ten-nav-label": "Baso pucu'-pucu'nyo",
+	"all-languages-nav-label": "Galo-galo baso",
+	"other-projects-nav-label": "Peroyék laénnyo",
 	"wiki": {
 		"name": "Wikipédia",
-		"slogan": "Ensiklopédi peréi",
-		"entries": "artikel",
-		"search-input-label": "Cari Wikipédia",
-		"language-button-text": "Baco Wikipédia ngan baso Dulur",
-		"footer-description": "Wikipédia ini begawé lantak Wikimédia Foundation, organisasi nirlaba yang jugo nggawéke betébék proyék laén.",
+		"slogan": "Ensiklopédi merdika",
+		"entries": "makala",
+		"search-input-label": "Cari Wikipédi",
+		"language-button-text": "Bacola Wikipédi dalem baso Dulur déwé'",
+		"footer-description": "Wikipédi ni tegawî lanta' Yayasan Wikimedia, yola siko' rombongan kati' loka' (nonprofit) yang jugo ngawîke betébék peroyék laénnyo.",
 		"app-links": {
-			"title": "App Wikipédia mak ini elah ado:"
+			"title": "Julu' Wikipédi na' di Android apo da' iOS",
+			"description": "Dengen peranti resmi Wikipédi, Dulur paca' mendep makala kesenengan Dulur yang na' dibaco-baco di jabo jaringan (offline), nyetulu'ke lis bacoan Dulur di antero bemecem alat, teko nyetél caro maco ma'mano gala'nyo.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
-		"name": "Wikikamus",
-		"slogan": "Kamus peréi",
-		"entries": "éntri"
+		"name": "Wikikomus",
+		"slogan": "Komus merdika bemecem baso",
+		"entries": "biji",
+		"search-input-label": "Cari di Wikikomus",
+		"language-button-text": "Bacola Wikikomus dalem baso Dulur déwé'"
 	},
 	"wikibooks": {
 		"name": "Wikibuku",
-		"slogan": "Buku peréi",
-		"entries": "laman"
+		"slogan": "Buku ruju'an bébas makî",
+		"entries": "laman",
+		"search-input-label": "Cari di Wikibuku",
+		"language-button-text": "Bacola Wikibuku dalem baso Dulur déwé'"
 	},
 	"wikinews": {
-		"name": "Wikikabar",
-		"slogan": "Kabar peréi",
-		"entries": "artikel"
+		"name": "Wikiwarto",
+		"slogan": "Sumber warto merdika",
+		"entries": "makala",
+		"search-input-label": "Cari di Wikiwarto",
+		"language-button-text": "Bacola Wikiwarto dalem baso Dulur déwé'"
 	},
 	"wikiquote": {
-		"name": "Wikisadur",
-		"slogan": "Kumpulan saduran peréi",
-		"entries": "artikel"
+		"name": "Wikiomongan",
+		"slogan": "Lunggu'an omongan bébas makî",
+		"entries": "makala",
+		"search-input-label": "Cari di Wikiomongan",
+		"language-button-text": "Bacola Wikiomongan dalem baso Dulur déwé'"
 	},
 	"wikisource": {
 		"name": "Wikisumber",
-		"slogan": "Perpustakaan peréi"
+		"slogan": "Lunggu'an kontén merdika"
 	},
 	"wikiversity": {
-		"name": "Wikiversitas",
-		"slogan": "Bahan pelajaran peréi",
-		"entries": "sumber dayo pembelajaran"
+		"name": "Wikikuliya",
+		"slogan": "Sumber belajar merdika",
+		"entries": "sumber belajar",
+		"search-input-label": "Cari di Wikikuliya",
+		"language-button-text": "Bacola Wikikuliya dalem baso Dulur déwé'"
 	},
 	"wikivoyage": {
-		"name": "Wikiwisato",
-		"slogan": "Situs pelancongan peréi"
+		"name": "Wikipelesir",
+		"slogan": "Petunju' bejalan perî",
+		"entries": "laman",
+		"search-input-label": "Cari di Wikipelesir",
+		"language-button-text": "Bacola Wikipelesir dalem baso Dulur déwé'"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Poto peréi & laennyo"
+		"slogan": "Lunggu'an setuo mîdia"
 	},
 	"wikispecies": {
-		"name": "Wikispesies",
-		"slogan": "Petunjuk spesies peréi"
+		"name": "Wikispésiés",
+		"slogan": "Petunju' spésiés perî"
+	},
+	"wikifunctions": {
+		"name": "Wikipungsi",
+		"slogan": "Lunggu'an pungsi bébas makî"
 	},
 	"wikidata": {
 		"name": "Wikidata",
-		"slogan": "Basis élmu peréi"
+		"slogan": "Pangkalan data perî na' segalo reti"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Aplikasi wiki peréi & tebukak"
+		"slogan": "Peranti wiki perî bébas makî"
 	},
 	"metawiki": {
-		"name": "Méta-Wiki",
-		"slogan": "Koordinasi komunitas & dokumentasi"
+		"name": "Meta-Wiki",
+		"slogan": "Pembina'an jema'a teko dokuméntasi"
 	}
 }

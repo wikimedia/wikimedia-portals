@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ajeje Brazorf",
-			"Dapal"
+			"Dapal",
+			"Gmelfi"
 		]
 	},
 	"language-name": "Sicilianu",
@@ -25,6 +26,7 @@
 		"footer-description": "Wikipedia è uspitata dâ Funnazzioni Wikimedia, n'urganizzazzioni senza scopu di lucru chi òspita assai autri pruggetti.",
 		"app-links": {
 			"title": "Scàrrica Wikipedia p'Android o iOS",
+			"description": "Sarba li tò artìculi prifiruti pi lèggiri offline, sincrunizza li tò listi di littura ntra li dispusitivi e pirsunalizza la tò spirènzia di littura cu l'app ufficiali di Wikipedia.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://it.wikipedia.org/wiki/Lista_di_applicazioni_mobile_di_Wikipedia"
@@ -60,7 +62,7 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "La bibbriuteca lìbbira"
+		"slogan": "Bibbliuteca di cuntinuti gratuiti"
 	},
 	"wikiversity": {
 		"name": "Wikivirsità",
@@ -77,7 +79,8 @@
 		"language-button-text": "Leggi a Wikiviaggi ntâ to lingua"
 	},
 	"commons": {
-		"name": "Commons"
+		"name": "Commons",
+		"slogan": "Raccolta media gratuita"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -92,9 +95,11 @@
 		"slogan": "Databbasi di canuscenza lìbbira"
 	},
 	"mediawiki": {
-		"name": "MediaWiki"
+		"name": "MediaWiki",
+		"slogan": "Software wiki lìbbiru e apertu"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Cuurdinazzioni e ducumintazzioni dâ cumunità"
 	}
 }
