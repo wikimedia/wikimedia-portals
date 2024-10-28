@@ -16,8 +16,7 @@
 		currentDate = new Date(),
 		hideBanner = /(hideWikipediaPortalBanner|centralnotice_hide_fundraising)/.test( document.cookie ),
 		mediumBanner = /(minimizeWikipediaPortalBanner)/.test( document.cookie ),
-		allBannerEls = document.querySelectorAll( '.banner' ),
-		bannerEl = allBannerEls[ Math.floor( Math.random() * allBannerEls.length ) ],
+		bannerEl = document.querySelector( '.banner' ),
 		bannerCloseEl = bannerEl.querySelector( '.banner__close' ),
 		bannerLinkEl = bannerEl.querySelectorAll( 'a' ),
 		bannerVisibleClass = 'banner--visible',
@@ -79,13 +78,10 @@
 		bannerEl.classList.add( bannerVisibleClass );
 	}
 
-	var bottomBanner = document.querySelector( '.banner-bottom' );
-	if ( bottomBanner.classList.contains( 'banner--visible' ) ) {
-		document.body.classList.add( 'bottom-banner' );
-	}
-
 	// Overlay banner
+	var viewportHeight = window.innerHeight;
 	var bannerMini = document.querySelector( '.overlay-banner-mini' );
+	var bannerMiniMessage = document.querySelector( '.overlay-banner-mini-message' );
 	var miniBannerHeight = bannerMini.offsetHeight;
 	var bannerMiniBottom = miniBannerHeight - 10;
 	var bannerToggle = document.getElementsByClassName( 'overlay-banner-toggle' );
@@ -93,6 +89,8 @@
 
 	function newHeight() {
 		bannerMini.style.height = '';
+		bannerMiniMessage.style.height = '';
+		bannerMiniMessage.style.overflow = '';
 		var miniBannerNewHeight = bannerMini.offsetHeight;
 		var bannerMiniNewBottom = miniBannerNewHeight - 10;
 		bannerMini.style.height = miniBannerNewHeight + 'px';
@@ -100,12 +98,24 @@
 			bannerMini.style.bottom = '';
 			bannerMini.style.bottom = '-' + bannerMiniNewBottom + 'px';
 		}
+		if ( viewportHeight <= miniBannerNewHeight ) {
+			bannerMini.style.height = '';
+			bannerMini.style.height = '80vh';
+			bannerMiniMessage.style.height = '100%';
+			bannerMiniMessage.style.overflow = 'auto';
+		}
 	}
 
 	var overlayBanner = document.querySelector( '.banner-overlay' );
 	if ( overlayBanner.classList.contains( 'banner--visible' ) ) {
 		// Add height to mini banner
 		bannerMini.style.height = miniBannerHeight + 'px';
+		if ( viewportHeight <= miniBannerHeight ) {
+			bannerMini.style.height = '';
+			bannerMini.style.height = '80vh';
+			bannerMiniMessage.style.height = '100%';
+			bannerMiniMessage.style.overflow = 'auto';
+		}
 
 		// Display banner
 		if ( !hideBanner && mediumBanner ) {
