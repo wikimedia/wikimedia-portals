@@ -11,6 +11,9 @@
 	"privacy-policy": "Goi-goi sanandrösa ba privasi",
 	"search-input-button": "Alui",
 	"other-languages-label": "Li bö'ö",
+	"top-ten-nav-label": "Li salaŵa bosi",
+	"all-languages-nav-label": "Fefu li",
+	"other-projects-nav-label": "Halöŵö tanöbö'ö",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Ensiklopedi bebas",
@@ -43,7 +46,9 @@
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Umbu duria si bebas",
-		"entries": "sura"
+		"entries": "sura",
+		"search-input-label": "Alui Wikiberita",
+		"language-button-text": "Baso Wikinews ba liu samösa"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
@@ -54,16 +59,21 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "Perpustakaan bebas"
+		"slogan": "Ngawalö nibaso bebas"
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
 		"slogan": "Ngawalö kursus si bebas",
-		"entries": "Ngawalö gumbu wamahaö"
+		"entries": "Ngawalö gumbu wamahaö",
+		"search-input-label": "Alui Wikiversitas",
+		"language-button-text": "Baso Wikiversitas ba liu samösa"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Fanuturu lala ba wekoli si bebas"
+		"slogan": "Fanuturu lala ba wekoli si bebas",
+		"entries": "nga'örö",
+		"search-input-label": "Alui Wikiwisata",
+		"language-button-text": "Baso Wikiwisata ba liu samösa"
 	},
 	"commons": {
 		"name": "Commons",
@@ -72,6 +82,10 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Angolifa spesies si bebas"
+	},
+	"wikifunctions": {
+		"name": "Wikifungsi",
+		"slogan": "Ngawalö fungsi si bebas"
 	},
 	"wikidata": {
 		"name": "Wikidata",
