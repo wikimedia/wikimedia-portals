@@ -76,13 +76,16 @@
 	"wikiversity": {
 		"name": "위키배움터",
 		"slogan": "무료 학습 자원",
-		"entries": "학습 자료"
+		"entries": "학습 자료",
+		"search-input-label": "위키배움터 검색",
+		"language-button-text": "내 언어로 위키배움터 읽기"
 	},
 	"wikivoyage": {
 		"name": "위키여행",
 		"slogan": "자유 여행 가이드",
 		"entries": "페이지",
-		"search-input-label": "위키여행 검색"
+		"search-input-label": "위키여행 검색",
+		"language-button-text": "내 언어로 위키여행 읽기"
 	},
 	"commons": {
 		"name": "공용",
@@ -93,7 +96,8 @@
 		"slogan": "열린 생물종 사전"
 	},
 	"wikifunctions": {
-		"name": "위키함수"
+		"name": "위키함수",
+		"slogan": "자유 함수 라이브러리"
 	},
 	"wikidata": {
 		"name": "위키데이터",
@@ -101,7 +105,7 @@
 	},
 	"mediawiki": {
 		"name": "미디어위키",
-		"slogan": "자유 & 오픈 위키 애플리케이션"
+		"slogan": "자유 개방 위키 소프트웨어"
 	},
 	"metawiki": {
 		"name": "메타위키",
