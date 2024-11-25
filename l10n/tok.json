@@ -1,12 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Juwan",
 			"LesVisages",
 			"Robin van der Vliet",
 			"Tbodt"
 		]
 	},
 	"language-name": "toki pona",
+	"terms": "lawa kepeken",
+	"privacy-policy": "ken pi awen len",
+	"search-input-button": "o alasa",
 	"other-languages-label": "toki ante",
 	"wiki": {
 		"name": "lipu Wikipesija",
