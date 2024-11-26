@@ -56,18 +56,39 @@
 
 	if ( typeof bannerCloseEl !== 'undefined' && bannerCloseEl !== null ) {
 		bannerCloseEl.addEventListener( 'click', function () {
-			// 30 day cookie
-			document.cookie = 'hideWikipediaPortalBanner=1; max-age=2592000; path=/; Secure';
+			// 14 day cookie
+			document.cookie = 'hideWikipediaPortalBanner=1; max-age=1209600; path=/; Secure';
 			bannerEl.classList.remove( bannerVisibleClass );
 		} );
 	}
 
-	bannerLinkEl.forEach( link => {
-		link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
-		link.href += '&wmf_source=' + bannerEl.id;
-		link.href += '&uselang=en';
-		link.target = '_blank';
-	} );
+	// Fundraise Up test
+	if ( country === 'US' ) {
+		if ( Math.random() > 0.5 ) {
+			bannerLinkEl.forEach( link => {
+				link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
+				link.href += '&wmf_source=' + bannerEl.id;
+				link.href += 'FRU&fundraiseupScript=1&form-template=FRU_FY2425_Portal_US&form=FUNRPZQEHLX';
+				link.href += '&uselang=en';
+				link.target = '_blank';
+			} );
+		} else {
+			bannerLinkEl.forEach( link => {
+				link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
+				link.href += '&wmf_source=' + bannerEl.id;
+				link.href += 'WikiForm';
+				link.href += '&uselang=en';
+				link.target = '_blank';
+			} );
+		}
+	} else {
+		bannerLinkEl.forEach( link => {
+			link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
+			link.href += '&wmf_source=' + bannerEl.id;
+			link.href += '&uselang=en';
+			link.target = '_blank';
+		} );
+	}
 
 	if ( !hideBanner &&
 		country &&
@@ -154,7 +175,7 @@
 		var bannerCollapse = document.getElementsByClassName( 'overlay-banner-toggle' );
 		for ( let i = 0; i < bannerCollapse.length; i++ ) {
 			bannerCollapse[ i ].addEventListener( 'click', function () {
-				document.cookie = 'minimizeWikipediaPortalBanner=1; max-age=2592000; path=/; Secure';
+				document.cookie = 'minimizeWikipediaPortalBanner=1; max-age=1209600; path=/; Secure';
 			} );
 		}
 
@@ -163,7 +184,7 @@
 		var bannerMain = document.getElementsByClassName( 'overlay-banner' )[ 0 ];
 		for ( let i = 0; i < bannerClose.length; i++ ) {
 			bannerClose[ i ].addEventListener( 'click', function () {
-				document.cookie = 'hideWikipediaPortalBanner=1; max-age=2592000; path=/; Secure';
+				document.cookie = 'hideWikipediaPortalBanner=1; max-age=1209600; path=/; Secure';
 				bannerMain.style.display = 'none';
 			} );
 		}
@@ -181,7 +202,11 @@
 			radioA.addEventListener( 'click', function () {
 				amountVal = radioA.value;
 				bannerLinkEl.forEach( link => {
-					link.href += '&preSelect=' + amountVal;
+					if ( link.href.includes( 'FRU' ) ) {
+						link.href += '&amount=' + amountVal;
+					} else {
+						link.href += '&preSelect=' + amountVal;
+					}
 				} );
 				var children = document.getElementById( 'amountsGrid' ).childNodes;
 				for ( let i = 0; i < children.length; i++ ) {
@@ -204,7 +229,15 @@
 			radioM.addEventListener( 'click', function () {
 				monthlyVal = radioM.value;
 				bannerLinkEl.forEach( link => {
-					link.href += '&monthly=' + monthlyVal;
+					if ( link.href.includes( 'FRU' ) ) {
+						if ( monthlyVal === '1' ) {
+							link.href += '&recurring=monthly';
+						} else {
+							link.href += '&recurring=once';
+						}
+					} else {
+						link.href += '&monthly=' + monthlyVal;
+					}
 				} );
 				var children = document.getElementById( 'frequencyGrid' ).childNodes;
 				for ( let i = 0; i < children.length; i++ ) {
