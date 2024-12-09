@@ -12,7 +12,8 @@
 	"license": "See lehekülg on saadaval Creative Commonsi litsentsi \"<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.et'>Autorile viitamine + jagamine samadel tingimustel</a>\" all.",
 	"terms": "Kasutustingimused",
 	"privacy-policy": "Andmekaitsereeglid",
-	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/et",
+	"terms-link": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/et",
+	"privacy-policy-link": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/et",
 	"search-input-button": "Otsi",
 	"other-languages-label": "Teised keeled",
 	"top-ten-nav-label": "Tipmised keeled",
@@ -92,7 +93,7 @@
 		"slogan": "Vaba funktsioonikogu"
 	},
 	"wikidata": {
-		"name": "Vikiandmed",
+		"name": "Wikidata",
 		"slogan": "Vaba teadmusbaas"
 	},
 	"mediawiki": {
