@@ -508,6 +508,48 @@ span.frb-conversation-close-icon:after {
 	}
 }
 
+/* gold banner styles */
+
+.banner-gold .overlay-banner-main-message {
+	background-color: #fc0;
+	color: #000;
+}
+
+.banner-gold .overlay-banner-main-amounts,
+.banner-gold .overlay-banner-main-frequency {
+	background-color: #fbeebf;
+}
+
+.banner-gold .overlay-banner-mini {
+	background: #fc0;
+	border-top: 2px solid #d1a801;
+}
+
+.banner-gold .overlay-banner-mini-message h3,
+.banner-gold .overlay-banner-mini-message p {
+	color: #000;
+}
+
+.banner-gold .overlay-banner-mini .frb-message-icon circle {
+	fill: #36c;
+}
+
+.banner-gold .overlay-banner-mini .frb-message-icon path {
+	fill: #fff;
+}
+
+.banner-gold .overlay-banner-mini .frb-submit {
+	background-color: #36c;
+	border-color: #36c;
+	color: #fff;
+}
+
+.banner-gold .overlay-banner-mini .frb-submit:hover {
+	background: #049dff;
+	border-color: #049dff;
+	color: #000;
+}
+
 /* screen reader visibility */
 .sr-only {
 	border: 0 !important;

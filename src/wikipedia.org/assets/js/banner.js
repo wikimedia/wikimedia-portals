@@ -62,33 +62,23 @@
 		} );
 	}
 
-	// Fundraise Up test
-	if ( country === 'US' ) {
-		if ( Math.random() > 0.5 ) {
-			bannerLinkEl.forEach( link => {
-				link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
-				link.href += '&wmf_source=' + bannerEl.id;
-				link.href += 'FRU&fundraiseupScript=1&form-template=FRU_FY2425_Portal_US&form=FUNRPZQEHLX';
-				link.href += '&uselang=en';
-				link.target = '_blank';
-			} );
-		} else {
-			bannerLinkEl.forEach( link => {
-				link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
-				link.href += '&wmf_source=' + bannerEl.id;
-				link.href += 'WikiForm';
-				link.href += '&uselang=en';
-				link.target = '_blank';
-			} );
-		}
+	// 50% of banner views have gold background
+	var bannerNumber = Math.random(),
+		bannerColor;
+	if ( bannerNumber > 0.5 ) {
+		bannerEl.classList.add( 'banner-gold' );
+		bannerColor = 'gold';
 	} else {
-		bannerLinkEl.forEach( link => {
-			link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
-			link.href += '&wmf_source=' + bannerEl.id;
-			link.href += '&uselang=en';
-			link.target = '_blank';
-		} );
+		bannerColor = 'green';
 	}
+
+	bannerLinkEl.forEach( link => {
+		link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
+		link.href += '&wmf_source=' + bannerEl.id;
+		link.href += bannerColor;
+		link.href += '&uselang=en';
+		link.target = '_blank';
+	} );
 
 	if ( !hideBanner &&
 		country &&
@@ -202,11 +192,7 @@
 			radioA.addEventListener( 'click', function () {
 				amountVal = radioA.value;
 				bannerLinkEl.forEach( link => {
-					if ( link.href.includes( 'FRU' ) ) {
-						link.href += '&amount=' + amountVal;
-					} else {
-						link.href += '&preSelect=' + amountVal;
-					}
+					link.href += '&preSelect=' + amountVal;
 				} );
 				var children = document.getElementById( 'amountsGrid' ).childNodes;
 				for ( let i = 0; i < children.length; i++ ) {
@@ -229,15 +215,7 @@
 			radioM.addEventListener( 'click', function () {
 				monthlyVal = radioM.value;
 				bannerLinkEl.forEach( link => {
-					if ( link.href.includes( 'FRU' ) ) {
-						if ( monthlyVal === '1' ) {
-							link.href += '&recurring=monthly';
-						} else {
-							link.href += '&recurring=once';
-						}
-					} else {
-						link.href += '&monthly=' + monthlyVal;
-					}
+					link.href += '&monthly=' + monthlyVal;
 				} );
 				var children = document.getElementById( 'frequencyGrid' ).childNodes;
 				for ( let i = 0; i < children.length; i++ ) {
