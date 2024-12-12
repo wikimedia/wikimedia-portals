@@ -8,12 +8,13 @@
 		]
 	},
 	"language-name": "Galego",
+	"language-name-romanized": "Galego",
+	"language-name-romanized-sorted": "Galego",
 	"footer-donate": "Podes apoiar o noso traballo cunha doazón.",
 	"license": "Esta páxina está dispoñible baixo a <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.gl'>licenza Creative Commons recoñecemento compartir igual</a>",
 	"terms": "Termos de uso",
 	"privacy-policy": "Política de protección de datos",
-	"terms-link": "https://meta.wikimedia.org/wiki/Terms_of_use/gl",
-	"privacy-policy-link": "https://meta.wikimedia.org/wiki/Privacy_policy/gl",
+	"privacy-policy-link": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/gl",
 	"search-input-button": "Procurar",
 	"other-languages-label": "Outras linguas",
 	"top-ten-nav-label": "Principais linguas",
@@ -64,11 +65,11 @@
 	},
 	"wikisource": {
 		"name": "Galifontes",
-		"slogan": "A biblioteca libre"
+		"slogan": "A biblioteca de contidos libres"
 	},
 	"wikiversity": {
 		"name": "Wikiversidade",
-		"slogan": "A universidade libre",
+		"slogan": "Recursos de aprendizaxe libres",
 		"entries": "recursos de aprendizaxe",
 		"search-input-label": "Procurar en Wikiversity",
 		"language-button-text": "Le Wikiversity na túa lingua"
@@ -82,7 +83,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Fotos usables de forma libre e máis"
+		"slogan": "Colección multimedia libre"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -98,7 +99,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Aplicación wiki libre e aberta"
+		"slogan": "Software wiki libre e aberto"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
