@@ -15,7 +15,6 @@
  * @example
  * var typeAhead = new WMTypeAhead('containerID', 'inputID');
  * typeAhead.query('search string', 'en');
- *
  */
 
 /* global getDevicePixelRatio,portalSearchDomain */

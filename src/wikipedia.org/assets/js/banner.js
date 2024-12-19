@@ -4,6 +4,8 @@
  *
  * Selects a random element with CSS class banner-container to display
  * in given countries and languages.
+ *
+ * @param wmTest
  */
 
 ( function ( wmTest ) {

@@ -38,6 +38,7 @@ function inlineAssets() {
 
 /**
  * Clean `assets/js/` folder from the prod folder.
+ *
  * @param cb
  */
 function cleanProdJS( cb ) {

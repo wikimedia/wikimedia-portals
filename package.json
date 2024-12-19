@@ -14,13 +14,13 @@
 		"test"
 	],
 	"devDependencies": {
-		"@wikimedia/codex-design-tokens": "1.7.0",
+		"@wikimedia/codex-design-tokens": "1.18.0",
 		"@wikimedia/language-data": "^1.1.5",
 		"bluebird": "^3.7.2",
 		"bundlesize": "^0.18.1",
 		"cssnano": "^4.1.10",
 		"es-dev-server": "^1.54.1",
-		"eslint-config-wikimedia": "0.26.0",
+		"eslint-config-wikimedia": "0.28.2",
 		"eslint-plugin-unicorn": "40.1.0",
 		"eslint-plugin-yml": "0.13.0",
 		"glob": "^7.2.3",

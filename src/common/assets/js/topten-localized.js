@@ -8,6 +8,9 @@
  *
  * A/B test documented here:
  * https://www.mediawiki.org/wiki/Wikipedia.org_Portal_A/B_testing
+ *
+ * @param mw
+ * @param wmTest
  */
 
 ( function ( mw, wmTest ) {

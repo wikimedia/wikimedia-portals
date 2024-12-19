@@ -10,6 +10,11 @@
  *
  * eg: the class `jsl10n_wiktionary_name` will be translated to en.wikitionary.name value.
  * If a translation value is missing, page will default to english.
+ *
+ * @param wmTest
+ * @param translationsHash
+ * @param mw
+ * @param rtlLangs
  */
 
 ( function ( wmTest, translationsHash, mw, rtlLangs ) {
