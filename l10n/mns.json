@@ -1,7 +1,15 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Köpleres"
+		]
 	},
 	"language-name": "Ма̄ньси",
-	"language-name-romanized": "Mansi"
+	"language-name-romanized": "Mansi",
+	"wiki": {
+		"name": "Википедия"
+	},
+	"wiktionary": {
+		"name": "Викисловарь"
+	}
 }
