@@ -18,9 +18,13 @@
 	"license": "Ця сторінка доступна на умовах ліцензії <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Умови використання",
 	"privacy-policy": "Політика конфіденційності",
+	"terms-link": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use",
 	"privacy-policy-link": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/uk",
 	"search-input-button": "Пошук",
 	"other-languages-label": "Інші мови",
+	"top-ten-nav-label": "Основні мови",
+	"all-languages-nav-label": "Усі мови",
+	"other-projects-nav-label": "Інші проєкти",
 	"wiki": {
 		"name": "Вікіпедія",
 		"slogan": "Вільна енциклопедія",
@@ -84,11 +88,15 @@
 	},
 	"commons": {
 		"name": "Вікісховище",
-		"slogan": "Вільно використовувані фото та інше"
+		"slogan": "Вільна медіаколекція"
 	},
 	"wikispecies": {
 		"name": "Віківиди",
 		"slogan": "Вільний каталог видів"
+	},
+	"wikifunctions": {
+		"name": "Вікіфункції",
+		"slogan": "Вільна бібліотека функцій"
 	},
 	"wikidata": {
 		"name": "Вікідані",

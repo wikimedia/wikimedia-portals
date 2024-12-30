@@ -26,15 +26,15 @@
 		"language-button-text": "Vikipediyanı öz dilinizdə oxuyun",
 		"footer-description": "Vikipediya, bir sıra digər layihələrlə birlikdə qeyri-kommersiya təşkilatı olan Vikimedia Fonduna məxsusdur.",
 		"app-links": {
-			"title": "Android və ya IOS üçün Wikipedia-nı yüklə",
-			"description": "Rəsmi Wikipedia proqramı ilə məqalələri oflayn oxumaq, oxu siyahılarınızı cihazlar arasında sinxronlaşdırmaq və oxu təcrübənizi fərdiləşdirmək üçün sevimli məqalələrinizi yaddaşda saxlayın.",
-			"google-store": "Play Store",
-			"apple-store": "App Store",
+			"title": "Android və ya iOS üçün Wikipedia-nı yüklə",
+			"description": "Rəsmi Wikipedia tətbiqi ilə məqalələri oflayn oxumaq, oxuma siyahılarınızı cihazlar arasında sinxronlaşdırmaq və oxuma təcrübənizi fərdiləşdirmək üçün sevimli məqalələrinizi yaddaşda saxlayın.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://az.wikipedia.org/wiki/Vikipediya_mobil_t%C9%99tbiql%C9%99rinin_siyah%C4%B1s%C4%B1"
 		}
 	},
 	"wiktionary": {
-		"name": "Wiktionary",
+		"name": "Vikilüğət",
 		"slogan": "Azad lüğət",
 		"entries": "mətn",
 		"search-input-label": "Vikilüğətdə axtar",
@@ -56,7 +56,7 @@
 	},
 	"wikiquote": {
 		"name": "Vikisitat",
-		"slogan": "Azad sitat məcmuəsi",
+		"slogan": "Azad sitat toplusu",
 		"entries": "məqalələr",
 		"search-input-label": "Vikisitatda axtar",
 		"language-button-text": "Vikisitatı öz dilinizdə oxuyun"
@@ -97,7 +97,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaViki",
-		"slogan": "Pulsuz və açıq wiki proqram təminatı"
+		"slogan": "Pulsuz & açıq viki proqram təminatı"
 	},
 	"metawiki": {
 		"name": "Meta-Viki",
