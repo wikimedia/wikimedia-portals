@@ -1,9 +1,26 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ssemmanda will"
+		]
 	},
 	"language-name": "Luganda",
+	"footer-donate": "Osobola okuwagira omulimu gwaffe ng'owaddeyo obuyambi.",
+	"search-input-button": "Noonya",
+	"other-languages-label": "Ennimi endala",
+	"top-ten-nav-label": "Ennimi ezisinga",
+	"all-languages-nav-label": "Ennimi zonna",
+	"other-projects-nav-label": "Pulojekiti za Wiki endala",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Enkuluze ya bonna",
+		"entries": "emiko",
+		"search-input-label": "Noonya ku Wikipedia",
+		"language-button-text": "Soma Wikipedia mu lulimi lwo",
+		"footer-description": "Wikipedia eri wansi w'ekibiina kya Wikimedia Foundation, ekitali kya magoba nga kirina ne pulojekiti endala nnyingi.",
+		"app-links": {
+			"title": "Wanula ekibanja kya Wikipedia ku Android oba ku iOS",
+			"google-store": "Google Play Store"
+		}
 	}
 }
