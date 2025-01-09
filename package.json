@@ -14,7 +14,7 @@
 		"test"
 	],
 	"devDependencies": {
-		"@wikimedia/codex-design-tokens": "1.18.0",
+		"@wikimedia/codex-design-tokens": "1.19.1",
 		"@wikimedia/language-data": "^1.1.5",
 		"bluebird": "^3.7.2",
 		"bundlesize": "^0.18.1",
