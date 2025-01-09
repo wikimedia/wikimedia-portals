@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"GilPe",
 			"Robby",
 			"Volvox"
 		]
@@ -13,6 +14,8 @@
 	"privacy-policy": "Dateschutzrichtlinnen",
 	"search-input-button": "Sichen",
 	"other-languages-label": "Aner Sproochen",
+	"top-ten-nav-label": "Haaptsproochen",
+	"all-languages-nav-label": "All Sproochen",
 	"other-projects-nav-label": "Aner Projeten",
 	"wiki": {
 		"name": "Wikipedia",
