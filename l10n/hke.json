@@ -1,7 +1,76 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Muisha wiki hke"
+		]
 	},
 	"language-name": "Kihunde",
-	"language-name-romanized-sorted": "Hunde, ki-"
+	"language-name-romanized-sorted": "Hunde, ki-",
+	"footer-donate": "Wangakongora kwe kulumirira amulimo wetu uno",
+	"license": "Akashashali kano kali kwa <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"other-languages-label": "Indi mineenere",
+	"all-languages-nav-label": "Mineenere yoshi",
+	"other-projects-nav-label": "Mu sindi poroshe",
+	"wiki": {
+		"name": "Wikipedia",
+		"slogan": "Tikisyonere ndápfuhya",
+		"search-input-label": "Xonda wikipedia",
+		"language-button-text": "Soma wikipedia mwamuneenerawe",
+		"footer-description": "Wikipedia iimanirirwe na Wikimedia Foundation, kikanga kya butsira munguruko kyokiimanirire na sindi poroshe.",
+		"app-links": {
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://hke.wikipedia.org/wiki/Mutondeko wa mobile applications sa wikipedia"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Tikisyonere ya busha",
+		"entries": "byobirimo",
+		"search-input-label": "Sonda Wikisyonari",
+		"language-button-text": "Soma Wiksyonari mwa muneenerawe"
+	},
+	"wikibooks": {
+		"name": "Wikibooks",
+		"slogan": "bitabu bya busomi bya busha",
+		"entries": "tushashali",
+		"search-input-label": "Xonda wikibooks",
+		"language-button-text": "Soma wikibooks mwa muneerawe"
+	},
+	"wikinews": {
+		"name": "Wikimyatsi",
+		"slogan": "Xoko ya myatsi ya busha",
+		"search-input-label": "Xonda wikimyatsi",
+		"language-button-text": "Soma wikimyatsi mwa muneenerawe"
+	},
+	"wikiquote": {
+		"name": "Wikikote",
+		"slogan": "Kiche kya wikikote ndápfuhwa ko",
+		"search-input-label": "Sonda wikikote",
+		"language-button-text": "Soma wikikote mwa muneenerawe"
+	},
+	"wikisource": {
+		"name": "Wiki xoko ya binwa"
+	},
+	"wikiversity": {
+		"name": "Wikiverisite",
+		"search-input-label": "xonda wikiveresiti",
+		"language-button-text": "soma wikiveresite mwa muneenerawe"
+	},
+	"wikivoyage": {
+		"name": "Wiki ya luendo",
+		"slogan": "Ndee ndápfuhwa ko sa luenda",
+		"entries": "tushashali",
+		"search-input-label": "xonda wiki ya luendo",
+		"language-button-text": "Soma wiki ya luendo mwa muneenerawe"
+	},
+	"commons": {
+		"slogan": "Shaho ya media ndápfuhwa"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
+	}
 }
