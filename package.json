@@ -15,7 +15,7 @@
 	],
 	"devDependencies": {
 		"@wikimedia/codex-design-tokens": "1.20.0",
-		"@wikimedia/language-data": "^1.1.5",
+		"@wikimedia/language-data": "^1.1.8",
 		"bluebird": "^3.7.2",
 		"browserslist-config-wikimedia": "0.7.0",
 		"bundlesize": "^0.18.1",
