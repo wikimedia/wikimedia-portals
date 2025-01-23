@@ -5,6 +5,8 @@ var gulp = require( 'gulp' ),
 	postCSSImport = require( 'postcss-import' ),
 	postCSSReporter = require( 'postcss-reporter' );
 
+const browsersListConfig = require( 'browserslist-config-wikimedia' );
+
 const { requirePortalParam, getBaseDir } = require( './config' );
 
 function postCSS() {
@@ -14,7 +16,7 @@ function postCSS() {
 	return gulp.src( getBaseDir() + 'assets/postcss/style.css' )
 		.pipe( plugins.postcss( [
 			postCSSImport(),
-			postCSSNext( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } )
+			postCSSNext( { browsers: browsersListConfig } )
 		],
 		{ map: { inline: true } }
 		) )
@@ -28,7 +30,7 @@ function validatePostCSS() {
 		.pipe( plugins.postcss(
 			[
 				postCSSImport(),
-				postCSSNext( { browsers: [ 'last 5 versions', 'ie 6-8', 'Firefox >= 3.5', 'iOS >= 4', 'Android >= 2.3' ] } ),
+				postCSSNext( { browsers: browsersListConfig } ),
 				postCSSReporter( { clearMessages: true, throwError: true } )
 			], { map: { inline: true } }
 		) );

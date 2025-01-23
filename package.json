@@ -17,6 +17,7 @@
 		"@wikimedia/codex-design-tokens": "1.19.1",
 		"@wikimedia/language-data": "^1.1.5",
 		"bluebird": "^3.7.2",
+		"browserslist-config-wikimedia": "0.7.0",
 		"bundlesize": "^0.18.1",
 		"cssnano": "^4.1.10",
 		"es-dev-server": "^1.54.1",
