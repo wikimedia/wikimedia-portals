@@ -159,21 +159,21 @@
 }
 
 /* Generate interpuncts */
-.hlist li:before {
+.hlist li::before {
 	content: " · ";
 	font-weight: bold;
 }
 
-.hlist li:first-child:before {
+.hlist li:first-child::before {
 	content: none;
 }
 
 /* Add parentheses around nested lists */
-.hlist li > ul:before {
+.hlist li > ul::before {
 	content: "\00a0(";
 }
 
-.hlist li > ul:after {
+.hlist li > ul::after {
 	content: ") ";
 }
 
@@ -199,7 +199,7 @@
 	padding: 0 0.8rem;
 }
 
-.langlist > ul > li:before {
+.langlist > ul > li::before {
 	content: none;
 }
 

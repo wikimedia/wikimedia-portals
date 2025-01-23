@@ -8,13 +8,13 @@
 	font-size: 1.3rem;
 }
 
-.footer:before,
-.footer:after {
+.footer::before,
+.footer::after {
 	content: ' ';
 	display: table;
 }
 
-.footer:after {
+.footer::after {
 	clear: both;
 }
 
@@ -51,7 +51,7 @@
 	text-align: center;
 }
 
-.site-license small:after {
+.site-license small::after {
 	content: '\2022'; /* bullet character */
 	display: inline-block;
 	font-size: 1.3rem;
@@ -60,7 +60,7 @@
 	margin-right: 0.5rem;
 }
 
-.site-license small:last-child:after {
+.site-license small:last-child::after {
 	display: none;
 }
 

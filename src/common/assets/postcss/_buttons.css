@@ -83,9 +83,6 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 }
 
 .pure-button-primary-progressive:focus {
-	/* stylelint-disable value-list-comma-newline-after, declaration-colon-space-after */
-	box-shadow: var( --box-shadow-inset-small ) var( --box-shadow-color-progressive--focus ),
-		var( --box-shadow-inset-medium ) var( --box-shadow-color-inverted );
+	box-shadow: var( --box-shadow-inset-small ) var( --box-shadow-color-progressive--focus ), var( --box-shadow-inset-medium ) var( --box-shadow-color-inverted );
 	border-color: var( --border-color-progressive--focus );
-	/* stylelint-enable value-list-comma-newline-after, declaration-colon-space-after */
 }

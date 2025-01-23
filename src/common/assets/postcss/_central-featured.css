@@ -113,7 +113,7 @@
 		text-align: left;
 	}
 
-	.central-featured:after {
+	.central-featured::after {
 		content: ' ';
 		display: block;
 		visibility: hidden;

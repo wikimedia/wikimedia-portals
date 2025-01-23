@@ -382,6 +382,6 @@ body {
 }
 
 .site-license small,
-.site-license small:after {
+.site-license small::after {
 	font-size: var( --font-size-small );
 }
