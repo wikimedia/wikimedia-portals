@@ -3,6 +3,7 @@ html {
 }
 
 body {
+	color: var( --color-base );
 	font-size: var( --font-size-small );
 	margin: var( --spacing-0 );
 	font-family: var( --font-family-base );
@@ -92,14 +93,12 @@ body {
 }
 
 .welcome-message {
-	color: var( --color-base );
 	font-weight: var( --font-weight-bold );
 	font-size: var( --font-size-xx-large );
 	text-align: left;
 }
 
 .welcome-message-subtext {
-	color: var( --color-base );
 	font-size: var( --font-size-xx-large );
 	text-align: left;
 }
@@ -107,6 +106,12 @@ body {
 .welcome-image {
 	width: 280px;
 	height: 250px;
+}
+
+@media ( prefers-color-scheme: dark ) {
+	.welcome-image {
+		filter: invert( 100% );
+	}
 }
 
 .our-projects-wrapper {
@@ -314,6 +319,12 @@ body {
 	margin-left: var( --spacing-200 );
 }
 
+@media ( prefers-color-scheme: dark ) {
+	.donate-image {
+		filter: invert( 100% );
+	}
+}
+
 .donate-block-wrapper {
 	max-width: 599px;
 	min-height: 166px;
@@ -329,7 +340,6 @@ body {
 }
 
 .donate-title {
-	color: var( --color-base );
 	font-weight: var( --font-weight-bold );
 	font-size: var( --font-size-x-large );
 	text-align: left;
