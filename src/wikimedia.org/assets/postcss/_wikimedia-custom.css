@@ -10,7 +10,8 @@ body {
 
 .banner {
 	width: var( --size-full );
-	min-height: 600px;
+	box-sizing: border-box;
+	min-height: 400px;
 	background: var( --background-color-neutral );
 }
 
@@ -22,10 +23,11 @@ body {
 
 .header {
 	width: var( --size-full );
+	box-sizing: border-box;
 	height: var( --size-400 );
 	padding: 16px 0;
-	margin-left: calc( (100% - 1067px) / 2 );
-	padding-left: var( --spacing-200 );
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media only screen and ( max-width: 768px ) {
@@ -37,15 +39,14 @@ body {
 .title {
 	width: var( --size-800 );
 	height: var( --spacing-250 );
-	margin: var( --spacing-50 );
 	display: flex;
 	flex-direction: row;
+	margin-left: var( --spacing-200 );
 }
 
 .title-image-wrapper {
 	width: var( --spacing-250 );
 	height: var( --spacing-250 );
-	margin: var( --spacing-50 );
 }
 
 .title-image {
@@ -64,11 +65,7 @@ body {
 
 .welcome {
 	max-width: 996px;
-	min-height: var( --size-3200 );
-	margin-top: var( --spacing-150 );
-	margin-bottom: var( --spacing-150 );
-	margin-left: calc( (100% - 1067px) / 2 );
-	padding-left: var( --spacing-200 );
+	margin: var( --spacing-150 ) auto;
 	display: flex;
 	flex-direction: row;
 }
@@ -77,13 +74,15 @@ body {
 	.welcome {
 		margin-left: var( --spacing-0 );
 		flex-direction: column;
+		align-items: center;
 	}
 }
 
 .welcome-message-wrapper {
-	max-width: var( --size-3200 );
+	flex: 1 0 var( --size-3200 );
 	min-height: var( --size-1600 );
-	margin: var( --spacing-150 );
+	margin-left: var( --spacing-150 );
+	margin-right: var( --spacing-150 );
 	display: flex;
 	flex-direction: column;
 }
@@ -106,16 +105,13 @@ body {
 	height: 250px;
 }
 
-@media only screen and ( min-width: 768px ) {
-	.welcome-image {
-		margin-left: auto;
-	}
-}
-
 .our-projects-wrapper {
 	width: var( --size-full );
+	box-sizing: border-box;
 	margin-top: 100px;
-	margin-left: calc( (100% - 1067px) / 2 );
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1067px;
 	padding-left: var( --spacing-200 );
 }
 
@@ -198,7 +194,10 @@ body {
 
 .project-list {
 	width: var( --size-full );
-	margin-left: calc( (100% - 1067px) / 2 );
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1067px;
 	padding-left: var( --spacing-200 );
 	margin-bottom: 100px;
 }
@@ -275,16 +274,29 @@ body {
 
 .donate-bar {
 	width: var( --size-full );
+	box-sizing: border-box;
 	background: var( --background-color-progressive-subtle );
 	padding-top: var( --spacing-400 );
 	padding-bottom: var( --spacing-400 );
-	display: flex;
-	flex-direction: row;
-	padding-left: calc( (100% - 1067px) / 2 );
 }
 
 @media only screen and ( max-width: 768px ) {
 	.donate-bar {
+		padding-top: var( --spacing-200 );
+		padding-bottom: var( --spacing-200 );
+	}
+}
+
+.donate {
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1067px;
+}
+
+@media only screen and ( max-width: 768px ) {
+	.donate {
 		margin-left: var( --spacing-0 );
 		flex-direction: column;
 	}
@@ -298,12 +310,13 @@ body {
 
 .donate-block-wrapper {
 	max-width: 599px;
-	height: 166px;
-	margin: var( --spacing-200 );
+	min-height: 166px;
+	margin-left: var( --spacing-200 );
+	margin-right: var( --spacing-200 );
 }
 
 .donate-block {
-	height: var( --size-800 );
+	min-height: var( --size-800 );
 	margin: var( --spacing-150 );
 	display: flex;
 	flex-direction: column;
@@ -343,10 +356,11 @@ body {
 
 .contact {
 	width: var( --size-full );
+	box-sizing: border-box;
 	padding-top: var( --spacing-150 );
 	padding-bottom: var( --spacing-150 );
-	margin: var( --spacing-200 );
-	padding-left: calc( (100% - 1067px) / 2 );
+	margin: var( --spacing-200 ) auto;
+	max-width: 1067px;
 }
 
 @media only screen and ( max-width: 768px ) {
