@@ -16,6 +16,23 @@
 	"top-ten-nav-label": "Главни јазици",
 	"all-languages-nav-label": "Сите јазици",
 	"other-projects-nav-label": "Други проекти",
+	"wikimedia": "Викимедија",
+	"wikimedia-org-welcome": "Добре дојдовте! Викимедииното движење е глобална заедница на луѓе, проекти и активности кои работат заеднички за создавање и споделување на слободно знаење.",
+	"wikimedia-org-welcome-subtitle": "Приклучете ни се во усилбите да го направиме сето знаење достапно за секого и секаде.",
+	"wikimedia-org-our-projects": "Нашите проекти",
+	"wikimedia-org-our-projects-desc": "Нашите проекти се сржта на <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Викимедииното движење</a>. Сите поважни проекти се управувани од <a href=\"https://wikimediafoundation.org/\">Фондацијата Викимедија</a>, а содржината е заеднички плод на преку 260.000 корисници ширум светот кои го користат програмот <a href=\"https://www.mediawiki.org/\">МедијаВики</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Фондацијата Викимедија</a> е непрофитна организација која е домаќин на сите Викимедиини проекти и ги поддржува заедниците низ целиот свет кои создаваат и згрижуваат слободно достапна содржина.",
+	"wikimedia-org-projects-reference": "Наводи",
+	"wikimedia-org-projects-collections": "Збирки",
+	"wikimedia-org-projects-technology": "Технологија",
+	"wikimedia-org-projects-guides": "Водичи",
+	"wikimedia-org-projects-collaboration": "Соработка",
+	"wikimedia-org-donate-title": "Вашиот дар го штити човековото право на слободно и отворено знаење за сите.",
+	"wikimedia-org-donate-subtitle": "Викимедиините проекти се овозможени првенствено од парични прилози.",
+	"wikimedia-org-donate-button": "Дарувајте сега",
+	"wikimedia-org-contact": "Контакт",
+	"wikimedia-org-contact-text": "Имате прашања за Фондацијата Викимедија или нејзинит епроекти? Обратете ни се.",
+	"wikimedia-org-contact-link": "Контакт",
 	"wiki": {
 		"name": "Википедија",
 		"slogan": "Слободната енциклопедија",
@@ -61,11 +78,11 @@
 	},
 	"wikisource": {
 		"name": "Викиизвор",
-		"slogan": "Слободна библиотека"
+		"slogan": "Библиотека на слободни содржини"
 	},
 	"wikiversity": {
 		"name": "Викиуниверзитет",
-		"slogan": "Слободни учебни материјали",
+		"slogan": "Слободни учебни ресурси",
 		"entries": "учебни ресурси",
 		"search-input-label": "Пребарување по Универзитетот",
 		"language-button-text": "Читајте го Викиуниверзитетот на вашиот јазик"
@@ -79,7 +96,7 @@
 	},
 	"commons": {
 		"name": "Ризница",
-		"slogan": "Слободно употребливи слики и снимки"
+		"slogan": "Збирка на слободни слики и снимки"
 	},
 	"wikispecies": {
 		"name": "Викивидови",
@@ -95,7 +112,7 @@
 	},
 	"mediawiki": {
 		"name": "МедијаВики",
-		"slogan": "Слободен и отворен википрилог"
+		"slogan": "Слободна и отворена прорамска опрема"
 	},
 	"metawiki": {
 		"name": "Мета",
