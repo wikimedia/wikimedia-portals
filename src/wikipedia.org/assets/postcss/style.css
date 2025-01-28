@@ -1,5 +1,6 @@
 /* ::: Base ::: */
 @import '@wikimedia/codex-design-tokens/theme-wikimedia-ui.css';
+@import '@wikimedia/codex-design-tokens/theme-wikimedia-ui-mode-dark.css' only screen and ( prefers-color-scheme: dark );
 @import '../../../common/assets/postcss/_vars.css';
 @import '../../../common/assets/postcss/_base.css';
 @import '../../../common/assets/postcss/_base-portal.css';

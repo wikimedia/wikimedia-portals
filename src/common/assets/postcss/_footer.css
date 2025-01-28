@@ -38,6 +38,12 @@
 	left: 0.8rem;
 }
 
+@media ( prefers-color-scheme: dark ) {
+	.footer-sidebar-icon.sprite.svg-Wikimedia-logo_black {
+		filter: invert( 100% );
+	}
+}
+
 .footer-sidebar-text {
 	position: relative;
 	margin: 0;

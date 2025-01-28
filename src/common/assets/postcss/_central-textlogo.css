@@ -39,6 +39,12 @@
 	text-indent: -10000px;
 }
 
+@media ( prefers-color-scheme: dark ) {
+	.central-textlogo__image {
+		filter: invert( 100% );
+	}
+}
+
 .central-featured-logo {
 	position: absolute;
 	/* centering position of logo on desktop */
