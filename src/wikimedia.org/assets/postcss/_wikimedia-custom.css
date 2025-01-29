@@ -41,7 +41,7 @@ body {
 	height: var( --spacing-250 );
 	display: flex;
 	flex-direction: row;
-	margin-left: var( --spacing-200 );
+	margin-left: var( --spacing-150 );
 }
 
 .title-image-wrapper {
@@ -56,7 +56,6 @@ body {
 
 .title-text {
 	width: var( --size-800 );
-	color: #000;
 	margin: var( --spacing-50 );
 	font-weight: var( --font-weight-bold );
 	font-size: var( --font-size-large );
@@ -68,23 +67,28 @@ body {
 	margin: var( --spacing-150 ) auto;
 	display: flex;
 	flex-direction: row;
+	gap: var( --spacing-150 );
 }
 
 @media only screen and ( max-width: 768px ) {
 	.welcome {
-		margin-left: var( --spacing-0 );
+		max-width: 90%;
 		flex-direction: column;
 		align-items: center;
+		margin: var( --spacing-125 ) auto;
 	}
 }
 
 .welcome-message-wrapper {
-	flex: 1 0 var( --size-3200 );
 	min-height: var( --size-1600 );
-	margin-left: var( --spacing-150 );
-	margin-right: var( --spacing-150 );
 	display: flex;
 	flex-direction: column;
+}
+
+@media only screen and ( min-width: 768px ) {
+	.welcome-message-wrapper {
+		flex: 1 0 var( --size-3200 );
+	}
 }
 
 .welcome-message {
@@ -118,12 +122,13 @@ body {
 @media only screen and ( max-width: 768px ) {
 	.our-projects-wrapper {
 		margin-left: var( --spacing-0 );
+		padding-left: var( --spacing-125 );
 	}
 }
 
 .our-projects {
 	max-width: 996px;
-	min-height: 177px;
+	min-height: 90px;
 }
 
 @media only screen and ( max-width: 768px ) {
@@ -134,12 +139,12 @@ body {
 
 .our-projects-title-wrapper {
 	height: var( --size-150 );
-	margin: var( --spacing-50 );
+	margin-top: var( --spacing-50 );
+	margin-bottom: var( --spacing-50 );
 }
 
 .our-projects-title {
 	width: var( --size-800 );
-	color: #000;
 	font-weight: var( --font-weight-bold );
 	font-size: var( --font-size-x-large );
 	text-align: center;
@@ -147,7 +152,8 @@ body {
 
 .our-projects-desc-wrapper {
 	min-height: var( --size-300 );
-	margin: var( --spacing-50 );
+	margin-top: var( --spacing-50 );
+	margin-bottom: var( --spacing-50 );
 }
 
 @media only screen and ( max-width: 768px ) {
@@ -163,18 +169,23 @@ body {
 
 .wmf {
 	min-height: var( --size-300 );
-	display: flex;
-	flex-direction: row;
+}
+
+.wmf-wrapper {
+	width: var( --size-full );
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1067px;
+	padding-left: var( --spacing-200 );
 }
 
 @media only screen and ( max-width: 768px ) {
-	.wmf {
-		flex-direction: column;
+	.wmf-wrapper {
+		margin-left: var( --spacing-0 );
+		padding-left: var( --spacing-125 );
 	}
-}
-
-.wmf-block {
-	margin: var( --spacing-50 );
 }
 
 .wmf-desc {
@@ -185,11 +196,6 @@ body {
 	.wmf-desc {
 		margin-right: var( --spacing-250 );
 	}
-}
-
-.wmf-image {
-	height: 52px;
-	width: 223px;
 }
 
 .project-list {
@@ -211,7 +217,8 @@ body {
 
 .project-group {
 	max-width: 996px;
-	margin: var( --spacing-100 );
+	margin-top: var( --spacing-100 );
+	margin-bottom: var( --spacing-100 );
 }
 
 .project-row {
@@ -261,7 +268,6 @@ body {
 }
 
 .project-group-tagline {
-	color: #000;
 	font-weight: var( --font-weight-bold );
 	font-size: var( --font-size-medium );
 	text-align: left;
@@ -325,14 +331,7 @@ body {
 .donate-title {
 	color: var( --color-base );
 	font-weight: var( --font-weight-bold );
-	font-size: var( --font-size-xx-large );
-	text-align: left;
-}
-
-.donate-desc {
-	color: var( --color-base );
-	top: 84px;
-	font-size: var( --font-size-medium );
+	font-size: var( --font-size-x-large );
 	text-align: left;
 }
 
@@ -359,6 +358,7 @@ body {
 	box-sizing: border-box;
 	padding-top: var( --spacing-150 );
 	padding-bottom: var( --spacing-150 );
+	padding-left: var( --spacing-200 );
 	margin: var( --spacing-200 ) auto;
 	max-width: 1067px;
 }
@@ -366,13 +366,13 @@ body {
 @media only screen and ( max-width: 768px ) {
 	.contact {
 		margin-left: var( --spacing-0 );
+		padding-left: var( --spacing-125 );
 	}
 }
 
 .contact-block {
 	max-width: 996px;
 	margin-top: var( --spacing-75 );
-	margin-left: var( --spacing-125 );
 }
 
 .contact-wrapper {
@@ -382,7 +382,6 @@ body {
 
 .contact-title {
 	width: 79px;
-	color: #000;
 	font-weight: var( --font-weight-bold );
 	font-size: var( --font-size-x-large );
 	text-align: left;
@@ -390,7 +389,6 @@ body {
 
 .contact-desc {
 	max-width: 996px;
-	color: #000;
 	font-size: var( --font-size-medium );
 	text-align: left;
 }
