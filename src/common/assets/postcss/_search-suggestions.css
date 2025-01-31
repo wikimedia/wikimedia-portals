@@ -26,7 +26,7 @@
 	min-height: 7rem;
 	width: 100%;
 	padding: 1rem 1rem 1rem 8.5rem;
-	border-bottom: 1px solid #eaecf0;
+	border-bottom: 1px solid var( --border-color-subtle );
 	color: inherit;
 	text-decoration: none;
 	text-align: initial;
@@ -82,7 +82,7 @@ a.suggestion-link:focus {
 }
 
 .suggestion-description {
-	color: #72777d;
+	color: var( --color-placeholder );
 	margin: 0;
 	font-size: 1.3rem;
 	line-height: 1.43rem;
