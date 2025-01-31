@@ -12,7 +12,7 @@ body {
 .banner {
 	width: var( --size-full );
 	box-sizing: border-box;
-	min-height: 400px;
+	min-height: 600px;
 	background: var( --background-color-neutral );
 }
 
@@ -38,11 +38,14 @@ body {
 }
 
 .title {
-	width: var( --size-800 );
-	height: var( --spacing-250 );
+	width: var( --size-full );
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
-	margin-left: var( --spacing-150 );
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: var( --spacing-200 );
+	max-width: 1067px;
 }
 
 .title-image-wrapper {
@@ -65,10 +68,10 @@ body {
 
 .welcome {
 	max-width: 996px;
-	margin: var( --spacing-150 ) auto;
+	margin: calc( var( --spacing-400 ) * 2 ) auto;
 	display: flex;
 	flex-direction: row;
-	gap: var( --spacing-150 );
+	gap: 186px;
 }
 
 @media only screen and ( max-width: 768px ) {
@@ -77,6 +80,7 @@ body {
 		flex-direction: column;
 		align-items: center;
 		margin: var( --spacing-125 ) auto;
+		gap: var( --spacing-150 );
 	}
 }
 
@@ -93,6 +97,7 @@ body {
 }
 
 .welcome-message {
+	margin-bottom: var( --spacing-150 );
 	font-weight: var( --font-weight-bold );
 	font-size: var( --font-size-xx-large );
 	text-align: left;
@@ -145,7 +150,7 @@ body {
 .our-projects-title-wrapper {
 	height: var( --size-150 );
 	margin-top: var( --spacing-50 );
-	margin-bottom: var( --spacing-50 );
+	margin-bottom: var( --spacing-150 );
 }
 
 .our-projects-title {
@@ -210,7 +215,7 @@ body {
 	margin-right: auto;
 	max-width: 1067px;
 	padding-left: var( --spacing-200 );
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 }
 
 @media only screen and ( max-width: 768px ) {
@@ -222,8 +227,8 @@ body {
 
 .project-group {
 	max-width: 996px;
-	margin-top: var( --spacing-100 );
-	margin-bottom: var( --spacing-100 );
+	margin-top: var( --spacing-200 );
+	margin-bottom: var( --spacing-200 );
 }
 
 .project-row {
@@ -240,9 +245,9 @@ body {
 }
 
 .project-wrapper {
-	width: var( --size-1600 );
+	width: 230px;
 	height: var( --size-300 );
-	margin: var( --spacing-35 );
+	margin: var( --spacing-150 ) var( --spacing-35 );
 	display: flex;
 	flex-direction: row;
 }
@@ -350,10 +355,15 @@ body {
 	font-weight: var( --font-weight-bold );
 	padding: 5px 11px 5px 11px;
 	min-height: var( --min-size-interactive-pointer );
-	display: flex;
+	display: flex inline;
 	flex-direction: row;
 	gap: var( --spacing-75 );
 	margin-top: var( --spacing-75 );
+	align-items: center;
+}
+
+.donate-button:visited {
+	color: #fff;
 }
 
 .donate-emoji {
@@ -382,16 +392,16 @@ body {
 
 .contact-block {
 	max-width: 996px;
-	margin-top: var( --spacing-75 );
+	margin-bottom: var( --spacing-200 );
 }
 
 .contact-wrapper {
 	width: 79px;
 	height: var( --size-150 );
+	margin-bottom: var( --spacing-150 );
 }
 
 .contact-title {
-	width: 79px;
 	font-weight: var( --font-weight-bold );
 	font-size: var( --font-size-x-large );
 	text-align: left;
