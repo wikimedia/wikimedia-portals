@@ -119,6 +119,8 @@
 							domEl.firstChild.textContent = textValue;
 						}
 						break;
+					case 'wikimedia-org-our-projects-desc':
+					case 'wikimedia-org-wmf':
 					case 'license':
 						domEl.innerHTML = textValue;
 						break;
