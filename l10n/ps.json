@@ -10,11 +10,24 @@
 	"language-name": "پښتو",
 	"language-name-romanized": "Paʂto",
 	"language-name-romanized-sorted": "Pasto",
-	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/4.0/'>کرېټيف کامنز د ورته-شريکېدنې اړوندتيا منښتليک</a>",
+	"footer-donate": "تاسو کولی شئ زموږ د کار ملاتړ د يوې بسپنې ورکولو سره وکړئ.",
+	"license": "دا مخ د <a href='https://creativecommons.org/licenses/by-sa/4.0/'>کرېټيف کامنز د ورته-شريکېدنې اړوندتيا منښتليک</a> څخه برخمن دی",
 	"terms": "د کارولو شرطونه",
 	"privacy-policy": "د پټنتيا تگلاره",
 	"search-input-button": "پلټل",
 	"other-languages-label": "نورې ژبې",
+	"top-ten-nav-label": "د سر ژبې",
+	"all-languages-nav-label": "ټولې ژبې",
+	"other-projects-nav-label": "نورې پروژې",
+	"wikimedia-org-our-projects": "زموږ پروژې",
+	"wikimedia-org-projects-reference": "سرچينه",
+	"wikimedia-org-projects-collections": "ټولگې",
+	"wikimedia-org-projects-technology": "تخنيک",
+	"wikimedia-org-projects-guides": "لارښوونې",
+	"wikimedia-org-projects-collaboration": "همکاري",
+	"wikimedia-org-donate-button": "اوس بسپنه ورکړئ",
+	"wikimedia-org-contact": "اړيکه",
+	"wikimedia-org-contact-link": "اړيکه",
 	"wiki": {
 		"name": "ويکيپېډيا",
 		"slogan": "يو وړيا پوهنغونډ",
@@ -23,37 +36,50 @@
 		"language-button-text": "ويکيپېډيا پخپله ژبه کې ولولئ",
 		"footer-description": "ويکيپېډيا د ويکيمېډيا بنسټ په کوربه توب خپرېږي، دا يو ناگټندويه تنظيم دی او د يو شمېر نورو پروژو کوربه هم دی.",
 		"app-links": {
-			"title": "اوس د ويکيپېډيا کاريالونه هم شته:"
+			"title": "اوس د ويکيپېډيا کاريالونه هم شته:",
+			"google-store": "گووگل پلې پلورنځی",
+			"apple-store": "د اپل کاريال پلورنځی",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "ويکيسيند",
 		"slogan": "وړيا سيند",
-		"entries": "ننوتنې"
+		"entries": "ننوتنې",
+		"search-input-label": "ويکيسيند ولټوئ",
+		"language-button-text": "ويکيسيند په خپله ژبه ولولئ"
 	},
 	"wikibooks": {
 		"name": "ويکيتابونه",
 		"slogan": "وړيا درسي کتابونه",
-		"entries": "مخونه"
+		"entries": "مخونه",
+		"search-input-label": "ويکي‌کتابونه ولټوئ",
+		"language-button-text": "ويکي‌کتابونه په خپله ژبه ولولئ"
 	},
 	"wikinews": {
 		"name": "ويکيخبرونه",
 		"slogan": "د وړيا سرچينې خبرونه",
-		"entries": "ليکنې"
+		"entries": "ليکنې",
+		"search-input-label": "ويکي‌خبرونه ولټوئ",
+		"language-button-text": "ويکي‌خبرونه په خپله ژبه ولولئ"
 	},
 	"wikiquote": {
 		"name": "ويکيوراشه",
 		"slogan": "د وړيا وراشو ټولگه",
-		"entries": "ليکنې"
+		"entries": "ليکنې",
+		"search-input-label": "ويکي‌وراشه ولټوئ",
+		"language-button-text": "ويکي‌وراشه په خپله ژبه ولولئ"
 	},
 	"wikisource": {
 		"name": "ويکيسرچينه",
-		"slogan": "وړيا کتابتون"
+		"slogan": "د وړيا مېنځپانگې کتابتون"
 	},
 	"wikiversity": {
 		"name": "ويکيپوهنتون",
-		"slogan": "د وړيا کورسونو توکي",
-		"entries": "د زده کړو سرچينې"
+		"slogan": "د زده کړې وړیا سرچینې",
+		"entries": "د زده کړو سرچينې",
+		"search-input-label": "ویکی‌پوهنتون ولټوئ",
+		"language-button-text": "ویکي‌پوهنتون په خپله ژبه ولولئ"
 	},
 	"wikivoyage": {
 		"name": "ويکيسفر",
