@@ -396,7 +396,6 @@ body {
 }
 
 .contact-wrapper {
-	width: 79px;
 	height: var( --size-150 );
 	margin-bottom: var( --spacing-150 );
 }
