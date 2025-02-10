@@ -1,9 +1,27 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Aristorkle"
+		]
 	},
 	"language-name": "Chavacano de Zamboanga",
+	"search-input-button": "Busca",
+	"other-languages-label": "Otro maga lenguaje",
+	"all-languages-nav-label": "Todo maga lenguaje",
+	"other-projects-nav-label": "Otro maga proyecto",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "El Libre Enciclopedia",
+		"entries": "maga articulo",
+		"search-input-label": "Busca na Wikipedia"
+	},
+	"wikibooks": {
+		"entries": "maga pagina"
+	},
+	"wikinews": {
+		"entries": "maga articulo"
+	},
+	"wikiquote": {
+		"entries": "maga articulo"
 	}
 }
