@@ -66,7 +66,8 @@ range.forEach( function ( wiki ) {
 		hash: {
 			thousandSeparator: true,
 			rounded: true,
-			nbsp: false
+			nbsp: false,
+			locale: wiki.lang
 		}
 	} ).toString();
 
