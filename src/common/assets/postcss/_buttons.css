@@ -65,18 +65,18 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 /* Primary Progressive Buttons */
 .pure-button-primary-progressive {
-	background-color: var( --color-progressive );
+	background-color: var( --background-color-progressive );
 	border-color: var( --border-color-progressive );
 	color: var( --color-inverted );
 }
 
 .pure-button-primary-progressive:hover {
-	background: var( --color-progressive--hover );
+	background: var( --background-color-progressive--hover );
 	border-color: var( --border-color-progressive--hover );
 }
 
 .pure-button-primary-progressive:active {
-	background-color: var( --color-progressive--active );
+	background-color: var( --background-color-progressive--active );
 	border-color: var( --border-color-progressive--active );
 	box-shadow: none;
 	color: var( --color-inverted );
