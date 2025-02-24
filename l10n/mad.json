@@ -1,7 +1,109 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Boesenbergia"
+		]
 	},
 	"language-name": "Madhurâ",
-	"language-name-romanized-sorted": "Madhura"
+	"language-name-romanized-sorted": "Madhura",
+	"footer-donate": "Bâ'na ngennèng nonjhâng tang karjâ kabbhi kalabân nyombhâng.",
+	"license": "Kaca rèya tasaḍiyâ è ḍâlem <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Katantowan Paghuna'an",
+	"privacy-policy": "Katantowan Rosèya",
+	"search-input-button": "Sarè",
+	"other-languages-label": "Bhâsa sè laèn",
+	"top-ten-nav-label": "Bhâsa sè palèng attas",
+	"all-languages-nav-label": "Kabbhi bhâsa",
+	"other-projects-nav-label": "È ḍâlem proyèk sè laèn",
+	"wikimedia-org-our-projects": "Proyèkka Abâ' Kabbhi",
+	"wikimedia-org-projects-collections": "Samodhâjâ",
+	"wikimedia-org-projects-technology": "Tèknologi",
+	"wikimedia-org-projects-guides": "Pandhuman",
+	"wikimedia-org-donate-title": "Sombhânganna Ba'na alènḍhungè ha' manossa ghâbây mamardhika'aghi bân mokka' pangataowan ka'angghuy sanèyap orèng.",
+	"wikimedia-org-donate-button": "Sombhâng satèya",
+	"wikimedia-org-contact": "Partèla",
+	"wikimedia-org-contact-text": "Pètanya bhâb Yayasan Wikimedia otabâb proyèk Wikimedia? Partèlaè.",
+	"wikimedia-org-contact-link": "Partèla",
+	"wiki": {
+		"name": "Wikipèḍia",
+		"slogan": "Lombhung Pangataowan Mardhika",
+		"entries": "serradhân",
+		"search-input-label": "Sarè Wikipèḍia",
+		"language-button-text": "Bâca Wikipèḍia è bhâsana Bâ'na",
+		"footer-description": "Wikipèḍia arèya èkalako' bi' Yayasan Wikimedia, sèttong organisasi ta' ngala' ontong sè ngalakonè bânnya' proyèk sè laèn.",
+		"app-links": {
+			"title": "Patoron Wikipèḍia ka'angghuy Android otabân iOS",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikioca'",
+		"slogan": "Lombhung oca' mardhika",
+		"search-input-label": "Sarè Wikioca'",
+		"language-button-text": "Bâca Wikioca' è bhâsana Bâ'na"
+	},
+	"wikibooks": {
+		"name": "Wikibuku",
+		"slogan": "Buku mardhika",
+		"entries": "kaca",
+		"search-input-label": "Sarè Wikibuku",
+		"language-button-text": "Bâca Wikibuku è bhâsana Bâ'na"
+	},
+	"wikinews": {
+		"name": "Wikiberta",
+		"slogan": "Sombher berta mardhika",
+		"entries": "serradhân",
+		"search-input-label": "Sarè Wikiberta",
+		"language-button-text": "Bâca Wikiberta è bhâsana Bâ'na"
+	},
+	"wikiquote": {
+		"name": "Wikipetthèghân",
+		"slogan": "Samodhâjâ petthèghân mardhika",
+		"entries": "serradhân",
+		"search-input-label": "Sarè Wikipetthèghân",
+		"language-button-text": "Bâca Wikipetthèghân è bhâsana Bâ'na"
+	},
+	"wikisource": {
+		"name": "Wikigherbhung",
+		"slogan": "Gherbhung mardhika"
+	},
+	"wikiversity": {
+		"name": "Wikivèrsitas",
+		"slogan": "Sombher pamolangan mardhika",
+		"entries": "kaskajâ pamolangan",
+		"search-input-label": "Sarè Wikivèrsitas",
+		"language-button-text": "Bâca Wikivèrsitas è bhâsana Bâ'na"
+	},
+	"wikivoyage": {
+		"name": "Wikiglinjâr",
+		"slogan": "Pètodhu glinjâr mardhika",
+		"entries": "kaca",
+		"search-input-label": "Sarè Wikiglinjâr",
+		"language-button-text": "Bâca Wikiglinjâr è bhâsana Bâ'na"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Samodhâjâ mèḍia mardhika"
+	},
+	"wikispecies": {
+		"name": "Wikispèsiès",
+		"slogan": "Pètodhu spèsiès mardhika"
+	},
+	"wikifunctions": {
+		"name": "Wikifungsi",
+		"slogan": "Gherbhung fungsi mardhika"
+	},
+	"wikidata": {
+		"name": "Wikiḍata",
+		"slogan": "Basis pangataowan mardhika"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Pakakas powa wiki mardhika & abukka'"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki",
+		"slogan": "Koordinasi pemaroran & dokumentasi"
+	}
 }
