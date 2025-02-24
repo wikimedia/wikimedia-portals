@@ -20,14 +20,20 @@
 	"top-ten-nav-label": "د سر ژبې",
 	"all-languages-nav-label": "ټولې ژبې",
 	"other-projects-nav-label": "نورې پروژې",
+	"wikimedia-org-welcome": "ښه راغلاست! ويکيمېډيا غورځنگ د خلکو، پروژو او کاري هلو ځلو نړيواله ټولنه ده چې په ګډه د وړيا پوهې رامنځته کولو او خپرولو لپاره کار کوي.",
+	"wikimedia-org-welcome-subtitle": "له موږ سره يوځای شئ، ترڅو ټول پوهه، هرچا ته، هرځای ته ورسوو.",
 	"wikimedia-org-our-projects": "زموږ پروژې",
+	"wikimedia-org-our-projects-desc": "زموږ پروژې د <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">ويکيمېډيا غورځنگ</a> زړه دی. ټولې لويې پروژې د<a href=\"https://wikimediafoundation.org/\">ويکيمېډيا بنسټ </a> له خوا پرمخ وړل کيږي،او منځپانگه يې په گډه د نړۍ په کچه۲۶۰,۰۰۰ ډېرو کارنانو له خوا  <a href=\"https://www.mediawiki.org/\">مېډياويکي</a> پوستغالي په کارولو سره رامنځته شوې ده.",
+	"wikimedia-org-wmf": "د <a href=\"https://wikimediafoundation.org/\"> ويکيمېډيا بنسټ</a> يو نا-گټندويه سازمان دی چې د ويکيمېډيا ټولو پروژو کوربه توب کوي او په ټوله نړۍ کې د هغه ټولنو ملاتړ کوي چې د وړيا لاسرسي وړ منځپانگې جوړوي او ترتيبوي.",
 	"wikimedia-org-projects-reference": "سرچينه",
 	"wikimedia-org-projects-collections": "ټولگې",
 	"wikimedia-org-projects-technology": "تخنيک",
 	"wikimedia-org-projects-guides": "لارښوونې",
 	"wikimedia-org-projects-collaboration": "همکاري",
+	"wikimedia-org-donate-title": "ستاسو مرسته د هرچا لپاره د پرانېستې پوهې بشري حق ساتنه کوي.",
 	"wikimedia-org-donate-button": "اوس بسپنه ورکړئ",
 	"wikimedia-org-contact": "اړيکه",
+	"wikimedia-org-contact-text": "د ويکيمېډيا بنسټ او ويکيمېډيا پروژو اړوند پوښتنې لرئ؟اړيکه ونيسئ.",
 	"wikimedia-org-contact-link": "اړيکه",
 	"wiki": {
 		"name": "ويکيپېډيا",
@@ -38,7 +44,7 @@
 		"footer-description": "ويکيپېډيا د ويکيمېډيا بنسټ په کوربه توب خپرېږي، دا يو ناگټندويه تنظيم دی او د يو شمېر نورو پروژو کوربه هم دی.",
 		"app-links": {
 			"title": "اوس د ويکيپېډيا کاريالونه هم شته:",
-			"google-store": "گووگل پلی پلورنځی",
+			"google-store": "گووگل پلې پلورنځی",
 			"apple-store": "اپل کاريال پلورنځی",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}

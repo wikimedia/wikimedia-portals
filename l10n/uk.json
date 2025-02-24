@@ -24,6 +24,21 @@
 	"top-ten-nav-label": "Основні мови",
 	"all-languages-nav-label": "Усі мови",
 	"other-projects-nav-label": "Інші проєкти",
+	"wikimedia-org-welcome": "Ласкаво просимо! Рух Вікімедіа — це глобальна спільнота людей, проєктів і спільних заходів задля того, щоб створювати знання та вільно ділитися ними.",
+	"wikimedia-org-welcome-subtitle": "Приєднуйтеся до нас, щоб зробити всі знання доступними для всіх і всюди.",
+	"wikimedia-org-our-projects": "Наші проєкти",
+	"wikimedia-org-our-projects-desc": "Наші проєкти є ядром <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">руху Вікімедіа</a>. Оператором усіх великих проєктів є <a href=\"https://wikimediafoundation.org/\">Фонд Вікімедіа</a>, а над їхнім вмістом спільно працюють понад 260 тисяч користувачів у всьому світі за допомогою програмного забезпечення <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Фонд Вікімедіа</a> — це некомерційна організація, яка розміщує всі проєкти Вікімедіа та підтримує по всьому світу спільноти, які створюють і доглядають вільнодоступний вміст.",
+	"wikimedia-org-projects-reference": "Довідка",
+	"wikimedia-org-projects-collections": "Зібрання",
+	"wikimedia-org-projects-technology": "Технології",
+	"wikimedia-org-projects-guides": "Посібники",
+	"wikimedia-org-projects-collaboration": "Співпраця",
+	"wikimedia-org-donate-title": "Ваша пожертва захищає право людини на вільні та відкриті знання для усіх.",
+	"wikimedia-org-donate-button": "Пожертвувати зараз",
+	"wikimedia-org-contact": "Зв'язок",
+	"wikimedia-org-contact-text": "Маєте запитання про Фонд Вікімедіа чи проєкти Вікімедіа? Зв'яжіться з нами.",
+	"wikimedia-org-contact-link": "Зв'язатися",
 	"wiki": {
 		"name": "Вікіпедія",
 		"slogan": "Вільна енциклопедія",
@@ -51,7 +66,7 @@
 		"slogan": "Вільні посібники",
 		"entries": "сторінки",
 		"search-input-label": "Пошук у Вікікнигах",
-		"language-button-text": "Читайте Вікікниги своєю мовою"
+		"language-button-text": "Читайте Вікіпідручник своєю мовою"
 	},
 	"wikinews": {
 		"name": "Вікіновини",
