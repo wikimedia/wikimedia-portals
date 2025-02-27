@@ -62,39 +62,39 @@
 	"wikibooks": {
 		"name": "Wikikirjasto",
 		"slogan": "Vapaa tietokirjasto",
-		"entries": "sivut",
+		"entries": "sivua",
 		"search-input-label": "Hae Wikikirjastosta",
 		"language-button-text": "Lue Wikikirjastoa kielelläsi"
 	},
 	"wikinews": {
 		"name": "Wikiuutiset",
 		"slogan": "Vapaa uutislähde",
-		"entries": "artikkelit",
+		"entries": "uutisartikkelia",
 		"search-input-label": "Hae Wikiuutisista",
 		"language-button-text": "Lue Wikiuutisia kielelläsi"
 	},
 	"wikiquote": {
 		"name": "Wikisitaatit",
 		"slogan": "Vapaa sitaattikokoelma",
-		"entries": "artikkelit",
+		"entries": "artikkelia",
 		"search-input-label": "Hae Wikisitaateista",
 		"language-button-text": "Lue Wikisitaatteja kielelläsi"
 	},
 	"wikisource": {
 		"name": "Wikiaineisto",
-		"slogan": "Vapaasisältöinen kirjasto"
+		"slogan": "Vapaa sisältökirjasto"
 	},
 	"wikiversity": {
 		"name": "Wikiopisto",
 		"slogan": "Vapaa oppimisympäristö",
-		"entries": "artikkelia",
+		"entries": "oppimateriaalia",
 		"search-input-label": "Hae Wikiopistosta",
 		"language-button-text": "Lue Wikiopistoa kielelläsi"
 	},
 	"wikivoyage": {
 		"name": "Wikimatkat",
 		"slogan": "Vapaa matkaopas",
-		"entries": "artikkelia",
+		"entries": "sivua",
 		"search-input-label": "Hae Wikimatkoista",
 		"language-button-text": "Lue Wikimatkoja kielelläsi"
 	},
