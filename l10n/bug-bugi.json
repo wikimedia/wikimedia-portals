@@ -1,8 +1,40 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Rdwnnr"
+		]
 	},
 	"language-name": "ᨅᨔ ᨕᨘᨁᨗ",
 	"language-name-romanized": "Basa Ugi",
-	"language-name-romanized-sorted": "Ugi, Basa"
+	"language-name-romanized-sorted": "Ugi, Basa",
+	"footer-donate": "ᨓᨛᨉᨗᨂᨗ ᨕᨒᨙᨊ ᨅᨈᨘ ᨍᨆᨍᨆᨈ ᨊᨔᨗᨅᨓ ᨆᨔᨘᨅ᨞",
+	"license": "ᨖᨒᨆ ᨂᨗᨐᨙᨉᨙ ᨈᨔᨉᨗᨐ ᨀᨚᨑᨗ <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "ᨕᨉᨛᨕᨉᨛ ᨕᨀᨙᨁᨘᨊ",
+	"privacy-policy": "ᨄᨈᨑᨚ ᨑᨗᨐᨒᨙ",
+	"search-input-button": "ᨔᨄ",
+	"other-languages-label": "ᨅᨖᨔ ᨒᨕᨗᨂᨙ",
+	"top-ten-nav-label": "ᨅᨖᨔ ᨑᨗᨐᨔᨛᨕᨙ",
+	"all-languages-nav-label": "ᨐᨗᨆᨊᨛ ᨅᨖᨔᨅᨖᨔᨕᨙ",
+	"other-projects-nav-label": "ᨄᨑᨚᨍᨙ ᨒᨕᨗᨂᨙ",
+	"wikimedia-org-welcome": "ᨔᨒᨆᨀᨗ ᨞ ᨁᨑᨛᨀᨛᨊ ᨓᨗᨀᨗᨆᨙᨉᨗᨐ ᨕᨗᨐᨙ ᨆᨁᨛᨒᨚᨅᨒ ᨈᨕᨘ ᨕᨁᨚᨈᨊ᨞ ᨄᨑᨚᨍᨙᨊ᨞ ᨊᨛᨊᨗᨐ ᨁᨕᨘᨊ ᨊᨔᨗᨍᨆᨂᨗ ᨆᨑᨉᨚᨀ ᨀᨘ ᨀᨙᨅᨘ ᨊ ᨅᨙᨑᨙ ᨄᨉᨗᨔᨛᨂᨛ᨞᨞",
+	"wikimedia-org-welcome-subtitle": "ᨆᨌᨘᨓᨙᨀᨗ ᨄᨉᨛᨄᨘᨂᨛᨂᨗ ᨆᨊᨛ ᨄᨄᨉᨗᨔᨛᨂᨛᨂᨙ ᨒᨕᨚ ᨑᨗᨔᨗᨊᨗᨊ ᨈᨕᨘ᨞ ᨑᨗᨀᨙᨁᨀᨙᨁ᨞᨞",
+	"wikimedia-org-our-projects": "ᨄᨑᨚᨄᨑᨚᨍᨙᨈ",
+	"wikimedia-org-our-projects-desc": "ᨄᨑᨚᨄᨑᨚᨍᨙᨈ ᨐᨗᨊᨕᨙ ᨄᨚᨀᨚ ᨀᨘ <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">ᨁᨑᨛᨀᨛ ᨓᨗᨀᨗᨆᨙᨉᨗᨐ</a>᨞᨞ ᨄᨑᨚᨄᨑᨚᨍᨙ ᨐᨗᨆᨊᨛ ᨕᨘᨔᨖᨊ <a href=\"https://wikimediafoundation.org/\">ᨄᨚᨉᨔᨗ ᨓᨗᨀᨗᨆᨙᨉᨗᨐ</a>᨞ ᨊ ᨀᨚᨈᨙᨂᨙᨉᨙ ᨆᨀᨚᨒᨅᨚᨑᨔᨗ ᨑᨗᨁᨕᨘᨀᨛ ᨆᨒᨛᨅᨗ 260.000 ᨄᨁᨘᨊ ᨊᨑᨗᨒᨗᨊᨚᨓᨙ ᨆᨄᨀᨙ ᨕᨊᨘᨊ <a href=\"https://www.mediawiki.org/\">ᨆᨙᨉᨗᨐᨓᨗᨀᨗ</a>",
+	"wikimedia-org-projects-reference": "ᨈᨒᨗᨈᨒᨗᨊ",
+	"wikimedia-org-projects-collections": "ᨈᨑᨛᨈᨑᨛᨄᨘᨊ",
+	"wikimedia-org-projects-technology": "ᨈᨙᨊᨚᨒᨚᨁᨗ",
+	"wikimedia-org-projects-guides": "ᨄᨄᨆᨘᨒᨊ",
+	"wikimedia-org-projects-collaboration": "ᨀᨚᨒᨅᨚᨑᨔᨗ",
+	"wikimedia-org-donate-button": "ᨆᨔᨘᨅ",
+	"wikimedia-org-contact": "ᨀᨚᨕᨛᨈ",
+	"wikimedia-org-contact-link": "ᨀᨚᨕᨛᨈ",
+	"wiki": {
+		"name": "ᨓᨗᨀᨗᨄᨙᨉᨗᨐ",
+		"slogan": "ᨕᨔᨗᨀᨒᨚᨄᨙᨉᨗ ᨆᨑᨉᨙᨀ",
+		"entries": "ᨕᨑᨕᨑᨈᨗᨀᨙᨒᨙ",
+		"search-input-label": "ᨔᨄᨔᨄᨕᨗ ᨓᨗᨀᨗᨄᨙᨉᨗᨐ"
+	},
+	"wikiquote": {
+		"entries": "ᨕᨑᨈᨗᨀᨙᨒᨙᨊ"
+	}
 }
