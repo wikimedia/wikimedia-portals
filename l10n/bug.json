@@ -6,8 +6,19 @@
 	},
 	"language-name": "Basa Ugi",
 	"language-name-romanized-sorted": "Ugi, Basa",
-	"footer-donate": "ᨓᨛᨉᨗᨂᨗ ᨕᨒᨙᨊ ᨅᨈᨘ ᨍᨆᨍᨆᨈ ᨊᨔᨗᨅᨓ ᨆᨔᨘᨅ᨞",
+	"footer-donate": "Weddingngi alému bantu jamancamattaq sibawa mabbéré sumbangeng.",
+	"license": "Lempaédé tassadiya riyawana <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Saraqsaraq Pakkéguna",
+	"search-input-button": "Sappa",
+	"other-languages-label": "Basabasa laing",
+	"top-ten-nav-label": "Basabasa kaddiyaseq",
+	"other-projects-nav-label": "Paroparoyéq laing",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Lontaraq Maredéka",
+		"entries": "aretikeléq",
+		"search-input-label": "Assappari Wikipédiya",
+		"language-button-text": "Bacai Wikipédiya ribasataq",
+		"footer-description": "Wikipédiya ripaddeppungeng polé Yayasang Wikimédia, oroganisasi nomperropiq iya mappaddettang towi maéga paroyéq laingngé."
 	}
 }

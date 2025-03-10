@@ -6,7 +6,7 @@
 	},
 	"language-name": "Madhurâ",
 	"language-name-romanized-sorted": "Madhura",
-	"footer-donate": "Bâ'na ngennèng nonjhâng tang karjâ kabbhi kalabân nyombhâng.",
+	"footer-donate": "Bâ'na ngennèng nonjhâng tang karjâ kabbhi kalabân nyombhâng bibi.",
 	"license": "Kaca rèya tasaḍiyâ è ḍâlem <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Katantowan Paghuna'an",
 	"privacy-policy": "Katantowan Rosèya",
@@ -15,14 +15,17 @@
 	"top-ten-nav-label": "Bhâsa sè palèng attas",
 	"all-languages-nav-label": "Kabbhi bhâsa",
 	"other-projects-nav-label": "È ḍâlem proyèk sè laèn",
+	"wikimedia-org-welcome": "Salamet ḍâteng!Tarèka Wikimedia iyâ arèya pamaoranna maghârsarè, proyèk, bân lalakon sè alakon areng-bhâreng ka'angghuy aghâbây bân adhurrun pangataowan kalabân mardhika.",
+	"wikimedia-org-welcome-subtitle": "Maju noro' ka'angghuy aghâbây pangataowan tasaḍiyâ ka sabbhân orèng, è ḍimma bhâi.",
 	"wikimedia-org-our-projects": "Proyèkka Abâ' Kabbhi",
 	"wikimedia-org-projects-collections": "Samodhâjâ",
 	"wikimedia-org-projects-technology": "Tèknologi",
 	"wikimedia-org-projects-guides": "Pandhuman",
+	"wikimedia-org-projects-collaboration": "Song-osong lombhung",
 	"wikimedia-org-donate-title": "Sombhânganna Ba'na alènḍhungè ha' manossa ghâbây mamardhika'aghi bân mokka' pangataowan ka'angghuy sanèyap orèng.",
-	"wikimedia-org-donate-button": "Sombhâng satèya",
+	"wikimedia-org-donate-button": "Sombhâng bibi satèya",
 	"wikimedia-org-contact": "Partèla",
-	"wikimedia-org-contact-text": "Pètanya bhâb Yayasan Wikimedia otabâb proyèk Wikimedia? Partèlaè.",
+	"wikimedia-org-contact-text": "Pètanya bhâb Yayasan Wikimedia otabâ proyèk Wikimedia? Partèlaè.",
 	"wikimedia-org-contact-link": "Partèla",
 	"wiki": {
 		"name": "Wikipèḍia",
@@ -30,7 +33,7 @@
 		"entries": "serradhân",
 		"search-input-label": "Sarè Wikipèḍia",
 		"language-button-text": "Bâca Wikipèḍia è bhâsana Bâ'na",
-		"footer-description": "Wikipèḍia arèya èkalako' bi' Yayasan Wikimedia, sèttong organisasi ta' ngala' ontong sè ngalakonè bânnya' proyèk sè laèn.",
+		"footer-description": "Wikipèḍia arèya èkalako bi' Yayasan Wikimedia, sèttong organisasi sè ta' ngala' ontong sè ngalakonè bânnya' proyèk sè laèn.",
 		"app-links": {
 			"title": "Patoron Wikipèḍia ka'angghuy Android otabân iOS",
 			"google-store": "Google Play Store",
@@ -100,10 +103,10 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Pakakas powa wiki mardhika & abukka'"
+		"slogan": "Pakakas powa wiki mardhika & tarbukka'"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Koordinasi pemaroran & dokumentasi"
+		"slogan": "Koordinasi pemaoran & dokumentasi"
 	}
 }
