@@ -11,6 +11,24 @@
 	"privacy-policy": "Kwaa̱mbwat A̱bala̱lang",
 	"search-input-button": "Zop",
 	"other-languages-label": "Lilyem ghyáng",
+	"top-ten-nav-label": "Lilyem tazwa hu",
+	"all-languages-nav-label": "A̱mgba̱m lilyem",
+	"other-projects-nav-label": "Nta̱m njhyang",
+	"wikimedia-org-welcome": "Aba̱n/Tyebaa! A̱guguut Wukimedia wu yet sot-á̱niet a̱mgba̱m swanta ja mat á̱nietbishyi, nta̱m, ma̱ng nnaat mbwuot ba̱ nyian ta̱m dundung da̱nian á̱ ka tat a̱wot á̱ sa̱u lyen ma̱sa̱t.",
+	"wikimedia-org-welcome-subtitle": "Bai a shyia̱ dundung ma̱ng a̱nzi̱t zi̱ sa̱u a̱mgba̱m lyen hu konyan, koji gu ka shyia̱.",
+	"wikimedia-org-our-projects": "Nta̱m Nzi̱t na",
+	"wikimedia-org-our-projects-desc": "Nta̱m nzi̱t ninia yet a̱cyian <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">a̱guguut Wukimedia</a> ka. A̱mgba̱m a̱ca̱cet nta̱m shyia̱ mbwak <a href=\"https://wikimediafoundation.org/\">Sotbeang Wukimedia</a> nia, a̱wot nkyangmami na yet a̱lahyia̱ á̱nietnta̱m 260,000 ba̱ nyian ta̱m dundung ma̱ng á̱ghyang nia mi̱ a̱mgba̱m swanta hu di̱n vak kyanglilyiit <a href=\"https://www.mediawiki.org/\">MediaWiki</a> hu.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Sotbeang Wukimedia</a> ji yet sot-nta̱m ja ji nwai cat kpangti̱n a̱ni ji̱ byia̱ a̱mgba̱m nta̱m Wukimedia na a̱wot ji̱ li̱n susot-á̱niet a̱ma mi̱ swanta hu a̱mgba̱m ba̱ khwut a̱wot ba̱ ka lyuut ku kpa̱t nkyang nang á̱ na maai shyia̱ á̱ nyia̱ ta̱m ma̱ng á̱na ma̱sa̱t a̱ni.",
+	"wikimedia-org-projects-reference": "Ya̱fang",
+	"wikimedia-org-projects-collections": "Mkpa̱m",
+	"wikimedia-org-projects-technology": "Lyennkyangta̱m",
+	"wikimedia-org-projects-guides": "Cam-vak",
+	"wikimedia-org-projects-collaboration": "Tung-mbwak",
+	"wikimedia-org-donate-title": "Nwuat ang hu ni̱ cam a̱ka̱wat á̱nietbishyi ba̱ shyia̱ lyen ganng ma̱ng ma̱sa̱t mat konyan.",
+	"wikimedia-org-donate-button": "Nang kurum ma̱nini",
+	"wikimedia-org-contact": "Vak a̱myim",
+	"wikimedia-org-contact-text": "Lyi̱ri̱m tazwa Sotbeang Wukimedia ji ke nta̱m Wukimedia nshyia̱ a? Myim ma̱ng a̱nzi̱t.",
+	"wikimedia-org-contact-link": "Vak a̱myim",
 	"wiki": {
 		"name": "Wukipedia",
 		"slogan": "A̱gban Lyen Wu Ma̱sa̱t",
@@ -60,7 +78,7 @@
 	},
 	"wikiversity": {
 		"name": "Wukivasi̱ti",
-		"slogan": "Nkyangfang kos ma̱sa̱t",
+		"slogan": "Nkyangfang myiam ma̱sa̱t",
 		"entries": "nkyang myiam",
 		"search-input-label": "Zop Wukivasi̱ti",
 		"language-button-text": "Fang Wukivasi̱ti da̱ a̱lyem ang ka"
@@ -74,11 +92,15 @@
 	},
 	"commons": {
 		"name": "Komon",
-		"slogan": "Nghwughwu nang á̠ maai á̱ nyia̠ ta̠m ma̠ng á̠na ma̱sa̱t ma̠ng nkyang jhyang"
+		"slogan": "Kpa̱m nyinyiit shei nkhang ma̱sa̱t"
 	},
 	"wikispecies": {
 		"name": "Susotbishyiwuki",
 		"slogan": "Kwaa̱mbwat a̠myim susotbishyi ma̱sa̱t"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions",
+		"slogan": "Tutunkwaa̱mbwat nta̱m ma̱sa̱t"
 	},
 	"wikidata": {
 		"name": "Wukideita",
@@ -86,7 +108,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "A̱sa̱t & a̱gang api̱likeshyon wuki"
+		"slogan": "Kyanglilyiit wuki ganng & ma̱sa̱t"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
