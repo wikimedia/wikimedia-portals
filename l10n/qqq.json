@@ -11,6 +11,7 @@
 			"Pupsik-ipa",
 			"Robby",
 			"Tacsipacsi",
+			"Toliño",
 			"Verdy p"
 		]
 	},
@@ -21,7 +22,7 @@
 	"license": "License text, use <code><nowiki>https://creativecommons.org/licenses/by-sa/4.0/deed.(your language code)</nowiki></code> to show the translation of license.",
 	"terms": "Terms of Use\n{{Identical|Terms of use}}\n{{Identical|Requestaccount-page}}",
 	"privacy-policy": "Privacy Policy\n{{Identical|Privacy policy}}",
-	"terms-link": "{{Optional}}\n\nThe URL of the translated Terms of service page. Like <code><nowiki>https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use</nowiki>{{USERLANGUAGE}}</code> but be certain that a translation exists.",
+	"terms-link": "{{Optional}}\n\nThe URL of the translated Terms of service page. Like <code><nowiki>https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/</nowiki>{{USERLANGUAGE}}</code> but be certain that a translation exists.",
 	"privacy-policy-link": "{{Optional}}\n\nThe URL of the translated Privacy policy page. If a complete translation into your language exists, remove \"<code>Special:MyLanguage/</code>\" and add the language code, like <code><nowiki>https://foundation.wikimedia.org/wiki/Policy:Privacy_policy</nowiki>/{{USERLANGUAGE}}</code>. If it doesn't exist, don't translate.",
 	"search-input-button": "Label for search button\n{{Identical|Search}}",
 	"other-languages-label": "The label of the link to a list of all Wikipedia: [[Special:MyLanguage/List_of_Wikipedias|List of Wikipedias]]",
