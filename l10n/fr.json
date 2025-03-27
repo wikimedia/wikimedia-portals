@@ -3,6 +3,7 @@
 		"authors": [
 			"Ash Crow",
 			"Benoit Rochon",
+			"Eihel",
 			"Florian COLLIN",
 			"Gomoko",
 			"Hecatonchire",
@@ -28,6 +29,10 @@
 	"top-ten-nav-label": "Langues les plus utilisées",
 	"all-languages-nav-label": "Toutes les langues",
 	"other-projects-nav-label": "Autres projets",
+	"wikimedia-org-welcome": "Bienvenue ! Le mouvement Wikimedia est une communauté mondiale de personnes, de projets et d’activités qui travaillent ensemble pour créer et partager librement des connaissances.",
+	"wikimedia-org-welcome-subtitle": "Rejoignez-nous pour rendre toutes les connaissances accessibles à tous, partout dans le monde.",
+	"wikimedia-org-our-projects": "Nos projets",
+	"wikimedia-org-our-projects-desc": "Nos projets sont au cœur du <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">mouvement Wikimedia</a> . Tous les projets majeurs sont gérés par la <a href=\"https://wikimediafoundation.org/\">Fondation Wikimedia</a> et le contenu est développé en collaboration par plus de 260 000 utilisateurs à travers le monde, grâce au logiciel <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "L’encyclopédie libre",
