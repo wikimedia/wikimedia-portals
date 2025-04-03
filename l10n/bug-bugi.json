@@ -50,11 +50,11 @@
 		"language-button-text": "ᨅᨌ ᨓᨗᨀᨗᨅᨚ ᨑᨗᨅᨔ ᨕᨗᨉᨗ"
 	},
 	"wikinews": {
-		"name": "ᨓᨗᨀᨑᨙᨅ",
+		"name": "ᨓᨗᨀᨗᨀᨑᨙᨅ",
 		"slogan": "ᨕᨄᨚᨒᨙ ᨀᨑᨙᨅ ᨆᨑᨉᨙᨀ",
 		"entries": "ᨒᨚᨈᨑ",
-		"search-input-label": "ᨕᨔᨄᨑᨗ ᨓᨗᨀᨑᨙᨅ",
-		"language-button-text": "ᨅᨌ ᨓᨗᨀᨑᨙᨅ ᨑᨗᨅᨔ ᨕᨗᨉᨗ"
+		"search-input-label": "ᨕᨔᨄᨑᨗ ᨓᨗᨀᨗᨀᨑᨙᨅ",
+		"language-button-text": "ᨅᨌ ᨓᨗᨀᨗᨀᨑᨙᨅ ᨑᨗᨅᨔ ᨕᨗᨉᨗ"
 	},
 	"wikiquote": {
 		"name": "ᨓᨗᨀᨛᨉ",
@@ -64,7 +64,7 @@
 		"language-button-text": "ᨅᨌ ᨓᨗᨀᨛᨉ ᨑᨗᨅᨔ ᨕᨗᨉᨗ"
 	},
 	"wikisource": {
-		"name": "ᨓᨗᨀᨄᨚᨒᨙ",
+		"name": "ᨓᨗᨀᨗᨐᨄᨚᨒᨙ",
 		"slogan": "ᨄᨘᨈᨀ ᨀᨚᨈᨙ ᨆᨑᨉᨙᨀ"
 	},
 	"wikiversity": {
