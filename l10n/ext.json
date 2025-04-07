@@ -13,12 +13,18 @@
 	"terms": "Términus de gastu",
 	"privacy-policy": "Política de privacidá",
 	"search-input-button": "Precural",
-	"other-languages-label": "Otrus idiomas",
+	"other-languages-label": "Otras idiomas",
+	"all-languages-nav-label": "Tolas idiomas",
+	"other-projects-nav-label": "Otrus proyeutus",
+	"wikimedia-org-welcome": "Bienllegauǃ el movimientu Güiquimedia es una comuniá grobal de genti, proyeutus i atividáis trebajandu juntus pa crial i compartil conocencia de manera libri.",
+	"wikimedia-org-projects-technology": "Tenología",
+	"wikimedia-org-contact": "Contatu",
+	"wikimedia-org-contact-link": "Contatu",
 	"wiki": {
 		"name": "Güiquipedia",
-		"slogan": "L'enciclopeya libri",
-		"entries": "artículus",
-		"search-input-label": "Buscal en Güiquipedia",
+		"slogan": "La ciclopedia libri",
+		"entries": "artícalus",
+		"search-input-label": "Precural en Güiquipedia",
 		"language-button-text": "Leyel Güiquipedia en la tu idioma",
 		"app-links": {
 			"google-store": "Google Play Store",
@@ -28,7 +34,8 @@
 	"wiktionary": {
 		"name": "Güiquizionariu",
 		"slogan": "L'izionariu libri",
-		"entries": "Entrás"
+		"entries": "Entrás",
+		"search-input-label": "Precural nel Izionariu"
 	},
 	"wikibooks": {
 		"name": "Güiquilibrus",
@@ -47,16 +54,16 @@
 	},
 	"wikisource": {
 		"name": "Güiquisource",
-		"slogan": "La biblioteca libri"
+		"slogan": "La bibloteca libri"
 	},
 	"wikiversity": {
 		"name": "Güiquiversiá",
 		"slogan": "Materialis de cursu libris",
-		"entries": "Recursus pa deprender"
+		"entries": "Recussus pa deprender"
 	},
 	"wikivoyage": {
-		"name": "Güiquiviahis",
-		"slogan": "La guía viahis libri",
+		"name": "Güiquiviagis",
+		"slogan": "La guía de viagis libri",
 		"entries": "páginas"
 	}
 }
