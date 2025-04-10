@@ -12,22 +12,22 @@
 	"language-name-romanized": "Paʂto",
 	"language-name-romanized-sorted": "Pasto",
 	"footer-donate": "تاسو کولی شئ زموږ د کار ملاتړ د يوې بسپنې ورکولو سره وکړئ.",
-	"license": "دا مخ د <a href='https://creativecommons.org/licenses/by-sa/4.0/'>کرېټيف کامنز د ورته-شريکېدنې اړوندتيا منښتليک</a> څخه برخمن دی",
-	"terms": "د کارولو شرطونه",
+	"license": "دا مخ د <a href='https://creativecommons.org/licenses/by-sa/4.0/'>ټولواله پنځگري-شريکېدنې اړوند منښتليک</a> څخه برخمن دی",
+	"terms": "د کارولو منښتونه",
 	"privacy-policy": "د پټنتيا تگلاره",
 	"search-input-button": "پلټل",
 	"other-languages-label": "نورې ژبې",
 	"top-ten-nav-label": "د سر ژبې",
 	"all-languages-nav-label": "ټولې ژبې",
 	"other-projects-nav-label": "نورې پروژې",
-	"wikimedia-org-welcome": "ښه راغلاست! ويکيمېډيا غورځنگ د خلکو، پروژو او کاري هلو ځلو نړيواله ټولنه ده چې په ګډه د وړيا پوهې رامنځته کولو او خپرولو لپاره کار کوي.",
-	"wikimedia-org-welcome-subtitle": "له موږ سره يوځای شئ، ترڅو ټول پوهه، هرچا ته، هرځای ته ورسوو.",
+	"wikimedia-org-welcome": "ښه راغلاست! ويکيمېډيا غورځنگ د خلکو، پروژو او کاري هلو ځلو نړۍ‌واله ټولنه ده چې په گډه د وړيا پوهې رامنځته کولو او خپرولو لپاره کار کوي.",
+	"wikimedia-org-welcome-subtitle": "له موږ سره يوځای شئ؛ ترڅو ټول پوهه، هرچا ته، هرځای ته ورسوو.",
 	"wikimedia-org-our-projects": "زموږ پروژې",
-	"wikimedia-org-our-projects-desc": "زموږ پروژې د <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">ويکيمېډيا غورځنگ</a> زړه دی. ټولې لويې پروژې د<a href=\"https://wikimediafoundation.org/\">ويکيمېډيا بنسټ </a> له خوا پرمخ وړل کيږي،او منځپانگه يې په گډه د نړۍ په کچه۲۶۰,۰۰۰ ډېرو کارنانو له خوا  <a href=\"https://www.mediawiki.org/\">مېډياويکي</a> پوستغالي په کارولو سره رامنځته شوې ده.",
-	"wikimedia-org-wmf": "د <a href=\"https://wikimediafoundation.org/\"> ويکيمېډيا بنسټ</a> يو نا-گټندويه سازمان دی چې د ويکيمېډيا ټولو پروژو کوربه توب کوي او په ټوله نړۍ کې د هغه ټولنو ملاتړ کوي چې د وړيا لاسرسي وړ منځپانگې جوړوي او ترتيبوي.",
+	"wikimedia-org-our-projects-desc": "زموږ پروژې د <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">ويکيمېډيا غورځنگ</a> زړه دی. ټولې لويې پروژې د<a href=\"https://wikimediafoundation.org/\">ويکيمېډيا بنسټ </a> له خوا پرمخ وړل کېږي،او منځپانگه يې په گډه د نړۍ په کچه۲۶۰,۰۰۰ ډېرو کارنانو له خوا  <a href=\"https://www.mediawiki.org/\">مېډياويکي</a> پوستغالي په کارولو سره رامنځته شوې ده.",
+	"wikimedia-org-wmf": "د <a href=\"https://wikimediafoundation.org/\"> ويکيمېډيا بنسټ</a> يو ناگټندويه سازمان دی چې د ويکيمېډيا ټولو پروژو کوربه‌توب کوي او په ټوله نړۍ کې د هغه ټولنو ملاتړ کوي چې د وړيا لاسرسي وړ منځپانگې جوړوي او ترتيبوي.",
 	"wikimedia-org-projects-reference": "سرچينه",
 	"wikimedia-org-projects-collections": "ټولگې",
-	"wikimedia-org-projects-technology": "تخنيک",
+	"wikimedia-org-projects-technology": "تېکنالوژي",
 	"wikimedia-org-projects-guides": "لارښوونې",
 	"wikimedia-org-projects-collaboration": "همکاري",
 	"wikimedia-org-donate-title": "ستاسو مرسته د هرچا لپاره د پرانېستې پوهې بشري حق ساتنه کوي.",
@@ -41,11 +41,11 @@
 		"entries": "ليکنې",
 		"search-input-label": "ويکيپېډيا پلټل",
 		"language-button-text": "ويکيپېډيا پخپله ژبه کې ولولئ",
-		"footer-description": "ويکيپېډيا د ويکيمېډيا بنسټ په کوربه توب خپرېږي، دا يو ناگټندويه تنظيم دی او د يو شمېر نورو پروژو کوربه هم دی.",
+		"footer-description": "ويکيپېډيا د ويکيمېډيا بنسټ په کوربه‌توب خپرېږي، دا يو ناگټندويه سازمان دی او د يو شمېر نورو پروژو کوربه هم دی.",
 		"app-links": {
-			"title": "اوس د ويکيپېډيا کاريالونه هم شته:",
-			"description": "د خپلې خوښې ليکنې مو خوندي کړئ، ترڅو افلاين يې ولولئ، خپل لوست لړليک په ټولو وسيلو کې همغږی کړئ او د رسمي ويکيپېډيا کاريال سره خپل د لوست تجربې تنظيم کړئ.",
-			"google-store": "گووگل پلی پلورنځی",
+			"title": "د ويکيپېډيا اندرويد يا آی‌او‌‌اېس کاريال راکښته کول:",
+			"description": "د خپلې خوښې ليکنې مو خوندي کړئ؛ ترڅو افلاين يې ولولئ، خپل لوست لړليک په ټولو وسيلو کې همغږی کړئ او د رسمي ويکيپېډيا کاريال سره خپل د لوست تجربې تنظيم کړئ.",
+			"google-store": "گوگل پلی پلورنځی",
 			"apple-store": "اپل کاريال پلورنځی",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
@@ -58,7 +58,7 @@
 		"language-button-text": "ويکيسيند په خپله ژبه ولولئ"
 	},
 	"wikibooks": {
-		"name": "ويکيتابونه",
+		"name": "ويکيکيتابونه",
 		"slogan": "وړيا درسي کتابونه",
 		"entries": "مخونه",
 		"search-input-label": "ويکي‌کتابونه ولټوئ",
@@ -90,26 +90,26 @@
 		"language-button-text": "ویکي‌پوهنتون په خپله ژبه ولولئ"
 	},
 	"wikivoyage": {
-		"name": "ويکيسفر",
+		"name": "ويکي‌يون",
 		"slogan": "د سفرونو وړيا لارښود",
 		"entries": "مخونه",
 		"search-input-label": "ويکي‌يون پلټل",
-		"language-button-text": "ويکي‌يونپه خپله ژبه ولولئ"
+		"language-button-text": "ويکي‌يون په خپله ژبه ولولئ"
 	},
 	"commons": {
 		"name": "خونديځ",
 		"slogan": "وړيا رسنيزه ټولگه"
 	},
 	"wikispecies": {
-		"name": "Wikispecies",
-		"slogan": "د وړيا انواعو لارښودليکچه"
+		"name": "ويکي‌ډولونه",
+		"slogan": "د وړيا انواعو لارښودپانگه"
 	},
 	"wikifunctions": {
 		"name": "ويکي‌دندې",
-		"slogan": "وړيا فعاليت کتابتون"
+		"slogan": "وړيا دندو کتابتون"
 	},
 	"wikidata": {
-		"name": "ويکيډاټا",
+		"name": "ويکي‌اومتوک",
 		"slogan": "د وړيا پوهنې بنسټ"
 	},
 	"mediawiki": {
