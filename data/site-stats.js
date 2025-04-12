@@ -36,11 +36,12 @@ function httpGet( url ) {
 				return Promise.resolve( responseText );
 			}
 		} )
-		.catch( err => {
+		.catch( cause => {
 			// I can haz error message that makes sense?
-			var msg = err.toString() + ' requesting ' + url;
-			console.error( msg ); // eslint-disable-line no-console
-			return Promise.reject( msg );
+			const err = new Error( 'Error requesting ' + url, { cause } );
+			// Gulp's logging ignores the stack trace, so we also log on our own
+			console.error( err );
+			throw err;
 		} );
 }
 
