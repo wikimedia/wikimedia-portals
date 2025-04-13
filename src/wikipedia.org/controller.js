@@ -20,6 +20,7 @@ var hbs = require( '../../hbs-helpers.global.js' ),
 l10n.portal = l10n.wiki;
 
 l10n.assets = {
+	family: 'wikipedia',
 	logo: {
 		src: 'portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png',
 		srcset: 'portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png 1.5x, portal/wikipedia.org/assets/img/Wikipedia-logo-v2@2x.png 2x',
@@ -28,10 +29,6 @@ l10n.assets = {
 	},
 	lang: {
 		url: 'https://meta.wikimedia.org/wiki/Special:MyLanguage/List_of_Wikipedias'
-	},
-	search:
-	{
-		action: '//www.wikipedia.org/search-redirect.php'
 	}
 };
 

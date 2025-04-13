@@ -19,6 +19,7 @@ var hbs = require( '../../hbs-helpers.global.js' ),
 l10n.portal = l10n.wiktionary;
 
 l10n.assets = {
+	family: 'wiktionary',
 	logo: {
 		src: 'portal/wiktionary.org/assets/img/Wiktionary-logo-tiles_1x.png',
 		srcset: 'portal/wiktionary.org/assets/img/Wiktionary-logo-tiles_1.5x.png 1.5x, portal/wiktionary.org/assets/img/Wiktionary-logo-tiles_2x.png 2x',
@@ -27,10 +28,6 @@ l10n.assets = {
 	},
 	lang: {
 		url: '//meta.wikimedia.org/wiki/Wiktionary#List_of_Wiktionaries'
-	},
-	search:
-	{
-		action: '//www.wiktionary.org/search-redirect.php'
 	}
 };
 

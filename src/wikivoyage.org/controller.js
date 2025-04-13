@@ -19,6 +19,7 @@ var hbs = require( '../../hbs-helpers.global.js' ),
 l10n.portal = l10n.wikivoyage;
 
 l10n.assets = {
+	family: 'wikivoyage',
 	logo: {
 		src: 'portal/wikivoyage.org/assets/img/Wikivoyage-logo-tiles_1x.png',
 		srcset: 'portal/wikivoyage.org/assets/img/Wikivoyage-logo-tiles_1.5x.png 1.5x, portal/wikivoyage.org/assets/img/Wikivoyage-logo-tiles_2x.png 2x',
@@ -27,10 +28,6 @@ l10n.assets = {
 	},
 	lang: {
 		url: '//meta.wikimedia.org/wiki/Wikivoyage'
-	},
-	search:
-	{
-		action: '//www.wikivoyage.org/search-redirect.php'
 	}
 };
 
