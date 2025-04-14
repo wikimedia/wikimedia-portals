@@ -1,13 +1,118 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Lydie maliki"
+		]
 	},
 	"language-name": "Lingála",
 	"language-name-romanized-sorted": "Lingala",
+	"footer-donate": "Okoki kosunga mosala na biso na likabo.",
+	"license": "Lokasa oyo ezali na nzela ya <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Licence ya Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Mibeko ya kosalela",
+	"privacy-policy": "Politiki ya kobatela makambo ya moto ye moko",
+	"search-input-button": "Koluka",
+	"other-languages-label": "Minɔkɔ mosusu",
+	"top-ten-nav-label": "Minɔkɔ ya likoló",
+	"all-languages-nav-label": "Minɔkɔ nyonso",
+	"other-projects-nav-label": "Misala misusu",
+	"wikimedia-org-welcome": "Boyei malamu! Etuluku ya Wikimedia ezali lisanga ya mokili mobimba ya bato, misala, mpe misala oyo ezali kosala elongo mpo na kosala mpe kokabola boyebi na bonsomi nyonso.",
+	"wikimedia-org-welcome-subtitle": "Salisá biso na kosala ete boyebi nyonso ezala na moto nyonso, bisika nyonso.",
+	"wikimedia-org-our-projects": "Misala na biso",
+	"wikimedia-org-our-projects-desc": "Misala na biso ezali moboko ya <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">mouvement ya Wikimedia</a> . Misala nyonso ya minene etambwisami na <a href=\"https://wikimediafoundation.org/\">Fondation Wikimedia</a> , mpe makambo oyo ezali na kati esalemi na boyokani na basaleli koleka 260.000 na mokili mobimba na kosalelaka logiciel <a href=\"https://www.mediawiki.org/\">MediaWiki</a> .",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Fondation Wikimedia</a> ezali ebongiseli oyo ezali koluka litomba te oyo eyambaka misala nyonso ya Wikimedia mpe esungaka masanga ya bato na mokili mobimba oyo basalaka mpe ba curer makambo oyo ekoki kozwama na bonsomi.",
+	"wikimedia-org-projects-reference": "Makomi",
+	"wikimedia-org-projects-collections": "Ba collections ya biloko",
+	"wikimedia-org-projects-technology": "Teknoloji",
+	"wikimedia-org-projects-guides": "Ba guides",
+	"wikimedia-org-projects-collaboration": "Boyokani",
+	"wikimedia-org-donate-title": "Libonza na bino ebatelaka lotomo ya bomoto ya boyebi ya ofele mpe ya polele mpo na moto nyonso.",
+	"wikimedia-org-donate-button": "Pesá makabo sikoyo",
+	"wikimedia-org-contact": "Kokutana",
+	"wikimedia-org-contact-text": "Mituna na ntina ya Fondation Wikimedia to misala ya Wikimedia? Bozala na contact.",
+	"wikimedia-org-contact-link": "Kokutana",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Encyclopédie ya ofele",
+		"entries": "masolo",
+		"search-input-label": "Boluka na Wikipedia",
+		"language-button-text": "Tanga Wikipedia na monoko na yo",
+		"footer-description": "Wikipedia eyambami na Fondation Wikimedia, ebongiseli oyo ezali koluka litomba te oyo eyambaka mpe misala misusu ndenge na ndenge.",
+		"app-links": {
+			"title": "Zwá Wikipedia mpo na Android to iOS",
+			"description": "Bomba masolo oyo olingaka mingi mpo na kotanga na nzela ya internet te, kosala synchronisation ya ba listes na yo ya botangi na ba appareils nionso mpe ko personnaliser expérience na yo ya botangi na appli officielle ya Wikipedia.",
+			"google-store": "Magasin ya Google Play",
+			"apple-store": "Magasin ya ba Apps ya Apple",
+			"url": "https://fr.wikipedia.org/wiki/Liste_ya_ba application_ya_mobile_ya_Wikipedia"
+		}
 	},
 	"wiktionary": {
-		"name": "Wiktionary"
+		"name": "Wiktionary",
+		"slogan": "Diksionɛrɛ ya ofele",
+		"entries": "ba entrées",
+		"search-input-label": "Boluka na Wiktionnaire",
+		"language-button-text": "Tanga Wiktionary na monoko na yo"
+	},
+	"wikibooks": {
+		"name": "Mikanda ya Wiki",
+		"slogan": "Mikanda ya mateya ya ofele",
+		"entries": "nkasa",
+		"search-input-label": "Boluka na ba Wikibooks",
+		"language-button-text": "Tanga ba Wikibook na monoko na yo"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Liziba ya sango ya ofele",
+		"entries": "masolo",
+		"search-input-label": "Boluka na Wikinews",
+		"language-button-text": "Tanga Wikinews na monoko na yo"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Compendium ya ba citations ya ofele",
+		"entries": "masolo",
+		"search-input-label": "Boluka na Wikiquote",
+		"language-button-text": "Tanga Wikiquote na monoko na yo"
+	},
+	"wikisource": {
+		"name": "Liziba ya Wiki",
+		"slogan": "Bibliothèque ya contenus ya ofele"
+	},
+	"wikiversity": {
+		"name": "Wikiversité ya mboka",
+		"slogan": "Biloko ya koyekola ya ofele",
+		"entries": "biloko ya koyekola",
+		"search-input-label": "Boluka na Wikiversity",
+		"language-button-text": "Tanga Wikiversity na monoko na yo"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage na nzela ya Wikivoyage",
+		"slogan": "Mokanda ya mobembo ya ofele",
+		"entries": "nkasa",
+		"search-input-label": "Boluka na Wikivoyage",
+		"language-button-text": "Tanga Wikivoyage na monoko na yo"
+	},
+	"commons": {
+		"name": "Ba communes",
+		"slogan": "Bosangisi ya ba media ya ofele"
+	},
+	"wikispecies": {
+		"name": "Wikiespèces ya ba wiki",
+		"slogan": "Annuaire ya ba espèces ya ofele"
+	},
+	"wikifunctions": {
+		"name": "Misala ya Wiki",
+		"slogan": "Bibliothèque ya fonctionnement ya ofele"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Base ya boyebi ya ofele"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Logiciel ya wiki ya ofele & ya polele"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki oyo ezali na kati",
+		"slogan": "Coordination communautaire & mikanda ya kosala"
 	}
 }

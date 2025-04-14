@@ -1,0 +1,48 @@
+{
+	"@metadata": {
+		"authors": [
+			"Singkiring57"
+		]
+	},
+	"footer-donate": "Dengabiti te aleaḱ Paeṭi dengaturuṕ daeoḱa.",
+	"license": "Nen Sakam do <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> suba re ànam akana.",
+	"terms": "Agujoṅ Kajironot́",
+	"privacy-policy": "Apańdanaṅ Policy",
+	"search-input-button": "Nelsangarè",
+	"other-languages-label": "Eṭaḱ Agujoṅjagar ko",
+	"top-ten-nav-label": "Danau salaoḱ Jagar ko",
+	"all-languages-nav-label": "Saben Agujoṅjagar ko",
+	"other-projects-nav-label": "Eṭaḱ Project ko",
+	"wikimedia-org-our-projects": "Aleaḱ Project ko",
+	"wiki": {
+		"name": "Wikisẽasagom",
+		"slogan": "Raaèpem Sẽasagom",
+		"entries": "Onolàntir ko",
+		"search-input-label": "Wikisẽasagom nelsangarè",
+		"language-button-text": "Amaḱ Jagar te Wikisẽasagom nerelè"
+	},
+	"wiktionary": {
+		"name": "Wikikajibir",
+		"slogan": "Raaèpem Kajibir",
+		"search-input-label": "Wikikajibir nelsangarè"
+	},
+	"wikibooks": {
+		"name": "Wikisapagom"
+	},
+	"wikisource": {
+		"name": "Wikinamsaṅ"
+	},
+	"wikispecies": {
+		"name": "Wikispecies"
+	},
+	"wikidata": {
+		"slogan": "Raaèpem Sẽamurui"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Raaèpem & Raanepel Wiki Software"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
+	}
+}

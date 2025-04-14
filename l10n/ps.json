@@ -12,7 +12,7 @@
 	"language-name-romanized": "Paʂto",
 	"language-name-romanized-sorted": "Pasto",
 	"footer-donate": "تاسو کولی شئ زموږ د کار ملاتړ د يوې بسپنې ورکولو سره وکړئ.",
-	"license": "دا مخ د <a href='https://creativecommons.org/licenses/by-sa/4.0/'>ټولواله پنځگري-شريکېدنې اړوند منښتليک</a> څخه برخمن دی",
+	"license": "دا مخ د <a href='https://creativecommons.org/licenses/by-sa/4.0/'>ټولواله پنځگرې-شريکېدنې اړوند منښتليک</a> څخه برخمن دی",
 	"terms": "د کارولو منښتونه",
 	"privacy-policy": "د پټنتيا تگلاره",
 	"search-input-button": "پلټل",
@@ -58,7 +58,7 @@
 		"language-button-text": "ويکيسيند په خپله ژبه ولولئ"
 	},
 	"wikibooks": {
-		"name": "ويکيکيتابونه",
+		"name": "ويکيکتابونه",
 		"slogan": "وړيا درسي کتابونه",
 		"entries": "مخونه",
 		"search-input-label": "ويکي‌کتابونه ولټوئ",
@@ -91,7 +91,7 @@
 	},
 	"wikivoyage": {
 		"name": "ويکي‌يون",
-		"slogan": "د سفرونو وړيا لارښود",
+		"slogan": "وړيا يون لارښود",
 		"entries": "مخونه",
 		"search-input-label": "ويکي‌يون پلټل",
 		"language-button-text": "ويکي‌يون په خپله ژبه ولولئ"
