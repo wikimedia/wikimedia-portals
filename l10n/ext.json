@@ -8,7 +8,7 @@
 	},
 	"language-name": "Estremeñu",
 	"language-name-romanized-sorted": "Estremenu",
-	"footer-donate": "Pueis sostribal el nuestru trebaju con una donación",
+	"footer-donate": "Pueis sostribal el muestru trebaju cuna donación",
 	"license": "Esta página está disponibli baxu la <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Términus de gastu",
 	"privacy-policy": "Política de privacidá",
@@ -17,6 +17,7 @@
 	"all-languages-nav-label": "Tolas idiomas",
 	"other-projects-nav-label": "Otrus proyeutus",
 	"wikimedia-org-welcome": "Bienllegauǃ el movimientu Güiquimedia es una comuniá grobal de genti, proyeutus i atividáis trebajandu juntus pa crial i compartil conocencia de manera libri.",
+	"wikimedia-org-our-projects": "Los muestrus proyeutus",
 	"wikimedia-org-projects-technology": "Tenología",
 	"wikimedia-org-contact": "Contatu",
 	"wikimedia-org-contact-link": "Contatu",
@@ -25,7 +26,7 @@
 		"slogan": "La ciclopedia libri",
 		"entries": "artícalus",
 		"search-input-label": "Precural en Güiquipedia",
-		"language-button-text": "Leyel Güiquipedia en la tu idioma",
+		"language-button-text": "Leyel Güiquipedia ena tu idioma",
 		"app-links": {
 			"google-store": "Google Play Store",
 			"apple-store": "Tienda de apricacionis de Apple"
@@ -39,18 +40,18 @@
 	},
 	"wikibooks": {
 		"name": "Güiquilibrus",
-		"slogan": "Librus de testu de calteniu libri",
+		"slogan": "Librus de testu de conteníu libri",
 		"entries": "Páginas"
 	},
 	"wikinews": {
 		"name": "Güiquinotícias",
-		"slogan": "La huenti de notícias libris",
-		"entries": "artículus"
+		"slogan": "La huenti de noticias libris",
+		"entries": "artícalus"
 	},
 	"wikiquote": {
 		"name": "Güiquicitas",
 		"slogan": "El compendiu de citas",
-		"entries": "artículus"
+		"entries": "artícalus"
 	},
 	"wikisource": {
 		"name": "Güiquisource",
