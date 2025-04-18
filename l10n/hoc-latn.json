@@ -14,12 +14,21 @@
 	"all-languages-nav-label": "Saben Agujoṅjagar ko",
 	"other-projects-nav-label": "Eṭaḱ Project ko",
 	"wikimedia-org-our-projects": "Aleaḱ Project ko",
+	"wikimedia-org-donate-title": "Amaḱ Emdenga te, saben ko lagit́ raaèpem„ nelteta Sẽa reaḱ Human Right jangioḱa.",
+	"wikimedia-org-donate-button": "Nahḱ ge Denga emè",
 	"wiki": {
-		"name": "Wikisẽasagom",
+		"name": "Wikipedia",
 		"slogan": "Raaèpem Sẽasagom",
 		"entries": "Onolàntir ko",
-		"search-input-label": "Wikisẽasagom nelsangarè",
-		"language-button-text": "Amaḱ Jagar te Wikisẽasagom nerelè"
+		"search-input-label": "Wikipedia nelsangarè",
+		"language-button-text": "Amaḱ Jagar te Wikisẽasagom nerelè",
+		"footer-description": "Wikipedia do non-profit Organisation Wikimedia Foundation paaàete rikaànkir akana, neleka sangi eṭaḱ Project ko ó rikaànkir akana.",
+		"app-links": {
+			"title": "Android baredo iOS lagit́ Wikipedia aagunamè",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikikajibir",
@@ -27,10 +36,16 @@
 		"search-input-label": "Wikikajibir nelsangarè"
 	},
 	"wikibooks": {
-		"name": "Wikisapagom"
+		"name": "Wikisapagom",
+		"slogan": "Gonoṅsama Etonsatagom ko",
+		"entries": "Sakam ko",
+		"search-input-label": "Wikisatagom re namsangarè"
 	},
 	"wikisource": {
 		"name": "Wikinamsaṅ"
+	},
+	"wikivoyage": {
+		"entries": "Sakam ko"
 	},
 	"wikispecies": {
 		"name": "Wikispecies"
