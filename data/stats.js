@@ -11,9 +11,10 @@ var siteStats = require( './site-stats.json' ),
  * Determine whether there is a notable difference between two names
  * for the same language. `<bdi>` wrapping and upper-case first letter
  * in the site definition are ignored.
+ *
  * @param {string} a Name in the site definition
  * @param {string} b Name in `language-data`
- * @returns {boolean} Whether the names differ
+ * @return {boolean} Whether the names differ
  */
 function languageNamesDiffer( a, b ) {
 	if ( a === b ) {
@@ -27,6 +28,7 @@ function languageNamesDiffer( a, b ) {
 
 /**
  * Print a warning to the console.
+ *
  * @param {string} code Language code, to avoid printing the warning if
  *  it has already been printed
  * @param {string} text
@@ -43,8 +45,9 @@ function warn( code, text, info ) {
 /**
  * Get the different names for a language, primarily from `siteDefs`,
  * falling back to `language-data`.
+ *
  * @param {string} code Code of the language
- * @returns {{name: string, sort?: string, latin?: string}}
+ * @return {{name: string, sort?: string, latin?: string}}
  */
 function getLanguageName( code ) {
 	var siteDef = siteDefs[ code ],
@@ -90,14 +93,17 @@ Stats.readi18nFiles = function ( dirname ) {
 
 		// T319137 skr translation file is named differently than
 		// domain name and name in site-stats.json.
-		if ( langCode === 'skr-arab') {
+		if ( langCode === 'skr-arab' ) {
 			langCode = 'skr';
 		}
 
 		siteDefinitions[ langCode ] = JSON.parse( fileContent );
 
 		if ( siteDefsFormatting[ langCode ] ) {
-			siteDefinitions[ langCode ] = { ...siteDefinitions[ langCode ], ...siteDefsFormatting[ langCode ] };
+			siteDefinitions[ langCode ] = {
+				...siteDefinitions[ langCode ],
+				...siteDefsFormatting[ langCode ]
+			};
 		}
 	} );
 
@@ -122,17 +128,17 @@ Stats.getTop = function ( portal, criteria, n ) {
 
 	// Validate
 	let topViewed = Object.entries( siteStats[ portal ] )
-    .map( ( [ code, stats ] ) => ( { ...stats, code } ) )
-    .filter( function ( { code, closed } ) {
-        var siteDef = siteDefs[ code ],
-            portalDef = siteDef && siteDef[ portal ];
-        // T355001: Lacking localization should not bar the site from being top 10.
-        // For Chinese sites, we will build zh entries from zh-hans and zh-hant entries later.
-        if ( !portalDef && code !== 'zh' ) {
-            warn( code, `No localization of the site name, entry name, and slogan for ${code}.${portal}.org` );
-        }
-        return siteDef && closed === false;
-    } );
+		.map( ( [ code, stats ] ) => ( { ...stats, code } ) )
+		.filter( function ( { code, closed } ) {
+			var siteDef = siteDefs[ code ],
+				portalDef = siteDef && siteDef[ portal ];
+			// T355001: Lacking localization should not bar the site from being top 10.
+			// For Chinese sites, we will build zh entries from zh-hans and zh-hant entries later.
+			if ( !portalDef && code !== 'zh' ) {
+				warn( code, `No localization of the site name, entry name, and slogan for ${code}.${portal}.org` );
+			}
+			return siteDef && closed === false;
+		} );
 
 	// Sort
 	topViewed.sort( function ( a, b ) {
@@ -156,9 +162,8 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 
 	// Validate
 	let list = Object.entries( siteStats[ portal ] )
-    .map( ( [ code, stats ] ) => ( { ...stats, code } ) )
-    .filter( stats => stats[ criteria ] >= from &&
-        ( !to || stats[ criteria ] < to ) );
+		.map( ( [ code, stats ] ) => ( { ...stats, code } ) )
+		.filter( stats => stats[ criteria ] >= from && ( !to || stats[ criteria ] < to ) );
 
 	// Sort alphabetically
 	list.sort( function ( a, b ) {
@@ -291,9 +296,10 @@ Stats.format = function ( portal, list, optionsArg ) {
 
 		/**
 		 * Get a raw list of a variant and formats it.
+		 *
 		 * @param {string} variant
 		 * @private
-		 * @returns list
+		 * @return list
 		 */
 		function getVariantList( variant ) {
 			return Object.assign(
@@ -302,14 +308,14 @@ Stats.format = function ( portal, list, optionsArg ) {
 				Object.fromEntries( Object.entries( siteDefs[ variant ] ).filter( ( [ key ] ) => extendedl10n.includes( key ) ) ),
 				{
 					lang: variant, // Used as HTML lang attribute
-					code: variant, // Used in filename
+					code: variant // Used in filename
 				}
 			);
 		}
 
 		function buildVariantedL10n( a, b, attrs ) {
 			var varianted = {};
-			attrs.forEach( function( attr ) {
+			attrs.forEach( function ( attr ) {
 				if ( a[ attr ] && b[ attr ] ) {
 					varianted[ attr ] = `${a[ attr ]} / ${b[ attr ]}`;
 				} else if ( a[ attr ] ) {
@@ -377,7 +383,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 	} );
 
 	// Need to rebuild the list as some wikis may have been merged.
-	list.forEach( function( top ) {
+	list.forEach( function ( top ) {
 		if ( newListByCode[ top.code ] ) {
 			newList.push( newListByCode[ top.code ] );
 		}

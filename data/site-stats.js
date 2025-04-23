@@ -55,7 +55,7 @@ function getPageCounts() {
 			.then( function ( pagecounts ) {
 				var stats = {};
 
-				Object.entries( pagecounts ).forEach( ( [ code, wiki] ) => {
+				Object.entries( pagecounts ).forEach( ( [ code, wiki ] ) => {
 					code = code.replace( /_/g, '-' );
 					stats[ code ] = wiki.contentPages;
 				} );
@@ -144,7 +144,7 @@ function getViewsData() {
 					return httpGet( hour.url )
 						.then( function ( text ) {
 							if ( !text ) {
-								throw new Error(`There was an error fetching the following URL: ${hour.url}`);
+								throw new Error( `There was an error fetching the following URL: ${hour.url}` );
 							}
 							fs.writeFileSync( fileName, text );
 							stats.push( text );
