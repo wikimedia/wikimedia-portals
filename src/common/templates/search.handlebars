@@ -1,8 +1,8 @@
 <div role="search" class="search-container">
-    <form class="pure-form" id="search-form" action="{{l10n.assets.search.action}}" data-el-section="search">
+    <form class="pure-form" id="search-form" action="//www.{{l10n.assets.family}}.org/search-redirect.php" data-el-section="search">
         <fieldset>
             {{! search-redirect.php is project-independent, requires a family }}
-            <input type="hidden" name="family" value="{{l10n.portal.name}}">
+            <input type="hidden" name="family" value="{{l10n.assets.family}}">
 
             <div class="search-input" id="search-input">
                 <label for="searchInput" class="screen-reader-text" data-jsl10n="portal.search-input-label">{{l10n.portal.search-input-label}}</label>

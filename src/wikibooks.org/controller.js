@@ -19,6 +19,7 @@ var hbs = require( '../../hbs-helpers.global.js' ),
 l10n.portal = l10n.wikibooks;
 
 l10n.assets = {
+	family: 'wikibooks',
 	logo: {
 		src: 'portal/wikibooks.org/assets/img/Wikibooks-logo-tiles_1x.png',
 		srcset: 'portal/wikibooks.org/assets/img/Wikibooks-logo-tiles_1.5x.png 1.5x, portal/wikibooks.org/assets/img/Wikibooks-logo-tiles_2x.png 2x',
@@ -27,10 +28,6 @@ l10n.assets = {
 	},
 	lang: {
 		url: '//meta.wikimedia.org/wiki/List_of_Wikibooks'
-	},
-	search:
-	{
-		action: '//www.wikibooks.org/search-redirect.php'
 	}
 };
 

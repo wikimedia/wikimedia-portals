@@ -19,6 +19,7 @@ var hbs = require( '../../hbs-helpers.global.js' ),
 l10n.portal = l10n.wikiversity;
 
 l10n.assets = {
+	family: 'wikiversity',
 	logo: {
 		src: 'portal/wikiversity.org/assets/img/Wikiversity-logo-tiles_1x.png',
 		srcset: 'portal/wikiversity.org/assets/img/Wikiversity-logo-tiles_1.5x.png 1.5x, portal/wikiversity.org/assets/img/Wikiversity-logo-tiles_2x.png 2x',
@@ -27,10 +28,6 @@ l10n.assets = {
 	},
 	lang: {
 		url: '//meta.wikimedia.org/wiki/Wikiversity'
-	},
-	search:
-	{
-		action: '//www.wikiversity.org/search-redirect.php'
 	}
 };
 

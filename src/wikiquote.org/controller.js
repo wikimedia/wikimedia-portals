@@ -19,6 +19,7 @@ var hbs = require( '../../hbs-helpers.global.js' ),
 l10n.portal = l10n.wikiquote;
 
 l10n.assets = {
+	family: 'wikiquote',
 	logo: {
 		src: 'portal/wikiquote.org/assets/img/Wikiquote-logo-tiles_1x.png',
 		srcset: 'portal/wikiquote.org/assets/img/Wikiquote-logo-tiles_1.5x.png 1.5x, portal/wikiquote.org/assets/img/Wikiquote-logo-tiles_2x.png 2x',
@@ -27,10 +28,6 @@ l10n.assets = {
 	},
 	lang: {
 		url: '//meta.wikimedia.org/wiki/Wikiquote'
-	},
-	search:
-	{
-		action: '//www.wikiquote.org/search-redirect.php'
 	}
 };
 

@@ -19,6 +19,7 @@ var hbs = require( '../../hbs-helpers.global.js' ),
 l10n.portal = l10n.wikinews;
 
 l10n.assets = {
+	family: 'wikinews',
 	logo: {
 		src: 'portal/wikinews.org/assets/img/Wikinews-logo-tiles_1x.png',
 		srcset: 'portal/wikinews.org/assets/img/Wikinews-logo-tiles_1.5x.png 1.5x, portal/wikinews.org/assets/img/Wikinews-logo-tiles_2x.png 2x',
@@ -27,10 +28,6 @@ l10n.assets = {
 	},
 	lang: {
 		url: '//meta.wikimedia.org/wiki/Wikinews'
-	},
-	search:
-	{
-		action: '//www.wikinews.org/search-redirect.php'
 	}
 };
 
