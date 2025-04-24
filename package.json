@@ -45,7 +45,6 @@
 		"postcss-reporter": "^6.0.1",
 		"pre-commit": "1.2.2",
 		"stylelint-config-wikimedia": "0.18.0",
-		"sync-request": "^6.1.0",
 		"yargs": "^15.3.1"
 	}
 }
