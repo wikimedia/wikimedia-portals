@@ -44,9 +44,10 @@
 		"entries": "Páginas"
 	},
 	"wikinews": {
-		"name": "Güiquinotícias",
+		"name": "Güiquinoticias",
 		"slogan": "La huenti de noticias libris",
-		"entries": "artícalus"
+		"entries": "artícalus",
+		"search-input-label": "Precural en Güiquinoticias"
 	},
 	"wikiquote": {
 		"name": "Güiquicitas",
@@ -59,7 +60,7 @@
 	},
 	"wikiversity": {
 		"name": "Güiquiversiá",
-		"slogan": "Materialis de cursu libris",
+		"slogan": "Materialis de cussu libris",
 		"entries": "Recussus pa deprender"
 	},
 	"wikivoyage": {

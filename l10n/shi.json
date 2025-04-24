@@ -1,24 +1,36 @@
 {
 	"@metadata": {
 		"authors": [
+			"AguzulH",
 			"Amara-Amaziɣ",
 			"Ayour2002",
 			"Lhoussine AIT TAYFST"
 		]
 	},
-	"privacy-policy": "Tasrit n tinnutla",
+	"privacy-policy": "Tasrit n tnnutla",
 	"search-input-button": "Siggl",
+	"wikimedia-org-our-projects": "Isntay nnɣ",
+	"wikimedia-org-projects-reference": "Tasaɣult",
+	"wikimedia-org-projects-guides": "Imanarn",
+	"wikimedia-org-donate-button": "Fk tikki ɣil",
+	"wikimedia-org-contact": "Anyalkam",
+	"wikimedia-org-contact-link": "Anyalkam",
 	"wiki": {
 		"name": "Wikipidya",
 		"slogan": "Tasanayt Tilellit",
-		"entries": "Imgradn",
-		"search-input-label": "Siggl ɣ Wikipidya",
-		"language-button-text": "Ɣr Wikipidya s tutlayt nnk"
+		"entries": "Imnnitn",
+		"search-input-label": "Siggl ɣ Wikibidya",
+		"language-button-text": "Ɣr Wikipidya s tutlayt nnk",
+		"app-links": {
+			"title": "Agʷm d Wikibidya i Android n iOS"
+		}
 	},
 	"wiktionary": {
 		"name": "Wikimawal",
 		"slogan": "Amawal ilelli",
-		"entries": "Imgradn"
+		"entries": "Imnnitn",
+		"search-input-label": "Siggl ɣ Wikimawal",
+		"language-button-text": "Ɣr Wikmawal s tutlayt nnk"
 	},
 	"wikibooks": {
 		"name": "Wikidlisn",
@@ -27,10 +39,10 @@
 	},
 	"wikinews": {
 		"name": "Wikinɣmisn",
-		"entries": "Imgradn"
+		"entries": "imnnitn"
 	},
 	"wikiquote": {
-		"entries": "Imgradn"
+		"entries": "imnnitn"
 	},
 	"wikisource": {
 		"name": "Wikiɣbalu"
