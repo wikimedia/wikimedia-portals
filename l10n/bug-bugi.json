@@ -16,7 +16,7 @@
 	"top-ten-nav-label": "ᨅᨔ ᨀᨉᨗᨐᨔᨛ",
 	"all-languages-nav-label": "ᨔᨗᨊᨗᨊ ᨅᨔ",
 	"other-projects-nav-label": "ᨄᨚᨑᨚᨐᨙ ᨒᨕᨗᨂᨙ",
-	"wikimedia-org-welcome": "ᨔᨒᨆᨀᨗ ! ᨍᨚᨃᨊ ᨓᨗᨀᨗᨆᨙᨉᨗᨐᨕᨙ ᨐᨗ ᨔᨙᨕᨘᨓ ᨕᨘᨆ ᨆᨁᨛᨒᨚᨅᨒ ᨈᨕᨘᨈᨕᨘᨊ᨞ ᨄᨑᨚᨄᨑᨚᨐᨙᨊ᨞ ᨊᨛᨊᨗᨐ ᨁᨕᨘᨀᨕᨘᨊ ᨊᨔᨗᨍᨆᨂᨗ ᨀᨘ ᨆᨀᨙᨅᨘ ᨊ ᨆᨅᨙᨑᨙ ᨄᨉᨗᨔᨛᨂᨛ ᨐᨗ ᨆᨑᨉᨙᨀ᨞",
+	"wikimedia-org-welcome": "ᨔᨒᨆᨀᨗ ! ᨍᨚᨃᨊ ᨓᨗᨀᨗᨙᨆᨉᨗᨐ‌ᨙᨕ ᨐᨗ ᨙᨔᨕᨘᨓ ᨕᨘᨆ ᨆᨁᨛᨒᨚᨅᨒ ᨈᨕᨘᨈᨕᨘᨊ᨞ ᨄᨑᨚᨄᨑᨚᨙᨐᨊ᨞ ᨊᨛᨊᨗᨐ ᨁᨕᨘᨀᨕᨘᨊ ᨊᨔᨗᨍᨆᨂᨗ ᨀᨘ ᨆ‌ᨙᨀᨅᨘ ᨊ ᨆ‌ᨙᨅ‌ᨙᨑ ᨄᨉᨗᨔᨛᨂᨛ ᨐᨗ ᨆᨑ‌ᨙᨉᨀ᨞",
 	"wikimedia-org-welcome-subtitle": "ᨆᨌᨘᨓᨙᨀ ᨑᨗᨄᨉᨛᨄᨘᨂᨛᨂᨗ ᨔᨊᨗᨐᨔ ᨐᨗᨆᨊᨛ ᨄᨉᨗᨔᨛᨂᨛᨂᨙ ᨒᨕᨚ ᨑᨗᨔᨗᨊᨗᨊ ᨈᨕᨘ᨞ ᨄᨚᨒᨙ ᨑᨗᨀᨙᨁᨀᨙᨁ᨞",
 	"wikimedia-org-our-projects": "ᨄᨑᨚᨐᨙᨈ",
 	"wikimedia-org-our-projects-desc": "ᨄᨑᨚᨄᨑᨚᨐᨙᨈ ᨐᨗᨊᨕᨙ ᨄᨚᨀᨚ ᨀᨘ <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">ᨍᨚᨃ ᨓᨗᨀᨗᨆᨙᨉᨗᨐ</a>᨞ ᨔᨗᨊᨗᨊ ᨄᨑᨚᨄᨑᨚᨐᨙᨕᨙ ᨐᨗ ᨕᨘᨔᨖᨊ <a href=\"https://wikimediafoundation.org/\">ᨐᨐᨔ ᨓᨗᨀᨗᨆᨙᨉᨗᨐ</a>᨞ ᨊ ᨀᨚᨈᨙᨂᨙ ᨆᨁᨚᨈᨚᨋᨚᨐᨚ ᨑᨗᨁᨕᨘᨀᨛ ᨆᨒᨛᨅᨗ 260.000 ᨄᨁᨘᨊ ᨆᨑᨗᨒᨗᨊᨚᨓᨙ ᨆᨄᨀᨙ software <a href=\"https://www.mediawiki.org/\">ᨆᨙᨉᨗᨐᨓᨗᨀᨗ</a>᨞",
@@ -99,6 +99,6 @@
 	},
 	"metawiki": {
 		"name": "ᨆᨙᨈᨓᨗᨀᨗ",
-		"slogan": "ᨕᨔᨗᨄᨕᨘᨓ ᨊ ᨉᨚᨀᨘᨆᨙᨈᨔᨗ ᨕᨘᨆ"
+		"slogan": "ᨕᨔᨗᨄᨕᨘᨓ ᨊ ᨉᨚᨀᨘᨙᨆᨈᨔᨗ ᨕᨘᨆ"
 	}
 }
