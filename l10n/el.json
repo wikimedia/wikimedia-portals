@@ -22,6 +22,17 @@
 	"terms-link": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/el",
 	"search-input-button": "Αναζήτηση",
 	"other-languages-label": "Άλλες γλώσσες",
+	"top-ten-nav-label": "Κορυφαίες γλώσσες",
+	"all-languages-nav-label": "Όλες οι γλώσσες",
+	"other-projects-nav-label": "Άλλα εγχειρήματα",
+	"wikimedia-org-our-projects": "Τα Έργα μας",
+	"wikimedia-org-projects-collections": "Συλλογές",
+	"wikimedia-org-projects-technology": "Τεχνολογία",
+	"wikimedia-org-projects-guides": "Οδηγοί",
+	"wikimedia-org-projects-collaboration": "Συνεργασία",
+	"wikimedia-org-donate-button": "Κάντε δωρεά τώρα",
+	"wikimedia-org-contact": "Επικοινωνία",
+	"wikimedia-org-contact-link": "Επικοινωνία",
 	"wiki": {
 		"name": "Βικιπαίδεια",
 		"slogan": "Η Ελεύθερη Εγκυκλοπαίδεια",
@@ -66,11 +77,11 @@
 	},
 	"wikisource": {
 		"name": "Βικιθήκη",
-		"slogan": "Ελεύθερη βιβλιοθήκη"
+		"slogan": "Βιβλιοθήκη ελεύθερου περιεχομένου"
 	},
 	"wikiversity": {
 		"name": "Βικιεπιστήμιο",
-		"slogan": "Ελεύθερο εκπαιδευτικό υλικό",
+		"slogan": "Ελεύθερες πηγές μάθησης",
 		"entries": "πόρους μάθησης",
 		"search-input-label": "Αναζήτηση στο Βικιεπιστήμιο",
 		"language-button-text": "Διαβάστε το Βικιεπιστήμιο στη γλώσσα σας"
@@ -84,7 +95,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Ελεύθερα χρησιμοποιήσιμες φωτογραφίες και περισσότερα"
+		"slogan": "Ελεύθερη συλλογή πολυμέσων"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -96,7 +107,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Ελεύθερη & ανοικτή εφαρμογή wiki"
+		"slogan": "Ελεύθερο & ανοικτό λογισμικό wiki"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",

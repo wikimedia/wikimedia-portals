@@ -18,6 +18,24 @@
 	"privacy-policy": "Polìtica in scî dæti privæ",
 	"search-input-button": "Çèrca",
 	"other-languages-label": "Âtre léngoe",
+	"top-ten-nav-label": "Prìmme léngoe",
+	"all-languages-nav-label": "Tùtte e léngoe",
+	"other-projects-nav-label": "Âtri progètti",
+	"wikimedia-org-welcome": "Benvegnûo! O moviménto Wikimedia o l'é 'na comunitæ globâle de persónn-e, progètti e ativitæ che travàggian insémme pe creâ e sconpartî in mòddo lìbero a conoscénsa.",
+	"wikimedia-org-welcome-subtitle": "Unìscite a niâtri pe métte tùtte e conoscénse a dispoxiçión de tùtti, da tùtte e pàrte.",
+	"wikimedia-org-our-projects": "I nòstri progètti",
+	"wikimedia-org-our-projects-desc": "I nòstri progètti són o cheu do <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">moviménto Wikimedia</a>. Tùtti i progètti ciù gréndi són gestîi da-a <a href=\"https://wikimediafoundation.org/\">Wikimedia Foundation</a> e o sò contegnûo o l'é desvilupòu insémme da ciù de 260.000 uténti che inte tùtto o móndo dêuvian o software <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "A <a href=\"https://wikimediafoundation.org/\">Wikimedia Foundation</a> a l'é l'organizaçión sénsa finalitæ de goâgno ch'a l'òspita tùtti i progètti de Wikimedia e a sostêgne e comunitæ inte tùtto o móndo che crêan e cûan di contegnûi liberaménte acescìbili.",
+	"wikimedia-org-projects-reference": "Nòtta",
+	"wikimedia-org-projects-collections": "Coleçioìn",
+	"wikimedia-org-projects-technology": "Tecnologîa",
+	"wikimedia-org-projects-guides": "Goìdde",
+	"wikimedia-org-projects-collaboration": "Colaboraçión",
+	"wikimedia-org-donate-title": "A tò donaçión a l'avàrda o dirìtto umàn a 'na conoscénsa lìbera e avèrta pe tùtti.",
+	"wikimedia-org-donate-button": "Dónn-a òua",
+	"wikimedia-org-contact": "Contàtti",
+	"wikimedia-org-contact-text": "Domànde in sciâ Wikimedia Foundation ò in scî progètti Wikimedia? Méttite in contàtto.",
+	"wikimedia-org-contact-link": "Contàttine",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "A lìbera enciclopedîa",
@@ -27,10 +45,10 @@
 		"footer-description": "Wikipedia a l'é òspitâ da-a Wikimedia Foundation, 'n'organizaçión non-profit ch'a l'òspita 'na série d'âtri progètti ascì.",
 		"app-links": {
 			"title": "Scàrega Wikipedia pe Android ò iOS",
-			"description": "Sàrva e tò pàgine preferîe da lêze offline, sincronîza a tò lìsta de letûa in sce tùtti i dispoxitîvi e personalizâ a tò espertîxe de letûa con l'aplicaçión ofiçiâ de Wikipedia.",
+			"description": "Sàrva e tò pàgine preferîe da lêze offline, sincronìzza a tò lìsta de letûa in sce tùtti i dispoxitîvi e personalìzza a tò esperiénsa de letûa con l'aplicaçión ofiçiâ de Wikipedia.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
-			"url": "https://lij.wikipedia.org/wiki/Lìsta_de_aplicaçioìn_mòbile_de_Wikipedia"
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
@@ -50,7 +68,9 @@
 	"wikinews": {
 		"name": "Wikinêuve",
 		"slogan": "A vivàgna de nêuve lìbera",
-		"entries": "vôxe"
+		"entries": "vôxe",
+		"search-input-label": "Çèrca inte Wikinêuve",
+		"language-button-text": "Lêzi Wikinêuve inta tò léngoa"
 	},
 	"wikiquote": {
 		"name": "Wikiçitaçión",
@@ -66,27 +86,36 @@
 	"wikiversity": {
 		"name": "Wikiverscitæ",
 		"slogan": "L'universcitæ lìbera",
-		"entries": "leçioìn"
+		"entries": "leçioìn",
+		"search-input-label": "Çèrca inte Wikiverscitæ",
+		"language-button-text": "Lêzi Wikiverscitæ inta tò léngoa"
 	},
 	"wikivoyage": {
 		"name": "Wikiviâgi",
-		"slogan": "Goìdda turìstica lìbera"
+		"slogan": "Goìdda turìstica lìbera",
+		"entries": "pàgine",
+		"search-input-label": "Çèrca inte Wikiviâgi",
+		"language-button-text": "Lêzi Wikiviâgi inta tò léngoa"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Föto e âtro liberaménte utilizàbili"
+		"slogan": "L'arecugéita multimediâle lìbera"
 	},
 	"wikispecies": {
 		"name": "Wikispêce",
 		"slogan": "Lìbero catàlogo de spêce"
 	},
+	"wikifunctions": {
+		"name": "Wikifonçioìn",
+		"slogan": "A libràia de fonçioìn lìbera"
+	},
 	"wikidata": {
-		"name": "Wikidæta",
+		"name": "Wikidata",
 		"slogan": "Bànca dæti de conoscénsa lìbera"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Aplicaçión wiki de bàdda e avèrta"
+		"slogan": "Software wiki de bàdda e avèrto"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
