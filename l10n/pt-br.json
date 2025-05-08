@@ -19,6 +19,19 @@
 	"terms-link": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/pt-br",
 	"search-input-button": "Pesquisar",
 	"other-languages-label": "Outros idiomas",
+	"top-ten-nav-label": "Principais idiomas",
+	"all-languages-nav-label": "Todos os idiomas",
+	"other-projects-nav-label": "Outros projetos",
+	"wikimedia-org-our-projects": "Nossos projetos",
+	"wikimedia-org-projects-reference": "Referência",
+	"wikimedia-org-projects-collections": "Coleções",
+	"wikimedia-org-projects-technology": "Tecnologia",
+	"wikimedia-org-projects-guides": "Guias",
+	"wikimedia-org-projects-collaboration": "Colaboração",
+	"wikimedia-org-donate-title": "Sua doação protege o direito humano ao conhecimento livre e aberto para todos.",
+	"wikimedia-org-donate-button": "Doar agora",
+	"wikimedia-org-contact": "Contato",
+	"wikimedia-org-contact-link": "Contato",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "A enciclopédia livre",
@@ -64,11 +77,11 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "A biblioteca livre"
+		"slogan": "Biblioteca de conteúdo livre"
 	},
 	"wikiversity": {
 		"name": "Wikiversidade",
-		"slogan": "Materiais educativos livres",
+		"slogan": "Recursos de aprendizado livres",
 		"entries": "recursos de aprendizagem",
 		"search-input-label": "Pesquisar na Wikiversidade",
 		"language-button-text": "Ler a Wikiversidade no seu idioma"
@@ -82,11 +95,15 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Multimídia livre"
+		"slogan": "Coleção de mídia livre"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "O diretório de espécies livre"
+	},
+	"wikifunctions": {
+		"name": "Wikifunções",
+		"slogan": "Biblioteca de funções livres"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -94,7 +111,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "A aplicação wiki livre"
+		"slogan": "Software wiki livre"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
