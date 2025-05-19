@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Belkacem77",
+			"ButterflyOfFire",
 			"K Messaoudi",
 			"SlimaneAmiri",
 			"YouvaDjouadi"
@@ -14,6 +15,16 @@
 	"terms": "Irman n Useqdec",
 	"privacy-policy": "Tasertit n tbaḍnit",
 	"search-input-button": "Nadi",
+	"other-languages-label": "Tutlayin-nniḍen",
+	"top-ten-nav-label": "Tutlayin timezwura",
+	"all-languages-nav-label": "Akk tutlayin",
+	"other-projects-nav-label": "Isenfaren-nniḍen",
+	"wikimedia-org-our-projects": "Isenfaren-nneɣ",
+	"wikimedia-org-projects-collections": "Tigrummiwin",
+	"wikimedia-org-projects-technology": "Tatiknulujit",
+	"wikimedia-org-donate-button": "Mudd tawsa",
+	"wikimedia-org-contact": "Anermes",
+	"wikimedia-org-contact-link": "Anermes",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Takussna tilellit",
@@ -24,13 +35,16 @@
 		"app-links": {
 			"title": "Sider Wikipedia i Android neɣ iOS",
 			"description": "Sekles imagraden-ik/im i tebɣiḍ i tɣuṛi-nsen war tuqqna, sseɛdel ummuɣ-ik/m n tɣuri s yibenkan sakkin ɛrek tirmit-ik/m s usnas unṣib n Wikipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Wikawal",
 		"slogan": "Asegzawal ilelli",
-		"entries": "tiwwura"
+		"entries": "tiwwura",
+		"search-input-label": "Nadi deg Wikimawal"
 	},
 	"wikibooks": {
 		"name": "Wikidlisen",
@@ -58,7 +72,8 @@
 	},
 	"wikivoyage": {
 		"name": "Wikisikel",
-		"slogan": "Amnir ilelli n usikel"
+		"slogan": "Amnir ilelli n usikel",
+		"entries": "isebtar"
 	},
 	"commons": {
 		"name": "Commons",
@@ -74,7 +89,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Asnas n wiki ilelli i yeldin"
+		"slogan": "Aseɣẓan n wiki ilelli i yeldin"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
