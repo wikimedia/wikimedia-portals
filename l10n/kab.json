@@ -11,23 +11,32 @@
 	"language-name": "Taqbaylit",
 	"language-name-romanized": "Taqbaylit",
 	"language-name-romanized-sorted": "Taqbaylit",
-	"license": "Asebter-a atan daw n leɛnaya n <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
-	"terms": "Irman n Useqdec",
+	"footer-donate": "Muddet-aɣ afus i uxeddim-nneɣ s tawsa.",
+	"license": "Asebter-a ha-t-an ddaw n turagt n <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "Tiwtilin n useqdec",
 	"privacy-policy": "Tasertit n tbaḍnit",
 	"search-input-button": "Nadi",
 	"other-languages-label": "Tutlayin-nniḍen",
 	"top-ten-nav-label": "Tutlayin timezwura",
 	"all-languages-nav-label": "Akk tutlayin",
 	"other-projects-nav-label": "Isenfaren-nniḍen",
-	"wikimedia-org-our-projects": "Isenfaren-nneɣ",
+	"wikimedia-org-welcome": "Ansuf! Amussu n Wikimedia d tametti tamaḍlant n yemdanen, isenfaṛen d irmuden xedmen afus deg ufus akken i wakken ad snulfun udiɣ ad bḍun tamusni s tilelli.",
+	"wikimedia-org-welcome-subtitle": "Ttekki yid-nneɣ akken i wakken ad nerr tussna s umata gar ifassen n yal yiwen, anda yebɣu yili.",
+	"wikimedia-org-our-projects": "Isenfaṛen-nneɣ",
+	"wikimedia-org-our-projects-desc": "Isenfaṛen-nneɣ d ul n <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">umussu n Wikimedia</a>. Akk isenfaṛen imeqqranen tesselḥay-iten <a href=\"https://wikimediafoundation.org/\">tesbeddit n Wikimedia</a>, ma d agbur snulfa-ten-id ugar n 260 000 n iseqdacen deg umaḍal s useqdec n useɣẓan n <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-projects-reference": "Tamsisɣelt",
 	"wikimedia-org-projects-collections": "Tigrummiwin",
 	"wikimedia-org-projects-technology": "Tatiknulujit",
+	"wikimedia-org-projects-guides": "Imniren",
+	"wikimedia-org-projects-collaboration": "Amɛawan",
+	"wikimedia-org-donate-title": "Tawsa-nwen·nkent tettḥuddu ɣef uzref n wemdan yellan d ilelli yernu yeldi tamussni i yal amdan.",
 	"wikimedia-org-donate-button": "Mudd tawsa",
 	"wikimedia-org-contact": "Anermes",
+	"wikimedia-org-contact-text": "Ɣur-wen·kent isteqsiyen ɣef tesbeddit n Wikimedia neɣ ɣef isenfaṛen n Wikimedia? Nnermest-aɣ-d.",
 	"wikimedia-org-contact-link": "Anermes",
 	"wiki": {
 		"name": "Wikipedia",
-		"slogan": "Takussna tilellit",
+		"slogan": "Tasanayt tilellit",
 		"entries": "imagraden",
 		"search-input-label": "Nadi deg Wikipedia",
 		"language-button-text": "Ɣeṛ Wikipedia s tutlayt-ik/im",
@@ -44,40 +53,51 @@
 		"name": "Wikawal",
 		"slogan": "Asegzawal ilelli",
 		"entries": "tiwwura",
-		"search-input-label": "Nadi deg Wikimawal"
+		"search-input-label": "Nadi deg Wikimawal",
+		"language-button-text": "Ɣeṛ Wikimawal s tutlayt-inek·inem"
 	},
 	"wikibooks": {
 		"name": "Wikidlisen",
 		"slogan": "Idlisen isensegmiyen ilelliyen",
-		"entries": "isebtar"
+		"entries": "isebtar",
+		"search-input-label": "Nadi deg Wikibooks",
+		"language-button-text": "Ɣeṛ Wikibooks s tutlayt-inek·inem"
 	},
 	"wikinews": {
 		"name": "Wikinews",
 		"slogan": "Aɣbalu n yisallen ilelliyen",
-		"entries": "imagraden"
+		"entries": "imagraden",
+		"search-input-label": "Nadi deg Wikinews",
+		"language-button-text": "Ɣer Wikinews s tutlayt-inek·inem"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Talkensit n tebdar tilelliyin",
-		"entries": "imagraden"
+		"entries": "imagraden",
+		"search-input-label": "Nadi deg Wikiquote",
+		"language-button-text": "Ɣeṛ Wikiquote s tutlayt-inek·inem"
 	},
 	"wikisource": {
 		"name": "Wikaɣbalu",
-		"slogan": "Tamkarḍit tilellit"
+		"slogan": "Tamkarḍit tilellit n ugbur"
 	},
 	"wikiversity": {
 		"name": "Wikisdawit",
-		"slogan": "Amriw asensegmi ilelli",
-		"entries": "tiɣbula n ulmad"
+		"slogan": "Tiɣbula n usensegmi tilelliyin",
+		"entries": "tiɣbula n ulmad",
+		"search-input-label": "Nadi deg Wikisdawit",
+		"language-button-text": "Ɣeṛ Wikisdawit s tutlayt-inek·inem"
 	},
 	"wikivoyage": {
 		"name": "Wikisikel",
 		"slogan": "Amnir ilelli n usikel",
-		"entries": "isebtar"
+		"entries": "isebtar",
+		"search-input-label": "Nadi deg Wikivoyage",
+		"language-button-text": "Ɣeṛ Wikivoyage s tutlayt-inek·inem"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Tiwlafin d wayen-nniḍen i useqdec ilelli"
+		"slogan": "Tagrumma n tewlafin tilellit"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -85,7 +105,7 @@
 	},
 	"wikidata": {
 		"name": "Wikidata",
-		"slogan": "taffa tilellit n tmussni"
+		"slogan": "Azadur n tmussni tilellit"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
