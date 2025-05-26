@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Baydastann",
 			"Bosogo"
 		]
 	},
 	"language-name": "Кыргызча",
 	"language-name-romanized": "Kyrgyzča",
 	"language-name-romanized-sorted": "Kyrgyzca",
-	"footer-donate": "Кылганыбызды колдосоңуз болот",
+	"footer-donate": "Ишибизди демөөрчүлүк менен колдосоңуз болот.",
 	"license": "Бул барак <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike лицензиясынын</a> алкагында жеткиликтүү",
 	"terms": "Колдонуу шарттары",
 	"privacy-policy": "Купуялык саясаты",
@@ -15,6 +16,24 @@
 	"privacy-policy-link": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/ky",
 	"search-input-button": "Издөө",
 	"other-languages-label": "Башка тилдерде",
+	"top-ten-nav-label": "Үстү тилдер",
+	"all-languages-nav-label": "Бардык тилдер",
+	"other-projects-nav-label": "Башка долбоорлор",
+	"wikimedia-org-welcome": "Кош келиңиздер! Викимедиа кыймылы-бул билимди эркин түзүү жана бөлүшүү үчүн биргелешип иштеген адамдардын, долбоорлордун жана иш-аракеттердин глобалдык жамааты.",
+	"wikimedia-org-welcome-subtitle": "Бардык билимди ар бир адамга, бардык жерде жеткиликтүү кылуу үчүн бизге кошулуңуз.",
+	"wikimedia-org-our-projects": "Биздин долбоорлор",
+	"wikimedia-org-our-projects-desc": "Биздин долбоорлор негизги болуп саналат<a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Wikimedia movement</a>. Бардык ири долбоорлор тарабынан башкарылат<a href=\"https://wikimediafoundation.org/\">Wikimedia Foundation</a>, ал эми мазмун программалык камсыздоону колдонуу менен дүйнө жүзү боюнча 260 000ден ашык колдонуучулар тарабынан иштелип чыккан.<a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Wikimedia Foundation</a>-бул коммерциялык эмес уюм, ал бардык Викимедиа долбоорлорун уюштурат жана дүйнө жүзү боюнча эркин жеткиликтүү контентти түзгөн жана кураторлук кылган жамааттарды колдойт.",
+	"wikimedia-org-projects-reference": "Шилтеме",
+	"wikimedia-org-projects-collections": "Топтомдор",
+	"wikimedia-org-projects-technology": "Технология",
+	"wikimedia-org-projects-guides": "Жол көрсөтүүчүлөр",
+	"wikimedia-org-projects-collaboration": "Кызматташуу",
+	"wikimedia-org-donate-title": "Сиздин кайрымдуулук ар бир адам үчүн эркин жана ачык билим алуу укугун коргойт.",
+	"wikimedia-org-donate-button": "Азыр кайрымдуулук кыл",
+	"wikimedia-org-contact": "Байланыш",
+	"wikimedia-org-contact-text": "Wikimedia Foundation же Wikimedia долбоорлору тууралуу суроолоруңуз барбы? Байланышыңыз.",
+	"wikimedia-org-contact-link": "Байланыш",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Ачык энциклопедия",
@@ -24,6 +43,7 @@
 		"footer-description": "Википедия жана башка долбоорлор Викимедиа фондунун — комерциялык эмес уюмунун серверлеринде жайгашууда.",
 		"app-links": {
 			"title": "Android же iOS үчүн Википедияны жүктөө",
+			"description": "Оффлайн режиминде окуу үчүн сүйүктүү макалаларыңызды сактап, окуу тизмелериңизди шайкештештирип, окуу тажрыйбаңызды расмий Wikipedia тиркемеси менен ыңгайлаштырыңыз.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
@@ -38,35 +58,39 @@
 	},
 	"wikibooks": {
 		"name": "Викикитеп",
+		"slogan": "Акысыз окуу китептери",
 		"entries": "китеп",
 		"search-input-label": "Викикитептен издөө",
 		"language-button-text": "Викикитепти эне тилиңизде окуңуз"
 	},
 	"wikinews": {
 		"name": "Викижаңылыктар",
+		"slogan": "Акысыз маалымат булагы",
 		"entries": "макала",
 		"search-input-label": "Викижаңылыктардан издөө",
 		"language-button-text": "Викижаңылыктарды эне тилиңизде окуңуз"
 	},
 	"wikiquote": {
 		"name": "Викиүзүндү",
+		"slogan": "Акысыз цитаталар жыйнагы",
 		"entries": "макала",
 		"search-input-label": "Викиүзүндүдөн издөө",
 		"language-button-text": "Викиүзүндүнү эне тилиңизде окуңуз"
 	},
 	"wikisource": {
 		"name": "Викибулак",
-		"slogan": "Ачык китепкана"
+		"slogan": "Ачык мазмундуу китепкана"
 	},
 	"wikiversity": {
 		"name": "Викиверситет",
-		"slogan": "Ачык окутуу курстары",
+		"slogan": "Ачык окуу куралдары",
 		"entries": "билим берүү ресурстары",
 		"search-input-label": "Викиверситеттен издөө",
 		"language-button-text": "Викиверситетти эне тилиңизде окуңуз"
 	},
 	"wikivoyage": {
 		"name": "Викисаякат",
+		"slogan": "Акысыз саякат колдонмосу",
 		"entries": "барак",
 		"search-input-label": "Викисаякаттан издөө",
 		"language-button-text": "Викисаякатты эне тилиңизде окуңуз"
@@ -76,10 +100,12 @@
 		"slogan": "Эркин колдонулуучу медиа"
 	},
 	"wikispecies": {
-		"name": "Викитүрлөр"
+		"name": "Викитүрлөр",
+		"slogan": "Эркин түрлөрдүн каталогу"
 	},
 	"wikifunctions": {
-		"name": "Викифункциялар"
+		"name": "Викифункциялар",
+		"slogan": "Ачык функциялар китепканасы"
 	},
 	"wikidata": {
 		"name": "Викимаалымат",
@@ -87,7 +113,7 @@
 	},
 	"mediawiki": {
 		"name": "МедиаВики",
-		"slogan": "Акысыз жана ачык уики тиркемеси"
+		"slogan": "Акысыз жана ачык вики тиркемеси"
 	},
 	"metawiki": {
 		"name": "Мета-вики",
