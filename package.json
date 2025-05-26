@@ -20,7 +20,7 @@
 		"browserslist-config-wikimedia": "0.7.0",
 		"cssnano": "^4.1.10",
 		"es-dev-server": "^1.54.1",
-		"eslint-config-wikimedia": "0.29.1",
+		"eslint-config-wikimedia": "0.30.0",
 		"eslint-plugin-unicorn": "40.1.0",
 		"eslint-plugin-yml": "0.13.0",
 		"glob": "^7.2.3",
