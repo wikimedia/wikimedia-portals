@@ -2,37 +2,78 @@
 	"@metadata": {
 		"authors": [
 			"David1010",
-			"MIKHEIL"
+			"MIKHEIL",
+			"Mehman97"
 		]
 	},
 	"language-name": "ქართული",
 	"language-name-romanized": "Kartuli",
+	"footer-donate": "თქვენ შეგიძლიათ შემოწირულობით მხარი დაუჭიროთ ჩვენს საქმიანობას.",
+	"license": "ეს გვერდი ხელმისაწვდომია <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike ლიცენზიით</a>",
+	"terms": "გამოყენების პირობები",
+	"privacy-policy": "კონფიდენციალურობის პოლიტიკა",
+	"search-input-button": "ძებნა",
+	"other-languages-label": "სხვა ენები",
+	"top-ten-nav-label": "პოპულარული ენები",
+	"all-languages-nav-label": "ყველა ენა",
+	"other-projects-nav-label": "სხვა პროექტები",
+	"wikimedia-org-welcome": "კეთილი იყოს თქვენი მობრძანება! ვიკიმედიის მოძრაობა არის გლობალური საზოგადოება, რომელიც შედგება ადამიანების, პროექტებისა და აქტივობებისგან, რომლებიც ერთად მუშაობენ თავისუფლი ცოდნის შესაქმნელად და გასაზიარებლად.",
+	"wikimedia-org-welcome-subtitle": "შემოგვიერთდით, რათა ერთად გავხადოთ ცოდნა ხელმისაწვდომი ყველასთვის და ყველგან.",
+	"wikimedia-org-our-projects": "ჩვენი პროექტები",
+	"wikimedia-org-our-projects-desc": "ჩვენი პროექტები წარმოადგენენ <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">ვიკიმედიის მოძრაობის</a> ბირთვს. ყველა დიდი პროექტი იმართება <a href=\"https://wikimediafoundation.org/\">ფონდ ვიკიმედიის</a> მიერ და შინაარსი შექმნილია მსოფლიოს 260 000 მეტი მომხმარებლის მიერ ერთობლივად <a href=\"https://www.mediawiki.org/\">მედიავიკის</a> პროგრამის გამოყენებით.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">ფონდი ვიკიმედია</a> არის არაკომერციული (არამომგებიანი) ორგანიზაცია, რომელიც ფლობს და მართავს ვიკიმედიის პროექტებს და ეხმარება საზოგადოებებს, რომლებიც ქმნიან ცოდნის თავისუფალ და ხელმისაწვდომ მასალას.",
+	"wikimedia-org-projects-reference": "სქოლიო",
+	"wikimedia-org-projects-collections": "კოლექცია",
+	"wikimedia-org-projects-technology": "ტექნოლოგიები",
+	"wikimedia-org-projects-guides": "დამხმარე მასალები",
+	"wikimedia-org-projects-collaboration": "თანამშრომლობა",
+	"wikimedia-org-donate-title": "თქვენი შემოწირულობა იცავს ადამიანის უფლებას, მიიღოს უფასო და თავისუფალი ცოდნა ყველასთვის.",
+	"wikimedia-org-donate-button": "შემოგვწირეთ ახლავე",
+	"wikimedia-org-contact": "დაგვიკავშირდით",
+	"wikimedia-org-contact-text": "გაქვთ კითხვები ფონდ ვიკიმედიასთან ან ვიკიმედიის პროექტებთან დაკავშირებით? დაგვიკავშირდით.",
+	"wikimedia-org-contact-link": "დაგვიკავშირდით",
 	"wiki": {
 		"name": "ვიკიპედია",
 		"slogan": "თავისუფალი ენციკლოპედია",
 		"entries": "სტატიები",
+		"search-input-label": "ძიება ვიკიპედიაში",
 		"language-button-text": "წაიკითხეთ ვიკიპედია თქვენ ენაზე",
-		"footer-description": "ვიკიპედია არაკომერციული ორგანიზაცია ფონდი ვიკიმედიის მიერ იმართება, რომელიც კიდევ რამდენიმე პროექტს მართავს."
+		"footer-description": "ვიკიპედია არაკომერციული ორგანიზაცია ფონდი ვიკიმედიის მიერ იმართება, რომელიც კიდევ რამდენიმე პროექტს მართავს.",
+		"app-links": {
+			"title": "ჩამოტვირთეთ ვიკიპედია Android-ის ან iOS-ისთვის",
+			"description": "შეინახეთ თქვენი საყვარელი სტატიები ოფლაინში წასაკითხად, დააკავშირეთ თქვენი წასაკითხი სიები სხვადასხვა მოწყობილობაზე და პერსონალიზირება გაუკეთეთ თქვენს კითხვის გამოცდილებას ოფიციალური ვიკიპედიის აპლიკაციით.",
+			"google-store": "Google Play მაღაზია",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "ვიქსიკონი",
 		"slogan": "თავისუფალი ლექსიკონი",
-		"entries": "ჩანაწერები"
+		"entries": "ჩანაწერები",
+		"search-input-label": "მოძებნეთ ვიქსიკონში",
+		"language-button-text": "წაიკითხეთ ვიქსიკონი თქვენ ენაზე"
 	},
 	"wikibooks": {
 		"name": "ვიკიწიგნები",
 		"slogan": "თავისუფალი სახელმძღვანელოები",
-		"entries": "გვერდები"
+		"entries": "გვერდები",
+		"search-input-label": "მოძებნეთ ვიკიწიგნებში",
+		"language-button-text": "წაიკითხეთ ვიკიწიგნები თქვენ ენაზე"
 	},
 	"wikinews": {
 		"name": "ვიკისიახლენი",
 		"slogan": "თავისუფალი სიახლეები",
-		"entries": "სტატიები"
+		"entries": "სტატიები",
+		"search-input-label": "მოძებნეთ ვიკიამბებში",
+		"language-button-text": "წაიკითხეთ ვიკიამბები თქვენ ენაზე"
 	},
 	"wikiquote": {
 		"name": "ვიკიციტატა",
 		"slogan": "ციტატების კოლექცია",
-		"entries": "სტატიები"
+		"entries": "სტატიები",
+		"search-input-label": "მოძებნეთ ვიკიციტატაში",
+		"language-button-text": "წაიკითხეთ ვიკიციტატა თქვენ ენაზე"
 	},
 	"wikisource": {
 		"name": "ვიკიწყარო",
@@ -40,12 +81,17 @@
 	},
 	"wikiversity": {
 		"name": "ვიკივერსიტეტი",
-		"slogan": "საგანმანათლებლო მასალები",
-		"entries": "სასწავლო რესურსები"
+		"slogan": "თავისუფალი საგანმანათლებლო მასალები",
+		"entries": "სასწავლო რესურსები",
+		"search-input-label": "მოძებნეთ ვიკიუნივერსიტეტში",
+		"language-button-text": "წაიკითხეთ ვიკიუნივერსიტეტი თქვენ ენაზე"
 	},
 	"wikivoyage": {
 		"name": "ვიკივოიაჟი",
-		"slogan": "თავისუფალი გზამკვლევი"
+		"slogan": "თავისუფალი გზამკვლევი",
+		"entries": "გვერდები",
+		"search-input-label": "მოძებნეთ ვიკივოიაჟში",
+		"language-button-text": "წაიკითხეთ ვიკივოიაჟი თქვენ ენაზე"
 	},
 	"commons": {
 		"name": "ვიკისაწყობი",
@@ -55,13 +101,17 @@
 		"name": "ვიკისახეობები",
 		"slogan": "ჯიშთა და სახეობათა საცავი"
 	},
+	"wikifunctions": {
+		"name": "ვიკიფუნქციები",
+		"slogan": "თავისუფალი ფუნქციების ბიბლიოთეკა"
+	},
 	"wikidata": {
 		"name": "ვიკიმონაცემები",
 		"slogan": "მონაცემთა ბაზა"
 	},
 	"mediawiki": {
 		"name": "მედიავიკი",
-		"slogan": "უფასო პროგრამული უზრუნველყოფა"
+		"slogan": "უფასო & ღია პროგრამული უზრუნველყოფა"
 	},
 	"metawiki": {
 		"name": "მეტა-ვიკი",
