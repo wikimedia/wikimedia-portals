@@ -12,7 +12,8 @@
 			"MuratTheTurkish",
 			"Nemo bis",
 			"Pcoombe",
-			"Selven"
+			"Selven",
+			"Wheelygay"
 		]
 	},
 	"language-name": "Italiano",
@@ -25,15 +26,26 @@
 	"privacy-policy-link": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/it",
 	"search-input-button": "Cerca",
 	"other-languages-label": "Altre lingue",
+	"all-languages-nav-label": "Tutte le lingue",
+	"other-projects-nav-label": "Altri progetti",
+	"wikimedia-org-welcome": "Benvenuti! Il movimento Wikimedia è una comunità globale di persone, progetti e attività che collaborano per creare e condividere liberamente la conoscenza.",
+	"wikimedia-org-welcome-subtitle": "Unisciti a noi per rendere la conoscenza disponibile a tutti, ovunque.",
 	"wikimedia-org-our-projects": "I nostri progetti",
+	"wikimedia-org-projects-reference": "Riferimento",
 	"wikimedia-org-projects-collections": "Collezioni",
 	"wikimedia-org-projects-technology": "Tecnologia",
+	"wikimedia-org-projects-guides": "Guide",
+	"wikimedia-org-projects-collaboration": "Collaborazione",
+	"wikimedia-org-donate-title": "La tua donazione protegge il diritto umano alla conoscenza libera e aperta per tutti.",
 	"wikimedia-org-donate-button": "Dona ora",
+	"wikimedia-org-contact": "Contatti",
+	"wikimedia-org-contact-text": "Domande sulla Wikimedia Foundation o sui progetti Wikimedia? Contattaci.",
+	"wikimedia-org-contact-link": "Contatti",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "L'enciclopedia libera",
 		"entries": "voci",
-		"search-input-label": "Cerca su Wikipedia",
+		"search-input-label": "Cerca in Wikipedia",
 		"language-button-text": "Leggi Wikipedia nella tua lingua",
 		"footer-description": "Wikipedia è ospitata dalla Wikimedia Foundation, un'organizzazione non-profit che ospita anche una serie di altri progetti.",
 		"app-links": {
@@ -47,23 +59,29 @@
 	"wiktionary": {
 		"name": "Wikizionario",
 		"slogan": "Il dizionario libero",
-		"entries": "lemmi"
+		"entries": "lemmi",
+		"search-input-label": "Cerca in Wikizionario",
+		"language-button-text": "Leggi Wikizionario nella tua lingua"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
 		"slogan": "Manuali e libri di testo liberi",
-		"entries": "moduli"
+		"entries": "moduli",
+		"search-input-label": "Cerca in Wikibooks",
+		"language-button-text": "Leggi Wikibooks nella tua lingua"
 	},
 	"wikinews": {
 		"name": "Wikinotizie",
 		"slogan": "La fonte di notizie libere",
-		"entries": "voci"
+		"entries": "voci",
+		"search-input-label": "Cerca in Wikinotizie",
+		"language-button-text": "Leggi Wikinotizie nella tua lingua"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "Aforismi e citazioni",
 		"entries": "voci",
-		"search-input-label": "Ricerca Wikiquote",
+		"search-input-label": "Cerca in Wikiquote",
 		"language-button-text": "Leggi Wikiquote nella tua lingua"
 	},
 	"wikisource": {
@@ -73,12 +91,15 @@
 	"wikiversity": {
 		"name": "Wikiversità",
 		"slogan": "Risorse di apprendimento libere",
-		"entries": "lezioni"
+		"entries": "lezioni",
+		"search-input-label": "Cerca in Wikiversità",
+		"language-button-text": "Leggi Wikiversità nella tua lingua"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "Guida turistica libera",
 		"entries": "pagine",
+		"search-input-label": "Cerca in Wikivoyage",
 		"language-button-text": "Leggi Wikivoyage nella tua lingua"
 	},
 	"commons": {
