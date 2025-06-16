@@ -23,7 +23,7 @@
 	"wikimedia-org-projects-reference": "Xoko ya binwa",
 	"wikimedia-org-projects-technology": "Tekinoloshi",
 	"wikimedia-org-donate-title": "Amukoro awe alanga asadurwa sa bandu, kwebula mbu abumenyi buhikire kinsi mundu",
-	"wikimedia-org-donate-button": "Leta mmukoro wawe",
+	"wikimedia-org-donate-button": "Leta amukoro wawe tsene",
 	"wikimedia-org-contact-text": "uwete lubutso kuluenda Wikimedia Foundation neri asaporoshe sa Wiki? Karibwako.",
 	"wiki": {
 		"name": "Wikipedia",
@@ -68,8 +68,8 @@
 	},
 	"wikiversity": {
 		"name": "Wikiverisite",
-		"search-input-label": "xonda wikiveresiti",
-		"language-button-text": "soma wikiveresite mwa muneenerawe"
+		"search-input-label": "xonda wikiferesite",
+		"language-button-text": "soma wikiferesite mwa muneenerawe"
 	},
 	"wikivoyage": {
 		"name": "Wiki ya luendo",
