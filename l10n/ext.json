@@ -18,7 +18,10 @@
 	"other-projects-nav-label": "Otrus proyeutus",
 	"wikimedia-org-welcome": "Bienllegauǃ el movimientu Güiquimedia es una comuniá grobal de genti, proyeutus i atividáis trebajandu juntus pa crial i compartil conocencia de manera libri.",
 	"wikimedia-org-our-projects": "Los muestrus proyeutus",
+	"wikimedia-org-projects-reference": "Referencias",
+	"wikimedia-org-projects-collections": "Colecionis",
 	"wikimedia-org-projects-technology": "Tenología",
+	"wikimedia-org-projects-collaboration": "Calavoración",
 	"wikimedia-org-contact": "Contatu",
 	"wikimedia-org-contact-link": "Contatu",
 	"wiki": {
@@ -28,6 +31,7 @@
 		"search-input-label": "Precural en Güiquipedia",
 		"language-button-text": "Leyel Güiquipedia ena tu idioma",
 		"app-links": {
+			"title": "Abaxal Güiquipedia p'Android o iOS",
 			"google-store": "Google Play Store",
 			"apple-store": "Tienda de apricacionis de Apple"
 		}
@@ -41,13 +45,16 @@
 	"wikibooks": {
 		"name": "Güiquilibrus",
 		"slogan": "Librus de testu de conteníu libri",
-		"entries": "Páginas"
+		"entries": "Páginas",
+		"search-input-label": "Precural en Güiquilibrus",
+		"language-button-text": "Leyel Güiquilibrus ena tu idioma"
 	},
 	"wikinews": {
 		"name": "Güiquinoticias",
 		"slogan": "La huenti de noticias libris",
 		"entries": "artícalus",
-		"search-input-label": "Precural en Güiquinoticias"
+		"search-input-label": "Precural en Güiquinoticias",
+		"language-button-text": "Leyel Güiquinoticias ena tu idioma"
 	},
 	"wikiquote": {
 		"name": "Güiquicitas",
@@ -67,5 +74,11 @@
 		"name": "Güiquiviagis",
 		"slogan": "La guía de viagis libri",
 		"entries": "páginas"
+	},
+	"commons": {
+		"name": "Commons"
+	},
+	"wikidata": {
+		"name": "Güiquidata"
 	}
 }
