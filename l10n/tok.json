@@ -2,24 +2,39 @@
 	"@metadata": {
 		"authors": [
 			"Juwan",
+			"Juwan~backup",
 			"LesVisages",
 			"Robin van der Vliet",
 			"Tbodt"
 		]
 	},
 	"language-name": "toki pona",
+	"language-name-romanized": "toki pona",
+	"language-name-romanized-sorted": "toki pona",
 	"terms": "lawa kepeken",
 	"privacy-policy": "ken pi awen len",
 	"search-input-button": "o alasa",
 	"other-languages-label": "toki ante",
+	"top-ten-nav-label": "toki suli",
+	"all-languages-nav-label": "toki ale",
+	"other-projects-nav-label": "lipu ante",
+	"wikimedia-org-donate-button": "o pana e mani",
+	"wikimedia-org-contact": "o toki tawa mi",
+	"wikimedia-org-contact-link": "o toki tawa mi",
 	"wiki": {
 		"name": "lipu Wikipesija",
 		"slogan": "lipu sona pi jan ale",
 		"entries": "lipu",
 		"search-input-label": "o alasa lon lipu Wikipesija",
-		"language-button-text": "o lukin e lipu Wikipesija kepeken toki sina"
+		"language-button-text": "o lukin e lipu Wikipesija kepeken toki sina",
+		"app-links": {
+			"title": "o lukin e lipu Wikipesija lon ilo lili",
+			"google-store": "ilo Google Play Store",
+			"apple-store": "ilo Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wikidata": {
-		"name": "lipu Wikitata"
+		"name": "lipu Wikinanpa"
 	}
 }
