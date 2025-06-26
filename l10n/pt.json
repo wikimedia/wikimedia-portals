@@ -7,28 +7,47 @@
 			"Hamilton Abreu",
 			"Liuxinyu970226",
 			"MokaAkashiyaPT",
+			"O andras",
 			"Vitorvicentevalente"
 		]
 	},
 	"language-name": "Português",
 	"language-name-romanized-sorted": "Portugues",
-	"footer-donate": "Pode apoiar o nosso trabalho com um donativo.",
+	"footer-donate": "Podes apoiar o nosso trabalho com uma doação.",
 	"license": "Esta página é disponibilizada nos termos da <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.pt/'>licença Creative Commons Atribuição-Compartilha Igual</a>",
-	"terms": "Condições de utilização",
-	"privacy-policy": "Política de privacidade",
+	"terms": "Termos de Utilização",
+	"privacy-policy": "Política de Privacidade",
 	"terms-link": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/pt",
 	"search-input-button": "Pesquisar",
 	"other-languages-label": "Outras línguas",
+	"top-ten-nav-label": "Principais línguas",
+	"all-languages-nav-label": "Todas as línguas",
+	"other-projects-nav-label": "Outros projectos",
+	"wikimedia-org-welcome": "Bem-vindo(a)! O movimento Wikimedia é uma comunidade global de pessoas, projectos, e actividades que colaboram juntos para criar e distribuir conhecimento livremente.",
+	"wikimedia-org-welcome-subtitle": "Junta-te a nós a tornar todo o conhecimento disponível a todos, em todo o lado.",
+	"wikimedia-org-our-projects": "Os Nossos Projectos",
+	"wikimedia-org-our-projects-desc": "Os nossos projectos são o núcleo do <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">movimento Wikimedia</a>. Todos os projectos principais são operados pela <a href=\"https://wikimediafoundation.org/\">Fundação Wikimedia</a>, e o conteúdo é desenvolvido colaborativamento por mais de 260.000 utilizadores de todo o mundo com o software<a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "A <a href=\"https://wikimediafoundation.org/\">Fundação Wikimedia</a> é a organização sem fins lucrativos que acolhe todos os projectos Wikimedia e dá apoio a comunidades de todo o mundo que criam e curam conteúdo acessível livremente.",
+	"wikimedia-org-projects-reference": "Referência",
+	"wikimedia-org-projects-collections": "Coleções",
+	"wikimedia-org-projects-technology": "Tecnologia",
+	"wikimedia-org-projects-guides": "Guias",
+	"wikimedia-org-projects-collaboration": "Colaboração",
+	"wikimedia-org-donate-title": "A tua doação protege o direito humano a conhecimento livre e aberto a toda a gente.",
+	"wikimedia-org-donate-button": "Doar agora",
+	"wikimedia-org-contact": "Contacto",
+	"wikimedia-org-contact-text": "Tens dúvidas sobre a Fundação Wikimedia ou projectos Wikimedia? Entra em contacto.",
+	"wikimedia-org-contact-link": "Contacto",
 	"wiki": {
 		"name": "Wikipédia",
-		"slogan": "A enciclopédia livre",
+		"slogan": "A Enciclopédia Livre",
 		"entries": "artigos",
 		"search-input-label": "Pesquisar na Wikipédia",
-		"language-button-text": "Ler a Wikipédia na sua língua",
+		"language-button-text": "Lê a Wikipédia na tua língua",
 		"footer-description": "A Wikipédia é alojada pela Wikimedia Foundation, uma organização sem fins lucrativos que também aloja vários outros projetos.",
 		"app-links": {
 			"title": "Descarregar a Wikipédia para Android e iOS",
-			"description": "Guarde os seus artigos preferidos para ler offline, sincronize as suas listas de leitura entre dispositivos e personalize a sua experiência de leitura com a aplicação oficial da Wikipédia.",
+			"description": "Guarda os teus artigos preferidos para ler offline, sincroniza as tuas listas de leitura entre dispositivos e personaliza a tua experiência de leitura com a aplicação oficial da Wikipédia.",
 			"google-store": "Play Store da Google",
 			"apple-store": "App Store da Apple",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
@@ -39,28 +58,28 @@
 		"slogan": "O dicionário livre",
 		"entries": "entradas",
 		"search-input-label": "Pesquisar no Wikcionário",
-		"language-button-text": "Ler o Wikcionário na sua língua"
+		"language-button-text": "Lê o Wikcionário na tua língua"
 	},
 	"wikibooks": {
 		"name": "Wikilivros",
 		"slogan": "Livros abertos por um mundo aberto",
 		"entries": "páginas",
-		"search-input-label": "Pesquisar na wiki Wikilivros",
-		"language-button-text": "Ler a wiki Wikilivros na sua língua"
+		"search-input-label": "Pesquisar no Wikilivros",
+		"language-button-text": "Lê Wikilivros na tua língua"
 	},
 	"wikinews": {
 		"name": "Wikinotícias",
 		"slogan": "A fonte de notícias livre que todos podem editar",
 		"entries": "artigos",
-		"search-input-label": "Pesquisar na wiki Wikinotícias",
-		"language-button-text": "Ler a wiki Wikinotícias na sua língua"
+		"search-input-label": "Pesquisar no Wikinotícias",
+		"language-button-text": "Lê o Wikinotícias na tua língua"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
-		"slogan": "Coletânea de citações livre",
+		"slogan": "Compêndio de citações gratuito",
 		"entries": "artigos",
-		"search-input-label": "Pesquisar na wiki Wikiquote",
-		"language-button-text": "Ler a wiki Wikiquote na sua língua"
+		"search-input-label": "Pesquisar no Wikiquote",
+		"language-button-text": "Lê o Wikiquote na tua língua"
 	},
 	"wikisource": {
 		"name": "Wikisource",
@@ -68,21 +87,21 @@
 	},
 	"wikiversity": {
 		"name": "Wikiversidade",
-		"slogan": "A universidade livre",
+		"slogan": "Recursos de aprendizagem livres",
 		"entries": "recursos de aprendizagem",
 		"search-input-label": "Pesquisar na Wikiversidade",
-		"language-button-text": "Ler a Wikiversidade na sua língua"
+		"language-button-text": "Lê a Wikiversidade na tua língua"
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
 		"slogan": "O guia de viagens livre",
 		"entries": "páginas",
-		"search-input-label": "Pesquisar na wiki Wikivoyage",
-		"language-button-text": "Ler a wiki Wikivoyage na sua língua"
+		"search-input-label": "Pesquisar na Wikivoyage",
+		"language-button-text": "Lê a Wikivoyage na tua língua"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Coleção de mídia gratuita"
+		"slogan": "Coleção de média livre"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -94,11 +113,11 @@
 	},
 	"wikidata": {
 		"name": "Wikidata",
-		"slogan": "A base de conhecimentos livre"
+		"slogan": "A base de conhecimento livre"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "A aplicação para wikis, livre e aberta"
+		"slogan": "Software wiki livre & aberto"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
