@@ -1,16 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
+			"Farorud",
 			"ToJack",
 			"Vashgird"
 		]
 	},
 	"language-name": "Тоҷикӣ",
 	"language-name-romanized": "Tojiki",
+	"footer-donate": "Шумо тариқи хайр метавонед кори моро дастгирӣ кунед.",
 	"license": "Ин саҳиф таҳти <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">иҷозатномаи Creative Commons Attribution-ShareAlike</a> дастрас аст",
 	"terms": "Шартҳои истифодабарӣ",
 	"privacy-policy": "Сиёсати ҳифзи асрор",
 	"search-input-button": "Ҷустуҷӯ",
+	"wikimedia-org-projects-reference": "Эзоҳ",
+	"wikimedia-org-projects-collections": "Коллексияҳо",
+	"wikimedia-org-projects-technology": "Фановарӣ",
+	"wikimedia-org-projects-guides": "Дастурномаҳо",
+	"wikimedia-org-projects-collaboration": "Ҳамкорӣ",
+	"wikimedia-org-contact-link": "Тамос",
 	"wiki": {
 		"name": "Википедия",
 		"slogan": "Донишномаи Озод",
@@ -49,7 +57,8 @@
 	"wikiversity": {
 		"name": "Викидонишгоҳ",
 		"slogan": "Маводи озод",
-		"entries": "маводҳои дарсӣ"
+		"entries": "маводҳои дарсӣ",
+		"search-input-label": "Ҷустуҷӯи Викидонишгоҳ"
 	},
 	"wikivoyage": {
 		"name": "Викисафар",
@@ -62,6 +71,9 @@
 	"wikispecies": {
 		"name": "Викинамуд",
 		"slogan": "Роҳнамои намудҳои биологӣ"
+	},
+	"wikifunctions": {
+		"name": "Викифунксияҳо"
 	},
 	"wikidata": {
 		"name": "Викидода",
