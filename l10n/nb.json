@@ -16,6 +16,21 @@
 	"top-ten-nav-label": "Toppspråk",
 	"all-languages-nav-label": "Alle språk",
 	"other-projects-nav-label": "Andre prosjekter",
+	"wikimedia-org-welcome": "Velkommen! Wikimedia-bevegelsen er et globalt fellesskap av folk, prosjekter og aktiviteter som samarbeider for å skape og dele kunnskap fritt.",
+	"wikimedia-org-welcome-subtitle": "Bli med oss og gjør all verdens kunnskap tilgjengelig for alle, overalt.",
+	"wikimedia-org-our-projects": "Prosjektene våre",
+	"wikimedia-org-our-projects-desc": "Prosjektene våre er kjernen av <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Wikimedia-bevegelsen</a>. Alle prosjektene drives av <a href=\"https://wikimediafoundation.org/\">Wikimedia Foundation</a>, og innholdet skapes i fellesskap av over 260&nbsp;000 brukere verden over med <a href=\"https://www.mediawiki.org/\">MediaWiki</a>-programvaren.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Wikimedia Foundation</a> er den ideelle organisasjonen som driver alle Wikimedia-prosjektene og støtter fellesskaper verden over som skaper og kuraterer fritt tilgjengelig innhold.",
+	"wikimedia-org-projects-reference": "Referanse",
+	"wikimedia-org-projects-collections": "Samlinger",
+	"wikimedia-org-projects-technology": "Teknologi",
+	"wikimedia-org-projects-guides": "Guider",
+	"wikimedia-org-projects-collaboration": "Samarbeid",
+	"wikimedia-org-donate-title": "Donasjonen din beskytter rettigheten til fri og åpen kunnskap for alle.",
+	"wikimedia-org-donate-button": "Doner nå",
+	"wikimedia-org-contact": "Kontakt",
+	"wikimedia-org-contact-text": "Har du spørsmål om Wikimedia Foundation eller Wikimedia-prosjektene? Ta kontakt.",
+	"wikimedia-org-contact-link": "Kontakt",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Den frie encyklopedi",
@@ -61,11 +76,11 @@
 	},
 	"wikisource": {
 		"name": "Wikikilden",
-		"slogan": "Fritt bibliotek"
+		"slogan": "Bibliotek med fritt innhold"
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
-		"slogan": "Fritt kursmateriale",
+		"slogan": "Frie læringsressurser",
 		"entries": "læringsressurser",
 		"search-input-label": "Søk i Wikiversity",
 		"language-button-text": "Les Wikiversity på ditt språk"
