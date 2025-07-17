@@ -1,7 +1,32 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Kimfom01"
+		]
 	},
 	"language-name": "bèrom",
-	"language-name-romanized-sorted": "Berom"
+	"language-name-romanized-sorted": "Berom",
+	"search-input-button": "Jamo",
+	"wiki": {
+		"name": "Wikipedia",
+		"search-input-label": "Jamo Wikipedia",
+		"app-links": {
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"search-input-label": "Jamo Wiktionary"
+	},
+	"wikibooks": {
+		"name": "Bwǒk basa wiki",
+		"entries": "nelang",
+		"search-input-label": "Jamo Wikibooks"
+	},
+	"wikinews": {
+		"name": "nèhǎ Wiki",
+		"search-input-label": "Jamo nèhǎ Wiki"
+	}
 }

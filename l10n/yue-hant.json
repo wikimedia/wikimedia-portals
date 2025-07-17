@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"H78c67c",
+			"JeffreyKim",
 			"Obonggi",
 			"OmniBus",
 			"Winston Sung"
@@ -11,9 +12,18 @@
 	"language-name-romanized": "Yuèyǔ",
 	"language-name-romanized-sorted": "Yueyu",
 	"footer-donate": "你可以捐款以支持我哋所做嘅嘢。",
+	"license": "呢個頁面可以根據 <a href='https://creativecommons.org/licenses/by-sa/4.0/'>創意共享歸因 - 同等共享授權使用</a>",
 	"terms": "使用條款",
 	"privacy-policy": "私隱政策",
+	"search-input-button": "搵",
 	"other-languages-label": "第啲語言",
+	"top-ten-nav-label": "熱門語言",
+	"all-languages-nav-label": "所有語言",
+	"other-projects-nav-label": "其他項目",
+	"wikimedia-org-welcome": "歡迎嚟到維基媒體運動，係一個由人、項目同活動組成嘅全球社群，一齊自由創造同分享知識。",
+	"wikimedia-org-welcome-subtitle": "加入我哋，將所有知識提供畀所有人，隨時隨地。",
+	"wikimedia-org-our-projects": "我哋嘅項目",
+	"wikimedia-org-our-projects-desc": "我哋嘅項目係嘅核心<a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Wikimedia movement</a>。 所有大型項目都係由公司營運 <a href=\"https://wikimediafoundation.org/\">維基媒體基金會</a>, 而內容係由全球超過 260,000 個用戶合作開發，佢哋用緊<a href=\"https://www.mediawiki.org/\">MediaWiki</a> 軟件。",
 	"wiki": {
 		"name": "維基百科",
 		"slogan": "自由嘅百科全書",
@@ -42,10 +52,11 @@
 	},
 	"wikisource": {
 		"name": "維基文庫",
-		"slogan": "免費圖書館"
+		"slogan": "免費內容庫"
 	},
 	"wikiversity": {
-		"name": "維基學府"
+		"name": "維基學府",
+		"slogan": "免費學習資源"
 	},
 	"wikivoyage": {
 		"name": "維基遊埠",
@@ -61,7 +72,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "自由開放嘅 wiki 應用程式"
+		"slogan": "免費同開放嘅 wiki 軟件"
 	},
 	"metawiki": {
 		"name": "維基元",
