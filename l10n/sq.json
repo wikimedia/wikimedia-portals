@@ -1,20 +1,46 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liridon"
+			"Liridon",
+			"Xhulianoo"
 		]
 	},
 	"language-name": "Shqip",
+	"language-name-romanized": "Anglisht",
+	"language-name-romanized-sorted": "Anglisht",
+	"search-input-button": "Kërko",
+	"other-languages-label": "Gjuhët e tjera",
+	"all-languages-nav-label": "Të gjitha gjuhët",
+	"other-projects-nav-label": "Projekte të tjera",
+	"wikimedia-org-welcome-subtitle": "Bashkohu me ne për ta bërë të gjithë dijen të disponueshme për të gjithë, kudo.",
+	"wikimedia-org-our-projects": "Projektet tona",
+	"wikimedia-org-projects-reference": "Referimi",
+	"wikimedia-org-projects-collections": "Koleksionet",
+	"wikimedia-org-projects-technology": "Teknologjia",
+	"wikimedia-org-projects-guides": "Udhëzuesit",
+	"wikimedia-org-projects-collaboration": "Bashkëpunimi",
+	"wikimedia-org-donate-title": "Dhurimi yt mbron të drejtën e njeriut për dije të lirë dhe të hapur për të gjithë.",
+	"wikimedia-org-donate-button": "Dhuro tani",
+	"wikimedia-org-contact": "Kontakti",
+	"wikimedia-org-contact-text": "Pyetje rreth Fondacionit Wikimedia ose projekteve të Wikimedia-s? Na kontakto.",
+	"wikimedia-org-contact-link": "Kontakti",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "enciklopedia e lirë",
 		"entries": "artikuj",
-		"language-button-text": "Lexo Wikipedian në gjuhën tuaj"
+		"search-input-label": "Kërko në Wikipedia",
+		"language-button-text": "Lexo Wikipedian në gjuhën tuaj",
+		"app-links": {
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
 	},
 	"wiktionary": {
 		"name": "WikiFjalori",
 		"slogan": "Fjalori i lirë",
-		"entries": "të hyra"
+		"entries": "të hyra",
+		"search-input-label": "Kërko në WikiFjalor",
+		"language-button-text": "Lexo WikiFjalorin në gjuhën tënde"
 	},
 	"wikibooks": {
 		"name": "Wikibooks",
@@ -30,13 +56,15 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "Libraria e lirë"
+		"slogan": "Biblioteka e përmbajtjeve falas"
 	},
 	"wikiversity": {
-		"name": "Wikiversity"
+		"name": "Wikiversity",
+		"entries": "burime mësimore"
 	},
 	"wikivoyage": {
-		"name": "Wikivoyage"
+		"name": "Wikivoyage",
+		"entries": "faqet"
 	},
 	"commons": {
 		"name": "Commons"
