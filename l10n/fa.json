@@ -13,33 +13,48 @@
 	"language-name": "فارسی",
 	"language-name-romanized": "Fārsi",
 	"language-name-romanized-sorted": "Farsi",
-	"footer-donate": "می‌توانید با اهدای کمک مالی از کار ما پشتیبانی کنید.",
-	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
-	"terms": "شرایط کاربرد",
+	"footer-donate": "می‌توانید با یک کمک مالی از کار ما پشتیبانی کنید.",
+	"license": "این صفحه تحت <a href='https://creativecommons.org/licenses/by-sa/4.0/'>مجوز کرییتیو کامنز انتساب-اشتراک‌یکسان</a> در دسترس است.",
+	"terms": "شرایط استفاده",
 	"privacy-policy": "سیاست محرمانگی",
 	"search-input-button": "جستجو",
 	"other-languages-label": "زبان‌های دیگر",
 	"top-ten-nav-label": "برترین زبان‌ها",
 	"all-languages-nav-label": "تمام زبان‌ها",
 	"other-projects-nav-label": "سایر پروژه‌ها",
+	"wikimedia-org-welcome": "خوش آمدید! جنبش ویکی‌مدیا یک جامعهٔ جهانی از افراد، پروژه‌ها و فعالیت‌هاست که با هم برای ایجاد و به‌اشتراک‌گذاری آزادانهٔ دانش کار می‌کنند.",
+	"wikimedia-org-welcome-subtitle": "به ما بپیوندید تا همهٔ دانش را در دسترس همه، در همه‌جا قرار دهیم.",
+	"wikimedia-org-our-projects": "پروژه‌های ما",
+	"wikimedia-org-our-projects-desc": "پروژه‌های ما هستهٔ <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">جنبش ویکی‌مدیا</a> هستند. همهٔ پروژه‌های اصلی توسط <a href=\"https://wikimediafoundation.org/\">بنیاد ویکی‌مدیا</a> اداره می‌شوند و محتوا به‌صورت مشارکتی توسط بیش از ۲۶۰٬۰۰۰ کاربر در سراسر جهان با استفاده از نرم‌افزار <a href=\"https://www.mediawiki.org/\">مدیاویکی</a> توسعه می‌یابد.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">بنیاد ویکی‌مدیا</a> سازمانی غیرانتفاعی است که همهٔ پروژه‌های ویکی‌مدیا را میزبانی می‌کند و از جوامع سراسر جهان که محتوای آزاد و در دسترس همگان ایجاد و سامان‌دهی می‌کنند پشتیبانی می‌نماید.",
+	"wikimedia-org-projects-reference": "منبع",
+	"wikimedia-org-projects-collections": "مجموعه‌ها",
+	"wikimedia-org-projects-technology": "فناوری",
+	"wikimedia-org-projects-guides": "راهنماها",
+	"wikimedia-org-projects-collaboration": "همکاری",
+	"wikimedia-org-donate-title": "کمک مالی شما از حق بشر برای دسترسی آزاد و باز به دانش برای همه محافظت می‌کند.",
+	"wikimedia-org-donate-button": "اکنون کمک مالی کنید",
+	"wikimedia-org-contact": "تماس",
+	"wikimedia-org-contact-text": "سؤالی دربارهٔ بنیاد ویکی‌مدیا یا پروژه‌های ویکی‌مدیا دارید؟ با ما در تماس باشید.",
+	"wikimedia-org-contact-link": "تماس",
 	"wiki": {
 		"name": "ویکی‌پدیا",
 		"slogan": "دانشنامهٔ آزاد",
 		"entries": "مقاله",
 		"search-input-label": "جستجو در ویکی‌پدیا",
 		"language-button-text": "ویکی‌پدیا را به زبان خود بخوانید",
-		"footer-description": "ویکی‌پدیا یکی از پروژه‌هایی است که توسط بنیاد ناسودبر ویکی‌مدیا میزبانی می‌شود.",
+		"footer-description": "ویکی‌پدیا توسط بنیاد ویکی‌مدیا میزبانی می‌شود؛ سازمانی غیرانتفاعی که مجموعه‌ای از پروژه‌های دیگر را نیز میزبانی می‌کند.",
 		"app-links": {
 			"title": "ویکی‌پدیا را برای اندروید یا iOS بارگیری کنید",
-			"description": "مقاله‌های مورد علاقه‌تان را برای مطالعهٔ برون‌خط ذخیره کنید، فهرست‌های مطالعه‌تان را در بین دستگاه‌های مختلف‌تان همگام‌سازی کنید، و تجربهٔ مطالعه‌تان با نرم‌افزار رسمی ویکی‌پدیا را شخصی‌سازی کنید.",
+			"description": "مقالات موردعلاقهٔ خود را برای خواندن آفلاین ذخیره کنید، فهرست‌های مطالعهٔ خود را میان دستگاه‌های مختلف همگام‌سازی کنید و با اپلیکیشن رسمی ویکی‌پدیا تجربهٔ مطالعهٔ خود را شخصی‌سازی نمایید.",
 			"google-store": "فروشگاه گوگل‌پلی",
-			"apple-store": "فروشگاه اپل‌استور",
+			"apple-store": "فروشگاه اپ‌استور",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "ویکی‌واژه",
-		"slogan": "لغتنامه چندزبانه آزاد",
+		"slogan": "واژه‌نامهٔ آزاد",
 		"entries": "مدخل‌ها",
 		"search-input-label": "جستجو در ویکی‌واژه",
 		"language-button-text": "ویکی‌واژه را به زبان خود بخوانید"
@@ -47,17 +62,23 @@
 	"wikibooks": {
 		"name": "ویکی‌کتاب",
 		"slogan": "کتاب‌های آزاد",
-		"entries": "صفحه"
+		"entries": "صفحه",
+		"search-input-label": "جستجو در ویکی‌کتاب",
+		"language-button-text": "ویکی‌کتاب را به زبان خود بخوانید"
 	},
 	"wikinews": {
 		"name": "ویکی‌خبر",
 		"slogan": "مرجع خبری با محتوای آزاد",
-		"entries": "مقالات"
+		"entries": "مقاله",
+		"search-input-label": "جستجو در ویکی‌خبر",
+		"language-button-text": "ویکی‌خبر را به زبان خود بخوانید"
 	},
 	"wikiquote": {
 		"name": "ویکی‌گفتاورد",
 		"slogan": "مجموعه‌ای از نقل قول‌ها",
-		"entries": "صفحه"
+		"entries": "صفحه",
+		"search-input-label": "جستجو در ویکی‌گفتاورد",
+		"language-button-text": "ویکی‌گفتاورد را به زبان خود بخوانید"
 	},
 	"wikisource": {
 		"name": "ویکی‌نبشته",
@@ -65,35 +86,40 @@
 	},
 	"wikiversity": {
 		"name": "ویکی‌دانشگاه",
-		"slogan": "دانشگاه با آموزش نامحدود",
-		"entries": "منبع آموزشی"
+		"slogan": "منابع آموزشی آزاد",
+		"entries": "منابع آموزشی",
+		"search-input-label": "جستجو در ویکی‌دانشگاه",
+		"language-button-text": "ویکی‌دانشگاه را به زبان خود بخوانید"
 	},
 	"wikivoyage": {
 		"name": "ویکی‌سفر",
-		"slogan": "راهنمای سفر"
+		"slogan": "راهنمای سفر آزاد",
+		"entries": "صفحه",
+		"search-input-label": "جستجو در ویکی‌سفر",
+		"language-button-text": "ویکی‌سفر را به زبان خود بخوانید"
 	},
 	"commons": {
-		"name": "انبار",
-		"slogan": "انبار پرونده‌های چندرسانه‌ای عمومی"
+		"name": "ویکی‌انبار",
+		"slogan": "مجموعهٔ رسانه‌ای آزاد"
 	},
 	"wikispecies": {
 		"name": "ویکی‌گونه",
-		"slogan": "راهنمای گونه‌های زیستی"
+		"slogan": "فهرست گونه‌های آزاد"
 	},
 	"wikifunctions": {
-		"name": "ویکی‌تابع",
-		"slogan": "کتابخانهٔ توابع رایگان"
+		"name": "ویکی‌توابع",
+		"slogan": "کتابخانهٔ توابع آزاد"
 	},
 	"wikidata": {
 		"name": "ویکی‌داده",
-		"slogan": "پایگاه دانش"
+		"slogan": "پایگاه دانش آزاد"
 	},
 	"mediawiki": {
 		"name": "مدیاویکی",
-		"slogan": "اپلیکیشن باز و آزاد ویکی"
+		"slogan": "نرم‌افزار ویکی آزاد و متن‌باز"
 	},
 	"metawiki": {
 		"name": "فراویکی",
-		"slogan": "هماهنگ‌کنندهٔ پروژه‌ها"
+		"slogan": "هماهنگی و مستندسازی جامعه"
 	}
 }
