@@ -47,7 +47,7 @@ function cleanProdJS( cb ) {
 		var jsFolderPath = path.join( prodDir, 'assets', 'js' );
 
 		if ( fs.existsSync( jsFolderPath ) ) {
-			fs.rmdirSync( jsFolderPath, { recursive: true } );
+			fs.rmSync( jsFolderPath, { recursive: true } );
 			console.log( `Cleaned: ${jsFolderPath}` );
 			cb(); // Callback after success
 		} else {
