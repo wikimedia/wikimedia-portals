@@ -17,11 +17,7 @@
 	line-height: 3.3rem;
 	text-align: center;
 	/* Crossed W in Linux Libertine */
-	/* stylelint-disable-next-line declaration-block-no-duplicate-properties */
-	-moz-font-feature-settings: "ss05=1";
-	-moz-font-feature-settings: "ss05";
 	-webkit-font-feature-settings: "ss05";
-	-ms-font-feature-settings: "ss05";
 	font-feature-settings: "ss05";
 }
 

@@ -12,13 +12,12 @@ Copyright (c) Nicolas Gallagher and Jonathan Neal
 
 /**
  * 1. Set default font family to sans-serif.
- * 2. Prevent iOS and IE text size adjust after device orientation change,
+ * 2. Prevent iOS text size adjust after device orientation change,
  *    without disabling user zoom.
  */
 
 html {
 	font-family: sans-serif; /* 1 */
-	-ms-text-size-adjust: 100%; /* 2 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 	font-size: 62.5%; /* 1rem = 10px */
 }

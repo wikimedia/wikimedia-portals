@@ -133,10 +133,6 @@
 	background-color: var( --background-color-interactive-subtle );
 }
 
-.styled-select select::-ms-expand {
-	display: none; /* hide default down arrow in IE10 */
-}
-
 /* firefox */
 .styled-select select:focus {
 	outline: var( --outline-base--focus );
