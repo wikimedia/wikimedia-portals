@@ -17,9 +17,10 @@
 	width: 15.6rem;
 }
 
-/* Make entire block clickable, surpress hover underline */
+/* Make entire block clickable, suppress hover underline */
 .central-featured-lang .link-box {
 	display: block;
+	border-radius: var( --border-radius-base );
 	padding: 0;
 	text-decoration: none;
 	white-space: normal;
