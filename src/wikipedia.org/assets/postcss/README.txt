@@ -33,8 +33,3 @@ CSSNext
 PostCSS-Import
   https://github.com/postcss/postcss-import
   Inlines CSS `@import` statements.
-
-
-PostCSS-CSSSimple
-  https://www.npmjs.com/package/postcss-csssimple
-  Fixes IE6-8 bugs, like adding `_zoom:1` to `display:inline-block`.
