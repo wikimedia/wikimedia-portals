@@ -1,5 +1,27 @@
 {
-	"env": {
-		"browser": true
+	"extends": "wikimedia/client",
+	"root": true,
+	"rules": {
+		"capitalized-comments": [
+			"error",
+			"always",
+			{
+				"ignoreConsecutiveComments": true
+			}
+		],
+		"strict": "off",
+		"no-var": "off",
+		"unicorn/prefer-includes": "off",
+		"prefer-arrow-callback": "off",
+		"no-redeclare": "off",
+		"arrow-parens": "off",
+		"no-console": "off",
+		"es-x/no-rest-spread-properties": "off"
+	},
+	"globals": {
+		"mw": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018
 	}
 }
