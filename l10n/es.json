@@ -15,10 +15,12 @@
 			"McDutchie",
 			"No se",
 			"Pcoombe",
+			"Sophocrat",
 			"SpikeShroom"
 		]
 	},
 	"language-name": "Español",
+	"language-name-romanized": "Inglés",
 	"language-name-romanized-sorted": "Español",
 	"footer-donate": "Puedes apoyar nuestro trabajo con una donación.",
 	"license": "Esta página está disponible bajo la <a href='https://creativecommons.org/licenses/by-sa/4.0/'>licencia Creative Commons Atribución-CompartirIgual</a>",
@@ -28,6 +30,20 @@
 	"privacy-policy-link": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/es",
 	"search-input-button": "Buscar",
 	"other-languages-label": "Otros idiomas",
+	"top-ten-nav-label": "Lenguajes más grandes",
+	"all-languages-nav-label": "Todos los idiomas",
+	"other-projects-nav-label": "Otros proyectos",
+	"wikimedia-org-our-projects": "Nuestros Proyectos",
+	"wikimedia-org-projects-reference": "Referencia",
+	"wikimedia-org-projects-collections": "Colecciones",
+	"wikimedia-org-projects-technology": "Tecnología",
+	"wikimedia-org-projects-guides": "Guías",
+	"wikimedia-org-projects-collaboration": "Colaboración",
+	"wikimedia-org-donate-title": "Su donación protege el derecho humana al conocimiento libre y abierto para todos.",
+	"wikimedia-org-donate-button": "Dona ahora",
+	"wikimedia-org-contact": "Contacto",
+	"wikimedia-org-contact-text": "¿Preguntas sobre la Fundación Wikimedia o los proyectos Wikimedia? Contáctanos.",
+	"wikimedia-org-contact-link": "Contacto",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "La enciclopedia libre",
@@ -46,7 +62,9 @@
 	"wiktionary": {
 		"name": "Wikcionario",
 		"slogan": "El diccionario libre",
-		"entries": "entradas"
+		"entries": "entradas",
+		"search-input-label": "Buscar en Wikcionario",
+		"language-button-text": "Lea Wikcionario en su idioma"
 	},
 	"wikibooks": {
 		"name": "Wikilibros",
@@ -56,12 +74,16 @@
 	"wikinews": {
 		"name": "Wikinoticias",
 		"slogan": "La fuente de noticias libres",
-		"entries": "artículos"
+		"entries": "artículos",
+		"search-input-label": "Buscar en Wikinoticias",
+		"language-button-text": "Lea Wikinoticias en su idioma"
 	},
 	"wikiquote": {
 		"name": "Wikiquote",
 		"slogan": "La colección de citas",
-		"entries": "artículos"
+		"entries": "artículos",
+		"search-input-label": "Buscar en Wikiquote",
+		"language-button-text": "Lea Wikiquote en su idioma"
 	},
 	"wikisource": {
 		"name": "Wikisource",
@@ -70,7 +92,9 @@
 	"wikiversity": {
 		"name": "Wikiversidad",
 		"slogan": "Plataforma educativa libre",
-		"entries": "recursos de aprendizaje"
+		"entries": "recursos de aprendizaje",
+		"search-input-label": "Buscar en Wikiversidad",
+		"language-button-text": "Lea Wikiversidad en su idioma"
 	},
 	"wikivoyage": {
 		"name": "Wikiviajes",
@@ -88,7 +112,8 @@
 		"slogan": "Directorio de especies libre"
 	},
 	"wikifunctions": {
-		"name": "Wikifunciones"
+		"name": "Wikifunciones",
+		"slogan": "Biblioteca de funciones libre"
 	},
 	"wikidata": {
 		"name": "Wikidata",
