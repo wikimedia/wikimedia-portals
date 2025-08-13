@@ -28,7 +28,7 @@ helpers.printAttrs = function ( attrs ) {
 	if ( this[ attrs ] ) {
 		for ( attr in this[ attrs ] ) {
 			lowercase = attr.toLowerCase();
-			if ( whiteList.indexOf( lowercase ) > -1 ) {
+			if ( whiteList.includes( lowercase ) ) {
 				output += ' ' + Handlebars.escapeExpression( lowercase ) + '="' + Handlebars.escapeExpression( this[ attrs ][ attr ] ) + '"';
 			} else {
 				console.log( '\x1b[31m' );
@@ -120,7 +120,7 @@ helpers.trim = function ( options ) {
  * @return {Function}
  */
 helpers.has = function ( list, elem, options ) {
-	if ( list.indexOf( elem ) > -1 ) {
+	if ( list.includes( elem ) ) {
 		return options.fn( this );
 	}
 	return options.inverse( this );
