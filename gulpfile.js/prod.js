@@ -68,8 +68,8 @@ function copyTranslationFiles() {
 	if ( fs.existsSync( assetsDir ) ) {
 		// Remove existing JSON files in the destination directory
 		fs.readdirSync( assetsDir )
-			.filter( file => file.endsWith( '.json' ) )
-			.forEach( file => fs.unlinkSync( path.join( assetsDir, file ) ) );
+			.filter( ( file ) => file.endsWith( '.json' ) )
+			.forEach( ( file ) => fs.unlinkSync( path.join( assetsDir, file ) ) );
 	} else {
 		console.log( `Directory does not exist: ${assetsDir}` );
 	}

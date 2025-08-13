@@ -2,10 +2,7 @@
 	"extends": "wikimedia/server",
 	"root": true,
 	"rules": {
-		"arrow-body-style": "off",
-		"arrow-parens": "off",
 		"no-var": "off",
-		"prefer-arrow-callback": "off",
 		"prefer-const": "off",
 		"strict": "off",
 		"template-curly-spacing": "off",

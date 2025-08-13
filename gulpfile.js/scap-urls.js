@@ -46,7 +46,7 @@ function updateURLsToPurge() {
 	return gulp.src( portalAssetDirs, { buffer: false, read: false } )
 		.pipe( gulpSlash() ) // Because windows slashes are '\' instead of '/'
 		.pipe( plugins.tap( assetFilesStream ) )
-		.on( 'end', function () {
+		.on( 'end', () => {
 			writePurgeFile();
 		} );
 }

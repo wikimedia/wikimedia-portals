@@ -22,7 +22,7 @@ function languageNamesDiffer( a, b ) {
 		return false;
 	}
 	a = a.replace( /^<bdi dir="rtl">(.*)<\/bdi>$/, '$1' );
-	b = b.replace( /^./, char => char.toUpperCase() );
+	b = b.replace( /^./, ( char ) => char.toUpperCase() );
 	return a !== b;
 }
 
@@ -87,7 +87,7 @@ Stats.readi18nFiles = function ( dirname ) {
 	var siteDefinitions = {},
 		fileNames = fs.readdirSync( dirname );
 
-	fileNames.forEach( function ( filename ) {
+	fileNames.forEach( ( filename ) => {
 		var fileContent = fs.readFileSync( dirname + filename, 'utf-8' ),
 			langCode = filename.replace( '.json', '' );
 
@@ -129,7 +129,7 @@ Stats.getTop = function ( portal, criteria, n ) {
 	// Validate
 	let topViewed = Object.entries( siteStats[ portal ] )
 		.map( ( [ code, stats ] ) => ( { ...stats, code } ) )
-		.filter( function ( { code, closed } ) {
+		.filter( ( { code, closed } ) => {
 			var siteDef = siteDefs[ code ],
 				portalDef = siteDef && siteDef[ portal ];
 			// T355001: Lacking localization should not bar the site from being top 10.
@@ -141,9 +141,7 @@ Stats.getTop = function ( portal, criteria, n ) {
 		} );
 
 	// Sort
-	topViewed.sort( function ( a, b ) {
-		return b[ criteria ] - a[ criteria ];
-	} );
+	topViewed.sort( ( a, b ) => b[ criteria ] - a[ criteria ] );
 
 	// Return top 10
 	return topViewed.slice( 0, n );
@@ -163,10 +161,10 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 	// Validate
 	let list = Object.entries( siteStats[ portal ] )
 		.map( ( [ code, stats ] ) => ( { ...stats, code } ) )
-		.filter( stats => stats[ criteria ] >= from && ( !to || stats[ criteria ] < to ) );
+		.filter( ( stats ) => stats[ criteria ] >= from && ( !to || stats[ criteria ] < to ) );
 
 	// Sort alphabetically
-	list.sort( function ( a, b ) {
+	list.sort( ( a, b ) => {
 		var aName = getLanguageName( a.code ),
 			bName = getLanguageName( b.code ),
 			asort = aName.sort || aName.latin || aName.name,
@@ -185,7 +183,7 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 	} );
 
 	// Return code only
-	list = list.map( function ( wiki ) {
+	list = list.map( ( wiki ) => {
 		var light = {
 			code: wiki.code
 		};
@@ -262,7 +260,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 	}
 
 	// Format the list with all the information we have
-	list.forEach( function ( top, index ) {
+	list.forEach( ( top, index ) => {
 
 		var stats = siteStats[ portal ][ top.code ],
 			siteDef = siteDefs[ top.code ],
@@ -315,7 +313,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 
 		function buildVariantedL10n( a, b, attrs ) {
 			var varianted = {};
-			attrs.forEach( function ( attr ) {
+			attrs.forEach( ( attr ) => {
 				if ( a[ attr ] && b[ attr ] ) {
 					varianted[ attr ] = `${a[ attr ]} / ${b[ attr ]}`;
 				} else if ( a[ attr ] ) {
@@ -354,7 +352,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 		}
 
 		if ( siteDef ) {
-			extendedl10n.forEach( function ( prop ) {
+			extendedl10n.forEach( ( prop ) => {
 				formatted[ prop ] = siteDef[ prop ];
 			} );
 		}
@@ -383,7 +381,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 	} );
 
 	// Need to rebuild the list as some wikis may have been merged.
-	list.forEach( function ( top ) {
+	list.forEach( ( top ) => {
 		if ( newListByCode[ top.code ] ) {
 			newList.push( newListByCode[ top.code ] );
 		}

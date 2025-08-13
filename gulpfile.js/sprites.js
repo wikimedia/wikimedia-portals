@@ -11,18 +11,16 @@ function cleanSprites() {
 	const outputSVGGlob = conf.img.sprite.outputSVGGlob;
 	const outputSVGFiles = glob.sync( outputSVGGlob );
 
-	return Promise.all( outputSVGFiles.map( file => {
-		return new Promise( ( resolve, reject ) => {
-			fs.unlink( file, err => {
-				if ( err ) {
-					reject( err );
-				} else {
-					console.log( `Sprite file deleted: ${file}` );
-					resolve();
-				}
-			} );
+	return Promise.all( outputSVGFiles.map( ( file ) => new Promise( ( resolve, reject ) => {
+		fs.unlink( file, ( err ) => {
+			if ( err ) {
+				reject( err );
+			} else {
+				console.log( `Sprite file deleted: ${file}` );
+				resolve();
+			}
 		} );
-	} ) );
+	} ) ) );
 }
 
 function createSvgSprite() {

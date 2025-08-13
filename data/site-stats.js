@@ -26,8 +26,8 @@ function httpGet( url ) {
 	var options = { headers: { 'User-Agent': 'Wikimedia portals updater' } };
 
 	return fetch( url, options )
-		.then( response => response.text() )
-		.then( responseText => {
+		.then( ( response ) => response.text() )
+		.then( ( responseText ) => {
 			try {
 				const responseJSON = JSON.parse( responseText );
 				return Promise.resolve( responseJSON );
@@ -35,7 +35,7 @@ function httpGet( url ) {
 				return Promise.resolve( responseText );
 			}
 		} )
-		.catch( cause => {
+		.catch( ( cause ) => {
 			// I can haz error message that makes sense?
 			const err = new Error( 'Error requesting ' + url, { cause } );
 			// Gulp's logging ignores the stack trace, so we also log on our own
@@ -52,7 +52,7 @@ function getPageCounts() {
 	} else {
 		// Developer's machine
 		return httpGet( 'https://pagecounts.toolforge.org/pagecounts.json' )
-			.then( function ( pagecounts ) {
+			.then( ( pagecounts ) => {
 				var stats = {};
 
 				Object.entries( pagecounts ).forEach( ( [ code, wiki ] ) => {
@@ -71,9 +71,7 @@ function getSiteMatrix() {
 function parseProjectString( str ) {
 	var parts = str
 			.split( '.' )
-			.filter( function ( part ) {
-				return part !== 'm' && part !== 'zero';
-			} ),
+			.filter( ( part ) => part !== 'm' && part !== 'zero' ),
 		name = parts.shift();
 	if ( codeMapping[ name ] ) {
 		return codeMapping[ name ];
@@ -138,16 +136,14 @@ function getViewsData() {
 			stats.push( content );
 		} catch ( ex ) {
 			if ( !content ) {
-				promise = promise.then( function () {
-					return httpGet( hour.url )
-						.then( function ( text ) {
-							if ( !text ) {
-								throw new Error( `There was an error fetching the following URL: ${hour.url}` );
-							}
-							fs.writeFileSync( fileName, text );
-							stats.push( text );
-						} );
-				}
+				promise = promise.then( () => httpGet( hour.url )
+					.then( ( text ) => {
+						if ( !text ) {
+							throw new Error( `There was an error fetching the following URL: ${hour.url}` );
+						}
+						fs.writeFileSync( fileName, text );
+						stats.push( text );
+					} )
 				);
 			}
 		}
@@ -158,7 +154,7 @@ function getViewsData() {
 
 function getProjectViews() {
 	return getViewsData()
-		.then( function ( hourlies ) {
+		.then( ( hourlies ) => {
 			var views = {};
 
 			hourlies.forEach( ( hourly ) => {
@@ -188,7 +184,7 @@ function getSiteStats() {
 	var stats = {};
 
 	return Promise.all( [ getPageCounts(), getSiteMatrix(), getProjectViews() ] )
-		.then( function ( data ) {
+		.then( ( data ) => {
 			var counts = data[ 0 ],
 				siteMatrix = data[ 1 ].sitematrix,
 				views = data[ 2 ];

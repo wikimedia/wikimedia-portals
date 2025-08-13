@@ -10,7 +10,7 @@ var fs = require( 'fs' ),
  */
 function deleteFiles( loc, days ) {
 	function unlinkFile( fileName ) { // Delete file
-		fs.unlink( loc + fileName, function ( error ) {
+		fs.unlink( loc + fileName, ( error ) => {
 			if ( error ) {
 				console.error( 'Error deleting the file: ', error );
 			}
@@ -33,8 +33,8 @@ function deleteFiles( loc, days ) {
 		if ( error ) {
 			console.error( 'Cannot find files: ', error );
 		} else {
-			files.forEach( function ( fileName ) {
-				fs.stat( loc + fileName, function ( err, fileStats ) {
+			files.forEach( ( fileName ) => {
+				fs.stat( loc + fileName, ( err, fileStats ) => {
 					// Find stats for each file
 					checkStats( err, fileStats, fileName );
 				} );
