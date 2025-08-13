@@ -2,7 +2,6 @@
 	"extends": "wikimedia/server",
 	"root": true,
 	"rules": {
-		"no-var": "off",
 		"prefer-const": "off",
 		"strict": "off",
 		"template-curly-spacing": "off",

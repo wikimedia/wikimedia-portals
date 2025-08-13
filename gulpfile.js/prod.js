@@ -1,4 +1,4 @@
-var gulp = require( 'gulp' ),
+const gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	plugins = gulpLoadPlugins(),
 	fs = require( 'fs' ),
@@ -43,8 +43,8 @@ function inlineAssets() {
  */
 function cleanProdJS( cb ) {
 	try {
-		var prodDir = getProdDir();
-		var jsFolderPath = path.join( prodDir, 'assets', 'js' );
+		const prodDir = getProdDir();
+		const jsFolderPath = path.join( prodDir, 'assets', 'js' );
 
 		if ( fs.existsSync( jsFolderPath ) ) {
 			fs.rmSync( jsFolderPath, { recursive: true } );
@@ -126,7 +126,7 @@ function minifyHTML() {
  */
 function copyImages() {
 
-	var conf = getConfig();
+	const conf = getConfig();
 	requirePortalParam();
 	return gulp.src( conf.img.src ).pipe( gulp.dest( conf.img.dest ) );
 }

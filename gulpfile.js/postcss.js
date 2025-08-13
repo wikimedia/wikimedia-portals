@@ -1,4 +1,4 @@
-var gulp = require( 'gulp' ),
+const gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	plugins = gulpLoadPlugins(),
 	postCSSNext = require( 'postcss-cssnext' ),

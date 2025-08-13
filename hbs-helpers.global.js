@@ -1,5 +1,5 @@
 /* eslint-env node */
-var Handlebars = require( 'handlebars' ),
+const Handlebars = require( 'handlebars' ),
 	helpers = {};
 
 /**
@@ -21,8 +21,9 @@ var Handlebars = require( 'handlebars' ),
  * @return {Handlebars.SafeString}
  */
 helpers.printAttrs = function ( attrs ) {
-	var output = '',
-		whiteList = [ 'id', 'class', 'lang', 'data-title-hans', 'data-title-hant', 'data-hans', 'data-hant' ],
+	const whiteList = [ 'id', 'class', 'lang', 'data-title-hans', 'data-title-hant', 'data-hans', 'data-hant' ];
+
+	let output = '',
 		lowercase, attr;
 
 	if ( this[ attrs ] ) {
@@ -55,7 +56,7 @@ helpers.printAttrs = function ( attrs ) {
  * @return {Handlebars.SafeString}
  */
 helpers.printClasses = function ( classes ) {
-	var output = '';
+	let output = '';
 
 	if ( this[ classes ] && Array.isArray( this[ classes ] ) ) {
 		output = Handlebars.escapeExpression( ' ' + this[ classes ].join( ' ' ) );
@@ -87,7 +88,7 @@ helpers.eq = function ( a, b, options ) {
  * @return {Handlebars.SafeString}
  */
 helpers.formatNumber = function ( number, options ) {
-	var numberLength, powerOfTen;
+	let numberLength, powerOfTen;
 
 	if ( options.hash.rounded ) {
 		numberLength = Math.min( number.toString().length - 1, 3 );

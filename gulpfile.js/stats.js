@@ -1,4 +1,4 @@
-var siteStats = require( '../data/site-stats' ),
+const siteStats = require( '../data/site-stats' ),
 	fs = require( 'fs' );
 
 function updateStats() {

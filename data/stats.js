@@ -1,4 +1,4 @@
-var siteStats = require( './site-stats.json' ),
+let siteStats = require( './site-stats.json' ),
 	siteDefsFormatting = require( './l10n-overrides.json' ),
 	fs = require( 'fs' ),
 	languageData = require( '@wikimedia/language-data' ),
@@ -50,10 +50,10 @@ function warn( code, text, info ) {
  * @return {{name: string, sort?: string, latin?: string}}
  */
 function getLanguageName( code ) {
-	var siteDef = siteDefs[ code ],
+	let siteDef = siteDefs[ code ],
 		languageDataAutonym = languageData.getAutonym( code );
 	if ( siteDef ) {
-		var name = siteDef[ 'language-name' ],
+		let name = siteDef[ 'language-name' ],
 			names = { name: name || languageDataAutonym };
 		if ( !name ) {
 			warn(
@@ -84,11 +84,11 @@ function getLanguageName( code ) {
 }
 
 Stats.readi18nFiles = function ( dirname ) {
-	var siteDefinitions = {},
+	let siteDefinitions = {},
 		fileNames = fs.readdirSync( dirname );
 
 	fileNames.forEach( ( filename ) => {
-		var fileContent = fs.readFileSync( dirname + filename, 'utf-8' ),
+		let fileContent = fs.readFileSync( dirname + filename, 'utf-8' ),
 			langCode = filename.replace( '.json', '' );
 
 		// T319137 skr translation file is named differently than
@@ -130,7 +130,7 @@ Stats.getTop = function ( portal, criteria, n ) {
 	let topViewed = Object.entries( siteStats[ portal ] )
 		.map( ( [ code, stats ] ) => ( { ...stats, code } ) )
 		.filter( ( { code, closed } ) => {
-			var siteDef = siteDefs[ code ],
+			let siteDef = siteDefs[ code ],
 				portalDef = siteDef && siteDef[ portal ];
 			// T355001: Lacking localization should not bar the site from being top 10.
 			// For Chinese sites, we will build zh entries from zh-hans and zh-hant entries later.
@@ -165,7 +165,7 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 
 	// Sort alphabetically
 	list.sort( ( a, b ) => {
-		var aName = getLanguageName( a.code ),
+		let aName = getLanguageName( a.code ),
 			bName = getLanguageName( b.code ),
 			asort = aName.sort || aName.latin || aName.name,
 			bsort = bName.sort || bName.latin || bName.name;
@@ -184,7 +184,7 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 
 	// Return code only
 	list = list.map( ( wiki ) => {
-		var light = {
+		let light = {
 			code: wiki.code
 		};
 		light[ criteria ] = wiki[ criteria ];
@@ -229,7 +229,7 @@ Stats.getRange = function ( portal, criteria, from, to ) {
  * @return {Array} List of wikis with all their information.
  */
 Stats.format = function ( portal, list, optionsArg ) {
-	var newList = [],
+	let newList = [],
 		newListByCode = {},
 		options = optionsArg || {};
 
@@ -243,7 +243,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 	 * @private
 	 */
 	function mergeWikis( parentCode, wiki ) {
-		var matches = /(.+)\(([^)]+)\)/.exec( wiki.name );
+		let matches = /(.+)\(([^)]+)\)/.exec( wiki.name );
 
 		newListByCode[ parentCode ] = newListByCode[ parentCode ] || {};
 		newListByCode[ parentCode ].sublinks = newListByCode[ parentCode ].sublinks || [];
@@ -262,7 +262,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 	// Format the list with all the information we have
 	list.forEach( ( top, index ) => {
 
-		var stats = siteStats[ portal ][ top.code ],
+		let stats = siteStats[ portal ][ top.code ],
 			siteDef = siteDefs[ top.code ],
 			portalDef = siteDef?.[ portal ] || {},
 			extendedl10n = [
@@ -312,7 +312,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 		}
 
 		function buildVariantedL10n( a, b, attrs ) {
-			var varianted = {};
+			let varianted = {};
 			attrs.forEach( ( attr ) => {
 				if ( a[ attr ] && b[ attr ] ) {
 					varianted[ attr ] = `${a[ attr ]} / ${b[ attr ]}`;
@@ -395,7 +395,7 @@ Stats.format = function ( portal, list, optionsArg ) {
  * @return {Array} A list formatted with {@link #format}.
  */
 Stats.getTopFormatted = function ( portal, criteria, n ) {
-	var list = this.getTop( portal, criteria, n );
+	let list = this.getTop( portal, criteria, n );
 
 	return this.format( portal, list );
 };
@@ -405,7 +405,7 @@ Stats.getTopFormatted = function ( portal, criteria, n ) {
  * @return {Array} A list formatted with {@link #format}.
  */
 Stats.getRangeFormatted = function ( portal, criteria, from, to ) {
-	var list = this.getRange( portal, criteria, from, to );
+	let list = this.getRange( portal, criteria, from, to );
 
 	return this.format( portal, list, { merge: true } );
 };

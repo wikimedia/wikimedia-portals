@@ -23,7 +23,7 @@ const fs = require( 'fs' ),
 	};
 
 function httpGet( url ) {
-	var options = { headers: { 'User-Agent': 'Wikimedia portals updater' } };
+	let options = { headers: { 'User-Agent': 'Wikimedia portals updater' } };
 
 	return fetch( url, options )
 		.then( ( response ) => response.text() )
@@ -53,7 +53,7 @@ function getPageCounts() {
 		// Developer's machine
 		return httpGet( 'https://pagecounts.toolforge.org/pagecounts.json' )
 			.then( ( pagecounts ) => {
-				var stats = {};
+				let stats = {};
 
 				Object.entries( pagecounts ).forEach( ( [ code, wiki ] ) => {
 					code = code.replace( /_/g, '-' );
@@ -69,7 +69,7 @@ function getSiteMatrix() {
 }
 
 function parseProjectString( str ) {
-	var parts = str
+	let parts = str
 			.split( '.' )
 			.filter( ( part ) => part !== 'm' && part !== 'zero' ),
 		name = parts.shift();
@@ -118,7 +118,7 @@ function garbageCollect() {
 }
 
 function getViewsData() {
-	var list = generateFileList( DAYS ),
+	let list = generateFileList( DAYS ),
 		stats = [],
 		promise = Promise.resolve();
 
@@ -129,7 +129,7 @@ function getViewsData() {
 
 	// Go synchronously to avoid hitting throttling on the server
 	list.forEach( ( hour ) => {
-		var fileName = 'cache/' + hour.file,
+		let fileName = 'cache/' + hour.file,
 			content;
 		try {
 			content = fs.readFileSync( fileName, { encoding: 'utf8' } );
@@ -155,16 +155,16 @@ function getViewsData() {
 function getProjectViews() {
 	return getViewsData()
 		.then( ( hourlies ) => {
-			var views = {};
+			let views = {};
 
 			hourlies.forEach( ( hourly ) => {
-				var lines;
+				let lines;
 				if ( !hourly ) {
 					return;
 				}
 				lines = hourly.toString().split( '\n' );
 				lines.forEach( ( line ) => {
-					var parts = line.split( /\s+-?\s*/ ),
+					let parts = line.split( /\s+-?\s*/ ),
 						wiki = parseProjectString( parts[ 0 ] );
 					views[ wiki ] = views[ wiki ] || 0;
 					views[ wiki ] += parseInt( parts[ 1 ], 10 );
@@ -181,11 +181,11 @@ function getProjectViews() {
 }
 
 function getSiteStats() {
-	var stats = {};
+	let stats = {};
 
 	return Promise.all( [ getPageCounts(), getSiteMatrix(), getProjectViews() ] )
 		.then( ( data ) => {
-			var counts = data[ 0 ],
+			let counts = data[ 0 ],
 				siteMatrix = data[ 1 ].sitematrix,
 				views = data[ 2 ];
 
@@ -194,7 +194,7 @@ function getSiteStats() {
 					return; // Not a language... Fuck, this API's output is ugly
 				}
 				Object.values( lang.site ).forEach( ( site ) => {
-					var dbname = site.dbname.replace( /_/g, '-' );
+					let dbname = site.dbname.replace( /_/g, '-' );
 					stats[ site.code ] = stats[ site.code ] || {};
 					stats[ site.code ][ lang.code ] = {
 						url: site.url,

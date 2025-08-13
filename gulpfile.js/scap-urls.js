@@ -1,11 +1,11 @@
-var gulp = require( 'gulp' ),
+const gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	fs = require( 'fs' ),
 	plugins = gulpLoadPlugins(),
 	gulpSlash = require( 'gulp-slash' );
 
 function updateURLsToPurge() {
-	var UrlsToPurge = [
+	const UrlsToPurge = [
 			'https://www.wikibooks.org/',
 			'https://www.wikimedia.org/',
 			'https://www.wikinews.org/',
@@ -19,7 +19,7 @@ function updateURLsToPurge() {
 		purgeFile = 'prod/urls-to-purge.txt';
 
 	function createAssetUrl( file ) {
-		var domain, urlToPurge;
+		let domain, urlToPurge;
 		domain = file.relative.split( '/' )[ 0 ];
 		urlToPurge = 'https://www.' + domain + '/portal/' + file.relative;
 		return urlToPurge;
@@ -30,7 +30,7 @@ function updateURLsToPurge() {
 	}
 
 	function assetFilesStream( file ) {
-		var assetUrl;
+		let assetUrl;
 		if ( file.isDirectory() ) {
 			return;
 		}
@@ -39,7 +39,7 @@ function updateURLsToPurge() {
 	}
 
 	function writePurgeFile() {
-		var fileContents = UrlsToPurge.join( '\n' );
+		const fileContents = UrlsToPurge.join( '\n' );
 		fs.writeFileSync( purgeFile, fileContents );
 	}
 

@@ -1,5 +1,5 @@
 /* eslint-env node, es6 */
-var gulp = require( 'gulp' );
+const gulp = require( 'gulp' );
 
 /**
  * @external Stream

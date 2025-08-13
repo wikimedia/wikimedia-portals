@@ -1,4 +1,4 @@
-var gulp = require( 'gulp' ),
+const gulp = require( 'gulp' ),
 	gulpLoadPlugins = require( 'gulp-load-plugins' ),
 	fs = require( 'fs' ),
 	glob = require( 'glob' ),
@@ -24,7 +24,7 @@ function cleanSprites() {
 }
 
 function createSvgSprite() {
-	var conf = getConfig();
+	const conf = getConfig();
 	return gulp.src( conf.img.sprite.assets )
 		.pipe( plugins.svgSprite( {
 			shape: {

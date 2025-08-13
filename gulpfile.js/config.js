@@ -1,4 +1,4 @@
-var argv = require( 'yargs' ).argv,
+let argv = require( 'yargs' ).argv,
 	portalParam = argv.portal,
 	getBaseDir, getProdDir, getConfig;
 
@@ -36,7 +36,7 @@ getProdDir = function () {
 };
 
 getConfig = function () {
-	var config = {},
+	let config = {},
 		baseDir, prodDir;
 
 	baseDir = getBaseDir();

@@ -1,4 +1,4 @@
-var gulp = require( 'gulp' );
+const gulp = require( 'gulp' );
 
 const { requirePortalParam, getConfig } = require( './config' );
 
