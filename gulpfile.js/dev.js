@@ -1,3 +1,5 @@
+'use strict';
+
 const gulp = require( 'gulp' );
 
 const { requirePortalParam, getConfig } = require( './config' );

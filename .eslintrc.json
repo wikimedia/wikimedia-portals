@@ -3,7 +3,6 @@
 	"root": true,
 	"rules": {
 		"prefer-const": "off",
-		"strict": "off",
 		"template-curly-spacing": "off",
 		"n/no-missing-require": "off",
 		"n/no-process-exit": "off",

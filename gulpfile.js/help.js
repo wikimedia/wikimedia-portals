@@ -1,3 +1,5 @@
+'use strict';
+
 // Help
 function help( cb ) {
 	const helpinfo = `

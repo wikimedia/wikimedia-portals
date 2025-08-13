@@ -1,3 +1,5 @@
+'use strict';
+
 let argv = require( 'yargs' ).argv,
 	portalParam = argv.portal,
 	getBaseDir, getProdDir, getConfig;

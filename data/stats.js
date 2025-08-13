@@ -1,3 +1,5 @@
+'use strict';
+
 let siteStats = require( './site-stats.json' ),
 	siteDefsFormatting = require( './l10n-overrides.json' ),
 	fs = require( 'fs' ),
