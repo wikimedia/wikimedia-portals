@@ -60,12 +60,12 @@ function getLanguageName( code ) {
 		if ( !name ) {
 			warn(
 				code,
-				`No 'language-name' for ${code}, using the one from @wikimedia/language-data (${languageDataAutonym})`
+				`No 'language-name' for ${ code }, using the one from @wikimedia/language-data (${ languageDataAutonym })`
 			);
 		} else if ( languageNamesDiffer( name, languageDataAutonym ) ) {
 			warn(
 				code,
-				`'language-name' for ${code} (${name}) differs from the one from @wikimedia/language-data (${languageDataAutonym})`,
+				`'language-name' for ${ code } (${ name }) differs from the one from @wikimedia/language-data (${ languageDataAutonym })`,
 				true
 			);
 		}
@@ -79,7 +79,7 @@ function getLanguageName( code ) {
 	} else {
 		warn(
 			code,
-			`No siteDef for ${code}, using name from @wikimedia/language-data (${languageDataAutonym})`
+			`No siteDef for ${ code }, using name from @wikimedia/language-data (${ languageDataAutonym })`
 		);
 		return { name: languageDataAutonym };
 	}
@@ -137,7 +137,7 @@ Stats.getTop = function ( portal, criteria, n ) {
 			// T355001: Lacking localization should not bar the site from being top 10.
 			// For Chinese sites, we will build zh entries from zh-hans and zh-hant entries later.
 			if ( !portalDef && code !== 'zh' ) {
-				warn( code, `No localization of the site name, entry name, and slogan for ${code}.${portal}.org` );
+				warn( code, `No localization of the site name, entry name, and slogan for ${ code }.${ portal }.org` );
 			}
 			return siteDef && closed === false;
 		} );
@@ -317,7 +317,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 			let varianted = {};
 			attrs.forEach( ( attr ) => {
 				if ( a[ attr ] && b[ attr ] ) {
-					varianted[ attr ] = `${a[ attr ]} / ${b[ attr ]}`;
+					varianted[ attr ] = `${ a[ attr ] } / ${ b[ attr ] }`;
 				} else if ( a[ attr ] ) {
 					varianted[ attr ] = a?.[ attr ] || b?.[ attr ] || siteStats[ portal ].en[ attr ];
 				}

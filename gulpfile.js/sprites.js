@@ -18,7 +18,7 @@ function cleanSprites() {
 			if ( err ) {
 				reject( err );
 			} else {
-				console.log( `Sprite file deleted: ${file}` );
+				console.log( `Sprite file deleted: ${ file }` );
 				resolve();
 			}
 		} );

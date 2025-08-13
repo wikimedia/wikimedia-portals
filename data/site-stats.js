@@ -141,7 +141,7 @@ function getViewsData() {
 				promise = promise.then( () => httpGet( hour.url )
 					.then( ( text ) => {
 						if ( !text ) {
-							throw new Error( `There was an error fetching the following URL: ${hour.url}` );
+							throw new Error( `There was an error fetching the following URL: ${ hour.url }` );
 						}
 						fs.writeFileSync( fileName, text );
 						stats.push( text );

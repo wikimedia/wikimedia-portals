@@ -50,10 +50,10 @@ function cleanProdJS( cb ) {
 
 		if ( fs.existsSync( jsFolderPath ) ) {
 			fs.rmSync( jsFolderPath, { recursive: true } );
-			console.log( `Cleaned: ${jsFolderPath}` );
+			console.log( `Cleaned: ${ jsFolderPath }` );
 			cb(); // Callback after success
 		} else {
-			console.log( `Directory does not exist: ${jsFolderPath}` );
+			console.log( `Directory does not exist: ${ jsFolderPath }` );
 			cb(); // Callback after success (assuming cleaning is not needed if the directory doesn't exist)
 		}
 	} catch ( error ) {
@@ -73,7 +73,7 @@ function copyTranslationFiles() {
 			.filter( ( file ) => file.endsWith( '.json' ) )
 			.forEach( ( file ) => fs.unlinkSync( path.join( assetsDir, file ) ) );
 	} else {
-		console.log( `Directory does not exist: ${assetsDir}` );
+		console.log( `Directory does not exist: ${ assetsDir }` );
 	}
 	return gulp.src( path.join( getBaseDir(), 'assets', 'l10n/**/*.json' ) )
 		.pipe( gulp.dest( assetsDir ) );
@@ -95,7 +95,7 @@ function concatMinifyJS() {
 				 * Rewrite concatenated file path to include symlink
 				 * necessary for production apache config.
 				 */
-				return `portal/${portalParam}/${filePath}`;
+				return `portal/${ portalParam }/${ filePath }`;
 			}
 		} ) )
 		.pipe( plugins.if( '*.js', plugins.uglify() ) )
