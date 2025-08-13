@@ -25,7 +25,7 @@ const fs = require( 'fs' ),
 	};
 
 function httpGet( url ) {
-	let options = { headers: { 'User-Agent': 'Wikimedia portals updater' } };
+	const options = { headers: { 'User-Agent': 'Wikimedia portals updater' } };
 
 	return fetch( url, options )
 		.then( ( response ) => response.text() )
@@ -55,7 +55,7 @@ function getPageCounts() {
 		// Developer's machine
 		return httpGet( 'https://pagecounts.toolforge.org/pagecounts.json' )
 			.then( ( pagecounts ) => {
-				let stats = {};
+				const stats = {};
 
 				Object.entries( pagecounts ).forEach( ( [ code, wiki ] ) => {
 					code = code.replace( /_/g, '-' );
@@ -71,10 +71,10 @@ function getSiteMatrix() {
 }
 
 function parseProjectString( str ) {
-	let parts = str
-			.split( '.' )
-			.filter( ( part ) => part !== 'm' && part !== 'zero' ),
-		name = parts.shift();
+	const parts = str
+		.split( '.' )
+		.filter( ( part ) => part !== 'm' && part !== 'zero' );
+	let name = parts.shift();
 	if ( codeMapping[ name ] ) {
 		return codeMapping[ name ];
 	}
@@ -120,9 +120,10 @@ function garbageCollect() {
 }
 
 function getViewsData() {
-	let list = generateFileList( DAYS ),
-		stats = [],
-		promise = Promise.resolve();
+	const list = generateFileList( DAYS ),
+		stats = [];
+
+	let promise = Promise.resolve();
 
 	if ( !fs.existsSync( 'cache' ) ) {
 		fs.mkdirSync( 'cache' );
@@ -131,8 +132,8 @@ function getViewsData() {
 
 	// Go synchronously to avoid hitting throttling on the server
 	list.forEach( ( hour ) => {
-		let fileName = 'cache/' + hour.file,
-			content;
+		const fileName = 'cache/' + hour.file;
+		let content;
 		try {
 			content = fs.readFileSync( fileName, { encoding: 'utf8' } );
 			stats.push( content );
@@ -157,16 +158,15 @@ function getViewsData() {
 function getProjectViews() {
 	return getViewsData()
 		.then( ( hourlies ) => {
-			let views = {};
+			const views = {};
 
 			hourlies.forEach( ( hourly ) => {
-				let lines;
 				if ( !hourly ) {
 					return;
 				}
-				lines = hourly.toString().split( '\n' );
+				const lines = hourly.toString().split( '\n' );
 				lines.forEach( ( line ) => {
-					let parts = line.split( /\s+-?\s*/ ),
+					const parts = line.split( /\s+-?\s*/ ),
 						wiki = parseProjectString( parts[ 0 ] );
 					views[ wiki ] = views[ wiki ] || 0;
 					views[ wiki ] += parseInt( parts[ 1 ], 10 );
@@ -183,11 +183,11 @@ function getProjectViews() {
 }
 
 function getSiteStats() {
-	let stats = {};
+	const stats = {};
 
 	return Promise.all( [ getPageCounts(), getSiteMatrix(), getProjectViews() ] )
 		.then( ( data ) => {
-			let counts = data[ 0 ],
+			const counts = data[ 0 ],
 				siteMatrix = data[ 1 ].sitematrix,
 				views = data[ 2 ];
 
@@ -196,7 +196,7 @@ function getSiteStats() {
 					return; // Not a language... Fuck, this API's output is ugly
 				}
 				Object.values( lang.site ).forEach( ( site ) => {
-					let dbname = site.dbname.replace( /_/g, '-' );
+					const dbname = site.dbname.replace( /_/g, '-' );
 					stats[ site.code ] = stats[ site.code ] || {};
 					stats[ site.code ][ lang.code ] = {
 						url: site.url,

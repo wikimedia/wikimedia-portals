@@ -1,8 +1,9 @@
 'use strict';
 
-let argv = require( 'yargs' ).argv,
-	portalParam = argv.portal,
-	getBaseDir, getProdDir, getConfig;
+const argv = require( 'yargs' ).argv,
+	portalParam = argv.portal;
+
+let getBaseDir, getProdDir, getConfig;
 
 /**
  * Preliminary task for tasks that require the portal param.
@@ -38,11 +39,9 @@ getProdDir = function () {
 };
 
 getConfig = function () {
-	let config = {},
-		baseDir, prodDir;
-
-	baseDir = getBaseDir();
-	prodDir = getProdDir();
+	const config = {};
+	const baseDir = getBaseDir();
+	const prodDir = getProdDir();
 
 	config.hb = {
 		src: baseDir + 'index.handlebars',

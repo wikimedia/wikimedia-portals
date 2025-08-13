@@ -21,9 +21,8 @@ function updateURLsToPurge() {
 		purgeFile = 'prod/urls-to-purge.txt';
 
 	function createAssetUrl( file ) {
-		let domain, urlToPurge;
-		domain = file.relative.split( '/' )[ 0 ];
-		urlToPurge = 'https://www.' + domain + '/portal/' + file.relative;
+		const domain = file.relative.split( '/' )[ 0 ];
+		const urlToPurge = 'https://www.' + domain + '/portal/' + file.relative;
 		return urlToPurge;
 	}
 
@@ -32,11 +31,10 @@ function updateURLsToPurge() {
 	}
 
 	function assetFilesStream( file ) {
-		let assetUrl;
 		if ( file.isDirectory() ) {
 			return;
 		}
-		assetUrl = createAssetUrl( file );
+		const assetUrl = createAssetUrl( file );
 		return addAssetUrl( assetUrl );
 	}
 

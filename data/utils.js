@@ -1,8 +1,8 @@
 'use strict';
 
-let fs = require( 'fs' ),
-	glob = require( 'glob' ),
-	numOfDays;
+const fs = require( 'fs' ),
+	glob = require( 'glob' );
+let numOfDays;
 
 /**
  * Delete files in a directory

@@ -1,13 +1,12 @@
 'use strict';
 
-let siteStats = require( './site-stats.json' ),
+const siteStats = require( './site-stats.json' ),
 	siteDefsFormatting = require( './l10n-overrides.json' ),
 	fs = require( 'fs' ),
 	languageData = require( '@wikimedia/language-data' ),
 	/** @type {Set.<string>} Languages for which language name warnings have already been issued */
 	warnedLanguages = new Set(),
-	Stats = {},
-	siteDefs;
+	Stats = {};
 
 /**
  * Determine whether there is a notable difference between two names
@@ -44,6 +43,36 @@ function warn( code, text, info ) {
 	}
 }
 
+Stats.readi18nFiles = function ( dirname ) {
+	const siteDefinitions = {},
+		fileNames = fs.readdirSync( dirname );
+
+	fileNames.forEach( ( filename ) => {
+		const fileContent = fs.readFileSync( dirname + filename, 'utf-8' );
+
+		let langCode = filename.replace( '.json', '' );
+
+		// T319137 skr translation file is named differently than
+		// domain name and name in site-stats.json.
+		if ( langCode === 'skr-arab' ) {
+			langCode = 'skr';
+		}
+
+		siteDefinitions[ langCode ] = JSON.parse( fileContent );
+
+		if ( siteDefsFormatting[ langCode ] ) {
+			siteDefinitions[ langCode ] = {
+				...siteDefinitions[ langCode ],
+				...siteDefsFormatting[ langCode ]
+			};
+		}
+	} );
+
+	return siteDefinitions;
+};
+
+const siteDefs = Stats.readi18nFiles( __dirname + '/../l10n/' );
+
 /**
  * Get the different names for a language, primarily from `siteDefs`,
  * falling back to `language-data`.
@@ -52,10 +81,10 @@ function warn( code, text, info ) {
  * @return {{name: string, sort?: string, latin?: string}}
  */
 function getLanguageName( code ) {
-	let siteDef = siteDefs[ code ],
+	const siteDef = siteDefs[ code ],
 		languageDataAutonym = languageData.getAutonym( code );
 	if ( siteDef ) {
-		let name = siteDef[ 'language-name' ],
+		const name = siteDef[ 'language-name' ],
 			names = { name: name || languageDataAutonym };
 		if ( !name ) {
 			warn(
@@ -85,35 +114,6 @@ function getLanguageName( code ) {
 	}
 }
 
-Stats.readi18nFiles = function ( dirname ) {
-	let siteDefinitions = {},
-		fileNames = fs.readdirSync( dirname );
-
-	fileNames.forEach( ( filename ) => {
-		let fileContent = fs.readFileSync( dirname + filename, 'utf-8' ),
-			langCode = filename.replace( '.json', '' );
-
-		// T319137 skr translation file is named differently than
-		// domain name and name in site-stats.json.
-		if ( langCode === 'skr-arab' ) {
-			langCode = 'skr';
-		}
-
-		siteDefinitions[ langCode ] = JSON.parse( fileContent );
-
-		if ( siteDefsFormatting[ langCode ] ) {
-			siteDefinitions[ langCode ] = {
-				...siteDefinitions[ langCode ],
-				...siteDefsFormatting[ langCode ]
-			};
-		}
-	} );
-
-	return siteDefinitions;
-};
-
-siteDefs = Stats.readi18nFiles( __dirname + '/../l10n/' );
-
 Stats.nonStandardCodes = {
 	'zh-min-nan': 'nan',
 	'skr-arab': 'skr'
@@ -129,10 +129,10 @@ Stats.nonStandardCodes = {
 Stats.getTop = function ( portal, criteria, n ) {
 
 	// Validate
-	let topViewed = Object.entries( siteStats[ portal ] )
+	const topViewed = Object.entries( siteStats[ portal ] )
 		.map( ( [ code, stats ] ) => ( { ...stats, code } ) )
 		.filter( ( { code, closed } ) => {
-			let siteDef = siteDefs[ code ],
+			const siteDef = siteDefs[ code ],
 				portalDef = siteDef && siteDef[ portal ];
 			// T355001: Lacking localization should not bar the site from being top 10.
 			// For Chinese sites, we will build zh entries from zh-hans and zh-hant entries later.
@@ -167,9 +167,9 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 
 	// Sort alphabetically
 	list.sort( ( a, b ) => {
-		let aName = getLanguageName( a.code ),
-			bName = getLanguageName( b.code ),
-			asort = aName.sort || aName.latin || aName.name,
+		const aName = getLanguageName( a.code ),
+			bName = getLanguageName( b.code );
+		let asort = aName.sort || aName.latin || aName.name,
 			bsort = bName.sort || bName.latin || bName.name;
 
 		asort = asort.toLowerCase();
@@ -186,7 +186,7 @@ Stats.getRange = function ( portal, criteria, from, to ) {
 
 	// Return code only
 	list = list.map( ( wiki ) => {
-		let light = {
+		const light = {
 			code: wiki.code
 		};
 		light[ criteria ] = wiki[ criteria ];
@@ -231,7 +231,7 @@ Stats.getRange = function ( portal, criteria, from, to ) {
  * @return {Array} List of wikis with all their information.
  */
 Stats.format = function ( portal, list, optionsArg ) {
-	let newList = [],
+	const newList = [],
 		newListByCode = {},
 		options = optionsArg || {};
 
@@ -245,7 +245,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 	 * @private
 	 */
 	function mergeWikis( parentCode, wiki ) {
-		let matches = /(.+)\(([^)]+)\)/.exec( wiki.name );
+		const matches = /(.+)\(([^)]+)\)/.exec( wiki.name );
 
 		newListByCode[ parentCode ] = newListByCode[ parentCode ] || {};
 		newListByCode[ parentCode ].sublinks = newListByCode[ parentCode ].sublinks || [];
@@ -264,7 +264,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 	// Format the list with all the information we have
 	list.forEach( ( top, index ) => {
 
-		let stats = siteStats[ portal ][ top.code ],
+		const stats = siteStats[ portal ][ top.code ],
 			siteDef = siteDefs[ top.code ],
 			portalDef = siteDef?.[ portal ] || {},
 			extendedl10n = [
@@ -291,8 +291,9 @@ Stats.format = function ( portal, list, optionsArg ) {
 				'wikidata',
 				'mediawiki',
 				'metawiki'
-			],
-			nonStandardCode;
+			];
+
+		let nonStandardCode;
 
 		/**
 		 * Get a raw list of a variant and formats it.
@@ -314,7 +315,7 @@ Stats.format = function ( portal, list, optionsArg ) {
 		}
 
 		function buildVariantedL10n( a, b, attrs ) {
-			let varianted = {};
+			const varianted = {};
 			attrs.forEach( ( attr ) => {
 				if ( a[ attr ] && b[ attr ] ) {
 					varianted[ attr ] = `${ a[ attr ] } / ${ b[ attr ] }`;
@@ -397,7 +398,7 @@ Stats.format = function ( portal, list, optionsArg ) {
  * @return {Array} A list formatted with {@link #format}.
  */
 Stats.getTopFormatted = function ( portal, criteria, n ) {
-	let list = this.getTop( portal, criteria, n );
+	const list = this.getTop( portal, criteria, n );
 
 	return this.format( portal, list );
 };
@@ -407,7 +408,7 @@ Stats.getTopFormatted = function ( portal, criteria, n ) {
  * @return {Array} A list formatted with {@link #format}.
  */
 Stats.getRangeFormatted = function ( portal, criteria, from, to ) {
-	let list = this.getRange( portal, criteria, from, to );
+	const list = this.getRange( portal, criteria, from, to );
 
 	return this.format( portal, list, { merge: true } );
 };
