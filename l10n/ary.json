@@ -15,10 +15,28 @@
 	"language-name-romanized-sorted": "Darija",
 	"footer-donate": "يمكن ليك تعاون خدمتنا ب تبرع.",
 	"license": "هاد الصفحة منشورة <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.ar'>تحت لپيرمي ديال لمشاع لإبداعي</a>",
-	"terms": "شروط تخدام",
+	"terms": "شروط التخدام",
 	"privacy-policy": "سياسة لخصوصية",
 	"search-input-button": "قلّب",
 	"other-languages-label": "لوغات خرين",
+	"top-ten-nav-label": "أهم اللوغات",
+	"all-languages-nav-label": "جميع اللوغات",
+	"other-projects-nav-label": "مشاريع خرين",
+	"wikimedia-org-welcome": "مرحبا! لحاراكة د ويكيميديا راها جماعة عالمية ديال الناس، لمشاريع، و لأنشطة لي كيخدمو بيناتهم باش يخلقو و يپارطاجيو لمعرفة بشكل حر.",
+	"wikimedia-org-welcome-subtitle": "نضمّ لينا باش نردو جهميع لمعارف متاحة ل كولشي ف كل مكان.",
+	"wikimedia-org-our-projects": "لمشاريع ديالنا",
+	"wikimedia-org-our-projects-desc": "لمشاريع ديالنا هوما الجوهر ديال <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">لحاراكة د ويكيميديا</a>. جميع لمشاريع لكبيرة كايتسيّرو من عند <a href=\"https://wikimediafoundation.org/\">مؤسسة ويكيميديا</a>، و لمحتوى كيتم تطويرو تشاركياً من عند كتر من 260.000 خدايمي من لعالم كامل ب تخدام الصوفتوير د <a href=\"https://www.mediawiki.org/\">ميدياويكي</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">لمؤسسة د ويكيميديا</a> هيّ منظمة لاربحية لي كاتهوسطي جميع لمشاريع د ويكيميديا، و كاتدعم الجماعات ديالها ف لعالم كامل، لي كايصايبو و كايراجعو لمحتوى لحر.",
+	"wikimedia-org-projects-reference": "مرجع",
+	"wikimedia-org-projects-collections": "لمجموعات",
+	"wikimedia-org-projects-technology": "طيكنولوجيا",
+	"wikimedia-org-projects-guides": "ڭيدات",
+	"wikimedia-org-projects-collaboration": "تعاوون",
+	"wikimedia-org-donate-title": "التبرع ديالك كيحمي حق بنادم ف لمعرفة لحرة و لمفتوحة للجميع.",
+	"wikimedia-org-donate-button": "تبرع دابا",
+	"wikimedia-org-contact": "تاصل بينا",
+	"wikimedia-org-contact-text": "عندك أسئلة على مؤسسة ويكيميديا ولّا لمشاريع د ويكيميديا؟ تواصل معانا.",
+	"wikimedia-org-contact-link": "تاصل بينا",
 	"wiki": {
 		"name": "ويكيپيديا",
 		"slogan": "لموسوعة لحرة",
@@ -87,6 +105,10 @@
 	"wikispecies": {
 		"name": "ويكي نواع",
 		"slogan": "دليل الأنواع الحر"
+	},
+	"wikifunctions": {
+		"name": "ويكي فونكسيون",
+		"slogan": "مكتابة حرة ديال لفونكسيونات"
 	},
 	"wikidata": {
 		"name": "ويكيداطا",
