@@ -22,16 +22,27 @@
 	"wikimedia-org-welcome-subtitle": "Aliĝu al ni por igi la tutan scion disponebla por ĉiu, ĉie.",
 	"wikimedia-org-our-projects": "Niaj projektoj",
 	"wikimedia-org-our-projects-desc": "Niaj projektoj formas la kernon de la <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">vikimedia movado</a>. Ĉiuj ĉefaj projektoj estas prizorgataj de la <a href=\"https://wikimediafoundation.org/\">Fondaĵo Vikimedio</a> kaj ĉiu enhavo estas kunlabore kreata de pli ol 260 000 uzantoj de la tuta mondo per la programaro <a href=\"https://www.mediawiki.org/?uselang=eo\">MediaVikio</a>.",
+	"wikimedia-org-wmf": "La <a href=\"https://wikimediafoundation.org/\">Fondaĵo Vikimedio</a> estas ne-profit-cela organizaĵo, kiu retgastigas ĉiujn Vikimediajn projektojn kaj subtenas komunumojn de la tuta mondo, kiuj kreas kaj prizorgas libere alireblan enhavon.",
+	"wikimedia-org-projects-reference": "Scio",
+	"wikimedia-org-projects-collections": "Kolektoj",
+	"wikimedia-org-projects-technology": "Teĥnologio",
+	"wikimedia-org-projects-guides": "Gvidiloj",
+	"wikimedia-org-projects-collaboration": "Kunlaboro",
+	"wikimedia-org-donate-title": "Viaj donacoj protektas la homrajton al libera kaj malferma scio por ĉiu.",
+	"wikimedia-org-donate-button": "Donaci",
+	"wikimedia-org-contact": "Kontakti",
+	"wikimedia-org-contact-text": "Ĉu vi havas demandojn pri la Fondaĵo Vikimedio aŭ pri ĝiaj projektoj? Kontaktu nin.",
+	"wikimedia-org-contact-link": "Kontakti",
 	"wiki": {
 		"name": "Vikipedio",
 		"slogan": "La libera enciklopedio",
 		"entries": "artikoloj",
-		"search-input-label": "Serĉi tra Vikipedio",
+		"search-input-label": "Serĉi en Vikipedio",
 		"language-button-text": "Legi Vikipedion en via lingvo",
-		"footer-description": "Vikipedio estas gastigata de la Fondaĵo Vikimedio, ne-profit-cela organizaĵo, kiu ankaŭ gastigas kelkajn aliajn projektojn.",
+		"footer-description": "Vikipedio estas retgastigata de la Fondaĵo Vikimedio, ne-profit-cela organizaĵo, kiu ankaŭ retgastigas kelkajn aliajn projektojn.",
 		"app-links": {
 			"title": "Elŝuti aplikaĵon de Vikipedio por Androido aŭ iOS",
-			"description": "Konservi viajn ŝatatajn artikolojn por legi ilin malkonekte, samtempigi listojn de lego inter aparatoj kaj personecigi vian legadan sperton uzante la oficialan aplikaĵon de Vikipedio.",
+			"description": "Konservu viajn ŝatatajn artikolojn por legi ilin malkonekte, samtempigu leg-listojn inter aparatoj kaj personecigu vian legadan sperton uzante la oficialan aplikaĵon de Vikipedio.",
 			"google-store": "Vendejo Google Play",
 			"apple-store": "Apple App Store"
 		}
@@ -47,18 +58,22 @@
 		"name": "Vikilibroj",
 		"slogan": "Liberaj lernolibroj",
 		"entries": "paĝoj",
-		"search-input-label": "Serĉi ĉe Vikilibroj",
+		"search-input-label": "Serĉi en Vikilibroj",
 		"language-button-text": "Legi Vikilibrojn en via lingvo"
 	},
 	"wikinews": {
 		"name": "Vikinovaĵoj",
 		"slogan": "Libera fonto de novaĵoj",
-		"entries": "artikoloj"
+		"entries": "artikoloj",
+		"search-input-label": "Serĉi en Vikinovaĵoj",
+		"language-button-text": "Legi Vikinovaĵojn en via lingvo"
 	},
 	"wikiquote": {
 		"name": "Vikicitaro",
 		"slogan": "Libera kolekto de citaĵoj",
-		"entries": "artikoloj"
+		"entries": "artikoloj",
+		"search-input-label": "Serĉi en Vikicitaro",
+		"language-button-text": "Legi Vikicitaron en via lingvo"
 	},
 	"wikisource": {
 		"name": "Vikifontaro",
@@ -66,21 +81,29 @@
 	},
 	"wikiversity": {
 		"name": "Vikiversitato",
-		"slogan": "Liberaj kursoj",
-		"entries": "lerniloj"
+		"slogan": "Liberaj lerniloj",
+		"entries": "lerniloj",
+		"search-input-label": "Serĉi en Vikiversitato",
+		"language-button-text": "Legi Vikiversitaton en via lingvo"
 	},
 	"wikivoyage": {
 		"name": "Vikivojaĝo",
 		"slogan": "Libera vojaĝada gvidilo",
-		"entries": "paĝoj"
+		"entries": "paĝoj",
+		"search-input-label": "Serĉi en Vikivojaĝo",
+		"language-button-text": "Legi Vikivojaĝon en via lingvo"
 	},
 	"commons": {
 		"name": "Komunejo",
-		"slogan": "Libere uzeblaj fotoj kaj pli"
+		"slogan": "Kolekto de liberaj aŭdvidaĵoj"
 	},
 	"wikispecies": {
 		"name": "Vikispecioj",
 		"slogan": "Libera katalogo de specioj"
+	},
+	"wikifunctions": {
+		"name": "Vikifunkcioj",
+		"slogan": "Biblioteko de liberaj funkcioj"
 	},
 	"wikidata": {
 		"name": "Vikidatumoj",
@@ -88,7 +111,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaVikio",
-		"slogan": "Libera kaj senpaga programo por vikioj"
+		"slogan": "Libera programaro por retgastigi vikiojn"
 	},
 	"metawiki": {
 		"name": "Meta-Vikio",
