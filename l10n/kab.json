@@ -20,8 +20,8 @@
 	"top-ten-nav-label": "Tutlayin timezwura",
 	"all-languages-nav-label": "Akk tutlayin",
 	"other-projects-nav-label": "Isenfaren-nniḍen",
-	"wikimedia-org-welcome": "Ansuf! Amussu n Wikimedia d tametti tamaḍlant n yemdanen, isenfaṛen d irmuden xedmen afus deg ufus akken i wakken ad snulfun udiɣ ad bḍun tamusni s tilelli.",
-	"wikimedia-org-welcome-subtitle": "Ttekki yid-nneɣ akken i wakken ad nerr tussna s umata gar ifassen n yal yiwen, anda yebɣu yili.",
+	"wikimedia-org-welcome": "Ansuf! Amussu Wikimedia d tamɣiwant tagreɣlant n yimdanen, n yisenfaren d yirmuden ara yettmahalen akk akken i usnulfu n tmussni d beṭṭu-ines s tlelli.",
+	"wikimedia-org-welcome-subtitle": "Rnu-d ɣer-neɣ akken ad nerr akk timussniwin gar yifassen n yal yiwen, anda yebɣu yili.",
 	"wikimedia-org-our-projects": "Isenfaṛen-nneɣ",
 	"wikimedia-org-our-projects-desc": "Isenfaṛen-nneɣ d ul n <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">umussu n Wikimedia</a>. Akk isenfaṛen imeqqranen tesselḥay-iten <a href=\"https://wikimediafoundation.org/\">tesbeddit n Wikimedia</a>, ma d agbur snulfa-ten-id ugar n 260 000 n iseqdacen deg umaḍal s useqdec n useɣẓan n <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
 	"wikimedia-org-projects-reference": "Tamsisɣelt",
@@ -102,6 +102,10 @@
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Attafttar ilelli n telmestin"
+	},
+	"wikifunctions": {
+		"name": "Wikitisɣunin",
+		"slogan": "Tamkarḍit tilellit n tesɣunin"
 	},
 	"wikidata": {
 		"name": "Wikidata",

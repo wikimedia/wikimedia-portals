@@ -1,9 +1,54 @@
 {
 	"@metadata": {
 		"authors": [
-			"Juanisc"
+			"Juanisc",
+			"Xamila23"
 		]
 	},
 	"footer-donate": "Je'el u páajtal a wáantik kmeyaje' yéetel a síik taak'in",
-	"terms": "Bix unaj u meyajta'al"
+	"license": "Le linka' disponible tu yoosàk le <a href='https://creativecommons.org/licenses/by-sa/4.0/'>licencia Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Bix unaj u meyajta'al",
+	"privacy-policy": "U mejul u kaláanta´al ba'al ti´ máak",
+	"search-input-button": "Kaaxan",
+	"other-languages-label": "U laak't'aano'ob",
+	"top-ten-nav-label": "T'aano'ob jach meyajta'an",
+	"all-languages-nav-label": "Tuláakal le t'aano'ob",
+	"other-projects-nav-label": "Uláak' meyajo'ob",
+	"wikimedia-org-welcome": "Ki'imak óolal! U péektsilil Wikimediae' jump'éel múuch'kabil yóok'ol kaab tu'ux yaan máako'ob, meyajo'ob yéetel meyajo'ob ku meyajo'ob múuch' uti'al u beetiko'ob yéetel u ts'aiko'ob k'ajóolil tu jáalk'abil.",
+	"wikimedia-org-welcome-subtitle": "Táakpajkech uti'al k ts'áaik tuláakal le k'ajóolil ti' tuláakal máak, tuláakal tu'ux.",
+	"wikimedia-org-our-projects": "k meyajo'ob",
+	"wikimedia-org-our-projects-desc": "K meyajo'obe' leti' u chúumukil u <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">péektsilil Wikimedia</a> . Tuláakal le nukuch meyajo'obo' ku meyajo'ob tumen le <a href=\"https://wikimediafoundation.org/\">Fundación Wikimedia</a> , yéetel le contenido ku desarrolla colaborativamente tumen asab u 260.000 usuarios way yóok'ol kaabe' utilizando le software <a href=\"https://www.mediawiki.org/\">MediaWiki</a> .",
+	"wikimedia-org-projects-reference": "Referensia",
+	"wikimedia-org-projects-collections": "Liisáj ba'alo'ob",
+	"wikimedia-org-projects-technology": "Teknolojia",
+	"wikimedia-org-projects-guides": "Tu béel",
+	"wikimedia-org-projects-collaboration": "U antanajilo'ob",
+	"wikimedia-org-donate-title": "A siibal ku kanáantik u páajtalil wíinik ti'al u yantal k'ajóolil libre yéetel je'ek'ab uti'al tuláakal máak.",
+	"wikimedia-org-donate-button": "ts'áa bejla'e'",
+	"wikimedia-org-contact": "U máaxil",
+	"wikimedia-org-contact-text": "¿Yaan wáaj k'áat chi' tu yo'olal le Fundación Wikimedia wa le meyajo'ob Wikimedia? t'aano'on.",
+	"wikimedia-org-contact-link": "T'aano'on",
+	"wiki": {
+		"name": "Le wíikipediao'",
+		"slogan": "Le Enciclopedia Libre",
+		"entries": "Ts'íibalo'ob",
+		"search-input-label": "Kaxant Wikipedia",
+		"language-button-text": "Xook Wikipedia ichil a t'aan",
+		"app-links": {
+			"title": "Éensbil Wikipedia Android wa iOS",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "Wikiccionario",
+		"slogan": "Le diccionario libre",
+		"entries": "Jo'olnajo'ob",
+		"search-input-label": "Kaxant Wikicionario",
+		"language-button-text": "Xook Wikicionario ichil a t'aan"
+	},
+	"wikibooks": {
+		"name": "Wiki ana'alte'"
+	}
 }
