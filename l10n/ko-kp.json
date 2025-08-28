@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Delim",
-			"Garam"
+			"Garam",
+			"YeBoy371"
 		]
 	},
 	"language-name": "조선말",
@@ -11,6 +12,9 @@
 	"terms": "리용약관",
 	"privacy-policy": "개인정보 정책",
 	"search-input-button": "검색",
+	"other-languages-label": "다른 언어",
+	"top-ten-nav-label": "주요 언어",
+	"all-languages-nav-label": "모든 언어",
 	"wiki": {
 		"name": "위키백과",
 		"slogan": "우리 모두의 백과사전",

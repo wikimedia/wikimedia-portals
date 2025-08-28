@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Constraque",
 			"Tkalyn"
 		]
 	},
@@ -12,5 +13,8 @@
 	},
 	"commons": {
 		"name": "Вікісклад"
+	},
+	"mediawiki": {
+		"name": "Медіумвікі"
 	}
 }

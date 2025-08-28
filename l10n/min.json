@@ -1,15 +1,36 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adhmi",
 			"Ardzun"
 		]
 	},
 	"language-name": "Bahaso Minangkabau",
 	"language-name-romanized-sorted": "Minangkabau, Bahaso",
+	"footer-donate": "Sanak dapek mandukuang kami jo sabuah donasi.",
 	"license": "Halaman ko tasadio dalam <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
 	"terms": "Katantuan Panggunoan",
 	"privacy-policy": "Kabijakan privasi",
 	"search-input-button": "Cari",
+	"other-languages-label": "Bahaso lain",
+	"top-ten-nav-label": "Labiah banyak bahaso",
+	"all-languages-nav-label": "Kasadoan bahaso",
+	"other-projects-nav-label": "Proyek lainnyo",
+	"wikimedia-org-welcome": "Selamaik datang! Gerakan Wikimedia adolah komunitas global nan tadiri dari banyak kalompok urang, proyek, jo kagiatan nan bakarajo samo untuak manciptakan sarato babagi pangatahuan sacaro bebas.",
+	"wikimedia-org-welcome-subtitle": "Bagabuanglah jo kami dalam mambuek sado pangatahuan dapek tasadio untuak kasado urang, di mano sajo.",
+	"wikimedia-org-our-projects": "Proyek kami",
+	"wikimedia-org-our-projects-desc": "Proyek kami marupokan inti dari <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Gerakan Wikimedia</a>. Sadonyo proyek gadang dioperasikan dek <a href=\"https://wikimediafoundation.org/\">Yayasan Wikimedia</a>, jo isi ko dikambang sacaro kolaboratif dek labiah dari 260.000 pangguno di saluruah dunia manggunoan perangkat lunak <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "Wikimedia Foundation adolah organisasi nan indak mancapai laba nan manampiang kasadonyo proyek Wikimedia jo manantuang komunitas di saluruah dunia nan mambuek jo manarangkan konten nan dapek diakses sacaro bebas.",
+	"wikimedia-org-projects-reference": "Rujuakan",
+	"wikimedia-org-projects-collections": "Koleksi",
+	"wikimedia-org-projects-technology": "Teknologi",
+	"wikimedia-org-projects-guides": "Panduan",
+	"wikimedia-org-projects-collaboration": "Bakarajosamo",
+	"wikimedia-org-donate-title": "Donasi Sanak malinduangi hak asasi manusia tahadok pangatahuan nan bebas sarato tabukak untuak kasado urang.",
+	"wikimedia-org-donate-button": "Donasi kini",
+	"wikimedia-org-contact": "Kontak",
+	"wikimedia-org-contact-text": "Ado nan kaditanyoan tentang Wikimedia Foundation atau proyek-proyek Wikimedia? Hubungi kami.",
+	"wikimedia-org-contact-link": "Kontak",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Ensiklopedia Bebas",
@@ -20,49 +41,68 @@
 		"app-links": {
 			"title": "Unduh Wikipedia untuak Android atau iOS",
 			"description": "Simpan artikel nan katuju bana dek Sanak untuak dibaco luring, sinkronkan daftar baco Sanak dari baragam parangkek jo atua pangalaman baco Sanak jo aplikasi Wikipedia rasmi.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "WikiKato",
 		"slogan": "Lubuak kato perai",
-		"entries": "entri"
+		"entries": "entri",
+		"search-input-label": "Telusuri Wiktionary",
+		"language-button-text": "Baco Wikipedia dalam bahaso Sanak"
 	},
 	"wikibooks": {
 		"name": "Wikibuku",
 		"slogan": "Buku perai",
-		"entries": "laman"
+		"entries": "laman",
+		"search-input-label": "Telusuri Wikibooks",
+		"language-button-text": "Baco Wikibooks dalam bahaso Sanak"
 	},
 	"wikinews": {
 		"name": "Wikibarito",
 		"slogan": "Sumber barito bebas",
-		"entries": "artikel"
+		"entries": "artikel",
+		"search-input-label": "Cari Wikinews",
+		"language-button-text": "Baco Wikinews dalam bahaso Sanak"
 	},
 	"wikiquote": {
 		"name": "Wikikutipan",
 		"slogan": "Koleksi kutipan bebas",
-		"entries": "artikel"
+		"entries": "artikel",
+		"search-input-label": "Cari Wikiquote",
+		"language-button-text": "Baco Wikiquote dalam bahaso Sanak"
 	},
 	"wikisource": {
 		"name": "Wikisumber",
-		"slogan": "Perpustakaan bebas"
+		"slogan": "Perpustakaan gratis"
 	},
 	"wikiversity": {
 		"name": "Wikikuliah",
 		"slogan": "Bahan baraja perai",
-		"entries": "sumber dayo baraja"
+		"entries": "sumber dayo baraja",
+		"search-input-label": "Cari Wikiuniversitas",
+		"language-button-text": "Baco Wikiuniversitas dalam bahaso Sanak"
 	},
 	"wikivoyage": {
 		"name": "Wikiraun",
-		"slogan": "Situs pajalanan perai"
+		"slogan": "Situs pajalanan perai",
+		"entries": "laman",
+		"search-input-label": "Cari Wikiwisata",
+		"language-button-text": "Baco Wikiwisata dalam bahaso Sanak"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Foto & lainnyo nan dapek digunokan siapo sajo"
+		"slogan": "Koleksi media perai"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Patunjuak spesies bebas"
+	},
+	"wikifunctions": {
+		"name": "Wikifungsi",
+		"slogan": "Perpustakaan fungsi perai"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -70,7 +110,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Aplikasi wiki bebas & tabukak"
+		"slogan": "Parangkek lunak wiki perai & tabukak"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
