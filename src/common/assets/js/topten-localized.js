@@ -9,8 +9,8 @@
  * A/B test documented here:
  * https://www.mediawiki.org/wiki/Wikipedia.org_Portal_A/B_testing
  *
- * @param mw
- * @param wmTest
+ * @param {Object} mw
+ * @param {Object} wmTest
  */
 
 ( function ( mw, wmTest ) {
@@ -114,13 +114,17 @@
 
 			anchor.setAttribute( 'href', '//' + wikiInfo.url );
 			anchor.setAttribute( 'title', langNameStripped + ' — ' + wikiInfo.siteName + ' — ' + ( wikiInfo.slogan || '' ) );
-			// TODO: We may want to set `innerHTML = wikiInfo.name` instead as the rendered HTML did.
+			// TODO: We may want to set `innerHTML=wikiInfo.name` instead as the rendered HTML did.
 			eleCaption.textContent = langNameStripped;
 			elePages.textContent = wikiInfo.numPages + '+ ';
 			elePages.appendChild( eleEntries );
 		} else {
-			// FIXME: wikiInfo.name for the main code (e.g. zh) and variants (e.g. zh-hans) are not the same thing...
-			anchor.setAttribute( 'title', eleCaption.textContent + ' — ' + wikiInfo.name + ' — ' + ( wikiInfo.slogan || '' ) );
+			// FIXME: wikiInfo.name for the main code (e.g. zh) and variants (e.g. zh-hans) are not
+			// the same thing...
+			anchor.setAttribute(
+				'title',
+				eleCaption.textContent + ' — ' + wikiInfo.name + ' — ' + ( wikiInfo.slogan || '' )
+			);
 		}
 	}
 

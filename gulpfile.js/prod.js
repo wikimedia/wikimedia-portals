@@ -48,17 +48,21 @@ function cleanProdJS( cb ) {
 		const prodDir = getProdDir();
 		const jsFolderPath = path.join( prodDir, 'assets', 'js' );
 
+		// eslint-disable-next-line security/detect-non-literal-fs-filename
 		if ( fs.existsSync( jsFolderPath ) ) {
 			fs.rmSync( jsFolderPath, { recursive: true } );
 			console.log( `Cleaned: ${ jsFolderPath }` );
-			cb(); // Callback after success
+			// Callback after success:
+			cb();
 		} else {
 			console.log( `Directory does not exist: ${ jsFolderPath }` );
-			cb(); // Callback after success (assuming cleaning is not needed if the directory doesn't exist)
+			// Callback after success (assuming cleaning is unneeded if directory doesn't exist):
+			cb();
 		}
 	} catch ( error ) {
 		console.error( 'Error cleaning prod JS:', error );
-		cb( error ); // Callback with error if there's an error cleaning the directory
+		// Callback with error if there's an error cleaning the directory:
+		cb( error );
 	}
 }
 function copyTranslationFiles() {
@@ -67,10 +71,13 @@ function copyTranslationFiles() {
 	const prodDir = getProdDir();
 	const assetsDir = path.join( prodDir, 'assets', 'l10n' );
 
+	// eslint-disable-next-line security/detect-non-literal-fs-filename
 	if ( fs.existsSync( assetsDir ) ) {
 		// Remove existing JSON files in the destination directory
+		// eslint-disable-next-line security/detect-non-literal-fs-filename
 		fs.readdirSync( assetsDir )
 			.filter( ( file ) => file.endsWith( '.json' ) )
+			// eslint-disable-next-line security/detect-non-literal-fs-filename
 			.forEach( ( file ) => fs.unlinkSync( path.join( assetsDir, file ) ) );
 	} else {
 		console.log( `Directory does not exist: ${ assetsDir }` );

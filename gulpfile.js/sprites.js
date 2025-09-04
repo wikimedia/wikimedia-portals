@@ -14,6 +14,7 @@ function cleanSprites() {
 	const outputSVGFiles = glob.sync( outputSVGGlob );
 
 	return Promise.all( outputSVGFiles.map( ( file ) => new Promise( ( resolve, reject ) => {
+		// eslint-disable-next-line security/detect-non-literal-fs-filename
 		fs.unlink( file, ( err ) => {
 			if ( err ) {
 				reject( err );

@@ -5,5 +5,9 @@
 	},
 	"parserOptions": {
 		"ecmaVersion": 2021
+	},
+	"rules": {
+		"jsdoc/no-undefined-types": "off",
+		"security/detect-non-literal-fs-filename": "off"
 	}
 }

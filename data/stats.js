@@ -300,13 +300,14 @@ Stats.format = function ( portal, list, optionsArg ) {
 		 *
 		 * @param {string} variant
 		 * @private
-		 * @return list
+		 * @return {Object} list
 		 */
 		function getVariantList( variant ) {
 			return Object.assign(
 				{},
 				siteDefs[ variant ][ portal ],
-				Object.fromEntries( Object.entries( siteDefs[ variant ] ).filter( ( [ key ] ) => extendedl10n.includes( key ) ) ),
+				Object.fromEntries( Object.entries( siteDefs[ variant ] )
+					.filter( ( [ key ] ) => extendedl10n.includes( key ) ) ),
 				{
 					lang: variant, // Used as HTML lang attribute
 					code: variant // Used in filename
@@ -320,7 +321,8 @@ Stats.format = function ( portal, list, optionsArg ) {
 				if ( a[ attr ] && b[ attr ] ) {
 					varianted[ attr ] = `${ a[ attr ] } / ${ b[ attr ] }`;
 				} else if ( a[ attr ] ) {
-					varianted[ attr ] = a?.[ attr ] || b?.[ attr ] || siteStats[ portal ].en[ attr ];
+					varianted[ attr ] = a?.[ attr ] || b?.[ attr ] ||
+						siteStats[ portal ].en[ attr ];
 				}
 			} );
 			return varianted;
