@@ -65,12 +65,9 @@
 	// Control + 2 variants
 	var bannerNumber = Math.random(),
 		bannerVariant;
-	if ( bannerNumber > 0.66 ) {
+	if ( bannerNumber > 0.50 ) {
 		bannerEl.classList.add( 'banner-control' );
 		bannerVariant = 'Control';
-	} else if ( bannerNumber <= 0.66 && bannerNumber > 0.33 ) {
-		bannerEl.classList.add( 'banner-variant-1' );
-		bannerVariant = 'WP25';
 	} else {
 		bannerEl.classList.add( 'banner-variant-2' );
 		bannerVariant = 'CurrentBest';
