@@ -15,23 +15,34 @@
 	"language-name-romanized": "Hindī",
 	"language-name-romanized-sorted": "Hindi",
 	"footer-donate": "आप दान करके भी हमारे कार्य को समर्थित कर सकते हैं।",
-	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/4.0/'>क्रिएटिव कॉमन्स एट्रिब्यूशन-शेयरअलाइक लाइसेंस</a>",
+	"license": "यह पृष्ठ <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.hi'>क्रिएटिव कॉमन्स श्रेय-समानसांझा लाइसेंस</a> के अंतर्गत उपलब्ध है",
 	"terms": "उपयोग की शर्तें",
 	"privacy-policy": "गोपनीयता नीति",
 	"search-input-button": "खोजें",
 	"other-languages-label": "अन्य भाषाएँ",
+	"top-ten-nav-label": "शीर्ष भाषाएँ",
 	"all-languages-nav-label": "सभी भाषाएँ",
 	"other-projects-nav-label": "अन्य परियोजनाएँ",
+	"wikimedia-org-our-projects": "हमारी परियोजनाएँ",
+	"wikimedia-org-projects-reference": "संदर्भ",
+	"wikimedia-org-projects-collections": "संकलन",
+	"wikimedia-org-projects-technology": "प्रौद्योगिकी",
+	"wikimedia-org-projects-guides": "गाइड",
+	"wikimedia-org-projects-collaboration": "सहयोग",
+	"wikimedia-org-donate-button": "अभी दान करें",
+	"wikimedia-org-contact": "संपर्क करें",
+	"wikimedia-org-contact-text": "विकिमीडिया संस्थान या विकिमीडिया परियोजनाओं के बारे में प्रश्न हैं? आइए बात करें।",
+	"wikimedia-org-contact-link": "संपर्क करें",
 	"wiki": {
 		"name": "विकिपीडिया",
 		"slogan": "मुक्त ज्ञानकोश",
 		"entries": "लेख",
 		"search-input-label": "विकिपीडिया में खोजें",
 		"language-button-text": "अपनी भाषा में विकिपीडिया पढ़ें",
-		"footer-description": "विकिपीडिया की मेजबानी विकिमीडिया फाउंडेशन द्वारा की गई है, एक गैर-लाभकारी संगठन जो अन्य परियोजनाओं की एक श्रृंखला भी होस्ट करता है",
+		"footer-description": "विकिपीडिया को विकिमीडिया संस्थान द्वारा होस्ट किया जाता है, जो कि एक गैर-लाभकारी संगठन है जो अन्य परियोजनाओं की एक श्रृंखला भी होस्ट करता है।",
 		"app-links": {
-			"title": "एंड्रॉइड या iOS के लिए विकिपीडीया डाउनलोड करें",
-			"description": "अधिकारिक विकिपीडिया ऐप पर अपने पसंदीदा लेख बिना इंटरनेट के पढ़ने के लिये सहेजें, लेखों की सूचियों को सभी यंत्रों पर समकालीन बनाएं और पढ़ने के अपने अनुभव को अपने अनुकूल बनाएं।",
+			"title": "एंड्रॉइड या iOS के लिए विकिपीडिया डाउनलोड करें",
+			"description": "अधिकारिक विकिपीडिया ऐप पर अपने पसंदीदा लेख बिना इंटरनेट के पढ़ने के लिये सहेजें, लेखों की सूचियों को सभी यंत्रों पर समकालीन बनाएँ और पढ़ने के अपने अनुभव को अपने अनुकूल बनाएँ।",
 			"google-store": "Google प्ले स्टोर",
 			"apple-store": "Apple ऐप स्टोर",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
@@ -45,40 +56,55 @@
 		"language-button-text": "अपनी भाषा में विकिकोश पढ़ें"
 	},
 	"wikibooks": {
-		"name": "विकिताब",
+		"name": "विकिपुस्तक",
 		"slogan": "मुक्त पुस्तकें",
-		"entries": "पृष्ठ"
+		"entries": "पृष्ठ",
+		"search-input-label": "विकिपुस्तक में खोजें",
+		"language-button-text": "अपनी भाषा में विकिपुस्तक पढ़ें"
 	},
 	"wikinews": {
 		"name": "विकिसमाचार",
-		"slogan": "मुफ्त समाचार स्रोत",
-		"entries": "लेख"
+		"slogan": "मुक्त समाचार स्रोत",
+		"entries": "लेख",
+		"search-input-label": "विकिसमाचार में खोजें",
+		"language-button-text": "अपनी भाषा में विकिसमाचार पढ़ें"
 	},
 	"wikiquote": {
 		"name": "विकिसूक्ति",
 		"slogan": "मुक्त सूक्तियों का संग्रह",
-		"entries": "लेख"
+		"entries": "लेख",
+		"search-input-label": "विकिसूक्ति में खोजें",
+		"language-button-text": "अपनी भाषा में विकिसूक्ति पढ़ें"
 	},
 	"wikisource": {
 		"name": "विकिस्रोत",
-		"slogan": "मुक्त पुस्तकालय"
+		"slogan": "मुक्त सामग्री पुस्तकालय"
 	},
 	"wikiversity": {
 		"name": "विकिविश्वविद्यालय",
-		"slogan": "मुक्त पाठ्यक्रम की सामग्री",
-		"entries": "सीखने के संसाधन"
+		"slogan": "मुक्त पाठ्यक्रम के संसाधन",
+		"entries": "शिक्षण के संसाधन",
+		"search-input-label": "विकिविश्वविद्यालय में खोजें",
+		"language-button-text": "अपनी भाषा में विकिविश्वविद्यालय पढ़ें"
 	},
 	"wikivoyage": {
 		"name": "विकियात्रा",
-		"slogan": "मुक्त यात्रा मार्गदर्शक"
+		"slogan": "मुक्त यात्रा गाइड",
+		"entries": "पृष्ठ",
+		"search-input-label": "विकियात्रा में खोजें",
+		"language-button-text": "अपनी भाषा में विकियात्रा पढ़ें"
 	},
 	"commons": {
 		"name": "कॉमन्स",
-		"slogan": "स्वतंत्र रूप से उपयोगी फ़ोटो और अधिक"
+		"slogan": "मुक्त मीडिया का संकलन"
 	},
 	"wikispecies": {
 		"name": "विकिप्रजाति",
 		"slogan": "मुक्त प्रजाति निर्देशिका"
+	},
+	"wikifunctions": {
+		"name": "विकिफ़ंक्शन्स",
+		"slogan": "मुक्त फ़ंक्शन लाइब्रेरी"
 	},
 	"wikidata": {
 		"name": "विकिडेटा",
@@ -86,10 +112,10 @@
 	},
 	"mediawiki": {
 		"name": "मीडियाविकि",
-		"slogan": "मुक्त और खुला विकि एप्लीकेशन"
+		"slogan": "निःशुल्क और मुक्त विकि सॉफ़्टवेयर"
 	},
 	"metawiki": {
 		"name": "मेटा-विकि",
-		"slogan": "सामुदायिक समन्वय और दस्तावेज़ीकरण"
+		"slogan": "सामुदायिक समन्वय और प्रलेखन"
 	}
 }
