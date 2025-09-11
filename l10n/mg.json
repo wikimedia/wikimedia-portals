@@ -1,17 +1,117 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Jagwar"
+		]
 	},
 	"language-name": "Malagasy",
+	"footer-donate": "Azonao atao ny manohana ny asanay amin'ny alalan'ny fanomezana.",
+	"license": "Ity pejy ity dia azo jerena amin'ny alàlan'ny <a href='https://creativecommons.org/licenses/by-sa/4.0/'>lisansa Creative Commons Attribution-ShareAlike</a>",
+	"terms": "Fepe-pampiasana",
+	"privacy-policy": "Politika momba ny tsiambaratelo",
+	"search-input-button": "Hikaroka",
+	"other-languages-label": "Fiteny hafa",
+	"top-ten-nav-label": "Fiteny lehibe indrindra",
+	"all-languages-nav-label": "Fiteny rehetra",
+	"other-projects-nav-label": "Tetikasa hafa",
+	"wikimedia-org-welcome": "Tongasoa! Ny hetsika Wikimedia dia vondrom-piarahamonina manerantany ahitana olona, tetikasa ary hetsika miara-miasa mba hamoronana sy hizarana fahalalana malalaka.",
+	"wikimedia-org-welcome-subtitle": "Miaraha aminay amin'ny fanomezana ny fahalalana rehetra ho an'ny rehetra, na aiza na aiza.",
+	"wikimedia-org-our-projects": "Tetikasa rehetra",
+	"wikimedia-org-our-projects-desc": "Ny tetikasanay no fototry ny <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">hetsika Wikimedia</a> . Ny tetikasa lehibe rehetra dia tantanin'ny <a href=\"https://wikimediafoundation.org/\">Wikimedia Foundation</a> , ary ny atiny dia miara-miasa amin'ny mpampiasa 260.000 mahery maneran-tany mampiasa ny rindrambaiko <a href=\"https://www.mediawiki.org/\">MediaWiki</a> .",
+	"wikimedia-org-wmf": "Ny <a href=\"https://wikimediafoundation.org/\">Wikimedia Foundation</a> dia fikambanana tsy mitady tombony izay mampiantrano ny tetikasa Wikimedia rehetra ary manohana ireo vondrom-piarahamonina manerana an'izao tontolo izao izay mamorona sy manara-maso ny votoaty azo idirana malalaka.",
+	"wikimedia-org-projects-reference": "Tsiahy",
+	"wikimedia-org-projects-collections": "Fanangonana",
+	"wikimedia-org-projects-technology": "Teknolojia",
+	"wikimedia-org-projects-guides": "Torolalana",
+	"wikimedia-org-projects-collaboration": "Fiaraha-miasa",
+	"wikimedia-org-donate-title": "Ny fanomezanao dia miaro ny zon'olombelona hahazo fahalalana malalaka sy misokatra ho an'ny rehetra.",
+	"wikimedia-org-donate-button": "Manomeza izao",
+	"wikimedia-org-contact": "Fifandraisana aminay",
+	"wikimedia-org-contact-text": "Fanontaniana momba ny tetikasa Wikimedia Foundation na Wikimedia? Mifandraisa aminay.",
+	"wikimedia-org-contact-link": "Fifandraisana aminay",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Raki-pahalalana malalaka",
+		"entries": "lahatsoratra",
+		"search-input-label": "Hikaroka ao amin'i Wikipedia",
+		"language-button-text": "Hamaky Wikipedia amin'ny fiteninao",
+		"footer-description": "Ny Wikipedia dia ampiantranoin'ny Wikimedia Foundation, fikambanana tsy mitady tombony izay mampiantrano tetikasa hafa.",
+		"app-links": {
+			"title": "Misintona Wikipedia ho an'ny Android na iOS",
+			"description": "Tehirizo ireo lahatsoratra ankafizinao mba hamakiana azy tsy mila aterineto, ampifanaraho eraky ny fitaovana ampiasainao ny lisitry ny lahatsoratra vakinao, ary ampifanaraho amin'ny safidinao  manokana ny zavatra azonao vakina amin'ny alalan'ny fampiharana ofisialy Wikipedia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
 		"name": "Wiktionary",
 		"slogan": "Raki-bolana malalaka",
-		"entries": "teny"
+		"entries": "teny",
+		"search-input-label": "Fikarohana eo amin'i Wiktionary",
+		"language-button-text": "Hamaky ny Wiktionary amin'ny fiteninao"
 	},
 	"wikibooks": {
-		"name": "Wikibooks"
+		"name": "Wikibooks",
+		"slogan": "Boky fianarana malalaka",
+		"entries": "pejy",
+		"search-input-label": "Hikasoka eo amin'i Wikiboky",
+		"language-button-text": "Hamaky Wikiboky amin'ny fiteninao"
+	},
+	"wikinews": {
+		"name": "Wikivaovao",
+		"slogan": "Loharanom-baovao malalaka",
+		"entries": "lahatsoratra",
+		"search-input-label": "Hikasoka ao amin'i Wikivaovao",
+		"language-button-text": "Hamaky Wikivaovao amin'ny fiteninao"
+	},
+	"wikiquote": {
+		"name": "Wikitanisa",
+		"slogan": "Firaketan-teny natsipy malalaka",
+		"entries": "lahatsoratra",
+		"search-input-label": "Hikaroka eo amin'i Wikiquote",
+		"language-button-text": "Hamaky Wikiquote amin'ny teninao"
+	},
+	"wikisource": {
+		"name": "Wikiloharano",
+		"slogan": "Fitehirizam-boky malalaka"
+	},
+	"wikiversity": {
+		"name": "Wikianjerimanontolo",
+		"slogan": "Loharanom-pampianarana malalaka",
+		"entries": "loharanom-pampianarana",
+		"search-input-label": "Hikaroka ao amin'i Wikianjerimanontolo",
+		"language-button-text": "Hamaky ny Wikianjerimanontolo amin'ny fiteninao"
+	},
+	"wikivoyage": {
+		"name": "Wikidia",
+		"slogan": "Torolalana malalaka momba ny dia",
+		"entries": "pejy",
+		"search-input-label": "Hikaroka ao amin'i Wikidia",
+		"language-button-text": "Hamaky an'i Wikidia amin'ny fiteninao"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Fitoeran'ainoamanjery malalaka"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Firaketan-karazan-javamananaina malalaka"
+	},
+	"wikifunctions": {
+		"name": "Wikilefa",
+		"slogan": "Firaketan-defa malalaka"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Firaketam-pahaizana malalaka"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Rindrankajy wiki malalaka ary azo ovaina"
+	},
+	"metawiki": {
+		"name": "Meta-wiki",
+		"slogan": "Fandrindrana ny fikambanana ary tahirin-kevitra"
 	}
 }
