@@ -35,6 +35,8 @@
 	"top-ten-nav-label": "Idiomas más utilizados",
 	"all-languages-nav-label": "Todos los idiomas",
 	"other-projects-nav-label": "Otros proyectos",
+	"wikimedia-org-welcome": "¡Bienvenido! El movimiento Wikimedia es una comunidad global de personas, proyectos y actividades trabajando juntos para crear y compartir el conocimiento libremente.",
+	"wikimedia-org-welcome-subtitle": "Únete a nosotros en hacer que todo el conocimiento esté disponible para todos en todas partes.",
 	"wikimedia-org-our-projects": "Nuestros proyectos",
 	"wikimedia-org-projects-reference": "Referencia",
 	"wikimedia-org-projects-collections": "Colecciones",
@@ -71,7 +73,9 @@
 	"wikibooks": {
 		"name": "Wikilibros",
 		"slogan": "Libros de contenido libre",
-		"entries": "páginas"
+		"entries": "páginas",
+		"search-input-label": "Buscar en Wikilibros",
+		"language-button-text": "Lea Wikilibros en su idioma"
 	},
 	"wikinews": {
 		"name": "Wikinoticias",
