@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Gadir",
 			"NMW03",
 			"Nemoralis",
 			"Toghrul Rahimli",
@@ -111,7 +112,7 @@
 		"slogan": "Pulsuz bilik bazası"
 	},
 	"mediawiki": {
-		"name": "MediaViki",
+		"name": "MediaWiki",
 		"slogan": "Pulsuz & açıq viki proqram təminatı"
 	},
 	"metawiki": {

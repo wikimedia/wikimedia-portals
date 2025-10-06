@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Awdsweq123",
+			"Bapham123",
 			"Macofe",
 			"Minh Nguyen",
 			"Phjtieudoc",
@@ -21,6 +22,11 @@
 	"top-ten-nav-label": "Ngôn ngữ hàng đầu",
 	"all-languages-nav-label": "Tất cả ngôn ngữ",
 	"other-projects-nav-label": "Các dự án khác",
+	"wikimedia-org-our-projects": "Các dự án của chúng tôi",
+	"wikimedia-org-projects-technology": "Công nghệ",
+	"wikimedia-org-donate-button": "Quyên góp ngay",
+	"wikimedia-org-contact": "Liên hệ",
+	"wikimedia-org-contact-link": "Liên hệ",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Bách khoa toàn thư mở",
@@ -99,7 +105,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Ứng dụng wiki nguồn mở"
+		"slogan": "Phần mềm wiki nguồn mở"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
