@@ -27,14 +27,15 @@ const fs = require( 'fs' ),
 function httpGet( url ) {
 	const options = { headers: { 'User-Agent': 'Wikimedia portals updater' } };
 
+	// eslint-disable-next-line n/no-unsupported-features/node-builtins
 	return fetch( url, options )
 		.then( ( response ) => response.text() )
 		.then( ( responseText ) => {
 			try {
 				const responseJSON = JSON.parse( responseText );
-				return Promise.resolve( responseJSON );
+				return responseJSON;
 			} catch {
-				return Promise.resolve( responseText );
+				return responseText;
 			}
 		} )
 		.catch( ( cause ) => {
@@ -175,7 +176,7 @@ function getProjectViews() {
 			if ( !views ) {
 				// We permit some hourly files to fail to be downloaded, but all of them missing
 				// Is a sign of a problem
-				return Promise.reject( 'No hourly project views file was successfully loaded' );
+				throw new Error( 'No hourly project views file was successfully loaded' );
 			}
 			return views;
 		} )

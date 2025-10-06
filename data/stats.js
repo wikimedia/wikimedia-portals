@@ -1,5 +1,6 @@
 'use strict';
 
+// eslint-disable-next-line n/no-missing-require
 const siteStats = require( './site-stats.json' ),
 	siteDefsFormatting = require( './l10n-overrides.json' ),
 	fs = require( 'fs' ),
@@ -74,11 +75,18 @@ Stats.readi18nFiles = function ( dirname ) {
 const siteDefs = Stats.readi18nFiles( __dirname + '/../l10n/' );
 
 /**
+ * @typedef {Object} LanguageName
+ * @property {string} name
+ * @property {string} [sort]
+ * @property {string} [latin]
+ */
+
+/**
  * Get the different names for a language, primarily from `siteDefs`,
  * falling back to `language-data`.
  *
  * @param {string} code Code of the language
- * @return {{name: string, sort?: string, latin?: string}}
+ * @return {LanguageName}
  */
 function getLanguageName( code ) {
 	const siteDef = siteDefs[ code ],

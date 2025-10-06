@@ -7,7 +7,7 @@
  *
  * @param wmTest
  */
-( function ( wmTest ) {
+( function () {
 	var
 		geoCookieCountry = document.cookie.match( /GeoIP=.[^:]/ ),
 		country = geoCookieCountry && geoCookieCountry.toString().split( '=' )[ 1 ],
@@ -242,4 +242,4 @@
 			}
 		} );
 	}
-}( wmTest ) );
+}() );

@@ -7,7 +7,7 @@
 		"test": "npm -s run lint:styles && npm -s run lint:js",
 		"lint:fix": "npm -s run lint:styles -- --fix && npm -s run lint:js -- --fix",
 		"lint:styles": "stylelint -f verbose \"src/*/assets/postcss/*.css\"",
-		"lint:js": "eslint \"**/*.{js,json,yaml}\"",
+		"lint:js": "eslint .",
 		"build-all-portals": "npm -s run test && gulp -- update-stats && gulp --portal=wikimedia.org -- default && gulp --portal=wikipedia.org -- default && gulp --portal=wiktionary.org -- default && gulp --portal=wikibooks.org -- default && gulp --portal=wikiquote.org -- default && gulp --portal=wikinews.org -- default &&  gulp --portal=wikiversity.org -- default && gulp --portal=wikivoyage.org -- default"
 	},
 	"pre-commit": [
@@ -18,8 +18,8 @@
 		"@wikimedia/codex": "2.3.2",
 		"@wikimedia/codex-design-tokens": "2.3.2",
 		"@wikimedia/language-data": "^1.1.8",
-		"browserslist-config-wikimedia": "0.7.0",
 		"cssnano": "^4.1.10",
+		"eslint": "8.57.1",
 		"eslint-config-wikimedia": "0.32.3",
 		"eslint-plugin-unicorn": "40.1.0",
 		"eslint-plugin-yml": "0.13.0",

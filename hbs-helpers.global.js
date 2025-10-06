@@ -1,6 +1,5 @@
 'use strict';
 
-/* eslint-env node */
 const Handlebars = require( 'handlebars' ),
 	helpers = {};
 

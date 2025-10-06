@@ -1,13 +1,7 @@
 {
-	"env": {
-		"node": true,
-		"es2021": true
-	},
-	"parserOptions": {
-		"ecmaVersion": 2021
-	},
+	"root": true,
+	"extends": [ "wikimedia/server" ],
 	"rules": {
-		"jsdoc/no-undefined-types": "off",
 		"security/detect-non-literal-fs-filename": "off"
 	}
 }
