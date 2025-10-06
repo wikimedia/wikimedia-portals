@@ -2,7 +2,7 @@
 
 ( function ( wmTest, WMTypeAhead ) {
 
-	var inputEvent,
+	let inputEvent,
 		searchInput = document.getElementById( 'searchInput' ),
 		typeAhead = new WMTypeAhead( 'search-input', 'searchInput' );
 

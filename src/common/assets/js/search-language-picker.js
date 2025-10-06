@@ -22,7 +22,7 @@
 	'use strict';
 
 	doWhenReady( () => {
-		var select = document.getElementById( 'searchLanguage' ), langLabel;
+		let select = document.getElementById( 'searchLanguage' ), langLabel;
 
 		/**
 		 * Adjusts input's padding to the size of the language code.
@@ -30,7 +30,7 @@
 		 * @param {string} label
 		 */
 		function adjustInputPadding( label ) {
-			var rem = 4;
+			let rem = 4;
 			if ( label.length > 3 ) {
 				rem = 6;
 			} else if ( label.length === 3 ) {
@@ -47,7 +47,7 @@
 		 * @return {HTMLElement}
 		 */
 		function createJSLangLabel() {
-			var label = document.createElement( 'label' );
+			const label = document.createElement( 'label' );
 			label.setAttribute( 'for', 'searchLanguage' );
 			label.setAttribute( 'id', 'jsLangLabel' );
 			label.className = 'js-langpicker-label';

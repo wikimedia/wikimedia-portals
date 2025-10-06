@@ -3,7 +3,7 @@
 window.wmTest = window.wmTest || {};
 ( function ( eventLoggingLite, mw ) {
 
-	var bucketParams = {
+	let bucketParams = {
 			// Population for prod or src
 			popSize: ( /www.wikipedia.org/.test( location.hostname ) ) ? 200 : 2,
 			// TestGroups can be set to `false` if there's no test.
@@ -37,7 +37,7 @@ window.wmTest = window.wmTest || {};
 	 */
 	function getTestGroup() {
 
-		var grp = 'rejected';
+		let grp = 'rejected';
 		// 1:populationSize of the people are tested (baseline)
 		if ( oneIn( bucketParams.popSize ) ) {
 			grp = 'baseline';
@@ -62,7 +62,7 @@ window.wmTest = window.wmTest || {};
 	 */
 	function getSessionId() {
 
-		var id = false,
+		let id = false,
 			storedSessionId,
 			expires,
 			now;

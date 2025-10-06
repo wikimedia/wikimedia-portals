@@ -9,10 +9,10 @@ window.wmTest = window.wmTest || {};
 	 * @return {Array} langs
 	 */
 	function setPreferredLanguages() {
-		var langs = [], possibleLanguage, i;
+		let langs = [], possibleLanguage, i;
 
 		function appendLanguage( l ) {
-			var lang = getIso639( l );
+			const lang = getIso639( l );
 			if ( lang && !langs.includes( lang ) ) {
 				langs.push( lang );
 			}
@@ -45,7 +45,7 @@ window.wmTest = window.wmTest || {};
 	 * @return {string}
 	 */
 	function getFullLocale() {
-		var uiLang = ( navigator.languages && navigator.languages[ 0 ] ) ||
+		const uiLang = ( navigator.languages && navigator.languages[ 0 ] ) ||
 			navigator.language || navigator.userLanguage || '';
 		return uiLang.toLowerCase();
 	}
@@ -58,7 +58,7 @@ window.wmTest = window.wmTest || {};
 	 * @throws {TypeError} if locale is not a zh locale
 	 */
 	function isSimpChinese( locale ) {
-		var hans = [ 'zh', 'zh-hans', 'zh-cn', 'zh-sg', 'zh-my', 'zh-hans-cn', 'zh-hans-sg', 'zh-hans-my' ],
+		const hans = [ 'zh', 'zh-hans', 'zh-cn', 'zh-sg', 'zh-my', 'zh-hans-cn', 'zh-hans-sg', 'zh-hans-my' ],
 			hant = [ 'zh-hk', 'zh-tw', 'zh-mo', 'zh-hant-hk', 'zh-hant-tw', 'zh-hant-mo' ];
 
 		if ( hans.includes( locale ) ) {
@@ -70,7 +70,7 @@ window.wmTest = window.wmTest || {};
 		}
 	}
 
-	var preferredLangs = setPreferredLanguages(),
+	let preferredLangs = setPreferredLanguages(),
 		primaryLang = preferredLangs[ 0 ];
 
 	if ( primaryLang === 'zh' ) {

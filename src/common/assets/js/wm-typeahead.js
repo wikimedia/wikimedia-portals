@@ -21,7 +21,7 @@
 
 window.WMTypeAhead = function ( appendTo, searchInput ) {
 
-	var typeAheadID = 'typeahead-suggestions',
+	let typeAheadID = 'typeahead-suggestions',
 		typeAheadEl = document.getElementById( typeAheadID ), // Type-ahead DOM element.
 		appendEl = document.getElementById( appendTo ),
 		searchEl = document.getElementById( searchInput ),
@@ -47,7 +47,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 * @return {string}
 	 */
 	function serialize( obj ) {
-		var serialized = [],
+		let serialized = [],
 			prop;
 
 		for ( prop in obj ) {
@@ -71,7 +71,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 			return this.index;
 		},
 		addCallback: function ( func ) {
-			var index = this.incrementIndex();
+			let index = this.incrementIndex();
 			this.queue[ index ] = func( index );
 			return index;
 		},
@@ -79,7 +79,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 			delete this.queue[ i ];
 		},
 		deletePrevCallbacks: function ( j ) {
-			var callback;
+			let callback;
 
 			this.deleteSelfFromQueue( j );
 
@@ -137,7 +137,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 	function clearTypeAhead() {
 		setTimeout( () => {
-			var searchScript = document.getElementById( 'api_opensearch' );
+			let searchScript = document.getElementById( 'api_opensearch' );
 			typeAheadEl.innerHTML = '';
 			if ( searchScript ) {
 				searchScript.src = false;
@@ -155,7 +155,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 
 	function loadQueryScript( string, lang ) {
-		var script = document.getElementById( 'api_opensearch' ),
+		let script = document.getElementById( 'api_opensearch' ),
 			docHead = document.getElementsByTagName( 'head' )[ 0 ],
 			hostname,
 			callbackIndex,
@@ -212,7 +212,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 	function highlightTitle( title, search ) {
 
-		var sanitizedSearchString = mw.html.escape( mw.RegExp.escape( search ) ),
+		let sanitizedSearchString = mw.html.escape( mw.RegExp.escape( search ) ),
 
 			searchRegex = new RegExp( sanitizedSearchString, 'i' ),
 			startHighlightIndex = title.search( searchRegex ),
@@ -241,7 +241,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 * @return {string} A string representing the search suggestions DOM
 	 */
 	function generateTemplateString( suggestions ) {
-		var string = '<div class="suggestions-dropdown">',
+		let string = '<div class="suggestions-dropdown">',
 			suggestionLink,
 			suggestionThumbnail,
 			suggestionText,
@@ -320,7 +320,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 
 	function toggleActiveClass( item, collection ) {
 
-		var activeClass = ' active', // Prefixed with space.
+		let activeClass = ' active', // Prefixed with space.
 			colItem,
 			i;
 
@@ -357,7 +357,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 	window.portalOpensearchCallback = function ( i ) {
 
-		var callbackIndex = i,
+		let callbackIndex = i,
 			orderedResults = [],
 			suggestions,
 			item,
@@ -408,7 +408,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 	function keyboardEvents( event ) {
 
-		var e = event || window.event,
+		let e = event || window.event,
 			keycode = e.which || e.keyCode,
 			suggestionItems,
 			suggestiontitle,
@@ -451,7 +451,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	searchEl.addEventListener( 'keydown', keyboardEvents );
 
 	window.addEventListener( 'click', ( event ) => {
-		var target = event.target.closest( '#search-form' );
+		let target = event.target.closest( '#search-form' );
 
 		if ( !target ) {
 			clearTypeAhead();

@@ -15,7 +15,7 @@
 
 ( function ( mw, wmTest ) {
 
-	var preferredLanguages = wmTest.userLangs,
+	let preferredLanguages = wmTest.userLangs,
 		primaryLang = wmTest.primaryLang,
 		topLinks = document.querySelectorAll( '.central-featured-lang' ),
 		topLinksContainer = document.querySelector( '.central-featured' ),
@@ -30,7 +30,7 @@
 	 * @return {*}
 	 */
 	function safelyParseJSON( json ) {
-		var parsed;
+		let parsed;
 		try {
 			parsed = JSON.parse( json );
 		} catch ( e ) {
@@ -67,7 +67,7 @@
 	 * Manipulates the {@link #topLinkLangs} array.
 	 */
 	function mergeNewTopLinkLangs() {
-		var i, pl, plIndex, plExists, plRightSpot;
+		let i, pl, plIndex, plExists, plRightSpot;
 		for ( i = 0; i < preferredLanguages.length; i++ ) {
 			pl = preferredLanguages[ i ];
 			plIndex = topLinkLangs.indexOf( pl );
@@ -95,7 +95,7 @@
 	 * @param {boolean} localizeVariant Whether we are only localizing to variant.
 	 */
 	function updateTopLinkDOM( node, wikiInfo, localizeVariant ) {
-		var anchor = node.getElementsByTagName( 'a' )[ 0 ],
+		const anchor = node.getElementsByTagName( 'a' )[ 0 ],
 			elePages = node.getElementsByTagName( 'small' )[ 0 ],
 			eleEntries = elePages.getElementsByTagName( 'span' )[ 0 ],
 			eleCaption = node.getElementsByTagName( 'strong' )[ 0 ];
@@ -108,7 +108,7 @@
 		if ( !localizeVariant ) {
 			// Some language names are placed within HTML tags.
 			// Strip the tags for the title attribute.
-			var langNameStripped = wikiInfo.name.replace( /<\/?[^>]+(>|$)/g, '' );
+			const langNameStripped = wikiInfo.name.replace( /<\/?[^>]+(>|$)/g, '' );
 
 			anchor.setAttribute( 'href', '//' + wikiInfo.url );
 			anchor.setAttribute( 'title', langNameStripped + ' — ' + wikiInfo.siteName + ' — ' + ( wikiInfo.slogan || '' ) );
@@ -131,7 +131,7 @@
 	 * this should happen after the top links nodes have been reorganized.
 	 */
 	function reorganizeTopLinkClasses() {
-		var topLink,
+		let topLink,
 			topLinkLang,
 			topLinkClass,
 			correctClassName,
@@ -178,7 +178,7 @@
 	 */
 	function getAjaxTranslation( node, lang, localizeVariant ) {
 
-		var i18nReq = new XMLHttpRequest(),
+		let i18nReq = new XMLHttpRequest(),
 			wikiInfo;
 
 		i18nReq.open( 'GET', encodeURI( 'portal/' + portalSearchDomain + '/assets/l10n/' + lang + '-' + translationsHash + '.json' ), true );
@@ -211,7 +211,7 @@
 	 * @param {boolean} localizeVariant Whether we are only localizing to variant.
 	 */
 	function localizeTopLink( node, lang, localizeVariant ) {
-		var translations = storedTranslations;
+		const translations = storedTranslations;
 
 		localizeVariant = localizeVariant || false;
 
@@ -230,7 +230,7 @@
 	 * @return {HTMLElement} Node that can be reused with new content.
 	 */
 	function findReusableTopLink() {
-		var reusableTopLink = null,
+		let reusableTopLink = null,
 			topLinkLang,
 			i;
 
@@ -250,7 +250,7 @@
 	 * to contain the new language.
 	 */
 	function organizeTopLinks() {
-		var i,
+		let i,
 			topLinkLang,
 			topLinkNode,
 			topLinkNodeIndex,

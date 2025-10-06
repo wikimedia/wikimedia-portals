@@ -6,7 +6,7 @@
  * to apply the celebration theme.
  */
 ( function () {
-	var
+	let
 		toggle = document.querySelector( '#wikipedia25-birthday-mode-toggle-switch' ),
 		cookieName = 'wikipedia25-birthday-mode-disabled',
 		bodyClass = 'wikipedia25-birthday-mode-enabled',
@@ -53,7 +53,7 @@
  * accessibility focus, and listen for mouse, keyboard, and navigation events.
  */
 ( function () {
-	var
+	let
 		video = document.querySelector( '#wikipedia25-video' ),
 		backdrop = document.querySelector( '#wikipedia25-dialog-backdrop' ),
 		closeButton = document.querySelector( '#wikipedia25-dialog-close-button' ),
@@ -75,7 +75,7 @@
 	function openDialog() {
 		backdrop.classList.remove( 'hidden' );
 		// Focus the first focusable element or the dialog itself for accessibility
-		var dialog = backdrop.querySelector( '#wikipedia25-dialog' );
+		let dialog = backdrop.querySelector( '#wikipedia25-dialog' );
 		if ( dialog ) {
 			dialog.focus();
 		}
@@ -152,14 +152,14 @@
  * preference and device pixel density.
  */
 ( function () {
-	var video = document.getElementById( 'wikipedia25-video' );
+	let video = document.getElementById( 'wikipedia25-video' );
 
 	if ( !video ) {
 		return;
 	}
 
-	var dataset = video.dataset;
-	var selectedSet;
+	let dataset = video.dataset;
+	let selectedSet;
 
 	if ( document.documentElement.classList.contains( 'wikipedia25-variant-sneakpeek' ) ) {
 		selectedSet = 'sneakpeek';
@@ -171,7 +171,7 @@
 	}
 
 	// Define sources based on selection
-	var sources = [
+	let sources = [
 		{
 			src: dataset[ selectedSet + 'Dark-300' ],
 			media: '(prefers-color-scheme: dark) and (min-resolution: 2dppx)'
@@ -196,7 +196,7 @@
 	// Create and append source elements
 	sources.forEach( ( s ) => {
 		if ( s.src ) {
-			var source = document.createElement( 'source' );
+			let source = document.createElement( 'source' );
 			source.src = s.src;
 			source.type = 'video/webm';
 			if ( s.media ) {

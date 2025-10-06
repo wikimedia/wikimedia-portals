@@ -8,7 +8,7 @@
  * @param {Object} wmTest
  */
 ( function () {
-	var
+	let
 		geoCookieCountry = document.cookie.match( /GeoIP=.[^:]/ ),
 		country = geoCookieCountry && geoCookieCountry.toString().split( '=' )[ 1 ],
 		bannerCountries = [ 'US', 'CA', 'GB', 'IE', 'AU', 'NZ' ],
@@ -46,9 +46,9 @@
 			}
 		];
 	for ( let i = 0; i < bannerReplacements.length; i++ ) {
-		var replacedElements = document.querySelectorAll( bannerReplacements[ i ].selector );
-		for ( var j = 0; j < replacedElements.length; j++ ) {
-			var element = replacedElements[ j ];
+		let replacedElements = document.querySelectorAll( bannerReplacements[ i ].selector );
+		for ( let j = 0; j < replacedElements.length; j++ ) {
+			let element = replacedElements[ j ];
 			if ( bannerReplacements[ i ][ country ] ) {
 				element.innerHTML = bannerReplacements[ i ][ country ];
 			}
@@ -68,12 +68,12 @@
 			bannerEl.classList.remove( bannerVisibleClass );
 			document.querySelector( '.frb-iad-dialog' ).showModal();
 		} );
-		var iadActionEl = document.querySelector( '.frb-dialog-action' );
+		let iadActionEl = document.querySelector( '.frb-dialog-action' );
 		iadActionEl.addEventListener( 'click', () => {
 			document.querySelector( '.frb-iad-dialog' ).close();
 			window.open( 'https://store.wikimedia.org/discount/WIKI-BDAY', '_blank' );
 		} );
-		var iadCloseEl = document.querySelectorAll( '.frb-iad-dialog-close' );
+		let iadCloseEl = document.querySelectorAll( '.frb-iad-dialog-close' );
 		iadCloseEl.forEach( ( closeButton ) => {
 			closeButton.addEventListener( 'click', () => {
 				document.querySelector( '.frb-iad-dialog' ).close();
@@ -98,19 +98,19 @@
 		bannerEl.classList.add( bannerVisibleClass );
 	}
 	// Overlay banner
-	var viewportHeight = window.innerHeight;
-	var bannerMini = document.querySelector( '.overlay-banner-mini' );
-	var bannerMiniMessage = document.querySelector( '.overlay-banner-mini-message' );
-	var miniBannerHeight = bannerMini.offsetHeight;
-	var bannerMiniBottom = miniBannerHeight - 10;
-	var bannerToggle = document.getElementsByClassName( 'overlay-banner-toggle' );
-	var bannerVisible = document.getElementsByTagName( 'body' )[ 0 ];
+	let viewportHeight = window.innerHeight;
+	let bannerMini = document.querySelector( '.overlay-banner-mini' );
+	let bannerMiniMessage = document.querySelector( '.overlay-banner-mini-message' );
+	let miniBannerHeight = bannerMini.offsetHeight;
+	let bannerMiniBottom = miniBannerHeight - 10;
+	let bannerToggle = document.getElementsByClassName( 'overlay-banner-toggle' );
+	let bannerVisible = document.getElementsByTagName( 'body' )[ 0 ];
 	function newHeight() {
 		bannerMini.style.height = '';
 		bannerMiniMessage.style.height = '';
 		bannerMiniMessage.style.overflow = '';
-		var miniBannerNewHeight = bannerMini.offsetHeight;
-		var bannerMiniNewBottom = miniBannerNewHeight - 10;
+		let miniBannerNewHeight = bannerMini.offsetHeight;
+		let bannerMiniNewBottom = miniBannerNewHeight - 10;
 		bannerMini.style.height = miniBannerNewHeight + 'px';
 		if ( bannerVisible.classList.contains( 'overlay-banner-open' ) ) {
 			bannerMini.style.bottom = '';
@@ -123,7 +123,7 @@
 			bannerMiniMessage.style.overflow = 'auto';
 		}
 	}
-	var overlayBanner = document.querySelector( '.banner-overlay' );
+	let overlayBanner = document.querySelector( '.banner-overlay' );
 	if ( overlayBanner.classList.contains( 'banner--visible' ) ) {
 		// Add height to mini banner
 		bannerMini.style.height = miniBannerHeight + 'px';
@@ -152,7 +152,7 @@
 					bannerMini.style.bottom = '-20px';
 					document.getElementsByTagName( 'body' )[ 0 ].style.paddingBottom = bannerMini.style.height;
 				} else {
-					var bannerMiniBottomValue = bannerMini.offsetHeight - 10;
+					let bannerMiniBottomValue = bannerMini.offsetHeight - 10;
 					bannerVisible.classList.add( 'overlay-banner-open' );
 					bannerMini.classList.remove( 'visible' );
 					bannerMini.style.bottom = '-' + bannerMiniBottomValue + 'px';
@@ -161,7 +161,7 @@
 			} );
 		}
 		// Update mini banner height on resize
-		var updateHeights;
+		let updateHeights;
 		window.onresize = function () {
 			clearTimeout( updateHeights );
 			updateHeights = setTimeout( () => {
@@ -169,15 +169,15 @@
 			}, 100 );
 		};
 		// Set medium banner cookie on minimise
-		var bannerCollapse = document.getElementsByClassName( 'overlay-banner-toggle' );
+		let bannerCollapse = document.getElementsByClassName( 'overlay-banner-toggle' );
 		for ( let i = 0; i < bannerCollapse.length; i++ ) {
 			bannerCollapse[ i ].addEventListener( 'click', () => {
 				document.cookie = 'minimizeWikipediaPortalBanner=1; max-age=1209600; path=/; Secure';
 			} );
 		}
 		// Close banner on X out
-		var bannerClose = document.getElementsByClassName( 'overlay-banner-close' );
-		var bannerMain = document.getElementsByClassName( 'overlay-banner' )[ 0 ];
+		let bannerClose = document.getElementsByClassName( 'overlay-banner-close' );
+		let bannerMain = document.getElementsByClassName( 'overlay-banner' )[ 0 ];
 		for ( let i = 0; i < bannerClose.length; i++ ) {
 			bannerClose[ i ].addEventListener( 'click', () => {
 				document.cookie = 'hideWikipediaPortalBanner=1; max-age=1209600; path=/; Secure';
@@ -185,8 +185,8 @@
 			} );
 		}
 		// Amounts grid
-		var amountVal;
-		var amountRadios = document.querySelectorAll( 'input[name="amount"]' );
+		let amountVal;
+		let amountRadios = document.querySelectorAll( 'input[name="amount"]' );
 		if ( country === 'GB' ) {
 			amountRadios[ 0 ].value = '2';
 		}
@@ -199,7 +199,7 @@
 				bannerLinkEl.forEach( ( link ) => {
 					link.href += '&preSelect=' + amountVal;
 				} );
-				var children = document.getElementById( 'amountsGrid' ).childNodes;
+				let children = document.getElementById( 'amountsGrid' ).childNodes;
 				for ( let i = 0; i < children.length; i++ ) {
 					if ( children[ i ].classList ) {
 						children[ i ].classList.remove( 'selected' );
@@ -213,15 +213,15 @@
 			} );
 		} );
 		// Frequency grid
-		var monthlyVal;
-		var monthlyRadios = document.querySelectorAll( 'input[name="monthly"]' );
+		let monthlyVal;
+		let monthlyRadios = document.querySelectorAll( 'input[name="monthly"]' );
 		monthlyRadios.forEach( ( radioM ) => {
 			radioM.addEventListener( 'click', () => {
 				monthlyVal = radioM.value;
 				bannerLinkEl.forEach( ( link ) => {
 					link.href += '&monthly=' + monthlyVal;
 				} );
-				var children = document.getElementById( 'frequencyGrid' ).childNodes;
+				let children = document.getElementById( 'frequencyGrid' ).childNodes;
 				for ( let i = 0; i < children.length; i++ ) {
 					if ( children[ i ].classList ) {
 						children[ i ].classList.remove( 'selected' );
@@ -235,7 +235,7 @@
 			} );
 		} );
 		// Disable donate button until amount and frequency are selected
-		var overlayDonateButton = document.getElementById( 'frb-donate' );
+		let overlayDonateButton = document.getElementById( 'frb-donate' );
 		overlayDonateButton.addEventListener( 'click', function () {
 			if ( this.classList.contains( 'banner-button-disabled' ) ) {
 				event.preventDefault();

@@ -5,7 +5,7 @@
 
 	'use strict';
 
-	var portalSchema, eventSections, docForms, eventData,
+	let portalSchema, eventSections, docForms, eventData,
 		geoCookieCountry = document.cookie.match( /GeoIP=.[^:]/ ),
 		// It's possible that geoCookieCountry is defined but geoCookieState is not.
 		// E.g., with an adblocker enabled: "GeoIP=US:::38.00:-97.00:v4; CP=H2".
@@ -101,7 +101,7 @@
 	 */
 	function findEventSection( clickNode ) {
 
-		var eventSection = {},
+		let eventSection = {},
 			i, j, nodes;
 
 		for ( i = 0; i < eventSections.length; i++ ) {
@@ -160,7 +160,7 @@
 	 */
 	function interceptClick( e ) {
 
-		var anchor,
+		let anchor,
 			event = e || window.event,
 			target = event.target || event.srcElement;
 
@@ -192,7 +192,7 @@
 	 * @param {Event} e
 	 */
 	function interceptChange( e ) {
-		var event = e || window.event,
+		const event = e || window.event,
 			target = event.target || event.srcElement;
 
 		if ( target.id === 'searchLanguage' ) {
@@ -220,7 +220,7 @@
 	 * @param {Event} e
 	 */
 	function interceptForm( e ) {
-		var event = e || window.event,
+		const event = e || window.event,
 			target = event.target || event.srcElement;
 
 		if ( eventData === null ) {

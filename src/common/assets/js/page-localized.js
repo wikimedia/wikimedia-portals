@@ -19,7 +19,7 @@
 
 ( function ( wmTest, translationsHash, mw, rtlLangs ) {
 
-	var primaryLang = wmTest.primaryLang,
+	let primaryLang = wmTest.primaryLang,
 		storedTranslationHash,
 		storedTranslations,
 		l10nReq,
@@ -32,7 +32,7 @@
 	 * @return {JSON}
 	 */
 	function safelyParseJSON( json ) {
-		var parsed;
+		let parsed;
 		try {
 			parsed = JSON.parse( json );
 		} catch ( e ) {
@@ -42,7 +42,7 @@
 	}
 
 	function isValidHash() {
-		var storedHash = mw.storage.get( 'translationHash' );
+		const storedHash = mw.storage.get( 'translationHash' );
 		return ( translationsHash === storedHash ) ? storedHash : false;
 	}
 
@@ -61,7 +61,7 @@
 	 * @param {Object} translation translation data.
 	 */
 	function saveTranslation( lang, translation ) {
-		var translations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
+		const translations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
 
 		translations[ lang ] = translation;
 		mw.storage.set( 'storedTranslations', JSON.stringify( translations ) );
@@ -77,7 +77,7 @@
 	 * @return {Mixed}
 	 */
 	function getProp( obj, keys ) {
-		var i = 0;
+		let i = 0;
 		keys = String( keys ).split( '.' );
 		while ( i < keys.length ) {
 			if ( obj === undefined || obj === null ) {
@@ -95,7 +95,7 @@
 	 * @param {Object} info Object containing translation data.
 	 */
 	function replacel10nText( info ) {
-		var domEls = document.querySelectorAll( '.jsl10n' ),
+		let domEls = document.querySelectorAll( '.jsl10n' ),
 			validAnchor = new RegExp( /<a[^>]*>([^<]+)<\/a>/ ),
 			i, domEl, l10nAttr, textValue, termsHref, privacyHref;
 

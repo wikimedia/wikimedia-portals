@@ -12,14 +12,14 @@
 
 	'use strict';
 
-	var baseUrl = 'https://intake-analytics.wikimedia.org/v1/events',
+	let baseUrl = 'https://intake-analytics.wikimedia.org/v1/events',
 		byteToHex = [],
 		self, helpers;
 
 	helpers = {
 		// Replaces $.extend
 		extend: function ( defaults, options ) {
-			var extended = {},
+			let extended = {},
 				prop;
 
 			for ( prop in defaults ) {
@@ -40,7 +40,7 @@
 	};
 
 	( function () {
-		var i;
+		let i;
 		// Byte to hex from
 		// https://github.com/wikimedia/mediawiki/blob/e87668e86ce9ad20df05c1baa8e7cf3f58900524/resources/src/mediawiki/mediawiki.user.js
 		for ( i = 0; i < 256; i++ ) {
@@ -80,7 +80,7 @@
 		generateRandomSessionId: function () {
 
 			/* eslint-disable no-bitwise */
-			var rnds, i, r,
+			let rnds, i, r,
 				hexRnds = new Array( 8 ),
 				// Support: IE 11
 				crypto = window.crypto || window.msCrypto;
@@ -119,7 +119,7 @@
 		 * @return {Array} An array of validation errors (empty if valid).
 		 */
 		validate: function ( obj, schema ) {
-			var key, val, prop,
+			let key, val, prop,
 				errors = [];
 
 			if ( !schema || !schema.properties ) {
@@ -165,7 +165,7 @@
 		 */
 		prepare: function ( schema, eventData ) {
 
-			var event = helpers.extend( schema.defaults, eventData ),
+			const event = helpers.extend( schema.defaults, eventData ),
 				errors = self.validate( event, schema );
 
 			while ( errors.length ) {
@@ -217,7 +217,7 @@
 		 * @param {Object} eventData Event object.
 		 */
 		logEvent: function ( schemaName, eventData ) {
-			var event = self.prepare( schemaName, eventData );
+			const event = self.prepare( schemaName, eventData );
 			self.sendBeacon( baseUrl, event );
 		}
 	}; // EventLoggingLite

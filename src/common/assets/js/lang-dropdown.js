@@ -13,7 +13,7 @@
 
 ( function () {
 
-	var langButton = document.getElementById( 'js-lang-list-button' );
+	const langButton = document.getElementById( 'js-lang-list-button' );
 
 	function toggleActiveClass() {
 		if ( / lang-list-active /g.test( document.body.className ) ) {
@@ -28,7 +28,7 @@
 	}
 
 	function userLangWikiMissing( langs ) {
-		var anchors = document.getElementsByTagName( 'a' ),
+		let anchors = document.getElementsByTagName( 'a' ),
 			langMissing = true, // Being pessimistic
 			i, anchor, langAttr;
 

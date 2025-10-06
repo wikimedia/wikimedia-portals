@@ -1,6 +1,6 @@
 'use strict';
 
-var hbs = require( '../../hbs-helpers.global.js' ),
+let hbs = require( '../../hbs-helpers.global.js' ),
 	fs = require( 'fs' ),
 	glob = require( 'glob' ),
 	stats = require( '../../data/stats' ),
@@ -33,7 +33,7 @@ l10n.assets = {
 };
 
 function getPreloadLinks() {
-	var preloadLinks = [];
+	const preloadLinks = [];
 	[
 		{
 			pattern: 'portal/wikiquote.org/assets/img/sprite*.svg',
@@ -97,7 +97,7 @@ range.forEach( ( wiki ) => {
  * @return {string}
  */
 function createTranslationsChecksum() {
-	var data = JSON.stringify( siteStats ),
+	let data = JSON.stringify( siteStats ),
 		hash = crypto.createHash( 'md5' ).update( data ).digest( 'hex' );
 	// Truncating hash for legibility
 	hash = hash.slice( 0, 8 );
@@ -105,10 +105,10 @@ function createTranslationsChecksum() {
 }
 
 function createTranslationFiles() {
-	var fileName, lang;
+	let fileName, lang;
 
 	function writeFile( el, langCode ) {
-		var fileContent;
+		let fileContent;
 
 		if ( el.code ) {
 			langCode = el.code;

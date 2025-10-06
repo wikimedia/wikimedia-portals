@@ -1,5 +1,4 @@
-// eslint-disable-next-line no-use-before-define
-var mw = {};
+const mw = {};
 
 mw.html = ( function () {
 	function escapeCallback( s ) {
@@ -49,7 +48,7 @@ mw.html = ( function () {
 		 * @return {string} HTML
 		 */
 		element: function ( name, attrs, contents ) {
-			var v, attrName, s = '<' + name;
+			let v, attrName, s = '<' + name;
 
 			for ( attrName in attrs ) {
 				v = attrs[ attrName ];

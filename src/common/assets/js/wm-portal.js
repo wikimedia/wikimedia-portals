@@ -37,7 +37,7 @@
 	 * @param {string} lang
 	 */
 	function updateBranding( lang ) {
-		var option, logo;
+		let option, logo;
 
 		// Only Wiktionary has such a mess of logos.
 		if (
@@ -61,7 +61,7 @@
 	 * @param {string} lang
 	 */
 	function preconnect( lang ) {
-		var link = document.createElement( 'link' ),
+		const link = document.createElement( 'link' ),
 			domain = window.location.hostname.split( '.' ),
 			tld = domain.pop(),
 			sld = domain.pop();
@@ -76,7 +76,7 @@
 	 * @return {string}
 	 */
 	function getUALang() {
-		var uiLang = ( navigator.languages && navigator.languages[ 0 ] ) ||
+		const uiLang = ( navigator.languages && navigator.languages[ 0 ] ) ||
 		navigator.language || navigator.userLanguage || '';
 		return uiLang.toLowerCase().split( '-' )[ 0 ];
 	}
@@ -88,7 +88,7 @@
 	 * @return {string}
 	 */
 	function getSavedLang() {
-		var match = document.cookie.match( /(?:^|\W)searchLang=([^;]+)/ );
+		const match = document.cookie.match( /(?:^|\W)searchLang=([^;]+)/ );
 		return ( match ? match[ 1 ] : getUALang() ).toLowerCase();
 	}
 
@@ -96,7 +96,7 @@
 	 * Selects the language from the dropdown according to the user's preference.
 	 */
 	doWhenReady( () => {
-		var iso639, select, options, i, len, matchingLang, matchingLink,
+		let iso639, select, options, i, len, matchingLang, matchingLink,
 			customOption, customOptionText,
 			lang = getSavedLang();
 
@@ -144,7 +144,7 @@
 	 * @param {string} lang
 	 */
 	function setLang( lang ) {
-		var uiLang,
+		let uiLang,
 			match,
 			date;
 
@@ -168,7 +168,7 @@
 	}
 
 	doWhenReady( () => {
-		var params, i, param,
+		let params, i, param,
 			search = $( 'searchInput' ),
 			select = $( 'searchLanguage' );
 
@@ -199,7 +199,7 @@
 	} );
 
 	doWhenReady( () => {
-		var uselang = document.searchwiki && document.searchwiki.elements.uselang;
+		const uselang = document.searchwiki && document.searchwiki.elements.uselang;
 		if ( uselang ) {
 			// Don't use getSavedLang() since that uses the cookie for the search form.
 			// The searchwiki form should not be affected by the values in the searchpage form.
@@ -217,7 +217,7 @@
 	 * @return {Mixed} null or the matching src string
 	 */
 	function matchSrcSet( devicePixelRatio, srcset ) {
-		var candidates,
+		let candidates,
 			candidate,
 			i,
 			ratio,
@@ -242,7 +242,7 @@
 	 * no native srcset support.
 	 */
 	function hidpi() {
-		var imgs,
+		let imgs,
 			img,
 			srcset,
 			match,

@@ -1,6 +1,6 @@
 'use strict';
 
-var l10n = require( '../../l10n/en.json' ), // These will be global values
+let l10n = require( '../../l10n/en.json' ), // These will be global values
 	rtlLanguages = require( './rtl-languages.json' ),
 	Controller,
 	i18nData,
@@ -16,7 +16,7 @@ l10n.portal = l10n.wikimedia;
 i18nData = stats.readi18nFiles( __dirname + '/../../l10n/' );
 
 function createTranslationsChecksum() {
-	var data = JSON.stringify( i18nData ),
+	let data = JSON.stringify( i18nData ),
 		hash = crypto.createHash( 'md5' ).update( data ).digest( 'hex' );
 	// Truncating hash for legibility
 	hash = hash.slice( 0, 8 );
@@ -32,10 +32,10 @@ if ( fs.existsSync( translationPath ) ) {
 }
 
 function createTranslationFiles() {
-	var fileName, lang;
+	let fileName, lang;
 
 	function writeFile( el, langCode ) {
-		var fileContent;
+		let fileContent;
 
 		if ( el.code ) {
 			langCode = el.code;
