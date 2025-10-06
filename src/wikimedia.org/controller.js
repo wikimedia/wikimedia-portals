@@ -1,4 +1,5 @@
-/* eslint-env node, es6 */
+'use strict';
+
 var l10n = require( '../../l10n/en.json' ), // These will be global values
 	rtlLanguages = require( './rtl-languages.json' ),
 	Controller,

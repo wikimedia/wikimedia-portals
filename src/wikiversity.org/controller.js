@@ -1,4 +1,5 @@
-/* eslint-env node, es6 */
+'use strict';
+
 var hbs = require( '../../hbs-helpers.global.js' ),
 	fs = require( 'fs' ),
 	glob = require( 'glob' ),
@@ -38,9 +39,9 @@ function getPreloadLinks() {
 			pattern: 'portal/wikiversity.org/assets/img/sprite*.svg',
 			as: 'image'
 		}
-	].forEach( function ( source ) {
+	].forEach( ( source ) => {
 		glob.sync( source.pattern, { cwd: __dirname } )
-			.forEach( function ( href ) {
+			.forEach( ( href ) => {
 				preloadLinks.push( { href: href, as: source.as } );
 			} );
 	} );
@@ -70,7 +71,7 @@ searchLanguageDropdown = stats.format( 'wikiversity', searchLanguageWikis, {
 siteStats = {};
 range = stats.getRangeFormatted( 'wikiversity', 'views', 10 );
 
-range.forEach( function ( wiki ) {
+range.forEach( ( wiki ) => {
 	if ( wiki.closed || wiki.sublinks ) {
 		return;
 	}

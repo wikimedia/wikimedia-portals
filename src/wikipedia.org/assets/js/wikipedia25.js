@@ -86,7 +86,7 @@
 	}
 
 	// Open on video click
-	video.addEventListener( 'click', function ( e ) {
+	video.addEventListener( 'click', ( e ) => {
 		e.preventDefault();
 		openDialog();
 	} );
@@ -107,14 +107,14 @@
 	}
 
 	// Close on click outside (backdrop click)
-	backdrop.addEventListener( 'click', function ( e ) {
+	backdrop.addEventListener( 'click', ( e ) => {
 		if ( e.target === backdrop ) {
 			closeDialog();
 		}
 	} );
 
 	// Close on Escape key
-	document.addEventListener( 'keydown', function ( e ) {
+	document.addEventListener( 'keydown', ( e ) => {
 		if ( e.key === 'Escape' && !backdrop.classList.contains( 'hidden' ) ) {
 			closeDialog();
 		}
@@ -122,7 +122,7 @@
 
 	// Focus trap start logic
 	if ( focusTrapStart ) {
-		focusTrapStart.addEventListener( 'focus', function () {
+		focusTrapStart.addEventListener( 'focus', () => {
 			if ( primaryButton ) {
 				primaryButton.focus();
 			} else if ( closeButton ) {
@@ -133,7 +133,7 @@
 
 	// Focus trap end logic
 	if ( focusTrapEnd ) {
-		focusTrapEnd.addEventListener( 'focus', function () {
+		focusTrapEnd.addEventListener( 'focus', () => {
 			if ( closeButton ) {
 				closeButton.focus();
 			} else if ( primaryButton ) {
@@ -194,7 +194,7 @@
 	];
 
 	// Create and append source elements
-	sources.forEach( function ( s ) {
+	sources.forEach( ( s ) => {
 		if ( s.src ) {
 			var source = document.createElement( 'source' );
 			source.src = s.src;

@@ -21,7 +21,7 @@
 ( function () {
 	'use strict';
 
-	doWhenReady( function () {
+	doWhenReady( () => {
 		var select = document.getElementById( 'searchLanguage' ), langLabel;
 
 		/**
@@ -74,7 +74,7 @@
 			adjustInputPadding( val );
 		}
 
-		select.addEventListener( 'change', function () {
+		select.addEventListener( 'change', () => {
 			changeLangLabel( select.value );
 		} );
 	} );

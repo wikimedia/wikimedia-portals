@@ -1,5 +1,3 @@
-/* global Uint8Array */
-
 /* eslint dot-notation: ["error", { "allowKeywords": false }] */
 /**
  *
@@ -171,6 +169,7 @@
 				errors = self.validate( event, schema );
 
 			while ( errors.length ) {
+				// eslint-disable-next-line no-console
 				console.log( errors[ errors.length - 1 ] );
 				errors.pop();
 			}

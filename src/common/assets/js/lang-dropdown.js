@@ -48,7 +48,7 @@
 		toggleActiveClass();
 	}
 
-	langButton.addEventListener( 'click', function () {
+	langButton.addEventListener( 'click', () => {
 		toggleActiveClass();
 	} );
 

@@ -18,14 +18,14 @@
 	/**
 	 * Attaching type-ahead query action to 'focus' event.
 	 */
-	searchInput.addEventListener( 'focus', _.debounce( function () {
+	searchInput.addEventListener( 'focus', _.debounce( () => {
 		typeAhead.query( searchInput.value, document.getElementById( 'searchLanguage' ).value );
 	}, 100 ) );
 
 	/**
 	 * Attaching type-ahead query action to 'input' event.
 	 */
-	searchInput.addEventListener( inputEvent, _.debounce( function () {
+	searchInput.addEventListener( inputEvent, _.debounce( () => {
 		typeAhead.query( searchInput.value, document.getElementById( 'searchLanguage' ).value );
 	}, 100 ) );
 

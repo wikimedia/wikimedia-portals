@@ -1,9 +1,14 @@
 {
-	"env": {
-		"node": true,
-		"es6": true
-	},
+	"root": true,
+	"extends": "wikimedia/server",
 	"rules": {
-		"jsdoc/no-undefined-types": "off"
+		"n/no-process-exit": "off"
+	},
+	"settings": {
+		"jsdoc": {
+			"preferredTypes": {
+				"Stream": "Stream"
+			}
+		}
 	}
 }

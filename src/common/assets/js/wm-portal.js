@@ -95,7 +95,7 @@
 	/**
 	 * Selects the language from the dropdown according to the user's preference.
 	 */
-	doWhenReady( function () {
+	doWhenReady( () => {
 		var iso639, select, options, i, len, matchingLang, matchingLink,
 			customOption, customOptionText,
 			lang = getSavedLang();
@@ -167,7 +167,7 @@
 			date.toUTCString() + ';domain=' + location.host + ';';
 	}
 
-	doWhenReady( function () {
+	doWhenReady( () => {
 		var params, i, param,
 			search = $( 'searchInput' ),
 			select = $( 'searchLanguage' );
@@ -192,13 +192,13 @@
 			}
 		}
 
-		select.addEventListener( 'change', function () {
+		select.addEventListener( 'change', () => {
 			select.blur();
 			setLang( select.value );
 		} );
 	} );
 
-	doWhenReady( function () {
+	doWhenReady( () => {
 		var uselang = document.searchwiki && document.searchwiki.elements.uselang;
 		if ( uselang ) {
 			// Don't use getSavedLang() since that uses the cookie for the search form.
@@ -225,7 +225,6 @@
 		candidates = srcset.split( / *, */ );
 		for ( i = 0; i < candidates.length; i++ ) {
 			// http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/#additions-to-the-img-element
-			// eslint-disable-next-line security/detect-unsafe-regex
 			candidate = candidates[ i ].match( /\s*(\S+)(?:\s*([\d.]+)w)?(?:\s*([\d.]+)h)?(?:\s*([\d.]+)x)?\s*/ );
 			ratio = candidate[ 4 ] && parseFloat( candidate[ 4 ] );
 			if ( ratio <= devicePixelRatio && ratio > selection.ratio ) {

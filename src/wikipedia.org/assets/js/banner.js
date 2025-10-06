@@ -5,7 +5,7 @@
  * Selects a random element with CSS class banner-container to display
  * in given countries and languages.
  *
- * @param wmTest
+ * @param {Object} wmTest
  */
 ( function () {
 	var
@@ -55,34 +55,34 @@
 		}
 	}
 	if ( typeof bannerCloseEl !== 'undefined' && bannerCloseEl !== null ) {
-		bannerCloseEl.addEventListener( 'click', function () {
+		bannerCloseEl.addEventListener( 'click', () => {
 			// 14 day cookie
 			document.cookie = 'hideWikipediaPortalBanner=1; max-age=1209600; path=/; Secure';
 			bannerEl.classList.remove( bannerVisibleClass );
 		} );
 	}
 	if ( typeof iadEl !== 'undefined' && iadEl !== null ) {
-		iadEl.addEventListener( 'click', function () {
+		iadEl.addEventListener( 'click', () => {
 			// 31 day cookie
 			document.cookie = 'centralnotice_hide_fundraising=1; max-age=2678400; path=/; Secure';
 			bannerEl.classList.remove( bannerVisibleClass );
 			document.querySelector( '.frb-iad-dialog' ).showModal();
 		} );
 		var iadActionEl = document.querySelector( '.frb-dialog-action' );
-		iadActionEl.addEventListener( 'click', function () {
+		iadActionEl.addEventListener( 'click', () => {
 			document.querySelector( '.frb-iad-dialog' ).close();
 			window.open( 'https://store.wikimedia.org/discount/WIKI-BDAY', '_blank' );
 		} );
 		var iadCloseEl = document.querySelectorAll( '.frb-iad-dialog-close' );
-		iadCloseEl.forEach( closeButton => {
-			closeButton.addEventListener( 'click', function () {
+		iadCloseEl.forEach( ( closeButton ) => {
+			closeButton.addEventListener( 'click', () => {
 				document.querySelector( '.frb-iad-dialog' ).close();
 			} );
 		} );
 
 	}
 
-	bannerLinkEl.forEach( link => {
+	bannerLinkEl.forEach( ( link ) => {
 		link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
 		link.href += '&wmf_source=' + bannerEl.id;
 		link.href += '&uselang=en';
@@ -145,7 +145,7 @@
 		}
 		// Toggle mini banner and main banner
 		for ( let i = 0; i < bannerToggle.length; i++ ) {
-			bannerToggle[ i ].addEventListener( 'click', function () {
+			bannerToggle[ i ].addEventListener( 'click', () => {
 				if ( bannerVisible.classList.contains( 'overlay-banner-open' ) ) {
 					bannerVisible.classList.remove( 'overlay-banner-open' );
 					bannerMini.classList.add( 'visible' );
@@ -164,14 +164,14 @@
 		var updateHeights;
 		window.onresize = function () {
 			clearTimeout( updateHeights );
-			updateHeights = setTimeout( function () {
+			updateHeights = setTimeout( () => {
 				newHeight();
 			}, 100 );
 		};
 		// Set medium banner cookie on minimise
 		var bannerCollapse = document.getElementsByClassName( 'overlay-banner-toggle' );
 		for ( let i = 0; i < bannerCollapse.length; i++ ) {
-			bannerCollapse[ i ].addEventListener( 'click', function () {
+			bannerCollapse[ i ].addEventListener( 'click', () => {
 				document.cookie = 'minimizeWikipediaPortalBanner=1; max-age=1209600; path=/; Secure';
 			} );
 		}
@@ -179,7 +179,7 @@
 		var bannerClose = document.getElementsByClassName( 'overlay-banner-close' );
 		var bannerMain = document.getElementsByClassName( 'overlay-banner' )[ 0 ];
 		for ( let i = 0; i < bannerClose.length; i++ ) {
-			bannerClose[ i ].addEventListener( 'click', function () {
+			bannerClose[ i ].addEventListener( 'click', () => {
 				document.cookie = 'hideWikipediaPortalBanner=1; max-age=1209600; path=/; Secure';
 				bannerMain.style.display = 'none';
 			} );
@@ -193,10 +193,10 @@
 		if ( country === 'IE' ) {
 			amountRadios[ 0 ].value = '2.50';
 		}
-		amountRadios.forEach( radioA => {
-			radioA.addEventListener( 'click', function () {
+		amountRadios.forEach( ( radioA ) => {
+			radioA.addEventListener( 'click', () => {
 				amountVal = radioA.value;
-				bannerLinkEl.forEach( link => {
+				bannerLinkEl.forEach( ( link ) => {
 					link.href += '&preSelect=' + amountVal;
 				} );
 				var children = document.getElementById( 'amountsGrid' ).childNodes;
@@ -215,10 +215,10 @@
 		// Frequency grid
 		var monthlyVal;
 		var monthlyRadios = document.querySelectorAll( 'input[name="monthly"]' );
-		monthlyRadios.forEach( radioM => {
-			radioM.addEventListener( 'click', function () {
+		monthlyRadios.forEach( ( radioM ) => {
+			radioM.addEventListener( 'click', () => {
 				monthlyVal = radioM.value;
-				bannerLinkEl.forEach( link => {
+				bannerLinkEl.forEach( ( link ) => {
 					link.href += '&monthly=' + monthlyVal;
 				} );
 				var children = document.getElementById( 'frequencyGrid' ).childNodes;

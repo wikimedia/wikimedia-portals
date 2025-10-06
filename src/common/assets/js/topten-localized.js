@@ -42,9 +42,7 @@
 	storedTranslations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
 
 	// Generate an array of language codes based on the lang attributes of the top-ten links.
-	topLinkLangs = Array.prototype.map.call( topLinks, function ( link ) {
-		return link.getAttribute( 'lang' );
-	} );
+	topLinkLangs = Array.prototype.map.call( topLinks, ( link ) => link.getAttribute( 'lang' ) );
 
 	/**
 	 * TranslationHash is a global variable that is a hash of all translation strings.

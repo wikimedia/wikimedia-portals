@@ -1,27 +1,38 @@
 {
 	"root": true,
-	"extends": [
-		"wikimedia/client/common",
-		"wikimedia/language/es2018",
-		"wikimedia/mediawiki"
-	],
-	"rules": {
-		"capitalized-comments": [
-			"error",
-			"always",
-			{
-				"ignoreConsecutiveComments": true
+	"overrides": [
+		{
+			"files": [ "**/assets/**" ],
+			"extends": [
+				"wikimedia/client/common",
+				"wikimedia/language/es2018",
+				"wikimedia/mediawiki"
+			],
+			"rules": {
+				"no-var": "off",
+				"unicorn/prefer-includes": "off",
+				"mediawiki/valid-package-file-require": "off",
+				"mediawiki/class-doc": "off",
+				"mediawiki/no-cookie": "off",
+				"mediawiki/no-storage": "off"
 			}
-		],
-		"strict": "off",
-		"no-var": "off",
-		"unicorn/prefer-includes": "off",
-		"prefer-arrow-callback": "off",
-		"no-redeclare": "off",
-		"arrow-parens": "off",
-		"no-console": "off",
-		"es-x/no-rest-spread-properties": "off",
-		"mediawiki/valid-package-file-require": "off",
-		"mediawiki/class-doc": "off"
-	}
+		},
+		{
+			"files": [ "*", "**/*" ],
+			"excludedFiles": [ "**/assets/**" ],
+			"extends": [ "wikimedia/server" ],
+			"rules": {
+				"capitalized-comments": [
+					"error",
+					"always",
+					{
+						"ignoreConsecutiveComments": true
+					}
+				],
+				"no-var": "off",
+				"unicorn/prefer-includes": "off",
+				"es-x/no-rest-spread-properties": "off"
+			}
+		}
+	]
 }

@@ -136,7 +136,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 *
 	 */
 	function clearTypeAhead() {
-		setTimeout( function () {
+		setTimeout( () => {
 			var searchScript = document.getElementById( 'api_opensearch' );
 			typeAheadEl.innerHTML = '';
 			if ( searchScript ) {
@@ -214,7 +214,6 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 
 		var sanitizedSearchString = mw.html.escape( mw.RegExp.escape( search ) ),
 
-			// eslint-disable-next-line security/detect-non-literal-regexp
 			searchRegex = new RegExp( sanitizedSearchString, 'i' ),
 			startHighlightIndex = title.search( searchRegex ),
 			formattedTitle = mw.html.escape( title ),
@@ -451,7 +450,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 
 	searchEl.addEventListener( 'keydown', keyboardEvents );
 
-	window.addEventListener( 'click', function ( event ) {
+	window.addEventListener( 'click', ( event ) => {
 		var target = event.target.closest( '#search-form' );
 
 		if ( !target ) {
