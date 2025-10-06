@@ -2,13 +2,13 @@
 
 ( function ( wmTest, WMTypeAhead ) {
 
-	let inputEvent,
-		searchInput = document.getElementById( 'searchInput' ),
+	const searchInput = document.getElementById( 'searchInput' ),
 		typeAhead = new WMTypeAhead( 'search-input', 'searchInput' );
 
 	/**
 	 * Testing for 'input' event and falling back to 'propertychange' event for IE.
 	 */
+	let inputEvent;
 	if ( 'oninput' in document ) {
 		inputEvent = 'input';
 	} else {

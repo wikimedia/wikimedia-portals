@@ -22,7 +22,7 @@
 	'use strict';
 
 	doWhenReady( () => {
-		let select = document.getElementById( 'searchLanguage' ), langLabel;
+		const select = document.getElementById( 'searchLanguage' );
 
 		/**
 		 * Adjusts input's padding to the size of the language code.
@@ -61,7 +61,7 @@
 			return label;
 		}
 
-		langLabel = createJSLangLabel();
+		const langLabel = createJSLangLabel();
 
 		/**
 		 * Updates the language selector label.

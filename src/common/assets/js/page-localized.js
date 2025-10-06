@@ -19,11 +19,7 @@
 
 ( function ( wmTest, translationsHash, mw, rtlLangs ) {
 
-	let primaryLang = wmTest.primaryLang,
-		storedTranslationHash,
-		storedTranslations,
-		l10nReq,
-		l10nInfo;
+	const primaryLang = wmTest.primaryLang;
 
 	/**
 	 * Helper function to safely parse JSON an return empty string on error.
@@ -51,8 +47,8 @@
 		return;
 	}
 
-	storedTranslationHash = isValidHash();
-	storedTranslations = storedTranslationHash ? safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {} : {};
+	const storedTranslationHash = isValidHash();
+	const storedTranslations = storedTranslationHash ? safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {} : {};
 
 	/**
 	 * Saves translation to localstorage
@@ -95,20 +91,19 @@
 	 * @param {Object} info Object containing translation data.
 	 */
 	function replacel10nText( info ) {
-		let domEls = document.querySelectorAll( '.jsl10n' ),
-			validAnchor = new RegExp( /<a[^>]*>([^<]+)<\/a>/ ),
-			i, domEl, l10nAttr, textValue, termsHref, privacyHref;
+		const domEls = document.querySelectorAll( '.jsl10n' ),
+			validAnchor = new RegExp( /<a[^>]*>([^<]+)<\/a>/ );
 
-		for ( i = 0; i < domEls.length; i++ ) {
+		for ( let i = 0; i < domEls.length; i++ ) {
 
-			domEl = domEls[ i ];
+			const domEl = domEls[ i ];
 			/**
 			 * This converts the generic "portal" keyword in the data-jsl10n
 			 * attributes e.g. 'data-jsl10n="portal.footer-description"' into a portal-specific
 			 * keys as defined by the global `translationsPortalKey` variable inlined in index.html
 			 */
-			l10nAttr = domEl.getAttribute( 'data-jsl10n' ).replace( 'portal.', translationsPortalKey + '.' );
-			textValue = getProp( info, l10nAttr );
+			const l10nAttr = domEl.getAttribute( 'data-jsl10n' ).replace( 'portal.', translationsPortalKey + '.' );
+			const textValue = getProp( info, l10nAttr );
 
 			if ( typeof textValue === 'string' && textValue.length > 0 ) {
 				switch ( l10nAttr ) {
@@ -124,20 +119,22 @@
 					case 'license':
 						domEl.innerHTML = textValue;
 						break;
-					case 'terms':
+					case 'terms': {
 						domEl.firstChild.textContent = textValue;
-						termsHref = getProp( info, 'terms-link' );
+						const termsHref = getProp( info, 'terms-link' );
 						if ( termsHref ) {
 							domEl.firstChild.setAttribute( 'href', termsHref );
 						}
 						break;
-					case 'privacy-policy':
+					}
+					case 'privacy-policy': {
 						domEl.firstChild.textContent = textValue;
-						privacyHref = getProp( info, 'privacy-policy-link' );
+						const privacyHref = getProp( info, 'privacy-policy-link' );
 						if ( privacyHref ) {
 							domEl.firstChild.setAttribute( 'href', privacyHref );
 						}
 						break;
+					}
 					default:
 						domEl.textContent = textValue;
 						// T254611 Specific 'lang' attribute for every localized text
@@ -163,7 +160,7 @@
 	 */
 	if ( !storedTranslations[ primaryLang ] ) {
 
-		l10nReq = new XMLHttpRequest();
+		const l10nReq = new XMLHttpRequest();
 
 		l10nReq.open( 'GET', encodeURI( 'portal/' + portalSearchDomain + '/assets/l10n/' + primaryLang + '-' + translationsHash + '.json' ), true );
 
@@ -171,7 +168,7 @@
 			if ( l10nReq.readyState === 4 ) {
 				if ( l10nReq.status === 200 ) {
 
-					l10nInfo = safelyParseJSON( this.responseText );
+					const l10nInfo = safelyParseJSON( this.responseText );
 
 					if ( l10nInfo ) {
 						saveTranslation( primaryLang, l10nInfo );
@@ -193,7 +190,7 @@
 
 		l10nReq.send();
 	} else {
-		l10nInfo = storedTranslations[ primaryLang ];
+		const l10nInfo = storedTranslations[ primaryLang ];
 		// Skip if it took too long
 		if ( wmL10nVisible.ready ) {
 			return;

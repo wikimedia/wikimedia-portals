@@ -15,13 +15,11 @@
 
 ( function ( mw, wmTest ) {
 
-	let preferredLanguages = wmTest.userLangs,
+	const preferredLanguages = wmTest.userLangs,
 		primaryLang = wmTest.primaryLang,
-		topLinks = document.querySelectorAll( '.central-featured-lang' ),
 		topLinksContainer = document.querySelector( '.central-featured' ),
-		topLinkLangs,
-		storedTranslationHash = mw.storage.get( 'translationHash' ),
-		storedTranslations;
+		storedTranslationHash = mw.storage.get( 'translationHash' );
+	let topLinks = document.querySelectorAll( '.central-featured-lang' );
 
 	/**
 	 * Helper function to safely parse JSON an return empty string on error.
@@ -39,10 +37,10 @@
 		return parsed;
 	}
 
-	storedTranslations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
+	let storedTranslations = safelyParseJSON( mw.storage.get( 'storedTranslations' ) ) || {};
 
 	// Generate an array of language codes based on the lang attributes of the top-ten links.
-	topLinkLangs = Array.prototype.map.call( topLinks, ( link ) => link.getAttribute( 'lang' ) );
+	const topLinkLangs = Array.prototype.map.call( topLinks, ( link ) => link.getAttribute( 'lang' ) );
 
 	/**
 	 * TranslationHash is a global variable that is a hash of all translation strings.
@@ -67,12 +65,11 @@
 	 * Manipulates the {@link #topLinkLangs} array.
 	 */
 	function mergeNewTopLinkLangs() {
-		let i, pl, plIndex, plExists, plRightSpot;
-		for ( i = 0; i < preferredLanguages.length; i++ ) {
-			pl = preferredLanguages[ i ];
-			plIndex = topLinkLangs.indexOf( pl );
-			plExists = plIndex >= 0;
-			plRightSpot = plIndex === i;
+		for ( let i = 0; i < preferredLanguages.length; i++ ) {
+			const pl = preferredLanguages[ i ];
+			const plIndex = topLinkLangs.indexOf( pl );
+			const plExists = plIndex >= 0;
+			const plRightSpot = plIndex === i;
 
 			if ( plExists ) {
 				if ( !plRightSpot ) {
@@ -131,29 +128,24 @@
 	 * this should happen after the top links nodes have been reorganized.
 	 */
 	function reorganizeTopLinkClasses() {
-		let topLink,
-			topLinkLang,
-			topLinkClass,
-			correctClassName,
-			topLinksCorrectLangs = true,
-			i;
+		let topLinksCorrectLangs = true;
 
 		topLinks = document.querySelectorAll( '.central-featured-lang' );
 
-		for ( i = 0; i < topLinks.length && topLinksCorrectLangs === true; i++ ) {
+		for ( let i = 0; i < topLinks.length && topLinksCorrectLangs === true; i++ ) {
 			/**
 			 * Get the main code, we want the lang attribute varied to zh-hans and zh-hant
 			 * for Chinese users, because the font style for them are different.
 			 */
-			topLinkLang = topLinks[ i ].getAttribute( 'lang' ).split( '-' )[ 0 ];
+			const topLinkLang = topLinks[ i ].getAttribute( 'lang' ).split( '-' )[ 0 ];
 			topLinksCorrectLangs = topLinkLangs.includes( topLinkLang );
 		}
 
-		for ( i = 0; i < topLinks.length; i++ ) {
+		for ( let i = 0; i < topLinks.length; i++ ) {
 			if ( topLinksCorrectLangs ) {
-				topLink = topLinks[ i ];
-				topLinkClass = topLink.className;
-				correctClassName = 'central-featured-lang lang' + ( i + 1 );
+				const topLink = topLinks[ i ];
+				const topLinkClass = topLink.className;
+				const correctClassName = 'central-featured-lang lang' + ( i + 1 );
 
 				if ( topLinkClass !== correctClassName ) {
 					topLink.className = correctClassName;
@@ -178,8 +170,7 @@
 	 */
 	function getAjaxTranslation( node, lang, localizeVariant ) {
 
-		let i18nReq = new XMLHttpRequest(),
-			wikiInfo;
+		const i18nReq = new XMLHttpRequest();
 
 		i18nReq.open( 'GET', encodeURI( 'portal/' + portalSearchDomain + '/assets/l10n/' + lang + '-' + translationsHash + '.json' ), true );
 
@@ -189,7 +180,7 @@
 				return;
 			}
 
-			wikiInfo = safelyParseJSON( this.responseText );
+			const wikiInfo = safelyParseJSON( this.responseText );
 
 			if ( wikiInfo ) {
 				updateTopLinkDOM( node, wikiInfo, localizeVariant );
@@ -230,12 +221,10 @@
 	 * @return {HTMLElement} Node that can be reused with new content.
 	 */
 	function findReusableTopLink() {
-		let reusableTopLink = null,
-			topLinkLang,
-			i;
+		let reusableTopLink = null;
 
-		for ( i = topLinkLangs.length - 1; i >= 0 && reusableTopLink === null; i-- ) {
-			topLinkLang = topLinks[ i ].getAttribute( 'lang' );
+		for ( let i = topLinkLangs.length - 1; i >= 0 && reusableTopLink === null; i-- ) {
+			const topLinkLang = topLinks[ i ].getAttribute( 'lang' );
 			if ( !topLinkLangs.includes( topLinkLang ) ) {
 				reusableTopLink = topLinks[ i ];
 			}
@@ -250,20 +239,15 @@
 	 * to contain the new language.
 	 */
 	function organizeTopLinks() {
-		let i,
-			topLinkLang,
-			topLinkNode,
-			topLinkNodeIndex,
-			repurposedTopLink;
-
-		for ( i = 0; i < topLinkLangs.length; i++ ) {
+		for ( let i = 0; i < topLinkLangs.length; i++ ) {
 
 			topLinks = document.querySelectorAll( '.central-featured-lang' );
-			topLinkLang = topLinkLangs[ i ];
-			topLinkNode = document.querySelector( '.central-featured-lang[lang=' + topLinkLang + ']' );
+			const topLinkLang = topLinkLangs[ i ];
+			const topLinkNode = document.querySelector( '.central-featured-lang[lang=' + topLinkLang + ']' );
+			let repurposedTopLink;
 
 			if ( topLinkNode ) {
-				topLinkNodeIndex = Array.prototype.indexOf.call( topLinks, topLinkNode );
+				const topLinkNodeIndex = Array.prototype.indexOf.call( topLinks, topLinkNode );
 				if ( topLinkNodeIndex !== i ) {
 					topLinksContainer.insertBefore( topLinkNode, topLinks[ i ] );
 				}

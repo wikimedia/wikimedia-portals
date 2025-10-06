@@ -37,8 +37,6 @@
 	 * @param {string} lang
 	 */
 	function updateBranding( lang ) {
-		let option, logo;
-
 		// Only Wiktionary has such a mess of logos.
 		if (
 			!document.querySelector ||
@@ -48,8 +46,8 @@
 			return;
 		}
 
-		option = document.querySelector( 'option[lang|="' + lang + '"]' );
-		logo = option && option.getAttribute( 'data-logo' );
+		const option = document.querySelector( 'option[lang|="' + lang + '"]' );
+		const logo = option && option.getAttribute( 'data-logo' );
 		if ( logo ) {
 			document.body.setAttribute( 'data-logo', logo );
 		}
@@ -96,34 +94,34 @@
 	 * Selects the language from the dropdown according to the user's preference.
 	 */
 	doWhenReady( () => {
-		let iso639, select, options, i, len, matchingLang, matchingLink,
-			customOption, customOptionText,
-			lang = getSavedLang();
+		const lang = getSavedLang();
 
 		if ( !lang ) {
 			return;
 		}
 
-		iso639 = getIso639( lang );
+		const iso639 = getIso639( lang );
 
-		select = $( 'searchLanguage' );
+		const select = $( 'searchLanguage' );
 		// Verify that an <option> exists for the langCode that was
 		// In the cookie. If so, set the value to it.
 		if ( select ) {
-			options = select.getElementsByTagName( 'option' );
-			for ( i = 0, len = options.length; !matchingLang && i < len; i += 1 ) {
+			const options = select.getElementsByTagName( 'option' );
+			let matchingLang;
+			for ( let i = 0, len = options.length; !matchingLang && i < len; i += 1 ) {
 				if ( options[ i ].value === iso639 ) {
 					matchingLang = iso639;
 				}
 			}
 			if ( !matchingLang && document.querySelector ) {
-				matchingLink = document.querySelector( '.langlist a[lang|="' + iso639 + '"]' );
+				const matchingLink = document.querySelector( '.langlist a[lang|="' + iso639 + '"]' );
 				if ( matchingLink ) {
 					matchingLang = iso639;
-					customOption = document.createElement( 'option' );
+					const customOption = document.createElement( 'option' );
 					customOption.setAttribute( 'lang', iso639 );
 					customOption.setAttribute( 'value', iso639 );
-					customOptionText = matchingLink.textContent || matchingLink.innerText || iso639;
+					const customOptionText =
+						matchingLink.textContent || matchingLink.innerText || iso639;
 					customOption.textContent = customOptionText;
 					select.appendChild( customOption );
 				}
@@ -144,17 +142,13 @@
 	 * @param {string} lang
 	 */
 	function setLang( lang ) {
-		let uiLang,
-			match,
-			date;
-
 		if ( !lang ) {
 			return;
 		}
 
-		uiLang = getUALang();
-		match = uiLang.match( /^\w+/ );
-		date = new Date();
+		const uiLang = getUALang();
+		const match = uiLang.match( /^\w+/ );
+		const date = new Date();
 
 		updateBranding( lang );
 		if ( match && match[ 0 ] === lang ) {
@@ -168,8 +162,7 @@
 	}
 
 	doWhenReady( () => {
-		let params, i, param,
-			search = $( 'searchInput' ),
+		const search = $( 'searchInput' ),
 			select = $( 'searchLanguage' );
 
 		if ( search ) {
@@ -182,9 +175,9 @@
 			}
 
 			// Prefills the search box with the "search" URL parameter.
-			params = location.search && location.search.slice( 1 ).split( '&' );
-			for ( i = 0; i < params.length; i += 1 ) {
-				param = params[ i ].split( '=' );
+			const params = location.search && location.search.slice( 1 ).split( '&' );
+			for ( let i = 0; i < params.length; i += 1 ) {
+				const param = params[ i ].split( '=' );
 				if ( param[ 0 ] === 'search' && param[ 1 ] ) {
 					search.value = decodeURIComponent( param[ 1 ].replace( /\+/g, ' ' ) );
 					break;
@@ -217,16 +210,12 @@
 	 * @return {Mixed} null or the matching src string
 	 */
 	function matchSrcSet( devicePixelRatio, srcset ) {
-		let candidates,
-			candidate,
-			i,
-			ratio,
-			selection = { ratio: 1 };
-		candidates = srcset.split( / *, */ );
-		for ( i = 0; i < candidates.length; i++ ) {
+		const selection = { ratio: 1 };
+		const candidates = srcset.split( / *, */ );
+		for ( let i = 0; i < candidates.length; i++ ) {
 			// http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/#additions-to-the-img-element
-			candidate = candidates[ i ].match( /\s*(\S+)(?:\s*([\d.]+)w)?(?:\s*([\d.]+)h)?(?:\s*([\d.]+)x)?\s*/ );
-			ratio = candidate[ 4 ] && parseFloat( candidate[ 4 ] );
+			const candidate = candidates[ i ].match( /\s*(\S+)(?:\s*([\d.]+)w)?(?:\s*([\d.]+)h)?(?:\s*([\d.]+)x)?\s*/ );
+			const ratio = candidate[ 4 ] && parseFloat( candidate[ 4 ] );
 			if ( ratio <= devicePixelRatio && ratio > selection.ratio ) {
 				selection.ratio = ratio;
 				selection.src = candidate[ 1 ];
@@ -242,22 +231,17 @@
 	 * no native srcset support.
 	 */
 	function hidpi() {
-		let imgs,
-			img,
-			srcset,
-			match,
-			i,
-			ratio = getDevicePixelRatio(),
+		const ratio = getDevicePixelRatio(),
 			testImage = new Image();
 
 		if ( ratio > 1 && testImage.srcset === undefined ) {
 			// No native srcset support.
-			imgs = document.getElementsByTagName( 'img' );
-			for ( i = 0; i < imgs.length; i++ ) {
-				img = imgs[ i ];
-				srcset = img.getAttribute( 'srcset' );
+			const imgs = document.getElementsByTagName( 'img' );
+			for ( let i = 0; i < imgs.length; i++ ) {
+				const img = imgs[ i ];
+				const srcset = img.getAttribute( 'srcset' );
 				if ( typeof srcset === 'string' && srcset !== '' ) {
-					match = matchSrcSet( ratio, srcset );
+					const match = matchSrcSet( ratio, srcset );
 					if ( match.src !== undefined ) {
 						img.setAttribute( 'src', match.src );
 						if ( match.width !== undefined ) {

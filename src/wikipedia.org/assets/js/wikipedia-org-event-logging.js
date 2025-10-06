@@ -5,19 +5,17 @@
 
 	'use strict';
 
-	let portalSchema, eventSections, docForms, eventData,
-		geoCookieCountry = document.cookie.match( /GeoIP=.[^:]/ ),
+	const geoCookieCountry = document.cookie.match( /GeoIP=.[^:]/ ),
 		// It's possible that geoCookieCountry is defined but geoCookieState is not.
 		// E.g., with an adblocker enabled: "GeoIP=US:::38.00:-97.00:v4; CP=H2".
-		geoCookieState = document.cookie.match( /GeoIP=.[^:].{2}[^:]/ ),
-		country,
-		n;
+		geoCookieState = document.cookie.match( /GeoIP=.[^:].{2}[^:]/ );
+	let eventData;
 
 	if ( wmTest.group === 'rejected' || wmTest.loggingDisabled ) {
 		return;
 	}
 
-	portalSchema = {
+	const portalSchema = {
 		name: 'WikipediaPortal',
 		// Revision # from https://meta.wikimedia.org/wiki/Schema:WikipediaPortal
 		revision: 15890769,
@@ -82,7 +80,7 @@
 	};
 
 	/* eslint-disable no-multi-spaces */
-	eventSections = [
+	const eventSections = [
 		{ name: 'primary links',   nodes: document.querySelectorAll( '[data-el-section="primary links"]' ) },
 		{ name: 'search',          nodes: document.querySelectorAll( '[data-el-section="search"]' ) },
 		{ name: 'language search', nodes: document.querySelectorAll( '[data-el-section="language search"]' ) },
@@ -101,14 +99,13 @@
 	 */
 	function findEventSection( clickNode ) {
 
-		let eventSection = {},
-			i, j, nodes;
+		let eventSection = {};
 
-		for ( i = 0; i < eventSections.length; i++ ) {
+		for ( let i = 0; i < eventSections.length; i++ ) {
 
-			nodes = eventSections[ i ].nodes;
+			const nodes = eventSections[ i ].nodes;
 
-			for ( j = 0; j < nodes.length; j++ ) {
+			for ( let j = 0; j < nodes.length; j++ ) {
 
 				if ( nodes[ j ].contains( clickNode ) ) {
 
@@ -160,13 +157,12 @@
 	 */
 	function interceptClick( e ) {
 
-		let anchor,
-			event = e || window.event,
+		const event = e || window.event,
 			target = event.target || event.srcElement;
 
 		if ( target.matches( 'a, a *' ) ) {
 
-			anchor = checkForParentAnchor( target );
+			const anchor = checkForParentAnchor( target );
 
 			eventData = {
 				event_type: 'clickthrough',
@@ -246,9 +242,9 @@
 	document.addEventListener( 'click', interceptClick );
 	document.addEventListener( 'change', interceptChange );
 
-	docForms = document.getElementsByTagName( 'form' );
+	const docForms = document.getElementsByTagName( 'form' );
 
-	for ( n = 0; n < docForms.length; n++ ) {
+	for ( let n = 0; n < docForms.length; n++ ) {
 		docForms[ n ].addEventListener( 'submit', interceptForm );
 	}
 
@@ -257,7 +253,7 @@
 	 */
 
 	if ( geoCookieCountry ) {
-		country = geoCookieCountry.toString().split( '=' )[ 1 ];
+		const country = geoCookieCountry.toString().split( '=' )[ 1 ];
 		if ( country === 'US' && geoCookieState ) {
 			/**
 			 * If the country is United States, we need to obain the 2-letter state name (T136257)

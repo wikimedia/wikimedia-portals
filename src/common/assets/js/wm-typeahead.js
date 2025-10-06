@@ -21,17 +21,14 @@
 
 window.WMTypeAhead = function ( appendTo, searchInput ) {
 
-	let typeAheadID = 'typeahead-suggestions',
-		typeAheadEl = document.getElementById( typeAheadID ), // Type-ahead DOM element.
+	const typeAheadID = 'typeahead-suggestions',
 		appendEl = document.getElementById( appendTo ),
 		searchEl = document.getElementById( searchInput ),
 		thumbnailSize = Math.round( getDevicePixelRatio() * 60 ),
-		maxSearchResults = 6,
-		searchLang,
-		searchString,
-		typeAheadItems,
-		activeItem,
-		ssActiveIndex;
+		maxSearchResults = 6;
+	let typeAheadEl = document.getElementById( typeAheadID ), // Type-ahead DOM element.
+		searchLang = null,
+		searchString = null;
 
 	// Only create typeAheadEl once on page.
 	if ( !typeAheadEl ) {
@@ -47,10 +44,9 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 * @return {string}
 	 */
 	function serialize( obj ) {
-		let serialized = [],
-			prop;
+		const serialized = [];
 
-		for ( prop in obj ) {
+		for ( const prop in obj ) {
 			if ( obj.hasOwnProperty( prop ) ) { // eslint-disable-line no-prototype-builtins
 				serialized.push( prop + '=' + encodeURIComponent( obj[ prop ] ) );
 			}
@@ -71,7 +67,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 			return this.index;
 		},
 		addCallback: function ( func ) {
-			let index = this.incrementIndex();
+			const index = this.incrementIndex();
 			this.queue[ index ] = func( index );
 			return index;
 		},
@@ -98,7 +94,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 * Makes sure the 'active' element is synchronized between mouse and keyboard usage,
 	 * and cleared when new search suggestions appear.
 	 */
-	ssActiveIndex = {
+	const ssActiveIndex = {
 		index: -1,
 		max: maxSearchResults,
 		setMax: function ( x ) {
@@ -137,7 +133,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 	function clearTypeAhead() {
 		setTimeout( () => {
-			let searchScript = document.getElementById( 'api_opensearch' );
+			const searchScript = document.getElementById( 'api_opensearch' );
 			typeAheadEl.innerHTML = '';
 			if ( searchScript ) {
 				searchScript.src = false;
@@ -155,11 +151,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 
 	function loadQueryScript( string, lang ) {
-		let script = document.getElementById( 'api_opensearch' ),
-			docHead = document.getElementsByTagName( 'head' )[ 0 ],
-			hostname,
-			callbackIndex,
-			searchQuery;
+		const docHead = document.getElementsByTagName( 'head' )[ 0 ];
 
 		// Variables declared in parent function.
 		searchLang = encodeURIComponent( lang ) || 'en';
@@ -169,18 +161,19 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 			return;
 		}
 
-		hostname = '//' + searchLang + '.' + portalSearchDomain + '/w/api.php?';
+		const hostname = '//' + searchLang + '.' + portalSearchDomain + '/w/api.php?';
 
+		const oldScript = document.getElementById( 'api_opensearch' );
 		// If script already exists, remove it.
-		if ( script ) {
-			docHead.removeChild( script );
+		if ( oldScript ) {
+			docHead.removeChild( oldScript );
 		}
 
-		script = document.createElement( 'script' );
+		const script = document.createElement( 'script' );
 		script.id = 'api_opensearch';
 
-		callbackIndex = window.callbackStack.addCallback( window.portalOpensearchCallback );
-		searchQuery = {
+		const callbackIndex = window.callbackStack.addCallback( window.portalOpensearchCallback );
+		const searchQuery = {
 			action: 'query',
 			format: 'json',
 			generator: 'prefixsearch',
@@ -212,22 +205,16 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 	function highlightTitle( title, search ) {
 
-		let sanitizedSearchString = mw.html.escape( mw.RegExp.escape( search ) ),
-
+		const sanitizedSearchString = mw.html.escape( mw.RegExp.escape( search ) ),
 			searchRegex = new RegExp( sanitizedSearchString, 'i' ),
-			startHighlightIndex = title.search( searchRegex ),
-			formattedTitle = mw.html.escape( title ),
-			endHighlightIndex,
-			strong,
-			beforeHighlight,
-			aferHighlight;
+			startHighlightIndex = title.search( searchRegex );
 
+		let formattedTitle = mw.html.escape( title );
 		if ( startHighlightIndex >= 0 ) {
-
-			endHighlightIndex = startHighlightIndex + sanitizedSearchString.length;
-			strong = title.slice( startHighlightIndex, endHighlightIndex );
-			beforeHighlight = title.slice( 0, Math.max( 0, startHighlightIndex ) );
-			aferHighlight = title.slice( endHighlightIndex, title.length );
+			const endHighlightIndex = startHighlightIndex + sanitizedSearchString.length;
+			const strong = title.slice( startHighlightIndex, endHighlightIndex );
+			const beforeHighlight = title.slice( 0, Math.max( 0, startHighlightIndex ) );
+			const aferHighlight = title.slice( endHighlightIndex, title.length );
 			formattedTitle = beforeHighlight + mw.html.element( 'em', { class: 'suggestion-highlight' }, strong ) + aferHighlight;
 		}
 
@@ -242,24 +229,17 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 	function generateTemplateString( suggestions ) {
 		let string = '<div class="suggestions-dropdown">',
-			suggestionLink,
-			suggestionThumbnail,
-			suggestionText,
-			suggestionTitle,
-			suggestionDescription,
-			page,
 			sanitizedThumbURL = false,
 			descriptionText = '',
-			pageDescription = '',
-			i;
+			pageDescription = '';
 
-		for ( i = 0; i < suggestions.length; i++ ) {
+		for ( let i = 0; i < suggestions.length; i++ ) {
 
 			if ( !suggestions[ i ] ) {
 				continue;
 			}
 
-			page = suggestions[ i ];
+			const page = suggestions[ i ];
 			pageDescription = page.description || '';
 
 			// Ensure that the value from the previous iteration isn't used
@@ -284,18 +264,18 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 				}
 			}
 
-			suggestionDescription = mw.html.element( 'p', { class: 'suggestion-description' }, descriptionText );
+			const suggestionDescription = mw.html.element( 'p', { class: 'suggestion-description' }, descriptionText );
 
-			suggestionTitle = mw.html.element( 'h3', { class: 'suggestion-title' }, new mw.html.Raw( highlightTitle( page.title, searchString ) ) );
+			const suggestionTitle = mw.html.element( 'h3', { class: 'suggestion-title' }, new mw.html.Raw( highlightTitle( page.title, searchString ) ) );
 
-			suggestionText = mw.html.element( 'div', { class: 'suggestion-text' }, new mw.html.Raw( suggestionTitle + suggestionDescription ) );
+			const suggestionText = mw.html.element( 'div', { class: 'suggestion-text' }, new mw.html.Raw( suggestionTitle + suggestionDescription ) );
 
-			suggestionThumbnail = mw.html.element( 'div', {
+			const suggestionThumbnail = mw.html.element( 'div', {
 				class: 'suggestion-thumbnail',
 				style: ( sanitizedThumbURL ) ? 'background-image:url(' + sanitizedThumbURL + ')' : false
 			}, '' );
 
-			suggestionLink = mw.html.element( 'a', {
+			const suggestionLink = mw.html.element( 'a', {
 				class: 'suggestion-link',
 				href: 'https://' + searchLang + '.' + portalSearchDomain + '/wiki/' + encodeURIComponent( page.title.replace( / /gi, '_' ) )
 			}, new mw.html.Raw( suggestionText + suggestionThumbnail ) );
@@ -320,13 +300,11 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 
 	function toggleActiveClass( item, collection ) {
 
-		let activeClass = ' active', // Prefixed with space.
-			colItem,
-			i;
+		const activeClass = ' active'; // Prefixed with space.
 
-		for ( i = 0; i < collection.length; i++ ) {
+		for ( let i = 0; i < collection.length; i++ ) {
 
-			colItem = collection[ i ];
+			const colItem = collection[ i ];
 			// Remove the class name from everything except item.
 			if ( colItem !== item ) {
 				colItem.className = colItem.className.replace( activeClass, '' );
@@ -352,18 +330,12 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 *  - inserts the template string into the DOM
 	 *  - attaches event listeners on each suggestion item.
 	 *
-	 * @param {number} i
+	 * @param {number} callbackIndex
 	 * @return {Function}
 	 */
-	window.portalOpensearchCallback = function ( i ) {
+	window.portalOpensearchCallback = function ( callbackIndex ) {
 
-		let callbackIndex = i,
-			orderedResults = [],
-			suggestions,
-			item,
-			result,
-			templateDOMString,
-			listEl;
+		const orderedResults = [];
 
 		return function ( xhrResults ) {
 
@@ -373,26 +345,26 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 				return;
 			}
 
-			suggestions = ( xhrResults.query && xhrResults.query.pages ) ?
+			const suggestions = ( xhrResults.query && xhrResults.query.pages ) ?
 				xhrResults.query.pages : [];
 
-			for ( item in suggestions ) {
-				result = suggestions[ item ];
+			for ( const item in suggestions ) {
+				const result = suggestions[ item ];
 				orderedResults[ result.index - 1 ] = result;
 			}
 
-			templateDOMString = generateTemplateString( orderedResults );
+			const templateDOMString = generateTemplateString( orderedResults );
 
 			ssActiveIndex.setMax( orderedResults.length );
 			ssActiveIndex.clear();
 
 			typeAheadEl.innerHTML = templateDOMString;
 
-			typeAheadItems = typeAheadEl.childNodes[ 0 ].childNodes;
+			const typeAheadItems = typeAheadEl.childNodes[ 0 ].childNodes;
 
 			// Attaching hover events
-			for ( i = 0; i < typeAheadItems.length; i++ ) {
-				listEl = typeAheadItems[ i ];
+			for ( let i = 0; i < typeAheadItems.length; i++ ) {
+				const listEl = typeAheadItems[ i ];
 				// Requires the global polyfill
 				listEl.addEventListener( 'mouseenter', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
 				listEl.addEventListener( 'mouseleave', toggleActiveClass.bind( this, listEl, typeAheadItems ) );
@@ -408,19 +380,18 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	 */
 	function keyboardEvents( event ) {
 
-		let e = event || window.event,
-			keycode = e.which || e.keyCode,
-			suggestionItems,
-			suggestiontitle,
-			searchSuggestionIndex;
+		const e = event || window.event,
+			keycode = e.which || e.keyCode;
 
 		if ( !typeAheadEl.firstChild ) {
 			return;
 		}
 
+		let activeItem;
 		if ( keycode === 40 || keycode === 38 ) {
-			suggestionItems = typeAheadEl.firstChild.childNodes;
+			const suggestionItems = typeAheadEl.firstChild.childNodes;
 
+			let searchSuggestionIndex;
 			if ( keycode === 40 ) {
 				searchSuggestionIndex = ssActiveIndex.increment( 1 );
 			} else {
@@ -428,7 +399,8 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 			}
 
 			// (T279994) NewFeature:-Autofill search suggestion by using key up and key down event
-			suggestiontitle = suggestionItems[ searchSuggestionIndex ].firstChild.childNodes[ 0 ];
+			const suggestiontitle =
+				suggestionItems[ searchSuggestionIndex ].firstChild.childNodes[ 0 ];
 			searchEl.value = suggestiontitle.textContent;
 
 			activeItem = ( suggestionItems ) ? suggestionItems[ searchSuggestionIndex ] : false;
@@ -451,7 +423,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	searchEl.addEventListener( 'keydown', keyboardEvents );
 
 	window.addEventListener( 'click', ( event ) => {
-		let target = event.target.closest( '#search-form' );
+		const target = event.target.closest( '#search-form' );
 
 		if ( !target ) {
 			clearTypeAhead();

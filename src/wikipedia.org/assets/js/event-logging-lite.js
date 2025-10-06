@@ -12,22 +12,20 @@
 
 	'use strict';
 
-	let baseUrl = 'https://intake-analytics.wikimedia.org/v1/events',
-		byteToHex = [],
-		self, helpers;
+	const baseUrl = 'https://intake-analytics.wikimedia.org/v1/events',
+		byteToHex = [];
 
-	helpers = {
+	const helpers = {
 		// Replaces $.extend
 		extend: function ( defaults, options ) {
-			let extended = {},
-				prop;
+			const extended = {};
 
-			for ( prop in defaults ) {
+			for ( const prop in defaults ) {
 				if ( Object.prototype.hasOwnProperty.call( defaults, prop ) && defaults[ prop ] ) {
 					extended[ prop ] = defaults[ prop ];
 				}
 			}
-			for ( prop in options ) {
+			for ( const prop in options ) {
 				if ( Object.prototype.hasOwnProperty.call( options, prop ) && options[ prop ] ) {
 					extended[ prop ] = options[ prop ];
 				}
@@ -40,16 +38,15 @@
 	};
 
 	( function () {
-		let i;
 		// Byte to hex from
 		// https://github.com/wikimedia/mediawiki/blob/e87668e86ce9ad20df05c1baa8e7cf3f58900524/resources/src/mediawiki/mediawiki.user.js
-		for ( i = 0; i < 256; i++ ) {
+		for ( let i = 0; i < 256; i++ ) {
 			// Padding: Add a full byte (0x100, 256) and strip the extra character
 			byteToHex[ i ] = ( i + 256 ).toString( 16 ).slice( 1 );
 		}
 	}() );
 
-	self = window.eventLoggingLite = {
+	const self = window.eventLoggingLite = {
 
 		schema: {},
 
@@ -80,11 +77,11 @@
 		generateRandomSessionId: function () {
 
 			/* eslint-disable no-bitwise */
-			let rnds, i, r,
-				hexRnds = new Array( 8 ),
+			const hexRnds = new Array( 8 ),
 				// Support: IE 11
 				crypto = window.crypto || window.msCrypto;
 
+			let rnds;
 			// Based on https://github.com/broofa/node-uuid/blob/bfd9f96127/uuid.js
 			if ( crypto && crypto.getRandomValues ) {
 				// Fill an array with 8 random values, each of which is 8 bits.
@@ -93,7 +90,8 @@
 				crypto.getRandomValues( rnds );
 			} else {
 				rnds = new Array( 8 );
-				for ( i = 0; i < 8; i++ ) {
+				let r;
+				for ( let i = 0; i < 8; i++ ) {
 					if ( ( i & 3 ) === 0 ) {
 						r = Math.random() * 0x100000000;
 					}
@@ -101,7 +99,7 @@
 				}
 			}
 			// Convert from number to hex
-			for ( i = 0; i < 8; i++ ) {
+			for ( let i = 0; i < 8; i++ ) {
 				hexRnds[ i ] = self.byteToHex[ rnds[ i ] ];
 			}
 
@@ -119,23 +117,22 @@
 		 * @return {Array} An array of validation errors (empty if valid).
 		 */
 		validate: function ( obj, schema ) {
-			let key, val, prop,
-				errors = [];
+			const errors = [];
 
 			if ( !schema || !schema.properties ) {
 				errors.push( 'Missing or empty schema' );
 				return errors;
 			}
 
-			for ( key in obj ) {
+			for ( const key in obj ) {
 				// eslint-disable-next-line no-prototype-builtins
 				if ( !schema.properties.hasOwnProperty( key ) ) {
 					errors.push( 'Undeclared property: ' + key );
 				}
 			}
 
-			for ( key in schema.properties ) {
-				prop = schema.properties[ key ];
+			for ( const key in schema.properties ) {
+				const prop = schema.properties[ key ];
 
 				if ( !obj.hasOwnProperty( key ) ) { // eslint-disable-line no-prototype-builtins
 					if ( prop.required ) {
@@ -143,7 +140,7 @@
 					}
 					continue;
 				}
-				val = obj[ key ];
+				const val = obj[ key ];
 
 				if ( prop[ 'enum' ] && prop.required && !prop[ 'enum' ].includes( val ) ) {
 					errors.push( 'Value "' + JSON.stringify( val ) + '" for property "' + key + '" is not one of ' + JSON.stringify( prop[ 'enum' ] ) );

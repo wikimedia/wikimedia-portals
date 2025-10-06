@@ -3,7 +3,7 @@
 window.wmTest = window.wmTest || {};
 ( function ( eventLoggingLite, mw ) {
 
-	let bucketParams = {
+	const bucketParams = {
 			// Population for prod or src
 			popSize: ( /www.wikipedia.org/.test( location.hostname ) ) ? 200 : 2,
 			// TestGroups can be set to `false` if there's no test.
@@ -17,8 +17,7 @@ window.wmTest = window.wmTest || {};
 			GROUP: 'portal_test_group',
 			SESSION_ID: 'portal_session_id',
 			EXPIRES: 'portal_test_group_expires'
-		},
-		sessionId, group, testOnly;
+		};
 
 	/**
 	 * Determines whether the user is part of the population size.
@@ -62,16 +61,13 @@ window.wmTest = window.wmTest || {};
 	 */
 	function getSessionId() {
 
-		let id = false,
-			storedSessionId,
-			expires,
-			now;
+		let id = false;
 
 		if ( mw.storage.localStorage && !/1|yes/.test( navigator.doNotTrack ) ) {
 
-			storedSessionId = mw.storage.get( KEYS.SESSION_ID );
-			expires = mw.storage.get( KEYS.EXPIRES );
-			now = Date.now();
+			const storedSessionId = mw.storage.get( KEYS.SESSION_ID );
+			const expires = mw.storage.get( KEYS.EXPIRES );
+			const now = Date.now();
 
 			// Return storedSessionId if not expired
 			if ( storedSessionId && expires > parseInt( now, 10 ) ) {
@@ -89,10 +85,11 @@ window.wmTest = window.wmTest || {};
 		return id;
 	}
 
-	testOnly = location.hash.slice( 1 ) === bucketParams.testGroups.test;
+	let testOnly = location.hash.slice( 1 ) === bucketParams.testGroups.test;
 
-	sessionId = getSessionId();
+	const sessionId = getSessionId();
 
+	let group;
 	if ( sessionId ) {
 		Math.seedrandom( sessionId );
 		group = testOnly ? bucketParams.testGroups.test : getTestGroup();

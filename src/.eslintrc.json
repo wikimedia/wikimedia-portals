@@ -9,7 +9,6 @@
 				"wikimedia/mediawiki"
 			],
 			"rules": {
-				"prefer-const": "off",
 				"mediawiki/valid-package-file-require": "off",
 				"mediawiki/class-doc": "off",
 				"mediawiki/no-cookie": "off",
@@ -28,7 +27,6 @@
 						"ignoreConsecutiveComments": true
 					}
 				],
-				"prefer-const": "off",
 				"es-x/no-rest-spread-properties": "off"
 			}
 		}

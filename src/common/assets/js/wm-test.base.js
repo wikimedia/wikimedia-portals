@@ -9,7 +9,7 @@ window.wmTest = window.wmTest || {};
 	 * @return {Array} langs
 	 */
 	function setPreferredLanguages() {
-		let langs = [], possibleLanguage, i;
+		const langs = [];
 
 		function appendLanguage( l ) {
 			const lang = getIso639( l );
@@ -18,13 +18,13 @@ window.wmTest = window.wmTest || {};
 			}
 		}
 
-		for ( i in navigator.languages ) {
+		for ( const i in navigator.languages ) {
 			appendLanguage( navigator.languages[ i ] );
 		}
 
 		// Gets browser languages from some old Android devices
 		if ( /Android/i.test( navigator.userAgent ) ) {
-			possibleLanguage = navigator.userAgent.split( ';' );
+			const possibleLanguage = navigator.userAgent.split( ';' );
 			if ( possibleLanguage[ 3 ] ) {
 				appendLanguage( possibleLanguage[ 3 ].trim() );
 			}
@@ -70,8 +70,8 @@ window.wmTest = window.wmTest || {};
 		}
 	}
 
-	let preferredLangs = setPreferredLanguages(),
-		primaryLang = preferredLangs[ 0 ];
+	const preferredLangs = setPreferredLanguages();
+	let primaryLang = preferredLangs[ 0 ];
 
 	if ( primaryLang === 'zh' ) {
 		if ( isSimpChinese( getFullLocale() ) ) {

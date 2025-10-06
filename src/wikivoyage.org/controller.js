@@ -1,6 +1,6 @@
 'use strict';
 
-let hbs = require( '../../hbs-helpers.global.js' ),
+const hbs = require( '../../hbs-helpers.global.js' ),
 	fs = require( 'fs' ),
 	glob = require( 'glob' ),
 	stats = require( '../../data/stats' ),
@@ -8,14 +8,10 @@ let hbs = require( '../../hbs-helpers.global.js' ),
 	rtlLanguages = require( './rtl-languages.json' ),
 	crypto = require( 'crypto' ),
 	deleteFiles = require( '../../data/utils' ),
-	searchLanguageWikis,
-	searchLanguageDropdown,
-	Controller,
-	cachebuster,
-	siteStats,
-	range,
 	translationPath = __dirname + '/assets/l10n/',
 	l10n = require( '../../l10n/en.json' ); // These will be global values
+let cachebuster = null;
+
 // This is specific to Wikivoyage.
 l10n.portal = l10n.wikivoyage;
 
@@ -50,8 +46,8 @@ function getPreloadLinks() {
 }
 
 // Format the dropdown for ./templates/search.mustache
-searchLanguageWikis = stats.getRange( 'wikivoyage', 'numPages', 1000 );
-searchLanguageDropdown = stats.format( 'wikivoyage', searchLanguageWikis, {
+const searchLanguageWikis = stats.getRange( 'wikivoyage', 'numPages', 1000 );
+const searchLanguageDropdown = stats.format( 'wikivoyage', searchLanguageWikis, {
 	stripTags: true
 } );
 
@@ -68,8 +64,8 @@ searchLanguageDropdown = stats.format( 'wikivoyage', searchLanguageWikis, {
  *        "lang":"en"
  *        }
  */
-siteStats = {};
-range = stats.getRangeFormatted( 'wikivoyage', 'views', 10 );
+const siteStats = {};
+const range = stats.getRangeFormatted( 'wikivoyage', 'views', 10 );
 
 range.forEach( ( wiki ) => {
 	if ( wiki.closed || wiki.sublinks ) {
@@ -97,31 +93,25 @@ range.forEach( ( wiki ) => {
  * @return {string}
  */
 function createTranslationsChecksum() {
-	let data = JSON.stringify( siteStats ),
-		hash = crypto.createHash( 'md5' ).update( data ).digest( 'hex' );
+	const data = JSON.stringify( siteStats );
 	// Truncating hash for legibility
-	hash = hash.slice( 0, 8 );
-	return hash;
+	return crypto.createHash( 'md5' ).update( data ).digest( 'hex' ).slice( 0, 8 );
 }
 
 function createTranslationFiles() {
-	let fileName, lang;
-
 	function writeFile( el, langCode ) {
-		let fileContent;
-
 		if ( el.code ) {
 			langCode = el.code;
 		}
 
-		fileName = translationPath + langCode + '-' + cachebuster + '.json';
-		fileContent = JSON.stringify( el );
+		const fileName = translationPath + langCode + '-' + cachebuster + '.json';
+		const fileContent = JSON.stringify( el );
 
 		// eslint-disable-next-line security/detect-non-literal-fs-filename
 		fs.writeFileSync( fileName, fileContent );
 	}
 
-	for ( lang in siteStats ) {
+	for ( const lang in siteStats ) {
 		if ( siteStats[ lang ].sublinks ) {
 			siteStats[ lang ].sublinks.forEach( writeFile );
 		} else if ( lang === 'zh' ) {
@@ -144,7 +134,7 @@ if ( fs.existsSync( translationPath ) ) {
 }
 createTranslationFiles();
 
-Controller = {
+const Controller = {
 	top10views: stats.getTopFormatted( 'wikivoyage', 'views', 10 ),
 	top10000Articles: stats.getRangeFormatted( 'wikivoyage', 'numPages', 10000, 100000 ),
 	top1000Articles: stats.getRangeFormatted( 'wikivoyage', 'numPages', 1000, 10000 ),
