@@ -146,7 +146,7 @@
 			 * for Chinese users, because the font style for them are different.
 			 */
 			topLinkLang = topLinks[ i ].getAttribute( 'lang' ).split( '-' )[ 0 ];
-			topLinksCorrectLangs = topLinkLangs.indexOf( topLinkLang ) >= 0;
+			topLinksCorrectLangs = topLinkLangs.includes( topLinkLang );
 		}
 
 		for ( i = 0; i < topLinks.length; i++ ) {
@@ -236,7 +236,7 @@
 
 		for ( i = topLinkLangs.length - 1; i >= 0 && reusableTopLink === null; i-- ) {
 			topLinkLang = topLinks[ i ].getAttribute( 'lang' );
-			if ( topLinkLangs.indexOf( topLinkLang ) < 0 ) {
+			if ( !topLinkLangs.includes( topLinkLang ) ) {
 				reusableTopLink = topLinks[ i ];
 			}
 		}
@@ -276,7 +276,7 @@
 				localizeTopLink( repurposedTopLink, topLinkLang );
 				topLinksContainer.insertBefore( repurposedTopLink, topLinks[ i ] );
 			}
-			( topLinkNode || repurposedTopLink ).setAttribute( 'dir', rtlLangs.indexOf( topLinkLang ) >= 0 ? 'rtl' : 'ltr' );
+			( topLinkNode || repurposedTopLink ).setAttribute( 'dir', rtlLangs.includes( topLinkLang ) ? 'rtl' : 'ltr' );
 		}
 	}
 

@@ -10,7 +10,7 @@
 		toggle = document.querySelector( '#wikipedia25-birthday-mode-toggle-switch' ),
 		cookieName = 'wikipedia25-birthday-mode-disabled',
 		bodyClass = 'wikipedia25-birthday-mode-enabled',
-		isDisabled = document.cookie.indexOf( cookieName + '=1' ) !== -1;
+		isDisabled = document.cookie.includes( cookieName + '=1' );
 
 	if ( !toggle ) {
 		return;

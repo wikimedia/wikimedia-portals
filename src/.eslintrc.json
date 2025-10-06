@@ -10,7 +10,6 @@
 			],
 			"rules": {
 				"no-var": "off",
-				"unicorn/prefer-includes": "off",
 				"mediawiki/valid-package-file-require": "off",
 				"mediawiki/class-doc": "off",
 				"mediawiki/no-cookie": "off",
@@ -30,7 +29,6 @@
 					}
 				],
 				"no-var": "off",
-				"unicorn/prefer-includes": "off",
 				"es-x/no-rest-spread-properties": "off"
 			}
 		}

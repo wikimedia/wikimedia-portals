@@ -151,7 +151,7 @@
 
 	function addHtmlLang( lang ) {
 		document.documentElement.lang = lang;
-		if ( rtlLangs.indexOf( lang ) >= 0 ) {
+		if ( rtlLangs.includes( lang ) ) {
 			document.dir = 'rtl';
 		} else {
 			document.dir = 'ltr';

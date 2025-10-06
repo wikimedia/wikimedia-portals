@@ -145,7 +145,7 @@
 				}
 				val = obj[ key ];
 
-				if ( prop[ 'enum' ] && prop.required && prop[ 'enum' ].indexOf( val ) === -1 ) {
+				if ( prop[ 'enum' ] && prop.required && !prop[ 'enum' ].includes( val ) ) {
 					errors.push( 'Value "' + JSON.stringify( val ) + '" for property "' + key + '" is not one of ' + JSON.stringify( prop[ 'enum' ] ) );
 				}
 			}

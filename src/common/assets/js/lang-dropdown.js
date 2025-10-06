@@ -36,7 +36,7 @@
 			anchor = anchors[ i ];
 			langAttr = anchor.getAttribute( 'lang' );
 
-			if ( langAttr && langs.indexOf( langAttr ) >= 0 ) {
+			if ( langAttr && langs.includes( langAttr ) ) {
 				langMissing = false; // Lang exists
 			}
 		}

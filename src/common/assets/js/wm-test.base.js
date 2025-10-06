@@ -13,7 +13,7 @@ window.wmTest = window.wmTest || {};
 
 		function appendLanguage( l ) {
 			var lang = getIso639( l );
-			if ( lang && langs.indexOf( lang ) < 0 ) {
+			if ( lang && !langs.includes( lang ) ) {
 				langs.push( lang );
 			}
 		}
@@ -61,7 +61,7 @@ window.wmTest = window.wmTest || {};
 		var hans = [ 'zh', 'zh-hans', 'zh-cn', 'zh-sg', 'zh-my', 'zh-hans-cn', 'zh-hans-sg', 'zh-hans-my' ],
 			hant = [ 'zh-hk', 'zh-tw', 'zh-mo', 'zh-hant-hk', 'zh-hant-tw', 'zh-hant-mo' ];
 
-		if ( hans.indexOf( locale ) !== -1 ) {
+		if ( hans.includes( locale ) ) {
 			return true;
 		} else if ( hant.indexOf( locale !== -1 ) ) {
 			return false;
