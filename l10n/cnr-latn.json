@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"ITZQing"
+		]
+	},
+	"footer-donate": "Naš rad možete podržati donacijom.",
+	"license": "Ova stranica je dostupna pod <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons licencom Autorstvo-Dijeli pod istim uslovima</a>",
+	"terms": "Uslovi korišćenja",
+	"privacy-policy": "Politika privatnosti",
+	"search-input-button": "Pretraži",
+	"other-languages-label": "Drugi jezici",
+	"top-ten-nav-label": "Glavni jezici",
+	"all-languages-nav-label": "Svi jezici",
+	"wikidata": {
+		"name": "Vikipodaci",
+		"slogan": "Slobodna baza znanja"
+	},
+	"mediawiki": {
+		"name": "Medijaviki",
+		"slogan": "Slobodan i otvoreni viki softver"
+	},
+	"metawiki": {
+		"name": "Metaviki",
+		"slogan": "Koordinacija i dokumentiranje zajednice"
+	}
+}
