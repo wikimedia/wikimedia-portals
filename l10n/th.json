@@ -23,6 +23,12 @@
 	"top-ten-nav-label": "ภาษายอดนิยม",
 	"all-languages-nav-label": "ภาษาทั้งหมด",
 	"other-projects-nav-label": "โครงการอื่น ๆ",
+	"wikimedia-org-projects-reference": "อ้างอิง",
+	"wikimedia-org-donate-title": "การบริจาคของคุณจะช่วยปกป้องสิทธิมนุษยชนในการได้รับความรู้ที่เปิดกว้างและเสรีสำหรับทุกคน",
+	"wikimedia-org-donate-button": "บริจาคเลยตอนนี้",
+	"wikimedia-org-contact": "ติดต่อ",
+	"wikimedia-org-contact-text": "มีข้อสงสัยเกี่ยวกับมูลนิธิวิกิมีเดียหรือโครงการวิกิมีเดียหรือไม่ ติดต่อเรา",
+	"wikimedia-org-contact-link": "ติดต่อ",
 	"wiki": {
 		"name": "วิกิพีเดีย",
 		"slogan": "สารานุกรมเสรี",
@@ -41,7 +47,7 @@
 	"wiktionary": {
 		"name": "วิกิพจนานุกรม",
 		"slogan": "พจนานุกรมเสรี",
-		"entries": "ตำแหน่งเข้า",
+		"entries": "รายการ",
 		"search-input-label": "ค้นหาวิกิพจนานุกรม",
 		"language-button-text": "อ่านวิกิพจนานุกรมในภาษาของคุณ"
 	},
@@ -72,7 +78,7 @@
 	},
 	"wikiversity": {
 		"name": "วิกิวิทยาลัย",
-		"slogan": "หลักสูตรการสอนเสรี",
+		"slogan": "ทรัพยากรการเรียนรู้เสรี",
 		"entries": "ทรัพยากรการเรียนรู้",
 		"search-input-label": "ค้นหาวิกิวิทยาลัย",
 		"language-button-text": "อ่านวิกิวิทยาลัยในภาษาของคุณ"
