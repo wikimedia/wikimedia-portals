@@ -1,8 +1,111 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bennylin",
 			"Sumbukompor"
 		]
 	},
-	"language-name": "ꦗꦮ"
+	"language-name": "ꦗꦮ",
+	"footer-donate": "ꦱꦩ꧀ꦥꦺꦪꦤ꧀ꦧꦶꦱ​ꦤ꧀ꦝꦸꦏꦸꦁ​ꦏꦂꦪ​ꦏꦶꦠ​ꦏꦤ꧀ꦛꦶ​ꦱꦸꦩ꧀ꦧꦁꦔꦤ꧀꧈",
+	"license": "ꦏꦕ​ꦲꦶꦏꦶ​ꦲꦤ​ꦲꦶꦁ​ꦥꦔꦪꦺꦴꦩ꧀ꦩꦤ꧀ꦤꦺ<a href='https://creativecommons.org/licenses/by-sa/4.0/'>Lisènsi Atribusi-DumSairib Creative Commons</a>",
+	"terms": "ꦥꦿꦤꦠꦤ꧀ꦥꦁꦒꦸꦤ",
+	"privacy-policy": "ꦤꦶꦠꦶ​ꦥꦿꦶꦥ꦳ꦱꦶ",
+	"search-input-button": "ꦒꦺꦴꦭꦺꦏ꧀",
+	"other-languages-label": "ꦧꦱ​ꦭꦶꦪꦤꦺ",
+	"top-ten-nav-label": "ꦧꦱ​ꦲꦸꦠꦩ",
+	"all-languages-nav-label": "ꦏꦧꦺꦃ​ꦧꦱ",
+	"other-projects-nav-label": "ꦥꦿꦺꦴꦪꦺꦏ꧀ꦭꦶꦪ",
+	"wikimedia-org-projects-reference": "ꦫꦺꦥ꦳ꦼꦫꦺꦤ꧀ꦱꦶ",
+	"wikimedia-org-projects-collections": "ꦏꦺꦴꦭꦺꦏ꧀ꦱꦶ",
+	"wikimedia-org-projects-technology": "ꦠꦺꦏ꧀ꦤꦺꦴꦭꦺꦴꦒꦶ",
+	"wikimedia-org-projects-guides": "ꦥꦤꦸꦤ꧀ꦠꦸꦤ꧀",
+	"wikimedia-org-projects-collaboration": "ꦏꦺꦴꦭꦧꦺꦴꦫꦱꦶ",
+	"wikimedia-org-donate-button": "ꦱꦸꦩ꧀ꦧꦁ​ꦱꦲꦶꦏꦶ",
+	"wikimedia-org-contact": "ꦏꦺꦴꦤ꧀ꦠꦏ꧀",
+	"wikimedia-org-contact-link": "ꦏꦺꦴꦤ꧀ꦠꦏ꧀",
+	"wiki": {
+		"name": "ꦮꦶꦏꦶꦥꦺꦢꦶꦪꦃ",
+		"slogan": "ꦧꦲꦸꦮꦂꦤꦩꦂꦢꦶꦏ",
+		"entries": "ꦲꦂꦠꦶꦏꦼꦭ꧀",
+		"search-input-label": "ꦒꦺꦴꦭꦺꦏ꧀ꦲꦶꦁ​ꦮꦶꦏꦶꦥꦺꦢꦶꦪꦃ",
+		"language-button-text": "ꦮꦕ​ꦮꦶꦏꦶꦥꦺꦢꦶꦪꦃ​ꦲꦶꦁ​ꦧꦱꦤꦺ​ꦥꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀",
+		"footer-description": "ꦮꦶꦏꦶꦥꦺꦢꦶꦪꦃ​ꦲꦶꦏꦸ​ꦢꦂꦧꦺꦤꦺ​ꦪꦪꦱꦤ꧀ꦮꦶꦏꦶꦩꦺꦢꦶꦪꦃ꧈​ꦎꦂꦒꦤꦶꦱꦱꦶ​ꦤꦶꦂꦧꦛꦶ​ꦱꦶꦁ​ꦲꦸꦒ​ꦤ꧀ꦢꦂꦧꦺꦤꦶ​ꦱꦮꦺꦤꦺꦃ​ꦥꦿꦺꦴꦪꦺꦏ꧀ꦭꦶꦪ꧉",
+		"app-links": {
+			"title": "ꦲꦸꦤ꧀ꦝꦸꦃ​ꦮꦶꦏꦶꦥꦺꦢꦶꦪꦃ​ꦏꦁꦒꦺꦴAndroidꦲꦸꦠꦮiOS",
+			"description": "ꦱꦶꦩ꧀ꦥꦼꦤ꧀ꦲꦂꦠꦶꦏꦼꦭ꧀ꦱꦼꦤꦼꦁꦔꦤ꧀ꦩꦸ​ꦏꦁꦒꦺꦴ​ꦢꦶꦮꦕ​ꦲꦶꦁ​ꦚ꧀ꦗꦧꦤ꧀ꦗꦫꦶꦁꦔꦤ꧀ ꦱꦶꦤ꧀ꦏꦿꦺꦴꦤ꧀ꦤꦏꦺ​ꦥꦿꦠꦺꦭ꧀ꦭꦤ꧀ꦮꦕꦤ꧀ꦩꦸ​ꦲꦶꦁ​ꦲꦏꦺꦃ​ꦥꦶꦫꦤ꧀ꦠꦶ​ꦭꦤ꧀ꦲꦠꦸꦂ​ꦥꦔꦭꦩꦤ꧀ꦮꦕꦩꦸ​ꦏꦭꦶꦃ​ꦲꦥ꧀ꦭꦶꦏꦱꦶ​ꦉꦱ꧀ꦩꦶ​ꦮꦶꦏꦶꦥꦺꦢꦶꦪꦃ꧉",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "ꦮꦶꦏꦶꦱꦱ꧀ꦠꦿ",
+		"slogan": "ꦧꦲꦸꦱꦱ꧀ꦠꦿ​ꦩꦂꦢꦶꦏ",
+		"entries": "ꦲꦺꦤ꧀ꦠꦿꦶ",
+		"search-input-label": "ꦒꦺꦴꦭꦺꦏ꧀ꦲꦶꦁ​ꦮꦶꦏꦶꦱꦱ꧀ꦠꦿ",
+		"language-button-text": "ꦮꦕ​ꦮꦶꦏꦶꦱꦱ꧀ꦠꦿ​ꦲꦶꦁ​ꦧꦱꦤꦺ​ꦥꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀"
+	},
+	"wikibooks": {
+		"name": "ꦮꦶꦏꦶꦧꦸꦏꦸ",
+		"slogan": "ꦥꦸꦱ꧀ꦠꦏ​ꦩꦂꦢꦶꦏ",
+		"entries": "ꦏꦕ",
+		"search-input-label": "ꦒꦺꦴꦭꦺꦏ꧀ꦲꦶꦁ​ꦮꦶꦏꦶꦧꦸꦏꦸ",
+		"language-button-text": "ꦮꦕ​ꦮꦶꦏꦶꦧꦸꦏꦸꦲꦶꦁ​ꦧꦱꦤꦺ​ꦥꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀"
+	},
+	"wikinews": {
+		"name": "ꦮꦶꦏꦶꦮꦂꦠ",
+		"slogan": "ꦱꦸꦩ꧀ꦧꦼꦂ​ꦮꦂꦠꦩꦂꦢꦶꦏ",
+		"entries": "ꦲꦂꦠꦶꦏꦼꦭ꧀",
+		"search-input-label": "ꦓꦺꦴꦭꦺꦏ꧀ꦲꦶꦁ​ꦮꦶꦏꦶꦮꦂꦠ",
+		"language-button-text": "ꦮꦕ​ꦮꦶꦏꦶꦮꦂꦠ​ꦲꦶꦁ​ꦧꦱꦤꦺ​ꦥꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀"
+	},
+	"wikiquote": {
+		"name": "ꦮꦶꦏꦶꦕꦸꦥ꧀ꦭꦶꦏ꧀",
+		"slogan": "ꦏꦸꦩ꧀ꦥꦸꦭ꧀ꦭꦤ꧀ꦕꦸꦥ꧀ꦭꦶꦏ꧀ꦏꦤ꧀ꦩꦂꦢꦶꦏ",
+		"entries": "ꦲꦂꦠꦶꦏꦼꦭ꧀",
+		"search-input-label": "ꦓꦺꦴꦭꦺꦏ꧀ꦲꦶꦁ​ꦮꦶꦏꦶꦕꦸꦥ꧀ꦭꦶꦏ꧀",
+		"language-button-text": "ꦮꦕ​ꦮꦶꦏꦶꦕꦸꦥ꧀ꦭꦶꦏ꧀ꦲꦶꦁ​ꦧꦱꦤꦺ​ꦥꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀"
+	},
+	"wikisource": {
+		"name": "ꦮꦶꦏꦶꦱꦸꦩ꧀ꦧꦼꦂ",
+		"slogan": "ꦏꦥꦸꦱ꧀ꦠꦏꦤ꧀ꦩꦂꦢꦶꦏ"
+	},
+	"wikiversity": {
+		"name": "ꦮꦶꦏꦶꦥ꦳ꦼꦂꦱꦶꦠꦱ꧀",
+		"slogan": "ꦱꦸꦩ꧀ꦧꦼꦂ​ꦲꦗꦂ​ꦩꦂꦢꦶꦏ",
+		"entries": "ꦱꦸꦩ꧀ꦧꦼꦂ​ꦲꦗꦂ",
+		"search-input-label": "ꦓꦺꦴꦭꦺꦏ꧀ꦲꦶꦁ​ꦮꦶꦏꦶꦥ꦳ꦼꦂꦱꦶꦠꦱ꧀",
+		"language-button-text": "ꦮꦕ​ꦮꦶꦏꦶꦥ꦳ꦼꦂꦱꦶꦠꦱ꧀ꦲꦶꦁ​ꦧꦱꦤꦺ​ꦥꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀"
+	},
+	"wikivoyage": {
+		"name": "ꦮꦶꦏꦶꦮꦶꦱꦠ",
+		"slogan": "ꦥꦤꦸꦤ꧀ꦠꦸꦤ꧀ꦮꦶꦱꦠ​ꦩꦂꦢꦶꦏ",
+		"entries": "ꦏꦕ",
+		"search-input-label": "ꦓꦺꦴꦭꦺꦏ꧀ꦲꦶꦁ​ꦮꦶꦏꦶꦮꦶꦱꦠ",
+		"language-button-text": "ꦮꦕ​ꦮꦶꦏꦶꦮꦶꦱꦠꦲꦶꦁ​ꦧꦱꦤꦺ​ꦥꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "ꦏꦺꦴꦭꦺꦏ꧀ꦱꦶ​ꦩꦺꦢꦶꦪꦃ​ꦩꦂꦢꦶꦏ"
+	},
+	"wikispecies": {
+		"name": "ꦮꦶꦏꦶꦱ꧀ꦥꦺꦱꦶꦪꦺꦱ꧀",
+		"slogan": "ꦝꦶꦫꦺꦏ꧀ꦠꦺꦴꦫꦶ​ꦱ꧀ꦥꦺꦱꦶꦪꦺꦱ꧀ꦩꦂꦢꦶꦏ"
+	},
+	"wikifunctions": {
+		"name": "ꦮꦶꦏꦶꦥ꦳ꦸꦁꦱꦶ",
+		"slogan": "ꦏꦥꦸꦱ꧀ꦠꦏꦤ꧀ꦥ꦳ꦸꦁꦱꦶ​ꦩꦂꦢꦶꦏ"
+	},
+	"wikidata": {
+		"name": "ꦮꦶꦏꦶꦢꦠ",
+		"slogan": "ꦱꦱꦤ​ꦮꦶꦢꦾ​ꦩꦂꦢꦶꦏ"
+	},
+	"mediawiki": {
+		"name": "ꦩꦺꦢꦶꦪꦮꦶꦏꦶ",
+		"slogan": "ꦥꦶꦫꦤ꧀ꦠꦶ​ꦲꦼꦩ꧀ꦥꦸꦏ꧀ꦮꦶꦏꦶ​ꦩꦂꦢꦶꦏ​ꦭꦤ꧀ꦧꦶꦤꦸꦏ"
+	},
+	"metawiki": {
+		"name": "ꦩꦺꦠꦮꦶꦏꦶ",
+		"slogan": "ꦏꦺꦴ​ꦎꦂꦢꦶꦤꦱꦶ​ꦭꦤ꧀ꦝꦺꦴꦏꦸꦩꦺꦤ꧀ꦠꦱꦶ​ꦥꦒꦸꦪꦸꦧ꧀ꦧꦤ꧀"
+	}
 }

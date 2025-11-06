@@ -1,47 +1,71 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bennylin",
 			"Diki Ananta",
 			"NoiX180",
 			"Sumbukompor"
 		]
 	},
 	"language-name": "Jawa",
+	"footer-donate": "Sampéyan bisa ndhukung karya kita kanthi sumbangan.",
 	"license": "Kaca iki ana ing pangayomané <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Lisènsi Atribusi-DumSairib Creative Commons</a>",
 	"terms": "Pranatan Pangguna",
 	"privacy-policy": "Niti Privasi",
 	"search-input-button": "Golèk",
+	"other-languages-label": "Basa liyané",
+	"top-ten-nav-label": "Basa utama",
+	"all-languages-nav-label": "Kabèh basa",
+	"other-projects-nav-label": "Proyèk liya",
+	"wikimedia-org-projects-reference": "Rèferènsi",
+	"wikimedia-org-projects-collections": "Kolèksi",
+	"wikimedia-org-projects-technology": "Téknologi",
+	"wikimedia-org-projects-guides": "Panuntun",
+	"wikimedia-org-projects-collaboration": "Kolaborasi",
+	"wikimedia-org-donate-button": "Sumbang saiki",
+	"wikimedia-org-contact": "Kontak",
+	"wikimedia-org-contact-link": "Kontak",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "Bauwarna Mardika",
 		"entries": "artikel",
 		"search-input-label": "Golèk ing Wikipédia",
 		"language-button-text": "Waca Wikipédia ing basané panjenengan",
-		"footer-description": "Wikipédia iku darbéné Yeyasan Wikimédia, organisasi nirbathi sing uga ndarbéni sawenèh proyèk liya.",
+		"footer-description": "Wikipédia iku darbéné Yayasan Wikimédia, organisasi nirbathi sing uga ndarbéni sawenèh proyèk liya.",
 		"app-links": {
 			"title": "Undhuh Wikipédia kanggo Android utawa iOS",
-			"description": "Simpen artikel senenganmu kanggo diwaca ing njaban jaringan, sinkronaké dhaptar wacanmu ing akèh piranti lan atur pangalaman wacamu kalih aplikasi resmi Wikipédia."
+			"description": "Simpen artikel senenganmu kanggo diwaca ing njaban jaringan, sinkronaké pratèlan wacanmu ing akèh piranti lan atur pangalaman wacamu kalih aplikasi resmi Wikipédia.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
 		"name": "Wikisastra",
 		"slogan": "Bausastra mardika",
-		"entries": "èntri"
+		"entries": "èntri",
+		"search-input-label": "Golèk ing Wikisastra",
+		"language-button-text": "Waca Wikisastra ing basané panjenengan"
 	},
 	"wikibooks": {
 		"name": "Wikipustaka",
 		"slogan": "Pustaka mardika",
-		"entries": "kaca"
+		"entries": "kaca",
+		"search-input-label": "Golèk ing Wikibuku",
+		"language-button-text": "Waca Wikibuku ing basané panjenengan"
 	},
 	"wikinews": {
 		"name": "Wikiwarta",
 		"slogan": "Sumber warta mardika",
-		"entries": "artikel"
+		"entries": "artikel",
+		"language-button-text": "Waca Wikiwarta ing basané panjenengan"
 	},
 	"wikiquote": {
 		"name": "Wikicuplik",
 		"slogan": "Klumpukan cuplikan mardika",
-		"entries": "artikel"
+		"entries": "artikel",
+		"search-input-label": "Golèk ing Wikicuplik",
+		"language-button-text": "Waca Wikicuplik ing basané panjenengan"
 	},
 	"wikisource": {
 		"name": "Wikisumber",
@@ -49,20 +73,28 @@
 	},
 	"wikiversity": {
 		"name": "Wikiversitas",
-		"slogan": "Bahan sinau mardika",
-		"entries": "sumber pasinaon"
+		"slogan": "Sumber ajar mardika",
+		"entries": "sumber ajar",
+		"language-button-text": "Waca Wikiversitas ing basané panjenengan"
 	},
 	"wikivoyage": {
 		"name": "Wikiwisata",
-		"slogan": "Panuntun wisata mardika"
+		"slogan": "Panuntun wisata mardika",
+		"entries": "kaca",
+		"search-input-label": "Golèk ing Wikiwisata",
+		"language-button-text": "Waca Wikiwisata ing basané panjenengan"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Foto lan liya-liyané sing bisa dianggo mardika"
+		"slogan": "Kolèksi média mardika"
 	},
 	"wikispecies": {
 		"name": "Wikispésies",
 		"slogan": "Dhirèktori spésies mardika"
+	},
+	"wikifunctions": {
+		"name": "Wikifungsi",
+		"slogan": "Kapustakaan fungsi mardika"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -70,7 +102,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Aplikasi wiki mardika & binuka"
+		"slogan": "Piranti empuk wiki mardika & binuka"
 	},
 	"metawiki": {
 		"name": "Méta-Wiki",

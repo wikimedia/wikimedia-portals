@@ -11,6 +11,7 @@
 			"Hedda",
 			"Jandre3000",
 			"Joseph",
+			"SaldırganSincap",
 			"Stonecy",
 			"Superyetkin",
 			"ToprakM",
@@ -19,14 +20,34 @@
 		]
 	},
 	"language-name": "Türkçe",
+	"language-name-romanized": "Türkçe",
 	"language-name-romanized-sorted": "Turkce",
 	"footer-donate": "Çalışmalarımıza bağış yaparak destek olabilirsiniz.",
 	"license": "Bu sayfa <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.tr'>Creative Commons Atıf-AynıLisanslaPaylaş</a> hükümlerine tabidir",
 	"terms": "Kullanım Şartları",
 	"privacy-policy": "Gizlilik Politikası",
 	"terms-link": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/tr",
+	"privacy-policy-link": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/tr",
 	"search-input-button": "Ara",
 	"other-languages-label": "Diğer diller",
+	"top-ten-nav-label": "Üst diller",
+	"all-languages-nav-label": "Tüm diller",
+	"other-projects-nav-label": "Diğer projeler",
+	"wikimedia-org-welcome": "Hoş geldiniz! Wikimedia hareketi, bilgiyi özgürce yaratmak ve paylaşmak için birlikte çalışan insanlardan, projelerden ve etkinliklerden oluşan küresel bir topluluktur.",
+	"wikimedia-org-welcome-subtitle": "Herkesin, her yerde, tüm bilgilere erişebilmesi için bize katılın.",
+	"wikimedia-org-our-projects": "Projelerimiz",
+	"wikimedia-org-our-projects-desc": "Projelerimiz, <a href=\"https://meta.wikimedia.org/wiki/Wikimedia_movement/tr\">Wikimedia hareketinin</a> temelini oluşturmaktadır. Tüm büyük projeler <a href=\"https://wikimediafoundation.org/\">Wikimedia Vakfı</a> tarafından işletilmekte ve içerik, dünya çapında 260.000'den fazla kullanıcı tarafından <a href=\"https://www.mediawiki.org/\">MediaWiki</a> yazılımı kullanılarak ortaklaşa geliştirilmektedir.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Wikimedia Vakfı</a>, tüm Wikimedia projelerine ev sahipliği yapan ve dünyanın dört bir yanında özgürce erişilebilir içerik oluşturan ve düzenleyen toplulukları destekleyen kâr amacı gütmeyen bir kuruluştur.",
+	"wikimedia-org-projects-reference": "Kaynak",
+	"wikimedia-org-projects-collections": "Koleksiyonlar",
+	"wikimedia-org-projects-technology": "Teknoloji",
+	"wikimedia-org-projects-guides": "Kılavuzlar",
+	"wikimedia-org-projects-collaboration": "İşbirliği",
+	"wikimedia-org-donate-title": "Bağışınız herkesin özgür ve açık bilgiye ulaşma hakkını korur.",
+	"wikimedia-org-donate-button": "Şimdi bağış yapın",
+	"wikimedia-org-contact": "İletişim",
+	"wikimedia-org-contact-text": "Wikimedia Vakfı veya Wikimedia projeleri hakkında sorularınız mı var? Bizimle iletişime geçin.",
+	"wikimedia-org-contact-link": "İletişim",
 	"wiki": {
 		"name": "Vikipedi",
 		"slogan": "Özgür Ansiklopedi",
@@ -52,32 +73,32 @@
 	"wikibooks": {
 		"name": "Vikikitap",
 		"slogan": "Özgür ders kitapları",
-		"entries": "sayfalar",
-		"search-input-label": "Vikikitap'ta ara",
+		"entries": "sayfa",
+		"search-input-label": "Vikikitap'ta Ara",
 		"language-button-text": "Vikikitap'ı kendi dilinizde okuyun"
 	},
 	"wikinews": {
 		"name": "Vikihaber",
 		"slogan": "Özgür haber kaynağı",
-		"entries": "maddeler",
+		"entries": "madde",
 		"search-input-label": "Vikihaber'de Ara",
 		"language-button-text": "Vikihaber'i kendi dilinizde okuyun"
 	},
 	"wikiquote": {
 		"name": "Vikisöz",
 		"slogan": "Özgür söz dizini",
-		"entries": "maddeler",
+		"entries": "madde",
 		"search-input-label": "Vikisöz'de Ara",
 		"language-button-text": "Vikisöz'ü kendi dilinizde okuyun"
 	},
 	"wikisource": {
 		"name": "Vikikaynak",
-		"slogan": "Özgür kütüphane"
+		"slogan": "Özgür içerik kütüphanesi"
 	},
 	"wikiversity": {
 		"name": "Vikiversite",
-		"slogan": "Özgür ders materyalleri",
-		"entries": "öğrenme kaynakları",
+		"slogan": "Özgür öğrenme kaynakları",
+		"entries": "öğrenme kaynağı",
 		"search-input-label": "Vikiversite'de Ara",
 		"language-button-text": "Vikiversite'yi kendi dilinizde okuyun"
 	},
@@ -90,7 +111,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Özgürce kullanılabilen fotoğraflar ve daha fazlası"
+		"slogan": "Özgür ortam koleksiyonu"
 	},
 	"wikispecies": {
 		"name": "Vikitür",
@@ -106,7 +127,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Özgür ve açık viki uygulaması"
+		"slogan": "Özgür ve açık viki yazılımı"
 	},
 	"metawiki": {
 		"name": "Meta Viki",
