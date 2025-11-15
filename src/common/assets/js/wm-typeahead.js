@@ -213,7 +213,7 @@ window.WMTypeAhead = function ( appendTo, searchInput ) {
 	function highlightTitle( title, search ) {
 
 		var sanitizedSearchString = mw.html.escape( mw.RegExp.escape( search ) ),
-			// eslint-disable-next-line security/detect-non-literal-regexp
+
 			searchRegex = new RegExp( sanitizedSearchString, 'i' ),
 			startHighlightIndex = title.search( searchRegex ),
 			formattedTitle = mw.html.escape( title ),

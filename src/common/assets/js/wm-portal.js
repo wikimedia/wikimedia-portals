@@ -225,7 +225,7 @@
 		candidates = srcset.split( / *, */ );
 		for ( i = 0; i < candidates.length; i++ ) {
 			// http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/#additions-to-the-img-element
-			// eslint-disable-next-line security/detect-unsafe-regex
+
 			candidate = candidates[ i ].match( /\s*(\S+)(?:\s*([\d.]+)w)?(?:\s*([\d.]+)h)?(?:\s*([\d.]+)x)?\s*/ );
 			ratio = candidate[ 4 ] && parseFloat( candidate[ 4 ] );
 			if ( ratio <= devicePixelRatio && ratio > selection.ratio ) {

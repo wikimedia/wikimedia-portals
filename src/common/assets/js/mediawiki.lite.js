@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-use-before-define, no-redeclare
+// eslint-disable-next-line no-use-before-define
 var mw = mw || {};
 
 mw.html = ( function () {
