@@ -14,6 +14,18 @@
 	"privacy-policy": "Meðferð persónuupplýsinga",
 	"search-input-button": "Leita",
 	"other-languages-label": "Önnur tungumál",
+	"top-ten-nav-label": "Helstu tungumál",
+	"all-languages-nav-label": "Öll tungumál",
+	"other-projects-nav-label": "Önnur verkefni",
+	"wikimedia-org-our-projects": "Verkefnin okkar",
+	"wikimedia-org-projects-reference": "Heimildir",
+	"wikimedia-org-projects-collections": "Söfn",
+	"wikimedia-org-projects-technology": "Tækni",
+	"wikimedia-org-projects-guides": "Leiðbeiningar",
+	"wikimedia-org-projects-collaboration": "Samstarf",
+	"wikimedia-org-contact": "Hafa samband",
+	"wikimedia-org-contact-text": "Spurningar um Wikimedia Foundation eða Wikimedia verkefnin? Hafðu samband við okkur.",
+	"wikimedia-org-contact-link": "Hafa samband",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Frjálsa alfræðiritið",
@@ -59,7 +71,7 @@
 	},
 	"wikisource": {
 		"name": "Wikiheimild",
-		"slogan": "Frjálst bókasafn"
+		"slogan": "Frjálst safn efnis"
 	},
 	"wikiversity": {
 		"name": "Wikiháskóli",
@@ -70,18 +82,22 @@
 	},
 	"wikivoyage": {
 		"name": "Wikiferðir",
-		"slogan": "Ferða leiðarvísar",
+		"slogan": "Ferðaleiðarvísar",
 		"entries": "síður",
 		"search-input-label": "Leita á Wikiferðum",
 		"language-button-text": "Lesta Wikiferðir á þínu tungumáli"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Myndir og fleira með frjálsri notkun"
+		"slogan": "Myndefni og fleira með frjálsri notkun"
 	},
 	"wikispecies": {
 		"name": "Wikilífverur",
 		"slogan": "Safn tegunda lífvera"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions",
+		"slogan": "Frjálst safn stærðfræðifalla"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -89,7 +105,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Frjáls og opinn wiki hugbúnaður"
+		"slogan": "Frjáls og opinn wiki-hugbúnaður"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",

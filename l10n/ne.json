@@ -11,7 +11,7 @@
 	"language-name-romanized": "Nepālī",
 	"language-name-romanized-sorted": "Nepali",
 	"footer-donate": "तपाईंले दान गरेर हाम्रो कामलाई सहायता प्रदान गर्न सक्नुहुन्छ।",
-	"license": "This page is available under the <a href='https://creativecommons.org/licenses/by-sa/4.0/'>क्रियटिभ कमन्स- एट्रिब्युसन-सेयरअलाइक लाइसेन्स</a>",
+	"license": "यो पृष्ठ <a href='https://creativecommons.org/licenses/by-sa/4.0/'>क्रिएटिभ कमन्स एट्रिब्युसन-सेयरअलाइक लाइसेन्स</a> अन्तर्गत उपलब्ध छ।",
 	"terms": "प्रयोगका सर्तहरू",
 	"privacy-policy": "गोपनीयता नीति",
 	"privacy-policy-link": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/ne",
@@ -73,11 +73,11 @@
 	},
 	"wikisource": {
 		"name": "विकिस्रोत",
-		"slogan": "स्वतन्त्र पुस्तकालय"
+		"slogan": "नि:शुल्क सामग्री पुस्तकालय"
 	},
 	"wikiversity": {
 		"name": "विकिविश्वविद्यालय",
-		"slogan": "स्वन्त्र पाठ्यक्रम सामग्री",
+		"slogan": "नि:शुल्क सिकाइ स्रोतहरू",
 		"entries": "अध्ययन सामग्रीहरू",
 		"search-input-label": "विकिविश्वविद्यालयमा खोज्नुहोस्",
 		"language-button-text": "आफ्नो भाषामा विकिविश्वविद्यालय पढ्नुहोस्"
@@ -91,7 +91,7 @@
 	},
 	"commons": {
 		"name": "कमन्स",
-		"slogan": "स्वतन्त्ररूमपा प्रयोग गर्न पाइने फोटा र अन्य सामग्रीहरू"
+		"slogan": "नि:शुल्क मिडिया संग्रह"
 	},
 	"wikispecies": {
 		"name": "विकिप्रजाति",
@@ -103,7 +103,7 @@
 	},
 	"mediawiki": {
 		"name": "मेडियाविकी",
-		"slogan": "स्वन्त्र र खुल्ला विकी अनुप्रयोग"
+		"slogan": "नि:शुल्क तथा खुला विकी सफ्टवेयर"
 	},
 	"metawiki": {
 		"name": "मेटाविकी",
