@@ -19,7 +19,8 @@
 		mediumBanner = /(minimizeWikipediaPortalBanner)/.test( document.cookie ),
 		bannerEl = document.querySelector( '.banner' ),
 		bannerCloseEl = bannerEl.querySelector( '.banner__close' ),
-		bannerLinkEl = bannerEl.querySelectorAll( 'a' ),
+		iadEl = bannerEl.querySelector( '.frb-iad' ), // I already donated
+		bannerLinkEl = bannerEl.querySelectorAll( 'a.frb-donate' ),
 		bannerVisibleClass = 'banner--visible',
 		bannerReplacements = [
 			{ selector: '.banner__amount1', US: '$2.75', CA: '$2.75', AU: '$2.75', NZ: '$2.75', GB: '£2', IE: '€2.50' },
@@ -60,21 +61,32 @@
 			bannerEl.classList.remove( bannerVisibleClass );
 		} );
 	}
-	// Variants
-	var bannerNumber = Math.random(),
-		bannerVariant;
-	if ( bannerNumber > 0.5 ) {
-		bannerVariant = 'Control';
-	} else {
-		bannerVariant = 'NewLandingPage';
+	if ( typeof iadEl !== 'undefined' && iadEl !== null ) {
+		iadEl.addEventListener( 'click', function () {
+			// 31 day cookie
+			document.cookie = 'centralnotice_hide_fundraising=1; max-age=2678400; path=/; Secure';
+			bannerEl.classList.remove( bannerVisibleClass );
+			document.querySelector( '.frb-iad-dialog' ).showModal();
+		} );
+		var iadActionEl = document.querySelector( '.frb-dialog-action' );
+		iadActionEl.addEventListener( 'click', function () {
+			document.querySelector( '.frb-iad-dialog' ).close();
+			window.open( 'https://store.wikimedia.org/discount/WIKI-BDAY', '_blank' );
+		} );
+		var iadCloseEl = document.querySelectorAll( '.frb-iad-dialog-close' );
+		iadCloseEl.forEach( closeButton => {
+			closeButton.addEventListener( 'click', function () {
+				document.querySelector( '.frb-iad-dialog' ).close();
+			} );
+		} );
+
 	}
+
 	bannerLinkEl.forEach( link => {
 		link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
-		link.href += '&wmf_source=' + bannerEl.id + '_' + bannerVariant;
+		link.href += '&wmf_source=' + bannerEl.id;
 		link.href += '&uselang=en';
-		if ( bannerVariant === 'NewLandingPage' ) {
-			link.href += '&appeal=SupportingWikipedia';
-		}
+		link.href += '&appeal=SupportingWikipedia';
 		link.target = '_blank';
 	} );
 	if ( !hideBanner &&
