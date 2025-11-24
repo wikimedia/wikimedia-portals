@@ -12,7 +12,8 @@
 			"VulpesVulpes825",
 			"Winston Sung",
 			"Zhang8569",
-			"列维劳德"
+			"列维劳德",
+			"范"
 		]
 	},
 	"language-name": "中文",
@@ -33,7 +34,7 @@
 	"wikimedia-org-welcome-subtitle": "加入我们，让人人在世界各地都能获取所有知识。",
 	"wikimedia-org-our-projects": "我们的项目",
 	"wikimedia-org-our-projects-desc": "我们的项目是<a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">维基媒体运动</a>的核心。所有主要项目均由<a href=\"https://wikimediafoundation.org/\">维基媒体基金会</a>运营，内容由全球超260000名用户使用<a href=\"https://www.mediawiki.org/\">MediaWiki</a>软件协作编订。",
-	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">维基媒体基金会</a>是托管所有维基媒体项目的非盈利组织，为创建和管理自由内容的全球社群提供支持。",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">维基媒体基金会</a>是托管所有维基媒体项目的非营利组织，为创建和管理自由内容的全球社群提供支持。",
 	"wikimedia-org-projects-reference": "资料",
 	"wikimedia-org-projects-collections": "合集",
 	"wikimedia-org-projects-technology": "技术",
@@ -50,7 +51,7 @@
 		"entries": "条目",
 		"search-input-label": "在维基百科搜索",
 		"language-button-text": "以您的语言阅读维基百科",
-		"footer-description": "维基百科由非盈利组织维基媒体基金会管理，基金会也管理一系列其它项目。",
+		"footer-description": "维基百科由非营利组织维基媒体基金会管理，基金会也管理一系列其它项目。",
 		"app-links": {
 			"title": "下载iOS或Android版维基百科应用",
 			"description": "保存您最喜欢的条目以供离线阅读，跨设备同步您的阅读列表，并使用官方维基百科应用定制您的阅读体验。",
