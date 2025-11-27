@@ -1,7 +1,28 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"MiiCii"
+		]
 	},
 	"language-name": "На̄ни",
-	"language-name-romanized-sorted": "Nani"
+	"language-name-romanized-sorted": "Nani / Nanai",
+	"wiki": {
+		"name": "Википедия",
+		"app-links": {
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
+		}
+	},
+	"wiktionary": {
+		"name": "Викисловарь / Викихэсэнкуни"
+	},
+	"wikibooks": {
+		"name": "Викиучебник / Вики тачиочиори даӈса"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Мета-вики"
+	}
 }
