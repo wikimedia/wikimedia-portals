@@ -1,7 +1,65 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"YeBoy371"
+		]
 	},
 	"language-name": "제주말",
-	"language-name-romanized": "Jeju-mal"
+	"language-name-romanized": "Jeju-mal",
+	"terms": "이용 약관",
+	"search-input-button": "ᄎᆞᆽ기",
+	"wiki": {
+		"name": "위키벡과",
+		"entries": "글월",
+		"search-input-label": "위키벡과 ᄎᆞᆽ기"
+	},
+	"wiktionary": {
+		"name": "위키낱말사전",
+		"search-input-label": "위키낱말사전 ᄎᆞᆽ기"
+	},
+	"wikibooks": {
+		"name": "위키첵",
+		"entries": "글월",
+		"search-input-label": "위키첵 ᄎᆞᆽ기"
+	},
+	"wikinews": {
+		"name": "위키뉴스",
+		"slogan": "ᄌᆞ유진 뉴스",
+		"entries": "글월",
+		"search-input-label": "위키뉴스 ᄎᆞᆽ기"
+	},
+	"wikiquote": {
+		"name": "위키인용집",
+		"entries": "글월",
+		"search-input-label": "위키인용집 ᄎᆞᆽ기"
+	},
+	"wikisource": {
+		"name": "위키문헌"
+	},
+	"wikiversity": {
+		"name": "위키베움터",
+		"search-input-label": "위키베움터 ᄎᆞᆽ기"
+	},
+	"wikivoyage": {
+		"name": "위키여행",
+		"slogan": "ᄌᆞ유 여행 지침",
+		"entries": "글월",
+		"search-input-label": "위키여행 ᄎᆞᆽ기"
+	},
+	"commons": {
+		"name": "공용"
+	},
+	"wikispecies": {
+		"name": "위키셍물종"
+	},
+	"wikidata": {
+		"name": "위키데이터",
+		"slogan": "ᄌᆞ유 지식 베이스"
+	},
+	"mediawiki": {
+		"name": "미디어위키"
+	},
+	"metawiki": {
+		"name": "메타위키"
+	}
 }
