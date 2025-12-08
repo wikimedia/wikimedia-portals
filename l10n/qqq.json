@@ -57,6 +57,18 @@
 			"google-store": "Title of the Google Play Store",
 			"apple-store": "Title of the Apple App Store",
 			"url": "The URL of an article that lists all available Wikipedia apps. The link URL should be <code><nowiki>https://(your language code).wikipedia.org/wiki/List_of_Wikipedia_mobile_applications</nowiki></code> when available.\n\nThe English Wikipedia page is https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Label for the toggle switch to enable or disable the birthday mode",
+			"slogan": "The slogan for the 25th birthday of Wikipedia",
+			"cta-text": "Text for the call-to-action button inviting users to learn more about the birthday mode",
+			"cta-description": "Description text accompanying the call-to-action button",
+			"modal": {
+				"title": "Title of the modal dialog displaying birthday mode information",
+				"text": "Body text of the modal dialog explaining the birthday mode",
+				"primary-button-text": "Text for the primary button inside the birthday modal",
+				"close-button-text": "Text for the close button inside the birthday modal"
+			}
 		}
 	},
 	"wiktionary": {
