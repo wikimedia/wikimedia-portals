@@ -1,0 +1,52 @@
+<div class="wikipedia25-cta-container">
+    <button id="wikipedia25-cta-button"
+        class="cdx-button cdx-button--action-default cdx-button--weight-primary cdx-button--size-large cdx-button--framed cdx-dialog__footer__primary-action jsl10n"
+        data-jsl10n="portal.wikipedia25.cta-text">
+        {{l10n.wiki.wikipedia25.cta-text}}
+    </button>
+    <div class="wikipedia25-cta-description jsl10n" data-jsl10n="portal.wikipedia25.cta-description">
+        {{l10n.wiki.wikipedia25.cta-description}}
+    </div>
+</div>
+<div class="wikipedia25-modal-container">
+    <div id="wikipedia25-dialog-backdrop" class="cdx-dialog-backdrop hidden">
+        <div tabindex="0" class="wikipedia25-dialog-focus-trap-start"></div>
+        <div id="wikipedia25-dialog" class="cdx-dialog cdx-dialog--vertical-actions" role="dialog"
+            aria-labelledby="wikipedia25-modal-title" aria-modal="true">
+            <header class="cdx-dialog__header cdx-dialog__header--default">
+                <div class="cdx-dialog__header__title-group">
+                    <h2 id="wikipedia25-modal-title" class="cdx-dialog__header__title jsl10n"
+                        data-jsl10n="portal.wikipedia25.modal.title">
+                        {{l10n.wiki.wikipedia25.modal.title}}
+                    </h2>
+                </div>
+                <button id="wikipedia25-dialog-close-button"
+                    class="cdx-button cdx-button--action-default cdx-button--weight-quiet cdx-button--size-medium cdx-button--icon-only cdx-dialog__header__close-button jsl10n"
+                    type="button" data-jsl10n="portal.wikipedia25.modal.close-button-text"
+                    aria-label="{{l10n.wiki.wikipedia25.modal.close-button-text}}">
+                    <span class="cdx-icon cdx-icon--medium"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                            height="20" viewBox="0 0 20 20" aria-hidden="true">
+                            <g>
+                                <path d="m4.34 2.93 12.73 12.73-1.41 1.41L2.93 4.35z"></path>
+                                <path d="M17.07 4.34 4.34 17.07l-1.41-1.41L15.66 2.93z"></path>
+                            </g>
+                        </svg></span>
+                </button>
+            </header>
+            <div class="cdx-dialog-focus-trap" tabindex="-1"></div>
+            <div class="cdx-dialog__body cdx-scrollable-container jsl10n" data-jsl10n="portal.wikipedia25.modal.text">
+                {{l10n.wiki.wikipedia25.modal.text}}
+            </div>
+            <footer class="cdx-dialog__footer cdx-dialog__footer--default">
+                <div class="cdx-dialog__footer__actions">
+                    <button id="wikipedia25-dialog-primary-button"
+                        class="cdx-button cdx-button--action-progressive cdx-button--weight-primary cdx-button--size-medium cdx-button--framed cdx-dialog__footer__primary-action jsl10n"
+                        data-jsl10n="portal.wikipedia25.modal.primary-button-text">
+                        {{l10n.wiki.wikipedia25.modal.primary-button-text}}
+                    </button>
+                </div>
+            </footer>
+        </div>
+        <div tabindex="0" class="wikipedia25-dialog-focus-trap-end"></div>
+    </div>
+</div>

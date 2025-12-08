@@ -1,0 +1,180 @@
+@import '@wikimedia/codex/dist/modules/CdxButton.css';
+@import '@wikimedia/codex/dist/modules/CdxDialog.css';
+@import '@wikimedia/codex/dist/modules/CdxLabel.css';
+@import '@wikimedia/codex/dist/modules/CdxToggleSwitch.css';
+@import '@wikimedia/codex/dist/modules/Icon.css';
+
+/* ::: Wikipedia 25 ::: */
+/* Styles for the Wikipedia 25th Birthday celebration features */
+
+/* Wikipedia 25 Logo Switching Logic */
+.wikipedia25-videologo,
+.wikipedia25-birthday-mode-enabled.wikipedia25-video-loaded .central-textlogo:not( .wikipedia25-videologo ) {
+	display: none;
+}
+
+.wikipedia25-birthday-mode-enabled.wikipedia25-video-loaded .wikipedia25-videologo {
+	display: block;
+}
+
+@media all and ( max-width: 480px ) {
+	.wikipedia25-birthday-mode-enabled .wikipedia25-videologo {
+		height: 17.4rem;
+	}
+
+	.wikipedia25-birthday-mode-enabled .search-container {
+		top: 20rem;
+	}
+}
+
+/* Wikipedia 25 Slogan */
+.wikipedia25-slogan {
+	display: block;
+	margin: 0.6rem 0 0.5rem;
+	padding: 0 0.8rem 0.1rem;
+	font-family: var( --font-family-serif );
+	font-size: 1.5rem;
+	font-weight: normal;
+	color: var( --color-base );
+	background-color: var( --background-color-content-removed );
+	line-height: 2.1rem;
+}
+
+@media ( prefers-color-scheme: dark ) {
+	.wikipedia25-slogan {
+		color: var( --color-inverted );
+		background-color: #ffe49c;
+	}
+}
+
+@media all and ( max-width: 480px ) {
+	.wikipedia25-slogan {
+		font-size: 1.4rem;
+		line-height: 2rem;
+		text-indent: 0;
+	}
+}
+
+/* Wikipedia 25 Video Logo */
+.wikipedia25-video {
+	position: absolute;
+	/* originally 158px for logo of 200x183, but 158px-17px for video logo of 200x200 */
+	top: 141px;
+	left: 35px;
+}
+
+@media all and ( max-width: 480px ) {
+	.wikipedia25-video {
+		position: relative;
+		display: block;
+		width: 10rem;
+		height: 10rem;
+		left: auto;
+		top: auto;
+		margin: 0 auto;
+	}
+
+	.wikipedia25-videologo .central-textlogo-wrapper {
+		margin: var( --spacing-50 ) var( --spacing-0 ) var( --spacing-0 ) var( --spacing-0 );
+	}
+}
+
+/* Wikipedia 25 CTA */
+.wikipedia25-cta-container {
+	display: none;
+	text-align: center;
+	margin: 0.96rem 0 2.4rem 0;
+}
+
+.wikipedia25-birthday-mode-enabled .wikipedia25-cta-container {
+	display: block;
+}
+
+@media all and ( max-width: 480px ) {
+	.wikipedia25-birthday-mode-enabled .wikipedia25-cta-container {
+		margin: 0 0 2.4rem 0;
+	}
+}
+
+.wikipedia25-cta-container .cdx-button {
+	/* override _base.css html font-size: 62.5% (1rem = 10px) as codex works with 1rem = 16px */
+	--font-size-medium: 1.6rem;
+	font-size: 1.4rem;
+	color: var( --color-base );
+	background-color: var( --background-color-content-removed );
+	white-space: normal;
+}
+
+@media ( prefers-color-scheme: dark ) {
+	.wikipedia25-cta-container .cdx-button {
+		color: var( --background-color-interactive-subtle );
+		background-color: #ffe49c;
+	}
+}
+
+.wikipedia25-cta-container .cdx-button:hover {
+	background-color: var( --background-color-interactive );
+	color: var( --color-progressive--hover );
+}
+
+.wikipedia25-cta-container .cdx-button:active {
+	background-color: var( --background-color-interactive--active );
+	color: var( --color-progressive--active );
+}
+
+.wikipedia25-cta-description {
+	max-width: 45rem;
+	margin: 1.2rem auto 0 auto;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	text-align: center;
+}
+
+/* Wikipedia 25 Footer Sidebar */
+.wikipedia25-footer-sidebar .footer-sidebar-content {
+	background-color: var( --background-color-interactive-subtle );
+	display: flex;
+	justify-content: center;
+}
+
+.wikipedia25-footer-sidebar .footer-sidebar-text {
+	padding: 0.8rem 2rem;
+	width: 100%;
+	/* limit width to footer-sidebar side according to design */
+	max-width: 350px;
+	/* override .footer text-align: center */
+	text-align: start;
+	/* override _base.css html font-size: 62.5% (1rem = 10px) as codex works with 1rem = 16px */
+	--font-size-medium: 1.6rem;
+}
+
+.wikipedia25-footer-sidebar .cdx-toggle-switch__label {
+	/* override codex default font size */
+	font-size: 1.3rem;
+}
+
+@media screen and ( max-width: 768px ) {
+	.footer .wikipedia25-footer-sidebar {
+		order: 3;
+	}
+}
+
+/* Wikipedia 25 Modal Dialog */
+.wikipedia25-modal-container .cdx-dialog-backdrop {
+	/* override _base.css html font-size: 62.5% (1rem = 10px) as codex works with 1rem = 16px */
+	--font-size-medium: 1.6rem;
+	--line-height-medium: 2.6rem;
+	--font-size-x-large: 2rem;
+	--line-height-x-large: 3rem;
+}
+
+.wikipedia25-modal-container .cdx-dialog {
+	/* make dialog not go full screen */
+	width: calc( 100% - 2rem );
+	height: unset;
+	max-width: 32rem;
+	max-height: calc( 100vh - 2.5rem );
+	border: 1px solid var( --border-color-base );
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 var( --box-shadow-color-alpha-base ), 0 0 16px 0 var( --box-shadow-color-alpha-base );
+}
