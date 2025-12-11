@@ -29,7 +29,7 @@
 	"wikimedia-org-welcome-subtitle": "Junte-se a nós para tornar todo o conhecimento disponível para toda a gente, em todo o lado.",
 	"wikimedia-org-our-projects": "Os Nossos Projetos",
 	"wikimedia-org-our-projects-desc": "Os nossos projetos são o núcleo do <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">movimento da Wikimédia</a>. Todos os projetos principais são operados pela <a href=\"https://wikimediafoundation.org/\">Fundação Wikimédia</a>, e o conteúdo é desenvolvido colaborativamente por mais de 260.000 utilizadores de todo o mundo com o programa <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
-	"wikimedia-org-wmf": "A <a href=\"https://wikimediafoundation.org/\">Fundação Wikimédia</a> é a organização sem fins lucrativos que aloja todos os projetos da Wikimédia e apoia as comunidades de todo o mundo que criam e curam conteúdo acessível livremente.",
+	"wikimedia-org-wmf": "A <a href=\"https://wikimediafoundation.org/\">Fundação Wikimedia</a> é a organização sem fins lucrativos que aloja todos os projetos da Wikimedia e apoia as comunidades de todo o mundo que criam e curam conteúdo acessível livremente.",
 	"wikimedia-org-projects-reference": "Referência",
 	"wikimedia-org-projects-collections": "Coleções",
 	"wikimedia-org-projects-technology": "Tecnologia",
@@ -38,7 +38,7 @@
 	"wikimedia-org-donate-title": "O seu donativo protege o direito humano para o conhecimento livre e aberto para toda a gente.",
 	"wikimedia-org-donate-button": "Doar agora",
 	"wikimedia-org-contact": "Contacto",
-	"wikimedia-org-contact-text": "Questões sobre a Fundação Wikimédia ou projetos da Wikimédia? Entre em contacto.",
+	"wikimedia-org-contact-text": "Questões sobre a Fundação Wikimedia ou projetos da Wikimedia? Entre em contacto.",
 	"wikimedia-org-contact-link": "Contacto",
 	"wiki": {
 		"name": "Wikipédia",
@@ -77,7 +77,7 @@
 		"language-button-text": "Leia o Wikinotícias no seu idioma"
 	},
 	"wikiquote": {
-		"name": "Wikicitações",
+		"name": "Wikiquote",
 		"slogan": "Compêndio de citações gratuito",
 		"entries": "artigos",
 		"search-input-label": "Pesquisar no Wikiquote",
@@ -95,11 +95,11 @@
 		"language-button-text": "Leia a Wikiversidade no seu idioma"
 	},
 	"wikivoyage": {
-		"name": "Wikiviagens",
+		"name": "Wikivoyage",
 		"slogan": "O guia de viagens livre",
 		"entries": "páginas",
 		"search-input-label": "Pesquisar na Wikivoyage",
-		"language-button-text": "Leia a Wikiviagens no seu idioma"
+		"language-button-text": "Leia o Wikivoyage no seu idioma"
 	},
 	"commons": {
 		"name": "Commons",

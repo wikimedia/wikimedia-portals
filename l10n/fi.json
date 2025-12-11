@@ -13,7 +13,7 @@
 	},
 	"language-name": "Suomi",
 	"footer-donate": "Voit tukea toimintaamme lahjoituksella.",
-	"license": "Tämä sivu on käytettävissä <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.fi\">Nimeä-JaaSamoin 3.0 -lisenssillä</a>",
+	"license": "Tämä sivu on saatavilla <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.fi\">Nimeä-JaaSamoin 4.0 -lisenssillä</a>",
 	"terms": "Käyttöehdot",
 	"privacy-policy": "Tietosuojakäytäntö",
 	"terms-link": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/fi",
@@ -120,6 +120,6 @@
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Yhteisön koordinointi ja dokumentointi"
+		"slogan": "Yhteisön koordinointi ja dokumentaatio"
 	}
 }

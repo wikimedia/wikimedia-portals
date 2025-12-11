@@ -12,6 +12,8 @@
 	"privacy-policy": "Nvialiè noun tranlè mmla",
 	"search-input-button": "Kounndè",
 	"other-languages-label": "Aniein ouflè moun",
+	"all-languages-nav-label": "Anien moun bé ngba",
+	"other-projects-nav-label": "Djouman ouflè vié moun",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "Tchèlè sou Encyclopédi",
@@ -62,7 +64,8 @@
 	},
 	"wikivoyage": {
 		"name": "Wikivoyage",
-		"slogan": "Tchèlè sou lika kôlè atin kléfouè floua"
+		"slogan": "Tchèlè sou lika kôlè atin kléfouè floua",
+		"entries": "floua boué moun"
 	},
 	"commons": {
 		"name": "Commons",
