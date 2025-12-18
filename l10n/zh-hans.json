@@ -58,6 +58,18 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "生日模式",
+			"slogan": "自由百科全书25周年",
+			"cta-text": "谁藏在地球仪里？",
+			"cta-description": "拼图地球仪里藏着一位特别的新朋友。快来揭晓他的身份，并了解维基百科的25周年生日还有哪些惊喜。",
+			"modal": {
+				"title": "谁在地球仪里？",
+				"text": "拼图地球仪里藏着一位特别的新朋友。快来揭晓他的身份，并了解维基百科的25周年生日还有哪些惊喜。",
+				"primary-button-text": "了解更多",
+				"close-button-text": "关闭"
+			}
 		}
 	},
 	"wiktionary": {

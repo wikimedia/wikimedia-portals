@@ -53,6 +53,18 @@
 			"google-store": "Google Play 商店",
 			"apple-store": "Apple App 商店",
 			"url": "https://zh.wikipedia.org/wiki/%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "生日模式",
+			"slogan": "自由百科全書 25 週年",
+			"cta-text": "誰藏在地球儀裡？",
+			"cta-description": "拼圖地球儀裡藏著一位特別的新朋友。來揭曉他的身份，並了解維基百科的 25 週年生日有哪些驚喜。",
+			"modal": {
+				"title": "誰在地球儀裡？",
+				"text": "拼圖地球儀裡藏著一位特別的新朋友。來揭曉他的身份，並了解維基百科的 25 週年生日有哪些驚喜。",
+				"primary-button-text": "了解更多",
+				"close-button-text": "關閉"
+			}
 		}
 	},
 	"wiktionary": {

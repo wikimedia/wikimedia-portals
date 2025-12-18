@@ -50,6 +50,18 @@
 			"google-store": "Google Play -kauppa",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Syntymäpäivätila",
+			"slogan": "25 vuotta vapaata tietosanakirjaa",
+			"cta-text": "Kuka piileskelee pallon takana?",
+			"cta-description": "Uusi erityinen kaveri odottaa palapelipallon sisällä. Ota selvää, kuka hän on, ja kuule, mitä muita yllätyksiä on luvassa Wikipedian 25. syntymäpäivää varten.",
+			"modal": {
+				"title": "Kuka on pallon sisällä?",
+				"text": "Uusi erityinen kaveri odottaa palapelipallon sisällä. Ota selvää, kuka hän on, ja kuule, mitä muita yllätyksiä on luvassa Wikipedian 25. syntymäpäivää varten.",
+				"primary-button-text": "Lisätietoja",
+				"close-button-text": "Sulje"
+			}
 		}
 	},
 	"wiktionary": {
