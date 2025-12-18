@@ -18,7 +18,7 @@ From the root of the repo, run:
 
 ```
 nvm use                                 # use correct node version
-npm install                             # install dependancies
+npm install                             # install dependencies
 npm run start --portal=wikipedia.org    # update portal stats, start dev server
 ```
 
@@ -30,8 +30,8 @@ Running `gulp help` will output a list of available gulp tasks.
 
 ## Coding Style
 
-1. [Mediawiki JavaScript coding conventions](https://www.mediawiki.org/wiki/Manual:Coding_conventions/JavaScript) - linted by [eslint-config-wikimedia](https://www.npmjs.com/package/eslint-config-wikimedia)
-2. [Mediawiki CSS coding conventions](https://www.mediawiki.org/wiki/Manual:Coding_conventions/CSS) - linted by [stylelint-config-wikimedia](https://www.npmjs.com/package/stylelint-config-wikimedia)
+1. [MediaWiki JavaScript coding conventions](https://www.mediawiki.org/wiki/Manual:Coding_conventions/JavaScript) - linted by [eslint-config-wikimedia](https://www.npmjs.com/package/eslint-config-wikimedia)
+2. [MediaWiki CSS coding conventions](https://www.mediawiki.org/wiki/Manual:Coding_conventions/CSS) - linted by [stylelint-config-wikimedia](https://www.npmjs.com/package/stylelint-config-wikimedia)
 
 ## Directory Structure
 
