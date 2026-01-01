@@ -4,7 +4,8 @@
 			"Anasskoko",
 			"Bashir Gwanki",
 			"Chikapatience",
-			"Em-em"
+			"Em-em",
+			"Muhammad Idriss Criteria"
 		]
 	},
 	"language-name": "Hausa",
@@ -27,6 +28,13 @@
 			"google-store": "Ma'ajiyar Play ta Google",
 			"apple-store": "Ma'ajiyar Manhaja ta Apple",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"slogan": "Shekaru 25 na encyclopedia ta kyauta",
+			"cta-description": "Wani sabon aboki na musamman yana jira a cikin duniyar wasanin gwada ilimi. Ku gano ko wanene shi kuma ku koyi wasu abubuwan mamaki da ke tafe don cika shekaru 25 na Wikipedia.",
+			"modal": {
+				"title": "Wanene a duniya?"
+			}
 		}
 	},
 	"wiktionary": {

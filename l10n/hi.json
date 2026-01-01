@@ -46,6 +46,11 @@
 			"google-store": "Google प्ले स्टोर",
 			"apple-store": "Apple ऐप स्टोर",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"modal": {
+				"close-button-text": "बंद करें"
+			}
 		}
 	},
 	"wiktionary": {

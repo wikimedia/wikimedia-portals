@@ -7,6 +7,7 @@
 			"Fitoschido",
 			"Giaccai",
 			"Giorgx12",
+			"GseSro",
 			"Jdforrester",
 			"Macofe",
 			"Matiia",
@@ -60,7 +61,13 @@
 			"url": "https://it.wikipedia.org/wiki/Lista_di_applicazioni_mobile_di_Wikipedia"
 		},
 		"wikipedia25": {
+			"birthday-mode-toggle-text": "Modalità compleanno",
+			"slogan": "25 anni dell'enciclopedia libera",
+			"cta-text": "Chi si nasconde nel globo?",
+			"cta-description": "Un nuovo amico speciale ti aspetta all'interno del globo del puzzle. Scopri di chi si tratta e quali altre sorprese sono in serbo per il venticinquesimo compleanno di Wikipedia.",
 			"modal": {
+				"title": "Chi c'è nel globo?",
+				"text": "Un nuovo amico speciale ti aspetta all'interno del globo del puzzle. Scopri di chi si tratta e quali altre sorprese sono in serbo per il venticinquesimo compleanno di Wikipedia.",
 				"primary-button-text": "Ulteriori informazioni",
 				"close-button-text": "Chiudi"
 			}

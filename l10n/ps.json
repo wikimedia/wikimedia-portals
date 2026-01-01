@@ -48,6 +48,18 @@
 			"google-store": "گوگل پلی پلورنځی",
 			"apple-store": "اپل کاريال پلورنځی",
 			"url": "https://ps.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "زېږون کليزې دود",
+			"slogan": "د وړيا پوهنغونډ ۲۵ کاله",
+			"cta-text": "څوک په نړۍ کې پټ دی؟",
+			"cta-description": "په اريانوونکې نړۍ کې يو ځانگړی ملگری ستاسو په تمه دی. ومومئ چې دا څوک دی او د ويکي‌رسنۍ د ۲۵ کليزې نورې اريانونې څه دي.",
+			"modal": {
+				"title": "په نړۍ کې څوک دی؟",
+				"text": "په اريانوونکې نړۍ کې يو ځانگړی ملگری ستاسو په تمه دی. ومومئ چې دا څوک دی او د ويکي‌رسنۍ د ۲۵ کليزې نورې اريانونې څه دي.",
+				"primary-button-text": "نور څه زده کول",
+				"close-button-text": "تړل"
+			}
 		}
 	},
 	"wiktionary": {

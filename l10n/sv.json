@@ -5,6 +5,7 @@
 			"Pcoombe",
 			"Rockyfelle",
 			"Sabelöga",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
@@ -17,6 +18,24 @@
 	"terms-link": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/sv",
 	"search-input-button": "Sök",
 	"other-languages-label": "Andra språk",
+	"top-ten-nav-label": "Populäraste språken",
+	"all-languages-nav-label": "Alla språk",
+	"other-projects-nav-label": "Andra projekt",
+	"wikimedia-org-welcome": "Välkommen! Wikimedia-rörelsen är en global gemenskap av människor, projekt och aktiviteter som arbetar tillsammans för att skapa och dela kunskap fritt.",
+	"wikimedia-org-welcome-subtitle": "Var med oss och gör all kunskap tillgänglig för alla, överallt.",
+	"wikimedia-org-our-projects": "Våra projekt",
+	"wikimedia-org-our-projects-desc": "Våra projekt är kärnan i <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Wikimedia-rörelsen</a> . Alla större projekt drivs av <a href=\"https://wikimediafoundation.org/\">Wikimedia Foundation</a> , och innehållet utvecklas i samarbete av över 260 000 användare världen över med hjälp av <a href=\"https://www.mediawiki.org/\">MediaWiki</a> -programvaran.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Wikimedia Foundation</a> är den ideella organisation som är värd för alla Wikimedia-projekt och stöder gemenskaper över hela världen som skapar och sammanställer fritt tillgängligt innehåll.",
+	"wikimedia-org-projects-reference": "Referens",
+	"wikimedia-org-projects-collections": "Samlingar",
+	"wikimedia-org-projects-technology": "Teknologi",
+	"wikimedia-org-projects-guides": "Guider",
+	"wikimedia-org-projects-collaboration": "Samarbete",
+	"wikimedia-org-donate-title": "Din donation skyddar den mänskliga rätten till fri och öppen kunskap för alla.",
+	"wikimedia-org-donate-button": "Donera nu",
+	"wikimedia-org-contact": "Kontakt",
+	"wikimedia-org-contact-text": "Frågor om Wikimedia Foundation eller Wikimedia-projekt? Kontakta oss.",
+	"wikimedia-org-contact-link": "Kontakt",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Den fria encyklopedin",
@@ -30,6 +49,18 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Födelsedagsläge",
+			"slogan": "25 år av den fria encyklopedin",
+			"cta-text": "Vem gömmer sig i globen?",
+			"cta-description": "En speciell ny vän väntar inuti pusselgloben. Avslöja vem det är och lär dig vilka andra överraskningar som väntar på Wikipedias 25-årsdag.",
+			"modal": {
+				"title": "Vem finns i globen?",
+				"text": "En speciell ny vän väntar inuti pusselgloben. Avslöja vem det är och lär dig vilka andra överraskningar som väntar på Wikipedias 25-årsdag.",
+				"primary-button-text": "Läs mer",
+				"close-button-text": "Stäng"
+			}
 		}
 	},
 	"wiktionary": {
@@ -62,11 +93,11 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "Fritt bibliotek"
+		"slogan": "Fritt innehållsbibliotek"
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
-		"slogan": "Fritt kursmaterial",
+		"slogan": "Fria läromedel",
 		"entries": "läroresurser",
 		"search-input-label": "Sök på Wikiversity",
 		"language-button-text": "Läs Wikiversity på ditt språk"
@@ -80,11 +111,15 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Foton och mer för fri användning"
+		"slogan": "Fri mediesamling"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Fri artdatabas"
+	},
+	"wikifunctions": {
+		"name": "Wikifunktioner",
+		"slogan": "Fritt funktionsbibliotek"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -92,7 +127,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Fri och öppen wikiprogramvara"
+		"slogan": "Fri och öppen wiki-programvara"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",

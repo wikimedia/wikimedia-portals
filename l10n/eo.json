@@ -45,6 +45,18 @@
 			"description": "Konservu viajn ŝatatajn artikolojn por legi ilin malkonekte, samtempigu leg-listojn inter aparatoj kaj personecigu vian legadan sperton uzante la oficialan aplikaĵon de Vikipedio.",
 			"google-store": "Vendejo Google Play",
 			"apple-store": "Apple App Store"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Naskiĝtaga reĝimo",
+			"slogan": "25 jaroj de la libera enciklopedio",
+			"cta-text": "Kiu kaŝiĝas en la globo?",
+			"cta-description": "Speciala nova amiko atendas en la puzloglobo. Malkaŝu lian identecon kaj malkovru pliajn surprizojn en la vendejo por la 25-a naskiĝtagreveno de la Vikipedio.",
+			"modal": {
+				"title": "Kiu estas en la globo?",
+				"text": "Speciala nova amiko atendas en la puzloglobo. Malkaŝu lian identecon kaj malkovru pliajn surprizojn en la vendejo por la 25-a naskiĝtagreveno de la Vikipedio.",
+				"primary-button-text": "Lerni pli",
+				"close-button-text": "Fermi"
+			}
 		}
 	},
 	"wiktionary": {

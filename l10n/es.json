@@ -61,6 +61,18 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Tienda de aplicaciones de Apple",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Modo cumpleaños",
+			"slogan": "25 años de la enciclopedia libre",
+			"cta-text": "¿Quién se esconde en el globo?",
+			"cta-description": "Un nuevo amigo especial te espera dentro del globo terráqueo. Descubre quién es y descubre qué otras sorpresas te esperan para el 25.º aniversario de Wikipedia.",
+			"modal": {
+				"title": "¿Quién está en el globo?",
+				"text": "Un nuevo amigo especial te espera dentro del globo terráqueo. Descubre quién es y descubre qué otras sorpresas te esperan para el 25.º aniversario de Wikipedia.",
+				"primary-button-text": "Más información",
+				"close-button-text": "Cerrar"
+			}
 		}
 	},
 	"wiktionary": {

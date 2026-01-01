@@ -47,6 +47,18 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Mod deiz-ha-bloaz",
+			"slogan": "25 bloaz an holloueziadur digor",
+			"cta-text": "Piv a zo kuzhet er voulenn ?",
+			"cta-description": "Ur mignon ispisial nevez a zo o c'hortoz e-barzh ar voulenn miltamm. Dizoloit piv eo ha deskit peseurt souezhadennoù all a vo evit 25vet deiz-ha-bloaz Wikipedia.",
+			"modal": {
+				"title": "Piv a zo er voulenn?",
+				"text": "Ur mignon ispisial nevez a zo o c'hortoz e-barzh ar voulenn miltamm. Dizoloit piv eo ha deskit peseurt souezhadennoù all a vo evit 25vet deiz-ha-bloaz Wikipedia.",
+				"primary-button-text": "Gouzout hiroc'h",
+				"close-button-text": "Serriñ"
+			}
 		}
 	},
 	"wiktionary": {

@@ -24,6 +24,21 @@
 	"top-ten-nav-label": "Najpopularniejsze języki",
 	"all-languages-nav-label": "Wszystkie języki",
 	"other-projects-nav-label": "Inne projekty",
+	"wikimedia-org-welcome": "Witamy! Ruch Wikimedia to globalna społeczność ludzi, projektów i działań, na rzecz wolnego dostępu do wiedzy.",
+	"wikimedia-org-welcome-subtitle": "Dołącz do nas i pomóż nam udostępnić całą wiedzę każdemu, wszędzie.",
+	"wikimedia-org-our-projects": "Nasze projekty",
+	"wikimedia-org-our-projects-desc": "Nasze projekty stanowią rdzeń <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">ruchu Wikimedia</a>. Wszystkie główne projekty są obsługiwane przez <a href=\"https://wikimediafoundation.org/\">Fundację Wikimedia</a>, a ich treść jest wspólnie tworzona przez ponad 260 000 użytkowników z całego świata, korzystających z oprogramowania <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Fundacja Wikimedia</a> jest organizacją non-profit, zarządzającą wszystkimi projektami Wikimedia i wspiera społeczności na całym świecie, które tworzą i opracowują treści dostępne za darmo.",
+	"wikimedia-org-projects-reference": "Źródła wiedzy",
+	"wikimedia-org-projects-collections": "Kolekcje",
+	"wikimedia-org-projects-technology": "Technologia",
+	"wikimedia-org-projects-guides": "Przewodniki",
+	"wikimedia-org-projects-collaboration": "Współpraca",
+	"wikimedia-org-donate-title": "Twoja darowizna chroni prawo człowieka do wolnej i otwartej wiedzy, dostępnej dla każdego.",
+	"wikimedia-org-donate-button": "Przekaż darowiznę teraz",
+	"wikimedia-org-contact": "Kontakt",
+	"wikimedia-org-contact-text": "Masz pytania dotyczące Fundacji Wikimedia lub projektów Wikimedia? Skontaktuj się z nami.",
+	"wikimedia-org-contact-link": "Kontakt",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Wolna encyklopedia",
@@ -37,6 +52,18 @@
 			"google-store": "Sklep Play",
 			"apple-store": "Sklep z aplikacjami Apple",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Tryb urodzinowy",
+			"slogan": "25 lat wolnej encyklopedii",
+			"cta-text": "Kto ukrywa się w kuli?",
+			"cta-description": "W kuli z puzzli czeka na ciebie nowy przyjaciel. Odkryj, kto to i przekonaj się, jakie inne niespodzianki czekają w sklepie z okazji 25. urodzin Wikipedii.",
+			"modal": {
+				"title": "Kto jest w kuli?",
+				"text": "W kuli z puzzli czeka na ciebie nowy przyjaciel. Odkryj, kto to i przekonaj się, jakie inne niespodzianki czekają w sklepie z okazji 25. urodzin Wikipedii.",
+				"primary-button-text": "Dowiedz się więcej",
+				"close-button-text": "Zamknij"
+			}
 		}
 	},
 	"wiktionary": {
@@ -69,11 +96,11 @@
 	},
 	"wikisource": {
 		"name": "Wikiźródła",
-		"slogan": "Wolne materiały źródłowe"
+		"slogan": "Wolna biblioteka treści"
 	},
 	"wikiversity": {
 		"name": "Wikiwersytet",
-		"slogan": "Wolne materiały edukacyjne",
+		"slogan": "Wolne zasoby edukacyjne",
 		"entries": "zasoby edukacyjne",
 		"search-input-label": "Szukaj w Wikiwersytecie",
 		"language-button-text": "Czytaj Wikiwersytet w swoim języku"
@@ -87,7 +114,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Zdjęcia do swobodnego wykorzystywania"
+		"slogan": "Zbiór wolnych multimediów"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -103,7 +130,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Darmowa i otwarta aplikacja wiki"
+		"slogan": "Darmowe i otwarte oprogramowanie wiki"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",

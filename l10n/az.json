@@ -47,6 +47,18 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://az.wikipedia.org/wiki/Vikipediya_mobil_t%C9%99tbiql%C9%99rinin_siyah%C4%B1s%C4%B1"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Ad günü rejimi",
+			"slogan": "Azad ensiklopediyanın 25 ili",
+			"cta-text": "Qlobusun içində kim gizlənir?",
+			"cta-description": "Qlobusun içərisində xüsusi bir yeni dost gözləyir. Kim olduğunu kəşf edin və Vikipediyanın 25-ci ildönümü münasibətilə başqa hansı sürprizlərin hazırlandığını öyrənin.",
+			"modal": {
+				"title": "Qlobusun içində kim var?",
+				"text": "Qlobusun içərisində xüsusi bir yeni dost gözləyir. Kim olduğunu kəşf edin və Vikipediyanın 25-ci ildönümü münasibətilə başqa hansı sürprizlərin hazırlandığını öyrənin.",
+				"primary-button-text": "Daha ətraflı",
+				"close-button-text": "Bağla"
+			}
 		}
 	},
 	"wiktionary": {

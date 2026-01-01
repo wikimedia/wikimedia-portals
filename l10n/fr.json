@@ -5,6 +5,7 @@
 			"Benoit Rochon",
 			"Derugon",
 			"Eihel",
+			"Escargot bleu",
 			"Florian COLLIN",
 			"Gomoko",
 			"Hecatonchire",
@@ -58,6 +59,18 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Mode anniversaire",
+			"slogan": "25 ans de l'encyclopédie libre",
+			"cta-text": "Qui se cache à l'intérieur du globe ?",
+			"cta-description": "Un nouvel ami spécial vous attend à l'intérieur du globe puzzle. Découvrez son identité et les autres surprises que vous réserve le 25e anniversaire de Wikipédia.",
+			"modal": {
+				"title": "Qui est dans le globe ?",
+				"text": "Un nouvel ami spécial vous attend à l'intérieur du globe puzzle. Découvrez son identité et les autres surprises que vous réserve le 25e anniversaire de Wikipédia.",
+				"primary-button-text": "En savoir plus",
+				"close-button-text": "Fermer"
+			}
 		}
 	},
 	"wiktionary": {

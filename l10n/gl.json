@@ -49,6 +49,18 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Modo aniversario",
+			"slogan": "25 anos da enciclopedia libre",
+			"cta-text": "Quen se agocha no globo?",
+			"cta-description": "Un novo amigo especial agarda dentro do globo do crebacabezas. Descubre quen é e que outras sorpresas temos paro o 25 aniversario da Wikipedia.",
+			"modal": {
+				"title": "Quen está no globo?",
+				"text": "Un novo amigo especial agarda dentro do globo do crebacabezas. Descubre quen é e que outras sorpresas temos paro o 25 aniversario da Wikipedia.",
+				"primary-button-text": "Máis información",
+				"close-button-text": "Pechar"
+			}
 		}
 	},
 	"wiktionary": {

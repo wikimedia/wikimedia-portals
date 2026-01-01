@@ -47,6 +47,18 @@
 			"google-store": "חנות Play של Google",
 			"apple-store": "חנות היישומונים של Apple",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "מצב יום הולדת",
+			"slogan": "25 שנה לאנציקלופדיה החופשית",
+			"cta-text": "מי מסתתר בגלובוס?",
+			"cta-description": "חבר חדש ומיוחד ממתין בתוך הגלובוס מחלקי הפאזל. אפשר לחשוף מי הוא ולגלות אילו הפתעות נוספות צפויות ליום הולדתה ה־25 של ויקיפדיה.",
+			"modal": {
+				"title": "מי בתוך הגלובוס?",
+				"text": "חבר חדש ומיוחד ממתין בתוך הגלובוס מחלקי הפאזל. אפשר לחשוף מי הוא ולגלות אילו הפתעות נוספות צפויות ליום הולדתה ה־25 של ויקיפדיה.",
+				"primary-button-text": "מידע נוסף",
+				"close-button-text": "סגירה"
+			}
 		}
 	},
 	"wiktionary": {

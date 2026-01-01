@@ -21,6 +21,21 @@
 	"top-ten-nav-label": "Bahasa utama",
 	"all-languages-nav-label": "Semua bahasa",
 	"other-projects-nav-label": "Projek lain",
+	"wikimedia-org-welcome": "Selamat datang! Gerakan Wikimedia ialah suatu komuniti global yang terdiri daripada individu, projek dan aktiviti yang bekerjasama untuk mencipta dan berkongsi pengetahuan secara bebas.",
+	"wikimedia-org-welcome-subtitle": "Sertai kami dalam menyediakan segala ilmu pengetahuan tersedia kepada semua orang, di mana-mana sahaja.",
+	"wikimedia-org-our-projects": "Projek Kami",
+	"wikimedia-org-our-projects-desc": "Semua projek kami merupakan teras bagi <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">gerakan Wikimedia</a>. Semua projek utama dikendalikan oleh <a href=\"https://wikimediafoundation.org/\">Yayasan Wikimedia</a>, dan kandungannya dibangunkan secara kolaboratif oleh lebih daripada 260,000 pengguna di serata dunia menggunakan perisian <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Yayasan Wikimedia</a> ialah sebuah organisasi bukan untung yang mengehos semua projek Wikimedia dan menyokong komuniti di seluruh dunia untuk mencipta dan mengurus kandungan yang boleh diakses secara bebas.",
+	"wikimedia-org-projects-reference": "Rujukan",
+	"wikimedia-org-projects-collections": "Koleksi",
+	"wikimedia-org-projects-technology": "Teknologi",
+	"wikimedia-org-projects-guides": "Panduan",
+	"wikimedia-org-projects-collaboration": "Kerjasama",
+	"wikimedia-org-donate-title": "Dermaan anda melindungi hak asasi manusia untuk pengetahuan yang bebas dan terbuka untuk semua orang.",
+	"wikimedia-org-donate-button": "Dermalah sekarang",
+	"wikimedia-org-contact": "Hubungi kami",
+	"wikimedia-org-contact-text": "Ada soalan tentang Yayasan Wikimedia atau projek Wikimedia? Hubungi kami.",
+	"wikimedia-org-contact-link": "Hubungi kami",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Ensiklopedia Bebas",
@@ -34,6 +49,18 @@
 			"google-store": "Gedung Google Play",
 			"apple-store": "Gedung Apple App",
 			"url": "https://ms.wikipedia.org/wiki/Senarai_aplikasi_mu_ah_alih_Wikipedia"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Mod hari lahir",
+			"slogan": "25 tahun ensiklopedia bebas",
+			"cta-text": "Siapa yang bersembunyi di dalam glob ini?",
+			"cta-description": "Seorang rakan baharu yang istimewa sedang menunggu di dalam glob teka-teki. Ketahui siapa dia dan ketahui kejutan lain yang menanti untuk ulang tahun Wikipedia yang ke-25.",
+			"modal": {
+				"title": "Siapakah yang berada di dalam glob ini?",
+				"text": "Seorang rakan baharu yang istimewa sedang menunggu di dalam glob teka-teki. Ketahui siapa dia dan ketahui kejutan lain yang menanti untuk ulang tahun Wikipedia yang ke-25.",
+				"primary-button-text": "Ketahui lebih lanjut",
+				"close-button-text": "Tutup"
+			}
 		}
 	},
 	"wiktionary": {
