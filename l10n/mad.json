@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Alfiyah Rizzy Afdiquni",
 			"Boesenbergia"
 		]
 	},
@@ -18,6 +19,7 @@
 	"wikimedia-org-welcome": "Salamet ḍâteng!Tarèka Wikimedia iyâ arèya pamaoranna maghârsarè, proyèk, bân lalakon sè alakon areng-bhâreng ka'angghuy aghâbây bân adhurrun pangataowan kalabân mardhika.",
 	"wikimedia-org-welcome-subtitle": "Maju noro' ka'angghuy aghâbây pangataowan tasaḍiyâ ka sabbhân orèng, è ḍimma bhâi.",
 	"wikimedia-org-our-projects": "Proyèkka Abâ' Kabbhi",
+	"wikimedia-org-projects-reference": "Sombher",
 	"wikimedia-org-projects-collections": "Samodhâjâ",
 	"wikimedia-org-projects-technology": "Tèknologi",
 	"wikimedia-org-projects-guides": "Pandhuman",
@@ -38,6 +40,17 @@
 			"title": "Patoron Wikipèḍia ka'angghuy Android otabân iOS",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Bâjâ molang arè",
+			"cta-text": "Sapa sè ngetek è ḍâlem bal bhumè?",
+			"cta-description": "Kanca anyar sè istimewa aḍântos è ḍâlem bal bhâk-thebbhâgghân. Sarè sapa na'-kana' rowa bân ḍetè' apa bhâi sè bâḍâ è molang arè Wikipedia sè kapèng 25.",
+			"modal": {
+				"title": "Sapa sè bâḍâ è ḍâlem bal bhumè?",
+				"text": "Kanca anyar sè istimewa aḍântos è ḍâlem bal bhâk-thebbhâgghân. Sarè sapa na'-kana' rowa bân ḍântè' apa bhâi sè bâḍâ è molang arè Wikipedia sè kapèng 25.",
+				"primary-button-text": "Kataowè polè",
+				"close-button-text": "Totop"
+			}
 		}
 	},
 	"wiktionary": {

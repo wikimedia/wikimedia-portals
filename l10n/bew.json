@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Affandy Murad",
 			"Bangrapip"
 		]
 	},
@@ -24,6 +25,15 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Pèrsi séjit",
+			"cta-text": "Noh, sapa, no, nyang lagi ngumpet di entu bola dunia?",
+			"cta-description": "Ada temen baru nyang istimèwa lagi nungguin di dalem bola cangkriman. Lu cari tau, dah, sapa entu orang ama kagètan apa lagi nyang lagi nungguin di ari séjitnya Wikipédi nyang ke-25.",
+			"modal": {
+				"primary-button-text": "Liat terusannya",
+				"close-button-text": "Tutup"
+			}
 		}
 	},
 	"wiktionary": {

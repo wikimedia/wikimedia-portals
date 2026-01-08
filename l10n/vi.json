@@ -22,10 +22,20 @@
 	"top-ten-nav-label": "Ngôn ngữ hàng đầu",
 	"all-languages-nav-label": "Tất cả ngôn ngữ",
 	"other-projects-nav-label": "Các dự án khác",
+	"wikimedia-org-welcome": "Chào mừng! Phong trào Wikimedia là một cộng đồng toàn cầu gồm những người, dự án và hoạt động cùng nhau tạo ra và chia sẻ kiến thức một cách tự do.",
+	"wikimedia-org-welcome-subtitle": "Hãy cùng chúng tôi chung tay đưa tri thức đến với mọi người, ở mọi nơi.",
 	"wikimedia-org-our-projects": "Các dự án của chúng tôi",
+	"wikimedia-org-our-projects-desc": "Các dự án của chúng tôi là cốt lõi của <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">phong trào Wikimedia</a>. Tất cả các dự án lớn đều được điều hành bởi <a href=\"https://wikimediafoundation.org/\">Quỹ Wikimedia</a>, và nội dung được hợp tác phát triển bởi hơn 260.000 người dùng trên toàn thế giới sử dụng phần mềm <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Wikimedia Foundation</a> là tổ chức phi lợi nhuận quản lý tất cả các dự án Wikimedia và hỗ trợ các cộng đồng trên toàn thế giới tạo ra và quản lý nội dung có thể truy cập miễn phí.",
+	"wikimedia-org-projects-reference": "Tham khảo",
+	"wikimedia-org-projects-collections": "Bộ sưu tập",
 	"wikimedia-org-projects-technology": "Công nghệ",
+	"wikimedia-org-projects-guides": "Hướng dẫn",
+	"wikimedia-org-projects-collaboration": "Hợp tác",
+	"wikimedia-org-donate-title": "Sự quyên góp của bạn góp phần bảo vệ quyền được tiếp cận kiến thức tự do và cởi mở cho tất cả mọi người.",
 	"wikimedia-org-donate-button": "Quyên góp ngay",
 	"wikimedia-org-contact": "Liên hệ",
+	"wikimedia-org-contact-text": "Bạn có câu hỏi nào về Quỹ Wikimedia hoặc các dự án của Wikimedia? Hãy liên hệ với chúng tôi.",
 	"wikimedia-org-contact-link": "Liên hệ",
 	"wiki": {
 		"name": "Wikipedia",
@@ -40,6 +50,18 @@
 			"google-store": "Cửa hàng Google Play",
 			"apple-store": "App Store của Apple",
 			"url": "https://vi.wikipedia.org/wiki/Danh_sách_các_ứng_dụng_di_động_Wikipedia"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Chế độ sinh nhật",
+			"slogan": "25 năm bách khoa toàn thư mở",
+			"cta-text": "Ai đang ẩn mình trong quả cầu?",
+			"cta-description": "Một người bạn mới đặc biệt đang chờ bạn bên trong quả cầu ghép hình. Hãy khám phá xem đó là ai và tìm hiểu những bất ngờ thú vị khác nhân dịp sinh nhật lần thứ 25 của Wikipedia.",
+			"modal": {
+				"title": "Ai ở bên trong quả cầu?",
+				"text": "Một người bạn mới đặc biệt đang chờ bạn bên trong quả cầu ghép hình. Hãy khám phá xem đó là ai và tìm hiểu những bất ngờ thú vị khác nhân dịp sinh nhật lần thứ 25 của Wikipedia.",
+				"primary-button-text": "Tìm hiểu thêm",
+				"close-button-text": "Đóng"
+			}
 		}
 	},
 	"wiktionary": {
@@ -90,14 +112,15 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Kho tư liệu chung"
+		"slogan": "Kho tư liệu đa phương tiện mở"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
 		"slogan": "Danh mục các loài"
 	},
 	"wikifunctions": {
-		"name": "Wikifunctions"
+		"name": "Wikifunctions",
+		"slogan": "Thư viện hàm mở"
 	},
 	"wikidata": {
 		"name": "Wikidata",

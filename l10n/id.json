@@ -6,6 +6,7 @@
 			"Arifin.wijaya",
 			"Daud I.F. Argana",
 			"Gombang",
+			"IKristiani",
 			"J Nia30",
 			"Penyuwangi",
 			"Veracious"
@@ -22,6 +23,21 @@
 	"top-ten-nav-label": "Bahasa teratas",
 	"all-languages-nav-label": "Semua bahasa",
 	"other-projects-nav-label": "Proyek lainnya",
+	"wikimedia-org-welcome": "Selamat datang! Gerakan Wikimedia adalah sebuah komunitas global yang terdiri dari individu, proyek, dan kegiatan yang bekerjasama untuk menciptakan dan membagikan pengetahuan secara bebas.",
+	"wikimedia-org-welcome-subtitle": "Bergabunglah dengan kami untuk menjadikan seluruh pengetahuan tersedia bagi semua orang, di mana saja.",
+	"wikimedia-org-our-projects": "Proyek Kami",
+	"wikimedia-org-our-projects-desc": "Proyek-proyek kami adalah inti dari <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Pergerakan Wikimedia</a>. Seluruh proyek utama yang dioperasikan oleh <a href=\"https://wikimediafoundation.org/\">Yayasan Wikimedia</a>, dan konten-konten di dalamnya dikembangkan secara kolaboratif oleh lebih dari 260,000 pengguna di seluruh dunia menggunakan perangkat lunak <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Yayasan Wikimedia</a> adalah organisasi nirlaba yang menaungi seluruh proyek Wikimedia dan mendukung komunitas yang menciptakan dan mengkurasi konten bebas akses di seluruh dunia.",
+	"wikimedia-org-projects-reference": "Rujukan",
+	"wikimedia-org-projects-collections": "Koleksi",
+	"wikimedia-org-projects-technology": "Teknologi",
+	"wikimedia-org-projects-guides": "Panduan",
+	"wikimedia-org-projects-collaboration": "Kolaborasi",
+	"wikimedia-org-donate-title": "Donasi Anda melindungi hak untuk mendapatkan pengetahuan bebas dan terbuka bagi semua orang.",
+	"wikimedia-org-donate-button": "Menyumbang sekarang",
+	"wikimedia-org-contact": "Kontak",
+	"wikimedia-org-contact-text": "Punya pertanyaan tentang Yayasan Wikimedia atau proyek Wikimedia? Hubungi kami.",
+	"wikimedia-org-contact-link": "Kontak",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Ensiklopedia bebas",
@@ -35,6 +51,18 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Mode ulang tahun",
+			"slogan": "25 tahun ensiklopedia bebas",
+			"cta-text": "Siapa yang bersembunyi di dalam bola dunia?",
+			"cta-description": "Satu sosok spesial menunggumu di dalam bola dunia dari potongan puzzle. Temukan siapa dia dan ketahui kejutan apa lagi yang menanti untuk ulang tahun ke-25 Wikipedia.",
+			"modal": {
+				"title": "Siapakah yang ada di dalam bola dunia ini?",
+				"text": "Teman istimewa baru menunggumu di dalam bola dunia dari potongan puzzle. Temukan siapa dia dan ketahui kejutan apa lagi yang menanti untuk ulang tahun ke-25 Wikipedia.",
+				"primary-button-text": "Selengkapnya",
+				"close-button-text": "Tutup"
+			}
 		}
 	},
 	"wiktionary": {
@@ -67,11 +95,11 @@
 	},
 	"wikisource": {
 		"name": "Wikisumber",
-		"slogan": "Perpustakaan bebas"
+		"slogan": "Perpustakaan konten bebas"
 	},
 	"wikiversity": {
 		"name": "Wikiversitas",
-		"slogan": "Bahan pelajaran bebas",
+		"slogan": "Bahan pembelajaran bebas",
 		"entries": "sumber daya pembelajaran",
 		"search-input-label": "Cari Wikiversitas",
 		"language-button-text": "Baca Wikiversitas dalam bahasa anda"
@@ -85,7 +113,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Foto & lainnya yang dapat digunakan secara bebas"
+		"slogan": "Koleksi media bebas"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
@@ -101,7 +129,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Aplikasi wiki bebas & terbuka"
+		"slogan": "Perangkat lunak wiki bebas & terbuka"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
