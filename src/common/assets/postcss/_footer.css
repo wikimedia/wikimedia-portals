@@ -82,35 +82,22 @@
 	}
 
 	.footer .footer-sidebar {
-		/* for whatever reason, autoprefixer was
-		prefixing these two prefixed properties incorrectly.
-		Giving them a x + 1 value, instead of just x. */
-		-webkit-box-ordinal-group: 1;
-		-moz-box-ordinal-group: 1;
 		order: 1;
 	}
 
 	.footer .other-projects {
-		-webkit-box-ordinal-group: 2;
-		-moz-box-ordinal-group: 2;
 		order: 2;
 	}
 
 	.footer .app-badges {
-		-webkit-box-ordinal-group: 3;
-		-moz-box-ordinal-group: 3;
 		order: 3;
 	}
 
 	.footer hr {
-		-webkit-box-ordinal-group: 4;
-		-moz-box-ordinal-group: 4;
 		order: 4;
 	}
 
 	.footer .site-license {
-		-webkit-box-ordinal-group: 5;
-		-moz-box-ordinal-group: 5;
 		order: 5;
 	}
 
