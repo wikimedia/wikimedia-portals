@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Marwan Mohamad"
+		]
+	},
+	"wiki": {
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Mode dulahu pilotutuwa",
+			"slogan": "25 lo taawunu ensiklopedia pereyi",
+			"cta-text": "Tita taa wanto-wanto'a to delomo bali lo dunia?",
+			"cta-description": "Tamani spesial wola-wolata olemo to delomo bali lo dunia lonto putu lo puzzle. Lolohe tiyo wawu wolo habari u wola-wolato to dulahu pilotutuwa o-25 lo taawunu Wikipedia.",
+			"modal": {
+				"title": "Tita taa to delomo bali lo dunia botiya?",
+				"text": "Tamani spesial wola-wolata olemo to delomo bali lo dunia lonto putu lo puzzle. Lolohe tiyo wawu wolo habari u wola-wolato to dulahu pilotutuwa o-25 lo taawunu Wikipedia.",
+				"close-button-text": "He'uti"
+			}
+		}
+	},
+	"wiktionary": {
+		"name": "Wikikamus",
+		"slogan": "Kamus pereyi",
+		"entries": "tuwango",
+		"search-input-label": "Lolohe Wikikamus",
+		"language-button-text": "Pobacawa Wikikamus to delomo bahasamu"
+	},
+	"wikibooks": {
+		"name": "Wikibuku",
+		"slogan": "Buku pereyi",
+		"entries": "halaman",
+		"search-input-label": "Lolohe Wikibuku",
+		"language-button-text": "Pobacawa Wikibuku to delomo bahasamu"
+	},
+	"wikinews": {
+		"name": "Wikihabari"
+	}
+}

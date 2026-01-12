@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Janbery",
 			"Marek Pavlica",
 			"Matěj Suchánek",
 			"Mormegil",
@@ -28,6 +29,18 @@
 			"title": "Stáhnout aplikaci Wikipedie pro Android nebo iOS",
 			"description": "Uložte si své oblíbené články, abyste je mohli číst i bez připojení k internetu, synchronizovat seznamy k přečtení napříč různými zařízeními a přizpůsobit si zážitek ze čtení pomocí oficiální aplikace Wikipedie.",
 			"url": "https://cs.wikipedia.org/wiki/Seznam_mobiln%C3%ADch_aplikac%C3%AD_Wikipedie"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Narozeninový režim",
+			"slogan": "25 let otevřené encyklopedie",
+			"cta-text": "Kdo se skrývá v zeměkouli?",
+			"cta-description": "Uvnitř puzzle glóbu čeká nový speciální přítel. Odhalte, kdo to je, a zjistěte, jaká další překvapení chystá Wikipedie k 25. narozeninám.",
+			"modal": {
+				"title": "Kdo je v zeměkouli?",
+				"text": "Uvnitř puzzle glóbu čeká nový speciální přítel. Odhalte, kdo to je, a zjistěte, jaká další překvapení chystá Wikipedie k 25. narozeninám.",
+				"primary-button-text": "Zjistěte více",
+				"close-button-text": "Zavřít"
+			}
 		}
 	},
 	"wiktionary": {
