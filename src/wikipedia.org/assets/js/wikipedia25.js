@@ -82,7 +82,7 @@
 	}
 
 	function handleCTAClick() {
-		window.open( 'http://wikimediafoundation.org/wikipedia-mascot', '_blank' );
+		window.open( 'https://wikimediafoundation.org/wikipedia25/wikipedia-mascot/?utm_campaign=eepp&utm_source=eepp&utm_medium=eepp', '_blank' );
 	}
 
 	// Open on video click
