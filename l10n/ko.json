@@ -52,6 +52,18 @@
 			"google-store": "구글 플레이 스토어",
 			"apple-store": "애플 앱 스토어",
 			"url": "https://ko.wikipedia.org/wiki/위키백과_모바일_애플리케이션_목록"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "생일 모드",
+			"slogan": "자유 백과사전 25주년",
+			"cta-text": "지구본에 누가 숨어 있나요?",
+			"cta-description": "특별한 새 친구가 퍼즐 지구본 안에서 기다리고 있습니다. 위키백과의 25번째 생일을 맞아 어떤 놀라운 소식이 준비되어 있는지 알아보세요.",
+			"modal": {
+				"title": "지구본에 누가 있나요?",
+				"text": "특별한 새 친구가 퍼즐 지구본 안에서 기다리고 있습니다. 위키백과의 25번째 생일을 맞아 어떤 놀라운 소식이 준비되어 있는지 알아보세요.",
+				"primary-button-text": "더 알아보기",
+				"close-button-text": "닫기"
+			}
 		}
 	},
 	"wiktionary": {
