@@ -198,7 +198,7 @@
 		if ( s.src ) {
 			var source = document.createElement( 'source' );
 			source.src = s.src;
-			source.type = 'video/mp4';
+			source.type = 'video/webm';
 			if ( s.media ) {
 				source.media = s.media;
 			}
@@ -208,10 +208,10 @@
 
 	function onVideoLoaded() {
 		document.documentElement.classList.add( 'wikipedia25-video-loaded' );
-		video.removeEventListener( 'canplay', onVideoLoaded );
+		video.removeEventListener( 'loadedmetadata', onVideoLoaded );
 	}
 
-	video.addEventListener( 'canplay', onVideoLoaded );
+	video.addEventListener( 'loadedmetadata', onVideoLoaded );
 
 	// Force reload since we changed sources programmatically
 	video.load();

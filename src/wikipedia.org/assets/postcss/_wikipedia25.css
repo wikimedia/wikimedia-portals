@@ -8,21 +8,32 @@
 /* Styles for the Wikipedia 25th Birthday celebration features */
 
 /* Wikipedia 25 Logo Switching Logic */
-.wikipedia25-videologo,
-.wikipedia25-birthday-mode-enabled.wikipedia25-video-loaded .central-textlogo:not( .wikipedia25-videologo ) {
+.wikipedia25-videologo {
+	/* Support Safari: Can't use `display: none` for the video container, as Safari does not want to load the
+	video in that case. */
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+	margin-top: 0;
+}
+
+.wikipedia25-birthday-mode-enabled .wikipedia25-videologo {
+	visibility: visible;
+	height: auto;
+	overflow: visible;
+	margin-top: 2rem;
+}
+
+.wikipedia25-birthday-mode-enabled .central-textlogo:not( .wikipedia25-videologo ) {
 	display: none;
 }
 
-.wikipedia25-birthday-mode-enabled.wikipedia25-video-loaded .wikipedia25-videologo {
-	display: block;
-}
-
 @media all and ( max-width: 480px ) {
-	.wikipedia25-birthday-mode-enabled.wikipedia25-video-loaded .wikipedia25-videologo {
+	.wikipedia25-birthday-mode-enabled .wikipedia25-videologo {
 		height: 17.4rem;
 	}
 
-	.wikipedia25-birthday-mode-enabled.wikipedia25-video-loaded .search-container {
+	.wikipedia25-birthday-mode-enabled .search-container {
 		top: 20rem;
 	}
 }
@@ -61,6 +72,9 @@
 	/* originally 158px for logo of 200x183, but 158px-17px for video logo of 200x200 */
 	top: 141px;
 	left: 35px;
+	/* in order to position the poster (image logo) in the same position as the video logo, although
+	the image logo is smaller in height than the video logo */
+	object-position: bottom;
 }
 
 @media all and ( max-width: 480px ) {
