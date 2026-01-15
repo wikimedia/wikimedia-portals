@@ -44,7 +44,7 @@ npm run dev-server
 npm run start 
 ```
 
-Then, you should be able to access the development directory at `http://localhost:8080/src/wikipedia.org` and the production directory at `http://localhost:8080/prod/wikipedia.org`.
+Then, you should be able to access the development directory at `http://localhost:8000/src/wikipedia.org/` and the production directory at `http://localhost:8000/prod/wikipedia.org/`.
 
 ### Watching for changes
 

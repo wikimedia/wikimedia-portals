@@ -23,7 +23,7 @@ npm run build-all-portals               # run tests and build the assets
 npm run start --portal=wikipedia.org    # update portal stats, start dev server
 ```
 
-Visit `http://localhost:8080/src/wikipedia.org` to see the changes in the `src` directory.
+Visit `http://localhost:8000/src/wikipedia.org/` to see the changes in the `src` directory.
 
 Running `gulp help` will output a list of available gulp tasks.
 
