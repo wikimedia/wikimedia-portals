@@ -18,11 +18,11 @@
 }
 
 @media all and ( max-width: 480px ) {
-	.wikipedia25-birthday-mode-enabled .wikipedia25-videologo {
+	.wikipedia25-birthday-mode-enabled.wikipedia25-video-loaded .wikipedia25-videologo {
 		height: 17.4rem;
 	}
 
-	.wikipedia25-birthday-mode-enabled .search-container {
+	.wikipedia25-birthday-mode-enabled.wikipedia25-video-loaded .search-container {
 		top: 20rem;
 	}
 }

@@ -29,16 +29,16 @@ l10n.assets = {
 	},
 	videoLogo: {
 		sneakpeek: {
-			srcDark200: 'assets/img/video-logo/sneakpeek-dark-200x200.webm',
-			srcDark300: 'assets/img/video-logo/sneakpeek-dark-300x300.webm',
-			srcLight200: 'assets/img/video-logo/sneakpeek-light-200x200.webm',
-			srcLight300: 'assets/img/video-logo/sneakpeek-light-300x300.webm'
+			srcDark200: 'portal/wikipedia.org/assets/img/sneakpeek-dark-200x200.webm',
+			srcDark300: 'portal/wikipedia.org/assets/img/sneakpeek-dark-300x300.webm',
+			srcLight200: 'portal/wikipedia.org/assets/img/sneakpeek-light-200x200.webm',
+			srcLight300: 'portal/wikipedia.org/assets/img/sneakpeek-light-300x300.webm'
 		},
 		balloons: {
-			srcDark200: 'assets/img/video-logo/balloons-dark-200x200.webm',
-			srcDark300: 'assets/img/video-logo/balloons-dark-300x300.webm',
-			srcLight200: 'assets/img/video-logo/balloons-light-200x200.webm',
-			srcLight300: 'assets/img/video-logo/balloons-light-300x300.webm'
+			srcDark200: 'portal/wikipedia.org/assets/img/balloons-dark-200x200.webm',
+			srcDark300: 'portal/wikipedia.org/assets/img/balloons-dark-300x300.webm',
+			srcLight200: 'portal/wikipedia.org/assets/img/balloons-light-200x200.webm',
+			srcLight300: 'portal/wikipedia.org/assets/img/balloons-light-300x300.webm'
 		}
 	},
 	lang: {
