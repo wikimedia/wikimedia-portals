@@ -19,6 +19,7 @@ From the root of the repo, run:
 ```
 nvm use                                 # use correct node version
 npm install                             # install dependencies
+npm run build-all-portals               # run tests and build the assets
 npm run start --portal=wikipedia.org    # update portal stats, start dev server
 ```
 
