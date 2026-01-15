@@ -41,7 +41,7 @@ npm run dev-server
 **Note** You can update the page stats, watch for changes in the wikipedia.org dev dir, and start a dev server by using a single command
 
 ```
-npm run start 
+npm run start --portal=wikipedia.org
 ```
 
 Then, you should be able to access the development directory at `http://localhost:8000/src/wikipedia.org/` and the production directory at `http://localhost:8000/prod/wikipedia.org/`.
