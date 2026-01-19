@@ -22,7 +22,11 @@
 	"top-ten-nav-label": "Principais idiomas",
 	"all-languages-nav-label": "Todos os idiomas",
 	"other-projects-nav-label": "Outros projetos",
+	"wikimedia-org-welcome": "Bem-vindo! O movimento da Wikimédia é uma comunidade global de pessoas, projetos, e atividades que colaboram juntos para criar e distribuir o conhecimento livremente.",
+	"wikimedia-org-welcome-subtitle": "Junte-se a nós para tornar todo o conhecimento disponível para toda a gente, em todo o lado.",
 	"wikimedia-org-our-projects": "Nossos projetos",
+	"wikimedia-org-our-projects-desc": "Os nossos projetos são o núcleo do <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">movimento da Wikimédia</a>. Todos os projetos principais são operados pela <a href=\"https://wikimediafoundation.org/\">Fundação Wikimédia</a>, e o conteúdo é desenvolvido colaborativamente por mais de 260.000 usuários de todo o mundo com o programa <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "A <a href=\"https://wikimediafoundation.org/\">Fundação Wikimedia</a> é a organização sem fins lucrativos que aloja todos os projetos da Wikimedia e apoia as comunidades de todo o mundo que criam e curam conteúdo acessível livremente.",
 	"wikimedia-org-projects-reference": "Referência",
 	"wikimedia-org-projects-collections": "Coleções",
 	"wikimedia-org-projects-technology": "Tecnologia",
@@ -31,6 +35,7 @@
 	"wikimedia-org-donate-title": "Sua doação protege o direito humano ao conhecimento livre e aberto para todos.",
 	"wikimedia-org-donate-button": "Doar agora",
 	"wikimedia-org-contact": "Contato",
+	"wikimedia-org-contact-text": "Questões sobre a Fundação Wikimedia ou projetos da Wikimedia? Entre em contato.",
 	"wikimedia-org-contact-link": "Contato",
 	"wiki": {
 		"name": "Wikipédia",
@@ -45,6 +50,18 @@
 			"google-store": "Play Store do Google",
 			"apple-store": "App Store da Apple",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Modo aniversário",
+			"slogan": "25 anos da enciclopédia livre",
+			"cta-text": "Quem está escondido no globo?",
+			"cta-description": "Um novo amigo especial está esperando dentro do globo quebra-cabeça. Descubra quem é e saiba quais outras surpresas estão reservadas para o 25º aniversário da Wikipédia.",
+			"modal": {
+				"title": "Quem está no globo?",
+				"text": "Um novo amigo especial está esperando dentro do globo quebra-cabeça. Descubra quem é e saiba quais outras surpresas estão reservadas para o 25º aniversário da Wikipédia.",
+				"primary-button-text": "Saiba mais",
+				"close-button-text": "Fechar"
+			}
 		}
 	},
 	"wiktionary": {

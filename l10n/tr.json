@@ -11,6 +11,7 @@
 			"Hedda",
 			"Jandre3000",
 			"Joseph",
+			"Leo",
 			"SaldırganSincap",
 			"Stonecy",
 			"Superyetkin",
@@ -61,6 +62,18 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://tr.wikipedia.org/wiki/Vikipedi_mobil_uygulamalarının_listesi"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Doğum günü modu",
+			"slogan": "Özgür ansiklopedinin 25 yılı",
+			"cta-text": "Dünya küresinin içinde kim saklanıyor?",
+			"cta-description": "Bulmaca küresinin içinde özel bir yeni arkadaş sizi bekliyor. Kim olduğunu keşfedin ve Vikipedi'nin 25. yıldönümü için başka hangi sürprizlerin hazırlandığını öğrenin.",
+			"modal": {
+				"title": "Dünyada kimler var?",
+				"text": "Bulmaca küresinin içinde özel bir yeni arkadaş sizi bekliyor. Kim olduğunu keşfedin ve Vikipedi'nin 25. yıldönümü için başka hangi sürprizlerin hazırlandığını öğrenin.",
+				"primary-button-text": "Daha fazla bilgi edin",
+				"close-button-text": "Kapat"
+			}
 		}
 	},
 	"wiktionary": {
