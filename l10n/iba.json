@@ -14,6 +14,14 @@
 	"top-ten-nav-label": "Jaku pemadu atas",
 	"all-languages-nav-label": "Semua jaku",
 	"other-projects-nav-label": "Projek bukai",
+	"wikimedia-org-welcome": "Selamat datai! Gerak Wikimedia nya komuniti global orang, projek, enggau aktiviti ti bekerejasama nempa sereta bekunsika penemu enggau bibas.",
+	"wikimedia-org-welcome-subtitle": "Begulai enggau kami ngasuh semua penemu bisi ngagai semua orang, ba dini-dini endur.",
+	"wikimedia-org-our-projects": "Projek Kami",
+	"wikimedia-org-projects-reference": "Kereban sanding",
+	"wikimedia-org-projects-collections": "Koleksyen",
+	"wikimedia-org-projects-technology": "Teknologi",
+	"wikimedia-org-projects-guides": "Lalau",
+	"wikimedia-org-projects-collaboration": "Kerejasama",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Ensiklopedia Bibas",
@@ -27,6 +35,12 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://iba.wikipedia.org/wiki/Ripih_aplikasyen_mobail_Wikipedia"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Mod hari pengada",
+			"modal": {
+				"close-button-text": "Tutup"
+			}
 		}
 	},
 	"wiktionary": {

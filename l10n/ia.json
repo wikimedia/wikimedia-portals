@@ -47,7 +47,14 @@
 		"wikipedia25": {
 			"birthday-mode-toggle-text": "Modo anniversario",
 			"slogan": "25 annos del encyclopedia libere",
-			"cta-text": "Qui se cela in le globo?"
+			"cta-text": "Qui se cela in le globo?",
+			"cta-description": "Un nove amico special attende intra le globo de puzzle. Discoperi su identitate e qual altere surprisas es in deposito pro le 25e anniversario de Wikipedia.",
+			"modal": {
+				"title": "Qui es in le globo?",
+				"text": "Un nove amico special attende intra le globo de puzzle. Discoperi su identitate e qual altere surprisas es in deposito pro le 25e anniversario de Wikipedia.",
+				"primary-button-text": "Leger plus",
+				"close-button-text": "Clauder"
+			}
 		}
 	},
 	"wiktionary": {
