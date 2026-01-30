@@ -52,6 +52,14 @@
 				"text": "A special new friend is waiting inside the puzzle globe. Uncover who it is and learn what other surprises are in store for Wikipedia's 25th birthday.",
 				"primary-button-text": "Learn more",
 				"close-button-text": "Close"
+			},
+			"launch-cta-text": "Unlock birthday surprises on Wikipedia",
+			"launch-cta-description": "Learn how to turn on Birthday mode so you and Baby Globe can explore Wikipedia together!",
+			"launch-modal": {
+				"title": "Unlock birthday surprises on Wikipedia",
+				"text": "Learn how to turn on Birthday mode so you and Baby Globe can explore Wikipedia together!",
+				"primary-button-text": "Learn more",
+				"close-button-text": "Close"
 			}
 		}
 	},

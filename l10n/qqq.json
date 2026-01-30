@@ -68,6 +68,14 @@
 				"text": "Body text of the modal dialog explaining the birthday mode",
 				"primary-button-text": "Text for the primary button inside the birthday modal",
 				"close-button-text": "Text for the close button inside the birthday modal"
+			},
+			"launch-cta-text": "Text for the post-launch call-to-action button inviting users to learn more about the birthday mode",
+			"launch-cta-description": "Description text accompanying the post-launch call-to-action button",
+			"launch-modal": {
+				"title": "Title of the post-launch modal dialog displaying birthday mode information",
+				"text": "Body text of the post-launch modal dialog explaining the birthday mode",
+				"primary-button-text": "Text for the primary button inside the post-launch birthday modal",
+				"close-button-text": "Text for the close button inside the post-launch birthday modal"
 			}
 		}
 	},
