@@ -76,7 +76,8 @@
 				"text": "Body text of the post-launch modal dialog explaining the birthday mode",
 				"primary-button-text": "Text for the primary button inside the post-launch birthday modal",
 				"close-button-text": "Text for the close button inside the post-launch birthday modal"
-			}
+			},
+			"play-button-text": "Text for the play button under the video"
 		}
 	},
 	"wiktionary": {

@@ -69,9 +69,11 @@
 /* Wikipedia 25 Video Logo */
 .wikipedia25-video {
 	position: absolute;
+	width: 20rem;
+	height: 20rem;
 	/* originally 158px for logo of 200x183, but 158px-17px for video logo of 200x200 */
-	top: 141px;
-	left: 35px;
+	top: 14.1rem;
+	left: 3.5rem;
 	/* in order to position the poster (image logo) in the same position as the video logo, although
 	the image logo is smaller in height than the video logo */
 	object-position: bottom;
@@ -86,10 +88,34 @@
 		left: auto;
 		top: auto;
 		margin: 0 auto;
+		cursor: pointer;
 	}
 
 	.wikipedia25-videologo .central-textlogo-wrapper {
 		margin: var( --spacing-50 ) var( --spacing-0 ) var( --spacing-0 ) var( --spacing-0 );
+	}
+}
+
+/* Wikipedia 25 Play Button */
+.wikipedia25-play-button {
+	display: none;
+	position: absolute;
+	min-width: 2.4rem;
+	min-height: 2.4rem;
+	z-index: 1;
+}
+
+.wikipedia25-birthday-mode-enabled .wikipedia25-play-button {
+	display: flex;
+	top: 30rem;
+	/* 35px + ( 200px - 24px ) / 2 */
+	left: 12.3rem;
+}
+
+@media all and ( max-width: 480px ) {
+	.wikipedia25-birthday-mode-enabled .wikipedia25-play-button {
+		top: 8.6rem;
+		left: calc( 50% - 1.2rem );
 	}
 }
 

@@ -1,4 +1,130 @@
 /**
+ * Audio files to play when the user clicks on the video logo.
+ */
+const audioFiles = [
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_lmo.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_pms.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_cs.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_piano_code.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_hr_1.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_hr_2.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_it.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_mad.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_sl.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_sl_1.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_bew.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_id.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_id_2.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_ja.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_sas.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_en_abal1412.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_ru_abal1412.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_vi_central.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_vi_north.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_vi_south.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_vi_north_caryll.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_zh.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_ca_fem.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_ca_masc.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_es_fem.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_es.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_es_masc.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_fr.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_hr_staff.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_el_formal.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_el_casual.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_ru_staff.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_he.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_uz.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_nl.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_nl_2.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_nl_1.webm',
+	'portal/wikipedia.org/assets/img/wikipedia25_welcome_de.webm'
+];
+
+/**
+ * Play random audio file.
+ */
+function playRandomAudio() {
+	const randomAudio = audioFiles[ Math.floor( Math.random() * audioFiles.length ) ];
+	const audio = new Audio( randomAudio );
+	audio.play().catch( () => {} );
+}
+
+/**
+ * Helper to get the correct source based on theme.
+ *
+ * Checks the user's color scheme preference and returns the corresponding
+ * video source URL from the video element's dataset.
+ *
+ * @param {HTMLVideoElement} video - The video element to retrieve the source from.
+ * @param {string} type - The type of video source to retrieve ('idle', 'click', or 'poster').
+ * @return {string|null} The video source URL or null if the video element is missing.
+ */
+function getVideoSource( video, type ) {
+	const isDark = window.matchMedia && window.matchMedia( '(prefers-color-scheme: dark)' ).matches;
+	const dataset = video.dataset;
+	return isDark ? dataset[ type + 'Dark' ] : dataset[ type + 'Light' ];
+}
+
+/**
+ * Play video.
+ *
+ * @param {HTMLVideoElement} video - The video element to play.
+ * @param {string} type - The type of video source to retrieve ('idle', 'click', or 'poster').
+ * @param {boolean} loop - Whether to loop the video.
+ */
+function playVideo( video, type, loop ) {
+	const src = getVideoSource( video, type );
+
+	if ( !src ) {
+		return;
+	}
+
+	video.src = src;
+	video.loop = loop;
+	video.addEventListener( 'loadedmetadata', function onLoadedData() {
+		video.removeEventListener( 'loadedmetadata', onLoadedData );
+		video.width = 200;
+		video.height = 200;
+		video.play().catch( () => {} );
+	} );
+}
+
+/**
+ * Handle click on the video logo.
+ *
+ * Switches the video to the 'click' variant, plays it once without looping,
+ * and then automatically reverts to the 'idle' looping video when playback ends.
+ *
+ * @param {HTMLVideoElement} video - The video element to play.
+ * @return {Promise<void>} Resolves when the click video has finished playing.
+ */
+function playClickVideo( video ) {
+	const idleSrc = getVideoSource( video, 'idle' );
+	const clickSrc = getVideoSource( video, 'click' );
+
+	if ( !clickSrc || !idleSrc ) {
+		return Promise.resolve();
+	}
+
+	// Disable looping for the click video
+	playVideo( video, 'click', false );
+
+	// When finished, go back to idle
+	const promise = new Promise( ( resolve ) => {
+		video.addEventListener( 'ended', function onEnded() {
+			video.removeEventListener( 'ended', onEnded );
+			resolve();
+		} );
+	} ).catch( () => {} ).finally( () => {
+		playVideo( video, 'idle', true );
+	} );
+
+	return promise;
+}
+
+/**
  * Wikipedia 25 Birthday Mode Toggle.
  *
  * Control the "Birthday Mode" feature. Default to enabled, persist the
@@ -62,7 +188,8 @@
 		focusTrapStart = document.querySelector( '.wikipedia25-dialog-focus-trap-start' ),
 		focusTrapEnd = document.querySelector( '.wikipedia25-dialog-focus-trap-end' );
 
-	if ( !video || !backdrop ) {
+	if ( !video || !backdrop || !closeButton || !primaryButton || !ctaButton ||
+		!focusTrapStart || !focusTrapEnd ) {
 		return;
 	}
 
@@ -86,25 +213,16 @@
 	}
 
 	// Open on video click
-	video.addEventListener( 'click', ( e ) => {
-		e.preventDefault();
-		openDialog();
-	} );
+	video.addEventListener( 'click', openDialog );
 
 	// Close on close button click
-	if ( closeButton ) {
-		closeButton.addEventListener( 'click', closeDialog );
-	}
+	closeButton.addEventListener( 'click', closeDialog );
 
 	// Navigate on primary action button click
-	if ( primaryButton ) {
-		primaryButton.addEventListener( 'click', handleCTAClick );
-	}
+	primaryButton.addEventListener( 'click', handleCTAClick );
 
 	// Navigate on CTA button click
-	if ( ctaButton ) {
-		ctaButton.addEventListener( 'click', handleCTAClick );
-	}
+	ctaButton.addEventListener( 'click', handleCTAClick );
 
 	// Close on click outside (backdrop click)
 	backdrop.addEventListener( 'click', ( e ) => {
@@ -121,99 +239,60 @@
 	} );
 
 	// Focus trap start logic
-	if ( focusTrapStart ) {
-		focusTrapStart.addEventListener( 'focus', () => {
-			if ( primaryButton ) {
-				primaryButton.focus();
-			} else if ( closeButton ) {
-				closeButton.focus();
-			}
-		} );
-	}
+	focusTrapStart.addEventListener( 'focus', () => {
+		if ( primaryButton ) {
+			primaryButton.focus();
+		} else if ( closeButton ) {
+			closeButton.focus();
+		}
+	} );
 
 	// Focus trap end logic
-	if ( focusTrapEnd ) {
-		focusTrapEnd.addEventListener( 'focus', () => {
-			if ( closeButton ) {
-				closeButton.focus();
-			} else if ( primaryButton ) {
-				primaryButton.focus();
-			}
-		} );
-	}
+	focusTrapEnd.addEventListener( 'focus', () => {
+		if ( closeButton ) {
+			closeButton.focus();
+		} else if ( primaryButton ) {
+			primaryButton.focus();
+		}
+	} );
 
 }() );
 
 /**
- * Wikipedia 25 Video Asset Loader.
+ * Wikipedia 25 Video Interaction Handler.
  *
- * Inject the correct video source elements. Select the video variant (sneakpeek
- * vs balloons) and serve the appropriate file based on the user's color scheme
- * preference and device pixel density.
+ * Inject the correct video source elements and handle video interactions.
  */
 ( function () {
-	const video = document.getElementById( 'wikipedia25-video' );
+	const video = document.getElementById( 'wikipedia25-video' ),
+		playButton = document.querySelector( '#wikipedia25-play-button' );
 
-	if ( !video ) {
+	if ( !video || !playButton ) {
 		return;
 	}
 
-	const dataset = video.dataset;
-	let selectedSet;
+	// Set initial video source and poster based on dark/light theme
+	video.poster = getVideoSource( video, 'poster' );
+	playVideo( video, 'idle', true );
 
-	if ( document.documentElement.classList.contains( 'wikipedia25-variant-sneakpeek' ) ) {
-		selectedSet = 'sneakpeek';
-	} else if ( document.documentElement.classList.contains( 'wikipedia25-variant-balloons' ) ) {
-		selectedSet = 'balloons';
-	} else {
-		// Fallback if inline script didn't run or something else happened
-		selectedSet = Math.random() < 0.5 ? 'sneakpeek' : 'balloons';
-	}
-
-	// Define sources based on selection
-	const sources = [
-		{
-			src: dataset[ selectedSet + 'Dark-300' ],
-			media: '(prefers-color-scheme: dark) and (min-resolution: 2dppx)'
-		},
-		{
-			src: dataset[ selectedSet + 'Dark-200' ],
-			media: '(prefers-color-scheme: dark)'
-		},
-		{
-			src: dataset[ selectedSet + 'Light-300' ],
-			media: '(prefers-color-scheme: light) and (min-resolution: 2dppx)'
-		},
-		{
-			src: dataset[ selectedSet + 'Light-200' ],
-			media: '(prefers-color-scheme: light)'
-		},
-		{
-			src: dataset[ selectedSet + 'Light-200' ] // Fallback
+	// Click handler
+	let isHandlingClick = false;
+	const clickHandler = () => {
+		if ( isHandlingClick ) {
+			return;
 		}
-	];
+		isHandlingClick = true;
+		playButton.disabled = true;
 
-	// Create and append source elements
-	sources.forEach( ( s ) => {
-		if ( s.src ) {
-			const source = document.createElement( 'source' );
-			source.src = s.src;
-			source.type = 'video/webm';
-			if ( s.media ) {
-				source.media = s.media;
-			}
-			video.appendChild( source );
-		}
-	} );
+		// Play random audio and the click video at the same time
+		playRandomAudio();
+		playClickVideo( video ).catch( () => {} ).finally( () => {
+			isHandlingClick = false;
+			playButton.disabled = false;
+		} );
+	};
 
-	function onVideoLoaded() {
-		document.documentElement.classList.add( 'wikipedia25-video-loaded' );
-		video.removeEventListener( 'loadedmetadata', onVideoLoaded );
-	}
-
-	video.addEventListener( 'loadedmetadata', onVideoLoaded );
-
-	// Force reload since we changed sources programmatically
-	video.load();
+	// Handle click on video click area
+	playButton.addEventListener( 'click', clickHandler );
 
 }() );

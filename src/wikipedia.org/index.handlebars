@@ -15,9 +15,6 @@
         var cookieName = 'wikipedia25-birthday-mode-disabled';
         if ( document.cookie.indexOf( cookieName + '=1' ) === -1 ) {
             document.documentElement.classList.add( 'wikipedia25-birthday-mode-enabled' );
-            var variants = [ 'sneakpeek', 'balloons' ];
-            var selected = variants[ Math.floor( Math.random() * variants.length ) ];
-            document.documentElement.classList.add( 'wikipedia25-variant-' + selected );
         }
     })();
 </script>

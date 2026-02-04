@@ -24,17 +24,17 @@ l10n.assets = {
 		height: '183'
 	},
 	videoLogo: {
-		sneakpeek: {
-			srcDark200: 'portal/wikipedia.org/assets/img/sneakpeek-dark-200x200.webm',
-			srcDark300: 'portal/wikipedia.org/assets/img/sneakpeek-dark-300x300.webm',
-			srcLight200: 'portal/wikipedia.org/assets/img/sneakpeek-light-200x200.webm',
-			srcLight300: 'portal/wikipedia.org/assets/img/sneakpeek-light-300x300.webm'
+		idle: {
+			light: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-idle-light.webm',
+			dark: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-idle-dark.webm'
 		},
-		balloons: {
-			srcDark200: 'portal/wikipedia.org/assets/img/balloons-dark-200x200.webm',
-			srcDark300: 'portal/wikipedia.org/assets/img/balloons-dark-300x300.webm',
-			srcLight200: 'portal/wikipedia.org/assets/img/balloons-light-200x200.webm',
-			srcLight300: 'portal/wikipedia.org/assets/img/balloons-light-300x300.webm'
+		click: {
+			light: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-click-light.webm',
+			dark: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-click-dark.webm'
+		},
+		poster: {
+			light: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-poster-light.webp',
+			dark: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-poster-dark.webp'
 		}
 	},
 	lang: {

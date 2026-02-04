@@ -1,16 +1,22 @@
 <div class="central-textlogo wikipedia25-videologo">
     <video id="wikipedia25-video" class="wikipedia25-video"
-        data-sneakpeek-light-200="{{l10n.assets.videoLogo.sneakpeek.srcLight200}}"
-        data-sneakpeek-light-300="{{l10n.assets.videoLogo.sneakpeek.srcLight300}}"
-        data-sneakpeek-dark-200="{{l10n.assets.videoLogo.sneakpeek.srcDark200}}"
-        data-sneakpeek-dark-300="{{l10n.assets.videoLogo.sneakpeek.srcDark300}}"
-        data-balloons-light-200="{{l10n.assets.videoLogo.balloons.srcLight200}}"
-        data-balloons-light-300="{{l10n.assets.videoLogo.balloons.srcLight300}}"
-        data-balloons-dark-200="{{l10n.assets.videoLogo.balloons.srcDark200}}"
-        data-balloons-dark-300="{{l10n.assets.videoLogo.balloons.srcDark300}}" data-width="200" data-height="200"
-        width="200" height="200" autoplay loop muted playsinline
-        poster="{{l10n.assets.logo.src}}">
+        data-idle-light="{{l10n.assets.videoLogo.idle.light}}"
+        data-idle-dark="{{l10n.assets.videoLogo.idle.dark}}"
+        data-click-light="{{l10n.assets.videoLogo.click.light}}"
+        data-click-dark="{{l10n.assets.videoLogo.click.dark}}"
+        data-poster-light="{{l10n.assets.videoLogo.poster.light}}"
+        data-poster-dark="{{l10n.assets.videoLogo.poster.dark}}"
+        width="200" height="200" autoplay loop muted playsinline>
     </video>
+    <button id="wikipedia25-play-button"
+        class="cdx-button cdx-button--action-progressive cdx-button--weight-primary cdx-button--size-medium cdx-button--icon-only cdx-button--framed jsl10n wikipedia25-play-button"
+        type="button" data-jsl10n="portal.wikipedia25.play-button-text"
+        aria-label="{{l10n.wiki.wikipedia25.play-button-text}}">
+        <span class="cdx-icon cdx-icon--small"><svg xmlns="http://www.w3.org/2000/svg"
+            width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                <g><path d="M4.55 19A1 1 0 013 18.13V1.87A1 1 0 014.55 1l12.2 8.13a1 1 0 010 1.7z"></path></g>
+            </svg></span>
+    </button>
     <h1 class="central-textlogo-wrapper">
         <span class="central-textlogo__image sprite svg-{{l10n.portal.name}}_wordmark">
             {{l10n.portal.name}}
