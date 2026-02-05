@@ -70,6 +70,11 @@
 				"text": "Un nuovo amico speciale ti aspetta all'interno del globo del puzzle. Scopri di chi si tratta e quali altre sorprese sono in serbo per il venticinquesimo compleanno di Wikipedia.",
 				"primary-button-text": "Ulteriori informazioni",
 				"close-button-text": "Chiudi"
+			},
+			"launch-modal": {
+				"title": "Sblocca le sorprese di compleanno su Wikipedia",
+				"primary-button-text": "Ulteriori informazioni",
+				"close-button-text": "Chiudi"
 			}
 		}
 	},

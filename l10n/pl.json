@@ -13,6 +13,7 @@
 		]
 	},
 	"language-name": "Polski",
+	"language-name-romanized-sorted": "Polski",
 	"footer-donate": "Wesprzyj naszą pracę datkiem.",
 	"license": "Ta strona jest dostępna na licencji <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.pl'>Creative Commons Uznanie autorstwa-Na tych samych warunkach</a>",
 	"terms": "Warunki użytkowania",
@@ -61,6 +62,12 @@
 			"modal": {
 				"title": "Kto jest w kuli?",
 				"text": "W kuli z puzzli czeka na ciebie nowy przyjaciel. Odkryj, kto to i przekonaj się, jakie inne niespodzianki czekają w sklepie z okazji 25. urodzin Wikipedii.",
+				"primary-button-text": "Dowiedz się więcej",
+				"close-button-text": "Zamknij"
+			},
+			"launch-cta-text": "Odblokuj urodzinowe niespodzianki na Wikipedii",
+			"launch-modal": {
+				"title": "Odblokuj urodzinowe niespodzianki na Wikipedii",
 				"primary-button-text": "Dowiedz się więcej",
 				"close-button-text": "Zamknij"
 			}

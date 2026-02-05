@@ -61,6 +61,14 @@
 				"text": "Uusi erityinen kaveri odottaa palapelipallon sisällä. Ota selvää, kuka hän on, ja kuule, mitä muita yllätyksiä on luvassa Wikipedian 25. syntymäpäivää varten.",
 				"primary-button-text": "Lisätietoja",
 				"close-button-text": "Sulje"
+			},
+			"launch-cta-text": "Ota käyttöön syntymäpäiväyllätykset Wikipediassa",
+			"launch-cta-description": "Lue, kuinka ottaa syntymäpäivätila käyttöön, jotta voit selata Wikipediaa yhdessä Baby Globen kanssa!",
+			"launch-modal": {
+				"title": "Ota käyttöön syntymäpäiväyllätykset Wikipediassa",
+				"text": "Lue, kuinka ottaa syntymäpäivätila käyttöön, jotta voit selata Wikipediaa yhdessä Baby Globen kanssa!",
+				"primary-button-text": "Lisätietoja",
+				"close-button-text": "Sulje"
 			}
 		}
 	},

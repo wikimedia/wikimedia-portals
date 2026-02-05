@@ -50,6 +50,11 @@
 			"google-store": "فروشگاه گوگل‌پلی",
 			"apple-store": "فروشگاه اپ‌استور",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"launch-modal": {
+				"primary-button-text": "بیشتر بدانید"
+			}
 		}
 	},
 	"wiktionary": {

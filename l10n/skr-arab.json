@@ -34,6 +34,10 @@
 		"wikipedia25": {
 			"modal": {
 				"primary-button-text": "ٻیا سِکھو"
+			},
+			"launch-modal": {
+				"primary-button-text": "ٻیا سِکھو",
+				"close-button-text": "بند کرو"
 			}
 		}
 	},

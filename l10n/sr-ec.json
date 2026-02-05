@@ -58,6 +58,10 @@
 			"modal": {
 				"primary-button-text": "Сазнајте више",
 				"close-button-text": "Затвори"
+			},
+			"launch-modal": {
+				"primary-button-text": "Сазнајте више",
+				"close-button-text": "Затвори"
 			}
 		}
 	},

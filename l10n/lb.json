@@ -50,6 +50,12 @@
 			"modal": {
 				"primary-button-text": "Méi gewuer ginn",
 				"close-button-text": "Zoumaachen"
+			},
+			"launch-cta-text": "Gebuertsdagsiwwerraschungen op Wikipedia fräischalten",
+			"launch-modal": {
+				"title": "Gebuertsdagsiwwerraschungen op Wikipedia fräischalten",
+				"primary-button-text": "Méi gewuer ginn",
+				"close-button-text": "Zoumaachen"
 			}
 		}
 	},

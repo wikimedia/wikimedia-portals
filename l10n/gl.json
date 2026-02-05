@@ -54,10 +54,18 @@
 			"birthday-mode-toggle-text": "Modo aniversario",
 			"slogan": "25 anos da enciclopedia libre",
 			"cta-text": "Quen se agocha no globo?",
-			"cta-description": "Un novo amigo especial agarda dentro do globo do crebacabezas. Descubre quen é e que outras sorpresas temos paro o 25 aniversario da Wikipedia.",
+			"cta-description": "Un novo amigo especial agarda dentro do globo do crebacabezas. Descubre quen é e que outras sorpresas temos para o 25 aniversario da Wikipedia.",
 			"modal": {
 				"title": "Quen está no globo?",
-				"text": "Un novo amigo especial agarda dentro do globo do crebacabezas. Descubre quen é e que outras sorpresas temos paro o 25 aniversario da Wikipedia.",
+				"text": "Un novo amigo especial agarda dentro do globo do crebacabezas. Descubre quen é e que outras sorpresas temos para o 25 aniversario da Wikipedia.",
+				"primary-button-text": "Máis información",
+				"close-button-text": "Pechar"
+			},
+			"launch-cta-text": "Desbloquea sorpresas de aniversario na Wikipedia",
+			"launch-cta-description": "Aprende a activar o modo aniversario para que ti e o globo pequecho poidades explorar a Wikipedia xuntos!",
+			"launch-modal": {
+				"title": "Desbloquea sorpresas de aniversario na Wikipedia",
+				"text": "Aprende a activar o modo aniversario para que ti e o globo pequecho poidades explorar a Wikipedia xuntos!",
 				"primary-button-text": "Máis información",
 				"close-button-text": "Pechar"
 			}
