@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"IKristiani",
 			"Janbery",
 			"Marek Pavlica",
 			"Matěj Suchánek",
@@ -40,6 +41,12 @@
 				"text": "Uvnitř puzzle glóbu čeká nový speciální přítel. Odhalte, kdo to je, a zjistěte, jaká další překvapení chystá Wikipedie k 25. narozeninám.",
 				"primary-button-text": "Zjistěte více",
 				"close-button-text": "Zavřít"
+			},
+			"launch-cta-text": "Odemkněte narozeninová překvapení na Wikipedii",
+			"launch-cta-description": "Zjistěte, jak si zapnout Narozeninový režim, abyste mohli s Baby Globe společně objevovat Wikipedii!",
+			"launch-modal": {
+				"title": "Odemkněte narozeninová překvapení na Wikipedii",
+				"text": "Zjistěte, jak si zapnout Narozeninový režim, abyste mohli s Baby Globe společně objevovat Wikipedii!"
 			}
 		}
 	},

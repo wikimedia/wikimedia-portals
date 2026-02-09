@@ -6,6 +6,7 @@
 			"B3rnas",
 			"Emma Franzen",
 			"Hamilton Abreu",
+			"IKristiani",
 			"Liuxinyu970226",
 			"Mansil alfalb",
 			"MokaAkashiyaPT",
@@ -53,6 +54,15 @@
 			"google-store": "Play Store da Google",
 			"apple-store": "App Store da Apple",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"slogan": "25 anos da enciclopédia livre",
+			"launch-cta-text": "Descubra as surpresas de aniversário na Wikipédia",
+			"launch-cta-description": "Aprenda como ativar o Modo aniversário para que você e o Bebê Globo possam explorar a Wikipédia conjuntamente!",
+			"launch-modal": {
+				"title": "Descubra as surpresas de aniversário na Wikipédia",
+				"text": "Aprenda como ativar o Modo aniversário para que você e o Bebê Globo possam explorar a Wikipédia conjuntamente!"
+			}
 		}
 	},
 	"wiktionary": {

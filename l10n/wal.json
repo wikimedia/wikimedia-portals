@@ -15,6 +15,21 @@
 	"top-ten-nav-label": "Erettida doonata",
 	"all-languages-nav-label": "Ubba doonata",
 	"other-projects-nav-label": "Hara proojekteta",
+	"wikimedia-org-welcome": "Hashshu saro yaasa! Wikiimiidiya qaattaa giyogee salo gufantto deretettaa asaa, piroojektiyanne oosota issippetettan oottidi eraa la'an medhdhiyagaanne harawu gattiyogaa.",
+	"wikimedia-org-welcome-subtitle": "Ubba eraa ubba asawu, ubba sohuwawu gattanawu nunaara hasheta.",
+	"wikimedia-org-our-projects": "Nu Proojekteta",
+	"wikimedia-org-our-projects-desc": "Nu piroojektetu huuphe allaallee <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Wikiimiidiya qaattaa</a>. Ubba huuphe huuphe piroojekteti aqiyoy <a href=\"https://wikimediafoundation.org/\">Wikiimdiya baasuwa</a> gidishin i oyqqidobati lumegezuwan de'ya 260,000 yarati hashetiyogaan <a href=\"https://www.mediawiki.org/\">MiidiyaWikii</a> softiweeriya go'ettidi dichchoogeeta.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Wikkiimiidiya Baasuwa</a> giyogee ubba wikkiimiidiya piroojekteta oyqqiyanne lumegezuwa gazxan de'iya deretettata maaddiya woriyawu eqqibeenna eqotaa.",
+	"wikimedia-org-projects-reference": "Naqaashaa",
+	"wikimedia-org-projects-collections": "Shiishota",
+	"wikimedia-org-projects-technology": "Teekinooloojjiya",
+	"wikimedia-org-projects-guides": "Kaaletota",
+	"wikimedia-org-projects-collaboration": "Hashetuwa",
+	"wikimedia-org-donate-title": "Ne maadoy ubba asay la'anne dooya eraa demmiyo asummatettaa maataa naagees.",
+	"wikimedia-org-donate-button": "Ha'i maadda",
+	"wikimedia-org-contact": "Gaytta",
+	"wikimedia-org-contact-text": "Wikkiimiidiya Baasuwa woykko Wikkiimiidiya piroojektetu bollan oyshati de'iyonaa? Gaytta.",
+	"wikimedia-org-contact-link": "Gaytta",
 	"wiki": {
 		"name": "Wikkiipeediyaa",
 		"slogan": "La'a insaykloopediyaa",
@@ -28,6 +43,26 @@
 			"google-store": "Googili Pilay Stoori",
 			"apple-store": "Appili Appi Stoori",
 			"url": "https\n://wal.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Yeleta gallassaa hanotaa",
+			"slogan": "25 layttatu la'a insaykloopeediya",
+			"cta-text": "Lumegezuwa giddon oonee qosettiday?",
+			"cta-description": "Issi dumma ooratta laggee qan'ishe luuliya giddon naagees. Oonakko eranne Wikkiipeediya 25tta yeletta baalan ayba hara malaaliyabati de'iyakko era.",
+			"modal": {
+				"title": "Luuliya giddon de'iyay oonee?",
+				"text": "Issi dumma ooratta laggee qan'ishe luuliya giddon naagees. Oonakko eranne Wikkiipeediya 25tta yeletta baalan ayba hara malaaliyabati de'iyakko era.",
+				"primary-button-text": "Aaruwa luxa",
+				"close-button-text": "Gordda"
+			},
+			"launch-cta-text": "Wikkiipeediyan yeleta gallassaa malaalata dooya.",
+			"launch-cta-description": "Neeninne yiira luulee Wikkiipeediya issippe koyyana danddayanassi yeleta gallassaa hanotaa waatidi dooyanaassi danddayiyakko era.",
+			"launch-modal": {
+				"title": "Wikkiipeediyan yeleta gallassaa malaalata dooya.",
+				"text": "Neeninne yiira luulee Wikkiipeediya issippe koyyana danddayanassi yeleta gallassaa hanotaa waatidi dooyanaassi danddayiyakko era.",
+				"primary-button-text": "Aaruwa luxa",
+				"close-button-text": "Gordda"
+			}
 		}
 	},
 	"wiktionary": {

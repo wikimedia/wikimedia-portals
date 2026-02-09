@@ -73,6 +73,12 @@
 				"text": "Un nuevo amigo especial te espera dentro del globo terráqueo. Descubre quién es y descubre qué otras sorpresas te esperan para el 25.º aniversario de Wikipedia.",
 				"primary-button-text": "Más información",
 				"close-button-text": "Cerrar"
+			},
+			"launch-cta-text": "Descubre las sorpresas de aniversario en Wikipedia",
+			"launch-cta-description": "¡Activa el Modo aniversario para que tú y Bebé Globo puedan explorar Wikipedia en conjunto!",
+			"launch-modal": {
+				"title": "Descubre las sorpresas de aniversario en Wikipedia",
+				"text": "¡Activa el Modo aniversario para que tú y Bebé Globo puedan explorar Wikipedia en conjunto!"
 			}
 		}
 	},

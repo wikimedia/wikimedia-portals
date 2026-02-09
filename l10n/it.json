@@ -8,6 +8,7 @@
 			"Giaccai",
 			"Giorgx12",
 			"GseSro",
+			"IKristiani",
 			"Jdforrester",
 			"Macofe",
 			"Matiia",
@@ -71,8 +72,11 @@
 				"primary-button-text": "Ulteriori informazioni",
 				"close-button-text": "Chiudi"
 			},
+			"launch-cta-text": "Sblocca delle sorprese per il compleanno su Wikipedia",
+			"launch-cta-description": "Scopri come attivare la Modalità compleanno, così che tu e Baby Globe possiate esplorare Wikipedia insieme!",
 			"launch-modal": {
 				"title": "Sblocca le sorprese di compleanno su Wikipedia",
+				"text": "Scopri come attivare la Modalità compleanno, così che tu e Baby Globe possiate esplorare Wikipedia insieme!",
 				"primary-button-text": "Ulteriori informazioni",
 				"close-button-text": "Chiudi"
 			}

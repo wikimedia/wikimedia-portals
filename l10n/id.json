@@ -13,6 +13,7 @@
 		]
 	},
 	"language-name": "Bahasa Indonesia",
+	"language-name-romanized": "Bahasa Inggris",
 	"language-name-romanized-sorted": "Indonesia, Bahasa",
 	"footer-donate": "Anda dapat mendukung kami dengan sumbangan.",
 	"license": "Halaman ini tersedia dalam <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
@@ -59,7 +60,15 @@
 			"cta-description": "Sesosok teman istimewa baru menunggumu di dalam bola dunia dari potongan teka-teki. Temukan siapa dia dan ketahui kejutan apa lagi yang menanti untuk ulang tahun ke-25 Wikipedia.",
 			"modal": {
 				"title": "Siapakah yang ada di dalam bola dunia ini?",
-				"text": "Teman istimewa baru menunggumu di dalam bola dunia dari potongan puzzle. Temukan siapa dia dan ketahui kejutan apa lagi yang menanti untuk ulang tahun ke-25 Wikipedia.",
+				"text": "Teman istimewa baru menunggumu di dalam puzzle bola dunia. Cari tau siapakah dia dan lihat kejutan apa lagi yang menanti untuk ulang tahun ke-25 Wikipedia.",
+				"primary-button-text": "Selengkapnya",
+				"close-button-text": "Tutup"
+			},
+			"launch-cta-text": "Temukan beragam kejutan rahasia dalam perayaan ulang tahun Wikipedia",
+			"launch-cta-description": "Pelajari cara mengaktifkan Mode ulang tahun, supaya kalian bisa menelusuri Wikipedia bersama Bayi Globe!",
+			"launch-modal": {
+				"title": "Temukan beragam kejutan rahasia dalam perayaan ulang tahun Wikipedia",
+				"text": "Pelajari cara mengaktifkan Mode ulang tahun, supaya kalian bisa menelusuri Wikipedia bersama Bayi Globe!",
 				"primary-button-text": "Selengkapnya",
 				"close-button-text": "Tutup"
 			}

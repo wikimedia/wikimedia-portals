@@ -9,6 +9,7 @@
 			"Florian COLLIN",
 			"Gomoko",
 			"Hecatonchire",
+			"IKristiani",
 			"Jdforrester",
 			"Jules*",
 			"Niridya",
@@ -70,6 +71,12 @@
 				"text": "Un nouvel ami spécial vous attend à l'intérieur du globe puzzle. Découvrez son identité et les autres surprises que vous réserve le 25e anniversaire de Wikipédia.",
 				"primary-button-text": "En savoir plus",
 				"close-button-text": "Fermer"
+			},
+			"launch-cta-text": "Découvrez des surprises d’anniversaire sur Wikipédia",
+			"launch-cta-description": "Découvrez comment activer le Mode anniversaire pour explorer Wikipédia avec Bébé Globe !",
+			"launch-modal": {
+				"title": "Découvrez des surprises d’anniversaire sur Wikipédia",
+				"text": "Découvrez comment activer le Mode anniversaire pour explorer Wikipédia avec Bébé Globe !"
 			}
 		}
 	},

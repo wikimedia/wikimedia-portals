@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Hakimi97",
+			"IKristiani",
 			"MuratTheTurkish",
 			"Stress 043",
 			"Tofeiku",
@@ -60,6 +61,12 @@
 				"text": "Seorang rakan baharu yang istimewa sedang menunggu di dalam glob teka-teki. Ketahui siapa dia dan ketahui kejutan lain yang menanti untuk ulang tahun Wikipedia yang ke-25.",
 				"primary-button-text": "Ketahui lebih lanjut",
 				"close-button-text": "Tutup"
+			},
+			"launch-cta-text": "Buka kejutan hari jadi di Wikipedia",
+			"launch-cta-description": "Ketahui cara menghidupkan Mod hari lahir supaya anda dan Baby Globe boleh meneroka Wikipedia bersama-sama!",
+			"launch-modal": {
+				"title": "Buka kejutan hari jadi di Wikipedia",
+				"text": "Ketahui cara menghidupkan Mod hari lahir supaya anda dan Baby Globe boleh meneroka Wikipedia bersama-sama!"
 			}
 		}
 	},

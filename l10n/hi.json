@@ -23,12 +23,14 @@
 	"top-ten-nav-label": "शीर्ष भाषाएँ",
 	"all-languages-nav-label": "सभी भाषाएँ",
 	"other-projects-nav-label": "अन्य परियोजनाएँ",
+	"wikimedia-org-welcome": "आपका स्वागत है! विकिमीडिया आंदोलन मुक्त रूप से ज्ञान साझा करने के लिए साथ में काम कर रहे लोगों, परियोजनाओं, और गतिविधियों का एक वैश्विक समूह है।",
 	"wikimedia-org-our-projects": "हमारी परियोजनाएँ",
 	"wikimedia-org-projects-reference": "संदर्भ",
 	"wikimedia-org-projects-collections": "संकलन",
 	"wikimedia-org-projects-technology": "प्रौद्योगिकी",
 	"wikimedia-org-projects-guides": "गाइड",
 	"wikimedia-org-projects-collaboration": "सहयोग",
+	"wikimedia-org-donate-title": "आपका दान सभी के लिए निः शुल्क एवं मुक्त ज्ञान तक पहुँच के मानव अधिकार की रक्षा करता है।",
 	"wikimedia-org-donate-button": "अभी दान करें",
 	"wikimedia-org-contact": "संपर्क करें",
 	"wikimedia-org-contact-text": "विकिमीडिया संस्थान या विकिमीडिया परियोजनाओं के बारे में प्रश्न हैं? आइए बात करें।",
@@ -48,7 +50,22 @@
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		},
 		"wikipedia25": {
+			"birthday-mode-toggle-text": "जन्मदिन मोड",
+			"slogan": "मुक्त ज्ञानकोश के 25 वर्ष",
+			"cta-text": "ग्लोब में कौन छिपा है?",
+			"cta-description": "पहेली के ग्लोब के अंदर एक खास नया दोस्त छिपा है। पता लगाइए कि वह कौन है और विकिपीडिया के 25वें जन्मदिन के लिए और क्या-क्या आश्चर्य आपका इंतज़ार कर रहे हैं।",
 			"modal": {
+				"title": "ग्लोब में कौन है?",
+				"text": "पहेली के ग्लोब के अंदर एक खास नया दोस्त छिपा है। पता लगाइए कि वह कौन है और विकिपीडिया के 25वें जन्मदिन के लिए और क्या-क्या आश्चर्य आपका इंतज़ार कर रहे हैं।",
+				"primary-button-text": "अधिक जानें",
+				"close-button-text": "बंद करें"
+			},
+			"launch-cta-text": "विकिपीडिया पर जन्मदिन के आश्चर्य अनलॉक करें",
+			"launch-cta-description": "जानें कि जन्मदिन मोड कैसे सक्षम करें ताकि आप और बेबी ग्लोब साथ में विकिपीडिया की सैर कर सके!",
+			"launch-modal": {
+				"title": "विकिपीडिया पर जन्मदिन के आश्चर्य अनलॉक करें",
+				"text": "जानें कि जन्मदिन मोड कैसे सक्षम करें ताकि आप और बेबी ग्लोब साथ में विकिपीडिया की सैर कर सके!",
+				"primary-button-text": "अधिक जानें",
 				"close-button-text": "बंद करें"
 			}
 		}

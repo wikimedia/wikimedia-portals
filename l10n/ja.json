@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Chqaz",
+			"IKristiani",
 			"LaMagiaaa",
 			"MathXplore",
 			"MuratTheTurkish",
@@ -38,6 +39,15 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://ja.wikipedia.org/wiki/ウィキペディアのモバイルアプリケーション一覧"
+		},
+		"wikipedia25": {
+			"slogan": "フリー百科事典の25年間",
+			"launch-cta-text": "ウィキペディアで誕生日サプライズを開く",
+			"launch-cta-description": "誕生日モードをオンにして、ベビー・グローブと一緒にウィキペディアを探索しましょう！",
+			"launch-modal": {
+				"title": "ウィキペディアで誕生日サプライズを開く",
+				"text": "誕生日モードをオンにして、ベビー・グローブと一緒にウィキペディアを探索しましょう！"
+			}
 		}
 	},
 	"wiktionary": {

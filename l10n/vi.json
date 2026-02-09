@@ -3,6 +3,7 @@
 		"authors": [
 			"Awdsweq123",
 			"Bapham123",
+			"IKristiani",
 			"Macofe",
 			"Minh Nguyen",
 			"Phjtieudoc",
@@ -61,6 +62,12 @@
 				"text": "Một người bạn mới đặc biệt đang chờ bạn bên trong quả cầu Wikipedia. Hãy khám phá xem đó là ai và tìm hiểu những bất ngờ thú vị khác nhân dịp sinh nhật lần thứ 25 của Wikipedia.",
 				"primary-button-text": "Tìm hiểu thêm",
 				"close-button-text": "Đóng"
+			},
+			"launch-cta-text": "Mở khóa những bất ngờ sinh nhật trên Wikipedia",
+			"launch-cta-description": "Tìm hiểu cách bật Chế độ sinh nhật để bạn và Em bé Globe cùng nhau khám phá Wikipedia!",
+			"launch-modal": {
+				"title": "Mở khóa những bất ngờ sinh nhật trên Wikipedia",
+				"text": "Tìm hiểu cách bật Chế độ sinh nhật để bạn và Em bé Globe cùng nhau khám phá Wikipedia!"
 			}
 		}
 	},
