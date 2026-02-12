@@ -1,15 +1,139 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Aindriu80"
+		]
 	},
 	"language-name": "Gaeilge",
+	"footer-donate": "Is féidir leat tacú lenár gcuid oibre le síntiús.",
+	"license": "Tá an leathanach seo ar fáil faoin <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Ceadúnas Attribution-ShareAlike Creative Commons</a>",
+	"terms": "Téarmaí Úsáide",
+	"privacy-policy": "Polasaí Príobháideachais",
 	"terms-link": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/ga",
+	"search-input-button": "Cuardaigh",
+	"other-languages-label": "Teangacha eile",
+	"top-ten-nav-label": "Teangacha is fearr",
+	"all-languages-nav-label": "Gach teanga",
+	"other-projects-nav-label": "Tionscadail eile",
+	"wikimedia-org-welcome": "Fáilte! Is pobal domhanda daoine, tionscadal agus gníomhaíochtaí í gluaiseacht Wikimedia atá ag obair le chéile chun eolas a chruthú agus a roinnt go saor.",
+	"wikimedia-org-welcome-subtitle": "Bí linn chun an t-eolas go léir a chur ar fáil do gach duine, i ngach áit.",
+	"wikimedia-org-our-projects": "Ár dTionscadail",
+	"wikimedia-org-our-projects-desc": "Is iad ár dtionscadail croílár ghluaiseacht <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Wikimedia</a>. Déanann <a href=\"https://wikimediafoundation.org/\">Fondúireacht Wikimedia</a> na tionscadail mhóra uile a oibriú, agus déanann breis is 260,000 úsáideoir ar fud an domhain an t-ábhar a fhorbairt i gcomhar le chéile ag baint úsáide as bogearraí <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "Is í an <a href=\"https://wikimediafoundation.org/\">Fondúireacht Wikimedia</a> an eagraíocht neamhbhrabúis a óstálann gach tionscadal Wikimedia agus a thacaíonn le pobail ar fud an domhain a chruthaíonn agus a choimeádann ábhar atá inrochtana go saor.",
+	"wikimedia-org-projects-reference": "Tagairt",
+	"wikimedia-org-projects-collections": "Bailiúcháin",
+	"wikimedia-org-projects-technology": "Teicneolaíocht",
+	"wikimedia-org-projects-guides": "Treoraithe",
+	"wikimedia-org-projects-collaboration": "Comhoibriú",
+	"wikimedia-org-donate-title": "Cosnaíonn do shíntiús an ceart daonna chun eolas saor in aisce agus oscailte do chách.",
+	"wikimedia-org-donate-button": "Tabhair síntiús anois",
+	"wikimedia-org-contact": "Teagmháil",
+	"wikimedia-org-contact-text": "Ceisteanna faoin bhFondúireacht Wikimedia nó faoi thionscadail Wikimedia? Téigh i dteagmháil linn.",
+	"wikimedia-org-contact-link": "Teagmháil",
 	"wiki": {
 		"name": "Vicipéid",
-		"slogan": "An Chiclipéid Shaor"
+		"slogan": "An Chiclipéid Shaor",
+		"entries": "ailt",
+		"search-input-label": "Cuardaigh Vicipéid",
+		"language-button-text": "Léigh Vicipéid i do theanga féin",
+		"footer-description": "Tá Vicipéid á óstáil ag Fondúireacht Wikimedia, eagraíocht neamhbhrabúis a óstálann réimse tionscadal eile chomh maith.",
+		"app-links": {
+			"title": "Íoslódáil Vicipéid le haghaidh Android nó iOS",
+			"description": "Sábháil do chuid alt is fearr leat le léamh as líne, sioncrónaigh do liostaí léitheoireachta trasna gléasanna agus saincheap do thaithí léitheoireachta leis an aip oifigiúil Vicipéid.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Mód breithlá",
+			"slogan": "25 bliain den chiclipéid shaor",
+			"cta-text": "Cé atá i bhfolach sa chruinne?",
+			"cta-description": "Tá cara nua speisialta ag fanacht taobh istigh den chruinneog puzail. Faigh amach cé hé agus faigh amach cad iad na hiontais eile atá i ndán do 25ú breithlá Vicipéid.",
+			"modal": {
+				"title": "Cé atá ar an domhan?",
+				"text": "Tá cara nua speisialta ag fanacht taobh istigh den chruinneog puzail. Faigh amach cé hé agus faigh amach cad iad na hiontais eile atá i ndán do 25ú breithlá Vicipéid.",
+				"primary-button-text": "Foghlaim níos mó",
+				"close-button-text": "Dún"
+			},
+			"launch-cta-text": "Díghlasáil iontas breithlá ar Vicipéid",
+			"launch-cta-description": "Foghlaim conas mód Breithlá a chasadh air ionas gur féidir leatsa agus le Baby Globe Vicipéid a iniúchadh le chéile!",
+			"launch-modal": {
+				"title": "Díghlasáil iontas breithlá ar Vicipéid",
+				"text": "Foghlaim conas mód Breithlá a chasadh air ionas gur féidir leatsa agus le Baby Globe Vicipéid a iniúchadh le chéile!",
+				"primary-button-text": "Foghlaim níos mó",
+				"close-button-text": "Dún"
+			},
+			"play-button-text": "Play"
+		}
 	},
 	"wiktionary": {
 		"name": "Vicífhoclóir",
-		"slogan": "An foclóir saor"
+		"slogan": "An foclóir saor",
+		"entries": "iontrálacha",
+		"search-input-label": "Cuardaigh Vicífhoclóir",
+		"language-button-text": "Léigh Vicífhoclóir i do theanga féin"
+	},
+	"wikibooks": {
+		"name": "Vicíleabhair",
+		"slogan": "Téacsleabhair saor in aisce",
+		"entries": "leathanaigh",
+		"search-input-label": "Cuardaigh Vicíleabhair",
+		"language-button-text": "Léigh Vicíleabhair i do theanga féin"
+	},
+	"wikinews": {
+		"name": "Vicínuacht",
+		"slogan": "Foinse nuachta saor in aisce",
+		"entries": "ailt",
+		"search-input-label": "Cuardaigh Vicínuacht",
+		"language-button-text": "Léigh Vicínuacht i do theanga féin"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Achoimre luachana saor in aisce",
+		"entries": "ailt",
+		"search-input-label": "Cuardaigh Wikiquote",
+		"language-button-text": "Léigh Wikiquote i do theanga féin"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Leabharlann ábhair saor in aisce"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Acmhainní foghlama saor in aisce",
+		"entries": "acmhainní foghlama",
+		"search-input-label": "Cuardaigh Wikiversity",
+		"language-button-text": "Léigh Wikiversity i do theanga féin"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Treoir taistil saor in aisce",
+		"entries": "leathanaigh",
+		"search-input-label": "Cuardaigh Wikivoyage",
+		"language-button-text": "Léigh Wikivoyage i do theanga féin"
+	},
+	"commons": {
+		"name": "Coiteann",
+		"slogan": "Bailiúchán meán saor in aisce"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Eolaire speiceas saor in aisce"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions",
+		"slogan": "Leabharlann feidhme saor in aisce"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Bunachar eolais saor in aisce"
+	},
+	"mediawiki": {
+		"name": "MediaWiki",
+		"slogan": "Bogearraí vicí saor in aisce agus oscailte"
+	},
+	"metawiki": {
+		"name": "Meta-Vicí",
+		"slogan": "Comhordú agus doiciméadú pobail"
 	}
 }

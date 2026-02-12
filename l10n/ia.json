@@ -54,7 +54,16 @@
 				"text": "Un nove amico special attende intra le globo de puzzle. Discoperi su identitate e qual altere surprisas es in deposito pro le 25e anniversario de Wikipedia.",
 				"primary-button-text": "Leger plus",
 				"close-button-text": "Clauder"
-			}
+			},
+			"launch-cta-text": "Disvela surprisas de anniversario sur Wikipedia",
+			"launch-cta-description": "Discoperi como activar le Modo de anniversario pro explorar Wikipedia con le Globo infante!",
+			"launch-modal": {
+				"title": "Disvela surprisas de anniversario sur Wikipedia",
+				"text": "Discoperi como activar le Modo de anniversario pro explorar Wikipedia con le Globo infante!",
+				"primary-button-text": "Leger plus",
+				"close-button-text": "Clauder"
+			},
+			"play-button-text": "Reproducer"
 		}
 	},
 	"wiktionary": {

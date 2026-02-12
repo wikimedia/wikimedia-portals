@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Khanmarat",
-			"Sorbat"
+			"Sorbat",
+			"Арбыуын"
 		]
 	},
 	"language-name": "Сыбырца",
-	"language-name-romanized": "Sybyrtsa",
-	"language-name-romanized-sorted": "Sybyrtsa",
+	"language-name-romanized": "Sebertsä",
+	"language-name-romanized-sorted": "Sebertsä",
 	"search-input-button": "Эстәү",
 	"other-languages-label": "Пашҡа телләр",
 	"all-languages-nav-label": "Пөтөн телләр",
@@ -16,52 +17,52 @@
 		"name": "Пикипедия",
 		"slogan": "Ацыҡ энциклопедия",
 		"entries": "пелекләр",
-		"search-input-label": "Пикипедиятан эстәү"
+		"search-input-label": "Википедията эстәгәле"
 	},
 	"wiktionary": {
-		"name": "Пикисүслек",
+		"name": "Викисүслек",
 		"slogan": "Ацыҡ сүслек"
 	},
 	"wikibooks": {
-		"name": "Пикикитаплар",
+		"name": "Викикитаплар",
 		"slogan": "Ацыҡ уғыу китаплар"
 	},
 	"wikinews": {
-		"name": "Үикийаңалыҡлар",
+		"name": "Викийаңалыҡлар",
 		"entries": "мәҡәләләр"
 	},
 	"wikiquote": {
-		"name": "Пикицитаталыҡ",
+		"name": "Викицитаталыҡ",
 		"slogan": "Цитаталарның ацыҡ коллекциялары",
 		"entries": "мәҡәләләр"
 	},
 	"wikisource": {
-		"name": "Пикитека",
-		"slogan": "Ацыҡ китап өй"
+		"name": "Викитека",
+		"slogan": "Ацыҡ китапҡана"
 	},
 	"wikiversity": {
-		"name": "Пикиверситәт",
+		"name": "Викиверситет",
 		"slogan": "Ацыҡ уғыш курслар"
 	},
 	"wikivoyage": {
-		"name": "Үикигид",
+		"name": "Викигид",
 		"slogan": "Ацыҡ урынцы"
 	},
 	"commons": {
-		"name": "Пикисклад",
-		"slogan": "Ацыҡ фотолар та кәнерәк"
+		"name": "Викисклад",
+		"slogan": "Ацыҡ фотолар йәнә кәнерәк"
 	},
 	"wikifunctions": {
-		"name": "Үикифункциялар"
+		"name": "Викифункциялар"
 	},
 	"wikidata": {
-		"name": "Пикиданныйлар",
+		"name": "Викиданныйлар",
 		"slogan": "Пелемнәрнең ацыҡ базасы"
 	},
 	"mediawiki": {
-		"name": "МедияПики"
+		"name": "МедияВики"
 	},
 	"metawiki": {
-		"name": "Мета-Пики"
+		"name": "Мета-Вики"
 	}
 }

@@ -3,6 +3,7 @@
 		"authors": [
 			"A Chinese Wikipedian",
 			"Diskdance",
+			"Gsdn",
 			"GuoPC",
 			"Irati",
 			"Lakejason0",
@@ -69,6 +70,12 @@
 			"modal": {
 				"title": "谁在地球仪里？",
 				"text": "拼图地球仪里藏着一位特别的新朋友。快来揭晓他的身份，并了解维基百科的25周年生日还有哪些惊喜。",
+				"primary-button-text": "了解更多",
+				"close-button-text": "关闭"
+			},
+			"launch-cta-text": "在维基百科上解锁生日惊喜",
+			"launch-modal": {
+				"title": "在维基百科上解锁生日惊喜",
 				"primary-button-text": "了解更多",
 				"close-button-text": "关闭"
 			}
