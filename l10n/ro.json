@@ -19,6 +19,10 @@
 	"all-languages-nav-label": "Alte limbi",
 	"other-projects-nav-label": "Alte proiecte",
 	"wikimedia-org-our-projects": "Proiectele noastre",
+	"wikimedia-org-donate-button": "Donați acum",
+	"wikimedia-org-contact": "Contact",
+	"wikimedia-org-contact-text": "Întrebări despre Fundația Wikimedia sau proiectele Wikimedia? Contactați-ne.",
+	"wikimedia-org-contact-link": "Contact",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Enciclopedia liberă",
@@ -32,6 +36,23 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Modul aniversar",
+			"slogan": "25 de ani de enciclopedie liberă",
+			"cta-text": "Cine se ascunde în glob?",
+			"cta-description": "Un nou prieten special așteaptă înăuntrul globului puzzle. Descoperă cine este și află ce alte surprize sunt pregătite pentru a 25-a aniversare a Wikipediei.",
+			"modal": {
+				"title": "Cine se află în glob?",
+				"text": "Un nou prieten special așteaptă înăuntrul globului puzzle. Descoperă cine este și află ce alte surprize sunt pregătite pentru a 25-a aniversare a Wikipediei.",
+				"primary-button-text": "Aflați mai mult",
+				"close-button-text": "Închide"
+			},
+			"launch-modal": {
+				"primary-button-text": "Aflați mai mult",
+				"close-button-text": "Închide"
+			},
+			"play-button-text": "Redă"
 		}
 	},
 	"wiktionary": {

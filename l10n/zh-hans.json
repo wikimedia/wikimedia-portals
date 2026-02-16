@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"0x48fe75df30",
 			"A Chinese Wikipedian",
 			"Diskdance",
 			"Gsdn",
@@ -78,7 +79,8 @@
 				"title": "在维基百科上解锁生日惊喜",
 				"primary-button-text": "了解更多",
 				"close-button-text": "关闭"
-			}
+			},
+			"play-button-text": "播放"
 		}
 	},
 	"wiktionary": {
