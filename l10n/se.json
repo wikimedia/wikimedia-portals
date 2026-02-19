@@ -19,7 +19,15 @@
 		"name": "Wikipedia",
 		"slogan": "Almmolaš diehtosátnegirji",
 		"entries": "artihkkalat",
-		"search-input-label": "Oza Wikipedias"
+		"search-input-label": "Oza Wikipedias",
+		"wikipedia25": {
+			"modal": {
+				"primary-button-text": "Lassedieđut"
+			},
+			"launch-modal": {
+				"primary-button-text": "Lassedieđut"
+			}
+		}
 	},
 	"wiktionary": {
 		"name": "Wikisátnegirji",

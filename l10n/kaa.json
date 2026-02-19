@@ -45,6 +45,27 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"birthday-mode-toggle-text": "Tuwılǵan kún rejimi",
+			"slogan": "Erkin enciklopediyanıń 25 jıllıǵı",
+			"cta-text": "Globusta kim jasırınǵan?",
+			"cta-description": "Jumbaq globusınıń ishinde arnawlı jańa dos kútip tur. Ol kim ekenin ashıń hám Wikipedianıń 25 jıllıǵı múnásibeti menen jáne qanday sıylıqlar tayarlanǵanın bilip alıń.",
+			"modal": {
+				"title": "Globusta kim bar?",
+				"text": "Jumbaq globusınıń ishinde arnawlı jańa dos kútip tur. Ol kim ekenin ashıń hám Wikipedianıń 25 jıllıǵı múnásibeti menen jáne qanday sıylıqlar tayarlanǵanın bilip alıń.",
+				"primary-button-text": "Tolıq maǵlıwmat",
+				"close-button-text": "Jabıw"
+			},
+			"launch-cta-text": "Wikipediada tuwılǵan kún sıylıqların ashıń",
+			"launch-cta-description": "Siz hám Baby Globe Wikipedianı birgelikte aylanıwıńız ushın tuwılǵan kún rejimin qalay iske túsiriwdi bilip alıń!",
+			"launch-modal": {
+				"title": "Wikipediada tuwılǵan kún sıylıqların ashıń",
+				"text": "Siz hám Baby Globe Wikipedianı birgelikte aylanıwıńız ushın tuwılǵan kún rejimin qalay iske túsiriwdi bilip alıń!",
+				"primary-button-text": "Tolıq maǵlıwmat",
+				"close-button-text": "Jabıw"
+			},
+			"play-button-text": "Oynaw"
 		}
 	},
 	"wiktionary": {

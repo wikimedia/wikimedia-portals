@@ -19,6 +19,14 @@
 		"search-input-label": "Uusâ Wikipediast",
 		"app-links": {
 			"title": "Luođii Wikipedia Anroidân teikâ iOS:ân"
+		},
+		"wikipedia25": {
+			"modal": {
+				"primary-button-text": "Lasetiäđuh"
+			},
+			"launch-modal": {
+				"primary-button-text": "Lasetiäđuh"
+			}
 		}
 	},
 	"wiktionary": {
