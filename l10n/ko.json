@@ -63,7 +63,13 @@
 				"text": "특별한 새 친구가 퍼즐 지구본 안에서 기다리고 있습니다. 위키백과의 25번째 생일을 맞아 어떤 놀라운 소식이 준비되어 있는지 알아보세요.",
 				"primary-button-text": "더 알아보기",
 				"close-button-text": "닫기"
-			}
+			},
+			"launch-cta-text": "위키백과에서 생일 깜짝 파티 열기",
+			"launch-modal": {
+				"title": "위키백과에서 생일 깜짝 파티 열기",
+				"close-button-text": "닫기"
+			},
+			"play-button-text": "재생"
 		}
 	},
 	"wiktionary": {

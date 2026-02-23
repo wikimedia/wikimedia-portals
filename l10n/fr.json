@@ -77,8 +77,11 @@
 			"launch-cta-description": "Découvrez comment activer le mode anniversaire pour explorer Wikipédia avec Bébé Globe !",
 			"launch-modal": {
 				"title": "Découvrez des surprises d’anniversaire sur Wikipédia",
-				"text": "Découvrez comment activer le mode anniversaire pour explorer Wikipédia avec Bébé Globe !"
-			}
+				"text": "Découvrez comment activer le mode anniversaire pour explorer Wikipédia avec Bébé Globe !",
+				"primary-button-text": "En savoir plus",
+				"close-button-text": "Fermer"
+			},
+			"play-button-text": "Lire"
 		}
 	},
 	"wiktionary": {

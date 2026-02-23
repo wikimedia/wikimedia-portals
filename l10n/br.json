@@ -58,7 +58,16 @@
 				"text": "Ur mignon ispisial nevez a zo o c'hortoz e-barzh ar voulenn miltamm. Dizoloit piv eo ha deskit peseurt souezhadennoù all a vo evit 25vet deiz-ha-bloaz Wikipedia.",
 				"primary-button-text": "Gouzout hiroc'h",
 				"close-button-text": "Serriñ"
-			}
+			},
+			"launch-cta-text": "Dibrennañ souezhadennoù deiz-ha-bloaz war Wikipedia",
+			"launch-cta-description": "Deskit penaos gweredekaat ar mod Deiz-ha-bloaz evit gallout ergerzhout Wikipedia asambles gant Baby Globe!",
+			"launch-modal": {
+				"title": "Dibrennañ souezhadennoù deiz-ha-bloaz war Wikipedia",
+				"text": "Deskit penaos gweredekaat ar mod Deiz-ha-bloaz evit gallout ergerzhout Wikipedia asambles gant Baby Globe!",
+				"primary-button-text": "Gouzout hiroc'h",
+				"close-button-text": "Serriñ"
+			},
+			"play-button-text": "C’hoari"
 		}
 	},
 	"wiktionary": {
