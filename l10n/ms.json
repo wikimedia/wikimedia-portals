@@ -66,8 +66,11 @@
 			"launch-cta-description": "Ketahui cara menghidupkan Mod hari lahir supaya anda dan Baby Globe boleh meneroka Wikipedia bersama-sama!",
 			"launch-modal": {
 				"title": "Buka kejutan hari jadi di Wikipedia",
-				"text": "Ketahui cara menghidupkan Mod hari lahir supaya anda dan Baby Globe boleh meneroka Wikipedia bersama-sama!"
-			}
+				"text": "Ketahui cara menghidupkan Mod hari lahir supaya anda dan Baby Globe boleh meneroka Wikipedia bersama-sama!",
+				"primary-button-text": "Ketahui lebih lanjut",
+				"close-button-text": "Tutup"
+			},
+			"play-button-text": "Mainkan"
 		}
 	},
 	"wiktionary": {
