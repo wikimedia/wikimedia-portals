@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
+			"Daisy40",
 			"Deltaspace",
 			"Dirruw'o",
 			"I DOWNGRADED YT APP (1)",
@@ -65,10 +66,16 @@
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		},
 		"wikipedia25": {
+			"birthday-mode-toggle-text": "Режим дня рождения",
+			"slogan": "25 лет свободной энциклопедии",
 			"modal": {
 				"primary-button-text": "Узнать больше",
 				"close-button-text": "Закрыть"
-			}
+			},
+			"launch-modal": {
+				"close-button-text": "Закрыть"
+			},
+			"play-button-text": "Воспроизвести"
 		}
 	},
 	"wiktionary": {
