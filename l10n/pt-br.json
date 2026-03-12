@@ -61,7 +61,16 @@
 				"text": "Um novo amigo especial está esperando dentro do globo quebra-cabeça. Descubra quem é e saiba quais outras surpresas estão reservadas para o 25º aniversário da Wikipédia.",
 				"primary-button-text": "Saiba mais",
 				"close-button-text": "Fechar"
-			}
+			},
+			"launch-cta-text": "Descubra as surpresas de aniversário na Wikipédia",
+			"launch-cta-description": "Aprenda como ativar o Modo aniversário para que você e o Bebê Globo possam explorar a Wikipédia conjuntamente!",
+			"launch-modal": {
+				"title": "Descubra as surpresas de aniversário na Wikipédia",
+				"text": "Aprenda como ativar o Modo aniversário para que você e o Bebê Globo possam explorar a Wikipédia conjuntamente!",
+				"primary-button-text": "Saiba mais",
+				"close-button-text": "Fechar"
+			},
+			"play-button-text": "Reproduzir"
 		}
 	},
 	"wiktionary": {

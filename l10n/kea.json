@@ -1,6 +1,93 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"GrogeXaKaba"
+		]
 	},
-	"language-name": "Kabuverdianu"
+	"language-name": "Kabuverdianu",
+	"terms": "Térmus di Uzu",
+	"privacy-policy": "Pulítika di Privasidadi",
+	"search-input-button": "Piskiza",
+	"other-languages-label": "Otus linga",
+	"top-ten-nav-label": "Lingas prinsipal",
+	"all-languages-nav-label": "Tudu linga",
+	"other-projects-nav-label": "Otus prujétu",
+	"wikimedia-org-our-projects": "Tudu nos Prujétu",
+	"wikimedia-org-projects-reference": "Rafirénsa",
+	"wikimedia-org-projects-collections": "Kulesons",
+	"wikimedia-org-projects-technology": "Teknulujia",
+	"wikimedia-org-projects-guides": "Gias",
+	"wikimedia-org-projects-collaboration": "Kulaburason",
+	"wikimedia-org-contact": "Kuntatu",
+	"wikimedia-org-contact-text": "Bu tene kistons sobri Fundason Uikimídia o prujétus di Uikimídia? Kuntata-nu.",
+	"wikimedia-org-contact-link": "Kuntatu",
+	"wiki": {
+		"name": "Uikipédia",
+		"slogan": "Nsiklupédia Libri",
+		"entries": "artigus",
+		"search-input-label": "Piskiza na Uikipédia",
+		"language-button-text": "Le Uikipédia na bu linga",
+		"app-links": {
+			"google-store": "Lóxa di Aplikativu di Google",
+			"apple-store": "Lóxa di Aplikativu di Apple"
+		},
+		"wikipedia25": {
+			"slogan": "25 ón di nsiklupédia libri",
+			"modal": {
+				"close-button-text": "Fitxa"
+			}
+		}
+	},
+	"wiktionary": {
+		"name": "Uikisonári"
+	},
+	"wikibooks": {
+		"name": "Uikilibrus",
+		"entries": "pájinas",
+		"search-input-label": "Piskiza na Uikilibrus",
+		"language-button-text": "Le Uikilibrus na bu linga"
+	},
+	"wikinews": {
+		"name": "Uikinóbas",
+		"entries": "artigus",
+		"search-input-label": "Piskiza na Uikinóbas",
+		"language-button-text": "Le Uikinóbas na bu linga"
+	},
+	"wikiquote": {
+		"name": "Uikisitason",
+		"entries": "artigus",
+		"search-input-label": "Piskiza na Uikisitason",
+		"language-button-text": "Le Uikisitason na bu linga"
+	},
+	"wikisource": {
+		"name": "Uikifonti"
+	},
+	"wikiversity": {
+		"name": "Uikiversidadi",
+		"language-button-text": "Le Uikiversidadi na bu linga"
+	},
+	"wikivoyage": {
+		"name": "Uikibiáji",
+		"entries": "pájinas",
+		"search-input-label": "Piskiza na Uikibiáji",
+		"language-button-text": "Le Uikibiáji na bu linga"
+	},
+	"commons": {
+		"name": "Kunpartidjadu"
+	},
+	"wikispecies": {
+		"name": "Uikispésis"
+	},
+	"wikifunctions": {
+		"name": "Uikifunsons"
+	},
+	"wikidata": {
+		"name": "Uikidadus"
+	},
+	"mediawiki": {
+		"name": "MídiaUiki"
+	},
+	"metawiki": {
+		"name": "Méta-Uiki"
+	}
 }
