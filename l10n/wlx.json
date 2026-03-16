@@ -1,6 +1,35 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Muhaideen Faiz Brichini"
+		]
 	},
-	"language-name": "Waale"
+	"language-name": "Waale",
+	"footer-donate": "Ɩ na tuʋŋ sʋmee te tuma ne nɩŋ ɩhibʋ",
+	"search-input-button": "Bɔ",
+	"top-ten-nav-label": "Ti jaani",
+	"all-languages-nav-label": "Tiɛ jaa",
+	"wikimedia-org-projects-reference": "Tarɩjɩɩhi",
+	"wikimedia-org-projects-guides": "Gʋʋbʋ",
+	"wikimedia-org-donate-button": "Ɩhi pampana",
+	"wiki": {
+		"wikipedia25": {
+			"modal": {
+				"close-button-text": "Page"
+			},
+			"launch-modal": {
+				"close-button-text": "Page"
+			}
+		}
+	},
+	"wikinews": {
+		"search-input-label": "Bɔ Wikiduoho",
+		"language-button-text": "Kariŋ Wikiduoho ɩ tiri poʋŋ"
+	},
+	"wikiversity": {
+		"entries": "Daahibʋ bʋʋhʋ"
+	},
+	"wikivoyage": {
+		"slogan": "Sɔri Gaabʋ Gʋʋbʋ"
+	}
 }
