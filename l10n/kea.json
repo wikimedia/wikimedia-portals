@@ -5,6 +5,8 @@
 		]
 	},
 	"language-name": "Kabuverdianu",
+	"footer-donate": "Bu podi saporta nos trabói ku un dunativu.",
+	"license": "Es pájina sta dispunívi baxu <a href='https://creativecommons.org/licenses/by-sa/4.0/'>lisénsa Atribuson-PartidjaIgual 4.0 di Creative Commons</a>",
 	"terms": "Térmus di Uzu",
 	"privacy-policy": "Pulítika di Privasidadi",
 	"search-input-button": "Piskiza",
@@ -12,12 +14,18 @@
 	"top-ten-nav-label": "Lingas prinsipal",
 	"all-languages-nav-label": "Tudu linga",
 	"other-projects-nav-label": "Otus prujétu",
+	"wikimedia-org-welcome": "Ben-bindu! Muvimentu Uikipédia é un kumunidadi glubal di pisoas, prujétus i atividadis ki ta trubaia djuntu pa kiria i distribui kunximentu librimenti.",
+	"wikimedia-org-welcome-subtitle": "Djunta ku nos na es prujétu pa torna kunximentu dispunívi pa tudu argen, na tudu kau.",
 	"wikimedia-org-our-projects": "Tudu nos Prujétu",
+	"wikimedia-org-our-projects-desc": "Nos prujétu é núkliu di <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Muvimentu Uikimídia</a>. Tudu prujétu prinsipal é operadu pa <a href=\"https://wikimediafoundation.org/\">Fundason Uikimídia</a>, i kuntiúdu é dizanvolvedu kulaburativamenti pa más di 260.000 uzuári na mundu nter, ku uzu di pugrama nfurmátiku <a href=\"https://www.mediawiki.org/\">MídiaUiki</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Fundason Uikimídia</a> é un organizason sin fins lukrativu ki ta ospra tudu prujétu di Uikimídia i ki ta saporta kes kumunidadi ki, na rudói di mundu nter, ta kiria i ta organiza kuntiúdu ki podi asesadu di manera libri.",
 	"wikimedia-org-projects-reference": "Rafirénsa",
 	"wikimedia-org-projects-collections": "Kulesons",
 	"wikimedia-org-projects-technology": "Teknulujia",
 	"wikimedia-org-projects-guides": "Gias",
 	"wikimedia-org-projects-collaboration": "Kulaburason",
+	"wikimedia-org-donate-title": "Bu dunativu ta purteji diretu umanu di asesa kunximentu libri i abértu pa tudu argen.",
+	"wikimedia-org-donate-button": "Dua gurinhasin",
 	"wikimedia-org-contact": "Kuntatu",
 	"wikimedia-org-contact-text": "Bu tene kistons sobri Fundason Uikimídia o prujétus di Uikimídia? Kuntata-nu.",
 	"wikimedia-org-contact-link": "Kuntatu",
@@ -27,67 +35,104 @@
 		"entries": "artigus",
 		"search-input-label": "Piskiza na Uikipédia",
 		"language-button-text": "Le Uikipédia na bu linga",
+		"footer-description": "Uikipédia é ospradu pa Fundason Uikimídia, un organizason sin fins lukrativu ki tánbi ta ospra un séri di otus prujétu.",
 		"app-links": {
+			"title": "Baxa Uikipédia pa Android i iOS",
+			"description": "Garda bu artigu faboritu pa le kelóki bu sta diskunetadu, sinkruniza bus lista di letura entri dispuzitivus, i kustumiza bu spriénsa di letura ku aplikativu ofisial di Uikipédia.",
 			"google-store": "Lóxa di Aplikativu di Google",
-			"apple-store": "Lóxa di Aplikativu di Apple"
+			"apple-store": "Lóxa di Aplikativu di Apple",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		},
 		"wikipedia25": {
+			"birthday-mode-toggle-text": "Módi niversári",
 			"slogan": "25 ón di nsiklupédia libri",
+			"cta-text": "Kenha ki sa-ta sukundi déntu-l globu?",
+			"cta-description": "Un migu nobu spisial sa-ta spera-u dentu-l globu di kébra-kabésa. Diskubri kin el é i sabe kas otu surpréza nu tene purparadu pa 25ᵘ niversári di Uikipédia.",
 			"modal": {
+				"title": "Kenha ki sta dentu-l globu?",
+				"text": "Un migu nobu spisial sa-ta spera-u dentu-l globu di kébra-kabésa. Diskubri kin el é i sabe kas otu surpréza nu tene purparadu pa 25ᵘ niversári di Uikipédia.",
+				"primary-button-text": "Sabe más",
 				"close-button-text": "Fitxa"
-			}
+			},
+			"launch-cta-text": "Disblokia surprézas di niversári na Uikipédia",
+			"launch-cta-description": "Diskubru kumó ativa Módi niversári, pa bo ma Minin Globu podi splora Uikipédia djuntu!",
+			"launch-modal": {
+				"title": "Disblokia surprézas di niversári na Uikipédia",
+				"text": "Diskubru kumó ativa Módi niversári, pa bo ma Minin Globu podi splora Uikipédia djuntu!",
+				"primary-button-text": "Sabe más",
+				"close-button-text": "Fitxa"
+			},
+			"play-button-text": "Rapruduzi"
 		}
 	},
 	"wiktionary": {
-		"name": "Uikisonári"
+		"name": "Uikisonári",
+		"slogan": "Disonári libri",
+		"entries": "antradas",
+		"search-input-label": "Piskiza na Uikisonári",
+		"language-button-text": "Le Uikisonári na bu linga"
 	},
 	"wikibooks": {
 		"name": "Uikilibrus",
+		"slogan": "Librus didátiku na fabal",
 		"entries": "pájinas",
 		"search-input-label": "Piskiza na Uikilibrus",
 		"language-button-text": "Le Uikilibrus na bu linga"
 	},
 	"wikinews": {
 		"name": "Uikinóbas",
+		"slogan": "Fonti di nobidadis na fabal",
 		"entries": "artigus",
 		"search-input-label": "Piskiza na Uikinóbas",
 		"language-button-text": "Le Uikinóbas na bu linga"
 	},
 	"wikiquote": {
 		"name": "Uikisitason",
+		"slogan": "Kunpéndiu di sitasons na fabal",
 		"entries": "artigus",
 		"search-input-label": "Piskiza na Uikisitason",
 		"language-button-text": "Le Uikisitason na bu linga"
 	},
 	"wikisource": {
-		"name": "Uikifonti"
+		"name": "Uikifonti",
+		"slogan": "Biblotéka di kuntiúdu libri"
 	},
 	"wikiversity": {
 		"name": "Uikiversidadi",
+		"slogan": "Rakuisus di prendizáji na fabal",
+		"entries": "rakuisus di prendizáji",
+		"search-input-label": "Piskiza na Uikiversidadi",
 		"language-button-text": "Le Uikiversidadi na bu linga"
 	},
 	"wikivoyage": {
 		"name": "Uikibiáji",
+		"slogan": "Gia di biájis libri",
 		"entries": "pájinas",
 		"search-input-label": "Piskiza na Uikibiáji",
 		"language-button-text": "Le Uikibiáji na bu linga"
 	},
 	"commons": {
-		"name": "Kunpartidjadu"
+		"name": "Kunpartidjadu",
+		"slogan": "Kuleson multimídia libri"
 	},
 	"wikispecies": {
-		"name": "Uikispésis"
+		"name": "Uikispésis",
+		"slogan": "Direturia di spésis na fabal"
 	},
 	"wikifunctions": {
-		"name": "Uikifunsons"
+		"name": "Uikifunsons",
+		"slogan": "Biblotéka di funsons libri"
 	},
 	"wikidata": {
-		"name": "Uikidadus"
+		"name": "Uikidadus",
+		"slogan": "Bazi di kunximentu libri"
 	},
 	"mediawiki": {
-		"name": "MídiaUiki"
+		"name": "MídiaUiki",
+		"slogan": "Softuer di uiki libri i abértu"
 	},
 	"metawiki": {
-		"name": "Méta-Uiki"
+		"name": "Méta-Uiki",
+		"slogan": "Kordenason i dukumentason kumunitári"
 	}
 }
