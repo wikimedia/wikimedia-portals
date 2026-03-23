@@ -5,7 +5,7 @@
 		]
 	},
 	"language-name": "Ho",
-	"footer-donate": "Dengabiti te aleaḱ Paeṭi dengaturuṕ daeoḱa.",
+	"footer-donate": "Dengabiti te aleaḱ Paeṭi dengaturuṕ daioḱa.",
 	"license": "Nen Sakam do <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> suba re ànam akana.",
 	"terms": "Agujoṅ Kajironot́",
 	"privacy-policy": "Apańdanaṅ Policy",
@@ -17,8 +17,14 @@
 	"wikimedia-org-welcome": "Daromjohr! Wikimedia Movement do, Sẽacinirgal raaèpemoḱge bainam anḍoḱ haṭiṅ lagit́ misate paeṭi tan Hov ko„ Project„ Sapaṕrinika reaḱ Global Community.",
 	"wikimedia-org-our-projects": "Aleaḱ Project ko",
 	"wikimedia-org-projects-reference": "Reference",
+	"wikimedia-org-projects-technology": "Technology",
+	"wikimedia-org-projects-guides": "Guides",
+	"wikimedia-org-projects-collaboration": "Collaboration",
 	"wikimedia-org-donate-title": "Amaḱ Emdenga te, saben ko lagit́ raaèpem„ nelteta Sẽa reaḱ Human Right jangioḱa.",
 	"wikimedia-org-donate-button": "Nahḱ ge Denga emè",
+	"wikimedia-org-contact": "Kupulisutam",
+	"wikimedia-org-contact-text": "Wikimedia Foundation baredo Wikimedia Project reaḱ kukulia? Kulinamlepe.",
+	"wikimedia-org-contact-link": "Kupulisutam",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Raaèpem Sẽasagom",
@@ -31,6 +37,19 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		},
+		"wikipedia25": {
+			"slogan": "Raaèpem Gelsẽasagom reaḱ 25 sirma",
+			"cta-text": "Otegui re okoe uku akana?",
+			"modal": {
+				"title": "Otegui re okoeać?",
+				"primary-button-text": "Cirgal onḍoḱe",
+				"close-button-text": "Danaṅe"
+			},
+			"launch-modal": {
+				"primary-button-text": "Cirgal onḍoḱe",
+				"close-button-text": "Danaṅe"
+			}
 		}
 	},
 	"wiktionary": {
@@ -42,7 +61,19 @@
 		"name": "Wikisapagom",
 		"slogan": "Gonoṅsama Etonsatagom ko",
 		"entries": "Sakam ko",
-		"search-input-label": "Wikisatagom re namsangarè"
+		"search-input-label": "Wikisatagom re namsangarè",
+		"language-button-text": "Amaḱ Jagar te Wikibooks nerele"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Raaèpem News Namsaṅ",
+		"entries": "Olantir",
+		"search-input-label": "Wikinews nelsangare",
+		"language-button-text": "Amaḱ Jagar te Wikinews nerele"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Raaèpem Quote Compendium"
 	},
 	"wikisource": {
 		"name": "Wikinamsaṅ"
@@ -50,10 +81,20 @@
 	"wikivoyage": {
 		"entries": "Sakam ko"
 	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Raaèpem Media Collection"
+	},
 	"wikispecies": {
-		"name": "Wikispecies"
+		"name": "Wikispecies",
+		"slogan": "Raaèpem Species Directory"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions",
+		"slogan": "Raaèpem Function Library"
 	},
 	"wikidata": {
+		"name": "Wikidata",
 		"slogan": "Raaèpem Sẽamurui"
 	},
 	"mediawiki": {
@@ -61,6 +102,7 @@
 		"slogan": "Raaèpem & Raanepel Wiki Software"
 	},
 	"metawiki": {
-		"name": "Meta-Wiki"
+		"name": "Meta-Wiki",
+		"slogan": "Community Coordination & Olsanakam"
 	}
 }

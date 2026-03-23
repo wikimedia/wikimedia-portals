@@ -11,9 +11,86 @@
 	"all-languages-nav-label": "Iyápi iyúha",
 	"other-projects-nav-label": "Wičhóȟ'aƞ uƞmá kiƞ",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "Encyclopedia Išíčhola Kiŋ",
+		"search-input-label": "Wikipedia Wóle {{GENDER:|yo|ye|yo/ye}}",
+		"language-button-text": "Iyápi nitȟáwa ogná Wikipedia yawa {{GENDER:|yo|ye|yo/ye}}",
+		"app-links": {
+			"google-store": "Google Play Mazóphiye",
+			"apple-store": "Apple App Mazóphiye"
+		},
+		"wikipedia25": {
+			"cta-text": "Tuwé makhógmigma mahél naȟmá he?",
+			"modal": {
+				"title": "Tuwé makhógmigma mahél yaŋká he?"
+			}
+		}
+	},
+	"wiktionary": {
+		"name": "Wiktionary",
+		"slogan": "Wičhóiye-wówapi išíčhola",
+		"entries": "wóslolye oyúblaye",
+		"search-input-label": "Wiktionary Wóle {{GENDER:|yo|ye|yo/ye}}",
+		"language-button-text": "Iyápi nitȟáwa ogná Wiktionary yawa {{GENDER:|yo|ye|yo/ye}}"
 	},
 	"wikibooks": {
-		"entries": "oyúblaye"
+		"name": "Wikibooks",
+		"slogan": "Wóuŋspe-wówapi išíčhola",
+		"entries": "oyúblaye",
+		"search-input-label": "Wikibooks Wóle {{GENDER:|yo|ye|yo/ye}}",
+		"language-button-text": "Iyápi nitȟáwa ogná Wikibooks yawa {{GENDER:|yo|ye|yo/ye}}"
+	},
+	"wikinews": {
+		"name": "Wikinews",
+		"slogan": "Wótȟaŋiŋ išíčhola",
+		"entries": "wóslolye oyúblaye",
+		"search-input-label": "Wikinews Wóle {{GENDER:|yo|ye|yo/ye}}",
+		"language-button-text": "Iyápi nitȟáwa ogná Wikinews yawa {{GENDER:|yo|ye|yo/ye}}"
+	},
+	"wikiquote": {
+		"name": "Wikiquote",
+		"slogan": "Wóeye-wówapi išíčhola",
+		"entries": "wóslolye oyúblaye",
+		"search-input-label": "Wikiquote Wóle {{GENDER:|yo|ye|yo/ye}}",
+		"language-button-text": "Iyápi nitȟáwa ogná Wikiquote yawa {{GENDER:|yo|ye|yo/ye}}"
+	},
+	"wikisource": {
+		"name": "Wikisource",
+		"slogan": "Wóslolye wówapi-thípi išíčhola"
+	},
+	"wikiversity": {
+		"name": "Wikiversity",
+		"slogan": "Wóuŋspe išíčhola",
+		"entries": "wóuŋspe oyúblaye",
+		"search-input-label": "Wikiversity Wóle {{GENDER:|yo|ye|yo/ye}}",
+		"language-button-text": "Iyápi nitȟáwa ogná Wikiversity yawa {{GENDER:|yo|ye|yo/ye}}"
+	},
+	"wikivoyage": {
+		"name": "Wikivoyage",
+		"slogan": "Oíčhimani-wówapi išíčhola",
+		"entries": "wóslolye oyúblaye",
+		"search-input-label": "Wikivoyage Wóle {{GENDER:|yo|ye|yo/ye}}",
+		"language-button-text": "Iyápi nitȟáwa ogná Wikivoyage yawa {{GENDER:|yo|ye|yo/ye}}"
+	},
+	"commons": {
+		"name": "Commons",
+		"slogan": "Media wómnaye išíčhola"
+	},
+	"wikispecies": {
+		"name": "Wikispecies",
+		"slogan": "Táku-očháže wówapi išíčhola"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions"
+	},
+	"wikidata": {
+		"name": "Wikidata",
+		"slogan": "Wíhoši owógnake išíčhola"
+	},
+	"mediawiki": {
+		"name": "MediaWiki"
+	},
+	"metawiki": {
+		"name": "Meta-Wiki"
 	}
 }
