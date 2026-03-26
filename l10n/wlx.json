@@ -1,26 +1,63 @@
 {
 	"@metadata": {
 		"authors": [
-			"Muhaideen Faiz Brichini"
+			"Muhaideen Faiz Brichini",
+			"Uthman salma"
 		]
 	},
 	"language-name": "Waale",
 	"footer-donate": "Ɩ na tuʋŋ sʋmee te tuma ne nɩŋ ɩhibʋ",
+	"privacy-policy": "gondo yɛlɩnyogɩrʋʋ",
 	"search-input-button": "Bɔ",
+	"other-languages-label": "kokoe jaani",
 	"top-ten-nav-label": "Ti jaani",
 	"all-languages-nav-label": "Tiɛ jaa",
+	"other-projects-nav-label": "tʋŋ jaanɩ",
+	"wikimedia-org-welcome": "Nii yaanhi! A Wikimedia laŋbuhɩ ɩyɛ dunee jaa yɛli jie ku nuba,tumihɩ anɩŋ yɛltarɩhɩ nuba aŋ dɩ laŋtaa a maalɩ kye torɩ bambʋ jaala",
+	"wikimedia-org-welcome-subtitle": "laŋ tɩ ɩŋaŋ ka tɩ vɛŋ ka bambʋ jaa ɩ laanfɩyɛ ku nie jaa,aŋ bɩ ji-jaa.",
+	"wikimedia-org-our-projects": "Tɩ tumɩhɩ",
 	"wikimedia-org-projects-reference": "Tarɩjɩɩhi",
+	"wikimedia-org-projects-collections": "chɩɛhɩbu",
+	"wikimedia-org-projects-technology": "Nu man’siinhi tʋma bambu",
 	"wikimedia-org-projects-guides": "Gʋʋbʋ",
+	"wikimedia-org-projects-collaboration": " Noe buubu",
+	"wikimedia-org-donate-title": "Ɩ chɩɛhɩbu kaarɛɛ a ninsaalɩba kpiɛgʋ kyɛ waanɩŋ jaala anɩŋ yuobʋ bambʋ ku nie jaa",
 	"wikimedia-org-donate-button": "Ɩhi pampana",
+	"wikimedia-org-contact": "layɩrɩ",
+	"wikimedia-org-contact-text": "jugihɩbʋ a gaa a Wikimedia Foundation bii Wikimedia tʋmɩhɩ? wa nyɛ tɩ",
+	"wikimedia-org-contact-link": "pagɩbʋ",
 	"wiki": {
+		"slogan": "A jaala bambu jemaa gbangu",
+		"entries": "atɩkɩl",
+		"search-input-label": "Bɔ wikipɩɩdɩɛ",
+		"language-button-text": "Kannɩ wikipidia ɩ kokorɩ puoŋ",
+		"app-links": {
+			"title": "Danlodɩ wikipiidɩɛ ɩŋ Android bii iOS"
+		},
 		"wikipedia25": {
+			"birthday-mode-toggle-text": "Dɔgɩbʋ daarɩ berɛɛ",
+			"slogan": " yuoŋ lijerɩ niŋ anuu (25) ku jaala bambu jemaa gbangu",
+			"cta-text": "Aŋ la sogɩna a tɛŋ-gbagu puoŋ?",
 			"modal": {
-				"close-button-text": "Page"
+				"title": "Aŋ la bɩ a tɛŋ-gbagu puoŋ?",
+				"primary-button-text": "daanhɩ jemaa",
+				"close-button-text": "pɩelɩ"
 			},
+			"launch-cta-text": "yuo dɔgɩbʋ daarɩ no-maa wikipɩɩdiɛ juŋ",
 			"launch-modal": {
 				"close-button-text": "Page"
-			}
+			},
+			"play-button-text": "dɩɛŋ"
 		}
+	},
+	"wiktionary": {
+		"slogan": "jaala tɩrɩ yɛli’bie ‘muni ‘wʋlibu ‘bʋkʋ",
+		"entries": "kpiɛbuhɩ",
+		"search-input-label": "bɔ wiktionary",
+		"language-button-text": "kannɩ wiktionary ɩ kokori puoŋ"
+	},
+	"wikibooks": {
+		"name": "wiki-gbama"
 	},
 	"wikinews": {
 		"search-input-label": "Bɔ Wikiduoho",
