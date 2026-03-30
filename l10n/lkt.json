@@ -8,8 +8,11 @@
 	"privacy-policy": "Waúŋyutȟaŋiŋpi šni",
 	"search-input-button": "Wóle",
 	"other-languages-label": "Tȟog’íyapi kiŋ",
+	"top-ten-nav-label": "Iyápi waŋkátuya",
 	"all-languages-nav-label": "Iyápi iyúha",
 	"other-projects-nav-label": "Wičhóȟ'aƞ uƞmá kiƞ",
+	"wikimedia-org-welcome": "Taŋyáŋ yahi! Wikimedia Okȟódakičhiye mahél wičhoȟ'aŋ, wóečhuŋ na oyáte óta úŋpi. Makȟásitomniyaŋ, wóslolye wítaya uŋyúškeyapi.",
+	"wikimedia-org-our-projects": "Wičhoȟ’aŋ Uŋkitȟawapi",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Encyclopedia Išíčhola Kiŋ",
@@ -23,7 +26,8 @@
 			"cta-text": "Tuwé makhógmigma mahél naȟmá he?",
 			"modal": {
 				"title": "Tuwé makhógmigma mahél yaŋká he?"
-			}
+			},
+			"play-button-text": "Škáta {{GENDER:|yo|ye|yo/ye}}"
 		}
 	},
 	"wiktionary": {
