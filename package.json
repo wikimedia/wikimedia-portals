@@ -15,7 +15,6 @@
 	],
 	"devDependencies": {
 		"@web/dev-server": "0.4.6",
-		"@wikimedia/codex": "2.4.0",
 		"@wikimedia/codex-design-tokens": "2.4.0",
 		"@wikimedia/language-data": "^1.1.8",
 		"cssnano": "^4.1.10",

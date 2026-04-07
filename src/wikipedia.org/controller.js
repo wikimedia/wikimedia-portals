@@ -23,20 +23,6 @@ l10n.assets = {
 		width: '200',
 		height: '183'
 	},
-	videoLogo: {
-		idle: {
-			light: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-idle-light.webm',
-			dark: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-idle-dark.webm'
-		},
-		click: {
-			light: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-click-light.webm',
-			dark: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-click-dark.webm'
-		},
-		poster: {
-			light: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-poster-light.webp',
-			dark: 'portal/wikipedia.org/assets/img/wikipedia25-synthesizer-poster-dark.webp'
-		}
-	},
 	lang: {
 		url: 'https://meta.wikimedia.org/wiki/Special:MyLanguage/List_of_Wikipedias'
 	}

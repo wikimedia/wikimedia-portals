@@ -7,16 +7,6 @@
 
 <script>
     document.documentElement.className = document.documentElement.className.replace( /(^|\s)no-js(\s|$)/, "$1js-enabled$2" );
-    /**
-     * Initialize Wikipedia25. Check if disabled via cookie; if
-     * active, apply the enabled class and randomly assign a video variant class
-     */
-    (function() {
-        var cookieName = 'wikipedia25-birthday-mode-disabled';
-        if ( document.cookie.indexOf( cookieName + '=1' ) === -1 ) {
-            document.documentElement.classList.add( 'wikipedia25-birthday-mode-enabled' );
-        }
-    })();
 </script>
 
 <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
@@ -42,11 +32,7 @@
 <main>
     {{> wikipedia-header-logo}}
 
-    {{> wikipedia25-header-logo}}
-
     {{> top10}}
-
-    {{> wikipedia25-cta}}
 
     {{! Search form }}
     {{> search}}
@@ -115,7 +101,6 @@
 <script src="../common/assets/js/wm-portal.js"></script>
 <script src="../common/assets/js/lang-dropdown.js"></script>
 <script src="../common/assets/js/page-localized.js"></script>
-<script src="assets/js/wikipedia25.js"></script>
 <!-- endbuild -->
 
 <!-- build:js assets/js/gt-ie9.js -->
