@@ -44,20 +44,6 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-		},
-		"wikipedia25": {
-			"birthday-mode-toggle-text": "Gebuertsdagsmodus",
-			"modal": {
-				"primary-button-text": "Méi gewuer ginn",
-				"close-button-text": "Zoumaachen"
-			},
-			"launch-cta-text": "Gebuertsdagsiwwerraschungen op Wikipedia fräischalten",
-			"launch-modal": {
-				"title": "Gebuertsdagsiwwerraschungen op Wikipedia fräischalten",
-				"primary-button-text": "Méi gewuer ginn",
-				"close-button-text": "Zoumaachen"
-			},
-			"play-button-text": "Ofspillen"
 		}
 	},
 	"wiktionary": {

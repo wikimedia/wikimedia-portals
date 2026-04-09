@@ -42,27 +42,6 @@
 			"google-store": "Lóxa di Aplikativu di Google",
 			"apple-store": "Lóxa di Aplikativu di Apple",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-		},
-		"wikipedia25": {
-			"birthday-mode-toggle-text": "Módi niversári",
-			"slogan": "25 ón di nsiklupédia libri",
-			"cta-text": "Kenha ki sa-ta sukundi déntu-l globu?",
-			"cta-description": "Un migu nobu spisial sa-ta spera-u dentu-l globu di kébra-kabésa. Diskubri kin el é i sabe kas otu surpréza nu tene purparadu pa 25ᵘ niversári di Uikipédia.",
-			"modal": {
-				"title": "Kenha ki sta dentu-l globu?",
-				"text": "Un migu nobu spisial sa-ta spera-u dentu-l globu di kébra-kabésa. Diskubri kin el é i sabe kas otu surpréza nu tene purparadu pa 25ᵘ niversári di Uikipédia.",
-				"primary-button-text": "Sabe más",
-				"close-button-text": "Fitxa"
-			},
-			"launch-cta-text": "Disblokia surprézas di niversári na Uikipédia",
-			"launch-cta-description": "Diskubru kumó ativa Módi niversári, pa bo ma Minin Globu podi splora Uikipédia djuntu!",
-			"launch-modal": {
-				"title": "Disblokia surprézas di niversári na Uikipédia",
-				"text": "Diskubru kumó ativa Módi niversári, pa bo ma Minin Globu podi splora Uikipédia djuntu!",
-				"primary-button-text": "Sabe más",
-				"close-button-text": "Fitxa"
-			},
-			"play-button-text": "Rapruduzi"
 		}
 	},
 	"wiktionary": {

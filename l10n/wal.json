@@ -44,26 +44,6 @@
 			"google-store": "Googili Pilay Stoori",
 			"apple-store": "Appili Appi Stoori",
 			"url": "https\n://wal.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-		},
-		"wikipedia25": {
-			"birthday-mode-toggle-text": "Yeleta gallassaa hanotaa",
-			"slogan": "25 layttatu la'a insaykloopeediya",
-			"cta-text": "Lumegezuwa giddon oonee qosettiday?",
-			"cta-description": "Issi dumma ooratta laggee qan'ishe luuliya giddon naagees. Oonakko eranne Wikkiipeediya 25tta yeletta baalan ayba hara malaaliyabati de'iyakko era.",
-			"modal": {
-				"title": "Luuliya giddon de'iyay oonee?",
-				"text": "Issi dumma ooratta laggee qan'ishe luuliya giddon naagees. Oonakko eranne Wikkiipeediya 25tta yeletta baalan ayba hara malaaliyabati de'iyakko era.",
-				"primary-button-text": "Aaruwa luxa",
-				"close-button-text": "Gordda"
-			},
-			"launch-cta-text": "Wikkiipeediyan yeleta gallassaa malaalata dooya.",
-			"launch-cta-description": "Neeninne yiira luulee Wikkiipeediya issippe koyyana danddayanassi yeleta gallassaa hanotaa waatidi dooyanaassi danddayiyakko era.",
-			"launch-modal": {
-				"title": "Wikkiipeediyan yeleta gallassaa malaalata dooya.",
-				"text": "Neeninne yiira luulee Wikkiipeediya issippe koyyana danddayanassi yeleta gallassaa hanotaa waatidi dooyanaassi danddayiyakko era.",
-				"primary-button-text": "Aaruwa luxa",
-				"close-button-text": "Gordda"
-			}
 		}
 	},
 	"wiktionary": {

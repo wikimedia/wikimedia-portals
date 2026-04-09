@@ -53,24 +53,6 @@
 			"google-store": "Sklep Play",
 			"apple-store": "Sklep z aplikacjami Apple",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-		},
-		"wikipedia25": {
-			"birthday-mode-toggle-text": "Tryb urodzinowy",
-			"slogan": "25 lat wolnej encyklopedii",
-			"cta-text": "Kto ukrywa się w kuli?",
-			"cta-description": "W kuli z puzzli czeka na ciebie nowy przyjaciel. Odkryj, kto to i przekonaj się, jakie inne niespodzianki czekają w sklepie z okazji 25. urodzin Wikipedii.",
-			"modal": {
-				"title": "Kto jest w kuli?",
-				"text": "W kuli z puzzli czeka na ciebie nowy przyjaciel. Odkryj, kto to i przekonaj się, jakie inne niespodzianki czekają w sklepie z okazji 25. urodzin Wikipedii.",
-				"primary-button-text": "Dowiedz się więcej",
-				"close-button-text": "Zamknij"
-			},
-			"launch-cta-text": "Odblokuj urodzinowe niespodzianki na Wikipedii",
-			"launch-modal": {
-				"title": "Odblokuj urodzinowe niespodzianki na Wikipedii",
-				"primary-button-text": "Dowiedz się więcej",
-				"close-button-text": "Zamknij"
-			}
 		}
 	},
 	"wiktionary": {

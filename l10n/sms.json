@@ -15,15 +15,7 @@
 	"wiki": {
 		"name": "Wikipedia",
 		"entries": "artikkeeʹl",
-		"search-input-label": "Ooʒʒ Wikipediast",
-		"wikipedia25": {
-			"modal": {
-				"primary-button-text": "Lââʹssteâđ"
-			},
-			"launch-modal": {
-				"primary-button-text": "Lââʹssteâđ"
-			}
-		}
+		"search-input-label": "Ooʒʒ Wikipediast"
 	},
 	"wiktionary": {
 		"name": "Wikisääʹnnǩeʹrjj",

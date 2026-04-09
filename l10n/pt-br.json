@@ -50,27 +50,6 @@
 			"google-store": "Play Store do Google",
 			"apple-store": "App Store da Apple",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-		},
-		"wikipedia25": {
-			"birthday-mode-toggle-text": "Modo aniversário",
-			"slogan": "25 anos da enciclopédia livre",
-			"cta-text": "Quem está escondido no globo?",
-			"cta-description": "Um novo amigo especial está esperando dentro do globo quebra-cabeça. Descubra quem é e saiba quais outras surpresas estão reservadas para o 25º aniversário da Wikipédia.",
-			"modal": {
-				"title": "Quem está no globo?",
-				"text": "Um novo amigo especial está esperando dentro do globo quebra-cabeça. Descubra quem é e saiba quais outras surpresas estão reservadas para o 25º aniversário da Wikipédia.",
-				"primary-button-text": "Saiba mais",
-				"close-button-text": "Fechar"
-			},
-			"launch-cta-text": "Descubra as surpresas de aniversário na Wikipédia",
-			"launch-cta-description": "Aprenda como ativar o Modo aniversário para que você e o Bebê Globo possam explorar a Wikipédia conjuntamente!",
-			"launch-modal": {
-				"title": "Descubra as surpresas de aniversário na Wikipédia",
-				"text": "Aprenda como ativar o Modo aniversário para que você e o Bebê Globo possam explorar a Wikipédia conjuntamente!",
-				"primary-button-text": "Saiba mais",
-				"close-button-text": "Fechar"
-			},
-			"play-button-text": "Reproduzir"
 		}
 	},
 	"wiktionary": {

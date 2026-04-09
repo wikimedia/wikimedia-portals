@@ -60,27 +60,6 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://it.wikipedia.org/wiki/Lista_di_applicazioni_mobile_di_Wikipedia"
-		},
-		"wikipedia25": {
-			"birthday-mode-toggle-text": "Modalità compleanno",
-			"slogan": "25 anni dell'enciclopedia libera",
-			"cta-text": "Chi si nasconde nel globo?",
-			"cta-description": "Un nuovo amico speciale ti aspetta all'interno del globo del puzzle. Scopri di chi si tratta e quali altre sorprese sono in serbo per il venticinquesimo compleanno di Wikipedia.",
-			"modal": {
-				"title": "Chi c'è nel globo?",
-				"text": "Un nuovo amico speciale ti aspetta all'interno del globo del puzzle. Scopri di chi si tratta e quali altre sorprese sono in serbo per il venticinquesimo compleanno di Wikipedia.",
-				"primary-button-text": "Ulteriori informazioni",
-				"close-button-text": "Chiudi"
-			},
-			"launch-cta-text": "Sblocca delle sorprese per il compleanno su Wikipedia",
-			"launch-cta-description": "Scopri come attivare la Modalità compleanno, così che tu e Baby Globe possiate esplorare Wikipedia insieme!",
-			"launch-modal": {
-				"title": "Sblocca le sorprese di compleanno su Wikipedia",
-				"text": "Scopri come attivare la Modalità compleanno, così che tu e Baby Globe possiate esplorare Wikipedia insieme!",
-				"primary-button-text": "Ulteriori informazioni",
-				"close-button-text": "Chiudi"
-			},
-			"play-button-text": "Riproduci"
 		}
 	},
 	"wiktionary": {

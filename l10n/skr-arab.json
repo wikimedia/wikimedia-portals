@@ -30,16 +30,6 @@
 			"google-store": "گوگل پلے سٹور",
 			"apple-store": "اَیپل اَیپ سٹور",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-		},
-		"wikipedia25": {
-			"modal": {
-				"primary-button-text": "ٻیا سِکھو"
-			},
-			"launch-modal": {
-				"primary-button-text": "ٻیا سِکھو",
-				"close-button-text": "بند کرو"
-			},
-			"play-button-text": "چلاؤ"
 		}
 	},
 	"wiktionary": {

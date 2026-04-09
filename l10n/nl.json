@@ -55,27 +55,6 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
-		},
-		"wikipedia25": {
-			"birthday-mode-toggle-text": "Verjaardagsmodus",
-			"slogan": "25 jaar de vrije encyclopedie",
-			"cta-text": "Wie houdt zich schuil op de wereldbol?",
-			"cta-description": "In de puzzelbol wacht een bijzondere nieuwe vriend. Ontdek wie het is en kom te weten welke andere verrassingen er in petto zijn voor de 25e verjaardag van Wikipedia.",
-			"modal": {
-				"title": "Wie bevindt zich op de wereldbol?",
-				"text": "In de puzzelbol wacht een bijzondere nieuwe vriend. Ontdek wie het is en kom te weten welke andere verrassingen er in petto zijn voor de 25e verjaardag van Wikipedia.",
-				"primary-button-text": "Meer lezen",
-				"close-button-text": "Sluiten"
-			},
-			"launch-cta-text": "Verjaardagsverrassingen op Wikipedia ontdekken",
-			"launch-cta-description": "Leer hoe u de verjaardagsmodus inschakelt, zodat u en Babyglobe samen Wikipedia kunnen verkennen!",
-			"launch-modal": {
-				"title": "Verjaardagsverrassingen op Wikipedia ontdekken",
-				"text": "Leer hoe u de verjaardagsmodus inschakelt, zodat u en Babyglobe samen Wikipedia kunnen verkennen!",
-				"primary-button-text": "Meer lezen",
-				"close-button-text": "Sluiten"
-			},
-			"play-button-text": "Afspelen"
 		}
 	},
 	"wiktionary": {

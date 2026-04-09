@@ -50,27 +50,6 @@
 			"google-store": "Gedung Google Play",
 			"apple-store": "Gedung Apple App",
 			"url": "https://ms.wikipedia.org/wiki/Senarai_aplikasi_mu_ah_alih_Wikipedia"
-		},
-		"wikipedia25": {
-			"birthday-mode-toggle-text": "Mod hari lahir",
-			"slogan": "25 tahun ensiklopedia bebas",
-			"cta-text": "Siapa yang bersembunyi di dalam glob ini?",
-			"cta-description": "Seorang rakan baharu yang istimewa sedang menunggu di dalam glob teka-teki. Ketahui siapa dia dan ketahui kejutan lain yang menanti untuk ulang tahun Wikipedia yang ke-25.",
-			"modal": {
-				"title": "Siapakah yang berada di dalam glob ini?",
-				"text": "Seorang rakan baharu yang istimewa sedang menunggu di dalam glob teka-teki. Ketahui siapa dia dan ketahui kejutan lain yang menanti untuk ulang tahun Wikipedia yang ke-25.",
-				"primary-button-text": "Ketahui lebih lanjut",
-				"close-button-text": "Tutup"
-			},
-			"launch-cta-text": "Buka kejutan hari jadi di Wikipedia",
-			"launch-cta-description": "Ketahui cara menghidupkan Mod hari lahir supaya anda dan Baby Globe boleh meneroka Wikipedia bersama-sama!",
-			"launch-modal": {
-				"title": "Buka kejutan hari jadi di Wikipedia",
-				"text": "Ketahui cara menghidupkan Mod hari lahir supaya anda dan Baby Globe boleh meneroka Wikipedia bersama-sama!",
-				"primary-button-text": "Ketahui lebih lanjut",
-				"close-button-text": "Tutup"
-			},
-			"play-button-text": "Mainkan"
 		}
 	},
 	"wiktionary": {

@@ -62,27 +62,6 @@
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://tr.wikipedia.org/wiki/Vikipedi_mobil_uygulamalarının_listesi"
-		},
-		"wikipedia25": {
-			"birthday-mode-toggle-text": "Doğum günü modu",
-			"slogan": "Özgür ansiklopedinin 25 yılı",
-			"cta-text": "Dünya küresinin içinde kim saklanıyor?",
-			"cta-description": "Bulmaca küresinin içinde özel bir yeni arkadaş sizi bekliyor. Kim olduğunu keşfedin ve Vikipedi'nin 25. yıldönümü için başka hangi sürprizlerin hazırlandığını öğrenin.",
-			"modal": {
-				"title": "Dünyada kimler var?",
-				"text": "Bulmaca küresinin içinde özel bir yeni arkadaş sizi bekliyor. Kim olduğunu keşfedin ve Vikipedi'nin 25. yıldönümü için başka hangi sürprizlerin hazırlandığını öğrenin.",
-				"primary-button-text": "Daha fazla bilgi edin",
-				"close-button-text": "Kapat"
-			},
-			"launch-cta-text": "Vikipedi'de doğum günü sürprizlerinin kilidini açın",
-			"launch-cta-description": "Siz ve Baby Globe'un birlikte Vikipedi'yi keşfedebilmeniz için Doğum günü modunu nasıl açacağınızı öğrenin!",
-			"launch-modal": {
-				"title": "Vikipedi'de doğum günü sürprizlerinin kilidini açın",
-				"text": "Siz ve Baby Globe'un birlikte Vikipedi'yi keşfedebilmeniz için Doğum günü modunu nasıl açacağınızı öğrenin!",
-				"primary-button-text": "Daha fazla bilgi edin",
-				"close-button-text": "Kapat"
-			},
-			"play-button-text": "Oynat"
 		}
 	},
 	"wiktionary": {
