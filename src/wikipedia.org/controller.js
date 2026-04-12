@@ -19,7 +19,7 @@ l10n.assets = {
 	family: 'wikipedia',
 	logo: {
 		src: 'portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png',
-		srcset: 'portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png 1.5x, portal/wikipedia.org/assets/img/Wikipedia-logo-v2@2x.png 2x',
+		srcset: 'portal/wikipedia.org/assets/img/Wikipedia-logo-v2@2x.png 2x',
 		width: '200',
 		height: '183'
 	},

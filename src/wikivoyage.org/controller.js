@@ -19,7 +19,7 @@ l10n.assets = {
 	family: 'wikivoyage',
 	logo: {
 		src: 'portal/wikivoyage.org/assets/img/Wikivoyage-logo-tiles_1x.png',
-		srcset: 'portal/wikivoyage.org/assets/img/Wikivoyage-logo-tiles_1.5x.png 1.5x, portal/wikivoyage.org/assets/img/Wikivoyage-logo-tiles_2x.png 2x',
+		srcset: 'portal/wikivoyage.org/assets/img/Wikivoyage-logo-tiles_2x.png 2x',
 		width: '200',
 		height: '200'
 	},

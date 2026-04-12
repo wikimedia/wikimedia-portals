@@ -19,7 +19,7 @@ l10n.assets = {
 	family: 'wiktionary',
 	logo: {
 		src: 'portal/wiktionary.org/assets/img/Wiktionary-logo-tiles_1x.png',
-		srcset: 'portal/wiktionary.org/assets/img/Wiktionary-logo-tiles_1.5x.png 1.5x, portal/wiktionary.org/assets/img/Wiktionary-logo-tiles_2x.png 2x',
+		srcset: 'portal/wiktionary.org/assets/img/Wiktionary-logo-tiles_2x.png 2x',
 		width: '200',
 		height: '183'
 	},

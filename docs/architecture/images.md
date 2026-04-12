@@ -24,7 +24,7 @@ SVG images are combined into a single “sprite” image using [gulp-svg-sprite]
 
 Any SVG file placed in the `src/wikipedia.org/assets/img/sprite_assets/` directory will be combined into a single file, named `sprite-{cache-busting-suffix}.svg` . Any newly added SVG files should follow the proposed [SVG markup guidelines](https://phabricator.wikimedia.org/T178867) which includes running them through SVGO with the `--pretty` option.
 
-A few images on www.wikipedia.org are *not* in SVG format due to their complexity and the resulting large SVG size, which is larger than the PNG version. These image are the Wikipedia  globe logo and the Wikinews logo. These two images are placed in the  `src/wikipedia.org/assets/img` directory at 1x, 1.5x and 2x sizes. These sizes match the sizes of images in MediaWiki content and skins.
+A few images on www.wikipedia.org are *not* in SVG format due to their complexity and the resulting large SVG size, which is larger than the PNG version. These image are the Wikipedia  globe logo and the Wikinews logo. These two images are placed in the  `src/wikipedia.org/assets/img` directory at 1x and 2x sizes. These sizes match the sizes of images in MediaWiki content and skins.
 
 **Image directory structure**
 

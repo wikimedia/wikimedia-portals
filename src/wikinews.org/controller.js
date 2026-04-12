@@ -19,7 +19,7 @@ l10n.assets = {
 	family: 'wikinews',
 	logo: {
 		src: 'portal/wikinews.org/assets/img/Wikinews-logo-tiles_1x.png',
-		srcset: 'portal/wikinews.org/assets/img/Wikinews-logo-tiles_1.5x.png 1.5x, portal/wikinews.org/assets/img/Wikinews-logo-tiles_2x.png 2x',
+		srcset: 'portal/wikinews.org/assets/img/Wikinews-logo-tiles_2x.png 2x',
 		width: '240',
 		height: '131'
 	},

@@ -19,7 +19,7 @@ l10n.assets = {
 	family: 'wikiquote',
 	logo: {
 		src: 'portal/wikiquote.org/assets/img/Wikiquote-logo-tiles_1x.png',
-		srcset: 'portal/wikiquote.org/assets/img/Wikiquote-logo-tiles_1.5x.png 1.5x, portal/wikiquote.org/assets/img/Wikiquote-logo-tiles_2x.png 2x',
+		srcset: 'portal/wikiquote.org/assets/img/Wikiquote-logo-tiles_2x.png 2x',
 		width: '169',
 		height: '200'
 	},

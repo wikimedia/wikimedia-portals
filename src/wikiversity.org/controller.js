@@ -19,7 +19,7 @@ l10n.assets = {
 	family: 'wikiversity',
 	logo: {
 		src: 'portal/wikiversity.org/assets/img/Wikiversity-logo-tiles_1x.png',
-		srcset: 'portal/wikiversity.org/assets/img/Wikiversity-logo-tiles_1.5x.png 1.5x, portal/wikiversity.org/assets/img/Wikiversity-logo-tiles_2x.png 2x',
+		srcset: 'portal/wikiversity.org/assets/img/Wikiversity-logo-tiles_2x.png 2x',
 		width: '200',
 		height: '164'
 	},
