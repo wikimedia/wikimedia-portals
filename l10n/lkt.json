@@ -4,6 +4,7 @@
 			"Tuwewanzi"
 		]
 	},
+	"license": "Oyúblaye kiŋ le <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a> ogná iyáču.",
 	"terms": "Úƞpi-wóopȟe",
 	"privacy-policy": "Waúŋyutȟaŋiŋpi šni",
 	"search-input-button": "Wóle",
@@ -13,14 +14,17 @@
 	"other-projects-nav-label": "Wičhóȟ'aƞ uƞmá kiƞ",
 	"wikimedia-org-welcome": "Taŋyáŋ yahi! Wikimedia Okȟódakičhiye mahél wičhoȟ'aŋ, wóečhuŋ na oyáte óta úŋpi. Makȟásitomniyaŋ, wóslolye wítaya uŋyúškeyapi.",
 	"wikimedia-org-our-projects": "Wičhoȟ’aŋ Uŋkitȟawapi",
+	"wikimedia-org-donate-button": "Waŋná mázaska kič'úŋ {{GENDER:|wo|we|wo/we}}",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Encyclopedia Išíčhola Kiŋ",
+		"entries": "wówapi",
 		"search-input-label": "Wikipedia Wóle {{GENDER:|yo|ye|yo/ye}}",
 		"language-button-text": "Iyápi nitȟáwa ogná Wikipedia yawa {{GENDER:|yo|ye|yo/ye}}",
 		"app-links": {
 			"google-store": "Google Play Mazóphiye",
-			"apple-store": "Apple App Mazóphiye"
+			"apple-store": "Apple App Mazóphiye",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
 		}
 	},
 	"wiktionary": {
