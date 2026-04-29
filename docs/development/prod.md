@@ -21,7 +21,7 @@
 ## Creating a Production Build
 
 A build of the Wikimedia portals is created automatically each week by a Jenkins Job in CI that runs every mondays at 9:30 A.M. UTC.
-This build is run by the `PortalsBuilder` user, whose patch history can be [viewed here](https://gerrit.wikimedia.org/r/#/q/owner:releng%2540lists.wikimedia.org).
+This build is run by the `PortalsBuilder` user, whose patch history can be [viewed here](https://gerrit.wikimedia.org/r/#/q/owner:portals%2540lists.wikimedia.org).
 A changelog of each build is also available and can be [viewed here](https://integration.wikimedia.org/ci/job/wikimedia-portals-build/changes).
 
 It is also possible to manually create a new build in the event that an error must be immediately fixed.
