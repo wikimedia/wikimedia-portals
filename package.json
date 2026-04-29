@@ -1,6 +1,7 @@
 {
 	"name": "wikimedia-portals",
 	"private": true,
+	"bugs": "https://phabricator.wikimedia.org/tag/wikimedia-portals/",
 	"scripts": {
 		"start": "gulp update-stats && gulp watch --portal=${npm_config_portal} & npm run dev-server",
 		"dev-server": "web-dev-server --node-resolve --app-index ./src/${npm_config_portal}/index.html --preserve-symlinks=true --watch --open",

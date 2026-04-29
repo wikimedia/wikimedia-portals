@@ -19,3 +19,7 @@ The portal pages are built using a 2015 front-end development stack which includ
 
 - [CONTRIBUTING.md](./CONTRIBUTING.md) contains a brief overview and quickstart guide for contributing code to this repository.
 - [Technical Documentation](./docs/README.md) contains a detailed description of all the various aspects of development for this project, including getting started through to deployment.
+
+## Bug reports and feature requests
+
+Bug reports and feature requests for this repo can be [raised on Phabricator](https://phabricator.wikimedia.org/tag/wikimedia-portals/).
