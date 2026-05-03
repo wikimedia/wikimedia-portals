@@ -6,7 +6,7 @@
 
             <div class="search-input" id="search-input">
                 <label for="searchInput" class="screen-reader-text" data-jsl10n="portal.search-input-label">{{l10n.portal.search-input-label}}</label>
-                <input id="searchInput" name="search" type="search" size="20" autofocus="autofocus" accesskey="F" dir="auto" autocomplete="off">
+                <input id="searchInput" name="search" type="search" size="20" autofocus="autofocus" accesskey="F" dir="auto" autocomplete="off" {{#if autocapitalize-off}}autocapitalize="off"{{/if}}>
 
                 <div class="styled-select no-js">
                     <div class="hide-arrow">
