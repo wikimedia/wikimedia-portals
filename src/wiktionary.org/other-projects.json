@@ -24,12 +24,6 @@
 		"key": "wikibooks"
 	},
 	{
-		"name": "Wikinews",
-		"url": "//www.wikinews.org/",
-		"tagline": "Free news source",
-		"key": "wikinews"
-	},
-	{
 		"name": "Wikidata",
 		"url": "//www.wikidata.org/",
 		"tagline": "Free knowledge base",
