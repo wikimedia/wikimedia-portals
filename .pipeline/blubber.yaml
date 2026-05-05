@@ -3,8 +3,8 @@ base: docker-registry.wikimedia.org/httpd
 
 variants:
   build:
-    # Despite being called -slim, the Node 20 image has npm in it
-    base: docker-registry.wikimedia.org/nodejs20-slim
+    # Despite being called -slim, the Node 24 image has npm in it
+    base: docker-registry.wikimedia.org/nodejs24-slim
     apt: {packages: [git, python3, pkg-config, build-essential, libpng-dev, libfreetype6, libfontconfig]}
     node: {requirements: [package.json, package-lock.json]}
   test:
