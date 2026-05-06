@@ -23,3 +23,21 @@
 		top: 0;
 	}
 }
+
+.notice {
+	background-color: var( --background-color-interactive-subtle );
+	z-index: 1;
+	border: var( --border-base );
+	border-radius: var( --border-radius-base );
+	font-size: var( --font-size-xx-large );
+	font-weight: var( --font-weight-bold );
+	line-height: var( --line-height-medium );
+	position: relative;
+	margin: var( --spacing-75 ) auto;
+	text-align: center;
+	max-width: var( --size-5600 );
+	min-height: var( --size-400 );
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
