@@ -3,47 +3,84 @@
 		"authors": [
 			"Kiran Gopi",
 			"Praveenp",
-			"Santhosh.thottingal"
+			"Santhosh.thottingal",
+			"Shem.iz"
 		]
 	},
 	"language-name": "മലയാളം",
 	"language-name-romanized": "Malayalam",
+	"footer-donate": "ഒരു സംഭാവനയിലൂടെ നിങ്ങൾക്ക് ഞങ്ങളുടെ പ്രവർത്തനത്തെ പിന്തുണയ്ക്കാം.",
+	"license": "ഈ പേജ് ക്രിയേറ്റീവ് കോമൺസ് ആട്രിബ്യൂഷൻ-ഷെയർഅലൈക്ക് ലൈസൻസിന് കീഴിൽ ലഭ്യമാണ്.<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">ക്രിയേറ്റീവ് കോമൺസ് ആട്രിബ്യൂഷൻ-ഷെയർഅലൈക്ക് ലൈസൻസ്</a>",
 	"terms": "ഉപയോഗനിബന്ധനകൾ",
 	"privacy-policy": "സ്വകാര്യതാനയം",
 	"search-input-button": "തിരയുക",
+	"other-languages-label": "മറ്റു ഭാഷകൾ",
+	"top-ten-nav-label": "പ്രധാന ഭാഷകൾ",
+	"all-languages-nav-label": "എല്ലാ ഭാഷകളും",
+	"other-projects-nav-label": "മറ്റ് പദ്ധതികൾ",
+	"wikimedia-org-welcome": "സ്വാഗതം! അറിവ് സ്വതന്ത്രമായി സൃഷ്ടിക്കുന്നതിനും പങ്കിടുന്നതിനുമായി ഒരുമിച്ച് പ്രവർത്തിക്കുന്ന ആളുകളുടെയും പദ്ധതികളുടെയും പ്രവർത്തനങ്ങളുടെയും ഒരു ആഗോള സമൂഹമാണ് വിക്കിമീഡിയ പ്രസ്ഥാനം.",
+	"wikimedia-org-welcome-subtitle": "എല്ലാ അറിവും എല്ലാവർക്കും എല്ലായിടത്തും ലഭ്യമാക്കുന്നതിൽ ഞങ്ങളോടൊപ്പം ചേരുക.",
+	"wikimedia-org-our-projects": "ഞങ്ങളുടെ പദ്ധതികൾ",
+	"wikimedia-org-projects-reference": "അവലംബം",
+	"wikimedia-org-projects-collections": "ശേഖരങ്ങൾ",
+	"wikimedia-org-projects-technology": "സാങ്കേതികവിദ്യ",
+	"wikimedia-org-projects-collaboration": "സഹകരണം",
+	"wikimedia-org-donate-title": "നിങ്ങളുടെ സംഭാവന എല്ലാവർക്കും സൌജന്യവും തുറന്ന അറിവും നൽകാനുള്ള മനുഷ്യാവകാശത്തെ സംരക്ഷിക്കുന്നു.",
+	"wikimedia-org-donate-button": "ഇപ്പോൾ സംഭാവന ചെയ്യുക",
+	"wikimedia-org-contact": "ബന്ധപ്പെടുക",
+	"wikimedia-org-contact-text": "വിക്കിമീഡിയ ഫൌണ്ടേഷനെക്കുറിച്ചോ വിക്കിമീഡിയ പദ്ധതിയെക്കുറിച്ചോ ഉള്ള ചോദ്യങ്ങൾ? ബന്ധപ്പെടുക.",
+	"wikimedia-org-contact-link": "ബന്ധപ്പെടുക",
 	"wiki": {
 		"name": "വിക്കിപീഡിയ",
 		"slogan": "ഒരു സ്വതന്ത്ര വിജ്ഞാനകോശം",
 		"entries": "ലേഖനങ്ങൾ",
 		"search-input-label": "വിക്കിപീഡിയയിൽ തിരയുക",
-		"language-button-text": "വിക്കിപീഡിയ താങ്കളുടെ ഭാഷയിൽ വായിക്കുക"
+		"language-button-text": "വിക്കിപീഡിയ താങ്കളുടെ ഭാഷയിൽ വായിക്കുക",
+		"footer-description": "വിക്കിമീഡിയ ഫൗണ്ടേഷൻ എന്ന ലാഭേച്ഛയില്ലാത്ത സംഘടനയാണ് വിക്കിപീഡിയ ഹോസ്റ്റ് ചെയ്യുന്നത്, കൂടാതെ മറ്റ് നിരവധി പദ്ധതികളും അവർ നടത്തുന്നു.",
+		"app-links": {
+			"title": "ആൻഡ്രോയിഡ് അല്ലെങ്കിൽ ഐഒഎസ് എന്നിവയ്ക്കായി വിക്കിപീഡിയ ഡൌൺലോഡ് ചെയ്യുക",
+			"google-store": "ഗൂഗിൾ പ്ലേ സ്റ്റോർ",
+			"apple-store": "ആപ്പിൾ ആപ്പ് സ്റ്റോർ"
+		}
 	},
 	"wiktionary": {
 		"name": "വിക്കിനിഘണ്ടു",
-		"slogan": "സ്വതന്ത്ര നിഘണ്ടു"
+		"slogan": "സ്വതന്ത്ര നിഘണ്ടു",
+		"entries": "എൻട്രികൾ",
+		"search-input-label": "വിക്ഷണറി തിരയുക"
 	},
 	"wikibooks": {
 		"name": "വിക്കിപാഠശാല",
 		"slogan": "വിക്കിപാഠശാല, ഒരു സ്വതന്ത്ര ഉള്ളടക്കത്തോടുകൂടിയ പാഠശാല.",
-		"entries": "താളുകൾ"
+		"entries": "താളുകൾ",
+		"search-input-label": "വിക്കിബുക്കുകൾ തിരയുക",
+		"language-button-text": "വിക്കിബുക്കുകൾ നിങ്ങളുടെ ഭാഷയിൽ വായിക്കുക"
 	},
 	"wikinews": {
 		"name": "വിക്കിവാർത്തകൾ",
-		"entries": "താളുകൾ"
+		"slogan": "സൌജന്യ വാർത്താ ഉറവിടം",
+		"entries": "താളുകൾ",
+		"language-button-text": "വിക്കിന്യൂസ്നി ങ്ങളുടെ ഭാഷയിൽ വായിക്കുക"
 	},
 	"wikiquote": {
 		"name": "വിക്കിചൊല്ലുകൾ",
 		"slogan": "ഒരു സ്വതന്ത്ര വിജ്ഞാനകോശം",
-		"entries": "താളുകൾ"
+		"entries": "താളുകൾ",
+		"search-input-label": "വിക്കികോട്ട് തിരയുക",
+		"language-button-text": "വിക്കികോട്ട് നിങ്ങളുടെ ഭാഷയിൽ വായിക്കുക"
 	},
 	"wikisource": {
 		"name": "വിക്കിഗ്രന്ഥശാല"
 	},
 	"wikiversity": {
-		"name": "വിക്കിസർ‌വ്വകലാശാല"
+		"name": "വിക്കിസർ‌വ്വകലാശാല",
+		"slogan": "സൗജന്യ പഠന സ്രോതസ്സുകൾ"
 	},
 	"wikivoyage": {
-		"name": "വിക്കിയാത്ര"
+		"name": "വിക്കിയാത്ര",
+		"slogan": "സൗജന്യ യാത്രാ ഗൈഡ്",
+		"entries": "താളുകൾ",
+		"search-input-label": "വിക്കിവോയേജ് തിരയുക"
 	},
 	"commons": {
 		"name": "കോമൺസ്"
@@ -55,9 +92,11 @@
 		"name": "വിക്കിഡേറ്റ"
 	},
 	"mediawiki": {
-		"name": "മീഡിയവിക്കി"
+		"name": "മീഡിയവിക്കി",
+		"slogan": "സ്വതന്ത്രവും തുറന്നതുമായ വിക്കി സോഫ്റ്റ്‌വെയർ"
 	},
 	"metawiki": {
-		"name": "മെറ്റ-വിക്കി"
+		"name": "മെറ്റ-വിക്കി",
+		"slogan": "കമ്മ്യൂണിറ്റി ഏകോപനവും ഡോക്യുമെന്റേഷനും"
 	}
 }

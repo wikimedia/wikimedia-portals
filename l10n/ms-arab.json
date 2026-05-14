@@ -1,11 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hakimi97",
 			"Tofeiku"
 		]
 	},
 	"language-name": "بهاس ملايو",
 	"language-name-romanized": "Bahasa Melayu (Jawi)",
+	"language-name-romanized-sorted": "Melayu (Jawi), Bahasa",
+	"footer-donate": "اندا بوليه مپوکوڠ کرجا کامي دڠن مندرما.",
+	"license": "لامن اين ترسديا دباوه <a href='https://creativecommons.org/licenses/by-sa/4.0/'>ليسين ڤڠيعترافن-ڤرکوڠسينسروڤا کرياتيف کومنس</a>",
+	"terms": "شرط٢ ڤڠݢوناءن",
+	"privacy-policy": "داسر ڤريۏاسي",
+	"search-input-button": "چاري",
+	"other-languages-label": "بهاس لاءين",
+	"top-ten-nav-label": "بهاس اوتام",
+	"all-languages-nav-label": "سموا بهاس",
+	"other-projects-nav-label": "ڤروجيک لاءين",
+	"wikimedia-org-welcome": "سلامت داتڠ! ݢرقن ويکيميديا اياله سواتو کومونيتي ݢلوبل يڠ ترديري درڤد اينديۏيدو، ڤروجيک دان اکتيۏيتي يڠ بکرجاسام اونتوق منچيڤتا دان برکوڠسي ڤڠتاهوان سچارا بيبس.",
+	"wikimedia-org-welcome-subtitle": "سرتاءي کامي دالم مپدياکن سڬالا علمو ڤڠتاهوان ترسديا کڤد سموا اورڠ، دمان٢ سهاج.",
+	"wikimedia-org-our-projects": "ڤروجيک کامي",
 	"wiki": {
 		"name": "ويکيڤيديا",
 		"entries": "رنچان"
