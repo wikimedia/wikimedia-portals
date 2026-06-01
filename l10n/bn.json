@@ -23,11 +23,13 @@
 	"all-languages-nav-label": "সকল ভাষা",
 	"other-projects-nav-label": "অন্যান্য প্রকল্প",
 	"wikimedia-org-our-projects": "আমাদের প্রকল্প",
+	"wikimedia-org-projects-reference": "তথ্যসূত্র",
 	"wikimedia-org-projects-collections": "সংগ্রহ",
 	"wikimedia-org-projects-technology": "প্রযুক্তি",
 	"wikimedia-org-projects-collaboration": "সহযোগিতা",
 	"wikimedia-org-donate-button": "এখনই দান করুন",
 	"wikimedia-org-contact": "যোগাযোগ করুন",
+	"wikimedia-org-contact-link": "যোগাযোগ",
 	"wiki": {
 		"name": "উইকিপিডিয়া",
 		"slogan": "একটি মুক্ত বিশ্বকোষ",
@@ -91,7 +93,7 @@
 	},
 	"commons": {
 		"name": "কমন্স",
-		"slogan": "উন্মুক্তে ব্যবহারযোগ্য ছবি ও আরও"
+		"slogan": "উন্মুক্ত মিডিয়ার সংগ্রহালয়"
 	},
 	"wikispecies": {
 		"name": "উইকিপ্রজাতি",
