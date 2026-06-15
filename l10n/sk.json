@@ -5,22 +5,39 @@
 			"Kusavica",
 			"Luky001",
 			"TomášPolonec",
+			"Wizzard",
 			"Yardom78"
 		]
 	},
 	"language-name": "Slovenčina",
+	"language-name-romanized": "Slovencina",
 	"language-name-romanized-sorted": "Slovencina",
 	"footer-donate": "Našu prácu môžete podporiť finančným darom.",
 	"license": "Táto stránka je dostupná pod licenciou <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike</a>",
 	"terms": "Podmienky používania",
 	"privacy-policy": "Zásady ochrany súkromia",
 	"terms-link": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/sk",
+	"privacy-policy-link": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy",
 	"search-input-button": "Hľadať",
 	"other-languages-label": "Iné jazyky",
 	"top-ten-nav-label": "Top jazyky",
 	"all-languages-nav-label": "Všetky jazyky",
 	"other-projects-nav-label": "Iné projekty",
+	"wikimedia-org-welcome": "Vitajte! Hnutie Wikimedia je globálna komunita ľudí, projektov a aktivít, ktoré spoločne pracujú na slobodnom vytváraní a zdieľaní vedomostí.",
+	"wikimedia-org-welcome-subtitle": "Pridajte sa k nám a sprístupnite všetky vedomosti všetkým a všade.",
 	"wikimedia-org-our-projects": "Naše projekty",
+	"wikimedia-org-our-projects-desc": "Naše projekty sú jadrom <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">hnutia Wikimedia</a>. Všetky hlavné projekty prevádzkuje <a href=\"https://wikimediafoundation.org/\">nadácia Wikimedia</a> a obsah spoločne vytvára viac než 260 000 používateľov z celého sveta pomocou softvéru <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Nadácia Wikimedia</a> je nezisková organizácia, ktorá hostí všetky projekty Wikimedia a podporuje komunity po celom svete, ktoré vytvárajú a spravujú voľne dostupný obsah.",
+	"wikimedia-org-projects-reference": "Referencie",
+	"wikimedia-org-projects-collections": "Zbierky",
+	"wikimedia-org-projects-technology": "Technológie",
+	"wikimedia-org-projects-guides": "Sprievodcovia",
+	"wikimedia-org-projects-collaboration": "Spolupráca",
+	"wikimedia-org-donate-title": "Váš dar chráni ľudské právo na slobodné a otvorené vedomosti pre všetkých.",
+	"wikimedia-org-donate-button": "Darovať teraz",
+	"wikimedia-org-contact": "Kontakt",
+	"wikimedia-org-contact-text": "Máte otázky o nadácii Wikimedia alebo projektoch Wikimedia? Ozvite sa nám.",
+	"wikimedia-org-contact-link": "Kontakt",
 	"wiki": {
 		"name": "Wikipédia",
 		"slogan": "Slobodná encyklopédia",
@@ -53,7 +70,9 @@
 	"wikinews": {
 		"name": "Wikisprávy",
 		"slogan": "Slobodné spravodajstvo",
-		"entries": "článkov"
+		"entries": "článkov",
+		"search-input-label": "Hľadať na Wikisprávach",
+		"language-button-text": "Čítajte Wikisprávy vo svojom jazyku"
 	},
 	"wikiquote": {
 		"name": "Wikicitáty",
@@ -64,24 +83,33 @@
 	},
 	"wikisource": {
 		"name": "Wikizdroje",
-		"slogan": "Voľne dostupné dokumenty"
+		"slogan": "Knižnica slobodného obsahu"
 	},
 	"wikiversity": {
 		"name": "Wikiverzita",
-		"slogan": "Voľne dostupné vzdelávanie",
-		"entries": "stránok"
+		"slogan": "Slobodné vzdelávacie zdroje",
+		"entries": "stránok",
+		"search-input-label": "Hľadať na Wikiverzite",
+		"language-button-text": "Čítajte Wikiverzitu vo svojom jazyku"
 	},
 	"wikivoyage": {
 		"name": "Wikicesty",
-		"slogan": "Slobodný cestovný sprievodca"
+		"slogan": "Slobodný cestovný sprievodca",
+		"entries": "stránok",
+		"search-input-label": "Hľadať na Wikicestách",
+		"language-button-text": "Čítajte Wikicesty vo svojom jazyku"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Voľne použiteľné fotografie"
+		"slogan": "Zbierka slobodných médií"
 	},
 	"wikispecies": {
 		"name": "Wikidruhy",
 		"slogan": "Adresár biologických druhov"
+	},
+	"wikifunctions": {
+		"name": "Wikifunctions",
+		"slogan": "Knižnica slobodných funkcií"
 	},
 	"wikidata": {
 		"name": "Wikiúdaje",
@@ -89,7 +117,7 @@
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Slobodná a otvorená wiki aplikácia"
+		"slogan": "Slobodný a otvorený wiki softvér"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",

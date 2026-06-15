@@ -1,75 +1,119 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kaszeba"
+			"Kaszeba",
+			"Terrus38"
 		]
 	},
 	"language-name": "Kaszëbsczi",
 	"language-name-romanized-sorted": "Kaszebsczi",
-	"license": "Hewòtnô starna je dostãpny na licencëji<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.pl'>Creative Commons Ùznanié ùsôdztwa-Na tich sómych prawach</a>",
-	"terms": "Warënczi kòrzëstaniô",
-	"privacy-policy": "Priwatnota",
+	"footer-donate": "Të mòżesz wesprzec naszã robòtã datkã",
+	"license": "Na starna je przëstãpnô na licencji <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.pl'>Creative Commons Ùznanié aùtorstwa-Na juwernëch prawach</a>",
+	"terms": "Warënczi kòrzistaniô",
+	"privacy-policy": "Pòlitika priwatnoscë",
+	"search-input-button": "Szëkôj",
+	"other-languages-label": "Jinszé jãzëczi",
+	"top-ten-nav-label": "Nôpòpùlarniészé jãzëczi",
+	"all-languages-nav-label": "Wszëtczé jãzëczi",
+	"other-projects-nav-label": "Jinszé projektë",
+	"wikimedia-org-welcome": "Witôjtaż! Rësznota Wikimediów je globalną spòlëzną lëdzy, projektów a dzejaniów òkòma wòlnégò przëstãpù do wiedzë!",
+	"wikimedia-org-welcome-subtitle": "Dołãczë do naju a pòmòżë nama ùprzëstãpnic wszednã wiedzã kòżdémù, wszãdze.",
+	"wikimedia-org-our-projects": "Nasze projektë",
+	"wikimedia-org-our-projects-desc": "Nasze projektë są dërżeniã <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">rësznotë Wikimediów</a>. Wszëtczé przédné projektë są òbsłëgiwóné przez <a href=\"https://wikimediafoundation.org/\"> Fùndacjã Wikimedia</a>, a jichnô zamkłosc je twòrzonô wëcmanim przez wicy jak 260 000 brëkòwników na całim swiece przë pòmòcë òprogramòwaniégò <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Fùndacjô Wikimedia</a> je òrganizacją non-profit, jakô zarządzô wszëtczima projektama Wikimediów a wspiérô spòlëznë na całim swiece, co twòrzą i òbrôbiają szerok przëstãpné zamkłoscë.",
+	"wikimedia-org-projects-reference": "Zdrzódła wiedzë",
+	"wikimedia-org-projects-collections": "Kòlekcje",
+	"wikimedia-org-projects-technology": "Technologiô",
+	"wikimedia-org-projects-guides": "Prowadniczi",
+	"wikimedia-org-projects-collaboration": "Wespółrobòta",
+	"wikimedia-org-donate-title": "Twój datk chróni prawò człowieka do wòlny a òdemkłi wiedzë, przëstãpny dlô kòżdégò.",
+	"wikimedia-org-donate-button": "Przekażë datk terô",
+	"wikimedia-org-contact": "Kòntakt",
+	"wikimedia-org-contact-text": "Môsz të pitania ò Fùndacjã Wikimedia abò projektë Wikimediów? Skòntaktuj sã z nama.",
+	"wikimedia-org-contact-link": "Kòntakt",
 	"wiki": {
 		"name": "Wikipedijô",
-		"slogan": "Wòlnô Encyklopedijô",
+		"slogan": "Wòlnô encyklopediô",
 		"entries": "artiklów",
-		"language-button-text": "Czëtôj Wikipedijã w swòjim jãzëkù",
-		"footer-description": "Wikipedijô je hòstowónô przez Fundacëjã Wikimedia, bezzwëskòwą òrganizacëjã, chrtërnô téż prowadzy wiele jinnych ùdbów.",
+		"search-input-label": "Szëkôj we Wikipedie",
+		"language-button-text": "Czëtôj Wikipediã w swòjim jãzëkù",
+		"footer-description": "Wikipediô je hostowónô przez Fundacjã Wikimediów, òrganizacjã non-profit, jakô prowadzy téż trój jinszich projektów.",
 		"app-links": {
-			"title": "Aplikacëje Wikipediji są ju przistãpné:"
+			"title": "Pòbierzë Wikipediã na Androida abò iOS",
+			"description": "Czëtôj swòje ùlubioné artikle offline, zsynchronizuj lëstë czëtaniégò midzë maszinama i dostosuj swòje doswiôdczenié, brëkùjącë òficjalny aplikacje Wikipedie.",
+			"google-store": "Króm Google Play",
+			"apple-store": "Króm App Store",
+			"url": "https://csb.wikipedia.org/wiki/Lësta_mòbilnëch_aplikacjów_Wikipedie"
 		}
 	},
 	"wiktionary": {
 		"name": "Wikisłowôrz",
 		"slogan": "Wòlny słowôrz",
-		"entries": "starnów"
+		"entries": "zéwiszczów",
+		"search-input-label": "Szëkôj we Wikisłowarzu",
+		"language-button-text": "Czëtôj Wikisłowôrz w swòjim jãzëkù"
 	},
 	"wikibooks": {
 		"name": "Wikiksążczi",
 		"slogan": "Wòlné ksążczi",
-		"entries": "starnów"
+		"entries": "starnów",
+		"search-input-label": "Szëkôj we Wikiksążkach",
+		"language-button-text": "Czëtôj Wikiksążczi w swòjim jãzëkù"
 	},
 	"wikinews": {
 		"name": "Wikinowinë",
-		"slogan": "Wòlné wëdowiédné zdroje",
-		"entries": "artiklów"
+		"slogan": "Wòlny zdrój infòrmacjów",
+		"entries": "artiklów",
+		"search-input-label": "Szëkôj we Wikinowinach",
+		"language-button-text": "Czëtôj Wikinowinë w swòjim jãzëkù"
 	},
 	"wikiquote": {
-		"name": "Wikicëtatë",
-		"slogan": "Zbiérk cytatów",
-		"entries": "artiklów"
+		"name": "Wikicytatë",
+		"slogan": "Wòlné kómpendium cytatów",
+		"entries": "artiklów",
+		"search-input-label": "Szëkôj we Wikicytatach",
+		"language-button-text": "Czëtôj Wikicytatë w swòjim jãzëkù"
 	},
 	"wikisource": {
 		"name": "Wikizdroje",
-		"slogan": "Wòlnô bibloteka"
+		"slogan": "Wòlnô bibloteka zamkłosców"
 	},
 	"wikiversity": {
 		"name": "Wikiwersytet",
 		"slogan": "Wòlné edukacjowé zdroje",
-		"entries": "edukacjowé zdroje"
+		"entries": "edukacjowé zdroje",
+		"search-input-label": "Szëkôj na Wikiwersytece",
+		"language-button-text": "Czëtôj Wikiwersytet w swòjim jãzëkù"
 	},
 	"wikivoyage": {
 		"name": "Wikirézë",
-		"slogan": "Turisticzny prowôdnik"
+		"slogan": "Wòlny turisticzny prowadnik",
+		"entries": "starnów",
+		"search-input-label": "Szëkôj we Wikirézach",
+		"language-button-text": "Czëtôj Wikirézë w swòjim jãzëkù"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Òdjimczi do swòjegò brëkòwaniô"
+		"slogan": "Zbiér wòlnëch mùltimediów"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
-		"slogan": "Wòlny zbiérk ôrtów"
+		"slogan": "Wòlny katalog gatënków"
+	},
+	"wikifunctions": {
+		"name": "Wikifónkcje",
+		"slogan": "Wòlnô biblioteka fónkcjów"
 	},
 	"wikidata": {
 		"name": "Wikipòdôwczi",
-		"slogan": "Wòlnô baza wëdowiédzë"
+		"slogan": "Wòlnô baza wiedzë"
 	},
 	"mediawiki": {
 		"name": "MediaWiki",
-		"slogan": "Òtëmkłô a darmôk aplikacëjô wiki"
+		"slogan": "Darmôk a òdemkłé òprogramòwanié wiki"
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Kòòrdinacëjô spòlëzny ë dokùmentacëjô"
+		"slogan": "Kòòrdinacjô spòlëznë ë dokùmentacjô"
 	}
 }
