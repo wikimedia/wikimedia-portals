@@ -1,0 +1,116 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda"
+		]
+	},
+	"footer-donate": "تقدر تدعم خدمتنا بالتبرع.",
+	"license": "هاد الصفحة متاحة تحت <a href='https://creativecommons.org/licenses/by-sa/4.0/'>رخصة المشاع الإبداعي النسبة-الترخيص بالمثل</a>",
+	"terms": "شروط لستخدام",
+	"privacy-policy": "السياسة تاع الخصوصيّة",
+	"search-input-button": "فتّش",
+	"other-languages-label": "لوغات وحد اخرين",
+	"top-ten-nav-label": "اللوغات الكبار",
+	"all-languages-nav-label": "قاع اللوغات",
+	"other-projects-nav-label": "في مشاريع وحد اخرى",
+	"wikimedia-org-welcome": "أهلا بيك! حركة ويكيميديا هي مجتمع عالمي من الناس، المشاريع، والأنشطة لي يخدماو مع بعض باش يخلقو ويشاركو المعرفة بحرية.",
+	"wikimedia-org-welcome-subtitle": "انضم لينا في جعل كل المعرفة متاحة للجميع، في كل مكان.",
+	"wikimedia-org-our-projects": "مشاريعنا",
+	"wikimedia-org-our-projects-desc": "مشاريعنا هي الأساس تاع <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">حركة ويكيميديا</a>. كل المشاريع الكبار يديرها <a href=\"https://wikimediafoundation.org/\">مؤسسة ويكيميديا</a>، والمحتوى يتطور بشكل تعاوني من طرف أكثر من 260.000 مستخدم في العالم كامل باستعمال برنامج <a href=\"https://www.mediawiki.org/\">ميدياويكي</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">مؤسسة ويكيميديا</a> هي المنظمة غير الربحية لي تستضيف كل مشاريع ويكيميديا وتدعم المجتمعات في كل العالم لي يخلقو وينظمو محتوى متاح بحرية.",
+	"wikimedia-org-projects-reference": "مرجع",
+	"wikimedia-org-projects-collections": "المجموعات",
+	"wikimedia-org-projects-technology": "التقنية",
+	"wikimedia-org-projects-guides": "أدلة",
+	"wikimedia-org-projects-collaboration": "التعاون",
+	"wikimedia-org-donate-title": "تبرعك يحمي الحق الإنساني في المعرفة الحرة والمفتوحة للجميع.",
+	"wikimedia-org-donate-button": "تبرع الآن",
+	"wikimedia-org-contact": "اتصال",
+	"wikimedia-org-contact-text": "عندك أسئلة عن مؤسسة ويكيميديا ولاّ مشاريع ويكيميديا؟ اتصل بنا.",
+	"wikimedia-org-contact-link": "اتصال",
+	"wiki": {
+		"name": "ويكيبيديا",
+		"slogan": "الموسوعة الحرة",
+		"entries": "مقاله",
+		"search-input-label": "حوس في ويكيبيديا",
+		"language-button-text": "اقرأ ويكيبيديا بلوغتك",
+		"footer-description": "ويكيبيديا تستضيفها مؤسسة ويكيميديا، منظمة غير ربحية تستضيف أيضا مجموعة من المشاريع الأخرى.",
+		"app-links": {
+			"title": "نزّل ويكيبيديا لأندرويد ولاّ آي أو إس",
+			"description": "احفظ مقالاتك المفضلة باش تقراها من غير نت، زامن قوائم القراءة تاعك عبر الأجهزة وخصّص تجربة القراءة تاعك مع التطبيق الرسمي تاع ويكيبيديا.",
+			"google-store": "بوتبك Google Play",
+			"apple-store": "بوتيك Apple App",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
+	},
+	"wiktionary": {
+		"name": "ويكاموس",
+		"slogan": "قاموس حر",
+		"entries": "مقالات",
+		"search-input-label": "حوس في ويكاموس",
+		"language-button-text": "اقرأ ويكيبيديا بلوغتك"
+	},
+	"wikibooks": {
+		"name": "ويكي كتوب",
+		"slogan": "كتوبه تاع مدرسيه مجانيه",
+		"entries": "الصفحات",
+		"search-input-label": "دور في كتب ويكيبيديا",
+		"language-button-text": "اقرا كتب ويكيبيديا بلوغتك"
+	},
+	"wikinews": {
+		"name": "ويكيخبارات",
+		"slogan": "مصادر مجانية جديدة",
+		"entries": "مقاله",
+		"search-input-label": "حوس في ويكينيوز",
+		"language-button-text": "اقرا ويكينيوز بلوغتك"
+	},
+	"wikiquote": {
+		"name": "ويكي الاقتباس",
+		"slogan": "خلاصة اقتباسات  حرة",
+		"entries": "مقاله",
+		"search-input-label": "حوس في ويكي الاقتباس",
+		"language-button-text": "اقرأ ويكيل اقتباس بلوغتك"
+	},
+	"wikisource": {
+		"name": "ويكي مصدر",
+		"slogan": "مكتبة المحتوى الحر"
+	},
+	"wikiversity": {
+		"name": "ويكي الجامعة",
+		"slogan": "الموارد التعلمية الحرة",
+		"entries": "مصادر التعلم",
+		"search-input-label": "حوس في ويكي الجامعه",
+		"language-button-text": "اقرأ ويكي الجامعه بلوغتك"
+	},
+	"wikivoyage": {
+		"name": "ويكي الرحلات",
+		"slogan": "مرشد سياحي مجاني",
+		"entries": "الصفحات",
+		"search-input-label": "حوس في ويكي الرحلات",
+		"language-button-text": "اقرأ ويكي الرحلات بلوغتك"
+	},
+	"commons": {
+		"name": "كومنز",
+		"slogan": "Free media collection"
+	},
+	"wikispecies": {
+		"name": "ويكي الأنواع",
+		"slogan": "دليل الأنواع الحر"
+	},
+	"wikifunctions": {
+		"name": "ويكي دوال",
+		"slogan": "مكتبة الدوال المجانية"
+	},
+	"wikidata": {
+		"name": "ويكي بيانات",
+		"slogan": "قاعدة البيانات الحرة"
+	},
+	"mediawiki": {
+		"name": "ميدياويكي",
+		"slogan": "برمجيات ويكي حرة ومفتوحة المصدر"
+	},
+	"metawiki": {
+		"name": "ميتا ويكي",
+		"slogan": "تنسيق مشاريع ويكيميديا"
+	}
+}
