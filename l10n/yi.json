@@ -8,9 +8,25 @@
 	"language-name": "ייִדיש",
 	"language-name-romanized": "Yidiš",
 	"language-name-romanized-sorted": "Yidish",
+	"footer-donate": "איר קענט שטיצן אונזער ארבעט מיט א נדבה.",
+	"license": "דער בלאַט איז פֿאַראַן אונטערן <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike ליצענץ</a>",
 	"terms": "ניצבאדינגונגען",
 	"privacy-policy": "פּריוואַטקייט פּאליסי",
 	"search-input-button": "זוכן",
+	"other-languages-label": "אַנדערע שפראַכן",
+	"top-ten-nav-label": "הויפּט שפּראַכן",
+	"all-languages-nav-label": "אַלע שפראַכן",
+	"other-projects-nav-label": "אַנדערע פראָיעקטן",
+	"wikimedia-org-our-projects": "אונזערע פראָיעקטן",
+	"wikimedia-org-projects-reference": "רעפֿערענץ",
+	"wikimedia-org-projects-collections": "זאַמלונגען",
+	"wikimedia-org-projects-technology": "טעכנאלאגיע",
+	"wikimedia-org-projects-collaboration": "מיטאַרבעט",
+	"wikimedia-org-donate-title": "אייער נדבה באַשיצט דאָס מענטשלעכע רעכט צו פֿרײַעם און אָפֿענעם וויסן פֿאַר אַלעמען.",
+	"wikimedia-org-donate-button": "בײַשטײַערט אצינד",
+	"wikimedia-org-contact": "קאנטאקט",
+	"wikimedia-org-contact-text": "פֿראַגעס וועגן דער וויקימעדיע פֿונדאַציע אָדער וויקימעדיע פּראָיעקטן? קאָנטאַקטירט אונז.",
+	"wikimedia-org-contact-link": "קאנטאקט",
 	"wiki": {
 		"name": "װיקיפּעדיע",
 		"slogan": "די פֿרײַע ענציקלאָפּעדיע",
@@ -39,16 +55,19 @@
 	},
 	"wikiquote": {
 		"name": "וויקיציטיר",
-		"entries": "אַרטיקלען"
+		"entries": "אַרטיקלען",
+		"language-button-text": "ליינט וויקיציטאט אין אייער שפראך"
 	},
 	"wikisource": {
 		"name": "װיקיביבליאָטעק",
-		"slogan": "פֿרייע ביבליאטעק"
+		"slogan": "פֿרייע אינהאַלט ביבליאָטעק"
 	},
 	"wikiversity": {
 		"name": "וויקיווערסיטי",
-		"slogan": "פֿרייע לערן־מאטעריאלן",
-		"entries": "לערן־רעסורסן"
+		"slogan": "פֿרייע לערנען רעסורסן",
+		"entries": "לערן־רעסורסן",
+		"search-input-label": "זוכן וויקיווערסיטי",
+		"language-button-text": "ליינט וויקיווערסיטי אין אייער שפראך"
 	},
 	"wikivoyage": {
 		"name": "וויקירייזע",
@@ -67,7 +86,7 @@
 	},
 	"mediawiki": {
 		"name": "מעדיעוויקי",
-		"slogan": "פֿרייע און אפֿֿענע וויקי־אנווענדונג"
+		"slogan": "פֿרייע און אפֿענע וויקי־ווייכווארג"
 	},
 	"metawiki": {
 		"name": "מעטאַ־וויקי",

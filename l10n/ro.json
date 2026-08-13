@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Blaséd",
 			"NGC 54",
 			"Paloi Sciurala",
 			"Tanea.d"
@@ -18,7 +19,17 @@
 	"top-ten-nav-label": "Limbi de top",
 	"all-languages-nav-label": "Alte limbi",
 	"other-projects-nav-label": "Alte proiecte",
+	"wikimedia-org-welcome": "Bun venit! Mișcarea Wikimedia este o comunitate globală de oameni, proiecte și activități care lucrează împreună pentru a crea și a împărtăși liber cunoștințe.",
+	"wikimedia-org-welcome-subtitle": "Alătură-te nouă pentru a face ca toate cunoștințele să fie disponibile tuturor, peste tot.",
 	"wikimedia-org-our-projects": "Proiectele noastre",
+	"wikimedia-org-our-projects-desc": "Proiectele noastre sunt nucleul mișcării Wikimedia. Toate proiectele majore sunt operate de <a href=\"https://wikimediafoundation.org/\">Fundația Wikimedia</a>, iar conținutul este dezvoltat în colaborare de peste 260.000 de utilizatori din întreaga lume folosind software-ul <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Fundația Wikimedia</a> este organizația non-profit care găzduiește toate proiectele Wikimedia și sprijină comunitățile din întreaga lume care creează și gestionează conținut accesibil gratuit.",
+	"wikimedia-org-projects-reference": "Referință",
+	"wikimedia-org-projects-collections": "Colecții",
+	"wikimedia-org-projects-technology": "Tehnologie",
+	"wikimedia-org-projects-guides": "Ghiduri",
+	"wikimedia-org-projects-collaboration": "Colaborare",
+	"wikimedia-org-donate-title": "Donația ta protejează dreptul omului la cunoaștere liberă și deschisă pentru toată lumea.",
 	"wikimedia-org-donate-button": "Donați acum",
 	"wikimedia-org-contact": "Contact",
 	"wikimedia-org-contact-text": "Întrebări despre Fundația Wikimedia sau proiectele Wikimedia? Contactați-ne.",
