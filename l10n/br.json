@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Adriendelucca",
+			"Ar choler",
 			"Fulup",
 			"Gwenn-Ael",
 			"Huñvreüs",
@@ -10,20 +11,20 @@
 		]
 	},
 	"language-name": "Brezhoneg",
-	"footer-donate": "Gallout a rit hon skoazellañ en ur reiñ un donezon.",
+	"footer-donate": "Gallout a rit hon skoazellañ dre reiñ un donezon.",
 	"license": "Emañ ar bajenn-mañ dindan an aotre implijout <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Deroadur-RannañHeñvel</a>",
-	"terms": "Termenoù implijout",
+	"terms": "Divizoù implijout",
 	"privacy-policy": "Reolennoù prevezded",
 	"search-input-button": "Klask",
 	"other-languages-label": "Yezhoù all",
 	"top-ten-nav-label": "Yezhoù implijetañ",
 	"all-languages-nav-label": "An holl yezhoù",
 	"other-projects-nav-label": "Raktresoù all",
-	"wikimedia-org-welcome": "Degemer mat! Al luskad Wikimedia zo ur gumuniezh hollek a dud, raktresoù hag obererezhioù a labour asambles evit krouiñ ha rannañ gouiziegezh en un doare frank.",
-	"wikimedia-org-welcome-subtitle": "Deuit ganeomp da lakaat an holl ouiziegezh da vezañ hegerz d'an holl, e pep lec'h.",
+	"wikimedia-org-welcome": "Donemat! Al luskad Wikimedia zo ur gumuniezh hollek a dud, raktresoù hag obererezhioù a genlabour evit krouiñ ha rannañ gouiziegezh en un doare frank.",
+	"wikimedia-org-welcome-subtitle": "Deuit ganeomp da lakaat an holl ouiziegezh da vezañ hegerz evit an holl, e pep lec'h.",
 	"wikimedia-org-our-projects": "Hor raktresoù",
-	"wikimedia-org-our-projects-desc": "Kreiz al <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">luskad Wikimedia</a> eo hor raktresoù . An holl raktresoù bras a zo meret gant <a href=\"https://wikimediafoundation.org/\">Diazezadur Wikimedia</a>, hag an endalc'hadoù a zo savet a-gevret gant ouzhpenn 260 000 implijer dre ar bed a-bezh en ur implijout ar meziant <a href=\"https://www.mediawiki.org/\">MediaWiki</a> .",
-	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Diazezadur Wikimedia</a> eo an aozadur hep pal kenwerzhel a zegemer an holl raktresoù Wikimedia hag a sikour kumuniezhioù dre ar bed a-bezh a grou hag a ra war-dro endalc'hadoù  frank.",
+	"wikimedia-org-our-projects-desc": "Kalon al <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">luskad Wikimedia</a> eo hor raktresoù. An holl raktresoù bras zo meret gant <a href=\"https://wikimediafoundation.org/\">ar Fondezon Wikimedia</a>, hag an endalc'hadoù a vez savet a-gevret gant tremen 260 000 implijer er bed a-bezh dre ar meziant <a href=\"https://www.mediawiki.org/\">MediaWiki</a> .",
+	"wikimedia-org-wmf": "Ar <a href=\"https://wikimediafoundation.org/\">Fondezon Wikimedia</a> eo an aozadur hep pal kenwerzhel a zegemer an holl raktresoù Wikimedia hag a sikour kumuniezhioù dre ar bed a-bezh a grou hag a ver endalc'hadoù  frank.",
 	"wikimedia-org-projects-reference": "Daveenn",
 	"wikimedia-org-projects-collections": "Dastumadoù",
 	"wikimedia-org-projects-technology": "Teknologiezh",
@@ -32,7 +33,7 @@
 	"wikimedia-org-donate-title": "Gant ho road e vez gwarezet gwir mab-den da gaout gouiziegezh frank ha digor d'an holl.",
 	"wikimedia-org-donate-button": "Roit bremañ",
 	"wikimedia-org-contact": "Darempred",
-	"wikimedia-org-contact-text": "Goulennoù diwar-benn Diazezadur Wikimedia pe raktresoù Wikimedia ? Deuit e darempred ganeomp.",
+	"wikimedia-org-contact-text": "Goulennoù diwar-benn ar Fondezon Wikimedia pe raktresoù Wikimedia ? Deuit e darempred ganeomp.",
 	"wikimedia-org-contact-link": "Darempred",
 	"wiki": {
 		"name": "Википеэди",
@@ -40,10 +41,10 @@
 		"entries": "pennadoù",
 		"search-input-label": "Klask e Wikipedia",
 		"language-button-text": "Lenn Wikipedia en ho yezh",
-		"footer-description": "Gant an diazezadur Wikipedia eo herberc'hiet Wikipedia. Un aozadur hep pal kenwerzhel eo hag a herberc'h kalz a raktresoù all ivez.",
+		"footer-description": "Herberc'hiet eo Wikipedia gant ar Fondezon Wikimedia, a zo un aozadur hep pal kenwerzhel hag a herberc'h ivez meur a raktres all.",
 		"app-links": {
-			"title": "Pellgargañ WIkipedia evit Android pe iOS",
-			"description": "Enrolli ho restroù karetañ evit lenn anezho ezlinenn, sinkronelaat ho rolloù lenn etre an ardivinkoù ha personelaat ho boazioù lenn gant arload ofisiel Wikipedia.",
+			"title": "Enkargañ Wikipedia evit Android pe iOS",
+			"description": "Enrollit ho pennadoù karetañ evit o lenn ezlinenn, kempredit ho rolloù lenn etre ardivinkoù ha personelait ho poazioù lenn gant arload ofisiel Wikipedia.",
 			"google-store": "Google Play Store",
 			"apple-store": "Apple App Store",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
@@ -58,17 +59,17 @@
 	},
 	"wikibooks": {
 		"name": "Wikilevrioù",
-		"slogan": "Testennoù pedagogel frank",
+		"slogan": "Dornlevrioù frank",
 		"entries": "pajennoù",
 		"search-input-label": "Klask e Wikilevrioù",
 		"language-button-text": "Lenn Wikilevrioù en ho yezh"
 	},
 	"wikinews": {
 		"name": "Wikikeloù",
-		"slogan": "Ar vammenn ditouroù a c'hallit skrivañ",
+		"slogan": "Ar vammenn keleier digoust",
 		"entries": "pennadoù",
-		"search-input-label": "Klask e Wikineventioù",
-		"language-button-text": "Lenn Wikineventioù en ho yezh"
+		"search-input-label": "Klask e Wikikeloù",
+		"language-button-text": "Lenn Wikikeloù en ho yezh"
 	},
 	"wikiquote": {
 		"name": "Wikiarroud",
@@ -79,7 +80,7 @@
 	},
 	"wikisource": {
 		"name": "Wikimammenn",
-		"slogan": "Levraoueg endalc’h dieub"
+		"slogan": "Levraoueg endalc’h frank"
 	},
 	"wikiversity": {
 		"name": "Wikiskolveur",
@@ -100,12 +101,12 @@
 		"slogan": "Dastumad media frank"
 	},
 	"wikispecies": {
-		"name": "Wikispesad",
+		"name": "Wikispesadoù",
 		"slogan": "Roll frank ar spesadoù"
 	},
 	"wikifunctions": {
 		"name": "Wikifunctions",
-		"slogan": "Levraoueg fonksionoù frank"
+		"slogan": "Levraoueg arc'hweloù frank"
 	},
 	"wikidata": {
 		"name": "Wikidata",
@@ -117,6 +118,6 @@
 	},
 	"metawiki": {
 		"name": "Meta-Wiki",
-		"slogan": "Kumuniezh ha kenurzhiañ ar gumuniezh"
+		"slogan": "Kenurzhierezh ha teuliadur ar gumuniezh"
 	}
 }
