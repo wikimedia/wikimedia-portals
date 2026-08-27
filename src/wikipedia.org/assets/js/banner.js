@@ -11,20 +11,39 @@
 	const
 		geoCookieCountry = document.cookie.match( /GeoIP=.[^:]/ ),
 		country = geoCookieCountry && geoCookieCountry.toString().split( '=' )[ 1 ],
-		bannerCountries = [ 'US', 'CA', 'GB', 'IE', 'AU', 'NZ', 'BR', 'NL', 'FR', 'IT' ],
+		bannerCountries = [ 'US', 'CA', 'GB', 'IE', 'AU', 'NZ' ],
 		bannerLang = 'en',
 		userLangs = wmTest.userLangs,
 		currentDate = new Date(),
 		hideBanner = /(hideWikipediaPortalBanner|centralnotice_hide_fundraising)/.test( document.cookie ),
+		mediumBanner = /(minimizeWikipediaPortalBanner)/.test( document.cookie ),
 		bannerEl = document.querySelector( '.banner' ),
 		bannerCloseEl = bannerEl.querySelector( '.banner__close' ),
 		iadEl = bannerEl.querySelector( '.frb-iad' ), // I already donated
-		bannerLinkEl = bannerEl.querySelectorAll( 'a.frb-submit' ),
+		bannerLinkEl = bannerEl.querySelectorAll( 'a.frb-donate' ),
 		bannerVisibleClass = 'banner--visible',
 		bannerReplacements = [
-			{ selector: '.banner__amount1', US: '$2.75', CA: '$2.75', AU: '$2.75', NZ: '$2.75', GB: '£2', IE: '€2.50', BR: 'R$15', NL: '€2.50', FR: '€2.50', IT: '€2.50' },
-			{ selector: '.banner__amount2', US: '$20', CA: '$20', AU: '$20', NZ: '$20', GB: '£20', IE: '€20', BR: 'R$70', NL: '€20', FR: '€20', IT: '€20' },
-			{ selector: '.banner__average', US: '$13', CA: '$12', AU: '$11', NZ: '$12', GB: '£6', IE: '€8', BR: 'R$25', NL: '€8', FR: '€8', IT: '€8' }
+			{ selector: '.banner__amount1', US: '$2.75', CA: '$2.75', AU: '$2.75', NZ: '$2.75', GB: '£2', IE: '€2.50' },
+			{ selector: '.banner__amount2', US: '$25', CA: '$25', AU: '$25', NZ: '$25', GB: '£25', IE: '€25' },
+			{ selector: '.banner__average', US: '$13', CA: '$12', AU: '$11', NZ: '$12', GB: '£6', IE: '€8' },
+			{
+				selector: '.banner__country',
+				US: 'the United States',
+				CA: 'Canada',
+				AU: 'Australia',
+				NZ: 'New Zealand',
+				GB: 'the UK',
+				IE: 'Ireland'
+			},
+			{
+				selector: '.banner__currency',
+				US: '$',
+				CA: '$',
+				AU: '$',
+				NZ: '$',
+				GB: '£',
+				IE: '€'
+			}
 		];
 	for ( let i = 0; i < bannerReplacements.length; i++ ) {
 		const replacedElements = document.querySelectorAll( bannerReplacements[ i ].selector );
@@ -67,17 +86,155 @@
 	} );
 	if ( !hideBanner &&
 		country &&
-		bannerCountries.includes( country ) &&
+		bannerCountries.includes( country ) > -1 &&
 		userLangs[ 0 ] === bannerLang &&
-		currentDate.getFullYear() === 2026 &&
-		currentDate.getMonth() <= 4 // May is 4
+		currentDate.getFullYear() === 2026
 	) {
 		bannerEl.classList.add( bannerVisibleClass );
 	}
-
-	const bottomBanner = document.querySelector( '.banner-bottom' );
-	if ( bottomBanner.classList.contains( 'banner--visible' ) ) {
-		document.body.classList.add( 'bottom-banner' );
+	// Overlay banner
+	const viewportHeight = window.innerHeight;
+	const bannerMini = document.querySelector( '.overlay-banner-mini' );
+	const bannerMiniMessage = document.querySelector( '.overlay-banner-mini-message' );
+	const miniBannerHeight = bannerMini.offsetHeight;
+	const bannerMiniBottom = miniBannerHeight - 10;
+	const bannerToggle = document.getElementsByClassName( 'overlay-banner-toggle' );
+	const bannerVisible = document.getElementsByTagName( 'body' )[ 0 ];
+	function newHeight() {
+		bannerMini.style.height = '';
+		bannerMiniMessage.style.height = '';
+		bannerMiniMessage.style.overflow = '';
+		const miniBannerNewHeight = bannerMini.offsetHeight;
+		const bannerMiniNewBottom = miniBannerNewHeight - 10;
+		bannerMini.style.height = miniBannerNewHeight + 'px';
+		if ( bannerVisible.classList.contains( 'overlay-banner-open' ) ) {
+			bannerMini.style.bottom = '';
+			bannerMini.style.bottom = '-' + bannerMiniNewBottom + 'px';
+		}
+		if ( viewportHeight <= miniBannerNewHeight ) {
+			bannerMini.style.height = '';
+			bannerMini.style.height = '80vh';
+			bannerMiniMessage.style.height = '100%';
+			bannerMiniMessage.style.overflow = 'auto';
+		}
 	}
-
+	const overlayBanner = document.querySelector( '.banner-overlay' );
+	if ( overlayBanner.classList.contains( 'banner--visible' ) ) {
+		// Add height to mini banner
+		bannerMini.style.height = miniBannerHeight + 'px';
+		if ( viewportHeight <= miniBannerHeight ) {
+			bannerMini.style.height = '';
+			bannerMini.style.height = '80vh';
+			bannerMiniMessage.style.height = '100%';
+			bannerMiniMessage.style.overflow = 'auto';
+		}
+		// Display banner
+		if ( !hideBanner && mediumBanner ) {
+			bannerMini.classList.add( 'visible' );
+			bannerMini.style.bottom = '-20px';
+			document.getElementsByTagName( 'body' )[ 0 ].style.paddingBottom = bannerMini.style.height;
+		} else {
+			document.body.classList.add( 'overlay-banner-open' );
+			bannerMini.style.bottom = '-' + bannerMiniBottom + 'px';
+			document.getElementsByTagName( 'body' )[ 0 ].style.paddingBottom = '0';
+		}
+		// Toggle mini banner and main banner
+		for ( let i = 0; i < bannerToggle.length; i++ ) {
+			bannerToggle[ i ].addEventListener( 'click', () => {
+				if ( bannerVisible.classList.contains( 'overlay-banner-open' ) ) {
+					bannerVisible.classList.remove( 'overlay-banner-open' );
+					bannerMini.classList.add( 'visible' );
+					bannerMini.style.bottom = '-20px';
+					document.getElementsByTagName( 'body' )[ 0 ].style.paddingBottom = bannerMini.style.height;
+				} else {
+					const bannerMiniBottomValue = bannerMini.offsetHeight - 10;
+					bannerVisible.classList.add( 'overlay-banner-open' );
+					bannerMini.classList.remove( 'visible' );
+					bannerMini.style.bottom = '-' + bannerMiniBottomValue + 'px';
+					document.getElementsByTagName( 'body' )[ 0 ].style.paddingBottom = '0';
+				}
+			} );
+		}
+		// Update mini banner height on resize
+		let updateHeights;
+		window.onresize = function () {
+			clearTimeout( updateHeights );
+			updateHeights = setTimeout( () => {
+				newHeight();
+			}, 100 );
+		};
+		// Set medium banner cookie on minimise
+		const bannerCollapse = document.getElementsByClassName( 'overlay-banner-toggle' );
+		for ( let i = 0; i < bannerCollapse.length; i++ ) {
+			bannerCollapse[ i ].addEventListener( 'click', () => {
+				document.cookie = 'minimizeWikipediaPortalBanner=1; max-age=1209600; path=/; Secure';
+			} );
+		}
+		// Close banner on X out
+		const bannerClose = document.getElementsByClassName( 'overlay-banner-close' );
+		const bannerMain = document.getElementsByClassName( 'overlay-banner' )[ 0 ];
+		for ( let i = 0; i < bannerClose.length; i++ ) {
+			bannerClose[ i ].addEventListener( 'click', () => {
+				document.cookie = 'hideWikipediaPortalBanner=1; max-age=1209600; path=/; Secure';
+				bannerMain.style.display = 'none';
+			} );
+		}
+		// Amounts grid
+		let amountVal;
+		const amountRadios = document.querySelectorAll( 'input[name="amount"]' );
+		if ( country === 'GB' ) {
+			amountRadios[ 0 ].value = '2';
+		}
+		if ( country === 'IE' ) {
+			amountRadios[ 0 ].value = '2.50';
+		}
+		amountRadios.forEach( ( radioA ) => {
+			radioA.addEventListener( 'click', () => {
+				amountVal = radioA.value;
+				bannerLinkEl.forEach( ( link ) => {
+					link.href += '&preSelect=' + amountVal;
+				} );
+				const children = document.getElementById( 'amountsGrid' ).childNodes;
+				for ( let i = 0; i < children.length; i++ ) {
+					if ( children[ i ].classList ) {
+						children[ i ].classList.remove( 'selected' );
+					}
+				}
+				radioA.parentNode.classList.add( 'selected' );
+				if ( document.getElementById( 'amountsGrid' ).querySelector( '.selected' ) && document.getElementById( 'frequencyGrid' ).querySelector( '.selected' ) ) {
+					document.getElementById( 'frb-donate' ).classList.remove( 'banner-button-disabled' );
+					document.getElementById( 'frb-donate' ).classList.add( 'selected' );
+				}
+			} );
+		} );
+		// Frequency grid
+		let monthlyVal;
+		const monthlyRadios = document.querySelectorAll( 'input[name="monthly"]' );
+		monthlyRadios.forEach( ( radioM ) => {
+			radioM.addEventListener( 'click', () => {
+				monthlyVal = radioM.value;
+				bannerLinkEl.forEach( ( link ) => {
+					link.href += '&monthly=' + monthlyVal;
+				} );
+				const children = document.getElementById( 'frequencyGrid' ).childNodes;
+				for ( let i = 0; i < children.length; i++ ) {
+					if ( children[ i ].classList ) {
+						children[ i ].classList.remove( 'selected' );
+					}
+				}
+				radioM.parentNode.classList.add( 'selected' );
+				if ( document.getElementById( 'amountsGrid' ).querySelector( '.selected' ) && document.getElementById( 'frequencyGrid' ).querySelector( '.selected' ) ) {
+					document.getElementById( 'frb-donate' ).classList.remove( 'banner-button-disabled' );
+					document.getElementById( 'frb-donate' ).classList.add( 'selected' );
+				}
+			} );
+		} );
+		// Disable donate button until amount and frequency are selected
+		const overlayDonateButton = document.getElementById( 'frb-donate' );
+		overlayDonateButton.addEventListener( 'click', function () {
+			if ( this.classList.contains( 'banner-button-disabled' ) ) {
+				event.preventDefault();
+			}
+		} );
+	}
 }( wmTest ) );
