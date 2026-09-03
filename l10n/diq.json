@@ -37,7 +37,7 @@
 	"wiki": {
 		"name": "Wikipediya",
 		"slogan": "Ensiklopediya xosere",
-		"entries": "wesiqey",
+		"entries": "meqaleyi",
 		"search-input-label": "Wikipediya de cı geyre",
 		"language-button-text": "Wikipediya zıwanê xo de bıwane",
 		"footer-description": "Wikipediya, weqıfê wikimedya de dariya we, zey ê organizasyonanê proceyanê binan.",
@@ -66,14 +66,14 @@
 	"wikinews": {
 		"name": "Wikixebere",
 		"slogan": "Çımey Xeberanê Xosera",
-		"entries": "Wesiqey",
+		"entries": "meqaleyi",
 		"search-input-label": "Cıgeyrê wikixeber",
 		"language-button-text": "Wikixeber zonê ho de bıwane"
 	},
 	"wikiquote": {
 		"name": "Wikivate",
 		"slogan": "Koleksiyona vatenan",
-		"entries": "wesiqey",
+		"entries": "meqaleyi",
 		"search-input-label": "Cıgeyrê Wikivateyi",
 		"language-button-text": "Wikivateyi zonê ho de bıwane"
 	},
