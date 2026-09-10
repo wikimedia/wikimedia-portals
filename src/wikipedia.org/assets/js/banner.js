@@ -86,7 +86,7 @@
 	} );
 	if ( !hideBanner &&
 		country &&
-		bannerCountries.includes( country ) > -1 &&
+		bannerCountries.includes( country ) &&
 		userLangs[ 0 ] === bannerLang &&
 		currentDate.getFullYear() === 2026
 	) {
