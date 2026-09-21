@@ -1,13 +1,120 @@
 {
 	"@metadata": {
 		"authors": [
-			"DannyS712"
+			"DannyS712",
+			"咽頭べさ"
 		]
 	},
 	"language-name": "पालि",
 	"language-name-romanized": "Pāḷi",
 	"language-name-romanized-sorted": "Pali",
+	"footer-donate": "तव चागेन अम्हेहि कतकिरियं सम्पग्गण्हितुं सक्कोहि॥",
+	"license": "इमं पुट्ठं खेत्तं कित्तिचित्तविभाग <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike License</a>",
+	"terms": "परियोगाहननियमा",
+	"privacy-policy": "गुत्तिनियमं",
+	"search-input-button": "परियेसना",
+	"other-languages-label": "अञ्ञभासायो",
+	"top-ten-nav-label": "सुट्ठुभासायो",
+	"all-languages-nav-label": "सब्बभासायो",
+	"other-projects-nav-label": "अञ्ञप्रोजेक्ट",
+	"wikimedia-org-welcome": "सवागतं! वीकीमीदीया चलनं नाम सब्बलोकिक समागमो होति। यत्थ जना। किरियायो। पयोगा च विज्जाय निब्बत्तनत्थाय च विवटभावेन निस्सज्जनत्थाय च सहकारिभावेन कम्मं करोन्ति॥",
+	"wikimedia-org-welcome-subtitle": "सब्बठानेसु सब्बेसं सब्बञाणस्स विवटभावत्थाय अम्हेहि सह आगच्छहि॥",
+	"wikimedia-org-our-projects": "अम्हेहं प्रोजेक्ट",
+	"wikimedia-org-our-projects-desc": "अम्हेहं प्रोजेक्ट <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">वीकीमीदीया</a> चलनस्स मज्झत्तं होन्ति॥ सब्बा पधान प्रोजेक्ट <a href=\"https://wikimediafoundation.org/\">वीकीमीदीया पतिट्ठानेन</a>चालीयन्ति। अज्झत्तधम्मा च सब्बलोके द्विसताधिक छळासीति सहस्स २६०००० योजको <a href=\"https://www.mediawiki.org/\">मीदीयावीकी</a> सॉफ़्टवेयर उपयुञ्जित्वा सहकारिभावेन वड्ढिता होन्ति॥",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">वीकीमीदीया पतिट्ठानं</a> नाम सब्ब वीकीमीदीया प्रोजेक्ट आधारभूतं निरत्थकामं संघातं होति। यं सब्बलोकिकानि समवायनि च मुत्तन्तेन लब्भेनिय विज्जानं निब्बत्तके च संसुद्धिकारे च सम्पग्गण्हाति॥",
+	"wikimedia-org-projects-reference": "निस्सय",
+	"wikimedia-org-projects-collections": "सङ्गहा",
+	"wikimedia-org-projects-technology": "सिप्पविज्जा",
+	"wikimedia-org-projects-guides": "निद्देसो",
+	"wikimedia-org-projects-collaboration": "सहकम्मं",
+	"wikimedia-org-donate-title": "तव दानं सब्बेसं विवटस्स मुत्तस्स च ञाणस्स मनुस्सिक धम्मिक हत्थत्थाय आरक्खं ददाति॥",
+	"wikimedia-org-donate-button": "इदानि निहरहि",
+	"wikimedia-org-contact": "आयुज्जनं",
+	"wikimedia-org-contact-text": "वीकीमीदीया पतिट्ठानस्स वा वीकीमीदीया प्रोजेक्ट वा विसये पञ्हा विज्जन्ति किं? अम्हेहि सह सम्पक्कं करोहि॥",
+	"wikimedia-org-contact-link": "आयुज्जनं",
 	"wiki": {
-		"name": "विकिपीडिया"
+		"name": "विकिपीडिया",
+		"slogan": "मुत्तन्त विज्जाकोसो",
+		"entries": "लेखनानि",
+		"search-input-label": "वीकीपीदीया गवेसनं",
+		"language-button-text": "सक भासाय वीकीपीदीया वाचेहि",
+		"footer-description": "वीकीपीदीया वीकीमीदीया पतिट्ठानेन निस्सितं होति। यं निरत्थकामं संघातं अञ्ञेसङ्च बहुविधानं प्रोजेक्ट आधारभूतं होति॥",
+		"app-links": {
+			"title": "डाउनलोड वीकीपीदीया वा एंड्रॉइड वा आईओएस",
+			"description": "अप्पटिबद्धे पठनाय तव पिय लेखनानि रक्खाहि। सुचिं सब्ब यन्तेसु सङ्गण्हाहि। अधिकारिक वीकीपीदीया ऐप च तव अधिगम अनुभवं सञ्चत्तं करोहि॥",
+			"google-store": "गूगल प्ले स्टोर",
+			"apple-store": "एप्पल ऐप स्टोर",
+			"url": "https://pi.wikipedia.org/wiki/वीकीपीदीया_मोबाइल_ऐप_सुचि"
+		}
+	},
+	"wiktionary": {
+		"name": "विक्शनरी",
+		"slogan": "मुत्त निघण्डु",
+		"entries": "पदत्था",
+		"search-input-label": "विक्शनरी ते फस्साहि",
+		"language-button-text": "तव भासाय विक्शनरी पठाहि"
+	},
+	"wikibooks": {
+		"name": "वीकीपोत्थकानि",
+		"slogan": "अमुल्लिय पठन पोत्थकानि",
+		"entries": "पिट्ठानि",
+		"search-input-label": "वीकीपोत्थकानि गवेसहि",
+		"language-button-text": "तव भासाय वीकीपोत्थकानि पठाहि"
+	},
+	"wikinews": {
+		"name": "वीकीसुत्ति",
+		"slogan": "अमुल्लिय पवत्ति मूलं",
+		"entries": "लेखनानि",
+		"search-input-label": "वीकीसुत्ति ते फस्साहि",
+		"language-button-text": "तव भासाय वीकीसुत्ति पठाहि"
+	},
+	"wikiquote": {
+		"name": "वीकीउद्धरणं",
+		"slogan": "अमुल्लिय वचन समुच्चयो",
+		"entries": "लेखनानि",
+		"search-input-label": "वीकीउद्धरणं ते फस्साहि",
+		"language-button-text": "तव भासाय वीकीउद्धरणं पठाहि"
+	},
+	"wikisource": {
+		"name": "वीकीमूलं",
+		"slogan": "अमुल्लिय विज्जा गहणं"
+	},
+	"wikiversity": {
+		"name": "वीकीविज्जालयो",
+		"slogan": "अमुल्लिय विज्जा आहारो",
+		"entries": "सिक्खा वाहनानि",
+		"search-input-label": "वीकीविज्जालयोते फस्साहि",
+		"language-button-text": "तव भासाय वीकीविज्जालयो पठाहि"
+	},
+	"wikivoyage": {
+		"name": "वीकीजात्रा",
+		"slogan": "मुत्त जात्रा मग्गदेसिकं",
+		"entries": "पिट्ठानि",
+		"search-input-label": "वीकीजात्रा ते फस्साहि",
+		"language-button-text": "तव भासाय वीकीजात्रा पठाहि"
+	},
+	"commons": {
+		"name": "कॉमन्स",
+		"slogan": "अमुल्लिय मीदीया निधि"
+	},
+	"wikispecies": {
+		"name": "वीकीजाति",
+		"slogan": "अमुल्लिय जाति सूचि"
+	},
+	"wikifunctions": {
+		"name": "वीकीकम्मानि",
+		"slogan": "मुत्त कम्मानि पिट्ठक निधि"
+	},
+	"wikidata": {
+		"name": "वीकीदेता",
+		"slogan": "अमुल्लिय विज्जा निस्सयो"
+	},
+	"mediawiki": {
+		"name": "मीदीयावीकी",
+		"slogan": "अमुल्लिय पाकट वीकी सॉफ्टवेयर"
+	},
+	"metawiki": {
+		"name": "मेता-वीकी",
+		"slogan": "समुदाय सम्पयोगो च लिखित गहणं"
 	}
 }
