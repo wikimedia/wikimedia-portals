@@ -9,40 +9,114 @@
 	"language-name-romanized": "Mäzeruni",
 	"language-name-romanized-sorted": "Mazeruni",
 	"footer-donate": "شما تونِنی مالی کمک جا امه کار جا حمایت هاکنین.",
+	"license": "این صفحه ره <a href='https://creativecommons.org/licenses/by-sa/4.0/'>کرییتیو کامنز مجوز جه</a> شمه دسترس قرار هدانه.",
+	"terms": "استفاده‌یِ شرایط",
+	"privacy-policy": "حریم سیاست",
+	"terms-link": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use",
+	"privacy-policy-link": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy",
+	"search-input-button": "چرخه‌تو",
+	"other-languages-label": "دیگه زوونون",
+	"top-ten-nav-label": "بتترین زوونون",
+	"all-languages-nav-label": "گِردِ زوونون",
+	"other-projects-nav-label": "دیگه پروژه‌ئون",
+	"wikimedia-org-welcome": "خِش بمونی! ویکی‌مدیایِ رِمبِش اتا جهونی جامعه بساته که ونه دله آدمون، پروژه‌ئون و کردکارون ره دست‌جمیعتی ساجنّه و تنک‌ترو کنّه که آزادِ دانش تنک بوو.",
+	"wikimedia-org-welcome-subtitle": "إما ره تن بئین که دانش ره همه جا، همه کس وسّه دسترس قرار هادیم و تنک هاکنیم.",
+	"wikimedia-org-our-projects": "أمه پروژه‌ئون",
+	"wikimedia-org-our-projects-desc": "أمه پروژه‌ئون <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">ویکی‌مدیایِ رِمبِش</a> اصل هستنه. ونه مهمترین پروژه‌ئون ره <a href=\"https://wikimediafoundation.org/\">ویکی‌مدیا بنیاد</a> إداره کنده و ونه محتوا ره بیش از ۲۶۰٬۰۰۰ کاروَر که تموم جهون دله درنه، <a href=\"https://www.mediawiki.org/\">مدیاویکی</a> نرم‌افزار پشتی، سازنّه.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">ویکی‌مدیا بنیاد</a> اتا بی‌سود سازمان هسته که گِردِ ویکی‌مدیا پروژه‌ئون ره پشتی کنده و تموم دنیایِ آدمون که آزادِ محتوا ره ساجنّه و دیگرون دسترس قرار دِنّه ره سامان‌دهی و پشتیبانی کنده.",
+	"wikimedia-org-projects-reference": "منبع",
+	"wikimedia-org-projects-collections": "مجموعه‌ئون",
+	"wikimedia-org-projects-technology": "تکنولوجی",
+	"wikimedia-org-projects-guides": "راهنمائون",
+	"wikimedia-org-projects-collaboration": "کایری",
+	"wikimedia-org-donate-title": "شمه پولی پشتی هاکردن تونده کومک هاکنه که آدمونِ آزادِ دسترسی، دانش جه محافظت بوه.",
+	"wikimedia-org-donate-button": "إسا پول کؤمک هاکنین",
+	"wikimedia-org-contact": "تماس",
+	"wikimedia-org-contact-text": "ویکی‌مدیایِ بنیاد خَوِری شمه وسّه سؤال پیش بمو؟ أمجه هاپرسین.",
+	"wikimedia-org-contact-link": "تماس",
 	"wiki": {
-		"name": "ویکی‌پدیا"
+		"name": "ویکی‌پدیا",
+		"slogan": "آزاد دانش‌نومه",
+		"entries": "مقاله",
+		"search-input-label": "ویکی‌پدیای چرخه‌تو",
+		"language-button-text": "ویکی‌پدیا ره شه زوون جه بخوندین",
+		"footer-description": "ویکی‌پدیا ره ویکی‌مدیایِ بنیاد پشتی کنده؛ اتا بی‌سود سازمان که دیگه پروژه‌ئون ره هم پیش وَرنه.",
+		"app-links": {
+			"title": "ویکی‌پدیا ره شه مِبایل دله اندروید یا آی‌اؤإس جه هارشین",
+			"description": "شه دلوس مقاله‌ئون ره آفلاین بخوندستن وسّه ذخیره هاکنین، شه بخوندستنی لیست ره چنتا دستگاه دله هماهنگ هاکنین و ویکی‌پدیایِ رسمی أپ جه شه مطالعه‌یِ تجربه ره شه دلوست هاکنین.",
+			"google-store": "گوگل پِلِی إستور",
+			"apple-store": "أپل أپ إستور",
+			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
+		}
 	},
 	"wiktionary": {
-		"name": "ویکی‌واژه"
+		"name": "ویکی‌واژه",
+		"slogan": "آزادِ واژه‌نومه",
+		"entries": "مدخل",
+		"search-input-label": "ویکی‌واژه دله چرخه‌تو",
+		"language-button-text": "ویکی‌واژه ره شه زوون جه بخوندین"
 	},
 	"wikibooks": {
-		"name": "ویکی‌کتاب"
+		"name": "ویکی‌کتاب",
+		"slogan": "آزادِ کتابون",
+		"entries": "صفحات",
+		"search-input-label": "ویکی‌کتاب چرخه‌تو",
+		"language-button-text": "ویکی‌کتاب ره شه زوون جه بخوندین"
 	},
 	"wikinews": {
-		"name": "ویکی‌خور"
+		"name": "ویکی‌خور",
+		"slogan": "آزادِ خورونِ منبع",
+		"entries": "مقالات",
+		"search-input-label": "ویکی‌نیوز چرخه‌تو",
+		"language-button-text": "ویکی‌نیوز ره شه زوون جه بخوندین"
 	},
 	"wikiquote": {
-		"name": "ویکی‌بائوته"
+		"name": "ویکی‌بائوته",
+		"slogan": "آزادِ پیربته گپون",
+		"entries": "مقالات",
+		"search-input-label": "ویکی‌بائوته چرخه‌تو",
+		"language-button-text": "ویکی‌بائوته ره شه زوون جه بخوندین"
 	},
 	"wikisource": {
-		"name": "ویکی‌قالزم"
+		"name": "ویکی‌قالزم",
+		"slogan": "آزادِ کتابخنه"
 	},
 	"wikiversity": {
-		"name": "ویکی‌دانشگاه"
+		"name": "ویکی‌دانشگاه",
+		"slogan": "آزادِ آموزشی منابع",
+		"entries": "آموزشی منابع",
+		"search-input-label": "ویکی‌دانشگاه چرخه‌تو",
+		"language-button-text": "ویکی‌دانشگاه ره شه زوون جه بخوندین"
 	},
 	"wikivoyage": {
-		"name": "ویکی‌سفر"
+		"name": "ویکی‌سفر",
+		"slogan": "آزادِ سفرِ راهنما",
+		"entries": "صفحات",
+		"search-input-label": "ویکی‌سفر چرخه‌تو",
+		"language-button-text": "ویکی‌سفر ره شه زوون جه بخوندین"
 	},
 	"commons": {
-		"name": "ویکی‌تلمبار"
+		"name": "ویکی‌تلمبار",
+		"slogan": "آزادِ عکس و فیلمون"
+	},
+	"wikispecies": {
+		"name": "ویکی‌زیست",
+		"slogan": "آزادِ جاندارونِ دایرکتوری"
 	},
 	"wikifunctions": {
-		"name": "ویکی‌فانکشن"
+		"name": "ویکی‌فانکشن",
+		"slogan": "آزادِ توابعِ کتابخنه"
 	},
 	"wikidata": {
-		"name": "ویکی‌دیتا"
+		"name": "ویکی‌دیتا",
+		"slogan": "آزادِ دانشِ پایگاه"
 	},
 	"mediawiki": {
-		"name": "مدیاویکی"
+		"name": "مدیاویکی",
+		"slogan": "آزاد و باز ویکی نرم‌افزار"
+	},
+	"metawiki": {
+		"name": "متاویکی",
+		"slogan": "جامعه‌یِ هماهنگی و مستند هاکردن"
 	}
 }
