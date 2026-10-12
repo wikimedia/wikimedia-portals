@@ -1,9 +1,46 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Albinfo"
+		]
 	},
 	"language-name": "Rumantsch",
+	"terms": "Cundiziuns d'utilisaziun",
+	"privacy-policy": "Protecziun da datas",
+	"search-input-button": "Tschertgar",
+	"other-languages-label": "Autras linguas",
+	"top-ten-nav-label": "Linguas relevants",
+	"all-languages-nav-label": "Tut las linguas",
+	"other-projects-nav-label": "Auters projects",
+	"wikimedia-org-projects-reference": "Annotaziun",
+	"wikimedia-org-projects-collections": "Collecziuns",
+	"wikimedia-org-projects-technology": "Tecnologia",
+	"wikimedia-org-projects-collaboration": "Collavuraziun",
+	"wikimedia-org-donate-button": "Donaziun",
+	"wikimedia-org-contact": "Contact",
+	"wikimedia-org-contact-link": "Contact",
 	"wiki": {
-		"name": "Wikipedia"
+		"name": "Wikipedia",
+		"slogan": "L'Enciclopedia libra",
+		"entries": "Artitgels",
+		"search-input-label": "Tschertgar en la Vichipedia"
+	},
+	"wikibooks": {
+		"entries": "paginas"
+	},
+	"wikinews": {
+		"entries": "artitgels"
+	},
+	"wikiquote": {
+		"entries": "artitgels"
+	},
+	"wikivoyage": {
+		"entries": "paginas"
+	},
+	"wikidata": {
+		"slogan": "Banca da datas da savida libra"
+	},
+	"metawiki": {
+		"slogan": "Plattafurma centrala per la collavuraziun e documentaziun"
 	}
 }
