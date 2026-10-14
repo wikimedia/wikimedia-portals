@@ -81,10 +81,10 @@
 	let bannerVariant;
 	if ( bannerNumber > 0.5 ) {
 		bannerEl.classList.add( 'banner-control' );
-		bannerVariant = 'Control';
+		bannerVariant = 'CntHeadline';
 	} else {
 		bannerEl.classList.add( 'banner-variant' );
-		bannerVariant = 'CurrentBest';
+		bannerVariant = 'CBHeadline';
 	}
 	bannerLinkEl.forEach( ( link ) => {
 		link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
