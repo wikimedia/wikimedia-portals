@@ -15,6 +15,12 @@
 	"search-input-button": "Oza",
 	"other-languages-label": "Eará gielat",
 	"all-languages-nav-label": "Buot gielat",
+	"other-projects-nav-label": "Eará prošeavttat",
+	"wikimedia-org-our-projects": "Min prošeavttat",
+	"wikimedia-org-projects-reference": "Ohcangirjjit",
+	"wikimedia-org-projects-technology": "Teknologiija",
+	"wikimedia-org-contact": "Váldde oktavuođa",
+	"wikimedia-org-contact-link": "Váldde oktavuođa",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Almmolaš diehtosátnegirji",
@@ -40,7 +46,8 @@
 	},
 	"wikiquote": {
 		"name": "Wikisitáhtat",
-		"entries": "artihkkalat"
+		"entries": "artihkkalat",
+		"search-input-label": "Oza Wikisitáhtas"
 	},
 	"wikisource": {
 		"name": "Wikisource",

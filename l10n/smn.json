@@ -12,6 +12,12 @@
 	"search-input-button": "Uusâ",
 	"other-languages-label": "Eres kielah",
 	"all-languages-nav-label": "Puoh kielah",
+	"other-projects-nav-label": "Eres projekteh",
+	"wikimedia-org-our-projects": "Mii projekteh",
+	"wikimedia-org-projects-reference": "Uuccâmkirjeh",
+	"wikimedia-org-projects-technology": "Teknologia",
+	"wikimedia-org-contact": "Vääldi ohtâvuođâ",
+	"wikimedia-org-contact-link": "Vääldi ohtâvuođâ",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Rijjâ tiätusänikirje",
@@ -36,7 +42,8 @@
 	},
 	"wikiquote": {
 		"name": "Wikisitaateh",
-		"entries": "artikkâleh"
+		"entries": "artikkâleh",
+		"search-input-label": "Uusâ Wikisitatist"
 	},
 	"wikisource": {
 		"name": "Wikikäldee",
