@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
 	"language-name": "سرائیکی",
@@ -13,11 +14,24 @@
 	"privacy-policy": "رازداری پالیسی",
 	"search-input-button": "ڳولو",
 	"other-languages-label": "ٻیاں زباناں",
+	"top-ten-nav-label": "سرفہرست زبانا",
 	"all-languages-nav-label": "ساریاں زباناں",
 	"other-projects-nav-label": "ٻئے منصوبے",
+	"wikimedia-org-welcome": "ست بسم اللہ! وکی میڈیا موومنٹ لوکاں، پروجیکٹس تے سرگرمیاں دی ہک عالمی کمیونٹی اے جیہڑی رل کے علم کوں مفت ونڈݨ تے بݨاوݨ دا کم کریندی اے۔",
+	"wikimedia-org-welcome-subtitle": "ساݙے نال تھیوو تاکہ ہر جاہ ہر بندے تک ہر قسم دا علم پہنچایا ونج سڳے۔",
+	"wikimedia-org-our-projects": "ساݙے پروجیکٹ",
+	"wikimedia-org-our-projects-desc": "ساݙے پروجیکٹ وکی میڈیا موومنٹ دا مرکز ہن۔ سارے وݙے پروجیکٹ وکی میڈیا فاؤنڈیشن طرفوں چلائے ویندن، تے ایندا مواد دنیا بھر دے 260,000 توں زیادہ ورتݨ آلے میڈیا وکی سافٹ ویئر نال رل کے تیار کریندن۔",
+	"wikimedia-org-wmf": "وکی میڈیا فاؤنڈیشن ہک غیر منافع بخش (نان پرافٹ) ادارہ اے جیہڑا سارے وکی میڈیا پروجیکٹس دی میزبانی کریندے تے دنیا بھر دیاں انجوجھ انی کمیونٹیز دی مدد کریندے جیہڑے آزادانہ طور تے رسائی آلے مواد نوں بݨیندن تے سنبھلیندن۔",
+	"wikimedia-org-projects-reference": "حوالہ",
+	"wikimedia-org-projects-collections": "مجموعے",
 	"wikimedia-org-projects-technology": "ٹیکنالوجی",
 	"wikimedia-org-projects-guides": "رہنمائی کریندے",
+	"wikimedia-org-projects-collaboration": "اشتراک",
+	"wikimedia-org-donate-title": "تُواݙا چندہ ہر شخص دے کُھلے تے آزاد علم دے انسانی حق دی حفاظت کریندے۔",
+	"wikimedia-org-donate-button": "چدہ ݙیوو",
 	"wikimedia-org-contact": "رابطہ",
+	"wikimedia-org-contact-text": "وکی میڈیا فاؤنڈیشن یا وکی میڈیا پروجیکٹس دے بارے وچ کوئی سوال اے؟ ساݙے نال رابطہ کرو۔",
+	"wikimedia-org-contact-link": "رابطہ",
 	"wiki": {
 		"name": "وکیپیڈیا",
 		"slogan": "مفت انسائیکلوپیڈیا",
@@ -27,6 +41,7 @@
 		"footer-description": "وکی پیڈیا دا ہوسٹ وکی میڈیا فاؤنڈیشن ہے جہڑی غیر منافع تنظیم ہے تے ڈھیر سارے ٻئے منصوبیاں دی آدری تے ہوسٹ ہے۔",
 		"app-links": {
 			"title": "اینڈرائیڈ یا آئی اوایس کیتے وکی پیڈیا ڈاؤن لوڈ کرو",
+			"description": "ویکیپیڈیاایپ دی سرکاری ایپ دے ذریعے اپݨے پسندیدہ آرٹیکلز کوں آف لائن پڑھݨ کیتے محفوظ کرو، اپݨی ریڈنگ لسٹس کوں ڈیوائسز وچ سنک کرو، تے اپݨے پڑھݨ دے تجربے کوں مرضی دے مطابق بناؤ۔",
 			"google-store": "گوگل پلے سٹور",
 			"apple-store": "اَیپل اَیپ سٹور",
 			"url": "https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications"
@@ -62,11 +77,11 @@
 	},
 	"wikisource": {
 		"name": "وکی ماخذ",
-		"slogan": "مفت لائبریری"
+		"slogan": "مفت مواد لائبریری"
 	},
 	"wikiversity": {
 		"name": "وکی ورسٹی",
-		"slogan": "مفت کورس دا مواد",
+		"slogan": "سیکھݨ کیتے وسائل",
 		"entries": "سیکھݨ کیتے وسائل",
 		"search-input-label": "وکی ورسٹی وچ ڳولو",
 		"language-button-text": "آپݨی زبان وچ وکی ورسٹی پڑھو"
@@ -80,11 +95,15 @@
 	},
 	"commons": {
 		"name": "کامنز",
-		"slogan": "مفت قابل استعمال فوٹو تے ٻیا کجھ"
+		"slogan": "مفت قابل استعمال فوٹو"
 	},
 	"wikispecies": {
 		"name": "وکی سپیشیز",
 		"slogan": "مفت سپیشیز ڈائریکٹری"
+	},
+	"wikifunctions": {
+		"name": "ویکی فنکشنز",
+		"slogan": "مفت فنکشن لائبریری"
 	},
 	"wikidata": {
 		"name": "وکی ڈیٹا",
@@ -92,7 +111,7 @@
 	},
 	"mediawiki": {
 		"name": "میڈیا وکی",
-		"slogan": "مفت تے کھلا وکی استعمال"
+		"slogan": "مفت تے کھلا وکی سافٹ ویئر"
 	},
 	"metawiki": {
 		"name": "میٹا وکی",
