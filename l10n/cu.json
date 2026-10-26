@@ -1,11 +1,23 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Oujon"
+		]
 	},
 	"language-name": "Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ",
 	"language-name-romanized": "Slověnĭskŭ",
 	"language-name-romanized-sorted": "Slovenisku",
+	"search-input-button": "ищи",
+	"other-languages-label": "дроугꙑ ѩꙁꙑкꙑ",
+	"top-ten-nav-label": "вѧщи ѩꙁꙑци",
 	"wiki": {
 		"name": "Википєдїꙗ"
+	},
+	"wikiquote": {
+		"name": "Викирєчєниꙗ",
+		"entries": "Статьи"
+	},
+	"wikispecies": {
+		"name": "Викитвариѥ"
 	}
 }
