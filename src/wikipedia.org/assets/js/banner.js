@@ -81,10 +81,10 @@
 	let bannerVariant;
 	if ( bannerNumber > 0.5 ) {
 		bannerEl.classList.add( 'banner-control' );
-		bannerVariant = 'CntHeadline';
+		bannerVariant = 'CBCopy';
 	} else {
 		bannerEl.classList.add( 'banner-variant' );
-		bannerVariant = 'CBHeadline';
+		bannerVariant = '2526Copy';
 	}
 	bannerLinkEl.forEach( ( link ) => {
 		link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
