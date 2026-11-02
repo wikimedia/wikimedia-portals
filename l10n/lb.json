@@ -26,7 +26,9 @@
 	"wikimedia-org-projects-reference": "Referenz",
 	"wikimedia-org-projects-collections": "Sammlungen",
 	"wikimedia-org-projects-technology": "Technologie",
+	"wikimedia-org-projects-guides": "Guiden",
 	"wikimedia-org-projects-collaboration": "Collaboratioun",
+	"wikimedia-org-donate-title": "Ären Don schützt d'Mënscherecht op fräit an oppent Wësse fir jiddereen.",
 	"wikimedia-org-donate-button": "Maacht elo en Don",
 	"wikimedia-org-contact": "Kontakt",
 	"wikimedia-org-contact-text": "Froen iwwer d'Wikimedia Foundation oder Wikimedia-Projeten? Kontaktéiert eis.",
@@ -62,7 +64,7 @@
 	},
 	"wikinews": {
 		"name": "Wikinews",
-		"slogan": "Fräi Quelle vun Noriichten",
+		"slogan": "Fräi Noriichtequell",
 		"entries": "Artikelen",
 		"search-input-label": "Op Wikinews sichen",
 		"language-button-text": "Liest Wikinews an Ärer Sprooch"
@@ -76,7 +78,7 @@
 	},
 	"wikisource": {
 		"name": "Wikisource",
-		"slogan": "Bibliothéik mat fräiem Inhalt"
+		"slogan": "Bibliothéik mat fräien Inhalter"
 	},
 	"wikiversity": {
 		"name": "Wikiversity",
@@ -94,7 +96,7 @@
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Fräi Mediesammlungen"
+		"slogan": "Fräi Mediesammlung"
 	},
 	"wikispecies": {
 		"name": "Wikispecies",
