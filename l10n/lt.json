@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Babellini",
 			"Eitvys200",
 			"Manvydasz",
 			"Naktis",
@@ -19,6 +20,24 @@
 	"terms-link": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/lt",
 	"search-input-button": "Paieška",
 	"other-languages-label": "Kitos kalbos",
+	"top-ten-nav-label": "Dažniausiai naudojamos kalbos",
+	"all-languages-nav-label": "Visos kalbos",
+	"other-projects-nav-label": "Kiti projektai",
+	"wikimedia-org-welcome": "Sveiki atvykę! Vikimedija judėjimas – tai pasaulinė žmonių, projektų ir veiklų bendruomenė, bendradarbiaujanti siekdama laisvai kurti ir dalytis žiniomis.",
+	"wikimedia-org-welcome-subtitle": "Prisijunkite prie mūsų, kad visos žinios būtų prieinamos visiems ir visur.",
+	"wikimedia-org-our-projects": "Mūsų projektai",
+	"wikimedia-org-our-projects-desc": "Mūsų projektai yra <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Vikimedijos judėjimo</a> pagrindas. Visus pagrindinius projektus valdo <a href=\"https://wikimediafoundation.org/\">Vikimedijos fonds</a>, o turinį bendradarbiaudami kuria daugiau nei 260 000 vartotojų visame pasaulyje, naudodamiesi <a href=\"https://www.mediawiki.org/\">„MediaWiki“</a> programine įranga.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Vikimedijos fondas</a> yra ne pelno siekianti organizacija, kuri talpina visus Vikimedijos projektus ir remia bendruomenes visame pasaulyje, kurios kuria ir kuruoja laisvai prieinamą turinį.",
+	"wikimedia-org-projects-reference": "Šaltiniai",
+	"wikimedia-org-projects-collections": "Kolekcijos",
+	"wikimedia-org-projects-technology": "Technologijos",
+	"wikimedia-org-projects-guides": "Gidai",
+	"wikimedia-org-projects-collaboration": "Bendradarbiavimas",
+	"wikimedia-org-donate-title": "Jūsų parama gina žmonių teises į nemokamas ir atviras žinias kiekvienam.",
+	"wikimedia-org-donate-button": "Paremti dabar",
+	"wikimedia-org-contact": "Kontaktai",
+	"wikimedia-org-contact-text": "Turite klausimų apie Vikimedijos fondą arba Vikimedijos projektus? Susisiekite.",
+	"wikimedia-org-contact-link": "Susisiekti",
 	"wiki": {
 		"name": "Vikipedija",
 		"slogan": "Laisvoji enciklopedija",
@@ -64,11 +83,11 @@
 	},
 	"wikisource": {
 		"name": "Vikišaltiniai",
-		"slogan": "Nemokama biblioteka"
+		"slogan": "Nemokama turinio biblioteka"
 	},
 	"wikiversity": {
 		"name": "Vikiversitetas",
-		"slogan": "Nemokama kursų medžiaga",
+		"slogan": "Nemokami mokymosi ištekliai",
 		"entries": "mokymosi ištekliai",
 		"search-input-label": "Ieškoti \"Wikiversity\" svetainėje",
 		"language-button-text": "Skaityti \"Wikiversity\" savo kalba"
@@ -82,11 +101,15 @@
 	},
 	"commons": {
 		"name": "Vikiteka",
-		"slogan": "Laisvai naudojamos nuotraukos ir daugiau"
+		"slogan": "Nemokamos medijos kolekcija"
 	},
 	"wikispecies": {
 		"name": "Vikirūšys",
 		"slogan": "Nemokamas rūšių katalogas"
+	},
+	"wikifunctions": {
+		"name": "Vikifunkcijos",
+		"slogan": "Nemokamų funkcijų biblioteka"
 	},
 	"wikidata": {
 		"name": "Vikiduomenys",
