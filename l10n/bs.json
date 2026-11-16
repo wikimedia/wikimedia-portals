@@ -1,64 +1,107 @@
 {
 	"@metadata": {
 		"authors": [
+			"Panasko",
 			"Srdjan m",
 			"Srđan"
 		]
 	},
 	"language-name": "Bosanski",
-	"license": "Stranica je dostupna pod licencom <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Autorstvo-Dijeliti pod istim uvjetima</a>.",
+	"footer-donate": "Naš rad možete podržati donacijom.",
+	"license": "Stranica je dostupna pod licencom <a href='https://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike licenca</a>.",
 	"terms": "Uslovi korištenja",
 	"privacy-policy": "Pravila o privatnosti",
+	"search-input-button": "Traži",
+	"other-languages-label": "Drugi jezici",
+	"top-ten-nav-label": "Najzastupljeniji jezici",
+	"all-languages-nav-label": "Svi jezici",
+	"other-projects-nav-label": "Drugi projekti",
+	"wikimedia-org-welcome": "Dobrodošli! Wikimedija pokret je globalna zajednica ljudi, projekata i aktivnosti koji zajedno rade na stvaranju i slobodnom dijeljenju znanja.",
+	"wikimedia-org-welcome-subtitle": "Pridružite nam se u tome da svo znanje učinimo dostupnim svima, svuda.",
+	"wikimedia-org-our-projects": "Naši projekti",
+	"wikimedia-org-our-projects-desc": "Naši projekti su srž <a href=\"https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement\">Pokret Wikimedija</a>. Sve glavne projekte vodi Fondacija Wikimedia, a sadržaj zajednički razvija preko 260.000 korisnika širom svijeta koristeći <a href=\"https://www.mediawiki.org/\">MediaWiki</a> softver.",
+	"wikimedia-org-wmf": "<a href=\"https://wikimediafoundation.org/\">Fondacija Wikimedia</a> je neprofitna organizacija koja ugošćuje sve Wikimedia projekte i pruža podršku zajednicama širom svijeta koje kreiraju i uređuju slobodno dostupan sadržaj.",
+	"wikimedia-org-projects-reference": "Referenca",
+	"wikimedia-org-projects-collections": "Zbirke",
+	"wikimedia-org-projects-technology": "Tehnologija",
+	"wikimedia-org-projects-guides": "Priručnici",
+	"wikimedia-org-projects-collaboration": "Saradnja",
+	"wikimedia-org-donate-title": "Vaša donacija štiti ljudsko pravo na slobodno i otvoreno znanje za sve.",
+	"wikimedia-org-donate-button": "Doniraj",
+	"wikimedia-org-contact": "Kontakt",
+	"wikimedia-org-contact-text": "Imate li pitanja o Wikimedija fondaciji ili Wikimedija projektima? Javite nam se.",
+	"wikimedia-org-contact-link": "Kontakt",
 	"wiki": {
 		"name": "Wikipedia",
 		"slogan": "Slobodna enciklopedija",
 		"entries": "članaka",
+		"search-input-label": "Pretraži Wikipediju",
 		"language-button-text": "Čitajte Wikipediju na svom jeziku",
 		"footer-description": "Wikipediju pruža Zadužbina Wikimedia, neprofitna organizacija koja također udomljuje niz drugih projekata.",
 		"app-links": {
-			"title": "Sad su dostupne Wikipedijine aplikacije:"
+			"title": "Sad su dostupne Wikipedijine aplikacije:",
+			"description": "Sačuvajte svoje omiljene članke za čitanje van mreže, sinhronizujte liste za čitanje na različitim uređajima i prilagodite svoje iskustvo čitanja pomoću zvanične Wikipedija aplikacije.",
+			"google-store": "Google Play Store",
+			"apple-store": "Apple App Store"
 		}
 	},
 	"wiktionary": {
 		"name": "Wikirječnik",
 		"slogan": "Slobodni rječnik",
-		"entries": "unosa"
+		"entries": "unosa",
+		"search-input-label": "Pretraži Wiktionary",
+		"language-button-text": "Čitajte Wiktionary na svom jeziku"
 	},
 	"wikibooks": {
 		"name": "Wikiknjige",
 		"slogan": "Slobodni udžbenici",
-		"entries": "stranica"
+		"entries": "stranica",
+		"search-input-label": "Pretraži Wikiknjige",
+		"language-button-text": "Čitajte Wikiknjige na svom jeziku"
 	},
 	"wikinews": {
 		"name": "Wikivijesti",
 		"slogan": "Slobodni izvor vijesti",
-		"entries": "članaka"
+		"entries": "članaka",
+		"search-input-label": "Pretraži Wikivijesti",
+		"language-button-text": "Čitajte Wikivijesti na svom jeziku"
 	},
 	"wikiquote": {
 		"name": "Wikicitat",
 		"slogan": "Slobodna zbirka citata",
-		"entries": "tekst(ov)a"
+		"entries": "tekst(ov)a",
+		"search-input-label": "Pretraži Wikicitat",
+		"language-button-text": "Čitajte Wikicitat na svom jeziku"
 	},
 	"wikisource": {
 		"name": "Wikizvor",
-		"slogan": "Slobodna biblioteka"
+		"slogan": "Biblioteka besplatnog sadržaja"
 	},
 	"wikiversity": {
 		"name": "Wikiverzitet",
-		"slogan": "Slobodni materijali za učenje",
-		"entries": "resursa za učenje"
+		"slogan": "Besplatni resursi za učenje",
+		"entries": "resursa za učenje",
+		"search-input-label": "Pretraži Wikiverzitet",
+		"language-button-text": "Čitajte Wikiverzitet na svom jeziku"
 	},
 	"wikivoyage": {
 		"name": "Wikiputovanje",
-		"slogan": "Slobodni turistički vodič"
+		"slogan": "Slobodni turistički vodič",
+		"entries": "stranice",
+		"search-input-label": "Pretraži Wikiputovanje",
+		"language-button-text": "Čitajte Wikiputovanje na svom jeziku"
 	},
 	"commons": {
 		"name": "Commons",
-		"slogan": "Slobodno upotrebljive slike i još datoteka"
+		"slogan": "Besplatna zbirka medija"
 	},
 	"wikispecies": {
 		"name": "Wikivrste",
 		"slogan": "Katalog živih vrsta"
+	},
+	"wikifunctions": {
+		"name": "Wikifunkcije",
+		"slogan": "Biblioteka besplatnih funkcija"
 	},
 	"wikidata": {
 		"name": "Wikipodaci",
