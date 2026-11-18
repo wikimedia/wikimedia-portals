@@ -597,19 +597,35 @@ p.smallprint {
 	font-size: 1.2rem;
 }
 
-/* content variants */
+/* colour variants */
 
-.banner .overlay-banner-main-message,
-.banner .overlay-banner-mini-message-text {
-	display: none;
+.banner.banner-variant1 .overlay-banner-main-message {
+	background-color: #f7d9c9;
 }
 
-.banner.banner-control .overlay-banner-control {
-	display: block;
+.banner.banner-variant1 .overlay-banner-main-amounts,
+.banner.banner-variant1 .overlay-banner-main-frequency {
+	background-color: #fff1e9;
 }
 
-.banner.banner-variant .overlay-banner-variant {
-	display: block;
+.banner.banner-variant1 .overlay-banner-mini {
+	border-top-color: #f7d9c9;
+	background-color: #fff1e9;
+}
+
+.banner.banner-variant2 .overlay-banner-main-message {
+	background-color: #5b2a4a;
+	color: #fff;
+}
+
+.banner.banner-variant2 .overlay-banner-main-amounts,
+.banner.banner-variant2 .overlay-banner-main-frequency {
+	background-color: #d7bacd;
+}
+
+.banner.banner-variant2 .overlay-banner-mini {
+	border-top-color: #5b2a4a;
+	background-color: #d7bacd;
 }
 
 /* screen reader visibility */
@@ -628,8 +644,6 @@ p.smallprint {
 }
 
 @media ( prefers-color-scheme: dark ) {
-
-	/* pale yellow banner */
 	.overlay-banner-main,
 	.overlay-banner-main .frb-header-minimize {
 		background-color: #121212;
@@ -783,5 +797,80 @@ p.smallprint {
 
 	.frb-iad-dialog::backdrop {
 		background: #000000a6;
+	}
+
+	/* colour variants */
+
+	.banner.banner-variant1 .overlay-banner-main-message {
+		background-color: #3f3f3f;
+	}
+
+	.banner.banner-variant1 .overlay-banner-main-amounts,
+	.banner.banner-variant1 .overlay-banner-main-frequency {
+		background-color: #3f3f3f;
+	}
+
+	.banner.banner-variant1 .overlay-banner-mini {
+		border-top-color: #f7d9c9;
+		background-color: #121212;
+	}
+
+	.banner.banner-variant1 .overlay-banner-main-header a,
+	.banner.banner-variant1 .overlay-banner-mini-message h3,
+	.banner.banner-variant1 .overlay-banner-main .button-collapse {
+		color: #f7d9c9;
+	}
+
+	.banner.banner-variant1 .overlay-banner-main-message-subheading {
+		color: #fff1e9;
+	}
+
+	.banner.banner-variant1 .overlay-banner-mini .frb-submit:hover,
+	.banner.banner-variant1 .overlay-banner-mini .frb-submit:focus {
+		color: #000;
+		background-color: #f7d9c9;
+		border: 1px solid #f7d9c9;
+	}
+
+	.banner.banner-variant1 .overlay-banner-mini .frb-submit:hover,
+	.banner.banner-variant1 .overlay-banner-mini .frb-submit:focus,
+	.banner.banner-variant1 .overlay-banner-main .banner-button:hover,
+	.banner.banner-variant1 .overlay-banner-main .banner-button:focus,
+	.banner.banner-variant1 .overlay-banner-main .banner-button.selected {
+		color: #000;
+		background-color: #f7d9c9;
+		border: 1px solid #f7d9c9;
+	}
+
+	.banner.banner-variant2 .overlay-banner-main-message {
+		background-color: #3f3f3f;
+		color: #fff;
+	}
+
+	.banner.banner-variant2 .overlay-banner-main-amounts,
+	.banner.banner-variant2 .overlay-banner-main-frequency {
+		background-color: #3f3f3f;
+	}
+
+	.banner.banner-variant2 .overlay-banner-mini {
+		border-top-color: #d7bacd;
+		background-color: #121212;
+	}
+
+	.banner.banner-variant2 .overlay-banner-main-header a,
+	.banner.banner-variant2 .overlay-banner-main-message-subheading,
+	.banner.banner-variant2 .overlay-banner-mini-message h3,
+	.banner.banner-variant2 .overlay-banner-main .button-collapse {
+		color: #d7bacd;
+	}
+
+	.banner.banner-variant2 .overlay-banner-mini .frb-submit:hover,
+	.banner.banner-variant2 .overlay-banner-mini .frb-submit:focus,
+	.banner.banner-variant2 .overlay-banner-main .banner-button:hover,
+	.banner.banner-variant2 .overlay-banner-main .banner-button:focus,
+	.banner.banner-variant2 .overlay-banner-main .banner-button.selected {
+		color: #fff;
+		background-color: #5b2a4a;
+		border: 1px solid #5b2a4a;
 	}
 }

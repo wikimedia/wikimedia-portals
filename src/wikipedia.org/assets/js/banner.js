@@ -79,12 +79,15 @@
 	// Variants
 	const bannerNumber = Math.random();
 	let bannerVariant;
-	if ( bannerNumber > 0.5 ) {
+	if ( bannerNumber >= 0.67 ) {
 		bannerEl.classList.add( 'banner-control' );
-		bannerVariant = 'CBCopy';
+		bannerVariant = 'Matcha';
+	} else if ( bannerNumber > 0.33 && bannerNumber < 0.67 ) {
+		bannerEl.classList.add( 'banner-variant1' );
+		bannerVariant = 'Peach';
 	} else {
-		bannerEl.classList.add( 'banner-variant' );
-		bannerVariant = '2526Copy';
+		bannerEl.classList.add( 'banner-variant2' );
+		bannerVariant = 'Plum';
 	}
 	bannerLinkEl.forEach( ( link ) => {
 		link.href = 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner';
